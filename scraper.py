@@ -3,7 +3,7 @@ import csv
 from bs4 import BeautifulSoup
 from newspaper import Article
 
-OUTPUT_FILE = "csvfile.csv"
+OUTPUT_FILE = "articles.csv"
 
 
 def get_links(source_url, url):
@@ -24,7 +24,9 @@ def get_links(source_url, url):
             urls[i] = source_url + urls[i]
     urls = [url for url in urls if len(url[len(source_url) + 1:].split("/")) > 2]
     urls = [url for url in urls if url.startswith(source_url)]
-
+    urls = list(set(urls))
+    if source_url != url:
+        urls = urls[:25]
     return urls
 
 
@@ -59,18 +61,8 @@ def get_article_text(source_url, urls, file=OUTPUT_FILE, level=0):
 
 if __name__ == "__main__":
 
-    with open(r"C:\Users\abhib\Desktop\IR-Project\vox-links.txt", "r", encoding="utf-8") as f:
-        urls = f.readlines()
-    home_page_urls = [url.strip() for url in urls]
-
-    source_url = "https://www.vox.com/"
-    # urls_in_links = []
-    # for url in urls:
-    #     urls_in_links.append(get_links(source_url, url))
-    # for i in urls_in_links:
-    #     print(len(i), i)
-
-    # home_page_urls = get_links(source_url, source_url)
+    source_url = "https://www.wired.com/"
+    home_page_urls = get_links(source_url, source_url)
     print(len(home_page_urls))
     get_article_text(source_url, home_page_urls, level=0)
     print("Level 0 done.")
@@ -78,6 +70,10 @@ if __name__ == "__main__":
     level_1_urls = []
     for url in home_page_urls:
         level_1_urls += get_links(source_url, url)
+        if len(level_1_urls) > 50:
+            break
+    level_1_urls = list(set(level_1_urls))
+
     print(len(level_1_urls))
     get_article_text(source_url, level_1_urls, level=1)
     print("Level 1 done.")
@@ -85,6 +81,9 @@ if __name__ == "__main__":
     level_2_urls = []
     for url in level_1_urls:
         level_2_urls += get_links(source_url, url)
+        if len(level_2_urls) > 50:
+            break
+    level_2_urls = list(set(level_2_urls))
     print(len(level_2_urls))
     get_article_text(source_url, level_2_urls, level=2)
     print("Level 2 done.")
@@ -92,6 +91,9 @@ if __name__ == "__main__":
     level_3_urls = []
     for url in level_2_urls:
         level_3_urls += get_links(source_url, url)
+        if len(level_3_urls) > 50:
+            break
+    level_3_urls = list(set(level_3_urls))
     print(len(level_3_urls))
     get_article_text(source_url, level_3_urls, level=3)
     print("Level 3 done.")
@@ -99,6 +101,9 @@ if __name__ == "__main__":
     level_4_urls = []
     for url in level_3_urls:
         level_4_urls += get_links(source_url, url)
+        if len(level_4_urls) > 50:
+            break
+    level_4_urls = list(set(level_4_urls))
     print(len(level_4_urls))
     get_article_text(source_url, level_4_urls, level=4)
     print("Level 4 done.")
