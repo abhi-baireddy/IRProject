@@ -1,0 +1,335 @@
+<html class="pages/article">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<style>*{box-sizing:border-box}body,html{margin:0;padding:0;font-family:Lato,verdana;font-size:14px;min-width:310px}a{color:#c73930;text-decoration:none}a:hover photo{opacity:.9}button{color:#111;cursor:pointer;background-color:transparent;border-color:transparent;border:none;line-height:50px}button a{color:inherit}button.white{display:block;padding:0 20px;margin:10px auto;color:#222;border:1px solid #222}button.white:hover{background-color:#222;color:#fff;border:1px solid #fff}h2{border-top:2px solid #000;border-bottom:2px solid #000;font-family:Lora,serif;font-weight:700;font-size:22px;line-height:44px;text-align:center;text-transform:uppercase;margin:10px 0 5px;padding:0}h3{position:relative;z-index:1;font-family:Lora,serif;font-weight:300;font-size:22px;line-height:44px;text-align:center;text-transform:uppercase;margin:10px 0 5px;padding:0}h3 span{background-color:#fff;padding:0 20px}h3 hr{border:0;border-top:1px solid #8a8a8a;position:absolute;z-index:-1;left:0;right:0;top:50%;margin:0;line-height:1px}h4{font-family:Roboto,verdana;font-weight:700;margin:10px 0;font-size:22px}h5{color:#ccc;font-family:raleway;text-transform:uppercase;font-weight:300;font-size:16px;margin:10px 0}hr{border:0;border-top:1px solid #8a8a8a;top:50%;margin:0;line-height:1px}hr.indent{margin:0 40px}blockquote{padding:1px 0 1px 20px;margin:0 0 20px;font-size:17.5px;border-left:5px solid #eee}form{margin:0}section{position:relative;overflow:hidden;display:block;margin:0 auto;max-width:1200px;padding:0 15px}section#spacer{margin-top:85px;overflow:hidden}.fadein{opacity:0;transition:opacity .5s ease}.ad{text-align:center;margin-topxx:10px}atom{width:calc(100% - 320px);float:left}article{padding:10px 0;font-weight:500;font-family:Raleway;font-size:18px;color:#222;height:137px}article * img{max-width:100%}photo{display:block;background-repeat:no-repeat;background-size:cover;background-position:center}article photo{float:left;width:35%;transition:all .5s;height:100%}articles article{padding-right:10%;border-bottom:1px solid #eee}features{padding:10px 0;display:block;height:360px}features article{position:relative;float:left;font-weight:400;font-size:11px;padding:0;text-transform:uppercase}features photo{position:absolute;z-index:-1;width:100%}features span{display:block;width:100%;font-family:Roboto,sans-serif;color:#fff;position:absolute;bottom:0;padding:8px;background-color:rgba(0,0,0,.8)}features a article{width:35%;height:calc(50% - 2px)}features a:nth-of-type(1) article{width:65%;height:100%;font-size:16px}features a:nth-of-type(1) article photo,features a:nth-of-type(1) article span{width:calc(100% - 4px);padding-right:10px}features a:nth-of-type(2) article{margin-bottom:2px}features a:nth-of-type(3) article{margin-top:2px}articles,features{display:block;clear:both}articles photo{margin-right:10px}articles author{display:block;font-size:13px;line-height:22px;color:#ccc;font-family:Verdana}sidebar{display:block;float:right;positionxx:absolute;topxx:0;rightxx:0;width:300px;min-height:700px;padding-rightxx:15px}sidebar photo{width:100%;height:137px;margin-bottom:8px}sidebar article{font-weight:600;height:auto;font-size:13px}detail{overflow:hidden;width:calc(100% - 320px);float:left;display:block}detail h1{font-family:Roboto;font-weight:600;font-size:22px;line-height:26px;letter-spacing:-.2px;text-transform:uppercase;margin:0 0 10px 0}detail author{font-weight:700;font-size:14px;color:#c73930}detail author:hover{color:#222}detail photo{display:block;margin-top:10px;background-position:center;background-color:#000;background-size:cover;height:370px;width:100%}detail article{font-family:verdana;font-size:16px;line-height:24px;color:#222;display:block;background-color:#fff;padding:15px;margin:-50px auto 15px;width:85%;height:auto}detail a{color:#c73930}detail text div.wp-caption,detail text div.wp-caption img{width:100%!important;height:auto!important}iframe.instagram-mediaxx{max-width:100%!important;position:relative!important;width:250px!important}.wp-caption .wp-caption-text{background-color:#333;color:#fff;margin:0;padding:5px;font-size:12px;text-align:center}articles.popular article{padding-right:10px;font-size:15px;font-weight:600;float:left;width:50%}@media only screen and (max-width:900px){atom,detail{width:100%}articles,features,sidebar{width:100%;margin:0;padding-right:0;overflow:hidden}sidebar article{width:50%;float:left;height:215px}sidebar a:nth-child(odd) article{padding-right:5px}sidebar a:nth-child(even) article{padding-left:5px}sidebar{position:static}}@media only screen and (max-width:700px){detail article{margin:0;width:100%}}@media only screen and (max-width:500px){articles.popular article{height:370px}features{height:auto}features a article,features a:nth-of-type(1) article{width:100%;padding-right:0;margin:0;height:300px;margin-bottom:10px}features article photo,features article span{width:100%!important;font-size:16px}articles article{position:relative;height:320px;padding:0}articles article author{display:none}articles article .socialmedia-article{position:absolute;top:210px;right:0}articles article photo{height:250px;width:100%}articles.popular article{padding:0}articles.popular a:nth-child(odd) article{padding-right:5px}articles.popular a:nth-child(even) article{padding-left:5px}}author{cursor:pointer}author.full{display:block;padding:10px 0;margin:10px 0 20px 0;padding-right:10%;border-bottom:1px solid #eee;border-top:1px solid #eee;overflow:hidden}author.full::after{clear:both}author.full h1{font-family:arial;font-size:20px;color:#222;text-transform:uppercase;margin:0 0 10px 0}author.full photo{width:100px;height:100px;background-position:center center;background-size:cover;border-radius:50%;margin:0 10px 0 0;float:left}html.pages\/gallery{overflow:hidden}html.pages\/gallery header{height:50px}a.close{z-index:10;position:fixed;right:10px;top:5px;color:#fff}gallery{display:block;overflow:hidden;padding-bottom:20px}gallery img{width:20%;float:left;padding:3px;cursor:pointer}.lightbox{background-color:#000;opacity:1;width:100%;height:100%;position:fixed;top:0;z-index:1;display:block}.slidemat{width:100%;z-index:1;margin-top:65px;margin-bottom:100px;position:fixed;display:none;top:0;bottom:0;background-size:contain;background-repeat:no-repeat;background-position:center}.slideleft,.slideright{padding:200px 0;display:flex;justify-content:center;align-items:center;background-colorxxx:#1c1c1c;color:#8a8a8a;position:fixed;z-index:1;top:0;height:100%;width:10%;cursor:pointer}.slideleft:hover,.slideright:hover{background-color:#555}.slideright{right:0}.slideleft{left:0}.slidefooter{color:#fff;background-color:#000;position:fixed;width:100%;z-index:1;height:86px;bottom:0}.slidecounter{margin-top:4px;width:25%;text-align:center;float:left;font-family:Anton,sans-serif;font-size:25px}.slidetext{font-family:Roboto,serif;font-size:22px;width:75%;marginxx:0 auto;text-align:center}.slide{width:75%;max-width:500px;margin:0 auto;background-color:#1a1a1a}header{height:85px;overflow:hidden;transition:height .5s;display:block;width:100%;z-index:2;background-color:#000;position:fixed;background-color:#eee;top:0}header.fixed{height:50px}header.dev{background-color:#006400}ul.nav{display:block;list-style:none;float:right}ul.nav li{float:left}.logo{height:100%;width:400px;display:inline-block;heightx:56px;widthx:250px;background-size:contain;background-repeat:no-repeat;background-position:left center;background-image:url(/assets/images/check-logo.png)}header #search-box{float:right;display:flex;justify-content:center;align-items:center;height:100%;padding:20px 40px 20px 0}header input.search{background-color:transparent;border:none;border-bottom:1px solid #ddd;color:#000}@media only screen and (max-width:500px){header .logo{width:100%}}section#page{font-family:Raleway}section#page h1{font-family:Anton;font-size:30px;letter-spacing:2px;text-transform:uppercase;margin-bottom:0;padding-bottom:0}section#page p{font-family:Raleway;font-size:22px;line-height:30px}section#page content{min-height:2200px;display:block;color:#000;width:calc(100% - 320px);float:left;font-family:Raleway;font-size:22px;line-height:30px;font-weight:300}.policy-section-1>h1{color:#fff;line-height:1.5}.policy-section-1{background-color:#000;color:#fff;padding:6% 7%}.policy-section-1 a{color:#f3f3f3}.policy-section-1 a:first-child{color:#fff}.policy-section-1 hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}content div.highlight{background-color:#f6f2f2;padding:10px;margin:20px 0}content input{background-color:#fff;border:1px solid #ccc;color:rgba(0,0,0,.75);display:block;font-size:.875rem;margin:0 0 1rem;padding:.5rem;height:2.3125rem;width:100%}content button{float:right;background-color:#ccc;padding:9px;margin-top:-45px}content button .fa-search{color:#fff}@media only screen and (max-width:900px){section#page content{margin-right:0;width:100%}}#social-box{float:right;display:flex;justify-content:center;align-items:center;margin:0 20px;padding:22px 22px;height:100%;border-right:1px solid #f5f5f5;border-left:1px solid #f5f5f5}#social-box a{padding:0 16px}articles.popular .fa{margin-top:5px;padding-right:5px;color:#ccc}articles.popular .fa:hover{color:#000}section#main .fa-stack{margin-right:5px;color:#ccc}section#main .fa-stack:hover{color:#000}#article-share{border:0 solid red;min-height:25px;margin-left:7px}button.social-share-btn{font-size:9px;line-height:10px;width:90px;height:28px;margin:0;margin-left:-7px;display:inline;text-align:left;background-color:#000;border:0 solid #fff;cursor:pointer}section#main button.social-share-btn span.fa-stack{color:transparent}button.social-share-btn.clrfb{background-color:#3b5998}button.social-share-btn.clrtw{background-color:#00aced}button.social-share-btn.clrgp{background-color:#dd4b39}button.social-share-btn.clrds{background-color:#6b6b6b}button.social-share-btn.sbottom{text-transform:uppercase;width:150px;height:42px;text-align:center}button.social-share-btn.sbottom i.fa-inverse{font-size:1.33333333em}button.social-share-btn.sbottom span.fa-stack{width:100%}button.social-share-btn.sbottom span.slabel{font-size:9px;padding-left:4px}button.social-share-btn.stop span.slabel{display:none}</style>
+
+
+	<!-- JSON-LD -->
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "NewsArticle",
+			"mainEntityOfPage": {
+				"@type": "WebPage",
+				"@id": "http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/"
+			},
+			"headline": "FACT CHECK: 'In The Time Of Pandemic' – Was This Poem Written In 1869 And Reprinted During The Spanish Influenza?",
+			"image": [
+					"https://cdn01.dailycaller.com/wp-content/uploads/2020/04/shutterstock_1400736155-e1586894269385.jpg"
+			],
+			"thumbnailUrl": "https://cdn01.dailycaller.com/wp-content/uploads/2020/04/shutterstock_1400736155-e1586894269385.jpg",
+			"datePublished": "2020-04-14T20:14:24.000Z",
+			"dateModified": "2020-04-14T20:14:24.000Z",
+			"articleSection": "Politics",
+			"author": {
+				"@type": "Person",
+				"name": "Elias Atienza"
+			},
+			"keywords": ["covid-19","pandemic","poetry"],
+			"description": "A viral Facebook post claims that French-Irish writer Kathleen O’Meara wrote the poem &quot;In the Time of Pandemic&quot; in 1869.",
+			"publisher": {
+				"@type": "Organization",
+				"name": "Check Your Fact",
+				"logo": {
+					"@type": "ImageObject",
+					"url": "https://checkyourfact.com/files/check-logo-amp.png",
+					"width": 436,
+					"height": 60
+				}
+			}
+		}
+	</script>
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "ClaimReview",
+			"datePublished": "2020-04-14T20:14:24.000Z",
+			"url": "http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/",
+			"claimReviewed": "French-Irish writer Kathleen O’Meara wrote the poem \"In the Time of Pandemic\" in 1869",
+			"itemReviewed": {
+				"@type": "Claim",
+				"author": {
+					"@type": "Organization",
+					"name": "Viral Post",
+					"sameAs": "https://www.facebook.com/photo.php?fbid=10158554693991388&set=a.359904971387&type=3&theater"
+				},
+				"datePublished": "2020-04-03",
+				"appearance": "https://www.facebook.com/photo.php?fbid=10158554693991388&set=a.359904971387&type=3&theater"
+			},
+			"author": {
+				"@type": "Organization",
+				"name": "Check Your Fact",
+				"url": "https://checkyourfact.com"
+			},
+			"reviewRating": {
+				"@type": "Rating",
+				"ratingValue": "1",
+				"bestRating": "3",
+				"worstRating": "1",
+				"alternateName":"False"
+			}
+		}
+	</script>
+
+	<link rel="canonical" href="https://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/">
+	<link rel="amphtml" href="https://amp.checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara"/>
+	<meta property="og:url" content="http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/">
+	<meta property="og:image" content="https://cdn01.dailycaller.com/wp-content/uploads/2020/04/shutterstock_1400736155-e1586894269385.jpg">
+	<meta property="og:title" content="FACT CHECK: &#8216;In The Time Of Pandemic&#8217; – Was This Poem Written In 1869 And Reprinted During The Spanish Influenza?">
+	<meta property="og:description" content="&#x27;And people stayed home&#x27;">
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:site" content="check_your_fact" />
+	<meta property="twitter:title" content="FACT CHECK: &#8216;In The Time Of Pandemic&#8217; – Was This Poem Written In 1869 And Reprinted During The Spanish Influenza?" />
+	<meta property="twitter:description" content="&#x27;And people stayed home&#x27;" />
+	<meta property="twitter:image" content="https://cdn01.dailycaller.com/wp-content/uploads/2020/04/shutterstock_1400736155-e1586894269385.jpg" />
+	<link rel="apple-touch-icon" sizes="256x256" href="/files/CheckYourFact-Icon.png">
+
+
+	<!--- Google Tag Init --->
+	<script>
+	  var googletag = googletag || {};
+	  googletag.cmd = googletag.cmd || [];
+	</script>
+
+	<!--- GOOGLE TAG MANAGER --->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12159302-14"></script>
+	<script async src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+
+	<script>
+
+	  googletag.cmd.push(function() {
+		googletag.defineSlot('/10519169/entertainment_site', [[1, 1], [970, 90], [970, 250], [728, 90], [320, 50], [970, 66]], 'div-gpt-ad-1508441224341-1')
+		  .setTargeting( 'pos', ['top'] )
+		  .addService(googletag.pubads());
+
+		googletag.defineSlot('/10519169/entertainment_site', [[1, 1], [300, 250], [300, 600], [300, 1050]], 'div-gpt-ad-1508441224341-2')
+		  .setTargeting( 'pos', ['right1'] )
+		  .addService(googletag.pubads());
+
+		googletag.defineSlot('/10519169/entertainment_site', [[1, 1], [970, 90], [970, 250], [728, 90], [320, 50], [970, 66]], 'div-gpt-ad-1508441224341-3')
+		  .setTargeting( 'pos', ['middle'] )
+		  .addService(googletag.pubads());
+
+		googletag.pubads().enableSingleRequest();
+		//googletag.pubads().collapseEmptyDivs();
+		googletag.enableServices();
+	  });
+
+	</script>
+
+	<!-- Ads -->
+	<script>
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+
+	googletag.cmd.push( function () {
+	googletag.pubads().disableInitialLoad();
+	} );
+	</script>
+
+	<!-- Trending -->
+	<script>
+	if (Math.random() < 0.34) {
+		var img = document.createElement('img');
+		img.src = "ping";
+	};
+	</script>
+
+</head>
+<body>    
+	<header class="prod">
+		<section>
+			<a class="logo" style="background-image:url(/assets/images/check-logo.png)" href="/"></a>	
+			
+			<div id="search-box">
+				<form method="get" action="/search/">
+				<input type="text" name="q" class="search">
+				<button><i class="fa fa-lg fa-search"></i></button>
+				</form>
+			</div>	
+			
+			<div id="social-box">
+				<a href="https://www.facebook.com/checkyourfact/" target="_blank">	
+				<button><i class="fa fa-lg fa-facebook-square"></i></button>
+				</a>
+				<a href="https://twitter.com/check_your_fact" target="_blank">
+				<button><i class="fa fa-lg fa-twitter"></i></button>
+				</a>			
+			</div>	
+		
+		</section>
+	</header>
+	
+	 <section id="spacer">
+	</section> 	<section id="main">
+	<detail>
+		<photo title="London / UK - October 5 2018: Stack of old books and an open book against a dark blue background with copy space for custom text (Shutterstock/Tennessee Witney]" id="m0" style="background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2020/04/shutterstock_1400736155-e1586894269385.jpg"></photo>	
+		<article>
+			<h1>FACT CHECK: &#8216;In The Time Of Pandemic&#8217; – Was This Poem Written In 1869 And Reprinted During The Spanish Influenza?</h1>
+			<time>4:14 PM 04/14/2020</time>
+			<author data-slug="Elias+Atienza">Elias Atienza | Fact Check Reporter</author>
+			<div id="article-share">
+				<button class="social-share-btn clrfb stop" onclick="return social(this, 'fb', 'http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/', 'FACT CHECK: &amp;#8216;In The Time Of Pandemic&amp;#8217; – Was This Poem Written In 1869 And Reprinted During The Spanish Influenza?')"><span  class="fa-stack"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"><span class="slabel"> share on facebook</span></i></span></button>
+				<button class="social-share-btn clrtw stop" onclick="return social(this, 'tw', 'http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/', 'FACT CHECK: &#8216;In The Time Of Pandemic&#8217; – Was This Poem Written In 1869 And Reprinted During The Spanish Influenza?')"><span class="fa-stack"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"><span class="slabel"> tweet this</span></i></span></button>
+				<button class="social-share-btn clrds stop" onclick="return social(this, 'ds', 'http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/', 'FACT CHECK: &amp;#8216;In The Time Of Pandemic&amp;#8217; – Was This Poem Written In 1869 And Reprinted During The Spanish Influenza?')"><span class="fa-stack"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-comment fa-stack-1x fa-inverse"><span class="slabel"> show comments</span></i></span></button>
+			</div>
+			<text>
+				<div id="ob-read-more-selector"><p>A <a href="https://www.facebook.com/photo.php?fbid=10158554693991388&amp;set=a.359904971387&amp;type=3&amp;theater" target="_blank" rel="noopener noreferrer">viral Facebook post</a> claims that French-Irish writer Kathleen O&rsquo;Meara wrote the poem &ldquo;In the Time of Pandemic&rdquo; in 1869.</p> <p><iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10158554693991388%26set%3Da.359904971387%26type%3D3&amp;width=500" height="663" width="500" frameborder="0" scrolling="no"></iframe></p><div id="/10519169/dailycaller_inline1" class="ad"> <script> googletag.cmd.push(function() { googletag.display('dailycaller_inline1'); }); </script></div> <p>&ldquo;History repeats itself,&rdquo; reads the introduction to the poem. &ldquo;Came across this poem written in 1869, reprinted during 1919 Pandemic. This is Timeless.&rdquo;</p> <p><span style="color: #800000;"><strong>Verdict: False</strong></span></p> <p>Retired teacher Catherine O&rsquo;Meara actually wrote the poem in March.</p> <p><span style="color: #800000;"><strong>Fact Check:&nbsp;</strong></span></p><div align="center" id="/10519169/dailycaller_inline2" class="ad"> <script> googletag.cmd.push(function() { googletag.display('dailycaller_inline2'); }); </script></div> <div id="outbrainPlaceholder"></div> <div class="readmore"></div> <p>The <a href="https://www.facebook.com/photo.php?fbid=10158554693991388&amp;set=a.359904971387&amp;type=3&amp;theater" target="_blank" rel="noopener noreferrer">post</a> claims that the poem about social distancing was originally written in 1869 by Kathleen O&rsquo;Meara and later reprinted during the <a href="https://www.cdc.gov/flu/pandemic-resources/1918-pandemic-h1n1.html" target="_blank" rel="noopener noreferrer">Spanish flu pandemic</a> that started in 1918. Kathleen O&rsquo;Meara, also known by her pen name <a href="http://www.newadvent.org/cathen/11250b.htm" target="_blank" rel="noopener noreferrer">Grace Ramsey</a>, was a 19th century French-Irish biographer and novelist.</p> <p>The poem has <a href="https://www.facebook.com/photo.php?fbid=10158554693991388&amp;set=a.359904971387&amp;type=3&amp;theater" target="_blank" rel="noopener noreferrer">circulated widely</a> on Facebook and Instagram with that attribution in recent weeks due to its reflections on <a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/social-distancing.html" target="_blank" rel="noopener noreferrer">social distancing practices</a>, which have been implemented during the current coronavirus pandemic. It begins with the line &ldquo;And people stayed home&rdquo; and goes on to describe ways of passing time in self-isolation, including reading, exercising and making art.</p> <p>But, contrary to the post&rsquo;s claims, Kathleen O&rsquo;Meara didn&rsquo;t write the poem in 1869 or any other year. <strong><a href="https://checkyourfact.com/2020/03/31/fact-check-f-scott-fitzgerald-letter-quarantined-spanish-influenza/" target="_blank" rel="noopener noreferrer">(RELATED: Did F. Scott Fitzgerald Pen This Letter While Quarantined During The Spanish Influenza?)</a></strong></p> <p><a href="https://www.oprahmag.com/entertainment/a31747557/and-the-people-stayed-home-poem-kitty-omeara-interview/" target="_blank" rel="noopener noreferrer">Catherine O&rsquo;Meara</a>, a retired teacher who lives from Madison, Wisconsin, actually wrote the <a href="https://the-daily-round.com/2020/03/16/in-the-time-of-pandemic/" target="_blank" rel="noopener noreferrer">poem</a>, though the wording varies slightly. It was published on her website <a href="https://the-daily-round.com/2020/03/16/in-the-time-of-pandemic/" target="_blank" rel="noopener noreferrer">The Daily Round</a> in March and has since been shared by author <a href="https://www.facebook.com/DeepakChopra/posts/10157079181385665" target="_blank" rel="noopener noreferrer">Deepak Chopra</a> and model <a href="https://www.instagram.com/p/B9z2qwQAy0W/" target="_blank" rel="noopener noreferrer">Bella Hadid</a>, among others.</p><div id="/10519169/dailycaller_inline3" class="ad"> <script> googletag.cmd.push(function() { googletag.display('dailycaller_inline3'); }); </script></div> <p>&ldquo;I post stuff like that all the time,&rdquo;&nbsp;<a href="https://www.oprahmag.com/entertainment/a31747557/and-the-people-stayed-home-poem-kitty-omeara-interview/" target="_blank" rel="noopener noreferrer">OprahMag.com</a> quotes Catherine O&rsquo;Meara as saying. &ldquo;I usually don&rsquo;t get a lot of response. But this found its niche.&rdquo;</p> <!--fbpopup--></div>	
+				</div>
+			</text>		
+			
+			<div id="article-share">
+				<button class="social-share-btn clrfb sbottom" onclick="return social(this, 'fb', 'http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/', 'FACT CHECK: &amp;#8216;In The Time Of Pandemic&amp;#8217; – Was This Poem Written In 1869 And Reprinted During The Spanish Influenza?')"><span  class="fa-stack"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"><span class="slabel"> share on facebook</span></i></span></button>
+				<button class="social-share-btn clrtw sbottom" onclick="return social(this, 'tw', 'http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/', 'FACT CHECK: &#8216;In The Time Of Pandemic&#8217; – Was This Poem Written In 1869 And Reprinted During The Spanish Influenza?')"><span class="fa-stack"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"><span class="slabel"> tweet this</span></i></span></button>
+				<button class="social-share-btn clrds sbottom" onclick="return social(this, 'ds', 'http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/', 'FACT CHECK: &amp;#8216;In The Time Of Pandemic&amp;#8217; – Was This Poem Written In 1869 And Reprinted During The Spanish Influenza?')"><span class="fa-stack"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-comment fa-stack-1x fa-inverse"><span class="slabel"> show comments</span></i></span></button>
+			</div>
+			<author class="full">
+				<photo style="background-image: url(https://dailycaller.com/wp-content/uploads/2020/02/EAprofile-1.jpeg)"></photo>
+				<h1>Elias Atienza</h1>
+				<h5>Fact Check Reporter</h5>
+				<div><em><a href="https://twitter.com/AtienzaElias" target="_blank" rel="noopener">Follow Elias on Twitter</a></em> <em>Have a fact check suggestion? Send ideas to <a href="elias@dailycaller.com"><span class="__cf_email__" data-cfemail="c6a3aaafa7b586a2a7afaabfa5a7aaaaa3b4e8a5a9ab">[email&#160;protected]</span></a>.</em></div>
+			</author>
+			<div id="disqus_thread"></div>	
+			
+			<div>
+				<!-- OUTBRAIN -->
+				<div class="OUTBRAIN" data-src="http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/" data-widget-id="AR_9" data-ob-template="TheDailyCaller" ></div>
+				<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" async="async" src="https://widgets.outbrain.com/outbrain.js"></script>
+				<!-- END OUTBRAIN -->
+			</div>
+		</article>
+
+	</detail>
+		<sidebar>	
+			<h2>Trending</h2>
+			<a href="/2020/04/13/fact-check-eating-alkaline-foods-coronavirus-ph/"><article><photo class="t0"></photo>FACT CHECK: No, Eating Alkaline Foods Won't 'Beat' Coronavirus</article></a><a href="/2020/04/13/fact-check-donald-trump-coronavirus-test-hugely-perfectly-negative/"><article><photo class="t1"></photo>FACT CHECK: Did Trump Say His COVID-19 Test Was 'Hugely Perfectly Negative'?</article></a><a href="/2020/04/07/fact-check-train-car-covid-19-marking/"><article><photo class="t2"></photo>FACT CHECK: Viral Image Claims To Show Train Car With COVID-19 Marking</article></a><a href="/2020/04/06/fact-check-alexandria-ocasio-cortez-reason-trump-campaign-promises-influence-outcome-election/"><article><photo class="t3"></photo>FACT CHECK: Did Ocasio-Cortez Say, 'The Only Reason Trump Is Keeping His Campaign Promises Is To Influence The Outcome Of The Election'?</article></a>
+		
+			<!-- OUTBRAIN -->
+			<div class="OUTBRAIN" data-src="http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/" data-widget-id="SB_3" data-ob-template="TheDailyCaller" ></div>
+			<script type="text/javascript" async="async" src="https://widgets.outbrain.com/outbrain.js"></script>
+			<!-- END OUTBRAIN -->
+	
+		</sidebar>
+</section>
+
+	
+	<footer>
+		<section>
+			<a class="logo" href="/"></a><span class="social"></span>
+			<ul class="nav">
+				<li><a href="/about-us">About us</a></li>
+				<li><a href="/privacy-policy">Privacy policy</a></li>
+				<li><a href="/terms-of-service">Terms of service</a></li>
+				<li><a href="/contact">Contact</a></li>
+				<li class="navup"><span class="fa-stack fa-lg">				
+					<i class="fa fa-chevron-up fa-stack-1x fa-inverse"></i>
+				</span></li>
+			</ul>
+		</section> 
+	</footer>
+	
+	<style>@font-face{font-family:Lora;font-style:normal;font-weight:700;src:local('Lora Bold'),local('Lora-Bold'),url(https://fonts.gstatic.com/s/lora/v10/P18Nsu9EiYldSvHIj_0e5w.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}@font-face{font-family:Raleway;font-style:normal;font-weight:500;src:local('Raleway Medium'),local('Raleway-Medium'),url(https://fonts.gstatic.com/s/raleway/v11/CcKI4k9un7TZVWzRVT-T8_k_vArhqVIZ0nv9q090hN8.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(https://fonts.gstatic.com/s/raleway/v11/-_Ctzj9b56b8RgXW8FArifk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}@font-face{font-family:Anton;font-style:normal;font-weight:400;src:local('Anton Regular'),local('Anton-Regular'),url(https://fonts.gstatic.com/s/anton/v8/o-91-t7-bPc7W26HmS2N4Q.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v16/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}footer{display:block;width:100%;height:90px;z-index:2;top:0;border-top:18px #f5f5f5 solid;background-color:#eee}footer section{padding-top:12px}footer .logo{height:46px;width:200px}footer ul.nav a:hover{color:#fff}footer ul.nav a{margin-left:25px;font-size:16px;font-family:Georgia;color:#9d9d9d}.navup{margin-left:10px;cursor:pointer}.navup span{background-color:#222;margin-top:-10px}@media only screen and (max-width:900px){footer .logo{display:none}}@media only screen and (max-width:500px){footer{overflow:hidden;height:auto}footer ul li{width:100%;text-align:center;text-transform:uppercase}footer ul li.navup{margin-top:20px}}slideshow *{box-sizing:content-box}slideshow{display:block;color:#fff;background-color:#000;height:565px;padding:15px 0}slideshow section photo{width:100%;height:300px}slideshow h3{text-align:left;font-family:Raleway,arial}slideshow h4{margin-top:26px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;display:block}slideshow h3 span{padding:0 20px 0 0;background-color:#000}slideshow .slick-track{margin-bottom:20px}slideshow .slick-slide{outline:0;height:386px;margin:5px 15px 5px 0;padding-right:15px;border-right:1px solid #999;cursor:pointer}icons{display:block;width:80px;color:#8a8a8a;margin:10px auto;font-size:1.6em;cursor:pointer}.rightIcon{float:right}.leftIcon,.rightIcon{font-size:3em}</style>
+	
+	<style>
+		
+		
+		
+		.t0 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2020/04/fruit-e1585944731983-620x266.jpg)}.t1 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2020/03/GettyImages-1208287411-1-e1585753276258-620x266.jpg)}.t2 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2020/04/shutterstock_679691272-e1586276310582-620x266.jpg)}.t3 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2020/04/AOC-e1585849322131-620x266.jpg)}.t4 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/05/AOC-image-e1559165590749-620x266.jpg)}.t5 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2020/03/Nostradamus--e1584740830472-620x266.jpg)}.t6 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/12/GettyImages-903030184-e1576610252569-620x267.jpg)}.t7 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/11/Screenshot-2019-11-11-at-5.52.34-PM-e1573512844415-620x267.png)}.t8 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/07/RTX6ZQMJ-e1563391467438-620x266.jpg)}.t9 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/04/RTS2GBYO-e1554759154556-620x265.jpg)}.t10 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/12/homeless-e1576526445893-620x266.jpg)}.t11 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/03/Vice-President-Mike-Pence-speaks-during-the-fourth-meeting-of-the-National-Space-Council-at-National-Defense-University-at-Fort-McNair-October-23-2018-in-Washington-DC-e1553789634304-620x266.jpg)}.t12 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2020/02/Lori-Lightfoot-e1585655617691-620x266.jpg)}.t13 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/07/RTR23KL6-e1562348496370-620x266.jpg)}.t14 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2020/02/GettyImages-72419686-e1582669880520-620x265.jpg)}.t15 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/03/GettyImages-864806546-e1556562491126-620x265.jpg)}.t16 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2020/03/Tiger_King-e1585575062547-620x266.jpg)}.t17 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/12/House-Speaker-Nancy-Pelosi-D-CA-delivers-remarks-duringher-weekly-news-conference-on-Capitol-Hill-September-12-2019-in-Washington-DC-1-e1576611410207-620x267.jpg)}.t18 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2020/01/shutterstock_755822542-e1578497139239-620x266.jpg)}.t19 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/07/Democratic-Debates-e1562000517118-620x266.jpg)}	
+		snippet {display: none}
+	</style>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"></link>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"></link>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+	
+	
+	<!--- HTML Snippet section --->
+	<snippet id="socialmedia-articles">
+		<span class="socialmedia-article">
+		<span onclick="return social(this, 'fb')" class="fa-stack"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span>
+		<span onclick="return social(this, 'tw')" class="fa-stack"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span>
+		</span>
+	</snippet>
+	
+	<snippet id="socialmedia-popular">	
+		<div><i onclick="return social(this, 'fb')" class="fa fa-facebook"></i>
+		<i onclick="return social(this, 'tw')" class="fa fa-twitter"></i></div>
+	</snippet>
+	<script>var params = {"year":"2020","month":"04","day":"14","article":"fact-check-poem-time-pandemic-catherine-o-meara"};	var config = {"root":"https://checkyourfact.com","twitter":{"url":"https://twitter.com/check_your_fact","site":"check_your_fact","card":"summary_large_image"},"facebook":{"url":"https://www.facebook.com/checkyourfact/"},"discus":{"shortname":"checkyourfact"}};</script>
+	<script>$('a[href="'+location.pathname+'"]').parent().addClass("active"),$(function(){var i=!1;$(window).scroll(function(t){!function(){var t=$(window).scrollTop();"hidden"!=$("html").css("overflow")&&(0<t&&!i&&(i=!0,$("header").toggleClass("fixed",!0)),0==t&&i&&(i=!1,$("header").toggleClass("fixed",!1)))}()}),$("div.video-js").each(function(t){}),$("detail iframe").each(function(t){}),$("article iframe").each(function(t){var i=$(this).attr("src");if(i&&(i.match(/facebook.com/)||i.match(/instagram.com/)))$(this).parent().css({width:"100%"}),$(this).css({width:"100%"});else{var a=parseInt($(this).width()),e=parseInt($(this).height())/a*100+"%";a<=0&&(e="56.25%"),$(this).wrap("<div></div>"),$(this).parent().css({position:"relative",width:"100%",height:"100%","padding-bottom":e}),$(this).css({position:"absolute",width:"100%",height:"100%",top:"0px",left:"0px"})}})});</script><script>var baseUrl=$("meta[property='og:url']").attr("content").replace(/^.*\/\/[^\/]+/,""),slideIndex=0,slideOpacity=1;if(params.slide){$(window).scrollTop(5),$(".lightbox").show().css("opacity",slideOpacity),$(".slidemat").show();var slide=$('gallery img[data-name="'+params.slide+'"]');1==slide.length?showSlide($(slide).attr("data-index"),!0):showSlide(0,!0)}function showSlide(e,i){e=parseInt(e);var t=parseInt($("gallery img:last-child").attr("data-index"));e<0&&(e=t),t<e&&(e=0),slideIndex=e,$(".slidecounter").html(slideIndex+1+"/"+(t+1));var a=$('gallery [data-index="'+slideIndex+'"]'),d=$(a).attr("data-embed"),l=$(a).attr("data-src"),s=$(a).attr("data-title"),n=(e=$(a).attr("data-index"),$(a).attr("data-name"));if(n){history.replaceState({slide:e},s,baseUrl+n),""==d&&l?$(".slidemat").css("background-image","url("+l+")"):$(".slidemat").css("background-image","none");var o=s.indexOf("::");$(".slide").html(d),0<o?$(".slidetext").html(s.substring(0,o)+"</br><small>"+s.substring(o+2)+"</small>"):$(".slidetext").html(s),window.instgrm&&window.instgrm.Embeds.process(),$(".lightbox").is(":hidden")&&$(".lightbox").hide().fadeTo(250,slideOpacity,function(){$(".slidemat").show()})}}$(window).bind("popstate",function(){event.state.slide&&showSlide(event.state.slide,!0)}),$(function(){$(".slideright").click(function(e){showSlide(++slideIndex),e.stopPropagation(),ga?ga("send","pageview"):console.log("missing ga")}),$(".slideleft").click(function(e){showSlide(--slideIndex),e.stopPropagation(),ga&&ga("send","pageview")}),$(".lightbox, .slidemat, header.prod").click(function(){var e=$('gallery [data-index="'+slideIndex+'"]'),i=$(e).attr("data-link");i?window.location=i:params.slide?showSlide(++slideIndex):($(".lightbox").hide(),$(".slidemat").hide())}),$("gallery img").click(function(e){showSlide(parseInt($(this).attr("data-index")))})});</script><script>$("slideshow slides div, div.slideshow div.slides div ").on("click",function(){var i=$(this);i.hasClass("slick-current")&&($.cookie("slideshow",i.attr("data-slick-index")),window.location=i.attr("data-href"))});var slideshow=$.cookie("slideshow");$("slideshow slides, div.slideshow div.slides").on("init",function(i,s){s.slickGoTo(slideshow||1,!1)}),$("slideshow slides, div.slideshow div.slides").slick({slidesToShow:1,slidesToScroll:1,centerPadding:"18%",draggable:!1,dots:!1,centerMode:!0,focusOnSelect:!0,infinite:!0,initialSlide:slideshow||1,prevArrow:$(".leftIcon"),nextArrow:$(".rightIcon")}),$("slideshow slides2, div.slideshow div.slides2").slick({slidesToShow:1,slidesToScroll:1,centerPadding:"18%",draggable:!1,dots:!1,lazyLoad:"ondemand",centerMode:!0,focusOnSelect:!0,infinite:!1,initialSlide:1,prevArrow:$(".leftIcon"),nextArrow:$(".rightIcon")});</script><script>function populateSnippet(e,t,a){t=$("snippet#"+t).children().clone().appendTo(e)}function social(e,t,a,r,i,n){var o,c;i=i||config.twitter.site,a=encodeURI(a||config.root+$(e).closest("a").attr("href")),r=encodeURI(r||$(e).parent().siblings("name, h3").text());switch(handleGoogleAnalytics(t,a),t){case"fb":var s="http://www.facebook.com/sharer.php?u="+a+"&display=popup";break;case"tw":s="https://twitter.com/intent/tweet?text="+r+"&url="+a+"&via="+i;break;case"ds":var l=document.querySelector("[data-disqus-placeholder]");return l&&l.classList.add("show"),window.scrollTo(0,$("#disqus_thread").offset().top-300),o=document,(c=o.createElement("script")).src="https://"+config.discus.shortname+".disqus.com/embed.js",c.setAttribute("data-timestamp",+new Date),(o.head||o.body).appendChild(c),!0;case"red":s="//www.reddit.com/submit?url="+a;break;case"li":s="http://www.linkedin.com/shareArticle?url="+a;break;case"pin":s="http://pinterest.com/pin/create/button/?url="+a+"&media="+n+"&description="+r;break;case"wa":s="whatsapp://send?text="+r+" "+a;break;default:return!0}window.open(s,"socialwindow","left=20,top=20,width=600,height=700,toolbar=0,resizable=1");return!1}function handleGoogleAnalytics(e,t){if(e&&t&&window.ga)return ga("send","social",e,"share",t)}function handlePrint(){var e=window.location.href;"/"!=e.slice(-1)&&(e+="/"),e+="print",window.location.href=e}populateSnippet('section#main articles article:not(".ad")',"socialmedia-articles"),populateSnippet("articles.social article","socialmedia-popular"),populateSnippet("div.articles.social article","socialmedia-popular"),populateSnippet('section div.articles.news article:not(".ad")',"socialmedia-articles"),$(".navup").click(function(){window.scrollTo(0,0)}),$("author, .author").click(function(){var e=$(this).attr("data-slug");return!e||(window.location="/author/"+e,!1)}),function(){var e=document.querySelectorAll("[data-share-trigger]");if(e)for(var t=0;t<e.length;t++)e[t].addEventListener("click",function(){this.classList.toggle("is-active")})}(),function(){function i(){var e=window.location;return"dailycaller.com"===e.host?e.href:e.protocol+"//dailycaller.com"+e.pathname}!function(e){if(!document.querySelectorAll("[data-twitter-counter]"))return;i()}(),function(){var r=document.querySelectorAll("[data-facebook-counter]");if(!r)return;$.ajaxSetup({cache:!0});var e=(new Date).getTime(),t=i();setInterval(function(){e=(new Date).getTime()},6e5);var a="https://graph.facebook.com/?id="+t+"&callback=?&_noCache="+e;$.getJSON(a).done(function(e){var t=0;if(e.share&&(t=e.share.share_count),1<=t)for(var a=0;a<r.length;a++)r[a].innerHTML=t,r[a].setAttribute("style","display: inline-block"),r[a].classList.add("has-counts")}).fail(function(e){console.error(e)})}()}(),function(){var e=document.querySelectorAll("[data-email-form]");if(e){for(var t=0;t<e.length;t++)e[t].addEventListener("submit",function(e){e.preventDefault(),r(this)});var a=document.querySelectorAll("[data-email-trigger]");if(a)for(t=0;t<a.length;t++)a[t].addEventListener("click",function(){this.classList.toggle("is-active")})}function r(t){if(!t)return!1;var e=t.querySelector('input[name="to"]').value,a=t.querySelector('input[name="from"]').value,r=t.querySelector('textarea[name="message"]').value,i=t.querySelector('textarea[name="g-recaptcha-response"]').value;$.ajax({method:"POST",url:window.location.href+"email",data:{toEmail:e,fromName:a,message:r,recaptcha:i}}).done(function(e){!function(e,t){if(!e.message)return;if(!t)return;var a=t.querySelector("[data-email-response]"),r=t.querySelector("[data-email-data]");"success"!==e.message?function(t,e){if(e.errors&&0!==e.errors.length)t.classList.add("error"),t.textContent="Error",e.errors.forEach(function(e){t.innerHTML+="<br>"+e})}(a,e):(a.classList.remove("error"),a.classList.add("success"),a.innerText="Success! Your email has been sent.",r.setAttribute("style","display:none;"))}(e,t)}).fail(function(e){console.error(e),alert("There was an error sending your email. Please try again later.")})}}();</script>
+	
+	
+	<!--- 3rd Party Tags --->
+	<!--- Tag: GA --->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga( 'create', 'UA-12159302-14', 'auto' );
+	    ga( 'set', 'dimension1' ,'Elias Atienza');
+		ga( 'send', 'pageview' );
+	</script>
+	
+	<!-- Tag: Gallery -->
+	
+	
+	<!-- Tag: Disqus -->
+	<script>
+	/**
+	*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+	*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+	
+	var disqus_config = function () {
+		this.page.url = 'http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/';  // Replace PAGE_URL with your page's canonical URL variable
+		this.page.identifier = 'http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	};
+	</script>
+	
+	<!-- Tag: Quant -->
+	<script type="text/javascript">
+		var _qevents = _qevents || [];
+		(function () {
+			var elem = document.createElement( 'script' );
+			elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+			elem.async = true;
+			elem.type = "text/javascript";
+			var scpt = document.getElementsByTagName( 'script' )[0];
+			scpt.parentNode.insertBefore( elem, scpt );
+		})();
+		_qevents.push( {
+			qacct: "p-8ckCzGybQyMFc"
+		} );
+	</script>
+	<noscript>
+		<div style="display:none;">
+			<img src="//pixel.quantserve.com/pixel/p-8ckCzGybQyMFc.gif" border="0" height="1" width="1" alt="Quantcast"/>
+		</div>
+	</noscript>
+	
+	<!-- TAG: Parse.ly -->
+	<div id="parsely-root" style="display: none">
+		<span id="parsely-cfg" data-parsely-site="dailycaller.com"></span>
+	</div>
+	<script>
+		(function(s, p, d) {
+			var h=d.location.protocol, i=p+"-"+s,e=d.getElementById(i), r=d.getElementById(p+"-root"),u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net":"static."+p+".com";
+			if (e) return;
+			e = d.createElement(s); e.id = i; e.async = true;
+			e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+		})("script", "parsely", document);
+	</script>
+	
+	<style>
+		.fadein {opacity: 1};
+	</style>
+	
+	</html>
+</body></html>

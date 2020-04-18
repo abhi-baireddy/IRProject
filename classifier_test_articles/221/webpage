@@ -1,0 +1,471 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:fb="http://ogp.me/ns/fb#"
+  xmlns:og="http://ogp.me/ns#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"1c447f99bd",applicationID:"3301392"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+<link rel="apple-touch-icon" href="https://www.glaad.org/apple-touch-icon.png" type="image/png" />
+<link rel="shortcut icon" href="https://www.glaad.org/sites/default/files/glaad_blue_favicon.png" type="image/png" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, minimum-scale=1, user-scalable=yes" />
+<meta property="fb:app_id" content="325362377501547" />
+<meta name="description" content="GLAAD responded to the U.S. Food &amp; Drug Administration’s (FDA) revised recommendations on gay and bisexual men, and other LGBTQ people, from donating blood by reducing the deferral period from 12 months to 3 months." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.glaad.org/blog/fda-revises-its-ban-gay-and-bisexual-men-donating-blood-following-pressure-glaad-medical" />
+<link rel="shortlink" href="https://www.glaad.org/node/92385" />
+<meta property="og:site_name" content="GLAAD" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.glaad.org/blog/fda-revises-its-ban-gay-and-bisexual-men-donating-blood-following-pressure-glaad-medical" />
+<meta property="og:title" content="FDA revises its ban on gay and bisexual men donating blood following pressure from GLAAD, medical professionals, elected officials, LGBTQ Americans, and allies" />
+<meta property="og:description" content="GLAAD responded to the U.S. Food &amp; Drug Administration’s (FDA) revised recommendations on gay and bisexual men, and other LGBTQ people, from donating blood by reducing the deferral period from 12 months to 3 months." />
+<meta property="og:updated_time" content="2020-04-06T16:47:46-04:00" />
+<meta property="og:image:url" content="https://www.glaad.org/sites/default/files/styles/1200x630/public/images/2020-04/Screen%20Shot%202020-04-02%20at%2012.15.26%20PM_1.png?itok=utdDxb8o" />
+<meta property="og:image:url" content="https://www.glaad.org/sites/default/files/GLAAD-Social-Share.jpg" />
+<meta property="og:image:secure_url" content="https://www.glaad.org/sites/default/files/styles/1200x630/public/images/2020-04/Screen%20Shot%202020-04-02%20at%2012.15.26%20PM_1.png?itok=utdDxb8o" />
+<meta property="og:image:secure_url" content="https://www.glaad.org/sites/default/files/GLAAD-Social-Share.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@glaad" />
+<meta name="twitter:url" content="https://www.glaad.org/blog/fda-revises-its-ban-gay-and-bisexual-men-donating-blood-following-pressure-glaad-medical" />
+<meta name="twitter:title" content="FDA revises its ban on gay and bisexual men donating blood following" />
+<meta name="twitter:description" content="GLAAD responded to the U.S. Food &amp; Drug Administration’s (FDA) revised recommendations on gay and bisexual men, and other LGBTQ people, from donating blood by reducing the deferral period from 12" />
+<meta name="twitter:image" content="https://www.glaad.org/sites/default/files/styles/1200x630/public/images/2020-04/Screen%20Shot%202020-04-02%20at%2012.15.26%20PM_1.png?itok=utdDxb8o&amp;1587188925" />
+<meta name="twitter:image:width" content="1200" />
+<meta name="twitter:image:height" content="630" />
+<meta property="article:published_time" content="2020-04-02T12:19:14-04:00" />
+<meta property="article:modified_time" content="2020-04-06T16:47:46-04:00" />
+  <title>FDA revises its ban on gay and bisexual men donating blood following pressure from GLAAD, medical professionals, elected officials, LGBTQ Americans, and allies | GLAAD</title>
+  <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1868283359864619'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" width="1" 
+src="https://www.facebook.com/tr?id=1868283359864619&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+  <style type="text/css" media="all">
+@import url("https://www.glaad.org/modules/system/system.base.css?q8tcni");
+@import url("https://www.glaad.org/modules/system/system.menus.css?q8tcni");
+@import url("https://www.glaad.org/modules/system/system.messages.css?q8tcni");
+@import url("https://www.glaad.org/modules/system/system.theme.css?q8tcni");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.glaad.org/modules/comment/comment.css?q8tcni");
+@import url("https://www.glaad.org/sites/all/modules/contrib/date/date_api/date.css?q8tcni");
+@import url("https://www.glaad.org/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?q8tcni");
+@import url("https://www.glaad.org/modules/field/theme/field.css?q8tcni");
+@import url("https://www.glaad.org/sites/all/modules/fitvids/fitvids.css?q8tcni");
+@import url("https://www.glaad.org/sites/all/modules/menu_attach_block/menu_attach_block.css?q8tcni");
+@import url("https://www.glaad.org/modules/node/node.css?q8tcni");
+@import url("https://www.glaad.org/modules/poll/poll.css?q8tcni");
+@import url("https://www.glaad.org/modules/search/search.css?q8tcni");
+@import url("https://www.glaad.org/modules/user/user.css?q8tcni");
+@import url("https://www.glaad.org/sites/all/modules/contrib/extlink/extlink.css?q8tcni");
+@import url("https://www.glaad.org/sites/all/modules/contrib/views/css/views.css?q8tcni");
+@import url("https://www.glaad.org/sites/all/modules/contrib/media/modules/media_wysiwyg/css/media_wysiwyg.base.css?q8tcni");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.glaad.org/sites/all/modules/colorbox/styles/plain/colorbox_style.css?q8tcni");
+@import url("https://www.glaad.org/sites/all/modules/contrib/ctools/css/ctools.css?q8tcni");
+@import url("https://www.glaad.org/sites/all/modules/contrib/lightbox2/css/lightbox.css?q8tcni");
+@import url("https://www.glaad.org/sites/all/modules/contrib/panels/css/panels.css?q8tcni");
+</style>
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+#fbcomments,.fb-comments,.fb-comments iframe,.fb-comments span{width:100% !important;}
+
+/*]]>*/-->
+</style>
+<style type="text/css" media="all">
+@import url("https://www.glaad.org/sites/all/modules/nice_menus/css/nice_menus.css?q8tcni");
+@import url("https://www.glaad.org/sites/all/modules/nice_menus/css/nice_menus_default.css?q8tcni");
+@import url("https://www.glaad.org/sites/all/modules/contrib/responsive_menus/styles/meanMenu/meanmenu.min.css?q8tcni");
+@import url("https://www.glaad.org/sites/all/themes/glaad2017/css/grid12.css?q8tcni");
+</style>
+<link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all" />
+<style type="text/css" media="all">
+@import url("https://www.glaad.org/sites/all/themes/custom/omega/alpha/css/alpha-reset.css?q8tcni");
+@import url("https://www.glaad.org/sites/all/themes/custom/omega/alpha/css/alpha-mobile.css?q8tcni");
+@import url("https://www.glaad.org/sites/all/themes/custom/omega/alpha/css/alpha-alpha.css?q8tcni");
+@import url("https://www.glaad.org/sites/all/themes/custom/omega/omega/css/formalize.css?q8tcni");
+@import url("https://www.glaad.org/sites/all/themes/custom/omega/omega/css/omega-text.css?q8tcni");
+@import url("https://www.glaad.org/sites/all/themes/custom/omega/omega/css/omega-forms.css?q8tcni");
+@import url("https://www.glaad.org/sites/default/files/fontyourface/wysiwyg.css?q8tcni");
+@import url("https://www.glaad.org/sites/default/files/fontyourface/font.css?q8tcni");
+</style>
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100italic,300,300italic,700,700italic|Open+Sans:600,700,regular&amp;subset=latin-ext" media="all" />
+<style type="text/css" media="all">
+@import url("https://www.glaad.org/sites/all/themes/glaad2017/css/global.css?q8tcni");
+@import url("https://www.glaad.org/sites/all/themes/glaad2017/css/mainsite.css?q8tcni");
+@import url("https://www.glaad.org/sites/all/themes/glaad2017/css/stylerevamp.css?q8tcni");
+@import url("https://www.glaad.org/sites/all/themes/glaad2017/css/slick.css?q8tcni");
+</style>
+  <script type="text/javascript" src="https://www.glaad.org/sites/default/files/js/js_l7oggN_IVm3DSv6OzkSqmlYFCRbR1K38m-FaByQLzRg.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.8/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.glaad.org/sites/default/files/js/js_jP2c0_I_OVnYewUb_Rs8n7HenVzlux7VARak3a-ISQ0.js"></script>
+<script type="text/javascript" src="https://www.glaad.org/sites/default/files/js/js_UT-mRS4PkUqiFDmt2RTkVfEk9wkfw6n2QK0vQwT7xvE.js"></script>
+<script type="text/javascript" src="https://www.glaad.org/sites/default/files/js/js_k2KvuXXEFNsexcsxI4syZn0N1CRFkK-2krFpX8L2HPY.js"></script>
+<script type="text/javascript" src="https://www.glaad.org/sites/default/files/js/js_P4fMEtpNrHn-GJO9tfyNVQwWlCYiMbkcsUGDad8hMWc.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.CKEDITOR_BASEPATH = '/sites/all/libraries/ckeditor/'
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.glaad.org/sites/default/files/js/js_rsGiM5M1ffe6EhN-RnhM5f3pDyJ8ZAPFJNKpfjtepLk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-3631717-6", {"cookieDomain":".glaad.org"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.glaad.org/sites/default/files/js/js_vxcwspKZjByg09TK0q91OGAzSinAs2UicvZICZVPq1s.js"></script>
+<script type="text/javascript" src="https://use.typekit.com/vhu5naf.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+try{Typekit.load();}catch(e){}
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function () { jQuery(".active").parents(".menuparent").children("a").addClass("active"); });
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.glaad.org/sites/default/files/js/js__dIwBcV-xTDvrYm5iYGkwVliNkzQgkEYQoRvPAaBpSA.js"></script>
+<script type="text/javascript" src="https://www.glaad.org/sites/default/files/js/js_2plip6p2GaJHbxtvbQ4TcohsA-TlFBqRQ-NAMsOJlGo.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"glaad2017","theme_token":"ubbdYFxRUZTkOKAaNJzqOaQxxNoP-lMv1KtIv3VS-iw","js":{"\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5a90895ba7233546":1,"public:\/\/google_tag\/google_tag.script.js":1,"\/\/code.jquery.com\/jquery-1.8.3.min.js":1,"0":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/fitvids\/jquery.fitvids.js":1,"sites\/all\/modules\/nice_menus\/js\/jquery.bgiframe.js":1,"sites\/all\/modules\/nice_menus\/js\/jquery.hoverIntent.js":1,"sites\/all\/modules\/nice_menus\/js\/superfish.js":1,"sites\/all\/modules\/nice_menus\/js\/nice_menus.js":1,"sites\/all\/modules\/custom\/advodelay\/advodelay.js":1,"sites\/all\/modules\/fitvids\/fitvids.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/lightbox2\/js\/lightbox.js":1,"sites\/all\/libraries\/jstorage\/jstorage.min.js":1,"sites\/all\/modules\/contrib\/responsive_menus\/styles\/meanMenu\/jquery.meanmenu.min.js":1,"sites\/all\/modules\/contrib\/responsive_menus\/styles\/meanMenu\/responsive_menus_mean_menu.js":1,"1":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1,"sites\/all\/themes\/glaad2017\/js\/slick.min.js":1,"sites\/all\/themes\/glaad2017\/js\/slick-sponsor.js":1,"sites\/all\/themes\/glaad2017\/js\/slick-twitter.js":1,"https:\/\/use.typekit.com\/vhu5naf.js":1,"3":1,"4":1,"sites\/all\/themes\/glaad2017\/js\/jquery.matchHeight-min.js":1,"sites\/all\/themes\/glaad2017\/js\/tipr.min.js":1,"sites\/all\/themes\/glaad2017\/js\/common.js":1,"sites\/all\/themes\/glaad2017\/js\/jquery.nicescroll.min.js":1,"sites\/all\/themes\/custom\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/all\/themes\/custom\/omega\/omega\/js\/omega-mediaqueries.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/fitvids\/fitvids.css":1,"sites\/all\/modules\/menu_attach_block\/menu_attach_block.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"0":1,"sites\/all\/modules\/nice_menus\/css\/nice_menus.css":1,"sites\/all\/modules\/nice_menus\/css\/nice_menus_default.css":1,"sites\/all\/modules\/contrib\/responsive_menus\/styles\/meanMenu\/meanmenu.min.css":1,"sites\/all\/themes\/glaad2017\/css\/grid12.css":1,"\/\/maxcdn.bootstrapcdn.com\/font-awesome\/4.7.0\/css\/font-awesome.min.css":1,"sites\/all\/themes\/custom\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/custom\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/custom\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/custom\/omega\/omega\/css\/formalize.css":1,"sites\/all\/themes\/custom\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/custom\/omega\/omega\/css\/omega-forms.css":1,"sites\/default\/files\/fontyourface\/wysiwyg.css":1,"sites\/default\/files\/fontyourface\/font.css":1,"https:\/\/fonts.googleapis.com\/css?family=Josefin+Sans:100,100italic,300,300italic,700,700italic|Open+Sans:600,700,regular\u0026subset=latin-ext":1,"sites\/all\/themes\/glaad2017\/css\/global.css":1,"sites\/all\/themes\/glaad2017\/css\/mainsite.css":1,"sites\/all\/themes\/glaad2017\/css\/stylerevamp.css":1,"sites\/all\/themes\/glaad2017\/css\/slick.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"lightbox2":{"rtl":0,"file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/contrib\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":0,"disable_zoom":0,"force_show_nav":0,"show_caption":0,"loop_items":0,"node_link_text":"View Image Details","node_link_target":0,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":300,"iframe_border":1,"enable_video":0,"useragent":"python-requests\/2.23.0"},"nice_menus_options":{"delay":"500","speed":"fast"},"urlIsAjaxTrusted":{"\/blog\/fda-revises-its-ban-gay-and-bisexual-men-donating-blood-following-pressure-glaad-medical":true},"fitvids":{"custom_domains":[],"selectors":["body"],"simplifymarkup":true},"responsive_menus":[{"selectors":"#block-nice-menus-5, #block-nice-menus-8, #block-nice-menus-9, #block-nice-menus-10","container":"body","trigger_txt":"\u003Ci class=\u0022fa fa-bars\u0022\u003E\u003C\/i\u003E","close_txt":"\u003Ci class=\u0022fa fa-times\u0022\u003E\u003C\/i\u003E","close_size":"18px","position":"right","media_size":"768","show_children":"1","expand_children":"1","expand_txt":"+","contract_txt":"-","remove_attrs":"1","responsive_menus_style":"mean_menu"}],"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extIconPlacement":"append","extSubdomains":1,"extExclude":"glaad\\.org","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1,"trackDomainMode":1},"omega":{"layouts":{"primary":"normal","order":[],"queries":[]}}});
+//--><!]]>
+</script>
+  <meta name="google-site-verification" content="L741OXtQjDFysUojpweHw8Hp4GNiO9zeGMuIEtcoHF0" />
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-92385 node-type-blog context-blog">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5VCWKWL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>  <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+    
+  <div id="zone-mobilelogo" class="zone zone-mobilelogo clearfix container-12">
+    <div class="grid-12 region region-mobilelogo-img" id="region-mobilelogo-img">
+  <div class="region-inner region-mobilelogo-img-inner">
+    <div class="block block-block block-78 block-block-78 odd block-without-title" id="block-block-78">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <p><a href="http://www.glaad.org"><img alt="" class="media-element file-media-original" data-file_info="%7B%22fid%22:%2276708%22,%22view_mode%22:%22media_original%22,%22fields%22:%7B%22format%22:%22media_original%22,%22field_file_image_alt_text%5Bund%5D%5B0%5D%5Bvalue%5D%22:%22%22,%22field_file_image_title_text%5Bund%5D%5B0%5D%5Bvalue%5D%22:%22%22%7D,%22type%22:%22media%22%7D" src="//www.glaad.org/sites/default/files/styles/1200px/public/images/2015-01/Glaad_White_email.png?itok=3IiH_AIo" style="width: 113px; height: 60px;" /></a></p>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+<div id="zone-navigation-wrapper" class="zone-wrapper zone-navigation-wrapper clearfix">  
+  <div id="zone-navigation" class="zone zone-navigation clearfix container-12">
+    <div class="grid-8 region region-navigation" id="region-navigation">
+  <div class="region-inner region-navigation-inner">
+    <div id="block-nice-menus-5" class="block block-nice-menus" class="block block-nice-menus block-5 block-nice-menus-5 odd block-without-title" id="block-nice-menus-5">
+
+    
+  <div class="content" class="content clearfix">
+
+
+	<ul class="nice-menu nice-menu-down nice-menu-menu-main-menu---responsive" id="nice-menu-5"><li class="menu-105921 menu-path-block first odd  mobileSearch" id="menusearch"><div class="menu-attach-block-wrapper">
+	<div class="block block-search block-form block-search-form odd block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/blog/fda-revises-its-ban-gay-and-bisexual-men-donating-blood-following-pressure-glaad-medical" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+ <input onblur="if (this.value == &#039;&#039;) {this.value = &#039;Search&#039;;}" onfocus="if (this.value == &#039;Search&#039;) {this.value = &#039;&#039;;}" type="text" id="edit-search-block-form--2" name="search_block_form" value="Search" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input class="searchIco form-submit" type="submit" id="edit-submit" name="op" value="" /></div><input type="hidden" name="form_build_id" value="form-RU5lAHlgGBuEt0x3_DFGULwyDzvAE0co5DXIK6o-iu0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div></div>
+</li>
+<li class="menu-106192 menu-path-block  even "><div class="menu-attach-block-wrapper">
+	<div class="block block-block block-108 block-block-108 even block-without-title" id="block-block-108">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <a class="mainlogo" href="../"><img height="60" width="112" class="media-element file-media-original" data-delta="1" src="https://www.glaad.org/sites/default/files/styles/1200px/public/images/2017-01/logo.png?itok=o7YBD22X" alt="" /></a>    </div>
+  </div>
+</div></div>
+</li>
+<li class="menu-4414 menuparent  menu-path-node-34372  odd "><a href="/about">About</a><ul><li class="menu-86429 menuparent  menu-path-node-34372 first odd "><a href="/about">About GLAAD</a><ul><li class="menu-104808 menu-path-node-68351 first odd "><a href="/about/history">Our History</a></li>
+<li class="menu-86432 menu-path-node-87105  even "><a href="/signup">Join Us</a></li>
+<li class="menu-86431 menu-path-node-15641  odd last"><a href="/form/contact-glaad">Contact Us</a></li>
+</ul></li>
+<li class="menu-86433 menuparent  menu-path-node-15171  even "><a href="/about/staff">Our Team</a><ul><li class="menu-86434 menu-path-node-15171 first odd "><a href="/about/staff">Staff</a></li>
+<li class="menu-86435 menu-path-node-15170  even "><a href="/about/board">Board of Directors</a></li>
+<li class="menu-105891 menu-path-node-89171  odd last"><a href="/about/opportunities">Join our Team</a></li>
+</ul></li>
+<li class="menu-4415 menuparent  menu-path-node-15685  odd last"><a href="/press">For Press</a><ul><li class="menu-86443 menu-path-releases first odd "><a href="/releases">Press Releases</a></li>
+<li class="menu-86444 menu-path-node-69392  even "><a href="/about/staff/sarahkateellis">Meet Sarah Kate</a></li>
+<li class="menu-86445 menu-path-node-15045  odd last"><a href="/reference">Media Reference Guide</a></li>
+</ul></li>
+</ul></li>
+<li class="menu-86428 menuparent  menu-path-node-68685  even "><a href="/programs">Our Work</a><ul><li class="menu-105918 menu-path-node-90397 first odd "><a href="/publications/accelerating-acceptance-2018">Accelerating Acceptance</a></li>
+<li class="menu-106381 menu-path-node-90544  even "><a href="/institute">GLAAD Media Institute</a></li>
+<li class="menu-106382 menu-path-node-89545  odd "><a href="/youth">Youth Engagement</a></li>
+<li class="menu-105925 menu-path-node-89174  even "><a href="/entertainment">Entertainment Media</a></li>
+<li class="menu-104807 menu-path-node-87525  odd "><a href="/hiv">HIV &amp; AIDS</a></li>
+<li class="menu-86446 menu-path-node-15680  even "><a href="/transgender">Transgender</a></li>
+<li class="menu-86447 menu-path-node-15255  odd "><a href="/programs/spanishlanguage">Spanish / Latinx</a></li>
+<li class="menu-86448 menu-path-node-72720  even "><a href="/southernstories">Southern Stories</a></li>
+<li class="menu-105819 menu-path-node-87307  odd "><a href="/bisexual">Bisexual</a></li>
+<li class="menu-86449 menu-path-glaadorg-biweek  even "><a href="http://www.glaad.org/biweek">#BiWeek</a></li>
+<li class="menu-86450 menu-path-node-89940  odd "><a href="/spiritday">#SpiritDay</a></li>
+<li class="menu-86639 menu-path-node-87124  even "><a href="/global">Global</a></li>
+<li class="menu-105929 menu-path-node-89175  odd "><a href="/videos">Videos</a></li>
+<li class="menu-106281 menu-path-node-89425  even last"><a href="/news-rapid-response">News &amp; Rapid Response</a></li>
+</ul></li>
+<li class="menu-4413 menuparent  menu-path-node-89170  odd "><a href="/resources">Resources</a><ul><li class="menu-105919 menu-path-node-15045 first odd "><a href="/reference">Media Reference Guide</a></li>
+<li class="menu-105930 menu-path-node-89173  even "><a href="/publications">Publications</a></li>
+<li class="menu-106251 menu-path-glaadorg-together  odd "><a href="http://www.glaad.org/together">Together Campaign</a></li>
+<li class="menu-104802 menu-path-node-89058  even "><a href="/trump" name="trump accountability project">Trump Accountability Project</a></li>
+<li class="menu-86453 menu-path-node-58240  odd last"><a href="/form/share-your-story">Share Your Story</a></li>
+</ul></li>
+<li class="menu-105889 menu-path-node-89168  even "><a href="/events">Events</a></li>
+<li class="menu-105890 menu-path-node-89169  odd last"><a href="/blog">Blog</a></li>
+</ul>
+  </div>
+</div>
+  </div>
+</div><div class="grid-4 region region-support-navigation" id="region-support-navigation">
+  <div class="region-inner region-support-navigation-inner">
+    <div class="block block-menu block-menu-support-menu block-menu-menu-support-menu odd block-without-title" id="block-menu-menu-support-menu">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="https://www.glaad.org/action" target="_blank">take action</a></li>
+<li class="leaf donate-mobile last"><a href="https://donate.glaad.org/site/Donation2?1400.donation=form1&amp;df_id=1400&amp;mfc_pref=T">donate</a></li>
+<li class="leaf donate-desktop last"><a href="https://donate.glaad.org/site/Donation2?1400.donation=form1&amp;df_id=1400&amp;mfc_pref=T">donate</a></li>
+<li class="last leaf sLast"><a href="/" class="search-ico"> &nbsp;</a></li>
+</ul>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></header>  
+      <section id="section-content" class="section section-content">
+    
+  <div id="zone-beforecontent" class="zone zone-beforecontent clearfix container-12">
+    <div class="grid-12 region region-beforecontent" id="region-beforecontent">
+  <div class="region-inner region-beforecontent-inner">
+    <div class="block block-views block-blog-topbanner block-views-blog-topbanner odd block-without-title" id="block-views-blog-topbanner">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-blog view-id-blog view-display-id-topbanner view-dom-id-e8230aa83673d412f7e2819dcfe87bd8">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    
+
+<section id="pageSlider" class="homeSlider" style="max-height:450px;box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.6);background-image:url(https://www.glaad.org/sites/default/files/styles/cta_banner_image/public/images/2020-04/Screen%20Shot%202020-04-02%20at%2012.15.26%20PM_1.png)"> <div class="container"> <div class="sliderContent"> <div class="sliderWidth"> <h2 style="color:#FFFFFF">FDA revises its ban on gay and bisexual men donating blood following pressure from GLAAD, medical professionals, elected officials, LGBTQ Americans, and allies</h2> <p style="color:#FFFFFF"></p> </div></div></div></section>
+</section>
+
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div>
+<!--SEARCH BOX-->
+<div id="searchBox" class="searchBox" style="display:none;">
+<div class="container">
+    <div class="closeBtn">
+    	<a class="" href="javascript:;">X</a>
+    </div>
+    <div class="searchWrap">
+    	<form action="/blog/fda-revises-its-ban-gay-and-bisexual-men-donating-blood-following-pressure-glaad-medical" method="post" id="search-block-form--2" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+ <input onblur="if (this.value == &#039;&#039;) {this.value = &#039;Search&#039;;}" onfocus="if (this.value == &#039;Search&#039;) {this.value = &#039;&#039;;}" type="text" id="edit-search-block-form--4" name="search_block_form" value="Search" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="searchIco form-submit" type="submit" id="edit-submit--2" name="op" value="" /></div><input type="hidden" name="form_build_id" value="form-89mdiuQHy7mgAQ4fF1tn_Akwu-_d8PdtguZaz4p4XZ0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>
+        <div class="autoSuggest">
+        	<div class="autoSuggestInner">
+            	<h5>Recent search terms</h5>
+          <div class="searchsuggestion">
+                <ul>
+                    <li>
+                    	<a href="/search?search_api_views_fulltext=transgender">transgender</a>
+                    </li>
+                    <li>
+                    	<a href="/search?search_api_views_fulltext=zeke%20survivor">zeke survivor</a>
+                    </li>
+                    <li>
+                    	<a href="/search?search_api_views_fulltext=glaad%20awards">glaad awards</a>
+                    </li>
+                    <li>
+                    	<a href="/search?search_api_views_fulltext=trump%20accountability%20project">trump accountability project</a>
+                    </li>
+                    <li>
+                    	<a href="/search?search_api_views_fulltext=spiritday">spirit day</a>
+                    </li>
+                </ul>
+</div>            </div>
+        </div>
+    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+        <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">      		<div id="zone-content" class="zone zone-content clearfix innerpagezone container-12">
+        		<div class='allContent minusMarTop'>
+					<div class='container gradient-fix minustopwrap'>
+        				<div class="grid-10 region region-content leftbar divwrap eqheight whitebg" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <article class="node node-blog node-promoted node-published node-not-sticky author-sharvey odd clearfix" id="node-blog-92385">
+
+<div id="node-92385" class="node node-blog node-promoted clearfix shanetaylor" class="node node-blog node-promoted node-published node-not-sticky author-sharvey odd clearfix" id="node-blog-92385">
+
+			
+
+
+	<div class="content" class="content clearfix">
+
+		    <footer class="submitted"> By <a href="/blog/sharvey">Spencer Harvey, Communications Coordinator </a> | <div class="field field-name-field-pubdate field-type-datetime field-label-hidden"><div class="field-items"><div class="field-item even"><span class="date-display-single">April 2, 2020</span></div></div></div> </footer>
+          	<div class="field field-name-field-blog-featured field-type-file field-label-hidden"><div class="field-items"><div class="field-item even"><span id="styles-0-0" class="styles file-styles 750px">  <img width="1039" height="695" src="https://www.glaad.org/sites/default/files/styles/750px/public/images/2020-04/Screen%20Shot%202020-04-02%20at%2012.15.26%20PM.png?itok=l2S0VTiI" /></span></div></div></div><div class="field field-name-field-blog-featured-attrib field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even">Shutterstock</div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Today, GLAAD responded to the U.S. Food &amp; Drug Administration’s (FDA) <a href="https://www.fda.gov/media/92490/download">revised recommendations</a> on gay and bisexual men, and other LGBTQ people, from donating blood by reducing the deferral period from 12 months to 3 months.</p><center><blockquote class="twitter-tweet"><p dir="ltr" lang="en">The FDA’s move today lowering the deferral of gay and bi men, and others in the LGBTQ community, from 12 to 3 months shows that we have the power to make change — but we’re not done. Sign the petition now and demand the ban be lifted entirely: <a href="https://t.co/seUHP6mgxI">https://t.co/seUHP6mgxI</a> <a href="https://t.co/eYcKj4cJ4f">pic.twitter.com/eYcKj4cJ4f</a></p>— GLAAD (@glaad) <a href="https://twitter.com/glaad/status/1245806121560035328?ref_src=twsrc%5Etfw">April 2, 2020</a></blockquote><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center><p>This decision follows GLAAD’s continued campaign for the FDA to lift its ban that prevents gay and bisexual men, as well as others in the LGBTQ community, from donating blood and plasma. GLAAD<a href="http://glaad.nationbuilder.com/blood"> launched a petition in March</a> calling for an end to the current ban following U.S. Surgeon General Jerome Adams’ urgent call for donations during the COVID-19 crisis. The petition has over <a href="http://glaad.nationbuilder.com/blood">20,000 signatures</a> and elected officials including Rep. Alexandria Ocasio-Cortez, Rep. Carolyn Maloney, Sen. Tammy Baldwin, Sen. Elizabeth Warren, and Sen. Kamala Harris have spoken out.</p><p><a href="https://www.fda.gov/media/92490/download"><strong>The revised recommendations were posted on the FDA site this morning</strong></a><strong>. An email from the FDA today also stated:</strong> “Based on our evaluation of the totality of the scientific evidence available, we are revising the 2015 recommendations for reducing the risk of HIV transmission by blood products including: For male donors who would have been deferred for having sex with another man; the agency is changing the recommended deferral period from 12 months to 3 months.” This change will also apply to female donors who would have been deferred for having sex with a man who had sex with another man.</p><p>The FDA also wrote: “To help address this critical need and increase the number of donations, the FDA is announcing today that based on recently completed studies and epidemiologic data, we have concluded that the current policies regarding the eligibility of certain donors can be modified without compromising the safety of the blood supply.&nbsp; The policy changes that we are announcing for immediate implementation are set out in three guidance documents and are expected to remain in place after the COVID-19 public health emergency ends.”</p><p>“LGBTQ Americans can hold their heads up today and know that our voices will always triumph over discrimination,” <strong>said GLAAD President and CEO, Sarah Kate Ellis</strong>. "This is a victory for all of us who spoke out against the discriminatory ban on gay and bisexual men donating blood. The FDA’s decision to lower the deferral period on men who have sex with men from 12 months to 3 months is a step towards being more in line with science, but remains imperfect. We will keep fighting until the deferral period is lifted and gay and bi men, and all LGBTQ people, are treated equal to others.“</p><p>Yesterday, the FDA issued a response via a statement to <a href="https://www.cnn.com/2020/04/01/health/plasma-coronavirus-donation-fda-men-glaad/index.html">media outlets noting</a>: “At this time, FDA's recommendations regarding blood donor deferral for men who have sex with men have not changed, but we are actively considering the situation as the outbreak progresses.” Last week, the <a href="https://www.fda.gov/vaccines-blood-biologics/investigational-new-drug-ind-or-device-exemption-ide-process-cber/investigational-covid-19-convalescent-plasma-emergency-inds">FDA issued guidelines</a> stating that only people eligible to donate blood are eligible to donate plasma.</p><p>On Wednesday, New York&nbsp;<strong>Rep. Alexandria Ocasio-Cortez</strong> and <strong>House Oversight and Reform Committee Chairwoman Carolyn Maloney</strong> <a href="https://oversight.house.gov/sites/democrats.oversight.house.gov/files/documents/2020-04-01.CBM%20AOC%20to%20Hahn-%20FDA%20re%20Blood%20Ban.pdf">penned a letter calling on the FDA to revise its ban</a> on men who have sex with men from donating blood. The letter reads, in part: “This antiquated policy is not based on current science, stigmatizes the LGBTQIA+ community, and undermines crucial efforts to increase the nation’s blood supply as the United States grapples with the coronavirus crisis." The letter also states: “In light of the potential long-term impacts the coronavirus outbreak may have on the nation’s blood supply, we urge FDA to act swiftly in revising its policy so every person who can safely donate blood in the United States has the opportunity to do so.” <a href="https://oversight.house.gov/sites/democrats.oversight.house.gov/files/documents/2020-04-01.CBM%20AOC%20to%20Hahn-%20FDA%20re%20Blood%20Ban.pdf">Read the full letter here</a>.</p><p><strong>Congressman Chris Pappas</strong> (NH), who serves as a co-chair of the Congressional Equality Caucus, <strong>Congressman Mike Quigley</strong> (IL), and <strong>Congresswoman Barbara Lee</strong> (CA) <a href="https://pappas.house.gov/media/press-releases/pappas-quigley-and-lee-lead-call-blood-donation-eligibility-reform-lgbtq">sent a letter with 30 of their colleagues</a> calling on the FDA to "reassess an outdated and discriminatory policy that blocks members of the LGBTQ community from donating blood." <strong>Rep. Greg Stanton </strong>(AZ) <a href="https://stanton.house.gov/media/press-releases/stanton-urges-feds-lift-unnecessary-ban-gay-bisexual-blood-donations">also called on the Trump Administration</a> to take action.&nbsp;</p><p><strong>U.S. Senator Tammy Baldwin</strong> led a group of Senators, including <strong>Cory Booker, Sherrod Brown, Tammy Duckworth, Kamala Harris, Amy Klobuchar, Bernie Sanders, Elizabeth Warren,</strong> and more, in <a href="https://www.baldwin.senate.gov/press-releases/change-discriminatory-blood-donation-policy">releasing a letter to FDA Commissioner Dr. Stephen </a><a href="https://www.baldwin.senate.gov/press-releases/change-discriminatory-blood-donation-policy">Hahn that raises</a><a href="https://www.baldwin.senate.gov/press-releases/change-discriminatory-blood-donation-policy"> concerns about the FDA’s discriminatory blood donation policies</a> and urges the administration to make the necessary changes to help save lives. Read the full letter <a href="https://www.baldwin.senate.gov/imo/media/doc/FDA%20MSM%20Blood%20Donor%20Deferral%20Policy%20Letter%2003262020_final.pdf">here</a>.</p><p>Earlier this week, GLAAD contacted BioLife Plasma Services, an industry leader in the collection of high-quality plasma, and a spokesperson confirmed to GLAAD that the FDA’s 12-month deferral policy for blood donations from men who have sex with men also applies to plasma donations. Last week, the <a href="https://www.fda.gov/vaccines-blood-biologics/investigational-new-drug-ind-or-device-exemption-ide-process-cber/investigational-covid-19-convalescent-plasma-emergency-inds">FDA issued guidelines</a> stating that only people eligible to donate blood are eligible to donate plasma, noting: “COVID-19 convalescent plasma must only be collected from recovered individuals if they are eligible to donate blood.” According to <a href="https://www.theatlantic.com/science/archive/2020/03/plasma-blood-covid-19-survivors/609007/"><em>The Atlantic</em></a>, “the idea of using plasma from survivors, also known as convalescent-plasma therapy, dates back to the late 19th century” and is now being explored as a potential way to treat ill COVID-19 patients. Over the weekend, <a href="https://www.houstonchronicle.com/news/houston-texas/article/Houston-Methodist-first-in-the-nation-to-try-15164229.php">Houston Medical</a> was the first hospital to try out this potential treatment on a patient.</p><p>Leading medical organizations have debunked the ban on blood donations for years. <a href="https://www.regulations.gov/document?D=FDA-2015-D-1211-0053">The American Public Health Association</a> has stated that the current ban “is not based in science but appears to be modeled after other countries’ choices and fears.” <a href="https://www.redcross.org/about-us/news-and-events/press-release/american-red-cross-statement-on-fda-msm-deferral-policy.html">The American Red Cross</a> has also spoken out, noting that “blood donation eligibility should not be determined by methods that are based upon sexual orientation.” Years ago, the <a href="https://www.cbsnews.com/news/american-medical-association-blood-donation-ban-for-men-who-have-sex-with-men-discriminatory/">American Medical Association</a> said, “the lifetime ban on blood donation for men who have sex with men is discriminatory and not based on sound science.” <a href="https://williamsinstitute.law.ucla.edu/wp-content/uploads/Blood-Donation-Ban-MSM-Sep-2014.pdf">A 2014 study by the Williams Institute</a> estimated that if the ban were to be lifted, an additional 360,000 men would likely donate, which could help save the lives of more than a million people.</p><p><a href="http://glaad.nationbuilder.com/blood">GLAAD’s petition</a> urging the FDA to lift the ban has now garnered over 20,000 signatures. <strong>Sam Smith</strong> (via IG story), <a href="https://twitter.com/Chas10Buttigieg/status/1245481527833755648"><strong>Chasten Buttigieg</strong></a><strong>, </strong><a href="https://www.instagram.com/p/B-KSH8ljcSU/"><strong>Michelle Visage</strong></a> (<em>RuPaul’s Drag Race</em>), <a href="https://twitter.com/whatsupdanny/status/1243636158216585217?s=21"><strong>Daniel Franzese</strong></a> (<em>Mean Girls</em>), <a href="https://twitter.com/Peppermint247/status/1243635051184693248"><strong>Peppermint</strong></a> (<em>RuPaul’s Drag Race</em>), <a href="https://twitter.com/margaretcho/status/1243585206113587200"><strong>Margaret Cho</strong></a><strong>, </strong><a href="https://twitter.com/nicotortorella/status/1243632693780393986?s=21"><strong>Nico Tortorella</strong></a> (<em>Younger</em>), <a href="https://twitter.com/itsjoshfeldman/status/1243642251760173056?s=21"><strong>Josh Feldman</strong></a> (<em>This Close</em>), and <a href="https://twitter.com/JohnnySibilly/status/1243588866902093824"><strong>Johnny Sibilly</strong></a> (<em>Pose</em>) have also spoken out have helped to share GLAAD’s petition on social media.</p><p><a href="https://glaad.nationbuilder.com/blood?fbclid=IwAR2ogzsNzms3sL_DwUsJV6sRXWKc9eTbvJigcCt1m9Vcx8-T_rueC1nCxWw">Sign the petition here.</a></p></div></div></div><div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+<div class="fb-comments fb-comments-fluid" data-href="https://www.glaad.org/blog/fda-revises-its-ban-gay-and-bisexual-men-donating-blood-following-pressure-glaad-medical" data-num-posts="15" data-width="790" data-colorscheme="light"></div>
+		  			</div>
+</div>
+
+  
+</article>    </div>
+  </div>
+</div>      </div>
+</div><div class="grid-2 region region-content-sidebar rightbar divwrap eqheight" id="region-content-sidebar">
+  <div class="region-inner region-content-sidebar-inner">
+      </div>
+</div>        			</div>
+  				</div>
+      		</div>
+    </div></section>  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-4 region region-footer-first" id="region-footer-first">
+  <div class="region-inner region-footer-first-inner">
+    <div class="block block-block block-166 block-block-166 odd block-without-title" id="block-block-166">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <section class="donate-bar">
+        <div class="donate-bar-container">
+        	<span class="close">Close ▼</span>
+            <span class="donate-bar-content">Take a stand against discrimination and hate and become a GLAAD sustaining member.</span>
+            <a class="donate-bar-button donate-desktop" href="https://glaad.nationbuilder.com/donate?cfa=FY19MEM|MEM_APP|19WEB-DONATEBAR">DONATE NOW</a>
+<a class="donate-bar-button donate-mobile" href="https://glaad.nationbuilder.com/donate?cfa=FY19MEM|MEM_APP|19WEB-DONATEBAR-M">DONATE NOW</a>
+        </div>
+    </section>    </div>
+  </div>
+</div><div class="block block-block block-43 block-block-43 even block-without-title" id="block-block-43">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <p><a href=""><img alt="Glaad" class="footer-logo" src="//www.glaad.org/sites/default/files/logo.png" /></a><br /><strong>GLAAD rewrites the script for LGBTQ acceptance</strong>. As a dynamic media force, GLAAD tackles tough issues to shape the narrative and provoke dialogue that leads to cultural change.</p><p>&nbsp;</p><p><a class="scrollup" href="#" style="display: none;">&nbsp;</a></p>    </div>
+  </div>
+</div><div class="block block-block block-124 block-block-124 odd block-without-title" id="block-block-124">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <a href="https://shop.glaad.org" id="pop-out" class="donate-desktop">Shop</a>
+<a href="https://shop.glaad.org" id="pop-out" class="donate-mobile">Shop</a>    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-4 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <section class="block block-block block-44 block-block-44 odd" id="block-block-44">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Connect with GLAAD</h2>
+            
+    <div class="content clearfix">
+                      <div class="content clearfix">
+                  <div class="socialIco">
+                  	<ul>
+                    	<li class="col-md-6">
+                        	<a target="_blank" href="http://www.facebook.com/glaad" class="fb"><span class="fa fa-facebook-f"></span>Facebook</a></li>
+                         <li class="col-md-6">
+                        	<a target="_blank" href="http://glaad.tumblr.com" class="tumb"><span class="fa fa-tumblr"></span>Tumblr</a></li>
+                        <li class="col-md-6">
+                        	<a target="_blank" href="http://twitter.com/glaad" class="twit"><span class="fa fa-twitter"></span>Twitter</a>
+                        </li>
+                        <li class="col-md-6">
+                        	<a target="_blank" href="http://instagram.com/glaad" class="insta"><span class="fa fa-instagram"></span>Instagram</a></li>
+                    </ul>
+                  </div>    </div>
+  </div>
+</section>  </div>
+</div><div class="grid-4 region region-footer-third" id="region-footer-third">
+  <div class="region-inner region-footer-third-inner">
+    <section class="block block-menu block-menu-footer-quick-links block-menu-menu-footer-quick-links odd" id="block-menu-menu-footer-quick-links">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Quick Links</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/press" title="">for press</a></li>
+<li class="leaf"><a href="/about" title="">about</a></li>
+<li class="leaf"><a href="/mediaawards/28/home">glaad media awards</a></li>
+<li class="leaf"><a href="/form/report-media-defamation" title="">report an incident</a></li>
+<li class="leaf donate-mobile"><a href="https://donate.glaad.org/site/Donation2?1400.donation=form1&amp;df_id=1400&amp;mfc_pref=T " id="donate-footer">donate</a></li>
+<li class="leaf"><a href="/privacy-policy">privacy policy</a></li>
+<li class="last leaf donate-desktop"><a href="https://donate.glaad.org/site/Donation2?1400.donation=form1&amp;df_id=1400&amp;mfc_pref=T " id="donate-footer" target="_blank">donate</a></li>
+</ul>    </div>
+  </div>
+</section>  </div>
+</div>  </div>
+</div></footer>  </div>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a90895ba7233546"></script>
+  <!-- Twitter universal website tag code -->
+<script>
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+// Insert Twitter Pixel ID and Standard Event data below
+twq('init','nxchi');
+twq('track','PageView');
+</script>
+<!-- End Twitter universal website tag code -->
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"1c447f99bd","applicationID":"3301392","transactionName":"Ml1bZ0BQDBBVUkFRXQsXeFBGWA0NG19aXFc6SFhUV24UClFG","queueTime":0,"applicationTime":508,"atts":"HhpYEQhKHx4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

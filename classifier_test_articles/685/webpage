@@ -1,0 +1,954 @@
+
+
+<html lang="en">
+  <head>
+    <!-- <apply template="includes/meta-analytics-white"></apply> -->
+    
+    <meta charset="utf-8"/>
+    <meta content="ie=edge" http-equiv="x-ua-compatible"/>
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <link href="/static/images/favicon.ico?v=3" rel="shortcut icon" type="image/x-icon"/>
+
+    
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <meta content="Current Affairs" name="author"/>
+
+    <title>Should We Just Open the Borders? ❧ Current Affairs</title>
+
+    <meta content="Current Affairs" property="og:site_name"/>
+    <meta content="Should We Just Open the Borders? ❧ Current Affairs" property="og:title"/>
+    <meta content="Should We Just Open the Borders? ❧ Current Affairs" name="twitter:title"/>
+
+    <meta content="<p>A look at the cute but troublingly framed argument for open borders by Bryan Caplan and Zach Weinersmith.</p>" name="description"/>
+    <meta content="<p>A look at the cute but troublingly framed argument for open borders by Bryan Caplan and Zach Weinersmith.</p>" property="og:description"/>
+    <meta content="<p>A look at the cute but troublingly framed argument for open borders by Bryan Caplan and Zach Weinersmith.</p>" name="twitter:description"/>
+
+    <meta content="website" property="og:type"/>
+    <meta content="summary_large_image" name="twitter:card"/>
+    
+        <meta content="https://images.currentaffairs.org/2020/04/openboreders-1024x646.jpg" property="og:image"/>
+        <meta content="https://images.currentaffairs.org/2020/04/openboreders-1024x646.jpg" name="twitter:image"/>
+        <meta content="1024" property="og:image:width"/>
+        <meta content="646" property="og:image:height"/>
+    
+
+    
+        <meta content="https://www.currentaffairs.org/2020/04/should-we-just-open-the-borders" property="og:url"/>
+    
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    
+    <link href="https://use.typekit.net/kta1qem.css" rel="stylesheet"/> <!-- ← current affairs's current affairs 2019 kit -->
+    <link href="/static/css/compiled.css" rel="stylesheet"/>
+
+    <script src="/static/javascripts/jquery-3.3.1.min.js"></script>
+    <script src="/static/javascripts/jquery.onscreen.js"></script>
+    <script src="/static/javascripts/lazyload.min.js"></script>
+    <script src="/static/javascripts/vh-check.min.js"></script>    <!-- ← credit: @hiswehalya -->
+    <script>
+      (function () {
+        // initialize the test
+        var isNeeded = vhCheck('vh-test');
+      }());
+    </script>
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+    <script src="/static/javascripts/dom-scripts.js"></script>
+    <script src="/static/js/slogans.js"></script>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+  </head>
+  <body class="ca-2019">
+
+    
+
+  
+  
+  
+  
+  
+  
+
+<div aria-hidden="true" class="sticky-header">
+  <div class="backing">
+    <div class="bound">
+
+
+        <div class="actions">
+          <button data-trigger="menu-takeover">Menu</button>
+          <button data-trigger="search">Search</button>
+        </div>
+
+        <div class="brand">
+          <a href="/">Current Affairs</a>
+        </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+<header class="masthead">
+  <div class="bound">
+    <div class="plate">
+
+
+
+      <h1 class="brand">
+        <a class="wordmark" href="/" title="Current Affairs"><i class="fill">Current Affairs</i></a>
+      </h1>
+
+      <p class="slogan">
+        <span id="slogan"></span>
+      </p>
+
+
+      <nav class="wayfinding-primary large">
+        
+        <ul>
+          <li><a class="coming-soon" href="#"><span>Issues</span></a></li>
+          <li><a href="https://www.currentaffairs.org/about"><span>About</span></a></li> <!-- INTEGRATION NOTE: in a later stage of the sitewide redesign, ABOUT will be merged into MAGAZINE, and this nav slot will go a new page called INDEX -->
+          <li><a href="https://www.currentaffairs.org/podcast"><span>Podcast</span></a></li>
+          <li><a href="https://www.currentaffairs.org/store"><span>Shop</span></a></li>
+          <li><a href="https://www.currentaffairs.org/donate"><span>Donate</span></a></li>
+          <li><a class="coming-soon" href="#"><span>Gallery</span></a></li>
+          <li><a href="https://www.currentaffairs.org/subscribe"><span>Subscribe</span></a></li>
+        </ul>
+
+      </nav>
+
+      <aside class="wayfinding-secondary search">
+        <mark class="action">
+          <span>Search</span>
+        </mark>
+      </aside>
+
+      
+      
+        <aside class="wayfinding-secondary account unauthenticated">
+          <mark class="action">
+            <span>Sign In</span>
+          </mark>
+        </aside>
+      
+
+
+      
+      <aside class="site-search">
+        <div class="bound">
+          <div class="form-wrapper">
+            <form action="https://duckduckgo.com/" name="search">
+                <div class="form-group">
+                    <div class="input-group">
+                        <input class="form-control" name="q" placeholder="Search Current Affairs" type="search"/>
+                        <input name="sites" type="hidden" value="currentaffairs.org"/>
+                        <input name="kh" type="hidden" value="1"/>
+                        <input name="kn" type="hidden" value="1"/>
+                        <input name="kac" type="hidden" value="1"/>
+                        <input name="kc" type="hidden" value="1"/>
+                        <span class="input-group-btn"><button class="btn btn-default" title="Search" type="submit">
+                            <i aria-hidden="true" class="fa fa-search"></i></button>
+                        </span>
+                    </div>
+                </div>
+            </form>
+          </div>
+          <div class="form-utility">
+            <button class="close-search" title="Hide search">Hide</button>
+          </div>
+        </div>
+      </aside>
+
+
+
+      <div aria-hidden="true" class="mobile-menu-shortcuts">
+        <ul class="triptych">
+          <li class="parent menu">
+            <button data-trigger="menu-takeover">Menu</button>
+          </li>
+          
+          
+            <li class="parent account unauthenticated">
+              <button>Log In</button>
+            </li>
+          
+          <li class="parent search">
+            <button data-trigger="search">Search</button>
+          </li>
+        </ul>
+      </div>
+
+
+    </div><!--/ .plate -->
+  </div><!--/ .bound -->
+</header><!--/ .masthead-->
+
+
+<div aria-hidden="true" class="menu-takeover">
+
+    <div class="setting">
+      <div class="plate">
+        <div class="content">
+
+            <button class="hide-menu-takeover">Hide menu</button>
+
+            <h1>Menu</h1>
+            
+        <ul>
+          <li><a class="coming-soon" href="#"><span>Issues</span></a></li>
+          <li><a href="https://www.currentaffairs.org/about"><span>About</span></a></li> <!-- INTEGRATION NOTE: in a later stage of the sitewide redesign, ABOUT will be merged into MAGAZINE, and this nav slot will go a new page called INDEX -->
+          <li><a href="https://www.currentaffairs.org/podcast"><span>Podcast</span></a></li>
+          <li><a href="https://www.currentaffairs.org/store"><span>Shop</span></a></li>
+          <li><a href="https://www.currentaffairs.org/donate"><span>Donate</span></a></li>
+          <li><a class="coming-soon" href="#"><span>Gallery</span></a></li>
+          <li><a href="https://www.currentaffairs.org/subscribe"><span>Subscribe</span></a></li>
+        </ul>
+
+            <h1>Account</h1>
+            
+            
+              <div class="account unauthenticated">
+                  <mark class="action"><span>Log in</span></mark>
+              </div>
+            
+        </div>
+      </div>
+    </div>
+
+</div><!--/ .menu-takeover -->
+
+
+<aside class="link-blocker">
+  <div class="setting">
+    <div class="plate">
+      <div class="content">
+
+
+        <div class="primary">
+          <h1 class="headline">Soon</h1>
+          <p class="explanation"><em>Current Affairs</em>’s <span>all-new</span> <i>Single Issue</i> page is coming soon.</p>
+        </div>
+        <div class="secondary">
+          <button class="acceptance">Okay</button>
+        </div>
+
+        
+      </div>
+    </div>
+  </div>
+</aside>
+
+
+<section class="log-in">
+  <div class="setting">
+    <div class="plate">
+      <div class="content">
+
+
+        <div class="primary-form">
+          <h1>Sign In</h1>
+          <div class="form-container">
+            <form action="/login?redirect=%2f2020%2f04%2fshould-we-just-open-the-borders" class="form-horizontal" method="post">
+              <input class="form-control" name="login.email" placeholder="email"/>
+              <input class="form-control" name="login.password" placeholder="password" type="password"/>
+              <button class="form-control" type="submit">Enter</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="supplemental-options">
+          <ul>
+            <li><a href="/forgot?redirect=%2f2020%2f04%2fshould-we-just-open-the-borders"><span>I have forgotten my password</span></a></li>
+            <li><a class="subscribe-appeal" href="/subscribe"><span>Don’t have an account? Subscribe!</span></a></li>
+          </ul>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="close-log-in">
+      <button aria-label="Close">Close</button>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================================================================================ -->
+
+<header class="article-splash">
+  <div class="bound">
+
+      
+    <figure class="cinematic-poster lazy" data-bg="url(https://images.currentaffairs.org/2020/04/openboreders-1024x646.jpg)">
+      <div aria-hidden="true" class="fill">
+      </div>
+      <!-- Not ready yet -_- <figcaption class="attribution">
+        <div class="columns">
+          <p class="source"><span><a href="#">Matt Lubchansky Or iStock Or Flickr</a></span></p>
+          <i class="notch" aria-hidden="true"></i>
+        </div>
+      </figcaption> -->
+    </figure>
+    
+
+    <!-- Also not ready yet
+    <small class="extraneous-attribution" aria-hidden="true">
+      <span>Matt Lubchansky Or iStock Or Flickr</span>
+    </small>-->
+
+    <div class="titling">
+      <h1 class="title">
+        <span>Should We Just Open the Borders?</span>
+      </h1>
+      
+
+  
+  
+    <aside class="stamp" data-stamp-type="web">
+    </aside>
+  
+
+    </div>
+
+    <div class="details">
+      <div class="primary">
+        <div class="tagline">
+          <p>A look at the cute but troublingly framed argument for open borders by Bryan Caplan and Zach Weinersmith.</p>
+
+        </div>
+        <div class="bylines">
+            <ul>
+              <li><a href="/author/brianna-rennix">Brianna Rennix</a></li>
+            
+              <li><a href="/author/sparky-abraham">Sparky Abraham</a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="secondary">
+        <mark class="dateline">
+            <span>filed 15 April 2020 in</span> <a href="/category/immigration">Immigration</a>
+        </mark>
+      </div>
+    </div>
+
+    <div aria-hidden="true" class="extraneous-stamp-container">
+      
+
+  
+  
+    <aside class="stamp" data-stamp-type="web">
+    </aside>
+  
+
+    </div>
+
+
+  </div>
+</header>
+
+
+<article class="article-output">
+  <div class="bound">
+    
+<section class="wp-block-currentaffairs-group essay-block" data-essay-block-type="plain">
+<p>If you wanted to pinpoint an exact date when the United States became destined to be a global superpower—a nation rich beyond its wildest dreams, able to enforce its will around the world—you could do worse than February 2, 1848. With a few quick pen-strokes on the Treaty of Guadalupe Hidalgo, the Mexican-American War ended, and the landmass of the United States grew by 25 percent. Importantly, that 25 percent included the territory that had, up to that point, been known as Alta California.&nbsp;</p>
+
+
+
+<p>The central valley of California has fairly unique geography. It’s been subject to millennia of flooding, leaving hundreds of thousands of acres of top grade soil. It’s also extremely sunny—nearly 300 days of sunshine a year—but compensates for the lack of rain with snowmelt from the uniquely tall and snowy Sierra Nevada mountains. The combination of these factors—along with huge aquifers of groundwater, more than one deep water port, some navigable rivers, abundant fish and fur stocks, hundreds of miles of desirable oceanfront property, and some gold to boot—all but guaranteed significant wealth for whatever industrializing nation included California.</p>
+
+
+
+<p>This potential, though not yet realized, was an open secret in the 1840s. The United States attempted to buy New Mexico and California from Mexico in 1842, but Mexico refused. Undeterred, the United States invaded Mexico on the flimsiest of pretenses and, on February 2, 1848, took more than half of Mexico’s land mass essentially at gunpoint.&nbsp;</p>
+
+
+
+<p>Thus was born the U.S.’s southern border. (Well, sort of. The Treaty of Mesilla, aka the Gadsden Purchase, added southwest New Mexico and southern Arizona, including Tucson, in 1854, at a price of around $12 an acre in 2018 dollars.) And thus was the land area formerly known as Alta California transferred from Mexico to the United States. In that instant, approximately 80,000 people went from living in Mexico to living in the United States without moving a muscle. Alta California was destined to be the fifth largest economy <em>in the world</em>, with a GDP more than three times Mexico’s <em>national</em> GDP. Through this successful conquest, the United States was propelled on its path to unprecedented national wealth, and future generations of Mexicans were consigned to the now-pitiable position of being, in the (attributed) words of Porfirio Diaz, “so far from God, so close to the United States.”</p>
+
+
+
+<p>At first, when this particular portion of the U.S.-Mexico border was drawn, it was—like all borders in the United States, and most in the world—radically open. People came and went as they pleased. The line determined jurisdiction for various important political and civil questions, like legal regimes and taxes, but it wasn’t a physical barrier. People could (and did) stroll across the border at will to grocery shop, visit friends and relatives, work, sell goods—you name it. There were important differences between living in Juarez and El Paso, and different rights and duties imposed on people living within a few hundred feet of each other, but there was no physical wall between them.&nbsp;</p>
+
+
+
+<p>What ultimately ended up setting the United States down the path toward a militarized border—maintained via a gigantic bureaucracy willing to inflict violence on anyone with the gall to attempt a crossing—was old-fashioned American racism. In 1875, the United States enacted its first set of restrictive immigration laws aimed at preventing Chinese people from entering. This particular brand of racism, as is often the case, went hand-in-hand with exploitation. The railroad industry was happy to use Chinese immigrants as cheap labor but the United States couldn’t tolerate the Chinese community building any wealth or power, and therefore barred Chinese people from entering the country. The federal government detained and then left Chinese immigrants to languish, sometimes for years, on Angel Island in the San Francisco Bay even when they had previously gotten permission to enter. This was the beginning of the end for our <em>de facto</em> national policy of open borders.&nbsp;</p>
+
+
+
+<p>Exploitation of other nations and people, both foreign and domestic, was far from new in U.S. history (see slavery, Native genocide, etc.). But it’s interesting that immigration restrictions rose simultaneously with the U.S.’s foreign imperialist activities. Over the following decades, immigration quotas were established as U.S. corporations gobbled up land in Central and South America and meddled in the Mexican Revolution. Unauthorized immigration was criminalized just as the United States threatened to invade Colombia on behalf of the United Fruit Company. Anti-Latin American sentiment soared as the United States toppled democratically elected governments in Guatemala and Chile out of fear that they would nationalize industries profitable for American companies. Ronald Reagan railed against immigrants and asylees as he funded the death squads who murdered their families to protect U.S. business interests. The 20th century was an incredibly prosperous time for the United States—that prosperity largely built the wealth that the nation enjoys today—but a substantial portion of this wealth was built on the backs and corpses of people in other countries, particularly (although far from exclusively) in Central and South America.</p>
+
+
+
+<section class="wp-block-currentaffairs-image-text essay-block" data-essay-block-type="split-west"><div class="columns"><div class="art lazy" aria-hidden="true" data-bg="url(https://images.currentaffairs.org/2020/04/cover3.jpg)"><div class="fill"></div></div><div class="text"><div class="text-inner"><p>It’s worth keeping this historical context in mind when we turn to <em><a href="https://www.smbc-comics.com/openborders/">Open Borders: The Science and Ethics of Immigration</a></em>, an illustrated book published by libertarian economist Bryan Caplan and cartoonist Zach Weinersmith. The book portrays itself as comprehensive: it purports to cover <em>all</em> moral and philosophical arguments in favor of open borders, and to neutralize all potential opposing arguments. In practice, the book focuses largely on one “fairness” argument—that restrictive borders are discriminatory and arbitrary—and one “outcomes” argument—that restrictive borders stifle (economic) growth. A cartoon version of Caplan walks the reader, panel by panel, through his arguments and their support.</p></div></div></div></section>
+
+
+
+<p>The first thing to say about the book is that it’s mostly lovely. Caplan is an engaging and persuasive writer—in his other works, he can be charming even when advocating for terrible things (like massively defunding public education). Here, he’s advocating for open borders, a <a href="https://www.currentaffairs.org/2018/11/responding-to-the-left-case-against-open-borders">morally unimpeachable policy</a>. Weinersmith’s illustrations are delightful, and the tone of the text nicely matches that of the illustrations. The second thing to say about the book is that we mostly agree with it. That is, we believe restrictive borders constitute a grave injustice, and that the world would be a better place if people were free to cross between Mexico and the United States just as they’re free to cross between Colorado and Nebraska.&nbsp;</p>
+
+
+
+<p>But despite the book’s clear writing, fun drawings, and correct (in our view) conclusion, it must be treated with some caution, as with the rest of Caplan’s work. Bryan Caplan is a committed and staunch libertarian economist. He seems to be an <em>earnest</em> libertarian economist, in that he appears to have some intellectual integrity and is willing to follow his arguments to their logical conclusions, even when those are at odds with the status quo and the consensus in his profession. But we must be careful to agree with him only where his underlying reasoning, assumptions, and principles are defensible, and not only because we reach the same conclusion.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.11.47-AM.jpg" alt="" class="wp-image-14496" srcset="https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.11.47-AM.jpg 739w, https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.11.47-AM-300x161.jpg 300w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px" /><figcaption>cartoons by Nick Sirotich</figcaption></figure>
+
+
+
+<p>This is particularly important when it comes to open borders. There are strains of left and socialist thinking, both historical and current, that are very hostile to open borders. The (purportedly) left arguments against open borders run from protectionist (immigrants harm the interests of domestic labor) to supposedly benevolent but extremely misguided (like Angela Nagle’s infamous 2018 article, “The Left Case Against Open Borders,” which makes the unconvincing argument that it is better for would-be immigrants to be kept in their home countries by force so that they can organize their way out of oppression.) Unconvincing as most of these arguments are, they have a kernel that should be taken seriously. Some big businesses do want open borders. Libertarian economists want open borders. Given these unsavory bedfellows, are we sure that <em>we</em>, as leftists, want open borders? Should Bryan Caplan’s support for our position give us pause?&nbsp;</p>
+
+
+
+<figure class="wp-block-image"><img src="https://images.currentaffairs.org/2020/04/caplan.jpg" alt="" class="wp-image-14497" srcset="https://images.currentaffairs.org/2020/04/caplan.jpg 611w, https://images.currentaffairs.org/2020/04/caplan-300x278.jpg 300w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px" /></figure>
+
+
+
+<p>Caplan’s case for open borders largely rests on two underlying premises: first, that closed borders are unethical, and second, that capitalism is good and open borders will only make it work more effectively. (“Socialism” is definitely one of the major bogeymen of his book: each mention of the dread word is accompanied by a cartoon panel of goose-stepping Reds.) Caplan’s case for the moral wrongness of borders is compelling, and strongly-stated. The first chapter of his book is called “Global Apartheid,” and the opening image shows the outline of a looming black wall topped with barbed wire. “Immigration laws tell peaceful people where they’re allowed to live and work,” a cartoon version of the Statue of Liberty informs us. “Immigration laws don’t merely <em>allow</em> discrimination. They <em>require</em> it. It’s wrong to tell people where they can live or work because they’re black, or women, or Jews. Why isn’t it equally wrong to tell people where they can live or work because they were born in Mexico, or Haiti, or India?”</p>
+
+
+
+<figure class="wp-block-image"><img src="https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.11.57-AM.jpg" alt="" class="wp-image-14498" srcset="https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.11.57-AM.jpg 371w, https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.11.57-AM-282x300.jpg 282w" sizes="(max-width: 371px) 85vw, 371px" /></figure>
+
+
+
+<p>This line of argument is the biggest strength of Caplan’s book. He appears to sincerely believe that free migration is an essential human freedom, and correctly characterizes immigration laws, of their very nature, as fundamentally oppressive. In this sense, Caplan is a much clearer moral thinker than, say, the all-too-common kind of liberal who likes the feel-goodery of belonging to a “nation of immigrants,” but balks at the idea of large numbers of poor immigrants moving into their neighborhood; who tells themselves that immigrants are necessarily “better off” in their home countries than working in the United States, and believes that a “secure” border is a necessary condition to any discussion of further immigration reform.</p>
+
+
+
+<p>But there’s something that feels <em>wrong</em>, or at any rate incomplete, about the context in which Caplan enfolds these important truths. The rest of his argument about the moral necessity of open borders boils down, essentially, to the following: some parts of the world are rich, and their residents enjoy many luxuries. Others are desperately poor, and their residents struggle to survive. If poor people could move to rich countries and get jobs there, they could vastly improve their outcomes. Thus, why should governments have the right to prevent people from physically moving from these impoverished hellholes and coming to countries where they can reap the ample benefits of living in more “developed” societies? Caplan anticipates—probably correctly—that his readers’ biggest objections will center around possible downsides that this immigration will bring to the receiving countries, and so the bulk of the book centers around showing that there will be limited negative impacts—and, in fact, substantial net gains—for native-born populations in a world where immigration is increased. (Economic data does seem to bear this out, although it’s hard to feel <em>extremely</em> confident about what these studies tell us, given the inherent difficulty of disentangling when an economic outcome is “caused,” or caused primarily, by “immigration,” or the extent to which the net economic benefits of immigration are premised on the fact that many immigrant workers have even less bargaining power than citizen workers.) Caplan tries to show that closed borders, in addition to trapping poor people in countries where they can’t hope to improve their standard of living, also “trap[s] talent at the outskirts of the world economy” and thus “impoverishes us all.”</p>
+
+
+
+<figure class="wp-block-image"><img src="https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.12.17-AM.jpg" alt="" class="wp-image-14499" srcset="https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.12.17-AM.jpg 378w, https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.12.17-AM-276x300.jpg 276w" sizes="(max-width: 378px) 85vw, 378px" /></figure>
+
+
+
+<p>What Caplan <em>doesn’t</em> explore in very much detail is <em>why</em> certain parts of the world are rich and others are poor. Caplan puts forward an image of the United States as a magnet for immigration because the United States is simply a good country to live in. He doesn’t dwell on the fact that one very substantial reason rich countries like the United States have so much abundance is precisely <em>because</em> they exploit the resources of poorer countries, or that the conditions of poverty and violent insecurity that drive many immigrants to move to more prosperous countries are directly influenced by rich countries’ economic and foreign policy decisions—to say nothing of the much longer history of imperial conquest and political meddling pursued by the United States and other powerful nations. This, by itself, doesn’t alter the validity of Caplan’s argument that restricting the free movement of people is immoral. But Caplan situates an immigrant’s decision to move in a kind of historical vacuum of rational cost-benefit analysis. For a libertarian, the logic of the free market dictates that people should be allowed to move where they can get work, because it’s only “fair.” But for a leftist, unfairness is inherent not only the immigration restrictions that prevent people from moving who wish to move, but in the unequal global hierarchy that forces people to leave their countries who otherwise would not wish to. At various points in the book, Caplan also declares himself to be a “fanboy of Western culture” (which apparently boils down to favoring “reason” and “enlightenment”) and does some slightly creepy IQ comparisons across various countries, suggesting that worldwide IQ will rise if people are able to migrate to better-resourced areas—avoiding any serious analysis of power by vaguely implying that there’s a cultural explanation for the “West’s” economic success.</p>
+
+
+
+<p>Even if we agree with Caplan that open borders are a moral imperative, how should we think about his second premise—that opening up borders will bolster the existing capitalist world order, which is presumed by Caplan to be a good thing? Perhaps, if we feel strongly enough that immigration restrictions are immoral and should be abolished, we should be willing to countenance the “open borders is compatible with global capitalism” argument as a means of bringing some of our political opponents around to our side. (Admittedly, most of our political opponents aren’t ideologically rigorous libertarians, but are ordinary oligarchs with a vague Ayn Rand gloss—so it’s hard to say how far they’d be persuaded by these arguments anyhow.) But adopting some of Caplan’s assumptions feels icky, and possibly dangerous. Caplan views immigration, in an economic sense, as “economic trade in labor,” which he thinks should be free in the same way that he thinks trade in goods should be free, and writes that “progress always hurts someone, but the secret to mass consumption is mass production.” To illustrate the economic boons of immigration, cartoonist Zach Weinersmith has drawn giant globes made of cash that will presumably be generated by immigrants multiplying their wages through relocation.  Even if you think Caplan is right about these things, it feels like typical capitalist magical thinking that treats laborers as statistics and infinite growth as an inherent good, without exploring its long-term environmental viability or actual quality-of-life improvements for ordinary people. Also, accepting the premise that “progress always hurts someone” feels like a license to play utilitarian games with (other) human beings’ lives.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.12.24-AM.jpg" alt="" class="wp-image-14500" srcset="https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.12.24-AM.jpg 376w, https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.12.24-AM-274x300.jpg 274w" sizes="(max-width: 376px) 85vw, 376px" /></figure>
+
+
+
+<p>Certainly, insofar as available economic evidence suggests that immigration hasn’t had the catastrophic effects on wages that many anti-immigration propagandists want you to believe, the potential economic benefits of immigration aren’t something we necessarily want to <em>de</em>emphasize. But at the same time, if you think that the global economy is deeply unfair, we don’t want to become too enthusiastic about arguing that opening up borders is the mystical solution that, without more action, will somehow cause the global economy to <em>become </em>fair. Rather, many leftists have envisioned open borders as something that—even if it won’t be <em>the</em> singular cause of the dismantlement of unjust economic systems—can increase worker power by allowing greater solidarity and organizing across national lines. Caplan, by contrast, wants to assuage public fears that increased immigration is likely to result in <em>any</em> significant political changes. He extensively cites studies that show that immigrants assimilate quickly, vote at slightly lower rates than the general population, and possess political views that are pretty close to the median (albeit slightly more “fiscally liberal” and “socially conservative” than average.) But those studies, to the extent we think they’re reliable, are based upon the present-day pool of immigrants, which is much more limited than what’s envisioned under an open borders regime. It’s hard to say if this is a good predictor of how a much larger influx of immigrants would affect U.S. politics, for example—and ideally, we on the left would <em>want</em> an influx of working-class immigrants to affect U.S. politics, with workers from different parts of the world joining unions and bringing their own political and organizing traditions to bear on U.S. debates.</p>
+
+
+
+<p>It’s also worth mentioning that although Caplan writes predominantly from a libertarian perspective, he pitches open borders as something that pretty much anyone of any ideological persuasion can find moral and practical reasons to support. His goal is to shift the baseline assumption “immigration must be restricted except under X conditions” to “immigration should be open, and any exceptions should be tailored to the specific immigration-related problems a country believes would need to be prevented.” Caplan calls these restrictions to assuage public anxiety “keyhole solutions”: his idea being that <em>any</em> increase in immigration is good, so we should be willing to countenance (at least in the short term) new or ongoing immigration restrictions of various kinds, provided we can gradually increase the number of total people who are allowed to immigrate. Some examples of keyhole solutions he proposes are a) taxing immigrants’ income to offset any negative economic impact on native citizen workers, b) restricting immigrants’ eligibility for all but emergency government services, c) requiring English fluency or cultural literacy tests, and d) raising proportional levels of immigration from non-Muslim countries (i.e. calming Islamophobes’ anxieties about the prospect of a North American caliphate by simply admitting <em>more</em> non-Muslim than Muslim immigrants, so that Muslims perpetually remain a minority group.)</p>
+
+
+
+<p>Caplan concedes that he doesn’t think these keyhole solutions are “fair,” but emphasizes that as long as more people are able to immigrate, the result will still be an improvement on the status quo. There’s a sense in which this is perhaps true—but it’s also rather naïve to believe that these keyhole solutions are a natural stepping-stone to eventual open borders. There’s an equally good chance that these kinds of concessions will just result in the continuing entrenchment of immigrants’ second-class status: by explicitly legislating their position as go-to economic scapegoats for capitalism’s ravages on the vulnerable, by encouraging restrictions that are tailored to favor more “productive” and educated immigrants over the kinds of immigrants Caplan thinks most desperately need to immigrate, by feeding the notion that certain “cultures” are inherently superior to others and that some “dangerous” cultures need to be artificially restricted, regulated, and monitored. A case for open borders that touts these kinds of keyhole solutions as incremental progress toward the eventual goal, rather than as compromises that could derail the movement entirely by authorizing lawmakers to develop even more intricately discriminatory policies than before, doesn’t feel quite adequate.&nbsp;&nbsp;</p>
+
+
+
+<p>One thing that rich, successful people love to tell themselves is that they are rich because of their intelligence, their discipline, and their good habits. It’s a comfortable, self-reinforcing myth. Wealth proves virtue, and everyone else’s lack of wealth proves their lack of virtue. It’s much more comfortable than confronting the fact that vast wealth is accumulated, under the best of circumstances, via blind luck and more commonly by outright theft.&nbsp;The history of the United States and Mexico shows this clearly: the trajectories of our nations’ respective fortunes depended so heavily upon a contingent moment in history, where one nation took a rich territory that had previously belonged to another—a contingency that was then reinforced by many dozens, even hundreds, of additional contingencies, leading the United States to gradually view the hardening of the southern border as politically advantageous. A case for open borders that fails to reckon with past and present exploitation is necessarily going to feel like something between a Pollyanna pipe-dream and a smokescreen for further violent depredations. That’s not to say that Caplan’s arguments have no merit, or that there’s no common ground to be found between leftist and libertarian advocates for open borders. But—in the same way that Caplan’s comic book occasionally throws out a cautionary vision of a closed-borders world of tightly-sealed, totalitarian socialist states—leftist open borders advocates have a mirror nightmare vision, of a world homogenized and subjugated to the whims of the global rich, where people are free to move where they will but their autonomy in each new place only increases by negligible fractions. If we believe that most countries in the world mistreat the poor, then allowing the poor to move from country to country only gets us so far. Open borders are not the solution to global injustice: they are simply a rectification of one injustice among many, creating the opportunity for a more fully international community to tackle other injustices wholesale.</p>
+</section>
+
+  </div>
+</article><!--/ article-output -->
+
+
+<aside class="article-petition">
+  <div class="bound">
+    <div class="text">
+      <p>If you enjoyed this article, please consider <a href="http://currentaffairs.org/subscribe">subscribing to our magnificent print edition</a> or <a href="http://currentaffairs.org/donate">making a donation</a>. <em>Current Affairs</em> is 100% reader-supported.</p>
+    </div>
+  </div>
+</aside>
+
+<aside class="article-afterword">
+  <div class="bound">
+
+    
+      <figure class="article-biography" data-biography-type="writer">
+          <p>Brianna Rennix </p>
+          <figcaption><a href="/author/brianna-rennix">More from Brianna Rennix</a></figcaption>
+      </figure>
+    
+      <figure class="article-biography" data-biography-type="writer">
+          <p>Sparky Abraham </p>
+          <figcaption><a href="/author/sparky-abraham">More from Sparky Abraham</a></figcaption>
+      </figure>
+    
+
+    
+    
+  </div>
+</aside>
+
+    
+<!-- ================================================================================ -->
+
+
+<section class="articles-roundup">
+
+  <header class="quadtych-titling ribbon">
+    <div class="bound">
+      <h1>
+        <span>More In:</span>
+        <em>Immigration</em>
+      </h1>
+    </div>
+  </header>
+
+
+  <nav class="quadtych-of-articles">
+    <div class="bound">
+      <ul class="columns">
+        
+          <li class="article">
+  
+  <a href="https://www.currentaffairs.org/2020/04/the-deep-roots-of-greeces-asylum-catastrophe">
+    
+
+    <div class="art lazy" data-bg="url(https://images.currentaffairs.org/2020/04/20151030_Syrians_and_Iraq_refugees_arrive_at_Skala_Sykamias_Lesvos_Greece_2-1024x646.jpg)">
+      <i class="fill"></i>
+    </div> 
+
+    <h1 class="title">The Deep Roots of Greece’s Asylum Catastrophe</h1>
+    <ul class="bylines">
+      
+      <li class="author">Piper French</li>
+      
+    </ul> 
+  </a>
+  
+</li>
+
+        
+          <li class="article">
+  
+  <a href="https://www.currentaffairs.org/2020/01/american-dirt-lost-children-archive-and-the-border-dividing-complex-writing-from-sensationalist-exploitation">
+    
+
+    <div class="art lazy" data-bg="url(https://images.currentaffairs.org/2020/01/Border_USA_Mexico-1024x646.jpg)">
+      <i class="fill"></i>
+    </div> 
+
+    <h1 class="title">Sensationalist Exploitation Is Unnecessary</h1>
+    <ul class="bylines">
+      
+      <li class="author">Bárbara Pérez Curiel</li>
+      
+    </ul> 
+  </a>
+  
+</li>
+
+        
+          <li class="article">
+  
+  <a href="https://www.currentaffairs.org/2020/01/what-are-refugee-camps-for">
+    
+
+    <div class="art lazy" data-bg="url(https://images.currentaffairs.org/2019/12/Screen-Shot-2019-12-17-at-11.03.24-AM-1-1024x646.jpg)">
+      <i class="fill"></i>
+    </div> 
+
+    <h1 class="title">What are Refugee Camps for?</h1>
+    <ul class="bylines">
+      
+      <li class="author">Laura Robson</li>
+      
+    </ul> 
+  </a>
+  
+</li>
+
+        
+          <li class="article">
+  
+  <a href="https://www.currentaffairs.org/2019/12/somebodys-baby">
+    
+
+    <div class="art lazy" data-bg="url(https://images.currentaffairs.org/2019/12/31364575900_7e14e59f02_k-1024x646.jpg)">
+      <i class="fill"></i>
+    </div> 
+
+    <h1 class="title">Somebody&#8217;s Baby</h1>
+    <ul class="bylines">
+      
+      <li class="author">Maximillian Alvarez</li>
+      
+    </ul> 
+  </a>
+  
+</li>
+
+        
+      </ul>
+    </div>
+  </nav>
+
+</section>
+
+
+
+<section class="newest-issue">
+  <div class="bound">
+    <div class="plate lazy" data-bg="url(/static/images/ornament-giant-fleur.png)">
+      <div class="columns">
+        <div class="art">
+          <div class="art-inner">
+            <img alt="Cover of latest issue of print magazine" class="lazy" data-src="/static/images/issue4v4.jpg"/>
+          </div>
+        </div>
+        <div class="text">
+          <div class="text-inner">
+
+            <h1>
+              <span>Announcing Our</span>
+              <mark>Newest Issue</mark>
+            </h1>
+
+            <div class="teaser">
+              <div class="teaser">
+                <h2>Featuring</h2>
+                <p>Spreading Sweetness and Light! Current Affairs takes on hellfire, why teens love socialism, the magic of Motown, and the legacy of Huey Long. Cover art by Aleksandra Waliszewska. </p>
+              </div>
+            </div>
+
+            <footer class="action">
+              <a class="boxy" href="https://www.currentaffairs.org/store/product/44">Show Me More</a>
+            </footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="articles-roundup">
+
+  <header class="quadtych-titling wreath">
+    <div class="bound">
+      <h1>
+        <span>The Latest From <em>Current Affairs</em></span>
+      </h1>
+    </div>
+  </header>
+
+  <nav class="quadtych-of-articles">
+    <div class="bound">
+        <ul class="columns">
+          
+           <li class="article">
+  
+  <a href="https://www.currentaffairs.org/2020/04/the-very-least-we-could-do-is-name-the-maywood-illinois-post-office-after-john-prine">
+    
+
+    <div class="art lazy" data-bg="url(https://images.currentaffairs.org/2020/04/johnprine-1024x646.jpg)">
+      <i class="fill"></i>
+    </div> 
+
+    <h1 class="title">The Very Least We Could Do is Name the Maywood, IL Post Office After John Prine</h1>
+    <ul class="bylines">
+      
+      <li class="author">Pete Davis</li>
+      
+    </ul> 
+  </a>
+  
+</li>
+
+          
+           <li class="article">
+  
+  <a href="https://www.currentaffairs.org/2020/04/notes-on-a-nightmare-5-the-chinese-virus">
+    
+
+    <div class="art lazy" data-bg="url(https://images.currentaffairs.org/2020/04/spikyboi-1024x646.jpg)">
+      <i class="fill"></i>
+    </div> 
+
+    <h1 class="title">Notes on a Nightmare #5: The &#8220;Chinese Virus&#8221;</h1>
+    <ul class="bylines">
+      
+      <li class="author">Nathan J. Robinson</li>
+      
+    </ul> 
+  </a>
+  
+</li>
+
+          
+           <li class="article">
+  
+  <a href="https://www.currentaffairs.org/2020/04/evaluating-tara-reades-claims">
+    
+
+    <div class="art lazy" data-bg="url(https://images.currentaffairs.org/2020/04/taraforca-1024x646.jpg)">
+      <i class="fill"></i>
+    </div> 
+
+    <h1 class="title">Evaluating Tara Reade’s Allegation Against Joe Biden</h1>
+    <ul class="bylines">
+      
+      <li class="author">Nathan J. Robinson</li>
+      
+    </ul> 
+  </a>
+  
+</li>
+
+          
+           <li class="article">
+  
+  <a href="https://www.currentaffairs.org/2020/04/how-to-organize">
+    
+
+    <div class="art lazy" data-bg="url(https://images.currentaffairs.org/2020/04/organization-152809-1024x646.png)">
+      <i class="fill"></i>
+    </div> 
+
+    <h1 class="title">How To Organize</h1>
+    <ul class="bylines">
+      
+      <li class="author">Cate Root</li>
+      
+    </ul> 
+  </a>
+  
+</li>
+
+          
+        </ul>
+      </div>
+    </nav></section>
+
+<aside class="newsletter-signup">
+  <div class="bound">
+
+    <div class="pithy-appeal">
+      <span class="sneer">
+        <i>Why,</i>
+        <i>you’d have</i>
+        <i>to be an</i>
+        <i>uncultured</i>
+        <i>rube to not</i>
+        <i>sign</i>
+        <i>up for</i>
+      </span>
+      <mark class="proclamation">
+        <i class="definite-article">The</i>
+        <i class="title">Current Affairs <b class="hyphenate">News­letter</b></i>
+      </mark>
+    </div>
+
+
+
+    <div class="substantive-signup-form">
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+      <div id="mc_embed_signup">
+  <form action="https://currentaffairs.us18.list-manage.com/subscribe/post?u=e6cb9720181d518f966bb21f4&id=36cf1827ae" class="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate target="_blank">
+    <div id="mc_embed_signup_scroll">
+      
+      <!--
+      <h2>Subscribe</h2>
+      -->
+
+      <!--
+      <div class="indicates-required">
+        <span class="asterisk">*</span> indicates required
+      </div>
+      -->
+
+      <div class="mc-field-group email-collection-container">
+        <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+        <input class="required email" id="mce-EMAIL" name="EMAIL" placeholder="name@example.com" type="email" value/>
+      </div>
+
+      <!--
+      <div class="mc-field-group">
+        <label for="mce-FNAME">First Name</label> <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+      </div>
+      <div class="mc-field-group">
+        <label for="mce-LNAME">Last Name</label> <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+      </div>
+      <div class="mc-field-group size1of2">
+        <label for="mce-BIRTHDAY-month">Birthday</label>
+        <div class="datefield">
+          <span class="subfield monthfield"><input class="birthday" type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"></span> / <span class="subfield dayfield"><input class="birthday" type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"></span> <span class="small-meta nowrap">( mm / dd )</span>
+        </div>
+      </div>
+      -->
+
+      <div class="clear" id="mce-responses">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div><!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div aria-hidden="true" style="position: absolute; left: -5000px;">
+        <input name="b_e6cb9720181d518f966bb21f4_36cf1827ae" tabindex="-1" type="text" value/>
+      </div>
+      <div class="clear submit-container">
+        <input class="button" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Sign Me Up"/>
+      </div>
+
+    </div>
+  </form>
+</div><!--End mc_embed_signup-->
+
+
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+    </div><!--/ .substantive-signup-form -->
+
+
+
+  </div>
+</aside>
+
+
+
+
+  
+    
+      <aside class="featured-product">
+          <div class="bound">
+            <div class="plate">
+              <div class="columns">
+                <div class="art">
+                  <div class="art-inner">
+                    <img alt="Poster: Circles of Hell" class="lazy" data-src="https://s3.currentaffairs.org/products/2618435404488891909.jpg"/>
+                  </div>
+                </div>
+                <div class="text">
+                  <div class="text-inner">
+
+                    <h1 class="title">Poster: Circles of Hell</h1>
+                    <div class="desc">
+                      Editor Nathan J. Robinson's very favorite thing that the magazine has ever published! Illustrator Chelsea Saunders delivers righteous punishment to all the targets of the Current Affairs editors' collective ire. [Measures 31" x 22"]
+                    </div>
+                    <footer class="action">
+                      <a href="/store/product/33">Buy Now</a>
+                    </footer>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      
+  
+
+
+<nav class="evergreen-plugs-triptych">
+  <div class="bound">
+    <ul class="columns">
+
+      <li>
+        <dl>
+          <dt>
+            <a href="/podcast">Podcast</a>
+          </dt>
+          <dd>
+            <p>Every other week our editorial team brings you a mixture of discussion, analysis, and whimsy.</p>
+          </dd>
+        </dl>
+      </li>
+
+      <li>
+        <dl>
+          <dt>
+            <a href="/store">Shop</a>
+          </dt>
+          <dd>
+            <p>An excellent way to demonstrate to passersby that you are an individual of unusually well-cultivated taste.</p>
+          </dd>
+        </dl>
+      </li>
+
+      <li>
+        <dl>
+          <dt>
+            <a href="/donate">Donate</a>
+          </dt>
+          <dd>
+            <p>We have two missions: to produce the world's first readable political publication and to make life joyful again.</p>
+          </dd>
+        </dl>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+
+
+<aside class="subscribe-block">
+  <div class="bound">
+    <img alt="Montage of pages from the Current Affairs print magazine" class="lazy" data-src="/static/images/ornament-subscribe-motif.png"/>
+    <h1>Subscribe</h1>
+    <div class="essay">
+      <p>A <em>Current Affairs</em> subscription is one of the best known ways to improve your life in a hurry. Our print magazine is released six times a year, in a beautiful full-color edition full of elegant design, sophisticated prose, and satirical advertisements.</p>
+    </div>
+    <footer class="action">
+      <a class="internal boxy" href="/subscribe">Tell me more</a>
+    </footer>
+  </div>
+</aside>
+
+<footer class="site-footer">
+  <div class="bound">
+    <h1 class="brand">
+      <a href="/">Current Affairs</a>
+    </h1>
+    <div class="quadtych">
+
+        <ul>
+          <li>© 2019 Current Affairs</li>
+          <li><a href="/cdn-cgi/l/email-protection#385d5c514c574a785b4d4a4a5d564c595e5e59514a4b16574a5f"><span class="__cf_email__" data-cfemail="492c2d203d263b092a3c3b3b2c273d282f2f28203b3a67263b2e">[email&#160;protected]</span></a></li>
+          <li class="social"><a class="twitter" href="https://twitter.com/curaffairs">/curaffairs</a></li>
+          <li class="social"><a class="facebook" href="https://facebook.com/curaffairs">/curaffairs</a></li>
+        </ul>
+
+    </div>
+    <aside class="cities">
+      <ul>
+        <li>New Orleans</li>
+        <li>London</li>
+        <li>Delhi</li>
+        <li>Rio</li>
+        <li>Tokyo</li>
+        <li>Stockholm</li>
+        <li>Lawrence</li>
+      </ul>
+    </aside>
+    <aside class="design-credit">
+      <a href="https://jonwhitestudio.com" title="Jon White">Design</a>
+    </aside>
+  </div>
+</footer>
+
+
+
+
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/static/1585673150/js/footnotes.js" type="text/javascript"></script>
+
+
+  </body>
+</html>
+

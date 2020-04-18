@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"9bb400200b",applicationID:"542782364"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:site_name" content="Media Matters for America" />
+<link rel="canonical" href="https://www.mediamatters.org/fox-news/over-three-days-week-fox-news-promoted-antimalarial-drug-treatment-coronavirus-over-100" />
+<meta name="twitter:title" content="Over three days this week, Fox News promoted an antimalarial drug treatment for coronavirus over 100 times" />
+<meta name="twitter:site" content="@mmfa" />
+<meta property="og:title" content="Over three days this week, Fox News promoted an antimalarial drug treatment for coronavirus over 100 times" />
+<meta name="generator" content="Drupal 8" />
+<meta name="twitter:url" content="https://www.mediamatters.org/fox-news/over-three-days-week-fox-news-promoted-antimalarial-drug-treatment-coronavirus-over-100" />
+<meta name="twitter:image" content="https://cloudfront.mediamatters.org/static/D8Audio/2020/03/27/the_ingraham_angle_-_10_14_30_pm.jpg" />
+<meta property="og:image" content="https://cloudfront.mediamatters.org/static/D8Audio/2020/03/27/the_ingraham_angle_-_10_14_30_pm.jpg" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/themes/custom/mmfa_theme/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="revision" href="https://www.mediamatters.org/fox-news/over-three-days-week-fox-news-promoted-antimalarial-drug-treatment-coronavirus-over-100" />
+<script src="/sites/default/files/google_tag/primary/google_tag.script.js?q8ufv0" defer></script>
+
+      <title>Over three days this week, Fox News promoted an antimalarial drug treatment for coronavirus over 100 times | Media Matters for America</title>
+      <link rel="stylesheet" media="all" href="/sites/default/files/css/css_vUt0GK4OfEXUi5i0VJuEV9nf8bDJwmJWZVb1Ca5G1yM.css?q8ufv0" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Barlow:400,400i,600,600i,700,700i" />
+<link rel="stylesheet" media="all" href="//use.typekit.net/jqh3ujo.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_hiQwHrJPWpdISXKZ1nJCAc7Qe5P13jMeoo2JuCow52A.css?q8ufv0" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_oGZ7OLJDM4FApNs8xyoZMUIkjUZCXrNP16OA9NXAcMA.css?q8ufv0" />
+
+        
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+</head>
+        <body class="path-node page-node-type-study">
+          <a href="#main-content" class="visually-hidden focusable skip-link">
+            Skip to main content
+          </a>
+          <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZKQJ2S" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="layout-container">
+  
+
+<header class="header" role="banner">
+  
+
+  <div class="header--upper">
+    <nav role="navigation" aria-labelledby="block-trending-menu-menu" id="block-trending-menu" class="trending-menu header--upper--covered">
+      
+  <h2 class="trending-menu--title" id="block-trending-menu-menu">Trending</h2>
+  
+
+        
+          <ul  class="menu menu--trending" data-depth="0">
+          <li  class="menu__item">
+        <a href="/coronavirus-covid-19" class="menu__link" data-drupal-link-system-path="node/2843621">Coronavirus</a>
+              </li>
+          <li  class="menu__item">
+        <a href="/kayleigh-mcenany/what-you-need-know-about-new-trump-press-secretary-kayleigh-mcenany" class="menu__link" data-drupal-link-system-path="node/2845911">Kayleigh McEnany</a>
+              </li>
+          <li  class="menu__item">
+        <a href="/coronavirus-covid-19/broadcast-networks-and-major-newspapers-continue-ignore-trumps-firing-pandemic" class="menu__link" data-drupal-link-system-path="node/2843971">Pandemic leadership teams dismissed</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+    <nav role="navigation" aria-labelledby="block-social-media-menu-header-menu" id="block-social-media-menu-header" class="header--upper--spacer">
+            
+  <h2 class="visually-hidden" id="block-social-media-menu-header-menu">Social Media Menu</h2>
+  
+
+        
+          <ul  class="menu menu--social-media" data-depth="0">
+              <li  class="menu__item">
+          <a href="https://www.facebook.com/Mediamatters/" class="menu__link">
+              <svg viewbox="0 0 24 24" class="icon icon--facebook"  aria-labelledby="icon-label--facebook" >
+          <title id="icon-label--facebook">Facebook</title>
+    
+    <use xlink:href="#facebook"></use>
+  </svg>
+
+          </a>
+
+                  </li>
+              <li  class="menu__item">
+          <a href="https://www.instagram.com/mediamattersforamerica/" class="menu__link">
+              <svg viewbox="0 0 24 24" class="icon icon--instagram"  aria-labelledby="icon-label--instagram" >
+          <title id="icon-label--instagram">Instagram</title>
+    
+    <use xlink:href="#instagram"></use>
+  </svg>
+
+          </a>
+
+                  </li>
+              <li  class="menu__item">
+          <a href="https://mediamattersforamerica.tumblr.com/" class="menu__link">
+              <svg viewbox="0 0 24 24" class="icon icon--tumblr"  aria-labelledby="icon-label--tumblr" >
+          <title id="icon-label--tumblr">Tumblr</title>
+    
+    <use xlink:href="#tumblr"></use>
+  </svg>
+
+          </a>
+
+                  </li>
+              <li  class="menu__item">
+          <a href="https://twitter.com/mmfa" class="menu__link">
+              <svg viewbox="0 0 24 24" class="icon icon--twitter"  aria-labelledby="icon-label--twitter" >
+          <title id="icon-label--twitter">Twitter</title>
+    
+    <use xlink:href="#twitter"></use>
+  </svg>
+
+          </a>
+
+                  </li>
+              <li  class="menu__item">
+          <a href="https://www.youtube.com/channel/UC_70iWZ6ym2cglS_kv5YfmA" class="menu__link">
+              <svg viewbox="0 0 24 24" class="icon icon--youtube"  aria-labelledby="icon-label--youtube" >
+          <title id="icon-label--youtube">YouTube</title>
+    
+    <use xlink:href="#youtube"></use>
+  </svg>
+
+          </a>
+
+                  </li>
+          </ul>
+  
+
+
+  </nav>
+
+    <nav role="navigation" aria-labelledby="block-utility-navigation-menu" id="block-utility-navigation">
+            
+  <h2 class="visually-hidden" id="block-utility-navigation-menu">Utility Navigation</h2>
+  
+
+        
+          <ul  class="menu menu--utility-navigation" data-depth="0">
+          <li  class="menu__item">
+        <a href="/take-action" class="menu__link" data-drupal-link-system-path="node/2827306">Take Action</a>
+              </li>
+          <li  class="menu__item">
+        <a href="/search" class="menu__link" data-drupal-link-system-path="search">Search</a>
+              </li>
+          <li  class="menu__item">
+        <a href="https://action.mediamatters.org/secure/donate" class="menu__link">Donate</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+<div class="header--search hidden"><div class="views-exposed-form search-box" data-drupal-selector="views-exposed-form-acquia-search-page" id="block-exposedformacquia-search">
+  
+    
+      <form action="/search" method="get" id="views-exposed-form-acquia-search-page" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-textfield form-item-search js-form-item-search form-no-label">
+      <label for="edit-search" class="visually-hidden">Search</label>
+        <input data-drupal-selector="edit-search" type="text" id="edit-search" name="search" value="" size="30" maxlength="128" placeholder="Search..." class="form-text" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><button  data-drupal-selector="edit-submit-acquia-search" type="submit" id="edit-submit-acquia-search" value="Search" class="button js-form-submit form-submit">
+    <svg viewbox="0 0 24 24" class="icon icon--search"  aria-labelledby="icon-label--search" >
+          <title id="icon-label--search">Search</title>
+    
+    <use xlink:href="#search"></use>
+  </svg>
+
+</button>
+</div>
+
+
+</form>
+
+  </div>
+</div>
+  <div class="header--lower">
+    <div class="header--inner l--constrained-narrow">
+      <div id="block-mmfa-theme-branding" class="header--logo">
+  
+    
+    
+
+<h1     
+  
+  
+  
+  
+ class="site-logo"
+>
+  <a
+    href="/"
+    title="Home"
+    rel="home"
+    class="site-logo--link"
+  >
+    <img
+      src="/themes/custom/mmfa_theme/logo.svg"
+      alt="Media Matters for America"
+      class="site-logo--image"
+    />
+  </a>
+</h1>
+</div>
+
+      <nav role="navigation" aria-labelledby="block-mmfa-theme-main-menu-menu" id="block-mmfa-theme-main-menu" class="header--navigation">
+            
+  <h2 class="visually-hidden" id="block-mmfa-theme-main-menu-menu">Main navigation</h2>
+  
+
+        
+          <ul  class="menu menu--main" data-depth="0">
+          <li  class="menu__item">
+        <a href="/news-analysis" class="menu__link" data-drupal-link-system-path="node/2833406">News &amp; Analysis</a>
+              </li>
+          <li  class="menu__item">
+        <a href="/studies" class="menu__link" data-drupal-link-system-path="node/2833411">Research &amp; Studies</a>
+              </li>
+          <li  class="menu__item">
+        <a href="/audio-video" class="menu__link" data-drupal-link-system-path="node/2833416">Audio &amp; Video</a>
+              </li>
+          <li  class="menu__item">
+        <a href="/archives" class="menu__link" data-drupal-link-system-path="archives">Archives</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+    </div>
+  </div>
+</header>
+
+  
+
+<header class="header--mobile nav-down" role="banner">
+  
+
+  <div class="header--upper">
+    <div id="block-mmfa-theme-branding" class="header--logo">
+  
+    
+    
+
+<h1     
+  
+  
+  
+  
+ class="site-logo"
+>
+  <a
+    href="/"
+    title="Home"
+    rel="home"
+    class="site-logo--link"
+  >
+    <img
+      src="/themes/custom/mmfa_theme/logo.svg"
+      alt="Media Matters for America"
+      class="site-logo--image"
+    />
+  </a>
+</h1>
+</div>
+
+
+    <ul class="menu menu--mobile-nav">
+      <li class="menu__item"><a href="#" class="menu__link mobile-nav">Nav</a></li>
+      <li class="menu__item"><a href="#" class="menu__link mobile-search">Search</a></li>
+    </ul>
+  </div>
+  <div class="header--search hidden"><div class="views-exposed-form search-box" data-drupal-selector="views-exposed-form-acquia-search-page" id="block-exposedformacquia-search">
+  
+    
+      <form action="/search" method="get" id="views-exposed-form-acquia-search-page" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-textfield form-item-search js-form-item-search form-no-label">
+      <label for="edit-search" class="visually-hidden">Search</label>
+        <input data-drupal-selector="edit-search" type="text" id="edit-search" name="search" value="" size="30" maxlength="128" placeholder="Search..." class="form-text" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><button  data-drupal-selector="edit-submit-acquia-search" type="submit" id="edit-submit-acquia-search" value="Search" class="button js-form-submit form-submit">
+    <svg viewbox="0 0 24 24" class="icon icon--search"  aria-labelledby="icon-label--search" >
+          <title id="icon-label--search">Search</title>
+    
+    <use xlink:href="#search"></use>
+  </svg>
+
+</button>
+</div>
+
+
+</form>
+
+  </div>
+</div>
+  <div class="header--mobile-menu hidden">
+    <nav role="navigation" aria-labelledby="block-mmfa-theme-main-menu-menu" id="block-mmfa-theme-main-menu" class="header--navigation">
+            
+  <h2 class="visually-hidden" id="block-mmfa-theme-main-menu-menu">Main navigation</h2>
+  
+
+        
+          <ul  class="menu menu--main" data-depth="0">
+          <li  class="menu__item">
+        <a href="/news-analysis" class="menu__link" data-drupal-link-system-path="node/2833406">News &amp; Analysis</a>
+              </li>
+          <li  class="menu__item">
+        <a href="/studies" class="menu__link" data-drupal-link-system-path="node/2833411">Research &amp; Studies</a>
+              </li>
+          <li  class="menu__item">
+        <a href="/audio-video" class="menu__link" data-drupal-link-system-path="node/2833416">Audio &amp; Video</a>
+              </li>
+          <li  class="menu__item">
+        <a href="/archives" class="menu__link" data-drupal-link-system-path="archives">Archives</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+    <div class="header--inner l--constrained-narrow header--lower-bottom">
+      <nav role="navigation" aria-labelledby="block-trending-menu-menu" id="block-trending-menu" class="trending-menu header--upper--covered">
+      
+  <h2 class="trending-menu--title" id="block-trending-menu-menu">Trending</h2>
+  
+
+        
+          <ul  class="menu menu--trending" data-depth="0">
+          <li  class="menu__item">
+        <a href="/coronavirus-covid-19" class="menu__link" data-drupal-link-system-path="node/2843621">Coronavirus</a>
+              </li>
+          <li  class="menu__item">
+        <a href="/kayleigh-mcenany/what-you-need-know-about-new-trump-press-secretary-kayleigh-mcenany" class="menu__link" data-drupal-link-system-path="node/2845911">Kayleigh McEnany</a>
+              </li>
+          <li  class="menu__item">
+        <a href="/coronavirus-covid-19/broadcast-networks-and-major-newspapers-continue-ignore-trumps-firing-pandemic" class="menu__link" data-drupal-link-system-path="node/2843971">Pandemic leadership teams dismissed</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+    </div>
+
+    <div class="header--inner l--constrained-narrow">
+      <nav role="navigation" aria-labelledby="block-utility-navigation-menu" id="block-utility-navigation">
+            
+  <h2 class="visually-hidden" id="block-utility-navigation-menu">Utility Navigation</h2>
+  
+
+        
+          <ul  class="menu menu--utility-navigation" data-depth="0">
+          <li  class="menu__item">
+        <a href="/take-action" class="menu__link" data-drupal-link-system-path="node/2827306">Take Action</a>
+              </li>
+          <li  class="menu__item">
+        <a href="/search" class="menu__link" data-drupal-link-system-path="search">Search</a>
+              </li>
+          <li  class="menu__item">
+        <a href="https://action.mediamatters.org/secure/donate" class="menu__link">Donate</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+      <nav role="navigation" aria-labelledby="block-social-media-menu-header-menu" id="block-social-media-menu-header" class="header--upper--spacer">
+            
+  <h2 class="visually-hidden" id="block-social-media-menu-header-menu">Social Media Menu</h2>
+  
+
+        
+          <ul  class="menu menu--social-media" data-depth="0">
+              <li  class="menu__item">
+          <a href="https://www.facebook.com/Mediamatters/" class="menu__link">
+              <svg viewbox="0 0 24 24" class="icon icon--facebook"  aria-labelledby="icon-label--facebook" >
+          <title id="icon-label--facebook">Facebook</title>
+    
+    <use xlink:href="#facebook"></use>
+  </svg>
+
+          </a>
+
+                  </li>
+              <li  class="menu__item">
+          <a href="https://www.instagram.com/mediamattersforamerica/" class="menu__link">
+              <svg viewbox="0 0 24 24" class="icon icon--instagram"  aria-labelledby="icon-label--instagram" >
+          <title id="icon-label--instagram">Instagram</title>
+    
+    <use xlink:href="#instagram"></use>
+  </svg>
+
+          </a>
+
+                  </li>
+              <li  class="menu__item">
+          <a href="https://mediamattersforamerica.tumblr.com/" class="menu__link">
+              <svg viewbox="0 0 24 24" class="icon icon--tumblr"  aria-labelledby="icon-label--tumblr" >
+          <title id="icon-label--tumblr">Tumblr</title>
+    
+    <use xlink:href="#tumblr"></use>
+  </svg>
+
+          </a>
+
+                  </li>
+              <li  class="menu__item">
+          <a href="https://twitter.com/mmfa" class="menu__link">
+              <svg viewbox="0 0 24 24" class="icon icon--twitter"  aria-labelledby="icon-label--twitter" >
+          <title id="icon-label--twitter">Twitter</title>
+    
+    <use xlink:href="#twitter"></use>
+  </svg>
+
+          </a>
+
+                  </li>
+              <li  class="menu__item">
+          <a href="https://www.youtube.com/channel/UC_70iWZ6ym2cglS_kv5YfmA" class="menu__link">
+              <svg viewbox="0 0 24 24" class="icon icon--youtube"  aria-labelledby="icon-label--youtube" >
+          <title id="icon-label--youtube">YouTube</title>
+    
+    <use xlink:href="#youtube"></use>
+  </svg>
+
+          </a>
+
+                  </li>
+          </ul>
+  
+
+
+  </nav>
+
+    </div>
+  </div>
+</header>
+
+  
+
+  
+
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+
+
+  <main role="main" class="l--constrained-wide l--main-grid">
+        <a id="main-content" class="anchor-target" tabindex="-1"></a>
+
+    <div     
+  
+                  
+  
+                  
+ class="page-gutter layout-content layout-content--main"
+>
+    <div id="block-mmfa-theme-content">
+  
+    
+      
+
+<article  role="article" about="/fox-news/over-three-days-week-fox-news-promoted-antimalarial-drug-treatment-coronavirus-over-100" class="editorial-full editorial-full--framed">
+  <header class="l--gutter-pull editorial-full__header editorial-full__header-banner">
+    
+            <div class="field field--name-field-primary-media field--type-entity-reference field--label-hidden field__item">
+
+<figure class="media media--image editorial-banner">
+    <img src="https://cloudfront.mediamatters.org/styles/crop_900x480/s3/static/D8Audio/2020/03/27/the_ingraham_angle_-_10_14_30_pm.jpg?itok=DKkG-U4p" width="900" height="480" alt="March 25, 2020 edition of The Ingraham Angle on hydroxychloroquine treatment for coronavirus" typeof="foaf:Image" />
+
+
+
+  
+</figure>
+</div>
+      
+
+    <div class="editorial-full__header-inner">
+      
+
+<p     
+  
+                  
+  
+  
+ class="editorial-full__tag tag"
+>
+      <span class="tag__icon">
+        <svg viewbox="0 0 24 24" class="icon icon--study"  aria-labelledby="icon-label--study" >
+          <title id="icon-label--study">Research/Study</title>
+    
+    <use xlink:href="#study"></use>
+  </svg>
+
+    </span>
+  
+  <span class="tag__text">
+    Research/Study
+  </span>
+</p>
+
+      
+      
+<h1     
+  
+                  
+  
+  
+ class="editorial-full__title page-title"
+><span>Over three days this week, Fox News promoted an antimalarial drug treatment for coronavirus over 100 times</span>
+</h1>
+      
+
+      
+  
+  <p     
+  
+  
+  
+  
+ class="subtitle"
+>Fox’s promotion of chloroquine and hydroxychloroquine as possible treatments downplays the risk of the disease</p>
+
+
+      
+
+      
+
+  <p class="byline"><span class="byline__label">Written by</span> <a href="/author/rob-savillo" hreflang="en">Rob Savillo</a></p>
+
+
+
+              
+
+      
+  <p class="byline"><span class="byline__label">Research contributions from</span> <a href="/author/tyler-monroe" hreflang="en">Tyler Monroe</a>, <a href="/author/chloe-simon" hreflang="en">Chloe Simon</a> &amp; <a href="/author/marcus-mills" hreflang="en">Marcus Mills</a></p>
+
+
+      
+      
+
+<div class="dateline--group">
+      
+    <p class="dateline">
+      <span class="dateline__label">Published</span>
+      <time datetime="2020-03-27T16:37:24-0400">03/27/20 4:37 PM EDT</time>
+    </p>
+            <div class="dateline__divider"></div>
+    
+    <p class="dateline">
+      <span class="dateline__label">Updated</span>
+      <time datetime="2020-04-06T15:42:05-0400">04/06/20 3:42 PM EDT</time>
+    </p>
+  </div>
+
+      
+
+<aside class="social-share">
+  <div class="social-share__services">
+    <p class="social-share__title">Share</p>
+
+    <ul class="social-share__items">
+              <li class="social-share__item"><a
+  href="http://api.addthis.com/oexchange/0.8/forward/email/offer?url=https%3A%2F%2Fwww.mediamatters.org%2Ffox-news%2Fover-three-days-week-fox-news-promoted-antimalarial-drug-treatment-coronavirus-over-100&amp;pubid=ra-5c12cfc37af14d90&amp;title=Over%20three%20days%20this%20week%2C%20Fox%20News%20promoted%20an%20antimalarial%20drug%20treatment%20for%20coronavirus%20over%20100%20times"
+  class="social-share__link"
+  rel="noopener noreferrer"
+  target="_blank"
+>
+    <svg viewbox="0 0 24 24" class="icon icon--email"  aria-labelledby="icon-label--email" >
+          <title id="icon-label--email">Email</title>
+    
+    <use xlink:href="#email"></use>
+  </svg>
+
+</a>
+</li>
+              <li class="social-share__item"><a
+  href="http://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https%3A%2F%2Fwww.mediamatters.org%2Ffox-news%2Fover-three-days-week-fox-news-promoted-antimalarial-drug-treatment-coronavirus-over-100&amp;pubid=ra-5c12cfc37af14d90&amp;title=Over%20three%20days%20this%20week%2C%20Fox%20News%20promoted%20an%20antimalarial%20drug%20treatment%20for%20coronavirus%20over%20100%20times"
+  class="social-share__link"
+  rel="noopener noreferrer"
+  target="_blank"
+>
+    <svg viewbox="0 0 24 24" class="icon icon--twitter"  aria-labelledby="icon-label--twitter" >
+          <title id="icon-label--twitter">Twitter</title>
+    
+    <use xlink:href="#twitter"></use>
+  </svg>
+
+</a>
+</li>
+              <li class="social-share__item"><a
+  href="http://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https%3A%2F%2Fwww.mediamatters.org%2Ffox-news%2Fover-three-days-week-fox-news-promoted-antimalarial-drug-treatment-coronavirus-over-100&amp;pubid=ra-5c12cfc37af14d90&amp;title=Over%20three%20days%20this%20week%2C%20Fox%20News%20promoted%20an%20antimalarial%20drug%20treatment%20for%20coronavirus%20over%20100%20times&amp;screenshot=https%3A%2F%2Fcloudfront.mediamatters.org%2Fstatic%2FD8Audio%2F2020%2F03%2F27%2Fthe_ingraham_angle_-_10_14_30_pm.jpg"
+  class="social-share__link"
+  rel="noopener noreferrer"
+  target="_blank"
+>
+    <svg viewbox="0 0 24 24" class="icon icon--facebook"  aria-labelledby="icon-label--facebook" >
+          <title id="icon-label--facebook">Facebook</title>
+    
+    <use xlink:href="#facebook"></use>
+  </svg>
+
+</a>
+</li>
+      
+      <li class="social-share__item">
+        <a href="javascript:window.print();" class="social-share__link">
+            <svg viewbox="0 0 24 24" class="icon icon--printer"  aria-labelledby="icon-label--printer" >
+          <title id="icon-label--printer">Print</title>
+    
+    <use xlink:href="#printer"></use>
+  </svg>
+
+        </a>
+      </li>
+    </ul>
+  </div>
+
+      <div class="social-share__comments">
+      <p class="social-share__title">Comment</p>
+
+      <ul class="social-share__items">
+        <li class="social-share__item">
+          <a href="#comments" class="social-share__link">
+              <svg viewbox="0 0 24 24" class="icon icon--comments"  aria-labelledby="icon-label--comments" >
+          <title id="icon-label--comments">Comments</title>
+    
+    <use xlink:href="#comments"></use>
+  </svg>
+
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+    </div>
+  </header>
+
+  
+  
+
+  <div class="editorial-full__article">
+    
+
+
+
+
+<ul     
+  
+                  
+  
+  
+ class="field field--name-field-stories-content field--type-entity-reference-revisions field--label-hidden l--gutter-pull narrative-list"
+>
+      <li     
+  
+                  
+  
+  
+ class="narrative-list__item-bullet narrative-list__item"
+>
+        <div class="paragraph paragraph--type--stories-text paragraph--view-mode--editorial">
+          
+            <div class="fancy-elems-wrapper field field--name-field-stories-text-formatted field--type-text-long field--label-hidden field__item"><p><em><strong>Update</strong></em><strong>:</strong> Media Matters continued to track claims promoting and questioning the use of hydroxychloroquine or chloroquine through March 29. In segments about the antimalarial drugs, Fox News personalities and guests promoted the use of this drug treatment 146 times. By contrast, CNN's journalists and guests did so only five times while MSNBC's did not promote the use of the drugs at all.</p>
+</div>
+      
+      </div>
+
+    </li>
+      <li     
+  
+                  
+  
+  
+ class="narrative-list__item-bullet narrative-list__item"
+>
+        <div class="l--gutter-pull paragraph paragraph--type--stories-image paragraph--view-mode--editorial">
+          
+            <div class="field field--name-field-stories-image field--type-entity-reference field--label-hidden field__item"><figure class="media media--image" role="group">
+  
+    <img src="https://cloudfront.mediamatters.org/styles/scale_w1024/s3/static/D8Image/2020/04/06/hcl-cablecoverage2.png?itok=EW9zmwoq" width="1024" height="972" alt="Cable news coverage of chloroquine and hydroxychloroquine" typeof="foaf:Image" />
+
+
+
+
+
+      
+
+<figcaption     
+  
+                  
+  
+                  
+ class="media-player__caption block-quote block-quote--minor"
+>
+  
+  </figcaption>
+  </figure>
+</div>
+      
+      </div>
+
+    </li>
+      <li     
+  
+                  
+  
+  
+ class="narrative-list__item-bullet narrative-list__item"
+>
+        <div class="paragraph paragraph--type--stories-text paragraph--view-mode--editorial">
+          
+            <div class="fancy-elems-wrapper field field--name-field-stories-text-formatted field--type-text-long field--label-hidden field__item"><p><strong><em>Original report: </em></strong><meta charset="utf-8" />This week, Fox News has continued its <a href="https://www.mediamatters.org/coronavirus-covid-19/trump-promoting-unproven-covid-19-cure-after-reckless-speculation-fox-news">reckless speculation and endorsement</a> of two antimalarial drugs, chloroquine and hydroxychloroquine, as treatment for the coronavirus. Fox’s promotion comes as President Donald Trump <a href="https://www.cnn.com/2020/03/26/politics/trump-governors-guidlines/index.html">reviews</a> relaxing potential social distancing guidelines despite <a href="https://www.washingtonpost.com/world/2020/03/23/coronavirus-latest-news/">warnings</a> against such a move from health experts. The network’s personalities and guests promoted the use of the drugs <a href="https://cloudfront.mediamatters.org/static/D8Image/2020/03/27/chlhy.png">over 100 times</a> from March 23 through 25, creating a dangerous false impression of a working treatment for the deadly disease. By contrast, Fox hardly discussed the <a href="https://www.nytimes.com/2020/03/19/health/coronavirus-drugs-chloroquine.html">lack of evidence</a> for the medications’ efficacy in treating COVID-19.</p>
+</div>
+      
+      </div>
+
+    </li>
+      <li     
+  
+                  
+  
+  
+ class="narrative-list__item-bullet narrative-list__item"
+>
+        <div class="paragraph paragraph--type--stories-text paragraph--view-mode--editorial">
+          
+            <div class="fancy-elems-wrapper field field--name-field-stories-text-formatted field--type-text-long field--label-hidden field__item"><p><meta charset="utf-8" />MSNBC’s journalists and guests did not make any claims promoting the use of either drug in the period studied, and CNN’s journalists and guests did so only three times. And both networks were more likely than Fox to discuss the medications’ unproven ability to treat coronavirus. CNN made such points 33 times -- more than twice as often as Fox. MSNBC’s coverage included only doubts about chloroquine and hydroxychloroquine.</p>
+</div>
+      
+      </div>
+
+    </li>
+      <li     
+  
+                  
+  
+  
+ class="narrative-list__item-bullet narrative-list__item"
+>
+        <div class="paragraph paragraph--type--stories-text paragraph--view-mode--editorial">
+          
+            <div class="fancy-elems-wrapper field field--name-field-stories-text-formatted field--type-text-long field--label-hidden field__item"><p><meta charset="utf-8" />Both networks spent much more time on claims casting doubt on the treatments than Fox did. CNN and MSNBC each spent around a half-hour over the three-day period while Fox gave such doubts only seven minutes. By contrast, Fox spent <a href="https://cloudfront.mediamatters.org/static/D8Image/2020/03/27/chlhy-time_0.png">nearly 90 minutes</a> promoting the use of the drugs. CNN only spent five minutes doing that, and MSNBC did not spend any time at all.</p>
+<p>Fox personalities and guests who advocated for chloroquine and hydroxychloroquine most often were television personality Mehmet Oz, known professionally as Dr. Oz; <em>The Ingraham Angle</em> host Laura Ingraham; <em>Hannity</em> host Sean Hannity; and <em>Fox &amp; Friends</em> hosts Steve Doocy, Brian Kilmeade, and Ainsley Earhardt. Hannity and Trump frequently <a href="https://nymag.com/intelligencer/2018/05/sean-hannity-donald-trump-late-night-calls.html">engage</a> in late-night phone calls, and <em>Fox &amp; Friends</em> is the president’s go-to <a href="https://www.newyorker.com/magazine/2018/01/15/how-fox-and-friends-rewrites-trumps-reality">morning</a> <a href="https://www.washingtonpost.com/news/the-fix/wp/2018/06/15/trump-turned-fox-friends-into-his-personal-reality-show/">show</a>.</p>
+<p>Fox’s focus on the antimalarial drugs comes just as the United States has surpassed China to become the country with <a href="https://www.nytimes.com/2020/03/26/health/usa-coronavirus-cases.html">the most confirmed cases</a> of coronavirus in the world. As Trump considers plans to <a href="https://www.vox.com/policy-and-politics/2020/3/26/21195800/trump-easing-social-distancing-guidelines">ease</a> federal guidelines on social distancing and expresses a <a href="https://www.politico.com/news/2020/03/24/trump-wants-to-restart-economy-by-mid-april-146398">desire</a> to “have the country opened up and just raring to go by Easter” -- propositions that both <a href="https://www.wsj.com/articles/trump-hopes-to-have-u-s-reopened-by-easter-despite-health-experts-guidance-11585073462">health experts</a> and <a href="https://www.cnn.com/2020/03/25/business/economy-recession-coronavirus-trump-easter/index.html">economists</a> believe could have disastrous consequences -- Fox’s promotion of the drugs obscures the very real possibility of <a href="https://www.theatlantic.com/health/archive/2020/03/how-will-coronavirus-end/608719/">a worsening pandemic</a>.</p>
+<p>Already, Americans have begun hoarding these medications, which has led to <a href="https://www.propublica.org/article/lupus-patients-cant-get-crucial-medication-after-president-trump-pushes-unproven-coronavirus-treatment">a shortage</a> for patients who need them to treat conditions for which the drugs are actually meant. And an Arizona man <a href="https://www.nbcnews.com/health/health-news/man-dies-after-ingesting-chloroquine-attempt-prevent-coronavirus-n1167166">died</a> after he and his wife ingested chloroquine phosphate, rather than hydroxychloroquine, upon hearing the antimalarial drugs discussed on television.</p>
+</div>
+      
+      </div>
+
+    </li>
+      <li     
+  
+                            
+  
+  
+ id="paragraph--section-heading--3298481" class="narrative-list__item-divider narrative-list__item"
+>
+        <div class="paragraph paragraph--type--section-heading paragraph--view-mode--editorial">
+          
+  
+
+<h2     
+  
+                  
+  
+  
+ class="field field--name-field-section-heading-text field--type-string field--label-hidden section-heading"
+>
+  <span>Methodology</span>
+</h2>
+
+      </div>
+
+    </li>
+      <li     
+  
+                  
+  
+  
+ class="narrative-list__item-bullet narrative-list__item"
+>
+        <div class="paragraph paragraph--type--stories-text paragraph--view-mode--editorial">
+          
+            <div class="fancy-elems-wrapper field field--name-field-stories-text-formatted field--type-text-long field--label-hidden field__item"><p><meta charset="utf-8" /></p>
+<p dir="ltr">Media Matters searched transcripts in the SnapStream and iQ media video databases for segments with any of the terms “hydroxychloroquine,” "malaria drug,” “antimalarial,” “azithromycin,” or any words with the roots “hydro” or “chloro” on CNN, Fox News Channel, and MSNBC from March 23 through 25, 2020.</p>
+<p>We included segments about the drugs in our analysis. Within those segments, we counted the number of claims that either promoted the use of the drugs or that cast doubt on the efficacy of the drugs. We defined a single claim as an uninterrupted block of speech. For news packages, we considered clips supporting statements from a speaker as part of that speaker’s block of speech. We timed each claim individually. Times are rounded to the nearest minute.</p>
+<p>We counted as promotion of the use of chloroquine or hydroxychloroquine any claims that encouraged the use of the drugs, including statements endorsing such treatments currently in use, mentions of personal use of such treatments, and expressions of hope or optimism that such treatments will work. We included any statements indicating that the drugs saved someone’s life as promotion.</p>
+<p>We counted as casting doubt on the efficacy of chloroquine or hydroxychloroquine any claims about the lack of clinical trials, the lack of solid scientific data or information, or the dangers of such treatments.</p>
+</div>
+      
+      </div>
+
+    </li>
+  </ul>
+
+  </div>
+
+  
+</article>
+
+  </div>
+
+
+</div>
+      <aside class="layout-sidebar-first spotted-cap spotted-cap--right" role="complementary">
+      
+
+  <section  class="views-element-container aside-block--tint aside-block" id="block-editorial-lists-the-latest">
+    
+          <h3  class="aside-block__title">The Latest</h3>
+        
+
+    <div class="aside-block__body">
+              <div><div class="js-view-dom-id-17c7d69c90584d67b4f01be9cf982d4988dc4eff9e6d81fcbacd16058da38d5d">
+  
+  
+  
+
+  
+  
+  
+
+  <div>
+  
+  <ol class="editorial-list">
+
+          <li class="editorial-list__item">
+
+<article role="article" about="/coronavirus-covid-19/fox-co-host-attacks-michigan-governor-criticizing-swastikas-social-distancing" class="article article--compact editorial-compact">
+  
+  <h3 class="editorial-compact__title">
+    <a href="/coronavirus-covid-19/fox-co-host-attacks-michigan-governor-criticizing-swastikas-social-distancing"><span>Fox co-host attacks Michigan governor for criticizing swastikas at social distancing protest, claims they were being displayed ironically</span>
+</a>
+  </h3>
+  
+
+  
+
+<p class="dateline-compact">
+      <span class="dateline-compact__type">
+        <svg viewbox="0 0 24 24" class="icon icon--video"  aria-labelledby="icon-label--video" >
+          <title id="icon-label--video">Video &amp; Audio</title>
+    
+    <use xlink:href="#video"></use>
+  </svg>
+
+    </span>
+  
+  <time datetime="2020-04-17T18:21:47-0400">04/17/20 6:21 PM EDT</time>
+</p>
+</article>
+</li>
+          <li class="editorial-list__item">
+
+<article role="article" about="/coronavirus-covid-19/fox-senior-vp-wishes-good-luck-california-protest-against-social-distancing" class="article article--compact editorial-compact">
+  
+  <h3 class="editorial-compact__title">
+    <a href="/coronavirus-covid-19/fox-senior-vp-wishes-good-luck-california-protest-against-social-distancing"><span>Fox senior VP wishes  “good luck”  to California protest against social distancing</span>
+</a>
+  </h3>
+  
+
+  
+
+<p class="dateline-compact">
+      <span class="dateline-compact__type">
+        <svg viewbox="0 0 24 24" class="icon icon--video"  aria-labelledby="icon-label--video" >
+          <title id="icon-label--video">Video &amp; Audio</title>
+    
+    <use xlink:href="#video"></use>
+  </svg>
+
+    </span>
+  
+  <time datetime="2020-04-17T17:34:30-0400">04/17/20 5:34 PM EDT</time>
+</p>
+</article>
+</li>
+          <li class="editorial-list__item">
+
+<article role="article" about="/coronavirus-covid-19/cheering-protests-against-social-distancing-rush-limbaugh-likens-risks-opening" class="article article--compact editorial-compact">
+  
+  <h3 class="editorial-compact__title">
+    <a href="/coronavirus-covid-19/cheering-protests-against-social-distancing-rush-limbaugh-likens-risks-opening"><span>Cheering protests against social distancing, Rush Limbaugh likens risks from opening the economy to risks of fighting in world wars</span>
+</a>
+  </h3>
+  
+
+  
+
+<p class="dateline-compact">
+      <span class="dateline-compact__type">
+        <svg viewbox="0 0 24 24" class="icon icon--video"  aria-labelledby="icon-label--video" >
+          <title id="icon-label--video">Video &amp; Audio</title>
+    
+    <use xlink:href="#video"></use>
+  </svg>
+
+    </span>
+  
+  <time datetime="2020-04-17T14:57:26-0400">04/17/20 2:57 PM EDT</time>
+</p>
+</article>
+</li>
+          <li class="editorial-list__item">
+
+<article role="article" about="/coronavirus-covid-19/fox-news-repeatedly-cited-medical-journal-lancet-it-just-published-scathing" typeof="schema:Article" class="article article--compact editorial-compact">
+  
+  <h3 class="editorial-compact__title">
+    <a href="/coronavirus-covid-19/fox-news-repeatedly-cited-medical-journal-lancet-it-just-published-scathing"><span property="schema:name">Fox News repeatedly cited medical journal The Lancet. It just published a scathing critique of Trump’s COVID-19 response.</span>
+</a>
+  </h3>
+    <span property="schema:name" content="Fox News repeatedly cited medical journal The Lancet. It just published a scathing critique of Trump’s COVID-19 response." class="hidden"></span>
+
+
+  
+
+<p class="dateline-compact">
+      <span class="dateline-compact__type">
+        <svg viewbox="0 0 24 24" class="icon icon--article"  aria-labelledby="icon-label--article" >
+          <title id="icon-label--article">Article</title>
+    
+    <use xlink:href="#article"></use>
+  </svg>
+
+    </span>
+  
+  <time datetime="2020-04-17T13:05:48-0400">04/17/20 1:05 PM EDT</time>
+</p>
+</article>
+</li>
+          <li class="editorial-list__item">
+
+<article role="article" about="/coronavirus-covid-19/trump-tweets-praise-right-wing-protests-against-social-distancing-measures" typeof="schema:Article" class="article article--compact editorial-compact">
+  
+  <h3 class="editorial-compact__title">
+    <a href="/coronavirus-covid-19/trump-tweets-praise-right-wing-protests-against-social-distancing-measures"><span property="schema:name">Trump tweets praise of right-wing protests against social distancing measures after Fox segment</span>
+</a>
+  </h3>
+    <span property="schema:name" content="Trump tweets praise of right-wing protests against social distancing measures after Fox segment" class="hidden"></span>
+
+
+  
+
+<p class="dateline-compact">
+      <span class="dateline-compact__type">
+        <svg viewbox="0 0 24 24" class="icon icon--article"  aria-labelledby="icon-label--article" >
+          <title id="icon-label--article">Article</title>
+    
+    <use xlink:href="#article"></use>
+  </svg>
+
+    </span>
+  
+  <time datetime="2020-04-17T12:55:48-0400">04/17/20 12:55 PM EDT</time>
+</p>
+</article>
+</li>
+    
+  </ol>
+
+</div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+          </div>
+  </section>
+
+
+  <section  class="views-element-container aside-block" id="block-editorial-public-tags">
+    
+          <h3  class="aside-block__title">In This Article</h3>
+        
+
+    <div class="aside-block__body">
+              <div><div class="js-view-dom-id-bfde599a2aeed3e736e630277852a6bd8a28b2a93d29a31949a75cd658f914b8">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+<ul  class="field field--name-field-public-tags field--label-hidden editorial-list editorial-list--collapse field__items" data-editorial-list-collapse="3">
+      <li  class="field__item editorial-list__item">
+      
+
+<article  role="article" about="/fox-news" class="public-tag public-tag--compact public-tag-compact">
+  
+  
+  <a href="/fox-news" class="public-tag-compact__link">
+    <h3 class="public-tag-compact__title">
+      <span>Fox News</span>
+
+    </h3>
+
+    
+            <div class="public-tag-compact__figure field field--name-field-primary-media field--type-entity-reference field--label-hidden field__item"><figure class="media media--image" role="group">
+  
+    <img src="https://cloudfront.mediamatters.org/styles/scale_180px/s3/static/d8PublicTagsImages/Networks-Outlets/Fox-News-MMFA-Tag.png?itok=W1UnGnOw" width="180" height="127" alt="Fox-News-MMFA-Tag.png" title="Fox-News-MMFA-Tag" typeof="foaf:Image" />
+
+
+
+
+
+  </figure>
+</div>
+      
+  </a>
+</article>
+
+    </li>
+      <li  class="field__item editorial-list__item">
+      
+
+<article  role="article" about="/cnn" class="public-tag public-tag--compact public-tag-compact">
+  
+  
+  <a href="/cnn" class="public-tag-compact__link">
+    <h3 class="public-tag-compact__title">
+      <span>CNN</span>
+
+    </h3>
+
+    
+            <div class="public-tag-compact__figure field field--name-field-primary-media field--type-entity-reference field--label-hidden field__item"><figure class="media media--image" role="group">
+  
+    <img src="https://cloudfront.mediamatters.org/styles/scale_180px/s3/static/d8PublicTagsImages/Networks-Outlets/CNN-MMFA-Tag.png?itok=6MunLztf" width="180" height="127" alt="CNN-MMFA-Tag.png" title="CNN-MMFA-Tag" typeof="foaf:Image" />
+
+
+
+
+
+  </figure>
+</div>
+      
+  </a>
+</article>
+
+    </li>
+      <li  class="field__item editorial-list__item">
+      
+
+<article  role="article" about="/msnbc" class="public-tag public-tag--compact public-tag-compact">
+  
+  
+  <a href="/msnbc" class="public-tag-compact__link">
+    <h3 class="public-tag-compact__title">
+      <span>MSNBC</span>
+
+    </h3>
+
+    
+            <div class="public-tag-compact__figure field field--name-field-primary-media field--type-entity-reference field--label-hidden field__item"><figure class="media media--image" role="group">
+  
+    <img src="https://cloudfront.mediamatters.org/styles/scale_180px/s3/static/d8PublicTagsImages/Networks-Outlets/MSNBC-MMFA-Tag.png?itok=dblH2hpP" width="180" height="127" alt="MSNBC-MMFA-Tag.png" title="MSNBC-MMFA-Tag" typeof="foaf:Image" />
+
+
+
+
+
+  </figure>
+</div>
+      
+  </a>
+</article>
+
+    </li>
+      <li  class="field__item editorial-list__item">
+      
+
+<article  role="article" about="/coronavirus-covid-19" class="public-tag public-tag--compact public-tag-compact">
+  
+  
+  <a href="/coronavirus-covid-19" class="public-tag-compact__link">
+    <h3 class="public-tag-compact__title">
+      <span>Coronavirus (COVID-19)</span>
+
+    </h3>
+
+    
+            <div class="public-tag-compact__figure field field--name-field-primary-media field--type-entity-reference field--label-hidden field__item"><figure class="media media--image" role="group">
+  
+    <img src="https://cloudfront.mediamatters.org/styles/scale_180px/s3/static/D8Audio/2020/02/26/coronavirus-covid19-tag.png?itok=YZLqGMLq" width="180" height="127" alt="Covid-19 / Coronavirus" typeof="foaf:Image" />
+
+
+
+
+
+  </figure>
+</div>
+      
+  </a>
+</article>
+
+    </li>
+  </ul>
+
+</div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+          </div>
+  </section>
+
+
+  <section  id="block-mmfa-share-count-block" class="aside-block--tint aside-block">
+    
+        
+
+    <div class="aside-block__body">
+              
+
+
+<div
+  class="social-share-counter"
+  data-share-url="https://www.mediamatters.org/fox-news/over-three-days-week-fox-news-promoted-antimalarial-drug-treatment-coronavirus-over-100"
+  data-share-services="facebook"
+>
+  <div class="social-share-counter__comments">
+    <div class="icon">
+          <svg viewbox="0 0 24 24" class="icon icon--comments"  aria-labelledby="icon-label--comments" >
+          <title id="icon-label--comments">Comments</title>
+    
+    <use xlink:href="#comments"></use>
+  </svg>
+
+    </div>
+
+    <div class="text">
+      <span class="talk_comment_count">0 Comments</span>
+
+              <script src="https://talk.mmfa.io/static/embed/count.js?notext"></script>
+          </div>
+  </div>
+
+  <div class="social-share-counter__shares">
+    <div class="icon">
+        <svg viewbox="0 0 24 24" class="icon icon--share-count"  aria-labelledby="icon-label--share-count" >
+          <title id="icon-label--share-count">Share Count</title>
+    
+    <use xlink:href="#share-count"></use>
+  </svg>
+
+    </div>
+
+    <div class="text">
+      <span class="count">0</span> <span class="label">Shares</span>
+    </div>
+  </div>
+</div>
+
+          </div>
+  </section>
+
+
+  </aside>
+
+    
+    <div     
+  
+  
+  
+                            
+ class="layout-content layout-content--main layout-content--main-lower"
+>
+    <div class="views-element-container" id="block-editorial-post-content">
+  
+    
+      <div><div class="js-view-dom-id-eec3fddf83ff08c753baaacc17c2d5714330c81ed723a630aa2e29f13143b362">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row"><div class="editorial-full__post">
+  
+<aside  class="editorial-full__related field field--name-field-related field--label-above spotted-cap">
+      
+
+<h2     
+  
+        
+  
+  
+ class="section-title"
+>
+      Related
+          </h2>
+  
+  <div class="aside-block aside-block--tint aside-block--wide l--gutter-pull">
+    <ol class="editorial-list editorial-list--inline field__items">
+              <li  class="field__item editorial-list__item">
+          
+
+<article role="article" about="/coronavirus-covid-19/fox-co-host-attacks-michigan-governor-criticizing-swastikas-social-distancing" class="article article--compact editorial-compact">
+  
+  <h3 class="editorial-compact__title">
+    <a href="/coronavirus-covid-19/fox-co-host-attacks-michigan-governor-criticizing-swastikas-social-distancing"><span>Fox co-host attacks Michigan governor for criticizing swastikas at social distancing protest, claims they were being displayed ironically</span>
+</a>
+  </h3>
+  
+
+  
+
+<p class="dateline-compact">
+      <span class="dateline-compact__type">
+        <svg viewbox="0 0 24 24" class="icon icon--video"  aria-labelledby="icon-label--video" >
+          <title id="icon-label--video">Video &amp; Audio</title>
+    
+    <use xlink:href="#video"></use>
+  </svg>
+
+    </span>
+  
+  <time datetime="2020-04-17T18:21:47-0400">04/17/20 6:21 PM EDT</time>
+</p>
+</article>
+
+        </li>
+              <li  class="field__item editorial-list__item">
+          
+
+<article role="article" about="/coronavirus-covid-19/fox-senior-vp-wishes-good-luck-california-protest-against-social-distancing" class="article article--compact editorial-compact">
+  
+  <h3 class="editorial-compact__title">
+    <a href="/coronavirus-covid-19/fox-senior-vp-wishes-good-luck-california-protest-against-social-distancing"><span>Fox senior VP wishes  “good luck”  to California protest against social distancing</span>
+</a>
+  </h3>
+  
+
+  
+
+<p class="dateline-compact">
+      <span class="dateline-compact__type">
+        <svg viewbox="0 0 24 24" class="icon icon--video"  aria-labelledby="icon-label--video" >
+          <title id="icon-label--video">Video &amp; Audio</title>
+    
+    <use xlink:href="#video"></use>
+  </svg>
+
+    </span>
+  
+  <time datetime="2020-04-17T17:34:30-0400">04/17/20 5:34 PM EDT</time>
+</p>
+</article>
+
+        </li>
+              <li  class="field__item editorial-list__item">
+          
+
+<article role="article" about="/coronavirus-covid-19/cheering-protests-against-social-distancing-rush-limbaugh-likens-risks-opening" class="article article--compact editorial-compact">
+  
+  <h3 class="editorial-compact__title">
+    <a href="/coronavirus-covid-19/cheering-protests-against-social-distancing-rush-limbaugh-likens-risks-opening"><span>Cheering protests against social distancing, Rush Limbaugh likens risks from opening the economy to risks of fighting in world wars</span>
+</a>
+  </h3>
+  
+
+  
+
+<p class="dateline-compact">
+      <span class="dateline-compact__type">
+        <svg viewbox="0 0 24 24" class="icon icon--video"  aria-labelledby="icon-label--video" >
+          <title id="icon-label--video">Video &amp; Audio</title>
+    
+    <use xlink:href="#video"></use>
+  </svg>
+
+    </span>
+  
+  <time datetime="2020-04-17T14:57:26-0400">04/17/20 2:57 PM EDT</time>
+</p>
+</article>
+
+        </li>
+          </ol>
+  </div>
+</aside>
+<aside id="coral_talk_stream"></aside>
+<script
+  src="https://talk.mmfa.io/static/embed.js"
+  async
+  onload="
+  Coral.Talk.render(document.getElementById('coral_talk_stream'), {
+    talk: 'https://talk.mmfa.io'
+  });"
+></script>
+
+</div>
+</div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+
+</div>  </main>
+
+  
+
+<footer class="footer" role="contentinfo">
+  <div class="footer--upper">
+    <div class="footer--inner l--constrained-narrow">
+      <div id="block-mmfa-footer-branding" class="footer--branding">
+  
+    
+    
+
+<h1     
+  
+  
+  
+  
+ class="site-logo"
+>
+  <a
+    href="/"
+    title="Home"
+    rel="home"
+    class="site-logo--link"
+  >
+    <img
+      src="/themes/custom/mmfa_theme/logo.svg"
+      alt="Media Matters for America"
+      class="site-logo--image"
+    />
+  </a>
+</h1>
+</div>
+
+      <div class="email-update-form email-signup" data-drupal-selector="email-update-form" id="block-email-updates">
+  
+    
+      <form action="/fox-news/over-three-days-week-fox-news-promoted-antimalarial-drug-treatment-coronavirus-over-100" method="post" id="email-update-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-email form-item-mail js-form-item-mail">
+      <label for="edit-mail" class="js-form-required form-required">Sign up for email updates</label>
+        <input data-drupal-selector="edit-mail" type="email" id="edit-mail" name="mail" value="" size="60" maxlength="254" placeholder="Email" class="form-email required" required="required" aria-required="true" />
+
+        </div>
+<input data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Subscribe" class="button js-form-submit form-submit" />
+<input data-drupal-selector="edit-sb-form-id" type="hidden" name="sb_form_id" value="611" />
+<input data-drupal-selector="edit-campaign-id" type="hidden" name="campaign_id" value="701f40000002nyIAAQ" />
+<input data-drupal-selector="edit-submission-text" type="hidden" name="submission_text" value="Thanks for signing up for email updates! You&#039;ll be hearing from us soon." />
+<input autocomplete="off" data-drupal-selector="form-puvzjkpmprb5-1azquzpxajn4pdxemum5o0d2cmdqps" type="hidden" name="form_build_id" value="form-puVzJKPmPRB5-1aZQuZPXAjN4pdXeMUM5o0d2CMdqps" />
+<input data-drupal-selector="edit-email-update-form" type="hidden" name="form_id" value="email_update_form" />
+
+</form>
+
+  </div>
+
+    </div>
+  </div>
+
+  <div class="footer--lower">
+    <div class="footer--inner l--constrained-narrow">
+      <nav role="navigation" aria-labelledby="block-mmfa-theme-footer-menu" id="block-mmfa-theme-footer" class="footer--menu">
+            
+  <h2 class="visually-hidden" id="block-mmfa-theme-footer-menu">Footer menu</h2>
+  
+
+        
+          <ul  class="menu menu--footer" data-depth="0">
+          <li  class="menu__item">
+        <a href="/about" class="menu__link">About</a>
+              </li>
+          <li  class="menu__item">
+        <a href="/contact-us" class="menu__link" data-drupal-link-system-path="node/2827236">Contact</a>
+              </li>
+          <li  class="menu__item">
+        <a href="/corrections" class="menu__link" data-drupal-link-system-path="node/2827511">Corrections</a>
+              </li>
+          <li  class="menu__item">
+        <a href="/submissions" class="menu__link" data-drupal-link-system-path="node/2827201">Submissions</a>
+              </li>
+          <li  class="menu__item">
+        <a href="/job-openings" class="menu__link" data-drupal-link-system-path="node/1983981">Jobs</a>
+              </li>
+          <li  class="menu__item">
+        <a href="/privacy" class="menu__link" data-drupal-link-system-path="node/2827211">Privacy Policy</a>
+              </li>
+          <li  class="menu__item">
+        <a href="/terms-conditions" class="menu__link" data-drupal-link-system-path="node/2827216">Terms &amp; Conditions</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+      <nav role="navigation" aria-labelledby="block-social-media-menu-menu" id="block-social-media-menu" class="footer--social">
+            
+  <h2 class="visually-hidden" id="block-social-media-menu-menu">Social Media Menu</h2>
+  
+
+        
+          <ul  class="menu menu--social-media" data-depth="0">
+              <li  class="menu__item">
+          <a href="https://www.facebook.com/Mediamatters/" class="menu__link">
+              <svg viewbox="0 0 24 24" class="icon icon--facebook"  aria-labelledby="icon-label--facebook" >
+          <title id="icon-label--facebook">Facebook</title>
+    
+    <use xlink:href="#facebook"></use>
+  </svg>
+
+          </a>
+
+                  </li>
+              <li  class="menu__item">
+          <a href="https://www.instagram.com/mediamattersforamerica/" class="menu__link">
+              <svg viewbox="0 0 24 24" class="icon icon--instagram"  aria-labelledby="icon-label--instagram" >
+          <title id="icon-label--instagram">Instagram</title>
+    
+    <use xlink:href="#instagram"></use>
+  </svg>
+
+          </a>
+
+                  </li>
+              <li  class="menu__item">
+          <a href="https://mediamattersforamerica.tumblr.com/" class="menu__link">
+              <svg viewbox="0 0 24 24" class="icon icon--tumblr"  aria-labelledby="icon-label--tumblr" >
+          <title id="icon-label--tumblr">Tumblr</title>
+    
+    <use xlink:href="#tumblr"></use>
+  </svg>
+
+          </a>
+
+                  </li>
+              <li  class="menu__item">
+          <a href="https://twitter.com/mmfa" class="menu__link">
+              <svg viewbox="0 0 24 24" class="icon icon--twitter"  aria-labelledby="icon-label--twitter" >
+          <title id="icon-label--twitter">Twitter</title>
+    
+    <use xlink:href="#twitter"></use>
+  </svg>
+
+          </a>
+
+                  </li>
+              <li  class="menu__item">
+          <a href="https://www.youtube.com/channel/UC_70iWZ6ym2cglS_kv5YfmA" class="menu__link">
+              <svg viewbox="0 0 24 24" class="icon icon--youtube"  aria-labelledby="icon-label--youtube" >
+          <title id="icon-label--youtube">YouTube</title>
+    
+    <use xlink:href="#youtube"></use>
+  </svg>
+
+          </a>
+
+                  </li>
+          </ul>
+  
+
+
+  </nav>
+
+      <div id="block-mmfa-copyright" class="footer--copyright">
+  
+    
+      <p class="mmfa-copyright">&copy; 2020 Media Matters for America</p>
+
+  </div>
+
+    </div>
+  </div>
+</footer>
+</div>
+
+  </div>
+
+          
+          <div class="visually-hidden">
+            <svg xmlns="http://www.w3.org/2000/svg"><symbol id="arrow-down" viewBox="0 0 25 24"><path d="M18 10l-6 6-6-6z" fill="inherit" fill-rule="evenodd"/></symbol><symbol id="arrow" viewBox="0 0 25 24"><path d="M16 11V8l4 4-4 4v-3H6v-2z" fill="inherit" fill-rule="evenodd"/></symbol><symbol id="article" viewBox="0 0 24 24"><path d="M0 1h24v4H0zm0 6h24v4H0zm0 6h24v4H0zm0 6h18v4H0z" fill="inherit" fill-rule="evenodd"/></symbol><symbol id="audio" viewBox="0 0 25 24"><path d="M12 16a4 4 0 0 1-4-4V4a4 4 0 0 1 8 0v8a4 4 0 0 1-4 4zm10-4c0 4.829-3.441 8.869-8 9.798V24h-4v-2.202C5.441 20.869 2 16.829 2 12h4c0 3.309 2.691 6 6 6s6-2.691 6-6z" fill="inherit" fill-rule="evenodd"/></symbol><symbol id="close-blue" viewBox="0 0 25 24"><path d="M10.586 12L2.808 4.222l1.414-1.414 7.779 7.778 7.778-7.778 1.414 1.414L13.415 12l7.778 7.778-1.414 1.414L12 13.414l-7.779 7.778-1.414-1.414z" fill="#1976D2" fill-rule="evenodd"/></symbol><symbol id="close-white" viewBox="0 0 25 24"><path d="M10.586 12L2.808 4.222l1.414-1.414 7.779 7.778 7.778-7.778 1.414 1.414L13.415 12l7.778 7.778-1.414 1.414L12 13.414l-7.779 7.778-1.414-1.414z" fill="#fff" fill-rule="evenodd"/></symbol><symbol id="close" viewBox="0 0 25 24"><path d="M10.586 12L2.808 4.222l1.414-1.414 7.779 7.778 7.778-7.778 1.414 1.414L13.415 12l7.778 7.778-1.414 1.414L12 13.414l-7.779 7.778-1.414-1.414z" fill="inherit" fill-rule="evenodd"/></symbol><symbol id="comments" viewBox="0 0 28 24"><path fill="inherit" fill-rule="evenodd" d="M16 6.667h-2.667a2.667 2.667 0 0 0-2.666 2.666V12H8l-4 4v-4H1.333A1.333 1.333 0 0 1 0 10.667V1.333C0 .597.597 0 1.333 0h13.334C15.403 0 16 .597 16 1.333v5.334zM24 20v4l-4-4h-6.667A1.333 1.333 0 0 1 12 18.667V9.333C12 8.597 12.597 8 13.333 8h13.334C27.403 8 28 8.597 28 9.333v9.334c0 .736-.597 1.333-1.333 1.333H24z"/></symbol><symbol id="date" viewBox="0 0 24 24"><path d="M18 11h3V8h-3zm0 5h3v-3h-3zm0 5h3v-3h-3zm-5-10h3V8h-3zm0 5h3v-3h-3zm0 5h3v-3h-3zM8 11h3V8H8zm0 5h3v-3H8zm0 5h3v-3H8zM3 11h3V8H3zm0 5h3v-3H3zm0 5h3v-3H3zM22 2h-2a2 2 0 0 0-4 0H8a2 2 0 0 0-4 0H2a2 2 0 0 0-2 2v18a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z" fill="inherit" fill-rule="evenodd"/></symbol><symbol id="email" viewBox="0 0 25 24"><path d="M17.73 12l6.586-6.587v13.172zm-3.293.464c-1.134 1.134-3.109 1.134-4.243 0L1.73 4h21.172zM.316 5.414L6.902 12 .316 18.586zm16 8L22.902 20H1.73l6.586-6.586.464.464c.945.945 2.2 1.465 3.536 1.465s2.59-.52 3.536-1.465z" fill="inherit" fill-rule="evenodd"/></symbol><symbol id="facebook" viewBox="0 0 25 24"><path d="M13.994 24H9.64V13.053H6V8.786h3.64V5.64C9.64 1.988 11.844 0 15.063 0c1.541 0 2.867.116 3.253.168v3.816l-2.233.001c-1.75 0-2.09.842-2.09 2.077v2.724h4.176l-.544 4.267h-3.631z" fill="inherit"/></symbol><symbol id="instagram" viewBox="0 0 24 24"><path fill="inherit" d="M12 0C8.741 0 8.332.014 7.052.072 5.775.13 4.902.333 4.14.63a5.882 5.882 0 0 0-2.126 1.384A5.882 5.882 0 0 0 .63 4.14c-.297.763-.5 1.635-.558 2.912C.014 8.332 0 8.741 0 12c0 3.259.014 3.668.072 4.948.058 1.277.261 2.15.558 2.912.307.79.717 1.459 1.384 2.126A5.882 5.882 0 0 0 4.14 23.37c.763.297 1.635.5 2.912.558C8.332 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 1.277-.058 2.15-.261 2.912-.558a5.883 5.883 0 0 0 2.126-1.384 5.883 5.883 0 0 0 1.384-2.126c.297-.763.5-1.635.558-2.912.058-1.28.072-1.689.072-4.948 0-3.259-.014-3.668-.072-4.948-.058-1.277-.261-2.15-.558-2.912a5.882 5.882 0 0 0-1.384-2.126A5.883 5.883 0 0 0 19.86.63c-.763-.297-1.635-.5-2.912-.558C15.668.014 15.259 0 12 0zm0 2.162c3.204 0 3.584.012 4.849.07 1.17.053 1.805.249 2.228.413.56.218.96.478 1.38.898.42.42.68.82.898 1.38.164.423.36 1.058.413 2.228.058 1.265.07 1.645.07 4.849s-.012 3.584-.07 4.849c-.053 1.17-.249 1.805-.413 2.228-.218.56-.478.96-.898 1.38-.42.42-.82.68-1.38.898-.423.164-1.058.36-2.228.413-1.265.058-1.645.07-4.849.07s-3.584-.012-4.849-.07c-1.17-.053-1.805-.249-2.228-.413a3.717 3.717 0 0 1-1.38-.898c-.42-.42-.68-.82-.898-1.38-.164-.423-.36-1.058-.413-2.228-.058-1.265-.07-1.645-.07-4.849s.012-3.584.07-4.849c.054-1.17.249-1.805.413-2.228.218-.56.478-.96.898-1.38.42-.42.82-.68 1.38-.898.423-.164 1.058-.36 2.228-.413 1.265-.058 1.645-.07 4.849-.07zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0-10.162a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm7.846-.244a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"/></symbol><symbol id="menu-white" viewBox="0 0 25 24"><path d="M0 5h24v2H0zm0 6h24v2H0zm0 6h24v2H0z" fill="#fff" fill-rule="evenodd"/></symbol><symbol id="menu" viewBox="0 0 25 24"><path d="M0 5h24v2H0zm0 6h24v2H0zm0 6h24v2H0z" fill="inherit" fill-rule="evenodd"/></symbol><symbol id="minus" viewBox="0 0 25 24"><path d="M6 11h12v2H6z" fill="inherit" fill-rule="evenodd"/></symbol><symbol id="more" viewBox="0 0 25 24"><path d="M4 13.998a1.998 1.998 0 0 1-2-2c0-.53.21-1.04.58-1.42a2.044 2.044 0 0 1 2.18-.43c.13.05.24.11.35.19.11.07.21.15.3.24.38.38.59.89.59 1.42s-.21 1.04-.59 1.41c-.09.1-.19.18-.3.25s-.22.14-.35.19c-.12.05-.24.08-.37.11s-.26.04-.39.04zm8 0c-.13 0-.26-.01-.39-.04s-.25-.06-.37-.11c-.13-.05-.24-.12-.35-.19s-.21-.15-.3-.25c-.38-.37-.59-.88-.59-1.41s.21-1.04.59-1.42c.09-.09.19-.17.3-.24.11-.08.22-.14.35-.19a2.044 2.044 0 0 1 2.18.43c.37.38.58.89.58 1.42a1.998 1.998 0 0 1-2 2zm8 0a1.998 1.998 0 0 1-2-2c0-.53.21-1.04.58-1.42.75-.74 2.09-.74 2.83 0 .38.38.59.89.59 1.42s-.21 1.04-.59 1.41c-.37.38-.88.59-1.41.59z" fill="inherit" fill-rule="evenodd"/></symbol><symbol id="narrative"><path d="M0 1h6v4H0V1zm0 6h6v4H0V7zm8-6h16v4H8V1zm0 6h16v4H8V7zm-8 6h6v4H0v-4zm8 0h16v4H8v-4zm-8 6h6v4H0v-4zm8 0h16v4H8v-4z" fill="inherit"/></symbol><symbol id="plus" viewBox="0 0 25 24"><path d="M11 11V6h2v5h5v2h-5v5h-2v-5H6v-2z" fill="inherit" fill-rule="evenodd"/></symbol><symbol id="printer" viewBox="0 0 24 22"><path fill="inherit" fill-rule="evenodd" d="M20 0v6a4 4 0 0 1 4 4v8h-4v4H4v-4H0v-8a4 4 0 0 1 4-4V0h16zm-2 14H6v6h12v-6zm-2 2v2H8v-2h8zM8 8H6v2h2V8zm10-6H6v4h12V2z"/></symbol><symbol id="search-blue" viewBox="0 0 25 24"><path d="M3 9a6 6 0 1 1 10.243 4.242l-.001.001A6 6 0 0 1 3 9m20.707 12.586l-7.376-7.377A8.951 8.951 0 0 0 18 9c0-4.971-4.029-9-9-9S0 4.029 0 9s4.029 9 9 9a8.951 8.951 0 0 0 5.209-1.669l7.377 7.376a.999.999 0 0 0 1.414 0l.707-.707a.999.999 0 0 0 0-1.414" fill="#1976D2" fill-rule="evenodd"/></symbol><symbol id="search" viewBox="0 0 25 24"><path d="M3 9a6 6 0 1 1 10.243 4.242l-.001.001A6 6 0 0 1 3 9m20.707 12.586l-7.376-7.377A8.951 8.951 0 0 0 18 9c0-4.971-4.029-9-9-9S0 4.029 0 9s4.029 9 9 9a8.951 8.951 0 0 0 5.209-1.669l7.377 7.376a.999.999 0 0 0 1.414 0l.707-.707a.999.999 0 0 0 0-1.414" fill="inherit" fill-rule="evenodd"/></symbol><symbol id="share-count" viewBox="0 0 48 48"><path fill="inherit" d="M10 24a5 5 0 1 1-.1-1h8.183a6.006 6.006 0 0 1 4.771-4.89L20.713 7.936a4 4 0 1 1 .958-.301l2.182 10.366L24 18c1.853 0 3.51.84 4.61 2.16l8.909-5.94a5 5 0 1 1 .532.847l-8.867 5.91c.519.888.816 1.921.816 3.023 0 .901-.199 1.756-.555 2.523l11.731 8.644a4 4 0 1 1-.615.789l-11.615-8.559A5.993 5.993 0 0 1 24 30c-.925 0-1.8-.21-2.583-.583l-3.127 7.036A6.002 6.002 0 0 1 16 48a6 6 0 1 1 1.331-11.852l3.218-7.24A5.993 5.993 0 0 1 18 24h-8z"/></symbol><symbol id="study" viewBox="0 0 24 24"><path d="M7 12h4v12H7zm6-12h4v24h-4zM1 6h4v18H1zm18 12h4v6h-4z" fill="inherit" fill-rule="evenodd"/></symbol><symbol id="tumblr" viewBox="0 0 25 24"><path d="M19.5 22.694S17.5 24 14 24c-4.5 0-6.5-2-6.5-6v-7.5H4V7c3-1 5-2.5 5.5-7H13v6h5.5v4.5H13v6c0 2.5.5 3.5 3 3.5 1.5 0 3.5-1 3.5-1z" fill="inherit" fill-rule="evenodd"/></symbol><symbol id="twitter" viewBox="0 0 25 24"><path d="M21.558 7.491c0-.213 0-.425-.015-.636A10.019 10.019 0 0 0 24 4.305a9.828 9.828 0 0 1-2.828.776 4.941 4.941 0 0 0 2.165-2.724 9.868 9.868 0 0 1-3.127 1.195 4.929 4.929 0 0 0-8.391 4.491A13.98 13.98 0 0 1 1.67 2.9a4.928 4.928 0 0 0 1.525 6.573A4.887 4.887 0 0 1 .96 8.855v.063a4.926 4.926 0 0 0 3.95 4.827 4.916 4.916 0 0 1-2.223.084 4.93 4.93 0 0 0 4.6 3.42A9.88 9.88 0 0 1 0 19.289a13.94 13.94 0 0 0 7.548 2.209c9.056.003 14.01-7.5 14.01-14.007z" fill="inherit"/></symbol><symbol id="video" viewBox="0 0 25 24"><path d="M0 24h24V0H0zM9 7l8 5-8 5z" fill="inherit" fill-rule="evenodd"/></symbol><symbol id="youtube" viewBox="0 0 25 24"><path d="M12 3.5c12 0 12 0 12 8.5s0 8.5-12 8.5-12 0-12-8.5 0-8.5 12-8.5zm-3 13l7.5-4.5L9 7.5z" fill="inherit" fill-rule="evenodd"/></symbol></svg>          </div>
+          <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/2845476","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/search":true},"mediaelement":{"attachSitewide":1,"setDimensions":false,"defaultAudioWidth":"-1","defaultAudioHeight":"-1","shareUrl":"https:\/\/www.mediamatters.org\/fox-news\/over-three-days-week-fox-news-promoted-antimalarial-drug-treatment-coronavirus-over-100","audioVolume":"vertical","videoVolume":"vertical","hideVideoControlsOnLoad":true,"hideVideoControlsOnPause":true,"features":["playpause","current","progress","duration","tracks","volume","fullscreen","share","rightclick"]},"user":{"uid":0,"permissionsHash":"b1e2123a5125e2411ecda1d54e81a014618187df1bde0e4e78ae55a1e25187a9"}}</script>
+<script src="/sites/default/files/js/js_Ddljm_WoJtNGxMVr-M9-50zg9wsOVed2myo1t_9xFcg.js"></script>
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c12cfc37af14d90"></script>
+<script src="/sites/default/files/js/js_jtQiBymFh_X8f7sBNcb2Q2HKuESZVl8nvrjb9_C4GRk.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"9bb400200b","applicationID":"542782364","transactionName":"NVMAY0RVWhJXVhAKDAwZI1RCXVsPGXEWFhMDWj50WUZRPXBaFg4\/JFkQWnRBXQ1SUBZOXRBTDFNTRmQNV1YBCwwOUgdFcFtGDHdWEAoMDA==","queueTime":0,"applicationTime":749,"atts":"GRQDFQxPSRw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+        </html>
