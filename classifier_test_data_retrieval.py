@@ -16,7 +16,7 @@ def main():
             print(topic_url)
             article_links += get_allsides_article_links(topic_url)
         with open(allsides_article_links_path, 'w') as articles_file:
-            for link in article_links:
+            for link in set(article_links):
                 articles_file.write(f'{link}\n')
     
     news_articles_and_ratings_path = 'articles_and_ratings.csv'
@@ -28,8 +28,8 @@ def main():
                                     
         
         with open(news_articles_and_ratings_path, 'w') as link_and_rating_file:
-            for link, rating in articles_and_ratings:
-                if link and rating:
+            for link, rating in set(articles_and_ratings):
+                if link != None and rating != None:
                     link_and_rating_file.write(f'"{link}",{rating}\n')
     
     if not os.path.exists('classifier_test_articles/'):
@@ -39,7 +39,7 @@ def main():
             for i, (link, rating) in enumerate(csv.reader(articles_file, delimiter=',', quotechar='"')):
                 try:
                     print(i, link)
-                    webpage = requests.get(link, timeout=15).content
+                    webpage = requests.get(link, timeout=20).content
                     link_rating_content.append((link, rating, webpage))
                 except:
                     print('Request timed out! Skipping...')
@@ -130,6 +130,8 @@ def get_original_link_and_rating(allsides_link):
         soup = BeautifulSoup(requests.get(allsides_link).content, 'html.parser')
         rating_text = soup.find('div', {'class' : 'article-media-bias-'}).find('a').getText()
         original_link = soup.find('div', {'class' : 'read-more-story'}).find('a').get('href')
+        print(f'  {rating_text}')
+        print(f'  {(original_link, ratings_map[rating_text])}')
         return original_link, ratings_map[rating_text]
     except:
         print('Exception occurred! Skipping...')

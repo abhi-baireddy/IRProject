@@ -1,1123 +1,1183 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]><html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en" class="no-js ie ie8 lte8 lt-ie9"> <![endif]-->
+<!--[if IE 9]>    <html lang="en" class="no-js ie ie9 lte9"> <![endif]-->
+<!--[if gt IE 9]> <html lang="en" class="no-js"> <![endif]-->
+<!--[if !IE]><!--><html lang="en" class="no-js"> <!--<![endif]-->
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link rel="preconnect" href="//cdnjs.cloudflare.com">
-<link rel="preconnect" href="//fonts.googleapis.com">
-<link rel="preconnect" href="//ib.adnxs.com">
-<link rel="preconnect" href="//experience.tinypass.com">
-<link rel="preconnect" href="//sandbox.tinypass.com">
-<link rel="preconnect" href="//www.googletagservices.com">
-<link rel="preconnect" href="//media.townhall.com">
-<link rel="preconnect" href="//prebid.adnxs.com">
-<link rel="preconnect" href="//www.google-analytics.com">
-<link rel="preconnect" href="//pagead2.googlesyndication.com">
-<link rel="preconnect" href="//ad.doubleclick.net">
-<link rel="preconnect" href="//securepubads.g.doubleclick.net">
-<link rel="preconnect" href="//c.amazon-adsystem.com">
-<link rel="preconnect" href="//townhallmedia-d.openx.net">
-<link rel="preconnect" href="//cdn.blueconic.net">
-<script>
-        document.cookie = "__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
-        var setNptTechAdblockerCookie = function (adblocker) {
-            var d = new Date();
-            d.setTime(d.getTime() + 60 * 60 * 24 * 2 * 1000);
-            document.cookie = "__adblocker=" + (adblocker ? "true" : "false") + "; expires=" + d.toUTCString() + "; path=/";
-        }
-        var script = document.createElement("script");
-        script.setAttribute("async", true);
-        script.setAttribute("src", "//www.npttech.com/advertising.js");
-        script.setAttribute("onerror", "setNptTechAdblockerCookie(true);");
-        document.getElementsByTagName("head")[0].appendChild(script);
-    </script>
-<script type="text/javascript" src="//d2ze07sbtyfzd0.cloudfront.net/script.js"></script>
-<script async src="https://cdn.blueconic.net/salemmediagroup.js"></script>
-<script type='text/javascript'>var _sf_startpt = (new Date()).getTime()</script>
-<link rel="manifest" href="/manifest.json">
-<link rel="alternate" href="https://townhall.com" hreflang="en-us">
-<style>
-        .async-hide {
-            opacity: 0 !important
-        }
-    </style>
-<script>
-        (function (a, s, y, n, c, h, i, d, e) {
-            s.className += ' ' + y; h.start = 1 * new Date;
-            h.end = i = function () { s.className = s.className.replace(RegExp(' ?' + y), '') };
-            (a[n] = a[n] || []).hide = h; setTimeout(function () { i(); h.end = null }, c); h.timeout = c;
-        })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
-            { 'GTM-KT87G5R': true });
-    </script>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments);
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-404425-3', 'auto', { 'useAmpClientId': true });
-    
-    ga('require', 'GTM-KT87G5R');
-    
-    //ga('set', 'transport', 'beacon');
-    ga('require', 'displayfeatures');
-    if (typeof hptId !== 'undefined')
-    {
-        ga('set', 'dimension2', hptId);
+<link rel="amphtml" href=https://www.politico.com/amp/news/2020/04/07/kushner-coronavirus-surveillance-174165>
+<meta property="article:opinion" content="false" />
+<meta charset="utf-8" />
+<link rel="canonical" href="https://www.politico.com/news/2020/04/07/kushner-coronavirus-surveillance-174165"><style type="text/css" id="chartbeat-flicker-control-style">body { visibility: hidden !important; }</style><script type="text/javascript">
+(function() {
+var _sf_async_config = window._sf_async_config = (window._sf_async_config || {});
+_sf_async_config.uid = 33430;
+_sf_async_config.domain = 'www.politico.com';
+_sf_async_config.useCanonical = true;
+window.setTimeout(function() {
+    var hider = document.getElementById('chartbeat-flicker-control-style');
+    if (hider) {
+        hider.parentNode.removeChild(hider);
     }
-    
-    ga('set', 'dimension7', 'free');
-    ga('send', 'pageview');
-</script>
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-<link rel="apple-touch-icon" sizes="57x57" href="https://media.townhall.com/thm/favicon/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="https://media.townhall.com/thm/favicon/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="https://media.townhall.com/thm/favicon/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="https://media.townhall.com/thm/favicon/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="https://media.townhall.com/thm/favicon/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="https://media.townhall.com/thm/favicon/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="https://media.townhall.com/thm/favicon/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="https://media.townhall.com/thm/favicon/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://media.townhall.com/thm/favicon/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-16x16.png" sizes="16x16">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/android-chrome-192x192.png" sizes="192x192">
-<meta name="msapplication-square70x70logo" content="https://media.townhall.com/thm/favicon/smalltile.png" />
-<meta name="msapplication-square150x150logo" content="https://media.townhall.com/thm/favicon/mediumtile.png" />
-<meta name="msapplication-wide310x150logo" content="https://media.townhall.com/thm/favicon/widetile.png" />
-<meta name="msapplication-square310x310logo" content="https://media.townhall.com/thm/favicon/largetile.png" />
-<link href="/resources/css/bootstrap.min.css" rel="preload" as="style" />
-<link href="/resources/css/bootstrap.min.css" rel="stylesheet" />
-<link href="/resources/dist/css/main.min.css?v=2" rel="preload" as="style" />
-<link href="/resources/dist/css/main.min.css?v=2" rel="stylesheet" />
-<link href="/resources/lib/jquery/dist/jquery.min.js" rel="preload" as="script" />
-<script src="/resources/lib/jquery/dist/jquery.min.js"></script>
-<meta property="fb:app_id" content="967808926746051" />
-<meta property="fb:pages" content="41632789656,103971336305218,319569361390023,106547192707583,124538510989702,283971595408,15418366158,153162531376557,127519040661256,123834811060739,305174559545115,321502821264274,413465452078762,492802317512753,140705212665688,116757565026850,114013445328868" />
-<title>Manipulation Through Racial Hoaxes</title>
-<meta name="description" content="We black people are so convenient and useful to America&#39;s .04/18/2020 1:48:31AM EST." />
-<link rel="amphtml" href="https://townhall.com/columnists/walterewilliams/2020/04/08/manipulation-through-racial-hoaxes-n2566520?amp=true">
-<meta name="keywords" content="Identity Politics, Racial Politics, Jussie Smollett" />
-<meta name="robots" content="index, follow" />
-<meta name="author" content="Walter E. Williams" />
-<link rel="canonical" href="https://townhall.com/columnists/walterewilliams/2020/04/08/manipulation-through-racial-hoaxes-n2566520" />
-<meta property="og:title" content="Manipulation Through Racial Hoaxes" />
-<meta property="og:type" content="Article" />
-<meta property="og:url" content="https://townhall.com/columnists/walterewilliams/2020/04/08/manipulation-through-racial-hoaxes-n2566520" />
-<meta property="og:image" content="https://media.townhall.com/townhall/reu/s1280x720/2020/42/f9d16814-c94e-45ce-b170-9d221da89072.jpg" />
-<meta property="og:site_name" content="Townhall " />
-<meta property="og:description" content="We black people are so convenient and useful to America&#39;s " />
-<script type="application/ld+json">
-        {
-        "@context": "http://schema.org",
-        "@type": "NewsArticle",
-        "headline": "Manipulation Through Racial Hoaxes",
-        "datePublished": "2020-04-08T00:01:00-04:00",
-        "dateModified": "2020-04-08T00:01:00-04:00" ,
-        "image": {
-        "@type": "ImageObject",
-        "url": "https://media.townhall.com/townhall/reu/s1280x720/2020/42/f9d16814-c94e-45ce-b170-9d221da89072.jpg",
-        "height": 665,
-        "width": 700
-        },
-        "mainEntityOfPage":"https://townhall.com/columnists/walterewilliams/2020/04/08/manipulation-through-racial-hoaxes-n2566520",
-        "author": {
-        "@type": "Person",
-        "name": "Walter E. Williams"
-        },
-        "publisher": {
-        "@type":"Organization",
-        "name": "Townhall.com",
-        "logo": {
-        "@type": "ImageObject",
-        "url": "https://media.townhall.com/townhall/ampmobile/Logo_TH_3.png",
-        "width": 128,
-        "height": 60
-        }
-        }
-        }
-    </script>
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Manipulation Through Racial Hoaxes" />
-<meta name="twitter:image" content="https://media.townhall.com/townhall/reu/s1280x720/2020/42/f9d16814-c94e-45ce-b170-9d221da89072.jpg?181" />
-<meta name="twitter:url" content="https://townhall.com/columnists/walterewilliams/2020/04/08/manipulation-through-racial-hoaxes-n2566520?181" />
-<meta name="twitter:description" content="We black people are so convenient and useful to America&#39;s " />
-<meta name="twitter:site" content="@townhallcom" />
-<script type="text/javascript">
-        var _sf_async_config = {};
-        /** CONFIGURATION START **/
-        _sf_async_config.uid = 14482;
-        _sf_async_config.domain = 'townhall.com';
-        _sf_async_config.sections = 'columnists';
-        _sf_async_config.authors = 'Walter E. Williams';
-
-        var _cbq = window._cbq = window._cbq || [];
-        if (localStorage.getItem('_cbq_acct')) {
-            _cbq.push(['_acct', localStorage.getItem( '_cbq_acct' )||"anon"]);
-        }
-
-
-        _sf_async_config.useCanonical = true;
-        /** CONFIGURATION END **/
-        (function () {
-            function loadChartbeat() {
-                window._sf_endpt = (new Date()).getTime();
-                var e = document.createElement('script');
-                e.setAttribute('language', 'javascript');
-                e.setAttribute('type', 'text/javascript');
-                e.setAttribute('src',
-                           (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
-                           'js/chartbeat.js');
-                document.body.appendChild(e);
-            }
-            var oldonload = window.onload;
-            window.onload = (typeof window.onload != 'function') ?
-                loadChartbeat : function () { oldonload(); loadChartbeat(); };
-        })();
-
-</script>
-<script>
-    var _comscore = _comscore || [];
-    _comscore.push({
-        c1: "2",
-        c2: "21057668",
-        c3: "",
-        c4: ""
-    });
-    (function () {
-        var s = document.createElement("script"),
-            el = document.getElementsByTagName("script")[0];
-        s.async = true;
-        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-        el.parentNode.insertBefore(s, el);
+}, 1000);
+})();</script>
+<script src="//static.chartbeat.com/js/chartbeat_mab.js"></script>
+<link rel="stylesheet" type="text/css" href="https://static3.politico.com/resource/assets/battletoads/css/shared--base.min.cc62bc586cca8c0f6659b3f17ed46eae.gz.css">
+<link rel="stylesheet" type="text/css" href="https://static3.politico.com/resource/assets/battletoads/css/shared--header.min.dd673d5a5290cd9912edeb11d69341f3.gz.css">
+<link rel="stylesheet" type="text/css" href="https://static3.politico.com/resource/assets/battletoads/css/shared--footer.min.8fdd8e05e87e6edd08c5cd4f5f6a6cb8.gz.css">
+<link rel="stylesheet" type="text/css" href="https://static3.politico.com/resource/assets/battletoads/css/shared--article.min.d5b71c8ece8cdedf742f92c67819eae8.gz.css">
+<link rel="stylesheet" type="text/css" href="https://static3.politico.com/resource/assets/battletoads/css/shared--utility.min.cd49fa927f2a5e4906c0d711cb745450.gz.css">
+<title>Kushner&rsquo;s team seeks national coronavirus surveillance system - POLITICO</title>
+<meta property="og:title" content="Kushner&rsquo;s team seeks national coronavirus surveillance system">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#dc0228">
+<meta property="og:type" content="article">
+<meta property="fb:pages" content="62317591679">
+<meta property="og:url" content="https://www.politico.com/news/2020/04/07/kushner-coronavirus-surveillance-174165">
+<meta property="og:description" content="Critics worry about a Patriot Act for health care, raising concerns about patient privacy and civil liberties.">
+<meta property="twitter:title" content="Kushner&rsquo;s team seeks national coronavirus surveillance system">
+<meta property="twitter:image" content="https://static.politico.com/bb/68/ce3d9d70431abe474ff2f32c296d/200407-kushner-gty-773.jpg">
+<meta property="og:image" content="https://static.politico.com/bb/68/ce3d9d70431abe474ff2f32c296d/200407-kushner-gty-773.jpg">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:site" content="@politico">
+<meta property="twitter:creator" content="@politico">
+<meta property="og:fb_appid" content="114037015331397">
+<link rel="shortcut icon" type="image/x-icon" href="https://static.politico.com/cf/05/ee684a274496b04fa20ba2978da1/politico.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://static.politico.com/dims4/default/bd69088/2147483647/legacy_thumbnail/144x144/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2Fcf%2F05%2Fee684a274496b04fa20ba2978da1%2Fpolitico.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://static.politico.com/dims4/default/59ee5a3/2147483647/legacy_thumbnail/114x114/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2Fcf%2F05%2Fee684a274496b04fa20ba2978da1%2Fpolitico.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://static.politico.com/dims4/default/27ede68/2147483647/legacy_thumbnail/72x72/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2Fcf%2F05%2Fee684a274496b04fa20ba2978da1%2Fpolitico.png">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://static.politico.com/dims4/default/c73c7f7/2147483647/legacy_thumbnail/57x57/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2Fcf%2F05%2Fee684a274496b04fa20ba2978da1%2Fpolitico.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" sizes="32x32" type="image/png" href="/favicon-32x32.png">
+<link rel="icon" sizes="192x192" type="image/png" href="/android-chrome-192x192.png">
+<link rel="icon" sizes="96x96" type="image/png" href="/favicon-96x96.png">
+<link rel="icon" sizes="16x16" type="image/png" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta msapplication-TileColor="content">
+<meta msapplication-TileImage="content">
+<meta theme-color="content">
+<meta property="og:site_name" content="POLITICO">
+<meta name="host" content="www.politico.com">
+<meta name="build" content="release/cge-ghana c9cdd63 2020-04-15T19:31:28Z"><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script type="text/javascript">window.jQuery || document.write('<script src="https://static3.politico.com/resource/js/website/shared/libraries/jquery-1.11.0.min.daf47dbdebc0881066106b1dda1c9db3.gz.js"><\/script>')</script><script type="text/javascript" src="https://static3.politico.com/resource/js/website/shared/libraries/modernizr-2.8.3.min.eb9167fd3c12f05553135ffda5fcd108.gz.js"></script><script type="text/javascript" src="https://static3.politico.com/resource/assets/js.min/preload.c4a0fa0e12f9277dfbe2982aa5bb508c.gz.js"></script><script type="text/javascript">try{Typekit.load();}catch(e){}</script><script type="text/javascript">;(function() {
+     document.cookie = "__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+     var setNptTechAdblockerCookieError = function() {
+           var d = new Date();
+           d.setTime(d.getTime() + 60 * 60 * 24 * 2 * 1000);
+           document.cookie = "__adblocker=false; expires=" + d.toUTCString() + "; path=/";
+     };
+     var checkBodyVisibility = function() {
+           if (document.body.style.visibility != 'hidden' && document.body.style.display != 'none') {
+                clearInterval(adblockerTimer);
+                var script = document.createElement('script');
+                script.async = true;
+                script.src = '//www.npttech.com/advertising.js';
+                script.onerror = setNptTechAdblockerCookieError;
+                document.getElementsByTagName('head')[0].appendChild(script);
+           }
+     }
+     var adblockerTimer = setInterval(checkBodyVisibility, 100);
+})();</script><script>var gptadslots=[];
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function(){
+      var gads = document.createElement('script');
+      gads.async = true;
+      gads.type = 'text/javascript';
+      var useSSL = 'https:' == document.location.protocol;
+      gads.src = (useSSL ? 'https:' : 'http:') + '//securepubads.g.doubleclick.net/tag/js/gpt.js';
+      var node = document.getElementsByTagName('script')[0];
+      node.parentNode.insertBefore(gads, node);
     })();
 </script>
-<noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=21057668&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" /> </noscript>
+<script type='text/javascript'>
+var utag_data = 
+{"page_level_1":"news","page_level_2":"2020","page_level_3":"04","page_level_4":"07","page_level_5":"kushner-coronavirus-surveillance-174165","organization_uuid":"anonymous","organization_name":"anonymous","user_login_type":"anonymous","us_em":"anonymous","content_uuid":"0000014b-3270-d4f3-a3cb-f3ffa8610000/00000171-5707-ddd3-a173-f7976b650003","distribution_channel":"politico","content_id":"174165","lead_media":"two-third","content_tag":"Jared Kushner|Coronavirus|Tom Frieden|Centers For Disease Control|Centers for Disease Control and Prevention|Privacy","free_paid_content":"free","publication_date":"20200407","site_section":"White House","ad_unit_section":"whitehouse","viewport_ads_id":"pol-vp","event_type":"story","page_format":"1 of 1","site_domain":"www.politico.com","site_url":"https://www.politico.com/news/2020/04/07/kushner-coronavirus-surveillance-174165","site_experience":"article-2019","internal_site_id":"politico","page_type":"story","content_byline":"By Adam Cancryn","content_author":"Adam Cancryn","content_source":"POLITICO","original_headline":"Kushner’s team seeks national coronavirus surveillance system","current_headline":"Kushner’s team seeks national coronavirus surveillance system","page_name":"story - 174165 - 20200407 - Kushner’s team seeks national coronavirus surveillance system","subscription_viewed":"subscription_promo_view","subscription_module":"newsletter_inline_standard_POLITICO Nightly: Coronavirus Special Edition - POLITICO, newsletter_inline_standard_POLITICO Nightly: Coronavirus Special Edition - POLITICO","enable_prebid":"true"};
 
-<script>
-    !function (f, b, e, v, n, t, s) {
-        if (f.fbq) return; n = f.fbq = function () {
-            n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        }; if (!f._fbq) f._fbq = n;
-        n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
-        t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
-    }(window,
-        document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-
-    fbq('init', '791796474183597');
-    fbq('track', "PageView");</script>
-<noscript>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=791796474183597&ev=PageView&noscript=1" />
-</noscript>
-
-<script>
-        function getRoxotGroupId() {
-            try {
-                var storageKey = 'roxot-gid';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 10000);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '10001';
-            }
-        }
-
-        function getRoxotSectorId() {
-            try {
-                var storageKey = 'roxot-sid';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 100);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '101';
-            }
-        }
-
-        function getRoxotDeep() {
-            try {
-                var storageKey = 'roxot-deep';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 100);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '101';
-            }
-        }
-
-        function getRoxotEvent() {
-            return '' + (1 + Math.floor(Math.random() * 100));
-        }
-    </script>
-<script>
-        var bidTimeout = 3000;
-        var refreshInterval = 60000;
-        var PREBID_TIMEOUT = bidTimeout;
-        var FAILSAFE_TIMEOUT = 3000;
-        var SCREEN_TIME = false;
-        var PREBID = true;
-        var adUnits = [{"code":"div-gpt-300x250_3","sizes":[[300,250]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_3@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-728x90_2","sizes":[[728,90],[970,90]],"bids":[{"bidder":"openx","params":{"unit":"537998002","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381642"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-728x90_2@728x90"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-728x90_1","sizes":[[728,90],[970,90],[970,250]],"bids":[{"bidder":"openx","params":{"unit":"537998002","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381642"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-728x90_1@728x90"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_1","sizes":[[300,250]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_1@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_2","sizes":[[300,250]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_2@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]}];
-        var apstagSlots = [{"slotID":"div-gpt-300x250_3","slotName":"/6177/slm.townhall/columnists/300x250_3","sizes":[[300,250]]},{"slotID":"div-gpt-728x90_2","slotName":"/6177/slm.townhall/columnists/728x90_2","sizes":[[728,90],[970,90]]},{"slotID":"div-gpt-728x90_1","slotName":"/6177/slm.townhall/columnists/728x90_1","sizes":[[728,90],[970,90],[970,250]]},{"slotID":"div-gpt-300x250_1","slotName":"/6177/slm.townhall/columnists/300x250_1","sizes":[[300,250]]},{"slotID":"div-gpt-300x250_2","slotName":"/6177/slm.townhall/columnists/300x250_2","sizes":[[300,250]]}];
-    </script>
-<script src="/resources/dist/js/prebid-latest.min.js?v=2.5.1-1"></script>
-<script async>
-        //<![CDATA[
-
-        var gptAdUnitPath = "columnists";
-        var gptAdSlot = [];
-
-        googletag.cmd.push(function () {
-            googletag.pubads().disableInitialLoad();
-            try {
-                gptAdSlot['div-gpt-300x250_3'] = googletag.defineSlot('/6177/slm.townhall/columnists/300x250_3', [[300,250]], 'div-gpt-300x250_3').addService(googletag.pubads()).setTargeting('pos', '300x250_3').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-728x90_2'] = googletag.defineSlot('/6177/slm.townhall/columnists/728x90_2', [[728,90],[970,90]], 'div-gpt-728x90_2').addService(googletag.pubads()).setTargeting('pos', '728x90_2').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-728x90_1'] = googletag.defineSlot('/6177/slm.townhall/columnists/728x90_1', [[728,90],[970,90],[970,250],[1,1]], 'div-gpt-728x90_1').addService(googletag.pubads()).setTargeting('pos', '728x90_1').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_1'] = googletag.defineSlot('/6177/slm.townhall/columnists/300x250_1', [[300,250]], 'div-gpt-300x250_1').addService(googletag.pubads()).setTargeting('pos', '300x250_1').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_2'] = googletag.defineSlot('/6177/slm.townhall/columnists/300x250_2', [[300,250]], 'div-gpt-300x250_2').addService(googletag.pubads()).setTargeting('pos', '300x250_2').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-townhall_columns_leftrail'] = googletag.defineSlot('/6177/slm.townhall/columnists/townhall_columns_leftrail', [[1,1],'fluid'], 'div-gpt-townhall_columns_leftrail').addService(googletag.pubads()).setTargeting('pos', 'townhall_columns_leftrail').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-oop'] = googletag.defineOutOfPageSlot('/6177/slm.townhall/columnists', 'div-gpt-oop').addService(googletag.pubads());
-
-
-                if (typeof Storage !== "undefined") {
-                    var targetingParamStr = localStorage.getItem("bcDFPTargetingParams");
-
-                    if (targetingParamStr) {
-                        var targetingParameters = JSON.parse(targetingParamStr);
-
-                        // set page-level targeting parameters
-                        jQuery.each(targetingParameters, function (index, param) {
-                            window.googletag.pubads().setTargeting(param.key, param.value);
-                        });
-                    }
-                }
-            } catch (e) {
-                console.error("thm-ad-exception", e);
-            }
-
-            googletag.pubads().addEventListener('impressionViewable', function (event) {
-                
-                var slot = event.slot;
-                if (slot.getTargeting('refresh').indexOf('true') > -1) {
-                    setTimeout(function () {
-                        Thm.RefreshAd(slot);
-                    }, refreshInterval);
-                }
-            });
-            
-            
-            googletag.pubads().setTargeting("tags",["Identity Politics","Racial Politics","Jussie Smollett"]).setTargeting("author", "Walter E. Williams").setTargeting("fullUrl", "manipulation-through-racial-hoaxes-n2566520");
-
-            
-
-            googletag.enableServices();
-
-        });
-        //]]>
-    </script>
-<link href="/resources/lib/owl-carousel2/dist/assets/owl.carousel.min.css" rel="stylesheet" />
-<script id="article-meta" type="application/json">
-            {"Title":"Manipulation Through Racial Hoaxes","IsArticleView":true,"BaseShareUrl":"http://townhall.com","Canonical":"https://townhall.com/columnists/walterewilliams/2020/04/08/manipulation-through-racial-hoaxes-n2566520","ShareTitle":"Walter E. Williams - Manipulation Through Racial Hoaxes","PublishedDate":"2020-04-08T00:01:00","Id":2559165,"Author":"Walter E. Williams","AuthorImage":"https://media.townhall.com/townhall/reu/contributor-sm/authorimages/walterewilliams.jpg","ImageUrl":"https://media.townhall.com/townhall/reu/ha/2020/42/f9d16814-c94e-45ce-b170-9d221da89072.jpg","Tags":[2949,4146,15588],"Url":"https://townhall.com/columnists/walterewilliams/2020/04/08/manipulation-through-racial-hoaxes-n2566520","Soup":1}
-        </script>
+utag_data["spokenlayer"] = document.getElementById('spokenlayer-audio-player-container') != null ? "true" : "false";
+if (typeof(Storage) !== 'undefined') {
+ if (localStorage.uId !== undefined && localStorage.uId !== '') {
+utag_data["us_id"] = localStorage.uId;
+}
+ if (localStorage.uStatus !== undefined && localStorage.uStatus !== '') {
+ if (localStorage.uStatus === "logged in"){ 
+var statusCookieFound = false;
+var nameEQ = "uStatus=";
+var ca = document.cookie.split(';');
+for (var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+    if (c.indexOf(nameEQ) == 0) {
+        statusCookieFound = true;
+    }
+}
+                    
+if (!statusCookieFound) {
+    localStorage.uStatus = 'logged out';
+}
+}
+utag_data["us_st"] = localStorage.uStatus;} else {
+utag_data["us_st"] = "anonymous";
+}
+ if (localStorage.uCid !== undefined && localStorage.uCid !== '') {
+utag_data["us_co"] = localStorage.uCid;
+}
+}
+;(function(a,b,c,d){
+a='//tags.tiqcdn.com/utag/politico/main/prod/utag.js';
+b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+})();
+</script>
 </head>
-<body>
-<div class="thm-piano-top"></div>
-<div id="search">
-<button type="button" class="close"><i class="fa fa-close"></i></button>
-<form id="site-search">
-<input type="search" id="q" name="q" value="" placeholder="Search townhall.com...." />
-<button type="button" class="btn btn-default btn-search"><i class="fa fa-search"></i></button>
+<body class=" enable-ad-placeholder" data-theme-version="18" data-ad-refresh="45">
+<div class="skip-nav">
+<ul class="skip-nav__list">
+<li class="skip-nav__action">
+
+<button class="skip-nav__link" onclick="document.querySelector('#main').focus()">Skip to Main Content</button>
+</li>
+</ul>
+</div>
+<div class="page-wrapper">
+<div class="page-header">
+<header class="header on-core  " id="js-top-header">
+<div class="header__row header__main">
+<div class="header__branding" role="banner">
+<h1>
+<a href="https://www.politico.com/">
+<b aria-hidden="true" class="bt-icon bt-icon--politico is-emphasized"></b>
+<b aria-hidden="true" class="bt-icon bt-icon--core-small"></b>
+<span class="icon-text">POLITICO</span>
+</a>
+</h1>
+</div>
+<div class="header__content">
+<div class="header__left">
+<button aria-label="Master menu" aria-expanded="false" class="hamburger js-hamburger">
+<span></span>
+</button>
+</div>
+<div class="header__right">
+<div class="actions-lineup">
+<ul class="actions-lineup__list">
+<li class="actions-lineup__item hide-at-mobile">
+<a href="https://www.politico.com/magazine" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_header&amp;lindex=1&amp;lcol=1">Magazine</a></li>
+<li class="actions-lineup__item hide-at-mobile">
+<a href="https://www.politico.com/agenda" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_header&amp;lindex=2&amp;lcol=2">The Agenda</a></li>
+<li class="actions-lineup__item hide-at-mobile">
+<a href="https://www.politicopro.com/" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_header&amp;lindex=3&amp;lcol=3">Pro</a></li>
+<li class="actions-lineup__item ">
+<div class="slide-search" role="presentation">
+<a href="#" class="slide-search__open js-tealium-tracking" id="search-open" aria-label="Open search form" aria-pressed="false" role="button" target="_top" data-tracking="mpos=na&amp;mid=site_search_open&amp;lindex=1&amp;lcol=1"><b class="bt-icon bt-icon--search"></b><span class="icon-text">Search</span>
+</a><div class="slide-search__content " id="search-input" aria-hidden="true">
+<form class="slide-search__form" action="https://www.politico.com/search" method="get">
+<input class="slide-search__input" type="search" name="q" id="searchTerm" aria-label="Search for any story" placeholder="Enter search term..." />
+<button class="slide-search__run" type="submit" aria-label="Start search"><b class="bt-icon bt-icon--search"></b><span class="icon-text">Search</span></button>
+<button class="slide-search__close" id="search-close" type="button"><b class="bt-icon bt-icon--close" aria-label="Close Search"></b></button>
 </form>
 </div>
-<header>
-<nav id="thm-nav-sm" class="navbar navbar-default navbar-condensed navbar-fixed-top navbar-article-header">
-<div class="breaking-news-bar-container-condensed"></div>
-<div class="container">
-<div class="navbar-header">
-<a class="navbar-brand" href="/">
-<img src="/resources/th_logo.svg" class="th-logo" alt="">
-</a>
-</div>
-<div id="navbar" class="navbar-collapse collapse">
-<ul class="nav navbar-nav navbar-links navbar-right">
-<li class="active"><a title="Columnists" href="/columnists/" class="top-menu">Columnists</a></li>
-<li><a title="Tipsheet" href="/tipsheet/" class="top-menu">Tipsheet</a></li>
-<li><a title="Cartoons" href="/political-cartoons/" class="top-menu">Cartoons</a></li>
-<li><a title="Podcasts" class="top-menu" href="/podcasts/">Podcasts</a></li>
-<li><a title="Election" class="top-menu hidden-md hidden-sm" href="/election/"><img class="ec-2020-m" src="https://media.townhall.com/thm/ec2020.png" /></a></li>
-<li><a title="Membership: VIP" class="top-menu" href="/vip/"><img class="vip-brand" src="/resources/dist/svg/subscriptions-badge-vip.svg"></a></li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle top-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sections <span class="fa fa-chevron-down"></span></a>
-<ul class="dropdown-menu">
-<li><a title="Newsletter signup" href="/newsletter/">Newsletters</a></li>
-<li class="hidden-lg"><a title="Podcasts" href="/podcasts/">Podcasts</a></li>
-<li><a title="Townhall TV" href="/tv/">Townhall TV</a></li>
-<li><a title="Election " href="/election/">Election</a></li>
-<li><a title="Capitol Voices" href="/capitol-voices/">Capitol Voices</a></li>
-<li><a title="Entertainment" href="/entertainment/">Entertainment</a></li>
-<li><a title="Radio News" href="/news/">Radio News</a></li>
-<li class="hidden-lg"><a title="Election" href="/election/"><img class="ec-2020-m" src="https://media.townhall.com/thm/ec2020.png" /></a></li>
-
-<li><a title="Live Blog" href="/liveblog/">Live Blog</a></li>
-<li><a title="Topics" href="/tags/">Topics</a></li>
-</ul>
-</li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle top-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sites <span class="fa fa-chevron-down"></span></a>
-<ul class="dropdown-menu">
-<li><a href="http://hotair.com" target="_blank">Hot Air</a></li>
-<li><a href="http://pjmedia.com" target="_blank">PJ Media</a></li>
-<li><a href="http://bearingarms.com" target="_blank">Bearing Arms</a></li>
-<li><a href="http://twitchy.com" target="_blank">Twitchy</a></li>
-<li><a href="http://redstate.com" target="_blank">RedState</a></li>
-<li><a href="http://finance.townhall.com" target="_blank">Townhall Finance</a></li>
-<li><a href="http://www.conservativeradio.com/" target="_blank">Conservative Radio</a></li>
-</ul>
-</li>
-<li><a class="btn btn-default btn-sm btn-join hidden" href="/subscribe?tpcc=home_button">JOIN VIP</a></li>
-<li><a class="btn btn-default btn-sm btn-login hidden">LOGIN</a></li>
-<li>
-<div class="btn-group btn-account hidden">
-<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-MY ACCOUNT <span class="caret"></span>
-</button>
-<ul class="dropdown-menu">
-<li><a href="/account/" class="lnk-account">Account Settings</a></li>
-<li><a href="/newsletter/">Newsletter Subscriptions</a></li>
-<li><a href="#" class="lnk-logout">Log Out</a></li>
-</ul>
 </div>
 </li>
-<li>&nbsp;&nbsp;<button title="Search" id="btn-show-search" class="btn btn-default btn-show-search"><i class="fa fa-search"></i></button></li>
-</ul>
-</div>
-</div>
-</nav>
-<div class="thm-pad" style="padding-top:50px;">
-</div>
-<nav class="navbar navbar-default navbar-fixed-top navbar-article">
-<div class="container">
-<div class="navbar-header">
-<a class="navbar-brand" href="/"><img src="/resources/th_logo.svg" class="th-logo"></a>
-</div>
-<div id="navbar" class="navbar-collapse collapse">
-<ul class="nav navbar-nav navbar-title">
-<li class="headline">Manipulation Through Racial Hoaxes</li>
-</ul>
-<ul class="nav navbar-nav navbar-btn-search pull-right">
-<li><button class="btn btn-facebook-lg sc-fb"><i class="fa fa-facebook-official"></i>&nbsp;Share</button></li>
-<li><button class="btn btn-twitter-lg sc-tw"><i class="fa fa-twitter"></i>&nbsp;Tweet</button></li>
-<li><button title="Search" id="btn-show-search" class="btn btn-default btn-show-search"><i class="fa fa-search"></i></button></li>
-</ul>
-</div>
-</div>
-<div class="thm-carousel">
-<div class="owl-carousel owl-theme">
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/gov-abbott-outlines-texass-three-phases-for-re-opening-the-lone-star-state-n2567148"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="And the First State to Start Re-Opening Is Texas " data-src="//media.townhall.com/townhall/reu/b/2020/97/6145e8ce-c4e0-414e-a5c9-eeb983d20c05.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/gov-abbott-outlines-texass-three-phases-for-re-opening-the-lone-star-state-n2567148">And the First State to Start Re-Opening Is Texas </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" data-src="//media.townhall.com/townhall/reu/b/2020/108/0312f0de-aebe-4ffd-8865-086c6760c7bf.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157">Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a href="/columnists/katiepavlich/2020/04/17/nancy-pelosi-doesnt-care-n2567139"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Nancy Pelosi Doesn’t Care" data-src="//media.townhall.com/townhall/reu/b/2019/269/ef5eb632-e868-4f93-b614-50ad162493a0.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/katiepavlich/2020/04/17/nancy-pelosi-doesnt-care-n2567139">Nancy Pelosi Doesn’t Care</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="New Drug Combating Wuhan Coronavirus Yield Excellent Results...And the Dow Surged Because of It" data-src="//media.townhall.com/townhall/reu/b/2020/97/a1c032c2-2dc2-415a-a698-50aeb7968e7a.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160">New Drug Combating Wuhan Coronavirus Yield Excellent Results...And the Dow Surged Because of It</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/democrats-want-to-use-your-money-to-pay-states-to-let-criminals-out-of-jail-n2567089"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="The Latest Spending Push from Democrats: Using Your Money to Let Felons Out of Jail" data-src="//media.townhall.com/townhall/reu/b/2020/83/3e059f9d-8ceb-4679-8e5d-5428f2a82ba5.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/democrats-want-to-use-your-money-to-pay-states-to-let-criminals-out-of-jail-n2567089">The Latest Spending Push from Democrats: Using Your Money to Let Felons Out of Jail</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" data-src="//media.townhall.com/townhall/reu/b/2014/289/17329344-1af8-4a1f-8631-ab65d20076a0.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141">There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/trump-appears-to-back-protestors-against-michigan-governor-n2567129"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Trump Appears to Back Protestors Against Michigan Governor " data-src="//media.townhall.com/townhall/reu/b/2020/106/c409bf9b-dbcc-4435-b8f2-428e0b5d8196.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/trump-appears-to-back-protestors-against-michigan-governor-n2567129">Trump Appears to Back Protestors Against Michigan Governor </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/tucker-sounds-off-on-governor-whitmers-weird-fascism-n2567109"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Tucker Exposes What&#39;s Behind Governor Whitmer&#39;s &#39;Weird, Arbitrary Fascism&#39; " data-src="//media.townhall.com/townhall/reu/b/2020/35/f4488b8b-113f-4e5a-b0c5-046613b57d0c.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/tucker-sounds-off-on-governor-whitmers-weird-fascism-n2567109">Tucker Exposes What&#39;s Behind Governor Whitmer&#39;s &#39;Weird, Arbitrary Fascism&#39; </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/minnesota-governor-begins-to-ease-some-restrictions-n2567126"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Did Gov. Walz Just Take Trump&#39;s Advice to &#39;Liberate&#39; Minnesota?" data-src="//media.townhall.com/townhall/reu/b/2020/108/6d262d31-153f-4bcc-b97f-2a9584f78663.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/minnesota-governor-begins-to-ease-some-restrictions-n2567126">Did Gov. Walz Just Take Trump&#39;s Advice to &#39;Liberate&#39; Minnesota?</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a href="/tipsheet/cortneyobrien/2020/04/17/biden-downplays-china-threat-n2567062"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Nikki Haley Recalls How Biden Has Downplayed the Threat from China" data-src="//media.townhall.com/townhall/reu/b/townhall/reu/o/2018/330/76346357-2450-40f7-a097-c78820c7f712.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/biden-downplays-china-threat-n2567062">Nikki Haley Recalls How Biden Has Downplayed the Threat from China</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ny-dem-rips-pelosi-for-adding-far-left-provisions-in-coronavirus-relief-bill-n2567112"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="NY Dem Rips Pelosi for Adding &#39;Far Left&#39; Provisions in Coronavirus Relief Bill" data-src="//media.townhall.com/townhall/reu/b/2019/80/3f341d90-5ab1-4263-b5a7-97a52d2e0dfe.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ny-dem-rips-pelosi-for-adding-far-left-provisions-in-coronavirus-relief-bill-n2567112">NY Dem Rips Pelosi for Adding &#39;Far Left&#39; Provisions in Coronavirus Relief Bill</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ted-cruz-explains-how-to-hold-china-accountable-n2567110"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Ted Cruz Explains that China Is Guilty on Three Counts" data-src="//media.townhall.com/townhall/reu/b/2020/24/3c73a6b1-3be6-479f-aaca-9dec532b7741.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ted-cruz-explains-how-to-hold-china-accountable-n2567110">Ted Cruz Explains that China Is Guilty on Three Counts</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/marinamedvin/2020/04/17/business-bread-lines-run-out-of-bread-as-americans-rail-against-coronavirus-oppression-n2567083"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Business Bread Lines Run Out Of Bread as Americans Rail Against Coronavirus Oppression" data-src="//media.townhall.com/townhall/reu/b/2018/290/99f4dc8c-cbc4-4e27-9168-8013625daad0.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/marinamedvin/2020/04/17/business-bread-lines-run-out-of-bread-as-americans-rail-against-coronavirus-oppression-n2567083">Business Bread Lines Run Out Of Bread as Americans Rail Against Coronavirus Oppression</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/toddstarnes/2020/04/17/democrats-will-keep-the-states-closed-to-tank-the-economy-and-take-down-trump-n2567117"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump" data-src="//media.townhall.com/townhall/reu/b/2020/100/f05bab8f-dc2c-46b4-9bde-bca808e0e1d9.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/toddstarnes/2020/04/17/democrats-will-keep-the-states-closed-to-tank-the-economy-and-take-down-trump-n2567117">Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/davidlimbaugh/2020/04/17/media-prefer-hating-trump-to-helping-america-n2567084"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Media Prefer Hating Trump to Helping America" data-src="//media.townhall.com/townhall/reu/b/2020/90/7dba55f7-89a9-453c-9687-bd60fb6bd441.jpg" /></a>
- </div>
-<div class="thm-carousel__caption">
-<a href="/columnists/davidlimbaugh/2020/04/17/media-prefer-hating-trump-to-helping-america-n2567084">Media Prefer Hating Trump to Helping America</a>
-</div>
-</div>
-</div>
-</div></nav>
-</header>
-<div>
-<div class="container">
-<div class="row row-topper">
-<div class="col-xs-10">
-<ul class="breadcrumb">
-<li><a href="/">Townhall</a></li>
-<li><a href="/columnists/" class="text-capitalize">columnists</a></li>
-<li class="active">
-<a href="/columnists/walterewilliams/">Walter E. Williams</a>
-</li>
-</ul>
-</div>
-<div class="col-xs-2">
-<a href="/tags/identity-politics" class="btn btn-default btn-article-supertag pull-right ">Identity Politics</a>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<article>
-<section id="article-header">
-<div class="row">
-<div class="col-xs-12">
-<span class="label label-default label-tertiary opinion-label-place">Opinion</span>
-</div>
-</div>
-<h1 class="headline">Manipulation Through Racial Hoaxes</h1>
-<div class="row">
-<div class="col-xs-12">
-<div class="contributor-img pull-left">
-<a href="/author/walterewilliams">
-<img alt="Walter E. Williams" class="img-thumbnail" src="https://media.townhall.com/townhall/reu/contributor-sm/authorimages/walterewilliams.jpg" />
-</a>
-</div>
-<div class="contributor pull-left">
-<a href="/author/walterewilliams">Walter E. Williams</a>
-</div>
-<div class="contributor pull-left">|</div>
-<div class="contributor pull-left">Posted: Apr 08, 2020 12:01 AM</div>
-<div class="sc header-share">
-<a class="btn btn-facebook-lg sc-fb"><i class="fa fa-facebook-official"></i>&nbsp; Share <span class="fb-count"></span></a>
-<a class="btn btn-twitter-lg sc-tw" data-dc="181"><i class="fa fa-twitter"></i>&nbsp; Tweet <span class="tw-count"></span></a>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12 opinion-disclaimer-place"><em>The opinions expressed by columnists are their own and do not necessarily represent the views of Townhall.com.</em></div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<div class="gpt-header">
-<div id="div-gpt-728x90_1" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-728x90_1");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-728x90_1"]])
-                    });
-                </script>
-</div>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-8">
-<div class="media-object">
-<img class="article-main-image" src="https://media.townhall.com/townhall/reu/ha/2020/42/f9d16814-c94e-45ce-b170-9d221da89072.jpg" alt="Manipulation Through Racial Hoaxes" />
-<p class="main-image-source muted"><small><em>Source: AP Photo/Paul Beaty</em></small></p>
-</div>
-</div>
-<div class="col-xs-4">
-<div id="div-gpt-300x250_1" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_1");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_1"]])
-                    });
-                </script>
-</div>
-<div class="article-actions">
-<a href="mailto:?subject=Manipulation Through Racial Hoaxes&amp;body=https://townhall.com/columnists/walterewilliams/2020/04/08/manipulation-through-racial-hoaxes-n2566520" class="btn btn-default btn-article-email"><i class="fa fa-envelope"></i></a>
-<a data-url="https://townhall.com/columnists/walterewilliams/2020/04/08/manipulation-through-racial-hoaxes-n2566520/print" onclick="window.open('https://townhall.com/columnists/walterewilliams/2020/04/08/manipulation-through-racial-hoaxes-n2566520/print', 'print-winder', 'width=850,height=700,scrollbars=yes');" class="btn btn-default btn-article-print"><i class="fa fa-print"></i></a>
-<a href="#article-comment-bookmark" class="btn btn-default btn-article-comment"><i class="fa fa-comment"></i></a>
-</div>
-</div>
-</div>
-</section>
-<section id="article-body">
-<aside id="aside1" class="left aside-wrapper">
-<div class="article-aside-ad">
-<div id="div-gpt-300x250_2" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_2");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_2"]])
-                    });
-                </script>
-</div>
-</div>
-<div class="recommended-widget">
-<div class="hpc">
-<div class="hpc__title">Trending</div>
-<ul class="list-unstyled hpc__list">
-<li>
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern  - 315" href="/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915">
-<img class="pull-right hpc__colimg" src="https://media.townhall.com/townhall/reu/contributor-sm/https://media.townhall.com/townhall/reu/contributor-sm/authorimages/e12b288b-7505-474a-99e0-61bf2fcc255f.png">
-</a>
-<div class="hpc__muted">
-<a href="/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915">Marina Medvin</a>
-</div>
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern  - 315" href="/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915">
-<span class="hpc__story">Israeli Professor Shows Virus Follows Fixed Pattern </span>
-</a>
-</li>
-<li>
-<a title="Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump - 32" href="/columnists/toddstarnes/2020/04/17/democrats-will-keep-the-states-closed-to-tank-the-economy-and-take-down-trump-n2567117">
-<img class="pull-right hpc__colimg" src="https://media.townhall.com/townhall/reu/contributor-sm/https://media.townhall.com/townhall/reu/contributor-sm/authorimages/toddstarnes.jpg">
-</a>
-<div class="hpc__muted">
-<a href="/columnists/toddstarnes/2020/04/17/democrats-will-keep-the-states-closed-to-tank-the-economy-and-take-down-trump-n2567117">Todd Starnes</a>
-</div>
-<a title="Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump - 32" href="/columnists/toddstarnes/2020/04/17/democrats-will-keep-the-states-closed-to-tank-the-economy-and-take-down-trump-n2567117">
-<span class="hpc__story">Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump</span>
-</a>
-</li>
-<li>
-<a title="Can We Talk About American Media's Connections to Chinese Interests? - 13" href="/columnists/larryoconnor/2020/04/14/can-we-talk-about-american-medias-connections-to-chinese-interests-n2566887">
-<img class="pull-right hpc__colimg" src="https://media.townhall.com/townhall/reu/contributor-sm/https://media.townhall.com/townhall/reu/contributor-sm/authorimages/03a5d6af-04cf-498e-8691-7287029f8fdc.jpg">
-</a>
-<div class="hpc__muted">
-<a href="/columnists/larryoconnor/2020/04/14/can-we-talk-about-american-medias-connections-to-chinese-interests-n2566887">Larry O'Connor</a>
-</div>
-<a title="Can We Talk About American Media's Connections to Chinese Interests? - 13" href="/columnists/larryoconnor/2020/04/14/can-we-talk-about-american-medias-connections-to-chinese-interests-n2566887">
-<span class="hpc__story">Can We Talk About American Media's Connections to Chinese Interests?</span>
-</a>
-</li>
-</ul>
-</div>
-</div>
-<div id="div-gpt-townhall_columns_leftrail" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-townhall_columns_leftrail");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-townhall_columns_leftrail"]])
-                    });
-                </script>
-</div>
-</aside>
-<p>We black people are so convenient and useful to America's leftists. Whenever there's a bit of silencing to be done, just accuse a detractor or critic of racism. A recent, particularly stupid, example is CNN's Brandon Tensley's complaint that the "Coronavirus task force is another example of Trump administration's lack of diversity." Tensley said the virus experts are "largely the same sorts of white men (and a couple women on the sidelines) who've dominated the Trump administration from the very beginning." I'd like for Tensley to tell us just what racial or sex diversity contribute to finding a cure or treatment for the coronavirus.</p><div class="thm-piano-mop"></div><p>Jesse Watters was criticized as a racist for claiming that the coronavirus outbreak was caused by Chinese people "eating raw bats and snakes." He added that "They are a very hungry people. The Chinese communist government cannot feed the people, and they are desperate. This food is uncooked, it is unsafe and that is why scientists believe that's where it originated from." Watter's statement can be settled by a bit of empiricism. Just find out whether Chinese people eat bats and snakes and whether that has anything to do with the spread of the coronavirus.</p><p>It may be perplexing to some, but I believe that our nation has made great progress in matters of race, so much so that imaginary racism and racial hoaxes must be found. Left-wingers on college campuses and elsewhere have a difficult time finding the racism that they say permeates everything. So they're brazenly inventing it.</p><div class="aside-wrapper pr">
-<div id="div-gpt-300x250_3" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_3");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_3"]])
-                    });
-                </script>
-</div>
-<div class="cartoon-widget">
-<div class="cartoon-widget__title"><a href="/political-cartoons">CARTOONS</a>&nbsp;|&nbsp;<a href="/political-cartoons/michaelramirez/">Michael Ramirez</a></div>
-<a class="cartoon-widget__img" href="/political-cartoons/2020/04/18/173115?hpnl=true" style="background-image:url('//media.townhall.com/Townhall/Car/b/mrz041820dAPR20200417044513.jpg');"></a>
-<div class="cartoon-widget__button"><a href="/political-cartoons/2020/04/18/173115?hpnl=true"> View Cartoon <i class="fa fa-arrow-circle-right"></i></a></div>
-</div>
-</div><p>Jussie Smollett charged that two masked Trump supporters, wearing MAGA hats, using racial and homophobic insults attacked him. The anti-Trump media gobbled up Smollett's story hook, line and sinker, but it turned out to be a hoax.</p><p>A large percentage of hate-crime hoaxes occur on college campuses. Andy Ngo writes about this in his City Journal article "Inventing Victimhood: Universities too often serve as 'hate-crime hoax' mills." St. Olaf College in Minnesota was roiled in mass "anti-racism" protests that caused classes to be canceled. It turned out that a black student activist was found to be responsible for a racist threat she left on her own car. Five black students at the U.S. Air Force Academy Preparatory School found racial slurs written on their doors. An investigation later found that one of the students targeted was responsible for the vandalism.</p><p>Andy Ngo writes that there are dozens of other examples. They all point to a sickness in American society, with our institutions of higher education too often doubling as "hate-hoax mills," encouraged by a bloated grievance industry in the form of diversity administrators. These are diversity-crazed administrators, along with professors of race and gender studies, who nationwide spend billions of dollars on diversity and a multiculturalist agenda. Racial discord and other kinds of strife are their meal tickets to greater influence and bigger budgets.</p><div class="hlw"><div class="hl-wrapper">
-<div id="div-gpt-728x90_2" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-728x90_2");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-728x90_2"]])
-                    });
-                </script>
-</div>
-</div></div><p>There's another set of beneficiaries to racial hoaxes and racial strife. These alleged incidents are invariably seized upon by politicians and activists looking to feed a sacrosanct belief among liberals that discrimination and oppression are the main drivers of inequality. Jason Riley, writing in The Wall Street Journal says "In the mainstream media we hear almost constant talk about scary new forms of racism: 'white privilege,' 'cultural appropriation,' and 'subtle bigotry.'" Riley mentions the work of Dr. Wilfred Reilly who is a professor of political science at Kentucky State University and author of a new book, "Hate Crime Hoax," that states "a huge percentage of the horrific hate crimes cited as evidence of contemporary bigotry are fakes." Reilly put together a data set of more than 400 confirmed cases of fake allegations that were reported to authorities between 2010 and 2017. He says that the exact number of false reports is probably unknowable, but what can be said "with absolute confidence is that the actual number of hate crime hoaxes is indisputably large. We are not speaking here of just a few bad apples." But Reilly has a larger point to make, writing, "The Smollett case isn't an outlier. Increasingly, it's the norm. And the media's relative lack of interest in exposing hoaxes that don't involve famous figures is a big part of the problem."</p> <div class="mpw-inline-col">
-<div class="mpw-inline-col__row">
-<div class="mpw-inline-col__rail"><a title="Israeli Professor Shows Virus Follows Fixed Pattern  - 315" href="/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915?utm_campaign=inarticle"><img class="img-responsive" src="https://media.townhall.com/townhall/reu/s124x68/2020/104/30b0d531-01a6-4224-85b5-7548e5f3b2a7.jpg" /></a></div>
-<div class="mpw-inline-col__content">
-<div class="mpw-inline-col__title">Recommended</div>
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern  - 315" href="/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915?utm_campaign=inarticle">
-<span class="mpw-inline-col__story">Israeli Professor Shows Virus Follows Fixed Pattern </span>
-</a>
-<div class="mpw-inline-col__muted">
-Marina Medvin
-</div>
-</div>
-</div>
-</div>
-<p><em>Walter E. Williams is a professor of economics at George Mason University. To find out more about Walter E. Williams and read features by other Creators Syndicate writers and cartoonists, visit the Creators Syndicate webpage at www.creators.com.</em></p>
-</section>
-<section id="article-footer">
-<div class="row article-wc">
-<div class="col-xs-12">
-<div class="thm-piano-eop"></div>
-<div class="thm-piano-eop-recommended"></div>
-<div class="article-actions-footer sc">
-<div class="row">
-<div class="col-xs-12">
-<a class="btn btn-facebook-lg btn-block sc-fb"><i class="fa fa-facebook-official"></i>&nbsp; Share this on Facebook <span class="fb-count"></span></a>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-6"><a class="btn btn-block btn-twitter-lg sc-tw" data-dc="181"><i class="fa fa-twitter"></i>&nbsp; Tweet <span class="tw-count"></span></a></div>
-<div class="col-xs-2"><a href="mailto:?subject=Manipulation Through Racial Hoaxes&amp;body=https://townhall.com/columnists/walterewilliams/2020/04/08/manipulation-through-racial-hoaxes-n2566520" class="btn btn-block btn-default btn-article-email"><i class="fa fa-envelope"></i></a></div>
-<div class="col-xs-2"><button data-url="https://townhall.com/columnists/walterewilliams/2020/04/08/manipulation-through-racial-hoaxes-n2566520/print" onclick="window.open('https://townhall.com/columnists/walterewilliams/2020/04/08/manipulation-through-racial-hoaxes-n2566520/print', 'print-winder', 'width=850,height=700,scrollbars=yes');" class="btn btn-block btn-default btn-article-print"><i class="fa fa-print"></i></button></div>
-<div class="col-xs-2"><a href="#article-comment-bookmark" class="btn btn-block btn-default btn-article-comment"><i class="fa fa-comment"></i></a></div>
-</div>
-</div>
-</div>
-</div>
-<div class="row article-wc">
-<div class="col-xs-12">
-<div id="rcjsload_ffe38c"></div>
-<script type="text/javascript">
-        (function () {
-            function ad_block_test(e, o) { if ("undefined" != typeof document.body) { var t = "0.1.2-dev", o = o ? o : "sponsorText", n = document.createElement("DIV"); n.id = o, n.style.position = "absolute", n.style.left = "-999px", n.appendChild(document.createTextNode("&nbsp;")), document.body.appendChild(n), setTimeout(function () { if (n) { var o = 0 == n.clientHeight; try { } catch (d) { console && console.log && console.log("ad-block-test error", d) } e(o, t), document.body.removeChild(n) } }, 175) } }
-            ad_block_test(function (is_blocked) {
-                var widget_id = 102403;
-                if (is_blocked === true) {
-                    widget_id = 102452;
-                }
-                var referer = ""; try { if (referer = document.referrer, "undefined" == typeof referer) throw "undefined" } catch (exception) { referer = document.location.href, ("" == referer || "undefined" == typeof referer) && (referer = document.URL) } referer = referer.substr(0, 700);
-                var rcel = document.createElement("script");
-                rcel.id = 'rc_' + Math.floor(Math.random() * 1000);
-                rcel.type = 'text/javascript';
-                rcel.src = "//trends.revcontent.com/serve.js.php?w=" + widget_id + "&t=" + rcel.id + "&c=" + (new Date()).getTime() + "&width=" + (window.outerWidth || document.documentElement.clientWidth) + "&referer=" + referer + '&is_blocked=' + is_blocked;
-                rcel.async = true;
-                var rcds = document.getElementById("rcjsload_ffe38c"); rcds.appendChild(rcel);
-            });
-        })();
-    </script>
-<div class="thm-bluec"></div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<ul class="list-unstyled list-inline article-topics clearfix">
-<li>Tags: </li>
-<li><a class="btn btn-default btn-topic" data-tagid="2949" href="/tags/identity-politics">Identity Politics</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="4146" href="/tags/racial-politics">Racial Politics</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="15588" href="/tags/jussie-smollett">Jussie Smollett</a></li>
-</ul>
-<script>
-    var rndnum = Math.floor(Math.random() * 50000);
-    var submitScript = document.createElement('script');
-    submitScript.src = 'https://townhall.com/wservices/handlers/tagcount.ashx?tid=2949,4146,15588&tnd=' + rndnum;
-    document.body.appendChild(submitScript);
-
-</script>
-</div>
-</div>
-<section id="grid-1">
-<div class="row">
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic" data-src="https://media.townhall.com/townhall/reu/ha/2018/43/10b23fc2-706b-4096-a312-ab7270db00c0.jpg" href="https://townhall.com/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic" href="https://townhall.com/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159">Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic</a>
-</div>
-<div class="story__author">
-Julio Rosas
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="&lt;p&gt;New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It&lt;/p&gt;" data-src="https://media.townhall.com/townhall/reu/ha/2020/97/a1c032c2-2dc2-415a-a698-50aeb7968e7a.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="&lt;p&gt;New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It&lt;/p&gt;" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"><p>New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It</p></a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-
-<a class="thm-inc lazy" title="New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported" data-src="https://media.townhall.com/townhall/reu/ha/2020/80/b0dabbb2-2c7b-419e-a142-ce365718c3d4.jpg" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/first-largescale-antibody-testing-indicate-coronavirus-infections-much-higher-death-rate-much-lower-n2567155"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/first-largescale-antibody-testing-indicate-coronavirus-infections-much-higher-death-rate-much-lower-n2567155">New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported</a>
-</div>
-<div class="story__author">
-Bronson Stocking
-</div>
-</div>
-</div>
-</div><div class="row">
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a class="thm-inc lazy" title="ICE Apprehends Five Asia Nationals Illegally Present in the U.S. " data-src="https://media.townhall.com/townhall/reu/ha/2019/133/d63885bf-3c7a-4a9a-bcbd-ac2735c54d62.png" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/five-asia-nationals-six-pakistanis-apprehended-by-ice-n2567165"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="ICE Apprehends Five Asia Nationals Illegally Present in the U.S. " href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/five-asia-nationals-six-pakistanis-apprehended-by-ice-n2567165">ICE Apprehends Five Asia Nationals Illegally Present in the U.S. </a>
-</div>
-<img class="thm-sublevel" src="/resources/dist/svg/subscriptions-badge-vip.svg" />
-<div class="story__author">
-Bronson Stocking
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" data-src="https://media.townhall.com/townhall/reu/ha/2014/289/17329344-1af8-4a1f-8631-ab65d20076a0.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141">There's Something a Little Odd About the Letter Hunter Biden's Lawyer Sent Regarding the China Allegations</a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" data-src="https://media.townhall.com/townhall/reu/ha/2020/108/0312f0de-aebe-4ffd-8865-086c6760c7bf.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157">Land O'Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?</a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-</div><div class="row">
-</div>
-</section>
-<div class="row">
-<div class="col-xs-8">
-<div id="article-comment-bookmark"></div>
-<section id="article-comments">
-<button class="show-comments btn btn-lg btn-block btn-primary" style="margin:0 0 15px 0;" data-disqus-url="https://townhall.com/columnists/walterewilliams/2020/04/08/manipulation-through-racial-hoaxes-n2566520">SHOW COMMENTS</button>
-<div id="disqus_thread"></div>
-<script>
-      var disqus_config = function () {
-            this.page.url = "https://townhall.com/columnists/walterewilliams/2020/04/08/manipulation-through-racial-hoaxes-n2566520";
-          this.page.identifier = "https://townhall.com/columnists/walterewilliams/2020/04/08/manipulation-through-racial-hoaxes-n2566520";
-      };
-    $('.show-comments').on('click', function () {
-        $.ajax({
-            type: "GET",
-            url: "//townhallcom.disqus.com/embed.js",
-            dataType: "script",
-            cache: true
-        });
-        $(this).hide();
-    });
-</script>
-</section>
-</div>
-<div class="col-xs-4" style="margin-top:41px;">
-<div class="sticky-reference">
-<div class="sticky" data-offset-top="55">
-<div class="ad">
-<div id="div-gpt-300x250_sticky" data-gpt='{"IncludeInPrebid":true,"Target":"pos","TargetValue":"300x250_sticky","SectionSlug":"columnists","SlotId":0,"DivUniqueId":"div-gpt-300x250_sticky","AdSize":"[[300,250]]","AdUnitPath":"/6177/slm.townhall/","AdType":0,"AdRenderType":1,"IsYieldBotAmp":false,"IntervalTime":0,"AdParentLocation":0}' class="lazy-ad gpt-ad">
-<script id="pb-div-gpt-300x250_sticky" type="application/json">
-                    {"code":"div-gpt-300x250_sticky","sizes":[[300,250]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_sticky@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]}
-                </script>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<div class="sticky-stopper">
-</div>
-</article>
-</div>
-</div>
-<section>
-<div class="row">
-<div class="col-xs-12">
-<section id="trending-on-thm" class="trending">
-<h1 class="trending__title">Trending on Townhall Media</h1>
-<div class="row">
-<div class="col-xs-4">
-<div class="mpw-bordered">
- <div class="mpw">
-<ul class="list-unstyled">
-<li>
-<a title="Hold onto your HATS! Brit Hume shares fact-filled thread on study showing COVID fatality rate just bottomed out to influenza levels - 45" href="https://twitchy.com/samj-3930/2020/04/17/hold-onto-your-hats-brit-hume-shares-fact-filled-thread-on-study-showing-covid-fatality-rate-just-bottomed-out-to-influenza-levels/">
-<span class="mpw__story">Hold onto your HATS! Brit Hume shares fact-filled thread on study showing COVID fatality rate just bottomed out to influenza levels</span>
-</a>
-<div class="mpw__domain" style="color:#F27B21;">
-Twitchy
-</div>
-</li>
-<li>
-<a title="HUGE: The UK Just Dumped China&#39;s Huawei in 5G Tech Roll-Out — Citing its Lies Over Coronavirus. - 54" href="https://pjmedia.com/trending/huge-the-uk-just-dumped-chinas-huawei-in-5g-tech-roll-out-citing-its-lies-over-coronavirus/">
-<span class="mpw__story">HUGE: The UK Just Dumped China&#39;s Huawei in 5G Tech Roll-Out — Citing its Lies Over Coronavirus.</span>
-</a>
-<div class="mpw__domain" style="color:#00a99d;">
-PJ Media
-</div>
-</li>
-<li>
-<a title="English Professor Hopes To Revive Debate Over Militia Clause Of 2A - 8" href="https://bearingarms.com/cam-e/2020/04/15/english-professor-hopes-to-revive-debate-over-militia-clause-of-2a/">
-<span class="mpw__story">English Professor Hopes To Revive Debate Over Militia Clause Of 2A</span>
-</a>
-<div class="mpw__domain" style="color:#ADADAD;">
-Bearing Arms
-</div>
-</li>
 </ul>
 </div>
 </div>
 </div>
-<div class="col-xs-8">
-<div class="row">
-<div class="col-xs-12">
-<div class="xl-story">
-<div class="xl-story__img">
-<a target="_top" class="lazy" href="https://townhall.com/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915" data-src="https://media.townhall.com/townhall/reu/ha/2020/104/30b0d531-01a6-4224-85b5-7548e5f3b2a7.jpg">
-&nbsp;
-</a>
 </div>
-<div class="xl-story__summary">
-<h1>
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern " href="https://townhall.com/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915">Israeli Professor Shows Virus Follows Fixed Pattern </a>
-</h1>
-<h5 style="color:#ba224b">Townhall</h5>
-</div>
-</div>
-</div>
-</div>
-<div class="row">
- <div class="col-xs-6">
-<div class="sm-story">
-<div class="sm-story__text">
-<a title="Strassel: Here&amp;#8217;s Why the Democrats Keep Moving the Shutdown Goal Posts" href="https://www.redstate.com/elizabeth-vaughn/2020/04/17/820436/">Strassel: Here&#8217;s Why the Democrats Keep Moving the Shutdown Goal Posts</a>
-</div>
-<div class="sm-story__flavor" style="color:#CB0809">Redstate</div>
-</div>
-</div>
-<div class="col-xs-6">
-<div class="sm-story">
-<div class="sm-story__text">
-<a title="The results are in on the Texas nursing home using hydroxychloroquine" href="https://hotair.com/archives/karen-townsend/2020/04/17/results-texas-nursing-home-using-hydroxychloroquine/">The results are in on the Texas nursing home using hydroxychloroquine</a>
-</div>
-<div class="sm-story__flavor" style="color:#CD2628">Hotair</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-</div>
-</div>
-</section>
-</div>
-<div class="thm-piano-pfixed"></div>
-</div>
-<footer class="sticky-stopper">
-<section class="footer-brands">
-<div class="container">
-<ul class="list-inline list-unstyled">
-<li><a href="https://townhall.com"><img src="https://media.townhall.com/thm/th_logo1.png" alt="" /></a></li>
-<li><a href="https://hotair.com"><img src="https://media.townhall.com/thm/ha_logo1.png" alt="" /></a></li>
-<li><a href="https://bearingarms.com"><img src="https://media.townhall.com/thm/ba_logo1.png" alt="" /></a> </li>
-<li><a href="https://twitchy.com"><img src="https://media.townhall.com/thm/tw_logo1.png" alt="" /></a></li>
-<li><a href="https://redstate.com"><img src="https://media.townhall.com/thm/rs_logo1.png" alt="" /></a></li>
-<li><a href="https://pjmedia.com" target="_blank"><img src="https://media.townhall.com/thm/pj-media.png" style="width:100px;height:45px;" alt="PJ Media" /></a></li>
+<nav class="master-menu js-master-menu" role="navigation" aria-hidden="true">
+<div class="master-menu__content ">
+<div class="row row--6-col">
+<div class="col is-menu">
+<div class="col is-menu">
+<h2 class="menu-toggle js-menu-toggle section-heading">SECTIONS</h2>
+<ul class="master-menu__list">
+<li class="master-menu__item">
+<a href="https://www.politico.com/agenda" tabindex="-1" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=1&amp;lcol=1">The Agenda</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/magazine" tabindex="-1" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=2&amp;lcol=1">Magazine</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/congress" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=3&amp;lcol=1">Congress</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/white-house" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=4&amp;lcol=1">White House</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/video" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=5&amp;lcol=1">Video</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/podcasts" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=6&amp;lcol=1">Podcasts</a></li>
 </ul>
 </div>
-</section>
-<section class="footer-links">
-<div class="container">
-<ul class="list-inline list-unstyled">
-<li><a title="Conservative Columnists" href="/columnists">Columnists</a></li>
-<li><a href="/political-cartoons">Political Cartoons</a></li>
-<li><a href="/tipsheet">Tipsheet</a> </li>
-<li><a href="/tv">Townhall TV</a> </li>
-<li><a href="/podcasts">Podcasts</a> </li>
-<li><a title="Conservative News" href="/news">Radio News</a></li>
-<li><a title="Conservative Video" href="/video">Video</a></li>
-<li><a title="Conservative Entertainment" href="/entertainment">Entertainment</a></li>
-<li><a title="VIP" href="/vip">VIP</a></li>
-<li><a title="Conservative Capitol Voices" href="/capitol-voices">Capitol Voices</a></li>
-</ul>
-<ul class="list-inline list-unstyled">
-<li><a href="/election">Election Results</a></li>
-<li><a href="/tags/">Tags</a></li>
-<li><a href="http://finance.townhall.com">Finance</a></li>
-<li><a href="#" onclick="javascript:window.open('http://saleminteractivemedia.com/ListenLive/Player/TOWNIR','TOWNIR','width=800,height=710');">Townhall Radio</a></li>
-</ul>
-<ul class="list-inline list-unstyled">
-<li><a href="/aboutus">About Townhall</a></li>
-<li><a href="http://townhallmedia.com/">Advertise</a></li>
-<li><a href="https://townhall.com/tags/gift-guides/">Gift Guides</a></li>
-<li><a href="https://media.townhall.com/townhall/privacypolicy/privacypolicy.htm">Privacy Policy</a></li>
-<li><a href="https://media.townhall.com/townhall/privacypolicy/TermsofUse.htm">Terms of Use</a></li>
-<li><span class="thm-cpa"><a href="/donotsell" rel="nofollow">California - Do Not Sell My Personal Information</a></span></li>
-<li><a target="_blank" href="http://www.conservativeradio.com/">Radio Stations</a></li>
-<li><a href="/sitemap.htm">Sitemap</a></li>
-<li><a href="/pages/townhall_jobs">Jobs </a></li>
-<li><a href="/contact-us/">Contact Us</a></li>
-<li><a href="/newslettersignup/">Newsletters</a></li>
-<li><a href="/mobile-apps">iPhone/Android Apps</a></li>
+</div><div class="col is-menu">
+<div class="col is-menu">
+<h2 class="menu-toggle js-menu-toggle section-heading">2020 Elections</h2>
+<ul class="master-menu__list">
+<li class="master-menu__item">
+<a href="https://www.politico.com/news/2020-elections" tabindex="-1" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=1&amp;lcol=2">News</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/2020-election/results/" tabindex="-1" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=2&amp;lcol=2">Election Results</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/2020-election/delegate-count-tracker-democratic-primary/" tabindex="-1" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=3&amp;lcol=2">Delegate Tracker</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/2020-election/race-forecasts-and-predictions/" tabindex="-1" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=4&amp;lcol=2">Forecast</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/2020-election/democratic-presidential-candidates/endorsements/" tabindex="-1" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=5&amp;lcol=2">Endorsements</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/2020-election/candidates-views-on-the-issues/" tabindex="-1" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=6&amp;lcol=2">Issues</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/2020-election/democratic-presidential-candidates/polls/" tabindex="-1" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=7&amp;lcol=2">Polls</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/2020-election/president/democratic-primary/candidates/fundraising-and-campaign-finance-tracker/" tabindex="-1" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=8&amp;lcol=2">Money</a></li>
 </ul>
 </div>
-</section>
-<section class="under-footer">
-<div class="container">
-<div class="row">
-<hr>
-<div class="col-xs-4">
-<a href="/">
-<img alt="Townhall.com" src="https://media.townhall.com/_townhall/resources/images/thmplus.png">
-<img style="width: 155px;height:40px;" alt="Townhall.com" src="/resources/th_logo.svg">
-</a>
+</div><div class="col is-menu">
+<div class="col is-menu">
+<h2 class="menu-toggle js-menu-toggle section-heading">NEWSLETTERS</h2>
+<ul class="master-menu__list">
+<li class="master-menu__item">
+ <a href="https://www.politico.com/playbook" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=1&amp;lcol=3">Playbook</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/newsletters/playbook-pm" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=2&amp;lcol=3">Playbook PM</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/newsletters/politico-nightly-coronavirus-special-edition" tabindex="-1" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=3&amp;lcol=3">POLITICO Nightly: Coronavirus Special Edition</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/huddle/" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=4&amp;lcol=3">Huddle</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/newsletters" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=5&amp;lcol=3">All Newsletters</a></li>
+</ul>
 </div>
-<div class="col-xs-8">
-<p class="copyright" style="margin-top:12px;">
-Townhall.com is the leading source for conservative news and political commentary and analysis.<br>
-Copyright &copy; Townhall.com/Salem Media. All Rights Reserved. <a href="https://media.townhall.com/townhall/privacypolicy/TermsofUse.htm" target="_blank">Terms</a> under which this service
-is provided to you
-</p>
+<div class="col is-menu">
+<h2 class="menu-toggle js-menu-toggle section-heading">SERIES</h2>
+<ul class="master-menu__list">
+<li class="master-menu__item">
+<a href="https://www.politico.com/magazine/thedeciders" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=6&amp;lcol=3">The Deciders</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/magazine/what-works" tabindex="-1" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=7&amp;lcol=3">What Works</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/WomenRule" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=8&amp;lcol=3">Women Rule</a></li>
+</ul>
 </div>
+</div><div class="col is-menu">
+<div class="col is-menu">
+<h2 class="menu-toggle js-menu-toggle section-heading">POLITICO LIVE</h2>
+<ul class="master-menu__list">
+<li class="master-menu__item">
+<a href="https://www.politico.com/live-events" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=1&amp;lcol=4">Live Home</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/live-events/upcoming" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=2&amp;lcol=4">Upcoming Events</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/live-events/previous" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=3&amp;lcol=4">Previous Events</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/live-events/about" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=4&amp;lcol=4">About POLITICO Live</a></li>
+</ul>
 </div>
+<div class="col is-menu">
+<h2 class="menu-toggle js-menu-toggle section-heading">COLUMNS & CARTOONS</h2>
+<ul class="master-menu__list">
+<li class="master-menu__item">
+<a href="https://www.politico.com/news/rich-lowry" tabindex="-1" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=5&amp;lcol=4">Rich Lowry</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/news/fourth-estate" tabindex="-1" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=6&amp;lcol=4">Jack Shafer</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/news/matt-wuerker" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=7&amp;lcol=4">Matt Wuerker</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/tag/cartoon-carousel" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=8&amp;lcol=4">Cartoon Carousel</a></li>
+</ul>
 </div>
-</section>
-<div id="div-gpt-oop" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-oop");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-oop"]])
-                    });
-                </script>
+</div><div class="col is-menu">
+<div class="col is-menu">
+<h2 class="menu-toggle js-menu-toggle section-heading">POLICY</h2>
+<ul class="master-menu__list">
+<li class="master-menu__item">
+<a href="https://www.politico.com/tag/agriculture" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=1&amp;lcol=5">Agriculture</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/cannabis" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=2&amp;lcol=5">Cannabis</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/tag/cybersecurity" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=3&amp;lcol=5">Cybersecurity</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/tag/defense" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=4&amp;lcol=5">Defense</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/tag/education" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=5&amp;lcol=5">Education</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/ehealth" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=6&amp;lcol=5">eHealth</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/tag/employment-immigration" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=7&amp;lcol=5">Employment & Immigration</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/energy-and-environment" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=8&amp;lcol=5">Energy & Environment</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/finance" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=9&amp;lcol=5">Finance & Tax</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/health-care" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=10&amp;lcol=5">Health Care</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/tag/space" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=11&amp;lcol=5">Space</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/technology" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=12&amp;lcol=5">Technology</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/trade" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=13&amp;lcol=5">Trade</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/transportation" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=14&amp;lcol=5">Transportation</a></li>
+</ul>
+</div>
+</div><div class="col is-menu">
+<div class="col is-menu">
+<h2 class="menu-toggle js-menu-toggle section-heading">EDITIONS</h2>
+<ul class="master-menu__list">
+<li class="master-menu__item">
+<a href="https://www.politico.com/states/california" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=1&amp;lcol=6">California</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/tag/pro-canada" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=2&amp;lcol=6">Canada</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/tag/us-china-relations" tabindex="-1" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=3&amp;lcol=6">China</a></li>
+<li class="master-menu__item">
+ <a href="https://www.politico.eu/" tabindex="-1" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=4&amp;lcol=6">Europe</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/states/florida" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=5&amp;lcol=6">Florida</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/states/new-jersey" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=6&amp;lcol=6">New Jersey</a></li>
+<li class="master-menu__item">
+<a href="https://www.politico.com/states/new-york" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=7&amp;lcol=6">New York</a></li>
+<li class="master-menu__item">
+<a href="https://subscriber.politicopro.com/" tabindex="-1" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=8&amp;lcol=6">Pro</a></li>
+</ul>
+</div>
+</div></div><footer class="row menu-footer">
+<div class="menu-footer__follow">
+<h2 class="section-heading">Follow us</h2>
+<ul class="menu-footer__list menu-footer__list--follow">
+<li class="menu-footer__item">
+<a href="https://twitter.com/politico" tabindex="-1" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=1&amp;lcol=7">Twitter</a></li>
+<li class="menu-footer__item">
+<a href="https://www.instagram.com/politico/" tabindex="-1" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=2&amp;lcol=7">Instagram</a></li>
+<li class="menu-footer__item">
+<a href="https://www.facebook.com/politico/" tabindex="-1" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=3&amp;lcol=7">Facebook</a></li>
+</ul>
+</div>
+<div class="menu-footer__actions">
+<ul class="menu-footer__list menu-footer__list--actions">
+<li class="menu-footer__item">
+<a href="https://secure.politico.com/settings" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=1&amp;lcol=8">My Account</a></li>
+<li class="menu-footer__item">
+<a href="https://login.politico.com/_login?base=https%3A%2F%2Fwww.politico.com&amp;redirect=%2F_login&amp;logout=%2F_logout&amp;lRedirect=true&amp;sRedirect=%2Fsettings&amp;js=false" style="display: none;" class="politico-auth auth-logged-out js-tealium-tracking" target="_top" data-login="https://login.politico.com/_login?base=https%3A%2F%2Fwww.politico.com&amp;redirect=/_login&amp;logout=/_logout&amp;lRedirect=true&amp;sRedirect=/settings" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=2&amp;lcol=8">Log In</a><a href="https://login.politico.com/_logout?base=https%3A%2F%2Fwww.politico.com&amp;redirect=%2F_logout&amp;js=false" style="display: none;" class="politico-auth auth-logged-in js-tealium-tracking" data-logout="https://login.politico.com/_logout?base=https%3A%2F%2Fwww.politico.com&amp;redirect=/_logout" target="_blank" data-tracking="mpos=na&amp;mid=site_navigation&amp;lindex=2&amp;lcol=8">Log Out</a></li>
+</ul>
 </div>
 </footer>
-<script>(function(src){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=src;var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})("https://experience.tinypass.com/xbuilder/experience/load?aid=tSxoqtcFa7");</script>
-<div id="login-form"></div> <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
-<script src="/resources/dist/js/site.min.js?v=24"></script>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script src="/resources/lib/owl-carousel2/dist/owl.carousel.min.js"></script>
+</div>
+</nav>
+</header>
+<script src="https://static3.politico.com/resource/assets/js.min/core-header.min.4dbc747570f7e7c2bb49d4ac83d347f8.gz.js"></script>
+<div class="  ">
+<div id="pol-01-wrap" class="content-group ad " aria-label="Advertisement">
+<div class="ad-slot    " id="pol-01" aria-hidden="true">
+</div>
+</div>
+</div>
+</div>
+<main id="main" tabindex="-1">
+<div class="page-content page-content--story story-type--core" data-modules="/spring/cms-api/v1/modules?page=00000171-5707-ddd3-a173-f7976b650003" data-ad-slot-insertion-interval="1.5" data-ad-slot-first-insertion="1" data-viewport-ad-slot-id="pol-vp">
+
+<section class="page-content__row page-content__row--story   ">
+<div class="container container--story">
+<div class="container__column container__column--story">
+<section class="media-item media-item--story media-item--story-lead ">
+<div class="media-item__summary size--large is-centered  ">
+<header class="summary-header">
+<p class="category">
+<a href="https://www.politico.com/latest-news-updates/coronavirus" target="_blank">coronavirus</a></p>
+</header>
+<h2 class="headline">Kushner’s team seeks national coronavirus surveillance system</h2>
+<p class="dek">Critics worry about a Patriot Act for health care, raising concerns about patient privacy and civil liberties.</p>
+</div>
+<div class="media-item__image">
+<div class="media-item__image-wrapper">
+<figure class="art ">
+<div class="fig-graphic">
+<picture>
+<source srcset="https://static.politico.com/dims4/default/70d68a2/2147483647/resize/2000x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2Fbb%2F68%2Fce3d9d70431abe474ff2f32c296d%2F200407-kushner-gty-773.jpg" media="(min-width: 1921px)">
+<source srcset="https://static.politico.com/dims4/default/6fb79cb/2147483647/resize/1920x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2Fbb%2F68%2Fce3d9d70431abe474ff2f32c296d%2F200407-kushner-gty-773.jpg" media="(min-width: 1681px)">
+<source srcset="https://static.politico.com/dims4/default/8b60503/2147483647/resize/1160x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2Fbb%2F68%2Fce3d9d70431abe474ff2f32c296d%2F200407-kushner-gty-773.jpg" media="(min-width: 1012px)">
+<source srcset="https://static.politico.com/dims4/default/fa99b63/2147483647/resize/971x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2Fbb%2F68%2Fce3d9d70431abe474ff2f32c296d%2F200407-kushner-gty-773.jpg" media="(min-width: 667px)">
+<source srcset="https://static.politico.com/dims4/default/f1cbd3f/2147483647/resize/646x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2Fbb%2F68%2Fce3d9d70431abe474ff2f32c296d%2F200407-kushner-gty-773.jpg" media="(min-width: 485px)">
+<source srcset="https://static.politico.com/dims4/default/dcd7f0d/2147483647/resize/463x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2Fbb%2F68%2Fce3d9d70431abe474ff2f32c296d%2F200407-kushner-gty-773.jpg" media="(max-width: 484px)">
+<img src="https://static.politico.com/dims4/default/f88578d/2147483647/resize/1160x%3E/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2Fbb%2F68%2Fce3d9d70431abe474ff2f32c296d%2F200407-kushner-gty-773.jpg" alt="Jared Kushner" title="Jared Kushner"></picture>
+</div>
+</figure></div>
+</div>
+</section>
+</div>
+</div>
+</section>
+<section class="page-content__row page-content__row--story mobile-spacing">
+<div class="container container--story story-layout--fluid-fixed">
+<div class="container__column container__column--story">
+<div class="container__row container__row--story story-layout--fixed-fluid">
+<div class="container__column container__column--story"><div class="story-meta order-flipped"><p class="story-meta__credit">
+Senior White House adviser Jared Kushner during a daily White House coronavirus briefing. | Win McNamee/Getty Images</p>
+<div class="story-meta__authors-timestamp has-social-tools has-social-tools--left">
+<div class="story-meta__details">
+<p class="story-meta__authors">
+By <span class="vcard"><a href="https://www.politico.com/staff/adam-cancryn" target="_top">ADAM CANCRYN</a></span></p>
+<p class="story-meta__timestamp"><time datetime='2020-04-07 19:55:09'>04/07/2020 07:55 PM EDT</time></p>
+<p class="story-meta__updated">Updated: <time datetime='2020-04-08 00:19:48'>04/08/2020 12:19 AM EDT</time></p>
+</div>
+<aside class="social-tools">
+<ul class="social-tools__list">
+<li class="social-tools__list-item">
+<a href="http://api.addthis.com/oexchange/0.8/forward/facebook/offer?pco=tbx32nj-1.0&amp;url=https://politi.co/2KmtWEl&amp;pubid=politico.com" target="_blank" aria-label="Facebook">
+<figure>
+<figcaption class="social-tools__icon-text">Facebook</figcaption>
+<span class="social-tools__svg social-tools__svg--facebook">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg>
+</span>
+</figure>
+</a>
+</li>
+<li class="social-tools__list-item">
+<a href="http://api.addthis.com/oexchange/0.8/forward/twitter/offer?pco=tbx32nj-1.0&amp;url=https://politi.co/2KmtWEl&amp;text=Kushner%E2%80%99s+team+seeks+national+coronavirus+surveillance+system&amp;pubid=politico.com&amp;via=politico" target="_blank" aria-label="Twitter">
+<figure>
+<figcaption class="social-tools__icon-text">Twitter</figcaption>
+<span class="social-tools__svg social-tools__svg--twitter">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 4.557a9.83 9.83 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724 9.864 9.864 0 0 1-3.127 1.195 4.916 4.916 0 0 0-3.594-1.555c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 0 1 1.671 3.149a4.93 4.93 0 0 0 1.523 6.574 4.903 4.903 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 0 1-2.224.084 4.928 4.928 0 0 0 4.6 3.419A9.9 9.9 0 0 1 0 19.54a13.94 13.94 0 0 0 7.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0 0 24 4.557z"></path></svg>
+</span>
+</figure>
+</a>
+</li>
+<li class="social-tools__list-item" aria-live="assertive">
+<a href="#" tabindex="-1">
+<figure>
+<figcaption class="social-tools__icon-text">Link</figcaption>
+<span class="social-tools__svg social-tools__svg--link" tabindex="0" aria-label="Click here to copy URL" role="link">
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" enable-background="new 0 0 24 24"><style>.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#fff}</style><g transform="translate(0 -.528)"><defs><filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0" y=".6" width="14.2" height="15.4"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"></feColorMatrix></filter></defs><mask maskUnits="userSpaceOnUse" x="0" y=".6" width="14.2" height="15.4" id="b_1_"><g filter="url(#Adobe_OpacityMaskFilter)"><path id="a_1_" class="st1" d="M0 .5h14.2V16H0V.5z"></path></g></mask><path d="M14 13.6c-.3-.3-.7-.3-1 0-1.3 1.3-3.5 1.3-4.9 0L2.4 7.8C1 6.4 1 4.2 2.4 2.9c1.3-1.3 3.5-1.3 4.9 0l3.8 3.8c.3.3.7.2 1-.1.2-.3.2-.6 0-.9L8.2 1.9a4.86 4.86 0 0 0-6.8.1c-1.8 1.9-1.8 4.9 0 6.7l5.8 5.8c1.9 1.9 4.9 1.9 6.8 0 .3-.2.3-.6 0-.9" mask="url(#b_1_)"></path></g><g transform="translate(7 5.472)"><defs><filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="2.8" y="3.1" width="14.2" height="15.4"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"></feColorMatrix></filter></defs><mask maskUnits="userSpaceOnUse" x="2.8" y="3.1" width="14.2" height="15.4" id="d_1_"><g filter="url(#Adobe_OpacityMaskFilter_1_)"><path id="c_1_" class="st1" d="M2.8 3.1H17v15.4H2.8V3.1z"></path></g></mask><path d="M3 5.5c.3.3.7.3 1 0 1.3-1.3 3.5-1.3 4.9 0l5.8 5.8c1.3 1.3 1.3 3.5 0 4.9-1.3 1.3-3.5 1.3-4.9 0L6 12.4c-.3-.3-.7-.3-1 0-.3.3-.3.7 0 1l3.8 3.8c1.9 1.9 4.9 1.9 6.8 0 1.9-1.9 1.9-4.9 0-6.8L9.8 4.5c-1.9-1.9-5-1.9-6.8 0-.3.3-.3.7 0 1" mask="url(#d_1_)"></path></g></svg>
+</span>
+</figure>
+</a>
+<ul class="social-tools__supplemental-list has-text">
+<li class="social-tools__list-item">
+<p class="link-copy">Link Copied</p>
+</li>
+</ul>
+</li>
+<li class="social-tools__list-item">
+<a href="#" aria-label="More" class="social-tools__link--more">
+<figure>
+<figcaption class="social-tools__icon-text">More</figcaption>
+<span class="social-tools__svg social-tools__svg--more">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="3" cy="12" r="3"></circle><circle cx="21" cy="12" r="3"></circle><circle cx="12" cy="12" r="3"></circle></svg>
+</span>
+</figure>
+</a>
+<ul class="social-tools__supplemental-list">
+<li class="social-tools__list-item">
+<a href="/cdn-cgi/l/email-protection#93ace7fcaeb5f2fee3a8e0e6f1f9f6f0e7aed8e6e0fbfdf6e171130ae0b3e7f6f2feb3e0f6f6f8e0b3fdf2e7fafcfdf2ffb3f0fce1fcfdf2e5fae1e6e0b3e0e6e1e5f6fafffff2fdf0f6b3e0eae0e7f6feb5f2fee3a8f1fcf7eaaefbe7e7e3e0a9bcbce4e4e4bde3fcfffae7faf0fcbdf0fcfebcfdf6e4e0bca1a3a1a3bca3a7bca3a4bcf8e6e0fbfdf6e1bef0fce1fcfdf2e5fae1e6e0bee0e6e1e5f6fafffff2fdf0f6bea2a4a7a2a5a6" aria-label="Sent an Email">
+<figure>
+<figcaption class="social-tools__icon-text">Mail</figcaption>
+<span class="social-tools__svg social-tools__svg--mail">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 20.4h24V3.6H0v16.8zM1.2 4.8h21.6L12 12 1.2 4.8zm0 1.2L12 13.2 22.8 6v13.2H1.2V6z"></path></svg>
+</span>
+</figure>
+</a>
+</li>
+<li class="social-tools__list-item">
+<a href="http://www.reddit.com/submit?url=https://politi.co/2KmtWEl&title=Kushner%E2%80%99s+team+seeks+national+coronavirus+surveillance+system" target="_blank" aria-label="Reddit">
+<figure>
+<figcaption class="social-tools__icon-text">Reddit</figcaption>
+<span class="social-tools__svg social-tools__svg--reddit">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.238 15.348c.085.084.085.221 0 .306-.465.462-1.194.687-2.231.687l-.008-.002-.008.002c-1.036 0-1.766-.225-2.231-.688-.085-.084-.085-.221 0-.305.084-.084.222-.084.307 0 .379.377 1.008.561 1.924.561l.008.002.008-.002c.915 0 1.544-.184 1.924-.561.085-.084.223-.084.307 0zm-3.44-2.418c0-.507-.414-.919-.922-.919-.509 0-.923.412-.923.919 0 .506.414.918.923.918.508.001.922-.411.922-.918zm13.202-.93c0 6.627-5.373 12-12 12s-12-5.373-12-12 5.373-12 12-12 12 5.373 12 12zm-5-.129c0-.851-.695-1.543-1.55-1.543-.417 0-.795.167-1.074.435-1.056-.695-2.485-1.137-4.066-1.194l.865-2.724 2.343.549-.003.034c0 .696.569 1.262 1.268 1.262.699 0 1.267-.566 1.267-1.262s-.568-1.262-1.267-1.262c-.537 0-.994.335-1.179.804l-2.525-.592c-.11-.027-.223.037-.257.145l-.965 3.038c-1.656.02-3.155.466-4.258 1.181-.277-.255-.644-.415-1.05-.415-.854.001-1.549.693-1.549 1.544 0 .566.311 1.056.768 1.325-.03.164-.05.331-.05.5 0 2.281 2.805 4.137 6.253 4.137s6.253-1.856 6.253-4.137c0-.16-.017-.317-.044-.472.486-.261.82-.766.82-1.353zm-4.872.141c-.509 0-.922.412-.922.919 0 .506.414.918.922.918s.922-.412.922-.918c0-.507-.413-.919-.922-.919z"></path></svg>
+</span>
+</figure>
+</a>
+</li>
+<li class="social-tools__list-item">
+<a href="https://wa.me/?text=https://politi.co/2KmtWEl" target="_blank" aria-label="WhatsApp">
+<figure>
+<figcaption class="social-tools__icon-text">WhatsApp</figcaption>
+<span class="social-tools__svg social-tools__svg--whatsapp">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"></path></svg>
+</span>
+</figure>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</aside>
+</div>
+</div></div>
+<div class="container__column container__column--story center-horizontally">
+<div class="story-text">
+<style type="text/css">.cms-textAlign-left{text-align:left;}.cms-textAlign-center{text-align:center;}.cms-textAlign-right{text-align:right;}.cms-magazineStyles-smallCaps{font-variant:small-caps;}</style><p class=" story-text__paragraph">White House senior adviser Jared Kushner’s task force has reached out to a range of health technology companies about creating a national coronavirus surveillance system to give the government a near real-time view of where patients are seeking treatment and for what, and whether hospitals can accommodate them, according to four people with knowledge of the discussions.</p>
+<p class=" story-text__paragraph">The proposed national network could help determine which areas of the country can safely relax social-distancing rules and which should remain vigilant. But it would also represent a significant expansion of government use of individual patient data, forcing a new reckoning over privacy limits amid a national crisis.</p>
+<aside class="story-enhancement">
+<p class="story-continued">Advertisement</p>
+<div id="pol-05-wrap" class="content-group ad " aria-label="Advertisement">
+<div class="ad-slot   placeholder placeholder--250 " id="pol-05" aria-hidden="true" data-ad-refresh="30">
+</div>
+</div>
+</aside>
+<p class=" story-text__paragraph">Health privacy laws already grant broad exceptions for national security purposes. But the prospect of compiling a national database of potentially sensitive health information has<b> </b>prompted concerns about its impact on civil liberties well after the coronavirus threat recedes, with some critics comparing it to the Patriot Act enacted after the 9/11 attacks.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="container__column container__column--story hide-under-small">
+<aside class="story-enhancement">
+<div id="pol-02-wrap" class="content-group ad " aria-label="Advertisement">
+<div class="ad-slot    " id="pol-02" aria-hidden="true" data-ad-refresh="30">
+</div>
+</div>
+</aside></div>
+</div>
+</section>
+<section class="page-content__row page-content__row--story main-section">
+<div class="container container--story story-layout--fixed-fluid">
+<div class="container__column container__column--story center-horizontally hide-under-medium"></div>
+<div class="container__column container__column--story">
+<div class="container__row container__row--story story-layout--fluid-fixed">
+<div class="container__column container__column--story center-horizontally">
+<div class="story-text">
+<p class=" story-text__paragraph">Already, the Trump administration has sought to ease data-sharing rules and assure health data companies they won’t be penalized for sharing information with state and federal officials — a move driven in part by Kushner’s push to assemble the national network, according to an individual with knowledge of the decision.</p>
+<p class=" story-text__paragraph">“This is a genuine crisis — we have to work through it and do our best to protect people’s health,” said Jessica Rich, a former director of the Federal Trade Commission’s consumer protection bureau. “But doing that doesn’t mean we have to destroy privacy.”</p>
+<p class=" story-text__paragraph">Currently, the federal government plays only a limited role in handling health information, with its access restricted by various privacy laws and in many cases reliant on voluntary data-sharing agreements with individual states.</p>
+<p class=" story-text__paragraph">The project — based on interviews with seven tech executives, government officials and other people familiar with its contours — would draw on detailed information collected from multiple private-sector databases. It would allow federal officials to continuously track elements like hospitals’ bed availability and the flow of patients into specific emergency rooms across the country — thereby enabling the government to rush resources to parts of the country before they’re hit by a surge of coronavirus cases.</p><aside class="story-enhancement  has-borders">
+<article class="media-item orient--horizontal-fixed-fluid parenthetical">
+<div class="media-item__image">
+<div class="media-item__image-wrapper">
+<a href="https://www.politico.com/news/agenda/2020/04/04/9-11-playbook-coronavirus-privacy-164510" target="_top" class="js-tealium-tracking" data-tracking="mpos=center&amp;mid=ar_parenthetical&amp;lindex=1&amp;lcol=ar_vertical"><figure class="art ">
+<div class="fig-graphic">
+<picture>
+<source srcset="https://static.politico.com/dims4/default/edf4a84/2147483647/resize/2000x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F7e%2F62%2F5e8e14434c4886e17185ae721015%2F200404-coronavirus-people-ap-773.jpg" media="(min-width: 1921px)">
+<source srcset="https://static.politico.com/dims4/default/93ae1a1/2147483647/resize/1920x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F7e%2F62%2F5e8e14434c4886e17185ae721015%2F200404-coronavirus-people-ap-773.jpg" media="(min-width: 1681px)">
+<source srcset="https://static.politico.com/dims4/default/bac7743/2147483647/resize/1160x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F7e%2F62%2F5e8e14434c4886e17185ae721015%2F200404-coronavirus-people-ap-773.jpg" media="(min-width: 1012px)">
+<source srcset="https://static.politico.com/dims4/default/df2dfa4/2147483647/resize/971x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F7e%2F62%2F5e8e14434c4886e17185ae721015%2F200404-coronavirus-people-ap-773.jpg" media="(min-width: 667px)">
+<source srcset="https://static.politico.com/dims4/default/170068b/2147483647/resize/646x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F7e%2F62%2F5e8e14434c4886e17185ae721015%2F200404-coronavirus-people-ap-773.jpg" media="(min-width: 485px)">
+<source srcset="https://static.politico.com/dims4/default/60da3a8/2147483647/resize/463x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F7e%2F62%2F5e8e14434c4886e17185ae721015%2F200404-coronavirus-people-ap-773.jpg" media="(max-width: 484px)">
+<img src="https://static.politico.com/dims4/default/4af5e44/2147483647/resize/1160x%3E/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F7e%2F62%2F5e8e14434c4886e17185ae721015%2F200404-coronavirus-people-ap-773.jpg" alt="Coronavirus" title="Coronavirus"></picture>
+</div>
+</figure></a></div>
+</div>
+<div class="media-item__summary">
+<header class="summary-header">
+<p class="category override-category--core">
+<a href="https://www.politico.com/news/opinion">OPINION</a> |
+<a href="https://www.politico.com/latest-news-updates/coronavirus" target="_blank" class="js-tealium-tracking" data-tracking="mpos=center&amp;mid=ar_parenthetical&amp;lindex=1&amp;lcol=ar_vertical">Coronavirus</a></p>
+</header>
+<h2 class="headline ">
+<a href="https://www.politico.com/news/agenda/2020/04/04/9-11-playbook-coronavirus-privacy-164510" target="_top" class="js-tealium-tracking" data-tracking="mpos=center&amp;mid=ar_parenthetical&amp;lindex=1&amp;lcol=ar_vertical">The 9/11 Playbook for Protecting Privacy</a></h2>
+<footer class="meta">
+<div itemprop="author" itemscope itemtype="https://schema.org/Person">
+<meta itemprop="name" content="Adam Klein" />
+<meta itemprop="email" content="" />
+</div>
+<p class="byline">
+By ADAM KLEIN and EDWARD FELTEN</p>
+</footer></div>
+</article>
+</aside>
+<p class=" story-text__paragraph">“It allows you to be much more targeted and precise in how you engage,” said one person involved in the discussions. “They need data to make the policy decisions, and so that’s what we and others now have been asked to do.”</p>
+<p class=" story-text__paragraph">The White House declined to comment in response to detailed inquiries on Tuesday, but spokesman Avi Berkowitz said in a late Tuesday night statement after this article was published: &quot;This story makes no sense and is completely false. The White House gets many unsolicited random proposals on a variety of topics, but Jared has no knowledge of this proposal or the people mentioned in this article who may have submitted it.&quot;</p>
+<p class=" story-text__paragraph">The creation of a national coronavirus database could help the nation get out in front of the fast-spreading virus, which officials anticipate will strain the health care systems of nearly every major city over the next few months and threaten to recur in pockets of the nation for some time after that.</p>
+<p class=" story-text__paragraph">Yet concerns about data sharing and patient privacy aren’t the only obstacles to the plan — which was described by people familiar with it as one of a series of out-of-the-box initiatives sought by Kushner’s team. That team is composed of a range of federal officials, friends and leaders from the private sector seeking to promote innovative responses to the coronavirus crisis.</p>
+<p class=" story-text__paragraph">The notion of a national surveillance network has also faced resistance internally from some health officials, who argue that the federal government should only go as far as setting broad standards for disease and resource tracking and leave it to individual states to stand up their own surveillance networks, according to two individuals with knowledge of the discussions.</p>
+<p class=" story-text__paragraph">Other officials contend that the administration should build any new monitoring system on its own, without the private sector’s involvement – a position that’s gained steam following a series of articles about Kushner’s team and its involvement of private companies and executives in efforts to fix problems dogging the nationwide response, according two people briefed on the matter.</p>
+<p class=" story-text__paragraph">Some public health experts, meanwhile, suggested that the administration might instead built out and reorient an existing surveillance system housed within the Centers for Disease Control and Prevention that aided the response to prior epidemics. The system, called the National Syndromic Surveillance Program, is a voluntary collaboration between the CDC and various state and local health departments that draws data from more than 4,000 health care facilities.</p></div>
+</div>
+<div class="container__column container__column--story center-vertically right-zone hide-under-small" aria-hidden="true"></div>
+</div>
+</div>
+</div>
+</section>
+<section class="page-content__row page-content__row--story is-medium-width">
+<div class="container container--story">
+<div class="container__column container__column--story">
+
+<aside class="story-enhancement has-video ">
+<div class="media-item__video">
+<figure class="video-object">
+<div class="video-player ratio-widescreen platform-brightcove ">
+<video id="politicoPlayer_6147857217001" data-account="1155968404" data-player="r1WF6V0Pl" data-video-id="6147857217001" data-embed="default" data-is-live="false" data-is-initted="false" data-is-autoforward="true" data-is-autoplay="false" class="video-js" controls poster="https://static.politico.com/dims4/default/085c239/2147483647/resize/1160x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2Fbc%2Fc3%2Fd42111e545c99c89de9fd4fc711f%2Fracial-disparities.jpg">
+</video>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+                        window.VIDEO_QUEUE = window.VIDEO_QUEUE || [];
+                        window.VIDEO_QUEUE.push("//players.brightcove.net/1155968404/r1WF6V0Pl_default/index.min.js");
+                        
+                        window.VIDEO_QUEUE.push("https://static3.politico.com/resource/assets/js.min/video-tracking.15053d27ac146d524c951eaca13d98fc.gz.js")
+                        </script>
+</div>
+</figure>
+</div>
+</aside>
+
+</div>
+</div>
+</section>
+<section class="page-content__row page-content__row--story main-section">
+<div class="container container--story story-layout--fixed-fluid">
+<div class="container__column container__column--story center-horizontally hide-under-medium"></div>
+<div class="container__column container__column--story">
+<div class="container__row container__row--story story-layout--fluid-fixed">
+<div class="container__column container__column--story center-horizontally">
+<div class="story-text">
+<p class=" story-text__paragraph">“In an emergency, what works best is scaling up existing robust systems, not trying to create a new system,” said former CDC Director Tom Frieden. “Use the systems you have.” </p>
+<p class=" story-text__paragraph">A Health and Human Services spokesperson said the department does not comment on internal deliberations.</p>
+<p class=" story-text__paragraph">Still, Kushner's teams has remained enthusiastic about the idea of a national surveillance system, which they see as a way to better understand how the virus is progressing throughout the country and where resources are needed amid severe shortages of protective gear and medical supplies.</p>
+<p class=" story-text__paragraph">Kushner, along with other administration officials including President Donald Trump, have questioned in recent weeks whether governors actually need the equipment that they’re seeking from the federal government’s Strategic National Stockpile.</p>
+<p class=" story-text__paragraph">“The goal here is not to have ventilators sitting in a warehouse where you have another state where you have people who need them,” Kushner said during a press briefing last week. “So, what we’re trying to do is make informed, data-driven decisions.”</p>
+<p class=" story-text__paragraph">The administration’s slow ramp-up of testing, meanwhile, has made it difficult for states to trace the virus’ spread within their own borders – forcing hospitals to empty their facilities in anticipation of a wave of coronavirus patients that may not come for weeks. The testing that is being done has been hampered by backlogs in processing the results, public health experts say, meaning official case counts could be weeks behind the reality on the ground.</p>
+<p class=" story-text__paragraph">“What we’re seeing in the numbers is actually a two-to-three-week echo,” Jeremy Konyndyk, a senior policy fellow at the Center for Global Development and former Obama-era foreign aid official, said in late March. “We still mostly can’t see the enemy.”</p>
+<p class=" story-text__paragraph">That’s prompted a broad search within the administration for more up-to-date information, with Kushner’s team discussing the prospect of creating a surveillance network that draws together all the pertinent data.</p>
+<p class=" story-text__paragraph">One memo submitted by a group of health technology companies to Kushner, Vice President Mike Pence and Health Secretary Alex Azar and circulated widely within the administration, predicted it could supply the government with information on where and how many patients are seeking care across 80 percent of the U.S. “in short order.”</p></div>
+</div>
+<div class="container__column container__column--story center-vertically right-zone hide-under-small" aria-hidden="true"></div>
+</div>
+</div>
+</div>
+</section>
+<section class="page-content__row page-content__row--story is-medium-width">
+<div class="container container--story">
+<div class="container__column container__column--story">
+
+<aside class="story-enhancement  ">
+
+<div class="coronavirus-parent">
+<section class="parent-flex">
+<div class="coronavirus-today">
+<div class="headline">
+<h4 class="transparent-header head">CORONAVIRUS: WHAT YOU NEED TO KNOW</h4>
+
+<p class="dek">President Trump called on Democratic governors to <a target="_blank" href="https://www.politico.com/news/2020/04/17/trump-states-stay-at-home-orders-192386/?cid=covid_m">“LIBERATE” their states</a> from stay-at-home orders.</p>
+</div>
+
+<div class="updates" style="font-weight:normal"> <a target="_blank" href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">Confirmed U.S. Cases:</a> <span class="num"> 699,105</span> | <a target="_blank" href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">U.S. Deaths:</a> <span class="num">36,773</span>
+</div>
+<div class="updates"><b class="bt-icon bt-icon--interactives"></b><a target="_blank" href="https://www.politico.com/news/magazine/2020/03/19/coronavirus-effect-economy-life-society-analysis-covid-135579/?cid=covid_m">How coronavirus will change the world permanently</a></div>
+<div class="updates"><b class="bt-icon bt-icon--interactives"></b><a target="_blank" href="https://www.politico.com/interactives/2020/coronavirus-testing-by-state-chart-of-new-cases/?cid=covid_m">Coronavirus cases, tracked state by state</a></div>
+<div class="updates"><b class="bt-icon bt-icon--interactives"></b><a target="_blank" href="https://politico.forms.fm/do-you-work-for-a-hospital-tell-us-what-you-re-seeing-in-the-coronavirus-response/forms/7745/responses/new/?cid=covid_m">Do you work for a hospital?</a> Tell us what you're seeing</div>
+</div>
+<div class="developments-parent-flex">
+<div class="latest-developments">
+<h4 class="transparent-header developments">LATEST DEVELOPMENTS</h4>
+
+<ul class="reading-list">
+<li>Vice President Mike Pence <a target="_blank" href="https://www.politico.com/news/2020/04/17/senate-democrats-mike-pence-conference-call-192868/?cid=covid_m">said the U.S. has enough coronavirus testing capacity to reopen, </a> even as states struggle to keep up with demand.</li>
+<li>Senate Democrats want to know exactly <a target="_blank" href="https://www.politico.com/news/2020/04/17/schumer-senate-democrats-demand-small-business-loan-data-193095/?cid=covid_m">what happened to billions of dollars</a> in emergency small business loans.</li>
+<li>Is the coronavirus killing cash? For many businesses that are still open, <a target="_blank" href="https://www.politico.com/news/magazine/2020/04/17/coronavirus-cash-economy-cashless-paper-money-business-190405">digital payments are becoming the norm</a>.</li>
+<li>Trump's allies keep pushing <a target="_blank" href="https://www.politico.com/news/2020/04/17/china-secrecy-coronavirus-193120/?cid=covid_m">conspiracy theories that Chinese scientist manufactured coronavirus</a>, even though there is little evidence.</li>
+</ul>
+</div>
+<div class="goto-tag-page"><span><a target="_blank" style="font-weight:normal; font-size:10px; color:#404040;" href="https://www.politico.com/tag/coronavirus/?cid=covid_m">Read all coronavirus coverage »</a></span></div>
+</div>
+</section>
+</div>
+<style>
+	.coronavirus-parent {
+		display:flex;
+		flex-flow: column nowrap;
+		width: 100%;
+	}
+	.coronavirus-today {
+		display:flex;
+		flex-flow:column nowrap;
+		width:100%;
+	}
+	.coronavirus-today .bt-icon {
+		margin-right:5px;
+	}
+ 	.coronavirus-today .bt-icon.bt-icon--circle {
+     	color:rgb(255,0,0);
+	}	
+	.coronavirus-today .dek {
+		font-family:georgia;
+		font-size:17px;
+		margin-right:10px;
+		padding:14px 0px;
+	}
+	.coronavirus-today .flag {
+	    background-color:red;
+     	color:white;
+     	padding: 2px 5px;
+	}
+	.coronavirus-today .headline {
+	    display:flex;
+     	flex-flow:row wrap;
+	}
+	.coronavirus-today .updates {
+	    display:block;
+     	font-size:14px;
+     	padding: 0 5px 10px 0px;
+	}
+	.developments-parent-flex {
+		display:flex;
+     	flex-flow:column nowrap;
+     	width:100%;
+	}
+	.goto-tag-page {
+		align-self:flex-end;
+		margin-top:10px;
+	}
+	.latest-developments {
+        border-top: 1px black dotted;
+        margin-top:20px;
+        padding-left:0px;
+        padding-top:20px;
+        width:100%;
+	}
+	.parent-flex {
+		background-color:whitesmoke;
+		color:black;
+		display:flex;
+		flex-flow:column nowrap;
+		font-family:"din 2014", "din-2014", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		padding: 20px 20px;        
+	}
+	.parent-flex a {
+	    font-weight:bold;
+   		text-decoration:none;
+	}
+	.parent-flex h4 {
+     	display: inline-block;
+     	font-family: "din 2014", "din-2014", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     	font-size: 14px;
+     	font-weight: 500;
+     	letter-spacing: 1px;
+     	margin: 0;
+     	padding: 3px 5px;
+     	text-transform: uppercase;
+	}
+	.reading-list {
+		padding:0px 0px 0px 20px;
+        list-style-type:disc;
+	}
+	.reading-list li {
+		margin-bottom:10px;
+	}
+	.stat {
+    	display:flex;
+    	flex-flow:column nowrap;
+    	height:100%;
+    	width:30%;
+	}
+	.stat span {
+		color:black;
+	}
+	.stat-num {
+		color:#dc0228;
+		font-family: "din 2014", "din-2014", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size:3rem;
+	}
+	.transparent-header {
+		background-color:transparent;
+     	padding: 4px 5px;
+	}
+	.transparent-header.developments {
+		color:#dc0228;
+        font-weight:500;
+        padding: 4px 5px 16px 0px;
+	}
+
+	.transparent-header.head {
+        border-bottom: 0.25px solid rgba(220, 2, 40, 0.9);
+        color:black;
+        font-weight:700;  
+        padding: 2px 5px;
+	}
+
+	.updates .num {
+    	color:#dc0228
+    }
+
+
+@media (min-width:768px) {
+	.coronavirus-today .dek {
+		padding:28px 0px;
+	}
+	.coronavirus-today {
+		width:50%;
+	}
+	.developments-parent-flex {
+		width:50%;
+	}
+	.goto-tag-page {
+		margin-top:auto;
+	}	
+	.latest-developments {
+     	border-left:1px black dotted;
+     	padding-left:20px;
+     	height:100%;
+     	border-top:none;
+     	margin-top:0px;
+     	padding-top:0px;
+	}
+	.parent-flex {
+		flex-flow:row nowrap;
+		padding: 33px 40px;
+	}
+	.reading-list {
+		padding: 14px 0px 8px 20px;
+	}
+
+}
+
+
+
+
+</style></aside>
+
+</div>
+</div>
+</section>
+<section class="page-content__row page-content__row--story main-section">
+<div class="container container--story story-layout--fixed-fluid">
+<div class="container__column container__column--story center-horizontally hide-under-medium"></div>
+<div class="container__column container__column--story">
+<div class="container__row container__row--story story-layout--fluid-fixed">
+<div class="container__column container__column--story center-horizontally">
+<div class="story-text">
+<p class=" story-text__paragraph">“No single organization in the United States today can currently meet this request,” said the March 22 memo signed by three health care firms – Collective Medical, PatientPing and Juvare — and submitted at the behest of administration officials, which was later obtained by POLITICO. “However, we believe that collectively we can.”</p>
+<p class=" story-text__paragraph">PatientPing declined to comment. Juvare CEO Robert Watson told POLITICO that the memo was submitted in response to White House interest, and that the company has spoken with officials across several federal agencies including FEMA, HHS and the CDC about its various emergency preparedness and data tools.</p>
+<p class=" story-text__paragraph">Collective Medical CEO Chris Klomp declined to confirm the memo’s existence or discuss its contents. But he told POLITICO that the company is already providing similar patient monitoring and hospital capacity services to some states for free, and has assembled a coalition of firms including PatientPing willing to aid the broader policy response.</p>
+<p class=" story-text__paragraph">Klomp emphasized that any work with federal or state governments to combat coronavirus would be done at no cost.</p>
+<p class=" story-text__paragraph">“We’re not trying to make money from this,” he said,<b> </b>adding that he worries officials are “flying partially blind” in managing the response. “We all need this problem to be resolved as quickly as possible, and it’s only going to happen if would-be competitors put down their swords, set aside politics, and work together.”</p>
+<p class=" story-text__paragraph">A separate memo submitted around the same time by health technology firm Audacious Inquiry proposed an alternative surveillance network that would use patient health records compiled by providers to monitor hospitals’ bed availability and their use of medical supplies. </p>
+<p class=" story-text__paragraph">“We believe a viable technical specification can be developed within weeks and that deployment can begin in less than 60 days to hospitals and health systems in priority regions,” said the memo sent to Kushner, Pence, Azar and other top health officials, and obtained by POLITICO.</p>
+<p class=" story-text__paragraph">Audacious Inquiry President Scott Afzal told POLITICO that the concept was put together in anticipation of a need to identify areas were the virus could re-emerge months for now, and that the company is also offering its services to state and federal officials for free. </p>
+<p class=" story-text__paragraph">“It’s a thing that’s going to be valuable months from now, not weeks from now,” he said of the surveillance network proposal.</p></div>
+</div>
+<div class="container__column container__column--story center-vertically right-zone hide-under-small" aria-hidden="true"></div>
+</div>
+</div>
+</div>
+</section>
+<section class="page-content__row page-content__row--story is-medium-width">
+<div class="container container--story">
+<div class="container__column container__column--story">
+
+<aside class="story-enhancement has-video ">
+<div class="media-item__video">
+<figure class="video-object">
+<div class="video-player ratio-widescreen platform-brightcove ">
+<video id="politicoPlayer_6147533892001" data-account="1155968404" data-player="r1WF6V0Pl" data-video-id="6147533892001" data-embed="default" data-is-live="false" data-is-initted="false" data-is-autoforward="true" data-is-autoplay="false" class="video-js" controls poster="https://static.politico.com/dims4/default/c888d49/2147483647/resize/1160x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F6f%2Fcd%2F5b63fa9f40a484cf6ce550d0e4f8%2F200401-trump-and-press.jpg">
+</video>
 <script>
-    tp = window["tp"] || [];
-    tp.push(["setTags", ["thm:article","identity-politics","racial-politics","jussie-smollett"]]);
-</script>
-<script type="text/javascript">
-        console.info("The End: ", window.performance.now());
-        console.info("Device: ", "Desktop");
+                        window.VIDEO_QUEUE = window.VIDEO_QUEUE || [];
+                        window.VIDEO_QUEUE.push("//players.brightcove.net/1155968404/r1WF6V0Pl_default/index.min.js");
+                        
+                        window.VIDEO_QUEUE.push("https://static3.politico.com/resource/assets/js.min/video-tracking.15053d27ac146d524c951eaca13d98fc.gz.js")
+                        </script>
+</div>
+</figure>
+</div>
+</aside>
+
+</div>
+</div>
+</section>
+<section class="page-content__row page-content__row--story main-section">
+<div class="container container--story story-layout--fixed-fluid">
+<div class="container__column container__column--story center-horizontally hide-under-medium"></div>
+<div class="container__column container__column--story">
+<div class="container__row container__row--story story-layout--fluid-fixed">
+<div class="container__column container__column--story center-horizontally">
+<div class="story-text">
+<p class=" story-text__paragraph">Any national surveillance system would rely on patient data that’s been de-identified to protect people’s identities, three individuals involved in the discussions said.</p>
+<p class=" story-text__paragraph">Still, the prospect of sharing medical data with the administration would likely prompt close scrutiny from consumer privacy advocates, who warn the government’s response to prior crises has often opened the door to permanent erosions of privacy rights.</p>
+<p class=" story-text__paragraph">“We dealt with similar issues in 9/11,” said Rich, who added that there would need to be strict guardrails around how patients information is collected and used, and measures taken to ensure the data is protected. “One reason that the government doesn’t have all of this data is there’s a lot of concern about big brother maintaining large databases on every consumer on sensitive issues like health, and for good reason.”</p>
+<p class=" story-text__paragraph">Kushner in particular has attracted criticism over his involvement in prior <a href="https://www.politico.com/news/2020/02/19/trump-silicon-valley-medical-115879" target="_blank">planned policy changes</a> designed to give patients greater control over their health records, yet that privacy hawks warn could grant tech companies access to a massive new trove of personal data.</p>
+<p class=" story-text__paragraph">“My biggest concern is that tech will emerge more powerful than it was,” said Burcu Kilic, who leads a digital right program at consumer advocacy organization Public Citizen. “When things get back to normal, do you think they’ll want to regulate them?”</p>
+<p class=" story-text__paragraph">Tech companies, in the meantime, are pushing ahead on their own efforts ahead of — and in some cases in anticipation of – broader government action.</p>
+<p class=" story-text__paragraph">Both Facebook and Google have rolled out tools meant to help researchers track and predict the virus’ spread using its access to location data, while a slew of smaller health technology firms have sought partnerships with states seeking to create their own networks. </p>
+<p class=" story-text__paragraph">“People are trying to figure out the most important things to do now,” Audacious Inquiry’s Afzal said. “If you were to say to us and a couple of these other companies, ‘We need you to get on the phone right now and start thinking through what parts of the country you can cover and how to star routing [information] inbound,’ we could do that.”<br /></p></div>
+</div>
+<div class="container__column container__column--story center-vertically right-zone hide-under-small" aria-hidden="true"></div>
+</div>
+</div>
+</div>
+</section>
+<section class="page-content__row page-content__row--story below-article-section">
+<div class="container container--story story-layout--fixed-fluid">
+<div class="container__column container__column--story center-horizontally"></div>
+<div class="container__column container__column--story">
+<div class="container__row container__row--story story-layout--fluid-fixed">
+<div class="container__column container__column--story center-horizontally">
+<div>
+<aside class="story-enhancement">
+<div class='story-tags'>
+<ul role="list" aria-label="Filed Under:" class="story-tags__list is-expanded">
+<li aria-hidden="true" class="story-tags__list-item title-tag">Filed Under:</li>
+<li class="story-tags__list-item">
+<a href="https://www.politico.com/news/privacy" target="_top">Privacy</a>,</li>
+<li class="story-tags__list-item">
+<a href="https://www.politico.com/news/centers-for-disease-control" target="_top">Centers For Disease Control</a>,</li>
+<li class="story-tags__list-item">
+<a href="https://www.politico.com/news/centers-for-disease-control-and-prevention" target="_top">Centers for Disease Control and Prevention</a>,</li>
+<li class="story-tags__list-item">
+<a href="https://www.politico.com/news/tom-frieden" target="_top">Tom Frieden</a>,</li>
+<li class="story-tags__list-item">
+ <a href="https://www.politico.com/news/jared-kushner" target="_top">Jared Kushner</a>,</li>
+<li class="story-tags__list-item">
+<a href="https://www.politico.com/latest-news-updates/coronavirus" target="_top">Coronavirus</a></li>
+</ul>
+<button class="story-tags__more" aria-label="More Tags">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg" height="20px" width="20px" viewBox="0 0 20 20">
+<path class="st0" d="M10,12c0.8,0,1.5-0.7,1.5-1.5S10.8,9,10,9s-1.5,0.7-1.5,1.5S9.2,12,10,12z M5.5,12C6.3,12,7,11.3,7,10.5
+                    S6.3,9,5.5,9S4,9.7,4,10.5S4.7,12,5.5,12z M14.5,12c0.8,0,1.5-0.7,1.5-1.5S15.3,9,14.5,9S13,9.7,13,10.5S13.7,12,14.5,12z M0,10
+                    c0,5.5,4.5,10,10,10c5.5,0,10-4.5,10-10c0-5.5-4.5-10-10-10C4.5,0,0,4.5,0,10z M16.3,3.6C18,5.3,19,7.6,19,10c0,2.4-0.9,4.7-2.6,6.3
+                    S12.4,19,10,19c-2.4,0-4.7-0.9-6.3-2.6C1.9,14.7,1,12.4,1,10c0-2.4,0.9-4.7,2.6-6.3C5.3,2,7.6,1,10,1C12.4,1,14.6,2,16.3,3.6z" />
+</svg>
+</button>
+</div>
+</aside>
+</div>
+</div>
+<div class="container__column container__column--story center-vertically"></div>
+</div>
+</div>
+</div>
+</section>
+<section class="page-content__row page-content__row--story comments-section">
+<div class="container container--story story-layout--fixed-fluid">
+<div class="container__column container__column--story center-horizontally"></div>
+<div class="container__column container__column--story">
+<div class="container__row container__row--story story-layout--fluid-fixed">
+<div class="container__column container__column--story center-horizontally">
+<div class="comments-module">
+<aside class="comments-module__row all-comments">
+<a class="format-l bleed-full collapse-toggle show-comments-button" data-load-ad-slot="pol-06" id="showCommentsButton" role="button" href="#superComments" aria-live="assertive">
+Show Comments
+</a>
+</aside>
+</div>
+</div>
+<div class="container__column container__column--story"></div>
+</div>
+</div>
+</div>
+<div class="container container--story story-layout--fixed-fluid super collapse-content quantity-high" id="superComments" style="display:none;">
+<div class="container__column container__column--story center-horizontally"></div>
+<div class="container__column container__column--story">
+<div class="container__row container__row--story story-layout--fluid-fixed">
+<div class="container__column container__column--story center-horizontally">
+<div class="comments-module">
+<div class="comments-module__row all-comments">
+<div class="fb-comments" data-href="https://www.politico.com/news/2020/04/07/kushner-coronavirus-surveillance-174165" data-numposts="5" data-colorscheme="light" data-width="100%">
+</div>
+</div>
+</div>
+</div>
+<div class="container__column container__column--story">
+<aside class="story-enhancement">
+<div class="content-group ad " aria-label="Advertisement">
+ <div class="ad-slot js-lazy-load flex vertical" id="pol-06" aria-hidden="true" data-ad-refresh="0"></div>
+</div>
+</aside>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="pop-up-bar">
+<div class="pop-up-bar__branding" role="banner">
+<a href="https://www.politico.com/">
+<b aria-hidden="true" class="bt-icon bt-icon--politico is-emphasized"></b>
+<b aria-hidden="true" class="bt-icon bt-icon--core-small"></b>
+<span class="icon-text">POLITICO</span>
+</a>
+</div>
+<aside class="social-tools">
+<ul class="social-tools__list">
+<li class="social-tools__list-item">
+<a href="http://api.addthis.com/oexchange/0.8/forward/facebook/offer?pco=tbx32nj-1.0&amp;url=https://politi.co/2KmtWEl&amp;pubid=politico.com" target="_blank" aria-label="Facebook">
+<figure>
+<figcaption class="social-tools__icon-text">Facebook</figcaption>
+<span class="social-tools__svg social-tools__svg--facebook">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg>
+</span>
+</figure>
+</a>
+</li>
+<li class="social-tools__list-item">
+<a href="http://api.addthis.com/oexchange/0.8/forward/twitter/offer?pco=tbx32nj-1.0&amp;url=https://politi.co/2KmtWEl&amp;text=Kushner%E2%80%99s+team+seeks+national+coronavirus+surveillance+system&amp;pubid=politico.com&amp;via=politico" target="_blank" aria-label="Twitter">
+<figure>
+<figcaption class="social-tools__icon-text">Twitter</figcaption>
+<span class="social-tools__svg social-tools__svg--twitter">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 4.557a9.83 9.83 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724 9.864 9.864 0 0 1-3.127 1.195 4.916 4.916 0 0 0-3.594-1.555c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 0 1 1.671 3.149a4.93 4.93 0 0 0 1.523 6.574 4.903 4.903 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 0 1-2.224.084 4.928 4.928 0 0 0 4.6 3.419A9.9 9.9 0 0 1 0 19.54a13.94 13.94 0 0 0 7.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0 0 24 4.557z"></path></svg>
+</span>
+</figure>
+</a>
+</li>
+<li class="social-tools__list-item" aria-live="assertive">
+<a href="#" tabindex="-1">
+<figure>
+<figcaption class="social-tools__icon-text">Link</figcaption>
+<span class="social-tools__svg social-tools__svg--link" aria-label="Click here to copy URL" tabindex="0" role="link">
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" enable-background="new 0 0 24 24"><style>.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#fff}</style><g transform="translate(0 -.528)"><defs><filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0" y=".6" width="14.2" height="15.4"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"></feColorMatrix></filter></defs><mask maskUnits="userSpaceOnUse" x="0" y=".6" width="14.2" height="15.4" id="b_1_"><g filter="url(#Adobe_OpacityMaskFilter)"><path id="a_1_" class="st1" d="M0 .5h14.2V16H0V.5z"></path></g></mask><path d="M14 13.6c-.3-.3-.7-.3-1 0-1.3 1.3-3.5 1.3-4.9 0L2.4 7.8C1 6.4 1 4.2 2.4 2.9c1.3-1.3 3.5-1.3 4.9 0l3.8 3.8c.3.3.7.2 1-.1.2-.3.2-.6 0-.9L8.2 1.9a4.86 4.86 0 0 0-6.8.1c-1.8 1.9-1.8 4.9 0 6.7l5.8 5.8c1.9 1.9 4.9 1.9 6.8 0 .3-.2.3-.6 0-.9" mask="url(#b_1_)"></path></g><g transform="translate(7 5.472)"><defs><filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="2.8" y="3.1" width="14.2" height="15.4"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"></feColorMatrix></filter></defs><mask maskUnits="userSpaceOnUse" x="2.8" y="3.1" width="14.2" height="15.4" id="d_1_"><g filter="url(#Adobe_OpacityMaskFilter_1_)"><path id="c_1_" class="st1" d="M2.8 3.1H17v15.4H2.8V3.1z"></path></g></mask><path d="M3 5.5c.3.3.7.3 1 0 1.3-1.3 3.5-1.3 4.9 0l5.8 5.8c1.3 1.3 1.3 3.5 0 4.9-1.3 1.3-3.5 1.3-4.9 0L6 12.4c-.3-.3-.7-.3-1 0-.3.3-.3.7 0 1l3.8 3.8c1.9 1.9 4.9 1.9 6.8 0 1.9-1.9 1.9-4.9 0-6.8L9.8 4.5c-1.9-1.9-5-1.9-6.8 0-.3.3-.3.7 0 1" mask="url(#d_1_)"></path></g></svg>
+</span>
+</figure>
+</a>
+<ul class="social-tools__supplemental-list has-text">
+<li class="social-tools__list-item">
+<p class="link-copy">Link Copied</p>
+</li>
+</ul>
+</li>
+<li class="social-tools__list-item">
+<a href="#" aria-label="More" class="social-tools__link--more">
+<figure>
+<figcaption class="social-tools__icon-text">More</figcaption>
+<span class="social-tools__svg social-tools__svg--more">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="3" cy="12" r="3"></circle><circle cx="21" cy="12" r="3"></circle><circle cx="12" cy="12" r="3"></circle></svg>
+</span>
+</figure>
+</a>
+<ul class="social-tools__supplemental-list">
+<li class="social-tools__list-item">
+<a href="/cdn-cgi/l/email-protection#142b607b29327579642f6761767e717760295f61677c7a7166f6948d673460717579346771717f67347a75607d7b7a757834777b667b7a75627d6661673467616662717d7878757a777134676d67607179327579642f767b706d297c606064672e3b3b6363633a647b787d607d777b3a777b793b7a7163673b262426243b24203b24233b7f61677c7a716639777b667b7a75627d6661673967616662717d7878757a777139252320252221" aria-label="Sent an Email">
+<figure>
+<figcaption class="social-tools__icon-text">Mail</figcaption>
+<span class="social-tools__svg social-tools__svg--mail">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 20.4h24V3.6H0v16.8zM1.2 4.8h21.6L12 12 1.2 4.8zm0 1.2L12 13.2 22.8 6v13.2H1.2V6z"></path></svg>
+</span>
+</figure>
+</a>
+</li>
+<li class="social-tools__list-item">
+<a href="http://www.reddit.com/submit?url=https://politi.co/2KmtWEl&title=Kushner%E2%80%99s+team+seeks+national+coronavirus+surveillance+system" target="_blank" aria-label="Reddit">
+<figure>
+<figcaption class="social-tools__icon-text">Reddit</figcaption>
+<span class="social-tools__svg social-tools__svg--reddit">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.238 15.348c.085.084.085.221 0 .306-.465.462-1.194.687-2.231.687l-.008-.002-.008.002c-1.036 0-1.766-.225-2.231-.688-.085-.084-.085-.221 0-.305.084-.084.222-.084.307 0 .379.377 1.008.561 1.924.561l.008.002.008-.002c.915 0 1.544-.184 1.924-.561.085-.084.223-.084.307 0zm-3.44-2.418c0-.507-.414-.919-.922-.919-.509 0-.923.412-.923.919 0 .506.414.918.923.918.508.001.922-.411.922-.918zm13.202-.93c0 6.627-5.373 12-12 12s-12-5.373-12-12 5.373-12 12-12 12 5.373 12 12zm-5-.129c0-.851-.695-1.543-1.55-1.543-.417 0-.795.167-1.074.435-1.056-.695-2.485-1.137-4.066-1.194l.865-2.724 2.343.549-.003.034c0 .696.569 1.262 1.268 1.262.699 0 1.267-.566 1.267-1.262s-.568-1.262-1.267-1.262c-.537 0-.994.335-1.179.804l-2.525-.592c-.11-.027-.223.037-.257.145l-.965 3.038c-1.656.02-3.155.466-4.258 1.181-.277-.255-.644-.415-1.05-.415-.854.001-1.549.693-1.549 1.544 0 .566.311 1.056.768 1.325-.03.164-.05.331-.05.5 0 2.281 2.805 4.137 6.253 4.137s6.253-1.856 6.253-4.137c0-.16-.017-.317-.044-.472.486-.261.82-.766.82-1.353zm-4.872.141c-.509 0-.922.412-.922.919 0 .506.414.918.922.918s.922-.412.922-.918c0-.507-.413-.919-.922-.919z"></path></svg>
+</span>
+</figure>
+</a>
+</li>
+<li class="social-tools__list-item">
+<a href="https://wa.me/?text=https://politi.co/2KmtWEl" target="_blank" aria-label="WhatsApp">
+<figure>
+<figcaption class="social-tools__icon-text">WhatsApp</figcaption>
+<span class="social-tools__svg social-tools__svg--whatsapp">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"></path></svg>
+</span>
+</figure>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</aside>
+</div><section class="page-content__row page-content__row--story below-article-section">
+<div class="container container--story story-layout--fixed-fluid">
+<div class="container__column container__column--story center-horizontally"></div>
+<div class="container__column container__column--story">
+<div class="container__row container__row--story story-layout--fluid-fixed">
+<div class="container__column container__column--story center-horizontally">
+<div class="below-story-text" id="below-story-text">
+</div>
+</div>
+<div class="container__column container__column--story center-vertically"></div>
+</div>
+</div>
+</div>
+</section>
+<section class="page-content__row page-content__row--story">
+<div class="container container--story">
+<div class="container__column container__column--story">
+<div class="ad" aria-label="Advertisement">
+<div class="ad-slot" id="OUTBRAIN" aria-hidden="true" data-ad-refresh="0" data-widget-id="AR_10"></div>
+</div>
+</div>
+</div>
+</section>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/html" id="template-module-ad">
+        <div class="ad" aria-label="Advertisement">
+            <div class="ad-slot" aria-hidden="true"></div>
+        </div>
     </script>
-<div class="thm-piano-bottom"></div>
+<script type="text/html" id="template-section-ad">
+        <section class="page-content__row page-content__row--story is-full-width-bleed">
+            <aside class="story-enhancement">
+                <p class="story-continued">Advertisement</p>
+                <div class="ad" aria-label="Advertisement">
+                    <div class="ad-slot placeholder placeholder--250" aria-hidden="true"></div>
+                </div>
+            </aside>
+        </section>
+    </script>
+<script type="text/html" id="template-section-content">
+        <section class="page-content__row page-content__row--story main-section">
+            <div class="container container--story story-layout--fixed-fluid">
+                <div class="container__column container__column--story center-horizontally hide-under-medium"></div>
+                <div class="container__column container__column--story">
+                    <div class="container__row container__row--story story-layout--fluid-fixed">
+                        <div class="container__column container__column--story center-horizontally">
+                            <div class="story-text">
+                            </div>
+                        </div>
+                        <div class="container__column container__column--story center-vertically right-zone hide-under-small" aria-hidden="true">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </script>
+</div>
+</main>
+<div class="page-footer">
+<footer class="footer">
+<nav class="footer__group footer__group--links" role="contentinfo">
+<ul>
+<li>
+<a href="https://www.politico.com/about-us" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_footer&amp;lindex=1&amp;lcol=1">About Us</a></li>
+<li>
+<a href="https://www.politico.com/advertising" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_footer&amp;lindex=2&amp;lcol=1">Advertising</a></li>
+<li>
+<a href="https://www.politico.com/subscribe/breaking-news-alerts" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_footer&amp;lindex=3&amp;lcol=1">Breaking News Alerts</a></li>
+<li>
+<a href="https://www.politico.com/careers" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_footer&amp;lindex=4&amp;lcol=1">Careers</a></li>
+<li>
+<a href="https://secure.politico.com/payment" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_footer&amp;lindex=5&amp;lcol=1">Credit Card Payments</a></li>
+<li>
+<a href="http://edition.pagesuite-professional.co.uk/Launch.aspx?bypass=true&amp;PBID=74262970-aa07-44b3-80c8-21fa8a8ac376" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_footer&amp;lindex=6&amp;lcol=1">Digital Edition</a></li>
+<li>
+<a href="https://www.politico.com/faq" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_footer&amp;lindex=7&amp;lcol=1">FAQ</a></li>
+<li>
+<a href="https://www.politico.com/feedback" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_footer&amp;lindex=8&amp;lcol=1">Feedback</a></li>
+<li>
+<a href="https://www.politico.com/politics" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_footer&amp;lindex=9&amp;lcol=1">Headlines</a></li>
+<li>
+<a href="https://www.politico.com/gallery" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_footer&amp;lindex=10&amp;lcol=1">Photos</a></li>
+<li>
+<a href="http://www.powerjobs.com/" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_footer&amp;lindex=11&amp;lcol=1">POWERJobs</a></li>
+<li>
+<a href="https://www.politico.com/blogs/politico-press" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_footer&amp;lindex=12&amp;lcol=1">Press</a></li>
+<li>
+<a href="https://www.politico.com/subscriptions" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_footer&amp;lindex=13&amp;lcol=1">Print Subscriptions</a></li>
+<li>
+<a href="https://www.politico.com/write-for-us" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_footer&amp;lindex=14&amp;lcol=1">Write For Us</a></li>
+<li>
+<a href="https://www.politico.com/rss" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_footer&amp;lindex=15&amp;lcol=1">RSS</a></li>
+<li>
+<a href="https://www.politico.com/sitemap" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_footer&amp;lindex=16&amp;lcol=1">Site Map</a></li>
+</ul>
+<ul>
+<li>
+<a href="https://www.politico.com/terms-of-service" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_footer&amp;lindex=1&amp;lcol=2">Terms of Service</a></li>
+<li>
+<a href="https://www.politico.com/privacy-policy" target="_top" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_footer&amp;lindex=2&amp;lcol=2">Privacy Policy</a></li>
+<li>
+<a href="https://www.politico.com/do-not-sell" target="_blank" class="js-tealium-tracking" data-tracking="mpos=na&amp;mid=site_footer&amp;lindex=3&amp;lcol=2">Do not sell my info</a></li>
+</ul>
+</nav>
+<div class="footer__group footer__group--legal">
+<p class="footer__copyright"> &copy; 2020 POLITICO LLC</p>
+</div>
+</footer>
+<script type="text/javascript" src="https://static3.politico.com/resource/assets/js.min/scriptloader.3f87d6956b9017acc78e56f69b69f088.gz.js"></script><script>var scripts = [{'inline': function() { if (Modernizr.touch) { document.write('<script src="https://static3.politico.com/resource/js/website/shared/libraries/jquery-mobile-1.4.5.min.483cba40ca58d0ada0632d01953d42f4.gz.js"><\/script>'); } } },{'src': 'https://www.google.com/recaptcha/api.js?render=6LfS6L8UAAAAAAHCPhd7CF66ZbK8AyFfk3MslbKV'},{'src': 'https://static3.politico.com/resource/js/website/shared/libraries/jquery.extra.fbf31263f39294c52d3a5cc6a2f6b309.gz.js'},{'src': 'https://static3.politico.com/resource/js/website/shared/libraries/popup.26b0ff7e738340d74b9af4387fb60a39.gz.js'},{'src': 'https://static3.politico.com/resource/js/website/shared/libraries/jquery-frame.6129c2d85f45109fa362482bbb37d1be.gz.js'},{'src': 'https://static3.politico.com/resource/assets/js.min/main.35ab52d5473f860635ebc8aa67785ba3.gz.js'},{'src': 'https://static3.politico.com/resource/assets/js.min/bsp.20960d0aa4e4fd2bd46601100a9eb8e1.gz.js'},{'src': 'https://static3.politico.com/resource/assets/js.min/core-default18-delayed.min.30ab541f1c7d5742188e19e5ba312f40.gz.js'},{'src': 'https://static3.politico.com/resource/assets/js.min/core-article19-delayed.min.b01e2d96b2752e387c37f88985e34d85.gz.js'},{'src': '//s7.addthis.com/js/300/addthis_widget.js#pubid=politico.com'},{'inline': function() { buildSocial(); } },];POLITICO_Script_Loader.loadScriptsSync(scripts);</script><script type="text/javascript">$(document).ready(function(e) {
+    $('#pageProfileSettings').find('[target="_changePassword"]').attr('target', '_blank');
+});</script></div>
+</div>
 </body>
 </html>

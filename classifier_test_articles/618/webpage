@@ -1,1110 +1,369 @@
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link rel="preconnect" href="//cdnjs.cloudflare.com">
-<link rel="preconnect" href="//fonts.googleapis.com">
-<link rel="preconnect" href="//ib.adnxs.com">
-<link rel="preconnect" href="//experience.tinypass.com">
-<link rel="preconnect" href="//sandbox.tinypass.com">
-<link rel="preconnect" href="//www.googletagservices.com">
-<link rel="preconnect" href="//media.townhall.com">
-<link rel="preconnect" href="//prebid.adnxs.com">
-<link rel="preconnect" href="//www.google-analytics.com">
-<link rel="preconnect" href="//pagead2.googlesyndication.com">
-<link rel="preconnect" href="//ad.doubleclick.net">
-<link rel="preconnect" href="//securepubads.g.doubleclick.net">
-<link rel="preconnect" href="//c.amazon-adsystem.com">
-<link rel="preconnect" href="//townhallmedia-d.openx.net">
-<link rel="preconnect" href="//cdn.blueconic.net">
-<script>
-        document.cookie = "__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
-        var setNptTechAdblockerCookie = function (adblocker) {
-            var d = new Date();
-            d.setTime(d.getTime() + 60 * 60 * 24 * 2 * 1000);
-            document.cookie = "__adblocker=" + (adblocker ? "true" : "false") + "; expires=" + d.toUTCString() + "; path=/";
-        }
-        var script = document.createElement("script");
-        script.setAttribute("async", true);
-        script.setAttribute("src", "//www.npttech.com/advertising.js");
-        script.setAttribute("onerror", "setNptTechAdblockerCookie(true);");
-        document.getElementsByTagName("head")[0].appendChild(script);
-    </script>
-<script type="text/javascript" src="//d2ze07sbtyfzd0.cloudfront.net/script.js"></script>
-<script async src="https://cdn.blueconic.net/salemmediagroup.js"></script>
-<script type='text/javascript'>var _sf_startpt = (new Date()).getTime()</script>
-<link rel="manifest" href="/manifest.json">
-<link rel="alternate" href="https://townhall.com" hreflang="en-us">
-<style>
-        .async-hide {
-            opacity: 0 !important
-        }
-    </style>
-<script>
-        (function (a, s, y, n, c, h, i, d, e) {
-            s.className += ' ' + y; h.start = 1 * new Date;
-            h.end = i = function () { s.className = s.className.replace(RegExp(' ?' + y), '') };
-            (a[n] = a[n] || []).hide = h; setTimeout(function () { i(); h.end = null }, c); h.timeout = c;
-        })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
-            { 'GTM-KT87G5R': true });
-    </script>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments);
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="norton-safeweb-site-verification" content="24usqpep0ejc5w6hod3dulxwciwp0djs6c6ufp96av3t4whuxovj72wfkdjxu82yacb7430qjm8adbd5ezlt4592dq4zrvadcn9j9n-0btgdzpiojfzno16-fnsnu7xd" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+        <meta name="author" content="Aparna Mathur" />
+        <link rel="canonical" href="https://thedispatch.com/p/heres-one-way-to-provide-small-businesses" />
 
-    ga('create', 'UA-404425-3', 'auto', { 'useAmpClientId': true });
-    
-    ga('require', 'GTM-KT87G5R');
-    
-    //ga('set', 'transport', 'beacon');
-    ga('require', 'displayfeatures');
-    if (typeof hptId !== 'undefined')
-    {
-        ga('set', 'dimension2', hptId);
-    }
-    
-    ga('set', 'dimension7', 'free');
-    ga('send', 'pageview');
-</script>
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-<link rel="apple-touch-icon" sizes="57x57" href="https://media.townhall.com/thm/favicon/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="https://media.townhall.com/thm/favicon/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="https://media.townhall.com/thm/favicon/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="https://media.townhall.com/thm/favicon/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="https://media.townhall.com/thm/favicon/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="https://media.townhall.com/thm/favicon/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="https://media.townhall.com/thm/favicon/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="https://media.townhall.com/thm/favicon/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://media.townhall.com/thm/favicon/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-16x16.png" sizes="16x16">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/android-chrome-192x192.png" sizes="192x192">
-<meta name="msapplication-square70x70logo" content="https://media.townhall.com/thm/favicon/smalltile.png" />
-<meta name="msapplication-square150x150logo" content="https://media.townhall.com/thm/favicon/mediumtile.png" />
-<meta name="msapplication-wide310x150logo" content="https://media.townhall.com/thm/favicon/widetile.png" />
-<meta name="msapplication-square310x310logo" content="https://media.townhall.com/thm/favicon/largetile.png" />
-<link href="/resources/css/bootstrap.min.css" rel="preload" as="style" />
-<link href="/resources/css/bootstrap.min.css" rel="stylesheet" />
-<link href="/resources/dist/css/main.min.css?v=2" rel="preload" as="style" />
-<link href="/resources/dist/css/main.min.css?v=2" rel="stylesheet" />
-<link href="/resources/lib/jquery/dist/jquery.min.js" rel="preload" as="script" />
-<script src="/resources/lib/jquery/dist/jquery.min.js"></script>
-<meta property="fb:app_id" content="967808926746051" />
-<meta property="fb:pages" content="41632789656,103971336305218,319569361390023,106547192707583,124538510989702,283971595408,15418366158,153162531376557,127519040661256,123834811060739,305174559545115,321502821264274,413465452078762,492802317512753,140705212665688,116757565026850,114013445328868" />
-<title>President Trump: We&#39;re Working Closely with Governors to Open the Economy</title>
-<meta name="description" content=".04/18/2020 1:56:26AM EST." />
-<link rel="amphtml" href="https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811?amp=true">
-<meta name="keywords" content="Donald Trump, Jobs and Economy, economic crisis, wuhan coronavirus" />
-<meta name="robots" content="index, follow" />
-<meta name="author" content="Katie Pavlich" />
-<link rel="author" href="https://plus.google.com/u/0/111211985562830458144/" />
-<link rel="canonical" href="https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811" />
-<meta property="og:title" content="President Trump: We&#39;re Working Closely with Governors to Open the Economy" />
-<meta property="og:type" content="Article" />
-<meta property="og:url" content="https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811" />
-<meta property="og:image" content="https://media.townhall.com/townhall/reu/s1280x720/2020/100/4ff02a46-c9da-4ec3-9884-be02dae2ba65.jpg" />
-<meta property="og:site_name" content="Townhall " />
-<meta property="og:description" content="" />
-<script type="application/ld+json">
-        {
-        "@context": "http://schema.org",
-        "@type": "NewsArticle",
-        "headline": "President Trump: We&#39;re Working Closely with Governors to Open the Economy",
-        "datePublished": "2020-04-13T12:15:00-04:00",
-        "dateModified": "2020-04-13T12:15:00-04:00" ,
-        "image": {
-        "@type": "ImageObject",
-        "url": "https://media.townhall.com/townhall/reu/s1280x720/2020/100/4ff02a46-c9da-4ec3-9884-be02dae2ba65.jpg",
-        "height": 665,
-        "width": 700
-        },
-        "mainEntityOfPage":"https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811",
-        "author": {
-        "@type": "Person",
-        "name": "Katie Pavlich"
-        },
-        "publisher": {
-        "@type":"Organization",
-        "name": "Townhall.com",
-        "logo": {
-        "@type": "ImageObject",
-        "url": "https://media.townhall.com/townhall/ampmobile/Logo_TH_3.png",
-        "width": 128,
-        "height": 60
-        }
-        }
-        }
-    </script>
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="President Trump: We&#39;re Working Closely with Governors to Open the Economy" />
-<meta name="twitter:image" content="https://media.townhall.com/townhall/reu/s1280x720/2020/100/4ff02a46-c9da-4ec3-9884-be02dae2ba65.jpg?181" />
-<meta name="twitter:url" content="https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811?181" />
-<meta name="twitter:description" content="" />
-<meta name="twitter:site" content="@townhallcom" />
-<script type="text/javascript">
-        var _sf_async_config = {};
-        /** CONFIGURATION START **/
-        _sf_async_config.uid = 14482;
-        _sf_async_config.domain = 'townhall.com';
-        _sf_async_config.sections = 'tipsheet';
-        _sf_async_config.authors = 'Katie Pavlich';
+        
 
-        var _cbq = window._cbq = window._cbq || [];
-        if (localStorage.getItem('_cbq_acct')) {
-            _cbq.push(['_acct', localStorage.getItem( '_cbq_acct' )||"anon"]);
-        }
+        
+            
+                <link rel="shortcut icon" href="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/83bf2276-3efd-46c3-99f3-9a3d968ddfb5/favicon.ico">
+            
+        
+            
+                <link rel="icon" type="image/png" sizes="16x16" href="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/83bf2276-3efd-46c3-99f3-9a3d968ddfb5/favicon-16x16.png">
+            
+        
+            
+                <link rel="icon" type="image/png" sizes="32x32" href="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/83bf2276-3efd-46c3-99f3-9a3d968ddfb5/favicon-32x32.png">
+            
+        
+            
+                <link rel="apple-touch-icon" sizes="57x57" href="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/83bf2276-3efd-46c3-99f3-9a3d968ddfb5/apple-touch-icon-57x57.png">
+            
+        
+            
+                <link rel="apple-touch-icon" sizes="60x60" href="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/83bf2276-3efd-46c3-99f3-9a3d968ddfb5/apple-touch-icon-60x60.png">
+            
+        
+            
+                <link rel="apple-touch-icon" sizes="72x72" href="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/83bf2276-3efd-46c3-99f3-9a3d968ddfb5/apple-touch-icon-72x72.png">
+            
+        
+            
+                <link rel="apple-touch-icon" sizes="76x76" href="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/83bf2276-3efd-46c3-99f3-9a3d968ddfb5/apple-touch-icon-76x76.png">
+            
+        
+            
+                <link rel="apple-touch-icon" sizes="114x114" href="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/83bf2276-3efd-46c3-99f3-9a3d968ddfb5/apple-touch-icon-114x114.png">
+            
+        
+            
+                <link rel="apple-touch-icon" sizes="120x120" href="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/83bf2276-3efd-46c3-99f3-9a3d968ddfb5/apple-touch-icon-120x120.png">
+            
+        
+            
+                <link rel="apple-touch-icon" sizes="144x144" href="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/83bf2276-3efd-46c3-99f3-9a3d968ddfb5/apple-touch-icon-144x144.png">
+            
+        
+            
+                <link rel="apple-touch-icon" sizes="152x152" href="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/83bf2276-3efd-46c3-99f3-9a3d968ddfb5/apple-touch-icon-152x152.png">
+            
+        
+            
+                <link rel="apple-touch-icon" sizes="167x167" href="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/83bf2276-3efd-46c3-99f3-9a3d968ddfb5/apple-touch-icon-167x167.png">
+            
+        
+            
+                <link rel="apple-touch-icon" sizes="180x180" href="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/83bf2276-3efd-46c3-99f3-9a3d968ddfb5/apple-touch-icon-180x180.png">
+            
+        
+            
+                <link rel="apple-touch-icon" sizes="1024x1024" href="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/83bf2276-3efd-46c3-99f3-9a3d968ddfb5/apple-touch-icon-1024x1024.png">
+            
+        
+            
+        
+            
+        
+            
+        
 
+        <title data-preact-helmet>Here’s One Way to Provide Small Businesses a Fresh Start  - The Dispatch</title>
+        <meta data-preact-helmet property="og:type" content="article"><meta data-preact-helmet property="og:title" content="Here’s One Way to Provide Small Businesses a Fresh Start "><meta data-preact-helmet property="twitter:title" content="Here’s One Way to Provide Small Businesses a Fresh Start "><meta data-preact-helmet name="description" content="The economic relief package will provide loans. But there is more that government can do."><meta data-preact-helmet property="og:description" content="The economic relief package will provide loans. But there is more that government can do."><meta data-preact-helmet property="twitter:description" content="The economic relief package will provide loans. But there is more that government can do."><meta data-preact-helmet property="og:image" content="https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb85241d4-6700-4c1e-9fed-090d59eb9ab1_1024x705.jpeg"><meta data-preact-helmet property="twitter:image" content="https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb85241d4-6700-4c1e-9fed-090d59eb9ab1_1024x705.jpeg"><meta data-preact-helmet property="twitter:card" content="summary_large_image">
+        
 
-        _sf_async_config.useCanonical = true;
-        /** CONFIGURATION END **/
-        (function () {
-            function loadChartbeat() {
-                window._sf_endpt = (new Date()).getTime();
-                var e = document.createElement('script');
-                e.setAttribute('language', 'javascript');
-                e.setAttribute('type', 'text/javascript');
-                e.setAttribute('src',
-                           (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
-                           'js/chartbeat.js');
-                document.body.appendChild(e);
-            }
-            var oldonload = window.onload;
-            window.onload = (typeof window.onload != 'function') ?
-                loadChartbeat : function () { oldonload(); loadChartbeat(); };
-        })();
+        
+            <link rel="alternate" type="application/rss+xml" href="/feed/" title="The Dispatch"/>
+        
+        
 
-</script>
-<script>
-    var _comscore = _comscore || [];
-    _comscore.push({
-        c1: "2",
-        c2: "21057668",
-        c3: "",
-        c4: ""
-    });
+        
+            <style>
+/*https://fonts.googleapis.com/css?family=Spectral:400,400i,600,600i*/
+/* cyrillic */
+@font-face {
+    font-family: 'Spectral';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Spectral Italic'), local('Spectral-Italic'), url(https://fonts.gstatic.com/s/spectral/v5/rnCt-xNNww_2s0amA9M8on7mTNmnUHowCw.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    font-display: fallback;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Spectral';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Spectral Italic'), local('Spectral-Italic'), url(https://fonts.gstatic.com/s/spectral/v5/rnCt-xNNww_2s0amA9M8onXmTNmnUHowCw.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+    font-display: fallback;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Spectral';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Spectral Italic'), local('Spectral-Italic'), url(https://fonts.gstatic.com/s/spectral/v5/rnCt-xNNww_2s0amA9M8onTmTNmnUHowCw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    font-display: fallback;
+}
+/* latin */
+@font-face {
+    font-family: 'Spectral';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Spectral Italic'), local('Spectral-Italic'), url(https://fonts.gstatic.com/s/spectral/v5/rnCt-xNNww_2s0amA9M8onrmTNmnUHo.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-display: fallback;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Spectral';
+    font-style: italic;
+    font-weight: 600;
+    src: local('Spectral SemiBold Italic'), local('Spectral-SemiBoldItalic'), url(https://fonts.gstatic.com/s/spectral/v5/rnCu-xNNww_2s0amA9M8qqXCWfCFXVAKArdqqQ.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    font-display: fallback;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Spectral';
+    font-style: italic;
+    font-weight: 600;
+    src: local('Spectral SemiBold Italic'), local('Spectral-SemiBoldItalic'), url(https://fonts.gstatic.com/s/spectral/v5/rnCu-xNNww_2s0amA9M8qqXCWfuFXVAKArdqqQ.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+    font-display: fallback;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Spectral';
+    font-style: italic;
+    font-weight: 600;
+    src: local('Spectral SemiBold Italic'), local('Spectral-SemiBoldItalic'), url(https://fonts.gstatic.com/s/spectral/v5/rnCu-xNNww_2s0amA9M8qqXCWfqFXVAKArdqqQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    font-display: fallback;
+}
+/* latin */
+@font-face {
+    font-family: 'Spectral';
+    font-style: italic;
+    font-weight: 600;
+    src: local('Spectral SemiBold Italic'), local('Spectral-SemiBoldItalic'), url(https://fonts.gstatic.com/s/spectral/v5/rnCu-xNNww_2s0amA9M8qqXCWfSFXVAKArc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-display: fallback;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Spectral Regular'), local('Spectral-Regular'), url(https://fonts.gstatic.com/s/spectral/v5/rnCr-xNNww_2s0amA9M9knjsS_ulYHs.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    font-display: fallback;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Spectral Regular'), local('Spectral-Regular'), url(https://fonts.gstatic.com/s/spectral/v5/rnCr-xNNww_2s0amA9M2knjsS_ulYHs.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+    font-display: fallback;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Spectral Regular'), local('Spectral-Regular'), url(https://fonts.gstatic.com/s/spectral/v5/rnCr-xNNww_2s0amA9M3knjsS_ulYHs.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    font-display: fallback;
+}
+/* latin */
+@font-face {
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Spectral Regular'), local('Spectral-Regular'), url(https://fonts.gstatic.com/s/spectral/v5/rnCr-xNNww_2s0amA9M5knjsS_ul.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-display: fallback;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Spectral SemiBold'), local('Spectral-SemiBold'), url(https://fonts.gstatic.com/s/spectral/v5/rnCs-xNNww_2s0amA9vmtm3FafaPWnIIMrY.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    font-display: fallback;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Spectral SemiBold'), local('Spectral-SemiBold'), url(https://fonts.gstatic.com/s/spectral/v5/rnCs-xNNww_2s0amA9vmtm3OafaPWnIIMrY.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+    font-display: fallback;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Spectral SemiBold'), local('Spectral-SemiBold'), url(https://fonts.gstatic.com/s/spectral/v5/rnCs-xNNww_2s0amA9vmtm3PafaPWnIIMrY.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    font-display: fallback;
+}
+/* latin */
+@font-face {
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Spectral SemiBold'), local('Spectral-SemiBold'), url(https://fonts.gstatic.com/s/spectral/v5/rnCs-xNNww_2s0amA9vmtm3BafaPWnII.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-display: fallback;
+}
+</style>
+
+        
+
+        <link rel="stylesheet" href="https://cdn.substack.com/theme/main.css?v=ae883a1a7d370a89ccaf4a1f852be384&amp;s=thedispatch" />
+    </head>
+
+    <body>
+        <div id="entry">
+            <div id="main" class="main"><div class="main-menu    "><div class="main-menu-content"><div class="topbar"><div class="container"><a href="/" class="headline"><img src="https://cdn.substack.com/image/fetch/c_limit,f_auto,q_auto:good/https%3A%2F%2Fsubstack.com%2Fimg%2Fpub_logos%2Fthedispatch.png" alt="The Dispatch" class="logo-wordmark " /></a><div class="buttons"><button class="button primary subscribe-cta subscribe-btn " type="button">Join</button><button class="button menu-button " type="button"><svg width="18" height="11" viewBox="0 0 18 11" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L9 9L17 1" stroke="#A4A4A4" stroke-width="2"></path></svg></button></div></div></div><div class="drop-down"><div class="container"><ul class="navigation"><li><a href="/about?utm_source=menu-dropdown">About</a></li><li><a href="/archive?utm_source=menu-dropdown">Archive</a></li><li><a href="https://support.substack.com/hc/en-us?s=support%2Bthedispatch%40substack.com" native>Help</a></li><li><a href="/account/login?redirect=%2Fp%2Fheres-one-way-to-provide-small-businesses&amp;email=&amp;with_password=" native class="premium">Sign in</a></li></ul></div></div><div class="backdrop"></div></div><div class="topbar-replacement"></div></div><div><script type="application/ld+json">{"@context":"http://schema.org","@type":"NewsArticle","url":"https://thedispatch.com/p/heres-one-way-to-provide-small-businesses","mainEntityOfPage":"https://thedispatch.com/p/heres-one-way-to-provide-small-businesses","headline":"Here\u2019s One Way to Provide Small Businesses a Fresh Start ","description":"The economic relief package will provide loans. But there is more that government can do.","image":[{"@type":"ImageObject","url":"https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb85241d4-6700-4c1e-9fed-090d59eb9ab1_1024x705.jpeg"}],"datePublished":"2020-03-26T10:11:30+00:00","dateModified":"2020-03-26T10:11:30+00:00","isAccessibleForFree":true,"author":{"@type":"Person","name":"Aparna Mathur","url":"https://thedispatch.com/people/8142376"},"publisher":{"@type":"Organization","name":"The Dispatch","logo":{"@type":"ImageObject","url":"https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/48c87127-ddd2-441d-b594-b1768cc18e72_256x256.png"}}}</script><div class="single-post-container"><div class="container"><div class="single-post"><article class="post"><div class="post-header "><h1 class="post-title long">Here’s One Way to Provide Small Businesses a Fresh Start </h1><h3 class="subtitle">The economic relief package will provide loans. But there is more that government can do. </h3><table cellpadding="0" cellspacing="0" class="post-meta   custom"><tr><td class="post-meta-item author"><a href="/people/8142376">Aparna Mathur</a></td><td class="post-meta-item post-date">Mar 26</td><td class="post-meta-item icon"><span><a href="javascript:void(0)" class="like-button"><svg width="15" height="20" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" class="animation"><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></svg><svg style="height:20px;width:15px;" width="15" height="20" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg"><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></svg> 8</a><div class="modal  out gone modal-free-signup "><div class="modal-table"><div class="modal-row"><div class="modal-cell modal-content"><div class="container"><button class="button modal-btn modal-exit-btn " type="button"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L7.75 7.75M14.5 14.5L7.75 7.75M7.75 7.75L14.5 1L1 14.5"></path></svg></button><h2 class="page-title">Sign up to like post</h2><form action="/api/v1/free?nojs=true" method="post" noValidate class="form "><input type="hidden" name="first_url" /><input type="hidden" name="first_referrer" /><input type="hidden" name="current_url" /><input type="hidden" name="current_referrer" /><input type="hidden" name="referral_code" /><input type="hidden" name="source" value="like_button" /><div class="sideBySideWrap"><input type="email" name="email" placeholder="Type your email…" /><button class="button rightButton primary subscribe-btn " type="submit"><b>Join</b></button></div><div id="error-container"></div><div class="subtle-help-text below-input"><a href="/account/login?redirect=%2Fp%2Fheres-one-way-to-provide-small-businesses&amp;email=&amp;with_password=" native class="login-button">Login</a><a href="/privacy" target="_blank" native>Privacy</a><a href="/tos" target="_blank" native>Terms</a></div></form></div></div></div></div></div></span></td><td class="post-meta-item icon"><a href="https://thedispatch.com/p/heres-one-way-to-provide-small-businesses/comments"><svg style="height:20px;width:14px;" width="14" height="20" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg"><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></svg></a></td><td class="post-meta-item icon"><span><a href="javascript:void(0)"><svg style="height:20px;width:11px;" width="11" height="20" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg"><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></svg></a><div class="modal popup out gone  share-dialog"><div class="modal-table"><div class="modal-row"><div class="modal-cell modal-content"><div class="container"><button class="button modal-btn modal-exit-btn " type="button"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L7.75 7.75M14.5 14.5L7.75 7.75M7.75 7.75L14.5 1L1 14.5"></path></svg></button><div class="post-preview-wrap"><div class="post-preview  "><div class="post-preview-content"><a href="https://thedispatch.com/p/heres-one-way-to-provide-small-businesses" class="post-preview-title newsletter">Here’s One Way to Provide Small Businesses a Fresh Start </a><a href="https://thedispatch.com/p/heres-one-way-to-provide-small-businesses" class="post-preview-description">The economic relief package will provide loans. But there is more that government can do.</a><div class="post-preview-author"><a href="/people/8142376">Aparna Mathur</a></div><table cellpadding="0" cellspacing="0" class="post-meta  post-preview-meta custom"><tr><td class="post-meta-item post-date">Mar 26</td><td class="post-meta-item icon"><span><a href="javascript:void(0)" class="like-button"><svg width="15" height="20" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" class="animation"><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></svg><svg style="height:20px;width:15px;" width="15" height="20" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg"><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></svg> 8</a><div class="modal  out gone modal-free-signup "><div class="modal-table"><div class="modal-row"><div class="modal-cell modal-content"><div class="container"><button class="button modal-btn modal-exit-btn " type="button"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L7.75 7.75M14.5 14.5L7.75 7.75M7.75 7.75L14.5 1L1 14.5"></path></svg></button><h2 class="page-title">Sign up to like post</h2><form action="/api/v1/free?nojs=true" method="post" noValidate class="form "><input type="hidden" name="first_url" /><input type="hidden" name="first_referrer" /><input type="hidden" name="current_url" /><input type="hidden" name="current_referrer" /><input type="hidden" name="referral_code" /><input type="hidden" name="source" value="like_button" /><div class="sideBySideWrap"><input type="email" name="email" placeholder="Type your email…" /><button class="button rightButton primary subscribe-btn " type="submit"><b>Join</b></button></div><div id="error-container"></div><div class="subtle-help-text below-input"><a href="/account/login?redirect=%2Fp%2Fheres-one-way-to-provide-small-businesses&amp;email=&amp;with_password=" native class="login-button">Login</a><a href="/privacy" target="_blank" native>Privacy</a><a href="/tos" target="_blank" native>Terms</a></div></form></div></div></div></div></div></span></td><td class="post-meta-item icon"><a href="https://thedispatch.com/p/heres-one-way-to-provide-small-businesses/comments"><svg style="height:20px;width:14px;" width="14" height="20" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg"><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></svg></a></td></tr></table></div></div></div><h1 class="post-share-title">Share</h1></div></div></div></div></div></span></td></tr></table></div><div></div><div class="body markup"><a class="image-link" target="_blank" href="https://cdn.substack.com/image/fetch/c_limit,f_auto,q_auto:good/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb85241d4-6700-4c1e-9fed-090d59eb9ab1_1024x705.jpeg"><img style="max-width: 1024px; max-height: 705px;" src="https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb85241d4-6700-4c1e-9fed-090d59eb9ab1_1024x705.jpeg" data-attrs="{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b85241d4-6700-4c1e-9fed-090d59eb9ab1_1024x705.jpeg&quot;,&quot;height&quot;:705,&quot;width&quot;:1024,&quot;bytes&quot;:134500,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null}" alt=""></a><p>The coronavirus is already causing an economic crisis in the United States. But no business will be hit harder in the coming weeks and months than small businesses, which account for more than <a href="https://www.sba.gov/sites/default/files/advocacy/2018-Small-Business-Profiles-US.pdf">99 percent</a> of all businesses in the United States and close to 50 percent of all employment. Of these, 73 <a href="https://www.thebalancesmb.com/sole-proprietorship-398896">percent are sole</a> proprietorships and <a href="https://sbecouncil.org/about-us/facts-and-data/">89 percent</a> have fewer than 20 employees.&nbsp;</p><p>As the virus continues to spread across the nation and people practice social distancing by staying away from stores, restaurants, dry cleaners, it is these mom-and-pop shops that are at biggest risk of failing. As of this writing, a $2 trillion economic relief package has passed the Senate and moved on to the House. It includes some measures that will help many small businesses weather this difficult time, <a href="https://www.washingtonpost.com/business/2020/03/25/trump-senate-coronavirus-economic-stimulus-2-trillion/">notably a $367 billion loan program</a>.&nbsp;</p><p>But there are other specific and immediate steps the federal government can take—including easing the path to Chapter 7 bankruptcy—to help America’s small-business owners.</p><p>Even in normal times, small businesses have a <a href="https://www.bls.gov/bdm/entrepreneurship/entrepreneurship.htm">high failure rate</a>. Only about 50 percent of businesses survive the first five years and only 30 percent survive longer than 10 years. America’s bankruptcy system allows these failed entrepreneurs a “fresh start.”</p><p>The concept of a fresh start works especially well for owners of small businesses. By wiping out debts and pardoning failure, American bankruptcy law gives the entrepreneur a chance to bounce back. When businesses fail, entrepreneurs can shield some or all of their assets from creditors by filing under <a href="https://www.uscourts.gov/services-forms/bankruptcy/bankruptcy-basics/chapter-7-bankruptcy-basics">Chapter 7</a> of the federal bankruptcy laws, the usual route for consumer filings. In 2016, more than <a href="https://www.debt.org/bankruptcy/chapter-7/">60 percent</a> of bankruptcy cases filed were Chapter 7 claims. Most importantly, entrepreneurs can get an exemption for equity in owner-occupied homes through the <a href="https://www.lendingtree.com/home/mortgage/what-is-a-homestead-exemption/">homestead exemption</a>. They are also released from any future obligation to repay debts.&nbsp;</p><p>However, there is a lack of consistent bankruptcy policy across the states, and that creates an unintended barrier to small business owners who need relief.</p><p>Since the Federal Bankruptcy Code of 1978 was enacted, bankruptcy exemption levels are set by the states and vary widely across states and over time. For example, in seven states or regions (and the U.S. territories of the American Samoa and Puerto Rico), the homestead exemptions are <a href="https://www.thebankruptcysite.org/exemptions/federal.html">unlimited</a>. In New Jersey and Pennsylvania, they are <a href="https://www.thebankruptcysite.org/exemptions/federal.html">zero</a>. All other states lie somewhere in between.&nbsp;</p><p>There are also personal property exemptions for items like motor vehicles and jewelry. <a href="https://www.jstor.org/stable/10.1086/382602?seq=1">Research</a>, including <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2212988">mine</a>, shows that the lower the exemptions, the smaller the likelihood of business start-ups in that state. Not surprisingly, the threat of losing their home and property at the time of bankruptcy creates a deterrence to individuals starting a business in the state.&nbsp;</p><p>Other bankruptcy routes include&nbsp;<a href="https://www.uscourts.gov/services-forms/bankruptcy/bankruptcy-basics/chapter-11-bankruptcy-basics">Chapter 11</a> and <a href="https://www.uscourts.gov/services-forms/bankruptcy/bankruptcy-basics/chapter-13-bankruptcy-basics">Chapter 13</a>, which are reorganization procedures. While Chapter 7 is the usual route for consumer filings, Chapter 13 is available to individuals with regular income and sole proprietors, and Chapter 11 is typically available to corporations or partnerships.&nbsp;The amount of debt discharged approaches that under Chapter 7, but both procedures require the debtor to establish a repayment plan paid for with future income.&nbsp;</p><p>In 2005, Congress passed the <a href="https://www.justice.gov/sites/default/files/usao/legacy/2006/09/07/usab5404.pdf">Bankruptcy Abuse Prevention and Consumer Protection Act</a> (BAPCPA) with the primary intention of making it harder for individuals to file a Chapter 7 bankruptcy. The reform introduced a means test for Chapter 7, which essentially prevented individuals earning above-average income from wiping out their debt through filing under Chapter 7. Instead, such individuals would be able to file under Chapter 13, which allows debt discharge only after the individual has made some repayments. That process can be cumbersome and bogs down entrepreneurs for months or even years as they work to repay their debts. It feels especially unfair to require it of businesses that shuttered through no fault of their own.&nbsp;</p><p>BAPCPA also lowered exemptions for certain assets, and debtors now need to undergo credit counseling before filing—a costly process and, for many business owners, not particularly useful. My research suggests a modest but unarguably negative impact from some of these changes on small-firm entry decisions. <a href="https://www.nber.org/papers/w24934.pdf">Others</a> find a 50 percent reduction in Chapter 7 filings after the act’s passage, and a 25 percent increase in insolvency, leading to worse outcomes for financially distressed borrowers.</p><p>While these provisions may work to reduce bankruptcy abuse in normal economic times, these are not normal economic times. It is in the taxpayers’ interest to do everything reasonably possible to protect small businesses—responsible for creating millions of jobs—from going under. The relief package that is expected to pass soon includes measures that will give direct cash to Americans, which will help them pay for expenses as they lose jobs and incomes. There are also expanded unemployment benefits for workers. And finally, there are billions of dollars in loans to small businesses. These are laudable efforts. However, many small businesses will fail in the next few months, despite these efforts.</p><p>Allowing small businesses to have an easier path to a Chapter 7 bankruptcy could provide them a fresh start when the crisis is over. By easing the costs associated with a Chapter 7 filing, removing means-tested filing for a temporary period, and allowing more individuals and small businesses to file and claim unlimited homestead and personal property exemptions for a temporary period, we can provide greater protections to assets of small business owners.&nbsp;</p><p>Our entrepreneurial system is dynamic and there is significant churn with businesses dying and re-entering. Perhaps the best solution to the current crisis, when efforts at helping businesses stay afloat don’t work, is easing the path to bankruptcy. This would allow for a fresh start after the tumult has passed.</p><p><em>Aparna Mathur is a Resident Scholar in Economic Policy Studies at the American Enterprise Institute.</em></p><p><em>Photograph by Angela Weiss/AFP via Getty Images.</em></p></div><div></div><table cellpadding="0" cellspacing="0" class="post-meta big  custom"><tr><td class="post-meta-item icon"><span><a href="javascript:void(0)" class="like-button"><svg width="15" height="20" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" class="animation"><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></svg><svg style="height:30px;width:22.5px;" width="22.5" height="30" viewBox="0 0 15 20" fill="none" stroke-width="0.6666666666666666" stroke="#000" xmlns="http://www.w3.org/2000/svg"><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></svg> 8</a><div class="modal  out gone modal-free-signup "><div class="modal-table"><div class="modal-row"><div class="modal-cell modal-content"><div class="container"><button class="button modal-btn modal-exit-btn " type="button"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L7.75 7.75M14.5 14.5L7.75 7.75M7.75 7.75L14.5 1L1 14.5"></path></svg></button><h2 class="page-title">Sign up to like post</h2><form action="/api/v1/free?nojs=true" method="post" noValidate class="form "><input type="hidden" name="first_url" /><input type="hidden" name="first_referrer" /><input type="hidden" name="current_url" /><input type="hidden" name="current_referrer" /><input type="hidden" name="referral_code" /><input type="hidden" name="source" value="like_button" /><div class="sideBySideWrap"><input type="email" name="email" placeholder="Type your email…" /><button class="button rightButton primary subscribe-btn " type="submit"><b>Join</b></button></div><div id="error-container"></div><div class="subtle-help-text below-input"><a href="/account/login?redirect=%2Fp%2Fheres-one-way-to-provide-small-businesses&amp;email=&amp;with_password=" native class="login-button">Login</a><a href="/privacy" target="_blank" native>Privacy</a><a href="/tos" target="_blank" native>Terms</a></div></form></div></div></div></div></div></span></td><td class="post-meta-item icon"><a href="https://thedispatch.com/p/heres-one-way-to-provide-small-businesses/comments"><svg style="height:30px;width:21px;" width="21" height="30" viewBox="0 0 14 20" fill="none" stroke-width="0.6666666666666666" stroke="#000" xmlns="http://www.w3.org/2000/svg"><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></svg></a></td><td class="post-meta-item icon"><span><a href="javascript:void(0)"><svg style="height:30px;width:16.5px;" width="16.5" height="30" viewBox="0 0 11 20" fill="none" stroke-width="0.6666666666666666" stroke="#999999" xmlns="http://www.w3.org/2000/svg"><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></svg></a><div class="modal popup out gone  share-dialog"><div class="modal-table"><div class="modal-row"><div class="modal-cell modal-content"><div class="container"><button class="button modal-btn modal-exit-btn " type="button"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L7.75 7.75M14.5 14.5L7.75 7.75M7.75 7.75L14.5 1L1 14.5"></path></svg></button><div class="post-preview-wrap"><div class="post-preview  "><div class="post-preview-content"><a href="https://thedispatch.com/p/heres-one-way-to-provide-small-businesses" class="post-preview-title newsletter">Here’s One Way to Provide Small Businesses a Fresh Start </a><a href="https://thedispatch.com/p/heres-one-way-to-provide-small-businesses" class="post-preview-description">The economic relief package will provide loans. But there is more that government can do.</a><div class="post-preview-author"><a href="/people/8142376">Aparna Mathur</a></div><table cellpadding="0" cellspacing="0" class="post-meta  post-preview-meta custom"><tr><td class="post-meta-item post-date">Mar 26</td><td class="post-meta-item icon"><span><a href="javascript:void(0)" class="like-button"><svg width="15" height="20" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" class="animation"><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></svg><svg style="height:20px;width:15px;" width="15" height="20" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg"><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></svg> 8</a><div class="modal  out gone modal-free-signup "><div class="modal-table"><div class="modal-row"><div class="modal-cell modal-content"><div class="container"><button class="button modal-btn modal-exit-btn " type="button"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L7.75 7.75M14.5 14.5L7.75 7.75M7.75 7.75L14.5 1L1 14.5"></path></svg></button><h2 class="page-title">Sign up to like post</h2><form action="/api/v1/free?nojs=true" method="post" noValidate class="form "><input type="hidden" name="first_url" /><input type="hidden" name="first_referrer" /><input type="hidden" name="current_url" /><input type="hidden" name="current_referrer" /><input type="hidden" name="referral_code" /><input type="hidden" name="source" value="like_button" /><div class="sideBySideWrap"><input type="email" name="email" placeholder="Type your email…" /><button class="button rightButton primary subscribe-btn " type="submit"><b>Join</b></button></div><div id="error-container"></div><div class="subtle-help-text below-input"><a href="/account/login?redirect=%2Fp%2Fheres-one-way-to-provide-small-businesses&amp;email=&amp;with_password=" native class="login-button">Login</a><a href="/privacy" target="_blank" native>Privacy</a><a href="/tos" target="_blank" native>Terms</a></div></form></div></div></div></div></div></span></td><td class="post-meta-item icon"><a href="https://thedispatch.com/p/heres-one-way-to-provide-small-businesses/comments"><svg style="height:20px;width:14px;" width="14" height="20" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg"><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></svg></a></td></tr></table></div></div></div><h1 class="post-share-title">Share</h1></div></div></div></div></div></span></td></tr></table><div><div><a href="/subscribe?utm_campaign=button-below-meta" native><button class="button primary subscribe-btn " type="button">Join</button></a></div></div></article><div class="page-nav"><a href="/p/how-the-intelligence-community-predicted" class="left">← Previous</a><a href="/p/a-history-lesson-on-ramping-up-production" class="right">Next →</a></div></div></div><div class="single-post-section"><div class="full-container-border"></div><div class="container"><div></div><div class="comment-input-wrap"><form method="post" noValidate class="form comment-input"><div class="comment-input-head"><div class="user-head "><a><div class="profile-img-wrap"><img src="https://cdn.substack.com/image/fetch/w_66,h_66,c_fill,f_auto,q_auto:good/https%3A%2F%2Fsubstack.com%2Fimg%2Fanonymous-head.png" /></div></a></div></div><textarea name="body" placeholder="Write a comment…" value></textarea><div id="error-container"></div></form><div class="modal popup out gone  "><div class="modal-table"><div class="modal-row"><div class="modal-cell modal-content"><div class="container"><button class="button modal-btn modal-exit-btn " type="button"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L7.75 7.75M14.5 14.5L7.75 7.75M7.75 7.75L14.5 1L1 14.5"></path></svg></button><div class="profile-updater-modal"><div class="profile-updater"><h2 class="page-title">Create your profile</h2><div class="profile-photo-wrap"><button type="button" class="button  ">Set photo<input type="file" name="photo" accept="image/*" /></button></div><form action="/api/v1/user/profile" method="post" noValidate class="form "><input type="text" placeholder="Your name…" name="name" value class="profile-name" /><textarea placeholder="Your bio…" name="bio" value class="profile-bio"></textarea><input type="email" placeholder="Your email…" name="email" class="profile-email" /><label class="profile-free-signup"><input type="checkbox" name="free_signup" defaultChecked /> Sign up for the newsletter</label><input type="hidden" name="photo_url" /><input type="hidden" name="needs_photo" /><input type="hidden" name="token" /><div id="error-container"></div><button class="button primary " type="submit">Save &amp; Post Comment</button></form></div></div></div></div></div></div></div><div class="modal popup out gone  "><div class="modal-table"><div class="modal-row"><div class="modal-cell modal-content"><div class="container"><button class="button modal-btn modal-exit-btn " type="button"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L7.75 7.75M14.5 14.5L7.75 7.75M7.75 7.75L14.5 1L1 14.5"></path></svg></button><div class="paywall modal-paywall"><h2 class="paywall-title">Only paying subscribers can comment on this post</h2><div class="paywall-cta"><a href="/subscribe?simple=true&amp;next=https%3A%2F%2Fthedispatch.com%2Fp%2Fheres-one-way-to-provide-small-businesses&amp;utm_source=paywall&amp;utm_medium=web&amp;utm_content=331483" native><button class="button primary subscribe-btn " type="button">Join</button></a></div><div class="paywall-login"><a href="/account/login?redirect=%2Fp%2Fheres-one-way-to-provide-small-businesses&amp;email=&amp;with_password=" native>Already a paying subscriber? <b>Sign in</b></a></div></div></div></div></div></div></div></div></div></div><div></div><div class="subscribe-footer"><div class="container"><h1>Ready for more?</h1><form action="/api/v1/free?nojs=true" method="post" noValidate class="form "><input type="hidden" name="first_url" /><input type="hidden" name="first_referrer" /><input type="hidden" name="current_url" /><input type="hidden" name="current_referrer" /><input type="hidden" name="referral_code" /><input type="hidden" name="source" value="subscribe_footer" /><div class="sideBySideWrap"><input type="email" name="email" placeholder="Type your email…" /><button class="button rightButton primary subscribe-btn " type="submit"><b>Join</b></button></div><div id="error-container"></div><div class="subtle-help-text below-input"></div></form></div></div></div></div><div class="footer-wrap"><div class="footer"><div class="container"><div>© 2020 The Dispatch. See <a href="/privacy" native>privacy</a> and <a href="/tos" native>terms</a></div><a href="https://substack.com/about?utm_source=substack&amp;utm_medium=web&amp;utm_content=footer" native class="footer-substack-cta"><svg width="1000" height="1000" viewBox="0 0 1000 1000" fill="#FF6719" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg"><path d="M764.166 348.371H236.319V419.402H764.166V348.371Z"></path><path d="M236.319 483.752V813.999L500.231 666.512L764.19 813.999V483.752H236.319Z"></path><path d="M764.166 213H236.319V284.019H764.166V213Z"></path></svg> Publish on Substack</a></div></div></div></div>
+        </div>
+
+        <script>
     (function () {
-        var s = document.createElement("script"),
-            el = document.getElementsByTagName("script")[0];
-        s.async = true;
-        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-        el.parentNode.insertBefore(s, el);
+        var CLASS_NAME = 'balance-text';
+        var LINE_HEIGHT_OFFSET = 10;
+        var MAXIMUM_ERROR = 4;
+
+        balanceDocument();
+        window.balanceText = balanceText;
+        window.addEventListener('load', balanceDocument);
+        document.addEventListener('DOMContentLoaded', balanceDocument);
+
+        function balanceDocument() {
+            if (!document.getElementsByClassName) return;
+            var elems = document.getElementsByClassName(CLASS_NAME);
+            for (var i = 0; i < elems.length; i++) {
+                balanceText(elems[i]);
+            }
+        }
+
+        function balanceText(elem) {
+            if (isMultipleLines(elem)) {
+                elem.style.maxWidth = '';
+                squeeze(elem, elem.clientHeight, 0, elem.clientWidth);
+            }
+        }
+
+        // Binary search for min width that doesnt require an extra line
+        function squeeze(elem, originalHeight, min, max) {
+            if (max - min < MAXIMUM_ERROR) {
+                if (elem.clientHeight > originalHeight) {
+                    elem.style.maxWidth = max + 'px';
+                } else {
+                    elem.style.maxWidth = (elem.scrollWidth + 1) + 'px';
+                }
+                return;
+            }
+            if (min >= max) {
+                elem.style.maxWidth = max + 'px';
+                return;
+            }
+
+            var mid = (min + max) / 2;
+            elem.style.maxWidth = mid + 'px';
+            if (elem.clientHeight > originalHeight) {
+                squeeze(elem, originalHeight, mid, max);
+            } else {
+                squeeze(elem, originalHeight, min, mid);
+            }
+        }
+
+        function isMultipleLines(elem) {
+            // Save original text
+            var html = elem.innerHTML;
+            var words = elem.textContent.split(' ');
+
+            // Wrap the first word
+            var firstWord = document.createElement('span');
+            firstWord.id = 'element-first-word';
+            firstWord.textContent = words.shift();
+            elem.innerHTML = '';
+            elem.appendChild(firstWord);
+            elem.appendChild(document.createTextNode(' ' + words.join(' ')));
+
+            // Check the height of the first word
+            var firstWordHeight = document.getElementById('element-first-word').offsetHeight;
+            var elementHeight = elem.offsetHeight;
+
+            // Restore original text
+            elem.innerHTML = html;
+
+            // Check if the block is taller than the first word (ie multi-line)
+            return elementHeight - LINE_HEIGHT_OFFSET > firstWordHeight;
+        }
     })();
 </script>
-<noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=21057668&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" /> </noscript>
 
-<script>
-    !function (f, b, e, v, n, t, s) {
-        if (f.fbq) return; n = f.fbq = function () {
-            n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        }; if (!f._fbq) f._fbq = n;
-        n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
-        t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
-    }(window,
-        document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
 
-    fbq('init', '791796474183597');
-    fbq('track', "PageView");</script>
-<noscript>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=791796474183597&ev=PageView&noscript=1" />
+        
+        
+        <script>window._preloads        = {"isEU":false,"language":"en","country":"US","base_url":"https://thedispatch.com","stripe_publishable_key":"pk_live_vNnuGHOFnt4mM7V9PuCAAPJz","pub":{"id":17455,"name":"The Dispatch","type":"newsletter","homepage_type":"newspaper","logo_url":"https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/48c87127-ddd2-441d-b594-b1768cc18e72_256x256.png","logo_url_wide":"/img/pub_logos/thedispatch.png","subdomain":"thedispatch","author_id":8450245,"copyright":"The Dispatch","custom_domain":"thedispatch.com","custom_domain_optional":false,"email_from":null,"trial_end_override":null,"email_from_name":"The Dispatch","support_email":null,"hero_image":null,"hero_text":"Fact-based reporting and commentary on politics, policy and culture \u2013 informed by conservative principles","require_clickthrough":false,"theme_var_background_pop":"#2A3579","default_coupon":null,"community_enabled":true,"theme_var_cover_bg_color":null,"cover_photo_url":null,"theme_var_color_links":false,"default_group_coupon":null,"email_banner_url":null,"payments_enabled":true,"created_at":"2019-09-16T20:59:42.819Z","podcast_enabled":false,"page_enabled":false,"apple_pay_disabled":false,"fb_pixel_id":"850582145372156","ga_pixel_id":"UA-152828033-1","twitter_pixel_id":"o398l","podcast_feed_url":null,"hide_podcast_feed_link":false,"minimum_group_size":4,"parent_publication_id":null,"bylines_enabled":true,"byline_images_enabled":false,"post_preview_limit":null,"google_site_verification_token":null,"pause_state":null,"language":"en","paid_subscription_benefits":["Subscriber-only posts and full archive","Post comments and join the community"],"free_subscription_benefits":["Occasional public posts"],"founding_subscription_benefits":[],"parent_about_page_enabled":true,"plans":[{"id":"monthly10usd","object":"plan","active":true,"aggregate_usage":null,"amount":1000,"amount_decimal":"1000","billing_scheme":"per_unit","created":1581706031,"currency":"usd","interval":"month","interval_count":1,"livemode":true,"metadata":{"substack":"yes"},"nickname":"$10 a month","product":"prod_GjcQzxvbEgNpNb","tiers":null,"tiers_mode":null,"transform_usage":null,"trial_period_days":null,"usage_type":"licensed"},{"id":"yearly100usd","object":"plan","active":true,"aggregate_usage":null,"amount":10000,"amount_decimal":"10000","billing_scheme":"per_unit","created":1575419131,"currency":"usd","interval":"year","interval_count":1,"livemode":true,"metadata":{"substack":"yes"},"nickname":"$100 a year","product":"prod_GIMPhM2RZfM4Lq","tiers":null,"tiers_mode":null,"transform_usage":null,"trial_period_days":null,"usage_type":"licensed"},{"id":"foreverly1500usd","name":"foreverly1500usd","nickname":"foreverly1500usd","active":true,"amount":150000,"currency":"usd","interval":"forever","interval_count":1,"metadata":{"substack":"yes"}}],"stripe_country":"US","author_name":"Members","author_photo_url":null,"author_bio":"Members","has_public_users":true,"has_posts":true,"has_podcast":false,"has_subscriber_only_podcast":false,"has_community_content":true,"twitter_screen_name":null,"draft_plans":[{"id":"monthly10usd","object":"plan","active":true,"aggregate_usage":null,"amount":1000,"amount_decimal":"1000","billing_scheme":"per_unit","created":1581706031,"currency":"usd","interval":"month","interval_count":1,"livemode":true,"metadata":{"substack":"yes"},"nickname":"$10 a month","product":"prod_GjcQzxvbEgNpNb","tiers":null,"tiers_mode":null,"transform_usage":null,"trial_period_days":null,"usage_type":"licensed"},{"id":"yearly100usd","object":"plan","active":true,"aggregate_usage":null,"amount":10000,"amount_decimal":"10000","billing_scheme":"per_unit","created":1575419131,"currency":"usd","interval":"year","interval_count":1,"livemode":true,"metadata":{"substack":"yes"},"nickname":"$100 a year","product":"prod_GIMPhM2RZfM4Lq","tiers":null,"tiers_mode":null,"transform_usage":null,"trial_period_days":null,"usage_type":"licensed"},{"id":"foreverly1500usd","name":"foreverly1500usd","nickname":"foreverly1500usd","active":true,"amount":150000,"currency":"usd","interval":"forever","interval_count":1,"metadata":{"substack":"yes"}}],"base_url":"https://thedispatch.com","hostname":"thedispatch.com","is_on_substack":false,"google_conversion_info":{"id":"668770873","label":"xKOuCIexysoBELnE8r4C"},"parent_publication":null,"child_publications":[{"id":27013,"name":"The Dispatch Podcast","type":"podcast","homepage_type":"newspaper","logo_url":"https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/48c87127-ddd2-441d-b594-b1768cc18e72_256x256.png","logo_url_wide":null,"subdomain":"dispatchpodcast","author_id":8450245,"copyright":"The Dispatch","custom_domain":"podcast.thedispatch.com","custom_domain_optional":false,"email_from":null,"trial_end_override":null,"email_from_name":"The Dispatch Podcast","support_email":null,"hero_image":null,"hero_text":"Fact-based reporting and commentary on politics, policy and culture \u2013 informed by conservative principles","require_clickthrough":false,"theme_var_background_pop":"#2A3579","default_coupon":null,"community_enabled":true,"theme_var_cover_bg_color":null,"cover_photo_url":null,"theme_var_color_links":false,"default_group_coupon":null,"email_banner_url":null,"payments_enabled":false,"created_at":"2020-01-18T00:53:42.740Z","podcast_enabled":true,"page_enabled":false,"apple_pay_disabled":false,"fb_pixel_id":"850582145372156","ga_pixel_id":"UA-152828033-1","twitter_pixel_id":"o398l","podcast_feed_url":"https://thedispatch.sounder.fm/show/the-dispatch-podcast/rss.xml","hide_podcast_feed_link":false,"minimum_group_size":4,"parent_publication_id":17455,"bylines_enabled":true,"byline_images_enabled":false,"post_preview_limit":null,"google_site_verification_token":null,"pause_state":null,"language":"en","paid_subscription_benefits":null,"free_subscription_benefits":null,"founding_subscription_benefits":null,"parent_about_page_enabled":true,"plans":null,"stripe_country":null,"author_name":"Members","author_photo_url":null,"author_bio":"Members","has_public_users":true,"has_posts":true,"has_podcast":true,"has_subscriber_only_podcast":false,"has_community_content":true,"twitter_screen_name":null,"draft_plans":null,"base_url":"https://podcast.thedispatch.com","hostname":"podcast.thedispatch.com","is_on_substack":false,"parent_publication":null,"child_publications":[],"sibling_publications":[],"multiple_pins":true},{"id":25515,"name":"Advisory Opinions","type":"podcast","homepage_type":"classic_post_list","logo_url":"https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/745527b8-152b-45be-bcf8-0b62f392b7b0_256x256.png","logo_url_wide":null,"subdomain":"advisoryopinions","author_id":8553684,"copyright":"David French","custom_domain":"advisoryopinions.thedispatch.com","custom_domain_optional":false,"email_from":null,"trial_end_override":null,"email_from_name":null,"support_email":null,"hero_image":null,"hero_text":"Advisory Opinions is a weekly podcast in which hosts David French and Sarah Isgur discuss law and culture in the context of the news of the day.","require_clickthrough":false,"theme_var_background_pop":"#2A3579","default_coupon":null,"community_enabled":true,"theme_var_cover_bg_color":null,"cover_photo_url":null,"theme_var_color_links":false,"default_group_coupon":null,"email_banner_url":null,"payments_enabled":false,"created_at":"2020-01-06T22:14:22.409Z","podcast_enabled":true,"page_enabled":false,"apple_pay_disabled":false,"fb_pixel_id":"850582145372156","ga_pixel_id":"UA-152828033-1","twitter_pixel_id":"o398l","podcast_feed_url":"https://thedispatch.sounder.fm/show/advisory-opinions/rss.xml","hide_podcast_feed_link":false,"minimum_group_size":4,"parent_publication_id":17455,"bylines_enabled":true,"byline_images_enabled":true,"post_preview_limit":null,"google_site_verification_token":null,"pause_state":null,"language":"en","paid_subscription_benefits":null,"free_subscription_benefits":null,"founding_subscription_benefits":null,"parent_about_page_enabled":true,"plans":null,"stripe_country":null,"author_name":"David French and Sarah Isgur","author_photo_url":null,"author_bio":"David French is a senior editor. Sarah Isgur is a staff writer.","has_public_users":true,"has_posts":true,"has_podcast":true,"has_subscriber_only_podcast":false,"has_community_content":true,"twitter_screen_name":null,"draft_plans":null,"base_url":"https://advisoryopinions.thedispatch.com","hostname":"advisoryopinions.thedispatch.com","is_on_substack":false,"parent_publication":null,"child_publications":[],"sibling_publications":[],"multiple_pins":true},{"id":24388,"name":"The Remnant","type":"podcast","homepage_type":"classic_post_list","logo_url":"https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/a10c8ab9-4b80-445e-a543-bf614c3c5e0d_256x256.png","logo_url_wide":null,"subdomain":"remnant","author_id":4350832,"copyright":"Jonah Goldberg","custom_domain":"remnant.thedispatch.com","custom_domain_optional":false,"email_from":null,"trial_end_override":null,"email_from_name":"Jonah Goldberg","support_email":null,"hero_image":null,"hero_text":"A podcast with Jonah Goldberg, editor-in-chief of The Dispatch","require_clickthrough":false,"theme_var_background_pop":"#2A3579","default_coupon":null,"community_enabled":true,"theme_var_cover_bg_color":null,"cover_photo_url":null,"theme_var_color_links":false,"default_group_coupon":null,"email_banner_url":null,"payments_enabled":false,"created_at":"2019-12-27T17:20:58.109Z","podcast_enabled":true,"page_enabled":false,"apple_pay_disabled":false,"fb_pixel_id":"850582145372156","ga_pixel_id":"UA-152828033-1","twitter_pixel_id":"o398l","podcast_feed_url":"https://thedispatch.sounder.fm/show/jz18L/rss.xml","hide_podcast_feed_link":false,"minimum_group_size":4,"parent_publication_id":17455,"bylines_enabled":true,"byline_images_enabled":true,"post_preview_limit":null,"google_site_verification_token":null,"pause_state":null,"language":"en","paid_subscription_benefits":null,"free_subscription_benefits":null,"founding_subscription_benefits":null,"parent_about_page_enabled":true,"plans":null,"stripe_country":null,"author_name":"Jonah Goldberg","author_photo_url":"https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/ad18453f-7270-4acc-8c25-5e39c9dfcf32_1200x630.jpeg","author_bio":"Editor in chief and co-founder of The Dispatch and host of The Remnant podcast. He is a columnist for the L.A. Times, a Fox News contributor, and author of three New York Times best sellers.","has_public_users":true,"has_posts":true,"has_podcast":true,"has_subscriber_only_podcast":false,"has_community_content":true,"twitter_screen_name":null,"draft_plans":null,"base_url":"https://remnant.thedispatch.com","hostname":"remnant.thedispatch.com","is_on_substack":false,"parent_publication":null,"child_publications":[],"sibling_publications":[],"multiple_pins":true},{"id":25519,"name":"The Morning Dispatch","type":"newsletter","homepage_type":"classic_post_list","logo_url":"https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/fe682d3a-c858-48c9-8e15-8f0d3390098c_256x256.png","logo_url_wide":null,"subdomain":"morningdispatch","author_id":8450245,"copyright":"The Dispatch","custom_domain":"morning.thedispatch.com","custom_domain_optional":false,"email_from":null,"trial_end_override":null,"email_from_name":"The Dispatch","support_email":null,"hero_image":null,"hero_text":"Fact-based reporting and commentary on politics, policy and culture \u2013 informed by conservative principles","require_clickthrough":false,"theme_var_background_pop":"#2A3579","default_coupon":null,"community_enabled":true,"theme_var_cover_bg_color":null,"cover_photo_url":null,"theme_var_color_links":false,"default_group_coupon":null,"email_banner_url":null,"payments_enabled":false,"created_at":"2020-01-06T22:34:14.436Z","podcast_enabled":false,"page_enabled":false,"apple_pay_disabled":false,"fb_pixel_id":"850582145372156","ga_pixel_id":"UA-152828033-1","twitter_pixel_id":"o398l","podcast_feed_url":null,"hide_podcast_feed_link":false,"minimum_group_size":4,"parent_publication_id":17455,"bylines_enabled":true,"byline_images_enabled":false,"post_preview_limit":null,"google_site_verification_token":null,"pause_state":null,"language":"en","paid_subscription_benefits":null,"free_subscription_benefits":null,"founding_subscription_benefits":null,"parent_about_page_enabled":true,"plans":null,"stripe_country":null,"author_name":"Members","author_photo_url":null,"author_bio":"Members","has_public_users":true,"has_posts":true,"has_podcast":false,"has_subscriber_only_podcast":false,"has_community_content":true,"twitter_screen_name":null,"draft_plans":null,"base_url":"https://morning.thedispatch.com","hostname":"morning.thedispatch.com","is_on_substack":false,"parent_publication":null,"child_publications":[],"sibling_publications":[],"multiple_pins":true},{"id":21765,"name":"The French Press","type":"newsletter","homepage_type":"classic_post_list","logo_url":"https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/81c0464b-76ad-4c68-9222-8c3ef88da496_256x256.png","logo_url_wide":null,"subdomain":"frenchpress","author_id":5849328,"copyright":"The Dispatch","custom_domain":"frenchpress.thedispatch.com","custom_domain_optional":false,"email_from":null,"trial_end_override":null,"email_from_name":"David French","support_email":null,"hero_image":null,"hero_text":"The French Press is a newsletter published four times per week by David French, author, attorney, and Iraq veteran. French writes about law, politics, faith, culture, and the superiority of DC over Marvel.","require_clickthrough":false,"theme_var_background_pop":"#2A3579","default_coupon":null,"community_enabled":true,"theme_var_cover_bg_color":null,"cover_photo_url":null,"theme_var_color_links":false,"default_group_coupon":null,"email_banner_url":null,"payments_enabled":false,"created_at":"2019-11-19T00:26:35.408Z","podcast_enabled":false,"page_enabled":false,"apple_pay_disabled":false,"fb_pixel_id":"850582145372156","ga_pixel_id":"UA-152828033-1","twitter_pixel_id":"o398l","podcast_feed_url":null,"hide_podcast_feed_link":false,"minimum_group_size":4,"parent_publication_id":17455,"bylines_enabled":true,"byline_images_enabled":true,"post_preview_limit":null,"google_site_verification_token":null,"pause_state":null,"language":"en","paid_subscription_benefits":null,"free_subscription_benefits":null,"founding_subscription_benefits":null,"parent_about_page_enabled":true,"plans":null,"stripe_country":null,"author_name":"David French","author_photo_url":"https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/29af0273-1e60-42c9-97da-7fdc0ca77be0_400x400.jpeg","author_bio":"Senior editor of The Dispatch. He\u2019s also a columnist for Time. He\u2019s the author of Rise of ISIS: A Threat We Can\u2019t Ignore, and the forthcoming\u00A0Divided We Fall, among others.\u00A0","has_public_users":true,"has_posts":true,"has_podcast":false,"has_subscriber_only_podcast":false,"has_community_content":true,"twitter_screen_name":"thedispatch","draft_plans":null,"base_url":"https://frenchpress.thedispatch.com","hostname":"frenchpress.thedispatch.com","is_on_substack":false,"parent_publication":null,"child_publications":[],"sibling_publications":[],"multiple_pins":true},{"id":22063,"name":"The Dispatch Fact Check","type":"newsletter","homepage_type":"newspaper","logo_url":"https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/67674850-a81f-48a8-9abd-1499725a3bc2_256x256.png","logo_url_wide":null,"subdomain":"factcheck","author_id":7365934,"copyright":"The Dispatch","custom_domain":"factcheck.thedispatch.com","custom_domain_optional":false,"email_from":null,"trial_end_override":null,"email_from_name":"The Dispatch Fact Check","support_email":null,"hero_image":null,"hero_text":"Fact checking from The Dispatch","require_clickthrough":false,"theme_var_background_pop":"#2A3579","default_coupon":null,"community_enabled":true,"theme_var_cover_bg_color":null,"cover_photo_url":null,"theme_var_color_links":false,"default_group_coupon":null,"email_banner_url":null,"payments_enabled":false,"created_at":"2019-11-22T17:17:27.775Z","podcast_enabled":false,"page_enabled":true,"apple_pay_disabled":false,"fb_pixel_id":"850582145372156","ga_pixel_id":"UA-152828033-1","twitter_pixel_id":"o398l","podcast_feed_url":null,"hide_podcast_feed_link":false,"minimum_group_size":4,"parent_publication_id":17455,"bylines_enabled":true,"byline_images_enabled":true,"post_preview_limit":null,"google_site_verification_token":null,"pause_state":null,"language":"en","paid_subscription_benefits":null,"free_subscription_benefits":null,"founding_subscription_benefits":null,"parent_about_page_enabled":false,"plans":null,"stripe_country":null,"author_name":"Alec Dent","author_photo_url":null,"author_bio":"Alec Dent is a fact checker for The Dispatch. He is a graduate of the Hussman School of Journalism and Media at UNC Chapel Hill, and previously worked for the UNC Program for Public Discourse. ","has_public_users":true,"has_posts":true,"has_podcast":false,"has_subscriber_only_podcast":false,"has_community_content":true,"twitter_screen_name":null,"draft_plans":null,"base_url":"https://factcheck.thedispatch.com","hostname":"factcheck.thedispatch.com","is_on_substack":false,"parent_publication":null,"child_publications":[],"sibling_publications":[],"multiple_pins":true},{"id":17819,"name":"The G-File","type":"newsletter","homepage_type":"classic_post_list","logo_url":"https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/6b352af2-5aa4-42ce-a98a-460559561e55_202x202.png","logo_url_wide":null,"subdomain":"gfile","author_id":4350832,"copyright":"Jonah Goldberg","custom_domain":"gfile.thedispatch.com","custom_domain_optional":false,"email_from":null,"trial_end_override":null,"email_from_name":"Jonah Goldberg","support_email":null,"hero_image":null,"hero_text":"Jonah Goldberg's weekly \u201Cnews\u201Dletter.","require_clickthrough":false,"theme_var_background_pop":"#2A3579","default_coupon":null,"community_enabled":true,"theme_var_cover_bg_color":null,"cover_photo_url":null,"theme_var_color_links":false,"default_group_coupon":null,"email_banner_url":"https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/4583d3a1-ce79-4c19-892f-63f1d637c1bc_1100x428.png","payments_enabled":false,"created_at":"2019-09-23T22:22:29.766Z","podcast_enabled":false,"page_enabled":false,"apple_pay_disabled":false,"fb_pixel_id":"850582145372156","ga_pixel_id":"UA-152828033-1","twitter_pixel_id":"o398l","podcast_feed_url":null,"hide_podcast_feed_link":false,"minimum_group_size":4,"parent_publication_id":17455,"bylines_enabled":true,"byline_images_enabled":true,"post_preview_limit":null,"google_site_verification_token":null,"pause_state":null,"language":"en","paid_subscription_benefits":null,"free_subscription_benefits":null,"founding_subscription_benefits":null,"parent_about_page_enabled":true,"plans":null,"stripe_country":null,"author_name":"Jonah Goldberg","author_photo_url":"https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/ad18453f-7270-4acc-8c25-5e39c9dfcf32_1200x630.jpeg","author_bio":"Editor in chief and co-founder of The Dispatch and host of The Remnant podcast. He is a columnist for the L.A. Times, a Fox News contributor, and author of three New York Times best sellers.","has_public_users":true,"has_posts":true,"has_podcast":false,"has_subscriber_only_podcast":false,"has_community_content":true,"twitter_screen_name":null,"draft_plans":null,"base_url":"https://gfile.thedispatch.com","hostname":"gfile.thedispatch.com","is_on_substack":false,"parent_publication":null,"child_publications":[],"sibling_publications":[],"multiple_pins":true},{"id":25537,"name":"Vital Interests","type":"newsletter","homepage_type":"classic_post_list","logo_url":"https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/fa40a45a-6507-4cb9-a242-a3a3485d72f9_256x256.png","logo_url_wide":null,"subdomain":"vitalinterests","author_id":6021604,"copyright":"Thomas Joscelyn","custom_domain":"vitalinterests.thedispatch.com","custom_domain_optional":false,"email_from":null,"trial_end_override":null,"email_from_name":null,"support_email":null,"hero_image":null,"hero_text":"A weekly analysis of threats to American security","require_clickthrough":false,"theme_var_background_pop":"#2A3579","default_coupon":null,"community_enabled":true,"theme_var_cover_bg_color":null,"cover_photo_url":null,"theme_var_color_links":false,"default_group_coupon":null,"email_banner_url":null,"payments_enabled":false,"created_at":"2020-01-07T00:54:44.079Z","podcast_enabled":false,"page_enabled":false,"apple_pay_disabled":false,"fb_pixel_id":"850582145372156","ga_pixel_id":"UA-152828033-1","twitter_pixel_id":"o398l","podcast_feed_url":null,"hide_podcast_feed_link":false,"minimum_group_size":4,"parent_publication_id":17455,"bylines_enabled":true,"byline_images_enabled":true,"post_preview_limit":null,"google_site_verification_token":null,"pause_state":null,"language":"en","paid_subscription_benefits":null,"free_subscription_benefits":null,"founding_subscription_benefits":null,"parent_about_page_enabled":true,"plans":null,"stripe_country":null,"author_name":"Thomas Joscelyn","author_photo_url":"https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/0c21eb5b-6aca-4758-846e-fc36137eef11_720x720.jpeg","author_bio":"Senior Fellow at the Foundation for Defense of Democracies and the Senior Editor for FDD's Long War Journal.","has_public_users":true,"has_posts":true,"has_podcast":false,"has_subscriber_only_podcast":false,"has_community_content":true,"twitter_screen_name":null,"draft_plans":null,"base_url":"https://vitalinterests.thedispatch.com","hostname":"vitalinterests.thedispatch.com","is_on_substack":false,"parent_publication":null,"child_publications":[],"sibling_publications":[],"multiple_pins":true},{"id":26997,"name":"The Dispatch Weekly","type":"newsletter","homepage_type":"classic_post_list","logo_url":"https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/663db03e-8324-4542-84f7-c5c6ea0d608a_256x256.png","logo_url_wide":null,"subdomain":"dispatchweekly","author_id":8450245,"copyright":"The Dispatch","custom_domain":"weekly.thedispatch.com","custom_domain_optional":false,"email_from":null,"trial_end_override":null,"email_from_name":"The Dispatch Weekly","support_email":null,"hero_image":null,"hero_text":"Fact-based reporting and commentary on politics, policy and culture \u2013 informed by conservative principles","require_clickthrough":false,"theme_var_background_pop":"#2A3579","default_coupon":null,"community_enabled":true,"theme_var_cover_bg_color":null,"cover_photo_url":null,"theme_var_color_links":false,"default_group_coupon":null,"email_banner_url":null,"payments_enabled":false,"created_at":"2020-01-17T21:39:20.817Z","podcast_enabled":false,"page_enabled":false,"apple_pay_disabled":false,"fb_pixel_id":"850582145372156","ga_pixel_id":"UA-152828033-1","twitter_pixel_id":"o398l","podcast_feed_url":null,"hide_podcast_feed_link":false,"minimum_group_size":4,"parent_publication_id":17455,"bylines_enabled":true,"byline_images_enabled":false,"post_preview_limit":null,"google_site_verification_token":null,"pause_state":null,"language":"en","paid_subscription_benefits":null,"free_subscription_benefits":null,"founding_subscription_benefits":null,"parent_about_page_enabled":true,"plans":null,"stripe_country":null,"author_name":"Members","author_photo_url":null,"author_bio":"Members","has_public_users":true,"has_posts":true,"has_podcast":false,"has_subscriber_only_podcast":false,"has_community_content":true,"twitter_screen_name":null,"draft_plans":null,"base_url":"https://weekly.thedispatch.com","hostname":"weekly.thedispatch.com","is_on_substack":false,"parent_publication":null,"child_publications":[],"sibling_publications":[],"multiple_pins":true}],"sibling_publications":[],"multiple_pins":true},"user":null,"freeSignupEmail":null,"freeSignup":null,"token":null,"referralCode":null,"referralCoupon":null,"hide_intro_popup":false,"post":{"id":331483,"uuid":"739501f4-177a-4e04-bfbb-4721b639b9e6","publication_id":17455,"type":"newsletter","title":"Here\u2019s One Way to Provide Small Businesses a Fresh Start ","social_title":null,"subtitle":"The economic relief package will provide loans. But there is more that government can do. ","slug":"heres-one-way-to-provide-small-businesses","post_date":"2020-03-26T10:11:30.604Z","podcast_url":"","podcast_duration":null,"audience":"everyone","author_id":8142376,"author_name":"Aparna Mathur","author_photo_url":null,"author_bio":"Aparna Mathur is a Resident Scholar in Economic Policy Studies at the American Enterprise Institute.","write_comment_permissions":"only_paid","latest_comment_id":null,"comment_count":0,"reactions":{"\u2764":8},"top_exclusions":[],"pins":[],"next_slug":"a-history-lesson-on-ramping-up-production","prev_slug":"how-the-intelligence-community-predicted","cover_image":"https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb85241d4-6700-4c1e-9fed-090d59eb9ab1_1024x705.jpeg","description":"The economic relief package will provide loans. But there is more that government can do.","body_html":"<a class=\"image-link\" target=\"_blank\" href=\"https://cdn.substack.com/image/fetch/c_limit,f_auto,q_auto:good/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb85241d4-6700-4c1e-9fed-090d59eb9ab1_1024x705.jpeg\"><img style=\"max-width: 1024px; max-height: 705px;\" src=\"https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb85241d4-6700-4c1e-9fed-090d59eb9ab1_1024x705.jpeg\" data-attrs=\"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b85241d4-6700-4c1e-9fed-090d59eb9ab1_1024x705.jpeg&quot;,&quot;height&quot;:705,&quot;width&quot;:1024,&quot;bytes&quot;:134500,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null}\" alt=\"\"></a><p>The coronavirus is already causing an economic crisis in the United States. But no business will be hit harder in the coming weeks and months than small businesses, which account for more than <a href=\"https://www.sba.gov/sites/default/files/advocacy/2018-Small-Business-Profiles-US.pdf\">99 percent</a> of all businesses in the United States and close to 50 percent of all employment. Of these, 73 <a href=\"https://www.thebalancesmb.com/sole-proprietorship-398896\">percent are sole</a> proprietorships and <a href=\"https://sbecouncil.org/about-us/facts-and-data/\">89 percent</a> have fewer than 20 employees.&nbsp;</p><p>As the virus continues to spread across the nation and people practice social distancing by staying away from stores, restaurants, dry cleaners, it is these mom-and-pop shops that are at biggest risk of failing. As of this writing, a $2 trillion economic relief package has passed the Senate and moved on to the House. It includes some measures that will help many small businesses weather this difficult time, <a href=\"https://www.washingtonpost.com/business/2020/03/25/trump-senate-coronavirus-economic-stimulus-2-trillion/\">notably a $367 billion loan program</a>.&nbsp;</p><p>But there are other specific and immediate steps the federal government can take\u2014including easing the path to Chapter 7 bankruptcy\u2014to help America\u2019s small-business owners.</p><p>Even in normal times, small businesses have a <a href=\"https://www.bls.gov/bdm/entrepreneurship/entrepreneurship.htm\">high failure rate</a>. Only about 50 percent of businesses survive the first five years and only 30 percent survive longer than 10 years. America\u2019s bankruptcy system allows these failed entrepreneurs a \u201Cfresh start.\u201D</p><p>The concept of a fresh start works especially well for owners of small businesses. By wiping out debts and pardoning failure, American bankruptcy law gives the entrepreneur a chance to bounce back. When businesses fail, entrepreneurs can shield some or all of their assets from creditors by filing under <a href=\"https://www.uscourts.gov/services-forms/bankruptcy/bankruptcy-basics/chapter-7-bankruptcy-basics\">Chapter 7</a> of the federal bankruptcy laws, the usual route for consumer filings. In 2016, more than <a href=\"https://www.debt.org/bankruptcy/chapter-7/\">60 percent</a> of bankruptcy cases filed were Chapter 7 claims. Most importantly, entrepreneurs can get an exemption for equity in owner-occupied homes through the <a href=\"https://www.lendingtree.com/home/mortgage/what-is-a-homestead-exemption/\">homestead exemption</a>. They are also released from any future obligation to repay debts.&nbsp;</p><p>However, there is a lack of consistent bankruptcy policy across the states, and that creates an unintended barrier to small business owners who need relief.</p><p>Since the Federal Bankruptcy Code of 1978 was enacted, bankruptcy exemption levels are set by the states and vary widely across states and over time. For example, in seven states or regions (and the U.S. territories of the American Samoa and Puerto Rico), the homestead exemptions are <a href=\"https://www.thebankruptcysite.org/exemptions/federal.html\">unlimited</a>. In New Jersey and Pennsylvania, they are <a href=\"https://www.thebankruptcysite.org/exemptions/federal.html\">zero</a>. All other states lie somewhere in between.&nbsp;</p><p>There are also personal property exemptions for items like motor vehicles and jewelry. <a href=\"https://www.jstor.org/stable/10.1086/382602?seq=1\">Research</a>, including <a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2212988\">mine</a>, shows that the lower the exemptions, the smaller the likelihood of business start-ups in that state. Not surprisingly, the threat of losing their home and property at the time of bankruptcy creates a deterrence to individuals starting a business in the state.&nbsp;</p><p>Other bankruptcy routes include&nbsp;<a href=\"https://www.uscourts.gov/services-forms/bankruptcy/bankruptcy-basics/chapter-11-bankruptcy-basics\">Chapter 11</a> and <a href=\"https://www.uscourts.gov/services-forms/bankruptcy/bankruptcy-basics/chapter-13-bankruptcy-basics\">Chapter 13</a>, which are reorganization procedures. While Chapter 7 is the usual route for consumer filings, Chapter 13 is available to individuals with regular income and sole proprietors, and Chapter 11 is typically available to corporations or partnerships.&nbsp;The amount of debt discharged approaches that under Chapter 7, but both procedures require the debtor to establish a repayment plan paid for with future income.&nbsp;</p><p>In 2005, Congress passed the <a href=\"https://www.justice.gov/sites/default/files/usao/legacy/2006/09/07/usab5404.pdf\">Bankruptcy Abuse Prevention and Consumer Protection Act</a> (BAPCPA) with the primary intention of making it harder for individuals to file a Chapter 7 bankruptcy. The reform introduced a means test for Chapter 7, which essentially prevented individuals earning above-average income from wiping out their debt through filing under Chapter 7. Instead, such individuals would be able to file under Chapter 13, which allows debt discharge only after the individual has made some repayments. That process can be cumbersome and bogs down entrepreneurs for months or even years as they work to repay their debts. It feels especially unfair to require it of businesses that shuttered through no fault of their own.&nbsp;</p><p>BAPCPA also lowered exemptions for certain assets, and debtors now need to undergo credit counseling before filing\u2014a costly process and, for many business owners, not particularly useful. My research suggests a modest but unarguably negative impact from some of these changes on small-firm entry decisions. <a href=\"https://www.nber.org/papers/w24934.pdf\">Others</a> find a 50 percent reduction in Chapter 7 filings after the act\u2019s passage, and a 25 percent increase in insolvency, leading to worse outcomes for financially distressed borrowers.</p><p>While these provisions may work to reduce bankruptcy abuse in normal economic times, these are not normal economic times. It is in the taxpayers\u2019 interest to do everything reasonably possible to protect small businesses\u2014responsible for creating millions of jobs\u2014from going under. The relief package that is expected to pass soon includes measures that will give direct cash to Americans, which will help them pay for expenses as they lose jobs and incomes. There are also expanded unemployment benefits for workers. And finally, there are billions of dollars in loans to small businesses. These are laudable efforts. However, many small businesses will fail in the next few months, despite these efforts.</p><p>Allowing small businesses to have an easier path to a Chapter 7 bankruptcy could provide them a fresh start when the crisis is over. By easing the costs associated with a Chapter 7 filing, removing means-tested filing for a temporary period, and allowing more individuals and small businesses to file and claim unlimited homestead and personal property exemptions for a temporary period, we can provide greater protections to assets of small business owners.&nbsp;</p><p>Our entrepreneurial system is dynamic and there is significant churn with businesses dying and re-entering. Perhaps the best solution to the current crisis, when efforts at helping businesses stay afloat don\u2019t work, is easing the path to bankruptcy. This would allow for a fresh start after the tumult has passed.</p><p><em>Aparna Mathur is a Resident Scholar in Economic Policy Studies at the American Enterprise Institute.</em></p><p><em>Photograph by Angela Weiss/AFP via Getty Images.</em></p>","reaction":null,"canonical_url":"https://thedispatch.com/p/heres-one-way-to-provide-small-businesses","truncated_description":null,"truncated_body_html":null},"comments":[],"post_reaction_token":null,"features":{}}</script>
+        <script>window._analyticsConfig = {"user":null,"anonymousId":"ab2eb358-5dee-48ea-8b42-098dbdec287c","properties":{"subdomain":"thedispatch","publication_id":17455,"has_plans":true,"pub_community_enabled":true,"parent_publication_id":null,"parent_publication_subdomain":null,"is_parent_publication":true,"is_subscribed":false,"is_free_subscribed":false,"is_author":false,"is_admin":false,"country":"US","language":"en"},"firehoseEndpoint":"/api/v1/firehose","fullstoryToken":false}</script>
+        <script src="https://cdn.substack.com/min/main.bundle.js?v=f7560-17189da5358" charset="utf-8"></script>
+
+        <!-- Fallback tracking pixels -->
+        
+        
+        
+        <noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=850582145372156&ev=PageView&noscript=1"/></noscript>
+        
+        
+        
+        <noscript><img height="1" width="1" style="display:none" alt="" src="https://t.co/i/adsct?p_id=Twitter&p_user_id=0&txn_id=o398l&events=%5B%5B%22pageview%22%2Cnull%5D%5D&tw_sale_amount=0&tw_order_quantity=0&tw_iframe_status=0"/></noscript>
+        
+
+        
+
+        <noscript>
+    <style>
+        #nojs-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            padding: 16px 16px 16px 32px;
+            width: 100%;
+            box-sizing: border-box;
+            background: red;
+            color: white;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-size: 13px;
+            line-height: 13px;
+        }
+        #nojs-banner a {
+            color: inherit;
+            text-decoration: underline;
+        }
+    </style>
+
+    <div id="nojs-banner">
+        This site requires JavaScript to run correctly. Please <a href="https://enable-javascript.com/" target="_blank">turn on JavaScript</a> or unblock scripts
+    </div>
 </noscript>
 
-<script>
-        function getRoxotGroupId() {
-            try {
-                var storageKey = 'roxot-gid';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 10000);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '10001';
-            }
-        }
 
-        function getRoxotSectorId() {
-            try {
-                var storageKey = 'roxot-sid';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 100);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '101';
-            }
-        }
-
-        function getRoxotDeep() {
-            try {
-                var storageKey = 'roxot-deep';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 100);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '101';
-            }
-        }
-
-        function getRoxotEvent() {
-            return '' + (1 + Math.floor(Math.random() * 100));
-        }
-    </script>
-<script>
-        var bidTimeout = 3000;
-        var refreshInterval = 60000;
-        var PREBID_TIMEOUT = bidTimeout;
-        var FAILSAFE_TIMEOUT = 3000;
-        var SCREEN_TIME = false;
-        var PREBID = true;
-        var adUnits = [{"code":"div-gpt-728x90_1","sizes":[[728,90],[970,90],[970,250]],"bids":[{"bidder":"openx","params":{"unit":"537998002","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381642"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-728x90_1@728x90"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_2","sizes":[[300,250]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_2@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_1","sizes":[[300,250],[300,600]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_1@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_3","sizes":[[300,250],[300,600]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_3@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_sticky","sizes":[[300,250]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_sticky@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]}];
-        var apstagSlots = [{"slotID":"div-gpt-728x90_1","slotName":"/6177/slm.townhall/tipsheet/728x90_1","sizes":[[728,90],[970,90],[970,250]]},{"slotID":"div-gpt-300x250_2","slotName":"/6177/slm.townhall/tipsheet/300x250_2","sizes":[[300,250]]},{"slotID":"div-gpt-300x250_1","slotName":"/6177/slm.townhall/tipsheet/300x250_1","sizes":[[300,250],[300,600]]},{"slotID":"div-gpt-300x250_3","slotName":"/6177/slm.townhall/tipsheet/300x250_3","sizes":[[300,250],[300,600]]},{"slotID":"div-gpt-300x250_sticky","slotName":"/6177/slm.townhall/tipsheet/300x250_sticky","sizes":[[300,250]]}];
-    </script>
-<script src="/resources/dist/js/prebid-latest.min.js?v=2.5.1-1"></script>
-<script async>
-        //<![CDATA[
-
-        var gptAdUnitPath = "tipsheet";
-        var gptAdSlot = [];
-
-        googletag.cmd.push(function () {
-            googletag.pubads().disableInitialLoad();
-            try {
-                gptAdSlot['div-gpt-728x90_1'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/728x90_1', [[728,90],[970,90],[970,250],[1,1]], 'div-gpt-728x90_1').addService(googletag.pubads()).setTargeting('pos', '728x90_1').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_2'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_2', [[300,250]], 'div-gpt-300x250_2').addService(googletag.pubads()).setTargeting('pos', '300x250_2').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_1'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_1', [[300,250],[300,600]], 'div-gpt-300x250_1').addService(googletag.pubads()).setTargeting('pos', '300x250_1').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_3'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_3', [[300,250],[300,600]], 'div-gpt-300x250_3').addService(googletag.pubads()).setTargeting('pos', '300x250_3').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_sticky'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_sticky', [[300,250]], 'div-gpt-300x250_sticky').addService(googletag.pubads()).setTargeting('pos', '300x250_sticky').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-oop'] = googletag.defineOutOfPageSlot('/6177/slm.townhall/tipsheet', 'div-gpt-oop').addService(googletag.pubads());
-
-
-                if (typeof Storage !== "undefined") {
-                    var targetingParamStr = localStorage.getItem("bcDFPTargetingParams");
-
-                    if (targetingParamStr) {
-                        var targetingParameters = JSON.parse(targetingParamStr);
-
-                        // set page-level targeting parameters
-                        jQuery.each(targetingParameters, function (index, param) {
-                            window.googletag.pubads().setTargeting(param.key, param.value);
-                        });
-                    }
-                }
-            } catch (e) {
-                console.error("thm-ad-exception", e);
-            }
-
-            googletag.pubads().addEventListener('impressionViewable', function (event) {
-                
-                var slot = event.slot;
-                if (slot.getTargeting('refresh').indexOf('true') > -1) {
-                    setTimeout(function () {
-                        Thm.RefreshAd(slot);
-                    }, refreshInterval);
-                }
-            });
-            
-            
-            googletag.pubads().setTargeting("tags",["Donald Trump","Jobs and Economy","economic crisis","wuhan coronavirus"]).setTargeting("author", "Katie Pavlich").setTargeting("fullUrl", "president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811");
-
-            
-
-            googletag.enableServices();
-
-        });
-        //]]>
-    </script>
-<link href="/resources/lib/owl-carousel2/dist/assets/owl.carousel.min.css" rel="stylesheet" />
-<script id="article-meta" type="application/json">
-            {"Title":"President Trump: We're Working Closely with Governors to Open the Economy","IsArticleView":true,"BaseShareUrl":"http://townhall.com","Canonical":"https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811","ShareTitle":"Katie Pavlich - President Trump: We're Working Closely with Governors to Open the Economy","PublishedDate":"2020-04-13T12:15:00","Id":133401,"Author":"Katie Pavlich","AuthorImage":"https://media.townhall.com/townhall/reu/contributor-sm/authorimages/44384266-8af9-4185-bebc-390f142f688a.png","ImageUrl":"https://media.townhall.com/townhall/reu/ha/2020/100/4ff02a46-c9da-4ec3-9884-be02dae2ba65.jpg","Tags":[499,1585,4619,17783],"Url":"https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811","Soup":0}
-        </script>
-</head>
-<body>
-<div class="thm-piano-top"></div>
-<div id="search">
-<button type="button" class="close"><i class="fa fa-close"></i></button>
-<form id="site-search">
-<input type="search" id="q" name="q" value="" placeholder="Search townhall.com...." />
-<button type="button" class="btn btn-default btn-search"><i class="fa fa-search"></i></button>
-</form>
-</div>
-<header>
-
-<nav id="thm-nav-sm" class="navbar navbar-default navbar-condensed navbar-fixed-top navbar-article-header">
-<div class="breaking-news-bar-container-condensed"></div>
-<div class="container">
-<div class="navbar-header">
-<a class="navbar-brand" href="/">
-<img src="/resources/th_logo.svg" class="th-logo" alt="">
-</a>
-</div>
-<div id="navbar" class="navbar-collapse collapse">
-<ul class="nav navbar-nav navbar-links navbar-right">
-<li><a title="Columnists" href="/columnists/" class="top-menu">Columnists</a></li>
-<li class="active"><a title="Tipsheet" href="/tipsheet/" class="top-menu">Tipsheet</a></li>
-<li><a title="Cartoons" href="/political-cartoons/" class="top-menu">Cartoons</a></li>
-<li><a title="Podcasts" class="top-menu" href="/podcasts/">Podcasts</a></li>
-<li><a title="Election" class="top-menu hidden-md hidden-sm" href="/election/"><img class="ec-2020-m" src="https://media.townhall.com/thm/ec2020.png" /></a></li>
-<li><a title="Membership: VIP" class="top-menu" href="/vip/"><img class="vip-brand" src="/resources/dist/svg/subscriptions-badge-vip.svg"></a></li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle top-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sections <span class="fa fa-chevron-down"></span></a>
-<ul class="dropdown-menu">
-<li><a title="Newsletter signup" href="/newsletter/">Newsletters</a></li>
-<li class="hidden-lg"><a title="Podcasts" href="/podcasts/">Podcasts</a></li>
-<li><a title="Townhall TV" href="/tv/">Townhall TV</a></li>
-<li><a title="Election " href="/election/">Election</a></li>
-<li><a title="Capitol Voices" href="/capitol-voices/">Capitol Voices</a></li>
-<li><a title="Entertainment" href="/entertainment/">Entertainment</a></li>
-<li><a title="Radio News" href="/news/">Radio News</a></li>
-<li class="hidden-lg"><a title="Election" href="/election/"><img class="ec-2020-m" src="https://media.townhall.com/thm/ec2020.png" /></a></li>
-<li><a title="Live Blog" href="/liveblog/">Live Blog</a></li>
-<li><a title="Topics" href="/tags/">Topics</a></li>
-</ul>
-</li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle top-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sites <span class="fa fa-chevron-down"></span></a>
-<ul class="dropdown-menu">
-<li><a href="http://hotair.com" target="_blank">Hot Air</a></li>
-<li><a href="http://pjmedia.com" target="_blank">PJ Media</a></li>
-<li><a href="http://bearingarms.com" target="_blank">Bearing Arms</a></li>
-<li><a href="http://twitchy.com" target="_blank">Twitchy</a></li>
-<li><a href="http://redstate.com" target="_blank">RedState</a></li>
-<li><a href="http://finance.townhall.com" target="_blank">Townhall Finance</a></li>
-<li><a href="http://www.conservativeradio.com/" target="_blank">Conservative Radio</a></li>
-</ul>
-</li>
-<li><a class="btn btn-default btn-sm btn-join hidden" href="/subscribe?tpcc=home_button">JOIN VIP</a></li>
-<li><a class="btn btn-default btn-sm btn-login hidden">LOGIN</a></li>
-<li>
-<div class="btn-group btn-account hidden">
-<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-MY ACCOUNT <span class="caret"></span>
-</button>
-<ul class="dropdown-menu">
-<li><a href="/account/" class="lnk-account">Account Settings</a></li>
-<li><a href="/newsletter/">Newsletter Subscriptions</a></li>
-<li><a href="#" class="lnk-logout">Log Out</a></li>
-</ul>
-</div>
-</li>
-<li>&nbsp;&nbsp;<button title="Search" id="btn-show-search" class="btn btn-default btn-show-search"><i class="fa fa-search"></i></button></li>
-</ul>
-</div>
-</div>
-</nav>
-<div class="thm-pad" style="padding-top:50px;">
-</div>
-<nav class="navbar navbar-default navbar-fixed-top navbar-article">
-<div class="container">
-<div class="navbar-header">
-<a class="navbar-brand" href="/"><img src="/resources/th_logo.svg" class="th-logo"></a>
-</div>
-<div id="navbar" class="navbar-collapse collapse">
-<ul class="nav navbar-nav navbar-title">
-<li class="headline">President Trump: We&#39;re Working Closely with Governors to Open the Economy</li>
-</ul>
-<ul class="nav navbar-nav navbar-btn-search pull-right">
-<li><button class="btn btn-facebook-lg sc-fb"><i class="fa fa-facebook-official"></i>&nbsp;Share</button></li>
-<li><button class="btn btn-twitter-lg sc-tw"><i class="fa fa-twitter"></i>&nbsp;Tweet</button></li>
-<li><button title="Search" id="btn-show-search" class="btn btn-default btn-show-search"><i class="fa fa-search"></i></button></li>
-</ul>
-</div>
-</div>
-<div class="thm-carousel">
-<div class="owl-carousel owl-theme">
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/gov-abbott-outlines-texass-three-phases-for-re-opening-the-lone-star-state-n2567148"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="And the First State to Start Re-Opening Is Texas " data-src="//media.townhall.com/townhall/reu/b/2020/97/6145e8ce-c4e0-414e-a5c9-eeb983d20c05.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/gov-abbott-outlines-texass-three-phases-for-re-opening-the-lone-star-state-n2567148">And the First State to Start Re-Opening Is Texas </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" data-src="//media.townhall.com/townhall/reu/b/2020/108/0312f0de-aebe-4ffd-8865-086c6760c7bf.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157">Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a href="/columnists/katiepavlich/2020/04/17/nancy-pelosi-doesnt-care-n2567139"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Nancy Pelosi Doesn’t Care" data-src="//media.townhall.com/townhall/reu/b/2019/269/ef5eb632-e868-4f93-b614-50ad162493a0.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/katiepavlich/2020/04/17/nancy-pelosi-doesnt-care-n2567139">Nancy Pelosi Doesn’t Care</a>
-</div>
- </div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="New Drug Combating Wuhan Coronavirus Yield Excellent Results...And the Dow Surged Because of It" data-src="//media.townhall.com/townhall/reu/b/2020/97/a1c032c2-2dc2-415a-a698-50aeb7968e7a.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160">New Drug Combating Wuhan Coronavirus Yield Excellent Results...And the Dow Surged Because of It</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/democrats-want-to-use-your-money-to-pay-states-to-let-criminals-out-of-jail-n2567089"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="The Latest Spending Push from Democrats: Using Your Money to Let Felons Out of Jail" data-src="//media.townhall.com/townhall/reu/b/2020/83/3e059f9d-8ceb-4679-8e5d-5428f2a82ba5.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/democrats-want-to-use-your-money-to-pay-states-to-let-criminals-out-of-jail-n2567089">The Latest Spending Push from Democrats: Using Your Money to Let Felons Out of Jail</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" data-src="//media.townhall.com/townhall/reu/b/2014/289/17329344-1af8-4a1f-8631-ab65d20076a0.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141">There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/trump-appears-to-back-protestors-against-michigan-governor-n2567129"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Trump Appears to Back Protestors Against Michigan Governor " data-src="//media.townhall.com/townhall/reu/b/2020/106/c409bf9b-dbcc-4435-b8f2-428e0b5d8196.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/trump-appears-to-back-protestors-against-michigan-governor-n2567129">Trump Appears to Back Protestors Against Michigan Governor </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/tucker-sounds-off-on-governor-whitmers-weird-fascism-n2567109"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Tucker Exposes What&#39;s Behind Governor Whitmer&#39;s &#39;Weird, Arbitrary Fascism&#39; " data-src="//media.townhall.com/townhall/reu/b/2020/35/f4488b8b-113f-4e5a-b0c5-046613b57d0c.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/tucker-sounds-off-on-governor-whitmers-weird-fascism-n2567109">Tucker Exposes What&#39;s Behind Governor Whitmer&#39;s &#39;Weird, Arbitrary Fascism&#39; </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/minnesota-governor-begins-to-ease-some-restrictions-n2567126"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Did Gov. Walz Just Take Trump&#39;s Advice to &#39;Liberate&#39; Minnesota?" data-src="//media.townhall.com/townhall/reu/b/2020/108/6d262d31-153f-4bcc-b97f-2a9584f78663.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/minnesota-governor-begins-to-ease-some-restrictions-n2567126">Did Gov. Walz Just Take Trump&#39;s Advice to &#39;Liberate&#39; Minnesota?</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a href="/tipsheet/cortneyobrien/2020/04/17/biden-downplays-china-threat-n2567062"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Nikki Haley Recalls How Biden Has Downplayed the Threat from China" data-src="//media.townhall.com/townhall/reu/b/townhall/reu/o/2018/330/76346357-2450-40f7-a097-c78820c7f712.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/biden-downplays-china-threat-n2567062">Nikki Haley Recalls How Biden Has Downplayed the Threat from China</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ny-dem-rips-pelosi-for-adding-far-left-provisions-in-coronavirus-relief-bill-n2567112"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="NY Dem Rips Pelosi for Adding &#39;Far Left&#39; Provisions in Coronavirus Relief Bill" data-src="//media.townhall.com/townhall/reu/b/2019/80/3f341d90-5ab1-4263-b5a7-97a52d2e0dfe.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ny-dem-rips-pelosi-for-adding-far-left-provisions-in-coronavirus-relief-bill-n2567112">NY Dem Rips Pelosi for Adding &#39;Far Left&#39; Provisions in Coronavirus Relief Bill</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ted-cruz-explains-how-to-hold-china-accountable-n2567110"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Ted Cruz Explains that China Is Guilty on Three Counts" data-src="//media.townhall.com/townhall/reu/b/2020/24/3c73a6b1-3be6-479f-aaca-9dec532b7741.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ted-cruz-explains-how-to-hold-china-accountable-n2567110">Ted Cruz Explains that China Is Guilty on Three Counts</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/marinamedvin/2020/04/17/business-bread-lines-run-out-of-bread-as-americans-rail-against-coronavirus-oppression-n2567083"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Business Bread Lines Run Out Of Bread as Americans Rail Against Coronavirus Oppression" data-src="//media.townhall.com/townhall/reu/b/2018/290/99f4dc8c-cbc4-4e27-9168-8013625daad0.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/marinamedvin/2020/04/17/business-bread-lines-run-out-of-bread-as-americans-rail-against-coronavirus-oppression-n2567083">Business Bread Lines Run Out Of Bread as Americans Rail Against Coronavirus Oppression</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/toddstarnes/2020/04/17/democrats-will-keep-the-states-closed-to-tank-the-economy-and-take-down-trump-n2567117"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump" data-src="//media.townhall.com/townhall/reu/b/2020/100/f05bab8f-dc2c-46b4-9bde-bca808e0e1d9.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/toddstarnes/2020/04/17/democrats-will-keep-the-states-closed-to-tank-the-economy-and-take-down-trump-n2567117">Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/davidlimbaugh/2020/04/17/media-prefer-hating-trump-to-helping-america-n2567084"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Media Prefer Hating Trump to Helping America" data-src="//media.townhall.com/townhall/reu/b/2020/90/7dba55f7-89a9-453c-9687-bd60fb6bd441.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/davidlimbaugh/2020/04/17/media-prefer-hating-trump-to-helping-america-n2567084">Media Prefer Hating Trump to Helping America</a>
-</div>
-</div>
-</div>
-</div></nav>
-</header>
-<div>
-<div class="container">
-<div class="row row-topper">
-<div class="col-xs-10">
-<ul class="breadcrumb">
-<li><a href="/">Townhall</a></li>
-<li><a href="/tipsheet/" class="text-capitalize">tipsheet</a></li>
-<li class="active">
-<a href="/tipsheet/katiepavlich/">Katie Pavlich</a>
-</li>
-</ul>
-</div>
-<div class="col-xs-2">
-<a href="/tags/donald-trump" class="btn btn-default btn-article-supertag pull-right ">Donald Trump</a>
-</div>
-</div>
-<article class="with-rail">
-<div class="row">
-<div class="col-xs-12">
-<section id="article-header">
-<div class="row">
-<div class="col-xs-12">
-</div>
-</div>
-<h1 class="headline">President Trump: We&#39;re Working Closely with Governors to Open the Economy</h1>
-<div class="row">
-<div class="col-xs-12">
-<div class="contributor-img pull-left">
-<a href="/author/katiepavlich">
-<img alt="Katie Pavlich" class="img-thumbnail" src="https://media.townhall.com/townhall/reu/contributor-sm/authorimages//44384266-8af9-4185-bebc-390f142f688a.png" />
-</a>
-</div>
-<div class="contributor pull-left">
-<a href="/author/katiepavlich">Katie Pavlich</a>
-</div>
-<div class="contributor pull-left">|</div>
-<div class="contributor pull-left">
-<i class="fa fa-twitter tw-icon vert-align"></i>&nbsp;<a href="https://twitter.com/KatiePavlich" target="_blank">@KatiePavlich</a>
-</div>
-<div class="contributor pull-left">|</div>
-<div class="contributor pull-left">Posted: Apr 13, 2020 12:15 PM</div>
-<div class="sc header-share">
-<a class="btn btn-facebook-lg sc-fb"><i class="fa fa-facebook-official"></i>&nbsp; Share <span class="fb-count"></span></a>
-<a class="btn btn-twitter-lg sc-tw" data-dc="181"><i class="fa fa-twitter"></i>&nbsp; Tweet <span class="tw-count"></span></a>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<div class="gpt-header">
-<div id="div-gpt-728x90_1" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-728x90_1");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-728x90_1"]])
-                    });
-                </script>
-</div>
-</div>
-</div>
-</div>
-</section>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-8">
-<section id="article-media-object">
-<img class="article-main-image" src="https://media.townhall.com/townhall/reu/ha/2020/100/4ff02a46-c9da-4ec3-9884-be02dae2ba65.jpg" alt="President Trump: We&#39;re Working Closely with Governors to Open the Economy" />
-<p class="main-image-source muted"><small><em>Source: AP Photo/Andrew Harnik</em></small></p>
-</section>
-<section id="article-body">
-<aside id="aside1" class="left">
-<div class="article-aside-ad">
-<div id="div-gpt-300x250_2" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_2");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_2"]])
-                    });
-                </script>
-</div>
-</div>
-</aside>
-<p>President Trump reiterated Monday morning he is working closely with governors across the country to determine when to safely re-open the American economy.</p><div class="thm-piano-mop"></div><blockquote class="twitter-tweet"><p dir="ltr" lang="en">For the purpose of creating conflict and confusion, some in the Fake News Media are saying that it is the Governors decision to open up the states, not that of the President of the United States &amp; the Federal Government. Let it be fully understood that this is incorrect....</p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/1249712404260421633?ref_src=twsrc%5Etfw">April 13, 2020</a></blockquote><blockquote class="twitter-tweet" data-conversation="none"><p dir="ltr" lang="en">....It is the decision of the President, and for many good reasons. With that being said, the Administration and I are working closely with the Governors, and this will continue. A decision by me, in conjunction with the Governors and input from others, will be made shortly!</p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/1249712413219397632?ref_src=twsrc%5Etfw">April 13, 2020</a></blockquote><p>New York Governor Andrew Cuomo also weighed in.</p><blockquote class="twitter-tweet"><p dir="ltr" lang="en">We are in a situation that never has occurred before.<br><br>Reopening the economy is a delicate balance.<br><br>The objective is to ease isolation &amp; increase economic activity without increasing the infection rate.<br><br>We must do it slowly &amp; intelligently &amp; with every precaution.</p>&mdash; Andrew Cuomo (@NYGovCuomo) <a href="https://twitter.com/NYGovCuomo/status/1249726464875954183?ref_src=twsrc%5Etfw">April 13, 2020</a></blockquote><p>President Trump told reporters late last week a second Wuhan coronavirus council made up of doctors, economists and business people, will be announced Tuesday.</p><p>&quot;We&#39;re setting up a council of very, very great doctors and business people. We&#39;re going to be announcing it on Tuesday. Some great people. This is beyond economic. I call it our Opening Our Country Task Force or Council,&quot; Trump said Friday afternoon. &quot;We&#39;re going to have a great group of people.&quot;</p><p>&quot;I want to get it open as soon as possible,&quot; he continued. &quot;I would love to open it. I have not determined anything. The facts are going to determine what I do.&quot;</p> <div class="mpw-inline">
-<div>
-<div class="mpw-inline-col__rail"><a title="Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump - 34" href="/columnists/toddstarnes/2020/04/17/democrats-will-keep-the-states-closed-to-tank-the-economy-and-take-down-trump-n2567117?utm_campaign=inarticle"><img class="img-responsive" src="https://media.townhall.com/townhall/reu/s124x68/2020/100/f05bab8f-dc2c-46b4-9bde-bca808e0e1d9.jpg" /></a></div>
-<div class="mpw-inline-col__content">
-<div class="mpw-inline-col__title">Recommended</div>
-<a title="Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump - 34" href="/columnists/toddstarnes/2020/04/17/democrats-will-keep-the-states-closed-to-tank-the-economy-and-take-down-trump-n2567117?utm_campaign=inarticle">
-<span class="mpw-inline-col__story">Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump</span>
-</a>
-<div class="mpw-inline-col__muted">
-Todd Starnes
-</div>
-</div>
-</div>
-</div>
-<blockquote class="twitter-tweet"><p dir="ltr" lang="en">Trump says next Tuesday he will announce the members of an &quot;Opening Our Country Council,&quot; which will touch on economic issues <a href="https://t.co/9T8aUPjUrs">https://t.co/9T8aUPjUrs</a> <a href="https://t.co/lcHhfIKQEJ">pic.twitter.com/lcHhfIKQEJ</a></p>&mdash; CBS News (@CBSNews) <a href="https://twitter.com/CBSNews/status/1248696907163107328?ref_src=twsrc%5Etfw">April 10, 2020</a></blockquote><p>The new council will hold meetings digitally and members will be from cities across the country.</p><p><strong><em>Editor&#39;s Note:</em></strong> Want to support Townhall so we can keep telling the truth about China and the virus they unleashed on the world? Join <a href="https://townhall.com/subscribe?tpcc=katie0413" rel="noopener noreferrer" target="_blank"><strong><em>Townhall VIP</em></strong></a>&nbsp; and use the promo code <strong>WUHAN</strong> to get 25% off VIP membership!</p>
-</section>
-<section id="article-footer">
-<div class="row">
-<div class="col-xs-12">
-<div class="thm-piano-eop">
-</div>
-<div class="thm-piano-eop-recommended"></div>
-</div>
-</div>
-<div class="article-actions-footer sc">
-<div class="row">
-<div class="col-xs-12">
-<a class="btn btn-facebook-lg btn-block sc-fb"><i class="fa fa-facebook-official"></i>&nbsp; Share this on Facebook <span class="fb-count"></span></a>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-6"><a class="btn btn-block btn-twitter-lg sc-tw" data-dc="181"><i class="fa fa-twitter"></i>&nbsp; Tweet <span class="tw-count"></span></a></div>
-<div class="col-xs-2"><a href="mailto:?subject=President Trump: We&#39;re Working Closely with Governors to Open the Economy&amp;body=https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811" class="btn btn-block btn-default btn-article-email"><i class="fa fa-envelope"></i></a></div>
-<div class="col-xs-2"><button data-url="https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811/print" onclick="window.open('https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811/print', 'print-winder', 'width=850,height=700,scrollbars=yes');" class="btn btn-block btn-default btn-article-print"><i class="fa fa-print"></i></button></div>
-<div class="col-xs-2"><a href="#article-comment-bookmark" class="btn btn-block btn-default btn-article-comment"><i class="fa fa-comment"></i></a></div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<div id="rcjsload_ffe38c"></div>
-<script type="text/javascript">
-        (function () {
-            function ad_block_test(e, o) { if ("undefined" != typeof document.body) { var t = "0.1.2-dev", o = o ? o : "sponsorText", n = document.createElement("DIV"); n.id = o, n.style.position = "absolute", n.style.left = "-999px", n.appendChild(document.createTextNode("&nbsp;")), document.body.appendChild(n), setTimeout(function () { if (n) { var o = 0 == n.clientHeight; try { } catch (d) { console && console.log && console.log("ad-block-test error", d) } e(o, t), document.body.removeChild(n) } }, 175) } }
-            ad_block_test(function (is_blocked) {
-                var widget_id = 102403;
-                if (is_blocked === true) {
-                    widget_id = 102452;
-                }
-                var referer = ""; try { if (referer = document.referrer, "undefined" == typeof referer) throw "undefined" } catch (exception) { referer = document.location.href, ("" == referer || "undefined" == typeof referer) && (referer = document.URL) } referer = referer.substr(0, 700);
-                var rcel = document.createElement("script");
-                rcel.id = 'rc_' + Math.floor(Math.random() * 1000);
-                rcel.type = 'text/javascript';
-                rcel.src = "//trends.revcontent.com/serve.js.php?w=" + widget_id + "&t=" + rcel.id + "&c=" + (new Date()).getTime() + "&width=" + (window.outerWidth || document.documentElement.clientWidth) + "&referer=" + referer + '&is_blocked=' + is_blocked;
-                rcel.async = true;
-                var rcds = document.getElementById("rcjsload_ffe38c"); rcds.appendChild(rcel);
-            });
-        })();
-    </script>
-<div class="thm-bluec"></div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<ul class="list-unstyled list-inline article-topics clearfix">
-<li>Tags: </li>
-<li><a class="btn btn-default btn-topic" data-tagid="499" href="/tags/donald-trump">Donald Trump</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="1585" href="/tags/jobs-and-economy">Jobs and Economy</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="4619" href="/tags/economic-crisis">economic crisis</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="17783" href="/tags/wuhan-coronavirus">wuhan coronavirus</a></li>
-</ul>
-<script>
-    var rndnum = Math.floor(Math.random() * 50000);
-    var submitScript = document.createElement('script');
-    submitScript.src = 'https://townhall.com/wservices/handlers/tagcount.ashx?tid=499,1585,4619,17783&tnd=' + rndnum;
-    document.body.appendChild(submitScript);
-
-</script>
-</div>
-</div>
-<section id="grid-1">
-<div class="row">
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic" data-src="https://media.townhall.com/townhall/reu/ha/2018/43/10b23fc2-706b-4096-a312-ab7270db00c0.jpg" href="https://townhall.com/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic" href="https://townhall.com/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159">Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic</a>
-</div>
-<div class="story__author">
-Julio Rosas
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="&lt;p&gt;New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It&lt;/p&gt;" data-src="https://media.townhall.com/townhall/reu/ha/2020/97/a1c032c2-2dc2-415a-a698-50aeb7968e7a.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="&lt;p&gt;New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It&lt;/p&gt;" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"><p>New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It</p></a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported" data-src="https://media.townhall.com/townhall/reu/ha/2020/80/b0dabbb2-2c7b-419e-a142-ce365718c3d4.jpg" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/first-largescale-antibody-testing-indicate-coronavirus-infections-much-higher-death-rate-much-lower-n2567155"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/first-largescale-antibody-testing-indicate-coronavirus-infections-much-higher-death-rate-much-lower-n2567155">New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported</a>
-</div>
-<div class="story__author">
-Bronson Stocking
-</div>
-</div>
-</div>
-</div><div class="row">
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a class="thm-inc lazy" title="ICE Apprehends Five Asia Nationals Illegally Present in the U.S. " data-src="https://media.townhall.com/townhall/reu/ha/2019/133/d63885bf-3c7a-4a9a-bcbd-ac2735c54d62.png" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/five-asia-nationals-six-pakistanis-apprehended-by-ice-n2567165"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="ICE Apprehends Five Asia Nationals Illegally Present in the U.S. " href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/five-asia-nationals-six-pakistanis-apprehended-by-ice-n2567165">ICE Apprehends Five Asia Nationals Illegally Present in the U.S. </a>
-</div>
-<img class="thm-sublevel" src="/resources/dist/svg/subscriptions-badge-vip.svg" />
-<div class="story__author">
-Bronson Stocking
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" data-src="https://media.townhall.com/townhall/reu/ha/2014/289/17329344-1af8-4a1f-8631-ab65d20076a0.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141">There's Something a Little Odd About the Letter Hunter Biden's Lawyer Sent Regarding the China Allegations</a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" data-src="https://media.townhall.com/townhall/reu/ha/2020/108/0312f0de-aebe-4ffd-8865-086c6760c7bf.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157">Land O'Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?</a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-</div><div class="row">
-</div>
-</section>
-</section>
-<div id="article-comment-bookmark"></div>
-<section id="article-comments" name="article-comments">
-<button class="show-comments btn btn-lg btn-block btn-primary" style="margin:0 0 15px 0;" data-disqus-url="https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811">SHOW COMMENTS</button>
-<div id="disqus_thread"></div>
-<script>
-      var disqus_config = function () {
-            this.page.url = "https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811";
-          this.page.identifier = "https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811";
-      };
-    $('.show-comments').on('click', function () {
-        $.ajax({
-            type: "GET",
-            url: "//townhallcom.disqus.com/embed.js",
-            dataType: "script",
-            cache: true
-        });
-        $(this).hide();
-    });
-</script>
-</section>
-</div>
-<div class="col-xs-4 article-rail">
-<div class="ad">
-<div id="div-gpt-300x250_1" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_1");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_1"]])
-                    });
-                </script>
-</div>
-</div>
-<div class="article-actions">
-<a href="mailto:?subject=President Trump: We&#39;re Working Closely with Governors to Open the Economy&amp;body=https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811" class="btn btn-default btn-article-email"><i class="fa fa-envelope"></i></a>
-<a data-url="https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811/print" onclick="window.open('https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811/print', 'print-winder', 'width=850,height=700,scrollbars=yes');" class="btn btn-default btn-article-print"><i class="fa fa-print"></i></a>
-<a href="#article-comment-bookmark" class="btn btn-default btn-article-comment"><i class="fa fa-comment"></i></a>
-</div>
-<div class="ad" style="margin-top:10px">
-<div id="div-gpt-300x250_3" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_3");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_3"]])
-                    });
-                </script>
-</div>
-</div>
-<div class="cartoon-widget">
-<div class="cartoon-widget__title"><a href="/political-cartoons">CARTOONS</a>&nbsp;|&nbsp;<a href="/political-cartoons/michaelramirez/">Michael Ramirez</a></div>
-<a class="cartoon-widget__img" href="/political-cartoons/2020/04/18/173115?hpnl=true" style="background-image:url('//media.townhall.com/Townhall/Car/b/mrz041820dAPR20200417044513.jpg');"></a>
-<div class="cartoon-widget__button"><a href="/political-cartoons/2020/04/18/173115?hpnl=true"> View Cartoon <i class="fa fa-arrow-circle-right"></i></a></div>
-</div>
-<div class="sticky-reference">
-<div class="sticky" data-offset-top="55">
-<div class="mpw">
-<div class="mpw__title">Most Popular</div>
-<ul class="list-unstyled mpw__divide">
-<li>
-<div class="row">
-<div class="col-xs-4">
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern  - 338" href="/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2020/104/30b0d531-01a6-4224-85b5-7548e5f3b2a7.jpg" /></a>
-</div>
-<div class="col-xs-8 no-gutter">
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern  - 338" href="/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915">
-<span class="mpw__story">Israeli Professor Shows Virus Follows Fixed Pattern </span>
-</a>
-</div>
-</div>
-</li>
-<li>
-<div class="row">
-<div class="col-xs-4">
-<a title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic - 42" href="/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2018/43/10b23fc2-706b-4096-a312-ab7270db00c0.jpg" /></a>
-</div>
-<div class="col-xs-8 no-gutter">
-<a title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic - 42" href="/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159">
-<span class="mpw__story">Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic</span>
-</a>
-</div>
-</div>
-</li>
-<li>
-<div class="row">
-<div class="col-xs-4">
-<a title="Brutal: Pelosi's Terrible Answer About Why Democrats Keep Blocking Needed Rescue Funds for Small Businesses - 38" href="/tipsheet/guybenson/2020/04/17/listen-pelosis-terrible-answer-about-why-democrats-keep-blocking-needed-rescue-funds-for-small-businesses-n2567120"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2019/143/d59c6b2f-ac5c-46f0-a985-d3b894ad8aae.png" /></a>
-</div>
-<div class="col-xs-8 no-gutter">
-<a title="Brutal: Pelosi's Terrible Answer About Why Democrats Keep Blocking Needed Rescue Funds for Small Businesses - 38" href="/tipsheet/guybenson/2020/04/17/listen-pelosis-terrible-answer-about-why-democrats-keep-blocking-needed-rescue-funds-for-small-businesses-n2567120">
-<span class="mpw__story">Brutal: Pelosi's Terrible Answer About Why Democrats Keep Blocking Needed Rescue Funds for Small Businesses</span>
-</a>
-</div>
-</div>
-</li>
-</ul>
-</div>
-<div class="ad">
-<div id="div-gpt-300x250_sticky" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_sticky");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_sticky"]])
-                    });
-                </script>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</article>
-<div class="row sticky-stopper">
-<div class="col-xs-12">
-<div class="article-ad-970x90">
-<div id="div-gpt-lazy-728x90_3" data-gpt='{"IncludeInPrebid":true,"Target":"pos","TargetValue":"728x90_3","SectionSlug":"tipsheet","SlotId":0,"DivUniqueId":"div-gpt-lazy-728x90_3","AdSize":"[[728,90],[970,90]]","AdUnitPath":"/6177/slm.townhall/","AdType":0,"AdRenderType":1,"IsYieldBotAmp":false,"IntervalTime":0,"AdParentLocation":0}' class="lazy-ad gpt-ad">
-<script id="pb-div-gpt-lazy-728x90_3" type="application/json">
-                    {"code":"div-gpt-lazy-728x90_3","sizes":[[728,90],[970,90]],"bids":[{"bidder":"openx","params":{"unit":"537998002","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381642"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-lazy-728x90_3@728x90"}},{"bidder":"criteo","params":{"networkId":"7465"}}]}
-                </script>
-</div>
-</div>
-</div>
-</div>
-<section id="trending-on-thm" class="trending">
-<h1 class="trending__title">Trending on Townhall Media</h1>
-<div class="row">
-<div class="col-xs-4">
-<div class="mpw-bordered">
-<div class="mpw">
-<ul class="list-unstyled">
-<li>
-<a title="English Professor Hopes To Revive Debate Over Militia Clause Of 2A - 10" href="https://bearingarms.com/cam-e/2020/04/15/english-professor-hopes-to-revive-debate-over-militia-clause-of-2a/">
-<span class="mpw__story">English Professor Hopes To Revive Debate Over Militia Clause Of 2A</span>
-</a>
-<div class="mpw__domain" style="color:#ADADAD;">
-Bearing Arms
-</div>
-</li>
-<li>
-<a title="HUGE: The UK Just Dumped China&#39;s Huawei in 5G Tech Roll-Out — Citing its Lies Over Coronavirus. - 67" href="https://pjmedia.com/trending/huge-the-uk-just-dumped-chinas-huawei-in-5g-tech-roll-out-citing-its-lies-over-coronavirus/">
-<span class="mpw__story">HUGE: The UK Just Dumped China&#39;s Huawei in 5G Tech Roll-Out — Citing its Lies Over Coronavirus.</span>
-</a>
-<div class="mpw__domain" style="color:#00a99d;">
-PJ Media
-</div>
-</li>
-<li>
-<a title="Hold onto your HATS! Brit Hume shares fact-filled thread on study showing COVID fatality rate just bottomed out to influenza levels - 39" href="https://twitchy.com/samj-3930/2020/04/17/hold-onto-your-hats-brit-hume-shares-fact-filled-thread-on-study-showing-covid-fatality-rate-just-bottomed-out-to-influenza-levels/">
-<span class="mpw__story">Hold onto your HATS! Brit Hume shares fact-filled thread on study showing COVID fatality rate just bottomed out to influenza levels</span>
-</a>
-<div class="mpw__domain" style="color:#F27B21;">
-Twitchy
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-xs-8">
-<div class="row">
-<div class="col-xs-12">
-<div class="xl-story">
-<div class="xl-story__img">
-<a target="_top" class="lazy" href="https://townhall.com/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915" data-src="https://media.townhall.com/townhall/reu/ha/2020/104/30b0d531-01a6-4224-85b5-7548e5f3b2a7.jpg">
- &nbsp;
-</a>
-</div>
-<div class="xl-story__summary">
-<h1>
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern " href="https://townhall.com/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915">Israeli Professor Shows Virus Follows Fixed Pattern </a>
-</h1>
-<h5 style="color:#ba224b">Townhall</h5>
-</div>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-6">
-<div class="sm-story">
-<div class="sm-story__text">
-<a title="The results are in on the Texas nursing home using hydroxychloroquine" href="https://hotair.com/archives/karen-townsend/2020/04/17/results-texas-nursing-home-using-hydroxychloroquine/">The results are in on the Texas nursing home using hydroxychloroquine</a>
-</div>
-<div class="sm-story__flavor" style="color:#CD2628">Hotair</div>
-</div>
-</div>
-<div class="col-xs-6">
-<div class="sm-story">
-<div class="sm-story__text">
-<a title="Strassel: Here&amp;#8217;s Why the Democrats Keep Moving the Shutdown Goal Posts" href="https://www.redstate.com/elizabeth-vaughn/2020/04/17/820436/">Strassel: Here&#8217;s Why the Democrats Keep Moving the Shutdown Goal Posts</a>
-</div>
-<div class="sm-story__flavor" style="color:#CB0809">Redstate</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-</div>
-<div class="thm-piano-pfixed"></div>
-</div>
-<footer class="sticky-stopper">
-<section class="footer-brands">
-<div class="container">
-<ul class="list-inline list-unstyled">
-<li><a href="https://townhall.com"><img src="https://media.townhall.com/thm/th_logo1.png" alt="" /></a></li>
-<li><a href="https://hotair.com"><img src="https://media.townhall.com/thm/ha_logo1.png" alt="" /></a></li>
-<li><a href="https://bearingarms.com"><img src="https://media.townhall.com/thm/ba_logo1.png" alt="" /></a> </li>
-<li><a href="https://twitchy.com"><img src="https://media.townhall.com/thm/tw_logo1.png" alt="" /></a></li>
-<li><a href="https://redstate.com"><img src="https://media.townhall.com/thm/rs_logo1.png" alt="" /></a></li>
-<li><a href="https://pjmedia.com" target="_blank"><img src="https://media.townhall.com/thm/pj-media.png" style="width:100px;height:45px;" alt="PJ Media" /></a></li>
-</ul>
-</div>
-</section>
-<section class="footer-links">
-<div class="container">
-<ul class="list-inline list-unstyled">
-<li><a title="Conservative Columnists" href="/columnists">Columnists</a></li>
-<li><a href="/political-cartoons">Political Cartoons</a></li>
-<li><a href="/tipsheet">Tipsheet</a> </li>
-<li><a href="/tv">Townhall TV</a> </li>
-<li><a href="/podcasts">Podcasts</a> </li>
-<li><a title="Conservative News" href="/news">Radio News</a></li>
-<li><a title="Conservative Video" href="/video">Video</a></li>
-<li><a title="Conservative Entertainment" href="/entertainment">Entertainment</a></li>
-<li><a title="VIP" href="/vip">VIP</a></li>
- <li><a title="Conservative Capitol Voices" href="/capitol-voices">Capitol Voices</a></li>
-</ul>
-<ul class="list-inline list-unstyled">
-<li><a href="/election">Election Results</a></li>
-<li><a href="/tags/">Tags</a></li>
-<li><a href="http://finance.townhall.com">Finance</a></li>
-<li><a href="#" onclick="javascript:window.open('http://saleminteractivemedia.com/ListenLive/Player/TOWNIR','TOWNIR','width=800,height=710');">Townhall Radio</a></li>
-</ul>
-<ul class="list-inline list-unstyled">
-<li><a href="/aboutus">About Townhall</a></li>
-<li><a href="http://townhallmedia.com/">Advertise</a></li>
-<li><a href="https://townhall.com/tags/gift-guides/">Gift Guides</a></li>
-<li><a href="https://media.townhall.com/townhall/privacypolicy/privacypolicy.htm">Privacy Policy</a></li>
-<li><a href="https://media.townhall.com/townhall/privacypolicy/TermsofUse.htm">Terms of Use</a></li>
-<li><span class="thm-cpa"><a href="/donotsell" rel="nofollow">California - Do Not Sell My Personal Information</a></span></li>
-<li><a target="_blank" href="http://www.conservativeradio.com/">Radio Stations</a></li>
-<li><a href="/sitemap.htm">Sitemap</a></li>
-<li><a href="/pages/townhall_jobs">Jobs </a></li>
-<li><a href="/contact-us/">Contact Us</a></li>
-<li><a href="/newslettersignup/">Newsletters</a></li>
-<li><a href="/mobile-apps">iPhone/Android Apps</a></li>
-</ul>
-</div>
-</section>
-<section class="under-footer">
-<div class="container">
-<div class="row">
-<hr>
-<div class="col-xs-4">
-<a href="/">
-<img alt="Townhall.com" src="https://media.townhall.com/_townhall/resources/images/thmplus.png">
-<img style="width: 155px;height:40px;" alt="Townhall.com" src="/resources/th_logo.svg">
-</a>
-</div>
-<div class="col-xs-8">
-<p class="copyright" style="margin-top:12px;">
-Townhall.com is the leading source for conservative news and political commentary and analysis.<br>
-Copyright &copy; Townhall.com/Salem Media. All Rights Reserved. <a href="https://media.townhall.com/townhall/privacypolicy/TermsofUse.htm" target="_blank">Terms</a> under which this service
-is provided to you
-</p>
-</div>
-</div>
-</div>
-</section>
-<div id="div-gpt-oop" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-oop");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-oop"]])
-                    });
-                </script>
-</div>
-</footer>
-<script>(function(src){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=src;var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})("https://experience.tinypass.com/xbuilder/experience/load?aid=tSxoqtcFa7");</script>
-<div id="login-form"></div> <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
-<script src="/resources/dist/js/site.min.js?v=24"></script>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script>
-    tp = window["tp"] || [];
-    tp.push(["setTags", ["thm:article","donald-trump","jobs-and-economy","economic-crisis","wuhan-coronavirus"]]);
-</script>
-<script type="text/javascript">
-        console.info("The End: ", window.performance.now());
-        console.info("Device: ", "Desktop");
-    </script>
-<div class="thm-piano-bottom"></div>
-</body>
+        
+    </body>
 </html>

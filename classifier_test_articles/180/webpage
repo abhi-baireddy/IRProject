@@ -1,1108 +1,954 @@
 
-<!DOCTYPE html>
+
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link rel="preconnect" href="//cdnjs.cloudflare.com">
-<link rel="preconnect" href="//fonts.googleapis.com">
-<link rel="preconnect" href="//ib.adnxs.com">
-<link rel="preconnect" href="//experience.tinypass.com">
-<link rel="preconnect" href="//sandbox.tinypass.com">
-<link rel="preconnect" href="//www.googletagservices.com">
-<link rel="preconnect" href="//media.townhall.com">
-<link rel="preconnect" href="//prebid.adnxs.com">
-<link rel="preconnect" href="//www.google-analytics.com">
-<link rel="preconnect" href="//pagead2.googlesyndication.com">
-<link rel="preconnect" href="//ad.doubleclick.net">
-<link rel="preconnect" href="//securepubads.g.doubleclick.net">
-<link rel="preconnect" href="//c.amazon-adsystem.com">
-<link rel="preconnect" href="//townhallmedia-d.openx.net">
-<link rel="preconnect" href="//cdn.blueconic.net">
-<script>
-        document.cookie = "__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
-        var setNptTechAdblockerCookie = function (adblocker) {
-            var d = new Date();
-            d.setTime(d.getTime() + 60 * 60 * 24 * 2 * 1000);
-            document.cookie = "__adblocker=" + (adblocker ? "true" : "false") + "; expires=" + d.toUTCString() + "; path=/";
-        }
-        var script = document.createElement("script");
-        script.setAttribute("async", true);
-        script.setAttribute("src", "//www.npttech.com/advertising.js");
-        script.setAttribute("onerror", "setNptTechAdblockerCookie(true);");
-        document.getElementsByTagName("head")[0].appendChild(script);
-    </script>
-<script type="text/javascript" src="//d2ze07sbtyfzd0.cloudfront.net/script.js"></script>
-<script async src="https://cdn.blueconic.net/salemmediagroup.js"></script>
-<script type='text/javascript'>var _sf_startpt = (new Date()).getTime()</script>
-<link rel="manifest" href="/manifest.json">
-<link rel="alternate" href="https://townhall.com" hreflang="en-us">
-<style>
-        .async-hide {
-            opacity: 0 !important
-        }
-    </style>
-<script>
-        (function (a, s, y, n, c, h, i, d, e) {
-            s.className += ' ' + y; h.start = 1 * new Date;
-            h.end = i = function () { s.className = s.className.replace(RegExp(' ?' + y), '') };
-            (a[n] = a[n] || []).hide = h; setTimeout(function () { i(); h.end = null }, c); h.timeout = c;
-        })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
-            { 'GTM-KT87G5R': true });
-    </script>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments);
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-404425-3', 'auto', { 'useAmpClientId': true });
+  <head>
+    <!-- <apply template="includes/meta-analytics-white"></apply> -->
     
-    ga('require', 'GTM-KT87G5R');
+    <meta charset="utf-8"/>
+    <meta content="ie=edge" http-equiv="x-ua-compatible"/>
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <link href="/static/images/favicon.ico?v=3" rel="shortcut icon" type="image/x-icon"/>
+
     
-    //ga('set', 'transport', 'beacon');
-    ga('require', 'displayfeatures');
-    if (typeof hptId !== 'undefined')
-    {
-        ga('set', 'dimension2', hptId);
-    }
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <meta content="Current Affairs" name="author"/>
+
+    <title>Should We Just Open the Borders? ❧ Current Affairs</title>
+
+    <meta content="Current Affairs" property="og:site_name"/>
+    <meta content="Should We Just Open the Borders? ❧ Current Affairs" property="og:title"/>
+    <meta content="Should We Just Open the Borders? ❧ Current Affairs" name="twitter:title"/>
+
+    <meta content="<p>A look at the cute but troublingly framed argument for open borders by Bryan Caplan and Zach Weinersmith.</p>" name="description"/>
+    <meta content="<p>A look at the cute but troublingly framed argument for open borders by Bryan Caplan and Zach Weinersmith.</p>" property="og:description"/>
+    <meta content="<p>A look at the cute but troublingly framed argument for open borders by Bryan Caplan and Zach Weinersmith.</p>" name="twitter:description"/>
+
+    <meta content="website" property="og:type"/>
+    <meta content="summary_large_image" name="twitter:card"/>
     
-    ga('set', 'dimension7', 'free');
-    ga('send', 'pageview');
-</script>
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-<link rel="apple-touch-icon" sizes="57x57" href="https://media.townhall.com/thm/favicon/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="https://media.townhall.com/thm/favicon/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="https://media.townhall.com/thm/favicon/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="https://media.townhall.com/thm/favicon/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="https://media.townhall.com/thm/favicon/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="https://media.townhall.com/thm/favicon/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="https://media.townhall.com/thm/favicon/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="https://media.townhall.com/thm/favicon/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://media.townhall.com/thm/favicon/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-16x16.png" sizes="16x16">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/android-chrome-192x192.png" sizes="192x192">
-<meta name="msapplication-square70x70logo" content="https://media.townhall.com/thm/favicon/smalltile.png" />
-<meta name="msapplication-square150x150logo" content="https://media.townhall.com/thm/favicon/mediumtile.png" />
-<meta name="msapplication-wide310x150logo" content="https://media.townhall.com/thm/favicon/widetile.png" />
-<meta name="msapplication-square310x310logo" content="https://media.townhall.com/thm/favicon/largetile.png" />
-<link href="/resources/css/bootstrap.min.css" rel="preload" as="style" />
-<link href="/resources/css/bootstrap.min.css" rel="stylesheet" />
-<link href="/resources/dist/css/main.min.css?v=2" rel="preload" as="style" />
-<link href="/resources/dist/css/main.min.css?v=2" rel="stylesheet" />
-<link href="/resources/lib/jquery/dist/jquery.min.js" rel="preload" as="script" />
-<script src="/resources/lib/jquery/dist/jquery.min.js"></script>
-<meta property="fb:app_id" content="967808926746051" />
-<meta property="fb:pages" content="41632789656,103971336305218,319569361390023,106547192707583,124538510989702,283971595408,15418366158,153162531376557,127519040661256,123834811060739,305174559545115,321502821264274,413465452078762,492802317512753,140705212665688,116757565026850,114013445328868" />
-<title>Fauci: You Have the Private Sector To Thank For Wuhan Coronavirus Tests, Not the Gov&#39;t &#39;System&#39; </title>
-<meta name="description" content=".04/18/2020 1:48:13AM EST." />
-<link rel="amphtml" href="https://townhall.com/tipsheet/leahbarkoukis/2020/03/27/fauci-you-have-the-private-sector-to-thank-for-wuhan-coronavirus-tests-not-the-govt-system-n2565830?amp=true">
-<meta name="keywords" content="coronavirus, Anthony Fauci, Steph Curry" />
-<meta name="robots" content="index, follow" />
-<meta name="author" content="Leah Barkoukis" />
-<link rel="author" href="https://plus.google.com/101372920058162363989/" />
-<link rel="canonical" href="https://townhall.com/tipsheet/leahbarkoukis/2020/03/27/fauci-you-have-the-private-sector-to-thank-for-wuhan-coronavirus-tests-not-the-govt-system-n2565830" />
-<meta property="og:title" content="Fauci Reveals Who We Really Should Be Thanking for Those &#39;Hundreds of Thousands&#39; of Coronavirus Test Kits" />
-<meta property="og:type" content="Article" />
-<meta property="og:url" content="https://townhall.com/tipsheet/leahbarkoukis/2020/03/27/fauci-you-have-the-private-sector-to-thank-for-wuhan-coronavirus-tests-not-the-govt-system-n2565830" />
-<meta property="og:image" content="https://media.townhall.com/townhall/reu/s1280x720/2020/77/eac7b72a-6ba1-4a66-85a7-e4053bce2a7b.jpg" />
-<meta property="og:site_name" content="Townhall " />
-<meta property="og:description" content="" />
-<script type="application/ld+json">
-        {
-        "@context": "http://schema.org",
-        "@type": "NewsArticle",
-        "headline": "Fauci: You Have the Private Sector To Thank For Wuhan Coronavirus Tests, Not the Gov&#39;t &#39;System&#39; ",
-        "datePublished": "2020-03-27T07:32:00-04:00",
-        "dateModified": "2020-03-27T07:32:00-04:00" ,
-        "image": {
-        "@type": "ImageObject",
-        "url": "https://media.townhall.com/townhall/reu/s1280x720/2020/77/eac7b72a-6ba1-4a66-85a7-e4053bce2a7b.jpg",
-        "height": 665,
-        "width": 700
-        },
-        "mainEntityOfPage":"https://townhall.com/tipsheet/leahbarkoukis/2020/03/27/fauci-you-have-the-private-sector-to-thank-for-wuhan-coronavirus-tests-not-the-govt-system-n2565830",
-        "author": {
-        "@type": "Person",
-        "name": "Leah Barkoukis"
-        },
-        "publisher": {
-        "@type":"Organization",
-        "name": "Townhall.com",
-        "logo": {
-        "@type": "ImageObject",
-        "url": "https://media.townhall.com/townhall/ampmobile/Logo_TH_3.png",
-        "width": 128,
-        "height": 60
-        }
-        }
-        }
+        <meta content="https://images.currentaffairs.org/2020/04/openboreders-1024x646.jpg" property="og:image"/>
+        <meta content="https://images.currentaffairs.org/2020/04/openboreders-1024x646.jpg" name="twitter:image"/>
+        <meta content="1024" property="og:image:width"/>
+        <meta content="646" property="og:image:height"/>
+    
+
+    
+        <meta content="https://www.currentaffairs.org/2020/04/should-we-just-open-the-borders" property="og:url"/>
+    
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    
+    <link href="https://use.typekit.net/kta1qem.css" rel="stylesheet"/> <!-- ← current affairs's current affairs 2019 kit -->
+    <link href="/static/css/compiled.css" rel="stylesheet"/>
+
+    <script src="/static/javascripts/jquery-3.3.1.min.js"></script>
+    <script src="/static/javascripts/jquery.onscreen.js"></script>
+    <script src="/static/javascripts/lazyload.min.js"></script>
+    <script src="/static/javascripts/vh-check.min.js"></script>    <!-- ← credit: @hiswehalya -->
+    <script>
+      (function () {
+        // initialize the test
+        var isNeeded = vhCheck('vh-test');
+      }());
     </script>
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Fauci Reveals Who We Really Should Be Thanking for Those &#39;Hundreds of Thousands&#39; of Coronavirus Test Kits" />
-<meta name="twitter:image" content="https://media.townhall.com/townhall/reu/s1280x720/2020/77/eac7b72a-6ba1-4a66-85a7-e4053bce2a7b.jpg?181" />
-<meta name="twitter:url" content="https://townhall.com/tipsheet/leahbarkoukis/2020/03/27/fauci-you-have-the-private-sector-to-thank-for-wuhan-coronavirus-tests-not-the-govt-system-n2565830?181" />
-<meta name="twitter:description" content="" />
-<meta name="twitter:site" content="@townhallcom" />
-<script type="text/javascript">
-        var _sf_async_config = {};
-        /** CONFIGURATION START **/
-        _sf_async_config.uid = 14482;
-        _sf_async_config.domain = 'townhall.com';
-        _sf_async_config.sections = 'tipsheet';
-        _sf_async_config.authors = 'Leah Barkoukis';
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+    <script src="/static/javascripts/dom-scripts.js"></script>
+    <script src="/static/js/slogans.js"></script>
 
-        var _cbq = window._cbq = window._cbq || [];
-        if (localStorage.getItem('_cbq_acct')) {
-            _cbq.push(['_acct', localStorage.getItem( '_cbq_acct' )||"anon"]);
-        }
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 
-        _sf_async_config.useCanonical = true;
-        /** CONFIGURATION END **/
-        (function () {
-            function loadChartbeat() {
-                window._sf_endpt = (new Date()).getTime();
-                var e = document.createElement('script');
-                e.setAttribute('language', 'javascript');
-                e.setAttribute('type', 'text/javascript');
-                e.setAttribute('src',
-                           (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
-                           'js/chartbeat.js');
-                document.body.appendChild(e);
-            }
-            var oldonload = window.onload;
-            window.onload = (typeof window.onload != 'function') ?
-                loadChartbeat : function () { oldonload(); loadChartbeat(); };
-        })();
+  </head>
+  <body class="ca-2019">
 
-</script>
-<script>
-    var _comscore = _comscore || [];
-    _comscore.push({
-        c1: "2",
-        c2: "21057668",
-        c3: "",
-        c4: ""
-    });
-    (function () {
-        var s = document.createElement("script"),
-            el = document.getElementsByTagName("script")[0];
-        s.async = true;
-        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-        el.parentNode.insertBefore(s, el);
-    })();
-</script>
-<noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=21057668&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" /> </noscript>
+    
 
-<script>
-    !function (f, b, e, v, n, t, s) {
-        if (f.fbq) return; n = f.fbq = function () {
-            n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        }; if (!f._fbq) f._fbq = n;
-        n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
-        t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
-    }(window,
-        document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+  
+  
+  
+  
+  
+  
 
-    fbq('init', '791796474183597');
-    fbq('track', "PageView");</script>
-<noscript>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=791796474183597&ev=PageView&noscript=1" />
-</noscript>
-
-<script>
-        function getRoxotGroupId() {
-            try {
-                var storageKey = 'roxot-gid';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 10000);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '10001';
-            }
-        }
-
-        function getRoxotSectorId() {
-            try {
-                var storageKey = 'roxot-sid';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 100);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '101';
-            }
-        }
-
-        function getRoxotDeep() {
-            try {
-                var storageKey = 'roxot-deep';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 100);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '101';
-            }
-        }
-
-        function getRoxotEvent() {
-            return '' + (1 + Math.floor(Math.random() * 100));
-        }
-    </script>
-<script>
-        var bidTimeout = 3000;
-        var refreshInterval = 60000;
-        var PREBID_TIMEOUT = bidTimeout;
-        var FAILSAFE_TIMEOUT = 3000;
-        var SCREEN_TIME = false;
-        var PREBID = true;
-        var adUnits = [{"code":"div-gpt-728x90_1","sizes":[[728,90],[970,90],[970,250]],"bids":[{"bidder":"openx","params":{"unit":"537998002","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381642"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-728x90_1@728x90"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_2","sizes":[[300,250]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_2@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_1","sizes":[[300,250],[300,600]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_1@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_3","sizes":[[300,250],[300,600]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_3@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_sticky","sizes":[[300,250]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_sticky@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]}];
-        var apstagSlots = [{"slotID":"div-gpt-728x90_1","slotName":"/6177/slm.townhall/tipsheet/728x90_1","sizes":[[728,90],[970,90],[970,250]]},{"slotID":"div-gpt-300x250_2","slotName":"/6177/slm.townhall/tipsheet/300x250_2","sizes":[[300,250]]},{"slotID":"div-gpt-300x250_1","slotName":"/6177/slm.townhall/tipsheet/300x250_1","sizes":[[300,250],[300,600]]},{"slotID":"div-gpt-300x250_3","slotName":"/6177/slm.townhall/tipsheet/300x250_3","sizes":[[300,250],[300,600]]},{"slotID":"div-gpt-300x250_sticky","slotName":"/6177/slm.townhall/tipsheet/300x250_sticky","sizes":[[300,250]]}];
-    </script>
-<script src="/resources/dist/js/prebid-latest.min.js?v=2.5.1-1"></script>
-<script async>
-        //<![CDATA[
-
-        var gptAdUnitPath = "tipsheet";
-        var gptAdSlot = [];
-
-        googletag.cmd.push(function () {
-            googletag.pubads().disableInitialLoad();
-            try {
-                gptAdSlot['div-gpt-728x90_1'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/728x90_1', [[728,90],[970,90],[970,250],[1,1]], 'div-gpt-728x90_1').addService(googletag.pubads()).setTargeting('pos', '728x90_1').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_2'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_2', [[300,250]], 'div-gpt-300x250_2').addService(googletag.pubads()).setTargeting('pos', '300x250_2').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_1'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_1', [[300,250],[300,600]], 'div-gpt-300x250_1').addService(googletag.pubads()).setTargeting('pos', '300x250_1').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_3'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_3', [[300,250],[300,600]], 'div-gpt-300x250_3').addService(googletag.pubads()).setTargeting('pos', '300x250_3').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_sticky'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_sticky', [[300,250]], 'div-gpt-300x250_sticky').addService(googletag.pubads()).setTargeting('pos', '300x250_sticky').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-oop'] = googletag.defineOutOfPageSlot('/6177/slm.townhall/tipsheet', 'div-gpt-oop').addService(googletag.pubads());
+<div aria-hidden="true" class="sticky-header">
+  <div class="backing">
+    <div class="bound">
 
 
-                if (typeof Storage !== "undefined") {
-                    var targetingParamStr = localStorage.getItem("bcDFPTargetingParams");
+        <div class="actions">
+          <button data-trigger="menu-takeover">Menu</button>
+          <button data-trigger="search">Search</button>
+        </div>
 
-                    if (targetingParamStr) {
-                        var targetingParameters = JSON.parse(targetingParamStr);
+        <div class="brand">
+          <a href="/">Current Affairs</a>
+        </div>
 
-                        // set page-level targeting parameters
-                        jQuery.each(targetingParameters, function (index, param) {
-                            window.googletag.pubads().setTargeting(param.key, param.value);
-                        });
-                    }
-                }
-            } catch (e) {
-                console.error("thm-ad-exception", e);
-            }
 
-            googletag.pubads().addEventListener('impressionViewable', function (event) {
-                
-                var slot = event.slot;
-                if (slot.getTargeting('refresh').indexOf('true') > -1) {
-                    setTimeout(function () {
-                        Thm.RefreshAd(slot);
-                    }, refreshInterval);
-                }
-            });
+    </div>
+  </div>
+</div>
+
+
+
+<header class="masthead">
+  <div class="bound">
+    <div class="plate">
+
+
+
+      <h1 class="brand">
+        <a class="wordmark" href="/" title="Current Affairs"><i class="fill">Current Affairs</i></a>
+      </h1>
+
+      <p class="slogan">
+        <span id="slogan"></span>
+      </p>
+
+
+      <nav class="wayfinding-primary large">
+        
+        <ul>
+          <li><a class="coming-soon" href="#"><span>Issues</span></a></li>
+          <li><a href="https://www.currentaffairs.org/about"><span>About</span></a></li> <!-- INTEGRATION NOTE: in a later stage of the sitewide redesign, ABOUT will be merged into MAGAZINE, and this nav slot will go a new page called INDEX -->
+          <li><a href="https://www.currentaffairs.org/podcast"><span>Podcast</span></a></li>
+          <li><a href="https://www.currentaffairs.org/store"><span>Shop</span></a></li>
+          <li><a href="https://www.currentaffairs.org/donate"><span>Donate</span></a></li>
+          <li><a class="coming-soon" href="#"><span>Gallery</span></a></li>
+          <li><a href="https://www.currentaffairs.org/subscribe"><span>Subscribe</span></a></li>
+        </ul>
+
+      </nav>
+
+      <aside class="wayfinding-secondary search">
+        <mark class="action">
+          <span>Search</span>
+        </mark>
+      </aside>
+
+      
+      
+        <aside class="wayfinding-secondary account unauthenticated">
+          <mark class="action">
+            <span>Sign In</span>
+          </mark>
+        </aside>
+      
+
+
+      
+      <aside class="site-search">
+        <div class="bound">
+          <div class="form-wrapper">
+            <form action="https://duckduckgo.com/" name="search">
+                <div class="form-group">
+                    <div class="input-group">
+                        <input class="form-control" name="q" placeholder="Search Current Affairs" type="search"/>
+                        <input name="sites" type="hidden" value="currentaffairs.org"/>
+                        <input name="kh" type="hidden" value="1"/>
+                        <input name="kn" type="hidden" value="1"/>
+                        <input name="kac" type="hidden" value="1"/>
+                        <input name="kc" type="hidden" value="1"/>
+                        <span class="input-group-btn"><button class="btn btn-default" title="Search" type="submit">
+                            <i aria-hidden="true" class="fa fa-search"></i></button>
+                        </span>
+                    </div>
+                </div>
+            </form>
+          </div>
+          <div class="form-utility">
+            <button class="close-search" title="Hide search">Hide</button>
+          </div>
+        </div>
+      </aside>
+
+
+
+      <div aria-hidden="true" class="mobile-menu-shortcuts">
+        <ul class="triptych">
+          <li class="parent menu">
+            <button data-trigger="menu-takeover">Menu</button>
+          </li>
+          
+          
+            <li class="parent account unauthenticated">
+              <button>Log In</button>
+            </li>
+          
+          <li class="parent search">
+            <button data-trigger="search">Search</button>
+          </li>
+        </ul>
+      </div>
+
+
+    </div><!--/ .plate -->
+  </div><!--/ .bound -->
+</header><!--/ .masthead-->
+
+
+<div aria-hidden="true" class="menu-takeover">
+
+    <div class="setting">
+      <div class="plate">
+        <div class="content">
+
+            <button class="hide-menu-takeover">Hide menu</button>
+
+            <h1>Menu</h1>
+            
+        <ul>
+          <li><a class="coming-soon" href="#"><span>Issues</span></a></li>
+          <li><a href="https://www.currentaffairs.org/about"><span>About</span></a></li> <!-- INTEGRATION NOTE: in a later stage of the sitewide redesign, ABOUT will be merged into MAGAZINE, and this nav slot will go a new page called INDEX -->
+          <li><a href="https://www.currentaffairs.org/podcast"><span>Podcast</span></a></li>
+          <li><a href="https://www.currentaffairs.org/store"><span>Shop</span></a></li>
+          <li><a href="https://www.currentaffairs.org/donate"><span>Donate</span></a></li>
+          <li><a class="coming-soon" href="#"><span>Gallery</span></a></li>
+          <li><a href="https://www.currentaffairs.org/subscribe"><span>Subscribe</span></a></li>
+        </ul>
+
+            <h1>Account</h1>
             
             
-            googletag.pubads().setTargeting("tags",["coronavirus","Anthony Fauci","Steph Curry"]).setTargeting("author", "Leah Barkoukis").setTargeting("fullUrl", "fauci-you-have-the-private-sector-to-thank-for-wuhan-coronavirus-tests-not-the-govt-system-n2565830");
-
+              <div class="account unauthenticated">
+                  <mark class="action"><span>Log in</span></mark>
+              </div>
             
+        </div>
+      </div>
+    </div>
 
-            googletag.enableServices();
+</div><!--/ .menu-takeover -->
 
-        });
-        //]]>
-    </script>
-<link href="/resources/lib/owl-carousel2/dist/assets/owl.carousel.min.css" rel="stylesheet" />
-<script id="article-meta" type="application/json">
-            {"Title":"Fauci: You Have the Private Sector To Thank For Wuhan Coronavirus Tests, Not the Gov't 'System' ","IsArticleView":true,"BaseShareUrl":"http://townhall.com","Canonical":"https://townhall.com/tipsheet/leahbarkoukis/2020/03/27/fauci-you-have-the-private-sector-to-thank-for-wuhan-coronavirus-tests-not-the-govt-system-n2565830","ShareTitle":"Fauci Reveals Who We Really Should Be Thanking for Those 'Hundreds of Thousands' of Coronavirus Test Kits","PublishedDate":"2020-03-27T07:32:00","Id":132858,"Author":"Leah Barkoukis","AuthorImage":"https://media.townhall.com/townhall/reu/contributor-sm/authorimages/2f0c076e-5f46-4c3e-b169-e98908c43546.png","ImageUrl":"https://media.townhall.com/townhall/reu/ha/2020/77/eac7b72a-6ba1-4a66-85a7-e4053bce2a7b.jpg","Tags":[17599,17791,17871],"Url":"https://townhall.com/tipsheet/leahbarkoukis/2020/03/27/fauci-you-have-the-private-sector-to-thank-for-wuhan-coronavirus-tests-not-the-govt-system-n2565830","Soup":0}
-        </script>
-</head>
-<body>
-<div class="thm-piano-top"></div>
-<div id="search">
-<button type="button" class="close"><i class="fa fa-close"></i></button>
- <form id="site-search">
-<input type="search" id="q" name="q" value="" placeholder="Search townhall.com...." />
-<button type="button" class="btn btn-default btn-search"><i class="fa fa-search"></i></button>
-</form>
-</div>
-<header>
-<nav id="thm-nav-sm" class="navbar navbar-default navbar-condensed navbar-fixed-top navbar-article-header">
-<div class="breaking-news-bar-container-condensed"></div>
-<div class="container">
-<div class="navbar-header">
-<a class="navbar-brand" href="/">
-<img src="/resources/th_logo.svg" class="th-logo" alt="">
-</a>
-</div>
-<div id="navbar" class="navbar-collapse collapse">
-<ul class="nav navbar-nav navbar-links navbar-right">
-<li><a title="Columnists" href="/columnists/" class="top-menu">Columnists</a></li>
-<li class="active"><a title="Tipsheet" href="/tipsheet/" class="top-menu">Tipsheet</a></li>
-<li><a title="Cartoons" href="/political-cartoons/" class="top-menu">Cartoons</a></li>
-<li><a title="Podcasts" class="top-menu" href="/podcasts/">Podcasts</a></li>
-<li><a title="Election" class="top-menu hidden-md hidden-sm" href="/election/"><img class="ec-2020-m" src="https://media.townhall.com/thm/ec2020.png" /></a></li>
-<li><a title="Membership: VIP" class="top-menu" href="/vip/"><img class="vip-brand" src="/resources/dist/svg/subscriptions-badge-vip.svg"></a></li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle top-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sections <span class="fa fa-chevron-down"></span></a>
-<ul class="dropdown-menu">
-<li><a title="Newsletter signup" href="/newsletter/">Newsletters</a></li>
-<li class="hidden-lg"><a title="Podcasts" href="/podcasts/">Podcasts</a></li>
-<li><a title="Townhall TV" href="/tv/">Townhall TV</a></li>
-<li><a title="Election " href="/election/">Election</a></li>
-<li><a title="Capitol Voices" href="/capitol-voices/">Capitol Voices</a></li>
-<li><a title="Entertainment" href="/entertainment/">Entertainment</a></li>
-<li><a title="Radio News" href="/news/">Radio News</a></li>
-<li class="hidden-lg"><a title="Election" href="/election/"><img class="ec-2020-m" src="https://media.townhall.com/thm/ec2020.png" /></a></li>
-<li><a title="Live Blog" href="/liveblog/">Live Blog</a></li>
-<li><a title="Topics" href="/tags/">Topics</a></li>
-</ul>
-</li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle top-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sites <span class="fa fa-chevron-down"></span></a>
-<ul class="dropdown-menu">
-<li><a href="http://hotair.com" target="_blank">Hot Air</a></li>
-<li><a href="http://pjmedia.com" target="_blank">PJ Media</a></li>
-<li><a href="http://bearingarms.com" target="_blank">Bearing Arms</a></li>
-<li><a href="http://twitchy.com" target="_blank">Twitchy</a></li>
-<li><a href="http://redstate.com" target="_blank">RedState</a></li>
-<li><a href="http://finance.townhall.com" target="_blank">Townhall Finance</a></li>
-<li><a href="http://www.conservativeradio.com/" target="_blank">Conservative Radio</a></li>
-</ul>
-</li>
-<li><a class="btn btn-default btn-sm btn-join hidden" href="/subscribe?tpcc=home_button">JOIN VIP</a></li>
-<li><a class="btn btn-default btn-sm btn-login hidden">LOGIN</a></li>
-<li>
-<div class="btn-group btn-account hidden">
-<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-MY ACCOUNT <span class="caret"></span>
-</button>
-<ul class="dropdown-menu">
-<li><a href="/account/" class="lnk-account">Account Settings</a></li>
-<li><a href="/newsletter/">Newsletter Subscriptions</a></li>
-<li><a href="#" class="lnk-logout">Log Out</a></li>
-</ul>
-</div>
-</li>
-<li>&nbsp;&nbsp;<button title="Search" id="btn-show-search" class="btn btn-default btn-show-search"><i class="fa fa-search"></i></button></li>
-</ul>
-</div>
-</div>
-</nav>
-<div class="thm-pad" style="padding-top:50px;">
-</div>
-<nav class="navbar navbar-default navbar-fixed-top navbar-article">
-<div class="container">
-<div class="navbar-header">
-<a class="navbar-brand" href="/"><img src="/resources/th_logo.svg" class="th-logo"></a>
-</div>
-<div id="navbar" class="navbar-collapse collapse">
-<ul class="nav navbar-nav navbar-title">
-<li class="headline">Fauci: You Have the Private Sector To Thank For Wuhan Coronavirus Tests, Not the Gov&#39;t &#39;System&#39; </li>
-</ul>
-<ul class="nav navbar-nav navbar-btn-search pull-right">
-<li><button class="btn btn-facebook-lg sc-fb"><i class="fa fa-facebook-official"></i>&nbsp;Share</button></li>
-<li><button class="btn btn-twitter-lg sc-tw"><i class="fa fa-twitter"></i>&nbsp;Tweet</button></li>
-<li><button title="Search" id="btn-show-search" class="btn btn-default btn-show-search"><i class="fa fa-search"></i></button></li>
-</ul>
-</div>
-</div>
-<div class="thm-carousel">
-<div class="owl-carousel owl-theme">
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/gov-abbott-outlines-texass-three-phases-for-re-opening-the-lone-star-state-n2567148"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="And the First State to Start Re-Opening Is Texas " data-src="//media.townhall.com/townhall/reu/b/2020/97/6145e8ce-c4e0-414e-a5c9-eeb983d20c05.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/gov-abbott-outlines-texass-three-phases-for-re-opening-the-lone-star-state-n2567148">And the First State to Start Re-Opening Is Texas </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" data-src="//media.townhall.com/townhall/reu/b/2020/108/0312f0de-aebe-4ffd-8865-086c6760c7bf.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157">Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a href="/columnists/katiepavlich/2020/04/17/nancy-pelosi-doesnt-care-n2567139"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Nancy Pelosi Doesn’t Care" data-src="//media.townhall.com/townhall/reu/b/2019/269/ef5eb632-e868-4f93-b614-50ad162493a0.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/katiepavlich/2020/04/17/nancy-pelosi-doesnt-care-n2567139">Nancy Pelosi Doesn’t Care</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="New Drug Combating Wuhan Coronavirus Yield Excellent Results...And the Dow Surged Because of It" data-src="//media.townhall.com/townhall/reu/b/2020/97/a1c032c2-2dc2-415a-a698-50aeb7968e7a.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160">New Drug Combating Wuhan Coronavirus Yield Excellent Results...And the Dow Surged Because of It</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/democrats-want-to-use-your-money-to-pay-states-to-let-criminals-out-of-jail-n2567089"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="The Latest Spending Push from Democrats: Using Your Money to Let Felons Out of Jail" data-src="//media.townhall.com/townhall/reu/b/2020/83/3e059f9d-8ceb-4679-8e5d-5428f2a82ba5.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/democrats-want-to-use-your-money-to-pay-states-to-let-criminals-out-of-jail-n2567089">The Latest Spending Push from Democrats: Using Your Money to Let Felons Out of Jail</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" data-src="//media.townhall.com/townhall/reu/b/2014/289/17329344-1af8-4a1f-8631-ab65d20076a0.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141">There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/trump-appears-to-back-protestors-against-michigan-governor-n2567129"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Trump Appears to Back Protestors Against Michigan Governor " data-src="//media.townhall.com/townhall/reu/b/2020/106/c409bf9b-dbcc-4435-b8f2-428e0b5d8196.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/trump-appears-to-back-protestors-against-michigan-governor-n2567129">Trump Appears to Back Protestors Against Michigan Governor </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
- <a href="/tipsheet/katiepavlich/2020/04/17/tucker-sounds-off-on-governor-whitmers-weird-fascism-n2567109"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Tucker Exposes What&#39;s Behind Governor Whitmer&#39;s &#39;Weird, Arbitrary Fascism&#39; " data-src="//media.townhall.com/townhall/reu/b/2020/35/f4488b8b-113f-4e5a-b0c5-046613b57d0c.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/tucker-sounds-off-on-governor-whitmers-weird-fascism-n2567109">Tucker Exposes What&#39;s Behind Governor Whitmer&#39;s &#39;Weird, Arbitrary Fascism&#39; </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/minnesota-governor-begins-to-ease-some-restrictions-n2567126"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Did Gov. Walz Just Take Trump&#39;s Advice to &#39;Liberate&#39; Minnesota?" data-src="//media.townhall.com/townhall/reu/b/2020/108/6d262d31-153f-4bcc-b97f-2a9584f78663.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/minnesota-governor-begins-to-ease-some-restrictions-n2567126">Did Gov. Walz Just Take Trump&#39;s Advice to &#39;Liberate&#39; Minnesota?</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a href="/tipsheet/cortneyobrien/2020/04/17/biden-downplays-china-threat-n2567062"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Nikki Haley Recalls How Biden Has Downplayed the Threat from China" data-src="//media.townhall.com/townhall/reu/b/townhall/reu/o/2018/330/76346357-2450-40f7-a097-c78820c7f712.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/biden-downplays-china-threat-n2567062">Nikki Haley Recalls How Biden Has Downplayed the Threat from China</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ny-dem-rips-pelosi-for-adding-far-left-provisions-in-coronavirus-relief-bill-n2567112"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="NY Dem Rips Pelosi for Adding &#39;Far Left&#39; Provisions in Coronavirus Relief Bill" data-src="//media.townhall.com/townhall/reu/b/2019/80/3f341d90-5ab1-4263-b5a7-97a52d2e0dfe.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ny-dem-rips-pelosi-for-adding-far-left-provisions-in-coronavirus-relief-bill-n2567112">NY Dem Rips Pelosi for Adding &#39;Far Left&#39; Provisions in Coronavirus Relief Bill</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ted-cruz-explains-how-to-hold-china-accountable-n2567110"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Ted Cruz Explains that China Is Guilty on Three Counts" data-src="//media.townhall.com/townhall/reu/b/2020/24/3c73a6b1-3be6-479f-aaca-9dec532b7741.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
- <a href="/tipsheet/cortneyobrien/2020/04/17/ted-cruz-explains-how-to-hold-china-accountable-n2567110">Ted Cruz Explains that China Is Guilty on Three Counts</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/marinamedvin/2020/04/17/business-bread-lines-run-out-of-bread-as-americans-rail-against-coronavirus-oppression-n2567083"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Business Bread Lines Run Out Of Bread as Americans Rail Against Coronavirus Oppression" data-src="//media.townhall.com/townhall/reu/b/2018/290/99f4dc8c-cbc4-4e27-9168-8013625daad0.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/marinamedvin/2020/04/17/business-bread-lines-run-out-of-bread-as-americans-rail-against-coronavirus-oppression-n2567083">Business Bread Lines Run Out Of Bread as Americans Rail Against Coronavirus Oppression</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/toddstarnes/2020/04/17/democrats-will-keep-the-states-closed-to-tank-the-economy-and-take-down-trump-n2567117"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump" data-src="//media.townhall.com/townhall/reu/b/2020/100/f05bab8f-dc2c-46b4-9bde-bca808e0e1d9.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/toddstarnes/2020/04/17/democrats-will-keep-the-states-closed-to-tank-the-economy-and-take-down-trump-n2567117">Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/davidlimbaugh/2020/04/17/media-prefer-hating-trump-to-helping-america-n2567084"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Media Prefer Hating Trump to Helping America" data-src="//media.townhall.com/townhall/reu/b/2020/90/7dba55f7-89a9-453c-9687-bd60fb6bd441.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/davidlimbaugh/2020/04/17/media-prefer-hating-trump-to-helping-america-n2567084">Media Prefer Hating Trump to Helping America</a>
-</div>
-</div>
-</div>
-</div></nav>
-</header>
-<div>
-<div class="container">
-<div class="row row-topper">
-<div class="col-xs-10">
-<ul class="breadcrumb">
-<li><a href="/">Townhall</a></li>
-<li><a href="/tipsheet/" class="text-capitalize">tipsheet</a></li>
-<li class="active">
-<a href="/tipsheet/leahbarkoukis/">Leah Barkoukis</a>
-</li>
-</ul>
-</div>
-<div class="col-xs-2">
-<a href="/tags/coronavirus" class="btn btn-default btn-article-supertag pull-right ">coronavirus</a>
-</div>
-</div>
-<article class="with-rail">
-<div class="row">
-<div class="col-xs-12">
-<section id="article-header">
-<div class="row">
-<div class="col-xs-12">
-</div>
-</div>
-<h1 class="headline">Fauci: You Have the Private Sector To Thank For Wuhan Coronavirus Tests, Not the Gov&#39;t &#39;System&#39; </h1>
-<div class="row">
-<div class="col-xs-12">
-<div class="contributor-img pull-left">
-<a href="/author/leahbarkoukis">
-<img alt="Leah Barkoukis" class="img-thumbnail" src="https://media.townhall.com/townhall/reu/contributor-sm/authorimages//2f0c076e-5f46-4c3e-b169-e98908c43546.png" />
-</a>
-</div>
-<div class="contributor pull-left">
-<a href="/author/leahbarkoukis">Leah Barkoukis</a>
-</div>
-<div class="contributor pull-left">|</div>
-<div class="contributor pull-left">
-<i class="fa fa-twitter tw-icon vert-align"></i>&nbsp;<a href="https://twitter.com/LeahBarkoukis" target="_blank">@LeahBarkoukis</a>
-</div>
-<div class="contributor pull-left">|</div>
-<div class="contributor pull-left">Posted: Mar 27, 2020 7:32 AM</div>
-<div class="sc header-share">
-<a class="btn btn-facebook-lg sc-fb"><i class="fa fa-facebook-official"></i>&nbsp; Share <span class="fb-count"></span></a>
-<a class="btn btn-twitter-lg sc-tw" data-dc="181"><i class="fa fa-twitter"></i>&nbsp; Tweet <span class="tw-count"></span></a>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<div class="gpt-header">
-<div id="div-gpt-728x90_1" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-728x90_1");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-728x90_1"]])
-                    });
-                </script>
-</div>
-</div>
-</div>
-</div>
-</section>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-8">
-<section id="article-media-object">
-<img class="article-main-image" src="https://media.townhall.com/townhall/reu/ha/2020/77/eac7b72a-6ba1-4a66-85a7-e4053bce2a7b.jpg" alt="Fauci: You Have the Private Sector To Thank For Wuhan Coronavirus Tests, Not the Gov&#39;t &#39;System&#39; " />
-<p class="main-image-source muted"><small><em>Source: AP Photo/Evan Vucci</em></small></p>
-</section>
-<section id="article-body">
-<aside id="aside1" class="left">
-<div class="article-aside-ad">
-<div id="div-gpt-300x250_2" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_2");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_2"]])
-                    });
-                </script>
-</div>
-</div>
+
+<aside class="link-blocker">
+  <div class="setting">
+    <div class="plate">
+      <div class="content">
+
+
+        <div class="primary">
+          <h1 class="headline">Soon</h1>
+          <p class="explanation"><em>Current Affairs</em>’s <span>all-new</span> <i>Single Issue</i> page is coming soon.</p>
+        </div>
+        <div class="secondary">
+          <button class="acceptance">Okay</button>
+        </div>
+
+        
+      </div>
+    </div>
+  </div>
 </aside>
-<p>The government “system” could not hold a candle to the private sector on coronavirus testing, Dr. Anthony Fauci explained Thursday during an Instagram story interview with NBA star Steph Curry, which is why the U.S. has seen a drastic uptick in accurate and widespread test kits available.</p><div class="thm-piano-mop"></div><p>“We have hundreds of thousands of tests that are out there now, mostly because we got the private sector involved, of the companies who know how to make it well, make large amounts,” Fauci told the Golden State Warriors player.</p><p>Wanting to know what the holdup is to those tests being available “to the masses,” Fauci said there shouldn’t be anything now.&nbsp;</p><p>“Originally, the system, the way it was set up, Steph, was not geared to this kind of massive capability of instantaneously, safely getting a test, getting it done in a really good period of time – not days and days, but hours,” he explained.&nbsp;</p><p>“Right now, the system is changed, predominately because it’s being handed over to the commercial firms who know how to do it,” he added. “It started off as a public health measure from the CDC, it now needs to be, and is being handed off to, the commercial group.”</p> <div class="mpw-inline">
-<div>
- <div class="mpw-inline-col__rail"><a title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic - 32" href="/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159?utm_campaign=inarticle"><img class="img-responsive" src="https://media.townhall.com/townhall/reu/s124x68/2018/43/10b23fc2-706b-4096-a312-ab7270db00c0.jpg" /></a></div>
-<div class="mpw-inline-col__content">
-<div class="mpw-inline-col__title">Recommended</div>
-<a title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic - 32" href="/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159?utm_campaign=inarticle">
-<span class="mpw-inline-col__story">Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic</span>
-</a>
-<div class="mpw-inline-col__muted">
-Julio Rosas
-</div>
-</div>
-</div>
-</div>
-<blockquote class="twitter-tweet"><p dir="ltr" lang="en">Dr. Fauci: Govt testing system was inadequate, private sector made difference<br><br>"Hundreds of thousands of tests are out there now..because we got private sector involved<br><br>"The system is changed predominately because it's being handed over to commercial firms who know how to do it" <a href="https://t.co/sKILn8woEZ">pic.twitter.com/sKILn8woEZ</a></p>— Elizabeth Harrington (@LizRNC) <a href="https://twitter.com/LizRNC/status/1243329681694306304?ref_src=twsrc%5Etfw">March 27, 2020</a></blockquote><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><p>As for when the U.S. may be able to return to a degree of normalcy, Fauci said, “You need to see the trajectory of the curve start to come down.”</p>
-</section>
-<section id="article-footer">
-<div class="row">
-<div class="col-xs-12">
-<div class="thm-piano-eop">
-</div>
-<div class="thm-piano-eop-recommended"></div>
-</div>
-</div>
-<div class="article-actions-footer sc">
-<div class="row">
-<div class="col-xs-12">
-<a class="btn btn-facebook-lg btn-block sc-fb"><i class="fa fa-facebook-official"></i>&nbsp; Share this on Facebook <span class="fb-count"></span></a>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-6"><a class="btn btn-block btn-twitter-lg sc-tw" data-dc="181"><i class="fa fa-twitter"></i>&nbsp; Tweet <span class="tw-count"></span></a></div>
-<div class="col-xs-2"><a href="mailto:?subject=Fauci: You Have the Private Sector To Thank For Wuhan Coronavirus Tests, Not the Gov&#39;t &#39;System&#39; &amp;body=https://townhall.com/tipsheet/leahbarkoukis/2020/03/27/fauci-you-have-the-private-sector-to-thank-for-wuhan-coronavirus-tests-not-the-govt-system-n2565830" class="btn btn-block btn-default btn-article-email"><i class="fa fa-envelope"></i></a></div>
-<div class="col-xs-2"><button data-url="https://townhall.com/tipsheet/leahbarkoukis/2020/03/27/fauci-you-have-the-private-sector-to-thank-for-wuhan-coronavirus-tests-not-the-govt-system-n2565830/print" onclick="window.open('https://townhall.com/tipsheet/leahbarkoukis/2020/03/27/fauci-you-have-the-private-sector-to-thank-for-wuhan-coronavirus-tests-not-the-govt-system-n2565830/print', 'print-winder', 'width=850,height=700,scrollbars=yes');" class="btn btn-block btn-default btn-article-print"><i class="fa fa-print"></i></button></div>
-<div class="col-xs-2"><a href="#article-comment-bookmark" class="btn btn-block btn-default btn-article-comment"><i class="fa fa-comment"></i></a></div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<div id="rcjsload_ffe38c"></div>
-<script type="text/javascript">
-        (function () {
-            function ad_block_test(e, o) { if ("undefined" != typeof document.body) { var t = "0.1.2-dev", o = o ? o : "sponsorText", n = document.createElement("DIV"); n.id = o, n.style.position = "absolute", n.style.left = "-999px", n.appendChild(document.createTextNode("&nbsp;")), document.body.appendChild(n), setTimeout(function () { if (n) { var o = 0 == n.clientHeight; try { } catch (d) { console && console.log && console.log("ad-block-test error", d) } e(o, t), document.body.removeChild(n) } }, 175) } }
-            ad_block_test(function (is_blocked) {
-                var widget_id = 102403;
-                if (is_blocked === true) {
-                    widget_id = 102452;
-                }
-                var referer = ""; try { if (referer = document.referrer, "undefined" == typeof referer) throw "undefined" } catch (exception) { referer = document.location.href, ("" == referer || "undefined" == typeof referer) && (referer = document.URL) } referer = referer.substr(0, 700);
-                var rcel = document.createElement("script");
-                rcel.id = 'rc_' + Math.floor(Math.random() * 1000);
-                rcel.type = 'text/javascript';
-                rcel.src = "//trends.revcontent.com/serve.js.php?w=" + widget_id + "&t=" + rcel.id + "&c=" + (new Date()).getTime() + "&width=" + (window.outerWidth || document.documentElement.clientWidth) + "&referer=" + referer + '&is_blocked=' + is_blocked;
-                rcel.async = true;
-                var rcds = document.getElementById("rcjsload_ffe38c"); rcds.appendChild(rcel);
-            });
-        })();
-    </script>
-<div class="thm-bluec"></div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<ul class="list-unstyled list-inline article-topics clearfix">
-<li>Tags: </li>
-<li><a class="btn btn-default btn-topic" data-tagid="17599" href="/tags/coronavirus">coronavirus</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="17791" href="/tags/anthony-fauci">Anthony Fauci</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="17871" href="/tags/steph-curry">Steph Curry</a></li>
-</ul>
-<script>
-    var rndnum = Math.floor(Math.random() * 50000);
-    var submitScript = document.createElement('script');
-    submitScript.src = 'https://townhall.com/wservices/handlers/tagcount.ashx?tid=17599,17791,17871&tnd=' + rndnum;
-    document.body.appendChild(submitScript);
 
-</script>
-</div>
-</div>
-<section id="grid-1">
-<div class="row">
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic" data-src="https://media.townhall.com/townhall/reu/ha/2018/43/10b23fc2-706b-4096-a312-ab7270db00c0.jpg" href="https://townhall.com/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic" href="https://townhall.com/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159">Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic</a>
-</div>
-<div class="story__author">
-Julio Rosas
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="&lt;p&gt;New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It&lt;/p&gt;" data-src="https://media.townhall.com/townhall/reu/ha/2020/97/a1c032c2-2dc2-415a-a698-50aeb7968e7a.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="&lt;p&gt;New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It&lt;/p&gt;" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"><p>New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It</p></a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported" data-src="https://media.townhall.com/townhall/reu/ha/2020/80/b0dabbb2-2c7b-419e-a142-ce365718c3d4.jpg" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/first-largescale-antibody-testing-indicate-coronavirus-infections-much-higher-death-rate-much-lower-n2567155"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/first-largescale-antibody-testing-indicate-coronavirus-infections-much-higher-death-rate-much-lower-n2567155">New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported</a>
-</div>
-<div class="story__author">
-Bronson Stocking
-</div>
-</div>
-</div>
-</div><div class="row">
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a class="thm-inc lazy" title="ICE Apprehends Five Asia Nationals Illegally Present in the U.S. " data-src="https://media.townhall.com/townhall/reu/ha/2019/133/d63885bf-3c7a-4a9a-bcbd-ac2735c54d62.png" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/five-asia-nationals-six-pakistanis-apprehended-by-ice-n2567165"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="ICE Apprehends Five Asia Nationals Illegally Present in the U.S. " href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/five-asia-nationals-six-pakistanis-apprehended-by-ice-n2567165">ICE Apprehends Five Asia Nationals Illegally Present in the U.S. </a>
-</div>
-<img class="thm-sublevel" src="/resources/dist/svg/subscriptions-badge-vip.svg" />
-<div class="story__author">
-Bronson Stocking
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" data-src="https://media.townhall.com/townhall/reu/ha/2014/289/17329344-1af8-4a1f-8631-ab65d20076a0.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141">There's Something a Little Odd About the Letter Hunter Biden's Lawyer Sent Regarding the China Allegations</a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" data-src="https://media.townhall.com/townhall/reu/ha/2020/108/0312f0de-aebe-4ffd-8865-086c6760c7bf.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157">Land O'Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?</a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-</div><div class="row">
-</div>
+
+<section class="log-in">
+  <div class="setting">
+    <div class="plate">
+      <div class="content">
+
+
+        <div class="primary-form">
+          <h1>Sign In</h1>
+          <div class="form-container">
+            <form action="/login?redirect=%2f2020%2f04%2fshould-we-just-open-the-borders" class="form-horizontal" method="post">
+              <input class="form-control" name="login.email" placeholder="email"/>
+              <input class="form-control" name="login.password" placeholder="password" type="password"/>
+              <button class="form-control" type="submit">Enter</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="supplemental-options">
+          <ul>
+            <li><a href="/forgot?redirect=%2f2020%2f04%2fshould-we-just-open-the-borders"><span>I have forgotten my password</span></a></li>
+            <li><a class="subscribe-appeal" href="/subscribe"><span>Don’t have an account? Subscribe!</span></a></li>
+          </ul>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="close-log-in">
+      <button aria-label="Close">Close</button>
+    </div>
+  </div>
 </section>
+
+
+<!-- ================================================================================ -->
+
+<header class="article-splash">
+  <div class="bound">
+
+      
+    <figure class="cinematic-poster lazy" data-bg="url(https://images.currentaffairs.org/2020/04/openboreders-1024x646.jpg)">
+      <div aria-hidden="true" class="fill">
+      </div>
+      <!-- Not ready yet -_- <figcaption class="attribution">
+        <div class="columns">
+          <p class="source"><span><a href="#">Matt Lubchansky Or iStock Or Flickr</a></span></p>
+          <i class="notch" aria-hidden="true"></i>
+        </div>
+      </figcaption> -->
+    </figure>
+    
+
+    <!-- Also not ready yet
+    <small class="extraneous-attribution" aria-hidden="true">
+      <span>Matt Lubchansky Or iStock Or Flickr</span>
+    </small>-->
+
+    <div class="titling">
+      <h1 class="title">
+        <span>Should We Just Open the Borders?</span>
+      </h1>
+      
+
+  
+  
+    <aside class="stamp" data-stamp-type="web">
+    </aside>
+  
+
+    </div>
+
+    <div class="details">
+      <div class="primary">
+        <div class="tagline">
+          <p>A look at the cute but troublingly framed argument for open borders by Bryan Caplan and Zach Weinersmith.</p>
+
+        </div>
+        <div class="bylines">
+            <ul>
+              <li><a href="/author/brianna-rennix">Brianna Rennix</a></li>
+            
+              <li><a href="/author/sparky-abraham">Sparky Abraham</a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="secondary">
+        <mark class="dateline">
+            <span>filed 15 April 2020 in</span> <a href="/category/immigration">Immigration</a>
+        </mark>
+      </div>
+    </div>
+
+    <div aria-hidden="true" class="extraneous-stamp-container">
+      
+
+  
+  
+    <aside class="stamp" data-stamp-type="web">
+    </aside>
+  
+
+    </div>
+
+
+  </div>
+</header>
+
+
+<article class="article-output">
+  <div class="bound">
+    
+<section class="wp-block-currentaffairs-group essay-block" data-essay-block-type="plain">
+<p>If you wanted to pinpoint an exact date when the United States became destined to be a global superpower—a nation rich beyond its wildest dreams, able to enforce its will around the world—you could do worse than February 2, 1848. With a few quick pen-strokes on the Treaty of Guadalupe Hidalgo, the Mexican-American War ended, and the landmass of the United States grew by 25 percent. Importantly, that 25 percent included the territory that had, up to that point, been known as Alta California.&nbsp;</p>
+
+
+
+<p>The central valley of California has fairly unique geography. It’s been subject to millennia of flooding, leaving hundreds of thousands of acres of top grade soil. It’s also extremely sunny—nearly 300 days of sunshine a year—but compensates for the lack of rain with snowmelt from the uniquely tall and snowy Sierra Nevada mountains. The combination of these factors—along with huge aquifers of groundwater, more than one deep water port, some navigable rivers, abundant fish and fur stocks, hundreds of miles of desirable oceanfront property, and some gold to boot—all but guaranteed significant wealth for whatever industrializing nation included California.</p>
+
+
+
+<p>This potential, though not yet realized, was an open secret in the 1840s. The United States attempted to buy New Mexico and California from Mexico in 1842, but Mexico refused. Undeterred, the United States invaded Mexico on the flimsiest of pretenses and, on February 2, 1848, took more than half of Mexico’s land mass essentially at gunpoint.&nbsp;</p>
+
+
+
+<p>Thus was born the U.S.’s southern border. (Well, sort of. The Treaty of Mesilla, aka the Gadsden Purchase, added southwest New Mexico and southern Arizona, including Tucson, in 1854, at a price of around $12 an acre in 2018 dollars.) And thus was the land area formerly known as Alta California transferred from Mexico to the United States. In that instant, approximately 80,000 people went from living in Mexico to living in the United States without moving a muscle. Alta California was destined to be the fifth largest economy <em>in the world</em>, with a GDP more than three times Mexico’s <em>national</em> GDP. Through this successful conquest, the United States was propelled on its path to unprecedented national wealth, and future generations of Mexicans were consigned to the now-pitiable position of being, in the (attributed) words of Porfirio Diaz, “so far from God, so close to the United States.”</p>
+
+
+
+<p>At first, when this particular portion of the U.S.-Mexico border was drawn, it was—like all borders in the United States, and most in the world—radically open. People came and went as they pleased. The line determined jurisdiction for various important political and civil questions, like legal regimes and taxes, but it wasn’t a physical barrier. People could (and did) stroll across the border at will to grocery shop, visit friends and relatives, work, sell goods—you name it. There were important differences between living in Juarez and El Paso, and different rights and duties imposed on people living within a few hundred feet of each other, but there was no physical wall between them.&nbsp;</p>
+
+
+
+<p>What ultimately ended up setting the United States down the path toward a militarized border—maintained via a gigantic bureaucracy willing to inflict violence on anyone with the gall to attempt a crossing—was old-fashioned American racism. In 1875, the United States enacted its first set of restrictive immigration laws aimed at preventing Chinese people from entering. This particular brand of racism, as is often the case, went hand-in-hand with exploitation. The railroad industry was happy to use Chinese immigrants as cheap labor but the United States couldn’t tolerate the Chinese community building any wealth or power, and therefore barred Chinese people from entering the country. The federal government detained and then left Chinese immigrants to languish, sometimes for years, on Angel Island in the San Francisco Bay even when they had previously gotten permission to enter. This was the beginning of the end for our <em>de facto</em> national policy of open borders.&nbsp;</p>
+
+
+
+<p>Exploitation of other nations and people, both foreign and domestic, was far from new in U.S. history (see slavery, Native genocide, etc.). But it’s interesting that immigration restrictions rose simultaneously with the U.S.’s foreign imperialist activities. Over the following decades, immigration quotas were established as U.S. corporations gobbled up land in Central and South America and meddled in the Mexican Revolution. Unauthorized immigration was criminalized just as the United States threatened to invade Colombia on behalf of the United Fruit Company. Anti-Latin American sentiment soared as the United States toppled democratically elected governments in Guatemala and Chile out of fear that they would nationalize industries profitable for American companies. Ronald Reagan railed against immigrants and asylees as he funded the death squads who murdered their families to protect U.S. business interests. The 20th century was an incredibly prosperous time for the United States—that prosperity largely built the wealth that the nation enjoys today—but a substantial portion of this wealth was built on the backs and corpses of people in other countries, particularly (although far from exclusively) in Central and South America.</p>
+
+
+
+<section class="wp-block-currentaffairs-image-text essay-block" data-essay-block-type="split-west"><div class="columns"><div class="art lazy" aria-hidden="true" data-bg="url(https://images.currentaffairs.org/2020/04/cover3.jpg)"><div class="fill"></div></div><div class="text"><div class="text-inner"><p>It’s worth keeping this historical context in mind when we turn to <em><a href="https://www.smbc-comics.com/openborders/">Open Borders: The Science and Ethics of Immigration</a></em>, an illustrated book published by libertarian economist Bryan Caplan and cartoonist Zach Weinersmith. The book portrays itself as comprehensive: it purports to cover <em>all</em> moral and philosophical arguments in favor of open borders, and to neutralize all potential opposing arguments. In practice, the book focuses largely on one “fairness” argument—that restrictive borders are discriminatory and arbitrary—and one “outcomes” argument—that restrictive borders stifle (economic) growth. A cartoon version of Caplan walks the reader, panel by panel, through his arguments and their support.</p></div></div></div></section>
+
+
+
+<p>The first thing to say about the book is that it’s mostly lovely. Caplan is an engaging and persuasive writer—in his other works, he can be charming even when advocating for terrible things (like massively defunding public education). Here, he’s advocating for open borders, a <a href="https://www.currentaffairs.org/2018/11/responding-to-the-left-case-against-open-borders">morally unimpeachable policy</a>. Weinersmith’s illustrations are delightful, and the tone of the text nicely matches that of the illustrations. The second thing to say about the book is that we mostly agree with it. That is, we believe restrictive borders constitute a grave injustice, and that the world would be a better place if people were free to cross between Mexico and the United States just as they’re free to cross between Colorado and Nebraska.&nbsp;</p>
+
+
+
+<p>But despite the book’s clear writing, fun drawings, and correct (in our view) conclusion, it must be treated with some caution, as with the rest of Caplan’s work. Bryan Caplan is a committed and staunch libertarian economist. He seems to be an <em>earnest</em> libertarian economist, in that he appears to have some intellectual integrity and is willing to follow his arguments to their logical conclusions, even when those are at odds with the status quo and the consensus in his profession. But we must be careful to agree with him only where his underlying reasoning, assumptions, and principles are defensible, and not only because we reach the same conclusion.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.11.47-AM.jpg" alt="" class="wp-image-14496" srcset="https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.11.47-AM.jpg 739w, https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.11.47-AM-300x161.jpg 300w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px" /><figcaption>cartoons by Nick Sirotich</figcaption></figure>
+
+
+
+<p>This is particularly important when it comes to open borders. There are strains of left and socialist thinking, both historical and current, that are very hostile to open borders. The (purportedly) left arguments against open borders run from protectionist (immigrants harm the interests of domestic labor) to supposedly benevolent but extremely misguided (like Angela Nagle’s infamous 2018 article, “The Left Case Against Open Borders,” which makes the unconvincing argument that it is better for would-be immigrants to be kept in their home countries by force so that they can organize their way out of oppression.) Unconvincing as most of these arguments are, they have a kernel that should be taken seriously. Some big businesses do want open borders. Libertarian economists want open borders. Given these unsavory bedfellows, are we sure that <em>we</em>, as leftists, want open borders? Should Bryan Caplan’s support for our position give us pause?&nbsp;</p>
+
+
+
+<figure class="wp-block-image"><img src="https://images.currentaffairs.org/2020/04/caplan.jpg" alt="" class="wp-image-14497" srcset="https://images.currentaffairs.org/2020/04/caplan.jpg 611w, https://images.currentaffairs.org/2020/04/caplan-300x278.jpg 300w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px" /></figure>
+
+
+
+<p>Caplan’s case for open borders largely rests on two underlying premises: first, that closed borders are unethical, and second, that capitalism is good and open borders will only make it work more effectively. (“Socialism” is definitely one of the major bogeymen of his book: each mention of the dread word is accompanied by a cartoon panel of goose-stepping Reds.) Caplan’s case for the moral wrongness of borders is compelling, and strongly-stated. The first chapter of his book is called “Global Apartheid,” and the opening image shows the outline of a looming black wall topped with barbed wire. “Immigration laws tell peaceful people where they’re allowed to live and work,” a cartoon version of the Statue of Liberty informs us. “Immigration laws don’t merely <em>allow</em> discrimination. They <em>require</em> it. It’s wrong to tell people where they can live or work because they’re black, or women, or Jews. Why isn’t it equally wrong to tell people where they can live or work because they were born in Mexico, or Haiti, or India?”</p>
+
+
+
+<figure class="wp-block-image"><img src="https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.11.57-AM.jpg" alt="" class="wp-image-14498" srcset="https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.11.57-AM.jpg 371w, https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.11.57-AM-282x300.jpg 282w" sizes="(max-width: 371px) 85vw, 371px" /></figure>
+
+
+
+<p>This line of argument is the biggest strength of Caplan’s book. He appears to sincerely believe that free migration is an essential human freedom, and correctly characterizes immigration laws, of their very nature, as fundamentally oppressive. In this sense, Caplan is a much clearer moral thinker than, say, the all-too-common kind of liberal who likes the feel-goodery of belonging to a “nation of immigrants,” but balks at the idea of large numbers of poor immigrants moving into their neighborhood; who tells themselves that immigrants are necessarily “better off” in their home countries than working in the United States, and believes that a “secure” border is a necessary condition to any discussion of further immigration reform.</p>
+
+
+
+<p>But there’s something that feels <em>wrong</em>, or at any rate incomplete, about the context in which Caplan enfolds these important truths. The rest of his argument about the moral necessity of open borders boils down, essentially, to the following: some parts of the world are rich, and their residents enjoy many luxuries. Others are desperately poor, and their residents struggle to survive. If poor people could move to rich countries and get jobs there, they could vastly improve their outcomes. Thus, why should governments have the right to prevent people from physically moving from these impoverished hellholes and coming to countries where they can reap the ample benefits of living in more “developed” societies? Caplan anticipates—probably correctly—that his readers’ biggest objections will center around possible downsides that this immigration will bring to the receiving countries, and so the bulk of the book centers around showing that there will be limited negative impacts—and, in fact, substantial net gains—for native-born populations in a world where immigration is increased. (Economic data does seem to bear this out, although it’s hard to feel <em>extremely</em> confident about what these studies tell us, given the inherent difficulty of disentangling when an economic outcome is “caused,” or caused primarily, by “immigration,” or the extent to which the net economic benefits of immigration are premised on the fact that many immigrant workers have even less bargaining power than citizen workers.) Caplan tries to show that closed borders, in addition to trapping poor people in countries where they can’t hope to improve their standard of living, also “trap[s] talent at the outskirts of the world economy” and thus “impoverishes us all.”</p>
+
+
+
+<figure class="wp-block-image"><img src="https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.12.17-AM.jpg" alt="" class="wp-image-14499" srcset="https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.12.17-AM.jpg 378w, https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.12.17-AM-276x300.jpg 276w" sizes="(max-width: 378px) 85vw, 378px" /></figure>
+
+
+
+<p>What Caplan <em>doesn’t</em> explore in very much detail is <em>why</em> certain parts of the world are rich and others are poor. Caplan puts forward an image of the United States as a magnet for immigration because the United States is simply a good country to live in. He doesn’t dwell on the fact that one very substantial reason rich countries like the United States have so much abundance is precisely <em>because</em> they exploit the resources of poorer countries, or that the conditions of poverty and violent insecurity that drive many immigrants to move to more prosperous countries are directly influenced by rich countries’ economic and foreign policy decisions—to say nothing of the much longer history of imperial conquest and political meddling pursued by the United States and other powerful nations. This, by itself, doesn’t alter the validity of Caplan’s argument that restricting the free movement of people is immoral. But Caplan situates an immigrant’s decision to move in a kind of historical vacuum of rational cost-benefit analysis. For a libertarian, the logic of the free market dictates that people should be allowed to move where they can get work, because it’s only “fair.” But for a leftist, unfairness is inherent not only the immigration restrictions that prevent people from moving who wish to move, but in the unequal global hierarchy that forces people to leave their countries who otherwise would not wish to. At various points in the book, Caplan also declares himself to be a “fanboy of Western culture” (which apparently boils down to favoring “reason” and “enlightenment”) and does some slightly creepy IQ comparisons across various countries, suggesting that worldwide IQ will rise if people are able to migrate to better-resourced areas—avoiding any serious analysis of power by vaguely implying that there’s a cultural explanation for the “West’s” economic success.</p>
+
+
+
+<p>Even if we agree with Caplan that open borders are a moral imperative, how should we think about his second premise—that opening up borders will bolster the existing capitalist world order, which is presumed by Caplan to be a good thing? Perhaps, if we feel strongly enough that immigration restrictions are immoral and should be abolished, we should be willing to countenance the “open borders is compatible with global capitalism” argument as a means of bringing some of our political opponents around to our side. (Admittedly, most of our political opponents aren’t ideologically rigorous libertarians, but are ordinary oligarchs with a vague Ayn Rand gloss—so it’s hard to say how far they’d be persuaded by these arguments anyhow.) But adopting some of Caplan’s assumptions feels icky, and possibly dangerous. Caplan views immigration, in an economic sense, as “economic trade in labor,” which he thinks should be free in the same way that he thinks trade in goods should be free, and writes that “progress always hurts someone, but the secret to mass consumption is mass production.” To illustrate the economic boons of immigration, cartoonist Zach Weinersmith has drawn giant globes made of cash that will presumably be generated by immigrants multiplying their wages through relocation.  Even if you think Caplan is right about these things, it feels like typical capitalist magical thinking that treats laborers as statistics and infinite growth as an inherent good, without exploring its long-term environmental viability or actual quality-of-life improvements for ordinary people. Also, accepting the premise that “progress always hurts someone” feels like a license to play utilitarian games with (other) human beings’ lives.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.12.24-AM.jpg" alt="" class="wp-image-14500" srcset="https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.12.24-AM.jpg 376w, https://images.currentaffairs.org/2020/04/Screen-Shot-2020-04-15-at-11.12.24-AM-274x300.jpg 274w" sizes="(max-width: 376px) 85vw, 376px" /></figure>
+
+
+
+<p>Certainly, insofar as available economic evidence suggests that immigration hasn’t had the catastrophic effects on wages that many anti-immigration propagandists want you to believe, the potential economic benefits of immigration aren’t something we necessarily want to <em>de</em>emphasize. But at the same time, if you think that the global economy is deeply unfair, we don’t want to become too enthusiastic about arguing that opening up borders is the mystical solution that, without more action, will somehow cause the global economy to <em>become </em>fair. Rather, many leftists have envisioned open borders as something that—even if it won’t be <em>the</em> singular cause of the dismantlement of unjust economic systems—can increase worker power by allowing greater solidarity and organizing across national lines. Caplan, by contrast, wants to assuage public fears that increased immigration is likely to result in <em>any</em> significant political changes. He extensively cites studies that show that immigrants assimilate quickly, vote at slightly lower rates than the general population, and possess political views that are pretty close to the median (albeit slightly more “fiscally liberal” and “socially conservative” than average.) But those studies, to the extent we think they’re reliable, are based upon the present-day pool of immigrants, which is much more limited than what’s envisioned under an open borders regime. It’s hard to say if this is a good predictor of how a much larger influx of immigrants would affect U.S. politics, for example—and ideally, we on the left would <em>want</em> an influx of working-class immigrants to affect U.S. politics, with workers from different parts of the world joining unions and bringing their own political and organizing traditions to bear on U.S. debates.</p>
+
+
+
+<p>It’s also worth mentioning that although Caplan writes predominantly from a libertarian perspective, he pitches open borders as something that pretty much anyone of any ideological persuasion can find moral and practical reasons to support. His goal is to shift the baseline assumption “immigration must be restricted except under X conditions” to “immigration should be open, and any exceptions should be tailored to the specific immigration-related problems a country believes would need to be prevented.” Caplan calls these restrictions to assuage public anxiety “keyhole solutions”: his idea being that <em>any</em> increase in immigration is good, so we should be willing to countenance (at least in the short term) new or ongoing immigration restrictions of various kinds, provided we can gradually increase the number of total people who are allowed to immigrate. Some examples of keyhole solutions he proposes are a) taxing immigrants’ income to offset any negative economic impact on native citizen workers, b) restricting immigrants’ eligibility for all but emergency government services, c) requiring English fluency or cultural literacy tests, and d) raising proportional levels of immigration from non-Muslim countries (i.e. calming Islamophobes’ anxieties about the prospect of a North American caliphate by simply admitting <em>more</em> non-Muslim than Muslim immigrants, so that Muslims perpetually remain a minority group.)</p>
+
+
+
+<p>Caplan concedes that he doesn’t think these keyhole solutions are “fair,” but emphasizes that as long as more people are able to immigrate, the result will still be an improvement on the status quo. There’s a sense in which this is perhaps true—but it’s also rather naïve to believe that these keyhole solutions are a natural stepping-stone to eventual open borders. There’s an equally good chance that these kinds of concessions will just result in the continuing entrenchment of immigrants’ second-class status: by explicitly legislating their position as go-to economic scapegoats for capitalism’s ravages on the vulnerable, by encouraging restrictions that are tailored to favor more “productive” and educated immigrants over the kinds of immigrants Caplan thinks most desperately need to immigrate, by feeding the notion that certain “cultures” are inherently superior to others and that some “dangerous” cultures need to be artificially restricted, regulated, and monitored. A case for open borders that touts these kinds of keyhole solutions as incremental progress toward the eventual goal, rather than as compromises that could derail the movement entirely by authorizing lawmakers to develop even more intricately discriminatory policies than before, doesn’t feel quite adequate.&nbsp;&nbsp;</p>
+
+
+
+<p>One thing that rich, successful people love to tell themselves is that they are rich because of their intelligence, their discipline, and their good habits. It’s a comfortable, self-reinforcing myth. Wealth proves virtue, and everyone else’s lack of wealth proves their lack of virtue. It’s much more comfortable than confronting the fact that vast wealth is accumulated, under the best of circumstances, via blind luck and more commonly by outright theft.&nbsp;The history of the United States and Mexico shows this clearly: the trajectories of our nations’ respective fortunes depended so heavily upon a contingent moment in history, where one nation took a rich territory that had previously belonged to another—a contingency that was then reinforced by many dozens, even hundreds, of additional contingencies, leading the United States to gradually view the hardening of the southern border as politically advantageous. A case for open borders that fails to reckon with past and present exploitation is necessarily going to feel like something between a Pollyanna pipe-dream and a smokescreen for further violent depredations. That’s not to say that Caplan’s arguments have no merit, or that there’s no common ground to be found between leftist and libertarian advocates for open borders. But—in the same way that Caplan’s comic book occasionally throws out a cautionary vision of a closed-borders world of tightly-sealed, totalitarian socialist states—leftist open borders advocates have a mirror nightmare vision, of a world homogenized and subjugated to the whims of the global rich, where people are free to move where they will but their autonomy in each new place only increases by negligible fractions. If we believe that most countries in the world mistreat the poor, then allowing the poor to move from country to country only gets us so far. Open borders are not the solution to global injustice: they are simply a rectification of one injustice among many, creating the opportunity for a more fully international community to tackle other injustices wholesale.</p>
 </section>
-<div id="article-comment-bookmark"></div>
-<section id="article-comments" name="article-comments">
-<button class="show-comments btn btn-lg btn-block btn-primary" style="margin:0 0 15px 0;" data-disqus-url="https://townhall.com/tipsheet/leahbarkoukis/2020/03/27/fauci-you-have-the-private-sector-to-thank-for-wuhan-coronavirus-tests-not-the-govt-system-n2565830">SHOW COMMENTS</button>
-<div id="disqus_thread"></div>
-<script>
-      var disqus_config = function () {
-            this.page.url = "https://townhall.com/tipsheet/leahbarkoukis/2020/03/27/fauci-you-have-the-private-sector-to-thank-for-wuhan-coronavirus-tests-not-the-govt-system-n2565830";
-          this.page.identifier = "https://townhall.com/tipsheet/leahbarkoukis/2020/03/27/fauci-you-have-the-private-sector-to-thank-for-wuhan-coronavirus-tests-not-the-govt-system-n2565830";
-      };
-    $('.show-comments').on('click', function () {
-        $.ajax({
-            type: "GET",
-            url: "//townhallcom.disqus.com/embed.js",
-            dataType: "script",
-            cache: true
-        });
-        $(this).hide();
-    });
-</script>
-</section>
-</div>
-<div class="col-xs-4 article-rail">
-<div class="ad">
-<div id="div-gpt-300x250_1" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_1");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_1"]])
-                    });
-                </script>
-</div>
-</div>
-<div class="article-actions">
-<a href="mailto:?subject=Fauci: You Have the Private Sector To Thank For Wuhan Coronavirus Tests, Not the Gov&#39;t &#39;System&#39; &amp;body=https://townhall.com/tipsheet/leahbarkoukis/2020/03/27/fauci-you-have-the-private-sector-to-thank-for-wuhan-coronavirus-tests-not-the-govt-system-n2565830" class="btn btn-default btn-article-email"><i class="fa fa-envelope"></i></a>
-<a data-url="https://townhall.com/tipsheet/leahbarkoukis/2020/03/27/fauci-you-have-the-private-sector-to-thank-for-wuhan-coronavirus-tests-not-the-govt-system-n2565830/print" onclick="window.open('https://townhall.com/tipsheet/leahbarkoukis/2020/03/27/fauci-you-have-the-private-sector-to-thank-for-wuhan-coronavirus-tests-not-the-govt-system-n2565830/print', 'print-winder', 'width=850,height=700,scrollbars=yes');" class="btn btn-default btn-article-print"><i class="fa fa-print"></i></a>
-<a href="#article-comment-bookmark" class="btn btn-default btn-article-comment"><i class="fa fa-comment"></i></a>
-</div>
-<div class="ad" style="margin-top:10px">
-<div id="div-gpt-300x250_3" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_3");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_3"]])
-                    });
-                </script>
-</div>
-</div>
-<div class="cartoon-widget">
-<div class="cartoon-widget__title"><a href="/political-cartoons">CARTOONS</a>&nbsp;|&nbsp;<a href="/political-cartoons/michaelramirez/">Michael Ramirez</a></div>
-<a class="cartoon-widget__img" href="/political-cartoons/2020/04/18/173115?hpnl=true" style="background-image:url('//media.townhall.com/Townhall/Car/b/mrz041820dAPR20200417044513.jpg');"></a>
-<div class="cartoon-widget__button"><a href="/political-cartoons/2020/04/18/173115?hpnl=true"> View Cartoon <i class="fa fa-arrow-circle-right"></i></a></div>
-</div>
-<div class="sticky-reference">
-<div class="sticky" data-offset-top="55">
-<div class="mpw">
-<div class="mpw__title">Most Popular</div>
-<ul class="list-unstyled mpw__divide">
-<li>
-<div class="row">
-<div class="col-xs-4">
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern  - 312" href="/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2020/104/30b0d531-01a6-4224-85b5-7548e5f3b2a7.jpg" /></a>
-</div>
-<div class="col-xs-8 no-gutter">
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern  - 312" href="/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915">
-<span class="mpw__story">Israeli Professor Shows Virus Follows Fixed Pattern </span>
-</a>
-</div>
-</div>
+
+  </div>
+</article><!--/ article-output -->
+
+
+<aside class="article-petition">
+  <div class="bound">
+    <div class="text">
+      <p>If you enjoyed this article, please consider <a href="http://currentaffairs.org/subscribe">subscribing to our magnificent print edition</a> or <a href="http://currentaffairs.org/donate">making a donation</a>. <em>Current Affairs</em> is 100% reader-supported.</p>
+    </div>
+  </div>
+</aside>
+
+<aside class="article-afterword">
+  <div class="bound">
+
+    
+      <figure class="article-biography" data-biography-type="writer">
+          <p>Brianna Rennix </p>
+          <figcaption><a href="/author/brianna-rennix">More from Brianna Rennix</a></figcaption>
+      </figure>
+    
+      <figure class="article-biography" data-biography-type="writer">
+          <p>Sparky Abraham </p>
+          <figcaption><a href="/author/sparky-abraham">More from Sparky Abraham</a></figcaption>
+      </figure>
+    
+
+    
+    
+  </div>
+</aside>
+
+    
+<!-- ================================================================================ -->
+
+
+<section class="articles-roundup">
+
+  <header class="quadtych-titling ribbon">
+    <div class="bound">
+      <h1>
+        <span>More In:</span>
+        <em>Immigration</em>
+      </h1>
+    </div>
+  </header>
+
+
+  <nav class="quadtych-of-articles">
+    <div class="bound">
+      <ul class="columns">
+        
+          <li class="article">
+  
+  <a href="https://www.currentaffairs.org/2020/04/the-deep-roots-of-greeces-asylum-catastrophe">
+    
+
+    <div class="art lazy" data-bg="url(https://images.currentaffairs.org/2020/04/20151030_Syrians_and_Iraq_refugees_arrive_at_Skala_Sykamias_Lesvos_Greece_2-1024x646.jpg)">
+      <i class="fill"></i>
+    </div> 
+
+    <h1 class="title">The Deep Roots of Greece’s Asylum Catastrophe</h1>
+    <ul class="bylines">
+      
+      <li class="author">Piper French</li>
+      
+    </ul> 
+  </a>
+  
 </li>
-<li>
-<div class="row">
-<div class="col-xs-4">
-<a title="Brutal: Pelosi's Terrible Answer About Why Democrats Keep Blocking Needed Rescue Funds for Small Businesses - 55" href="/tipsheet/guybenson/2020/04/17/listen-pelosis-terrible-answer-about-why-democrats-keep-blocking-needed-rescue-funds-for-small-businesses-n2567120"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2019/143/d59c6b2f-ac5c-46f0-a985-d3b894ad8aae.png" /></a>
-</div>
-<div class="col-xs-8 no-gutter">
-<a title="Brutal: Pelosi's Terrible Answer About Why Democrats Keep Blocking Needed Rescue Funds for Small Businesses - 55" href="/tipsheet/guybenson/2020/04/17/listen-pelosis-terrible-answer-about-why-democrats-keep-blocking-needed-rescue-funds-for-small-businesses-n2567120">
-<span class="mpw__story">Brutal: Pelosi's Terrible Answer About Why Democrats Keep Blocking Needed Rescue Funds for Small Businesses</span>
-</a>
-</div>
-</div>
+
+        
+          <li class="article">
+  
+  <a href="https://www.currentaffairs.org/2020/01/american-dirt-lost-children-archive-and-the-border-dividing-complex-writing-from-sensationalist-exploitation">
+    
+
+    <div class="art lazy" data-bg="url(https://images.currentaffairs.org/2020/01/Border_USA_Mexico-1024x646.jpg)">
+      <i class="fill"></i>
+    </div> 
+
+    <h1 class="title">Sensationalist Exploitation Is Unnecessary</h1>
+    <ul class="bylines">
+      
+      <li class="author">Bárbara Pérez Curiel</li>
+      
+    </ul> 
+  </a>
+  
 </li>
-<li>
-<div class="row">
-<div class="col-xs-4">
-<a title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic - 40" href="/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2018/43/10b23fc2-706b-4096-a312-ab7270db00c0.jpg" /></a>
-</div>
-<div class="col-xs-8 no-gutter">
-<a title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic - 40" href="/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159">
-<span class="mpw__story">Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic</span>
-</a>
-</div>
-</div>
+
+        
+          <li class="article">
+  
+  <a href="https://www.currentaffairs.org/2020/01/what-are-refugee-camps-for">
+    
+
+    <div class="art lazy" data-bg="url(https://images.currentaffairs.org/2019/12/Screen-Shot-2019-12-17-at-11.03.24-AM-1-1024x646.jpg)">
+      <i class="fill"></i>
+    </div> 
+
+    <h1 class="title">What are Refugee Camps for?</h1>
+    <ul class="bylines">
+      
+      <li class="author">Laura Robson</li>
+      
+    </ul> 
+  </a>
+  
 </li>
-</ul>
-</div>
-<div class="ad">
-<div id="div-gpt-300x250_sticky" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_sticky");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_sticky"]])
-                    });
-                </script>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</article>
-<div class="row sticky-stopper">
-<div class="col-xs-12">
-<div class="article-ad-970x90">
-<div id="div-gpt-lazy-728x90_3" data-gpt='{"IncludeInPrebid":true,"Target":"pos","TargetValue":"728x90_3","SectionSlug":"tipsheet","SlotId":0,"DivUniqueId":"div-gpt-lazy-728x90_3","AdSize":"[[728,90],[970,90]]","AdUnitPath":"/6177/slm.townhall/","AdType":0,"AdRenderType":1,"IsYieldBotAmp":false,"IntervalTime":0,"AdParentLocation":0}' class="lazy-ad gpt-ad">
-<script id="pb-div-gpt-lazy-728x90_3" type="application/json">
-                    {"code":"div-gpt-lazy-728x90_3","sizes":[[728,90],[970,90]],"bids":[{"bidder":"openx","params":{"unit":"537998002","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381642"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-lazy-728x90_3@728x90"}},{"bidder":"criteo","params":{"networkId":"7465"}}]}
-                </script>
-</div>
-</div>
-</div>
-</div>
-<section id="trending-on-thm" class="trending">
-<h1 class="trending__title">Trending on Townhall Media</h1>
-<div class="row">
-<div class="col-xs-4">
-<div class="mpw-bordered">
-<div class="mpw">
-<ul class="list-unstyled">
-<li>
-<a title="Hold onto your HATS! Brit Hume shares fact-filled thread on study showing COVID fatality rate just bottomed out to influenza levels - 45" href="https://twitchy.com/samj-3930/2020/04/17/hold-onto-your-hats-brit-hume-shares-fact-filled-thread-on-study-showing-covid-fatality-rate-just-bottomed-out-to-influenza-levels/">
-<span class="mpw__story">Hold onto your HATS! Brit Hume shares fact-filled thread on study showing COVID fatality rate just bottomed out to influenza levels</span>
-</a>
-<div class="mpw__domain" style="color:#F27B21;">
-Twitchy
-</div>
+
+        
+          <li class="article">
+  
+  <a href="https://www.currentaffairs.org/2019/12/somebodys-baby">
+    
+
+    <div class="art lazy" data-bg="url(https://images.currentaffairs.org/2019/12/31364575900_7e14e59f02_k-1024x646.jpg)">
+      <i class="fill"></i>
+    </div> 
+
+    <h1 class="title">Somebody&#8217;s Baby</h1>
+    <ul class="bylines">
+      
+      <li class="author">Maximillian Alvarez</li>
+      
+    </ul> 
+  </a>
+  
 </li>
-<li>
-<a title="HUGE: The UK Just Dumped China&#39;s Huawei in 5G Tech Roll-Out — Citing its Lies Over Coronavirus. - 54" href="https://pjmedia.com/trending/huge-the-uk-just-dumped-chinas-huawei-in-5g-tech-roll-out-citing-its-lies-over-coronavirus/">
-<span class="mpw__story">HUGE: The UK Just Dumped China&#39;s Huawei in 5G Tech Roll-Out — Citing its Lies Over Coronavirus.</span>
-</a>
-<div class="mpw__domain" style="color:#00a99d;">
-PJ Media
-</div>
-</li>
-<li>
-<a title="English Professor Hopes To Revive Debate Over Militia Clause Of 2A - 8" href="https://bearingarms.com/cam-e/2020/04/15/english-professor-hopes-to-revive-debate-over-militia-clause-of-2a/">
-<span class="mpw__story">English Professor Hopes To Revive Debate Over Militia Clause Of 2A</span>
-</a>
-<div class="mpw__domain" style="color:#ADADAD;">
-Bearing Arms
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-xs-8">
-<div class="row">
-<div class="col-xs-12">
-<div class="xl-story">
-<div class="xl-story__img">
-<a target="_top" class="lazy" href="https://townhall.com/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915" data-src="https://media.townhall.com/townhall/reu/ha/2020/104/30b0d531-01a6-4224-85b5-7548e5f3b2a7.jpg">
-&nbsp;
-</a>
-</div>
-<div class="xl-story__summary">
-<h1>
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern " href="https://townhall.com/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915">Israeli Professor Shows Virus Follows Fixed Pattern </a>
-</h1>
-<h5 style="color:#ba224b">Townhall</h5>
-</div>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-6">
- <div class="sm-story">
-<div class="sm-story__text">
-<a title="Strassel: Here&amp;#8217;s Why the Democrats Keep Moving the Shutdown Goal Posts" href="https://www.redstate.com/elizabeth-vaughn/2020/04/17/820436/">Strassel: Here&#8217;s Why the Democrats Keep Moving the Shutdown Goal Posts</a>
-</div>
-<div class="sm-story__flavor" style="color:#CB0809">Redstate</div>
-</div>
-</div>
-<div class="col-xs-6">
-<div class="sm-story">
-<div class="sm-story__text">
-<a title="The results are in on the Texas nursing home using hydroxychloroquine" href="https://hotair.com/archives/karen-townsend/2020/04/17/results-texas-nursing-home-using-hydroxychloroquine/">The results are in on the Texas nursing home using hydroxychloroquine</a>
-</div>
-<div class="sm-story__flavor" style="color:#CD2628">Hotair</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+
+        
+      </ul>
+    </div>
+  </nav>
+
 </section>
-</div>
-<div class="thm-piano-pfixed"></div>
-</div>
-<footer class="sticky-stopper">
-<section class="footer-brands">
-<div class="container">
-<ul class="list-inline list-unstyled">
-<li><a href="https://townhall.com"><img src="https://media.townhall.com/thm/th_logo1.png" alt="" /></a></li>
-<li><a href="https://hotair.com"><img src="https://media.townhall.com/thm/ha_logo1.png" alt="" /></a></li>
-<li><a href="https://bearingarms.com"><img src="https://media.townhall.com/thm/ba_logo1.png" alt="" /></a> </li>
-<li><a href="https://twitchy.com"><img src="https://media.townhall.com/thm/tw_logo1.png" alt="" /></a></li>
-<li><a href="https://redstate.com"><img src="https://media.townhall.com/thm/rs_logo1.png" alt="" /></a></li>
-<li><a href="https://pjmedia.com" target="_blank"><img src="https://media.townhall.com/thm/pj-media.png" style="width:100px;height:45px;" alt="PJ Media" /></a></li>
-</ul>
-</div>
+
+
+
+<section class="newest-issue">
+  <div class="bound">
+    <div class="plate lazy" data-bg="url(/static/images/ornament-giant-fleur.png)">
+      <div class="columns">
+        <div class="art">
+          <div class="art-inner">
+            <img alt="Cover of latest issue of print magazine" class="lazy" data-src="/static/images/issue4v4.jpg"/>
+          </div>
+        </div>
+        <div class="text">
+          <div class="text-inner">
+
+            <h1>
+              <span>Announcing Our</span>
+              <mark>Newest Issue</mark>
+            </h1>
+
+            <div class="teaser">
+              <div class="teaser">
+                <h2>Featuring</h2>
+                <p>Spreading Sweetness and Light! Current Affairs takes on hellfire, why teens love socialism, the magic of Motown, and the legacy of Huey Long. Cover art by Aleksandra Waliszewska. </p>
+              </div>
+            </div>
+
+            <footer class="action">
+              <a class="boxy" href="https://www.currentaffairs.org/store/product/44">Show Me More</a>
+            </footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
-<section class="footer-links">
-<div class="container">
-<ul class="list-inline list-unstyled">
-<li><a title="Conservative Columnists" href="/columnists">Columnists</a></li>
-<li><a href="/political-cartoons">Political Cartoons</a></li>
-<li><a href="/tipsheet">Tipsheet</a> </li>
-<li><a href="/tv">Townhall TV</a> </li>
-<li><a href="/podcasts">Podcasts</a> </li>
-<li><a title="Conservative News" href="/news">Radio News</a></li>
-<li><a title="Conservative Video" href="/video">Video</a></li>
-<li><a title="Conservative Entertainment" href="/entertainment">Entertainment</a></li>
-<li><a title="VIP" href="/vip">VIP</a></li>
-<li><a title="Conservative Capitol Voices" href="/capitol-voices">Capitol Voices</a></li>
-</ul>
-<ul class="list-inline list-unstyled">
-<li><a href="/election">Election Results</a></li>
-<li><a href="/tags/">Tags</a></li>
-<li><a href="http://finance.townhall.com">Finance</a></li>
-<li><a href="#" onclick="javascript:window.open('http://saleminteractivemedia.com/ListenLive/Player/TOWNIR','TOWNIR','width=800,height=710');">Townhall Radio</a></li>
-</ul>
-<ul class="list-inline list-unstyled">
-<li><a href="/aboutus">About Townhall</a></li>
-<li><a href="http://townhallmedia.com/">Advertise</a></li>
-<li><a href="https://townhall.com/tags/gift-guides/">Gift Guides</a></li>
-<li><a href="https://media.townhall.com/townhall/privacypolicy/privacypolicy.htm">Privacy Policy</a></li>
-<li><a href="https://media.townhall.com/townhall/privacypolicy/TermsofUse.htm">Terms of Use</a></li>
-<li><span class="thm-cpa"><a href="/donotsell" rel="nofollow">California - Do Not Sell My Personal Information</a></span></li>
-<li><a target="_blank" href="http://www.conservativeradio.com/">Radio Stations</a></li>
-<li><a href="/sitemap.htm">Sitemap</a></li>
-<li><a href="/pages/townhall_jobs">Jobs </a></li>
-<li><a href="/contact-us/">Contact Us</a></li>
-<li><a href="/newslettersignup/">Newsletters</a></li>
-<li><a href="/mobile-apps">iPhone/Android Apps</a></li>
-</ul>
-</div>
-</section>
-<section class="under-footer">
-<div class="container">
-<div class="row">
-<hr>
-<div class="col-xs-4">
-<a href="/">
-<img alt="Townhall.com" src="https://media.townhall.com/_townhall/resources/images/thmplus.png">
-<img style="width: 155px;height:40px;" alt="Townhall.com" src="/resources/th_logo.svg">
-</a>
-</div>
-<div class="col-xs-8">
-<p class="copyright" style="margin-top:12px;">
-Townhall.com is the leading source for conservative news and political commentary and analysis.<br>
-Copyright &copy; Townhall.com/Salem Media. All Rights Reserved. <a href="https://media.townhall.com/townhall/privacypolicy/TermsofUse.htm" target="_blank">Terms</a> under which this service
-is provided to you
-</p>
-</div>
-</div>
-</div>
-</section>
-<div id="div-gpt-oop" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-oop");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-oop"]])
-                    });
-                </script>
-</div>
+
+
+
+<section class="articles-roundup">
+
+  <header class="quadtych-titling wreath">
+    <div class="bound">
+      <h1>
+        <span>The Latest From <em>Current Affairs</em></span>
+      </h1>
+    </div>
+  </header>
+
+  <nav class="quadtych-of-articles">
+    <div class="bound">
+        <ul class="columns">
+          
+           <li class="article">
+  
+  <a href="https://www.currentaffairs.org/2020/04/the-very-least-we-could-do-is-name-the-maywood-illinois-post-office-after-john-prine">
+    
+
+    <div class="art lazy" data-bg="url(https://images.currentaffairs.org/2020/04/johnprine-1024x646.jpg)">
+      <i class="fill"></i>
+    </div> 
+
+    <h1 class="title">The Very Least We Could Do is Name the Maywood, IL Post Office After John Prine</h1>
+    <ul class="bylines">
+      
+      <li class="author">Pete Davis</li>
+      
+    </ul> 
+  </a>
+  
+</li>
+
+          
+           <li class="article">
+  
+  <a href="https://www.currentaffairs.org/2020/04/notes-on-a-nightmare-5-the-chinese-virus">
+    
+
+    <div class="art lazy" data-bg="url(https://images.currentaffairs.org/2020/04/spikyboi-1024x646.jpg)">
+      <i class="fill"></i>
+    </div> 
+
+    <h1 class="title">Notes on a Nightmare #5: The &#8220;Chinese Virus&#8221;</h1>
+    <ul class="bylines">
+      
+      <li class="author">Nathan J. Robinson</li>
+      
+    </ul> 
+  </a>
+  
+</li>
+
+          
+           <li class="article">
+  
+  <a href="https://www.currentaffairs.org/2020/04/evaluating-tara-reades-claims">
+    
+
+    <div class="art lazy" data-bg="url(https://images.currentaffairs.org/2020/04/taraforca-1024x646.jpg)">
+      <i class="fill"></i>
+    </div> 
+
+    <h1 class="title">Evaluating Tara Reade’s Allegation Against Joe Biden</h1>
+    <ul class="bylines">
+      
+      <li class="author">Nathan J. Robinson</li>
+      
+    </ul> 
+  </a>
+  
+</li>
+
+          
+           <li class="article">
+  
+  <a href="https://www.currentaffairs.org/2020/04/how-to-organize">
+    
+
+    <div class="art lazy" data-bg="url(https://images.currentaffairs.org/2020/04/organization-152809-1024x646.png)">
+      <i class="fill"></i>
+    </div> 
+
+    <h1 class="title">How To Organize</h1>
+    <ul class="bylines">
+      
+      <li class="author">Cate Root</li>
+      
+    </ul> 
+  </a>
+  
+</li>
+
+          
+        </ul>
+      </div>
+    </nav></section>
+
+<aside class="newsletter-signup">
+  <div class="bound">
+
+    <div class="pithy-appeal">
+      <span class="sneer">
+        <i>Why,</i>
+        <i>you’d have</i>
+        <i>to be an</i>
+        <i>uncultured</i>
+        <i>rube to not</i>
+        <i>sign</i>
+        <i>up for</i>
+      </span>
+      <mark class="proclamation">
+        <i class="definite-article">The</i>
+        <i class="title">Current Affairs <b class="hyphenate">News­letter</b></i>
+      </mark>
+    </div>
+
+
+
+    <div class="substantive-signup-form">
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+      <div id="mc_embed_signup">
+  <form action="https://currentaffairs.us18.list-manage.com/subscribe/post?u=e6cb9720181d518f966bb21f4&id=36cf1827ae" class="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate target="_blank">
+    <div id="mc_embed_signup_scroll">
+      
+      <!--
+      <h2>Subscribe</h2>
+      -->
+
+      <!--
+      <div class="indicates-required">
+        <span class="asterisk">*</span> indicates required
+      </div>
+      -->
+
+      <div class="mc-field-group email-collection-container">
+        <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+        <input class="required email" id="mce-EMAIL" name="EMAIL" placeholder="name@example.com" type="email" value/>
+      </div>
+
+      <!--
+      <div class="mc-field-group">
+        <label for="mce-FNAME">First Name</label> <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+      </div>
+      <div class="mc-field-group">
+        <label for="mce-LNAME">Last Name</label> <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+      </div>
+      <div class="mc-field-group size1of2">
+        <label for="mce-BIRTHDAY-month">Birthday</label>
+        <div class="datefield">
+          <span class="subfield monthfield"><input class="birthday" type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"></span> / <span class="subfield dayfield"><input class="birthday" type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"></span> <span class="small-meta nowrap">( mm / dd )</span>
+        </div>
+      </div>
+      -->
+
+      <div class="clear" id="mce-responses">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div><!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div aria-hidden="true" style="position: absolute; left: -5000px;">
+        <input name="b_e6cb9720181d518f966bb21f4_36cf1827ae" tabindex="-1" type="text" value/>
+      </div>
+      <div class="clear submit-container">
+        <input class="button" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Sign Me Up"/>
+      </div>
+
+    </div>
+  </form>
+</div><!--End mc_embed_signup-->
+
+
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+    </div><!--/ .substantive-signup-form -->
+
+
+
+  </div>
+</aside>
+
+
+
+
+  
+    
+      <aside class="featured-product">
+          <div class="bound">
+            <div class="plate">
+              <div class="columns">
+                <div class="art">
+                  <div class="art-inner">
+                    <img alt="Poster: Circles of Hell" class="lazy" data-src="https://s3.currentaffairs.org/products/2618435404488891909.jpg"/>
+                  </div>
+                </div>
+                <div class="text">
+                  <div class="text-inner">
+
+                    <h1 class="title">Poster: Circles of Hell</h1>
+                    <div class="desc">
+                      Editor Nathan J. Robinson's very favorite thing that the magazine has ever published! Illustrator Chelsea Saunders delivers righteous punishment to all the targets of the Current Affairs editors' collective ire. [Measures 31" x 22"]
+                    </div>
+                    <footer class="action">
+                      <a href="/store/product/33">Buy Now</a>
+                    </footer>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      
+  
+
+
+<nav class="evergreen-plugs-triptych">
+  <div class="bound">
+    <ul class="columns">
+
+      <li>
+        <dl>
+          <dt>
+            <a href="/podcast">Podcast</a>
+          </dt>
+          <dd>
+            <p>Every other week our editorial team brings you a mixture of discussion, analysis, and whimsy.</p>
+          </dd>
+        </dl>
+      </li>
+
+      <li>
+        <dl>
+          <dt>
+            <a href="/store">Shop</a>
+          </dt>
+          <dd>
+            <p>An excellent way to demonstrate to passersby that you are an individual of unusually well-cultivated taste.</p>
+          </dd>
+        </dl>
+      </li>
+
+      <li>
+        <dl>
+          <dt>
+            <a href="/donate">Donate</a>
+          </dt>
+          <dd>
+            <p>We have two missions: to produce the world's first readable political publication and to make life joyful again.</p>
+          </dd>
+        </dl>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+
+
+<aside class="subscribe-block">
+  <div class="bound">
+    <img alt="Montage of pages from the Current Affairs print magazine" class="lazy" data-src="/static/images/ornament-subscribe-motif.png"/>
+    <h1>Subscribe</h1>
+    <div class="essay">
+      <p>A <em>Current Affairs</em> subscription is one of the best known ways to improve your life in a hurry. Our print magazine is released six times a year, in a beautiful full-color edition full of elegant design, sophisticated prose, and satirical advertisements.</p>
+    </div>
+    <footer class="action">
+      <a class="internal boxy" href="/subscribe">Tell me more</a>
+    </footer>
+  </div>
+</aside>
+
+<footer class="site-footer">
+  <div class="bound">
+    <h1 class="brand">
+      <a href="/">Current Affairs</a>
+    </h1>
+    <div class="quadtych">
+
+        <ul>
+          <li>© 2019 Current Affairs</li>
+          <li><a href="/cdn-cgi/l/email-protection#4d28292439223f0d2e383f3f2823392c2b2b2c243f3e63223f2a"><span class="__cf_email__" data-cfemail="791c1d100d160b391a0c0b0b1c170d181f1f18100b0a57160b1e">[email&#160;protected]</span></a></li>
+          <li class="social"><a class="twitter" href="https://twitter.com/curaffairs">/curaffairs</a></li>
+          <li class="social"><a class="facebook" href="https://facebook.com/curaffairs">/curaffairs</a></li>
+        </ul>
+
+    </div>
+    <aside class="cities">
+      <ul>
+        <li>New Orleans</li>
+        <li>London</li>
+        <li>Delhi</li>
+        <li>Rio</li>
+        <li>Tokyo</li>
+        <li>Stockholm</li>
+        <li>Lawrence</li>
+      </ul>
+    </aside>
+    <aside class="design-credit">
+      <a href="https://jonwhitestudio.com" title="Jon White">Design</a>
+    </aside>
+  </div>
 </footer>
-<script>(function(src){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=src;var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})("https://experience.tinypass.com/xbuilder/experience/load?aid=tSxoqtcFa7");</script>
-<div id="login-form"></div> <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
-<script src="/resources/dist/js/site.min.js?v=24"></script>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script>
-    tp = window["tp"] || [];
-    tp.push(["setTags", ["thm:article","coronavirus","anthony-fauci","steph-curry"]]);
-</script>
-<script type="text/javascript">
-        console.info("The End: ", window.performance.now());
-        console.info("Device: ", "Desktop");
-    </script>
-<div class="thm-piano-bottom"></div>
-</body>
+
+
+
+
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/static/1585673150/js/footnotes.js" type="text/javascript"></script>
+
+
+  </body>
 </html>
+

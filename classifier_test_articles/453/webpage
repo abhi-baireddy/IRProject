@@ -1,214 +1,875 @@
-<!DOCTYPE html>
-<html lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# op: http://media.facebook.com/op# article: http://ogp.me/ns/article#" class="post-tmpl-default single single-post pid-12604417 tf-single pt-post c-politics">
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<link rel="dns-prefetch" href="https://www.google-analytics.com">
-	<link rel="dns-prefetch" href="https://connect.facebook.net">
-	<link rel="dns-prefetch" href="https://ib.adnxs.com">
-	<link rel="dns-prefetch" href="https://api.sail-personalize.com">
-	<link rel="dns-prefetch" href="https://adservice.google.com">
-	<link rel="dns-prefetch" href="https://cdn.ampproject.org">
-	<link rel="dns-prefetch" href="https://www.gstatic.com">
-	<link rel="dns-prefetch" href="https://fonts.gstatic.com">
-	<link rel="dns-prefetch" href="https://fonts.googleapis.com">
-	<link rel="dns-prefetch" href="https://staticxx.facebook.com">
-	<link rel="dns-prefetch" href="https://breitbartproduction.disqus.com">
-	<link rel="dns-prefetch" href="https://secure.quantserve.com">
-	<link rel="dns-prefetch" href="https://pixel.quantserve.com">
-	<link rel="preload" href="/t/style-065417609590353911314.css" as="style">
-	<link rel="preload" href="/t/assets/fonts/bbn.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="/t/style-065417609590353911314.js" as="script">
-	<link rel="preload" href="/t/assets/js/prebid-6.js" as="script">
-	<link rel="preload" href="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" as="script">
-	<link rel="preload" href="https://cdn.jsdelivr.net/npm/store-js@2.0.4/dist/store.legacy.min.js" as="script">
-	<link href="/t/style-065417609590353911314.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
-	<meta property="fb:pages" content="95475020353">
+<!--
+  _____ _   _ ____  ____  _   _ _   _
+ | ____| \ | |  _ \|  _ \| | | | \ | |
+ |  _| |  \| | | | | |_) | | | |  \| |
+ | |___| |\  | |_| |  _ <| |_| | |\  |
+ |_____|_| \_|____/|_| \_\\___/|_| \_|
 
-	<meta name="apple-itunes-app" content="app-id=722987199">
-	<meta name="google-play-app" content="app-id=com.breitbart.app">
-	<meta name="ahrefs-site-verification" content="e5213d6c4a07fe85baa34006f2a9a3c977bd8f3a50fd0ab6d2aa93844e0b3303">
+-->
+<link href="https://d1n0c1ufntxbvh.cloudfront.net" rel="dns-prefetch" /> <!-- photo -->
+<link href="https://d63kb4t2ifcex.cloudfront.net" rel="dns-prefetch" />  <!-- story-assets -->
+<link href="https://use.typekit.net" rel="dns-prefetch" />
+<link rel="icon" href="https://www.themarshallproject.org/favicon.ico?v=2"/>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"c751a71187","applicationID":"5052876","transactionName":"eltZFkQNWFpSExcWE1tYXgEZEltFQw==","queueTime":6,"applicationTime":262,"agent":""}</script>
+<script>(window.NREUM||(NREUM={})).loader_config={licenseKey:"c751a71187",applicationID:"5052876"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
 
-	<link rel="home" href="https://www.breitbart.com" title="Breitbart.com">
-	<link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml">
-	<link rel="alternate" type="application/rss+xml" href="https://feeds.feedburner.com/breitbart" title="Breitbart News Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-	<link rel="mask-icon" href="/favicon.svg" color="#ff5500">
-	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-	<link rel="icon" href="/favicon.png" sizes="192x192">
-	<link rel="manifest" href="/manifest.json">
-	<title>U.S. Airlines Worry Thunberg’s Flight Shame Campaign Damaging</title>
-	<meta name="description" content="U.S. airlines worry that climate change teen Greta Thunberg’s campaign to make people feel “flight shame” could reduce demand for air travel.">
-	<link rel="canonical" href="https://www.breitbart.com/politics/2020/02/07/u-s-airlines-worry-greta-thunbergs-flight-shame-campaign-could-hurt-industry/">
-	<link rel="publisher" href="https://plus.google.com/110812411499982071387">
-	<meta property="og:locale" content="en_US">
-	<meta property="og:type" content="article">
-	<meta property="og:title" content="U.S. Airlines Worry Thunberg’s Flight Shame Campaign Damaging">
-	<meta property="og:description" content="U.S. airlines worry that climate change teen Greta Thunberg’s campaign to make people feel “flight shame” could reduce demand for air travel.">
-	<meta property="og:url" content="https://www.breitbart.com/politics/2020/02/07/u-s-airlines-worry-greta-thunbergs-flight-shame-campaign-could-hurt-industry/">
-	<meta property="og:site_name" content="Breitbart">
-	<meta property="article:publisher" content="https://www.facebook.com/Breitbart">
-	<meta property="article:tag" content="airlines">
-	<meta property="article:tag" content="American">
-	<meta property="article:tag" content="carbon offsets">
-	<meta property="article:tag" content="Climate Change">
-	<meta property="article:tag" content="Delta">
-	<meta property="article:tag" content="flight shame">
-	<meta property="article:tag" content="Greta Thungerg">
-	<meta property="article:tag" content="Jet Blue">
-	<meta property="article:tag" content="United">
-	<meta property="article:section" content="Politics">
-	<meta property="article:published_time" content="2020-02-07T17:08:38+00:00">
-	<meta property="fb:app_id" content="1243316582352556">
-	<meta property="og:image" content="https://media.breitbart.com/media/2020/02/airport-departure-flying-passenger-640x335.jpg">
-	<meta property="og:image:secure_url" content="https://media.breitbart.com/media/2020/02/airport-departure-flying-passenger-640x335.jpg">
-	<meta property="og:image:width" content="640">
-	<meta property="og:image:height" content="335">
-	<meta property="og:image:alt" content="airlines">
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:description" content="U.S. airlines worry that climate change teen Greta Thunberg’s campaign to make people feel “flight shame” could reduce demand for air travel.">
-	<meta name="twitter:title" content="U.S. Airlines Worry Thunberg’s Flight Shame Campaign Damaging">
-	<meta name="twitter:site" content="@BreitbartNews">
-	<meta name="twitter:image" content="https://media.breitbart.com/media/2020/02/airport-departure-flying-passenger.jpg">
-	<meta name="twitter:creator" content="@BreitbartNews">
-	<script type="application/ld+json">
-	{"@context":["https:\/\/schema.org",{"@base":"https:\/\/www.breitbart.com\/politics\/2020\/02\/07\/u-s-airlines-worry-greta-thunbergs-flight-shame-campaign-could-hurt-industry\/"}],"@graph":[{"@type":"NewsMediaOrganization","@id":"https:\/\/www.breitbart.com\/#organization","url":"https:\/\/www.breitbart.com\/","name":"Breitbart","alternateName":"Breitbart News","sameAs":["https:\/\/www.facebook.com\/Breitbart","https:\/\/twitter.com\/BreitbartNews","https:\/\/www.youtube.com\/channel\/UCmgnsaQIK1IR808Ebde-ssA","https:\/\/www.instagram.com\/wearebreitbart\/","https:\/\/soundcloud.com\/breitbart","https:\/\/parler.com\/profile\/BreitbartNews"],"logo":{"@type":"ImageObject","@id":"https:\/\/www.breitbart.com\/#logo","url":"https:\/\/www.breitbart.com\/t\/assets\/i\/BB-logo-highres-1024x1024.png","caption":"Breitbart"},"description":"Source of breaking news and analysis, insightful commentary and original reporting, curated and written specifically for the new generation of independent and conservative thinkers.","masthead":"https:\/\/www.breitbart.com\/masthead\/","founder":{"@type":"Person","name":"Andrew Breitbart","familyName":"Breitbart","givenName":"Andrew"},"foundingLocation":{"@type":"City","name":"Los Angeles"},"foundingDate":"2005-09-01","address":{"@type":"PostalAddress","addressCountry":"USA"}},{"@type":"WebSite","@id":"https:\/\/www.breitbart.com\/#website","url":"https:\/\/www.breitbart.com\/","name":"Breitbart","alternateName":"Breitbart News","publisher":{"@id":"https:\/\/www.breitbart.com\/#organization"},"image":{"@type":"ImageObject","url":"https:\/\/media.breitbart.com\/media\/2017\/01\/amp-logo2.png"}},{"@type":"WebPage","@id":"#webpage","url":"https:\/\/www.breitbart.com\/politics\/2020\/02\/07\/u-s-airlines-worry-greta-thunbergs-flight-shame-campaign-could-hurt-industry\/","inLanguage":"en-US","name":"U.S. Airlines Worry Greta Thunberg\u2019s Flight Shame Campaign Could Hurt Industry","datePublished":"2020-04-18T05:51:26+00:00","dateModified":"2020-04-18T05:51:26+00:00","isPartOf":{"@id":"https:\/\/www.breitbart.com\/#website"},"breadcrumb":{"@id":"#breadcrumb"},"primaryImageOfPage":{"@id":"#primaryimage"},"author":{"@id":"#author"}},{"@type":"ImageObject","width":1280,"height":960,"url":"https:\/\/media.breitbart.com\/media\/2020\/02\/airport-departure-flying-passenger.jpg","copyrightHolder":"Suganth via Unsplash","name":"airport departure flying passenger","caption":"travel","description":"departure","@id":"#primaryimage"},{"@id":"#breadcrumb","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/www.breitbart.com\/politics\/","name":"Politics"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/www.breitbart.com\/politics\/2020\/02\/07\/","name":"2020\/02\/07"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/www.breitbart.com\/politics\/2020\/02\/07\/u-s-airlines-worry-greta-thunbergs-flight-shame-campaign-could-hurt-industry\/#webpage","name":"U.S. Airlines Worry Greta Thunberg\u2019s Flight Shame Campaign Could Hurt Industry"}}]},{"@type":"NewsArticle","@id":"https:\/\/www.breitbart.com\/politics\/2020\/02\/07\/u-s-airlines-worry-greta-thunbergs-flight-shame-campaign-could-hurt-industry\/","url":"https:\/\/www.breitbart.com\/politics\/2020\/02\/07\/u-s-airlines-worry-greta-thunbergs-flight-shame-campaign-could-hurt-industry\/","headline":"U.S. Airlines Worry Greta Thunberg\u2019s Flight Shame Campaign Could Hurt Industry","alternativeHeadline":"Teen climate activist Greta Thunberg\u2019s campaign to make people feel \u201cflight shame\u201d if they travel by plane has led to the reduction of bookings in her native Sweden. Now the U.S. airline industry is worried that the trend could take hold in this country.","alternateName":"U.S. Airlines Worry Thunberg\u2019s Flight Shame Campaign Damaging","description":"Teen climate activist Greta Thunberg\u2019s campaign to make people feel \u201cflight shame\u201d if they travel by plane has led to the reduction of bookings in her native Sweden. Now the U.S. airline industry is worried that the trend could take hold in this country.","keywords":["airlines","American","carbon offsets","Climate Change","Delta","flight shame","Greta Thungerg","Jet Blue","United"],"articleSection":"Politics","genre":["Environment","Politics"],"dateCreated":"2020-02-07T09:05:38+00:00","datePublished":"2020-02-07T09:08:38+00:00","dateModified":"2020-02-07T09:08:38+00:00","wordCount":585,"author":{"@type":"Person","@id":"#author","url":"https:\/\/www.breitbart.com\/author\/penny-starr\/","name":"Penny Starr","givenName":"Penny","familyName":"Starr","worksFor":{"@id":"https:\/\/www.breitbart.com\/#organization"},"image":{"@type":"ImageObject","url":"https:\/\/media.breitbart.com\/media\/authors\/80x100\/1pstarr.png","caption":"Author Penny Starr"}},"audio":{"@type":"AudioObject","contentUrl":"https:\/\/media.breitbart.com\/media\/2020\/02\/u-s-airlines-worry-greta-thunbergs-flight-shame-campaign-could-hurt-industry-12604417.mp3","embedUrl":"https:\/\/www.breitbart.com\/politics\/2020\/02\/07\/u-s-airlines-worry-greta-thunbergs-flight-shame-campaign-could-hurt-industry\/","name":"u-s-airlines-worry-greta-thunbergs-flight-shame-campaign-could-hurt-industry-12604417.mp3","description":"Audio transcript for: U.S. Airlines Worry Greta Thunberg\u2019s Flight Shame Campaign Could Hurt Industry","duration":"PT3M47S","uploadDate":"2020-02-07T09:08:38+00:00","encodingFormat":"audio\/mpeg"},"about":"U.S. airlines","mainEntityOfPage":"https:\/\/www.breitbart.com\/politics\/2020\/02\/07\/u-s-airlines-worry-greta-thunbergs-flight-shame-campaign-could-hurt-industry\/","inLanguage":"en-US","publisher":{"@id":"https:\/\/www.breitbart.com\/#organization"},"speakable":{"@type":"SpeakableSpecification","cssSelector":["article header","article .entry-content"]},"isPartOf":{"@id":"#webpage"},"copyrightHolder":{"@id":"https:\/\/www.breitbart.com\/#organization"},"copyrightYear":"2020","sourceOrganization":{"@id":"https:\/\/www.breitbart.com\/#organization"},"image":{"@id":"#primaryimage"},"thumbnailUrl":"https:\/\/media.breitbart.com\/media\/2020\/02\/airport-departure-flying-passenger-640x335.jpg","dateline":"Penny Starr, Breitbart News"}]}		</script>
-	<link rel="alternate" href="https://www.breitbart.com/politics/2020/02/07/u-s-airlines-worry-greta-thunbergs-flight-shame-campaign-could-hurt-industry/" hreflang="en-us">
-	<meta content="Penny Starr" name="author">
-	<meta content="airlines,American,carbon offsets,Climate Change,Delta,flight shame,Greta Thungerg,Jet Blue,United" name="news_keywords">
-	<meta content="2020-02-07T09:08:38Z" name="pubdate">
-	<meta content="2020-02-07T09:08:38Z" name="lastmod">
-	<meta content="1587189166" name="reqtime">
-	<meta content="1587189166" name="time">
-	<meta property="og:article:author:image" content="https://media.breitbart.com/media/authors/145x100/1pstarr.png">
-	<meta property="article:categories" content="Politics,Environment">
-	<link rel="amphtml" href="https://www.breitbart.com/politics/2020/02/07/u-s-airlines-worry-greta-thunbergs-flight-shame-campaign-could-hurt-industry/amp/"><script>var BB_G={D:!1,lock:'65417609590353911314',doing_popup:0,fired:{},OB_ACTIONS:{}};function gmx_set_video_loop_observer(){function e(e){e.src=e.getAttribute("data-harry"),e.removeAttribute("data-harry"),e.classList.remove("lazy-loop")}var t=[].slice.call(document.querySelectorAll("video.lazy-loop[data-harry]"));if(t&&t.length)if(t.forEach((function(e){e.addEventListener("timeupdate",(function(){this.currentTime>this.dataset.end&&(this.currentTime=this.dataset.start,this.play())}),!1)})),"IntersectionObserver"in window){var r=new IntersectionObserver((function(t,r){t.forEach((function(t){t.isIntersecting&&t.target&&(r.unobserve(t.target),e(t.target))}))}),{rootMargin:"50px 0px 50px 0px"});t.forEach((function(e){r.observe(e)}))}else t.forEach(e)}function gmx_set_observers(){if(!gmx_set_observers.ra){if(gmx_set_observers.ra=!0,"IntersectionObserver"in window){var e=new IntersectionObserver((function(e,t){e.forEach((function(e){e.isIntersecting&&e.target&&(t.unobserve(e.target),r(e.target))}))}),{rootMargin:"550px 0px 550px 0px",threshold:0});if(document.querySelectorAll("img[data-src]").forEach((function(t){e.observe(t)})),ISC_IS.home){var t=new IntersectionObserver((function(t,i){t.forEach((function(t){if(t.isIntersecting){i.unobserve(t.target),t.target.querySelectorAll("[data-src]").forEach((function(t){e.unobserve(t),r(t)}));var o=function(){var e;e=t.target,"function"==typeof window.fix_grid_block&&fix_grid_block(0,e)};o(),setTimeout(o,1e3),setTimeout(o,3e3)}}))}),{rootMargin:"3400px 0px 3000px 0px",threshold:0});document.querySelectorAll(".gb").forEach((function(e){t.observe(e)}))}}ISC_IS.home_vertical&&gmx_set_video_loop_observer()}function r(e){var t=e.getAttribute("data-src");t&&(e.src=t,e.removeAttribute("data-src"),e.removeAttribute("data-qazy"))}}if(function(e,t){function r(e,t){return e.indexOf(t)>-1}!function(r,i){e.fetch&&e.Promise&&Object.assign&&e.Map&&e.IntersectionObserver&&[].includes||(["fetch","Promise","IntersectionObserver","matchMedia"].forEach((function(t){t in e||r.push(t)})),(i=t.createElement("script")).src="//cdn.polyfill.io/v3/polyfill.min.js?features="+r.join(",")+"&flags=gated",i.async=!0,t.documentElement.appendChild(i))}([]);var i=t.documentElement,o=e.location,a=o.pathname,n=o.host,s=o.href,c=e.screen,d=i.className,l=e.navigator,u=Date.now(),m="userAgent"in l?l.userAgent:"",b="cookie"in t&&"string"==typeof t.cookie?t.cookie:"",f="gmx_h=",p={mobile:/Mobile|BB10|Android|Silk|Kindle|Opera (Mini|Mobi)|webOS|iP(hone|od)|BlackBerry/i.test(m),mobileP:/Mobi/i.test(m),tablet:/tablet|ipad|playbook|silk/i.test(m),li:r(b,"m8s2f7"),preview:r(s,"preview=true")&&r(s,"preview_id="),single:r(d,"single"),home:r(d,"home"),video:r(a,"/video/")||r(a,"/clips/"),wire:r(a,"/news/")||r(d,"-wire"),error:r(d,"error404"),search:r(a,"/search/"),framed:e!==e.parent,qazy:"IntersectionObserver"in e,ads:/(www|wp)\.breitbart\.com/.test(n)||r(n,"scsta")||r(n,"nntec"),t:{},adblock:3,cookie:"cookieEnabled"in l&&!!l.cookieEnabled,subbed:r(b,"ci2su"),views_y:0,views_w:0,views_d:0,g:r(b,f)?r(b,f+"A")?"A":r(b,f+"B")?"B":"C":u%2==0?"A":"B",t_50:u%2==0,t_33:u%3==0,t_25:u%4==0,t_20:u%5==0,t_15:u%7==0,t_10:u%10==0,t_5:u%20==0};p.ads=p.ads&&!p.framed,p.qazy=p.qazy&&!p.framed,p.mobileP=p.tablet||p.mobileP||p.mobile||(c.width<c.height?c.width:c.height)<700,"matchMedia"in e&&e.matchMedia("(max-width:480px) and (orientation:portrait), (max-width:767px)").matches&&(p.mobile=p.mobileP=!0),p.mobileP&&(i.className="ismobile "+i.className),p.adblock=!function(e){var t=e.documentElement,r=e.createElement("div");return r.appendChild(e.createTextNode(".")),r.className="pub_300x250 top-ad-container ad_wrapper top_ad_wrapper advertisement banner_ad ad ads text-ad",e=!!t.appendChild(r).offsetHeight,r.parentNode.removeChild(r),e}(t),e.ISC_IS=p}(window,document),ISC_IS.qazy){var qazy={runs:0,io:null,x:!1,RunIO:function(){qazy.runs++>200&&qazy.StopIO(),qazy.MakeList()},StopIO:function(){"number"==typeof qazy.io&&(clearInterval(qazy.io),qazy.io=null),gmx_set_observers()},MakeList:function(){!qazy.x&&document.body&&(qazy.x=!0,document.body.querySelectorAll('img[data-qazy][src^="/"], img[data-qazy][src^="https://media.brei"], img[data-qazy][src^="https://www.brei"]').forEach((function(e){e.setAttribute("data-src",e.src),e.removeAttribute("src")})),qazy.x=!1)}};qazy.RunIO(),qazy.io=setInterval(qazy.RunIO,10),window.addEventListener("load",qazy.StopIO,!1)}setTimeout(gmx_set_observers,1e3);</script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-715222-1"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','UA-715222-1',{optimize_id:'GTM-PP4D92G',transport_type:'beacon',link_attribution:!0,anonymize_ip:!0,cookie_domain:'breitbart.com',linker:{accept_incoming:!0},'dimension1':'Penny Starr','dimension2':'environment politics ','dimension4':'airlines american carbon-offsets climate-change delta flight-shame greta-thungerg jet-blue united ','dimension5':window.ISC_IS&&(ISC_IS.g)||'U','metric2':window.ISC_IS&&(ISC_IS.adblock?1:0)||3});</script>
-		</head>
-<body class="post-tmpl-default single single-post pid-12604417 tf-single pt-post c-politics"><a class="skip-link" href="#ContainerW">Skip to content</a>
-			<script src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" async></script>
-			<script src="/t/assets/js/prebid-6.js" async></script>
-					<script>ISC_IS.t={"category":["environment","politics"],"pt":["single","singular","post"],"id":["12604417"],"author":["5066"],"tag":["airlines","american","carbon-offsets","climate-change","delta","flight-shame","greta-thungerg","jet-blue","united"],"kw":["thunbergs","greta","led","bookings","worried","reported","flight","air","change","fuel","u.s. airlines"]};ISC_IS.t.group = [ISC_IS.g];ISC_IS.rubicon=!1;var google_ad_client="ca-pub-9229289037503472",googletag=window.googletag||{cmd:[]},pbjs=window.pbjs||{que:[]},bnn_rubicon_adUnits=[];function init_prebid(){var e=window.location.hash.indexOf("bbprebid")>-1;function o(){pbjs.sendAdServerRequestSet||(e&&console.warn("EXEC sendAdServerRequest()"),pbjs.sendAdServerRequestSet=!0,googletag.cmd.push((function(){e&&console.warn("EXEC googletag.pubads().setTargeting",ISC_IS.t),Object.keys(ISC_IS.t).forEach((function(e){googletag.pubads().setTargeting(e,ISC_IS.t[e])})),pbjs.que.push((function(){pbjs.setTargetingForGPTAsync(),e&&console.warn("EXEC googletag.pubads().refresh"),googletag.pubads().refresh(bnn_rubicon_adUnits)}))})))}e&&console.warn("EXEC init_prebid()"),googletag.cmd.push((function(){googletag.pubads().disableInitialLoad()})),"rubicon"in ISC_IS&&ISC_IS.rubicon||pbjs.que.push((function(){e&&console.warn("pbjs.addAdUnits & pbjs.requestBids")&&console.table(bnn_adUnits),pbjs.addAdUnits(bnn_adUnits),pbjs.requestBids({bidsBackHandler:o})})),googletag.cmd.push((function(){function d(o,d,n,s){var a,i=[];a=void 0===s?googletag.defineSlot("/1003622/Breitbart."+o,[d],n).addService(googletag.pubads()):googletag.defineSlot("/1003622/Breitbart."+o,[d],n).defineSizeMapping(s).addService(googletag.pubads()),bnn_rubicon_adUnits.push(a);var t=a.getSlotElementId();i[t]=0,function o(d,n){document.getElementById(n)?(e&&console.warn("display_google_ad: FOUND: %s",n),googletag.display(n)):i[n]++<5&&!document.getElementById("FWI")&&(e&&console.error("display_google_ad: MISS: %s",n),setTimeout((function(){document.getElementById(n)?googletag.display(n):o(d,n)}),10*i[n]+2))}(a,t)}var n={Mob_Body:googletag.sizeMapping().addSize([468,300],["fluid",[120,600],[160,600],[300,600],[320,50],[320,250],[300,100],[320,480],[480,320],[200,200],[125,125],[320,100],[336,280],[468,225],[300,250],[250,250],[468,60],[300,60],[120,90],[240,400],[168,28],[120,20],[120,60],[160,90],[300,1050]]).addSize([0,0],["fluid",[120,600],[160,600],[300,600],[320,50],[320,250],[300,100],[320,480],[200,200],[125,125],[320,100],[336,280],[300,250],[250,250],[300,60],[120,90],[240,400],[168,28],[120,20],[120,60],[160,90]]).build(),Mob_Header:googletag.sizeMapping().addSize([970,100],[[970,250],[930,180],[750,300],[728,300],[728,90],[980,120],[970,90],[970,66],[580,400],[468,250],[475,245],[300,170],[125,125],[300,250],[468,60],[300,100],[300,60],[200,200],[300,50],[320,100],[320,50]]).addSize([728,100],[[750,300],[728,90],[728,300],[468,250],[475,245],[300,170],[125,125],[300,250],[468,60],[300,100],[300,60],[200,200],[300,50],[320,100],[320,50]]).addSize([0,0],[[468,250],[475,245],[300,170],[125,125],[300,250],[468,60],[300,100],[300,60],[200,200],[300,50],[320,100],[320,50]]).build(),Desk_Body:googletag.sizeMapping().addSize([0,0],["fluid",[475,245],[320,250],[200,200],[300,50],[468,60],[468,100],[336,280],[300,250],[468,225],[480,320],[125,125]]).build(),Desk_Rail:googletag.sizeMapping().addSize([0,0],["fluid",[300,600],[120,600],[160,600],[300,1050],[300,50],[216,54],[120,90],[300,100],[234,60],[120,240],[180,150],[240,400],[300,250],[200,200],[250,250],[250,360],[125,125],[120,90],[160,90]]).build(),Desk_Leader:googletag.sizeMapping().addSize([0,0],[[970,250],[750,300],[480,320],[930,180],[960,90],[580,400],[935,24],[468,225],[728,90],[970,90],[980,120],[750,200],[750,100],[468,250],[475,245],[300,170],[125,125],[468,60],[300,100],[200,200],[300,50],[320,100],[320,50]]).build()},s=ISC_IS.home?"HP":"ROS";googletag.pubads().addEventListener("slotRenderEnded",(function(o){var d=o.slot.getSlotElementId(),n=o.slot.getAdUnitPath(),s=document.getElementById(d),a=o.size?"Size: "+o.size.join("x"):"",i=o.isEmpty?"EMPTY!":"FOUND!";if(e&&console.warn("[4] slotRenderEnded: %s  id:%s  path:%s %s",i,d,n,a),!s)return e&&console.error("ELE NOT FOUND slotRenderEnded: %s  id:%s  path:%s %s",i,d,n,a);o.isEmpty?!ISC_IS.mobileP&&(d.indexOf("-R2")>-1||d.indexOf("-R3")>-1)?(s.innerHTML="",s.className+=" gmxpoll"):s.className="H":(s.style.display="block",s.className+=" padok",o.size&&1!==o.size[0]&&(s.style.width=o.size[0]+"px",s.style["min-height"]=o.size[1]+15+"px"))})),googletag.pubads().enableSingleRequest(),googletag.pubads().enableAsyncRendering(),googletag.pubads().collapseEmptyDivs(!0),googletag.pubads().setCentering(!0,!0),ISC_IS.mobile?(d("Mob."+s+".Header",[320,100],s+"-Header",n.Mob_Header),d("Mob."+s+".Body1",[300,250],"M-"+s+"-B1",n.Mob_Body),d("Mob."+s+".Body2",[300,250],"M-"+s+"-B2",n.Mob_Body),d("Mob."+s+".Body3",[300,250],"M-"+s+"-B3",n.Mob_Body),d("Mob."+s+".Body4",[300,250],"M-"+s+"-B4",n.Mob_Body)):(d(s+".Top.Leader",[728,90],s+"-Leader",n.Desk_Leader),d(s+".Body1",[468,225],"D-"+s+"-B1",n.Desk_Body),d(s+".Body2",[468,225],"D-"+s+"-B2",n.Desk_Body),d(s+".Rail1",[300,250],s+"-R1",n.Desk_Rail),d(s+".Rail2",[300,250],s+"-R2",n.Desk_Rail),d(s+".Rail3",[300,250],s+"-R3",n.Desk_Rail),d(s+".Rail4",[300,250],s+"-R4",n.Desk_Rail)),ISC_IS.t_25&&d("Infolinks",[1,1],"F-1x1"),googletag.enableServices(),"rubicon"in ISC_IS&&ISC_IS.rubicon&&pbjs.que.push((function(){e&&console.warn("pbjs.rp.requestBids")&&console.table(bnn_rubicon_adUnits),pbjs.rp.requestBids({gptSlotObjects:bnn_rubicon_adUnits,callback:o})}))})),setTimeout(o,3e3)}ISC_IS.ads&&!ISC_IS.adblock&&(init_prebid(),(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:google_ad_client,enable_page_level_ads:!0}));</script>
-		<script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script>
-		<div id="HaDW">
+<title>Coronavirus Keeps Prison Families From Holding Funerals | The Marshall Project</title>
+  <meta name="description" content="Some relatives can’t claim bodies or hold funerals amid COVID-19 restrictions.">
+<link rel="stylesheet" media="all" href="/assets/app/app-08bdfc9646ef5894196f54543b3b69fb6cfd63fd806f32b38f35027804c42766.css" />
 
-<figure id="ROS-Leader" class="a8d"></figure>
-<figure id="ROS-Header" class="a8d"></figure></div>
-<div id="GlobalW">
-	<header id="HeadW">
-		<div id="HWI">
-			<div id="MT" role="button" tabindex="-1" aria-label="Menu"></div>
-			<nav id="HNAV">
-				<ul id="NavT"><li class="c-politics"><a href="/politics/">Politics</a></li><li class="c-entertainment"><a href="/entertainment/">Entertainment</a></li><li class="c-the-media"><a href="/the-media/">Media</a></li><li class="c-economy"><a href="/economy/">Economy</a></li><li class="dd"><a>World</a><ul><li class="c-europe"><a href="/europe/">London / Europe</a></li><li class="c-border"><a href="/border/">Border / Cartel Chronicles</a></li><li class="c-middle-east"><a href="/middle-east/">Israel / Middle East</a></li><li class="c-africa"><a href="/africa/">Africa</a></li><li class="c-asia"><a href="/asia/">Asia</a></li><li class="c-latin-america"><a href="/latin-america/">Latin America</a></li><li class="p-world-news"><a href="/world-news/">All World</a></li></ul></li><li class="p-video"><a href="/video/">Video</a></li><li class="c-tech"><a href="/tech/">Tech</a></li><li class="c-sports"><a href="/sports/">Sports</a></li><li class="c-social-justice"><a href="/social-justice/">Social Justice</a></li><li><a href="/tag/b-inspired-news/">B Inspired</a></li></ul>				<a href="https://store.breitbart.com/" rel="nofollow" class="store" title="Breitbart Store" aria-label="Breitbart Store"></a>
-			</nav>
-			<a rel="index" class="logo" accesskey="1" href="https://www.breitbart.com/" title="Breitbart News Network">BREITBART</a>
-			<div class="fdd">
-				<form action="/search/"><label><input type="text" placeholder="search" name="s" aria-label="Search"></label></form>
-				<ul id="NavDD"><li class="c-politics"><a href="/politics/">Politics</a></li><li class="c-entertainment"><a href="/entertainment/">Entertainment</a></li><li class="c-the-media"><a href="/the-media/">Media</a></li><li class="c-economy"><a href="/economy/">Economy</a></li><li class="dd"><a>World</a><ul><li class="c-europe"><a href="/europe/">London / Europe</a></li><li class="c-border"><a href="/border/">Border / Cartel Chronicles</a></li><li class="c-middle-east"><a href="/middle-east/">Israel / Middle East</a></li><li class="c-africa"><a href="/africa/">Africa</a></li><li class="c-asia"><a href="/asia/">Asia</a></li><li class="c-latin-america"><a href="/latin-america/">Latin America</a></li><li class="p-world-news"><a href="/world-news/">World News</a></li></ul></li><li class="p-video"><a href="/video/">Video</a></li><li class="c-tech"><a href="/tech/">Tech</a></li><li class="c-sports"><a href="/sports/">Sports</a></li><li class="c-social-justice"><a href="/social-justice/">Social Justice</a></li><li><a href="/tag/b-inspired-news/">B Inspired</a></li><li><a href="/news/">Wires</a></li><li><a href="https://media.breitbart.com/media/2019/11/about-breitbart-news.pdf">About Us</a></li><li class="p-people"><a rel="nofollow" href="/people/">People</a></li></ul>			</div>
-		</div>
-		<div id="HWT">
-			<a class="logo" href="/" title="Breitbart News Network">BREITBART</a>
-			<ul id="menu-trending"><li><a href="/tag/coronavirus/">Coronavirus</a></li><li><a href="/politics/2020/04/17/donald-trump-tweet-storm-rips-democrats-calls-to-liberate-states/">‘Liberate’ States</a></li><li><a href="/politics/2020/04/17/gov-abbott-announces-strike-force-to-reopen-the-lone-star-state-we-will-open-texas/">Texas Leads</a></li><li><a href="/tag/andrew-cuomo/">Trump Blasts Cuomo</a></li><li><a href="/tag/joe-biden/">Slow Joe</a></li><li><a href="/tag/world-health-organization/">W.H.O. Cut Off</a></li><li><a href="/tag/china/">Make China Pay</a></li></ul>		</div>
-	</header>
-	<div id="ContentW">
-		<div id="ContainerW">
-			<div id="fb-root"></div>
-<section id="MainW">
-			<article class="the-article post-12604417 post type-post has-post-thumbnail category-environment category-politics">
-			<header>
-				<h1>U.S. Airlines Worry Greta Thunberg’s Flight Shame Campaign Could Hurt Industry</h1>
-						<aside id="social-share-buttons" class="bnn-social-share" data-fbc="22">
-			<a role="button" class="button_facebook" href="#" title="Facebook" rel="nofollow"><em></em><span class="acz5">163</span></a>
-			<a role="button" class="button_email" href="#" title="Email" rel="nofollow"></a>
-			<a role="button" class="button_reddit" href="#" title="Reddit" rel="nofollow"></a>
-			<a role="button" class="button_twitter" href="#" title="Twitter" rel="nofollow"></a>
-		</aside>
-		<figure><img width="640" height="480" src="https://media.breitbart.com/media/2020/02/airport-departure-flying-passenger-640x480.jpg" class="wp-post-image" alt="airlines" title="airport departure flying passenger"  /><figcaption><cite>Suganth via Unsplash</cite></figcaption></figure><div class="header_byline"><address data-n><a href="/author/penny-starr/"  title="Posts by Penny Starr">Penny Starr</a></address><time datetime="2020-02-07T09:08:38Z">7 Feb 2020</time><span class="byC" data-dsqu="/politics/2020/02/07/u-s-airlines-worry-greta-thunbergs-flight-shame-campaign-could-hurt-industry/#disqus_thread" data-dsqi="12604417" data-fbc="22"></span></div>			<div id="PollyC" data-mp3u="https://media.breitbart.com/media/2020/02/u-s-airlines-worry-greta-thunbergs-flight-shame-campaign-could-hurt-industry-12604417.mp3" data-mp3l="3:47"></div>
-						</header>
-							<div class="entry-content">
-					<p class="subheading">Teen climate activist Greta Thunberg’s campaign to make people feel “flight shame” if they travel by plane has led to the reduction of bookings in her native Sweden. Now the U.S. airline industry is worried that the trend could take hold in this country.</p><div id="gmx-rev-top" class="H"></div>
-<p>The <em>Los Angeles Times</em> <a href="https://www.latimes.com/business/story/2020-02-07/flight-shaming-airlines-climate-change-greta-thunberg">reported</a> on this development:</p>
-<figure id="D-ROS-B1" class="a8d"></figure>
-<figure id="M-ROS-B1" class="a8d"></figure><figure id="gmxrevmore" class="H"></figure>
-<blockquote><p>The Swedish teenager, who has been vocal about combating climate change, may have played a role in a recent 4 percent drop in the number of commercial passengers flying in Sweden, where the term “<i>flygskam</i>,” or flight shame, has gained popularity.</p>
-<p>Some U.S. airline executives are now expressing concern that the same guilt could take hold in the U.S., prompting American travelers to think twice before buying an airline ticket.</p>
-<p>Robin Hayes, chief executive of New York-based JetBlue Airways, told industry analysts during a conference call recently that it’s only a matter of time before Americans follow the lead of their Swedish counterparts to find more environmentally friendly alternatives to commercial air travel.</p></blockquote>
-<p>“This issue presents a clear and present danger, if we don’t get on top of it,” Hayes said in the <em>Times</em> report. “We’ve seen that in other geographies and we should not assume that those sentiments won’t come to the U.S.”</p>
-<p>The <em>Times</em> reported young travelers who have bought into the climate change apocalypse scenario will be the demographic traveling in the future.</p>
-<p>“Today’s environmentally focused 22-year-old is tomorrow’s 35-year-old frequent business traveler,” Henry Harteveldt, a travel industry analyst with the Atmosphere Research Group, said in the article. “The industry wants to make sure everyone, regardless of age, knows what they are doing.”</p>
-<figure id="M-ROS-B2" class="a8d"></figure>
-<p>The <em>Times</em> <a href="https://theicct.org/publications/co2-emissions-commercial-aviation-2018">cites</a> statistics from the globalist International Council on Clean Transportation, which claims the U.S. represents about a quarter of the world’s passenger flight emissions.</p>
-<p>And yet the <em>Times</em> also reports that air travel has grown over the past decade, up five percent each year until 2019 when it dropped to a four percent increase. Demand for airline seats in the U.S. has grown four percent each year, “thanks to a strong economy and low fuel prices that result in relatively cheap air fares.&#8221;</p>
-<p>“If global passenger demand continues to grow at the same pace, CO2 emissions from air travel will triple by 2050, according to an estimate by the International Civil Aviation Organization, the aviation branch of the United Nations,” the <em>Times</em> reported.</p>
-<p>Citigroup told the <em>Times</em> that &#8220;flight shaming” is a real threat to the airline industry and that the cost of carbon offset programs — such as planting trees— should they embrace them, could cut industry profits by 44 percent by 2025.</p>
-<p>The <em>Times</em> reported on the U.S. airlines that are hoping if they embrace the climate change agenda passengers will keep flying.</p>
-<figure id="M-ROS-B3" class="a8d adSo"></figure>
-<p>In January, JetBlue said it wants to become carbon neutral on all domestic flights starting July 2020, and to use an alternative fuel source for flights originating in San Francisco.</p>
-<p>Delta Air Lines announced in December that it plans to buy ten million gallons per year of advanced renewable bio fuels from Gevo, a Colorado-based company.</p>
-<p>“The announcement came only two months after Delta made a $2-million investment in another bio-fuel company in Arizona for a feasibility study of a facility to produce ‘sustainable aviation fuel and other biofuel products’ in Washington state,” the <em>Times</em> reported.</p>
-<p>And the nation’s largest carrier, American Airlines,  created a new top management position to run the company&#8217;s “sustainability program.”</p>
-<p><strong><i>Follow Penny Starr on </i><a href="https://twitter.com/pennystarrdc?ref_src=twsrc%5Eappleosx%7Ctwcamp%5Esafari%7Ctwgr%5Esearch"><i>Twitter</i></a></strong></p>
-				</div>
-							<footer>
-				<p class="rmoreabt"><a href="/environment/">Environment</a><a href="/politics/">Politics</a><a href="/tag/airlines/">airlines</a><a href="/tag/american/">American</a><a href="/tag/carbon-offsets/">carbon offsets</a><a href="/tag/climate-change/">Climate Change</a><a href="/tag/delta/">Delta</a><a href="/tag/flight-shame/">flight shame</a><a href="/tag/greta-thungerg/">Greta Thungerg</a><a href="/tag/jet-blue/">Jet Blue</a><a class="lst" href="/tag/united/">United</a></p>		<aside id="social-share-inline" class="bnn-social-share">
-			<a role="button" class="button_twitter" href="#" title="Twitter" rel="nofollow"></a>
-			<a role="button" class="button_facebook" href="#" title="Facebook" rel="nofollow"><em></em></a>
-		</aside>
-					</footer>
-		</article>
-		<figure id="gmx-rev-below"></figure>
-		<section id="comments">
-	<p><a href="https://www.facebook.com/Breitbart"></a>.</p>
-	<p>Please <a href="/contact-us/comment-feedback/" rel="nofollow">let us know</a> if you're having issues with commenting.</p>
-		<div id="disqus_thread"></div>
-</section>
-		<script>var disqus_identifier='12604417',disqus_title="U.S. Airlines Worry Greta Thunberg’s Flight Shame Campaign Could Hurt Industry",disqus_url='https://www.breitbart.com/politics/2020/02/07/u-s-airlines-worry-greta-thunbergs-flight-shame-campaign-could-hurt-industry/'</script>
-		</section><!--MainW-->
-<aside id="SideW">
-	
-<figure id="ROS-R1" class="a8d"></figure>
-	<figure id="bnnpolls" class="H"></figure>
+<script type="text/javascript">
+  var _sf_startpt=(new Date()).getTime();
+  var _sf_async_config = _sf_async_config || {};
+  /** CONFIGURATION START **/
+  _sf_async_config.uid = 58316;
+  _sf_async_config.domain = 'themarshallproject.org';
+  _sf_async_config.flickerControl = false;
+  _sf_async_config.useCanonical = true;
+  /** CONFIGURATION END **/
+</script>
+<script async src="//static.chartbeat.com/js/chartbeat_mab.js"></script>
+<script src="/assets/app/head-ad144076afcb2742fbbd4ef34567c6dc964632320765c1c2f0b805ad95fcb0d4.js"></script>
 
-		<section id="bsocial" class="SWW">
-		<h2><i></i>SOCIAL<a href="https://store.breitbart.com/" rel="nofollow" title="Shop the Official Breitbart Store!"></a></h2>
-		<div>
-			<div class="sbi"><a class="fb" href="https://www.facebook.com/Breitbart/" title="Breitbart on Facebook"></a><a class="tw" href="https://twitter.com/intent/follow?region=follow_link&amp;screen_name=BreitbartNews&amp;tw_p=followbutton" title="Breitbart on Twitter"></a><a class="ig" href="https://www.instagram.com/b_inspired_news/" title="Breitbart on Instagram"></a><a class="yt" href="https://www.youtube.com/channel/UCmgnsaQIK1IR808Ebde-ssA" title="Breitbart on YouTube"></a></div>
-		</div>
-	</section>
+  <link rel="canonical" href="https://www.themarshallproject.org/2020/04/16/coronavirus-is-keeping-prison-families-from-saying-their-last-goodbyes">
 
-	<figure id="gmx-rev-sidebar" class="H"></figure>
+<link rel="apple-touch-icon" href="/assets/touch-icon-iphone-b762727f442edfaad00859926e7e8f0aa1df825b0921b52832b3d64366ebf365.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/touch-icon-ipad-5495d97cdd9d32e0bc6196c87a0312505b4b6d9a0fd51642166f9941c4bcb70d.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/touch-icon-iphone-retina-5cc0ac14b233c1d79bc417219bb11e76abe68f0442e6647633de304a21d683a9.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/touch-icon-ipad-retina-16d4244f81ee09f18bcf84080506806f2522c58b24f69e6f440aa8984ce5194b.png">
 
-	
-<figure id="ROS-R2" class="a8d"></figure><section id="DQSW"><h2>MOST POPULAR</h2><ul><li><a href="/politics/2020/04/17/donald-trump-tweet-storm-rips-democrats-calls-to-liberate-states/" title="Donald Trump Tweet Storm Rips Democrats; Calls to ‘Liberate&#8217; States"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/wi/ap/16/virus-outbreak-us-foreign-aid-april-15-2020-photo-president-donald-trump-speaks-coronavirus-ros-e1587143064108-200x150.jpg" alt="Donald Trump Tweet Storm Rips Democrats; Calls to ‘Liberate&#039; States" title="Donald Trump Tweet Storm Rips Democrats; Calls to ‘Liberate&#8217; States" data-qazy><em>Donald Trump Tweet Storm Rips Democrats; Calls to ‘Liberate&#039; States</em><span data-dsqu="https://www.breitbart.com/politics/2020/04/17/donald-trump-tweet-storm-rips-democrats-calls-to-liberate-states/" data-dsqi="13185932" data-fbc="1339"></span></a></li><li><a href="/politics/2020/04/17/poll-trumps-job-approval-drops-6-points-to-43-percent/" title="Poll: Trump&#8217;s Job Approval Drops 6 Points to 43 Percent"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/trump-press-april-16-ap-200x150.jpg" alt="Poll: Trump&#039;s Job Approval Drops 6 Points to 43 Percent" title="Poll: Trump&#8217;s Job Approval Drops 6 Points to 43 Percent" data-qazy><em>Poll: Trump&#039;s Job Approval Drops 6 Points to 43 Percent</em><span data-dsqu="https://www.breitbart.com/politics/2020/04/17/poll-trumps-job-approval-drops-6-points-to-43-percent/" data-dsqi="13188512" data-fbc="1850"></span></a></li><li><a href="/politics/2020/04/17/donald-trump-vows-to-investigate-wuhan-lab-coronavirus-bats/" title="Donald Trump Vows to Investigate Wuhan Lab, Coronavirus Bats"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/Coronavis-Bat-Species-1-200x150.jpeg" alt="Donald Trump Vows to Investigate Wuhan Lab and Coronavirus Bats" title="Donald Trump Vows to Investigate Wuhan Lab, Coronavirus Bats" data-qazy><em>Donald Trump Vows to Investigate Wuhan Lab and Coronavirus Bats</em><span data-dsqu="https://www.breitbart.com/politics/2020/04/17/donald-trump-vows-to-investigate-wuhan-lab-coronavirus-bats/" data-dsqi="13189967" data-fbc="13"></span></a></li><li><a href="/politics/2020/04/17/jay-inslee-trumps-call-to-liberate-states-could-lead-to-violence/" title="Jay Inslee: Trump&#8217;s Call to &#8216;Liberate&#8217; States Could Lead to &#8216;Violence&#8217;"><img width="200" height="150" src="https://media.breitbart.com/media/2019/08/wi/ap/21/aa0fb9_election-2020-jay-inslee-21924-jay-inslee-in-2019-photo-washington-gov-jay-e1587156455853-200x150.jpg" alt="Jay Inslee: Trump&#039;s Call to &#039;Liberate&#039; States Could Lead to &#039;Violence&#039;" title="Jay Inslee: Trump&#8217;s Call to &#8216;Liberate&#8217; States Could Lead to &#8216;Violence&#8217;" data-qazy><em>Jay Inslee: Trump&#039;s Call to &#039;Liberate&#039; States Could Lead to &#039;Violence&#039;</em><span data-dsqu="https://www.breitbart.com/politics/2020/04/17/jay-inslee-trumps-call-to-liberate-states-could-lead-to-violence/" data-dsqi="13188007" data-fbc="2698"></span></a></li><li><a href="/politics/2020/04/16/democrats-threatening-impeachment-over-trumps-order-to-halt-w-h-o-funding/" title="Democrats Say Trump&#8217;s Halt to W.H.O. Funding Breaks ‘Same Spending Laws that Brought About His Impeachment&#8217;"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/Impeachment-Managers-Walk-to-Senate-200x150.jpg" alt="Democrats Float Impeachment over Trump&#039;s W.H.O. Funding Halt" title="Democrats Say Trump&#8217;s Halt to W.H.O. Funding Breaks ‘Same Spending Laws that Brought About His Impeachment&#8217;" data-qazy><em>Democrats Float Impeachment over Trump&#039;s W.H.O. Funding Halt</em><span data-dsqu="https://www.breitbart.com/politics/2020/04/16/democrats-threatening-impeachment-over-trumps-order-to-halt-w-h-o-funding/" data-dsqi="13177092" data-fbc="9558"></span></a></li><li><a href="/politics/2020/04/16/donald-trump-we-are-reopening-america-one-careful-step-at-a-time/" title="Donald Trump: We Are Reopening America &#8216;One Careful Step at a Time&#8217;"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/Trump-on-Reopening-America-200x150.jpg" alt="Donald Trump: We Are Reopening America &#039;One Careful Step at a Time&#039;" title="Donald Trump: We Are Reopening America &#8216;One Careful Step at a Time&#8217;" data-qazy><em>Donald Trump: We Are Reopening America &#039;One Careful Step at a Time&#039;</em><span data-dsqu="https://www.breitbart.com/politics/2020/04/16/donald-trump-we-are-reopening-america-one-careful-step-at-a-time/" data-dsqi="13180522" data-fbc="1135"></span></a></li><li><a href="/economy/2020/04/16/belt-and-road-debts-to-china-skyrocket-under-coronavirus-lockdown/" title="Belt and Road Debts to China Skyrocket Under Coronavirus Lockdown"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/china-Xi-200x150.jpg" alt="Belt and Road: Debts to China Skyrocket Under Coronavirus Lockdown" title="Belt and Road Debts to China Skyrocket Under Coronavirus Lockdown" data-qazy><em>Belt and Road: Debts to China Skyrocket Under Coronavirus Lockdown</em><span data-dsqu="https://www.breitbart.com/economy/2020/04/16/belt-and-road-debts-to-china-skyrocket-under-coronavirus-lockdown/" data-dsqi="13170927" data-fbc="777"></span></a></li><li><a href="/politics/2020/04/17/gov-abbott-announces-strike-force-to-reopen-the-lone-star-state-we-will-open-texas/" title="Gov. Abbott Announces Strike Force to Reopen the Lone Star State: &#8216;We Will Open Texas&#8217;"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/Gov.-Abbott-reopening-press-conference-200x150.jpg" alt="Gov. Abbott Details Plan to Reopen State: &#039;We Will Open Texas&#039;" title="Gov. Abbott Announces Strike Force to Reopen the Lone Star State: &#8216;We Will Open Texas&#8217;" data-qazy><em>Gov. Abbott Details Plan to Reopen State: &#039;We Will Open Texas&#039;</em><span data-dsqu="https://www.breitbart.com/politics/2020/04/17/gov-abbott-announces-strike-force-to-reopen-the-lone-star-state-we-will-open-texas/" data-dsqi="13186232" data-fbc="1008"></span></a></li><li><a href="/politics/2020/04/17/watch-live-president-trumps-coronavirus-task-force-holds-press-conference-19/" title="Watch Live: President Trump’s Coronavirus Task Force Holds Press Conference"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/Trump-to-Repoorter-200x150.jpg" alt="Watch: President Trump’s Coronavirus Task Force Holds Press Conference" title="Watch Live: President Trump’s Coronavirus Task Force Holds Press Conference" data-qazy><em>Watch: President Trump’s Coronavirus Task Force Holds Press Conference</em><span data-dsqu="https://www.breitbart.com/politics/2020/04/17/watch-live-president-trumps-coronavirus-task-force-holds-press-conference-19/" data-dsqi="13188862"></span></a></li><li><a href="/politics/2020/04/17/nolte-the-coronavirus-will-continue-to-infect-people-as-country-opens-up/" title="Nolte: The Coronavirus Will Continue to Infect People as Country Opens Up"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/man-woman-walking-Miami-coronavirus-masks-ap-1-200x150.jpg" alt="Nolte: Coronavirus Will Continue to Infect People as Country Opens Up" title="Nolte: The Coronavirus Will Continue to Infect People as Country Opens Up" data-qazy><em>Nolte: Coronavirus Will Continue to Infect People as Country Opens Up</em><span data-dsqu="https://www.breitbart.com/politics/2020/04/17/nolte-the-coronavirus-will-continue-to-infect-people-as-country-opens-up/" data-dsqi="13187772" data-fbc="20"></span></a></li></ul></section>
-<figure id="ROS-R3" class="a8d"></figure>
-<figure id="ROS-R4" class="a8d"></figure>	<section id="HPSW" class="SWW C">
-		<h2 class="horiz-line-both-sides-text">FROM THE HOMEPAGE</h2>
-		<ul><li><a href="/politics/2020/04/17/donald-trump-vows-to-investigate-wuhan-lab-coronavirus-bats/"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/Coronavis-Bat-Species-1-200x150.jpeg" alt="Donald Trump Vows to Investigate Wuhan Lab, Coronavirus Bats" title="President Donald Trump said Friday at the White House that &hellip;" data-qazy=""><b>Donald Trump Vows to Investigate Wuhan Lab, Coronavirus Bats</b><span class="byC" data-dsqi="13189967" data-dsqu="https://www.breitbart.com/politics/2020/04/17/donald-trump-vows-to-investigate-wuhan-lab-coronavirus-bats/#disqus_thread" data-fbc="13"></span></a></li><li><a href="/politics/2020/04/17/pompeo-u-s-asking-china-for-access-to-wuhan-lab-to-determine-coronavirus-origins/"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/beijing-laboratory-getty-images-200x150.jpg" alt="Pompeo: U.S. Asking China for Access to Wuhan Lab to Determine Coronavirus Origins" title="The United States is asking Chinese Communist Party (CCP) officials &hellip;" data-qazy=""><b>Pompeo: U.S. Asking China for Access to Wuhan Lab to Determine Coronavirus Origins</b><span class="byC" data-dsqi="13189132" data-dsqu="https://www.breitbart.com/politics/2020/04/17/pompeo-u-s-asking-china-for-access-to-wuhan-lab-to-determine-coronavirus-origins/#disqus_thread" data-fbc="26"></span></a></li><li><a href="/immigration/2020/04/17/chinas-wuhan-disease-spreads-through-ice-jails-slows-deportation/"><img width="200" height="150" src="https://media.breitbart.com/media/2019/07/deportation-200x150.jpg" alt="China&#8217;s Wuhan Disease Spreads Through ICE Jails, Slows Deportation" title="China&#039;s Wuhan disease has spread rapidly through U.S. migrant detention &hellip;" data-qazy=""><b>China&#8217;s Wuhan Disease Spreads Through ICE Jails, Slows Deportation</b><span class="byC" data-dsqi="13170412" data-dsqu="https://www.breitbart.com/immigration/2020/04/17/chinas-wuhan-disease-spreads-through-ice-jails-slows-deportation/#disqus_thread"></span></a></li><li><a href="/clips/2020/04/17/pelosi-satisfied-with-bidens-answer-on-sexual-misconduct-allegations/"><img width="200" height="150" src="https://media.breitbart.com/media/2019/04/GettyImages-466747883-200x150.jpg" alt="Pelosi: &#8216;Satisfied&#8217; with Biden&#8217;s Answer on Sexual Misconduct Allegations" title="Friday on MSNBC, House Speaker Nancy Pelosi (D-CA) said she &hellip;" data-qazy=""><b>Pelosi: &#8216;Satisfied&#8217; with Biden&#8217;s Answer on Sexual Misconduct Allegations</b><span class="byC" data-dsqi="13189722" data-dsqu="https://www.breitbart.com/clips/2020/04/17/pelosi-satisfied-with-bidens-answer-on-sexual-misconduct-allegations/#disqus_thread" data-fbc="13"></span></a></li><li><a href="/entertainment/2020/04/17/hollywood-lashes-out-at-trump-for-calls-to-liberate-mi-mn-va-he-is-going-to-get-more-people-killed/"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/jeffreywrightliberate1-200x150.jpg" alt="Hollywood Lashes Out at Trump for Calls to ‘Liberate’ MI, MN, VA : &#8216;He Is Going to Get More People Killed&#8217;" title="Left-wing Hollywood stars are melting down over President Donald Trump&#039;s &hellip;" data-qazy=""><b>Hollywood Lashes Out at Trump for Calls to ‘Liberate’ MI, MN, VA : &#8216;He Is Going to Get More People Killed&#8217;</b><span class="byC" data-dsqi="13187682" data-dsqu="https://www.breitbart.com/entertainment/2020/04/17/hollywood-lashes-out-at-trump-for-calls-to-liberate-mi-mn-va-he-is-going-to-get-more-people-killed/#disqus_thread" data-fbc="1119"></span></a></li><li><a href="/politics/2020/04/17/illegal-alien-ms-13-gang-member-accused-of-murdering-girl-previously-freed-into-u-s/"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/Rivas-victim-200x150.jpg" alt="Illegal Alien MS-13 Gang Member Accused of Murdering Girl Previously Freed into U.S." title="An illegal alien MS-13 Gang member accused of murdering a &hellip;" data-qazy=""><b>Illegal Alien MS-13 Gang Member Accused of Murdering Girl Previously Freed into U.S.</b><span class="byC" data-dsqi="13188707" data-dsqu="https://www.breitbart.com/politics/2020/04/17/illegal-alien-ms-13-gang-member-accused-of-murdering-girl-previously-freed-into-u-s/#disqus_thread" data-fbc="150"></span></a></li><li><a href="/politics/2020/04/17/state-u-s-repatriates-1000s-more-americans-trapped-overseas-amid-coronavirus/"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/Repatriating-Americans-200x150.jpg" alt="State: U.S. Repatriates 1000s More Americans &#8216;Trapped&#8217; Overseas amid Coronavirus" title="The U.S. State Department has helped thousands of additional Americans &hellip;" data-qazy=""><b>State: U.S. Repatriates 1000s More Americans &#8216;Trapped&#8217; Overseas amid Coronavirus</b><span class="byC" data-dsqi="13187787" data-dsqu="https://www.breitbart.com/politics/2020/04/17/state-u-s-repatriates-1000s-more-americans-trapped-overseas-amid-coronavirus/#disqus_thread"></span></a></li><li><a href="/health/2020/04/17/american-flag-projected-swiss-alps/"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/Gerry-Hofstetter-American-flag-lights-Matterhorn-Alps-Instagram-200x150.jpg" alt="Artist Projects American Flag onto Swiss Alps: &#8216;God Bless America&#8217;" title="The American flag was projected onto the Matterhorn, one of &hellip;" data-qazy=""><b>Artist Projects American Flag onto Swiss Alps: &#8216;God Bless America&#8217;</b><span class="byC" data-dsqi="13187017" data-dsqu="https://www.breitbart.com/health/2020/04/17/american-flag-projected-swiss-alps/#disqus_thread" data-fbc="5"></span></a></li><li><a href="/politics/2020/04/17/poll-trumps-job-approval-drops-6-points-to-43-percent/"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/trump-press-april-16-ap-200x150.jpg" alt="Poll: Trump&#8217;s Job Approval Drops 6 Points to 43 Percent" title="President Trump&#039;s job approval has plunged six percentage points to &hellip;" data-qazy=""><b>Poll: Trump&#8217;s Job Approval Drops 6 Points to 43 Percent</b><span class="byC" data-dsqi="13188512" data-dsqu="https://www.breitbart.com/politics/2020/04/17/poll-trumps-job-approval-drops-6-points-to-43-percent/#disqus_thread" data-fbc="1850"></span></a></li><li><a href="/politics/2020/04/17/trump-era-astronauts-to-launch-from-florida-for-1st-time-in-almost-10-years/"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/astronaut-earth-space-nasa-stock-pixabay-200x150.jpg" alt="Trump Era: Astronauts to Launch from Florida for 1st Time in Almost 10 Years" title="During almost all of Barack Obama&#039;s presidency, the United States &hellip;" data-qazy=""><b>Trump Era: Astronauts to Launch from Florida for 1st Time in Almost 10 Years</b><span class="byC" data-dsqi="13188872" data-dsqu="https://www.breitbart.com/politics/2020/04/17/trump-era-astronauts-to-launch-from-florida-for-1st-time-in-almost-10-years/#disqus_thread" data-fbc="2"></span></a></li><li><a href="/politics/2020/04/17/dr-anthony-fauci-more-than-enough-coronavirus-tests-for-phase-one/"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/AP_20093794904149-200x150.jpg" alt="Dr. Anthony Fauci: More than Enough Coronavirus Tests for Phase One" title="Dr. Anthony Fauci said Friday at the White House that &hellip;" data-qazy=""><b>Dr. Anthony Fauci: More than Enough Coronavirus Tests for Phase One</b><span class="byC" data-dsqi="13189582" data-dsqu="https://www.breitbart.com/politics/2020/04/17/dr-anthony-fauci-more-than-enough-coronavirus-tests-for-phase-one/#disqus_thread" data-fbc="3"></span></a></li><li><a href="/politics/2020/04/17/donald-trump-virginians-liberate-your-state-save-2nd-amendment/"><img width="200" height="150" src="https://media.breitbart.com/media/2020/02/Donald-Trump-fist-pump-Manchester-New-Hampshire-getty-200x150.jpg" alt="Donald Trump to Virginians: Liberate Your State, Save the 2nd Amendment" title="With Americans growing weary of perceived state government overreach, President &hellip;" data-qazy=""><b>Donald Trump to Virginians: Liberate Your State, Save the 2nd Amendment</b><span class="byC" data-dsqi="13187247" data-dsqu="https://www.breitbart.com/politics/2020/04/17/donald-trump-virginians-liberate-your-state-save-2nd-amendment/#disqus_thread" data-fbc="826"></span></a></li></ul>	</section>
-	
-	<figure id="rail5matched" class="VH"></figure>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="https://www.themarshallproject.org/rss/recent.rss" />
 
-	<figure id="F-1x1"></figure>
-</aside>
-			<div class="clear"></div>
+
+<!-- start SYNC font -->
+<script type="text/javascript" src="https://use.typekit.net/jqg7jec.js"></script>
+<script type="text/javascript">try{Typekit.load({ async: true });}catch(e){}</script>
+
+<style>
+@font-face {
+  font-family: "PressuraLight";
+  src: url("/assets/GT-Pressura-Mono-Light-302e4f172aa71b2aa81f00790a68ff35cadfd12ed7e812f683718ae40ead7b6c.woff") format("woff"),
+  url("/assets/GT-Pressura-Mono-Light-2fc41e7ca5227700993d26afcd87f1e84961ef0ffc87cd4f8f0d6a6bb8321fd0.ttf")  format("truetype"),
+  url("/assets/GT-Pressura-Mono-Light-092e8f7ef068293bce1bde9e38a41396c909204a61e6257cb1c7329da517e64e.eot")  format("eot");
+}
+@font-face {
+  font-family: "GTPressuraMonoLight";
+  src: url("/assets/GT-Pressura-Mono-Light-302e4f172aa71b2aa81f00790a68ff35cadfd12ed7e812f683718ae40ead7b6c.woff") format("woff"),
+  url("/assets/GT-Pressura-Mono-Light-2fc41e7ca5227700993d26afcd87f1e84961ef0ffc87cd4f8f0d6a6bb8321fd0.ttf")  format("truetype"),
+  url("/assets/GT-Pressura-Mono-Light-092e8f7ef068293bce1bde9e38a41396c909204a61e6257cb1c7329da517e64e.eot")  format("eot");
+}
+@font-face {
+  font-family: "PressuraLightItalic";
+  src: url("/assets/GT-Pressura-Mono-Light-Italic-421ebb96d8d2deab01af849b30a607040fb78bdf06d3155235014730bb8b6897.woff") format("woff"),
+  url("/assets/GT-Pressura-Mono-Light-Italic-94d04ad1958b4249d4011570daa9003bce563320aa8b246226557eb500d79e44.ttf")  format("truetype"),
+  url("/assets/GT-Pressura-Mono-Light-Italic-a330c9827c7ad285d7957c64af97677222ab601648c1c9cad9a6b031c9ac7d97.eot")  format("eot");
+}
+@font-face {
+  font-family: "Pressura";
+  src: url("/assets/GT-Pressura-Mono-Regular-5879e653ec677e862e6a33ba04d10e6994f7435384054a02e95fc7f18e99dcc1.woff") format("woff"),
+  url("/assets/GT-Pressura-Mono-Regular-c2bce89de1d7379823e3aa302f0c451a46e1b32ac717e31cddf4f7007e047e77.ttf") format("truetype"),
+  url("/assets/GT-Pressura-Mono-Regular-183da9c40ab401f6e00ecb40ffbaacb53b4648a4c5bf24f4077a7c62032cb4f9.eot")  format("eot");
+}
+@font-face {
+  font-family: "GTPressuraMono";
+  src: url("/assets/GT-Pressura-Mono-Regular-5879e653ec677e862e6a33ba04d10e6994f7435384054a02e95fc7f18e99dcc1.woff") format("woff"),
+  url("/assets/GT-Pressura-Mono-Regular-c2bce89de1d7379823e3aa302f0c451a46e1b32ac717e31cddf4f7007e047e77.ttf") format("truetype"),
+  url("/assets/GT-Pressura-Mono-Regular-183da9c40ab401f6e00ecb40ffbaacb53b4648a4c5bf24f4077a7c62032cb4f9.eot")  format("eot");
+}
+@font-face {
+  font-family: "PressuraItalic";
+  src: url("/assets/GT-Pressura-Mono-Regular-Italic-1892a168a84718e57412313e9ce03eb6352af4ae6c67a8ac6ce41f984a350a43.woff") format("woff"),
+  url("/assets/GT-Pressura-Mono-Regular-Italic-e16c840e863c77d40988021e3e90dfb1319e057e5db07953596ece0c0fbe2f96.ttf") format("truetype"),
+  url("/assets/GT-Pressura-Mono-Regular-Italic-8138d27b7502996b25aac073a752ca5566296758913e59ade3ae4d8669052b34.eot")  format("eot");
+}
+@font-face {
+  font-family: "PressuraBold";
+  src: url("/assets/GT-Pressura-Bold-0a4d464ab426c9a8ed039574932edf617f62cd0e7588a655700453d66d3c7cc6.woff") format("woff"),
+  url("/assets/GT-Pressura-Bold-f27c6e241851891dc299ec24fa988a307d613874990ac31630d1284fa4d36814.woff2")  format("woff2"),
+  url("/assets/GT-Pressura-Bold-50f9836138d3b735b77a7a85d93fc83aa47cdfac53ad25a2c9bf5651db338484.ttf")  format("truetype"),
+  url("/assets/GT-Pressura-Bold-661b2a4143ad746aee81f8718f4565e03970418e17a199b79f1cf2de50b1ecaa.eot")  format("eot");
+}
+@font-face {
+  font-family: "Miller";
+  src: url("/assets/51c73f94-824c-4ef7-afa2-8b9f1573c336-3-ab6df46a5fd4e7a58bd54dbc2bdb5a9988f45e8d1e675b7c0f609e342efce9ab.woff") format("woff"),
+  url("/assets/51c73f94-824c-4ef7-afa2-8b9f1573c336-1-4f6992c10e03104b13545029ce8fee388093001a68e6100c96ac1277d582f267.ttf") format("truetype"),
+  url("/assets/51c73f94-824c-4ef7-afa2-8b9f1573c336-2-150dc66658a4d09460be191baf26142d43ebfafca41a328974c87bfc8a1e491c.eot") format("eot");
+}
+@font-face {
+  font-family: "MillerBold";
+  src: url("/assets/e72a4c9d-ac2d-4477-9859-2fa8ecef8ee3-3-680b04abe52cd3af5d19173dac0921c912e34eccbb013b6fa538126af46a3bfe.woff") format("woff"),
+  url("/assets/e72a4c9d-ac2d-4477-9859-2fa8ecef8ee3-1-7234f752cd17dd0f503a2cb1ff3336d8c785ae1d44bb1c4b4fec0c5af6563292.ttf") format("truetype"),
+  url("/assets/e72a4c9d-ac2d-4477-9859-2fa8ecef8ee3-2-12efabc88f86cf1e36d0c59dd9415215564b334ad860778c26cdf73de0548031.eot") format("eot");
+}
+@font-face {
+  font-family: "MillerItalic";
+  src: url("/assets/3ef8a749-0910-4ca2-ba14-c4a1070680aa-3-1facc41b2e3f250867b112606fe4213c658a6e59b5b2aea9debc0dffae966c18.woff") format("woff"),
+  url("/assets/3ef8a749-0910-4ca2-ba14-c4a1070680aa-1-af396c05d064f262eee8b59e13776016e017417d5fcca67a65729a4d6fe425a5.ttf") format("truetype"),
+  url("/assets/3ef8a749-0910-4ca2-ba14-c4a1070680aa-2-ca5af5c02a9a9485d94e324287aeb46bc82d125b4c2f18034bf7f96b0ef3099f.eot") format("eot");
+}
+</style>
+<!-- end SYNC font -->
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="The Marshall Project">
+  <meta property="article:publisher" content="https://www.facebook.com/TheMarshallProject.org">
+  <meta property="fb:pages" content="1442785962603494" />
+  <meta property="og:url" content="https://www.themarshallproject.org/2020/04/16/coronavirus-is-keeping-prison-families-from-saying-their-last-goodbyes">
+  <meta property="og:title" content="Coronavirus is Keeping Prison Families From Saying Their Last Goodbye">
+  <meta property="og:description" content="Some relatives can’t claim bodies or hold funerals amid Covid-19 restrictions.">
+  <meta property="og:image" content="https://d1n0c1ufntxbvh.cloudfront.net/photo/6a368056/55571/1200x/">
+  <meta property="og:image:url" content="https://d1n0c1ufntxbvh.cloudfront.net/photo/6a368056/55571/1200x/">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@MarshallProj">
+  <meta name="twitter:title" content="Coronavirus is Keeping Prison Families From Saying Their Last Goodbye">
+  <meta name="twitter:description" content="Some relatives can’t claim bodies or hold funerals amid Covid-19 restrictions.">
+  <meta name="twitter:image" content="https://d1n0c1ufntxbvh.cloudfront.net/photo/6a368056/55571/1200x/">
+
+  <meta name="article:published_time" content="2020-04-16T10:00:00Z"><!-- iso8601 -->
+  <meta name="article:modified_time"  content="2020-04-16T10:00:00Z"><!-- iso8601 -->
+
+
+  <meta itemprop="name" content="Coronavirus Keeps Prison Families From Holding Funerals">
+  <meta itemprop="description" content="Some relatives can’t claim bodies or hold funerals amid COVID-19 restrictions.">
+  <meta itemprop="image" content="https://d1n0c1ufntxbvh.cloudfront.net/photo/6a368056/55571/1200x/">
+
+  <script type="application/ld+json">
+    {
+  "@context": "http://schema.org",
+  "@type": "NewsArticle",
+  "url": "https://www.themarshallproject.org/2020/04/16/coronavirus-is-keeping-prison-families-from-saying-their-last-goodbyes",
+  "headline": "Coronavirus Keeps Prison Families From Holding Funerals",
+  "alternativeHeadline": "Coronavirus is Keeping Prison Families From Saying Their Last Goodbyes",
+  "thumbnailUrl": "https://d1n0c1ufntxbvh.cloudfront.net/photo/6a368056/55571/1200x/",
+  "image": "https://d1n0c1ufntxbvh.cloudfront.net/photo/6a368056/55571/1200x/",
+  "articleSection": "Coronavirus",
+  "datePublished": "2020-04-16T06:00:00-04:00",
+  "dateModified": "2020-04-16T06:00:00-04:00",
+  "description": "Some relatives can’t claim bodies or hold funerals amid COVID-19 restrictions.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "The Marshall Project",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://dw9zmd5y2p1va.cloudfront.net/TheMarshallProject_Logo_Primary_TrueBlack.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.themarshallproject.org/2020/04/16/coronavirus-is-keeping-prison-families-from-saying-their-last-goodbyes"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Nicole Lewis"
+    },
+    {
+      "@type": "Person",
+      "name": "Maurice Chammah"
+    }
+  ]
+}
+  </script>
+
+
+
+
+
+<script>
+window.endrun_config = {
+  post_id: "2184",
+  path: "/2020/04/16/coronavirus-is-keeping-prison-families-from-saying-their-last-goodbyes",
+  template: "public#post",
+  lovestory_zero_endpoint: "https://lovestory.herokuapp.com/api/v2/boot",
+  lovestory_url: "https://d18glvfsbyiquw.cloudfront.net/i.gif",
+  lovestory_ws: "https://lovestory-ws.herokuapp.com",
+  lovestory_rt: "https://lovestory-rt.herokuapp.com/i.gif",
+  lovestory_bq: "https://secure-escarpment-2707.herokuapp.com",
+  lovestory_si: "https://d1ce9cuexq46rp.cloudfront.net",
+  env: "production"
+}
+window.stream_config = {
+  except_posts: []
+}
+window.$mcGoal = {'settings':{'uuid':'a92567c13cca06b470824aead','dc':'us3'}};
+window.stream_config.is_post_hottub = true;
+window.stream_config.featured_block_config = "";
+
+
+window.TMPBootstrapData = {"csrfToken":"LWLup+KJQ056mHx/S9CGux8q4VNVkN6QuTJzaZuu1g509tftuAVcgOFXOWjWgmzl3HOqTo1MIk68FsTwaiTDYA==","newsletters":[{"name":"Opening Statement","frequency":"Daily","segment_id":41889,"interest_id":"695669d4dc","default_subscribe":true,"default_donate":true,"short_description":"Daily news and opinion about criminal justice","description":"A must-read on criminal justice.","tagline":"Daily news and opinion","class_name":"Newsletter","id":"os"},{"name":"Closing Argument","frequency":"Weekly","segment_id":43865,"interest_id":"d982034176","default_subscribe":true,"default_donate":true,"short_description":"A weekly roundup of top stories from the web","description":"Our biggest stories, plus the best of the rest.","tagline":"Week in review","class_name":"WeeklyNewsletter","id":"ca"},{"name":"President's Brief","frequency":"Biweekly","segment_id":41893,"interest_id":"c62ce45b9c","default_subscribe":false,"default_donate":true,"short_description":"New and notable Marshall Project stories","description":"Stay up to date on all things Marshall Project.","tagline":"The story behind our stories","sample_email":"https://mailchi.mp/themarshallproject/the-presidents-brief-signing-away-their-future","id":"pb"},{"name":"Life Inside","frequency":"Weekly","segment_id":44225,"interest_id":"c43a1d8ffc","default_subscribe":false,"default_donate":true,"description":"Hear from the people in the system.","short_description":"Essays from people involved in the system","tagline":"Voices from the system","class_name":"LifeInsideEmail","id":"li"}],"stream_config":{"next_key":"stream-page/PostStreamGenerator:2184/1","initial_key":"stream-page/PostStreamGenerator:2184/0","lazy":true}}
+</script>
+
+</head>
+<body class="base">
+
+<header class="header-v2">
+  <div tabindex=0 class="header-menu-trigger">
+    <a tabindex="-1" class="header-menu-button" href="#"><span></span></a>
+  </div>
+  <div class="header-logo">
+    <a href="/?ref=nav">
+      <svg class="tmp-logo" aria-labelledby="tmp-logo-title" aria-role="image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 47.68">
+  <defs>
+    <style>
+      .logo-fill {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title id="tmp-logo-title">The Marshall Project</title>
+  <g>
+    <g>
+      <path class="logo-fill" d="M63.55,42.94l0-37.39H57.14V2.31H73.4V5.55H67l0,37.39Z" transform="translate(-3.29 -1.6)"/>
+      <path class="logo-fill" d="M76.53,1.71h3.31V13.9c1.68-1.39,3.3-2.5,5.74-2.5h.18c3.48,0,5.22,1.91,5.22,5.34l0,26.18H87.7V17.38c0-1.92-1-2.84-2.91-2.84h-.06c-1.56,0-3,.58-4.87,2V42.93h-3.3Z" transform="translate(-3.29 -1.6)"/>
+      <path class="logo-fill" d="M98.84,28.63v8c0,2.32,1.17,3.48,3.55,3.48h.69c2.32,0,3.54-1.17,3.54-3.49V33h3.25v3.48c0,4.47-2.32,6.8-6.79,6.8h-.81c-4.53,0-6.79-2.32-6.79-6.79l0-18.28c0-4.47,2.26-6.8,6.79-6.8h.81c4.47,0,6.8,2.32,6.8,6.79V28.63Zm0-3.19h7.66V18.06c0-2.32-1.16-3.54-3.48-3.53h-.64c-2.38,0-3.54,1.22-3.54,3.54Z" transform="translate(-3.29 -1.6)"/>
+      <path class="logo-fill" d="M124.71,8.36l.19,26.41V42.9H121.6l0-40.63h5.11l6.7,34.48L140,2.25h5.05l0,40.63h-3.42V34.64l.1-26.29L135,42.89h-3.42Z" transform="translate(-3.29 -1.6)"/>
+      <path class="logo-fill" d="M149.75,32.2c0-3.6,1.27-5.11,4.64-6.39l6.15-2.27V17.8c0-2.15-1.11-3.31-3.37-3.31h-.41c-2.26,0-3.42,1.17-3.42,3.31v4h-3.25V17.92c0-4.29,2.26-6.56,6.67-6.56h.46c4.41,0,6.62,2.26,6.62,6.55l0,25h-3.31V40.79c-1.62,1.33-3.25,2.44-5.63,2.44h-.12c-3.36,0-5.05-1.86-5.05-5.28Zm10.8,6V26.68l-4.76,1.8c-2,.82-2.67,1.75-2.67,3.78v5.05A2.4,2.4,0,0,0,155.85,40h.06C157.36,40,158.69,39.45,160.55,38.23Z" transform="translate(-3.29 -1.6)"/>
+      <path class="logo-fill" d="M168.6,11.7h3.31v3.13c1.39-2.26,2.9-3.37,5.34-3.43v3.77a7.71,7.71,0,0,0-5.34,2.27l0,25.43h-3.31Z" transform="translate(-3.29 -1.6)"/>
+      <path class="logo-fill" d="M190.43,17.6c0-2.09-1.05-3.19-3.31-3.19h-.82c-2.2,0-3.3,1.11-3.3,3.2v2.84A3.68,3.68,0,0,0,185,24l5.28,3.25c2.5,1.57,3.54,3.13,3.55,6.09v3.31c0,4.24-2.2,6.56-6.62,6.57h-.92c-4.42,0-6.57-2.32-6.57-6.5V32H183v5c0,2.09,1.11,3.13,3.31,3.13h1c2.21,0,3.25-1,3.25-3.13v-3.2a3.62,3.62,0,0,0-2-3.48L183.24,27c-2.44-1.57-3.49-3.08-3.49-6.1v-3c0-4.29,2.14-6.56,6.61-6.56h.81c4.42,0,6.51,2.26,6.51,6.49v4.53h-3.25Z" transform="translate(-3.29 -1.6)"/>
+      <path class="logo-fill" d="M198.31,1.64h3.31V13.82c1.68-1.39,3.31-2.49,5.75-2.5h.17c3.48,0,5.22,1.92,5.23,5.34V42.84h-3.3l0-25.54c0-1.91-1-2.84-2.91-2.84h-.05c-1.57,0-3,.58-4.88,2l0,26.41h-3.31Z" transform="translate(-3.29 -1.6)"/>
+      <path class="logo-fill" d="M217.08,32.16c0-3.6,1.28-5.11,4.64-6.39l6.15-2.27V17.76c0-2.15-1.11-3.31-3.37-3.31h-.41c-2.26,0-3.42,1.16-3.42,3.31v4h-3.25V17.88c0-4.3,2.26-6.56,6.67-6.57h.47c4.41,0,6.62,2.26,6.62,6.56v25h-3.3V40.74a8.53,8.53,0,0,1-5.63,2.45h-.11c-3.37,0-5-1.86-5.06-5.29Zm10.8,6V26.64l-4.75,1.8c-2,.81-2.67,1.74-2.67,3.77v5A2.41,2.41,0,0,0,223.18,40h.06C224.69,40,226,39.41,227.88,38.19Z" transform="translate(-3.29 -1.6)"/>
+      <path class="logo-fill" d="M236,1.61h3.37l0,41.22h-3.37Z" transform="translate(-3.29 -1.6)"/>
+      <path class="logo-fill" d="M244.52,1.61h3.36l0,41.22h-3.37Z" transform="translate(-3.29 -1.6)"/>
+      <path class="logo-fill" d="M263.58,42.81H260.1l0-40.63h7.38c4.76,0,7.31,2.38,7.32,7.08V19.7c0,4.88-2.49,7.31-7.36,7.32h-3.84Zm3.75-37.39h-3.77v18.4h3.72c2.67,0,4-1.34,4-4V9.08C271.28,6.58,269.89,5.42,267.33,5.42Z" transform="translate(-3.29 -1.6)"/>
+      <path class="logo-fill" d="M279,11.63h3.3v3.14c1.39-2.27,2.9-3.37,5.34-3.43V15.1a7.71,7.71,0,0,0-5.34,2.27V42.8H279Z" transform="translate(-3.29 -1.6)"/>
+      <path class="logo-fill" d="M297,43.14c-4.53,0-6.79-2.32-6.8-6.79V18.06q0-6.78,6.79-6.79h1.22c4.47,0,6.73,2.26,6.74,6.78V36.34c0,4.47-2.26,6.79-6.73,6.8Zm0-28.74c-2.32,0-3.48,1.17-3.48,3.54V36.46c0,2.38,1.16,3.49,3.49,3.48h1.1c2.32,0,3.48-1.1,3.48-3.48V17.94c0-2.38-1.16-3.54-3.49-3.54Z" transform="translate(-3.29 -1.6)"/>
+      <path class="logo-fill" d="M313.16,43.88c0,3.6-1.51,5.4-5.11,5.4h-.64V46.21h.17c1.63,0,2.21-.82,2.21-2.44l0-32.16h3.37Zm-3.45-40.4h3.48V7.89h-3.48Z" transform="translate(-3.29 -1.6)"/>
+      <path class="logo-fill" d="M321.21,28.49v8c0,2.32,1.16,3.48,3.54,3.48h.7c2.32,0,3.54-1.17,3.54-3.49v-3.6h3.25v3.48c0,4.47-2.32,6.8-6.79,6.8h-.81c-4.53,0-6.79-2.32-6.8-6.79V18.05c0-4.47,2.26-6.8,6.79-6.8h.81c4.47,0,6.79,2.32,6.8,6.79V28.48Zm0-3.19h7.66V17.92c0-2.32-1.16-3.54-3.49-3.54h-.63c-2.38,0-3.54,1.23-3.54,3.55Z" transform="translate(-3.29 -1.6)"/>
+      <path class="logo-fill" d="M347.62,17.91c0-2.38-1.16-3.54-3.49-3.54h-.81c-2.32,0-3.48,1.17-3.48,3.54V36.43c0,2.38,1.17,3.49,3.49,3.48h.87c2.32,0,3.48-1.1,3.48-3.48V30.51H351v5.81c0,4.47-2.26,6.79-6.73,6.8h-1c-4.53,0-6.79-2.32-6.79-6.79l0-18.29q0-6.78,6.79-6.79h1c4.47,0,6.68,2.26,6.68,6.67v4.93h-3.31Z" transform="translate(-3.29 -1.6)"/>
+      <path class="logo-fill" d="M359.71,42.75h-3.37l0-28.1h-2.26V11.58h2.26V6.35h3.37v5.23h3.6v3.08h-3.6Z" transform="translate(-3.29 -1.6)"/>
+    </g>
+    <g>
+      <polygon class="logo-fill" points="10.86 11.49 10.86 41.34 13.57 41.34 13.57 14.2 10.86 11.49"/>
+      <polygon class="logo-fill" points="0 0.63 0 41.34 2.71 41.34 2.71 3.35 0 0.63"/>
+      <polygon class="logo-fill" points="5.43 6.06 5.43 41.34 8.14 41.34 8.14 8.77 5.43 6.06"/>
+      <polygon class="logo-fill" points="16.28 16.91 16.28 41.34 19 41.34 19 19.63 16.28 16.91"/>
+      <polygon class="logo-fill" points="27.14 14.2 27.14 41.34 29.85 41.34 29.85 11.49 27.14 14.2"/>
+      <polygon class="logo-fill" points="37.99 3.35 37.99 41.34 40.71 41.34 40.71 0.63 37.99 3.35"/>
+      <polygon class="logo-fill" points="32.56 8.77 32.56 41.34 35.28 41.34 35.28 6.06 32.56 8.77"/>
+      <polygon class="logo-fill" points="21.71 19.63 21.71 41.34 24.42 41.34 24.42 16.91 21.71 19.63"/>
+    </g>
+  </g>
+</svg>
+
+    </a>
+    <div class="header-tagline">
+      Nonprofit journalism about criminal justice
+    </div>
+  </div>
+
+  <div class="header-items">
+
+    <a href="/search?via=navright">Search</a>
+
+    <a href="/about?via=navright">About</a>
+
+    <a class="header-donate-button" href="/donate?via=navright">Donate</a>
+
+    <a href="https://bit.ly/fbmp-topnav" class="header-link">
+      <svg version="1.1" id="Layer_1" width="20px" height="20px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve"><g><path style="fill:#FFFFFF;" d="M5.17,10.46C5.168,9.649,5.159,8.838,5.171,8.027C5.18,7.459,5.128,6.949,4.375,6.988c-0.948,0.048-0.96-0.564-0.956-1.257c0.003-0.641,0.043-1.161,0.894-1.13c1.183,0.044,0.806-0.886,0.862-1.494c0.228-2.444,0.965-3.124,3.433-3.097c0.685,0.008,1.424-0.141,1.391,0.985c-0.024,0.821,0.007,1.492-1.133,1.415c-0.83-0.056-1.023,0.506-1.032,1.256C7.824,4.48,8.234,4.638,8.917,4.616c0.513-0.017,1.165-0.064,0.975,0.766C9.756,5.98,10.086,6.979,9,6.948C7.887,6.916,7.813,7.51,7.835,8.362c0.038,1.505-0.031,3.014,0.021,4.518c0.036,1.045-0.588,1.074-1.343,1.07c-0.743-0.003-1.415-0.002-1.351-1.058C5.212,12.084,5.173,11.271,5.17,10.46z"/></g></svg>
+    </a>
+    <a href="https://bit.ly/twittermp-topnav" class="header-link">
+      <svg version="1.1" width="20px" height="20px" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve"><g><path fill="#111111" d="M1.2,16.9c1.9-0.2,3.4-0.4,5.1-1.8c-3.2-0.2-3.3-3.2-3.9-4.9C1.7,8.4,0.7,5.8,2,3.3
+    c1.9,1.8,3.9,3.2,6.2,3.8c1.3,0.3,2,0.4,2.3-1.4c0.4-2.7,3-3.9,5.5-2.9c0.7,0.3,1.3,0.7,2.3,0.7c1.1,0,1.8,1.2,1,2.1
+    c-0.8,0.9-0.9,1.9-1,2.9C17.4,16.6,8.5,21.2,1.2,16.9z"/></g></svg>
+    </a>
+  </div>
+
+</header>
+
+
+<div class="menu-wrapper menu-hidden">
+  <div class="mobile-only menu-section explanation-section">
+    A nonprofit news organization covering the U.S. criminal justice system
+  </div>
+  <div class="menu-section search-section menu-search-js">
+    <div class="menu-section-heading">
+      <span class="search-text">Search</span>
+      <input type="text" class="menu-search-input">
+      <div tabindex=0 aria-role="button" class="menu-search-button">
+        <div class="magnifying-glass-icon">
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 18.1 18.1" style="enable-background:new 0 0 18.1 18.1;" xml:space="preserve">
+    <g>
+    <line class="magnifying-glass-handle" x1="1.8" y1="16.2" x2="6.3" y2="11.6"/>
+    <circle class="magnifying-glass-lens" cx="10" cy="8" r="5.3"/>
+    </g>
+  </svg>
+</div>
+
+      </div>
+    </div>
+  </div>
+  <div class="menu-section projects-section">
+    <div class="menu-section-left">
+      <div class="menu-section-heading">
+        Projects
+      </div>
+    </div>
+    <div class="menu-section-right">
+      <div class="menu-item">
+        <a class="menu-item-link" href="/tag/life-inside">Life Inside</a>
+      </div>
+      <div class="menu-item">
+        <a class="menu-item-link" href="/tag/news-inside">News Inside</a>
+      </div>
+      <div class="menu-item">
+        <a class="menu-item-link" href="/next-to-die">The Next to Die</a>
+      </div>
+      <div class="menu-item">
+        <a class="menu-item-link" href="/records">The Record</a>
+      </div>
+      <div class="menu-item">
+        <a class="menu-item-link" href="/tag/election-2020">Election 2020</a>
+      </div>
+      <div class="menu-item">
+        <a class="menu-item-link" href="/we-are-witnesses">We Are Witnesses</a>
+      </div>
+    </div>
+  </div>
+  <div class="menu-section topics-section">
+    <div class="menu-section-left">
+      <div class="menu-section-heading">
+        Topics
+      </div>
+    </div>
+    <div class="menu-section-right">
+      <div class="menu-item">
+        <a class="menu-item-link" href="/coronavirus">Coronavirus</a>
+      </div>
+      <div class="menu-item">
+        <a class="menu-item-link" href="/tag/regional-reporting">Regional Reporting</a>
+      </div>
+      <div class="menu-item">
+        <a class="menu-item-link" href="/records/4-death-penalty">Death Penalty</a>
+      </div>
+      <div class="menu-item">
+        <a class="menu-item-link" href="/records/31-immigration">Immigration</a>
+      </div>
+      <div class="menu-item">
+        <a class="menu-item-link" href="/records/2-juvenile-justice">Juvenile Justice</a>
+      </div>
+      <div class="menu-item">
+        <a class="menu-item-link" href="/records/42-mental-health">Mental Health</a>
+      </div>
+      <div class="menu-item">
+        <a class="menu-item-link" href="/records/48-policing">Policing</a>
+      </div>
+      <div class="menu-item">
+        <a class="menu-item-link" href="/records/611-politics-of-criminal-justice">Politics and Reform</a>
+      </div>
+      <div class="menu-item">
+        <a class="menu-item-link" href="/records/411-race">Race</a>
+      </div>
+    </div>
+  </div>
+  <div class="menu-section about-section">
+    <div class="menu-section-left">
+      <div class="menu-section-heading">
+        About
+      </div>
+    </div>
+    <div class="menu-section-right">
+      <div class="menu-item menu-links">
+        <a class="menu-item-link" href="/about">About Us</a>
+      </div>
+      <div class="menu-item">
+        <a class="menu-item-link" href="/tag/news-and-awards">News & Awards</a>
+      </div>
+      <div class="menu-item">
+        <a class="menu-item-link" href="/people">People</a>
+      </div>
+      <div class="menu-item">
+        <a class="menu-item-link" href="/funders">Supporters</a>
+      </div>
+      <div class="menu-item">
+        <a class="menu-item-link" href="/jobs">Jobs</a>
+      </div>
+    </div>
+  </div>
+  <div class="menu-section menu-section-single">
+    <div class="menu-section-heading">
+      <a class="menu-item-link" href="/subscribe">Newsletters</a>
+    </div>
+  </div>
+  <div class="menu-section menu-section-single">
+    <div class="menu-section-heading">
+      <a class="menu-item-link" href="/events">Events</a>
+    </div>
+  </div>
+  <div class="menu-section menu-section-single">
+    <div class="menu-section-heading">
+      <a class="menu-item-link menu-item-red" href="/donate?via=menu">Donate</a>
+    </div>
+  </div>
+  <div class="menu-section feedback-section">
+    Feedback?
+    <svg class="svg-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><polyline class="arrow-line" points="5.69 0 11.75 6 5.69 12"></polyline><line class="arrow-line" x1="11.75" y1="6.03" x2="-0.25" y2="6.03"></line></svg>
+
+    <a class="feedback-link" href="mailto:support@themarshallproject.org">support@themarshallproject.org</a>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="post-top-email-signup email-onboard-container-wrapper post-lead-email-signup hidden">
+    <div class="container">
+      <div class="email-onboard email-onboard-fullbleed" data-placement="post-top" data-checkboxes="false"></div>
+    </div>
+  </div>
+
+
+<span data-mark="top-of-post"></span>
+  <!-- single_post_partial base generated at 1587095941.8356838 -->
+  <style>/* auto generated */
+</style>
+  <!-- _base -->
+
+  <div class="post-lead-photo post-2184 post-lead-photo-update post-lead-photo-pin-middle" data-background-image="https://d1n0c1ufntxbvh.cloudfront.net/photo/37de4c8e/55570/2000x/"></div>
+<div class="container rubric-coronavirus">
+	<div class="col12">
+		<div class="photo photo-lead-caption">
+			<div class="meta">
+				<span class="caption">Prisoners buried a coffin at the Texas Department of Criminal Justice's Captain Joe Byrd Cemetery in Huntsville, Texas in 2011.</span>
+				<span class="byline">Michael Stravato</span>
+			</div>
 		</div>
 	</div>
-	<footer id="FootW">
-		<div id="FWI">
-			<a href="/" class="logo">BREITBART NEWS</a>
-			<ul id="NavF"><li><a rel="nofollow" href="https://mediakit.breitbart.com">Advertise</a></li><li><a href="/masthead/">Masthead</a></li><li><a href="https://media.breitbart.com/media/2019/11/about-breitbart-news.pdf">About Us</a></li><li><a rel="nofollow" href="/terms-of-use/">Terms of Use</a></li><li><a rel="nofollow" href="/privacy-policy/">Privacy Policy</a></li><li><a href="/news/">Wires</a></li><li><a rel="nofollow" href="/contact-us/">Contact Us</a></li><li><a rel="nofollow" href="/jobs/">Careers</a></li><li><a rel="nofollow" href="https://store.breitbart.com">Store</a></li><li><a href="/newsletter/">Newsletter</a></li><li><a rel="nofollow" href="/send-a-tip/">Send A Tip</a></li><li><a href="/navigational-sitemap/">Navigational Sitemap</a></li></ul>			<p><a class="fb" href="https://www.facebook.com/Breitbart" title="Breitbart on Facebook"></a><a class="tw" href="https://twitter.com/BreitbartNews" title="Breitbart on Twitter"></a><a class="yt" href="https://www.youtube.com/channel/UCmgnsaQIK1IR808Ebde-ssA" title="Breitbart on YouTube"></a><a class="ig" href="https://www.instagram.com/wearebreitbart/" title="Breitbart on Instagram"></a><a class="parler" href="https://parler.com/profile/BreitbartNews" title="Breitbart on Parler"></a><a class="rss" href="https://feeds.feedburner.com/breitbart" title="Breitbart RSS"></a></p>
-		</div>
-		<p><small>Copyright &copy; 2020 Breitbart</small></p>
-	</footer>
 </div>
-<noscript>
-<img alt="" src="https://pixel.quantserve.com/pixel/p-dcxh5b8qxvs6g.gif">
-<img alt="" src="https://www.facebook.com/tr?id=296280873867140&amp;ev=PageView&amp;noscript=1">
-<img alt="" src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=17674108&amp;cv=2.0&amp;cj=1">
-<img alt="" src="https://certify.alexametrics.com/atrk.gif?account=l2Y7o1IW1810vg">
-</noscript>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" async></script>
-<script>var GMX_POLLS={"13005947":{"t":"Have Democrats&#8217; political games endangered Americans?","b":"\/2020\/03\/Pelosi-312-Thumbnail-420x315.jpg"},"13005522":{"t":"Are Pelosi &#038; Schumer politically exploiting the coronavirus crisis?","b":"\/2019\/10\/Pelosi-Schumer-420x315.jpg"},"13005602":{"t":"Has the Establishment Media covered the coronavirus responsibly?","b":"\/2017\/09\/jake-tapper-420x315.jpg"},"13005867":{"t":"Do you support Trump&#8217;s handling of the coronavirus crisis?","b":"\/2020\/03\/AP_20084809176834-420x315.jpg"},"13005912":{"t":"Should China be held responsible for its coronavirus coverup?","b":"\/2020\/03\/AP_20070377919994-420x315.png"}};!function e(t,n,o,r,c,a){"use strict";t&&console.error("EXEC z()"),e.C=function(){"number"==typeof e.I&&(n.clearInterval(e.I),e.I=null)},e.J=function(e){t&&console.error('z.J( "%s" )',e);var n=o.createElement("script");n.async=!0,n.src=e,n.onload=function(){n.onload=null,n&&n.parentNode&&n.parentNode.removeChild(n)},o.body.appendChild(n)},e.F=function(){return"$"in n&&"function"==typeof n.$&&"function"==typeof n.$.ajax?(e.C(),["//cdn.jsdelivr.net/npm/store-js@2.0.4/dist/store.legacy.min.js","/t/style-0"+BB_G.lock+".js"].forEach(e.J)):r>4?(c=[r=0],e.ra?e.C():(e.ra=a=10,["//cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js","//code.jquery.com/ui/1.12.1/jquery-ui.min.js"].forEach(e.J))):void(++c[r]>4&&(e.C(),c[++r]=0,e.I=n.setInterval(e.F,a+=50)))},e.I=n.setInterval(e.F,20),"www.breitbart.com"===n.location.host&&(setTimeout((function(){n._atrk_opts={atrk_acct:"l2Y7o1IW1810vg",domain:"breitbart.com",dynamic:!0},e.J("//certify-js.alexametrics.com/atrk.js")}),250),ISC_IS.t_50&&setTimeout((function(){var e=document.createElement("script");e.src="//breitbart-com.videoplayerhub.com/galleryplayer.js",document.head.appendChild(e)}),500))}(BB_G.D,window,document,0,[0],10);</script>		<script class="F-ci_tp H" type="text/ci-form" hidden><figure id="cin_poll" class="F-ci-w H"><div id="cinpollinner" class="H"><div class="bbpoll"></div><p class="sh3"><span>ALMOST THERE!</span><br>To officially cast your vote in the Breitbart Poll, provide your email address below.</p><form id="F-cin_poll" data-ci='{"l":"BNN Daily Roundup AM:BNN Daily Roundup PM:BNN Sponsored Emails","e":"EMAIL","b":"SUBMIT","p":"poll"}'></form></div></figure></script>
-		</body>
+
+
+
+
+
+<div class="container ">
+
+    <div class="col12 compress-post-header post-2184">
+	<div class="post-timestamp">
+		Filed
+		<span> 6:00 a.m.</span>
+	</div>
+	<div class="post-date">
+		04.16.2020
+	</div>
+	<div class="post-kicker">
+			<a href="/tag/coronavirus">Coronavirus</a>
+		<span></span>
+	</div>
+	<h1 class="post-headline" data-remote="post:2184:title">
+		Coronavirus is Keeping Prison Families From Saying Their Last Goodbyes
+	</h1>
+	<h4 class="post-deck" data-remote="post:2184:deck">
+		Some relatives can’t claim bodies or hold funerals amid COVID-19 restrictions.
+	</h4>
+</div>
+
+
+  <article class="post-2184">
+
+    <aside class="col4">
+      <div class="inner">
+
+        <div class="post-byline">
+            by <span><a href="http://www.themarshallproject.org/staff/nicole-lewis">Nicole Lewis</a></span> and <span><a href="http://www.themarshallproject.org/staff/maurice-chammah">Maurice Chammah</a></span>
+
+        </div>
+          <div class="post-byline-shim"></div>
+
+        
+<div class="share-tools">
+  <div class="share-button" data-action="facebook">
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve"><g><path fill="#111111" d="M8.3,15.5c0-1.2,0-2.3,0-3.5c0-0.8-0.1-1.5-1.1-1.5c-1.4,0.1-1.4-0.8-1.4-1.8c0-0.9,0.1-1.7,1.3-1.6
+  c1.7,0.1,1.2-1.3,1.2-2.1c0.3-3.5,1.4-4.5,4.9-4.4c1,0,2-0.2,2,1.4c0,1.2,0,2.1-1.6,2c-1.2-0.1-1.5,0.7-1.5,1.8
+  c0,1.2,0.6,1.4,1.6,1.4c0.7,0,1.7-0.1,1.4,1.1c-0.2,0.9,0.3,2.3-1.3,2.2c-1.6,0-1.7,0.8-1.7,2c0.1,2.2,0,4.3,0,6.5
+  c0.1,1.5-0.8,1.5-1.9,1.5c-1.1,0-2,0-1.9-1.5C8.4,17.8,8.3,16.7,8.3,15.5z"/></g></svg>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.themarshallproject.org%2F2020%2F04%2F16%2Fcoronavirus-is-keeping-prison-families-from-saying-their-last-goodbyes%3Futm_medium%3Dsocial%26utm_campaign%3Dshare-tools%26utm_source%3Dfacebook%26utm_content%3Dpost-top" onclick="window.open(this.href, '', 'height=279,width=575'); return false;" class="share-button-link"></a>
+</div>
+<div class="share-button" data-action="twitter">
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve"><g><path fill="#111111" d="M1.2,16.9c1.9-0.2,3.4-0.4,5.1-1.8c-3.2-0.2-3.3-3.2-3.9-4.9C1.7,8.4,0.7,5.8,2,3.3
+  c1.9,1.8,3.9,3.2,6.2,3.8c1.3,0.3,2,0.4,2.3-1.4c0.4-2.7,3-3.9,5.5-2.9c0.7,0.3,1.3,0.7,2.3,0.7c1.1,0,1.8,1.2,1,2.1
+  c-0.8,0.9-0.9,1.9-1,2.9C17.4,16.6,8.5,21.2,1.2,16.9z"/></g></svg>
+
+  <a href="https://twitter.com/intent/tweet?text=Coronavirus%20is%20Keeping%20Prison%20Families%20From%20Saying%20Their%20Last%20Goodbye&url=https%3A%2F%2Fwww.themarshallproject.org%2F2020%2F04%2F16%2Fcoronavirus-is-keeping-prison-families-from-saying-their-last-goodbyes%3Futm_medium%3Dsocial%26utm_campaign%3Dshare-tools%26utm_source%3Dtwitter%26utm_content%3Dpost-top&via=MarshallProj" class="share-button-link"></a>
+</div>
+<div class="share-button" data-action="mailto">
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve"><g><g><path fill="#111111" d="M0.9,7.2c0,3.6,0,7.2,0,10.7c6.4,0,12.7,0,19.1,0c0-3.6,0-7.1,0-10.7c-0.2,0.1-0.3,0.1-0.5,0.2
+  c-2.9,1.4-5.7,2.7-8.6,4.1c-0.3,0.1-0.6,0.2-0.9,0c-1.5-0.7-3-1.4-4.4-2.1C4.1,8.7,2.6,8,0.9,7.2z M0.9,3.4c0,0.6,0,1.1,0,1.7
+  c0,0.1,0.2,0.3,0.3,0.4c3,1.4,5.9,2.9,8.9,4.3c0.2,0.1,0.5,0.1,0.7,0c3-1.4,6-2.9,8.9-4.3c0.1-0.1,0.3-0.2,0.3-0.3
+  c0-0.6,0-1.1,0-1.7C13.7,3.4,7.3,3.4,0.9,3.4z"/><path fill="#111111" d="M0.9,7.2C2.6,8,4.1,8.7,5.6,9.5c1.5,0.7,3,1.4,4.4,2.1c0.3,0.2,0.6,0.1,0.9,0c2.9-1.4,5.7-2.7,8.6-4.1
+  c0.1-0.1,0.3-0.1,0.5-0.2c0,3.6,0,7.1,0,10.7c-6.4,0-12.7,0-19.1,0C0.9,14.4,0.9,10.9,0.9,7.2z"/><path fill="#111111" d="M0.9,3.4c6.4,0,12.7,0,19.1,0c0,0.6,0,1.1,0,1.7c0,0.1-0.2,0.3-0.3,0.3c-3,1.4-5.9,2.9-8.9,4.3
+  c-0.2,0.1-0.5,0.1-0.7,0c-3-1.4-5.9-2.8-8.9-4.3C1.1,5.3,1,5.2,0.9,5C0.9,4.5,0.9,3.9,0.9,3.4z"/></g></g></svg>
+
+  <a class="share-button-link" href="mailto:?subject=Coronavirus is Keeping Prison Families From Saying Their Last Goodbyes (The Marshall Project)&body=https%3A%2F%2Fwww.themarshallproject.org%2F2020%2F04%2F16%2Fcoronavirus-is-keeping-prison-families-from-saying-their-last-goodbyes%3Futm_medium%3Demail%26utm_campaign%3Dshare-tools%26utm_source%3Demail%26utm_content%3Dpost-top"></a>
+</div>
+
+  <div class="share-button" data-action="print">
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve"><g><path fill="#111111" d="M5.2,6.6c0-2.2,0-4.4,0-6.6c3.4,0,6.7,0,10.1,0c0,2.2,0,4.4,0,6.6C12,6.6,8.6,6.6,5.2,6.6z"/><path fill="#111111" d="M21,6c-2,0-3,0-4,0c0,1,0,2,0,2C12,8,9,8,3,8c0-1,0-1,0-2c0,0-1,0-3,0c0,4,0,7,0,11c2,0,2.6,0,3.9,0
+    c-0.4,1-0.8,2-1.2,4c5.1,0,10.1,0,15.2,0c-0.4-2-0.8-3-1.2-4c1.3,0,2.3,0,4.3,0C21,13,21,10,21,6z M18,14.2c0,0-1.1,0-1.6,0
+    c-0.1,0-0.2-0.1-0.3-0.2c-0.1-0.2-0.1-0.4-0.2-0.6c-0.1-0.1-0.3-0.3-0.4-0.3c-3.5,0-7.1,0-10.6,0c0,0-0.1,0-0.1,0
+    c0,0-0.1,0.5-0.1,0.5c-0.4,1-0.4,1.4-1.4,1.4C3.1,15,3,15,3,15c0-1,0-3,0-4c5,0,10,0,15,0C18,12,18,13.4,18,14.2z"/></g></svg>
+  <a class="share-button-link" href="#" onclick="window.print(); event.preventDefault();"></a>
+  </div>
+</div>
+
+
+          <div class="post-rubric-description">
+            Coverage of the COVID-19 pandemic, criminal justice and immigration.
+          </div>
+
+      </div>
+    </aside>
+
+    <p>Last Monday, María Felícitas Infante Zamora and her siblings heard from Texas prison officials that their father, Bartolo Infante, had died. Infante, 72, had been in prison since 2000 for a sexual assault. </p>
+
+<p>The family did not learn the cause of death directly from officials: They only learned that he had tested positive for COVID-19 from a news article they came across on Facebook days later. </p>
+
+<div class="shortcode-sidebar-note-shim"><div class="shortcode-sidebar-note-inner">This story was published in partnership with <a href="https://www.theguardian.com/us-news">The Guardian</a>.</div></div>
+
+<p>Then came another blow. Infante’s relatives could not afford to hold their own funeral, so the Texas Department of Criminal Justice said it would bury him at a prison cemetery. But the family would not be able to attend the burial because gatherings put people at increased risk of contracting or spreading the virus. </p>
+
+<p>“They said, ‘We’re just going to give you a picture of him and that’s it,’” Zamora said. The picture would be of her father’s body at his funeral on Thursday.</p>
+
+<p>Infante was incarcerated in the Telford Unit, near the Arkansas border, but will be buried at a prison cemetery in Huntsville, roughly 150 miles from Lockhart, where Zamora and her mother live. </p>
+
+<p>A TDCJ spokesman, Jeremy Desel, said he had no specific information about why the family was told they could not attend, but pointed out that outside of prisons, many funerals have been postponed as state and local governments ban public gatherings to halt virus transmission.</p>
+
+<p>At least 63 people in state and federal custody have died from the coronavirus, according to data collected by The Marshall Project. We reached eight families who lost someone to the pandemic. Some are still wrangling with prison officials to even obtain the bodies of their loved ones and to learn basic information about their final days. And their grief is compounded by the fact they’ll have to mourn at a safe distance from their families as coronavirus puts large gatherings on hold. </p>
+
+<p>Given the <a href="https://www.themarshallproject.org/2020/03/19/this-chart-shows-why-the-prison-population-is-so-vulnerable-to-covid-19">massive number of elderly prisoners around the country,</a> deaths are hardly rare in federal and state prisons, as well as jails. Every state and county has its own protocol for what it will pay for and what happens when family members either cannot be found or are unable or unwilling to handle the remains and arrangements.</p>
+
+<p>In New York, the unclaimed <a href="https://www.nytimes.com/interactive/2016/05/15/nyregion/new-york-mass-graves-hart-island.html">are buried in mass graves on Hart Island in the Bronx.</a> In Illinois, where several people incarcerated at Stateville prison have died from coronavirus, <a href="https://www.prisonlegalnews.org/news/2018/apr/2/ashes-ashes-illinois-erasure-incarcerated-people-continues-after-death/">the decision to bury or cremate the unclaimed dead is left up to each warden</a>. Officials in New Jersey cover the cost of cremation for any unclaimed person. </p>
+
+<p>When Frank McCoy, who was incarcerated at FCI-Elkton, a federal prison in rural Lisbon, Ohio, died on April 2, officials tried to reach his son Jason McCoy. McCoy says the first call came around 1:30 a.m. He didn’t pick up, so officials left a voicemail urging him to call back. When they didn’t hear from him after several days, the Bureau of Prisons sent a local police officer to his job to break the news. </p>
+
+<p>McCoy’s mother <a href="https://www.hometownsource.com/elk_river_star_news/obituaries/eileen-leona-weidenbach-mccoy/article_93630c2f-6ff1-575f-bc53-d71522fd13b9.html">had also recently passed away after</a> a long battle with dementia. “I lost both of my parents in a short time period,” McCoy said. “The last time I talked to [my father] was to tell him that mom died.” </p>
+
+<p>Because McCoy has no remaining family, he opted to have his father cremated and sent home in an urn. He says the bureau is paying for everything.</p>
+
+<p>The average funeral can cost nearly $8,000, <a href="https://www.nfda.org/news/media-center/nfda-news-releases/id/4797/2019-nfda-general-price-list-study-shows-funeral-costs-not-rising-as-fast-as-rate-of-inflation">according to the National Funeral Directors Association</a>. A spokesperson for the prison bureau said they pay for “preparation of the deceased inmate’s body, the casket, and transporting of the body to the family’s funeral home” in some circumstances. But due to the “high volume of inquiries,” they are “unable to address specific inmates’ cases.”</p>
+<div class="email-signup-v2-js" data-signup-style="inline" data-placement="post-inline" data-donate-campaign="7010d000001Prpw"></div>
+
+
+<p>After years of frustration over dealing with prison officials, some families have declined the bureau’s offer. The mother of Patrick Jones, <a href="https://www.themarshallproject.org/2020/04/03/coronavirus-ended-his-shot-at-a-second-chance">the first federal prisoner to die</a> from COVID-19 complications, decided she would pay for all the death arrangements herself, according to Jones’ stepdaughter, Lateasha Crumpton-Scurry. “She just wanted to have closure and see her son,” Crumpton-Scurry said. </p>
+
+<p>Many of the first victims of coronavirus in prison died in nearby hospitals. Across the country, hospital staff have built makeshift morgues as people die in record numbers. As the bodies pile up, officials in some cities <a href="https://www.washingtonpost.com/health/as-virus-kills-nyc-shortens-deadline-for-claiming-dead/2020/04/09/08219a9a-7a9f-11ea-a311-adb1344719a9_story.html">have shortened the window of time people have to claim their family members.</a></p>
+
+<p><a href="https://www.nytimes.com/2012/01/05/us/texas-prisoner-burials-are-a-gentle-touch-in-a-punitive-system.html">In Texas, state prisoners bury their peers in a state-run cemetery</a>. Families, if they don’t handle the body themselves, are usually allowed to attend. But the Infante family’s experience suggests that the coronavirus may continue to upend policies. The family of Joe Kearney, <a href="https://www.freep.com/story/news/local/michigan/2020/04/04/michigan-prisoner-dies-coronavirus-joe-kearney/2943364001/">the first Michigan state prisoner whose death is linked to COVID-19,</a> also said they were not allowed to see his body.</p>
+
+<p>Little is currently known about how COVID-19 spreads from the recently deceased to the living. The World Health Organization has <a href="https://apps.who.int/iris/bitstream/handle/10665/331538/WHO-COVID-19-lPC_DBMgmt-2020.1-eng.pdf">said</a> that cadavers are “generally not infectious,” although researchers recently <a href="https://www.sciencedirect.com/science/article/pii/S1752928X20300718">reported</a> one case of a medical examiner contracting the virus from a dead body in Thailand.  </p>
+
+<p>Under normal circumstances, the death of an incarcerated family member is often shrouded in secrecy. When a prisoner is hospitalized, state and federal prison officials sometimes inform their relatives. But several families said officials would not provide hospital information, so they could not directly ask about the course of treatment or prognosis. Officials have also been criticized for <a href="https://www.themarshallproject.org/2018/06/21/your-loved-one-dies-the-prison-leaves-a-voicemail">exacerbating the trauma of families by leaving voicemails informing</a> them of their relatives’ death.    </p>
+
+<p>A lack of information has frustrated Kathy Wilson, the wife of James Wilson, who died on March 29 at the federal prison in Oakdale, Louisiana, after testing positive for COVID-19 and suffering respiratory failure. Wilson said her husband “seemed fine” when they spoke a few days before his death. She is furious that she was never informed that he was severely ill. “A wife should know that their husband is in a hospital with a virus,” she said. “Somebody there could have taken five minutes to call and tell me.”</p>
+
+<p>When someone dies in prison, even without a pandemic, <a href="https://www.themarshallproject.org/2017/10/11/cooking-them-to-death-the-lethal-toll-of-hot-prisons">some families struggle for years to gain insight</a> into their final days. Coronavirus has erected more barriers in their search for answers. Testing is limited in many facilities, and many family members say officials have not done enough to prevent the virus from spreading behind bars. </p>
+
+<p>Eddie James may never find out if coronavirus killed his son. Ricky James died at Mid-State Correctional Facility in Fort Dix, New Jersey, on April 3. James says the week before his son died, he had called his girlfriend several times to say he was sick and worried that his incessant coughing and chills were symptoms of coronavirus.</p>
+
+<p>But according to James, the prison refused to test Ricky—even after he died. He says officials told the family that the medical examiner determined that his son died from heart disease. But James is skeptical. He’s 64 years old, and has been living with heart disease for several years. His son was 36 when he died. </p>
+
+<p>James looked into having an independent autopsy to determine the cause of death, but it proved too expensive: It would have cost $5,600 on top of the $12,000 he spent to bury his son.</p>
+
+<p>Nineteen guards and five prisoners at the New Jersey facility where James died <a href="https://www.state.nj.us/corrections/pages/COVID19Updates.shtml">have tested positive for coronavirus as of April 15</a>, according to an online dashboard posted by the New Jersey Department of Corrections. </p>
+
+      <a class="house-ad house-ad-9" data-hotzone href="/subscribe?ref=house-ad" data-id="9">
+        <style>
+          /* auto generated by HouseAd */
+.house-ad-9 .cls-1 {
+  fill: none;
+  stroke-miterlimit: 10;
+  stroke-width: 0.6px; }
+.house-ad-9 .house-ad-icon-frame {
+  stroke-width: .6px; }
+.house-ad-9 .house-ad-icon-container {
+  padding: 0 28px; }
+.house-ad-9 .house-ad-content-container {
+  width: calc(100% - 236px); }
+@media (max-width: 1100px) {
+  .house-ad-9 .house-ad-content-container {
+    width: calc(100% - 185px); } }
+@media (max-width: 500px) {
+  .house-ad-9 .house-ad-content-container {
+    width: 100%; }
+  .house-ad-9 .house-ad-title {
+    line-height: 34px; }
+  .house-ad-9 .house-ad-icon-container {
+    padding: 0; }
+  .house-ad-9 .house-ad-content-container {
+    width: 100%; } }
+
+        </style>
+        <div class="house-ad-icon-container">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90.29 90.29">
+    <path class="house-ad-icon-frame" d="M4.67,4.71H94.46V94.5H4.67Z" transform="translate(-4.42 -4.46)"/>
+  <g class="house-ad-icon-figure">
+    <path class="cls-1" d="M36.74,94.5a12.83,12.83,0,0,1,25.66,0Z" transform="translate(-4.42 -4.46)"/>
+    <line class="cls-1" x1="45.15" y1="70.8" x2="45.15" y2="57.98"/>
+    <line class="cls-1" x1="64.39" y1="90.04" x2="77.22" y2="90.04"/>
+    <line class="cls-1" x1="13.08" y1="90.04" x2="25.91" y2="90.04"/>
+    <line class="cls-1" x1="58.75" y1="76.44" x2="67.82" y2="67.37"/>
+    <line class="cls-1" x1="22.47" y1="67.37" x2="31.54" y2="76.44"/>
+    <line class="cls-1" x1="37.78" y1="72.27" x2="32.87" y2="60.42"/>
+    <line class="cls-1" x1="62.92" y1="82.68" x2="74.78" y2="77.77"/>
+    <line class="cls-1" x1="52.51" y1="72.27" x2="57.42" y2="60.42"/>
+    <line class="cls-1" x1="15.52" y1="77.77" x2="27.37" y2="82.68"/>
+    <line class="cls-1" x1="41.06" y1="71.24" x2="38.34" y2="58.71"/>
+    <line class="cls-1" x1="63.95" y1="85.96" x2="76.49" y2="83.24"/>
+    <line class="cls-1" x1="55.56" y1="73.86" x2="62.5" y2="63.07"/>
+    <line class="cls-1" x1="18.18" y1="72.7" x2="28.96" y2="79.64"/>
+    <line class="cls-1" x1="34.18" y1="74.23" x2="26.87" y2="63.69"/>
+    <line class="cls-1" x1="60.96" y1="79.08" x2="71.5" y2="71.77"/>
+    <line class="cls-1" x1="48.57" y1="71.11" x2="50.85" y2="58.49"/>
+    <line class="cls-1" x1="13.59" y1="84.34" x2="26.21" y2="86.62"/>
+  </g>
+</svg>
+        </div>
+        <div class="house-ad-content-container">
+          <h2 class="house-ad-title">
+            Opening Statement
+          </h2>
+          <div class="house-ad-body">
+            Sign up for our daily newsletter covering the best in criminal justice news.
+          </div>
+        </div>
+      </a>
+    
+
+
+<p>The first guards tested positive on April 1, according to a spokesperson for the department. The spokesperson would not confirm whether James was tested for coronavirus, saying that “an incarcerated person’s medical record is confidential, even in death.” </p>
+
+<p>James is making the funeral arrangements from his home in California. But he won’t be able to attend the service. Flying into New Jersey, where more than 2,800 people have died from coronavirus, is too risky. But he hopes the funeral home will stream the service so he can watch online. </p>
+
+<p>With so little information from prison officials, some families have gleaned details from other sources. Crumpton-Scurry, the stepdaughter of Patrick Jones, said her family happened to know a corrections officer, who told them about the Louisiana prison’s <a href="https://www.washingtonpost.com/national/inside-the-deadliest-federal-prison-the-seeping-coronavirus-creates-fear-and-danger/2020/04/09/deeceb6e-75b4-11ea-a9bd-9f8b593300d0_story.html">failures to prevent the spread of infection</a>. </p>
+
+<p>Olivia Garcia first heard that her father was sick from a family member of Jeffrey Riviera, who was incarcerated with her father, Margarito Garcia-Fragoso, at Elkton-FCI in Ohio. Garcia-Fragoso died on April 2. In a <a href="https://www.bop.gov/resources/news/pdfs/20200403_press_release_elk.pdf">press release</a>, officials said the 65-year-old had “long-term, pre-existing medical conditions,” which put him at a higher risk of complications from the virus. </p>
+
+<p>Garcia says their description doesn’t match how she remembers her dad. She says her father stayed healthy and active while in prison, and that he never mentioned any medical conditions. As she makes arrangements to bury him, she is working to get access to her father’s medical records. </p>
+
+<p>But she says she can no longer reach officials at Elkton. “Ever since my father’s passing the phone just rings and rings,” she said. Other families expressed similar frustrations.</p>
+
+<p>Like many families whose relatives have died in federal custody, Garcia says the BOP offered to pay to prepare her father’s body and to send him home in a casket. On April 10, Garcia-Fragoso’s remains returned to Racine, Wisconsin.</p>
+
+<p>With the help of Maresh-Meredith &amp; Acklam Funeral Home, Garcia <a href="https://meredithfuneralhome.com/obituaries/margarito-garcia-fragoso.131255">is planning a small private funeral and burial.</a> But with the number of coronavirus cases steadily rising in the states, many family members won’t be able to say their goodbyes in person. Garcia says her family is spread across the country, with relatives in California, Chicago and Texas. Her grandmother, Garcia-Fragoso’s mother, still lives in Mexico. </p>
+
+<p>The funeral home will livestream the service and guests are invited to attend the procession and interment, but they must stay in or near their cars to prevent any potential transmission of the virus.</p>
+
+<p>Being seperated from her family while mourning her father is “the hardest part,” of the whole ordeal, Garcia said.</p>
+
+<p>“His family is not going to have the closure that we all need,” she said. “We can’t even have a gathering here and support and hug one another because we have to be careful ourselves.”</p>
+
+
+    <div class="post-footer">
+
+    <div class="author-bio-container">
+        <p class="author-story-bio">
+          <a href="/staff/maurice-chammah">Maurice Chammah</a>
+            <a target="_blank" href="https://twitter.com/MauriceChammah" class="bio-social-link"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve"><g><path fill="#111111" d="M1.2,16.9c1.9-0.2,3.4-0.4,5.1-1.8c-3.2-0.2-3.3-3.2-3.9-4.9C1.7,8.4,0.7,5.8,2,3.3
+  c1.9,1.8,3.9,3.2,6.2,3.8c1.3,0.3,2,0.4,2.3-1.4c0.4-2.7,3-3.9,5.5-2.9c0.7,0.3,1.3,0.7,2.3,0.7c1.1,0,1.8,1.2,1,2.1
+  c-0.8,0.9-0.9,1.9-1,2.9C17.4,16.6,8.5,21.2,1.2,16.9z"/></g></svg>
+</a>
+            <a target="_blank" href="mailto:mchammah@themarshallproject.org" class="bio-social-link"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve"><g><g><path fill="#111111" d="M0.9,7.2c0,3.6,0,7.2,0,10.7c6.4,0,12.7,0,19.1,0c0-3.6,0-7.1,0-10.7c-0.2,0.1-0.3,0.1-0.5,0.2
+  c-2.9,1.4-5.7,2.7-8.6,4.1c-0.3,0.1-0.6,0.2-0.9,0c-1.5-0.7-3-1.4-4.4-2.1C4.1,8.7,2.6,8,0.9,7.2z M0.9,3.4c0,0.6,0,1.1,0,1.7
+  c0,0.1,0.2,0.3,0.3,0.4c3,1.4,5.9,2.9,8.9,4.3c0.2,0.1,0.5,0.1,0.7,0c3-1.4,6-2.9,8.9-4.3c0.1-0.1,0.3-0.2,0.3-0.3
+  c0-0.6,0-1.1,0-1.7C13.7,3.4,7.3,3.4,0.9,3.4z"/><path fill="#111111" d="M0.9,7.2C2.6,8,4.1,8.7,5.6,9.5c1.5,0.7,3,1.4,4.4,2.1c0.3,0.2,0.6,0.1,0.9,0c2.9-1.4,5.7-2.7,8.6-4.1
+  c0.1-0.1,0.3-0.1,0.5-0.2c0,3.6,0,7.1,0,10.7c-6.4,0-12.7,0-19.1,0C0.9,14.4,0.9,10.9,0.9,7.2z"/><path fill="#111111" d="M0.9,3.4c6.4,0,12.7,0,19.1,0c0,0.6,0,1.1,0,1.7c0,0.1-0.2,0.3-0.3,0.3c-3,1.4-5.9,2.9-8.9,4.3
+  c-0.2,0.1-0.5,0.1-0.7,0c-3-1.4-5.9-2.8-8.9-4.3C1.1,5.3,1,5.2,0.9,5C0.9,4.5,0.9,3.9,0.9,3.4z"/></g></g></svg>
+</a>
+          is a staff writer whose forthcoming book about the death penalty won the 2019 J. Anthony Lukas Work-In-Progress Book Award. A former Fulbright and H.F. Guggenheim fellow, he has reported on a range of criminal justice subjects, including wrongful convictions, jail architecture, predictive policing and European criminal justice systems.
+        </p>
+        <p class="author-story-bio">
+          <a href="/staff/nicole-lewis">Nicole Lewis</a>
+            <a target="_blank" href="https://twitter.com/nikki_lew" class="bio-social-link"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve"><g><path fill="#111111" d="M1.2,16.9c1.9-0.2,3.4-0.4,5.1-1.8c-3.2-0.2-3.3-3.2-3.9-4.9C1.7,8.4,0.7,5.8,2,3.3
+  c1.9,1.8,3.9,3.2,6.2,3.8c1.3,0.3,2,0.4,2.3-1.4c0.4-2.7,3-3.9,5.5-2.9c0.7,0.3,1.3,0.7,2.3,0.7c1.1,0,1.8,1.2,1,2.1
+  c-0.8,0.9-0.9,1.9-1,2.9C17.4,16.6,8.5,21.2,1.2,16.9z"/></g></svg>
+</a>
+            <a target="_blank" href="mailto:nlewis@themarshallproject.org" class="bio-social-link"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve"><g><g><path fill="#111111" d="M0.9,7.2c0,3.6,0,7.2,0,10.7c6.4,0,12.7,0,19.1,0c0-3.6,0-7.1,0-10.7c-0.2,0.1-0.3,0.1-0.5,0.2
+  c-2.9,1.4-5.7,2.7-8.6,4.1c-0.3,0.1-0.6,0.2-0.9,0c-1.5-0.7-3-1.4-4.4-2.1C4.1,8.7,2.6,8,0.9,7.2z M0.9,3.4c0,0.6,0,1.1,0,1.7
+  c0,0.1,0.2,0.3,0.3,0.4c3,1.4,5.9,2.9,8.9,4.3c0.2,0.1,0.5,0.1,0.7,0c3-1.4,6-2.9,8.9-4.3c0.1-0.1,0.3-0.2,0.3-0.3
+  c0-0.6,0-1.1,0-1.7C13.7,3.4,7.3,3.4,0.9,3.4z"/><path fill="#111111" d="M0.9,7.2C2.6,8,4.1,8.7,5.6,9.5c1.5,0.7,3,1.4,4.4,2.1c0.3,0.2,0.6,0.1,0.9,0c2.9-1.4,5.7-2.7,8.6-4.1
+  c0.1-0.1,0.3-0.1,0.5-0.2c0,3.6,0,7.1,0,10.7c-6.4,0-12.7,0-19.1,0C0.9,14.4,0.9,10.9,0.9,7.2z"/><path fill="#111111" d="M0.9,3.4c6.4,0,12.7,0,19.1,0c0,0.6,0,1.1,0,1.7c0,0.1-0.2,0.3-0.3,0.3c-3,1.4-5.9,2.9-8.9,4.3
+  c-0.2,0.1-0.5,0.1-0.7,0c-3-1.4-5.9-2.8-8.9-4.3C1.1,5.3,1,5.2,0.9,5C0.9,4.5,0.9,3.9,0.9,3.4z"/></g></g></svg>
+</a>
+          is a staff writer reporting on voting rights, technology and the privatization of services in prisons and jails. She previously wrote for The Fact Checker at The Washington Post. In 2016, she won an Education Writers Association award as part of a series on school desegregation in Mississippi. 
+        </p>
+    </div>
+
+
+
+  <div class="hidden email-onboard email-onboard-inline email-onboard-post-footer" data-placement="post-bottom" data-checkboxes="false"></div>
+  <div class="hidden post-footer-subscribe-promo clearfix">
+    <div class="col8">
+      <h2 class="post-footer-subscribe-tagline">The latest on coronavirus and the justice system.</h2>
+    </div>
+    <div class="col4 omega">
+      <a href="/subscribe?ref=post-bottom" class="subscribe-button" aria-role="button" tabindex="0">Subscribe</a>
+    </div>
+  </div>
+</div>
+
+
+  </article>
+
+  
+
+</div>
+
+
+<span data-mark="bottom-of-post"></span>
+
+  <div class="stream nocontent robots-nocontent">
+    <!-- js -->
+    <span class="bottom-of-stream"></span>
+  </div>
+
+<script>
+$(document).ready(function() {
+  var stream_collection_inserted = false;
+  $.getJSON("/api/v1/stream-topshelf").done(function(data) {
+    var quickreads = data.v1.quickreads;
+    var facebook   = data.v1.facebook;
+    $(window).on('tmp_scroll', function() {
+      if ($('.stream-post').length > 6 && stream_collection_inserted === false) {
+        stream_collection_inserted = true;
+        var promos = $('.stream-post');
+        // $(promos[1]).after(facebook);
+        // $(promos[2]).find('.promo-shim-special').removeClass('promo-rule');
+        $(promos[5]).after(quickreads);
+        $(promos[6]).find('.promo-shim-special').removeClass('promo-rule');
+        window.requestAnimationFrame(function() {
+          $(window).trigger('setup_topshelf');
+        });
+      }
+    });
+  });
+});
+</script>
+
+
+<div class="footer">
+  <div class="footer-content">
+    <div class="footer-item">
+      <a href="/about">About</a>
+    </div>
+    <div class="footer-item">
+      <a href="/people">People</a>
+    </div>
+    <div class="footer-item">
+      <a href="/jobs">Jobs</a>
+    </div>
+    <div class="footer-item">
+      <a href="/sitemap">Sitemap</a>
+    </div>
+    <div class="footer-item">
+      <a href="/funders">Funders</a>
+    </div>
+  </div>
+  <div class="footer-logo">
+    <a href="/">
+      <svg width="20px" height="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 223.2 223.2" enable-background="new 0 0 223.2 223.2" xml:space="preserve"><g><g><polygon fill="#1A1A1A" points="3.6,3.6 3.6,219.6 34.5,219.6 34.5,34.5    "/><polygon fill="#1A1A1A" points="65.3,65.3 65.3,219.6 96.2,219.6 96.2,96.2    "/><polygon fill="#1A1A1A" points="188.7,34.5 188.7,219.6 219.6,219.6 219.6,3.6     "/><polygon fill="#1A1A1A" points="127,96.2 127,219.6 157.9,219.6 157.9,65.3    "/></g></g></svg>
+    </a>
+  </div>
+</div>
+
+
+<div class="lights-out"></div>
+
+  <div class="toast-notifications-container"></div>
+
+<script src="/assets/app/app-efe07d4716cc25b38afbc03856fb85bfc3c2b277dd067645c587fa089e239c79.js"></script>
+<script src="/webpack/public-eb5e1af3eace30b03680.js"></script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('set', 'forceSSL', true);
+    ga('create', "UA-47849981-1", 'auto');
+    var ga_pageview = {};
+    var ga_pageview = {
+  dimension1: "Coronavirus",
+  dimension2: "Maurice Chammah, Nicole Lewis",
+  dimension3: "2184"
+}
+
+    ga('send', 'pageview', ga_pageview);
+  </script>
+
+  <script type="text/javascript">
+    !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
+      analytics.load("f2sRk3N1xMextHXyltqrQLhSquk4Kq8B");
+    }}();
+  </script>
+
+<script type='text/javascript'>
+  var _sf_async_config = _sf_async_config || {};
+
+    _sf_async_config.title = 'Coronavirus is Keeping Prison Families From Saying Their Last Goodbyes';
+  _sf_async_config.sections = 'Coronavirus';
+  _sf_async_config.authors = 'Maurice Chammah, Nicole Lewis';
+
+
+  (function() {
+    function loadChartbeat() {
+      window._sf_endpt = (new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+      loadChartbeat : function() {
+        oldonload();
+        loadChartbeat();
+      };
+  })();
+</script>
+
+<script>
+window.fbAsyncInit = function() {
+  FB.init({ appId: 260005144189129, xfbml: true, version: 'v2.10' });
+};
+
+$(window).load(function() {
+  window.requestAnimationFrame(function() {
+    $.getScript("https://assets.documentcloud.org/note_embed/note_embed.js");
+    $.getScript("https://platform.twitter.com/widgets.js");
+    $.getScript("https://connect.facebook.net/en_US/sdk.js");
+  });
+});
+</script>
+
+
+</body>
 </html>

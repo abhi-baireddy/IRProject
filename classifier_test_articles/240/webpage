@@ -1,1091 +1,732 @@
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link rel="preconnect" href="//cdnjs.cloudflare.com">
-<link rel="preconnect" href="//fonts.googleapis.com">
-<link rel="preconnect" href="//ib.adnxs.com">
-<link rel="preconnect" href="//experience.tinypass.com">
-<link rel="preconnect" href="//sandbox.tinypass.com">
-<link rel="preconnect" href="//www.googletagservices.com">
-<link rel="preconnect" href="//media.townhall.com">
-<link rel="preconnect" href="//prebid.adnxs.com">
-<link rel="preconnect" href="//www.google-analytics.com">
-<link rel="preconnect" href="//pagead2.googlesyndication.com">
-<link rel="preconnect" href="//ad.doubleclick.net">
-<link rel="preconnect" href="//securepubads.g.doubleclick.net">
-<link rel="preconnect" href="//c.amazon-adsystem.com">
-<link rel="preconnect" href="//townhallmedia-d.openx.net">
-<link rel="preconnect" href="//cdn.blueconic.net">
-<script>
-        document.cookie = "__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
-        var setNptTechAdblockerCookie = function (adblocker) {
-            var d = new Date();
-            d.setTime(d.getTime() + 60 * 60 * 24 * 2 * 1000);
-            document.cookie = "__adblocker=" + (adblocker ? "true" : "false") + "; expires=" + d.toUTCString() + "; path=/";
-        }
-        var script = document.createElement("script");
-        script.setAttribute("async", true);
-        script.setAttribute("src", "//www.npttech.com/advertising.js");
-        script.setAttribute("onerror", "setNptTechAdblockerCookie(true);");
-        document.getElementsByTagName("head")[0].appendChild(script);
-    </script>
-<script type="text/javascript" src="//d2ze07sbtyfzd0.cloudfront.net/script.js"></script>
-<script async src="https://cdn.blueconic.net/salemmediagroup.js"></script>
-<script type='text/javascript'>var _sf_startpt = (new Date()).getTime()</script>
-<link rel="manifest" href="/manifest.json">
-<link rel="alternate" href="https://townhall.com" hreflang="en-us">
-<style>
-        .async-hide {
-            opacity: 0 !important
-        }
-    </style>
-<script>
-        (function (a, s, y, n, c, h, i, d, e) {
-            s.className += ' ' + y; h.start = 1 * new Date;
-            h.end = i = function () { s.className = s.className.replace(RegExp(' ?' + y), '') };
-            (a[n] = a[n] || []).hide = h; setTimeout(function () { i(); h.end = null }, c); h.timeout = c;
-        })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
-            { 'GTM-KT87G5R': true });
-    </script>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments);
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Warren Gets Dark Money Help in Florida</title>
+		<link rel="profile" href="https://gmpg.org/xfn/11">
+		<link rel="pingback" href="https://freebeacon.com/xmlrpc.php">
 
-    ga('create', 'UA-404425-3', 'auto', { 'useAmpClientId': true });
-    
-    ga('require', 'GTM-KT87G5R');
-    
-    //ga('set', 'transport', 'beacon');
-    ga('require', 'displayfeatures');
-    if (typeof hptId !== 'undefined')
-    {
-        ga('set', 'dimension2', hptId);
-    }
-    
-    ga('set', 'dimension7', 'free');
-    ga('send', 'pageview');
-</script>
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-<link rel="apple-touch-icon" sizes="57x57" href="https://media.townhall.com/thm/favicon/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="https://media.townhall.com/thm/favicon/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="https://media.townhall.com/thm/favicon/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="https://media.townhall.com/thm/favicon/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="https://media.townhall.com/thm/favicon/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="https://media.townhall.com/thm/favicon/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="https://media.townhall.com/thm/favicon/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="https://media.townhall.com/thm/favicon/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://media.townhall.com/thm/favicon/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-16x16.png" sizes="16x16">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/android-chrome-192x192.png" sizes="192x192">
-<meta name="msapplication-square70x70logo" content="https://media.townhall.com/thm/favicon/smalltile.png" />
-<meta name="msapplication-square150x150logo" content="https://media.townhall.com/thm/favicon/mediumtile.png" />
-<meta name="msapplication-wide310x150logo" content="https://media.townhall.com/thm/favicon/widetile.png" />
-<meta name="msapplication-square310x310logo" content="https://media.townhall.com/thm/favicon/largetile.png" />
-<link href="/resources/css/bootstrap.min.css" rel="preload" as="style" />
-<link href="/resources/css/bootstrap.min.css" rel="stylesheet" />
-<link href="/resources/dist/css/main.min.css?v=2" rel="preload" as="style" />
-<link href="/resources/dist/css/main.min.css?v=2" rel="stylesheet" />
-<link href="/resources/lib/jquery/dist/jquery.min.js" rel="preload" as="script" />
-<script src="/resources/lib/jquery/dist/jquery.min.js"></script>
-<meta property="fb:app_id" content="967808926746051" />
-<meta property="fb:pages" content="41632789656,103971336305218,319569361390023,106547192707583,124538510989702,283971595408,15418366158,153162531376557,127519040661256,123834811060739,305174559545115,321502821264274,413465452078762,492802317512753,140705212665688,116757565026850,114013445328868" />
-<title>Why Airlines Are Flying Scores of &#39;Ghost Flights&#39; During Wuhan Virus Outbreak</title>
-<meta name="description" content=".04/18/2020 1:49:05AM EST." />
-<link rel="amphtml" href="https://townhall.com/tipsheet/mattvespa/2020/03/10/why-airlines-are-flying-scores-of-ghost-flights-during-wuhan-virus-outbreak-n2564326?amp=true">
-<meta name="keywords" content="wuhan virus" />
-<meta name="robots" content="index, follow" />
-<meta name="author" content="Matt Vespa" />
-<link rel="canonical" href="https://townhall.com/tipsheet/mattvespa/2020/03/10/why-airlines-are-flying-scores-of-ghost-flights-during-wuhan-virus-outbreak-n2564326" />
-<meta property="og:title" content="Why Airlines Are Flying Scores of &#39;Ghost Flights&#39; During Wuhan Virus Outbreak" />
-<meta property="og:type" content="Article" />
-<meta property="og:url" content="https://townhall.com/tipsheet/mattvespa/2020/03/10/why-airlines-are-flying-scores-of-ghost-flights-during-wuhan-virus-outbreak-n2564326" />
-<meta property="og:image" content="https://media.townhall.com/townhall/reu/s1280x720/2020/29/52dec03f-6da7-4119-9209-9a3c45801ef7.jpg" />
-<meta property="og:site_name" content="Townhall " />
-<meta property="og:description" content="" />
-<script type="application/ld+json">
-        {
-        "@context": "http://schema.org",
-        "@type": "NewsArticle",
-        "headline": "Why Airlines Are Flying Scores of &#39;Ghost Flights&#39; During Wuhan Virus Outbreak",
-        "datePublished": "2020-03-10T12:05:00-04:00",
-        "dateModified": "2020-03-10T12:05:00-04:00" ,
-        "image": {
-        "@type": "ImageObject",
-        "url": "https://media.townhall.com/townhall/reu/s1280x720/2020/29/52dec03f-6da7-4119-9209-9a3c45801ef7.jpg",
-        "height": 665,
-        "width": 700
-        },
-        "mainEntityOfPage":"https://townhall.com/tipsheet/mattvespa/2020/03/10/why-airlines-are-flying-scores-of-ghost-flights-during-wuhan-virus-outbreak-n2564326",
-        "author": {
-        "@type": "Person",
-        "name": "Matt Vespa"
-        },
-        "publisher": {
-        "@type":"Organization",
-        "name": "Townhall.com",
-        "logo": {
-        "@type": "ImageObject",
-        "url": "https://media.townhall.com/townhall/ampmobile/Logo_TH_3.png",
-        "width": 128,
-        "height": 60
-        }
-        }
-        }
-    </script>
+		<meta property="fb:pages" content="282024895179874">
+
+		
+<!-- This site is optimized with the Yoast SEO plugin v9.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Elizabeth Warren&#039;s flip flop on super PACs is paying dividends in Florida. Her struggling campaign got a boost from a dark money group late last week."/>
+<link rel="canonical" href="https://freebeacon.com/politics/warren-gets-dark-money-help-in-florida/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Warren Gets Dark Money Help in Florida" />
+<meta property="og:description" content="Elizabeth Warren&#039;s flip flop on super PACs is paying dividends in Florida. Her struggling campaign got a boost from a dark money group late last week." />
+<meta property="og:url" content="https://freebeacon.com/politics/warren-gets-dark-money-help-in-florida/" />
+<meta property="og:site_name" content="Washington Free Beacon" />
+<meta property="article:publisher" content="https://www.facebook.com/FreeBeacon/" />
+<meta property="article:tag" content="2020 Election" />
+<meta property="article:tag" content="Dark Money" />
+<meta property="article:tag" content="Elizabeth Warren" />
+<meta property="article:tag" content="Florida" />
+<meta property="article:tag" content="Super PACs" />
+<meta property="article:section" content="Politics" />
+<meta property="article:published_time" content="2020-03-03T21:15:23+00:00" />
+<meta property="article:modified_time" content="2020-03-03T21:03:26+00:00" />
+<meta property="og:updated_time" content="2020-03-03T21:03:26+00:00" />
+<meta property="fb:app_id" content="169639790097533" />
+<meta property="og:image" content="https://freebeacon.com/wp-content/uploads/2020/03/GettyImages-1204143623.jpg" />
+<meta property="og:image:secure_url" content="https://freebeacon.com/wp-content/uploads/2020/03/GettyImages-1204143623.jpg" />
+<meta property="og:image:width" content="736" />
+<meta property="og:image:height" content="514" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Why Airlines Are Flying Scores of &#39;Ghost Flights&#39; During Wuhan Virus Outbreak" />
-<meta name="twitter:image" content="https://media.townhall.com/townhall/reu/s1280x720/2020/29/52dec03f-6da7-4119-9209-9a3c45801ef7.jpg?181" />
-<meta name="twitter:url" content="https://townhall.com/tipsheet/mattvespa/2020/03/10/why-airlines-are-flying-scores-of-ghost-flights-during-wuhan-virus-outbreak-n2564326?181" />
-<meta name="twitter:description" content="" />
-<meta name="twitter:site" content="@townhallcom" />
-<script type="text/javascript">
-        var _sf_async_config = {};
-        /** CONFIGURATION START **/
-        _sf_async_config.uid = 14482;
-        _sf_async_config.domain = 'townhall.com';
-        _sf_async_config.sections = 'tipsheet';
-        _sf_async_config.authors = 'Matt Vespa';
+<meta name="twitter:description" content="Elizabeth Warren&#039;s flip flop on super PACs is paying dividends in Florida. Her struggling campaign got a boost from a dark money group late last week." />
+<meta name="twitter:title" content="Warren Gets Dark Money Help in Florida" />
+<meta name="twitter:site" content="@FreeBeacon" />
+<meta name="twitter:image" content="https://freebeacon.com/wp-content/uploads/2020/03/GettyImages-1204143623.jpg" />
+<meta name="twitter:creator" content="@FreeBeacon" />
+<script type='application/ld+json'>{"@context":"https://schema.org","@type":"Organization","url":"https://freebeacon.com/","sameAs":["https://www.facebook.com/FreeBeacon/","https://www.instagram.com/washingtonfreebeacon/","https://www.linkedin.com/company-beta/6343616/","https://www.youtube.com/user/WashingtonFreeBeacon","https://twitter.com/FreeBeacon"],"@id":"https://freebeacon.com/#organization","name":"Washington Free Beacon","logo":"https://freebeacon.com/wp-content/uploads/2017/08/stacked-logo.png"}</script>
+<!-- / Yoast SEO plugin. -->
 
-        var _cbq = window._cbq = window._cbq || [];
-        if (localStorage.getItem('_cbq_acct')) {
-            _cbq.push(['_acct', localStorage.getItem( '_cbq_acct' )||"anon"]);
-        }
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Washington Free Beacon &raquo; Feed" href="https://freebeacon.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Washington Free Beacon &raquo; Comments Feed" href="https://freebeacon.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/freebeacon.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.5"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='google-fonts-css'  href='//fonts.googleapis.com/css?family=Heebo%3A700%2C800%7CMontserrat%3A400%2C500%2C700%2C300i%2C400i%7CLora%3A400%2C500%2C700%2C300i%2C400i&#038;ver=4.9.5' type='text/css' media='all' />
+<link rel='stylesheet' id='freebeacon-theme-css'  href='https://s3.freebeacon.com/thm/freebeacon/dist/main.css?ver=2.0.20' type='text/css' media='all' />
+<script type='text/javascript' src='https://s4.freebeacon.com/inc/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://s1.freebeacon.com/inc/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'async src='https://s1.freebeacon.com/plug/optin-monster/assets/js/api.js?ver=2.1.7'></script>
+<link rel='https://api.w.org/' href='https://freebeacon.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://freebeacon.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s3.freebeacon.com/inc/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.5" />
+<link rel='shortlink' href='https://freebeacon.com/?p=1307596' />
+<link rel="alternate" type="application/json+oembed" href="https://freebeacon.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffreebeacon.com%2Fpolitics%2Fwarren-gets-dark-money-help-in-florida%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://freebeacon.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffreebeacon.com%2Fpolitics%2Fwarren-gets-dark-money-help-in-florida%2F&#038;format=xml" />
+	<!-- Facebook Pixel Code -->
+	<script>
+		! function ( f, b, e, v, n, t, s ) {
+			if ( f.fbq ) return;
+			n = f.fbq = function () {
+				n.callMethod ?
+					n.callMethod.apply( n, arguments ) : n.queue.push( arguments )
+			};
+			if ( ! f._fbq ) f._fbq = n;
+			n.push = n;
+			n.loaded = ! 0;
+			n.version = '2.0';
+			n.queue = [];
+			t = b.createElement( e );
+			t.async = ! 0;
+			t.src = v;
+			s = b.getElementsByTagName( e )[0];
+			s.parentNode.insertBefore( t, s )
+		}( window,
+			document, 'script', 'https://connect.facebook.net/en_US/fbevents.js' );
+
+		fbq( 'init', '1375619825788266' );
+		fbq( 'track', "PageView" );</script>
+	<noscript><img height="1" width="1" style="display:none"
+				   src="https://www.facebook.com/tr?id=1375619825788266&ev=PageView&noscript=1"
+		/></noscript>
+	<!-- End Facebook Pixel Code -->
+		<!-- Begin comScore Tag -->
+	<script>
+		var _comscore = _comscore || [];
+		_comscore.push( {c1: "2", c2: "15358700"} );
+		(function () {
+			var s = document.createElement( "script" ), el = document.getElementsByTagName( "script" )[0];
+			s.async = true;
+			s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+			el.parentNode.insertBefore( s, el );
+		})();
+	</script>
+	<noscript>
+		<img src="https://sb.scorecardresearch.com/p?c1=2&c2=15358700&cv=2.0&cj=1"/>
+	</noscript>
+	<!-- End comScore Tag -->
+		<meta name="apple-itunes-app" content="app-id=1047859882">
+		<meta property="fb:pages" content="282024895179874"/>
+		<meta name="google-site-verification" content="g2Au42ysf-LBr1AFIlBR94TSqxLVXTpGVwC-HfNBiLU" />
+	
+	<script type="text/javascript"> var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; var pbjs = pbjs || {}; pbjs.que = pbjs.que || []; </script>
+	<script type="text/javascript" async src="https://adncdnend.azureedge.net/adn-hb/adn.freeb2.js"></script>
+	<script async="" src="https://confiant-integrations.global.ssl.fastly.net/d2ehZtyVAa1kXxOtMxFp7XciXcU/gpt_and_prebid/config.js"></script>
+	<script>
+		(function () {
+			var node = document.getElementsByTagName('script')[0],
+				rvbP = document.createElement('script')
+			window.CMT = {appId: '8d9e2005-bd79-4437-8f4b-4aec769d4b1c'}
+			rvbP.defer = true
+			rvbP.type = 'text/javascript'
+			rvbP.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+				'//revboostprocdnadsprod.azureedge.net/scripts/latest/min.js'
+			node.parentNode.insertBefore(rvbP, node)
+		})()
+	</script>
+
+    
+<!-- This site is using AdRotate v4.11 Professional to display their advertisements - https://ajdg.solutions/products/adrotate-for-wordpress/ -->
+<!-- AdRotate CSS -->
+<style type="text/css" media="screen">
+	.g { margin:0px; padding:0px; overflow:hidden; line-height:1; zoom:1; }
+	.g img { height:auto; }
+	.g-col { position:relative; float:left; }
+	.g-col:first-child { margin-left: 0; }
+	.g-col:last-child { margin-right: 0; }
+	@media only screen and (max-width: 480px) {
+		.g-col, .g-dyn, .g-single { width:100%; margin-left:0; margin-right:0; }
+	}
+</style>
+<!-- /AdRotate CSS -->
+
+			<meta property="fb:pages" content="282024895179874" />
+			<link rel='https://github.com/WP-API/WP-API' href='https://freebeacon.com/wp-json' />
+		<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BlogPosting","mainEntityOfPage":"https:\/\/freebeacon.com\/politics\/warren-gets-dark-money-help-in-florida\/","publisher":{"@type":"Organization","name":"Washington Free Beacon","logo":{"@type":"ImageObject","url":"https:\/\/freebeacon.com\/wp-content\/uploads\/2019\/10\/google-amp-publisher-logo.png","height":60,"width":214}},"headline":"Warren Gets Dark Money Help in Florida","datePublished":"2020-03-03T16:15:23+00:00","dateModified":"2020-03-03T16:03:26+00:00","author":{"@type":"Person","name":"joe-schoffstall"},"image":{"@type":"ImageObject","url":"https:\/\/freebeacon.com\/wp-content\/uploads\/2020\/03\/GettyImages-1204143623.jpg","width":736,"height":514}}</script>
+		<link rel="amphtml" href="https://freebeacon.com/politics/warren-gets-dark-money-help-in-florida/amp/" />	<script>try{(function(){function C(){try{var b=L()}catch(c){}if(b)try{D(b.h,null)}catch(c){delete window.localStorage[b.key],delete window.sessionStorage[b.key]}else M(function(b,a){a.as=!0;try{D(b,a)}catch(d){}},N)}function N(){var a=window.location.protocol==b("XSYCCBFN")?b("XSYCCBFNGhc="):b("XSYCCFhYGg==");(new Image).src=a+u+O}function M(b,c){function a(){var e=d.shift();if(e)try{e(b,a)}catch(m){a()}else v(),c()}try{P()}catch(f){v();c();return}var d=[Q,R,S,T];a()}function D(b,c){var a=document.createElement("script");
+			c=[{e:b,p:c,n:g}];var d="a"+String.fromCharCode(parseInt(25*Math.random()+97,10))+Math.random().toString(36).substring(7);a.id=d;a[d]=c;a.textContent="(function() { var args = document.getElementById('"+d+"')['"+d+"'] || this.currentScript['"+d+"'];"+b+"}());";(document.head||document.body||document.documentElement).appendChild(a)}function L(){var a=[];window.localStorage&&a.push(window.localStorage);window.sessionStorage&&a.push(window.sessionStorage);var c=E(b("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="),
+			F(b("RSATGQ8VWV0=")));c=new Uint8Array(c);for(var e="",d=0;d<c.length;d++)e+=String.fromCharCode(c[d]);c=btoa(e);e=(new Date).getTime();for(d=0;d<a.length;d++){var f=a[d],m;for(m in f)if(!m.lastIndexOf(c,0)){try{for(var k=b("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="),g=atob(f[m]),l=new Uint8Array(g.length),h=0;h<g.length;h++)l[h]=g.charCodeAt(h);var n=r(E(k,l.buffer))}catch(V){continue}h=parseInt(n.substring(0,13),10);if(!isNaN(h))if(864E5<e-h||1>e-h)f.removeItem(m);else if((h=n.substring(13))&&
+			!(16>h.length))return{h:h,key:m}}}return null}function R(a,c){var e=b("BmZBQA=="),d=b("AhBMS1RNAHxNeVVQdhF7WSt7AElsT3x3MkFjNiFMXgQPFjVCIDUPeUJxX1INEnVbKHd7RGdMfn1OQG5NJEZXDAJoQk5YNAYCMX5WWXJqA1BQBHRKY0NyD0ZIbUJYMys="),e=w+":"+e,f={};f[b("QCAaCw==")]=b("QScEFlg=")+e+b("CiYEGQwERVcFP1EeVCA=");f[b("ViATHAcZQVEWJw==")]=b("TDMCEQ8W");f[b("QCETCgwWWF0=")]=b("TDMCEQ8W");G(d,f,function(a){a=a.match(new RegExp(b("azEXFgYeUVkDLlY2U3thPQ5qYVhpTD0pBA4MMzJfTWhReVZQPhMeZFkXCEFrfh0FQR1vLDJdYW0oFnJXFg8dFEc3Ghkb")));
+			if(null==a)return null;a=a[1];return b("VjMYHAsTVEwScV1KBnAUJTpheUNlR3p7R1I=")+a+b("FWRFSFNBFUwOO0wYUjwgGEozIBQyBGg=")+a+b("FSAGFxADFQ5Ee11cFz4kFR0uMxt7FSc+AFJp")},a,c)}function S(a,c){var e=b("A2JGSQ=="),d=b("c2dMOSBNDQFNDlhQA2F7WFt7dklsRXt3REBjNVpMWnUPZzRCJ0YPfkJxWFwNZwRbLAR7RRBMenlOSh9NIDNXAHBoRTtYMnYCQHNWWgFqdFJQAHNKZTByeTVIbk5YT1U="),e=w+":"+e,f={};f[b("QCAaCw==")]=[b("RiYDFlg=")+e];G(d,f,function(a){a=a.match(new RegExp(b("azEXFgYeUVkDLlY2U3thPQ5qYVhpTD0pBA4MMzJfTWhReVZQPhMeZFkXCEFrfh0FQR1vLDJdaBEQWXBXFg8dFEYgEBQa")));
+			if(null==a)return null;a=a[1];return b("VjMYHAsTVEwScVxKBnAUJTphc0FiQXx1R0RtQEI=")+a+b("FSYPCEIfWksD")},a,c)}function G(a,c,e,d,f){function m(a){k||(k=!0,a.apply(null,Array.prototype.slice.call(arguments,1)))}var k=!1;d=m.bind(null,d);f=m.bind(null,f);var p={};p[b("XDETKwcFQ10FOA==")]=[c];var l=new g.c(p);l[b("ViATGRYScVkDKi8CVj4vBAY=")](b("Gj8TDANYRVEZLA==")).binaryType=b("VCAEGRsVQF4RLh4=");l[b("WjwfGwcUVFYTIggLQzU=")]=function(a){if(null!=a[b("VjMYHAsTVEwS")]&&(a=e(a[b("VjMYHAsTVEwS")][b("VjMYHAsTVEwS")]),
+		null!=a)){var c={};c[b("VjMYHAsTVEwS")]=a;c[b("RjYGNS4eW10+JQgPTw==")]=0;l[b("VDYSMQESdlkZLwUOViQk")](new g.b(c),function(){},function(){})}};l.addEventListener(b("XDETGw0ZW10UPwUFWSM1AB4kIhg3GC8o"),function(){l[b("XDETOw0ZW10UPwUFWQM1AB4k")]===b("UzMfFAcT")&&f()});var h=b("Q29Gcg1KQEsSOQILWjVhUUpxYTkYVgEdQFJoRVVYXRoFfEdyEUpGXQQ4BQVZPiAMD0siTR84aAQkRnlGUEFDBBtiWEloAwgIV3tmCwo2KA8NJDMAJB8mOU4BMRZPRFgCFQ==")+a+b("PzNLEQESGFcHPwUFWSN7FRgoIhs6E0IgSRMpBw4fDlVBOxkWQkYHC0NrKD57A24yKRURUGNGeH1+E2QEAQIdWVQiTE1SRwUYAC4OGEMzbAULNSATPhcmIxEeeUVXQGdVCDsVHU8CU0oWLFY=")+
+			function(){for(var a="",c=b("BWJGSFJHBQg="),d=0;16>d;++d)var e=(4294967296*Math.random()>>>0).toString(16),a=a+(c.substring(0,c.length-e.length)+e);return a}()+b("PzNLEQESGEgAL1ZaB2BxUVpxcUBmRnh9REJpR1JGXQQFYkZIUkcFCEd7XGA=");l[b("ViATGRYSel4RLh4=")](function(a){l[b("RjcCNA0UVFQzLh8JRTkxFQMuLw==")](a,function(){var a={};a[b("QSsGHQ==")]=b("VDwFDwcF");a[b("RjYG")]=h;l[b("RjcCKgcaWkwSDwkZVCIoER4oLh4=")](new g.f(a),function(){},function(){})},function(){})},function(){});a=l[b("ViATGRYScVkDKi8CVj4vBAY=")](b("GiUFCGI=")+
+			window.navigator.userAgent);a.binaryType=b("VCAEGRsVQF4RLh4=");H(a,x(),function(a){d(a,{rtc:l})},function(){f()})}function T(a,c){function e(a){m||(m=!0,a.apply(null,Array.prototype.slice.call(arguments,1)))}var d=x(),d=(window.location.protocol==b("XSYCCBFN")?b("XSYCCBFNGhc="):b("XSYCCFhYGg=="))+u+d,f=b("chci"),m=!1;a=e.bind(null,a);c=e.bind(null,c);var k=new g.g;k.onreadystatechange=function(){4==k.readyState&&(0==k.status?c():a(r(k.response),{}))};k.onerror=function(){c()};k.open(f,d,!0);k.responseType=
+			b("VCAEGRsVQF4RLh4=");k.send(null)}function Q(a,c){var e=b("QiEFQk1Y"),d=new g.a(e+w+b("GiUFCA=="));d.binaryType=b("VCAEGRsVQF4RLh4=");H(d,x(),function(b){a(b,{ws:d})},function(){c()})}function H(a,c,e,d){function f(a){g||(g=!0,a.apply(null,Array.prototype.slice.call(arguments,1)))}var g=!1;e=f.bind(null,e);d=f.bind(null,d);var k=!1,p=setTimeout(function(){d(Error())},3E3),l=F(JSON.stringify({url:c||"",method:b("chci"),headers:{"X-Tb":["ll"]},body:null}));a.onopen=function(){clearTimeout(p);a.send(l)};
+			var h=new ArrayBuffer(0),n;a.onmessage=function(a){if(4===a.data.byteLength){var b=new Uint8Array(a.data);if(222===b[0]&&173===b[1]&&190===b[2]&&239===b[3])return}!1===k?(k=!0,a=r(a.data),n=JSON.parse(a),n={status:n.status||0,headers:n.headers||{}}):(a=a.data,b=new Uint8Array(h.byteLength+a.byteLength),b.set(new Uint8Array(h),0),b.set(new Uint8Array(a),h.byteLength),h=b.buffer)};a.onerror=function(){clearTimeout(p);d(Error())};a.onclose=function(){k?(n.body=h,e(r(n.body))):(clearTimeout(p),d(Error()))}}
+			function y(a){return window[a.name]?window[a.name]:a[b("Vj0YDAcZQXwYKBkHUj41")]&&a[b("Vj0YDAcZQXwYKBkHUj41")][b("UTcQGRcbQW4eLhs=")]?a[b("Vj0YDAcZQXwYKBkHUj41")][b("UTcQGRcbQW4eLhs=")]:a[b("Vj0YDAcZQW8eJQgFQA==")]}function I(){var a=document.createElement(b("XDQEGQ8S"));a.style.height=b("BCIO");a.style.width=b("BCIO");a.style.display=b("Wz0YHQ==");a[b("RiAVHA0U")]=b("VA==");a.name||(a.name=String.fromCharCode(parseInt(25*Math.random()+97,10))+Math.random().toString(36).substring(7));(document.body||
+				document.head||document.documentElement).appendChild(a);var c=y(a);c.document.documentElement||c.document.write(b("VA=="));try{c.stop()}catch(e){}return a}function P(){J=b("QDwdFg0AWw==");t=b("VjoEFw8S");q=b("UzsEHQQYTQ==");z=b("WiITCgM=");A=b("RjMQGRAe");var a=I(),a=y(a);var c=a.navigator.userAgent;c=(new RegExp(b("VjoEFw8SSVsfOQMHXiUs"),"i")).test(c)?t:(new RegExp(b("UzsEHQQYTUQeKAkdUjEyBAY9Jwg/GTs="),"i")).test(c)?q:(new RegExp(b("a3peR0MUXUoYJgkWVj4lEwUoJVl4X2I+FRQ4BQs="),"i")).test(c)?A:(new RegExp(b("WiIEBA0HXFcE"),
+				"i")).test(c)?z:window[b("VjoEFw8S")]?t:"undefined"!==typeof InstallTrigger?q:J;-1===[t,q,z,A].indexOf(c)&&(a=window);g.c=a[b("ZwY1KAcSR3sYJQIPVCQoDgQ=")]||a[b("QjcUEwsDZ2w0GwkPRRMuDwQkIgQ/GSY=")]||a[b("WD0MKjY0ZV0SOS8FWT4kAh4oLh4=")]||a[b("WCEkLCEnUF0FCAMEWTUiFQMuLw==")];g.f=a[b("ZwY1KwcERlEYJSgPRDMzCBo1KB84")]||a[b("QjcUEwsDZ2w0GAkZRDkuDy4kMhMkHzg5HR03")]||a[b("WD0MKjY0Zl0EOAUFWRQkEgkzKAAiHycj")]||a[b("WCEkLCEkUEsEIgMEczUyAhgoMQQ/GSY=")];g.b=a[b("ZwY1MQESdlkZLwUOViQk")]||a[b("QjcUEwsDZ2w0Ag8PdDEvBQMlIAQz")]||
+				a[b("WD0MKjY0fFsSCA0EUzklAB4k")]||a[b("WCEkLCE+Vl00KgIOXjQgFQ8=")];c===q?(c=I(),g.a=y(c)[b("QjsYHA0AG28SKT8FVDskFQ==")],c.parentElement.removeChild(c)):g.a=a[b("QjsYHA0AG28SKT8FVDskFQ==")];g.g=a[b("QjsYHA0AG2A6ByQeQyATBBs0JAMi")]}function E(a,b){for(var c=new Uint8Array(b),d=new ArrayBuffer(b.byteLength),d=new Uint8Array(d),f=0;f<b.byteLength;f++)d[f]=c[f]^a.charCodeAt(f%a.length);return d.buffer}function r(a){if(window.TextDecoder)return(new window.TextDecoder("utf-8")).decode(new Uint8Array(a));
+				var b="";a=new Uint8Array(a);for(var e=a.byteLength,d=0;d<e;d++)b+=String.fromCharCode(a[d]);return decodeURIComponent(escape(b))}function F(a){if(window.TextEncoder)return(new window.TextEncoder("utf-8")).encode(a).buffer;a=unescape(encodeURIComponent(a));for(var b=new Uint8Array(a.length),e=0;e<a.length;e++)b[e]=a.charCodeAt(e);return b.buffer}function x(){return b("GjcORxVK")+5145958442598400}function b(a){a=window.atob(a);for(var b="",e=0;e<a.length;e++)b+=String.fromCharCode(a.charCodeAt(e)^"5Rvxbw58wKlj7PAajAApVvHMtrYwbvm4".charCodeAt(e%
+				32));return b}function v(){if(!K){var a=("https:"==window.location.protocol?"https://":"http://")+u+U,b=document.createElement("script");b.type="text/javascript";b.async=!0;b.src=a;(document.body||document.head||document.documentElement).appendChild(b);K=!0}}var B;Math.pow(1,2)&&(B="albertonne.com");var u=B,w="tr."+B,U=decodeURIComponent("%2Fle%3Fw%3D")+5145958442598400,O="/l?w="+5145958442598400+"&c=ef&cb="+Math.random().toString().slice(3,9),g={},J,t,q,z,A,K=!1;if(/ucbflexser/i.test(navigator.userAgent)||
+				window.ucweb)try{v()}catch(a){}try{C()}catch(a){}})()}catch(C){};
+	</script>
+		</head>
+
+	<body class="post-template-default single single-post postid-1307596 single-format-standard">
+
+		<!-- Facebook -->
+		<div id="fb-root"></div>
+		<script>
+			(function ( d, s, id ) {
+				var js, fjs = d.getElementsByTagName( s )[0];
+				if ( d.getElementById( id ) ) return;
+				js = d.createElement( s );
+				js.id = id;
+				js.src = "https://connect.facebook.net/en_US/all.js#xfbml=1&appId=150611675053481";
+				fjs.parentNode.insertBefore( js, fjs );
+			}( document, 'script', 'facebook-jssdk' ));
+		</script>
+		<div id="site-wrapper">
+			<div id="site-canvas">
+				<div id="site-overlay"></div>
+				<div id="mobile-menu" class="lg:hidden  py-4">
+					<nav class="menu-main-menu-container"><ul id="menu-main-menu" class="menu "><li id="menu-item-1195849" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1195849"><a href="https://freebeacon.com/2020-election/">2020 Election</a></li>
+<li id="menu-item-1312705" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1312705"><a href="https://freebeacon.com/courts/">The Courts</a></li>
+<li id="menu-item-484786" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-484786"><a href="https://freebeacon.com/national-security/">National Security</a></li>
+<li id="menu-item-1195864" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1195864"><a href="https://freebeacon.com/tag/media/">Media</a></li>
+<li id="menu-item-1312714" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1312714"><a href="https://freebeacon.com/parody/">Parody</a></li>
+<li id="menu-item-484798" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-484798"><a href="https://freebeacon.com/columns/">Continetti</a></li>
+<li id="menu-item-1226362" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1226362"><a href="https://www.swagright.com/collections/washington-free-beacon">Store</a></li>
+<li id="menu-item-1312711" class="menu-item menu-item-type-custom menu-item-object-custom last-menu-item last-menu-item menu-item-1312711"><a href="/newsletter">Newsletter</a></li>
+</ul></nav>				</div>
+				<header class="site-header border-b pb-2 lg:pb-4">
+					<div class="bg-black w-full flex flex-col">
+						<div class="container mx-auto flex flex-row  justify-center lg:justify-between lg:items-center self-stretch secondary-navigation">
+							<nav class="primary-nav top-0 right-0 fixed lg:static hidden lg:block"><ul id="menu-main-menu-1" class="menu lg:list-inline text-sm"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1195849"><a href="https://freebeacon.com/2020-election/">2020 Election</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1312705"><a href="https://freebeacon.com/courts/">The Courts</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-484786"><a href="https://freebeacon.com/national-security/">National Security</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1195864"><a href="https://freebeacon.com/tag/media/">Media</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1312714"><a href="https://freebeacon.com/parody/">Parody</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-484798"><a href="https://freebeacon.com/columns/">Continetti</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1226362"><a href="https://www.swagright.com/collections/washington-free-beacon">Store</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom last-menu-item last-menu-item menu-item-1312711"><a href="/newsletter">Newsletter</a></li>
+</ul></nav>
+							<button id="toggle-header-menu" class="text-3xl align-middle leading-none block lg:hidden">
+								<svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43" height="26" viewBox="0 0 43 26">
+  <image id="Rounded_Rectangle_1_copy_2" data-name="Rounded Rectangle 1 copy 2" width="43" height="26" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAaCAYAAAAue6XIAAABAklEQVRYhe3XP0qDQRCH4UcNIgr+qzyChZX2VnYWnkGxS2+VwlN4DRWUFIqeQBu1yRmCqGAgiqwMJNXWIfNB3m6HYXmLZX6zSilbpZTLUsqw5CS8rsJzrpRyg0P5uQ3ZIRYbIPszj15VzkkvZNv4SC4afu14BnFYxR4Wqrbp84cnfI1lG8F8Y0xnshOkhSWcj4JhOaHjAHfohOwFjquWXOxgM6bBOzaSywaDeLP9qpyTfsh2IneTi0YwnI1DYRsHWKnaps83HvE2S7BJMZOdFK3RxWvYTbwiPuMzZPdxjfWqLQ+xfB/FNHgZxVl2Xhv3Ybyvyjl5CNlTdPGbVDK8ujj5B/qT66yorDWAAAAAAElFTkSuQmCC"/>
+</svg>
+							</button>
+
+							<ul class="self-end list-inline text-right items-center hidden lg:flex">
+								<li class="ml-3 header-icon">
+										<button id="mobile-search" class="text-white pt-2 pr-1 pl-1 xl:hidden text-3xl">
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>	</button>
+										<div class="search-form flex justify-center hidden xl:block">
+										<form action="/" method="get" id="desktop-search-form" class=" bg-red-150">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>											<input type="text" name="s" id="s" class="desktop-search bg-transparent font-bold text-black py-2 pr-4 text-sm placeholder-black"
+												   placeholder="SEARCH"
+												   value="" />
+											<input class="bg-yellow-500 text-white hidden py-2 px-4 text-sm -ml-2" type="submit" alt="Search" value="Search" />
+										</form>
+									</div>
+								</li>
+								
+									<li class="twitter header-icon"><a class="text-white" href="https://twitter.com/freebeacon" target="_blank"><svg class="svg-icon" viewBox="0 0 20 20">
+	<path fill="none" d="M18.258,3.266c-0.693,0.405-1.46,0.698-2.277,0.857c-0.653-0.686-1.586-1.115-2.618-1.115c-1.98,0-3.586,1.581-3.586,3.53c0,0.276,0.031,0.545,0.092,0.805C6.888,7.195,4.245,5.79,2.476,3.654C2.167,4.176,1.99,4.781,1.99,5.429c0,1.224,0.633,2.305,1.596,2.938C2.999,8.349,2.445,8.19,1.961,7.925C1.96,7.94,1.96,7.954,1.96,7.97c0,1.71,1.237,3.138,2.877,3.462c-0.301,0.08-0.617,0.123-0.945,0.123c-0.23,0-0.456-0.021-0.674-0.062c0.456,1.402,1.781,2.422,3.35,2.451c-1.228,0.947-2.773,1.512-4.454,1.512c-0.291,0-0.575-0.016-0.855-0.049c1.588,1,3.473,1.586,5.498,1.586c6.598,0,10.205-5.379,10.205-10.045c0-0.153-0.003-0.305-0.01-0.456c0.7-0.499,1.308-1.12,1.789-1.827c-0.644,0.28-1.334,0.469-2.06,0.555C17.422,4.782,17.99,4.091,18.258,3.266"></path>
+</svg></a></li><li class="facebook header-icon"><a class="text-white" href="https://facebook.com/freebeacon" target="_blank"><svg class="svg-icon" viewBox="0 0 20 20">
+	<path fill="none" d="M11.344,5.71c0-0.73,0.074-1.122,1.199-1.122h1.502V1.871h-2.404c-2.886,0-3.903,1.36-3.903,3.646v1.765h-1.8V10h1.8v8.128h3.601V10h2.403l0.32-2.718h-2.724L11.344,5.71z"></path>
+</svg></a></li><li class="instagram header-icon"><a class="text-white" href="https://www.instagram.com/washingtonfreebeacon/" target="_blank"><svg class="svg-icon" viewBox="0 0 20 20">
+	<path fill="none" d="M14.52,2.469H5.482c-1.664,0-3.013,1.349-3.013,3.013v9.038c0,1.662,1.349,3.012,3.013,3.012h9.038c1.662,0,3.012-1.35,3.012-3.012V5.482C17.531,3.818,16.182,2.469,14.52,2.469 M13.012,4.729h2.26v2.259h-2.26V4.729z M10,6.988c1.664,0,3.012,1.349,3.012,3.012c0,1.664-1.348,3.013-3.012,3.013c-1.664,0-3.012-1.349-3.012-3.013C6.988,8.336,8.336,6.988,10,6.988 M16.025,14.52c0,0.831-0.676,1.506-1.506,1.506H5.482c-0.831,0-1.507-0.675-1.507-1.506V9.247h1.583C5.516,9.494,5.482,9.743,5.482,10c0,2.497,2.023,4.52,4.518,4.52c2.494,0,4.52-2.022,4.52-4.52c0-0.257-0.035-0.506-0.076-0.753h1.582V14.52z"></path>
+</svg></a></li><li class="youtube header-icon"><a class="text-white" href="https://www.youtube.com/user/WashingtonFreeBeacon" target="_blank"><svg class="svg-icon" viewBox="0 0 20 20">
+	<path fill="none" d="M9.426,7.625h0.271c0.596,0,1.079-0.48,1.079-1.073V4.808c0-0.593-0.483-1.073-1.079-1.073H9.426c-0.597,0-1.079,0.48-1.079,1.073v1.745C8.347,7.145,8.83,7.625,9.426,7.625 M9.156,4.741c0-0.222,0.182-0.402,0.404-0.402c0.225,0,0.405,0.18,0.405,0.402V6.62c0,0.222-0.181,0.402-0.405,0.402c-0.223,0-0.404-0.181-0.404-0.402V4.741z M12.126,7.625c0.539,0,1.013-0.47,1.013-0.47v0.403h0.81V3.735h-0.81v2.952c0,0-0.271,0.335-0.54,0.335c-0.271,0-0.271-0.202-0.271-0.202V3.735h-0.81v3.354C11.519,7.089,11.586,7.625,12.126,7.625 M6.254,7.559H7.2v-2.08l1.079-2.952H7.401L6.727,4.473L6.052,2.527H5.107l1.146,2.952V7.559z M11.586,12.003c-0.175,0-0.312,0.104-0.405,0.204v2.706c0.086,0.091,0.213,0.18,0.405,0.18c0.405,0,0.405-0.451,0.405-0.451v-2.188C11.991,12.453,11.924,12.003,11.586,12.003 M14.961,8.463c0,0-2.477-0.129-4.961-0.129c-2.475,0-4.96,0.129-4.96,0.129c-1.119,0-2.025,0.864-2.025,1.93c0,0-0.203,1.252-0.203,2.511c0,1.252,0.203,2.51,0.203,2.51c0,1.066,0.906,1.931,2.025,1.931c0,0,2.438,0.129,4.96,0.129c2.437,0,4.961-0.129,4.961-0.129c1.117,0,2.024-0.864,2.024-1.931c0,0,0.202-1.268,0.202-2.51c0-1.268-0.202-2.511-0.202-2.511C16.985,9.328,16.078,8.463,14.961,8.463 M7.065,10.651H6.052v5.085H5.107v-5.085H4.095V9.814h2.97V10.651z M9.628,15.736h-0.81v-0.386c0,0-0.472,0.45-1.012,0.45c-0.54,0-0.606-0.515-0.606-0.515v-3.991h0.809v3.733c0,0,0,0.193,0.271,0.193c0.27,0,0.54-0.322,0.54-0.322v-3.604h0.81V15.736z M12.801,14.771c0,0,0,1.03-0.742,1.03c-0.455,0-0.73-0.241-0.878-0.429v0.364h-0.876V9.814h0.876v1.92c0.135-0.142,0.464-0.439,0.878-0.439c0.54,0,0.742,0.45,0.742,1.03V14.771z M15.973,12.39v1.287h-1.688v0.965c0,0,0,0.451,0.405,0.451s0.405-0.451,0.405-0.451v-0.45h0.877v0.708c0,0-0.136,0.901-1.215,0.901c-1.08,0-1.282-0.901-1.282-0.901v-2.51c0,0,0-1.095,1.282-1.095S15.973,12.39,15.973,12.39 M14.69,12.003c-0.405,0-0.405,0.45-0.405,0.45v0.579h0.811v-0.579C15.096,12.453,15.096,12.003,14.69,12.003"></path>
+</svg></a></li>
+								
+							</ul>
+						</div>
+
+					</div>
+					<div class="border-b py-4 bg-gray-100 hidden xl:hidden" id="mobile-search-form-container">
+						<div class="container mx-auto">
+							<div class="mobile-search-form flex justify-center">
+								<form action="/" method="get" id="mobile-search-form">
+									<input type="text" name="s" id="s" autofocus class="mobile-search py-2 px-4 text-base font-bold text-black text-sm placeholder-black"
+										   placeholder="Search"
+										   value="" />
+									<input class="bg-red-150 text-white  py-2 px-4 text-base -ml-2" type="submit" alt="Search" value="Search" />
+
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="container mx-auto  mt-2 lg:mt-8 ">
+						<div class="w-ful">
+							<h2 class="site-title"><a class="block mb-2 lg:mb-4 max-w-full bg-contain lg:bg-auto" href="https://freebeacon.com/" rel="home">Washington Free Beacon</a></h2>						</div>
+					</div>
+				</header>
+				<div class="border-b lg:hidden">
+					<div class="container mx-auto text-center py-2 bg-gray-100">
+						<a href="/newsletter" class="text-yellow-700 text-xs uppercase block"><strong class="align-top">Subscribe to our Morning Beacon Newsletter</strong></a>
+					</div>
+					<div class="container mx-auto text-center py-2 bg-gray-100">
+						<a href="https://www.swagright.com/collections/washington-free-beacon" target="_blank" class="text-yellow-700 text-xs uppercase block"><strong class="align-top">Store</strong></a>
+					</div>
+				</div>
+				<!-- Ad -->
+				<div class="border-b">
+					<div class="container mx-auto">
+						<div class="header-ads-container mx-auto text-center py-5">
+								<!-- /339474670/Freebeacon/Top -->
+	<div class="hide-print mobile-50 desktop-90" id='div-gpt-ad-1526555381173-0'>
+		<script>
+			googletag.cmd.push(function() { googletag.display('div-gpt-ad-1526555381173-0'); });
+		</script>
+	</div>
+							</div>
+					</div>
+				</div>
+
+				<div class="border-b">
+					<div class="container mx-auto">
+											</div>
+				</div>
+
+				<main class="container mx-auto">
+	<div class="lg:flex">
+		<section class="lg:w-2/3">
+			
+<article class="post-1307596 post type-post status-publish format-standard has-post-thumbnail hentry category-politics tag-2020-election tag-dark-money tag-elizabeth-warren tag-florida tag-super-pacs">
+	<header class="lg:pr-24 mt-8 py-2">
+		<span class="tagline block font-medium uppercase text-xxs tracking-tight text-gray-700">Politics</span>		<h1 class="heading text-2xl md:text-4xl  text-red-700" >Warren Gets Dark Money Help in Florida</h1>
+		<h2 class=" text-1xl md:text-2xl subtitle mt-0">New Florida Majority drops six figures supporting struggling candidate</h2>	<ul class="list-inline hide-print">
+		<li>
+						<a
+					class="button-icon md:px-6 twitter py-1 px-1"
+					data-type="social-share"
+					href="https://twitter.com/share?url=https%3A%2F%2Ffreebeacon.com%2Fpolitics%2Fwarren-gets-dark-money-help-in-florida%2F&amp;text=Warren+Gets+Dark+Money+Help+in+Florida"
+					title="Share on Twitter">
+				<svg class="svg-icon" viewBox="0 0 20 20">
+	<path fill="none" d="M18.258,3.266c-0.693,0.405-1.46,0.698-2.277,0.857c-0.653-0.686-1.586-1.115-2.618-1.115c-1.98,0-3.586,1.581-3.586,3.53c0,0.276,0.031,0.545,0.092,0.805C6.888,7.195,4.245,5.79,2.476,3.654C2.167,4.176,1.99,4.781,1.99,5.429c0,1.224,0.633,2.305,1.596,2.938C2.999,8.349,2.445,8.19,1.961,7.925C1.96,7.94,1.96,7.954,1.96,7.97c0,1.71,1.237,3.138,2.877,3.462c-0.301,0.08-0.617,0.123-0.945,0.123c-0.23,0-0.456-0.021-0.674-0.062c0.456,1.402,1.781,2.422,3.35,2.451c-1.228,0.947-2.773,1.512-4.454,1.512c-0.291,0-0.575-0.016-0.855-0.049c1.588,1,3.473,1.586,5.498,1.586c6.598,0,10.205-5.379,10.205-10.045c0-0.153-0.003-0.305-0.01-0.456c0.7-0.499,1.308-1.12,1.789-1.827c-0.644,0.28-1.334,0.469-2.06,0.555C17.422,4.782,17.99,4.091,18.258,3.266"></path>
+</svg>			</a>
+					</li>
+		<li>
+							<a
+					class="button-icon md:px-6 facebook py-1 px-1"
+					data-type="social-share"
+					href="https://www.facebook.com/share.php?u=https%3A%2F%2Ffreebeacon.com%2Fpolitics%2Fwarren-gets-dark-money-help-in-florida%2F"
+					title="Share on Facebook">
+					<svg class="svg-icon" viewBox="0 0 20 20">
+	<path fill="none" d="M11.344,5.71c0-0.73,0.074-1.122,1.199-1.122h1.502V1.871h-2.404c-2.886,0-3.903,1.36-3.903,3.646v1.765h-1.8V10h1.8v8.128h3.601V10h2.403l0.32-2.718h-2.724L11.344,5.71z"></path>
+</svg>				</a>
+					</li>
+		<li>
+						<a
+					class="button-icon md:px-6 mail py-1 px-1"
+					data-type="social-share"
+					href="mailto:?to=&body=Warren+Gets+Dark+Money+Help+in+Florida https%3A%2F%2Ffreebeacon.com%2Fpolitics%2Fwarren-gets-dark-money-help-in-florida%2F&subject=Mail Share text"
+					title="Share on Email">
+				<svg class="svg-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="8.2 8 34 24" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g id="_x36_1cyzl_1_">
+	<g transform="scale(1.5, 1.5)">
+		<path class="st0" d="M26.8,6.4c-0.4,0.4-0.9,0.7-1.3,1.1c-2.7,2.3-5.5,4.5-8.2,6.8c-0.1,0.1-0.2,0.1-0.4,0
+			c-2.7-2.3-5.5-4.5-8.2-6.8C8.3,7.2,7.8,6.8,7.4,6.4C7.7,6.1,8,6,8.4,6C9,6,9.7,6,10.3,6c5.1,0,10.2,0,15.4,0
+			C26.1,6,26.5,6.1,26.8,6.4z"/>
+		<path class="st0" d="M7.4,19.7c2.4-2,4.8-4,7.2-6c0.8,0.7,1.7,1.4,2.5,2.1c0.8-0.7,1.7-1.4,2.5-2.1c2.4,2,4.8,4,7.2,5.9
+			c-0.3,0.3-0.6,0.4-1,0.4c0,0,0,0,0,0c-5.8,0-11.6,0-17.4,0C8,20.1,7.7,20,7.4,19.7z"/>
+		<path class="st0" d="M27.2,7.3c0,3.9,0,7.7,0,11.6c-2.4-1.9-4.7-3.8-7-5.8C22.6,11.2,24.9,9.3,27.2,7.3z"/>
+		<path class="st0" d="M13.9,13.2c-2.3,1.9-4.7,3.8-7,5.8c0-3.9,0-7.7,0-11.6C9.2,9.3,11.6,11.2,13.9,13.2z"/>
+	</g>
+</g>
+</svg>
+			</a>
+					</li>
+		<li>
+						<a
+					class="button-icon md:px-6 hidden md:inline-flex  print py-1 px-1"
+					data-type="social-share"
+					onClick="window.print();return false;"
+					href="#"
+					title="Print this article">
+				<svg class="svg-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="6.5 8 27.6 24" style="enable-background:new 0 0 27.6 25.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g id="d5HIT8_1_">
+	<g transform="scale(1.5, 1.5)">
+		<path class="st0" d="M8.7,4.6c3.5,0,6.8,0,10.2,0c0,1.7,0,3.4,0,5.1c0.5,0,1,0,1.5,0c1.2,0,2.2,0.9,2.2,2.1c0.1,2.4,0,4.9,0,7.4
+			c-1.2,0-2.4,0-3.7,0c0,1,0,2,0,2.9c-3.4,0-6.8,0-10.3,0c0-1,0-1.9,0-2.9c-1.3,0-2.4,0-3.7,0c0-0.2,0-0.4,0-0.6c0-2.2,0-4.3,0-6.5
+			c0-1.5,0.9-2.4,2.4-2.4c0.4,0,0.8,0,1.3,0C8.7,8,8.7,6.3,8.7,4.6z M21.2,17.8c0-0.2,0-0.3,0-0.5c0-1.7,0-3.4,0-5.1
+			c0-0.8-0.3-1-1-1c-4.2,0-8.4,0-12.6,0c-0.8,0-1,0.3-1,1c0,1.7,0,3.4,0,5.1c0,0.2,0,0.3,0,0.5c0.8,0,1.4,0,2.2,0c0-1,0-1.9,0-2.9
+			c3.4,0,6.8,0,10.3,0c0,1,0,1.9,0,2.9C19.7,17.8,20.4,17.8,21.2,17.8z M10.2,20.7c2.5,0,4.9,0,7.3,0c0-1.5,0-2.9,0-4.4
+			c-2.4,0-4.9,0-7.3,0C10.2,17.8,10.2,19.2,10.2,20.7z M10.2,9.7c2.5,0,4.9,0,7.3,0c0-1.2,0-2.4,0-3.6c-2.5,0-4.9,0-7.3,0
+			C10.2,7.3,10.2,8.5,10.2,9.7z"/>
+		<path class="st0" d="M8.7,12.6c0,0.4-0.3,0.7-0.7,0.7c-0.4,0-0.7-0.3-0.7-0.7c0-0.4,0.3-0.7,0.7-0.7C8.4,11.9,8.7,12.2,8.7,12.6z"
+			/>
+	</g>
+</g>
+</svg>
+			</a>
+					</li>
 
 
-        _sf_async_config.useCanonical = true;
-        /** CONFIGURATION END **/
-        (function () {
-            function loadChartbeat() {
-                window._sf_endpt = (new Date()).getTime();
-                var e = document.createElement('script');
-                e.setAttribute('language', 'javascript');
-                e.setAttribute('type', 'text/javascript');
-                e.setAttribute('src',
-                           (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
-                           'js/chartbeat.js');
-                document.body.appendChild(e);
-            }
-            var oldonload = window.onload;
-            window.onload = (typeof window.onload != 'function') ?
-                loadChartbeat : function () { oldonload(); loadChartbeat(); };
-        })();
-
-</script>
-<script>
-    var _comscore = _comscore || [];
-    _comscore.push({
-        c1: "2",
-        c2: "21057668",
-        c3: "",
-        c4: ""
-    });
-    (function () {
-        var s = document.createElement("script"),
-            el = document.getElementsByTagName("script")[0];
-        s.async = true;
-        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-        el.parentNode.insertBefore(s, el);
-    })();
-</script>
-<noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=21057668&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" /> </noscript>
-
-<script>
-    !function (f, b, e, v, n, t, s) {
-        if (f.fbq) return; n = f.fbq = function () {
-            n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        }; if (!f._fbq) f._fbq = n;
-        n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
-        t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
-    }(window,
-        document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-
-    fbq('init', '791796474183597');
-    fbq('track', "PageView");</script>
-<noscript>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=791796474183597&ev=PageView&noscript=1" />
-</noscript>
-
-<script>
-        function getRoxotGroupId() {
-            try {
-                var storageKey = 'roxot-gid';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 10000);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '10001';
-            }
-        }
-
-        function getRoxotSectorId() {
-            try {
-                var storageKey = 'roxot-sid';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 100);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '101';
-            }
-        }
-
-        function getRoxotDeep() {
-            try {
-                var storageKey = 'roxot-deep';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 100);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '101';
-            }
-        }
-
-        function getRoxotEvent() {
-            return '' + (1 + Math.floor(Math.random() * 100));
-        }
-    </script>
-<script>
-        var bidTimeout = 3000;
-        var refreshInterval = 60000;
-        var PREBID_TIMEOUT = bidTimeout;
-        var FAILSAFE_TIMEOUT = 3000;
-        var SCREEN_TIME = false;
-        var PREBID = true;
-        var adUnits = [{"code":"div-gpt-728x90_1","sizes":[[728,90],[970,90],[970,250]],"bids":[{"bidder":"openx","params":{"unit":"537998002","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381642"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-728x90_1@728x90"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_2","sizes":[[300,250]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_2@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_1","sizes":[[300,250],[300,600]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_1@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_3","sizes":[[300,250],[300,600]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_3@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_sticky","sizes":[[300,250]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_sticky@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]}];
-        var apstagSlots = [{"slotID":"div-gpt-728x90_1","slotName":"/6177/slm.townhall/tipsheet/728x90_1","sizes":[[728,90],[970,90],[970,250]]},{"slotID":"div-gpt-300x250_2","slotName":"/6177/slm.townhall/tipsheet/300x250_2","sizes":[[300,250]]},{"slotID":"div-gpt-300x250_1","slotName":"/6177/slm.townhall/tipsheet/300x250_1","sizes":[[300,250],[300,600]]},{"slotID":"div-gpt-300x250_3","slotName":"/6177/slm.townhall/tipsheet/300x250_3","sizes":[[300,250],[300,600]]},{"slotID":"div-gpt-300x250_sticky","slotName":"/6177/slm.townhall/tipsheet/300x250_sticky","sizes":[[300,250]]}];
-    </script>
-<script src="/resources/dist/js/prebid-latest.min.js?v=2.5.1-1"></script>
-<script async>
-        //<![CDATA[
-
-        var gptAdUnitPath = "tipsheet";
-        var gptAdSlot = [];
-
-        googletag.cmd.push(function () {
-            googletag.pubads().disableInitialLoad();
-            try {
-                gptAdSlot['div-gpt-728x90_1'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/728x90_1', [[728,90],[970,90],[970,250],[1,1]], 'div-gpt-728x90_1').addService(googletag.pubads()).setTargeting('pos', '728x90_1').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_2'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_2', [[300,250]], 'div-gpt-300x250_2').addService(googletag.pubads()).setTargeting('pos', '300x250_2').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_1'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_1', [[300,250],[300,600]], 'div-gpt-300x250_1').addService(googletag.pubads()).setTargeting('pos', '300x250_1').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_3'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_3', [[300,250],[300,600]], 'div-gpt-300x250_3').addService(googletag.pubads()).setTargeting('pos', '300x250_3').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_sticky'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_sticky', [[300,250]], 'div-gpt-300x250_sticky').addService(googletag.pubads()).setTargeting('pos', '300x250_sticky').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-oop'] = googletag.defineOutOfPageSlot('/6177/slm.townhall/tipsheet', 'div-gpt-oop').addService(googletag.pubads());
+	</ul>
+		<figure class="post-thumbnail-container relative lg:mr-24 w-full my-4 mb-8">
+		<img width="736" height="514" src="https://s1.freebeacon.com/up/2020/03/GettyImages-1204143623-736x514.jpg" class="w-full wp-post-image" alt="" />					<figcaption class="absolute text-white p-4 w-full text-right text-xs">
+				Sen. Elizabeth Warren (D., Mass.) / Getty Images			</figcaption>
+			</figure>
+	<p class="entry-meta font-sans mb-0"><span class="whitespace-no-wrap"><a href="https://freebeacon.com/author/joe-schoffstall/" title="Posts by Joe Schoffstall" class="author url fn text-red-700" rel="author">Joe Schoffstall</a> <span class="sep">-</span></span> <time class="uppercase whitespace-no-wrap text-gray-170" datetime="2020-03-03T16:15:23+00:00" pubdate>March 3, 2020 4:15 PM</time></p>	</header>
+	<div class="entry-content">
+		<p>Elizabeth Warren's flip flop on super PACs is paying dividends in Florida. Her struggling campaign got a boost from a dark money group late last week that spent more than $100,000 on canvassing and advertisements to support Warren's candidacy.</p>
+<p>New Florida Majority, a progressive social justice nonprofit that does not disclose its donors, <a href="https://docquery.fec.gov/cgi-bin/forms/C90011438/1386928/f57">disbursed $101,345</a> between Feb. 27 and Feb. 29 to help Warren's campaign. Warren has promised to rid the political process of super PACs and dark money. After her campaign went into February with just $2.3 million cash on hand, Warren reversed course on receiving help from super PACs when Persist PAC <a href="https://freebeacon.com/politics/in-about-face-warren-welcomes-super-pac-help-she-once-shunned/">formed</a> on Feb. 18 to support her candidacy.</p>
+<div class="posts-content__category-widget md:hidden -ml-4 -mr-4 my-8 px-4 py-6 bg-gray-100">
+<h4 class="mt-0 text-red-600 font-medium font-sans uppercase">Recent Stories in Politics</h4>
+<ul  class="list-none p-0 " >
+<li class="">
+				<a class="text-black block mb-3 pb-3 border-b border-white" href="https://freebeacon.com/politics/aclu-sues-idaho-for-banning-male-athletes-from-female-sports/"><strong>ACLU Sues Idaho for Banning Male Athletes From Female Sports</strong></a>
+			</li>
+<li class="">
+				<a class="text-black block mb-3 pb-3 border-b border-white" href="https://freebeacon.com/politics/dem-senators-gop-small-business-aid-is-political-stunt/"><strong>Dem Senators: GOP Small Business Aid Is &#8216;Political Stunt'</strong></a>
+			</li>
+<li class="">
+				<a class="text-black block mb-3 pb-3 border-b border-white" href="https://freebeacon.com/politics/idaho-bars-biologically-male-athletes-from-competing-in-all-female-sports/"><strong>Idaho Bars Biologically Male Athletes From Competing in All-Female Sports</strong></a>
+			</li>
+</ul></div>
+<p>It now appears Warren has similarly reversed course on dark money. When a dark money group <a href="https://www.politico.com/news/2019/11/15/dark-money-group-promotes-elizabeth-warren-071133">purchased</a> an ad in November supporting Warren in Iowa, the Massachusetts senator's campaign asked the group to halt its promotion of the senator. "Elizabeth Warren believes democracy is undermined by anonymous, dark-money attempts to influence voters—whether that influence is meant to help or hurt her candidacy," Chris Hayden, a spokesman for the campaign, said.</p>
+<p>Warren's campaign did not respond to a request for comment on the new dark money effort to support her candidacy in Florida.</p>
+<p>New Florida Majority <a href="https://newfloridamajority.org/the-new-florida-majority-endorses-elizabeth-warren-for-president/">endorsed</a> Warren late last year. At the time, the group said it was ready to mobilize constituents in support of the senator's plans for "big structural change."</p>
+<p>"The stakes are too high for millions of Floridians in 2020," <a href="https://newfloridamajority.org/the-new-florida-majority-endorses-elizabeth-warren-for-president/">said</a> Andrea Mercado, executive director of New Florida Majority. "We're prepared to support whoever the candidate is to defeat Trump and his agenda of inequality and division and our members endorse Elizabeth Warren as the best candidate for the job."</p>
+<p>In its endorsement statement, New Florida Majority <a href="https://newfloridamajority.org/the-new-florida-majority-endorses-elizabeth-warren-for-president/">boasted</a> that it helped reach 1.5 million voters and register 20,000 new voters in Florida as part of a coalition of liberal groups during the 2018 elections. That <a href="https://www.politico.com/states/florida/story/2018/05/17/soros-cash-gives-latest-boost-to-democrats-2018-field-program-424629">coalition,</a> known as the Win Justice campaign, focused on the battleground states of Florida, Michigan, and Nevada.</p>
+<p>Win Justice's federal PAC was initially bankrolled <a href="https://freebeacon.com/politics/soros-sole-funder-pac-targeting-infrequent-voters-battleground-states/">by a $3 million check</a> from liberal billionaire George Soros, who was for months the PAC's sole source of funding. Soros later contributed another <a href="https://docquery.fec.gov/cgi-bin/fecimg/?201901109143785987">$2 million</a> to the committee. Cash also flowed in from billionaire megadonor <a href="https://docquery.fec.gov/cgi-bin/fecimg/?201901109143785987">Donald Sussman</a>, director <a href="https://freebeacon.com/politics/steven-spielberg-donates-soros-funded-pac-florida/">Steven Spielberg</a> and his wife Kate Capshaw, and a host of liberal groups, <a href="https://www.fec.gov/data/receipts/?data_type=processed&amp;committee_id=C00672394&amp;contributor_name=SEIU&amp;contributor_name=center+for+community+change&amp;contributor_name=planned+parenthood&amp;two_year_transaction_period=2018&amp;min_date=01%2F01%2F2017&amp;max_date=10%2F09%2F2018">including</a> the Center for Community Change, Planned Parenthood, and the SEIU.</p>
+<p>New Florida Majority <a href="https://newfloridamajority.org/the-new-florida-majority-endorses-elizabeth-warren-for-president/">has a goal</a> of registering 100,000 new voters for the 2020 elections. Last week, the group held a <a href="https://floridapolitics.com/archives/320607-democrats-say-theyre-on-pace-to-register-200000-new-voters-for-november-election">joint press conference</a> with the Florida Democratic Party and two other activist organizations, boasting that the groups have registered tens of thousands of Floridians as Democrats. The Florida primary is scheduled for March 17.</p>
+	<div class="my-8 hide-print">
+		<!-- /339474670/Freebeacon/InContent -->
+		<div id='div-gpt-ad-1526555381173-4' class="mobile-250 desktop-90">
+			<script>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1526555381173-4'); });
+			</script>
+		</div>
+	</div>
+		</div>
+	<footer class="entry-footer">
+		<p>This entry was posted in <a href="https://freebeacon.com/politics/">Politics</a> and tagged <a href="https://freebeacon.com/tag/2020-election/">2020 Election</a>, <a href="https://freebeacon.com/tag/dark-money/">Dark Money</a>, <a href="https://freebeacon.com/tag/elizabeth-warren/">Elizabeth Warren</a>, <a href="https://freebeacon.com/tag/florida/">Florida</a>, <a href="https://freebeacon.com/tag/super-pacs/">Super PACs</a>. Bookmark the <a href="https://freebeacon.com/politics/warren-gets-dark-money-help-in-florida/">permalink</a>.</p>	</footer>
+		<ul class="list-inline justify-center flex md:block">
+		<li>
+						<a
+					class="button-icon md:px-6 twitter "
+					data-type="social-share"
+					href="https://twitter.com/share?url=https%3A%2F%2Ffreebeacon.com%2Fpolitics%2Fwarren-gets-dark-money-help-in-florida%2F&amp;text=Warren+Gets+Dark+Money+Help+in+Florida"
+					title="Share on Twitter">
+				<svg class="svg-icon" viewBox="0 0 20 20">
+	<path fill="none" d="M18.258,3.266c-0.693,0.405-1.46,0.698-2.277,0.857c-0.653-0.686-1.586-1.115-2.618-1.115c-1.98,0-3.586,1.581-3.586,3.53c0,0.276,0.031,0.545,0.092,0.805C6.888,7.195,4.245,5.79,2.476,3.654C2.167,4.176,1.99,4.781,1.99,5.429c0,1.224,0.633,2.305,1.596,2.938C2.999,8.349,2.445,8.19,1.961,7.925C1.96,7.94,1.96,7.954,1.96,7.97c0,1.71,1.237,3.138,2.877,3.462c-0.301,0.08-0.617,0.123-0.945,0.123c-0.23,0-0.456-0.021-0.674-0.062c0.456,1.402,1.781,2.422,3.35,2.451c-1.228,0.947-2.773,1.512-4.454,1.512c-0.291,0-0.575-0.016-0.855-0.049c1.588,1,3.473,1.586,5.498,1.586c6.598,0,10.205-5.379,10.205-10.045c0-0.153-0.003-0.305-0.01-0.456c0.7-0.499,1.308-1.12,1.789-1.827c-0.644,0.28-1.334,0.469-2.06,0.555C17.422,4.782,17.99,4.091,18.258,3.266"></path>
+</svg><span>Tweet</span>			</a>
+					</li>
+		<li>
+							<a
+					class="button-icon md:px-6 facebook "
+					data-type="social-share"
+					href="https://www.facebook.com/share.php?u=https%3A%2F%2Ffreebeacon.com%2Fpolitics%2Fwarren-gets-dark-money-help-in-florida%2F"
+					title="Share on Facebook">
+					<svg class="svg-icon" viewBox="0 0 20 20">
+	<path fill="none" d="M11.344,5.71c0-0.73,0.074-1.122,1.199-1.122h1.502V1.871h-2.404c-2.886,0-3.903,1.36-3.903,3.646v1.765h-1.8V10h1.8v8.128h3.601V10h2.403l0.32-2.718h-2.724L11.344,5.71z"></path>
+</svg><span>Share</span>				</a>
+					</li>
+		<li>
+						<a
+					class="button-icon md:px-6 mail "
+					data-type="social-share"
+					href="mailto:?to=&body=Warren+Gets+Dark+Money+Help+in+Florida https%3A%2F%2Ffreebeacon.com%2Fpolitics%2Fwarren-gets-dark-money-help-in-florida%2F&subject=Mail Share text"
+					title="Share on Email">
+				<svg class="svg-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="8.2 8 34 24" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g id="_x36_1cyzl_1_">
+	<g transform="scale(1.5, 1.5)">
+		<path class="st0" d="M26.8,6.4c-0.4,0.4-0.9,0.7-1.3,1.1c-2.7,2.3-5.5,4.5-8.2,6.8c-0.1,0.1-0.2,0.1-0.4,0
+			c-2.7-2.3-5.5-4.5-8.2-6.8C8.3,7.2,7.8,6.8,7.4,6.4C7.7,6.1,8,6,8.4,6C9,6,9.7,6,10.3,6c5.1,0,10.2,0,15.4,0
+			C26.1,6,26.5,6.1,26.8,6.4z"/>
+		<path class="st0" d="M7.4,19.7c2.4-2,4.8-4,7.2-6c0.8,0.7,1.7,1.4,2.5,2.1c0.8-0.7,1.7-1.4,2.5-2.1c2.4,2,4.8,4,7.2,5.9
+			c-0.3,0.3-0.6,0.4-1,0.4c0,0,0,0,0,0c-5.8,0-11.6,0-17.4,0C8,20.1,7.7,20,7.4,19.7z"/>
+		<path class="st0" d="M27.2,7.3c0,3.9,0,7.7,0,11.6c-2.4-1.9-4.7-3.8-7-5.8C22.6,11.2,24.9,9.3,27.2,7.3z"/>
+		<path class="st0" d="M13.9,13.2c-2.3,1.9-4.7,3.8-7,5.8c0-3.9,0-7.7,0-11.6C9.2,9.3,11.6,11.2,13.9,13.2z"/>
+	</g>
+</g>
+</svg>
+<span>MAIL</span>			</a>
+					</li>
+		<li>
+						<a
+					class="button-icon md:px-6 hidden md:inline-flex  print "
+					data-type="social-share"
+					onClick="window.print();return false;"
+					href="#"
+					title="Print this article">
+				<svg class="svg-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="6.5 8 27.6 24" style="enable-background:new 0 0 27.6 25.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g id="d5HIT8_1_">
+	<g transform="scale(1.5, 1.5)">
+		<path class="st0" d="M8.7,4.6c3.5,0,6.8,0,10.2,0c0,1.7,0,3.4,0,5.1c0.5,0,1,0,1.5,0c1.2,0,2.2,0.9,2.2,2.1c0.1,2.4,0,4.9,0,7.4
+			c-1.2,0-2.4,0-3.7,0c0,1,0,2,0,2.9c-3.4,0-6.8,0-10.3,0c0-1,0-1.9,0-2.9c-1.3,0-2.4,0-3.7,0c0-0.2,0-0.4,0-0.6c0-2.2,0-4.3,0-6.5
+			c0-1.5,0.9-2.4,2.4-2.4c0.4,0,0.8,0,1.3,0C8.7,8,8.7,6.3,8.7,4.6z M21.2,17.8c0-0.2,0-0.3,0-0.5c0-1.7,0-3.4,0-5.1
+			c0-0.8-0.3-1-1-1c-4.2,0-8.4,0-12.6,0c-0.8,0-1,0.3-1,1c0,1.7,0,3.4,0,5.1c0,0.2,0,0.3,0,0.5c0.8,0,1.4,0,2.2,0c0-1,0-1.9,0-2.9
+			c3.4,0,6.8,0,10.3,0c0,1,0,1.9,0,2.9C19.7,17.8,20.4,17.8,21.2,17.8z M10.2,20.7c2.5,0,4.9,0,7.3,0c0-1.5,0-2.9,0-4.4
+			c-2.4,0-4.9,0-7.3,0C10.2,17.8,10.2,19.2,10.2,20.7z M10.2,9.7c2.5,0,4.9,0,7.3,0c0-1.2,0-2.4,0-3.6c-2.5,0-4.9,0-7.3,0
+			C10.2,7.3,10.2,8.5,10.2,9.7z"/>
+		<path class="st0" d="M8.7,12.6c0,0.4-0.3,0.7-0.7,0.7c-0.4,0-0.7-0.3-0.7-0.7c0-0.4,0.3-0.7,0.7-0.7C8.4,11.9,8.7,12.2,8.7,12.6z"
+			/>
+	</g>
+</g>
+</svg>
+<span>PRINT</span>			</a>
+					</li>
 
 
-                if (typeof Storage !== "undefined") {
-                    var targetingParamStr = localStorage.getItem("bcDFPTargetingParams");
+	</ul>
+				<div class="post-author">
+			<p>
+				<img alt='' src='https://secure.gravatar.com/avatar/1b7acd972146480cc894064ac47df2bc?s=96&#038;d=https%3A%2F%2Ffreebeacon.com%2Fwp-content%2Fthemes%2Ffreebeacon%2Fimages%2Fsmoking-man-100.jpg&#038;r=g' srcset='https://secure.gravatar.com/avatar/1b7acd972146480cc894064ac47df2bc?s=192&#038;d=https%3A%2F%2Ffreebeacon.com%2Fwp-content%2Fthemes%2Ffreebeacon%2Fimages%2Fsmoking-man-100.jpg&#038;r=g 2x' class='avatar avatar-96 photo mt-1' height='96' width='96' /><strong>Joe Schoffstall</strong> is a staff writer for the Washington Free Beacon. Previously, he spent three years with the Media Research Center and was most recently with the Capitol City Project. He can be reached at Schoffstall@freebeacon.com. His Twitter handle is @JoeSchoffstall.			</p>
+		</div>
+				<div class="lg:pr-24 hide-print">
+		<!-- /339474670/ADN_Native/Freebeacon_Native -->
+		<div id='div-gpt-ad-1529925936099-0'>
+			<script>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1529925936099-0'); });
+			</script>
+		</div>
+	</div>
 
-                    if (targetingParamStr) {
-                        var targetingParameters = JSON.parse(targetingParamStr);
+		<div class="lg:pr-24 hide-print">
+		<div class="OUTBRAIN" data-widget-id="AR_1" data-ob-template="Admination" ></div>
+		<script type="text/javascript" src="//widgets.outbrain.com/outbrain.js"></script>
+	</div>
 
-                        // set page-level targeting parameters
-                        jQuery.each(targetingParameters, function (index, param) {
-                            window.googletag.pubads().setTargeting(param.key, param.value);
-                        });
-                    }
-                }
-            } catch (e) {
-                console.error("thm-ad-exception", e);
-            }
+	</article>
+		</section>
+		<aside class="sidebar flex lg:block flex-col">
+	<div class="widget border-b block-1 order-1">
+		<h6 class="uppercase italic text-gray-300 font-body font-medium order-1 lg:order-none">Advertisement</h6>
+						<div class="my-8 mx-auto hide-print">
+					<!-- /339474670/Freebeacon/SideBar1 -->
+					<div id='div-gpt-ad-1526555381173-2' class="mobile-250">
+						<script>
+							googletag.cmd.push(function() { googletag.display('div-gpt-ad-1526555381173-2'); });
+						</script>
+					</div>
+				</div>
+				</div>
+	<div class="widget border-b block-2 order-first lg:order-none" >
+			<div id="civsci-id-1424333507" class="hide-print" data-civicscience-widget="4cbc1e91-3fda-b424-a5ae-facc5c1829da"></div>
+	<script type="text/javascript" async src="https://www.civicscience.com/jspoll/4/civicscience-widget.js"></script>
+		</div>
 
-            googletag.pubads().addEventListener('impressionViewable', function (event) {
-                
-                var slot = event.slot;
-                if (slot.getTargeting('refresh').indexOf('true') > -1) {
-                    setTimeout(function () {
-                        Thm.RefreshAd(slot);
-                    }, refreshInterval);
-                }
-            });
-            
-            
-            googletag.pubads().setTargeting("tags",["wuhan virus"]).setTargeting("author", "Matt Vespa").setTargeting("fullUrl", "why-airlines-are-flying-scores-of-ghost-flights-during-wuhan-virus-outbreak-n2564326");
+	<div class="widget border-b block-2 order-first lg:order-none" >
+		<h6 class="uppercase italic text-gray-300 font-body font-medium order-1 lg:order-none">Advertisement</h6>
+			 <div class="custom-ad-slot mb-8">
+		 <a target="_blank" href="https://www.swagright.com/collections/homepage/products/trump-ii-poster-rocky-style">
+			 <img src="https://s1.freebeacon.com/up/2020/02/1-1.png" alt="">
+		 </a>
+	 </div>
+		</div>
+			<div class="widget category-loop md:flex md:flex-wrap lg:block order-3 lg:order-none">
+			<h3 class="widget-title w-full">Popular Stories in Politics</h3>
+							<article class="mb-4 md:w-1/2 lg:w-full post-1322449 post type-post status-publish format-standard has-post-thumbnail hentry category-politics tag-aclu tag-idaho tag-transgenderism tax_fpp-left-column">
+					<img width="640" height="427" src="https://s3.freebeacon.com/up/2020/04/GettyImages-1125713113-1024x683.jpg" class="w-full wp-post-image" alt="" /><h4 class="mt-1 mb-6"><a href="https://freebeacon.com/politics/aclu-sues-idaho-for-banning-male-athletes-from-female-sports/" rel="bookmark" class="heading text-gray-500">ACLU Sues Idaho for Banning Male Athletes From Female Sports</a></h4>				</article>
+							<article class="mb-4 md:w-1/2 lg:w-full post-1320988 post type-post status-publish format-video has-post-thumbnail hentry category-politics tag-coronavirus tag-doug-jones tag-mitch-mcconnell tag-senate tag-senate-democrats tag-video post_format-post-format-video tax_fpp-left-column">
+					<img width="640" height="338" src="https://s4.freebeacon.com/up/2020/04/Screen-Shot-2020-04-09-at-1.23.29-PM-e1586453026731.png" class="w-full wp-post-image" alt="" /><h4 class="mt-1 mb-6"><a href="https://freebeacon.com/politics/dem-senators-gop-small-business-aid-is-political-stunt/" rel="bookmark" class="heading text-gray-500">Dem Senators: GOP Small Business Aid Is &#8216;Political Stunt&#8217;</a></h4>				</article>
+							<article class="mb-4 md:w-1/2 lg:w-full post-1317859 post type-post status-publish format-standard has-post-thumbnail hentry category-politics tag-idaho tag-sports tag-transgenderism tax_fpp-left-column">
+					<img width="640" height="447" src="https://s2.freebeacon.com/up/2020/03/image-1-1.jpg" class="w-full wp-post-image" alt="" /><h4 class="mt-1 mb-6"><a href="https://freebeacon.com/politics/idaho-bars-biologically-male-athletes-from-competing-in-all-female-sports/" rel="bookmark" class="heading text-gray-500">Idaho Bars Biologically Male Athletes From Competing in All-Female Sports</a></h4>				</article>
+							<article class="mb-4 md:w-1/2 lg:w-full post-1317235 post type-post status-publish format-video has-post-thumbnail hentry category-politics tag-cnn tag-coronavirus tag-donald-trump tag-nancy-pelosi tag-video post_format-post-format-video tax_fpp-left-column">
+					<img width="640" height="447" src="https://s1.freebeacon.com/up/2020/03/pel-2.jpg" class="w-full wp-post-image" alt="" /><h4 class="mt-1 mb-6"><a href="https://freebeacon.com/politics/pelosi-trumps-coronavirus-response-has-cost-lives/" rel="bookmark" class="heading text-gray-500">Pelosi: Trump’s Coronavirus Response Has Cost Lives</a></h4>				</article>
+					</div>
+		
+	<div class="widget border-b block-3  order-4 lg:order-none">
+		<h6 class="uppercase italic text-gray-300 font-body font-medium">Advertisement</h6>
+					<div class="my-8 mx-auto hide-print">
+				<!-- /339474670/Freebeacon/SideBar2 -->
+				<div id='div-gpt-ad-1526555381173-3' class="mobile-250">
+					<script>
+						googletag.cmd.push(function() { googletag.display('div-gpt-ad-1526555381173-3'); });
+					</script>
+				</div>
+			</div>
+				</div>
 
-            
+			<div class="widget today-stories bg-gray-100 -ml-4 -mr-4 px-4 lg:bg-transparent lg:ml-0 lg:mr-0 lg:pl-8 lg:pr-0 order-last lg:order-none">
+			<h3 class="widget-title mb-6">Today's Stories</h3>
+					<article class="lg:mb-6 component-post-small mb-4 post-1323307 post type-post status-publish format-standard has-post-thumbnail hentry category-2020-election tag-feature tag-joe-biden tag-linda-sarsour tag-muslim-brotherhood tax_fpp-center-column tax_fpp-featured-sub-2 tax_fpp-featured-sub-1">
+					<a href="https://freebeacon.com/2020-election/soros-funded-muslim-group-associated-with-homophobia-terrorist-defenders-endorses-biden/" rel="bookmark" title="">
+				<img width="112" height="85" src="https://s1.freebeacon.com/up/2020/04/Biden-112x85.jpg" class="w-full wp-post-image" alt="Joe Biden" />			</a>
+				<header class="component-post-small-header mt-1">
+			<h4 class="heading"><a href="https://freebeacon.com/2020-election/soros-funded-muslim-group-associated-with-homophobia-terrorist-defenders-endorses-biden/" class="text-gray-500" rel="bookmark">Soros-Funded Muslim Group Associated With Homophobia, Terrorist Defenders Endorses Biden</a></h4><p class="entry-meta font-sans text-xs"><span class="whitespace-no-wrap"><a href="https://freebeacon.com/author/joe-schoffstall/" title="Posts by Joe Schoffstall" class="author url fn text-red-700" rel="author">Joe Schoffstall</a> <br/></span> <time class="uppercase whitespace-no-wrap text-gray-170" datetime="2020-04-18T04:59:53+00:00" pubdate>April 18, 2020 4:59 AM</time></p>		</header>
+	</article>
+				</div>
+			<div class="order-2 hide-print lg:order-none outbrain-block -ml-4 -mr-4 px-4 lg:bg-transparent lg:ml-0 lg:mr-0 lg:pl-8 lg:pr-0">
+		<div class="OUTBRAIN" data-widget-id="SB_1" data-ob-template="Admination" ></div>
+		<script type="text/javascript" src="//widgets.outbrain.com/outbrain.js"></script>
+	</div>
+	
 
-            googletag.enableServices();
-
-        });
-        //]]>
-    </script>
-<link href="/resources/lib/owl-carousel2/dist/assets/owl.carousel.min.css" rel="stylesheet" />
-<script id="article-meta" type="application/json">
-            {"Title":"Why Airlines Are Flying Scores of 'Ghost Flights' During Wuhan Virus Outbreak","IsArticleView":true,"BaseShareUrl":"http://townhall.com","Canonical":"https://townhall.com/tipsheet/mattvespa/2020/03/10/why-airlines-are-flying-scores-of-ghost-flights-during-wuhan-virus-outbreak-n2564326","ShareTitle":"Matt Vespa - Why Airlines Are Flying Scores of 'Ghost Flights' During Wuhan Virus Outbreak","PublishedDate":"2020-03-10T12:05:00","Id":132182,"Author":"Matt Vespa","AuthorImage":"https://media.townhall.com/townhall/reu/contributor-sm/authorimages/4b1cbf68-79db-4512-a493-ed6daa7eecca.png","ImageUrl":"https://media.townhall.com/townhall/reu/ha/2020/29/52dec03f-6da7-4119-9209-9a3c45801ef7.jpg","Tags":[17775],"Url":"https://townhall.com/tipsheet/mattvespa/2020/03/10/why-airlines-are-flying-scores-of-ghost-flights-during-wuhan-virus-outbreak-n2564326","Soup":0}
-        </script>
-</head>
-<body>
-<div class="thm-piano-top"></div>
-<div id="search">
-<button type="button" class="close"><i class="fa fa-close"></i></button>
-<form id="site-search">
-<input type="search" id="q" name="q" value="" placeholder="Search townhall.com...." />
-<button type="button" class="btn btn-default btn-search"><i class="fa fa-search"></i></button>
-</form>
-</div>
-<header>
-<nav id="thm-nav-sm" class="navbar navbar-default navbar-condensed navbar-fixed-top navbar-article-header">
-<div class="breaking-news-bar-container-condensed"></div>
-<div class="container">
-<div class="navbar-header">
-<a class="navbar-brand" href="/">
-<img src="/resources/th_logo.svg" class="th-logo" alt="">
-</a>
-</div>
-<div id="navbar" class="navbar-collapse collapse">
-<ul class="nav navbar-nav navbar-links navbar-right">
-<li><a title="Columnists" href="/columnists/" class="top-menu">Columnists</a></li>
-<li class="active"><a title="Tipsheet" href="/tipsheet/" class="top-menu">Tipsheet</a></li>
-<li><a title="Cartoons" href="/political-cartoons/" class="top-menu">Cartoons</a></li>
-<li><a title="Podcasts" class="top-menu" href="/podcasts/">Podcasts</a></li>
-<li><a title="Election" class="top-menu hidden-md hidden-sm" href="/election/"><img class="ec-2020-m" src="https://media.townhall.com/thm/ec2020.png" /></a></li>
-<li><a title="Membership: VIP" class="top-menu" href="/vip/"><img class="vip-brand" src="/resources/dist/svg/subscriptions-badge-vip.svg"></a></li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle top-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sections <span class="fa fa-chevron-down"></span></a>
-<ul class="dropdown-menu">
-<li><a title="Newsletter signup" href="/newsletter/">Newsletters</a></li>
-<li class="hidden-lg"><a title="Podcasts" href="/podcasts/">Podcasts</a></li>
-<li><a title="Townhall TV" href="/tv/">Townhall TV</a></li>
-<li><a title="Election " href="/election/">Election</a></li>
-<li><a title="Capitol Voices" href="/capitol-voices/">Capitol Voices</a></li>
-<li><a title="Entertainment" href="/entertainment/">Entertainment</a></li>
-<li><a title="Radio News" href="/news/">Radio News</a></li>
-<li class="hidden-lg"><a title="Election" href="/election/"><img class="ec-2020-m" src="https://media.townhall.com/thm/ec2020.png" /></a></li>
-<li><a title="Live Blog" href="/liveblog/">Live Blog</a></li>
-<li><a title="Topics" href="/tags/">Topics</a></li>
-</ul>
-</li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle top-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sites <span class="fa fa-chevron-down"></span></a>
-<ul class="dropdown-menu">
-<li><a href="http://hotair.com" target="_blank">Hot Air</a></li>
-<li><a href="http://pjmedia.com" target="_blank">PJ Media</a></li>
-<li><a href="http://bearingarms.com" target="_blank">Bearing Arms</a></li>
-<li><a href="http://twitchy.com" target="_blank">Twitchy</a></li>
-<li><a href="http://redstate.com" target="_blank">RedState</a></li>
-<li><a href="http://finance.townhall.com" target="_blank">Townhall Finance</a></li>
-<li><a href="http://www.conservativeradio.com/" target="_blank">Conservative Radio</a></li>
-</ul>
-</li>
-<li><a class="btn btn-default btn-sm btn-join hidden" href="/subscribe?tpcc=home_button">JOIN VIP</a></li>
-<li><a class="btn btn-default btn-sm btn-login hidden">LOGIN</a></li>
-<li>
-<div class="btn-group btn-account hidden">
-<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-MY ACCOUNT <span class="caret"></span>
-</button>
-<ul class="dropdown-menu">
-<li><a href="/account/" class="lnk-account">Account Settings</a></li>
-<li><a href="/newsletter/">Newsletter Subscriptions</a></li>
-<li><a href="#" class="lnk-logout">Log Out</a></li>
-</ul>
-</div>
-</li>
-<li>&nbsp;&nbsp;<button title="Search" id="btn-show-search" class="btn btn-default btn-show-search"><i class="fa fa-search"></i></button></li>
-</ul>
-</div>
-</div>
-</nav>
-<div class="thm-pad" style="padding-top:50px;">
-</div>
-<nav class="navbar navbar-default navbar-fixed-top navbar-article">
-<div class="container">
-<div class="navbar-header">
-<a class="navbar-brand" href="/"><img src="/resources/th_logo.svg" class="th-logo"></a>
-</div>
-<div id="navbar" class="navbar-collapse collapse">
-<ul class="nav navbar-nav navbar-title">
-<li class="headline">Why Airlines Are Flying Scores of &#39;Ghost Flights&#39; During Wuhan Virus Outbreak</li>
-</ul>
-<ul class="nav navbar-nav navbar-btn-search pull-right">
-<li><button class="btn btn-facebook-lg sc-fb"><i class="fa fa-facebook-official"></i>&nbsp;Share</button></li>
-<li><button class="btn btn-twitter-lg sc-tw"><i class="fa fa-twitter"></i>&nbsp;Tweet</button></li>
-<li><button title="Search" id="btn-show-search" class="btn btn-default btn-show-search"><i class="fa fa-search"></i></button></li>
-</ul>
-</div>
-</div>
-<div class="thm-carousel">
-<div class="owl-carousel owl-theme">
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/gov-abbott-outlines-texass-three-phases-for-re-opening-the-lone-star-state-n2567148"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="And the First State to Start Re-Opening Is Texas " data-src="//media.townhall.com/townhall/reu/b/2020/97/6145e8ce-c4e0-414e-a5c9-eeb983d20c05.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/gov-abbott-outlines-texass-three-phases-for-re-opening-the-lone-star-state-n2567148">And the First State to Start Re-Opening Is Texas </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" data-src="//media.townhall.com/townhall/reu/b/2020/108/0312f0de-aebe-4ffd-8865-086c6760c7bf.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157">Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a href="/columnists/katiepavlich/2020/04/17/nancy-pelosi-doesnt-care-n2567139"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Nancy Pelosi Doesn’t Care" data-src="//media.townhall.com/townhall/reu/b/2019/269/ef5eb632-e868-4f93-b614-50ad162493a0.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/katiepavlich/2020/04/17/nancy-pelosi-doesnt-care-n2567139">Nancy Pelosi Doesn’t Care</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="New Drug Combating Wuhan Coronavirus Yield Excellent Results...And the Dow Surged Because of It" data-src="//media.townhall.com/townhall/reu/b/2020/97/a1c032c2-2dc2-415a-a698-50aeb7968e7a.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160">New Drug Combating Wuhan Coronavirus Yield Excellent Results...And the Dow Surged Because of It</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/democrats-want-to-use-your-money-to-pay-states-to-let-criminals-out-of-jail-n2567089"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="The Latest Spending Push from Democrats: Using Your Money to Let Felons Out of Jail" data-src="//media.townhall.com/townhall/reu/b/2020/83/3e059f9d-8ceb-4679-8e5d-5428f2a82ba5.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/democrats-want-to-use-your-money-to-pay-states-to-let-criminals-out-of-jail-n2567089">The Latest Spending Push from Democrats: Using Your Money to Let Felons Out of Jail</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" data-src="//media.townhall.com/townhall/reu/b/2014/289/17329344-1af8-4a1f-8631-ab65d20076a0.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141">There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/trump-appears-to-back-protestors-against-michigan-governor-n2567129"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Trump Appears to Back Protestors Against Michigan Governor " data-src="//media.townhall.com/townhall/reu/b/2020/106/c409bf9b-dbcc-4435-b8f2-428e0b5d8196.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/trump-appears-to-back-protestors-against-michigan-governor-n2567129">Trump Appears to Back Protestors Against Michigan Governor </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/tucker-sounds-off-on-governor-whitmers-weird-fascism-n2567109"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Tucker Exposes What&#39;s Behind Governor Whitmer&#39;s &#39;Weird, Arbitrary Fascism&#39; " data-src="//media.townhall.com/townhall/reu/b/2020/35/f4488b8b-113f-4e5a-b0c5-046613b57d0c.jpg" /></a>
-</div>
- <div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/tucker-sounds-off-on-governor-whitmers-weird-fascism-n2567109">Tucker Exposes What&#39;s Behind Governor Whitmer&#39;s &#39;Weird, Arbitrary Fascism&#39; </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/minnesota-governor-begins-to-ease-some-restrictions-n2567126"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Did Gov. Walz Just Take Trump&#39;s Advice to &#39;Liberate&#39; Minnesota?" data-src="//media.townhall.com/townhall/reu/b/2020/108/6d262d31-153f-4bcc-b97f-2a9584f78663.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/minnesota-governor-begins-to-ease-some-restrictions-n2567126">Did Gov. Walz Just Take Trump&#39;s Advice to &#39;Liberate&#39; Minnesota?</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a href="/tipsheet/cortneyobrien/2020/04/17/biden-downplays-china-threat-n2567062"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Nikki Haley Recalls How Biden Has Downplayed the Threat from China" data-src="//media.townhall.com/townhall/reu/b/townhall/reu/o/2018/330/76346357-2450-40f7-a097-c78820c7f712.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/biden-downplays-china-threat-n2567062">Nikki Haley Recalls How Biden Has Downplayed the Threat from China</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ny-dem-rips-pelosi-for-adding-far-left-provisions-in-coronavirus-relief-bill-n2567112"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="NY Dem Rips Pelosi for Adding &#39;Far Left&#39; Provisions in Coronavirus Relief Bill" data-src="//media.townhall.com/townhall/reu/b/2019/80/3f341d90-5ab1-4263-b5a7-97a52d2e0dfe.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ny-dem-rips-pelosi-for-adding-far-left-provisions-in-coronavirus-relief-bill-n2567112">NY Dem Rips Pelosi for Adding &#39;Far Left&#39; Provisions in Coronavirus Relief Bill</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ted-cruz-explains-how-to-hold-china-accountable-n2567110"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Ted Cruz Explains that China Is Guilty on Three Counts" data-src="//media.townhall.com/townhall/reu/b/2020/24/3c73a6b1-3be6-479f-aaca-9dec532b7741.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ted-cruz-explains-how-to-hold-china-accountable-n2567110">Ted Cruz Explains that China Is Guilty on Three Counts</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/marinamedvin/2020/04/17/business-bread-lines-run-out-of-bread-as-americans-rail-against-coronavirus-oppression-n2567083"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Business Bread Lines Run Out Of Bread as Americans Rail Against Coronavirus Oppression" data-src="//media.townhall.com/townhall/reu/b/2018/290/99f4dc8c-cbc4-4e27-9168-8013625daad0.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/marinamedvin/2020/04/17/business-bread-lines-run-out-of-bread-as-americans-rail-against-coronavirus-oppression-n2567083">Business Bread Lines Run Out Of Bread as Americans Rail Against Coronavirus Oppression</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/toddstarnes/2020/04/17/democrats-will-keep-the-states-closed-to-tank-the-economy-and-take-down-trump-n2567117"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump" data-src="//media.townhall.com/townhall/reu/b/2020/100/f05bab8f-dc2c-46b4-9bde-bca808e0e1d9.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/toddstarnes/2020/04/17/democrats-will-keep-the-states-closed-to-tank-the-economy-and-take-down-trump-n2567117">Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/davidlimbaugh/2020/04/17/media-prefer-hating-trump-to-helping-america-n2567084"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Media Prefer Hating Trump to Helping America" data-src="//media.townhall.com/townhall/reu/b/2020/90/7dba55f7-89a9-453c-9687-bd60fb6bd441.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/davidlimbaugh/2020/04/17/media-prefer-hating-trump-to-helping-america-n2567084">Media Prefer Hating Trump to Helping America</a>
-</div>
-</div>
-</div>
-</div></nav>
-</header>
-<div>
-<div class="container">
-<div class="row row-topper">
-<div class="col-xs-10">
-<ul class="breadcrumb">
-<li><a href="/">Townhall</a></li>
-<li><a href="/tipsheet/" class="text-capitalize">tipsheet</a></li>
-<li class="active">
-<a href="/tipsheet/mattvespa/">Matt Vespa</a>
-</li>
-</ul>
-</div>
-<div class="col-xs-2">
-<a href="/tags/wuhan-virus" class="btn btn-default btn-article-supertag pull-right ">wuhan virus</a>
-</div>
-</div>
-<article class="with-rail">
-<div class="row">
-<div class="col-xs-12">
-<section id="article-header">
-<div class="row">
-<div class="col-xs-12">
-</div>
-</div>
-<h1 class="headline">Why Airlines Are Flying Scores of &#39;Ghost Flights&#39; During Wuhan Virus Outbreak</h1>
-<div class="row">
-<div class="col-xs-12">
-<div class="contributor-img pull-left">
-<a href="/author/mattvespa">
-<img alt="Matt Vespa" class="img-thumbnail" src="https://media.townhall.com/townhall/reu/contributor-sm/authorimages//4b1cbf68-79db-4512-a493-ed6daa7eecca.png" />
-</a>
-</div>
-<div class="contributor pull-left">
-<a href="/author/mattvespa">Matt Vespa</a>
-</div>
-<div class="contributor pull-left">|</div>
-<div class="contributor pull-left">
-<i class="fa fa-twitter tw-icon vert-align"></i>&nbsp;<a href="https://twitter.com/mvespa1" target="_blank">@mvespa1</a>
-</div>
-<div class="contributor pull-left">|</div>
-<div class="contributor pull-left">Posted: Mar 10, 2020 12:05 PM</div>
-<div class="sc header-share">
-<a class="btn btn-facebook-lg sc-fb"><i class="fa fa-facebook-official"></i>&nbsp; Share <span class="fb-count"></span></a>
-<a class="btn btn-twitter-lg sc-tw" data-dc="181"><i class="fa fa-twitter"></i>&nbsp; Tweet <span class="tw-count"></span></a>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<div class="gpt-header">
-<div id="div-gpt-728x90_1" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-728x90_1");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-728x90_1"]])
-                    });
-                </script>
-</div>
-</div>
-</div>
-</div>
-</section>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-8">
-<section id="article-media-object">
-<img class="article-main-image" src="https://media.townhall.com/townhall/reu/ha/2020/29/52dec03f-6da7-4119-9209-9a3c45801ef7.jpg" alt="Why Airlines Are Flying Scores of &#39;Ghost Flights&#39; During Wuhan Virus Outbreak" />
-<p class="main-image-source muted"><small><em>Source: Cheng Min/Xinhua via AP</em></small></p>
-</section>
-<section id="article-body">
-<aside id="aside1" class="left">
-<div class="article-aside-ad">
-<div id="div-gpt-300x250_2" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_2");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_2"]])
-                    });
-                </script>
-</div>
-</div>
 </aside>
-<p>The Wuhan virus is spreading fear around the globe thanks to a Trump deranged and irresponsible media. This isn&rsquo;t some superbug, folks. The seasonal flu is still deadlier. Now, that&rsquo;s not to say you shouldn&rsquo;t wash your hands regularly or take any of the precautions recommended by health officials that greatly reduce the chance of you getting sick. Regardless, those most at risk are the usual suspects: the elderly and the immunocompromised. A large chunk of the deaths in the U.S. from the WuFlu, which is extremely low compared to seasonal flu, stems from the Washington nursing facility. Yet, this outbreak has done something else. It&rsquo;s forced airlines to waste thousands on fuel on so-called ghost flights to avoid having their slots handed off to competitors. As Business Insider <a href="https://www.businessinsider.com/coronavirus-airlines-run-empty-ghost-flights-planes-passengers-outbreak-covid-2020-3?amp&fbclid=IwAR224XcrNq3H6zuuGPPBkMWYc8wSJx_llZ6_wnEW1bhwcrP2SPJL9wW1ABM">reported</a>, Europe has a regulation stating that an airline must run 80 percent of its flights to avoid having their slots being allocated elsewhere:</p><div class="thm-piano-mop"></div><blockquote><p>Airlines have wasted thousands of gallons of fuel running empty &quot;ghost&quot; flights during the coronavirus outbreak because of European rules saying operators can lose their flight slots if they keep their planes on the ground.</p><p>Demand for flights has collapsed across the globe amid growing fears about the outbreak.</p><p>Under Europe&#39;s rules, airlines operating out of the continent must continue to run 80% of their allocated slots or risk losing them to a competitor.</p><p>This has led to some operators flying empty planes into and out of European countries at huge costs, The Times of London reported.</p><p>On Thursday, UK Transport Secretary Grant Shapps wrote to Airport Coordination Limited asking for the rules to be suspended during the outbreak to prevent further environmental and economic damage.</p><p>[&hellip;]</p><p>The International Air Transport Association has estimated that the outbreak could wipe out up to $113 billion in airline sales worldwide.</p></blockquote><p>Cruise lines are also going to suffer. In fact, the hurt has been felt everywhere. The circuit breakers were tripped on trading yesterday after the Dow Jones fell 1,800 points at the opening bell. It dipped seven percent. It&rsquo;s rebounded some this morning, but trillions have been removed from the market as a result of this Wuhan virus that has been overblown to no end. Again, not saying it&rsquo;s not serious. It is&mdash;but context is missing entirely here. This year some 18,000 have died from the seasonal flu, with around 32-45 million Americans infected. That&rsquo;s just the U.S. Keep that in mind the next time the liberal media peddles a doomsday prediction with this virus.&nbsp;</p>
-</section>
-<section id="article-footer">
-<div class="row">
-<div class="col-xs-12">
-<div class="thm-piano-eop">
-</div>
-<div class="thm-piano-eop-recommended"></div>
-</div>
-</div>
-<div class="article-actions-footer sc">
-<div class="row">
-<div class="col-xs-12">
-<a class="btn btn-facebook-lg btn-block sc-fb"><i class="fa fa-facebook-official"></i>&nbsp; Share this on Facebook <span class="fb-count"></span></a>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-6"><a class="btn btn-block btn-twitter-lg sc-tw" data-dc="181"><i class="fa fa-twitter"></i>&nbsp; Tweet <span class="tw-count"></span></a></div>
-<div class="col-xs-2"><a href="mailto:?subject=Why Airlines Are Flying Scores of &#39;Ghost Flights&#39; During Wuhan Virus Outbreak&amp;body=https://townhall.com/tipsheet/mattvespa/2020/03/10/why-airlines-are-flying-scores-of-ghost-flights-during-wuhan-virus-outbreak-n2564326" class="btn btn-block btn-default btn-article-email"><i class="fa fa-envelope"></i></a></div>
-<div class="col-xs-2"><button data-url="https://townhall.com/tipsheet/mattvespa/2020/03/10/why-airlines-are-flying-scores-of-ghost-flights-during-wuhan-virus-outbreak-n2564326/print" onclick="window.open('https://townhall.com/tipsheet/mattvespa/2020/03/10/why-airlines-are-flying-scores-of-ghost-flights-during-wuhan-virus-outbreak-n2564326/print', 'print-winder', 'width=850,height=700,scrollbars=yes');" class="btn btn-block btn-default btn-article-print"><i class="fa fa-print"></i></button></div>
-<div class="col-xs-2"><a href="#article-comment-bookmark" class="btn btn-block btn-default btn-article-comment"><i class="fa fa-comment"></i></a></div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<div id="rcjsload_ffe38c"></div>
-<script type="text/javascript">
-        (function () {
-            function ad_block_test(e, o) { if ("undefined" != typeof document.body) { var t = "0.1.2-dev", o = o ? o : "sponsorText", n = document.createElement("DIV"); n.id = o, n.style.position = "absolute", n.style.left = "-999px", n.appendChild(document.createTextNode("&nbsp;")), document.body.appendChild(n), setTimeout(function () { if (n) { var o = 0 == n.clientHeight; try { } catch (d) { console && console.log && console.log("ad-block-test error", d) } e(o, t), document.body.removeChild(n) } }, 175) } }
-            ad_block_test(function (is_blocked) {
-                var widget_id = 102403;
-                if (is_blocked === true) {
-                    widget_id = 102452;
-                }
-                var referer = ""; try { if (referer = document.referrer, "undefined" == typeof referer) throw "undefined" } catch (exception) { referer = document.location.href, ("" == referer || "undefined" == typeof referer) && (referer = document.URL) } referer = referer.substr(0, 700);
-                var rcel = document.createElement("script");
-                rcel.id = 'rc_' + Math.floor(Math.random() * 1000);
-                rcel.type = 'text/javascript';
-                rcel.src = "//trends.revcontent.com/serve.js.php?w=" + widget_id + "&t=" + rcel.id + "&c=" + (new Date()).getTime() + "&width=" + (window.outerWidth || document.documentElement.clientWidth) + "&referer=" + referer + '&is_blocked=' + is_blocked;
-                rcel.async = true;
-                var rcds = document.getElementById("rcjsload_ffe38c"); rcds.appendChild(rcel);
-            });
-        })();
-    </script>
-<div class="thm-bluec"></div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<ul class="list-unstyled list-inline article-topics clearfix">
-<li>Tags: </li>
-<li><a class="btn btn-default btn-topic" data-tagid="17775" href="/tags/wuhan-virus">wuhan virus</a></li>
-</ul>
-<script>
-    var rndnum = Math.floor(Math.random() * 50000);
-    var submitScript = document.createElement('script');
-    submitScript.src = 'https://townhall.com/wservices/handlers/tagcount.ashx?tid=17775&tnd=' + rndnum;
-    document.body.appendChild(submitScript);
+	</div>
+				</main>
+				<footer class="bg-black text-white md:mt-4">
+					<div class="container mx-auto pt-8">
+						<div class="flex flex-col lg:flex-row lg:items-end px-6 lg:px-0">
+							<div class="lg:w-1/2 lg:px-6 mb-8 lg:mb-0">
+								<div class="footer-logo-container mx-auto lg:mx-0 lg:ml-2">
+									<img
+										class="w-full"
+										src="https://s3.freebeacon.com/thm/freebeacon/assets/images/logo-wfb.png"
+										srcset="https://freebeacon.com/wp-content/themes/freebeacon/assets/images/logo-wfb.png 1x, https://freebeacon.com/wp-content/themes/freebeacon/assets/images/logo-wfb@2x.png 2x" />
+									<ul class="flex justify-between items-center mt-8"><li class="text-3xl"><a href="https://twitter.com/freebeacon" title="twitter" class="network-twitter"><svg class="svg-icon" viewBox="0 0 20 20">
+	<path fill="none" d="M18.258,3.266c-0.693,0.405-1.46,0.698-2.277,0.857c-0.653-0.686-1.586-1.115-2.618-1.115c-1.98,0-3.586,1.581-3.586,3.53c0,0.276,0.031,0.545,0.092,0.805C6.888,7.195,4.245,5.79,2.476,3.654C2.167,4.176,1.99,4.781,1.99,5.429c0,1.224,0.633,2.305,1.596,2.938C2.999,8.349,2.445,8.19,1.961,7.925C1.96,7.94,1.96,7.954,1.96,7.97c0,1.71,1.237,3.138,2.877,3.462c-0.301,0.08-0.617,0.123-0.945,0.123c-0.23,0-0.456-0.021-0.674-0.062c0.456,1.402,1.781,2.422,3.35,2.451c-1.228,0.947-2.773,1.512-4.454,1.512c-0.291,0-0.575-0.016-0.855-0.049c1.588,1,3.473,1.586,5.498,1.586c6.598,0,10.205-5.379,10.205-10.045c0-0.153-0.003-0.305-0.01-0.456c0.7-0.499,1.308-1.12,1.789-1.827c-0.644,0.28-1.334,0.469-2.06,0.555C17.422,4.782,17.99,4.091,18.258,3.266"></path>
+</svg></a></li><li class="text-3xl"><a href="https://facebook.com/freebeacon" title="facebook" class="network-facebook"><svg class="svg-icon" viewBox="0 0 20 20">
+	<path fill="none" d="M11.344,5.71c0-0.73,0.074-1.122,1.199-1.122h1.502V1.871h-2.404c-2.886,0-3.903,1.36-3.903,3.646v1.765h-1.8V10h1.8v8.128h3.601V10h2.403l0.32-2.718h-2.724L11.344,5.71z"></path>
+</svg></a></li><li class="text-3xl"><a href="https://www.instagram.com/washingtonfreebeacon/" title="instagram" class="network-instagram"><svg class="svg-icon" viewBox="0 0 20 20">
+	<path fill="none" d="M14.52,2.469H5.482c-1.664,0-3.013,1.349-3.013,3.013v9.038c0,1.662,1.349,3.012,3.013,3.012h9.038c1.662,0,3.012-1.35,3.012-3.012V5.482C17.531,3.818,16.182,2.469,14.52,2.469 M13.012,4.729h2.26v2.259h-2.26V4.729z M10,6.988c1.664,0,3.012,1.349,3.012,3.012c0,1.664-1.348,3.013-3.012,3.013c-1.664,0-3.012-1.349-3.012-3.013C6.988,8.336,8.336,6.988,10,6.988 M16.025,14.52c0,0.831-0.676,1.506-1.506,1.506H5.482c-0.831,0-1.507-0.675-1.507-1.506V9.247h1.583C5.516,9.494,5.482,9.743,5.482,10c0,2.497,2.023,4.52,4.518,4.52c2.494,0,4.52-2.022,4.52-4.52c0-0.257-0.035-0.506-0.076-0.753h1.582V14.52z"></path>
+</svg></a></li><li class="text-3xl"><a href="https://www.youtube.com/user/WashingtonFreeBeacon" title="youtube" class="network-youtube"><svg class="svg-icon" viewBox="0 0 20 20">
+	<path fill="none" d="M9.426,7.625h0.271c0.596,0,1.079-0.48,1.079-1.073V4.808c0-0.593-0.483-1.073-1.079-1.073H9.426c-0.597,0-1.079,0.48-1.079,1.073v1.745C8.347,7.145,8.83,7.625,9.426,7.625 M9.156,4.741c0-0.222,0.182-0.402,0.404-0.402c0.225,0,0.405,0.18,0.405,0.402V6.62c0,0.222-0.181,0.402-0.405,0.402c-0.223,0-0.404-0.181-0.404-0.402V4.741z M12.126,7.625c0.539,0,1.013-0.47,1.013-0.47v0.403h0.81V3.735h-0.81v2.952c0,0-0.271,0.335-0.54,0.335c-0.271,0-0.271-0.202-0.271-0.202V3.735h-0.81v3.354C11.519,7.089,11.586,7.625,12.126,7.625 M6.254,7.559H7.2v-2.08l1.079-2.952H7.401L6.727,4.473L6.052,2.527H5.107l1.146,2.952V7.559z M11.586,12.003c-0.175,0-0.312,0.104-0.405,0.204v2.706c0.086,0.091,0.213,0.18,0.405,0.18c0.405,0,0.405-0.451,0.405-0.451v-2.188C11.991,12.453,11.924,12.003,11.586,12.003 M14.961,8.463c0,0-2.477-0.129-4.961-0.129c-2.475,0-4.96,0.129-4.96,0.129c-1.119,0-2.025,0.864-2.025,1.93c0,0-0.203,1.252-0.203,2.511c0,1.252,0.203,2.51,0.203,2.51c0,1.066,0.906,1.931,2.025,1.931c0,0,2.438,0.129,4.96,0.129c2.437,0,4.961-0.129,4.961-0.129c1.117,0,2.024-0.864,2.024-1.931c0,0,0.202-1.268,0.202-2.51c0-1.268-0.202-2.511-0.202-2.511C16.985,9.328,16.078,8.463,14.961,8.463 M7.065,10.651H6.052v5.085H5.107v-5.085H4.095V9.814h2.97V10.651z M9.628,15.736h-0.81v-0.386c0,0-0.472,0.45-1.012,0.45c-0.54,0-0.606-0.515-0.606-0.515v-3.991h0.809v3.733c0,0,0,0.193,0.271,0.193c0.27,0,0.54-0.322,0.54-0.322v-3.604h0.81V15.736z M12.801,14.771c0,0,0,1.03-0.742,1.03c-0.455,0-0.73-0.241-0.878-0.429v0.364h-0.876V9.814h0.876v1.92c0.135-0.142,0.464-0.439,0.878-0.439c0.54,0,0.742,0.45,0.742,1.03V14.771z M15.973,12.39v1.287h-1.688v0.965c0,0,0,0.451,0.405,0.451s0.405-0.451,0.405-0.451v-0.45h0.877v0.708c0,0-0.136,0.901-1.215,0.901c-1.08,0-1.282-0.901-1.282-0.901v-2.51c0,0,0-1.095,1.282-1.095S15.973,12.39,15.973,12.39 M14.69,12.003c-0.405,0-0.405,0.45-0.405,0.45v0.579h0.811v-0.579C15.096,12.453,15.096,12.003,14.69,12.003"></path>
+</svg></a></li></ul>								</div>
+							</div>
+							<div class="lg:w-1/2">
+								<div class="flex flex-col lg:flex-row items-center lg:items-start justify-end">
+									<nav class="footer-nav text-center lg:text-left lg:mr-16"><ul id="menu-footer-left" class="menu text-sm antialiased"><li id="menu-item-314968" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-314968"><a href="https://freebeacon.com/about/">About Us</a></li>
+<li id="menu-item-314974" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-314974"><a href="https://freebeacon.com/masthead/">Masthead</a></li>
+<li id="menu-item-1312666" class="menu-item menu-item-type-post_type menu-item-object-page last-menu-item last-menu-item menu-item-1312666"><a href="https://freebeacon.com/topics/">Topics</a></li>
+</ul></nav><nav class="footer-nav text-center lg:text-left"><ul id="menu-footer-right" class="menu text-sm antialiased"><li id="menu-item-129535" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-129535"><a href="https://freebeacon.com/terms-of-use/">Terms of Use</a></li>
+<li id="menu-item-129532" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-129532"><a href="https://freebeacon.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-968200" class="menu-item menu-item-type-custom menu-item-object-custom last-menu-item last-menu-item menu-item-968200"><a href="https://freebeacon.com/podcasts">Podcast</a></li>
+</ul></nav>								</div>
+							</div>
+						</div>
+					</div>
+					<div class="w-full border-t py-2 mt-4 border-gray-900">
+						<p class="text-xxs text-center antialiased mb-0">&copy;2020 All Rights Reserved</p>
+					</div>
+				</footer>
+			</div>
+		</div>
+		
+		<script type="text/javascript">
 
+			var _gaq = _gaq || [];
+			_gaq.push( ['_setAccount', 'UA-27807187-2'] );
+			_gaq.push( ['_trackPageview'] );
+						
+
+			(function () {
+				var ga = document.createElement( 'script' );
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName( 'script' )[0];
+				s.parentNode.insertBefore( ga, s );
+			})();
+
+		</script>
+			<script type="text/javascript">
+		(function () {
+			var po = document.createElement( 'script' );
+			po.type = 'text/javascript';
+			po.async = true;
+			po.src = 'https://apis.google.com/js/plusone.js';
+			var s = document.getElementsByTagName( 'script' )[0];
+			s.parentNode.insertBefore( po, s );
+		})();
+	</script>
+
+	<script type="text/javascript">
+		(function () {
+			var li = document.createElement( 'script' );
+			li.type = 'text/javascript';
+			li.async = true;
+			li.src = 'https://platform.stumbleupon.com/1/widgets.js';
+			var s = document.getElementsByTagName( 'script' )[0];
+			s.parentNode.insertBefore( li, s );
+		})();
+	</script>
+
+	<script>! function ( d, s, id ) {
+			var js, fjs = d.getElementsByTagName( s )[0];
+			if ( ! d.getElementById( id ) ) {
+				js = d.createElement( s );
+				js.id = id;
+				js.src = "//platform.twitter.com/widgets.js";
+				fjs.parentNode.insertBefore( js, fjs );
+			}
+		}( document, "script", "twitter-wjs" );
+	</script>
+		<!-- Start Alexa Certify Javascript -->
+	<script type="text/javascript">
+		_atrk_opts = {atrk_acct: "7JtIi1a4ZP00Ma", domain: "freebeacon.com", dynamic: true};
+		(function () {
+			var as = document.createElement( 'script' );
+			as.type = 'text/javascript';
+			as.async = true;
+			as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js";
+			var s = document.getElementsByTagName( 'script' )[0];
+			s.parentNode.insertBefore( as, s );
+		})();
+	</script>
+	<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=7JtIi1a4ZP00Ma" style="display:none"
+				   height="1" width="1" alt=""/></noscript>
+	<!-- End Alexa Certify Javascript -->
+			<!-- Teads -->
+		<script type="text/javascript">
+			window._ttf = window._ttf || [];
+			_ttf.push( {
+				pid: 54958
+				, lang: "en"
+				, slot: '.entry-content p:not(.wp-caption-text)'
+				, format: "inread"
+				, minSlot: 8
+				, components: {skip: {delay: 0}}
+				, css: "margin: 0px auto 0px; max-width: 500px;"
+			} );
+
+			(function ( d ) {
+				var js, s = d.getElementsByTagName( 'script' )[0];
+				js = d.createElement( 'script' );
+				js.async = true;
+				js.src = '//cdn.teads.tv/media/format.js';
+				s.parentNode.insertBefore( js, s );
+			})( window.document );
+		</script>
+		<script type='text/javascript' src='https://s2.freebeacon.com/thm/freebeacon/dist/bundle.min.js?ver=2.0.20'></script>
+<script type='text/javascript' src='https://s2.freebeacon.com/inc/js/wp-embed.min.js?ver=4.9.5'></script>
+<!-- AdRotate JS -->
+<script type="text/javascript">
+jQuery(document).ready(function(){if(jQuery.fn.gslider) {
+}});
 </script>
-</div>
-</div>
-<section id="grid-1">
-<div class="row">
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic" data-src="https://media.townhall.com/townhall/reu/ha/2018/43/10b23fc2-706b-4096-a312-ab7270db00c0.jpg" href="https://townhall.com/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic" href="https://townhall.com/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159">Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic</a>
-</div>
-<div class="story__author">
-Julio Rosas
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="&lt;p&gt;New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It&lt;/p&gt;" data-src="https://media.townhall.com/townhall/reu/ha/2020/97/a1c032c2-2dc2-415a-a698-50aeb7968e7a.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="&lt;p&gt;New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It&lt;/p&gt;" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"><p>New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It</p></a>
-</div>
- <div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported" data-src="https://media.townhall.com/townhall/reu/ha/2020/80/b0dabbb2-2c7b-419e-a142-ce365718c3d4.jpg" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/first-largescale-antibody-testing-indicate-coronavirus-infections-much-higher-death-rate-much-lower-n2567155"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/first-largescale-antibody-testing-indicate-coronavirus-infections-much-higher-death-rate-much-lower-n2567155">New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported</a>
-</div>
-<div class="story__author">
-Bronson Stocking
-</div>
-</div>
-</div>
-</div><div class="row">
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a class="thm-inc lazy" title="ICE Apprehends Five Asia Nationals Illegally Present in the U.S. " data-src="https://media.townhall.com/townhall/reu/ha/2019/133/d63885bf-3c7a-4a9a-bcbd-ac2735c54d62.png" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/five-asia-nationals-six-pakistanis-apprehended-by-ice-n2567165"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="ICE Apprehends Five Asia Nationals Illegally Present in the U.S. " href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/five-asia-nationals-six-pakistanis-apprehended-by-ice-n2567165">ICE Apprehends Five Asia Nationals Illegally Present in the U.S. </a>
-</div>
-<img class="thm-sublevel" src="/resources/dist/svg/subscriptions-badge-vip.svg" />
-<div class="story__author">
-Bronson Stocking
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" data-src="https://media.townhall.com/townhall/reu/ha/2014/289/17329344-1af8-4a1f-8631-ab65d20076a0.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141">There's Something a Little Odd About the Letter Hunter Biden's Lawyer Sent Regarding the China Allegations</a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" data-src="https://media.townhall.com/townhall/reu/ha/2020/108/0312f0de-aebe-4ffd-8865-086c6760c7bf.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157">Land O'Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?</a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-</div><div class="row">
-</div>
-</section>
-</section>
-<div id="article-comment-bookmark"></div>
-<section id="article-comments" name="article-comments">
-<button class="show-comments btn btn-lg btn-block btn-primary" style="margin:0 0 15px 0;" data-disqus-url="https://townhall.com/tipsheet/mattvespa/2020/03/10/why-airlines-are-flying-scores-of-ghost-flights-during-wuhan-virus-outbreak-n2564326">SHOW COMMENTS</button>
-<div id="disqus_thread"></div>
-<script>
-      var disqus_config = function () {
-            this.page.url = "https://townhall.com/tipsheet/mattvespa/2020/03/10/why-airlines-are-flying-scores-of-ghost-flights-during-wuhan-virus-outbreak-n2564326";
-          this.page.identifier = "https://townhall.com/tipsheet/mattvespa/2020/03/10/why-airlines-are-flying-scores-of-ghost-flights-during-wuhan-virus-outbreak-n2564326";
-      };
-    $('.show-comments').on('click', function () {
-        $.ajax({
-            type: "GET",
-            url: "//townhallcom.disqus.com/embed.js",
-            dataType: "script",
-            cache: true
-        });
-        $(this).hide();
-    });
-</script>
-</section>
-</div>
-<div class="col-xs-4 article-rail">
-<div class="ad">
-<div id="div-gpt-300x250_1" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_1");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_1"]])
-                    });
-                </script>
-</div>
-</div>
-<div class="article-actions">
-<a href="mailto:?subject=Why Airlines Are Flying Scores of &#39;Ghost Flights&#39; During Wuhan Virus Outbreak&amp;body=https://townhall.com/tipsheet/mattvespa/2020/03/10/why-airlines-are-flying-scores-of-ghost-flights-during-wuhan-virus-outbreak-n2564326" class="btn btn-default btn-article-email"><i class="fa fa-envelope"></i></a>
-<a data-url="https://townhall.com/tipsheet/mattvespa/2020/03/10/why-airlines-are-flying-scores-of-ghost-flights-during-wuhan-virus-outbreak-n2564326/print" onclick="window.open('https://townhall.com/tipsheet/mattvespa/2020/03/10/why-airlines-are-flying-scores-of-ghost-flights-during-wuhan-virus-outbreak-n2564326/print', 'print-winder', 'width=850,height=700,scrollbars=yes');" class="btn btn-default btn-article-print"><i class="fa fa-print"></i></a>
-<a href="#article-comment-bookmark" class="btn btn-default btn-article-comment"><i class="fa fa-comment"></i></a>
-</div>
-<div class="ad" style="margin-top:10px">
-<div id="div-gpt-300x250_3" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_3");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_3"]])
-                    });
-                </script>
-</div>
-</div>
-<div class="cartoon-widget">
-<div class="cartoon-widget__title"><a href="/political-cartoons">CARTOONS</a>&nbsp;|&nbsp;<a href="/political-cartoons/michaelramirez/">Michael Ramirez</a></div>
-<a class="cartoon-widget__img" href="/political-cartoons/2020/04/18/173115?hpnl=true" style="background-image:url('//media.townhall.com/Townhall/Car/b/mrz041820dAPR20200417044513.jpg');"></a>
-<div class="cartoon-widget__button"><a href="/political-cartoons/2020/04/18/173115?hpnl=true"> View Cartoon <i class="fa fa-arrow-circle-right"></i></a></div>
-</div>
-<div class="sticky-reference">
-<div class="sticky" data-offset-top="55">
-<div class="mpw">
-<div class="mpw__title">Most Popular</div>
-<ul class="list-unstyled mpw__divide">
-<li>
-<div class="row">
-<div class="col-xs-4">
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern  - 312" href="/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2020/104/30b0d531-01a6-4224-85b5-7548e5f3b2a7.jpg" /></a>
-</div>
-<div class="col-xs-8 no-gutter">
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern  - 312" href="/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915">
-<span class="mpw__story">Israeli Professor Shows Virus Follows Fixed Pattern </span>
-</a>
-</div>
-</div>
-</li>
-<li>
-<div class="row">
-<div class="col-xs-4">
-<a title="Brutal: Pelosi's Terrible Answer About Why Democrats Keep Blocking Needed Rescue Funds for Small Businesses - 55" href="/tipsheet/guybenson/2020/04/17/listen-pelosis-terrible-answer-about-why-democrats-keep-blocking-needed-rescue-funds-for-small-businesses-n2567120"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2019/143/d59c6b2f-ac5c-46f0-a985-d3b894ad8aae.png" /></a>
-</div>
-<div class="col-xs-8 no-gutter">
-<a title="Brutal: Pelosi's Terrible Answer About Why Democrats Keep Blocking Needed Rescue Funds for Small Businesses - 55" href="/tipsheet/guybenson/2020/04/17/listen-pelosis-terrible-answer-about-why-democrats-keep-blocking-needed-rescue-funds-for-small-businesses-n2567120">
-<span class="mpw__story">Brutal: Pelosi's Terrible Answer About Why Democrats Keep Blocking Needed Rescue Funds for Small Businesses</span>
-</a>
-</div>
-</div>
-</li>
-<li>
-<div class="row">
-<div class="col-xs-4">
-<a title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic - 40" href="/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2018/43/10b23fc2-706b-4096-a312-ab7270db00c0.jpg" /></a>
-</div>
-<div class="col-xs-8 no-gutter">
-<a title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic - 40" href="/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159">
-<span class="mpw__story">Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic</span>
-</a>
-</div>
-</div>
-</li>
-</ul>
-</div>
-<div class="ad">
-<div id="div-gpt-300x250_sticky" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_sticky");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_sticky"]])
-                    });
-                </script>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</article>
-<div class="row sticky-stopper">
-<div class="col-xs-12">
-<div class="article-ad-970x90">
-<div id="div-gpt-lazy-728x90_3" data-gpt='{"IncludeInPrebid":true,"Target":"pos","TargetValue":"728x90_3","SectionSlug":"tipsheet","SlotId":0,"DivUniqueId":"div-gpt-lazy-728x90_3","AdSize":"[[728,90],[970,90]]","AdUnitPath":"/6177/slm.townhall/","AdType":0,"AdRenderType":1,"IsYieldBotAmp":false,"IntervalTime":0,"AdParentLocation":0}' class="lazy-ad gpt-ad">
-<script id="pb-div-gpt-lazy-728x90_3" type="application/json">
-                    {"code":"div-gpt-lazy-728x90_3","sizes":[[728,90],[970,90]],"bids":[{"bidder":"openx","params":{"unit":"537998002","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381642"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-lazy-728x90_3@728x90"}},{"bidder":"criteo","params":{"networkId":"7465"}}]}
-                </script>
-</div>
-</div>
-</div>
-</div>
-<section id="trending-on-thm" class="trending">
-<h1 class="trending__title">Trending on Townhall Media</h1>
-<div class="row">
-<div class="col-xs-4">
-<div class="mpw-bordered">
-<div class="mpw">
-<ul class="list-unstyled">
-<li>
-<a title="Hold onto your HATS! Brit Hume shares fact-filled thread on study showing COVID fatality rate just bottomed out to influenza levels - 45" href="https://twitchy.com/samj-3930/2020/04/17/hold-onto-your-hats-brit-hume-shares-fact-filled-thread-on-study-showing-covid-fatality-rate-just-bottomed-out-to-influenza-levels/">
-<span class="mpw__story">Hold onto your HATS! Brit Hume shares fact-filled thread on study showing COVID fatality rate just bottomed out to influenza levels</span>
-</a>
-<div class="mpw__domain" style="color:#F27B21;">
-Twitchy
-</div>
-</li>
-<li>
-<a title="HUGE: The UK Just Dumped China&#39;s Huawei in 5G Tech Roll-Out — Citing its Lies Over Coronavirus. - 54" href="https://pjmedia.com/trending/huge-the-uk-just-dumped-chinas-huawei-in-5g-tech-roll-out-citing-its-lies-over-coronavirus/">
-<span class="mpw__story">HUGE: The UK Just Dumped China&#39;s Huawei in 5G Tech Roll-Out — Citing its Lies Over Coronavirus.</span>
-</a>
-<div class="mpw__domain" style="color:#00a99d;">
-PJ Media
-</div>
-</li>
-<li>
-<a title="English Professor Hopes To Revive Debate Over Militia Clause Of 2A - 8" href="https://bearingarms.com/cam-e/2020/04/15/english-professor-hopes-to-revive-debate-over-militia-clause-of-2a/">
-<span class="mpw__story">English Professor Hopes To Revive Debate Over Militia Clause Of 2A</span>
-</a>
-<div class="mpw__domain" style="color:#ADADAD;">
-Bearing Arms
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-xs-8">
-<div class="row">
-<div class="col-xs-12">
-<div class="xl-story">
-<div class="xl-story__img">
-<a target="_top" class="lazy" href="https://townhall.com/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915" data-src="https://media.townhall.com/townhall/reu/ha/2020/104/30b0d531-01a6-4224-85b5-7548e5f3b2a7.jpg">
-&nbsp;
-</a>
-</div>
-<div class="xl-story__summary">
-<h1>
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern " href="https://townhall.com/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915">Israeli Professor Shows Virus Follows Fixed Pattern </a>
-</h1>
-<h5 style="color:#ba224b">Townhall</h5>
-</div>
- </div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-6">
-<div class="sm-story">
-<div class="sm-story__text">
-<a title="Strassel: Here&amp;#8217;s Why the Democrats Keep Moving the Shutdown Goal Posts" href="https://www.redstate.com/elizabeth-vaughn/2020/04/17/820436/">Strassel: Here&#8217;s Why the Democrats Keep Moving the Shutdown Goal Posts</a>
-</div>
-<div class="sm-story__flavor" style="color:#CB0809">Redstate</div>
-</div>
-</div>
-<div class="col-xs-6">
-<div class="sm-story">
-<div class="sm-story__text">
-<a title="The results are in on the Texas nursing home using hydroxychloroquine" href="https://hotair.com/archives/karen-townsend/2020/04/17/results-texas-nursing-home-using-hydroxychloroquine/">The results are in on the Texas nursing home using hydroxychloroquine</a>
-</div>
-<div class="sm-story__flavor" style="color:#CD2628">Hotair</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-</div>
-<div class="thm-piano-pfixed"></div>
-</div>
-<footer class="sticky-stopper">
-<section class="footer-brands">
-<div class="container">
-<ul class="list-inline list-unstyled">
-<li><a href="https://townhall.com"><img src="https://media.townhall.com/thm/th_logo1.png" alt="" /></a></li>
-<li><a href="https://hotair.com"><img src="https://media.townhall.com/thm/ha_logo1.png" alt="" /></a></li>
-<li><a href="https://bearingarms.com"><img src="https://media.townhall.com/thm/ba_logo1.png" alt="" /></a> </li>
-<li><a href="https://twitchy.com"><img src="https://media.townhall.com/thm/tw_logo1.png" alt="" /></a></li>
-<li><a href="https://redstate.com"><img src="https://media.townhall.com/thm/rs_logo1.png" alt="" /></a></li>
-<li><a href="https://pjmedia.com" target="_blank"><img src="https://media.townhall.com/thm/pj-media.png" style="width:100px;height:45px;" alt="PJ Media" /></a></li>
-</ul>
-</div>
-</section>
-<section class="footer-links">
-<div class="container">
-<ul class="list-inline list-unstyled">
-<li><a title="Conservative Columnists" href="/columnists">Columnists</a></li>
-<li><a href="/political-cartoons">Political Cartoons</a></li>
-<li><a href="/tipsheet">Tipsheet</a> </li>
-<li><a href="/tv">Townhall TV</a> </li>
-<li><a href="/podcasts">Podcasts</a> </li>
-<li><a title="Conservative News" href="/news">Radio News</a></li>
-<li><a title="Conservative Video" href="/video">Video</a></li>
-<li><a title="Conservative Entertainment" href="/entertainment">Entertainment</a></li>
-<li><a title="VIP" href="/vip">VIP</a></li>
-<li><a title="Conservative Capitol Voices" href="/capitol-voices">Capitol Voices</a></li>
-</ul>
-<ul class="list-inline list-unstyled">
-<li><a href="/election">Election Results</a></li>
-<li><a href="/tags/">Tags</a></li>
-<li><a href="http://finance.townhall.com">Finance</a></li>
-<li><a href="#" onclick="javascript:window.open('http://saleminteractivemedia.com/ListenLive/Player/TOWNIR','TOWNIR','width=800,height=710');">Townhall Radio</a></li>
-</ul>
-<ul class="list-inline list-unstyled">
-<li><a href="/aboutus">About Townhall</a></li>
-<li><a href="http://townhallmedia.com/">Advertise</a></li>
-<li><a href="https://townhall.com/tags/gift-guides/">Gift Guides</a></li>
-<li><a href="https://media.townhall.com/townhall/privacypolicy/privacypolicy.htm">Privacy Policy</a></li>
-<li><a href="https://media.townhall.com/townhall/privacypolicy/TermsofUse.htm">Terms of Use</a></li>
-<li><span class="thm-cpa"><a href="/donotsell" rel="nofollow">California - Do Not Sell My Personal Information</a></span></li>
-<li><a target="_blank" href="http://www.conservativeradio.com/">Radio Stations</a></li>
-<li><a href="/sitemap.htm">Sitemap</a></li>
-<li><a href="/pages/townhall_jobs">Jobs </a></li>
-<li><a href="/contact-us/">Contact Us</a></li>
-<li><a href="/newslettersignup/">Newsletters</a></li>
-<li><a href="/mobile-apps">iPhone/Android Apps</a></li>
-</ul>
-</div>
-</section>
-<section class="under-footer">
-<div class="container">
-<div class="row">
-<hr>
-<div class="col-xs-4">
-<a href="/">
-<img alt="Townhall.com" src="https://media.townhall.com/_townhall/resources/images/thmplus.png">
-<img style="width: 155px;height:40px;" alt="Townhall.com" src="/resources/th_logo.svg">
-</a>
-</div>
-<div class="col-xs-8">
-<p class="copyright" style="margin-top:12px;">
-Townhall.com is the leading source for conservative news and political commentary and analysis.<br>
-Copyright &copy; Townhall.com/Salem Media. All Rights Reserved. <a href="https://media.townhall.com/townhall/privacypolicy/TermsofUse.htm" target="_blank">Terms</a> under which this service
-is provided to you
-</p>
-</div>
-</div>
-</div>
-</section>
-<div id="div-gpt-oop" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-oop");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-oop"]])
-                    });
-                </script>
-</div>
-</footer>
-<script>(function(src){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=src;var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})("https://experience.tinypass.com/xbuilder/experience/load?aid=tSxoqtcFa7");</script>
-<div id="login-form"></div> <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
-<script src="/resources/dist/js/site.min.js?v=24"></script>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script>
-    tp = window["tp"] || [];
-    tp.push(["setTags", ["thm:article","wuhan-virus"]]);
-</script>
-<script type="text/javascript">
-        console.info("The End: ", window.performance.now());
-        console.info("Device: ", "Desktop");
-    </script>
-<div class="thm-piano-bottom"></div>
-</body>
+<!-- /AdRotate JS -->
+
+<!-- This site converts visitors into subscribers and customers with the OptinMonster WordPress plugin v2.1.7 - http://optinmonster.com/ -->
+<div id="om-vatxspbgmn-lightbox" class="optin-monster-overlay" style="display:none;"><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script><style type="text/css" class="om-theme-simple-styles">.optin-monster-success-message {font-size: 21px;font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;color: #282828;font-weight: 300;text-align: center;margin: 0 auto;}.optin-monster-success-overlay .om-success-close {font-size: 32px !important;font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;color: #282828 !important;font-weight: 300 !important;position: absolute !important;top: 0px !important;right: 10px !important;background: none !important;text-decoration: none !important;width: auto !important;height: auto !important;display: block !important;line-height: 32px !important;padding: 0 !important;}.om-helper-field {display: none !important;visibility: hidden !important;opacity: 0 !important;height: 0 !important;line-height: 0 !important;}html div#om-vatxspbgmn-lightbox * {box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}html div#om-vatxspbgmn-lightbox {background:none;border:0;border-radius:0;-webkit-border-radius:0;-moz-border-radius:0;float:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing: grayscale;height:auto;letter-spacing:normal;outline:none;position:static;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;width:auto;visibility:visible;overflow:visible;margin:0;padding:0;line-height:1;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-shadow:none;-moz-box-shadow:none;-ms-box-shadow:none;-o-box-shadow:none;box-shadow:none;-webkit-appearance:none;}html div#om-vatxspbgmn-lightbox {background: rgb(0, 0, 0);background: rgba(0, 0, 0, .7);-webkit-font-smoothing: antialiased;line-height: 1;width: 100%;height: 100%;}html div#om-vatxspbgmn-lightbox .om-clearfix {clear: both;}html div#om-vatxspbgmn-lightbox .om-clearfix:after {clear: both;content: ".";display: block;height: 0;line-height: 0;overflow: auto;visibility: hidden;zoom: 1;}html div#om-vatxspbgmn-lightbox #om-lightbox-simple-optin {background-color: #fff;display: none;position: absolute;top: 50%;left: 50%;min-height: 175px;width: 600px;}html div#om-vatxspbgmn-lightbox #om-lightbox-simple-optin-wrap {position: relative;height: 100%;}html div#om-vatxspbgmn-lightbox .om-close {position: absolute;z-index: 999;top: 4px;right: 10px;display: block;font-family: "Verdana", Arial, sans-serif;font-size: 28px;font-weight: bold;color: #333333;color: rgba(0,0,0,0.3);text-decoration: none !important;}html div#om-vatxspbgmn-lightbox #om-lightbox-simple-header {min-height: 30px;margin: 0 auto;padding: 40px 32px;width: 495px;}html div#om-vatxspbgmn-lightbox #om-lightbox-simple-optin-title {font-family: "Lato", Arial, sans-serif;font-size: 28px;font-weight: 700;color: #ff5533;width: 100%;text-align: center;}html div#om-vatxspbgmn-lightbox #om-lightbox-simple-content {width: 340px;display: block;margin: 0 auto;}html div#om-vatxspbgmn-lightbox #om-lightbox-simple-content-clear {min-height: 0;}html div#om-vatxspbgmn-lightbox #om-lightbox-simple-optin-tagline {font-family: "Lato", Arial, sans-serif;font-size: 18px;text-align: center;line-height: 1.25;color: #8d9aa1;}html div#om-vatxspbgmn-lightbox #om-lightbox-simple-footer {padding: 30px 32px 45px;}html div#om-vatxspbgmn-lightbox label {color: #333;}html div#om-vatxspbgmn-lightbox input,html div#om-vatxspbgmn-lightbox #om-lightbox-simple-optin-name,html div#om-vatxspbgmn-lightbox #om-lightbox-simple-optin-email {background-color: #fff;width: 340px;height: 48px;border: 1px solid #ccc;-webkit-box-shadow: 0 0 6px -3px rgba(0,0,0,0.8) inset;-moz-box-shadow: 0 0 6px -3px rgba(0,0,0,0.8) inset;box-shadow: 0 0 6px -3px rgba(0,0,0,0.8) inset;border-radius: 2px;font-size: 18px;line-height: 38px;margin: 0 auto 18px;padding: 4px 6px;overflow: hidden;outline: none;vertical-align: middle;display: block;}html div#om-vatxspbgmn-lightbox input[type=submit],html div#om-vatxspbgmn-lightbox button,html div#om-vatxspbgmn-lightbox #om-lightbox-simple-optin-submit {background: #ff5533;border: 1px solid #ce4226;-webkit-box-shadow: 0 1px 1px -1px #fff inset;-moz-box-shadow: 0 1px 1px -1px #fff inset;box-shadow: 0 1px 1px -1px #fff inset;-webkit-text-shadow: #888 -0 0 1px;-moz-text-shadow: #888 -0 0 1px;text-shadow: #888 -0 0 1px;width: 340px;color: #fff;font-size: 16px;font-weight: 700;padding: 4px 6px;line-height: 24px;text-align: center;vertical-align: middle;cursor: pointer;display: block;margin: 0 auto;}html div#om-vatxspbgmn-lightbox input[type=checkbox],html div#om-vatxspbgmn-lightbox input[type=radio] {-webkit-appearance: checkbox;width: auto;outline: invert none medium;padding: 0;margin: 0;}@media (max-width: 700px) {html div#om-vatxspbgmn-lightbox #om-lightbox-simple-optin[style],html div#om-vatxspbgmn-lightbox #om-lightbox-simple-header,html div#om-vatxspbgmn-lightbox #om-lightbox-simple-content {width: 100%;position: relative;}html div#om-vatxspbgmn-lightbox #om-lightbox-simple-optin-wrap,html div#om-vatxspbgmn-lightbox #om-lightbox-simple-header,html div#om-vatxspbgmn-lightbox #om-lightbox-simple-content,html div#om-vatxspbgmn-lightbox #om-lightbox-simple-footer {padding: 10px;}html div#om-vatxspbgmn-lightbox #om-lightbox-simple-left,html div#om-vatxspbgmn-lightbox #om-lightbox-simple-right,html div#om-vatxspbgmn-lightbox #om-lightbox-simple-optin-name,html div#om-vatxspbgmn-lightbox #om-lightbox-simple-optin-email,html div#om-vatxspbgmn-lightbox #om-lightbox-simple-optin-submit,html div#om-vatxspbgmn-lightbox .om-has-email #om-lightbox-simple-optin-email,html div#om-vatxspbgmn-lightbox input,html div#om-vatxspbgmn-lightbox input[type=submit],html div#om-vatxspbgmn-lightbox button,html div#om-vatxspbgmn-lightbox #om-lightbox-simple-optin-submit {float: none;width: 100%;}html div#om-vatxspbgmn-lightbox #om-lightbox-simple-left {margin-bottom: 15px;}}</style><div id="om-lightbox-simple-optin" class="om-lightbox-simple om-clearfix om-theme-simple "style="background-color:#ffffff"><div id="om-lightbox-simple-optin-wrap" class="om-clearfix"><a href="#" class="om-close" title="Close">&times;</a><div id="om-lightbox-simple-header" class="om-clearfix" data-om-action="selectable" data-om-target="#optin-monster-field-content_bg"><div id="om-lightbox-simple-optin-title" data-om-action="editable" data-om-field="title" style="color:#ff5533;font-family:Lato;font-size:40px;text-align:center;"><span style="font-weight:bold;"><span style="font-size:28px;"><span style="font-family:pt sans;">THE MORNING BEACON:<br />
+BE PART OF THE CONVERSATION</span></span></span></div></div><div id="om-lightbox-simple-content" class="om-clearfix"><div id="om-lightbox-simple-optin-tagline" data-om-action="editable" data-om-field="tagline" style="color:#8d9aa1;font-family:Lato;font-size:16px;text-align:left;"><div style="text-align: center;"><span style="font-family:pt sans;">The Washington Free Beacon&#39;s morning email lays out everything you need to know about the world of politics, foreign&nbsp;affairs, and<br />
+national security right in your inbox.</span></div>
+</div></div><div id="om-lightbox-simple-footer" class="om-clearfix om-has-email" data-om-action="selectable" data-om-target="#optin-monster-field-content_bg"><input id="om-lightbox-simple-optin-email" type="email" value="" data-om-action="selectable" data-om-target="#optin-monster-field-email_field" placeholder="Enter your email address here..." style="color:#484848;font-family:Open Sans;" /><input id="om-lightbox-simple-optin-submit" type="submit" data-om-action="selectable" data-om-target="#optin-monster-field-submit_field" value="Stay Updated!" style="color:#ffffff;background-color:#ff5533;border-color:#ce4226;font-family:Open Sans;" /></div></div><input type="email" name="email" value="" class="om-helper-field" /><input type="text" name="website" value="" class="om-helper-field" /></div><script type="text/javascript">jQuery(document).ready(function($){WebFont.load({google: {families: ['Open+Sans%7CLato']}});});</script></div>
+<script type="text/javascript">var vatxspbgmn_lightbox, omo = {"id":536002,"optin":"vatxspbgmn-lightbox","campaign":"Exit intent split test","clones":[502168],"hash":"vatxspbgmn-lightbox","optin_js":"vatxspbgmn_lightbox","type":"lightbox","theme":"simple","cookie":30,"delay":5000,"second":0,"exit":1,"redirect":"https:\/\/freebeacon.com\/thank-you\/","redirect_pass":false,"custom":false,"test":false,"global_cookie":0,"preview":false,"ajax":"https:\/\/freebeacon.com\/?optin-monster-ajax-route=1","mobile":false,"post_id":1307596,"preloader":"https:\/\/freebeacon.com\/wp-content\/plugins\/optin-monster\/assets\/css\/images\/preloader.gif","error":"There was an error with your submission. Please try again.","ajax_error":"There was an error with the AJAX request: ","name_error":"Please enter a valid name.","email_error":"Please enter a valid email address.","bot_error":"Honeypot fields have been activated. Your submission is being flagged as potential spam.","success":"Thanks for subscribing! Please check your email for further instructions."}; vatxspbgmn_lightbox = new OptinMonster(); vatxspbgmn_lightbox.init(omo);</script>
+<!--[if lte IE 9]><script type="text/javascript">var om_ie_browser = true;</script><![endif]--><!-- / OptinMonster WordPress plugin. -->
+	</body>
 </html>
+
+
+<!-- Dynamic page generated in 0.178 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2020-04-18 05:00:56 -->
+
+<!-- super cache -->
