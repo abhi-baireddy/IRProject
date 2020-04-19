@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]><html lang="en-US" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-US"class="post-template-default single single-post postid-95244 single-format-standard custom-background mega-menu-main-nav" class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>The Right Has Mainstreamed the Rhetoric of Mass Killers | Washington Monthly</title>
+
+        <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="apple-touch-icon" href="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/themes/washington-monthly/library/images/apple-touch-icon-wm.png">
+    <link rel="icon" href="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/themes/washington-monthly/favicon-wm.png">
+    <!--[if IE]>
+      <link rel="shortcut icon" href="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/themes/washington-monthly/favicon-wm.ico">
+    <![endif]-->
+        <meta name="msapplication-TileColor" content="#f01d4f">
+    <meta name="msapplication-TileImage"
+        content="http://kwtri4b8r0ep8ho61118ipob.wpengine.netdna-cdn.com/wp-content/themes/washington-monthly/library/images/win8-tile-icon-wm.png">
+    <meta name="theme-color" content="#121212">
+
+    <link rel="pingback" href="https://washingtonmonthly.com/xmlrpc.php">
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W3RQ528');
+    </script>
+    <!-- End Google Tag Manager -->
+
+        <script type="text/javascript">
+window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),s.xhrWrappable&&t(9),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),c=t(7),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),c.on(m,function(){this.bstStart=Date.now()}),c.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(17)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),c=t(16),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),f.setCurrentRouteName=o(d+"routeName",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o){if(!l.aborted){t&&t(n,r,o);for(var i=e(o),a=h(n),c=a.length,s=0;s<c;s++)a[s].apply(i,r);var f=u[y[n]];return f&&f.push([g,n,r,i]),i}}function p(t,e){v[t]=h(t).concat(e)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var v={},y={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(15),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=g.info=NREUM.info,e=d.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(v,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()],null,"api");var n=d.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(15),f=t("ee"),u=window,d=u.document,l="addEventListener",p="attachEvent",h=u.XMLHttpRequest,m=h&&h.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:h,REQ:u.Request,EV:u.Event,PR:u.Promise,MO:u.MutationObserver},t(12);var w=""+location,v={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},y=h&&m&&m[l]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:a(),origin:w,features:{},xhrWrappable:y};d[l]?(d[l]("DOMContentLoaded",i,!1),u[l]("load",r,!1)):(d[p]("onreadystatechange",o),u[p]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader",2,10,4,3]);
+;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"5ebbe02866",applicationID:"33255645",sa:1}
+</script>
+
+<!-- The SEO Framework by Sybre Waaijer -->
+<meta name="robots" content="max-snippet:-1,max-image-preview:standard,max-video-preview:-1" />
+<meta property="og:image" content="http://kwtri4b8r0ep8ho61118ipob.wpengine.netdna-cdn.com/wp-content/uploads/2017/08/35780274914_d35a644ec0_k.jpg" />
+<meta property="og:image:width" content="2048" />
+<meta property="og:image:height" content="1536" />
+<meta property="og:image:alt" content="Charlottesville &quot;Unite the Right&quot; Rally" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="The Right Has Mainstreamed the Rhetoric of Mass Killers | Washington Monthly" />
+<meta property="og:url" content="https://washingtonmonthly.com/2019/03/15/the-new-right-has-mainstreamed-the-rhetoric-of-mass-killers/" />
+<meta property="og:site_name" content="Washington Monthly" />
+<meta property="article:published_time" content="2019-03-15T23:30-04:00" />
+<meta property="article:modified_time" content="2019-03-18T14:35-04:00" />
+<meta property="og:updated_time" content="2019-03-18T14:35-04:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="field_56f15e8f9bbac" />
+<meta name="twitter:description" content="field_56f15ea99bbad" />
+<meta name="twitter:image" content="http://kwtri4b8r0ep8ho61118ipob.wpengine.netdna-cdn.com/wp-content/uploads/2017/08/35780274914_d35a644ec0_k.jpg" />
+<meta name="twitter:image:width" content="2048" />
+<meta name="twitter:image:height" content="1536" />
+<meta name="twitter:image:alt" content="Charlottesville &quot;Unite the Right&quot; Rally" />
+<link rel="canonical" href="https://washingtonmonthly.com/2019/03/15/the-new-right-has-mainstreamed-the-rhetoric-of-mass-killers/" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://washingtonmonthly.com/","name":"Washington Monthly Magazine"}},{"@type":"ListItem","position":2,"item":{"@id":"https://washingtonmonthly.com/political-animal/","name":"Political Animal"}},{"@type":"ListItem","position":3,"item":{"@id":"https://washingtonmonthly.com/2019/03/15/the-new-right-has-mainstreamed-the-rhetoric-of-mass-killers/","name":"The Right Has Mainstreamed the Rhetoric of Mass Killers"}}]}</script>
+<meta name="google-site-verification" content="google-site-verification=nDXaqMy0bmQs3LgVDJ1WPTZinilYHcmvEywMhuKel9Y" />
+<!-- / The SEO Framework by Sybre Waaijer | 2.25ms meta | 0.42ms boot -->
+
+<link rel='dns-prefetch' href='//code.jquery.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Washington Monthly &raquo; Feed" href="https://washingtonmonthly.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Washington Monthly &raquo; Comments Feed" href="https://washingtonmonthly.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Washington Monthly &raquo; The Right Has Mainstreamed the Rhetoric of Mass Killers Comments Feed" href="https://washingtonmonthly.com/2019/03/15/the-new-right-has-mainstreamed-the-rhetoric-of-mass-killers/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/washingtonmonthly.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-includes/css/dashicons.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='aba_frontEndCSS-css'  href='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/plugins/ad-blocking-advisor/css/frontend.css' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
+<link rel='stylesheet' id='easy-pull-quotes-css'  href='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/plugins/easy-pull-quotes/public/css/easy-pull-quotes-public.css' type='text/css' media='all' />
+<link rel='stylesheet' id='media-credit-css'  href='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/plugins/media-credit/public/css/media-credit.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='megamenu-css'  href='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/maxmegamenu/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='googleFonts-css'  href='https://fonts.googleapis.com/css?family=Lato%3A400%2C700%2C400italic%2C700italic' type='text/css' media='all' />
+<link rel='stylesheet' id='popup-maker-site-css'  href='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/pum/pum-site-styles-1.css?generated=1586156030' type='text/css' media='all' />
+<link rel='stylesheet' id='fa-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-css'  href='//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/theme.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bones-stylesheet-css'  href='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/themes/washington-monthly/library/css/style.css?5e9c063f99740' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='bones-ie-only-css'  href='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/themes/washington-monthly/library/css/ie.css' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/plugins/ad-blocking-advisor/js/ad-blocking-advisor.js'></script>
+<link rel='https://api.w.org/' href='https://washingtonmonthly.com/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="https://washingtonmonthly.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwashingtonmonthly.com%2F2019%2F03%2F15%2Fthe-new-right-has-mainstreamed-the-rhetoric-of-mass-killers%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://washingtonmonthly.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwashingtonmonthly.com%2F2019%2F03%2F15%2Fthe-new-right-has-mainstreamed-the-rhetoric-of-mass-killers%2F&#038;format=xml" />
+		<style>
+		.getty.aligncenter {
+			text-align: center;
+		}
+		.getty.alignleft {
+			float: none;
+			margin-right: 0;
+		}
+		.getty.alignleft > div {
+			float: left;
+			margin-right: 5px;
+		}
+		.getty.alignright {
+			float: none;
+			margin-left: 0;
+		}
+		.getty.alignright > div {
+			float: right;
+			margin-left: 5px;
+		}
+		</style>
+		
+
+<!-- WP Links CSS-->
+<style type="text/css">
+.wp-links-icon { background:url("http://kwtri4b8r0ep8ho61118ipob.wpengine.netdna-cdn.com/wp-content/plugins/wp-links/icons/") no-repeat 100% 50%; padding-right:15px; margin-right: 2px;};
+</style>
+
+<!-- SEO meta tags powered by SmartCrawl https://premium.wpmudev.org/project/smartcrawl-wordpress-seo/ -->
+<meta name="description" content="It&#039;s no wonder that right-wing violence is skyrocketing." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://washingtonmonthly.com/2019/03/15/the-new-right-has-mainstreamed-the-rhetoric-of-mass-killers/" />
+<meta property="og:title" content="The Right Has Mainstreamed the Rhetoric of Mass Killers | Washington Monthly" />
+<meta property="og:description" content="It&#039;s no wonder that right-wing violence is skyrocketing." />
+<meta property="og:image" content="http://kwtri4b8r0ep8ho61118ipob.wpengine.netdna-cdn.com/wp-content/uploads/2017/08/35780274914_d35a644ec0_k-125x125.jpg" />
+<meta property="article:published_time" content="2019-03-15T23:30:48" />
+<meta property="article:author" content="David Atkins" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="monthly" />
+<meta name="twitter:title" content="The Right Has Mainstreamed the Rhetoric of Mass Killers | Washington Monthly" />
+<meta name="twitter:description" content="It&#039;s no wonder that right-wing violence is skyrocketing." />
+<meta name="twitter:image" content="http://kwtri4b8r0ep8ho61118ipob.wpengine.netdna-cdn.com/wp-content/uploads/2017/08/35780274914_d35a644ec0_k-125x125.jpg" />
+<script type="application/ld+json">[{"@context":"http:\/\/schema.org","@type":"WebSite","about":"","dateModified":"2020-04-18 10:00:37.000000","description":"","encoding":"UTF-8","headline":"Washington Monthly","inLanguage":"en-US","name":"Washington Monthly","publisher":{"@type":"Organization","name":"Washington Monthly","sameAs":["https:\/\/www.facebook.com\/WashingtonMonthly\/"]},"url":"https:\/\/washingtonmonthly.com"},{"@context":"http:\/\/schema.org","@type":"Article","author":{"@type":"Person","name":"David Atkins","url":"https:\/\/washingtonmonthly.com\/author\/davida\/"},"commentCount":"0","dateModified":"2019-03-18T14:35:54","datePublished":"2019-03-15T23:30:48","description":"It&#039;s no wonder that right-wing violence is skyrocketing.","headline":"The Right Has Mainstreamed the Rhetoric of Mass Killers | Washington Monthly","image":{"@context":"http:\/\/schema.org","@type":"ImageObject","height":525,"url":"https:\/\/washingtonmonthly.com\/wp-content\/uploads\/2017\/08\/35780274914_d35a644ec0_k.jpg","width":700},"mainEntityOfPage":"https:\/\/washingtonmonthly.com\/2019\/03\/15\/the-new-right-has-mainstreamed-the-rhetoric-of-mass-killers\/","name":"The Right Has Mainstreamed the Rhetoric of Mass Killers","publisher":{"@type":"Organization","name":"Washington Monthly","sameAs":["https:\/\/www.facebook.com\/WashingtonMonthly\/"],"logo":{"@type":"ImageObject","url":"https:\/\/washingtonmonthly.com\/wp-content\/uploads\/2016\/06\/WMlogo.jpg","height":60,"width":60}},"thumbnailUrl":"https:\/\/washingtonmonthly.com\/wp-content\/uploads\/2017\/08\/35780274914_d35a644ec0_k.jpg","url":"https:\/\/washingtonmonthly.com\/2019\/03\/15\/the-new-right-has-mainstreamed-the-rhetoric-of-mass-killers\/"}]</script>
+<!-- /SEO -->
+		<style>
+			.no-js img.lazyload { display: none; }
+			figure.wp-block-image img.lazyloading { min-width: 150px; }
+							.lazyload, .lazyloading { opacity: 0; }
+				.lazyloaded {
+					opacity: 1;
+					transition: opacity 200ms;
+					transition-delay: 0ms;
+				}
+					</style>
+		
+<!-- Facebook Pixel Code -->
+<script type='text/javascript'>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+</script>
+<!-- End Facebook Pixel Code -->
+<script type='text/javascript'>
+  fbq('init', '2408734959405557', [], {
+    "agent": "wordpress-5.3.2-1.7.25"
+});
+</script><script type='text/javascript'>
+  fbq('track', 'PageView', []);
+</script>
+<!-- Facebook Pixel Code -->
+<noscript>
+<img height="1" width="1" style="display:none" alt="fbpx"
+ data-src="https://www.facebook.com/tr?id=2408734959405557&ev=PageView&noscript=1" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img height="1" width="1" style="display:none" alt="fbpx"
+src="https://www.facebook.com/tr?id=2408734959405557&ev=PageView&noscript=1" /></noscript>
+</noscript>
+<!-- End Facebook Pixel Code -->
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2016/06/cropped-WMlogo-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2016/06/cropped-WMlogo-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2016/06/cropped-WMlogo-180x180.jpg" />
+<meta name="msapplication-TileImage" content="http://kwtri4b8r0ep8ho61118ipob.wpengine.netdna-cdn.com/wp-content/uploads/2016/06/cropped-WMlogo-270x270.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="Washington Monthly" />
+<meta property="og:title" content="The Right Has Mainstreamed the Rhetoric of Mass Killers" />
+<meta property="og:url" content="https://washingtonmonthly.com/2019/03/15/the-new-right-has-mainstreamed-the-rhetoric-of-mass-killers/" />
+<meta property="og:description" content="It's no wonder that right-wing violence is skyrocketing." />
+<meta property="og:updated_time" content="2019-03-18T14:35:54-04:00" />
+<meta property="og:image" content="http://kwtri4b8r0ep8ho61118ipob.wpengine.netdna-cdn.com/wp-content/uploads/2017/08/35780274914_d35a644ec0_k.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-03-15T23:30:48-04:00" />
+<meta property="article:modified_time" content="2019-03-18T14:35:54-04:00" />
+<meta name="twitter:title" content="The Right Has Mainstreamed the Rhetoric of Mass Killers" />
+<meta name="twitter:url" content="https://washingtonmonthly.com/2019/03/15/the-new-right-has-mainstreamed-the-rhetoric-of-mass-killers/" />
+<meta name="twitter:description" content="It's no wonder that right-wing violence is skyrocketing." />
+<meta name="twitter:image:src" content="http://kwtri4b8r0ep8ho61118ipob.wpengine.netdna-cdn.com/wp-content/uploads/2017/08/35780274914_d35a644ec0_k.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<style type="text/css">/** Mega Menu CSS: fs **/</style>
+            <!-- Taboola -->
+    <script type="text/javascript">
+        window._taboola = window._taboola || [];
+        _taboola.push({
+            article: 'auto'
+        });
+        ! function (e, f, u, i) {
+            if (!document.getElementById(i)) {
+                e.async = 1;
+                e.src = u;
+                e.id = i;
+                f.parentNode.insertBefore(e, f);
+            }
+        }(document.createElement('script'),
+            document.getElementsByTagName('script')[0],
+            '//cdn.taboola.com/libtrc/washingtonmonthly-network/loader.js',
+            'tb_loader_script');
+        if (window.performance && typeof window.performance.mark == 'function') {
+            window.performance.mark('tbl_ic');
+        }
+    </script>
+</head>
+
+<body class="post-template-default single single-post postid-95244 single-format-standard custom-background mega-menu-main-nav" itemscope itemtype="http://schema.org/WebPage">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3RQ528" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="container">
+
+        <header class="header "
+            role="banner" itemscope itemtype="http://schema.org/WPHeader">
+
+            <div id="inner-header" class="wrap cf">
+
+                <section class="search">
+                    <form role="search" method="get" id="searchform" class="searchform search-form" action="https://washingtonmonthly.com/">
+    <div class="form-group has-feedback">
+        <!-- <label for="s" class="screen-reader-text">Search for:</label> -->
+        <input type="search" id="s" name="s" class="form-control" placeholder="Search Washington Monthly..." value="" />
+        <button type="submit" id="searchsubmit" class="hidden" ></button>
+        <span class="fa fa-search form-control-feedback"></span>
+    </div>
+</form>                </section>
+
+                <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement" class="wrap">
+                    <div id="mega-menu-wrap-main-nav" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"><div class='mega-toggle-block mega-menu-toggle-block mega-toggle-block-1' id='mega-toggle-block-1' tabindex='0'><span class='mega-toggle-label' role='button' aria-expanded='false'><span class='mega-toggle-label-closed'></span><span class='mega-toggle-label-open'></span></span></div></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"></div></div><ul id="mega-menu-main-nav" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="disabled" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="200" data-mobile-force-width="false" data-second-click="close" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="8600" data-unbind="true"><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-57714' id='mega-menu-item-57714'><a class="mega-menu-link" href="#" aria-haspopup="true" aria-expanded="false" tabindex="0">The Magazine<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-57725' id='mega-menu-item-57725'><a class="mega-menu-link" href="/magazine/april-may-june-2020/">Current Issue</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-6324' id='mega-menu-item-6324'><a class="mega-menu-link" href="/archives">Past Issues</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-current-post-ancestor mega-current-menu-parent mega-current-post-parent mega-menu-item-6322' id='mega-menu-item-6322'><a class="mega-menu-link" href="https://washingtonmonthly.com/political-animal/">Political Animal</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-6321' id='mega-menu-item-6321'><a class="mega-menu-link" href="https://washingtonmonthly.com/politics/">Politics</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-103567' id='mega-menu-item-103567'><a class="mega-menu-link" href="https://washingtonmonthly.com/2019college-guide">2019 College Guide and Rankings</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-6325' id='mega-menu-item-6325'><a class="mega-menu-link" href="https://washingtonmonthly.com/economy/">Economy</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-6318' id='mega-menu-item-6318'><a class="mega-menu-link" href="https://washingtonmonthly.com/education/">Education</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-57705' id='mega-menu-item-57705'><a class="mega-menu-link" href="https://washingtonmonthly.com/education/k-12/">K-12</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-58036' id='mega-menu-item-58036'><a class="mega-menu-link" href="https://washingtonmonthly.com/education/college-rankings/">Higher Education</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-6327' id='mega-menu-item-6327'><a class="mega-menu-link" href="https://washingtonmonthly.com/law-and-justice/">Law and Justice</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-57726' id='mega-menu-item-57726'><a class="mega-menu-link" href="https://washingtonmonthly.com/health-care/">Health Care</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-6328' id='mega-menu-item-6328'><a class="mega-menu-link" href="https://washingtonmonthly.com/books/">Books</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-57722' id='mega-menu-item-57722'><a class="mega-menu-link" href="#" aria-haspopup="true" aria-expanded="false">Group<span class="mega-indicator"></span></a>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-6317' id='mega-menu-item-6317'><a class="mega-menu-link" href="https://washingtonmonthly.com/government/republic-3-0/">Republic 3.0</a></li>	</ul>
+</li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-58406' id='mega-menu-item-58406'><a class="mega-menu-link" href="https://washingtonmonthly.com/special-reports/">Special Reports</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-57707' id='mega-menu-item-57707'><a class="mega-menu-link" href="http://philanthropy.washingtonmonthly.com">Successes of Philanthropy</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-57713' id='mega-menu-item-57713'><a class="mega-menu-link" href="#" aria-haspopup="true" aria-expanded="false" tabindex="0">Column 2<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-71886' id='mega-menu-item-71886'><a class="mega-menu-link" href="https://washingtonmonthly.com/about">About</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-57711' id='mega-menu-item-57711'><a class="mega-menu-link" href="https://washingtonmonthly.com/advertising-opportunities/">Advertise</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-57712' id='mega-menu-item-57712'><a class="mega-menu-link" href="https://washingtonmonthly.com/contact/">Contact</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-71887' id='mega-menu-item-71887'><a class="mega-menu-link" href="https://washingtonmonthly.com/careers">Careers</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-57710' id='mega-menu-item-57710'><a class="mega-menu-link" href="https://washingtonmonthly.com/privacy-policy/">Privacy Policy</a></li></ul>
+</li></ul></div>
+                </nav>
+
+                <a href="https://washingtonmonthly.com" rel="nofollow" id="logo">
+                    <img 
+                         alt="Washington Monthly" style="display:none" ; data-src="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/themes/washington-monthly/library/images/wm-logo.svg" class="svg white-alt bg--black lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img src="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/themes/washington-monthly/library/images/wm-logo.svg"
+                        class="svg white-alt bg--black" alt="Washington Monthly" style="display:none" ; /></noscript>
+                </a>
+
+                                <!-- Social buttons -->
+<div class="addthis_toolbox social" addthis:description="It's no wonder that right-wing violence is skyrocketing." addthis:title="The Right Has Mainstreamed the Rhetoric of Mass Killers" addthis:url="https://washingtonmonthly.com/2019/03/15/the-new-right-has-mainstreamed-the-rhetoric-of-mass-killers/">
+  <div class="custom_images">
+
+    <div class="action-buttons--first">
+      <!--Donate-->
+
+      <a class="btn btn-donate" href="https://donatenow.networkforgood.org/1407658" target=_"blank"
+        alt="Make tax deductible donation with PayPal">
+        <span class="fa fa-dollar"></span>
+        <div>Donate</div>
+      </a>
+
+      <!-- A/B test for subscribe modal -->
+<a class="btn btn-subscribe" id="btnSubscribe-A">
+    <span class="fa fa-envelope"></span>
+    <div>Subscribe</div>
+</a>     </div>
+
+    <!--Facebook-->
+    <a class="addthis_button_facebook btn btn-facebook">
+      <span class="fa fa-facebook"></span>
+      <div>Share</div>
+    </a>
+
+    <!--Twitter-->
+    <a class="addthis_button_twitter btn btn-twitter">
+      <span class="fa fa-twitter"></span>
+      <div>Tweet</div>
+    </a>
+
+    <!--Print-->
+    <a class="addthis_button_print btn btn-print">
+      <span class="fa fa-print"></span>
+      <div>Print</div>
+    </a>
+
+    <!--Email-->
+    <a class="addthis_button_email btn btn-email">
+      <span class="fa fa-envelope"></span>
+      <div>Email</div>
+    </a>
+
+  </div>
+</div>                
+            </div>
+
+        </header>
+<!-- pageview test -->
+			<div id="content">
+                
+				<div id="inner-content" class="wrap cf">
+
+					<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+
+																				
+
+							
+<article id="post-95244" class="cf post-95244 post type-post status-publish format-standard has-post-thumbnail hentry category-political-animal category-featured" role="article" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+
+  <header class="article-header entry-header">
+
+    <!-- CUSTOM OUTPUT: DISPLAY ISSUE LINKS ABOVE TITLE -->
+    <div class="issue-header"></div>
+
+    <h1 class="single-title" itemprop="headline" rel="bookmark">
+      The Right Has Mainstreamed the Rhetoric of Mass Killers    </h1>
+    
+    
+    <div class='author-info'><span class='by'>by</span> <a href="https://washingtonmonthly.com/people/david-atkins/" class="author-name">David Atkins</a></div>    
+<div class="byline entry-meta vcard">
+  <time class="updated entry-time"
+        datetime="03-15-2019"
+        itemprop="datePublished">
+
+    March 15, 2019
+    <div class="timestamp">
+              | 11:30 PM          </div>
+
+  </time>
+</div>
+     <div class="header-tag title--category header--political-animal">
+  <a href="https://washingtonmonthly.com/political-animal/">
+    Political Animal  </a>
+</div>
+
+  </header>     <section class="entry-content cf " itemprop="articleBody">
+    <div class="featured-image">
+  <img width="2048" height="1536"   alt="Charlottesville &quot;Unite the Right&quot; Rally" data-srcset="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/35780274914_d35a644ec0_k.jpg 2048w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/35780274914_d35a644ec0_k-300x225.jpg 300w" sizes="(max-width: 2048px) 100vw, 2048px" data-src="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/35780274914_d35a644ec0_k.jpg" class="attachment-bones-thumb-full size-bones-thumb-full wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="2048" height="1536" src="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/35780274914_d35a644ec0_k.jpg" class="attachment-bones-thumb-full size-bones-thumb-full wp-post-image" alt="Charlottesville &quot;Unite the Right&quot; Rally" srcset="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/35780274914_d35a644ec0_k.jpg 2048w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/35780274914_d35a644ec0_k-300x225.jpg 300w" sizes="(max-width: 2048px) 100vw, 2048px" /></noscript><span class="media-credit"  style="max-width: 2048px">Anthony Crider/Flickr</span>    <div class="caption">Alt-right members preparing to enter Emancipation Park holding Nazi, Confederate, and Gadsden "Don't Tread on Me" flags.</div>
+  </div>
+    <!-- Social buttons -->
+<div class="addthis_toolbox social" addthis:description="It's no wonder that right-wing violence is skyrocketing." addthis:title="The Right Has Mainstreamed the Rhetoric of Mass Killers" addthis:url="https://washingtonmonthly.com/2019/03/15/the-new-right-has-mainstreamed-the-rhetoric-of-mass-killers/">
+  <div class="custom_images">
+
+    <div class="action-buttons--first">
+      <!--Donate-->
+
+      <a class="btn btn-donate" href="https://donatenow.networkforgood.org/1407658" target=_"blank"
+        alt="Make tax deductible donation with PayPal">
+        <span class="fa fa-dollar"></span>
+        <div>Donate</div>
+      </a>
+
+      <!-- A/B test for subscribe modal -->
+<a class="btn btn-subscribe" id="btnSubscribe-A">
+    <span class="fa fa-envelope"></span>
+    <div>Subscribe</div>
+</a>     </div>
+
+    <!--Facebook-->
+    <a class="addthis_button_facebook btn btn-facebook">
+      <span class="fa fa-facebook"></span>
+      <div>Share</div>
+    </a>
+
+    <!--Twitter-->
+    <a class="addthis_button_twitter btn btn-twitter">
+      <span class="fa fa-twitter"></span>
+      <div>Tweet</div>
+    </a>
+
+    <!--Print-->
+    <a class="addthis_button_print btn btn-print">
+      <span class="fa fa-print"></span>
+      <div>Print</div>
+    </a>
+
+    <!--Email-->
+    <a class="addthis_button_email btn btn-email">
+      <span class="fa fa-envelope"></span>
+      <div>Email</div>
+    </a>
+
+  </div>
+</div>    <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>When a person makes the decision to kill dozens to draw attention to their political ideas, our first instinct is to ignore them and refuse to listen. Elevating their ideas only gives them what they want and encourages further attacks. But when ever larger numbers of violent incidents arise from people with the same ideology, it behooves us to treat those ideas and those who promulgate them with the appropriate level of attentive alarm.</p>
+<p>With that in mind, I have read (or at least skimmed) the manifesto of the white supremacist terrorist who <a href="https://www.nytimes.com/2019/03/15/world/asia/new-zealand-shooting.html" target="_blank" rel="external nofollow" title="murdered">murdered</a> dozens of Muslims peacefully assembled in prayer at mosques yesterday in New Zealand. But you don&rsquo;t have to, because there&rsquo;s nothing in that document that isn&rsquo;t already mainstreamed in the discourse of Breitbart, alt-right Trump supporters, QAnon conspiracy forums, the broader right-wing memeverse, and Fox News anchors like Tucker Carlson. The only difference is that while most modern conservatives modify their language in the form of vague threats or promises of disenfranchisement, expulsion, and political oppression of minorities and people of color, terrorists like the New Zealand killer put those ideas into immediate, murderous action.</p>
+<p>While much has already been written about the terrorist&rsquo;s idolization of various conservative figures, from Republican President Donald Trump to Tea Party USA head Candace Owens, we should pay more attention to his rhetoric.</p>
+<p>Central to both the killer&rsquo;s ideology and that of the mainstream conservative movement is the notion of &ldquo;replacement.&rdquo; This idea of&nbsp;<em>replacement</em> is a slight but significant shift from white supremacist concerns of the past.</p>
+<p>The preservation of the white race has long been a <a href="https://www.theatlantic.com/magazine/archive/2019/04/adam-serwer-madison-grant-white-nationalism/583258/" target="_blank" rel="external nofollow" title="central piece">central piece</a> of far-right ideology, usually expressed in terms of fear of race mixing. Traditionally, white supremacist ideology has been more aligned with maintaining the &ldquo;purity&rdquo; and dominance of whatever changing ethnic subgroupings happened to be coded as &ldquo;white&rdquo; in a given era. Certainly, in the context of slavery and Jim Crow, whites were fearful of slave revolts and labor competition from African-Americans.</p>
+<p>But the modern experience of far-right racism has even more existential overtones because of a combination of declining white birth rates and increasing immigration. The intense fear among an alarming number of white people has caused violent white supremacy to increasingly overlap with mainstream conservative rhetoric. Many have come to fear the slow elimination of <a href="https://www.theglobeandmail.com/opinion/whiteness-is-a-racial-construct-its-time-to-take-it-apart/article32301637/" target="_blank" rel="external nofollow" title="this false construct">this false construct</a> we call &ldquo;whiteness&rdquo;&nbsp;through gradual demographic replacement. It was only in the 1980s that neo-nazi ideology <a href="https://en.wikipedia.org/wiki/Fourteen_Words" target="_blank" rel="external nofollow" title="started adopting">started adopting</a> the 14 words explicitly invoking the very &ldquo;existence&rdquo; of white people and the protection of white children.</p>
+<p>Those who value whiteness as an existential identity treat this apparent decline as an existential threat. Those arrogant enough to believe that western democratic ideals are culturally&mdash;or, even more preposterously, biologically&mdash;coded into whiteness and will disappear if the white population declines believe that human freedom depends on demographic preservation. White evangelicals&mdash;the ones who <a href="https://www.washingtonpost.com/opinions/2019/01/02/walls-around-trump-are-crumbling-evangelicals-may-be-his-last-resort/?utm_term=.b5b248acddcb" target="_blank" rel="external nofollow" title="constitute">constitute</a> Trump&rsquo;s most unshakeable base&mdash;have been taught to believe that white protestant America represents puritan John Winthrop&rsquo;s &ldquo;city on a hill,&rdquo; the last keeper of the true Christian faith, the &ldquo;moral and religious people&rdquo; without whom John Adams believed the Constitution could not be preserved. As they decline in numbers, so they believe, God himself disappears from the face of the earth until Judgment Day.</p>
+<p>It&rsquo;s easy to dismiss this stuff as the province of cranks. But the challenge is that the same logic has found its way into the Republican Party. To one extent or another, it&rsquo;s entered many conservative parties in the developed world. Conservative parties see themselves facing a much more real demographic challenge than even the imagined fears of the racists they have courted.</p>
+<p>It was not always so. For a long time, an uneasy balance of power was maintained through an alliance of economic progressives with rural conservatives. On the other side were economic traditionalists who, despite favoring preserving the privileges of capital and wealth, were also open to more cosmopolitan social values.</p>
+<p>As left parties slowly embraced&nbsp;<em>both</em>&nbsp;economic&nbsp;<em>and</em> social equality in the west, the artificial advantages accruing especially to poorer whites began to fade away. As right parties used the the left&rsquo;s embrace of social equity to corner the market on disaffected racists, and as the fall of communism saw the elevation of increasingly deregulated capitalism as a virtually unchallenged ideology outside of China, their electoral dominance stripped away the protections upon which the white middle class had long depended.</p>
+<p>The simultaneous economic suffocation of the previously protected white working and middle classes, alongside its&nbsp;<em>perceived&nbsp;</em>threat from immigration and birth rate patterns, served to radicalize increasing numbers. But crucially, it also neatly aligned conservative parties with racists&mdash;and aligned their existentially pessimistic rhetoric as well.</p>
+<p>The Republican Party (conservative parties abroad face similar trends) is now increasingly a whites-only party. Combined with the gradual decline of white demographic majorities in America, this creates an increasingly desperate reality: the party must either expand and adapt, or die. Its racist base won&rsquo;t allow it to expand and adapt. So it has <a href="https://medium.com/@barrymauer.uff/the-new-age-of-eliminationism-in-america-a-conversation-with-david-neiwert-and-barry-mauer-in-ea472876bff6" target="_blank" rel="external nofollow" title="chosen">chosen</a> a third path: eliminationism and totalitarianism.</p>
+<p>Fox News and Donald Trump now consistently blare the bullhorn of &ldquo;invasions&rdquo; from Mexico and elsewhere, <a href="https://www.esquire.com/news-politics/a26840336/president-trump-invasion-new-zealand-manifesto/" target="_blank" rel="external nofollow" title="directly echoing">directly echoing</a> the shooter&rsquo;s manifesto. When neo-nazis <a href="https://www.bbc.com/news/av/world-asia-40911744/white-us-nationalists-chant-you-will-not-replace-us" target="_blank" rel="external nofollow" title="chant">chant</a> &ldquo;You Will Not Replace Us,&rdquo; Trump says that &ldquo;many of them are good people.&rdquo; Operatives like Stephen Miller <a href="https://www.politico.com/story/2018/08/29/stephen-miller-immigration-policy-white-house-trump-799199" target="_blank" rel="external nofollow" title="figure out">figure out</a> how to disincenvitize non-whites from seeking citizenship. Advisors like Steve Bannon <a href="https://www.vanityfair.com/news/2016/11/steve-bannon-racist-comments-silicon-valley-inaccurate" target="_blank" rel="external nofollow" title="respond">respond</a> to the presence of Asian corporate executives by saying that &ldquo;When two-thirds or three-quarters of the C.E.O.s in Silicon Valley are from South Asia or from Asia, I think .&thinsp;.&thinsp;. a country is more than an economy. We&rsquo;re a civic society.&rdquo; The Commerce Secretary <a href="https://www.npr.org/2019/03/14/702185342/commerce-secretary-to-face-lawmakers-in-hearing-on-census-citizenship-question" target="_blank" rel="external nofollow" title="adds questions ">adds questions </a>about citizenship so that immigrants will be afraid to take the census. Non-white immigrants who make the grave mistake of casting a ballot <a href="https://www.nytimes.com/2017/02/10/us/illegal-voting-gets-texas-woman-8-years-in-prison-and-certain-deportation.html" target="_blank" rel="external nofollow" title="get years">get years</a> in prison while Republican politicians who actively steal elections don&rsquo;t get so much as <a href="https://www.washingtonexaminer.com/news/mark-harris-campaign-operative-indicted-in-north-carolina-election-fraud-case" target="_blank" rel="external nofollow" title="an indictment">an indictment</a>. Fox News host Tucker Carlson <a href="https://www.newsweek.com/fox-news-tucker-carlson-claims-immigration-advocates-are-telling-americans-1245946" target="_blank" rel="external nofollow" title="explicitly claims">explicitly claims</a> that Democrats want to replace white people.</p>
+<p>When these legal channels of soft ethnic cleansing don&rsquo;t do the trick, the rhetoric of violence begins to creep in. The President <a href="https://www.cnn.com/2019/03/14/opinions/trumps-thuggish-threat-of-violence-against-his-critics-lockhart/index.html" target="_blank" rel="external nofollow" title="threatens">threatens</a> that his military and police supporters will get tough and ugly if he doesn&rsquo;t get his way. Republican candidates <a href="https://www.huffingtonpost.com/2010/06/16/sharron-angle-floated-2nd_n_614003.html" target="_blank" rel="external nofollow" title="threaten">threaten</a> &ldquo;Second Amendment remedies.&rdquo; Republican candidates pose with assault rifles and brag that they&rsquo;ll (illegally and violently) personally deport immigrants in their own trucks.</p>
+<p>It&rsquo;s no wonder that <a href="https://www.washingtonpost.com/national/in-the-united-states-right-wing-violence-is-on-the-rise/2018/11/25/61f7f24a-deb4-11e8-85df-7a6b4d25cfbb_story.html?utm_term=.c06278e42e7f" target="_blank" rel="external nofollow" title="incidents">incidents</a> of right-wing eliminationist violence are skyrocketing. They&rsquo;re simply acting on the same logic and implied rhetoric of the conservative parties they have come to dominate.</p>
+</body></html>
+  </section>   
+    <div id="media_image-24" class="widget widget_media_image widget-content-bottom"><a href="https://donatenow.networkforgood.org/1407658" target="_blank" rel="noopener noreferrer"><img width="700" height="143"   alt="Support the Washington Monthly and get a FREE subscription" style="max-width: 100%; height: auto;" data-srcset="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/dbdcd490-75cb-11ea-b4e1-008cfa043684.jpg 700w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/dbdcd490-75cb-11ea-b4e1-008cfa043684-300x61.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" data-src="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/dbdcd490-75cb-11ea-b4e1-008cfa043684.jpg" class="image wp-image-116153  attachment-full size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="700" height="143" src="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/dbdcd490-75cb-11ea-b4e1-008cfa043684.jpg" class="image wp-image-116153  attachment-full size-full" alt="Support the Washington Monthly and get a FREE subscription" style="max-width: 100%; height: auto;" srcset="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/dbdcd490-75cb-11ea-b4e1-008cfa043684.jpg 700w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/dbdcd490-75cb-11ea-b4e1-008cfa043684-300x61.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></noscript></a></div>  <div class="author-list">
+  <h4 class="author-name"><a href="https://washingtonmonthly.com/people/david-atkins/">David Atkins</a></h4>
+
+
+<p class="bio">David Atkins is a writer, activist and research professional living in Santa Barbara. He is a contributor to the Washington Monthly's Political Animal and president of The Pollux Group, a qualitative research firm.</p></div>
+  
+<div id="related-posts" class="clear">
+  <h3>Related Posts</h3>
+  <ul>
+        <li>
+      <div class="related-post">
+                  <a rel="external" href="https://washingtonmonthly.com/2020/04/18/hindu-nationalists-are-using-covid-19-to-fuel-a-humanitarian-disaster-in-india/" class="related-thumb">
+            <span>
+              <img width="150" height="150"   alt="Narendra Modi" data-srcset="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Narendramodi-150x150.jpg 150w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Narendramodi-300x300.jpg 300w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Narendramodi-400x400.jpg 400w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Narendramodi-125x125.jpg 125w" sizes="(max-width: 150px) 100vw, 150px" data-src="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Narendramodi-150x150.jpg" class="attachment-150x150 size-150x150 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="150" height="150" src="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Narendramodi-150x150.jpg" class="attachment-150x150 size-150x150 wp-post-image" alt="Narendra Modi" srcset="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Narendramodi-150x150.jpg 150w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Narendramodi-300x300.jpg 300w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Narendramodi-400x400.jpg 400w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Narendramodi-125x125.jpg 125w" sizes="(max-width: 150px) 100vw, 150px" /></noscript><span class="media-credit"  style="max-width: 150px">Wikimedia Commons</span>            </span>
+          </a>
+                <div class="related-content">
+          <a rel="external" href="https://washingtonmonthly.com/2020/04/18/hindu-nationalists-are-using-covid-19-to-fuel-a-humanitarian-disaster-in-india/" class="related-post-title">
+            Hindu Nationalists Are Using COVID-19 to Fuel a Humanitarian Disaster in India          </a>
+          <div class="meta">
+            <div class='author-info'><span class='by'>by</span> <a href="https://washingtonmonthly.com/people/abdul-malik-mujahid/" class="author-name">Abdul  Malik Mujahid </a></div>            
+<div class="byline entry-meta vcard">
+  <time class="updated entry-time"
+        datetime="04-18-2020"
+        itemprop="datePublished">
+
+    April 18, 2020
+    <div class="timestamp">
+              | 6:00 AM          </div>
+
+  </time>
+</div>
+           </div>
+          <div class="related-excerpt">
+            Will the U.S. take notice before it’s too late?          </div>
+        </div>
+      </div>
+    </li>
+        <li>
+      <div class="related-post">
+                  <a rel="external" href="https://washingtonmonthly.com/2020/04/17/is-there-a-soul-of-america-worth-reclaiming/" class="related-thumb">
+            <span>
+              <img width="150" height="150"   alt="Donald Trump, Joe Biden" data-srcset="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/TrumpBiden-150x150.jpg 150w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/TrumpBiden-300x300.jpg 300w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/TrumpBiden-400x400.jpg 400w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/TrumpBiden-125x125.jpg 125w" sizes="(max-width: 150px) 100vw, 150px" data-src="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/TrumpBiden-150x150.jpg" class="attachment-150x150 size-150x150 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="150" height="150" src="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/TrumpBiden-150x150.jpg" class="attachment-150x150 size-150x150 wp-post-image" alt="Donald Trump, Joe Biden" srcset="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/TrumpBiden-150x150.jpg 150w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/TrumpBiden-300x300.jpg 300w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/TrumpBiden-400x400.jpg 400w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/TrumpBiden-125x125.jpg 125w" sizes="(max-width: 150px) 100vw, 150px" /></noscript><span class="media-credit"  style="max-width: 150px">The White House/Flickr, Gage Skidmore/Flickr</span>            </span>
+          </a>
+                <div class="related-content">
+          <a rel="external" href="https://washingtonmonthly.com/2020/04/17/is-there-a-soul-of-america-worth-reclaiming/" class="related-post-title">
+            America's Essence Is On The Ballot This November          </a>
+          <div class="meta">
+            <div class='author-info'><span class='by'>by</span> <a href="https://washingtonmonthly.com/people/nancy-letourneau/" class="author-name">Nancy LeTourneau</a></div>            
+<div class="byline entry-meta vcard">
+  <time class="updated entry-time"
+        datetime="04-17-2020"
+        itemprop="datePublished">
+
+    April 17, 2020
+    <div class="timestamp">
+              | 2:15 PM          </div>
+
+  </time>
+</div>
+           </div>
+          <div class="related-excerpt">
+            Do we want to be a nation that buys into Trump’s vision of hate and division?          </div>
+        </div>
+      </div>
+    </li>
+        <li>
+      <div class="related-post">
+                  <a rel="external" href="https://washingtonmonthly.com/2020/04/17/joe-biden-the-uniter/" class="related-thumb">
+            <span>
+              <img width="150" height="150"   alt="Joe Biden" data-srcset="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/7885558416_c87e640f31_b-150x150.jpg 150w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/7885558416_c87e640f31_b-300x300.jpg 300w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/7885558416_c87e640f31_b-400x400.jpg 400w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/7885558416_c87e640f31_b-125x125.jpg 125w" sizes="(max-width: 150px) 100vw, 150px" data-src="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/7885558416_c87e640f31_b-150x150.jpg" class="attachment-150x150 size-150x150 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="150" height="150" src="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/7885558416_c87e640f31_b-150x150.jpg" class="attachment-150x150 size-150x150 wp-post-image" alt="Joe Biden" srcset="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/7885558416_c87e640f31_b-150x150.jpg 150w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/7885558416_c87e640f31_b-300x300.jpg 300w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/7885558416_c87e640f31_b-400x400.jpg 400w, https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/7885558416_c87e640f31_b-125x125.jpg 125w" sizes="(max-width: 150px) 100vw, 150px" /></noscript><span class="media-credit"  style="max-width: 150px">Kelly Kline</span>            </span>
+          </a>
+                <div class="related-content">
+          <a rel="external" href="https://washingtonmonthly.com/2020/04/17/joe-biden-the-uniter/" class="related-post-title">
+            Joe Biden the Uniter          </a>
+          <div class="meta">
+            <div class='author-info'><span class='by'>by</span> <a href="https://washingtonmonthly.com/people/martin-longman/" class="author-name">Martin Longman</a></div>            
+<div class="byline entry-meta vcard">
+  <time class="updated entry-time"
+        datetime="04-17-2020"
+        itemprop="datePublished">
+
+    April 17, 2020
+    <div class="timestamp">
+              | 10:27 AM          </div>
+
+  </time>
+</div>
+           </div>
+          <div class="related-excerpt">
+            His electability has likely been oversold, but he is more likely to unite the country than any <span class="read-more">...</span><span class="btn">read more</span>          </div>
+        </div>
+      </div>
+    </li>
+      </ul>
+</div>
+
+
+<div id="taboola-below-article-thumbnails"></div>
+  <script type="text/javascript">
+    window._taboola = window._taboola || [];
+    _taboola.push({
+      mode: 'thumbnails-a',
+      container: 'taboola-below-article-thumbnails',
+      placement: 'Below Article Thumbnails',
+      target_type: 'mix'
+    });
+  </script>
+
+  
+<div id="disqus_thread"></div>
+<script>
+var disqus_shortname = 'washingtonmonthly';
+var disqus_config = function () {
+  this.page.identifier = 'the_right_has_mainstreamed_the_rhetoric_of_mass_killers';
+};
+
+(function($) {
+		$(document).ready(function() {
+//    $(window).load(function() {
+        $.ajax({
+            type: "GET",
+            url: "https://" + disqus_shortname + ".disqus.com/embed.js",
+            dataType: "script",
+            cache: true
+          });
+      });
+})(jQuery);
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</article> 
+						
+						
+					</main>
+
+					<div id="sidebar1" class="sidebar m-all t-1of3 d-2of7 last-col cf" role="complementary">
+  
+    <!-- <div class="Xad">
+
+
+</div> -->
+    <div id="media_image-23" class="widget widget_media_image"><a href="https://washingtonmonthly.com/kukulaaward/"><img width="300" height="250"   alt="kukula award" style="max-width: 100%; height: auto;" data-src="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2020/03/kukula-ad.jpg" class="image wp-image-114703  attachment-full size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="300" height="250" src="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2020/03/kukula-ad.jpg" class="image wp-image-114703  attachment-full size-full" alt="kukula award" style="max-width: 100%; height: auto;" /></noscript></a></div><div id="text-5" class="widget widget_text">			<div class="textwidget"></div>
+		</div>    <form id="signup" name="ccoptin" action="https://visitor.r20.constantcontact.com/d.jsp" target="_blank" method="post" _lpchecked="1">      
+
+    <h2>Newsletter</h2>
+    <h3 class="sidebar-text">Get a weekly dose of our best stories in your inbox.</h3>
+    <h3 class="modal-text"><strong>Sign Up<span class='modal-hide'>-</span></strong><span class='modal-hide'>register</span> for our free Weekly Wrap-Up newsletter.</h3>
+    <input type="hidden" name="llr" value="txsrcxcab">
+    <input type="hidden" name="m" value="1102433536755">
+    <input type="hidden" name="p" value="oi">
+    <input type="hidden" name="sit" value="9dsgcs7db">
+    <input type="hidden" name="f" value="4d8ca5c2-2b11-4fa4-a03d-d3c828508ec1">
+    <input type="text" name="ea" size="20" class="text" value="Your email address" onfocus="if (this.value=='Your email address') this.value='';" style="cursor: auto; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAfBJREFUWAntVk1OwkAUZkoDKza4Utm61iP0AqyIDXahN2BjwiHYGU+gizap4QDuegWN7lyCbMSlCQjU7yO0TOlAi6GwgJc0fT/fzPfmzet0crmD7HsFBAvQbrcrw+Gw5fu+AfOYvgylJ4TwCoVCs1ardYTruqfj8fgV5OUMSVVT93VdP9dAzpVvm5wJHZFbg2LQ2pEYOlZ/oiDvwNcsFoseY4PBwMCrhaeCJyKWZU37KOJcYdi27QdhcuuBIb073BvTNL8ln4NeeR6NRi/wxZKQcGurQs5oNhqLshzVTMBewW/LMU3TTNlO0ieTiStjYhUIyi6DAp0xbEdgTt+LE0aCKQw24U4llsCs4ZRJrYopB6RwqnpA1YQ5NGFZ1YQ41Z5S8IQQdP5laEBRJcD4Vj5DEsW2gE6s6g3d/YP/g+BDnT7GNi2qCjTwGd6riBzHaaCEd3Js01vwCPIbmWBRx1nwAN/1ov+/drgFWIlfKpVukyYihtgkXNp4mABK+1GtVr+SBhJDbBIubVw+Cd/TDgKO2DPiN3YUo6y/nDCNEIsqTKH1en2tcwA9FKEItyDi3aIh8Gl1sRrVnSDzNFDJT1bAy5xpOYGn5fP5JuL95ZjMIn1ya7j5dPGfv0A5eAnpZUY3n5jXcoec5J67D9q+VuAPM47D3XaSeL4AAAAASUVORK5CYII=&quot;); background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; background-repeat: no-repeat;">
+    <a href="#" class="submit btn btn--red" name="go" value="Sign Up" onclick="document.getElementById('signup').submit(); return false;">Sign Up</a>
+</form>
+
+    <p></p>
+
+    <div class="sidebar-feed widget">
+	<h4 class="widgettitle">Most Popular</h4>
+	<div class="upw-posts hfeed">
+
+		
+			<article class="post type-post status-publish format-standard hentry">
+				<header>
+					<div class="header-tag title--category header--economy">
+  <a href="https://washingtonmonthly.com/economy/">
+    Economy  </a>
+</div>
+
+					<h4 class="entry-title">
+						<a href="https://washingtonmonthly.com/2020/04/13/heres-how-much-trumps-mishandling-of-covid-will-cost-the-economy/" rel="bookmark">
+							Here&#8217;s How Much Trump’s Mishandling of COVID-19 Will Cost the Economy						</a>
+					</h4>
+
+					<div class='author-info'><span class='by'>by</span> <a href="https://washingtonmonthly.com/people/robert-j-shapiro/" class="author-name">Robert J. Shapiro</a></div>					
+<div class="byline entry-meta vcard">
+  <time class="updated entry-time"
+        datetime="04-13-2020"
+        itemprop="datePublished">
+
+    April 13, 2020
+    <div class="timestamp">
+              | 12:00 PM          </div>
+
+  </time>
+</div>
+ 				</header>
+
+				<div class="entry-summary">
+					<p>
+						<a href="https://washingtonmonthly.com/2020/04/13/heres-how-much-trumps-mishandling-of-covid-will-cost-the-economy/">
+							Using international comparisons, we can calculate the economic impact of an inept response to a pandemic.						</a>
+					</p>
+				</div>
+
+			</article>
+
+		
+			<article class="post type-post status-publish format-standard hentry">
+				<header>
+					<div class="header-tag title--category header--political-animal">
+  <a href="https://washingtonmonthly.com/political-animal/">
+    Political Animal  </a>
+</div>
+
+					<h4 class="entry-title">
+						<a href="https://washingtonmonthly.com/2020/04/16/its-the-white-male-privilege-stupid/" rel="bookmark">
+							It&#8217;s the White Male Privilege, Stupid						</a>
+					</h4>
+
+					<div class='author-info'><span class='by'>by</span> <a href="https://washingtonmonthly.com/people/nancy-letourneau/" class="author-name">Nancy LeTourneau</a></div>					
+<div class="byline entry-meta vcard">
+  <time class="updated entry-time"
+        datetime="04-16-2020"
+        itemprop="datePublished">
+
+    April 16, 2020
+    <div class="timestamp">
+              | 11:34 AM          </div>
+
+  </time>
+</div>
+ 				</header>
+
+				<div class="entry-summary">
+					<p>
+						<a href="https://washingtonmonthly.com/2020/04/16/its-the-white-male-privilege-stupid/">
+							Here's why women are providing more effective leadership during a pandemic.						</a>
+					</p>
+				</div>
+
+			</article>
+
+		
+			<article class="post type-post status-publish format-standard hentry">
+				<header>
+					<div class="header-tag title--category header--political-animal">
+  <a href="https://washingtonmonthly.com/political-animal/">
+    Political Animal  </a>
+</div>
+
+					<h4 class="entry-title">
+						<a href="https://washingtonmonthly.com/2020/04/13/donald-trump-and-his-fake-rebels/" rel="bookmark">
+							Donald Trump And His Fake Rebels						</a>
+					</h4>
+
+					<div class='author-info'><span class='by'>by</span> <a href="https://washingtonmonthly.com/people/martin-longman/" class="author-name">Martin Longman</a></div>					
+<div class="byline entry-meta vcard">
+  <time class="updated entry-time"
+        datetime="04-13-2020"
+        itemprop="datePublished">
+
+    April 13, 2020
+    <div class="timestamp">
+              | 12:11 PM          </div>
+
+  </time>
+</div>
+ 				</header>
+
+				<div class="entry-summary">
+					<p>
+						<a href="https://washingtonmonthly.com/2020/04/13/donald-trump-and-his-fake-rebels/">
+							You can be opposed to authority and devoted to freedom, or you can be an idiot.						</a>
+					</p>
+				</div>
+
+			</article>
+
+		
+			<article class="post type-post status-publish format-standard hentry">
+				<header>
+					<div class="header-tag title--category header--politics">
+  <a href="https://washingtonmonthly.com/politics/">
+    Politics  </a>
+</div>
+
+					<h4 class="entry-title">
+						<a href="https://washingtonmonthly.com/2020/04/14/what-military-families-can-teach-us-about-living-through-covid-19/" rel="bookmark">
+							What Military Families Can Teach Us About Living Through COVID-19						</a>
+					</h4>
+
+					<div class='author-info'><span class='by'>by</span> <a href="https://washingtonmonthly.com/people/sarah-weeldreyer/" class="author-name">Sarah P. Weeldreyer</a></div>					
+<div class="byline entry-meta vcard">
+  <time class="updated entry-time"
+        datetime="04-14-2020"
+        itemprop="datePublished">
+
+    April 14, 2020
+    <div class="timestamp">
+              | 5:00 AM          </div>
+
+  </time>
+</div>
+ 				</header>
+
+				<div class="entry-summary">
+					<p>
+						<a href="https://washingtonmonthly.com/2020/04/14/what-military-families-can-teach-us-about-living-through-covid-19/">
+							They are used to having their entire lives upended.						</a>
+					</p>
+				</div>
+
+			</article>
+
+		
+			<article class="post type-post status-publish format-standard hentry">
+				<header>
+					<div class="header-tag title--category header--political-animal">
+  <a href="https://washingtonmonthly.com/political-animal/">
+    Political Animal  </a>
+</div>
+
+					<h4 class="entry-title">
+						<a href="https://washingtonmonthly.com/2020/04/14/what-do-the-wisconsin-results-mean-for-november/" rel="bookmark">
+							What Do the Wisconsin Results Mean for November?						</a>
+					</h4>
+
+					<div class='author-info'><span class='by'>by</span> <a href="https://washingtonmonthly.com/people/martin-longman/" class="author-name">Martin Longman</a></div>					
+<div class="byline entry-meta vcard">
+  <time class="updated entry-time"
+        datetime="04-14-2020"
+        itemprop="datePublished">
+
+    April 14, 2020
+    <div class="timestamp">
+              | 12:14 PM          </div>
+
+  </time>
+</div>
+ 				</header>
+
+				<div class="entry-summary">
+					<p>
+						<a href="https://washingtonmonthly.com/2020/04/14/what-do-the-wisconsin-results-mean-for-november/">
+							There is plenty of justification for any Republican who wants to panic.						</a>
+					</p>
+				</div>
+
+			</article>
+
+			</div>
+</div>
+
+    <br /><br />
+    <div id="taboola-right-rail-thumbnails"></div>
+    <script type="text/javascript">
+        window._taboola = window._taboola || [];
+        _taboola.push({
+            mode: 'thumbnails-rr',
+            container: 'taboola-right-rail-thumbnails',
+            placement: 'Right Rail Thumbnails',
+            target_type: 'mix'
+        });
+    </script>
+
+    <p></p>
+    <p></p>
+
+    
+    <p></p>
+    <p></p>
+</div>
+
+				</div>
+
+			</div>
+
+</div>
+<!-- End of #container -->
+<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+
+	<div id="inner-footer" class="wrap cf">
+		<a href="https://washingtonmonthly.com" rel="nofollow" id="logo">
+			<img   alt="Washington Monthly" data-src="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/themes/washington-monthly/library/images/wm-logo.svg" class="svg white logo--noreg lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img src="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/themes/washington-monthly/library/images/wm-logo.svg" class="svg white logo--noreg" alt="Washington Monthly"/></noscript>
+		</a>
+
+		<form id="signup" name="ccoptin" action="https://visitor.r20.constantcontact.com/d.jsp" target="_blank" method="post" _lpchecked="1">      
+
+    <h2>Newsletter</h2>
+    <h3 class="sidebar-text">Get a weekly dose of our best stories in your inbox.</h3>
+    <h3 class="modal-text"><strong>Sign Up<span class='modal-hide'>-</span></strong><span class='modal-hide'>register</span> for our free Weekly Wrap-Up newsletter.</h3>
+    <input type="hidden" name="llr" value="txsrcxcab">
+    <input type="hidden" name="m" value="1102433536755">
+    <input type="hidden" name="p" value="oi">
+    <input type="hidden" name="sit" value="9dsgcs7db">
+    <input type="hidden" name="f" value="4d8ca5c2-2b11-4fa4-a03d-d3c828508ec1">
+    <input type="text" name="ea" size="20" class="text" value="Your email address" onfocus="if (this.value=='Your email address') this.value='';" style="cursor: auto; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAfBJREFUWAntVk1OwkAUZkoDKza4Utm61iP0AqyIDXahN2BjwiHYGU+gizap4QDuegWN7lyCbMSlCQjU7yO0TOlAi6GwgJc0fT/fzPfmzet0crmD7HsFBAvQbrcrw+Gw5fu+AfOYvgylJ4TwCoVCs1ardYTruqfj8fgV5OUMSVVT93VdP9dAzpVvm5wJHZFbg2LQ2pEYOlZ/oiDvwNcsFoseY4PBwMCrhaeCJyKWZU37KOJcYdi27QdhcuuBIb073BvTNL8ln4NeeR6NRi/wxZKQcGurQs5oNhqLshzVTMBewW/LMU3TTNlO0ieTiStjYhUIyi6DAp0xbEdgTt+LE0aCKQw24U4llsCs4ZRJrYopB6RwqnpA1YQ5NGFZ1YQ41Z5S8IQQdP5laEBRJcD4Vj5DEsW2gE6s6g3d/YP/g+BDnT7GNi2qCjTwGd6riBzHaaCEd3Js01vwCPIbmWBRx1nwAN/1ov+/drgFWIlfKpVukyYihtgkXNp4mABK+1GtVr+SBhJDbBIubVw+Cd/TDgKO2DPiN3YUo6y/nDCNEIsqTKH1en2tcwA9FKEItyDi3aIh8Gl1sRrVnSDzNFDJT1bAy5xpOYGn5fP5JuL95ZjMIn1ya7j5dPGfv0A5eAnpZUY3n5jXcoec5J67D9q+VuAPM47D3XaSeL4AAAAASUVORK5CYII=&quot;); background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; background-repeat: no-repeat;">
+    <a href="#" class="submit btn btn--red" name="go" value="Sign Up" onclick="document.getElementById('signup').submit(); return false;">Sign Up</a>
+</form>
+		<div class="action-buttons">
+			<!--Donate-->
+
+			<a class="btn btn-donate" href="https://donatenow.networkforgood.org/1407658" target=_"blank"
+				alt="Make tax deductible donation with PayPal">
+				<span class="fa fa-dollar"></span>
+				<div>Donate</div>
+			</a>
+
+			<!-- A/B test for subscribe modal -->
+<a class="btn btn-subscribe" id="btnSubscribe-B">
+    <span class="fa fa-envelope"></span>
+    <div>Subscribe</div>
+</a> 		</div>
+
+		<nav role="navigation">
+			<div class="footer-links cf"><ul id="menu-main-menu" class="nav footer-nav cf"><li id="menu-item-57714" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-57714"><a href="#">The Magazine</a>
+<ul class="sub-menu">
+	<li id="menu-item-57725" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57725"><a href="/magazine/april-may-june-2020/">Current Issue</a></li>
+	<li id="menu-item-6324" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6324"><a href="/archives">Past Issues</a></li>
+	<li id="menu-item-6322" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-6322"><a href="https://washingtonmonthly.com/political-animal/">Political Animal</a></li>
+	<li id="menu-item-6321" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6321"><a href="https://washingtonmonthly.com/politics/">Politics</a></li>
+	<li id="menu-item-103567" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103567"><a href="https://washingtonmonthly.com/2019college-guide">2019 College Guide and Rankings</a></li>
+	<li id="menu-item-6325" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6325"><a href="https://washingtonmonthly.com/economy/">Economy</a></li>
+	<li id="menu-item-6318" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6318"><a href="https://washingtonmonthly.com/education/">Education</a></li>
+	<li id="menu-item-57705" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-57705"><a href="https://washingtonmonthly.com/education/k-12/">K-12</a></li>
+	<li id="menu-item-58036" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-58036"><a href="https://washingtonmonthly.com/education/college-rankings/">Higher Education</a></li>
+	<li id="menu-item-6327" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6327"><a href="https://washingtonmonthly.com/law-and-justice/">Law and Justice</a></li>
+	<li id="menu-item-57726" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-57726"><a href="https://washingtonmonthly.com/health-care/">Health Care</a></li>
+	<li id="menu-item-6328" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6328"><a href="https://washingtonmonthly.com/books/">Books</a></li>
+	<li id="menu-item-57722" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-57722"><a href="#">Group</a>
+	<ul class="sub-menu">
+		<li id="menu-item-6317" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6317"><a href="https://washingtonmonthly.com/government/republic-3-0/">Republic 3.0</a></li>
+	</ul>
+</li>
+	<li id="menu-item-58406" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-58406"><a href="https://washingtonmonthly.com/special-reports/">Special Reports</a></li>
+	<li id="menu-item-57707" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57707"><a href="http://philanthropy.washingtonmonthly.com">Successes of Philanthropy</a></li>
+</ul>
+</li>
+<li id="menu-item-57713" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-57713"><a href="#">Column 2</a>
+<ul class="sub-menu">
+	<li id="menu-item-71886" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71886"><a href="https://washingtonmonthly.com/about">About</a></li>
+	<li id="menu-item-57711" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57711"><a href="https://washingtonmonthly.com/advertising-opportunities/">Advertise</a></li>
+	<li id="menu-item-57712" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57712"><a href="https://washingtonmonthly.com/contact/">Contact</a></li>
+	<li id="menu-item-71887" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71887"><a href="https://washingtonmonthly.com/careers">Careers</a></li>
+	<li id="menu-item-57710" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57710"><a href="https://washingtonmonthly.com/privacy-policy/">Privacy Policy</a></li>
+</ul>
+</li>
+</ul></div>		</nav>
+
+		<p class="source-org copyright">&copy; 2020 Washington Monthly.</p>
+
+	</div>
+
+</footer>
+
+<script>
+	var $ = jQuery;
+</script>
+
+				<!-- Special Message (ABA) Begin -->
+				<style>
+					.special-message-wrapper {
+						background:#C44;
+						color:#FFF;
+						font-size:15px;
+					}
+				</style>
+				
+				<div class="special-message-wrapper" style="display:none;">
+					<div class="special-message-content">
+						<div class="special-message-left">
+							Please support this website by adding us to your whitelist in your ad blocker. Ads are what helps us bring you premium content! Thank you!
+						</div>
+						<div class="special-message-right">
+
+			
+							<span class="dashicons dashicons-no"></span>
+							
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+				</div>
+				
+				<script type="text/javascript">
+
+					jQuery( window ).load( function() {
+						if ( ! document.getElementById( "aba_detector" ) ) {
+							var aba_cookie = readCookie( "Ad_Blocking_Advisor_WP_Plugin" )
+							if ( ! aba_cookie ) {
+                                jQuery(".ad-blocked").show();
+							}
+						}
+					});
+					
+					jQuery( ".special-message-right" ).click(function(){
+						// User clicked close.
+						jQuery( ".special-message-wrapper" ).hide();
+			
+						createCookie( "Ad_Blocking_Advisor_WP_Plugin", "closed", 2 );
+					
+					});
+				</script>
+				<!-- Special Message (ABA) End -->
+			<div id="pum-116150" class="pum pum-overlay pum-theme-106318 pum-theme-transparent-zero-margin-images-only popmake-overlay auto_open click_open" data-popmake="{&quot;id&quot;:116150,&quot;slug&quot;:&quot;april-2020-fundraising&quot;,&quot;theme_id&quot;:106318,&quot;cookies&quot;:[{&quot;event&quot;:&quot;on_popup_open&quot;,&quot;settings&quot;:{&quot;name&quot;:&quot;pum-116150&quot;,&quot;key&quot;:&quot;&quot;,&quot;session&quot;:false,&quot;time&quot;:&quot;1 month&quot;,&quot;path&quot;:&quot;1&quot;}},{&quot;event&quot;:&quot;on_popup_open&quot;,&quot;settings&quot;:{&quot;name&quot;:&quot;wm-april2020-fundraising&quot;,&quot;key&quot;:&quot;&quot;,&quot;session&quot;:false,&quot;time&quot;:&quot;4 hours&quot;,&quot;path&quot;:true}}],&quot;triggers&quot;:[{&quot;type&quot;:&quot;auto_open&quot;,&quot;settings&quot;:{&quot;cookie_name&quot;:[&quot;wm-april2020-fundraising&quot;],&quot;delay&quot;:&quot;500&quot;}},{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie_name&quot;:null}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;small&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;460px&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;center top&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:&quot;1&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;130&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;200&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:&quot;1&quot;,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}" role="dialog" aria-hidden="true" >
+
+	<div id="popmake-116150" class="pum-container popmake theme-106318 pum-responsive pum-responsive-small responsive size-small pum-position-fixed">
+
+				
+
+				
+
+		
+
+				<div class="pum-content popmake-content">
+			<p><a href="https://donatenow.networkforgood.org/1407658" target="_blank" rel="noopener noreferrer"><img   alt="Support the Washington Monthly and get a FREE subscription" width="537" height="700" data-src="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/dc5bd9ca-75cb-11ea-92ba-a0369f103266.jpg" class="aligncenter size-full wp-image-116151 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="aligncenter size-full wp-image-116151" src="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/dc5bd9ca-75cb-11ea-92ba-a0369f103266.jpg" alt="Support the Washington Monthly and get a FREE subscription" width="537" height="700" /></noscript></a></p>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			X            </button>
+		
+	</div>
+
+</div>
+<div id="pum-66671" class="pum pum-overlay pum-theme-66650 pum-theme-default-theme popmake-overlay pum-click-to-close click_open" data-popmake="{&quot;id&quot;:66671,&quot;slug&quot;:&quot;subscribe-button-modal&quot;,&quot;theme_id&quot;:66650,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;cookie_name&quot;:&quot;&quot;,&quot;extra_selectors&quot;:&quot;#btnSubscribe-A, #btnSubscribe-B&quot;,&quot;do_default&quot;:null,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;large&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_max_width&quot;:&quot;900px&quot;,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_height&quot;:&quot;380px&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;100&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;position_bottom&quot;:&quot;Subtitle&quot;,&quot;location&quot;:&quot;center top&quot;,&quot;position_right&quot;:&quot;Subtitle&quot;,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;Subtitle&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width_unit&quot;:false,&quot;custom_height_unit&quot;:false,&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;custom_height_auto&quot;:false,&quot;position_from_trigger&quot;:false,&quot;position_fixed&quot;:false},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;esc_press&quot;:&quot;1&quot;,&quot;overlay_click&quot;:&quot;1&quot;,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}" role="dialog" aria-hidden="true" aria-labelledby="pum_popup_title_66671">
+
+	<div id="popmake-66671" class="pum-container popmake theme-66650 pum-responsive pum-responsive-large responsive size-large">
+
+				
+
+				            <div id="pum_popup_title_66671" class="pum-title popmake-title">
+				Subscribe & Save 33% Off the cover price			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content">
+			<div class="alignleft"><img   alt="Washington Monthly April/May/Jun 2020 Issue" width="300" height="390" data-src="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2017/07/7676dc3a-75ea-11ea-b9be-a0369f103266.jpg" class="aligncenter wp-image-116154 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="aligncenter wp-image-116154" src="https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/2017/07/7676dc3a-75ea-11ea-b9be-a0369f103266.jpg" alt="Washington Monthly April/May/Jun 2020 Issue" width="300" height="390" /></noscript></div>
+<div class="alignleft modal-col-right">
+<p style="text-align: left;"><span class="btn btn--red"><a class="btn btn--primary text--large" href="https://subscribe.pcspublink.com/sub/subscribeformr.aspx?t=JNWB7&amp;p=WAMO" target="_blank" rel="noopener noreferrer">Subscribe Now</a></span></p>
+<p><span class="btn btn--white"><a href="https://subscribe.pcspublink.com/sub/giftformr.aspx?t=JXNWB7&amp;p=WAMO" target="_blank" rel="noopener noreferrer">Gift Subscription</a></span></p>
+<p style="text-align: left;"><span class="btn btn--white"><a href="https://subscribe.pcspublink.com/WeBSIS4/CategoryLogin.aspx?pub=WAMO" target="_blank" rel="noopener noreferrer">Subscription Service</a></span></p>
+<form id="signup" name="ccoptin" action="https://visitor.r20.constantcontact.com/d.jsp" target="_blank" method="post" _lpchecked="1">      
+
+    <h2>Newsletter</h2>
+    <h3 class="sidebar-text">Get a weekly dose of our best stories in your inbox.</h3>
+    <h3 class="modal-text"><strong>Sign Up<span class='modal-hide'>-</span></strong><span class='modal-hide'>register</span> for our free Weekly Wrap-Up newsletter.</h3>
+    <input type="hidden" name="llr" value="txsrcxcab">
+    <input type="hidden" name="m" value="1102433536755">
+    <input type="hidden" name="p" value="oi">
+    <input type="hidden" name="sit" value="9dsgcs7db">
+    <input type="hidden" name="f" value="4d8ca5c2-2b11-4fa4-a03d-d3c828508ec1">
+    <input type="text" name="ea" size="20" class="text" value="Your email address" onfocus="if (this.value=='Your email address') this.value='';" style="cursor: auto; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAfBJREFUWAntVk1OwkAUZkoDKza4Utm61iP0AqyIDXahN2BjwiHYGU+gizap4QDuegWN7lyCbMSlCQjU7yO0TOlAi6GwgJc0fT/fzPfmzet0crmD7HsFBAvQbrcrw+Gw5fu+AfOYvgylJ4TwCoVCs1ardYTruqfj8fgV5OUMSVVT93VdP9dAzpVvm5wJHZFbg2LQ2pEYOlZ/oiDvwNcsFoseY4PBwMCrhaeCJyKWZU37KOJcYdi27QdhcuuBIb073BvTNL8ln4NeeR6NRi/wxZKQcGurQs5oNhqLshzVTMBewW/LMU3TTNlO0ieTiStjYhUIyi6DAp0xbEdgTt+LE0aCKQw24U4llsCs4ZRJrYopB6RwqnpA1YQ5NGFZ1YQ41Z5S8IQQdP5laEBRJcD4Vj5DEsW2gE6s6g3d/YP/g+BDnT7GNi2qCjTwGd6riBzHaaCEd3Js01vwCPIbmWBRx1nwAN/1ov+/drgFWIlfKpVukyYihtgkXNp4mABK+1GtVr+SBhJDbBIubVw+Cd/TDgKO2DPiN3YUo6y/nDCNEIsqTKH1en2tcwA9FKEItyDi3aIh8Gl1sRrVnSDzNFDJT1bAy5xpOYGn5fP5JuL95ZjMIn1ya7j5dPGfv0A5eAnpZUY3n5jXcoec5J67D9q+VuAPM47D3XaSeL4AAAAASUVORK5CYII=&quot;); background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; background-repeat: no-repeat;">
+    <a href="#" class="submit btn btn--red" name="go" value="Sign Up" onclick="document.getElementById('signup').submit(); return false;">Sign Up</a>
+</form>
+</div>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			x            </button>
+		
+	</div>
+
+</div>
+<script type='text/javascript' src='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/plugins/ad-blocking-advisor/js/ads.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/washingtonmonthly.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var qpprFrontData = {"linkData":{"https:\/\/washingtonmonthly.com\/magazine\/septemberoctober-2016\/2016-college-guide\/":[0,0,""]},"siteURL":"https:\/\/washingtonmonthly.com","siteURLq":"https:\/\/washingtonmonthly.com"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/plugins/quick-pagepost-redirect-plugin/js/qppr_frontend_script.min.js'></script>
+<script type='text/javascript'>
+window.lazySizesConfig = window.lazySizesConfig || {};
+
+window.lazySizesConfig.lazyClass    = 'lazyload';
+window.lazySizesConfig.loadingClass = 'lazyloading';
+window.lazySizesConfig.loadedClass  = 'lazyloaded';
+
+lazySizesConfig.loadMode = 1;
+</script>
+<script type='text/javascript' src='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/plugins/wp-smush-pro/app/assets/js/smush-lazy-load.min.js'></script>
+<script type='text/javascript'>
+lazySizes.init();
+</script>
+<script type='text/javascript' src='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-includes/js/jquery/ui/core.min.js'></script>
+<script type='text/javascript' src='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-includes/js/jquery/ui/position.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pum_vars = {"version":"1.8.14","ajaxurl":"https:\/\/washingtonmonthly.com\/wp-admin\/admin-ajax.php","restapi":"https:\/\/washingtonmonthly.com\/wp-json\/pum\/v1","rest_nonce":null,"default_theme":"66650","debug_mode":"","disable_tracking":"","home_url":"\/","message_position":"top","core_sub_forms_enabled":"1","popups":[]};
+var ajaxurl = "https:\/\/washingtonmonthly.com\/wp-admin\/admin-ajax.php";
+var pum_debug_vars = {"debug_mode_enabled":"Popup Maker: Debug Mode Enabled","debug_started_at":"Debug started at:","debug_more_info":"For more information on how to use this information visit https:\/\/docs.wppopupmaker.com\/?utm_medium=js-debug-info&utm_campaign=ContextualHelp&utm_source=browser-console&utm_content=more-info","global_info":"Global Information","localized_vars":"Localized variables","popups_initializing":"Popups Initializing","popups_initialized":"Popups Initialized","single_popup_label":"Popup: #","theme_id":"Theme ID: ","label_method_call":"Method Call:","label_method_args":"Method Arguments:","label_popup_settings":"Settings","label_triggers":"Triggers","label_cookies":"Cookies","label_delay":"Delay:","label_conditions":"Conditions","label_cookie":"Cookie:","label_settings":"Settings:","label_selector":"Selector:","label_mobile_disabled":"Mobile Disabled:","label_tablet_disabled":"Tablet Disabled:","label_event":"Event: %s","triggers":{"click_open":"Click Open","auto_open":"Time Delay \/ Auto Open"},"cookies":{"on_popup_close":"On Popup Close","on_popup_open":"On Popup Open","pum_sub_form_success":"Subscription Form: Successful","pum_sub_form_already_subscribed":"Subscription Form: Already Subscribed","manual":"Manual JavaScript","cf7_form_success":"Contact Form 7 Success"}};
+var pum_sub_vars = {"ajaxurl":"https:\/\/washingtonmonthly.com\/wp-admin\/admin-ajax.php","message_position":"top"};
+var pum_popups = {"pum-116150":{"disable_on_mobile":false,"disable_on_tablet":false,"custom_height_auto":false,"scrollable_content":false,"position_from_trigger":false,"position_fixed":true,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"close_on_overlay_click":false,"close_on_esc_press":true,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"triggers":[{"type":"auto_open","settings":{"cookie_name":["wm-april2020-fundraising"],"delay":"500"}}],"cookies":[{"event":"on_popup_open","settings":{"name":"pum-116150","key":"","session":false,"time":"1 month","path":"1"}},{"event":"on_popup_open","settings":{"name":"wm-april2020-fundraising","key":"","session":false,"time":"4 hours","path":true}}],"theme_id":"106318","size":"small","responsive_min_width":"0%","responsive_max_width":"460px","custom_width":"640px","custom_height":"380px","animation_type":"fade","animation_speed":"130","animation_origin":"center top","location":"center top","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","zindex":"1999999999","close_button_delay":"200","theme_slug":"transparent-zero-margin-images-only","id":116150,"slug":"april-2020-fundraising"},"pum-66671":{"disable_on_mobile":false,"disable_on_tablet":false,"custom_height_auto":false,"scrollable_content":false,"position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"close_on_overlay_click":true,"close_on_esc_press":true,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"triggers":[{"type":"click_open","settings":{"cookie_name":"","extra_selectors":"#btnSubscribe-A, #btnSubscribe-B","do_default":null,"cookie":{"name":null}}}],"theme_id":"66650","size":"large","responsive_min_width":"0%","responsive_max_width":"900px","custom_width":"640px","custom_height":"380px","animation_type":"fade","animation_speed":"100","animation_origin":"center top","location":"center top","position_top":"100","position_bottom":"Subtitle","position_left":"Subtitle","position_right":"Subtitle","zindex":"1999999999","close_button_delay":"0","cookies":[],"theme_slug":"default-theme","id":66671,"slug":"subscribe-button-modal"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/uploads/pum/pum-site-scripts-1.js?defer&#038;generated=1586156031'></script>
+<script type='text/javascript' src='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-includes/js/hoverIntent.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var megamenu = {"timeout":"300","interval":"100"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/plugins/megamenu/js/maxmegamenu.js'></script>
+<script type='text/javascript' src='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-includes/js/comment-reply.min.js'></script>
+<script type='text/javascript' src='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/themes/washington-monthly/library/js/libs/modernizr.custom.min.js'></script>
+<script type='text/javascript' src='//code.jquery.com/ui/1.11.4/jquery-ui.min.js'></script>
+<script type='text/javascript' src='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-content/themes/washington-monthly/build/js/app.min.js?5e9c063f997a8'></script>
+<script type='text/javascript' src='https://kwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com/wp-includes/js/wp-embed.min.js'></script>
+
+<script id="dsq-count-scr" src="https://washingtonmonthly.disqus.com/count.js" async></script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56ebddc96a2efb87"></script>
+
+<script>
+	window.twttr = (function (d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0],
+			t = window.twttr || {};
+		if (d.getElementById(id)) return t;
+		js = d.createElement(s);
+		js.id = id;
+		js.src = "https://platform.twitter.com/widgets.js";
+		fjs.parentNode.insertBefore(js, fjs);
+
+		t._e = [];
+		t.ready = function (f) {
+			t._e.push(f);
+		};
+
+		return t;
+	}(document, "script", "twitter-wjs"));
+</script>
+
+<script>
+	(function (i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function () {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', '/wp-content/themes/washington-monthly/build/js/analytics.min.js', 'ga');
+
+	ga('create', 'UA-77181581-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+<script type="text/javascript">
+	window._taboola = window._taboola || [];
+	_taboola.push({
+		flush: true
+	});
+</script>
+</body>
+
+</html>

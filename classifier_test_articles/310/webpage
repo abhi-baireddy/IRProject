@@ -1,1478 +1,350 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
-  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product# c: http://s.opencalais.com/1/pred/ sys: http://s.opencalais.com/1/type/sys/ lid: http://s.opencalais.com/1/type/lid/ cat: http://s.opencalais.com/1/type/cat/ resolved: http://s.opencalais.com/1/type/er/ cgeo: http://s.opencalais.com/1/type/er/Geo/ eventfact: http://s.opencalais.com/1/type/em/r/ entity: http://s.opencalais.com/1/type/em/e/ cld: http://s.opencalais.com/1/linkeddata/pred/ content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<link href="//www.googletagmanager.com" rel="dns-prefetch" />
+<link href="https://www.google-analytics.com" rel="preconnect" crossorigin />
+<script src="https://www.googletagmanager.com/gtag/js?id=UA-56065110-1" async></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-56065110-1');
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/thesis/skins/k1/css.css" rel="stylesheet" />
+<title>Ukania&#039;s Great Privatization Heist - CounterPunch.org</title>
+<link href="https://www.counterpunch.org/2019/03/20/ukanias-great-privatization-heist/" rel="canonical" />
+<link rel= "icon" type= "image/png" href="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/04/CP-16x16-2T.png">
+<link rel="apple-touch-icon" href="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/04/CP-touch-icon-iphone-6plus-180x180.png">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i,700,700i|Source+Serif+Pro:400,600,700" rel="stylesheet">
 
-<head profile="http://www.w3.org/1999/xhtml/vocab">
-  <script type="text/javascript">
-    var iPad = (navigator.userAgent.match(/(iPad)/) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1));
-  </script>
-      <script type="text/javascript">
-      if (!iPad) {
-        var meta = document.createElement('meta');
-        meta.name = "viewport";
-        meta.content = "width=device-width, initial-scale=1.0";
-        document.getElementsByTagName('head')[0].appendChild(meta);
-      }
-    </script>
-      <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"962df17ac8",applicationID:"409941798"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
-<script>var _sf_startpt=(new Date()).getTime();</script>
-<link rel="amphtml" href="https://thehill.com/homenews/house/489806-house-leaders-hope-to-vote-friday-on-coronavirus-stimulus?amp" />
-<meta property="author" content="Mike Lillis" />
-<link rel="shortcut icon" href="https://thehill.com/favicon.ico" type="image/vnd.microsoft.icon" />
-<meta name="description" content="House Democratic leaders vowed Friday morning that the lower chamber will pass a massive $2 trillion coronavirus relief bill later in the day, despite last-minute hurdles erected by a conservative member that have sent lawmakers scrambling to retu" />
-<meta name="keywords" content="Coronavirus,Kevin McCarthy, Thomas Massie, Donald Trump, Steny Hoyer, Kevin Brady, Nancy Pelosi," />
-<meta name="generator" content="Drupal 7 (http://drupal.org)" />
-<link rel="canonical" href="https://thehill.com/homenews/house/489806-house-leaders-hope-to-vote-friday-on-coronavirus-stimulus" />
-<link rel="shortlink" href="https://thehill.com/node/489806" />
-<meta property="fb:admins" content="581787871" />
-<meta property="fb:admins" content="732535504" />
-<meta property="fb:admins" content="1531470032" />
-<meta property="fb:app_id" content="566538590082898" />
-<meta property="fb:pages" content="7533944086, 2064147433830888" />
-<meta property="og:site_name" content="TheHill" />
+
+<link rel="mask-icon" href="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/safari-pinned-tab.svg" color="#111111">
+<meta name="application-name" content="CounterPunch"/>
+<meta name="msapplication-square70x70logo" content="small.jpg"/>
+<meta name="msapplication-square150x150logo" content="medium.jpg"/>
+<meta name="msapplication-wide310x150logo" content="wide.jpg"/>
+<meta name="msapplication-square310x310logo" content="large.jpg"/>
+<meta name="msapplication-TileColor" content="#ffffff"/>
+
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'xgh0xek',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+<link href="https://www.counterpunch.org/feed/" rel="alternate" type="application/rss+xml" title="CounterPunch.org feed" />
+<link href="https://www.counterpunch.org/xmlrpc.php" rel="pingback" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- This site is optimized with the Yoast SEO Premium plugin v13.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Democratic leaders say $2 trillion stimulus will pass House on Friday" />
-<meta property="og:url" content="https://thehill.com/homenews/house/489806-house-leaders-hope-to-vote-friday-on-coronavirus-stimulus" />
-<meta property="og:description" content="House Democratic leaders vowed Friday morning that the lower chamber will pass a massive $2 trillion coronavirus relief bill later in the day, despite last-minute hurdles erected by a conservative member that have sent lawmakers scrambling to retu" />
-<meta property="og:updated_time" content="2020-03-27T12:41:32-04:00" />
-<meta property="og:image" content="https://thehill.com/sites/default/files/pelosinancy_031220gn7_lead.jpg" />
+<meta property="og:title" content="Ukania&#039;s Great Privatization Heist - CounterPunch.org" />
+<meta property="og:description" content="Margaret Thatcher was very good at telling tall tales. Ukania’s tragedy is that far too many Brits fell for these tales.Probably the biggest of these tales concerned the notion of a share-owning democracy.The idea here was simple, but utterly misguided – sell off the publicly-owned enterprises, and everyone will be able to buy shares in the newly privatized companies. By buying however many shares you want, you will become a part of Thatcher’s great British share-owning democracy. More" />
+<meta property="og:url" content="https://www.counterpunch.org/2019/03/20/ukanias-great-privatization-heist/" />
+<meta property="og:site_name" content="CounterPunch.org" />
+<meta property="article:publisher" content="https://www.facebook.com/CounterPunchOrg/" />
+<meta property="article:section" content="articles 2015" />
+<meta property="article:published_time" content="2019-03-20T09:02:18+00:00" />
+<meta property="article:modified_time" content="2019-03-22T16:17:09+00:00" />
+<meta property="og:updated_time" content="2019-03-22T16:17:09+00:00" />
+<meta property="fb:app_id" content="379846302459811" />
+<meta property="og:image" content="https://www.counterpunch.org/wp-content/dropzone/2019/03/31BE619F-DF9C-4884-8C2C-603CB90D9C2F.png" />
+<meta property="og:image:secure_url" content="https://www.counterpunch.org/wp-content/dropzone/2019/03/31BE619F-DF9C-4884-8C2C-603CB90D9C2F.png" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Democratic leaders say $2 trillion stimulus will pass House on Friday" />
-<meta name="twitter:url" content="https://thehill.com/homenews/house/489806-house-leaders-hope-to-vote-friday-on-coronavirus-stimulus" />
-<meta name="twitter:description" content="House Democratic leaders vowed Friday morning that the lower chamber will pass a massive $2 trillion coronavirus relief bill later in the day, despite last-minute hurdles erected by a conservative" />
-<meta property="article:published_time" content="2020-03-27T08:44:30-04:00" />
-<meta property="article:modified_time" content="2020-03-27T12:41:32-04:00" />
-<meta name="dcterms.title" content="Democratic leaders say $2 trillion stimulus will pass House on Friday" />
-<meta name="dcterms.creator" content="Ian Swanson" />
-<meta name="dcterms.description" content="House Democratic leaders vowed Friday morning that the lower chamber will pass a massive $2 trillion coronavirus relief bill later in the day, despite last-minute hurdles erected by a conservative member that have sent lawmakers scrambling to retu" />
-<meta name="dcterms.date" content="2020-03-27T08:44-04:00" />
-<meta name="dcterms.type" content="Text" />
-<meta name="dcterms.format" content="text/html" />
-<meta name="dcterms.identifier" content="https://thehill.com/homenews/house/489806-house-leaders-hope-to-vote-friday-on-coronavirus-stimulus" />
-<script language="javascript" type="text/javascript" src="/sites/all/modules/thehill/thehill_header_bidding/js/prebid_2_44_2.js" async ></script><script language="javascript" type="text/javascript" src="//www.googletagservices.com/tag/js/gpt.js" async ></script>  <link rel="apple-touch-icon" sizes="512x512" href="/apple-touch-icon-512X512.png">
-  <link rel="apple-touch-icon" sizes="1024x1024" href="/apple-touch-icon-1024X1024.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152X152.png">
-  <link rel="apple-touch-icon" sizes="167x167" href="/apple-touch-icon-167X167.png">
-  <link rel="apple-touch-icon" sizes="1024x1024" href="/apple-touch-icon-1024X1024.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120X120.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180X180.png">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <title>Democratic leaders say $2 trillion stimulus will pass House on Friday | TheHill</title>
-  <link type="text/css" rel="stylesheet" href="//thehill.com/sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" media="all" />
-<link type="text/css" rel="stylesheet" href="//thehill.com/sites/default/files/css/css_GmgcKrlcJ_1AYWSRZ5rjft4ov8QEmSHehJZEiWJRn0I.css" media="all" />
-<link type="text/css" rel="stylesheet" href="//thehill.com/sites/default/files/css/css_se2WJ1rEiCe2g4ST9LNxulYjndHtkkH0k3Iu8roJvXU.css" media="all" />
-<link type="text/css" rel="stylesheet" href="//thehill.com/sites/default/files/css/css_ysMTYayzzCVSL1t9ILuAVfcuG4fEMlpu8hyVoRpuIyA.css" media="all" />
-      <script type="text/javascript">
-      if (!iPad) {
-        var link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = '/sites/all/themes/thehill/css/mobile.css';
-        document.getElementsByTagName('head')[0].appendChild(link);
-      }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "NewsArticle",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://thehill.com/homenews/house/489806-house-leaders-hope-to-vote-friday-on-coronavirus-stimulus"
-      },
-      "headline": "Democratic leaders say $2 trillion stimulus will pass House on Friday | TheHill",
-      "image": "https://thehill.com/sites/default/files/styles/article_full/public/pelosinancy_031220gn7_lead.jpg?itok=mUHtgILG",
-      "datePublished": "2020-03-27T08:44:30-04:00",
-      "dateModified": "2020-03-27T12:41:32-04:00",
-      "author": {
-        "@type": "Person",
-        "name": "Mike Lillis"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "The Hill",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://thehill.com/sites/all/themes/thehill/images/redesign/thehill-logo-big.png"
-        }
-      },
-      "articleSection": "News - House",
-      "description": "House Democratic leaders vowed Friday morning that the lower chamber will pass a massive $2 trill..."
-    }
-  </script>
-  <!-- Krux interchange code (before the first ad call) -->
-  <script class="kxint" data-namespace="thehill" type="text/javascript">
-    window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
-    (function(){
-      function retrieve(n){
-        var k= 'kx'+'thehill_'+n, ls=(function(){
-          try {
-            return window.localStorage;
-          } catch(e) {
-            return null;
-          }
-        })();
-        if (ls) {
-          return ls[k] || '';
-        } else if (navigator.cookieEnabled) {
-          var m = document.cookie.match(k+'=([^;]*)');
-          return (m && unescape(m[1])) || '';
-        } else {
-          return '';
-        }
-      }
-      Krux.user = retrieve('user');
-      Krux.segments = retrieve('segs') ? retrieve('segs').split(',') : [];
-    })();
-  </script>
-  <script type="text/javascript">(function () { var e = false; var c = window; var t = document; function r() { if (!c.frames["__uspapiLocator"]) { if (t.body) { var a = t.body; var e = t.createElement("iframe"); e.style.cssText = "display:none"; e.name = "__uspapiLocator"; a.appendChild(e) } else { setTimeout(r, 5) } } } r(); function p() { var a = arguments; __uspapi.a = __uspapi.a || []; if (!a.length) { return __uspapi.a } else if (a[0] === "ping") { a[2]({ gdprAppliesGlobally: e, cmpLoaded: false }, true) } else { __uspapi.a.push([].slice.apply(a)) } } function l(t) { var r = typeof t.data === "string"; try { var a = r ? JSON.parse(t.data) : t.data; if (a.__cmpCall) { var n = a.__cmpCall; c.__uspapi(n.command, n.parameter, function (a, e) { var c = { __cmpReturn: { returnValue: a, success: e, callId: n.callId } }; t.source.postMessage(r ? JSON.stringify(c) : c, "*") }) } } catch (a) { } } if (typeof __uspapi !== "function") { c.__uspapi = p; __uspapi.msgHandler = l; c.addEventListener("message", l, false) } })();</script>
-<script>
-        window._sp_ccpa = {
-            config: {
-                mmsDomain: "https://cmp.thehill.com",
-                ccpaOrigin: "https://ccpa-service.sp-prod.net",
-                accountId: "1164",
-                getDnsMsgMms: true,
-                alwaysDisplayDns: false,
-            }
-        }
-</script>
-<script src="https://ccpa.sp-prod.net/ccpa.js"></script><script src="https://z.moatads.com/newscomprebidheader135900089283/yi.js"></script>   <script src="//thehill.com/sites/default/files/js/js_UsJCaTKadQHcBxW3InvotRkwEO94ieAIN0hsSq5sbL4.js"></script>
-<script>
-  var PREBID_TIMEOUT = 2000;
+<meta name="twitter:description" content="Margaret Thatcher was very good at telling tall tales. Ukania’s tragedy is that far too many Brits fell for these tales.Probably the biggest of these tales concerned the notion of a share-owning democracy.The idea here was simple, but utterly misguided – sell off the publicly-owned enterprises, and everyone will be able to buy shares in the newly privatized companies. By buying however many shares you want, you will become a part of Thatcher’s great British share-owning democracy. More" />
+<meta name="twitter:title" content="Ukania&#039;s Great Privatization Heist - CounterPunch.org" />
+<meta name="twitter:site" content="@NatCounterPunch" />
+<meta name="twitter:image" content="https://www.counterpunch.org/wp-content/dropzone/2019/03/31BE619F-DF9C-4884-8C2C-603CB90D9C2F.png" />
+<meta name="twitter:creator" content="@NatCounterPunch" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.counterpunch.org/#website","url":"https://www.counterpunch.org/","name":"CounterPunch.org","inLanguage":"en-US","description":"Tells the Facts, Names the Names","potentialAction":[{"@type":"SearchAction","target":"https://www.counterpunch.org/?s={search_term_string}","query-input":"required name=search_term_string"}]},{"@type":"ImageObject","@id":"https://www.counterpunch.org/2019/03/20/ukanias-great-privatization-heist/#primaryimage","inLanguage":"en-US","url":"https://www.counterpunch.org/wp-content/dropzone/2019/03/31BE619F-DF9C-4884-8C2C-603CB90D9C2F.png","width":510,"height":377},{"@type":"WebPage","@id":"https://www.counterpunch.org/2019/03/20/ukanias-great-privatization-heist/#webpage","url":"https://www.counterpunch.org/2019/03/20/ukanias-great-privatization-heist/","name":"Ukania&#039;s Great Privatization Heist - CounterPunch.org","isPartOf":{"@id":"https://www.counterpunch.org/#website"},"inLanguage":"en-US","primaryImageOfPage":{"@id":"https://www.counterpunch.org/2019/03/20/ukanias-great-privatization-heist/#primaryimage"},"datePublished":"2019-03-20T09:02:18+00:00","dateModified":"2019-03-22T16:17:09+00:00","author":{"@id":"https://www.counterpunch.org/#/schema/person/f1f6a7a33e04571e5d02079a430851c1"},"potentialAction":[{"@type":"ReadAction","target":["https://www.counterpunch.org/2019/03/20/ukanias-great-privatization-heist/"]}]},{"@type":["Person"],"@id":"https://www.counterpunch.org/#/schema/person/f1f6a7a33e04571e5d02079a430851c1","name":"Kenneth Surin","description":"<em><strong>Kenneth Surin</strong> teaches at Duke University, North Carolina.\u00a0 He lives in Blacksburg, Virginia.</em>","sameAs":[]}]}</script>
+<!-- / Yoast SEO Premium plugin. -->
 
-  var adUnits = [ {
-          code: 'dfp-ad-leaderboard',
-          mediaTypes: {
-              banner: {
-                  sizes: [[728, 90], [970, 90], [970, 250], [970, 415], [970, 500], [1237, 500]]
-              }
-          },
-          bids: [{
-              bidder: 'openx',
-              params: {
-                  unit: '538678500',
-                  delDomain: 'thehill-d.openx.net'
-              }
-          },{
-              bidder: 'kargo',
-              params: {
-                  placementId: '_qB2XyTfayH'
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317997',
-                  size: [728,90]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317997',
-                  size: [970,90]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317997',
-                  size: [970,250]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317997',
-                  size: [970,415]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317997',
-                  size: [970,500]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317997',
-                  size: [1237,500]
-              }
-          },{
-              bidder: 'appnexus',
-              params: {
-                  placementId: '9114153'
-              }
-          },{
-              bidder: 'rubicon',
-              params: {
-                  accountId: '15654',
-                  siteId: '102722',
-                  zoneId: '482104'
-              }
-          }]
-      },{
-          code: 'dfp-ad-rightrail_bottom',
-          mediaTypes: {
-              banner: {
-                  sizes: [[300, 250], [300, 600], [300, 1050]]
-              }
-          },
-          bids: [{
-              bidder: 'openx',
-              params: {
-                  unit: '538678507',
-                  delDomain: 'thehill-d.openx.net'
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317999',
-                  size: [300,250]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317999',
-                  size: [300,600]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317999',
-                  size: [300,1050]
-              }
-          },{
-              bidder: 'appnexus',
-              params: {
-                  placementId: '9114211'
-              }
-          },{
-              bidder: 'rubicon',
-              params: {
-                  accountId: '15654',
-                  siteId: '102722',
-                  zoneId: '484056'
-              }
-          }]
-      },{
-          code: 'dfp-ad-rightrail_top',
-          mediaTypes: {
-              banner: {
-                  sizes: [[160, 600], [300, 250], [300, 600], [300, 1050]]
-              }
-          },
-          bids: [{
-              bidder: 'openx',
-              params: {
-                  unit: '538678508',
-                  delDomain: 'thehill-d.openx.net'
-              }
-          },{
-              bidder: 'kargo',
-              params: {
-                  placementId: '_w42lbbT7Mr'
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '318000',
-                  size: [300,250]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '318000',
-                  size: [160,600]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '318000',
-                  size: [300,600]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '318000',
-                  size: [300,1050]
-              }
-          },{
-              bidder: 'appnexus',
-              params: {
-                  placementId: '9114213'
-              }
-          },{
-              bidder: 'rubicon',
-              params: {
-                  accountId: '15654',
-                  siteId: '102722',
-                  zoneId: '482104'
-              }
-          }]
-      },{
-          code: 'dfp-ad-incontent_desk_1',
-          mediaTypes: {
-              banner: {
-                  sizes: [[300, 250]]
-              }
-          },
-          bids: [{
-              bidder: 'kargo',
-              params: {
-                  placementId: '_ntekP69gKO'
-              }
-          },{
-              bidder: 'openx',
-              params: {
-                  unit: '538678494',
-                  delDomain: 'thehill-d.openx.net'
-              }
-          },{
-              bidder: 'rubicon',
-              params: {
-                  accountId: '15654',
-                  siteId: '102722',
-                  zoneId: '484056'
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317998',
-                  size: [300,250]
-              }
-          },{
-              bidder: 'appnexus',
-              params: {
-                  placementId: '9114211'
-              }
-          }]
-      },{
-          code: 'dfp-ad-incontent_desk_2',
-          mediaTypes: {
-              banner: {
-                  sizes: [[300, 250]]
-              }
-          },
-          bids: [{
-              bidder: 'openx',
-              params: {
-                  unit: '538678493',
-                  delDomain: 'thehill-d.openx.net'
-              }
-          },{
-              bidder: 'rubicon',
-              params: {
-                  accountId: '15654',
-                  siteId: '102722',
-                  zoneId: '484056'
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '318002',
-                  size: [300,250]
-              }
-          },{
-              bidder: 'appnexus',
-              params: {
-                  placementId: '9114211'
-              }
-          }]
-} ];
-  var videoAdUnit = {
-	code: 'video_preroll',
-	mediaTypes: {
-	    video: {
-	        playerSize: [640, 360],
-	        context: 'instream'
-	    }
-	},
-	bids: [
-		{
-	    	bidder: 'appnexus',
-		    params: {
-		        placementId: 15816860, 
-		        video: {
-		            skipppable: true,
-		            playback_method: ['auto_play_sound_off']
-		        }
-		    }
-		},
-		{            
-      		bidder: 'openx',             
-	      	params: {
-	         	unit: '540707777',
-	         	delDomain: 'thehill-d.openx.net',
-	      	}                      
-   		},
-   		{
-	        bidder: 'ix',
-	        params: {
-	            siteId: '449945',
-	            size: [640, 360],
-	            video: {
-	                mimes: ['video/mp4','video/webm', 'application/javascript'],
-	                minduration: 0,
-	                maxduration: 60,
-	                protocols: [2, 3, 5, 6],
-	                api: [1,2]
-	            }
-	        }
-	    }
-	]
-};
-
-  var pbjs = pbjs || {};
-  pbjs.que = pbjs.que || [];
-
-  pbjs.que.push(function() {
-    pbjs.setConfig({
-        enableSendAllBids: true,
-        sizeConfig: [{
-            mediaQuery: '(min-width: 768px)',
-            sizesSupported: [
-                [728, 90],
-                [970, 90],
-                [300, 250],
-                [160,600],
-                [300,600],
-                [300,1050],
-                [970,250],
-                [970,415],
-                [970,500],
-                [1237,500]
-            ],
-            labels: ["desktop"]
-        }, {
-            mediaQuery: '(min-width: 0px) and (max-width: 767px)',
-            sizesSupported: [
-                [320, 50],
-                [320, 100],
-                [300, 250]
-            ],
-            labels: ["mobile"]
-        }],
-        cache: {
-            url: "https://prebid.adnxs.com/pbc/v1/cache"
-        },
-        userSync: {
-            iframeEnabled: true,
-            filterSettings: {
-                iframe: {
-                    bidders: ['openx'],
-                    filter: 'include'
-                }
-            }
-        }
-    });
-});</script>
-<script>
-var googletag = googletag || {};
-googletag.cmd = googletag.cmd || [];  googletag.cmd.push(function() {
-    googletag.pubads().disableInitialLoad();
-  });
-</script>
-<script>
-  pbjs.que.push(function() {
-    pbjs.addAdUnits(adUnits);
-    pbjs.addAdUnits(videoAdUnit);
-
-    pbjs.bidderSettings = {
-standard: {
-        alwaysUseBid: false,
-        adserverTargeting: [{
-            key: "hb_bidder",
-          	val: function(bidResponse) {
-        	return bidResponse.bidderCode;
-          }
-        }, {
-            key: "hb_adid",
-            val: function(bidResponse) {
-                return bidResponse.adId;
-            }
-        }, 
-        {
-	    key: "hb_cache_id",
-            val: function(bidResponse) {
-		return bidResponse.videoCacheKey;
-	    }
-        },
-        {
-            key: "hb_pb",
-          	val: function(bidResponse) {
-            var cpm = bidResponse.cpm;
-            if (cpm < 3.00) {
-              return (Math.floor(cpm * 100) / 100).toFixed(2);
-            } else if (cpm < 5.00) {
-              return (Math.floor(cpm * 20) / 20).toFixed(2);
-            } else if (cpm < 10.00) {
-              return (Math.floor(cpm * 20) / 20).toFixed(2);
-            } else if (cpm < 25.00) {
-              return (Math.floor(cpm * 2) / 2).toFixed(2);
-            } else {
-              return '25.00';
-        
-            }
-            }
-        }]
-
-      },
-openx: {
-	alwaysUseBid: true,
-	adserverTargeting: [{
-		key: "oxb",
- 		val: function(bidResponse) {
- 			var bid;
- 			if (bidResponse.cpm < 20) {
- 				//Penny Bid Buckets
- 				bid = ((Math.floor(bidResponse.cpm * 100) / 100) * 100).toFixed(0);
- 			} else {
- 				//Twenty dollar bucket
- 				bid = "2000";
- 			}
- 			//Returns creativeSize_bidBucket as the value
- 			return bidResponse.width + "x" + bidResponse.height + "_" + bid;
- 		}
- 	}]
+<link rel='dns-prefetch' href='//a.opmnstr.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='tf-google-webfont-source-sans-pro-css'  href='//fonts.googleapis.com/css?family=Source+Sans+Pro%3Ainherit%2C400&#038;subset=latin%2Clatin-ext&#038;ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tf-google-webfont-dosis-css'  href='//fonts.googleapis.com/css?family=Dosis%3Ainherit%2C400&#038;subset=latin%2Clatin-ext&#038;ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='addtoany-css'  href='https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.15' type='text/css' media='all' />
+<style id='addtoany-inline-css' type='text/css'>
+@media screen and (min-width:1079px){
+.a2a_floating_style.a2a_default_style{display:none;}
 }
-      };
-    pbjs.requestBids({
-      bidsBackHandler: sendAdserverRequest
-    });
-  });
-
-  function sendAdserverRequest() {
-    if (pbjs.adserverRequestSent) return;
-    pbjs.adserverRequestSent = true;
-    var displayAdUnitCodes = [];
-    adUnits.forEach(function(adUnit) {
-      displayAdUnitCodes.push(adUnit.code);
-    });
-
-    googletag.cmd.push(function() {
-      pbjs.que.push(function() {
-        pbjs.setTargetingForGPTAsync(displayAdUnitCodes);
-        googletag.pubads().refresh();
-      });
-    });
-  }
-
-  setTimeout(function() {
-    sendAdserverRequest();
-  }, PREBID_TIMEOUT);
-</script>
-<script>
-googletag.slots = googletag.slots || {};</script>
-<script src="//thehill.com/sites/default/files/js/js_s3L_uC35AiN5EGYY533su-jccnLRp2aKpOnjgPLbo34.js"></script>
-<script src="//thehill.com/sites/default/files/js/js_gbyB-8624b04gFWZoHErKXFxSQxvWm7c4JcfaGYxlCo.js"></script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["rightrail_top"] = googletag.defineSlot("1107919/RightRail_top_300x250_ROS_asynch", [[160, 600], [300, 250], [300, 600], [300, 1050]], "dfp-ad-rightrail_top")
-  .addService(googletag.pubads())
-  .setTargeting("MoatSlotId", "rightrail_top");
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["rightrail_bottom"] = googletag.defineSlot("1107919/RightRail_bottom_300x250_ROS_asynch", [[300, 250], [300, 600], [300, 1050]], "dfp-ad-rightrail_bottom")
-  .addService(googletag.pubads())
-  .setTargeting("MoatSlotId", "rightrail_bottom");
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["leaderboard"] = googletag.defineSlot("1107919/Leaderboard_728x90_ROS_asynch", [[728, 90], [970, 90], [970, 250], [970, 415], [970, 500], [1237, 500]], "dfp-ad-leaderboard")
-  .addService(googletag.pubads())
-  .setTargeting("MoatSlotId", "dfp-ad-leaderboard");
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["incontent_desk_1"] = googletag.defineSlot("1107919/Content_300x250_ROS_asynch", [300, 250], "dfp-ad-incontent_desk_1")
-  .addService(googletag.pubads());
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["incontent_desk_2"] = googletag.defineSlot("1107919/Content_300x250_ROS_2_asynch", [300, 250], "dfp-ad-incontent_desk_2")
-  .addService(googletag.pubads());
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["new_1x1_asynch"] = googletag.defineSlot("1107919/1x1_asynch", [1, 1], "dfp-ad-new_1x1_asynch")
-  .addService(googletag.pubads());
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["1x1_oop"] = googletag.defineSlot("1107919/1x1_asynch", [1, 1], "dfp-ad-1x1_oop")
-  .addService(googletag.pubads());
-googletag.defineOutOfPageSlot("1107919/1x1_asynch", "dfp-ad-1x1_oop-oop")
-  .addService(googletag.pubads());
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-  googletag.pubads().setTargeting("ksg", Krux.segments);
-  googletag.pubads().setTargeting("kuid", Krux.user);
-  var referrer = "";
-  try{referrer = document.referrer; if(document.referrer.length > 0) referrer = new URL(document.referrer).hostname; } catch(e) {console.log(e)}
-  googletag.pubads().setTargeting("referrer", referrer);
-  googletag.pubads().enableSingleRequest();
-  googletag.pubads().collapseEmptyDivs();
-  googletag.pubads().enableVideoAds();
-  googletag.companionAds().setRefreshUnfilledSlots(true);
-  googletag.pubads().setTargeting("Article", "489806");
-  googletag.pubads().setTargeting("Category", "House");
-  googletag.pubads().setTargeting("Section", "News");
-  googletag.pubads().setTargeting("Tarmeta", ["Coronavirus","Kevin McCarthy","Thomas Massie","Donald Trump","Steny Hoyer","Kevin Brady","Nancy Pelosi","house","leaders","hope","to","vote","friday","on","coronavirus","stimulus"]);
-  googletag.pubads().setTargeting("Video", ["Float","True"]);
-  
-  googletag.enableServices();
-});
-</script>
-<script src="//thehill.com/sites/default/files/js/js_4zCT9TF1zdyFo5cHWewfDVwD1ET5wj0vY8l6UcKmAsI.js"></script>
-<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-10188146-1", {"cookieDomain":"auto"});ga("set", "dimension1", "Mike Lillis");ga("send", "pageview");</script>
-<script src="//thehill.com/sites/default/files/js/js_3FimjhHlbAdnqDEb8OwjcqUpxHVyidrcRpUJDQqOYwI.js"></script>
-<script src="//cdn.jwplayer.com/libraries/RSvzxzFp.js"></script>
-<script src="//z.moatads.com/jwplayerplugin0938452/moatplugin.js"></script>
-<script src="//sb.scorecardresearch.com/c2/plugins/streamingtag_plugin_jwplayer.js"></script>
-<script src="//thehill.com/sites/default/files/js/js_F1AP5IICyTi-s6o_2UvaN09ASXpri4fyBkXJ9Or1ow0.js"></script>
-<script src="//thehill.com/sites/default/files/js/js_Wz9V8S-p4fXho8SFba8azOpci3RS15HeZXF6aWuITag.js"></script>
-<script nonce="iXohng2hoh">jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"thehill","theme_token":"NTtXTG0awHzHYiwSUGvFY00_VBE8XL0fiBThrohbQVE","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.effect.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.effect-highlight.min.js":1,"0":1,"1":1,"2":1,"3":1,"4":1,"5":1,"6":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/thehill_rba.js":1,"7":1,"sites\/all\/modules\/thehill\/thehill_misc\/js\/person-links.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/jquery.caroufredsel.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/helper-plugins\/jquery.ba-throttle-debounce.min.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/helper-plugins\/jquery.mousewheel.min.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/helper-plugins\/jquery.touchSwipe.min.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/helper-plugins\/jquery.transit.min.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/thehill_carousel.js":1,"misc\/jquery.cookie.js":1,"sites\/all\/modules\/mostpopular\/js\/fade.js":1,"sites\/all\/modules\/mostpopular\/js\/mostpopular.js":1,"https:\/\/cdn.jwplayer.com\/libraries\/RSvzxzFp.js":1,"https:\/\/z.moatads.com\/jwplayerplugin0938452\/moatplugin.js":1,"https:\/\/sb.scorecardresearch.com\/c2\/plugins\/streamingtag_plugin_jwplayer.js":1,"sites\/all\/modules\/disqus\/disqus.js":1,"sites\/all\/modules\/ajaxblocks\/ajaxblocks.js":1,"sites\/all\/modules\/hide_submit\/js\/hide_submit.js":1,"sites\/all\/themes\/thehill\/js\/jquery.sticky-kit.min.js":1,"sites\/all\/themes\/thehill\/js\/jquery.visible.min.js":1,"sites\/all\/themes\/thehill\/js\/script.js":1,"sites\/all\/themes\/thehill\/js\/dfp.gpt.logger.override.js":1,"sites\/all\/themes\/thehill\/js\/overriden\/mostpopular.js":1,"sites\/all\/themes\/thehill\/js\/opa.js":1,"sites\/all\/themes\/thehill\/js\/th_jwplayer.js":1,"8":1,"9":1,"10":1,"11":1,"12":1,"13":1,"14":1,"15":1,"16":1,"17":1,"18":1,"19":1,"20":1,"21":1,"22":1,"23":1,"24":1,"25":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/menu_attach_block\/menu_attach_block.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/chartbeat\/chartbeat.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/thehill\/thehill_misc\/css\/person-links.css":1,"sites\/all\/modules\/mostpopular\/css\/mostpopular-basic.css":1,"sites\/all\/modules\/mostpopular\/css\/mostpopular-full.css":1,"sites\/all\/modules\/hide_submit\/css\/hide_submit.css":1,"sites\/all\/themes\/thehill\/system.menus.css":1,"sites\/all\/themes\/thehill\/css\/normalize.css":1,"sites\/all\/themes\/thehill\/css\/wireframes.css":1,"sites\/all\/themes\/thehill\/css\/layouts\/responsive-sidebars.css":1,"sites\/all\/themes\/thehill\/css\/page-backgrounds.css":1,"sites\/all\/themes\/thehill\/css\/tabs.css":1,"sites\/all\/themes\/thehill\/css\/pages.css":1,"sites\/all\/themes\/thehill\/css\/blocks.css":1,"sites\/all\/themes\/thehill\/css\/navigation.css":1,"sites\/all\/themes\/thehill\/css\/views-styles.css":1,"sites\/all\/themes\/thehill\/css\/nodes.css":1,"sites\/all\/themes\/thehill\/css\/comments.css":1,"sites\/all\/themes\/thehill\/css\/forms.css":1,"sites\/all\/themes\/thehill\/css\/fields.css":1,"sites\/all\/themes\/thehill\/css\/print.css":1,"sites\/all\/themes\/thehill\/css\/articles-teaser.css":1,"sites\/all\/themes\/thehill\/css\/font-awesome.min.css":1,"sites\/all\/themes\/thehill\/css\/opa.css":1,"sites\/all\/themes\/thehill\/css\/opa-fix.css":1,"sites\/all\/themes\/thehill\/css\/hilltv.css":1,"sites\/all\/themes\/thehill\/css\/th_jwplayer.css":1}},"chartbeat":{"uid":3100,"domain":"thehill.com","useCanonical":true,"noCookies":false},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"ad_timeout":"25000","hide_submit":{"hide_submit_status":true,"hide_submit_method":"disable","hide_submit_css":"hide-submit-disable","hide_submit_abtext":"","hide_submit_atext":"","hide_submit_hide_css":"hide-submit-processing","hide_submit_hide_text":"Processing...","hide_submit_indicator_style":"expand-left","hide_submit_spinner_color":"#000","hide_submit_spinner_lines":12,"hide_submit_hide_fx":0,"hide_submit_reset_time":0},"rba":{"start":1431367200000,"end":1431378900000,"expiration":"43200","ad_tag":"road_block_ad","timer":15000,"url":"\/rba_page"},"urlIsAjaxTrusted":{"\/homenews\/house\/489806-house-leaders-hope-to-vote-friday-on-coronavirus-stimulus":true},"thehill_mostpopular":{"sid":"1","iid":"1","tag":""},"thehill_carousel":{"carousels":{"#thehill-mostpopular-block .mostpopular--content ul":{"auto":false,"infinite":false,"circular":true,"next":"#most_popular_next","mousewheel":false,"swipe":{"onMouse":true,"onTouch":true},"items":6,"mostpopular":true,"direction":"up","scroll":{"items":6,"duration":1000,"timeoutDuration":2000}}}},"mostpopular":{"url":"\/mostpopular\/ajax"},"disqus":{"domain":"thehill-v4","url":"https:\/\/thehill.com\/homenews\/house\/489806-house-leaders-hope-to-vote-friday-on-coronavirus-stimulus","title":"Democratic leaders say $2 trillion stimulus will pass House on Friday","identifier":"node\/489806","developer":1,"language":"en","sso":{"name":"TheHill","url":"\/user\/login?destination=disqus\/closewindow","logout":"\/user\/logout?destination=node\/489806","width":800,"height":600,"button":"https:\/\/thehill.com\/sites\/all\/themes\/thehill\/images\/print_logo.png","icon":"https:\/\/thehill.com\/favicon.ico"},"api_key":"MU2vV9R8hBF3W9kH0Zo2HKkiLqQY5ahOlvro6pPtNeOnnI6dQLfkIjd0OgRl9W6x","remote_auth_s3":"W10= d644d2229141202447618194cb1a1e4bfcbd4115 1587198850"},"ajaxblocks":"blocks=mostpopular-1\/views-articles-articles_just_in\u0026path=node"});</script>
-  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e8f5d7e1bc8befe"></script>
-  <meta http-equiv="refresh" content="2700"/><meta name="twitter:widgets:csp" content="on">
-<!-- iOS -->
- <meta name="apple-itunes-app" content="app-id=396640962">
-<!-- end iOS -->
-<!-- START Nativo -->
-<script type="text/javascript" src="//s.ntv.io/serve/load.js" async></script>
-<!-- END Nativo -->
-<!-- NDN Start -->
-<!-- script type="text/javascript" src="//launch.newsinc.com/js/embed.js"></script -->
-<!-- NDN End -->
-<script>window['moatYieldReady']=function(){return window.moatPrebidApi.setMoatTargetingForAllSlots()};</script>  <!--[if lt IE 9]>
-    <script>
-      document.createElement('header');
-      document.createElement('nav');
-      document.createElement('section');
-      document.createElement('article');
-      document.createElement('aside');
-      document.createElement('footer');
-    </script>
-  <![endif]-->
-  <!-- Krux ControlTag for "The Hill" -->
-  <script class="kxct" data-id="sf90wt710" data-timing="async" data-version="3.0" type="text/javascript">
-    window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
-    (function()
-      { var k=document.createElement('script');k.type='text/javascript';k.async=true; k.src=(location.protocol==='https:'?'https:':'http:')+'//cdn.krxd.net/controltag/sf90wt710.js'; var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s); }
-    ());
-  </script>
-</head>
-<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-489806 node-type-article featured-other--articles section-homenews smaller-size" >
-  <div id="skip-link">
-    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
-  </div>
-            <div class="region region-before-header">
-    <div id="block-system-main-menu" class="block block-system block-menu first last odd" role="navigation">
-  <div class="expand-menu-header">
-    <span class="expand-menu-close"></span>
-    <a href="/"></a>
-  </div>
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/signup" class="menu__link menu__link">sign up for newsletters</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/" class="menu__link menu__link">Home</a></li>
-<li class="menu__item is-active-trail is-expanded menu__item is-active-trail is-expanded expanded active-trail depth-1"><a href="/" class="menu__link is-active-trail menu__link is-active-trail active-trail">News</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/homenews/senate" title="Senate" name="Senate" class="menu__link menu__link">Senate</a></li>
-<li class="menu__item is-active-trail is-leaf menu__item is-active-trail is-leaf leaf active-trail depth-2"><a href="/homenews/house" class="menu__link is-active-trail menu__link is-active-trail active-trail">House</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/campaign" class="menu__link menu__link">Campaign</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/administration" class="menu__link menu__link">Administration</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/business-a-lobbying" class="menu__link menu__link">Business</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation" class="menu__link menu__link">Regulation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/media" class="menu__link menu__link">Media</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/blog-briefing-room" class="menu__link menu__link">Briefing Room</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/state-watch" class="menu__link menu__link">State Watch</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/latino" class="menu__link menu__link">Latino</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/ballot-box/polls" class="menu__link menu__link">Polls</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/1230-report" class="menu__link menu__link">12:30 Report</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/coronavirus-report" class="menu__link menu__link">Coronavirus Report</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/politics-101" class="menu__link menu__link">Politics 101</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/floor-action" class="menu__link menu__link">Floor Action</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/in-the-know" class="menu__link menu__link">In The Know</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/homenews/sunday-talk-shows" class="menu__link menu__link">Sunday Talk Shows</a></li>
-</ul></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/policy" class="menu__link menu__link">Policy</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/policy/defense" class="menu__link menu__link">Defense</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/energy-environment" class="menu__link menu__link">Energy &amp; Environment</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/finance" class="menu__link menu__link">Finance</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/healthcare" class="menu__link menu__link">Healthcare</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/technology" class="menu__link menu__link">Technology</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/transportation" class="menu__link menu__link">Transportation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/international" class="menu__link menu__link">International</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/cybersecurity" class="menu__link menu__link">Cybersecurity</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/policy/national-security" class="menu__link menu__link">National Security</a></li>
-</ul></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/regulation" class="menu__link menu__link">Regulation</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/regulation/defense" class="menu__link menu__link">Defense</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/energy-environment" class="menu__link menu__link">Energy &amp; Environment</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/finance" class="menu__link menu__link">Finance</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/healthcare" class="menu__link menu__link">Healthcare</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/technology" class="menu__link menu__link">Technology</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/transportation" class="menu__link menu__link">Transportation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/international" class="menu__link menu__link">International</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/cybersecurity" class="menu__link menu__link">Cybersecurity</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/regulation/national-security" class="menu__link menu__link">National Security</a></li>
-</ul></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/opinion" class="menu__link menu__link">Opinion</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/opinion" class="menu__link menu__link">Contributors</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/opinion/columnists" class="menu__link menu__link">Columnists</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/contributor-application-form" class="menu__link menu__link">Become a contributor</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/blogs/congress-blog" class="menu__link menu__link">Congress Blog</a></li>
-</ul></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/hilltv" class="menu__link menu__link">Hill.TV</a></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1 left"><a href="/video" class="menu__link menu__link left">Video</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/video/campaign" class="menu__link menu__link">Campaign</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/defense" class="menu__link menu__link">Defense</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/energy-environment" class="menu__link menu__link">Energy &amp; Environment</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/finance" class="menu__link menu__link">Finance</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/healthcare" class="menu__link menu__link">Healthcare</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/technology" class="menu__link menu__link">Technology</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/transportation" class="menu__link menu__link">Transportation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/international" class="menu__link menu__link">International</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/cybersecurity" class="menu__link menu__link">Cybersecurity</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/national-security" class="menu__link menu__link">National Security</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/sunday-shows" class="menu__link menu__link">Sunday Shows</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/events" class="menu__link menu__link">Events</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/video/lawmaker-interviews" class="menu__link menu__link">Lawmaker Interviews</a></li>
-</ul></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/podcasts" class="menu__link menu__link">Podcasts</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/podcasts/hillcast" class="menu__link menu__link">HillCast</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/podcasts/history-cast" class="menu__link menu__link">HistoryCast</a></li>
-</ul></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1 left single"><a href="/events" class="menu__link menu__link single left">Events</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/events" class="menu__link menu__link">Upcoming Events</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/events/past" class="menu__link menu__link">Past Events</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/events/about" class="menu__link menu__link">About</a></li>
-</ul></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/people" class="menu__link menu__link">People</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/homenews/campaign" class="menu__link menu__link">Campaign</a></li>
-</ul>  <div id="expand-menu-social-share">
-    <div class="expand-menu-headline">Follow Us</div>
-    <a href="http://www.facebook.com/TheHill" class="social-share-facebook" target="_blank">Facebook</a>&nbsp;<a href="https://twitter.com/intent/follow?screen_name=thehill" class="social-share-twitter-follow" target="_blank">Twitter</a>&nbsp;<a href="https://www.linkedin.com/company/the-hill" class="social-share-linkedin" target="_blank">LinkedIn</a>&nbsp;  </div>
-  <div id="expand-menu-footer">
-    <div class="expand-menu-headline"><a href="/">TheHill.com</a></div>
-    &copy; 1996-2020 News Communication
-    <ul class="links"><li class="menu-3055 first"><a href="/terms-and-conditions">Terms &amp; Conditions</a></li>
-<li class="menu-3054 last"><a href="/privacy-policy">Privacy Policy</a></li>
-</ul>  </div>
-</div>
-  </div>
-    <header id="header" role="banner" >
-    <div>
-      <div class="header_blocks">
-                      </div>
-      <div class="clear"></div>
-      <div id="navigation">
-        <nav id="main-menu" role="navigation">
-          <div class="expanded-menu"></div>
-                        <div class="region region-navigation">
-    <div id="block-menu-menu-top-menu" class="block block-menu first last odd" role="navigation">
-
-        <h2 class="block__title block-title">Top menu</h2>
-    
-  <div class="menu-wrapper"><ul class="menu"><li class="menu__item is-active-trail is-expanded menu__item is-active-trail is-expanded first expanded active-trail depth-1"><a href="/" class="menu__link is-active-trail menu__link is-active-trail active-trail">News</a><div class="menu-wrapper"><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/homenews/senate" class="menu__link menu__link">Senate</a></li>
-<li class="menu__item is-active-trail is-leaf menu__item is-active-trail is-leaf leaf active-trail depth-2"><a href="/homenews/house" class="menu__link is-active-trail menu__link is-active-trail active-trail">House</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/administration" class="menu__link menu__link">Administration</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/campaign" class="menu__link menu__link">Campaign</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/business-a-lobbying" class="menu__link menu__link">Business</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation" class="menu__link menu__link">Regulation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/media" class="menu__link menu__link">Media</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/blog-briefing-room" class="menu__link menu__link">Briefing Room</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/state-watch" class="menu__link menu__link">State Watch</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/latino" class="menu__link menu__link">Latino</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/ballot-box/polls" class="menu__link menu__link">Polls</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/1230-report" class="menu__link menu__link">12:30 Report</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/coronavirus-report" class="menu__link menu__link">Coronavirus Report</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/politics-101" class="menu__link menu__link">Politics 101</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/floor-action" class="menu__link menu__link">Floor Action</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/in-the-know" class="menu__link menu__link">In The Know</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/homenews/sunday-talk-shows" class="menu__link menu__link">Sunday Talk Shows</a></li>
-</ul></div></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/policy" class="menu__link menu__link">Policy</a><div class="menu-wrapper"><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/policy/defense" class="menu__link menu__link">Defense</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/energy-environment" class="menu__link menu__link">Energy &amp; Environment</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/finance" class="menu__link menu__link">Finance</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/healthcare" class="menu__link menu__link">Healthcare</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/technology" class="menu__link menu__link">Technology</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/transportation" class="menu__link menu__link">Transportation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/international" class="menu__link menu__link">International</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/cybersecurity" class="menu__link menu__link">Cybersecurity</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/policy/national-security" class="menu__link menu__link">National Security</a></li>
-</ul></div></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/opinion" class="menu__link menu__link">Opinion</a><div class="menu-wrapper opa-opinion-menu"><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/opinion/columnists" class="menu__link menu__link">Columnists</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/blogs/congress-blog" class="menu__link menu__link">Congress Blog</a></li>
-</ul><div class="opa-opinion-submenu">
-            <a href="/opinion" class="opa-opinion-submenu-all">All Contributors</a>
-            <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/opinion/campaign" class="menu__link menu__link">- Campaign</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/civil-rights" class="menu__link menu__link">- Civil Rights</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/criminal-justice" class="menu__link menu__link">- Criminal Justice</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/education" class="menu__link menu__link">- Education</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/energy-environment" class="menu__link menu__link">- Energy &amp; Environment</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/finance" class="menu__link menu__link">- Finance</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/healthcare" class="menu__link menu__link">- Healthcare</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/immigration" class="menu__link menu__link">- Immigration</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/international" class="menu__link menu__link">- International</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/judiciary" class="menu__link menu__link">- Judiciary</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/technology" class="menu__link menu__link">- Technology</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/white-house" class="menu__link menu__link">- White House</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/contributor-application-form" class="menu__link menu__link">- Become A Contributor</a></li>
-</ul>
-            </div></div></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/events" class="menu__link menu__link">Events</a><div class="menu-wrapper"><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/events" class="menu__link menu__link">Upcoming Events</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/events/about" class="menu__link menu__link">About</a></li>
-</ul></div></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/resources/classifieds/employer" class="menu__link menu__link">Jobs</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/hilltv" class="menu__link menu__link hill-tv">HILL.TV</a></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded black depth-1"><a href="/changing-america" class="menu__link menu__link">Changing America </a><div class="menu-wrapper"><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/changing-america/respect" class="menu__link menu__link">Respect</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/changing-america/sustainability" class="menu__link menu__link">Sustainability</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/changing-america/enrichment" class="menu__link menu__link">Enrichment</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/changing-america/resilience" class="menu__link menu__link">Resilience</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/changing-america/well-being" class="menu__link menu__link">Well-Being</a></li>
-</ul></div></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf covid-19 depth-1"><a href="/coronavirus-report" class="menu__link menu__link">Coronavirus Report</a></li>
-</ul></div>
-</div>
-  </div>
-                                  <div class="region region-controls">
-    <div id="block-social-share-social-share" class="block block-social-share first odd">
-
-      
-  <a href="http://www.facebook.com/TheHill" class="social-share-facebook" target="_blank">Facebook</a>&nbsp;<a href="https://twitter.com/intent/follow?screen_name=thehill" class="social-share-twitter-follow" target="_blank">Twitter</a>&nbsp;<a href="https://www.linkedin.com/company/the-hill" class="social-share-linkedin" target="_blank">LinkedIn</a>&nbsp;
-</div>
-<div id="block-search-form" class="block block-search last even" role="search">
-
-      
-  <form action="/homenews/house/489806-house-leaders-hope-to-vote-friday-on-coronavirus-stimulus" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
-      <h2 class="element-invisible">Search form</h2>
-    <div class="form-item form-type-textfield form-item-search-block-form">
-  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
- <input title="Enter the terms you wish to search for." placeholder="TYPE TO SEARCH" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
-</div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-KmG3yvzq8N7XWZ2g0fx60qLmqI2eICMrzVicw9Jf2Yk" />
-<input type="hidden" name="form_id" value="search_block_form" />
-</div>
-</div></form>
-</div>
-  </div>
-                  </nav>  
-      </div>
-    </div>
-  </header><div id="page" class="page-new-layout responsive">
-  <div id="main" class="scrolling-content ">
-      <div class="region region-highlighted">
-    <div id="block-term-queue-0" class="block block-term-queue first last odd">
-
-        <h2 class="block__title block-title">TRENDING:</h2>
-    
-  <ul class="term-queue-links"><li class="0 first"><a href="/social-tags/coronavirus">Coronavirus</a></li>
-<li class="1"><a href="/person/donald-trump">Donald Trump</a></li>
-<li class="2"><a href="/person/anthony-fauci">Anthony Fauci</a></li>
-<li class="3 last"><a href="/person/joe-biden">Joe Biden</a></li>
-</ul>
-</div>
-  </div>
-      <div class="region region-top-page">
-    <div id="block-dfp-leaderboard" class="block block-dfp first last odd">
-
-      
-  <div id="dfp-ad-leaderboard-wrapper" class="dfp-tag-wrapper"><!-- dfp_tag.tpl.php -->
-<a href="#" class="hide_overlay"></a>
-<div  id="dfp-ad-leaderboard" class="dfp-inner">
-  <script type="text/javascript">
-    googletag.cmd.push(function() {
-      googletag.display("dfp-ad-leaderboard");
-    });
-  </script>
-</div>
-
-</div>
-</div>
-  </div>
-        <div class="content-item">
-              <div class="left-sidebar">
-        <a href="/" title="TheHill" rel="home" alt="TheHill.com">
-          <img class="logo" alt="TheHill.com" src="/sites/all/themes/thehill/images/redesign/thehill-logo-big.png" />
-        </a>
-      </div>
-      <div class="content-wrapper title">
-                          <h1 class="title" id="page-title">Democratic leaders say $2 trillion stimulus will pass House on Friday</h1>
-                <div class="submitted-wrp">
-    <span class="submitted-by">
-    By <a href="/author/mike-lillis">Mike Lillis</a> - <span class="submitted-date">03/27/20 08:44 AM EDT</span>
-  </span>
-  <a href="/homenews/house/489806-house-leaders-hope-to-vote-friday-on-coronavirus-stimulus#bottom-story-socials" class="disqus-comments" data-disqus-identifier="node/489806"></a>  </div>
-      </div>
-      <div class="content-wrapper social">
-        <div class="blogs-social-wrp">
-  <span  data-behavior="social-share-count" data-href="https://thehill.com/homenews/house/489806-house-leaders-hope-to-vote-friday-on-coronavirus-stimulus" class="social-share-count social-share-count-489806" data-nid="489806" ></span>
-  <div class="addthis_inline_share_toolbox_ru82"></div>
-<div class="share-additional">
-  <div class="share-linkedin">
-    <script>
-      ;(function(){
-        var linkedinScriptEl = document.querySelector('script[src="//platform.linkedin.com/in.js"]');
-        if (linkedinScriptEl == null) {
-          var shareLinkedinEl = document.querySelector('.share-linkedin');
-          var scriptEl = document.createElement('script');
-          scriptEl.src = "//platform.linkedin.com/in.js";
-          scriptEl.async = true;
-          scriptEl.innerHTML = " lang: en_US";
-          shareLinkedinEl.appendChild(scriptEl);
-        }
-      })();
-    </script>
-    <script type="IN/Share"></script>
-  </div>
-</div>
-<div class="share">
-  <a href="mailto:?subject=TheHill.com%3A%20Democratic%20leaders%20say%20%242%20trillion%20stimulus%20will%20pass%20House%20on%20Friday&amp;body=From%20TheHill.com%3A%20%0A%0A%0A%0Ahttps%3A//thehill.com/homenews/house/489806-house-leaders-hope-to-vote-friday-on-coronavirus-stimulus" class="email">&nbsp</a>  </div>
-</div>
-              </div>
-      <div class="left-sidebar-2">
-          <div class="region region-column-left">
-    <div id="block-views-articles-articles-just-in" class="block block-views first odd">
-
-      
-  <div id="block-views-articles-articles_just_in-ajax-content" class="ajaxblocks-wrapper"></div>
-</div>
-<div id="block-block-50" class="block block-block even">
-
-      
-  <div style="width:215px; height:200px; padding:0; margin:0;"></div>
-</div>
-<div id="block-thehill-blocks-taboola-right-rail" class="block block-thehill-blocks odd">
-
-      
-  <div id="taboola-right-rail-489806" class="taboola-right-rail" data-behavior="taboolarightrail"></div>
-</div>
-<div id="block-block-52" class="block block-block last even">
-
-      
-  <!-- Outbrain: Desktop Left Column -->
-<div class="OUTBRAIN" data-src="https://thehill.com/homenews/house/489806-house-leaders-hope-to-vote-friday-on-coronavirus-stimulus" data-widget-id="SB_1" data-ob-template="The Hill"></div> 
-</div>
-  </div>
-        <div class="left-sidebar-space">&nbsp;</div>
-              </div>
-      <div class="content-wrapper">
-            <div id="content" class="column">
-                                                  
-
-
-<article class="node-489806 node node-article view-mode-full clearfix" about="/homenews/house/489806-house-leaders-hope-to-vote-friday-on-coronavirus-stimulus" typeof="sioc:Item foaf:Document">
-    <header>
-    <span property="dc:title" content="Democratic leaders say $2 trillion stimulus will pass House on Friday" class="rdf-meta element-hidden"></span>      </header>
-      <div class="content-with-sidebar-wrp">
-    <div class="content-wrp">
-      <div class="player-container" style="position:relative;">
-  <div class="player-position">
-    <a href="#" class="close-btn"></a>
-    <div id="489806-player"></div>
-    <div id="jwplayer-unmute-button">
-      <div class="hilltv-video-unmute-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" focusable="false"><path d="M116.4,42.8v154.5c0,2.8-1.7,3.6-3.8,1.7l-54.1-48.1H28.9c-2.8,0-5.2-2.3-5.2-5.2V94.2c0-2.8,2.3-5.2,5.2-5.2h29.6l54.1-48.1C114.6,39.1,116.4,39.9,116.4,42.8z M212.3,96.4l-14.6-14.6l-23.6,23.6l-23.6-23.6l-14.6,14.6l23.6,23.6l-23.6,23.6l14.6,14.6l23.6-23.6l23.6,23.6l14.6-14.6L188.7,120L212.3,96.4z"></path></svg>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>House Democratic leaders vowed Friday morning that the lower chamber will pass a massive $2 trillion coronavirus relief bill later in the day, despite last-minute hurdles erected by a conservative member that have sent lawmakers scrambling to return to Washington.</p><p>"We're going to pass it today," Speaker <span class="rollover-people" data-behavior="rolloverpeople"><a class="rollover-people-link" data-nid="187954" href="/people/nancy-pelosi">Nancy Pelosi</a><span class="rollover-people-block" id="rollover-people-187954"><span class="rollover-block"><span><img typeof="foaf:Image" src="/sites/default/files/styles/thumb_100/public/pelosinancy_111317cf_lead.jpg?itok=IEFj6CaK" width="100" height="100" alt="" /><a class="name" href="/people/nancy-pelosi">Nancy Pelosi</a><a class="people-articles" href="/policy/healthcare/493452-lady-gaga-calls-who-chief-a-superstar">Lady Gaga calls WHO chief a 'superstar' </a> <a class="people-articles" href="/homenews/house/493449-mccarthy-says-he-supports-incorporating-hospital-funding-into-small-business">McCarthy says he supports incorporating hospital funding into small business aid package</a> <a class="people-articles" href="/homenews/administration/493443-trump-criticizes-pelosi-over-stalemate-on-small-business-loan-funds">Trump criticizes Pelosi over stalemate on small business loan funds</a> <a class="more" href="/people/nancy-pelosi">MORE<span></span></a></span></span></span></span> (D-Calif.) said as she entered the Capitol shortly before 9 a.m.</p><p>House leaders had sought to pass the enormous stimulus package, approved by the Senate Wednesday night, without having to call the full chamber back to Washington amid fears of travel and crowding. They intended to do so by using a voice vote, a procedure that would allow some members to debate the legislation — and lodge their concerns — without the full House reconvening.</p><div id="dfp-ad-incontent_desk_1-wrapper" class="dfp-tag-wrapper wrapper"><div id="dfp-ad-incontent_desk_1" class="dfp-tag-wrapper"><span>ADVERTISEMENT</span><script type="text/javascript">googletag.cmd.push(function() {googletag.display("dfp-ad-incontent_desk_1");});</script></div></div><p>But a conservative lawmaker, Rep. <span class="rollover-people" data-behavior="rolloverpeople"><a class="rollover-people-link" data-nid="186527" href="/people/thomas-massie">Thomas Massie</a><span class="rollover-people-block" id="rollover-people-186527"><span class="rollover-block"><span><img typeof="foaf:Image" src="/sites/default/files/styles/thumb_100/public/massiethomas_100916gn_lead.jpg?itok=VwfISoVs" width="100" height="100" alt="" /><a class="name" href="/people/thomas-massie">Thomas Harold Massie</a><a class="people-articles" href="/homenews/house/493408-top-republican-voices-skepticism-of-rule-change-to-allow-remote-voting">Top Republican voices skepticism of rule change to allow remote voting</a> <a class="people-articles" href="/blogs/congress-blog/politics/493280-remote-voting-would-further-undermine-civility">Remote voting would further undermine civility</a> <a class="people-articles" href="/homenews/senate/493250-senate-misses-deadline-but-talks-on-loans-go-on">Senate misses deadline, but talks on loans go on</a> <a class="more" href="/people/thomas-massie">MORE<span></span></a></span></span></span></span> (R-Ky.), has threatened to force a roll-call vote Friday morning, compelling leaders in both parties to weigh a contingency plan for moving the package to <span class="rollover-people" data-behavior="rolloverpeople"><a class="rollover-people-link" data-nid="261287" href="/people/donald-trump">President Trump</a><span class="rollover-people-block" id="rollover-people-261287"><span class="rollover-block"><span><img typeof="foaf:Image" src="/sites/default/files/styles/thumb_100/public/trumpdonald_070117getty.jpg?itok=zNbH56or" width="100" height="100" alt="" /><a class="name" href="/people/donald-trump">Donald John Trump</a><a class="people-articles" href="/homenews/campaign/493454-biden-campaign-seeks-to-let-sanders-keep-his-delegates-in-unusual-move">Biden campaign seeks to let Sanders keep his delegates in unusual move</a> <a class="people-articles" href="/policy/healthcare/493452-lady-gaga-calls-who-chief-a-superstar">Lady Gaga calls WHO chief a 'superstar' </a> <a class="people-articles" href="/homenews/house/493449-mccarthy-says-he-supports-incorporating-hospital-funding-into-small-business">McCarthy says he supports incorporating hospital funding into small business aid package</a> <a class="more" href="/people/donald-trump">MORE<span></span></a></span></span></span></span>’s desk.</p><p>House Majority Leader <span class="rollover-people" data-behavior="rolloverpeople"><a class="rollover-people-link" data-nid="188062" href="/people/steny-hoyer">Steny Hoyer</a><span class="rollover-people-block" id="rollover-people-188062"><span class="rollover-block"><span><img typeof="foaf:Image" src="/sites/default/files/styles/thumb_100/public/hoyersteny_100316gn_lead.jpg?itok=NYpje3Vc" width="100" height="100" alt="" /><a class="name" href="/people/steny-hoyer">Steny Hamilton Hoyer</a><a class="people-articles" href="/homenews/house/493182-rules-chairman-advises-pelosi-to-back-remove-voting">Pelosi backs remote voting for House</a> <a class="people-articles" href="/homenews/coronavirus-report/492989-coronavirus-daily-update">The Hill's Coronavirus Report: Georges Benjamin says cutting WHO funds could be crime against humanity; COVID-19 cases surpass 2 million </a> <a class="people-articles" href="/homenews/house/492940-hoyer-democrats-eyeing-possible-friday-vote-on-next-coronavirus-bill">Hoyer: House eyeing possible Friday vote on next coronavirus bill</a> <a class="more" href="/people/steny-hoyer">MORE<span></span></a></span></span></span></span> (D-Md.) has been talking to House Minority Leader <span class="rollover-people" data-behavior="rolloverpeople"><a class="rollover-people-link" data-nid="186556" href="/people/kevin-mccarthy">Kevin McCarthy</a><span class="rollover-people-block" id="rollover-people-186556"><span class="rollover-block"><span><img typeof="foaf:Image" src="/sites/default/files/styles/thumb_100/public/mccarthykevin_062117gn_lead.jpg?itok=abLBd-Ve" width="100" height="100" alt="" /><a class="name" href="/people/kevin-mccarthy">Kevin Owen McCarthy</a><a class="people-articles" href="/homenews/house/493449-mccarthy-says-he-supports-incorporating-hospital-funding-into-small-business">McCarthy says he supports incorporating hospital funding into small business aid package</a> <a class="people-articles" href="/homenews/house/493447-freedom-caucus-chair-calls-for-gop-to-reject-additional-funds-for-state-local">Freedom Caucus chair calls for GOP to reject additional funds for state, local governments</a> <a class="people-articles" href="/homenews/house/493408-top-republican-voices-skepticism-of-rule-change-to-allow-remote-voting">Top Republican voices skepticism of rule change to allow remote voting</a> <a class="more" href="/people/kevin-mccarthy">MORE<span></span></a></span></span></span></span> (R-Calif.) in search of a quick path forward.</p><p>“I’ve talked to McCarthy last night and we’re working together to get this done,” Hoyer said.</p><p>Hoyer said that if Massie were to force a roll-call vote, party leaders expect to have enough lawmakers on the floor Friday to form a quorum — the minimum number of members required to stage a recorded vote. If that’s the case, the House can approve the measure on Friday, despite Massie’s gambit.</p><p>The House opened the floor at 9 a.m. to begin that debate, which was initially expected to run for two hours. But Pelosi said it's now been extended to three.</p><div id="dfp-ad-incontent_desk_2-wrapper" class="dfp-tag-wrapper wrapper"><div id="dfp-ad-incontent_desk_2" class="dfp-tag-wrapper"><span>ADVERTISEMENT</span><script type="text/javascript">googletag.cmd.push(function() {googletag.display("dfp-ad-incontent_desk_2");});</script></div></div><p>"We will respect the congressional traditions and we will have a little longer debate than we had anticipated, and that's a good thing. ... My understanding is it will be extended to three hours, and then we'll have the votes," she said.</p><p>Asked if it will move by voice vote or recorded vote, Pelosi left it up in the air.</p><p>"We'll see," she said.<br /><br />Rep. <span class="rollover-people" data-behavior="rolloverpeople"><a class="rollover-people-link" data-nid="186436" href="/people/kevin-brady">Kevin Brady</a><span class="rollover-people-block" id="rollover-people-186436"><span class="rollover-block"><span><img typeof="foaf:Image" src="/sites/default/files/styles/thumb_100/public/bradykevin_051717gn_lead.jpg?itok=0LVg48Su" width="100" height="100" alt="" /><a class="name" href="/people/kevin-brady">Kevin Patrick Brady</a><a class="people-articles" href="/homenews/senate/493115-trump-taps-members-of-congress-to-advise-on-reopening">Trump taps members of Congress to advise on reopening</a> <a class="people-articles" href="/policy/finance/492218-ig-finds-treasury-handled-house-request-for-trump-tax-returns-properly">IG finds Treasury handled House request for Trump tax returns properly</a> <a class="people-articles" href="/policy/finance/overnights/491913-on-the-money-mnuchin-schumer-in-talks-to-strike-short-term-relief">On The Money: Mnuchin, Schumer in talks to strike short-term relief deal | Small businesses struggling for loans | Treasury IG sends Dems report on handling of Trump tax returns</a> <a class="more" href="/people/kevin-brady">MORE<span></span></a></span></span></span></span> (R-Texas), speaking earlier on CNBC, remained slightly uncertain on the Friday vote, underscoring how leaders were still scrambling on Friday morning.</p><p>"So we get this done one way or the other today or tomorrow," said Brady, the top Republican on the House Ways and Means Committee.</p><p>"I think there's a better than even chance we get this done today. We do have some names mentioned of people who might call for a roll-call vote. I hope that doesn't happen. But in case it does, members are coming back for this vote," he said.</p></div></div></div>              <div class="article-tags">
-          <span>Tags</span> <a href="/person/kevin-mccarthy" title="Kevin McCarthy">Kevin McCarthy</a> <a href="/person/thomas-massie" title="Thomas Massie">Thomas Massie</a> <a href="/person/donald-trump" title="Donald Trump">Donald Trump</a> <a href="/person/steny-hoyer" title="Steny Hoyer">Steny Hoyer</a> <a href="/person/kevin-brady" title="Kevin Brady">Kevin Brady</a> <a href="/person/nancy-pelosi" title="Nancy Pelosi">Nancy Pelosi</a> <a href="/social-tags/coronavirus" title="Coronavirus">Coronavirus</a>        </div>
-            <div id="bottom-story-socials" class="blogs-social-wrp">
-        <div class="addthis_inline_share_toolbox_ru82"></div>
-<div class="share-additional">
-  <div class="share-linkedin">
-    <script>
-      ;(function(){
-        var linkedinScriptEl = document.querySelector('script[src="//platform.linkedin.com/in.js"]');
-        if (linkedinScriptEl == null) {
-          var shareLinkedinEl = document.querySelector('.share-linkedin');
-          var scriptEl = document.createElement('script');
-          scriptEl.src = "//platform.linkedin.com/in.js";
-          scriptEl.async = true;
-          scriptEl.innerHTML = " lang: en_US";
-          shareLinkedinEl.appendChild(scriptEl);
-        }
-      })();
-    </script>
-    <script type="IN/Share"></script>
-  </div>
-</div>
-<div class="share">
-  <a href="mailto:?subject=TheHill.com%3A%20Democratic%20leaders%20say%20%242%20trillion%20stimulus%20will%20pass%20House%20on%20Friday&amp;body=From%20TheHill.com%3A%20%0A%0A%0A%0Ahttps%3A//thehill.com/homenews/house/489806-house-leaders-hope-to-vote-friday-on-coronavirus-stimulus" class="email">&nbsp</a>  </div>
-      </div>
-    </div>
-  </div>
-    </article>
-            <div class="region region-content-bottom">
-    <div id="block-disqus-disqus-comments-489806" class="block block-disqus first odd">
-
-      
-  <div id="disqus_thread"><noscript><p><a href="http://thehill-v4.disqus.com/?url=https%3A%2F%2Fthehill.com%2Fhomenews%2Fhouse%2F489806-house-leaders-hope-to-vote-friday-on-coronavirus-stimulus">View the discussion thread.</a></p></noscript></div>
-</div>
-<div id="block-block-51" class="block block-block last even">
-
-      
-  <!-- Outbrain Desktop Footer -->
-<div class="OUTBRAIN" data-src="https://thehill.com/homenews/house/489806-house-leaders-hope-to-vote-friday-on-coronavirus-stimulus" data-widget-id="AR_1" data-ob-template="The Hill"></div> 
-</div>
-  </div>
-        </div>
-                  <aside class="sidebars">
-                          <section class="region region-sidebar-second column sidebar">
-    <div id="block-dfp-rightrail-top" class="block block-dfp first odd">
-
-      
-  <div id="dfp-ad-rightrail_top-wrapper" class="dfp-tag-wrapper"><!-- dfp_tag.tpl.php -->
-<a href="#" class="hide_overlay"></a>
-<div  id="dfp-ad-rightrail_top" class="dfp-inner">
-  <script type="text/javascript">
-    googletag.cmd.push(function() {
-      googletag.display("dfp-ad-rightrail_top");
-    });
-  </script>
-</div>
-
-</div>
-</div>
-<div id="block-mostpopular-1" class="block block-mostpopular even">
-
-        <h2 class="block__title block-title">Most Popular</h2>
-    
-  <div id="block-mostpopular-1-ajax-content" class="ajaxblocks-wrapper"></div>
-</div>
-<div id="block-dfp-rightrail-bottom" class="block block-dfp odd">
-
-      
-  <div id="dfp-ad-rightrail_bottom-wrapper" class="dfp-tag-wrapper"><!-- dfp_tag.tpl.php -->
-<a href="#" class="hide_overlay"></a>
-<div  id="dfp-ad-rightrail_bottom" class="dfp-inner">
-  <script type="text/javascript">
-    googletag.cmd.push(function() {
-      googletag.display("dfp-ad-rightrail_bottom");
-    });
-  </script>
-</div>
-
-</div>
-</div>
-<div id="block-views-hill-tv-block-video-widget" class="block block-views even">
-
-        <h2 class="block__title block-title">Video</h2>
-    
-    <div class="view view-hill-tv view-id-hill_tv view-display-id-block_video_widget hill-tv-video-widget view-dom-id-7fb4187b4e2e5dfc92e8a72dd1f076d9">
-                            <div class="view-content">
-        <div class="views-row views-row-1 views-row-odd views-row-first">
-      
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/hilltv/rising/493358-daily-beast-political-reporter-hanna-trudo-shares-her-insight-on-bidens"><img typeof="foaf:Image" src="https://thehill.com/sites/default/files/styles/leading_video/public/bidenjoe_022920gn24_lead.jpg?itok=WdXZePZS" width="306" height="171" /></a></div>  </div>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/hilltv/rising/493358-daily-beast-political-reporter-hanna-trudo-shares-her-insight-on-bidens">Daily Beast political reporter Hanna Trudo shares insights on Biden veepstakes</a></span>  </div>  
-  <div class="views-field views-field-field-article-categories">        <div class="field-content">Rising</div>  </div>  
-  <div class="views-field views-field-field-vertical-article-category">        <div class="field-content"></div>  </div>  </div>
-  <div class="views-row views-row-2 views-row-even">
-      
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/changing-america/well-being/mental-health/486582-out-of-many-some-americans-are-now-desperately"><img typeof="foaf:Image" src="https://thehill.com/sites/default/files/styles/leading_video/public/ca_kristof_wudunn_tightrope.jpg?itok=imgzunVm" width="306" height="171" /></a></div>  </div>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/changing-america/well-being/mental-health/486582-out-of-many-some-americans-are-now-desperately">Americans are now desperately &#039;reaching for hope&#039;</a></span>  </div>  
-  <div class="views-field views-field-field-article-categories">        <div class="field-content"></div>  </div>  
-  <div class="views-field views-field-field-vertical-article-category">        <div class="field-content">Changing America</div>  </div>  </div>
-  <div class="views-row views-row-3 views-row-odd views-row-last">
-      
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/hilltv/rising/493365-social-capital-founder-says-coronavirus-relief-should-focus-on-workers-not-corporations"><img typeof="foaf:Image" src="https://thehill.com/sites/default/files/styles/leading_video/public/palihapitiyachamath_04172020_0.jpg?itok=98iKkeEX" width="306" height="171" /></a></div>  </div>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/hilltv/rising/493365-social-capital-founder-says-coronavirus-relief-should-focus-on-workers-not-corporations">Social Capital founder says coronavirus relief should focus on workers, not corporations</a></span>  </div>  
-  <div class="views-field views-field-field-article-categories">        <div class="field-content">Rising</div>  </div>  
-  <div class="views-field views-field-field-vertical-article-category">        <div class="field-content"></div>  </div>  </div>
-    </div>
-                  </div>
-
-</div>
-<div id="block-block-3" class="block block-block last odd">
-
-        <h2 class="block__title block-title">More From The Web</h2>
-    
-  <div class="newsmax-fark-block-target" height="0" width="0"></div>
-
-<script>
-var block="";
-var tgt_item = jQuery('.node.view-mode-full').length - 1;
-var isHero = jQuery('.hero-image').length;
-tgt_item = tgt_item < 0 ? 0 : tgt_item; 
-var tgt = jQuery(".newsmax-fark-block-target")[tgt_item];  
-var rnd = Math.floor(Math.random(100) * 100);
-var query_param = window.location.search; 
-var fark_override = false;
-if(query_param.length > 0 && query_param.indexOf("fark_override") >= 0) {
-	fark_override = true;
-}
-if(!isHero) { 
-if(rnd >= 30 && !fark_override) { 
-    block += "<p style=\"font-family:Arial;color:#666666;font-size:11px;text-align:right;margin-bottom:-24px;padding-top:10px\">Sponsored<\/p>";
-    block += "<div style=\"margin:20px 0;\">";
-    block += "<div id=\"yp6_inject_bn75TWX4O573bji1xoe95X\"><\/div>";
-    block += "<\/div>";
-    block += "<!-- End NewsMax -->";
-    jQuery(block).insertBefore(tgt);
-    jQuery.ajaxSetup({cache: true});
-    jQuery.getScript("https://static.newsmaxfeednetwork.com/web-clients/bootloaders/bn75TWX4O573bji1xoe95X/bootloader.js");
-} else {
-block += "<!-- Composite Start -->";
-block += "<p style=\"font-family:Arial;color:#666666;font-size:11px;text-align:right;margin-bottom:-10px;\">Sponsored<\/p>";
-block += "<div id=\"unit_93728\"><a href=\"https://mixi.media/\" rel=\"nofollow\"></a></div>";
-block += "<script type=\"text/javascript\" charset=\"utf-8\">";
-block += "(function() {";
-block +=    "var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true;";
-block +=    "sc.src = '//mixi.media/data/js/93728.js'; sc.charset = 'utf-8';";
-block +=    "var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);";
-block += " }());";
-block += "<\/script>";
-block += "<!-- Composite End -->";
-//jQuery(block).insertBefore(tgt);
-};
-};
-</script>
-
-
-</div>
-  </section>
-          </aside>
-              </div>          </div> <!-- cs-end -->
-  </div>
-            <div class="page-bottom">
-      <div class="region region-footer-bottom">
-    <div id="block-thehill-blocks-footer-signup" class="block block-thehill-blocks first last odd">
-
-      
-  <div class="simple-signup-form">
-  <div class="text">Don't miss a brief. <span>Sign up for our daily email.</span></div>
-  <form action="/homenews/house/489806-house-leaders-hope-to-vote-friday-on-coronavirus-stimulus" method="post" id="thehill-blocks-signup-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-email">
-  <label for="edit-email">Your Email </label>
- <input placeholder="" type="text" id="edit-email" name="email" value="" size="60" maxlength="128" class="form-text" />
-</div>
-<div class="form-item form-type-textfield form-item-list">
- <input class="hidden form-text" type="text" id="edit-list" name="list" value="" size="60" maxlength="128" />
-</div>
-<input type="submit" id="edit-submit--2" name="op" value="Submit" class="form-submit" /><input type="hidden" name="form_build_id" value="form-NWRZGRQpX9hjgKynxFNnB4j89dTczDeHWIkJlldEKa8" />
-<input type="hidden" name="form_id" value="thehill_blocks_signup_form" />
-</div></form></div>
-
-
-</div>
-  </div>
-    <a href="/" title="TheHill" rel="home" alt="TheHill.com">
-      <img class="logo" alt="TheHill.com" src="/sites/all/themes/thehill/images/redesign/thehill-logo-footer.png" />
-    </a>
-      <div class="region region-bottom-column1">
-    <div id="block-menu-menu-home" class="block block-menu first odd" role="navigation">
-
-        <h2 class="block__title block-title">News</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/homenews/senate" class="menu__link menu__link">Senate</a></li>
-<li class="menu__item is-active-trail is-leaf menu__item is-active-trail is-leaf leaf active-trail depth-1"><a href="/homenews/house" class="menu__link is-active-trail menu__link is-active-trail active-trail">House</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/homenews/campaign" class="menu__link menu__link">Campaign</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/homenews/administration" class="menu__link menu__link">Administration</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/regulation" class="menu__link menu__link">Regulation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/homenews/media" class="menu__link menu__link">Media</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/blogs/blog-briefing-room" class="menu__link menu__link">Briefing Room</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/latino" class="menu__link menu__link">Latino</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/homenews/1230-report" class="menu__link menu__link">12:30 Report</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/homenews/coronavirus-report" class="menu__link menu__link">Coronavirus Report</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/blogs/floor-action" class="menu__link menu__link">Floor Action</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/blogs/in-the-know" class="menu__link menu__link">In The Know</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/homenews/sunday-talk-shows" class="menu__link menu__link">Sunday Talk Shows</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/" class="menu__link menu__link">More</a></li>
-</ul>
-</div>
-<div id="block-menu-menu-policy-menu" class="block block-menu even" role="navigation">
-
-        <h2 class="block__title block-title">Policy</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/policy/defense" class="menu__link menu__link">Defense</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/energy-environment" class="menu__link menu__link">Energy &amp; Environment</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/finance" class="menu__link menu__link">Finance</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/healthcare" class="menu__link menu__link">Healthcare</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/technology" class="menu__link menu__link">Technology</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/international" class="menu__link menu__link">International</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/transportation" class="menu__link menu__link">Transportation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/cybersecurity" class="menu__link menu__link">Cybersecurity</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/national-security" class="menu__link menu__link">National Security</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/policy" class="menu__link menu__link">More</a></li>
-</ul>
-</div>
-<div id="block-menu-menu-video" class="block block-menu odd" role="navigation">
-
-        <h2 class="block__title block-title">Video</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/video/hilltube" class="menu__link menu__link">Latest</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/defense" class="menu__link menu__link">Defense</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/energy-environment" class="menu__link menu__link">Energy &amp; Environment</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/finance" class="menu__link menu__link">Finance</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/healthcare" class="menu__link menu__link">Healthcare</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/technology" class="menu__link menu__link">Technology</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/transportation" class="menu__link menu__link">Transportation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/international" class="menu__link menu__link">International</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/cybersecurity" class="menu__link menu__link">Cybersecurity</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/national-security" class="menu__link menu__link">National Security</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/sunday-shows" class="menu__link menu__link">Sunday Shows</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/events" class="menu__link menu__link">Events</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/hill-tube" class="menu__link menu__link">More</a></li>
-</ul>
-</div>
-<div id="block-menu-menu-opinion" class="block block-menu last even" role="navigation">
-
-        <h2 class="block__title block-title">Opinion</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/opinion/columnists/brent-budowsky" class="menu__link menu__link">Brent Budowsky</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/columnists" class="menu__link menu__link">Columnists</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/blogs/congress-blog" class="menu__link menu__link">Congress Blog</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/blogs/pundits-blog" class="menu__link menu__link">Contributors</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/opinion" class="menu__link menu__link">More</a></li>
-</ul>
-</div>
-  </div>
-      <div class="region region-bottom-column2">
-    <div id="block-menu-menu-anchor-menu" class="block block-menu first odd" role="navigation">
-
-        <h2 class="block__title block-title">TheHill.com</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/privacy-policy" class="menu__link menu__link">Privacy Policy</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/terms-and-conditions" class="menu__link menu__link">Terms &amp; Conditions</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/contact" class="menu__link menu__link">Contact</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/contact/subscriptions" class="menu__link menu__link">Subscriptions</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/contact/advertise" class="menu__link menu__link">Advertise</a></li>
-</ul>
-</div>
-<div id="block-menu-menu-resources" class="block block-menu even" role="navigation">
-
-        <h2 class="block__title block-title">Resources</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/hill-apps" class="menu__link menu__link">The Hill Apps</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/people/" class="menu__link menu__link">People</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/resources/rss-feeds" class="menu__link menu__link">RSS</a></li>
-</ul>
-</div>
-<div id="block-menu-menu-menu-contributors" class="block block-menu odd" role="navigation">
-
-        <h2 class="block__title block-title">Contributors</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first last leaf depth-1"><a href="/contributor-application-form" class="menu__link menu__link">Become a Contributor</a></li>
-</ul>
-</div>
-<div id="block-menu-menu-contact-us" class="block block-menu last even" role="navigation">
-
-        <h2 class="block__title block-title">Other Areas</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/special-reports/special-reports" class="menu__link menu__link">Special Reports</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/galleries" class="menu__link menu__link">Galleries</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/classifieds" class="menu__link menu__link">Classifieds</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/resources/classifieds/employer" class="menu__link menu__link">Jobs</a></li>
-</ul>
-</div>
-  </div>
-    <div class="clearer"></div>
-    <div class="copyright-wrp">
-        <div class="region region-copyright">
-    <div id="block-thehill-blocks-copyright" class="block block-thehill-blocks first odd">
-
-      
-  <p>The Hill 1625 K Street, NW Suite 900 Washington DC 20006 | 202-628-8500 tel | 202-628-8503 fax</p><p>The contents of this site are &copy;2020 Capitol Hill Publishing Corp., a subsidiary of News Communications, Inc.</p>
-</div>
-<div id="block-dfp-new-1x1-asynch" class="block block-dfp even">
-
-      
-  <div id="dfp-ad-new_1x1_asynch-wrapper" class="dfp-tag-wrapper"><!-- dfp_tag.tpl.php -->
-<a href="#" class="hide_overlay"></a>
-<div  id="dfp-ad-new_1x1_asynch" class="dfp-inner">
-  <script type="text/javascript">
-    googletag.cmd.push(function() {
-      googletag.display("dfp-ad-new_1x1_asynch");
-    });
-  </script>
-</div>
-
-</div>
-</div>
-<div id="block-dfp-1x1-oop" class="block block-dfp odd">
-
-      
-  <div id="dfp-ad-1x1_oop-wrapper" class="dfp-tag-wrapper"><!-- dfp_tag.tpl.php -->
-<a href="#" class="hide_overlay"></a>
-<div  id="dfp-ad-1x1_oop" class="dfp-inner">
-  <script type="text/javascript">
-    googletag.cmd.push(function() {
-      googletag.display("dfp-ad-1x1_oop");
-    });
-  </script>
-</div>
-  <div id="dfp-ad-1x1_oop-oop" class="dfp-tag-wrapper">
-    <script type="text/javascript">
-      googletag.cmd.push(function() {
-        googletag.display("dfp-ad-1x1_oop-oop");
-      });
-    </script>
-  </div>
-
-</div>
-</div>
-<div id="block-block-70" class="block block-block last even">
-
-      
-  <style>
- #do-not-sell-button {
-padding-top: 15px;margin-left: 0px; width: 100%;padding-bottom: 15px;
-}
-@media only screen and (min-width:768px) {
- #do-not-sell-button {
-margin-left: -150px;
-}	
-}
+.a2a_svg { border-radius: 0 !important; }
 </style>
-<div id="do-not-sell-button"></div>
-    
+<link rel='stylesheet' id='grid-css'  href='https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/thesis/skins/k1/style.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='https://www.counterpunch.org/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.counterpunch.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.counterpunch.org%2F2019%2F03%2F20%2Fukanias-great-privatization-heist%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.counterpunch.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.counterpunch.org%2F2019%2F03%2F20%2Fukanias-great-privatization-heist%2F&#038;format=xml" />
+
+<script data-cfasync="false">
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+a2a_config.templates.twitter = "${title} ${link} by @NatCounterPunch";
+(function(d,s,a,b){a=d.createElement(s);b=d.getElementsByTagName(s)[0];a.async=1;a.src="https://static.addtoany.com/menu/page.js";b.parentNode.insertBefore(a,b);})(document,"script");
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body.front-page {box-sizing: border-box;}
+body.front-page img {max-width: 100%; display: block;}
    
-</div>
-  </div>
-    </div>
-  </div>
-</div>
-    <div class="region region-page-bottom">
-    <script type="text/javascript">
-  var _sf_async_config=Drupal.settings.chartbeat;
-  _sf_async_config.sections = "News, News - House";
-  _sf_async_config.authors = "Mike Lillis";
-  _sf_async_config._demo = "publish_date=2020-03-27,editor=Ian Swanson";
-  (function(){
-    function loadChartbeat() {
-      window._sf_endpt=(new Date()).getTime();
-      var e = document.createElement('script');
-      e.setAttribute('language', 'javascript');
-      e.setAttribute('type', 'text/javascript');
-      e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
-      document.body.appendChild(e);
-    }
-    var oldonload = document.ready;
-    document.ready = (typeof document.ready != 'function') ?
-       loadChartbeat : function() { oldonload(); loadChartbeat(); };
-  })();
-</script><!-- Begin comScore Tag -->
-          <script>
-            var _comscore = _comscore || [];
-            _comscore.push({"c1":"2","c2":"10314615","c3":"","c4":"https:\/\/thehill.com\/homenews\/house\/489806-house-leaders-hope-to-vote-friday-on-coronavirus-stimulus","c5":"","c6":"","c15":""});
-            (function() {
-              var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-              s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-              el.parentNode.insertBefore(s, el);
-            })();
-          </script>
-          <noscript>
-            <img src="https://sb.scorecardresearch.com/p?c1=2&c2=10314615&c3=&c4=https%3A//thehill.com/homenews/house/489806-house-leaders-hope-to-vote-friday-on-coronavirus-stimulus&c5=&c6=&c15=&cv=2.0&cj=1" />
-          </noscript>
-      <!-- End comScore Tag --><script type="text/javascript" async="async" src="//widgets.outbrain.com/outbrain.js"></script><!--START Lightbox Javascript-->
-<script type="text/javascript">
-    /*<![CDATA[*/ window.lightboxjs || function (c) { function g(b, d) { d && (d += (/\?/.test(d) ? "&" : "?") + "lv=1"); c[b] || function () { var i = window, h = document, j = b, g = h.location.protocol, l = "load", k = 0; (function () { function b() { a.P(l); a.w = 1; c[j]("_load") } c[j] = function () { function m() { m.id = e; return c[j].apply(m, arguments) } var b, e = ++k; b = this && this != i ? this.id || 0 : 0; (a.s = a.s || []).push([e, b, arguments]); m.then = function (b, c, h) { var d = a.fh[e] = a.fh[e] || [], j = a.eh[e] = a.eh[e] || [], f = a.ph[e] = a.ph[e] || []; b && d.push(b); c && j.push(c); h && f.push(h); return m }; return m }; var a = c[j]._ = {}; a.fh = {}; a.eh = {}; a.ph = {}; a.l = d ? d.replace(/^\/\//, (g == "https:" ? g : "http:") + "//") : d; a.p = { 0: +new Date }; a.P = function (b) { a.p[b] = new Date - a.p[0] }; a.w && b(); i.addEventListener ? i.addEventListener(l, b, !1) : i.attachEvent("on" + l, b); var q = function () { function b() { return ["<head></head><", c, ' onload="var d=', n, ";d.getElementsByTagName('head')[0].", d, "(d.", g, "('script')).", i, "='", a.l, "'\"></", c, ">"].join("") } var c = "body", e = h[c]; if (!e) return setTimeout(q, 100); a.P(1); var d = "appendChild", g = "createElement",
-    i = "src", k = h[g]("div"), l = k[d](h[g]("div")), f = h[g]("iframe"), n = "document", p; k.style.display = "none"; e.insertBefore(k, e.firstChild).id = o + "-" + j; f.frameBorder = "0"; f.id = o + "-frame-" + j; /MSIE[ ]+6/.test(navigator.userAgent) && (f[i] = "javascript:false"); f.allowTransparency = "true"; l[d](f); try { f.contentWindow[n].open() } catch (s) { a.domain = h.domain, p = "javascript:var d=" + n + ".open();d.domain='" + h.domain + "';", f[i] = p + "void(0);" } try { var r = f.contentWindow[n]; r.write(b()); r.close() } catch (t) { f[i] = p + 'd.write("' + b().replace(/"/g, String.fromCharCode(92) + '"') + '");d.close();' } a.P(2) }; a.l && q() })() }(); c[b].lv = "1"; return c[b] } var o = "lightboxjs", k = window[o] = g(o); k.require = g; k.modules = c }({}); /*]]>*/</script><script type="text/javascript">window.lightboxlib = lightboxjs.require("lightboxlib", "//www.lightboxcdn.com/vendor/ee48a214-dcd9-4d76-af7b-dd194f9094db/lightbox.js?mb=" + (new Date().getTime()));</script>
-<!--END Lightbox Javascript-->
-
-<script>
-if(typeof(ga) !== 'undefined') {
-  jQuery('.hill-tv').on('click', function(e) {
-    ga('send', 'event', 'HillTVTopNav', 'click', e.currentTarget.pathname);
-  });
-
-  jQuery('#main-menu img').on('click', function(e) {
-    ga('send', 'event', 'HillTVTopNavShowImg', 'click', e.currentTarget.currentSrc);
-  });
-jQuery('document').ready(function() {
-    jQuery('#block-mostpopular-1').on('click', '#thehill-mostpopular-block li a', function(e) {
-      var meta = 'index-';
-      try {
-        meta = meta + e.currentTarget.parentElement.parentElement.previousElementSibling.innerHTML;
-      } catch(error) {
-        console.log(error);
-      }
-      ga('send', 'event', 'MostPopularItem', 'click', meta);
-    });
-    if(jQuery('#block-views-articles-articles-just-in').length) {
-        jQuery('#block-views-articles-articles-just-in').on('click', '#block-views-articles-articles-just-in li', function(e) { 
-            var justInMeta = 'index-';
-            try {
-                var regex = /\d+/g;
-                var matches = e.currentTarget.className.match(regex); 
-                justInMeta = justInMeta + matches[0];
-            } catch(e) {
-                console.log(e);
-            }
-            ga('send', 'event', 'JustInItemClick', 'click', justInMeta);
-        });
-    }
-  });
-
-  if(typeof(pbjs) !== "undefined" && typeof(pbjs.version) === "undefined") {
-    ga('send', 'event', 'Ad Setting', 'Adblock', 'Enabled');
-  }
+body.front-page .listing li {
+  border: 1px solid #dd0000;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
 }
-</script>
-
-<script>
-if(typeof(ga) !== 'undefined') {
-  jQuery('.hill-tv-video-widget a').on('click', function(e) {
-    ga('send', 'event', 'HillTVVideoWidget', 'click', e.currentTarget.pathname);
-  });
+body.front-page .listing .cta {
+  margin-top: auto;
+  border-top: 1px solid #dd0000;
+  padding: 10px;
+  text-align: center;
 }
-setTimeout(function() {
-	 ga('send', 'event', 'AutoRefresh', 'refreshed', document.URL);
-}, 2640000);
-</script>  </div>
-<script>
-    var param = (new URL(window.location)).searchParams;
-    var uid = param.get("userid");
-    uid = uid === null ? "" : uid;
+body.front-page .listing .body {
+  padding: 0px;
+}
+body.front-page .listing {
+  list-style: none;
+  margin: 1em;
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+}
+body.front-page .listing .wide {
+  grid-column-end: span 2;
+}
 
-    var dataLayer = {
-      "page": {
-        "author": "Mike Lillis",
-        "section": "News, News - House",
-        "keywords": "Coronavirus,Kevin McCarthy, Thomas Massie, Donald Trump, Steny Hoyer, Kevin Brady, Nancy Pelosi,"
-      },
-      "user": {
-        "userid" : uid
-      }
-    };
-</script>
-<script>  var disqus_shortname = 'thehill-v4';
-  (function () {
-      var s = document.createElement('script'); s.async = true;
-      s.type = 'text/javascript';
-      s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-  }());</script>
-<script>    (function() {
-        var initVars = {"nid":"489806","video_id":"8mBd4opi","playlist_id":null,"sticky_enabled":1,"hilltv_sticky_enabled":1,"moat_id":"thehilljwint238875905177","comscore_id":"10314615","share_url":"https:\/\/thehill.com\/homenews\/house\/489806-house-leaders-hope-to-vote-friday-on-coronavirus-stimulus","midroll_tag":"https:\/\/pubads.g.doubleclick.net\/gampad\/live\/ads?sz=640x360\u0026iu=\/1107919\/Hill_TV_640x360_comp_midroll\u0026ciu_szs=300x250\u0026impl=s\u0026gdfp_req=1\u0026env=vp\u0026output=vast\u0026unviewed_position_start=1\u0026url=[referrer_url]\u0026description_url=__page-url__\u0026correlator=[timestamp]\u0026cust_params=Ad_breaks%3D__item-tags__","bid_timout":"1500"};
-        if (typeof(pbjs.version) === "undefined" || typeof(videoAdUnit) !== "object") {
-          initializePlayerInstance(initVars);
-        } else {
-          if(pbjs.adserverRequestSent) {
-            initializePlayerInstance(initVars);
-          } else {
-            setTimeout(function(){
-              initializePlayerInstance(initVars);
-            }, 500);
-          }
-        }
-    })();</script>
-<script>    (function($) {
-      Drupal.behaviors.taboolarightrail= {
-        attach: function(context) {
-          window._taboola = window._taboola || [];
-          if (jQuery('div.taboola-right-rail:last').is(':empty')) {
-            _taboola.push({mode:'organic-thumbnails-rr', container: jQuery('div.taboola-right-rail:last').attr('id'), placement: 'Right Rail Thumbnails', target_type: 'mix'});
-          }
-        }
-      };
-    })(jQuery);</script>
-<script>    (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=566538590082898&version=v2.9";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-  <div id="fb-root"></div>
-  <script src="//platform.twitter.com/widgets.js"></script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"962df17ac8","applicationID":"409941798","transactionName":"YwRXYBQFWhEEUUYNV1pOdFcSDVsMSlxdAF1rEVRTAztCCwBF","queueTime":0,"applicationTime":599,"atts":"T0NUFlwfSR8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+.ml-rc-link {
+    background-color: black;
+}
+		</style>
+		<link rel="preload" href="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/plugins/add-to-any/addtoany.min.js" as="script">
+<link rel="preload" href="https://a.opmnstr.com/app/js/api.min.js" as="script">
+<link rel="preload" href="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-includes/js/wp-embed.min.js" as="script">
+</head>
+<body class="template-single post-template-default single single-post postid-110133 single-format-standard">
+		<div id="header_area" class="container">
+			<div class="wrap row">
+<div id="image_header_1" class="text_box five columns">
+	<a href="https://www.counterpunch.org"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2015/06/cp5.png"/></a>
+</div>
+<div id="right_header_box" class="text_box">
+	<a href="https://store.counterpunch.org/subscribe/"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/11/Screen-Shot-2019-11-05-at-9.39.46-AM-e1572976279559.png"></a>
+</div>
+<div id="menu_wrap" class="twelve columns">
+	<ul id="menu-main2" class="menu"><li id="menu-item-63180" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-63180"><a href="https://www.counterpunch.org">Home</a></li>
+<li id="menu-item-66952" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-66952"><a href="https://www.counterpunch.org/articles/">Articles</a>
+<ul class="sub-menu">
+	<li id="menu-item-67047" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-67047"><a href="https://www.counterpunch.org/articles/">Recent Articles</a></li>
+</ul>
+</li>
+<li id="menu-item-73673" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-73673"><a href="https://store.counterpunch.org/back-issues/">Magazine</a>
+<ul class="sub-menu">
+	<li id="menu-item-73676" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-73676"><a href="https://store.counterpunch.org/current-issue/">Current Issue</a></li>
+	<li id="menu-item-68715" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-68715"><a href="https://store.counterpunch.org/back-issues/">Back Issues</a></li>
+	<li id="menu-item-83712" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83712"><a href="https://store.counterpunch.org/subscribe">Subscribe</a></li>
+	<li id="menu-item-85481" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85481"><a href="https://store.counterpunch.org/back-issues-subscriber-access/">Subscriber Access</a></li>
+</ul>
+</li>
+<li id="menu-item-63162" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-63162"><a href="https://store.counterpunch.org/subscribe">Subscribe</a></li>
+<li id="menu-item-63163" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-63163"><a href="https://store.counterpunch.org/">Donate</a></li>
+<li id="menu-item-57999" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-57999"><a href="https://www.counterpunch.org/archives/">Archives</a>
+<ul class="sub-menu">
+	<li id="menu-item-79410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79410"><a href="https://www.counterpunch.org/search-authors/">Search Authors</a></li>
+</ul>
+</li>
+<li id="menu-item-72555" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-72555"><a href="https://www.counterpunch.org/about/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-66975" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-66975"><a href="https://visitor.r20.constantcontact.com/manage/optin/ea?v=001LCajc7xp4KNJq_OKmN7MPQ%3D%3D">JOIN LIST</a></li>
+	<li id="menu-item-110148" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110148"><a href="https://www.counterpunch.org/privacy-policy/">Privacy Policy</a></li>
+</ul>
+</li>
+<li id="menu-item-63164" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-63164"><a href="https://store.counterpunch.org/product-category/books/">Books</a>
+<ul class="sub-menu">
+	<li id="menu-item-63165" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-63165"><a href="https://store.counterpunch.org/product-category/merchandise/">T-shirts</a></li>
+</ul>
+</li>
+<li id="menu-item-71299" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71299"><a href="https://store.counterpunch.org/category/counterpunch-radio-podcasts/">podcasts</a></li>
+<li id="menu-item-58006" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58006"><a href="https://www.counterpunch.org/faqs/">FAQs</a></li>
+</ul>
+</div>
+			</div>
+		</div>
+<div id="content_area" class="container">
+	<div id="outside_wrap">
+		<div id="social-scrolling-box" class="widget_a2a_share_save_widget">
+<div class="widget widget_a2a_share_save_widget fixed-social" id="a2a_share_save_widget-2"><div class="a2a_kit a2a_kit_size_ addtoany_list"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fwww.counterpunch.org%2F2019%2F03%2F20%2Fukanias-great-privatization-heist%2F&amp;linkname=Ukania%26%23039%3Bs%20Great%20Privatization%20Heist%20-%20CounterPunch.org" title="Facebook" rel="nofollow noopener" target="_blank"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2015/09/facebook.png" alt="Facebook"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fwww.counterpunch.org%2F2019%2F03%2F20%2Fukanias-great-privatization-heist%2F&amp;linkname=Ukania%26%23039%3Bs%20Great%20Privatization%20Heist%20-%20CounterPunch.org" title="Twitter" rel="nofollow noopener" target="_blank"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2015/09/twitter.png" alt="Twitter"></a><a class="a2a_button_reddit" href="https://www.addtoany.com/add_to/reddit?linkurl=https%3A%2F%2Fwww.counterpunch.org%2F2019%2F03%2F20%2Fukanias-great-privatization-heist%2F&amp;linkname=Ukania%26%23039%3Bs%20Great%20Privatization%20Heist%20-%20CounterPunch.org" title="Reddit" rel="nofollow noopener" target="_blank"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2015/09/reddit.png" alt="Reddit"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fwww.counterpunch.org%2F2019%2F03%2F20%2Fukanias-great-privatization-heist%2F&amp;linkname=Ukania%26%23039%3Bs%20Great%20Privatization%20Heist%20-%20CounterPunch.org" title="Email" rel="nofollow noopener" target="_blank"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2015/09/email.png" alt="Email"></a></div></div>		</div>
+		<div id="content_box" class="wrap row">
+			<div id="content" class="nine columns">
+				<div id="post-110133" class="post_box top post type-post status-publish format-standard category-articles-2015 category-leading-article category-top-stories" itemscope itemtype="https://schema.org/Article">
+					<link href="https://www.counterpunch.org/2019/03/20/ukanias-great-privatization-heist/" itemprop="mainEntityOfPage" />
+					<meta itemprop="datePublished" content="2019-03-20" />
+					<meta itemprop="dateModified" content="2019-03-22" />
+					<span class="post_date" title="2019-03-20">March 20, 2019</span>
+					<h1 class="headline" itemprop="headline"><a href="https://www.counterpunch.org/2019/03/20/ukanias-great-privatization-heist/" rel="bookmark">Ukania&#8217;s Great Privatization Heist</a></h1>
+					<span class="post_author_intro">by</span> <span class="post_author" itemprop="author"><a href="https://www.counterpunch.org/author/ksurin0990/" rel="nofollow">Kenneth Surin</a></span>
+<div class="socialtwo"><div class="a2a_kit a2a_kit_size_32 a2a_default_style left-social" data-a2a-icon-color="unset">
+  <a class="a2a_button_facebook"></a>
+ <a class="a2a_button_twitter"></a>
+<a class="a2a_button_reddit"></a>
+<a class="a2a_button_email"></a>
+<a href="https://www.counterpunch.org/2019/03/20/ukanias-great-privatization-heist/print/" rel="nofollow" title="Print This Post" class="print-icon"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2017/09/atoa-print-icon.png"/></a>
+</div>
+</div>   					<div class="post_content" itemprop="articleBody">
+<div id="attachment_109997" style="width: 520px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-109997" class="size-full wp-image-109997" src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/03/31BE619F-DF9C-4884-8C2C-603CB90D9C2F.png" alt="" width="510" height="377" srcset="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/03/31BE619F-DF9C-4884-8C2C-603CB90D9C2F.png 510w, https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/03/31BE619F-DF9C-4884-8C2C-603CB90D9C2F-300x222.png 300w, https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/03/31BE619F-DF9C-4884-8C2C-603CB90D9C2F-768x568.png 768w" sizes="(max-width: 510px) 100vw, 510px" /><p id="caption-attachment-109997" class="wp-caption-text">Drawing by Nathaniel St. Clair</p></div>
+<p>Margaret Thatcher was very good at telling tall tales. Ukania’s tragedy is that far too many Brits fell for these tales.</p>
+<p>Probably the biggest of these tales concerned the notion of a share-owning democracy.</p>
+<p>The idea here was simple, but utterly misguided – sell off the publicly-owned enterprises, and everyone will be able to buy shares in the newly privatized companies. By buying however many shares you want, you will become a part of Thatcher’s great British share-owning democracy.</p>
+<p>Many of us knew at that time that it was never going to be like this at all. As Marx noted, the stock exchange, where the shares of the newly privatized companies would of course be traded, is “where the little fish are swallowed by the sharks and the lambs by the stock-exchange wolves”.</p>
+<p>The wealthy have always used their resources to acquire a monopoly on company shares. So when the public enterprises were put on sale at rock-bottom prices by Thatcher and her cronies, the wealthy rushed to collar the majority of the share offerings, the ensuing demand drove-up the price of the shares, and in so doing put nearly all of them beyond the reach of Joe and Jill Normal.</p>
+<p>So what actually happened to the “great British share-owning democracy”?</p>
+<p>The state bureaucrats so excoriated by Thatcher have been replaced by private bureaucrats, albeit ones paid astronomical salaries when compared to those received by their counterparts in the annihilated state sector.</p>
+<p>The newly privatizedstate enterprises were never going to be owned by the likes of Joe and Jill Normal, or even John and Jane Bull—instead large foreign corporations and foreign governments now own nearly all these companies.</p>
+<p>Indeed the supreme Thatcherite irony is that many of the enterprises privatized by her have now returned to government ownership, but alas for Brits these are foreign governments.</p>
+<p>Take the town of Romford, in the London borough of Havering, which had the distinction of being named as the most Eurosceptic place in the country in a 2016 <a href="https://www.theguardian.com/politics/2016/mar/14/romford-aberystwyth-most-eurosceptic-europhiliac-places-uk">YouGov survey</a>.</p>
+<p>The Brexit motto is “take back control”, but at Romford station there’s a choice of trains into London: you can travel on one run by the Dutch, or one run by the Chinese. Someone going to neighbouring Basildon has to change at Upminster and buy a ticket from the Italian firm that operates C2C. Here’s the fuller picture.</p>
+<p>ScotRail is operated by Abellio, which is wholly owned by the Dutch national rail operator Nederlandse Spoorwegen.</p>
+<p>Abellio also owns 60% of Greater Anglia trains (the remaining 40% is owned by the Japanese company Mitsui).</p>
+<p>West Midlands trains is 70% owned by Abellio, the remaining 30% is shared between Mitsui and another Japanese company JR East.</p>
+<p>Arriva Rail London is operated by Arriva, which is owned by the German national rail operator Deutsche Bahn.</p>
+<p>Arriva also operates Chiltern Railways and CrossCountry, Grand Central, and Northern.</p>
+<p>The already-mentioned C2C is owned by the Italian government’s Trenitalia.</p>
+<p>Eurostar is operated by EIL, which is owned by the French government’s SNCF (55%), Caisse de dépôt et placement du Québec (CDPQ) (30%), Hermes Infrastructure (10%) which is majority-owned by a US investment fund, and NMBS/SNCB (5%) which is the state railway company of Belgium.</p>
+<p>The Chinese corporation MTR owns TfL rail and 30% of South Western Railway.</p>
+<p>Transport for Wales is owned by Keolis, a Franco-Québécois private operator of public transport.</p>
+<p>In fact, European state railways now own more than quarter of the UK’s passenger-train system.</p>
+<p>The same situation exists with regard to the UK’s energy, water, and telephone companies.</p>
+<p>London Electricity, SWEB, Seeboard and British Energy are owned by EDF Energy, a subsidiary of the French Government-owned energy company EDF (Électricité de France) Group.</p>
+<p>Powergen is owned by the German group E.ON.</p>
+<p>Calortex, Independent Energy and Midlands Electricity are owned by Npower, a subsidiary of German energy company RWE Group.</p>
+<p>ScottishPower is a subsidiary of Spanish company Iberdrola, which also owns Manweb, the energy company supplying Merseyside and North Wales.</p>
+<p>Anglian Water is owned by a consortium consisting of Canada Pension Plan Investment Board, Colonial First State Global Asset Management (owned by the Commonwealth Bank of Australia), IFM Investors (an Australian investment management firm), and 3i. The same consortium also owns Hartlepool Water.</p>
+<p>Northumbrian Water is owned by Cheung Kong Infrastructure Holdings (Hong Kong). Cheung Kong Infrastructure Holdings also owns Essex and Suffolk Water.</p>
+<p>Wessex Water is owned by YTL Corporation (Malaysia)</p>
+<p>Affinity Water is part owned by Morgan Stanley (USA).</p>
+<p>South East Water is owned by Hastings Diversified Utilities Fund/Utilities Trust of Australia.</p>
+<p>Sutton and East Surrey Water is owned by Sumitomo Corporation (Japan).</p>
+<p>Level 3 Communications (USA) owns a national optical fibre network.</p>
+<p>O2 runs a GSM-900 network and is owned by Telefónica (Spain).</p>
+<p>EE runs a GSM-1800 network and is a joint venture of Orange (France) and Deutsche Telecom (Germany)</p>
+<p>The UK’s bus and airport companies are also largely foreign owned.</p>
+<p>Arriva buses is owned by the German national rail operator Deutsche Bahn.</p>
+<p>Bus and coach companies are also owned by ComfortDelGro (Singapore), RATP (France), and Transdev (France).</p>
+<p>Heathrow, Glasgow, and Southampton airports are owned by the Spanish Ferrovial (25%), Qatar Holding (20%), and Caisse de dépôt et placement du Québec (12.62%).</p>
+<p>Gatwick airport is owned by Global Infrastructure Partners (USA).</p>
+<p>The Ontario Teachers&#8217; Pension Plan owns 48.25% of Birmingham airport.</p>
+<p>IFM Investors (Australia), in addition to part-owning Anglian Water, also owns Manchester airport, the MM6 tollway, and the telecommunications company Arqiva.</p>
+<p>All this has been the consequence of asset-stripping undertaken on a massive scale.</p>
+<p>Assets belonging to the British public were thrown (literally) into the laps of foreign companies and governments.</p>
+<p>London, for most excellent reasons, decided recently against erecting a statue of Margaret Thatcher.</p>
+<p>Given that she was the architect of so much largesse extended to the corporations and governments of other countries, there might be a slightly better chance of having this statue put up in any number of western European cities, as well as those in Japan, Australia, Canada, Malaysia, the US, China, and in Qatar and Singapore.</p>
+<p>The Iron Lady initiated an act of daylight robbery from which the owners of private wealth and the governments of other countries benefitted immensely.</p>
+<p>The British public, which owned these assets, got stiffed.</p>
+<p>All this has taken place in a context where the wealth-gap between the Have-Lots and the JAMs (Just About Managing) has grown to levels not seen since the 1930s.</p>
+					</div>
+					<div id="fb-link-page" class="text_box">
+						<a href="https://www.facebook.com/CounterPunch-official-172470146144666/"> Join the debate on Facebook </a>
+					</div>
+					<div class="post_nav">
+					</div>
+<div class="more-by-author">More articles by:<span class="post_author"><a href="https://www.counterpunch.org/author/ksurin0990/">Kenneth Surin</a></span></div>
+
+					<div>
+						<p class="author_description">
+														<em><strong>Kenneth Surin</strong> teaches at Duke University, North Carolina.  He lives in Blacksburg, Virginia.</em>
+						</p>
+					</div>
+				</div>
+			</div>
+<div id="two-col-sidebar" class="three columns">
+	<div class="nav_container_search">
+		<div class="text_box gs-box">
+			<form action="https://www.counterpunch.org/search-results/" class="custom-gs" >
+  <div>
+    <input type="hidden" name="cx" value="000357264939014560440:icshsy4bfu0" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" size="15" placeholder="Search" />  
+  </div>
+</form>
+		</div>
+	</div>
+	<div class="text_box roaming-charges">
+		<a href="https://www.counterpunch.org/category/roaming-charges"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/03/JS-buffalo.png"/> </a>
+
+<h2 class="sidebar-title">New from<br />CounterPunch</h2>
+	</div>
+	<div class="query_box" itemscope itemtype="https://schema.org/Article">
+		<div class="post_content" itemprop="articleBody">
+<a href="https://store.counterpunch.org/product/the-big-heat/"><img class="aligncenter wp-image-106090" src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2018/10/The-Big-Heat-Cover.png" alt="" width="177" height="275" srcset="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2018/10/The-Big-Heat-Cover.png 510w, https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2018/10/The-Big-Heat-Cover-193x300.png 193w" sizes="(max-width: 177px) 100vw, 177px" /></a>
+		</div>
+	</div>
+	<div class="query_box" itemscope itemtype="https://schema.org/Article">
+		<div class="post_content" itemprop="articleBody">
+<a href="https://store.counterpunch.org/product/bernie-the-sandernistas/"><img class="size-full wp-image-87432 aligncenter" src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2016/10/Bernie-the-Sandernistas-cover-344x550-e1477943826411.jpg" alt="bernie-the-sandernistas-cover-344x550" width="175" height="280" /></a>
+		</div>
+	</div>
+	<div class="text_box">
+		<div class="weekend">Weekend Edition<br>April 17, 2020<br>Friday - Sunday</div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Tamara Pearson</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/the-self-centered-rich-country-response-to-pandemics-and-crises-is-wrecking-poor-countries/">The Self-Centered Rich Country Response to Pandemics and Crises is Wrecking Poor Countries</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Rob Urie</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/never-let-a-good-waste-go-to-crisis/">Never Let a Good Waste Go to Crisis</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Steven Salaita</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/sanders-and-palestine-a-post-mortem/">Sanders and Palestine: a Post Mortem</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Jeffrey St. Clair</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/roaming-charges-bernt-offerings/">Roaming Charges: Bernt Offerings</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Kathleen Wallace</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/bernies-political-funeral-2/">Bernie’s Political Funeral </a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Paul Street</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/danger-clown-and-the-return-to-american-normalcy/">Danger Clown and the Return to American Normalcy</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">John McMurtry</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/the-unconscious-system-plague-will-covid-19-finally-awaken-us/">The Unconscious System Plague: Will Covid-19 Finally Awaken Us?</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Marshall Auerback – Jan Frel</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/the-new-fault-lines-in-a-post-globalized-world/">The New Fault Lines in a Post-Globalized World</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Andrew Levine</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/if-democrats-wont-dump-biden-they-should-at-least-keep-him-out-of-sight/">If Democrats Won’t Dump Biden, They Should At Least Keep Him Out of Sight</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Pete Dolack</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/will-the-pandemic-finish-trump-or-give-his-regime-an-escape/">Will the Pandemic Finish Trump or Give his Régime an Escape?</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">T.J. Coles</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/the-global-fragmentation-of-public-health-systems/">The Global Fragmentation of Public Health Systems</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Joseph Natoli</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/post-pandemic-post-trump/">Post-Pandemic/Post-Trump</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Ron Jacobs</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/the-sixties-in-the-city-of-the-fallen-angels/">The Sixties in the City of the Fallen Angels</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Missy Comley Beattie</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/there-is-no-hope-but-i-may-be-wrong/">“There Is No Hope, But I May Be Wrong”</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Roger Harris</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/bernie-sanders-tests-the-limits-of-the-us-political-system/">Bernie Sanders Tests the Limits of the US Political System</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Ramzy Baroud</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/spreading-the-virus-of-occupation-spitting-as-a-weapon-in-the-hand-of-colonial-israel/">Spreading the Virus of Occupation: Spitting as a Weapon in the Hand of Colonial Israel</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Medea Benjamin - Leonardo Flores</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/threatening-military-intervention-in-venezuela-during-a-pandemic/">Threatening Military Intervention in Venezuela During a Pandemic?</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Conn Hallinan</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/india-and-the-coronavirus/">India and the Coronavirus</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Emrah Yildiz</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/what-does-trumps-celebration-of-the-resurgent-dollar-tell-us-about-the-international-monetary-system/">What does Trump’s Celebration of the Resurgent Dollar Tell us about the International Monetary System?</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Sarah Anderson</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/postal-carriers-are-essential-workers-they-need-a-stimulus-too/">Postal Carriers are Essential Workers&#8230;They Need a Stimulus, Too</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Howie Wolke</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/wilderness-protects-biological-diversity/">Wilderness Protects Biological Diversity</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Jonathan Cook</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/if-coronavirus-overwhelms-gaza-israel-alone-is-to-blame/">If Coronavirus Overwhelms Gaza, Israel Alone is to Blame</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Dr. Norm Case</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/university-leader-speak-play-the-game-with-me/">University-Leader-Speak: Play the Game With Me?</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Mark Ashwill</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/view-from-vietnam-covid-19-reminds-the-world-that-donald-trump-has-no-clothes/">View From Vietnam: COVID-19 Reminds the World That Trump Has No Clothes</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Thomas Mountain</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/the-gangster-head-of-the-who/">The Gangster Head of the WHO</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Thomas S. Harrington</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/when-consumerism-locks-death-and-diminishment-away-in-the-back-room/">When Consumerism Locks Death and Diminishment Away in the Back Room</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Kathleen Wallace</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/bernies-political-funeral/">Bernie’s Political Funeral</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">John K. White</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/billionaire-games-did-you-give-away-anything-before-you-passed/">Billionaire Games: Did You Give Away Anything Before You Passed?</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">W. T. Whitney</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/as-pandemic-rages-us-economic-sanctions-against-cuba-are-deadly/">As Pandemic Rages, US Economic Sanctions Against Cuba are Deadly</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Daniel Falcone</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/richard-falk-on-world-order-and-covid-19/">Richard Falk on ‘World Order’ and COVID-19</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">John G. Russell</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/collateral-damage-and-the-war-on-covid-19/">Collateral Damage and the “War on COVID-19”</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">David Rosen</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/class-caste-and-the-end-of-the-american-dream/">Class, Caste and the End of the American Dream</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">George Wuerthner</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/the-problem-with-conservation-easements/">The Problem With Conservation Easements</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Binoy Kampmark</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/hell-is-other-people-pandemic-lifestyles-and-domestic-violence/">Hell is Other People: Pandemic Lifestyles and Domestic Violence</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Thomas Klikauer</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/corona-and-the-rise-of-the-german-police-state/">Corona and the Rise of the German Police State</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Paula Green</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/time-to-declare-an-outbreak-of-peace/">Time to Declare an Outbreak of Peace</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Kollibri terre Sonnenblume</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/eight-reasons-trump-doesnt-need-to-cancel-the-election/">Eight Reasons Trump Doesn’t Need to “Cancel the Election”</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Sonali Kolhatkar</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/can-democracy-survive-covid-19/">Can Democracy Survive COVID-19?</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Nicky Reid</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/fear-and-loathing-in-coronaville-volume-4-insanity-is-a-virtue-in-a-mad-world/">Fear and Loathing in Coronaville Volume 4: Insanity is a Virtue in a Mad World</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Kim C. Domenico</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/restoring-the-interior-commons-is-the-best-hope-for-a-human-supportive-world/">Restoring the Interior Commons is the Best Hope for A Human-Supportive World</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Jon Hochschartner</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/we-need-a-progressive-alternative-to-the-humane-society-legislative-fund/">We Need a Progressive Alternative to the Humane Society Legislative Fund</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Tom Crofton</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/so-come-and-get-me-joe/">So, Come and Get Me, Joe</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Jeff Sher</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/want-to-save-the-world-dont-buy-what-you-dont-need/">Want to Save the World? Don’t Buy What You Don’t Need</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Louis Proyect</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/syria-and-the-lust-for-power/">Syria and the Lust for Power</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">David Yearsley</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/memory-malfunkshun/">Memory Malfunkshun</a></div></div><div class="linktoarchive-rbar"><a href="https://counterpunch.org/archives">Find All Articles</a></div>
+	</div>
+</div>
+		</div>
+	</div>
+</div>
+<div class="wrap row">
+	<div id="footer_area" class="twelve columns">
+<div id="footer-single" class="twelve columns">
+	<div class="text_box">
+		<div id="footer-1" class="three columns">
+					<h4>CounterPunch</h4>
+				    Tells the Facts and Names the Names<br>
+       				 Published since 1996<br>
+         			 Copyright © CounterPunch<br>
+	   				 All rights reserved.<br>
+	    			<a href="mailto:counterpunch@counterpunch.org">counterpunch@counterpunch.org</a>   </div>
+           
+           <div id="footer-2" class="two columns">
+           <h4>Mailing Address</h4>
+			  CounterPunch<br>
+				  PO Box 228<br>
+				Petrolia, CA 95558
+				<h4>Telephone</h4>
+				  1(707) 629-3683</div>
+				
+				<div id="footer-3" class="two columns">
+				<h4>Editorial</h4>
+	 Jeffrey St. Clair, Editor<br>
+            Joshua Frank, Managing Editor<br>
+         Nathaniel St. Clair, Social Media<br>
+          Alexander Cockburn, 1941-2012 <br /></div>
+          <div id="footer-4" class="three columns">
+          <h4>Business</h4>
+          Becky Grant<br>
+          Business Manager<br>
+          <a href="mailto:counterpunchbiz@gmail.com">counterpunchbiz@gmail.com</a><br>
+          Deva Wheeler<br>
+          Subscription and merchandise fulfillment<br>
+          <a href="mailto:counterpunchdeva@gmail.com">counterpunchdeva@gmail.com</a>		</div>
+          <div id="footer-5"> 
+<div><a href="https://visitor.r20.constantcontact.com/d.jsp?llr=ltx99deab&#038;p=oi&#038;m=1103935397483&#038;sit=kg4ybrrfb&#038;f=ee7e5b5e-2748-49b8-aec9-56dde4e38a63"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2014/04/JoinList-new.png"/></a></div></div>
+	</div>
+</div>
+	</div>
+</div>
+<script type='text/javascript' src='https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1'></script>
+<script type='text/javascript' data-cfasync="false" id="omapi-script" async="async" src='https://a.opmnstr.com/app/js/api.min.js'></script>
+<script type='text/javascript' src='https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
+<div class="a2a_kit a2a_kit_size_ a2a_floating_style a2a_default_style" style="bottom:0px;right:0px;background-color:transparent;"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fwww.counterpunch.org%2F2019%2F03%2F20%2Fukanias-great-privatization-heist%2F&amp;linkname=Ukania%26%23039%3Bs%20Great%20Privatization%20Heist%20-%20CounterPunch.org" title="Facebook" rel="nofollow noopener" target="_blank"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2015/09/facebook.png" alt="Facebook"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fwww.counterpunch.org%2F2019%2F03%2F20%2Fukanias-great-privatization-heist%2F&amp;linkname=Ukania%26%23039%3Bs%20Great%20Privatization%20Heist%20-%20CounterPunch.org" title="Twitter" rel="nofollow noopener" target="_blank"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2015/09/twitter.png" alt="Twitter"></a><a class="a2a_button_reddit" href="https://www.addtoany.com/add_to/reddit?linkurl=https%3A%2F%2Fwww.counterpunch.org%2F2019%2F03%2F20%2Fukanias-great-privatization-heist%2F&amp;linkname=Ukania%26%23039%3Bs%20Great%20Privatization%20Heist%20-%20CounterPunch.org" title="Reddit" rel="nofollow noopener" target="_blank"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2015/09/reddit.png" alt="Reddit"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fwww.counterpunch.org%2F2019%2F03%2F20%2Fukanias-great-privatization-heist%2F&amp;linkname=Ukania%26%23039%3Bs%20Great%20Privatization%20Heist%20-%20CounterPunch.org" title="Email" rel="nofollow noopener" target="_blank"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2015/09/email.png" alt="Email"></a></div><!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blaster for GDPR --><script type="text/javascript" src="https://a.opmnstr.com/app/js/api.min.js" data-campaign="ba0ghopza4hc6jblcbbr" data-user="11179"></script><!-- / OptinMonster --><!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: CP blaster 2.0 --><script type="text/javascript" src="https://a.opmnstr.com/app/js/api.min.js" data-campaign="bxznqekxzkzx44xgqkbr" data-user="11179"></script><!-- / OptinMonster -->		<script type="text/javascript">var ba0ghopza4hc6jblcbbr_shortcode = true;var bxznqekxzkzx44xgqkbr_shortcode = true;</script>
+		<script type='text/javascript' src='https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/plugins/optinmonster/assets/js/helper.js?ver=1.9.6'></script>
+		<script type="text/javascript">var omapi_localized = { ajax: 'https://www.counterpunch.org/wp-admin/admin-ajax.php?optin-monster-ajax-route=1', nonce: 'c2fb11e636', slugs: {"ba0ghopza4hc6jblcbbr":{"slug":"ba0ghopza4hc6jblcbbr","mailpoet":false},"bxznqekxzkzx44xgqkbr":{"slug":"bxznqekxzkzx44xgqkbr","mailpoet":false}} };</script>
+				<script type="text/javascript">var omapi_data = {"wc_cart":[],"object_id":110133,"object_key":"post","object_type":"post","term_ids":[5249,5228,5227]};</script>
+		</body>
 </html>

@@ -1,6 +1,7 @@
+import asyncio
+import concurrent.futures
 import requests
 import csv
-from bs4 import BeautifulSoup
 from newspaper import Article, fulltext
 import re
 import os
@@ -8,42 +9,16 @@ from glob import glob
 import json
 
 def main():
-    allsides_article_links_path = 'allsides_article_links.txt'
-    if not os.path.exists(allsides_article_links_path):
-        topics_urls = get_topic_links()
-        article_links = []
-        for topic_url in topics_urls:
-            print(topic_url)
-            article_links += get_allsides_article_links(topic_url)
-        with open(allsides_article_links_path, 'w') as articles_file:
-            for link in set(article_links):
-                articles_file.write(f'{link}\n')
-    
-    news_articles_and_ratings_path = 'articles_and_ratings.csv'
-    if not os.path.exists(news_articles_and_ratings_path):
-        articles_and_ratings = None
-        with open(allsides_article_links_path, 'r') as articles_file:
-            articles_and_ratings = [get_original_link_and_rating(allsides_link) \
-                                    for allsides_link in set(articles_file.read().splitlines())]
-                                    
-        
-        with open(news_articles_and_ratings_path, 'w') as link_and_rating_file:
-            for link, rating in set(articles_and_ratings):
-                if link != None and rating != None:
-                    link_and_rating_file.write(f'"{link}",{rating}\n')
+    dataset_path = 'ad_fontes_media_dataset.csv'
     
     if not os.path.exists('classifier_test_articles/'):
-        with open(news_articles_and_ratings_path, 'r') as articles_file:
+        # Fake a browser session to avoid 403 errors
+        with open(dataset_path, 'r') as articles_file:
             os.mkdir('classifier_test_articles/')
-            link_rating_content = []
-            for i, (link, rating) in enumerate(csv.reader(articles_file, delimiter=',', quotechar='"')):
-                try:
-                    print(i, link)
-                    webpage = requests.get(link, timeout=20).content
-                    link_rating_content.append((link, rating, webpage))
-                except:
-                    print('Request timed out! Skipping...')
-        for i, (link, rating, webpage) in enumerate(link_rating_content):
+            links_and_ratings = [(link, rating) for (_, link, rating, _) in csv.reader(articles_file, delimiter=',', quotechar='"')][1:]
+            links_ratings_content = parallel_requests(links_and_ratings)
+
+        for i, (link, rating, webpage) in enumerate(links_ratings_content):
             article_dir = f'classifier_test_articles/{i}/'
             if not os.path.exists(article_dir):
                 os.mkdir(article_dir)
@@ -53,21 +28,29 @@ def main():
 
     if not os.path.exists('classifier_test_articles.json'):
         articles_info = []
+        error_regex = re.compile('^(Are you a robot)|(ERROR)|(403)|(Page Not Found)|(Access Denied)(Site Not Configured).*')
         for article_dir in sorted(glob('classifier_test_articles/*/')):
             article = Article(url=open(article_dir + 'link').read())
             article.download(input_html=open(article_dir + 'webpage').read())
             article.parse()
             article.nlp()
-            article_json = {'rating': int(open(article_dir + 'rating').read().strip()),
+            if error_regex.match(article.title):
+                continue
+
+            article_json = {'title' : article.title,
+                            'rating': float(open(article_dir + 'rating').read().strip()),
                             'link': open(article_dir + 'link').read(),
                             'text' : article.text, 
                             'authors': article.authors,
                             'summary': article.summary,
                             'keywords': list(article.keywords),
                             'tags': list(article.tags)}
-            print(article.summary)
+            print(article.title)
+            if article.title == '':
+                print(f'  {article.text}')
             articles_info.append(article_json)
-
+            with open(article_dir + 'title', 'w') as file:
+                file.write(article.title)
             with open(article_dir + 'text', 'w') as file:
                 file.write(article.text)
             with open(article_dir + 'authors', 'w') as file:
@@ -83,59 +66,46 @@ def main():
                     file.write(f'{tag}\n')
         json.dump(articles_info, indent=4, sort_keys=True, fp=open('classifier_test_articles.json', 'w'))
     articles_info_json = json.load(open('classifier_test_articles.json', 'r'))
-    left, center, right = 0,0,0
+    left, right = 0,0
     for article in articles_info_json:
         if article['rating'] < 0:
             left += 1    
-        elif article['rating'] == 0:
-            center += 1
         else:
             right += 1
 
     print(f'left={left}')
-    print(f'center={center}')
     print(f'right={right}')
 
 
+def parallel_requests(urls_and_ratings):
+    loop = asyncio.get_event_loop()
+    return loop.run_until_complete(parallel_requests_async(urls_and_ratings))
 
-def get_topic_links():
-    topics_page = requests.get('https://www.allsides.com/topics-issues')
-    soup = BeautifulSoup(topics_page.content, 'html.parser')
-    urls = [a.get('href') for a in soup.find_all('a')]
+async def parallel_requests_async(urls_and_ratings):
+    headers = {'user-agent' : 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36'}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
 
-    topics_url_regex = re.compile('^topics/.*')
-    topics_urls = [f'https://www.allsides.com/{url}' for url in urls if topics_url_regex.match(str(url))]
-    return topics_urls
+        def __get_request(i, url, rating):
+            try:
+                print(f'{i} {url}')
+                return url, rating, requests.get(url, timeout=20, headers=headers)
+            except Exception as e:
+                print(e)
+                print('Timed out retrieving ' + url)
+            return None
 
-def get_allsides_article_links(topic_url):
-    topic_page = requests.get(topic_url)
-    soup = BeautifulSoup(topic_page.content, 'html.parser')
-    
-    content_wrappers = soup.find('div', {'class': 'region-triptych-left'}).find_all('div',{'class': 'top-content-wrapper'})
-    content_wrappers += soup.find('div', {'class': 'region-triptych-center'}).find_all('div',{'class': 'top-content-wrapper'})
-    content_wrappers += soup.find('div', {'class': 'region-triptych-right'}).find_all('div',{'class': 'top-content-wrapper'})
-
-    return [wrapper.find('a').get('href') for wrapper in content_wrappers]
-
-ratings_map = {
-    'Left' : -2,
-    'Lean Left' : -1,
-    'Center' : 0,
-    'Lean Right' : 1,
-    'Right' : 2
-}
-def get_original_link_and_rating(allsides_link):
-    print(allsides_link)
-    try:
-        soup = BeautifulSoup(requests.get(allsides_link).content, 'html.parser')
-        rating_text = soup.find('div', {'class' : 'article-media-bias-'}).find('a').getText()
-        original_link = soup.find('div', {'class' : 'read-more-story'}).find('a').get('href')
-        print(f'  {rating_text}')
-        print(f'  {(original_link, ratings_map[rating_text])}')
-        return original_link, ratings_map[rating_text]
-    except:
-        print('Exception occurred! Skipping...')
-    return None, None
+        loop = asyncio.get_event_loop()
+        futures = [
+            loop.run_in_executor(
+                executor, 
+                __get_request,
+                i,
+                url,
+                rating)
+            for i, (url, rating) in enumerate(urls_and_ratings)
+        ]
+        return [(response[0], response[1], response[2].content) \
+                 for response in await asyncio.gather(*futures) if response != None]
 
 
 if __name__ == "__main__":

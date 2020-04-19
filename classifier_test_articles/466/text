@@ -1,17 +1,29 @@
-Turn on the TV these days and you are bound to catch one of the Cuomo brothers inveighing against the “selfish.” Chris Cuomo on CNN harangues any one who dares suggest that America restart its economy, while Andrew Cuomo delivers lectures on the importance of staying home lest one expose the elderly to illness. Both brothers have inherited their father’s penchant for high and moralistic rhetoric. They have also inherited his incoherent moral philosophy.
+Security researcher John Page warns that Microsoft's Internet Explorer has a critical security flaw that allows hackers to spy on you and steal personal data from your PC. That warning may seem irrelevant to you since Internet Explorer was officially discontinued in 2015. It's now an archaic web browser, only in use by about 7% of Windows users. But if take into account the total market share of Windows 7 and Windows 10, the legacy web browser is installed on more than 1 billion computers. Why does this matter? Because the flaw that's been discovered can be exploited even if you never intentionally use Internet Explorer.
 
-Mario Cuomo was given to flowery denunciations on many subjects, but not abortion. There he would fall silent and simply say that he is “personally opposed” to it. His sons don’t even maintain that conceit. Andrew and Chris are both personally and publicly supportive of abortion.
+Yikes.
 
-Recall Andrew’s comment that pro-lifers don’t even belong in New York: “Who are they? Are they these extreme conservatives who are right-to-life, pro-assault-weapon and anti-gay? Is that who they are? Because if that’s who they are, and they’re the extreme conservatives, they have no place in the state of New York, because that’s not who New Yorkers are.”
+As Page explains (via ZDNet), the vulnerability taps into a file extension known as .MHT, which is a format used by Internet Explorer to handle archived web pages. If you were to launch Internet Explorer and save a web page, this is one of the file extensions that could be used.
 
-Last year, he signed into law the most liberal abortion law in the country. “Today we are taking a giant step forward in the hard-fought battle to ensure a woman’s right to make her own decisions about her own personal health, including the ability to access an abortion,” Cuomo said. “With the signing of this bill, we are sending a clear message that whatever happens in Washington, women in New York will always have the fundamental right to control their own body.”
+And if someone were to send you a malicious .MHT file (perhaps disguised as a download link or an email attachment), Internet Explorer would be the default application to open it.
 
-After passage of the law, he ordered, “I am directing that New York’s landmarks be lit in pink to celebrate this achievement and shine a bright light forward for the rest of the nation to follow.”
+According to Page, once a user opens this malicious .MHT file, the specific flaw in the code relies on the user to first issue certain keystrokes first, such as CTRL+K (to duplicate a tab) or various Print commands. At that point, an external attacker can "exfiltrate local files and conduct remote reconnaissance."
 
-Part of his justification for abortion rights is that women need them in order to have careers. In other words, he is perfectly willing to sacrifice unborn children for the perceived economic good of women — a line of reasoning that he rejects in the case of the elderly. At a press conference this week, he said he would not put the “elderly at risk” in order to “boost the economy.” He said, “That’s not who we are.”
+That already sounds scary, but then Page says that a simple javascript call within the file (such as invoking the Print Preview function) can do this automatically and without user interaction.
 
-Actually, it is. New York is responsible for many of the abortions in America today.
+And if that isn't enough, Page drops this bomb:
 
-“My mother is not expendable and your mother is not expendable and our brothers and sisters are not expendable, and we’re not going to accept a premise that human life is disposable, and we’re not going to put a dollar figure on human life,” Cuomo said this week. “You can do both but not in a clumsy, ham-handed way. ‘Well, we’ll just sacrifice old people; they’re old people anyway and the old get left behind.’ What is this? Some modern Darwinian theory of natural selection? You can’t keep up so the band is going to leave you behind? God forbid.”
+"Typically, when instantiating ActiveX Objects [...] users will get a security warning bar in IE and be prompted to activate blocked content. However, when opening a specially crafted .MHT file using malicious < xml > markup tags the user will get no such active content or security bar warnings."
 
-Cuomo would never extend this ethic of life to the unborn. He finds them highly “expendable.”
+Page demonstrates this via a YouTube video which shows the attack succeeding even with Windows SmartScreen activated. He says the exploit applies to Windows 7, Windows 10 and Windows Server 2012.
+
+Microsoft's Response
+
+Mr. Page says the reason he publicly disclosed this exploit -- and the accompanying code to pull it off -- is because Microsoft acknowledged the threat but refused to treat it as an urgent matter. Page notified Microsoft on March 27, and Microsoft opened a case the next day. Here is the response Page received from Microsoft on April 10:
+
+"We determined that a fix for this issue will be considered in a future version of this product or service. At this time, we will not be providing ongoing updates of the status of the fix for this issue, and we have closed this case."
+
+Some interesting context: 2 months ago Microsoft published a blog post titled "The perils of using Internet Explorer as your default browser." In it, Microsoft writes that it is "committed to keeping Internet Explorer a supported, reliable, and safe browser."
+
+Right now Internet Explorer is included in Windows as nothing more than a compatibility solution, but with vulnerabilities like this popping up, you should seriously just disable or delete it. Between Windows Updates, supply chain attacks and malware spreading via popular file-sharing websites, you already have enough to worry about.
+
+To disable Internet Explorer on Windows 10, follow Microsoft's suggested steps:

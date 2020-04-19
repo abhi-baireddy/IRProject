@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"d13870c224",applicationID:"65778885"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Supreme Court Won't Hear Hawaii B&B's 'Right to Discriminate' Case</title>
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Advocate">
+<meta property="fb:app_id" content="1792303797674941" />
+<meta property="fb:page_id" content="6030918854" />
+<link rel="shortcut icon" sizes="152x152" href="/sites/advocate.com/themes/advocate/apple-touch-icon-152.png">
+<link rel="apple-touch-icon-precomposed" href="/sites/advocate.com/themes/advocate/apple-touch-icon-152.png">
+<!--[if IE]><![endif]-->
+<link rel="preconnect" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="preconnect" href="//fonts.gstatic.com" crossorigin="" />
+<link rel="dns-prefetch" href="//fonts.gstatic.com" />
+<link rel="preconnect" href="//native.sharethrough.com" />
+<link rel="dns-prefetch" href="//native.sharethrough.com" />
+<link rel="preconnect" href="//sadmin.brightcove.com" />
+<link rel="dns-prefetch" href="//sadmin.brightcove.com" />
+<link rel="preconnect" href="//google_tag" />
+<link rel="dns-prefetch" href="//google_tag" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="fb:pages" content="6030918854" />
+<link rel="canonical" href="https://www.advocate.com/news/2019/3/19/supreme-court-wont-hear-hawaii-bbs-right-discriminate-case" />
+<link rel="shortlink" href="/node/1041946" />
+<link rel="amphtml" href="https://www.advocate.com/news/2019/3/19/supreme-court-wont-hear-hawaii-bbs-right-discriminate-case?amp" />
+<link rel="shortcut icon" href="https://www.advocate.com/sites/advocate.com/themes/advocate/favicon.ico" type="image/vnd.microsoft.icon" />
+<script type="text/javascript">dataLayer = [{"drupalLanguage":"en","drupalCountry":"US","heremediaAuthor":"Trudy Ring","heremediaContentType":"article","entityLanguage":"und","entityTnid":"0","entityVid":"1846211","entityName":"Trudy Ring","entityUid":"10641","entityCreated":"1552996989","entityStatus":"1","entityType":"node","entityBundle":"article","entityId":"1041946","entityLabel":"Supreme Court Won\u0027t Hear Hawaii B\u0026B\u0027s \u0027Right to Discriminate\u0027 Case","userUid":0}];</script>
+<meta name="description" content="This means a lower court&#039;s ruling that the B&amp;B unlawfully discriminated against a lesbian couple will stand." />
+<script type="text/javascript">
+
+  var PREBID_TIMEOUT = 500;
+
+  var referrer = 'none';
+  if (document.referrer) {
+    url = document.referrer;
+    referrer = url.match(/:\/\/(.[^/]+)/)[1];
+  }
+
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  googletag.slots = googletag.slots || {};
+  var browser_width= window.innerWidth && document.documentElement.clientWidth ? Math.min(window.innerWidth, document.documentElement.clientWidth) : window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName('body')[0].clientWidth;
+
+  /* pbjs.initAdserver will be called either when all bids are back, or
+   when the timeout is reached.
+   */
+  function initAdserver() {
+    if (pbjs.initAdserverSet) return;
+
+    googletag.cmd.push(function () {
+      pbjs.que.push(function () {
+        pbjs.setTargetingForGPTAsync();
+      });
+    });
+    pbjs.initAdserverSet = true;
+  }
+
+  // Load GPT when timeout is reached.
+  setTimeout(initAdserver, PREBID_TIMEOUT);
+
+  var pbjs = pbjs || {};
+  pbjs.que = pbjs.que || [];
+
+  // Load the Prebid Javascript Library Async. We recommend loading it immediately after
+  // the initAdserver() and setTimeout functions.
+  (function () {
+    var d = document;
+    var pbs = d.createElement("script");
+    pbs.type = "text/javascript";
+    pbs.src = '/sites/all/libraries/prebid/prebid2.11.0.js';
+    var target = d.getElementsByTagName("head")[0];
+    target.insertBefore(pbs, target.firstChild);
+  })();
+
+  //load GPT library here
+  (function () {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+
+  pbjs.que.push(function () {
+      
+    param_article_leaderboard_sovrn = {tagid: '401183'};
+          
+    param_article_leaderboard_rubicon = {accountId: '10748', siteId: '71944', zoneId: '342708'};
+        
+      
+    if(browser_width >= 1 ){
+        size_article_leaderboard = [320, 50];
+            
+        param_article_leaderboard_sovrn = {tagid: '401184'};
+                  
+        param_article_leaderboard_rubicon = {accountId: '10748', siteId: '76814', zoneId: '362272'};
+                  
+    }
+    
+    if(browser_width >= 481 ){
+        size_article_leaderboard = [320, 50];
+            
+        param_article_leaderboard_sovrn = {tagid: '401184'};
+                  
+        param_article_leaderboard_rubicon = {accountId: '10748', siteId: '76814', zoneId: '362272'};
+                  
+    }
+    
+    if(browser_width >= 768 ){
+        size_article_leaderboard = [[728, 90], [970, 90], [970, 60], [970, 66]];
+            
+        param_article_leaderboard_sovrn = {tagid: '401183'};
+                  
+        param_article_leaderboard_rubicon = {accountId: '10748', siteId: '71944', zoneId: '342708'};
+                  
+    }
+    
+    if(browser_width >= 992 ){
+        size_article_leaderboard = [[728, 90], [970, 250], [970, 90], [970, 60], [970, 66]];
+            
+        param_article_leaderboard_sovrn = {tagid: '401183'};
+                  
+        param_article_leaderboard_rubicon = {accountId: '10748', siteId: '71944', zoneId: '342708'};
+                  
+    }
+            
+    param_article_bigbox_top_sovrn = {tagid: '401173'};
+        param_article_bigbox_top_sovrn_2 = {tagid: '401174'};
+          
+    param_article_bigbox_top_rubicon = {accountId: '10748', siteId: '71944', zoneId: '342708'};
+        
+      
+    if(browser_width >= 1 ){
+        size_article_bigbox_top = [300, 250];
+                        
+        param_article_bigbox_top_rubicon = {accountId: '10748', siteId: '76814', zoneId: '362272'};
+                  
+    }
+    
+    if(browser_width >= 481 ){
+        size_article_bigbox_top = [300, 250];
+                        
+        param_article_bigbox_top_rubicon = {accountId: '10748', siteId: '76814', zoneId: '362272'};
+                  
+    }
+    
+    if(browser_width >= 768 ){
+        size_article_bigbox_top = [300, 250];
+                        
+        param_article_bigbox_top_rubicon = {accountId: '10748', siteId: '71944', zoneId: '342708'};
+                  
+    }
+    
+    if(browser_width >= 992 ){
+        size_article_bigbox_top = [300, 250];
+                        
+        param_article_bigbox_top_rubicon = {accountId: '10748', siteId: '71944', zoneId: '342708'};
+                  
+    }
+            
+    param_article_bigbox_mid_sovrn = {tagid: '394260'};
+        param_article_bigbox_mid_sovrn_2 = {tagid: '401172'};
+          
+    param_article_bigbox_mid_rubicon = {accountId: '10748', siteId: '71944', zoneId: '342710'};
+        
+      
+    if(browser_width >= 1 ){
+        size_article_bigbox_mid = [[300, 250], [300, 600]];
+                        
+        param_article_bigbox_mid_rubicon = {accountId: '10748', siteId: '76814', zoneId: '362274'};
+                  
+    }
+    
+    if(browser_width >= 481 ){
+        size_article_bigbox_mid = [[300, 250], [300, 600]];
+                        
+        param_article_bigbox_mid_rubicon = {accountId: '10748', siteId: '76814', zoneId: '362274'};
+                  
+    }
+    
+    if(browser_width >= 768 ){
+        size_article_bigbox_mid = [[300, 250], [300, 600]];
+                        
+        param_article_bigbox_mid_rubicon = {accountId: '10748', siteId: '71944', zoneId: '342710'};
+                  
+    }
+    
+    if(browser_width >= 992 ){
+        size_article_bigbox_mid = [[300, 250], [300, 600]];
+                        
+        param_article_bigbox_mid_rubicon = {accountId: '10748', siteId: '71944', zoneId: '342710'};
+                  
+    }
+          
+      
+      
+        
+    param_article_latest_initial_right_sovrn = {tagid: '401175'};
+        param_article_latest_initial_right_sovrn_2 = {tagid: '401176'};
+          
+    param_article_latest_initial_right_rubicon = {accountId: '10748', siteId: '71944', zoneId: '342710'};
+        
+      
+    if(browser_width >= 1 ){
+        size_article_latest_initial_right = [[300, 250], [300, 600]];
+                        
+        param_article_latest_initial_right_rubicon = {accountId: '10748', siteId: '76814', zoneId: '362274'};
+                  
+    }
+    
+    if(browser_width >= 481 ){
+        size_article_latest_initial_right = [[300, 250], [300, 600]];
+                        
+        param_article_latest_initial_right_rubicon = {accountId: '10748', siteId: '76814', zoneId: '362274'};
+                  
+    }
+    
+    if(browser_width >= 768 ){
+        size_article_latest_initial_right = [[300, 250], [300, 600]];
+                        
+        param_article_latest_initial_right_rubicon = {accountId: '10748', siteId: '71944', zoneId: '342710'};
+                  
+    }
+    
+    if(browser_width >= 992 ){
+        size_article_latest_initial_right = [[300, 250], [300, 600]];
+                        
+        param_article_latest_initial_right_rubicon = {accountId: '10748', siteId: '71944', zoneId: '342710'};
+                  
+    }
+            
+    param_article_latest_initial_left_sovrn = {tagid: '401177'};
+        param_article_latest_initial_left_sovrn_2 = {tagid: '401178'};
+          
+    param_article_latest_initial_left_rubicon = {accountId: '10748', siteId: '71944', zoneId: '342710'};
+        
+      
+    if(browser_width >= 1 ){
+        size_article_latest_initial_left = [[300, 600], [300, 250]];
+                        
+        param_article_latest_initial_left_rubicon = {accountId: '10748', siteId: '76814', zoneId: '362274'};
+                  
+    }
+    
+    if(browser_width >= 481 ){
+        size_article_latest_initial_left = [[300, 600], [300, 250]];
+                        
+        param_article_latest_initial_left_rubicon = {accountId: '10748', siteId: '76814', zoneId: '362274'};
+                  
+    }
+    
+    if(browser_width >= 768 ){
+        size_article_latest_initial_left = [[300, 600], [300, 250]];
+                        
+        param_article_latest_initial_left_rubicon = {accountId: '10748', siteId: '71944', zoneId: '342710'};
+                  
+    }
+    
+    if(browser_width >= 992 ){
+        size_article_latest_initial_left = [[300, 600], [300, 250]];
+                        
+        param_article_latest_initial_left_rubicon = {accountId: '10748', siteId: '71944', zoneId: '342710'};
+                  
+    }
+            
+    param_article_latest_continuous_right_sovrn = {tagid: '401179'};
+        param_article_latest_continuous_right_sovrn_2 = {tagid: '401180'};
+          
+    param_article_latest_continuous_right_rubicon = {accountId: '10748', siteId: '71944', zoneId: '342710'};
+        
+      
+    if(browser_width >= 1 ){
+        size_article_latest_continuous_right = [[300, 250], [300, 600]];
+                        
+        param_article_latest_continuous_right_rubicon = {accountId: '10748', siteId: '76814', zoneId: '362274'};
+                  
+    }
+    
+    if(browser_width >= 481 ){
+        size_article_latest_continuous_right = [[300, 250], [300, 600]];
+                        
+        param_article_latest_continuous_right_rubicon = {accountId: '10748', siteId: '76814', zoneId: '362274'};
+                  
+    }
+    
+    if(browser_width >= 768 ){
+        size_article_latest_continuous_right = [[300, 250], [300, 600]];
+                        
+        param_article_latest_continuous_right_rubicon = {accountId: '10748', siteId: '71944', zoneId: '342710'};
+                  
+    }
+    
+    if(browser_width >= 992 ){
+        size_article_latest_continuous_right = [[300, 250], [300, 600]];
+                        
+        param_article_latest_continuous_right_rubicon = {accountId: '10748', siteId: '71944', zoneId: '342710'};
+                  
+    }
+            
+    param_article_latest_continuous_left_sovrn = {tagid: '401181'};
+        param_article_latest_continuous_left_sovrn_2 = {tagid: '401182'};
+          
+    param_article_latest_continuous_left_rubicon = {accountId: '10748', siteId: '71944', zoneId: '342710'};
+        
+      
+    if(browser_width >= 1 ){
+        size_article_latest_continuous_left = [[300, 600], [300, 250]];
+                        
+        param_article_latest_continuous_left_rubicon = {accountId: '10748', siteId: '76814', zoneId: '362274'};
+                  
+    }
+    
+    if(browser_width >= 481 ){
+        size_article_latest_continuous_left = [[300, 600], [300, 250]];
+                        
+        param_article_latest_continuous_left_rubicon = {accountId: '10748', siteId: '76814', zoneId: '362274'};
+                  
+    }
+    
+    if(browser_width >= 768 ){
+        size_article_latest_continuous_left = [[300, 600], [300, 250]];
+                        
+        param_article_latest_continuous_left_rubicon = {accountId: '10748', siteId: '71944', zoneId: '342710'};
+                  
+    }
+    
+    if(browser_width >= 992 ){
+        size_article_latest_continuous_left = [[300, 600], [300, 250]];
+                        
+        param_article_latest_continuous_left_rubicon = {accountId: '10748', siteId: '71944', zoneId: '342710'};
+                  
+    }
+      
+    var adUnits = [
+              
+      
+      {
+        code: 'dfp-ad-article_leaderboard',
+        sizes: size_article_leaderboard,
+        bids: [
+                              
+          {
+            bidder: 'sovrn',
+            params: param_article_leaderboard_sovrn            
+          }
+          
+          ,
+                    
+          {
+            bidder: 'rubicon',
+            params: param_article_leaderboard_rubicon            
+          }
+          
+          
+          
+        ]
+      }
+
+                
+      ,
+      {
+        code: 'dfp-ad-article_bigbox_top',
+        sizes: size_article_bigbox_top,
+        bids: [
+                              
+          {
+            bidder: 'sovrn',
+            params: param_article_bigbox_top_sovrn            
+          }
+                    
+,          {
+            bidder: 'sovrn',
+            params: param_article_bigbox_top_sovrn_2            
+          }
+          
+          ,
+                    
+          {
+            bidder: 'rubicon',
+            params: param_article_bigbox_top_rubicon            
+          }
+          
+          
+          
+        ]
+      }
+
+                
+      ,
+      {
+        code: 'dfp-ad-article_bigbox_mid',
+        sizes: size_article_bigbox_mid,
+        bids: [
+                              
+          {
+            bidder: 'sovrn',
+            params: param_article_bigbox_mid_sovrn            
+          }
+                    
+,          {
+            bidder: 'sovrn',
+            params: param_article_bigbox_mid_sovrn_2            
+          }
+          
+          ,
+                    
+          {
+            bidder: 'rubicon',
+            params: param_article_bigbox_mid_rubicon            
+          }
+          
+          
+          
+        ]
+      }
+
+                                              
+      ,
+      {
+        code: 'dfp-ad-article_latest_initial_right',
+        sizes: size_article_latest_initial_right,
+        bids: [
+                              
+          {
+            bidder: 'sovrn',
+            params: param_article_latest_initial_right_sovrn            
+          }
+                    
+,          {
+            bidder: 'sovrn',
+            params: param_article_latest_initial_right_sovrn_2            
+          }
+          
+          ,
+                    
+          {
+            bidder: 'rubicon',
+            params: param_article_latest_initial_right_rubicon            
+          }
+          
+          
+          
+        ]
+      }
+
+                
+      ,
+      {
+        code: 'dfp-ad-article_latest_initial_left',
+        sizes: size_article_latest_initial_left,
+        bids: [
+                              
+          {
+            bidder: 'sovrn',
+            params: param_article_latest_initial_left_sovrn            
+          }
+                    
+,          {
+            bidder: 'sovrn',
+            params: param_article_latest_initial_left_sovrn_2            
+          }
+          
+          ,
+                    
+          {
+            bidder: 'rubicon',
+            params: param_article_latest_initial_left_rubicon            
+          }
+          
+          
+          
+        ]
+      }
+
+                              
+    ];
+
+    //add the adUnits
+    pbjs.addAdUnits(adUnits);
+
+    /* Request bids for the added ad units. If adUnits or adUnitCodes are
+     not specified, the function will request bids for all added ad units.
+     */
+    pbjs.requestBids({
+
+      /* The bidsBack function will be called when either timeout is
+       reached, or when all bids come back, whichever happens sooner.
+       */
+      bidsBackHandler: function (bidResponses) {
+        initAdserver();
+
+      }
+    });
+
+  });
+
+googletag.cmd.push(function () {
+
+var mapping = googletag.sizeMapping()
+  .addSize([1, 1], [320, 50])
+  .addSize([481, 1], [320, 50])
+  .addSize([768, 1], [[728, 90], [970, 90], [970, 60], [970, 66]])
+  .addSize([992, 1], [[728, 90], [970, 250], [970, 90], [970, 60], [970, 66]])
+  .build();
+googletag.slots["article_leaderboard"] = googletag.defineSlot("/6850/here.advocate/article/leaderboard", [[728, 90], [970, 250], [970, 90], [970, 60], [970, 66]], "dfp-ad-article_leaderboard")
+  .addService(googletag.pubads())
+  .setTargeting("pos", ["top"])
+  .defineSizeMapping(mapping);
+
+var mapping = googletag.sizeMapping()
+  .addSize([1, 1], [300, 250])
+  .addSize([481, 1], [300, 250])
+  .addSize([768, 1], [300, 250])
+  .addSize([992, 1], [300, 250])
+  .build();
+googletag.slots["article_bigbox_top"] = googletag.defineSlot("/6850/here.advocate/article/bigbox_top", [300, 250], "dfp-ad-article_bigbox_top")
+  .addService(googletag.pubads())
+  .setTargeting("pos", ["top"])
+  .defineSizeMapping(mapping);
+
+var mapping = googletag.sizeMapping()
+  .addSize([1, 1], [[300, 250], [300, 600]])
+  .addSize([481, 1], [[300, 250], [300, 600]])
+  .addSize([768, 1], [[300, 250], [300, 600]])
+  .addSize([992, 1], [[300, 250], [300, 600]])
+  .build();
+googletag.slots["article_bigbox_mid"] = googletag.defineSlot("/6850/here.advocate/article/bigbox_mid", [[300, 250], [300, 600]], "dfp-ad-article_bigbox_mid")
+  .addService(googletag.pubads())
+  .setTargeting("pos", ["right"])
+  .defineSizeMapping(mapping);
+
+googletag.slots["article_wallpaper"] = googletag.defineSlot("/6850/here.advocate/article/wallpaper", [1, 1], "dfp-ad-article_wallpaper")
+  .addService(googletag.pubads())
+  .setTargeting("pos", ["bottom"]);
+
+var mapping = googletag.sizeMapping()
+  .addSize([1, 1], [300, 250])
+  .addSize([481, 1], [300, 250])
+  .addSize([768, 1], [300, 250])
+  .addSize([992, 1], [300, 250])
+  .build();
+googletag.slots["article_native_1"] = googletag.defineSlot("/6850/here.advocate/article/native_1", [300, 250], "dfp-ad-article_native_1")
+  .addService(googletag.pubads())
+  .setTargeting("strnativekey", ["ShSaCAUbrX1egxGmpwyoYmDE"])
+  .defineSizeMapping(mapping);
+
+var mapping = googletag.sizeMapping()
+  .addSize([1, 1], [300, 250])
+  .addSize([481, 1], [300, 250])
+  .addSize([768, 1], [300, 250])
+  .addSize([992, 1], [300, 250])
+  .build();
+googletag.slots["article_native_2"] = googletag.defineSlot("/6850/here.advocate/article/native_2", [300, 250], "dfp-ad-article_native_2")
+  .addService(googletag.pubads())
+  .setTargeting("strnativekey", ["Kn7ULDjsSdcwTtkodjhQKXc2"])
+  .defineSizeMapping(mapping);
+
+var mapping = googletag.sizeMapping()
+  .addSize([1, 1], [[300, 250], [300, 600]])
+  .addSize([481, 1], [[300, 250], [300, 600]])
+  .addSize([768, 1], [[300, 250], [300, 600]])
+  .addSize([992, 1], [[300, 250], [300, 600]])
+  .build();
+googletag.slots["article_latest_initial_right"] = googletag.defineSlot("/6850/here.advocate/article/latest_initial_right", [[300, 250], [300, 600]], "dfp-ad-article_latest_initial_right")
+  .addService(googletag.pubads())
+  .setTargeting("strnativekey", ["76f4872e"])
+  .defineSizeMapping(mapping);
+
+var mapping = googletag.sizeMapping()
+  .addSize([1, 1], [[300, 600], [300, 250]])
+  .addSize([481, 1], [[300, 600], [300, 250]])
+  .addSize([768, 1], [[300, 600], [300, 250]])
+  .addSize([992, 1], [[300, 600], [300, 250]])
+  .build();
+googletag.slots["article_latest_initial_left"] = googletag.defineSlot("/6850/here.advocate/article/latest_initial_left", [[300, 600], [300, 250]], "dfp-ad-article_latest_initial_left")
+  .addService(googletag.pubads())
+  .defineSizeMapping(mapping);
+
+  googletag.pubads().enableSingleRequest();
+  googletag.pubads().collapseEmptyDivs();
+  googletag.pubads().setTargeting("referrer",referrer);
+  googletag.pubads().setTargeting("advert_friendly", "1");
+
+  googletag.pubads().setTargeting("cat", ["news","us_supreme_court","hawaii","business"]);
+  googletag.pubads().setTargeting("title", ["supreme_court_wont_hear_hawaii_bbs_right_discriminate_case"]);
+  googletag.pubads().setTargeting("aid", ["1041946"]);
+  googletag.enableServices();
+
+});
+
+</script>
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.advocate.com/news/2019/3/19/supreme-court-wont-hear-hawaii-bbs-right-discriminate-case" />
+<meta property="og:title" content="Supreme Court Won&#039;t Hear Hawaii B&amp;B&#039;s &#039;Right to Discriminate&#039; Case" />
+<meta property="og:updated_time" content="2019-03-19T08:15:01-04:00" />
+<meta property="og:image" content="https://www.advocate.com/sites/advocate.com/files/2019/03/18/hawaii750x.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="TheAdvocateMag" />
+<meta name="twitter:site:id" content="21692297" />
+<meta name="twitter:creator" content="TheAdvocateMag" />
+<meta name="twitter:creator:id" content="21692297" />
+<meta name="twitter:title" content="Supreme Court Won&#039;t Hear Hawaii B&amp;B&#039;s &#039;Right to Discriminate&#039; Case" />
+<meta name="twitter:description" content="This means a lower court&#039;s ruling that the B&amp;B unlawfully discriminated against a lesbian couple will stand." />
+<meta property="article:published_time" content="2019-03-19T08:03:09-04:00" />
+<meta property="article:modified_time" content="2019-03-19T08:03:09-04:00" />
+<script type="application/ld+json">{ "@context": "http://schema.org", "@type": "NewsArticle", "mainEntityOfPage": "https://www.advocate.com/news/2019/3/19/supreme-court-wont-hear-hawaii-bbs-right-discriminate-case", "headline": "Supreme Court Won't Hear Hawaii B&B's 'Right to Discriminate' Case", "image": {  "@type": "ImageObject",  "url": "https://www.advocate.com/sites/advocate.com/files/styles/amp_metadata_content_image_min_696px_wide/public/2019/03/18/hawaii750x.jpg",  "width": "696",  "height": "392" }, "datePublished": "2019-03-19T08:03:09-04:00", "dateModified": "2019-03-19T08:15:01-04:00", "author": {  "@type": "Person",  "name": "Trudy Ring" }, "publisher": {  "@type": "Organization",  "name": "Advocate.com",  "logo": {  "@type": "ImageObject",  "url": "https://www.advocate.com/sites/advocate.com/files/styles/amp_metadata_logo_600x60/public/2017/07/20/advocateamplogo.gif",  "width": "219",  "height": "60"  } }, "description": "This means a lower court's ruling that the B&B unlawfully discriminated against a lesbian couple will stand.", "articleBody": "The Supreme Court won’t hear an appeal by a Hawaii bed-and-breakfast that refused lodging to a lesbian couple, therefore letting stand a lower court’s ruling that the B&B violated state civil rights law and doesn’t have a right to discriminate.Diane Cervelli and Taeko Bufford of Long Beach, Calif., sought to make reservations at the Honolulu B&B in 2007, asking for a room with one bed. Owner Phyllis Young originally said there was a room available, but when Cervelli said she was bringing a same-sex companion, Young asked if they were lesbians. The owner said she was uncomfortable having lesbians in her home because of her Catholic religious beliefs.Represented by Lambda Legal, the couple sued in 2011, and the Hawaii Civil Rights Commission joined in their case. The First Circuit Court of Hawaii ruled in their favor in 2013 and ordered Young to cease discriminating against same-sex couples. The state’s Intermediate Court of Appeals upheld that ruling in February 2018, and in July the Hawaii Supreme Court declined to hear a further appeal from the B&B.But in October, Aloha B&B filed a petition for review with the U.S. Supreme Court, “citing a First Amendment right to refuse service to same-sex couples for religious reasons,” the Washington Blade reports. The business also claimed it was denied due process under the Fourteenth Amendment because Young wasn’t didn’t receive sufficient notice that the civil rights law would apply to her operation.“The Commission officially labeled her religious beliefs unlawful ‘discrimination’ despite the fact that Mrs. Young declines to rent bedrooms in her family home to any romantic partners other than a married man and women — Hawaii’s only recognized form of marriage in 2007,” said the petition. “For this ‘crime’ of being a faithful Catholic, the Commission sought punitive damages and statutory penalties that could cause Mrs. Young to lose her home.”The high court denied the petition Monday without saying why it was doing so, as is usually the case.Peter Renn, a lawyer in Lambda Legal’s Western Regional Office, said the denial represents a victory for nondiscrimination laws. “The Supreme Court’s decision to let the lower court ruling stand reaffirms that the freedom of religion does not give businesses a right to violate nondiscrimination laws that protect all individuals from harm, whether on the basis of race, gender or sexual orientation,” he told the Blade. “The Supreme Court declined to consider carving out an exception from this basic principle when a business discriminates based on the sexual orientation of its customers. LGBT people deserve an equal right to go about their everyday life without the fear that discrimination waits for them around the corner.”It’s been almost a year since the Supreme Court ruled in another “license to discriminate” case, Masterpiece Cakeshop v. Colorado Civil Rights Commission. Masterpiece Cakeshop owner Jack Phillips had refused to create a wedding cake for a same-sex couple, saying it would conflict with his Christian beliefs. The commission found he had violated state antidiscrimination law, and Colorado courts agreed, but the Supreme Court ruled in his favor because, the majority of justices said, the commission had shown insufficient respect for his beliefs. It vacated the commission’s ruling but did not create a broad license to discriminate. Several similar cases are being appealed to the court, and it remains to be seen if it will decide to hear them.The anti-LGBTQ Alliance Defending Freedom, which represented Phillips, had represented Young and Aloha B&B during some of the legal proceedings, but a private lawyer, James Hochberg, filed the Hawaii business’s petition to the Supreme Court.  The Blade sought comment from him, but he had not responded by press time." }</script>
+
+<script type="text/javascript">(function(a,b,c,d,e){e=a.createElement(b);a=a.getElementsByTagName(b)[0];e.async=1;e.src=c;a.parentNode.insertBefore(e,a)})(document,'script','//receptivereaction.com/2b4b569e1aca7edff4a8e59377cee1ffee77630620cefd2526245052f131b9f05715e1fe8e88513841c9bb8a842d318712d4c8e0a74c2b1b8a9394fd324c');</script>
+
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__BJ6Ou6QsBRtnFTmxaakamOIS8n4QswDP2XnnZ1sxtaM__NBuvkP6eInGIkb1aJvUHx5PX79XApuxBDkk_77W5tYk__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__UbVynGnCbQB3aDUWe9fwfEokcZN8yj42uXGfKl-uKXA__xuf6IlgHlNRVRIZROHNxMtMrIx_M_EcmXEq9_x20oYw__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__kg7S0dNHB51gTPALGAOAOThnISlBjTi_y7Sso2n2qOg__BTWp3W9drSse25DdWVDqOTveyoc3yVq9LWdACeGI4Aw__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__DJVWsB9CJVs_1IGdy-_cGuq4r6SVVaWbEnbS1U2p6y4__7g40UeM74r8hkrzDC6Hbb7RReIGNu-Jsb5XAbAPKIeA__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__ULnubjQ_PipfFUoQ3i8sGypunPrRy8Yp89AwoPlLNmA__KTo3VYwHPlf_TtmVRdgXiFZnCEbjf003cfm1XS_7u4Y__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__BnvO0WlhgMlDJPZNN0hFztjI38qT4NYvgyYFAOudy2o__ly_iVEt0zPmy2eqbJgO_YV9ULMjQKrp7l1wEI1D3HtQ__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,700|Crimson+Text:400,600,700,400italic,600italic,700italic" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__U_x3X4vIFMtVFUa0IIHjx0_fuPsU1qGdICQGtN1ct3s__LxKMoTVLgodrp1M3yjsqNCAypU-2n2iiuo4edefYcpE__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__y68Enn1Y7oyNhzdvRHBVSm0HTbVtq7StuCO-4QV0vx4__jvJ5tDVOE3rDQ3kXBHoHmaDVlw5dhB6P5PuUZnG5fHw__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__V8AfkRZE1WDVDEkVLp5WBfbCAab5Iv-7mMcWuLsY5Bg__Z2AEuItTrnCUYrsX7dPx1nbH7NV-WUrSFkw5I6DfZKk__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__SlxZR0T0y0knhPGspoKKlEQqbk_RdNNsHwLrlCQRTSo__rsgL3WjOdLf7dnnt8bEvGWy_T5iCrhNwo5DFWW4Lehg__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__gpBHymPy0cZtGflAX-HtnXpqjdz3SFOq1ifLomZkVgI__dpraG3ksIfWtSoV_HQmrLzw-0oyXIBaj27mKny_LovU__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.migrateMute=true;jQuery.migrateTrace=false;
+//--><!]]>
+</script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__IDnJW3isySE-P0IMnhHXCodiE3aBGYqqZWyjRDIJD8o__ums9YOWXZfet8FLzQxzqXDurWrtErpeUjA-ZYvw5d1Y__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__qvxhs9hiTVr_USTpngJWnfdQEU8sbxmerZ1FBORD7ks__c_vdLVdm2dhTjV0-cjXbrVvnpDDp5m6xnNff8tSZ1fg__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__JIy-3lUpq3qC8JjvfOMkqOB8loYzuE93VQgLvC7HpVM__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__P3ER6aBJWRT0gwCuCwxJJBGcRpyoPxvBTwmExELajfg__6lirxbTdH7loCG7BGjvM9lYACQY3pzS-55Nwvn6e3jo__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+document.createElement( "picture" );
+//--><!]]>
+</script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__3vwOA0BwlnyBkt9H4CLg6FgNyKAh--OmfOxFOIu_5S4__14jAFRiS2WG9seuuVvkrazGaW7kLmmXyNFKpx92Mnko__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__dcZDfpBdRmjCW0vKa_r5K07i0bhzXpAke8IwZrpL92Y__xruSkbHzxgPSpx1WPgV8Fv4M2ONWi_CbIi779Jl3wfM__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__eLavzkA9tsn6kZ-1iuFHxosydwMf_h328_C0pSaT0CM__Syn3HHsUrWR7asnv8UtQ8klhA0UbDC4RUiOTgIXSf0c__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="//native.sharethrough.com/assets/tag.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var this_site=window.location.hostname.split(".");this_site=this_site[this_site.length-2];var sites={advocate:{pageID:13011},out:{pageID:13016},pride:{pageID:13047},outtraveler:{pageID:13022},hivplusmag:{pageID:13037},chill:{pageID:80857}},site_ttf=sites[this_site];(function(d,p){var js,s=d.getElementsByTagName('script')[0];js=d.createElement('script');js.async=true;js.defer=true;js.setAttribute("class","teads");js.src='//a.teads.tv/page/'+p+'/tag';s.parentNode.insertBefore(js,s)})(window.document,site_ttf.pageID);
+//--><!]]>
+</script>
+<script type="text/javascript" async="async" src="https://sadmin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__eZU2j1BNsp_jBUWhrUXPY31KbSTg7_oLmO0sU8lNeDY__V2_qhRZSGNcxlBV1RynyOlSM8PdWaBkO6M81VT7t6X4__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__pKeS74qEIK-ctkd14qdyisuErNkvLJuCt8aG79MHAg0__1ysaI47LG2Ste5LPPKcxkdjR4ne5qN72cTQSW23QPZk__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"advocate","theme_token":"NqierLPh8IYq5CjZOQ2a6kp8zpCHe63hOiPLowHtQS0","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/magnific-popup\/css\/magnific-popup.css":1,"sites\/all\/modules\/contrib\/brightcove\/styles\/brightcove.css":1,"https:\/\/fonts.googleapis.com\/css?family=Oswald:200,300,400,700|Crimson+Text:400,600,700,400italic,600italic,700italic":1,"sites\/advocate.com\/themes\/advocate\/css\/bootstrap.min.css":1,"sites\/advocate.com\/themes\/advocate\/css\/jasny-bootstrap.min.css":1,"sites\/advocate.com\/themes\/advocate\/css\/salvattore.css":1,"sites\/advocate.com\/themes\/advocate\/css\/custom-bootstrap.css":1,"sites\/advocate.com\/themes\/advocate\/css\/charlton.css":1,"sites\/advocate.com\/themes\/advocate\/css\/override_admin_menu.css":1},"js":{"sites\/all\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"sites\/all\/modules\/contrib\/picture\/picture.min.js":1,"sites\/all\/modules\/custom\/heremedia_article\/js\/salvattore.js":1,"sites\/all\/modules\/custom\/heremedia_fb\/js\/shares.js":1,"sites\/all\/libraries\/history.js\/scripts\/bundled\/html4+html5\/jquery.history.js":1,"sites\/all\/modules\/custom\/heremedia_infinite_scroll\/js\/infinite_scroll.js":1,"sites\/advocate.com\/modules\/features\/heremedia\/heremedia_media\/js\/custom.js":1,"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery-migrate\/1\/jquery-migrate.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/custom\/heremedia_article\/js\/quiztrack.js":1,"sites\/all\/modules\/custom\/heremedia_dfp\/js\/heremedia_dfp.js":1,"sites\/all\/libraries\/magnific-popup\/js\/jquery.magnific-popup.min.js":1,"sites\/all\/libraries\/sticky-ads\/jquery.sticky-kit.js":1,"\/\/native.sharethrough.com\/assets\/tag.js":1,"https:\/\/sadmin.brightcove.com\/js\/BrightcoveExperiences.js":1,"sites\/all\/modules\/contrib\/datalayer\/datalayer.js":1,"sites\/advocate.com\/themes\/advocate\/js\/bootstrap.min.js":1,"sites\/advocate.com\/themes\/advocate\/js\/jasny-bootstrap.min.js":1,"sites\/advocate.com\/themes\/advocate\/js\/scroll-header.js":1,"sites\/advocate.com\/themes\/advocate\/js\/advocate.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"heremedia_ads":{"enable":1,"prebid_timeout":"500"},"heremedia_fb":{"fb_id":"1792303797674941","fb_token":"9e556dd1ad4ca279c924a3316d98e250"},"arg":["node","1041946"],"urlIsAjaxTrusted":{"\/news\/2019\/3\/19\/supreme-court-wont-hear-hawaii-bbs-right-discriminate-case":true},"dataLayer":{"languages":{"en":{"language":"en","name":"English","native":"English","direction":0,"enabled":1,"plurals":0,"formula":"","domain":"","prefix":"","weight":0,"javascript":""}},"defaultLang":"en"},"heremedia_dfp":{"dfp_site":"article","continuous_right":"[[300, 250], [300, 600]]","continuous_right_ad_unit":"\/6850\/here.advocate\/article\/latest_continuous_right","continuous_right_size":"size_article_latest_continuous_right","continuous_right_bids":{"bidder":"rubicon","params":"replace_param_article_latest_continuous_right_rubicon_replace"},"continuous_left":"[[300, 600], [300, 250]]","continuous_left_ad_unit":"\/6850\/here.advocate\/article\/latest_continuous_left","continuous_left_size":"size_article_latest_continuous_left","continuous_left_bids":{"bidder":"rubicon","params":"replace_param_article_latest_continuous_left_rubicon_replace"},"strnativekey":"76f4872e"}});
+//--><!]]>
+</script>
+
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="/sites/advocate.com/themes/advocate/js/html5shiv.js"></script>
+  <script type="text/javascript" src="/sites/advocate.com/themes/advocate/js/respond.js"></script>
+  <![endif]-->
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script type="text/javascript">
+    window.addEventListener("load", function(){
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#000000",
+            "text": "#ffffff"
+          },
+          "button": {
+            "background": "#980000",
+            "text": "#ffffff"
+          }
+        },
+        "content": {
+          "message": "By continuing to use our site, you agree to our <a href=\"https://www.pridemedia.com/privacy-policy\" target=\"_blank\" class=\"cc-link\">Private Policy</a> and",
+          "dismiss": "Accept",
+          "link": "Terms of Use.",
+          "href": "https://www.pridemedia.com/terms-of-use"
+        }
+      })});
+  </script>
+
+
+<script type="text/javascript">
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window,
+      document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1586530151593576');
+    fbq('track', "PageView");
+  </script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1586530151593576&ev=PageView&noscript=1"/></noscript>
+
+
+<script type="text/javascript">
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '259124211325942');
+    fbq('track', 'PageView');
+  </script>
+<noscript><img height="1" width="1" src="https://www.facebook.com/tr?id=259124211325942&ev=PageView&noscript=1"/></noscript>
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-1041946 node-type-article">
+<noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LKK73J" height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager">Google Tag Manager</iframe></noscript><div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
+<a class="navmenu-brand" href="/"><img src="/sites/advocate.com/themes/advocate/images/ADV-Logo-White.png" alt="ADVOCATE"></a> <ul class="nav navmenu-nav out"><li class="0 first"><a href="/politics">Politics</a></li>
+<li class="1"><a href="/business">Business</a></li>
+<li class="2"><a href="/arts-entertainment">A&amp;E</a></li>
+<li class="3"><a href="/transgender">Transgender</a></li>
+<li class="4"><a href="/bisexual">Bisexuality</a></li>
+<li class="5"><a href="/religion">Religion</a></li>
+<li class="6"><a href="/families">Families</a></li>
+<li class="7 last"><a href="/commentary">Commentary</a></li>
+</ul><ul class="nav navmenu-nav sites"><li class="0 first"><a href="https://www.out.com" target="_blank">Out</a></li>
+<li class="1"><a href="https://www.pride.com" target="_blank">Pride</a></li>
+<li class="2"><a href="https://www.outtraveler.com" target="_blank">Out Traveler</a></li>
+<li class="3 last"><a href="https://www.hivplusmag.com" target="_blank">Plus</a></li>
+</ul><ul class="nav navmenu-nav order"><li class="0 first"><a href="https://subscribe.herepublishing.com/" target="_blank">Subscribe</a></li>
+<li class="1"><a href="https://service.qfie.com/HERE/clsOUTLookup.asp?strAspReason=106&amp;strLookFormControl=1" target="_blank">Subscriber Services</a></li>
+<li class="2 last"><a href="/signup">Email Newsletter Signup</a></li>
+</ul><ul class="nav navmenu-nav terms"><li class="0 first"><a href="/contact">Contact</a></li>
+<li class="1"><a href="/staff">Staff</a></li>
+<li class="2"><a href="https://www.pridemedia.com/careers/" target="_blank">Career Opportunities</a></li>
+<li class="3"><a href="https://www.pridemedia.com/sales/" target="_blank">Advertise With Us</a></li>
+<li class="4"><a href="https://www.pridemedia.com/privacy-policy" target="_blank">Privacy Policy</a></li>
+<li class="5"><a href="https://www.pridemedia.com/terms-of-use" target="_blank">Terms of Use</a></li>
+<li class="6 last"><a href="https://www.pridemedia.com/legal-notice" target="_blank">Legal Notice</a></li>
+</ul> <ul class="nav navmenu-nav copyright">
+<li>&copy; 2020 Pride Publishing Inc.<br>
+All Rights Reserved
+</li>
+</ul>
+</div>
+<div class="desktopHeader">
+<div class="container">
+<div class="magazines">
+<div class="entity entity-bean bean-subheader-promo clearfix">
+<div class="beanMagazine">
+<img src="https://www.advocate.com/sites/advocate.com/files/adv1108_aprilmay_rbg_cover_sm.jpg" alt="Ruth Bader Ginsburg" title="The Advocate April/May 2020" /> <div class="textBox">
+<div class="initialBox"><span>Subscribe To<br>The Advocate</span></div>
+<div class="hoverBox">
+<div class="top"> <a href="https://service.qfie.com/HERE/clsOUTNewOrdForm.asp?PubCode=OUT&TrackCode=IPA2013&strAspReason=210" class="printLink" target="_blank"> Print </a><span>></span> <a href="https://service.qfie.com/HERE/clsOUTNewOrdForm.asp?PubCode=ADV-DIGITAL&TrackCode=IDA2013&strAspReason=210" class="digitalLink" target="_blank"> Digital </a><span>></span> </div>
+<div class="bottom"> <a href="https://service.qfie.com/HERE/clsOUTNewOrd2a.asp?strAspReason=79" class="giftLink" target="_blank"> Give a gift </a><span>&bull;</span> <a href="https://service.qfie.com/HERE/clsOUTLookup.asp?strAspReason=106&strLookFormControl=1" class="renewLink" target="_blank"> Renew </a> </div>
+</div>
+</div>
+</div>
+</div> </div>
+<div class="navbar navbar-default">
+<button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body" aria-label="Menu" name="Menu" title="Menu">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="topLogoHeader"><a href="/">
+<img src="https://www.advocate.com/sites/advocate.com/themes/advocate/logo.png" class="mainLogo" alt="ADVOCATE">
+<img src="/sites/advocate.com/themes/advocate/images/AdvocateLogoWhite.svg" class="mobileLogo" style="display:none;" alt="ADVOCATE">
+</a></div>
+</div>
+<div class="socialButtons">
+<ul class="socialList">
+<li class="searchBox">
+<a href="javascript: void(0);"><img src="/sites/advocate.com/themes/advocate/images/search.png" width="34" height="33" alt="Search" class="search">
+</a>
+<div class="searchForm"> <form action="/news/2019/3/19/supreme-court-wont-hear-hawaii-bbs-right-discriminate-case" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+<h2 class="element-invisible">Search form</h2>
+<div class="form-item form-type-textfield form-item-search-block-form">
+<label class="element-invisible" for="edit-search-block-form--2">Search </label>
+<input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-NlaTNMBcn9ZqN3QUK64s0plKgFpufHArIt5m4kRjF1c" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form> </div>
+</li>
+<li class="fbButton">
+<a href="https://www.facebook.com/TheAdvocate" target="_blank"><img src="/sites/advocate.com/themes/advocate/images/fb.png" width="34" height="33" alt="Facebook"></a>
+</li>
+<li class="twButton">
+<a href="https://twitter.com/TheAdvocateMag" target="_blank"><img src="/sites/advocate.com/themes/advocate/images/twitter.png" width="34" height="33" alt="Twitter"></a>
+</li>
+<li class="instaButton">
+<a href="https://instagram.com/theadvocatemag" target="_blank"><img src="/sites/advocate.com/themes/advocate/images/instgm.png" width="34" height="33" alt="Instagram"></a>
+</li>
+<li class="tumblrButton">
+<a href="http://theadvocatemag.tumblr.com" target="_blank"><img src="/sites/advocate.com/themes/advocate/images/tumblr-Adv.png" width="34" height="33" alt="Tumblr"></a>
+</li>
+<li class="youtubeButton">
+<a href="https://www.youtube.com/channel/UCyoWeR3FrNb8p2WIAqYmAUw" target="_blank"><img src="/sites/advocate.com/themes/advocate/images/youtube.png" width="34" height="33" alt="YouTube"></a>
+</li>
+<li class="mailButton">
+<a href="/signup"><img src="/sites/advocate.com/themes/advocate/images/mail.png" width="34" height="33" alt="Mail"></a>
+</li>
+</ul>
+</div>
+</div>
+<div class="band">
+<div class="container">
+
+<div class="trendBar">
+<ul>
+<li class="trend"><span>Editor's Pick</span></li>
+<li id="" class="" style=""> <a href="/politics">Politics</a> </li>
+<li id="" class="" style=""> <a href="/election">Election</a> </li>
+<li id="" class="" style=""> <a href="/commentary">Commentary</a> </li>
+<li id="" class="" style=""> <a href="/arts-entertainment">Culture</a> </li>
+<li id="" class="" style=""> <a href="/photography">Photography</a> </li>
+<li id="" class="" style=""> <a href="/podcast">Podcasts</a> </li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="container adWindow">
+<div class="leaderboard"> <div id="block-heremedia-ads-article-leaderboard" class="block block-heremedia-ads">
+<div class="content">
+<div id="dfp-ad-article_leaderboard-wrapper" class="dfp-tag-wrapper">
+<div id="dfp-ad-article_leaderboard" class="dfp-tag-wrapper">
+<script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-article_leaderboard");
+    });
+  </script>
+</div>
+</div> </div>
+</div>
+</div>
+</div>
+<div id="body-inner" class="container">
+<a href="#" class="scrollToTop" title="Scroll To Top">Scroll To Top</a>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12"> <div class="tabs"></div>
+<div class="page articleDetailSection">
+<div class="row">
+<div class="col-md-8 col-sm-12 col-xs-12"> <div class="articleStatus node node-article ">
+<div class="articleCategory"><a href="/news">News</a></div>
+<h1 class="articleTitle">Supreme Court Won&#039;t Hear Hawaii B&amp;B&#039;s &#039;Right to Discriminate&#039; Case</h1>
+<div class="leadImageArticle">
+<div class="articleImg ">
+<img src="https://www.advocate.com/sites/advocate.com/files/2019/03/18/hawaii750x.jpg" alt="Supreme Court Won&#039;t Hear Hawaii B&amp;B&#039;s &#039;Right to Discriminate&#039; Case" title="Supreme Court Won&amp;#039;t Hear Hawaii B&amp;amp;B&amp;#039;s &amp;#039;Right to Discriminate&amp;#039; Case" /> </div>
+<div class="image-credit"> <a href="/credits/left-diane-cervelli-and-taeko-bufford">From left: Diane Cervelli and Taeko Bufford</a> </div>
+<div class="authorBox">
+<div class="box">
+<div class="articleTeaser"><p>This means a lower court's ruling that the B&amp;B unlawfully discriminated against a lesbian couple will stand.</p>
+</div>
+<div class="articledivder"></div>
+<div class="articleAuthor"> By <span><a href="/authors/trudy-ring">Trudy Ring</a></span>
+</div>
+<div class="articleDate"> <span class="date">March 19 2019 8:03 AM EDT</span>
+</div>
+</div>
+</div>
+</div>
+<div class="shareArticleButtons"> <div class="tableDiv">
+<div class="tableRow">
+<span class="tableCell share-count article-only" data-url="https://www.advocate.com/news/2019/3/19/supreme-court-wont-hear-hawaii-bbs-right-discriminate-case"></span>
+<div class="tableCell tw"><a href="https://twitter.com/share?text=Supreme+Court+Won%27t+Hear+Hawaii+B%26B%27s+%27Right+to+Discriminate%27+Case&url=https://www.advocate.com/news/2019/3/19/supreme-court-wont-hear-hawaii-bbs-right-discriminate-case" target="_blank" class="twittershare"> <img src="/sites/all/modules/custom/heremedia_fb/images/twitter-share-button.jpg" class="twitter-share-button-track" alt="Share on Twitter" /> </a> </div>
+<div class="tableCell fb"><a href="https://www.facebook.com/sharer.php?u=https://www.advocate.com/news/2019/3/19/supreme-court-wont-hear-hawaii-bbs-right-discriminate-case&title=Supreme+Court+Won%27t+Hear+Hawaii+B%26B%27s+%27Right+to+Discriminate%27+Case" target="_blank" class="facebookshare"> <img src="/sites/all/modules/custom/heremedia_fb/images/facebook-share-button.jpg" class="facebook-share-button-track" alt="Share on Facebook" /> </a> </div>
+</div>
+</div>
+</div>
+<div class="textArticle" id="article-content"> <p>The Supreme Court won’t hear an appeal by a Hawaii bed-and-breakfast that refused lodging to a lesbian couple, therefore letting stand a lower court’s ruling that the B&amp;B violated state civil rights law and doesn’t have a right to discriminate.</p>
+<p>Diane Cervelli and Taeko Bufford of Long Beach, Calif., sought to make reservations at the Honolulu B&amp;B in 2007, asking for a room with one bed. Owner Phyllis Young originally said there was a room available, but when Cervelli said she was bringing a same-sex companion, Young asked if they were lesbians. The owner said she was uncomfortable having lesbians in her home because of her Catholic religious beliefs.</p>
+<p>Represented by Lambda Legal, the couple sued in 2011, and the Hawaii Civil Rights Commission joined in their case. The First Circuit Court of Hawaii <a href="https://www.advocate.com/news/daily-news/2011/12/20/lesbian-couple-sues-hawaiian-bb-discrimination" target="_blank">ruled in their favor</a> in 2013 and ordered Young to cease discriminating against same-sex couples. The state’s Intermediate Court of Appeals <a href="http://https://www.advocate.com/business/2018/2/27/court-rules-hawaii-bb-owner-discriminated-against-lesbian-couple" target="_blank">upheld that ruling</a> in February 2018, and in July the Hawaii Supreme Court <a href="http://https://www.advocate.com/business/2018/7/11/hawaii-court-sides-lesbian-couple-barred-bed-breakfast" target="_blank">declined to hear a further appeal</a> from the B&amp;B.</p>
+<p>But in October, Aloha B&amp;B filed a petition for review with the U.S. Supreme Court, “citing a First Amendment right to refuse service to same-sex couples for religious reasons,” the <a href="https://www.washingtonblade.com/2019/03/18/supreme-court-rebuffs-hawaii-bb-seeking-to-deny-boarding-to-same-sex-couples/" target="_blank"><em>Washington Blade</em></a> reports. The business also claimed it was denied due process under the Fourteenth Amendment because Young wasn’t didn’t receive sufficient notice that the civil rights law would apply to her operation.</p>
+<p>“The Commission officially labeled her religious beliefs unlawful ‘discrimination’ despite the fact that Mrs. Young declines to rent bedrooms in her family home to any romantic partners other than a married man and women — Hawaii’s only recognized form of marriage in 2007,” said the petition. “For this ‘crime’ of being a faithful Catholic, the Commission sought punitive damages and statutory penalties that could cause Mrs. Young to lose her home.”</p>
+<p>The high court <a href="https://www.supremecourt.gov/orders/courtorders/031819zor_c07d.pdf" target="_blank">denied the petition Monday</a> without saying why it was doing so, as is usually the case.</p>
+<p>Peter Renn, a lawyer in Lambda Legal’s Western Regional Office, said the denial represents a victory for nondiscrimination laws. “The Supreme Court’s decision to let the lower court ruling stand reaffirms that the freedom of religion does not give businesses a right to violate nondiscrimination laws that protect all individuals from harm, whether on the basis of race, gender or sexual orientation,” he told the <em>Blade.</em> “The Supreme Court declined to consider carving out an exception from this basic principle when a business discriminates based on the sexual orientation of its customers. LGBT people deserve an equal right to go about their everyday life without the fear that discrimination waits for them around the corner.”</p>
+<p>It’s been almost a year since the Supreme Court ruled in another “license to discriminate” case, <em>Masterpiece Cakeshop v. Colorado Civil Rights Commission.</em> Masterpiece Cakeshop owner Jack Phillips had refused to create a wedding cake for a same-sex couple, saying it would conflict with his Christian beliefs. The commission found he had violated state antidiscrimination law, and Colorado courts agreed, but the <a href="https://www.advocate.com/business/2018/6/04/supreme-court-sides-against-same-sex-couples" target="_blank">Supreme Court ruled in his favor</a> because, the majority of justices said, the commission had shown insufficient respect for his beliefs. It vacated the commission’s ruling but did not create a broad license to discriminate. Several <a href="https://www.advocate.com/politics/2018/12/31/2019-supreme-court-preview-danger-ahead" target="_blank">similar cases</a> are being appealed to the court, and it remains to be seen if it will decide to hear them.</p>
+<p>The anti-LGBTQ Alliance Defending Freedom, which represented Phillips, had represented Young and Aloha B&amp;B during some of the legal proceedings, but a private lawyer, James Hochberg, filed the Hawaii business’s petition to the Supreme Court.  The <em>Blade </em>sought comment from him, but he had not responded by press time.</p>
+</div>
+</div>
+<div class="tags"> <span>Tags:</span> <a href="/news" class="">News</a>, <a href="/us-supreme-court" class="">U.S. Supreme Court</a>, <a href="/hawaii" class="">Hawaii</a>, <a href="/business" class="">Business</a> </div>
+<div class="magazine-subscription-promo-banner">
+<div class="entity entity-bean bean-house-promo clearfix">
+<div class="subscription content">
+<a href="https://service.qfie.com/HERE/clsOUTNewOrdForm.asp?straspreason=210&pubcode=out&trackcode=JPOX9F" target="_blank">
+<img src="https://www.advocate.com/sites/advocate.com/files/out_subbanner_750x211_3.jpg" alt="Out Magazine" /> </a>
+</div>
+</div>
+</div>
+<h2 class="col-xs-12 ourSponsors">
+<span>From our Sponsors</span>
+</h2>
+<div class="row nativeCustomAds">
+<div class="col-md-6 col-sm-6 col-xs-12">
+<div id="dfp-ad-article_native_1-wrapper" class="dfp-tag-wrapper">
+<div id="dfp-ad-article_native_1" class="dfp-tag-wrapper">
+<script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-article_native_1");
+    });
+  </script>
+</div>
+</div> </div>
+<div class="col-md-6 col-sm-6 col-xs-12">
+<div id="dfp-ad-article_native_2-wrapper" class="dfp-tag-wrapper">
+<div id="dfp-ad-article_native_2" class="dfp-tag-wrapper">
+<script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-article_native_2");
+    });
+  </script>
+</div>
+</div> </div>
+</div>
+<div class="pubexchange_module" id="pubexchange_below_content" data-pubexchange-module-id="2851"></div>
+<div id="comments" class="facebookComments">
+<h5>READER COMMENTS (<fb:comments-count href='https://www.advocate.com/news/2019/3/19/supreme-court-wont-hear-hawaii-bbs-right-discriminate-case'></fb:comments-count>)</h5>
+<fb:comments class="fb-comments" data-href="https://www.advocate.com/news/2019/3/19/supreme-court-wont-hear-hawaii-bbs-right-discriminate-case" data-numposts="10" data-width="auto"></fb:comments>
+</div>
+</div>
+<div class="col-md-4 col-sm-12 col-xs-12"> <div id="block-heremedia-ads-article-bigbox-top" class="block block-heremedia-ads">
+<div class="content">
+<div id="dfp-ad-article_bigbox_top-wrapper" class="dfp-tag-wrapper">
+<div id="dfp-ad-article_bigbox_top" class="dfp-tag-wrapper">
+<script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-article_bigbox_top");
+    });
+  </script>
+</div>
+</div> </div>
+</div>
+<div id="block-bean-single-video-embed" class="block block-bean">
+<div class="content">
+<div class="entity entity-bean bean-video-embed clearfix">
+<div class="content">
+<div class="field field-name-field-kaltura-video field-type-heremedia-kaltura-field field-label-hidden"><div class="field-items"></div></div><link href="https://players.brightcove.net/videojs-pip/1/videojs-pip.css" rel="stylesheet">
+<div class="vjs-pip-container">
+<div style="position: relative; display: block; max-width: 100%;">
+<div style="padding-top: 56.25%;">
+<video id="brightcove-rightrail-6055361165001" data-account="6001673517001" data-player="wGC05d5pG" data-embed="default" data-playlist-id="6055361165001" width="425" height="350" class="video-js" controls style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%;"></video>
+</div>
+</div>
+</div>
+<ol class="vjs-playlist"></ol>
+<script type="text/javascript" src="//players.brightcove.net/6001673517001/wGC05d5pG_default/index.min.js"></script>
+<script type="text/javascript">
+    var playerBrightcove = bc('brightcove-rightrail-6055361165001');
+    playerBrightcove.on('ready', function(){
+            playerBrightcove.ima3.settings.serverUrl = "https://pubads.g.doubleclick.net/gampad/ads?iu=/6850/here.advocate/video/rightrail_player&description_url={window.location.href}&env=vp&impl=s&correlator={random}&tfcd=0&npa=0&gdfp_req=1&output=vast&sz=480x360%7C640x480&unviewed_position_start=1&cust_params=cat%3Dnews%2Cus_supreme_court%2Chawaii%2Cbusiness%26title%3Dsupreme_court_wont_hear_hawaii_bbs_right_discriminate_case%26aid%3D1041946&cmsid=2493821&vid={mediainfo.id}";
+                  // Initialize the picture-in-picture plugin
+      playerBrightcove.pip({scale: 1});
+          });
+  </script>
+
+<script type="text/javascript" src="https://players.brightcove.net/videojs-pip/1/videojs-pip.min.js"></script>
+</div>
+</div>
+</div>
+</div>
+<div id="block-heremedia-ads-article-bigbox-mid" class="block block-heremedia-ads">
+<div class="content">
+<div id="dfp-ad-article_bigbox_mid-wrapper" class="dfp-tag-wrapper">
+<div id="dfp-ad-article_bigbox_mid" class="dfp-tag-wrapper">
+<script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-article_bigbox_mid");
+    });
+  </script>
+</div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="block-heremedia-article-3" class="block block-heremedia-article">
+<div class="content">
+<h2 class="col-xs-12 latestNewsTitle"><span>Latest News</span></h2>
+<div class="row latestNewsSection" id="columns" data-columns>
+<div class="panel panel-primary node node-article node-teaser icon-article ">
+<div class="panel-image"> <a href="/lesbian/2020/4/18/lesbian-visibility-week-courtesy-diva-starting-monday"><picture title="Lesbian Visibility Week, Courtesy Diva, Is Starting Monday">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/diva-cover-april.jpg?timestamp=1587173933 1x" media="(min-width:992px) and (max-width: 9999px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_750x422_1x/public/diva-cover-april.jpg?timestamp=1587173933 1x" media="(min-width:768px) and (max-width: 991px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/diva-cover-april.jpg?timestamp=1587173933 1x" media="(min-width: 481px) and (max-width: 767px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/diva-cover-april.jpg?timestamp=1587173933 1x" media="(min-width: 1px) and (max-width: 480px)" />
+<!--[if IE 9]></video><![endif]-->
+<img src="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/diva-cover-april.jpg?timestamp=1587173933" alt="Diva magazine April cover" title="Lesbian Visibility Week, Courtesy Diva, Is Starting Monday" />
+</picture></a>
+<div class="imgText"><a href="/lesbian">Lesbian</a></div>
+</div>
+<div class="panel-body">
+<div class="title"><a href="/lesbian/2020/4/18/lesbian-visibility-week-courtesy-diva-starting-monday">Lesbian Visibility Week, Courtesy Diva, Is Starting Monday</a></div>
+<div class="timeShare"> <span class="time">2 hours 32 min ago</span>
+</div>
+<div class="shareHomeButtons"> <div class="tableDiv">
+<div class="tableRow">
+<div class="tableCell tw"><a href="https://twitter.com/share?text=Lesbian+Visibility+Week%2C+Courtesy+Diva%2C+Is+Starting+Monday&url=https://www.advocate.com/lesbian/2020/4/18/lesbian-visibility-week-courtesy-diva-starting-monday" target="_blank" class="twittershare"> <img src="/sites/all/modules/custom/heremedia_fb/images/twitter-share-button.jpg" class="twitter-share-button-track" alt="Share on Twitter" /> </a> </div>
+<div class="tableCell fb"><a href="https://www.facebook.com/sharer.php?u=https://www.advocate.com/lesbian/2020/4/18/lesbian-visibility-week-courtesy-diva-starting-monday&title=Lesbian+Visibility+Week%2C+Courtesy+Diva%2C+Is+Starting+Monday" target="_blank" class="facebookshare"> <img src="/sites/all/modules/custom/heremedia_fb/images/facebook-share-button.jpg" class="facebook-share-button-track" alt="Share on Facebook" /> </a> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-primary node node-article node-teaser icon-article ">
+<div class="panel-image"> <a href="/news/2020/4/18/tarlach-macniallais-dies-fought-lgbtq-presence-st-pats-event"><picture title="Tarlach MacNiallais Dies; Fought for LGBTQ Presence in St. Pat&amp;#039;s Event">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/tarlach_0.jpg?timestamp=1587273993 1x" media="(min-width:992px) and (max-width: 9999px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_750x422_1x/public/tarlach_0.jpg?timestamp=1587273993 1x" media="(min-width:768px) and (max-width: 991px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/tarlach_0.jpg?timestamp=1587273993 1x" media="(min-width: 481px) and (max-width: 767px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/tarlach_0.jpg?timestamp=1587273993 1x" media="(min-width: 1px) and (max-width: 480px)" />
+<!--[if IE 9]></video><![endif]-->
+<img src="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/tarlach_0.jpg?timestamp=1587273993" alt="Tarlach MacNiallais" title="Tarlach MacNiallais Dies; Fought for LGBTQ Presence in St. Pat&amp;#039;s Event" />
+</picture></a>
+<div class="imgText"><a href="/news">News</a></div>
+</div>
+<div class="panel-body">
+<div class="title"><a href="/news/2020/4/18/tarlach-macniallais-dies-fought-lgbtq-presence-st-pats-event">Tarlach MacNiallais Dies; Fought for LGBTQ Presence in St. Pat&#039;s Event</a></div>
+<div class="timeShare"> <span class="time">2 hours 36 min ago</span>
+</div>
+<div class="shareHomeButtons"> <div class="tableDiv">
+<div class="tableRow">
+<div class="tableCell tw"><a href="https://twitter.com/share?text=Tarlach+MacNiallais+Dies%3B+Fought+for+LGBTQ+Presence+in+St.+Pat%27s+Event&url=https://www.advocate.com/news/2020/4/18/tarlach-macniallais-dies-fought-lgbtq-presence-st-pats-event" target="_blank" class="twittershare"> <img src="/sites/all/modules/custom/heremedia_fb/images/twitter-share-button.jpg" class="twitter-share-button-track" alt="Share on Twitter" /> </a> </div>
+<div class="tableCell fb"><a href="https://www.facebook.com/sharer.php?u=https://www.advocate.com/news/2020/4/18/tarlach-macniallais-dies-fought-lgbtq-presence-st-pats-event&title=Tarlach+MacNiallais+Dies%3B+Fought+for+LGBTQ+Presence+in+St.+Pat%27s+Event" target="_blank" class="facebookshare"> <img src="/sites/all/modules/custom/heremedia_fb/images/facebook-share-button.jpg" class="facebook-share-button-track" alt="Share on Facebook" /> </a> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="adBox">
+<div id="dfp-ad-article_latest_initial_right" class="centerUnit">
+</div>
+</div><div class="panel panel-primary node node-agg node-teaser icon-hivplusmag icon-agg">
+<div class="panel-image">
+<a href="https://www.hivplusmag.com/testing/2020/4/18/national-trans-hiv-testing-day-another-reminder-health-disparities" target="_blank"><picture title="National Trans HIV Testing Day: Another Reminder of Health Disparities">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/blacktrans.jpg?timestamp=1587249153 1x" media="(min-width:992px) and (max-width: 9999px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_750x422_1x/public/blacktrans.jpg?timestamp=1587249153 1x" media="(min-width:768px) and (max-width: 991px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/blacktrans.jpg?timestamp=1587249153 1x" media="(min-width: 481px) and (max-width: 767px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/blacktrans.jpg?timestamp=1587249153 1x" media="(min-width: 1px) and (max-width: 480px)" />
+<!--[if IE 9]></video><![endif]-->
+<img src="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/blacktrans.jpg?timestamp=1587249153" alt="testing" title="National Trans HIV Testing Day: Another Reminder of Health Disparities" />
+</picture></a>
+<div class="imgText"><a href="https://www.hivplusmag.com/testing/2020/4/18/national-trans-hiv-testing-day-another-reminder-health-disparities" target="_blank">Plus</a></div>
+</div>
+<div class="panel-body">
+<div class="title"><a href="https://www.hivplusmag.com/testing/2020/4/18/national-trans-hiv-testing-day-another-reminder-health-disparities" target="_blank">National Trans HIV Testing Day: Another Reminder of Health Disparities</a></div>
+<div class="timeShare"> <span class="time">April 18 2020 6:33 PM</span>
+</div>
+<div class="shareHomeButtons"> <div class="tableDiv">
+<div class="tableRow">
+<div class="tableCell tw"><a href="https://twitter.com/share?text=National+Trans+HIV+Testing+Day%3A+Another+Reminder+of+Health+Disparities&url=https://www.hivplusmag.com/testing/2020/4/18/national-trans-hiv-testing-day-another-reminder-health-disparities" target="_blank" class="twittershare"> <img src="/sites/all/modules/custom/heremedia_fb/images/twitter-share-button.jpg" class="twitter-share-button-track" alt="Share on Twitter" /> </a> </div>
+<div class="tableCell fb"><a href="https://www.facebook.com/sharer.php?u=https://www.hivplusmag.com/testing/2020/4/18/national-trans-hiv-testing-day-another-reminder-health-disparities&title=National+Trans+HIV+Testing+Day%3A+Another+Reminder+of+Health+Disparities" target="_blank" class="facebookshare"> <img src="/sites/all/modules/custom/heremedia_fb/images/facebook-share-button.jpg" class="facebook-share-button-track" alt="Share on Facebook" /> </a> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-primary node node-article node-teaser icon-article ">
+<div class="panel-image"> <a href="/television/2020/4/18/creator-tvs-first-gay-reality-show-american-family-has-died"><picture title="Creator of TV&amp;#039;s First (Gay) Reality Show An American Family Has Died ">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/an-american-family-1900x2279_c_0.jpg?timestamp=1587236101 1x" media="(min-width:992px) and (max-width: 9999px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_750x422_1x/public/an-american-family-1900x2279_c_0.jpg?timestamp=1587236101 1x" media="(min-width:768px) and (max-width: 991px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/an-american-family-1900x2279_c_0.jpg?timestamp=1587236101 1x" media="(min-width: 481px) and (max-width: 767px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/an-american-family-1900x2279_c_0.jpg?timestamp=1587236101 1x" media="(min-width: 1px) and (max-width: 480px)" />
+<!--[if IE 9]></video><![endif]-->
+<img src="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/an-american-family-1900x2279_c_0.jpg?timestamp=1587236101" alt="An American Family " title="Creator of TV&amp;#039;s First (Gay) Reality Show An American Family Has Died " />
+</picture></a>
+<div class="imgText"><a href="/television">television</a></div>
+</div>
+<div class="panel-body">
+<div class="title"><a href="/television/2020/4/18/creator-tvs-first-gay-reality-show-american-family-has-died">Creator of TV&#039;s First (Gay) Reality Show An American Family Has Died </a></div>
+<div class="timeShare"> <span class="time">April 18 2020 3:37 PM</span>
+</div>
+<div class="shareHomeButtons"> <div class="tableDiv">
+<div class="tableRow">
+<div class="tableCell tw"><a href="https://twitter.com/share?text=Creator+of+TV%27s+First+%28Gay%29+Reality+Show+An+American+Family+Has+Died+&url=https://www.advocate.com/television/2020/4/18/creator-tvs-first-gay-reality-show-american-family-has-died" target="_blank" class="twittershare"> <img src="/sites/all/modules/custom/heremedia_fb/images/twitter-share-button.jpg" class="twitter-share-button-track" alt="Share on Twitter" /> </a> </div>
+<div class="tableCell fb"><a href="https://www.facebook.com/sharer.php?u=https://www.advocate.com/television/2020/4/18/creator-tvs-first-gay-reality-show-american-family-has-died&title=Creator+of+TV%27s+First+%28Gay%29+Reality+Show+An+American+Family+Has+Died+" target="_blank" class="facebookshare"> <img src="/sites/all/modules/custom/heremedia_fb/images/facebook-share-button.jpg" class="facebook-share-button-track" alt="Share on Facebook" /> </a> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-primary node node-article node-teaser icon-article ">
+<div class="panel-image"> <a href="/exclusives/2020/4/18/top-10-queer-culture-must-knows-spring"><picture title="Top 10 Queer Culture Must-Knows This Spring ">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/bike-with-yellow-wall-min_-_2020-04-18t095839.517.jpg?timestamp=1587229158 1x" media="(min-width:992px) and (max-width: 9999px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_750x422_1x/public/bike-with-yellow-wall-min_-_2020-04-18t095839.517.jpg?timestamp=1587229158 1x" media="(min-width:768px) and (max-width: 991px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/bike-with-yellow-wall-min_-_2020-04-18t095839.517.jpg?timestamp=1587229158 1x" media="(min-width: 481px) and (max-width: 767px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/bike-with-yellow-wall-min_-_2020-04-18t095839.517.jpg?timestamp=1587229158 1x" media="(min-width: 1px) and (max-width: 480px)" />
+<!--[if IE 9]></video><![endif]-->
+<img src="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/bike-with-yellow-wall-min_-_2020-04-18t095839.517.jpg?timestamp=1587229158" alt="10 things" title="Top 10 Queer Culture Must-Knows This Spring " />
+</picture></a>
+<div class="imgText"><a href="/exclusives">Exclusives</a></div>
+</div>
+<div class="panel-body">
+<div class="title"><a href="/exclusives/2020/4/18/top-10-queer-culture-must-knows-spring">Top 10 Queer Culture Must-Knows This Spring </a></div>
+<div class="timeShare"> <span class="time">April 18 2020 12:15 PM</span>
+</div>
+<div class="shareHomeButtons"> <div class="tableDiv">
+<div class="tableRow">
+<div class="tableCell tw"><a href="https://twitter.com/share?text=Top+10+Queer+Culture+Must-Knows+This+Spring+&url=https://www.advocate.com/exclusives/2020/4/18/top-10-queer-culture-must-knows-spring" target="_blank" class="twittershare"> <img src="/sites/all/modules/custom/heremedia_fb/images/twitter-share-button.jpg" class="twitter-share-button-track" alt="Share on Twitter" /> </a> </div>
+<div class="tableCell fb"><a href="https://www.facebook.com/sharer.php?u=https://www.advocate.com/exclusives/2020/4/18/top-10-queer-culture-must-knows-spring&title=Top+10+Queer+Culture+Must-Knows+This+Spring+" target="_blank" class="facebookshare"> <img src="/sites/all/modules/custom/heremedia_fb/images/facebook-share-button.jpg" class="facebook-share-button-track" alt="Share on Facebook" /> </a> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="adBox">
+<div id="dfp-ad-article_latest_initial_left" class="centerUnit">
+</div>
+</div><div class="panel panel-primary node node-article node-teaser icon-article ">
+<div class="panel-image"> <a href="/commentary/2020/4/17/trying-see-world-beyond-evil-president-and-deadly-pandemic"><picture title="Trying to See a World Beyond an Evil President and a Deadly Pandemic">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/photobyandreweccles2.jpg?timestamp=1587166914 1x" media="(min-width:992px) and (max-width: 9999px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_750x422_1x/public/photobyandreweccles2.jpg?timestamp=1587166914 1x" media="(min-width:768px) and (max-width: 991px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/photobyandreweccles2.jpg?timestamp=1587166914 1x" media="(min-width: 481px) and (max-width: 767px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/photobyandreweccles2.jpg?timestamp=1587166914 1x" media="(min-width: 1px) and (max-width: 480px)" />
+<!--[if IE 9]></video><![endif]-->
+<img src="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/photobyandreweccles2.jpg?timestamp=1587166914" alt="Jelani Alladin" title="Trying to See a World Beyond an Evil President and a Deadly Pandemic" />
+</picture></a>
+<div class="imgText"><a href="/commentary">Commentary</a></div>
+</div>
+<div class="panel-body">
+<div class="title"><a href="/commentary/2020/4/17/trying-see-world-beyond-evil-president-and-deadly-pandemic">Trying to See a World Beyond an Evil President and a Deadly Pandemic</a></div>
+<div class="timeShare"> <span class="time">April 17 2020 7:42 PM</span>
+</div>
+<div class="shareHomeButtons"> <div class="tableDiv">
+<div class="tableRow">
+<div class="tableCell tw"><a href="https://twitter.com/share?text=Trying+to+See+a+World+Beyond+an+Evil+President+and+a+Deadly+Pandemic&url=https://www.advocate.com/commentary/2020/4/17/trying-see-world-beyond-evil-president-and-deadly-pandemic" target="_blank" class="twittershare"> <img src="/sites/all/modules/custom/heremedia_fb/images/twitter-share-button.jpg" class="twitter-share-button-track" alt="Share on Twitter" /> </a> </div>
+<div class="tableCell fb"><a href="https://www.facebook.com/sharer.php?u=https://www.advocate.com/commentary/2020/4/17/trying-see-world-beyond-evil-president-and-deadly-pandemic&title=Trying+to+See+a+World+Beyond+an+Evil+President+and+a+Deadly+Pandemic" target="_blank" class="facebookshare"> <img src="/sites/all/modules/custom/heremedia_fb/images/facebook-share-button.jpg" class="facebook-share-button-track" alt="Share on Facebook" /> </a> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-primary node node-article node-teaser icon-article ">
+<div class="panel-image"> <a href="/politics/2020/4/17/tweet-about-lindsey-graham-being-topped-homophobic-or-funny"><picture title="Is Tweet About Lindsey Graham Being &amp;#039;Topped&amp;#039; Homophobic or Funny?">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/untitled-5.jpg?timestamp=1587160369 1x" media="(min-width:992px) and (max-width: 9999px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_750x422_1x/public/untitled-5.jpg?timestamp=1587160369 1x" media="(min-width:768px) and (max-width: 991px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/untitled-5.jpg?timestamp=1587160369 1x" media="(min-width: 481px) and (max-width: 767px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/untitled-5.jpg?timestamp=1587160369 1x" media="(min-width: 1px) and (max-width: 480px)" />
+<!--[if IE 9]></video><![endif]-->
+<img src="https://www.advocate.com/sites/advocate.com/files/styles/image_style_360x203_1x/public/untitled-5.jpg?timestamp=1587160369" alt="Jaime Harrison and Lindsey Graham" title="Is Tweet About Lindsey Graham Being &amp;#039;Topped&amp;#039; Homophobic or Funny?" />
+</picture></a>
+<div class="imgText"><a href="/politics">Politics</a></div>
+</div>
+<div class="panel-body">
+<div class="title"><a href="/politics/2020/4/17/tweet-about-lindsey-graham-being-topped-homophobic-or-funny">Is Tweet About Lindsey Graham Being &#039;Topped&#039; Homophobic or Funny?</a></div>
+<div class="timeShare"> <span class="time">April 17 2020 6:57 PM</span>
+</div>
+<div class="shareHomeButtons"> <div class="tableDiv">
+<div class="tableRow">
+<div class="tableCell tw"><a href="https://twitter.com/share?text=Is+Tweet+About+Lindsey+Graham+Being+%27Topped%27+Homophobic+or+Funny%3F&url=https://www.advocate.com/politics/2020/4/17/tweet-about-lindsey-graham-being-topped-homophobic-or-funny" target="_blank" class="twittershare"> <img src="/sites/all/modules/custom/heremedia_fb/images/twitter-share-button.jpg" class="twitter-share-button-track" alt="Share on Twitter" /> </a> </div>
+<div class="tableCell fb"><a href="https://www.facebook.com/sharer.php?u=https://www.advocate.com/politics/2020/4/17/tweet-about-lindsey-graham-being-topped-homophobic-or-funny&title=Is+Tweet+About+Lindsey+Graham+Being+%27Topped%27+Homophobic+or+Funny%3F" target="_blank" class="facebookshare"> <img src="/sites/all/modules/custom/heremedia_fb/images/facebook-share-button.jpg" class="facebook-share-button-track" alt="Share on Facebook" /> </a> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+1</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="deviceClass"></div>
+<div id="dfp-ad-article_wallpaper-wrapper" class="dfp-tag-wrapper">
+<div id="dfp-ad-article_wallpaper" class="dfp-tag-wrapper">
+<script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-article_wallpaper");
+    });
+  </script>
+</div>
+</div><script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__GM3GJPR36rRIz0TRkjC5OQwrioSyN9aoYRivDhCO_AM__qAl84FcCv2jyN22yFGS5Oc85cjd9zKX6p_cFNLGhe-M__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js" async="async"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__Eqf_L4jATush8Oiw9PYt_w0McxJRNkcQcfy1vROG49A__kcaiFCI8Riwi_7JyowXqpfOFh6N4KZamP6lwSrLz2H8__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__KPSt-urSQiSdSfo6ZIX0JX3kMxVvknnSZtkg8F99hHc__Hl5txn8dILj58RpnF2S6jjS74WP8ODqYiji3kywo-QM__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__SIz-DEZptal6BjZWhwHOoTJrxcYYMfXMjcV1eo2JJOw__P0v19BePnNUjCwZyR1g4fNPE80_NQmgGPlgcZM_SC5A__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.fbAsyncInit=function(){FB.init({appId:'1792303797674941',cookie:true,xfbml:true,version:'v5.0'});FB.AppEvents.logPageView()};(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://connect.facebook.net/en_US/sdk.js";fjs.parentNode.insertBefore(js,fjs)}(document,'script','facebook-jssdk'));
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(w,d,s,id){w.PUBX=w.PUBX||{pub:"the_advocate",discover:false,lazy:true};var js,pjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.async=true;js.src="//main.pubexchange.com/loader.min.js";pjs.parentNode.insertBefore(js,pjs)}(window,document,"script","pubexchange-jssdk"));
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"d13870c224","applicationID":"65778885,65778872","transactionName":"NlJUMERRCBVSAk1ZWQ8YdwdCWQkIHAVKb1MZQ0QFRW8ICVcEZkBXBlJpEl9VEQ==","queueTime":0,"applicationTime":739,"atts":"GhVXRgxLGxs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

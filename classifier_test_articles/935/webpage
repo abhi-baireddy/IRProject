@@ -1,1109 +1,2120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="head">
+<script>
+// akam-sw.js install script version 1.3.3
+"serviceWorker"in navigator&&"find"in[]&&function(){var e=new Promise(function(e){"complete"===document.readyState||!1?e():(window.addEventListener("load",function(){e()}),setTimeout(function(){"complete"!==document.readyState&&e()},1e4))}),n=window.akamServiceWorkerInvoked,r="1.3.3";if(n)aka3pmLog("akam-setup already invoked");else{window.akamServiceWorkerInvoked=!0,window.aka3pmLog=function(){window.akamServiceWorkerDebug&&console.log.apply(console,arguments)};function o(e){(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"sm.sw.s":e,"sm.sw.v":r}])}var i="/akam-sw.js",a=new Map;navigator.serviceWorker.addEventListener("message",function(e){var n,r,o=e.data;if(o.isAka3pm)if(o.command){var i=(n=o.command,(r=a.get(n))&&r.length>0?r.shift():null);i&&i(e.data.response)}else if(o.commandToClient)switch(o.commandToClient){case"enableDebug":window.akamServiceWorkerDebug||(window.akamServiceWorkerDebug=!0,aka3pmLog("Setup script debug enabled via service worker message"),p());break;case"boomerangMQ":o.payload&&(window.BOOMR_mq=window.BOOMR_mq||[]).push(o.payload)}aka3pmLog("akam-sw message: "+JSON.stringify(e.data))});var t=function(e){return new Promise(function(n){var r,o;r=e.command,o=n,a.has(r)||a.set(r,[]),a.get(r).push(o),navigator.serviceWorker.controller&&(e.isAka3pm=!0,navigator.serviceWorker.controller.postMessage(e))})},c=function(e){return t({command:"navTiming",navTiming:e})},s=null,m={},d=function(){var e=i;return s&&(e+="?othersw="+encodeURIComponent(s)),function(e,n){return new Promise(function(r,i){aka3pmLog("Registering service worker with URL: "+e),navigator.serviceWorker.register(e,n).then(function(e){aka3pmLog("ServiceWorker registration successful with scope: ",e.scope),r(e),o(1)}).catch(function(e){aka3pmLog("ServiceWorker registration failed: ",e),o(0),i(e)})})}(e,m)},g=ServiceWorkerContainer.prototype.register;if(ServiceWorkerContainer.prototype.register=function(n,r){return n.includes(i)?g.call(this,n,r):(aka3pmLog("Overriding registration of service worker for: "+n),s=new URL(n,window.location.href),m=r,navigator.serviceWorker.controller?new Promise(function(n,r){var o=navigator.serviceWorker.controller.scriptURL;if(o.includes(i)){var a=encodeURIComponent(s);o.includes(a)?(aka3pmLog("Cancelling registration as we already integrate other SW: "+s),navigator.serviceWorker.getRegistration().then(function(e){n(e)})):e.then(function(){aka3pmLog("Unregistering existing 3pm service worker"),navigator.serviceWorker.getRegistration().then(function(e){e.unregister().then(function(){return d()}).then(function(e){n(e)}).catch(function(e){r(e)})})})}else aka3pmLog("Cancelling registration as we already have akam-sw.js installed"),navigator.serviceWorker.getRegistration().then(function(e){n(e)})}):g.call(this,n,r))},navigator.serviceWorker.controller){var u=navigator.serviceWorker.controller.scriptURL;u.includes("/akam-sw.js")||u.includes("/akam-sw-preprod.js")||u.includes("/threepm-sw.js")||(aka3pmLog("Detected existing service worker. Removing and re-adding inside akam-sw.js"),s=new URL(u,window.location.href),e.then(function(){navigator.serviceWorker.getRegistration().then(function(e){m={scope:e.scope},e.unregister(),d()})}))}else e.then(function(){window.akamServiceWorkerPreprod&&(i="/akam-sw-preprod.js"),d()});if(window.performance){var w=window.performance.timing,l=w.responseEnd-w.responseStart;c(l)}e.then(function(){t({command:"pageLoad"})});var k=!1;function p(){window.akamServiceWorkerDebug&&!k&&(k=!0,aka3pmLog("Initializing debug functions at window scope"),window.aka3pmInjectSwPolicy=function(e){return t({command:"updatePolicy",policy:e})},window.aka3pmDisableInjectedPolicy=function(){return t({command:"disableInjectedPolicy"})},window.aka3pmDeleteInjectedPolicy=function(){return t({command:"deleteInjectedPolicy"})},window.aka3pmGetStateAsync=function(){return t({command:"getState"})},window.aka3pmDumpState=function(){aka3pmGetStateAsync().then(function(e){aka3pmLog(JSON.stringify(e,null,"\t"))})},window.aka3pmInjectTiming=function(e){return c(e)},window.aka3pmUpdatePolicyFromNetwork=function(){return t({command:"pullPolicyFromNetwork"})})}p()}}();</script>
+<script id="FormTrack_p_lt_zoneTop_comScore_Adobe" type="text/javascript" src="//assets.adobedtm.com/7014b84c59a7140df850ba0669cdd515a2b62868/satelliteLib-901a5fea21c622cba5fda1689e226b13d134718d.js"></script><meta name="epoch" content="1553003698" />
+<meta name="pubdate" property="pubdate" content="2019-03-19T13:54:58" />
+<meta property="article:section" content="peter-morici" />
+<meta property="article:published_time" content="2019-03-19T13:54:58" />
+<meta name="og:description" property="og:description" content="President Donald Trump&#39;s budget is dead on arrival and, my conservatism notwithstanding, that is a good thing." />
+<meta name="og:page_id" property="og:page_id" content="85452072376" />
+<meta name="fb:app_id" property="fb:app_id" content="323020797885219" />
+<meta name="fb:admins" property="fb:admins" content="100002083767056" />
+<meta name="og:site_name" property="og:site_name" content="Newsmax" />
+<meta name="og:image:height" property="og:image:height" content="500" />
+<meta name="og:image:width" property="og:image:width" content="600" />
+<meta name="og:image:type" property="og:image:type" content="image/jpeg" />
+<meta name="og:image" property="og:image" content="https://www.newsmax.com/CMSPages/GetFile.aspx?guid=13c817c8-7938-4f56-a7b4-54f58887e4a1&amp;SiteName=Newsmax" />
+<meta name="twitter:image" property="twitter:image" content="https://www.newsmax.com/CMSPages/GetFile.aspx?guid=13c817c8-7938-4f56-a7b4-54f58887e4a1&amp;SiteName=Newsmax&amp;maxsidesize=300" />
+<meta name="twitter:image:alt" property="twitter:image:alt" content="President Donald Trump&#39;s budget is dead on arrival and, my conservatism notwithstanding, that is a good thing." />
+<meta name="twitter:description" property="twitter:description" content="President Donald Trump&#39;s budget is dead on arrival and, my conservatism notwithstanding, that is a good thing." />
+<meta name="twitter:title" property="twitter:title" content="Trump Must Counter Democrats&#39; Socialist Views" />
+<meta name="twitter:creator" property="twitter:creator" content="@newsmax" />
+<meta name="twitter:site" property="twitter:site" content="@newsmax" />
+<meta name="twitter:card" property="twitter:card" content="summary_large_image" />
+<meta name="og:url" property="og:url" content="https://www.newsmax.com/finance/peter-morici/trump-budget-plan-democrat/2019/03/19/id/907699/" />
+<meta name="news_keywords" content="Trump Administration, trump,  budget,  plan,  democrat,  socialist" />
+<meta property="og:type" content="article" />
+<meta name="og:title" property="og:title" content="Trump Must Counter Democrats&#39; Socialist Views" />
+<meta property="article:author" content="Peter Morici &lt;i>Twitter @pmorici1&lt;/i>" />
+<meta name="twitter:url" content="https://www.newsmax.com/Finance/Peter-Morici/trump-budget-plan-democrat/2019/03/19/id/907699/" />
+<meta name="original-source" content="https://www.newsmax.com/Finance/Peter-Morici/trump-budget-plan-democrat/2019/03/19/id/907699/" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.newsmax.com/t/#!finance/article/907699/213" />
+<link rel="canonical" href="https://www.newsmax.com/finance/peter-morici/trump-budget-plan-democrat/2019/03/19/id/907699/" />
+<title>
+	Trump Should Toss Budget Plan, Pivot to Center | Newsmax.com
+</title><meta name="description" content="Trump Should Toss Budget Plan, Pivot to Center; Trump Should Offer Practical Solutions to Counter Democrat's Socialist Views" /> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<meta http-equiv="pragma" content="no-cache" /> 
+<meta http-equiv="content-style-type" content="text/css" /> 
+<meta http-equiv="content-script-type" content="text/javascript" /> 
+<meta name="keywords" content="trump, budget, plan, democrat, socialist" /> 
+<link href="/CMSPages/GetResource.ashx?stylesheetname=MoneyNews" type="text/css" rel="stylesheet"/> 
+<meta name="google-site-verification" content="G8ES7h3vwQTlFRuKZLTkGYYr-GOyLKJVunu1JffVHbs" /> 
+<link rel="stylesheet" href="//app.quotemedia.com/css/tools.css"></link>
+<link type="text/css" rel="stylesheet" href="/CMSPages/GetCSS.aspx?stylesheetname=MoneynewsInternalPages" />
+<link type="text/css" rel="stylesheet" href="/CMSPages/GetCSS.aspx?stylesheetname=MoneyNewsWebParts" />
+<link type="text/css" rel="stylesheet" href="/CMSPages/GetCSS.aspx?stylesheetname=MoneynewsNew" />
+<link rel="shortcut icon" href="/App_Themes/Newsmax/images/favicon.ico" />
+<link rel="icon" href="/App_Themes/Newsmax/images/favicon.ico" />
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link rel="preconnect" href="//cdnjs.cloudflare.com">
-<link rel="preconnect" href="//fonts.googleapis.com">
-<link rel="preconnect" href="//ib.adnxs.com">
-<link rel="preconnect" href="//experience.tinypass.com">
-<link rel="preconnect" href="//sandbox.tinypass.com">
-<link rel="preconnect" href="//www.googletagservices.com">
-<link rel="preconnect" href="//media.townhall.com">
-<link rel="preconnect" href="//prebid.adnxs.com">
-<link rel="preconnect" href="//www.google-analytics.com">
-<link rel="preconnect" href="//pagead2.googlesyndication.com">
-<link rel="preconnect" href="//ad.doubleclick.net">
-<link rel="preconnect" href="//securepubads.g.doubleclick.net">
-<link rel="preconnect" href="//c.amazon-adsystem.com">
-<link rel="preconnect" href="//townhallmedia-d.openx.net">
-<link rel="preconnect" href="//cdn.blueconic.net">
-<script>
-        document.cookie = "__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
-        var setNptTechAdblockerCookie = function (adblocker) {
-            var d = new Date();
-            d.setTime(d.getTime() + 60 * 60 * 24 * 2 * 1000);
-            document.cookie = "__adblocker=" + (adblocker ? "true" : "false") + "; expires=" + d.toUTCString() + "; path=/";
-        }
-        var script = document.createElement("script");
-        script.setAttribute("async", true);
-        script.setAttribute("src", "//www.npttech.com/advertising.js");
-        script.setAttribute("onerror", "setNptTechAdblockerCookie(true);");
-        document.getElementsByTagName("head")[0].appendChild(script);
-    </script>
-<script type="text/javascript" src="//d2ze07sbtyfzd0.cloudfront.net/script.js"></script>
-<script async src="https://cdn.blueconic.net/salemmediagroup.js"></script>
-<script type='text/javascript'>var _sf_startpt = (new Date()).getTime()</script>
-<link rel="manifest" href="/manifest.json">
-<link rel="alternate" href="https://townhall.com" hreflang="en-us">
-<style>
-        .async-hide {
-            opacity: 0 !important
-        }
-    </style>
-<script>
-        (function (a, s, y, n, c, h, i, d, e) {
-            s.className += ' ' + y; h.start = 1 * new Date;
-            h.end = i = function () { s.className = s.className.replace(RegExp(' ?' + y), '') };
-            (a[n] = a[n] || []).hide = h; setTimeout(function () { i(); h.end = null }, c); h.timeout = c;
-        })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
-            { 'GTM-KT87G5R': true });
-    </script>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments);
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+<script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery-migrate-3.0.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.12.1.min.js"></script>
 
-    ga('create', 'UA-404425-3', 'auto', { 'useAmpClientId': true });
-    
-    ga('require', 'GTM-KT87G5R');
-    
-    //ga('set', 'transport', 'beacon');
-    ga('require', 'displayfeatures');
-    if (typeof hptId !== 'undefined')
-    {
-        ga('set', 'dimension2', hptId);
-    }
-    
-    ga('set', 'dimension7', 'free');
-    ga('send', 'pageview');
+<script type="text/javascript" src="/CMSScripts/Newsmax/HeaderScripts.js"></script>
+<script type="text/javascript" src="/js/SponsoredHeadline.js"></script>
+<script type="text/javascript" src="/CMSScripts/jquery/jquery.cookie.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/swfobject/2.1/swfobject.js"></script>
+<script language="JavaScript" type="text/javascript" src="//partner.googleadservices.com/gampad/google_service.js">
 </script>
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-<link rel="apple-touch-icon" sizes="57x57" href="https://media.townhall.com/thm/favicon/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="https://media.townhall.com/thm/favicon/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="https://media.townhall.com/thm/favicon/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="https://media.townhall.com/thm/favicon/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="https://media.townhall.com/thm/favicon/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="https://media.townhall.com/thm/favicon/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="https://media.townhall.com/thm/favicon/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="https://media.townhall.com/thm/favicon/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://media.townhall.com/thm/favicon/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-16x16.png" sizes="16x16">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/android-chrome-192x192.png" sizes="192x192">
-<meta name="msapplication-square70x70logo" content="https://media.townhall.com/thm/favicon/smalltile.png" />
-<meta name="msapplication-square150x150logo" content="https://media.townhall.com/thm/favicon/mediumtile.png" />
-<meta name="msapplication-wide310x150logo" content="https://media.townhall.com/thm/favicon/widetile.png" />
-<meta name="msapplication-square310x310logo" content="https://media.townhall.com/thm/favicon/largetile.png" />
-<link href="/resources/css/bootstrap.min.css" rel="preload" as="style" />
-<link href="/resources/css/bootstrap.min.css" rel="stylesheet" />
-<link href="/resources/dist/css/main.min.css?v=2" rel="preload" as="style" />
-<link href="/resources/dist/css/main.min.css?v=2" rel="stylesheet" />
-<link href="/resources/lib/jquery/dist/jquery.min.js" rel="preload" as="script" />
-<script src="/resources/lib/jquery/dist/jquery.min.js"></script>
-<meta property="fb:app_id" content="967808926746051" />
-<meta property="fb:pages" content="41632789656,103971336305218,319569361390023,106547192707583,124538510989702,283971595408,15418366158,153162531376557,127519040661256,123834811060739,305174559545115,321502821264274,413465452078762,492802317512753,140705212665688,116757565026850,114013445328868" />
-<title>Liberal Ninth Circuit Upholds Trump Admin&#39;s Rules on Abortion Funding</title>
-<meta name="description" content=".04/18/2020 5:14:31AM EST." />
-<link rel="amphtml" href="https://townhall.com/tipsheet/bethbaumann/2020/02/24/liberal-ninth-circuit-upholds-trump-admins-rules-on-abortion-funding-n2561829?amp=true">
-<meta name="keywords" content="Abortion, Pro-Life, Ninth Circuit Court of Appeals, Title X, Ninth Circuit " />
-<meta name="robots" content="index, follow" />
-<meta name="author" content="Beth Baumann" />
-<link rel="canonical" href="https://townhall.com/tipsheet/bethbaumann/2020/02/24/liberal-ninth-circuit-upholds-trump-admins-rules-on-abortion-funding-n2561829" />
-<meta property="og:title" content="Liberal Ninth Circuit Upholds Trump Admin&#39;s Rules on Abortion Funding" />
-<meta property="og:type" content="Article" />
-<meta property="og:url" content="https://townhall.com/tipsheet/bethbaumann/2020/02/24/liberal-ninth-circuit-upholds-trump-admins-rules-on-abortion-funding-n2561829" />
-<meta property="og:image" content="https://media.townhall.com/townhall/reu/s1280x720/2019/228/083aff99-90ca-4778-b9f1-26eef9b53075.png" />
-<meta property="og:site_name" content="Townhall " />
-<meta property="og:description" content="" />
-<script type="application/ld+json">
-        {
-        "@context": "http://schema.org",
-        "@type": "NewsArticle",
-        "headline": "Liberal Ninth Circuit Upholds Trump Admin&#39;s Rules on Abortion Funding",
-        "datePublished": "2020-02-24T18:25:00-05:00",
-        "dateModified": "2020-02-24T18:25:00-05:00" ,
-        "image": {
-        "@type": "ImageObject",
-        "url": "https://media.townhall.com/townhall/reu/s1280x720/2019/228/083aff99-90ca-4778-b9f1-26eef9b53075.png",
-        "height": 665,
-        "width": 700
-        },
-        "mainEntityOfPage":"https://townhall.com/tipsheet/bethbaumann/2020/02/24/liberal-ninth-circuit-upholds-trump-admins-rules-on-abortion-funding-n2561829",
-        "author": {
-        "@type": "Person",
-        "name": "Beth Baumann"
-        },
-        "publisher": {
-        "@type":"Organization",
-        "name": "Townhall.com",
-        "logo": {
-        "@type": "ImageObject",
-        "url": "https://media.townhall.com/townhall/ampmobile/Logo_TH_3.png",
-        "width": 128,
-        "height": 60
-        }
-        }
-        }
-    </script>
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Liberal Ninth Circuit Upholds Trump Admin&#39;s Rules on Abortion Funding" />
-<meta name="twitter:image" content="https://media.townhall.com/townhall/reu/s1280x720/2019/228/083aff99-90ca-4778-b9f1-26eef9b53075.png?185" />
-<meta name="twitter:url" content="https://townhall.com/tipsheet/bethbaumann/2020/02/24/liberal-ninth-circuit-upholds-trump-admins-rules-on-abortion-funding-n2561829?185" />
-<meta name="twitter:description" content="" />
-<meta name="twitter:site" content="@townhallcom" />
+
+<!-- DFP Scripts -->
+<script type='text/javascript'>
+(function() {
+var src = '//www.googletagservices.com/tag/js/gpt.js';
+document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+})();
+</script>
+
+<script type="text/javascript" src="/CMSScripts/Newsmax/jquery.colorbox-min.js"></script>
+<link href="/CMSPages/GetCSS.aspx?stylesheetname=colorboxMoney" rel="stylesheet" type="text/css" />
+
+<!-- One Signal -->
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async='async'></script>
+<script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "d4a15f2f-7ca8-48ca-aa1f-0bea58100a1c",
+      autoRegister: true, 
+      httpPermissionRequest: {
+        enable: true
+      },
+      notifyButton: {
+          enable: true
+      }
+    }]);
+</script><link type="text/css" rel="stylesheet" href="/CMSPages/GetCSS.aspx?stylesheetname=MNArticle" /> 
+<link href="/favicon.ico" type="image/x-icon" rel="shortcut icon"/> 
+<link href="/favicon.ico" type="image/x-icon" rel="icon"/> 
+<script id="FormTrack_p_lt_zoneTop_comScore_AdobeAnalytics" type="text/javascript" src="/js/analytics.js"></script>
 <script type="text/javascript">
-        var _sf_async_config = {};
-        /** CONFIGURATION START **/
-        _sf_async_config.uid = 14482;
-        _sf_async_config.domain = 'townhall.com';
-        _sf_async_config.sections = 'tipsheet';
-        _sf_async_config.authors = 'Beth Baumann';
-
-        var _cbq = window._cbq = window._cbq || [];
-        if (localStorage.getItem('_cbq_acct')) {
-            _cbq.push(['_acct', localStorage.getItem( '_cbq_acct' )||"anon"]);
-        }
-
-
-        _sf_async_config.useCanonical = true;
-        /** CONFIGURATION END **/
-        (function () {
-            function loadChartbeat() {
-                window._sf_endpt = (new Date()).getTime();
-                var e = document.createElement('script');
-                e.setAttribute('language', 'javascript');
-                e.setAttribute('type', 'text/javascript');
-                e.setAttribute('src',
-                           (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
-                           'js/chartbeat.js');
-                document.body.appendChild(e);
-            }
-            var oldonload = window.onload;
-            window.onload = (typeof window.onload != 'function') ?
-                loadChartbeat : function () { oldonload(); loadChartbeat(); };
-        })();
-
+	//<![CDATA[
+jQuery(document).ready(function(){ jQuery("a[rel='EmailUs']").colorbox({iframe:true,slideshow:false,overlayClose:false,height:"720",width:"580",href:"/Dialogs/EmailUs.aspx", rel:"nofollow"}); jQuery("a[rel='ForwardPage']").colorbox({iframe:true,slideshow:false,overlayClose:false,height:"740",width:"682",href:"/Dialogs/ForwardToFriend.aspx?ParentUrl=%2ffinance%2fpeter-morici%2ftrump-budget-plan-democrat%2f2019%2f03%2f19%2fid%2f907699%2f", rel:"nofollow"}); jQuery("a[rel='share']").colorbox({iframe:true,slideshow:false,overlayClose:false,height:"700",width:"1000", rel:"nofollow"}); jQuery("a[rel='artModalPrivacy']").colorbox({iframe:true,slideshow:false,overlayClose:false,height:"600",width:"800",href:"/Dialogs/PrivacyPolicy.aspx", rel:"nofollow"}); });
+//]]>
 </script>
-<script>
-    var _comscore = _comscore || [];
-    _comscore.push({
-        c1: "2",
-        c2: "21057668",
-        c3: "",
-        c4: ""
-    });
-    (function () {
-        var s = document.createElement("script"),
-            el = document.getElementsByTagName("script")[0];
-        s.async = true;
-        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-        el.parentNode.insertBefore(s, el);
-    })();
+<script id="DFPScript" type="text/javascript">(function() {
+                                    
+                                    var c = $.cookie('siu-ad-fixed');
+                                    if (!c) {
+    
+                                        var ad = googletag.defineSlot('/6305169/newsmax.mab', [[1024,90],[768,90],[480,50]], 'div-gpt-ad-87a15aa3-c7cd-406a-bcfd-c15a8c111f6a').addService(googletag.pubads());
+
+                                        var mapping = googletag.sizeMapping()
+                                            .addSize([1200, 200], [1024, 90])
+                                            .addSize([1024, 200], [768, 90])
+                                            .addSize([980, 200], [768, 90])
+                                            .addSize([640, 200], [480, 50])
+                                            .addSize([0, 0], [])
+                                            .build();
+                                    
+                                       ad.defineSizeMapping(mapping); 
+                                   }
+
+
+                            })();
+googletag.defineOutOfPageSlot('/6305169/Moneynews', 'div-gpt-ad-b52654bd-3912-4bed-9271-ccbd61485923').addService(googletag.pubads());
+googletag.defineSlot('/6305169/Newsmax/Sections/Insiders/Finance_Insiders_Article_Middle', [300,250], 'div-gpt-ad-9559ec6d-414f-465b-bdde-e72d59ecaf2e').addService(googletag.pubads());
+googletag.defineSlot('/6305169/Newsmax/Sections/Insiders/Finance_Insiders_Article_Top', [300,250], 'div-gpt-ad-c01b6cc0-fce7-43ed-a022-577d8e1a09fb').addService(googletag.pubads());
+googletag.defineSlot('/6305169/Newsmax/Recommended/MN_600x175', [600,175], 'div-gpt-ad-ae238165-ccc3-4ccd-8039-6898b6939f2d').addService(googletag.pubads());
+googletag.defineSlot('/6305169/Moneynews', [140,45], 'div-gpt-ad-223c71fe-9afa-4bae-8169-f306412645df').addService(googletag.pubads());
+googletag.defineSlot('/6305169/Newsmax/Article_NM_300d', [300,250], 'div-gpt-ad-16252d62-c31d-4da6-a811-7fa69871ff18').addService(googletag.pubads());
+googletag.defineSlot('/6305169/Newsmax/Sections/Insiders/Finance_Insiders_Link_Bottom', [600,50], 'div-gpt-ad-b28be0ba-c1b1-4d2c-ab70-4e1eae330585').addService(googletag.pubads()).setTargeting('pos','BottomInArticleLink');
+googletag.defineSlot('/6305169/Newsmax/Sections/Insiders/Finance_Insiders_Link_Middle', [600,50], 'div-gpt-ad-43659bde-e5b0-4eda-a025-257a49099a46').addService(googletag.pubads()).setTargeting('pos','MiddleInArticleLinkNM');
+googletag.defineSlot('/6305169/Newsmax/Sections/Insiders/Finance_Insiders_Link_Top', [600,50], 'div-gpt-ad-705ca015-5c3f-4fcc-8d20-9a5afde6591b').addService(googletag.pubads()).setTargeting('pos','TopInArticleLink');
+googletag.defineSlot('/6305169/Newsmax/Insiders', [600,160], 'div-gpt-ad-fdb509f5-463b-4968-82f5-594e1caf8967').addService(googletag.pubads());
+googletag.pubads().setTargeting('promo_code','zhs3nmqq');
+googletag.pubads().setTargeting('nmid','907699');
+googletag.pubads().setTargeting('nmtags',['trump','budget','plan','democrat']);
+googletag.pubads().setTargeting('PubYear','2019');
+googletag.pubads().setTargeting('PubMonth','03');
+googletag.pubads().setTargeting('signedup','false');
+googletag.pubads().collapseEmptyDivs(true);
+googletag.enableServices();
 </script>
-<noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=21057668&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" /> </noscript>
+  <script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false"}]);</script>
+  <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="RRNR9-85ANW-4QF6A-ZJTU2-LGRHY",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,o,_,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",_=document.getElementsByTagName("script")[0],_.parentNode.insertBefore(r,_);try{o=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",o=r.contentWindow.document}o.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"RRNR9-85ANW-4QF6A-ZJTU2-LGRHY",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},o.write("<bo"+'dy onload="document._l();">'),o.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="ioyqg6yxijzisxu4a6pa-f-0a26e9b0c-clientnsv4-s.akamaihd.net",i={"ak.v":"27","ak.cp":"599651","ak.ai":parseInt("390844",10),"ak.ol":"0","ak.cr":65,"ak.ipv":4,"ak.proto":"","ak.rid":"11a6268","ak.r":34774,"ak.a2":e,"ak.m":"a","ak.n":"essl","ak.bpcip":"67.177.3.0","ak.cport":37100,"ak.gh":"23.66.114.133","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1587283870","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==v85nvspzABD+ptpX4PUcDUeVlGNAsIk12RmVY+L+5pMjjt2EN+8A47TqmDnKivJuhACqL0+Jy4kAbj9oB0vgIqoYgoQI+1PtfoJ3y4JRcplSuR92uQzghnP5J+mUW1+ShbRyr8ShudYvyDXkVDED8GoOAPL+ZlIg2x07ZIkYNUz1oE/qBrqmwbbk9b13BaPPRUVoYTDRRCK8phIWUpt+mnWvQPWN0cUYeQFDqtpNImM9Rqdag/hGetqX8spJ8dVFpak/zFTsPLu56qGi72KvkuuOY4OVcoYif5UwEf5O7PlF9RubKPyiQHF16ovDGPbtBh3sNs5uRHFbHZGqjQWwsThS9Trs+Ie5BKRG+juhWtBDu2azpoYUhWyxV55lYOSp7IY6koR+srNmTDRC+BJfn6SDfXxbBT04VLYEuIdpZDE=","ak.pv":"7"};if(""!==t)i["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))i["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body class="LTR Safari Chrome Safari47 Chrome47 ENUS ContentBody" >
+    <form method="post" action="/finance/peter-morici/trump-budget-plan-democrat/2019/03/19/id/907699/" id="form">
+<div class="aspNetHidden">
+<input type="hidden" name="manScript_HiddenField" id="manScript_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
 
-<script>
-    !function (f, b, e, v, n, t, s) {
-        if (f.fbq) return; n = f.fbq = function () {
-            n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        }; if (!f._fbq) f._fbq = n;
-        n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
-        t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
-    }(window,
-        document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+</div>
 
-    fbq('init', '791796474183597');
-    fbq('track', "PageView");</script>
-<noscript>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=791796474183597&ev=PageView&noscript=1" />
-</noscript>
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form'];
+if (!theForm) {
+    theForm = document.form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
 
-<script>
-        function getRoxotGroupId() {
-            try {
-                var storageKey = 'roxot-gid';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 10000);
-                    localStorage.setItem(storageKey, groupId);
+
+<script src="/WebResource.axd?d=ajj-54hEFw_9s8vUhC7aqiqIMz0pNh5t4_SU2ofVsVwummsDI5FJiI5GycwOyKPz2gszbuHXhWsBOxBmW8C9TcQBcJ41&amp;t=636939809749177621" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+
+            var clickedOnce = false;
+
+            var track = true;
+
+            var digitalData = { };
+
+              function analyticsTracking(event, tab) {
+
+                    jQuery(document).on('click', event, function (e) {
+        
+                        //first try to get the value, if one does not exist then try to get the title tag.
+                        var name = '';
+            
+                            if (typeof e.data.text == 'undefined') {
+                            name = e.data.title.trim();
+                        }
+                        else {
+
+                                if (e.data.text.trim() === '') {
+                                name = e.data.title.trim();
+                            }
+                            else {
+                                name = e.data.text.trim();
+                            }
+                        }
+
+                        digitalData.tab = {
+                            type: tab,
+                            name: name
+                        }
+                        _satellite.track('tab_click');
+
+                        
+                    });
+
+
                 }
-                return '' + groupId;
-            } catch (e) {
-                return '10001';
-            }
-        }
 
-        function getRoxotSectorId() {
-            try {
-                var storageKey = 'roxot-sid';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 100);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '101';
-            }
-        }
+            function analyticsFormTracking(id, data) {
 
-        function getRoxotDeep() {
-            try {
-                var storageKey = 'roxot-deep';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 100);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '101';
-            }
-        }
+                if (clickedOnce == false || clickedOnce && data == 'form_error')
+                {
+                    if (typeof track != 'undefined')
+                    {
 
-        function getRoxotEvent() {
-            return '' + (1 + Math.floor(Math.random() * 100));
-        }
-    </script>
-<script>
-        var bidTimeout = 3000;
-        var refreshInterval = 60000;
-        var PREBID_TIMEOUT = bidTimeout;
-        var FAILSAFE_TIMEOUT = 3000;
-        var SCREEN_TIME = false;
-        var PREBID = true;
-        var adUnits = [{"code":"div-gpt-728x90_1","sizes":[[728,90],[970,90],[970,250]],"bids":[{"bidder":"openx","params":{"unit":"537998002","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381642"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-728x90_1@728x90"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_2","sizes":[[300,250]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_2@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_1","sizes":[[300,250],[300,600]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_1@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_3","sizes":[[300,250],[300,600]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_3@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_sticky","sizes":[[300,250]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_sticky@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]}];
-        var apstagSlots = [{"slotID":"div-gpt-728x90_1","slotName":"/6177/slm.townhall/tipsheet/728x90_1","sizes":[[728,90],[970,90],[970,250]]},{"slotID":"div-gpt-300x250_2","slotName":"/6177/slm.townhall/tipsheet/300x250_2","sizes":[[300,250]]},{"slotID":"div-gpt-300x250_1","slotName":"/6177/slm.townhall/tipsheet/300x250_1","sizes":[[300,250],[300,600]]},{"slotID":"div-gpt-300x250_3","slotName":"/6177/slm.townhall/tipsheet/300x250_3","sizes":[[300,250],[300,600]]},{"slotID":"div-gpt-300x250_sticky","slotName":"/6177/slm.townhall/tipsheet/300x250_sticky","sizes":[[300,250]]}];
-    </script>
-<script src="/resources/dist/js/prebid-latest.min.js?v=2.5.1-1"></script>
-<script async>
-        //<![CDATA[
-
-        var gptAdUnitPath = "tipsheet";
-        var gptAdSlot = [];
-
-        googletag.cmd.push(function () {
-            googletag.pubads().disableInitialLoad();
-            try {
-                gptAdSlot['div-gpt-728x90_1'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/728x90_1', [[728,90],[970,90],[970,250],[1,1]], 'div-gpt-728x90_1').addService(googletag.pubads()).setTargeting('pos', '728x90_1').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_2'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_2', [[300,250]], 'div-gpt-300x250_2').addService(googletag.pubads()).setTargeting('pos', '300x250_2').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_1'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_1', [[300,250],[300,600]], 'div-gpt-300x250_1').addService(googletag.pubads()).setTargeting('pos', '300x250_1').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_3'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_3', [[300,250],[300,600]], 'div-gpt-300x250_3').addService(googletag.pubads()).setTargeting('pos', '300x250_3').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_sticky'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_sticky', [[300,250]], 'div-gpt-300x250_sticky').addService(googletag.pubads()).setTargeting('pos', '300x250_sticky').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-oop'] = googletag.defineOutOfPageSlot('/6177/slm.townhall/tipsheet', 'div-gpt-oop').addService(googletag.pubads());
-
-
-                if (typeof Storage !== "undefined") {
-                    var targetingParamStr = localStorage.getItem("bcDFPTargetingParams");
-
-                    if (targetingParamStr) {
-                        var targetingParameters = JSON.parse(targetingParamStr);
-
-                        // set page-level targeting parameters
-                        jQuery.each(targetingParameters, function (index, param) {
-                            window.googletag.pubads().setTargeting(param.key, param.value);
-                        });
+                        digitalData.page.form = {
+                            formID : id
+                        };
+        
+    
+                        _satellite.track(data);
+                      
                     }
+
+                    if( data =='form_start')
+                        { clickedOnce = true;}
+
                 }
-            } catch (e) {
-                console.error("thm-ad-exception", e);
             }
 
-            googletag.pubads().addEventListener('impressionViewable', function (event) {
+            function analyticsSocialTracking(socialName, socialAction, data) {
+
+                    if (typeof track != 'undefined') {
+
+                        digitalData.page.social = {
+                            socialName: socialName,
+                            socialAction: socialAction
+                        };
+
+                        _satellite.track(data);
+                     
+                    }
+  
+            }
+
+        function analyticsSearchTracking()
+        {
+
+            digitalData.page.search =
+                {
+                    onsiteSearchTerm: encodeURIComponent(document.getElementById('q').value)
+                };
+
+            _satellite.track('search_internal');
+          
+        }
+
+      
+
+
+//]]>
+</script>
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); } if(window.CMSContentManager) { CMSContentManager.allowSubmit = true; }; __doPostBack('m$am',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }if (window.CMSContentManager) { CMSContentManager.storeContentChangedStatus(); };WebForm_DoCallback('m$am',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="/ScriptResource.axd?d=ORS1ZbvWo5JoFtgtIbaJk_l4GDYQZ-6-uPUhpgpWELzpoe7mkzhyG3Hyr8NrKzS32AipLnDjLKQS992FG669kjEf19MFrmfAmXxuW3UZ2Ofnr9Cb0&amp;t=7c776dc1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=xjgJjMemZB5VupTqb9KqO7eS6UV7WpLygwUt4U2i-s3sMV9ogzXBiDazcof9GuztXaU2sshjeKDuawSKibas2jWT8hKhiXO-mf3jnX9SA80XVK7-HGql8Dbtgd3dGU6fvJAm2A2&amp;t=7c776dc1" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
+
+var CMS = CMS || {};
+CMS.Application = {
+  "isRTL": "false",
+  "isDebuggingEnabled": false,
+  "applicationUrl": "/",
+  "imagesUrl": "/CMSPages/GetResource.ashx?image=%5bImages.zip%5d%2f",
+  "isDialog": false
+};
+
+//]]>
+</script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A5343185" />
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('manScript', 'form', ['tctxM',''], [], [], 90, '');
+//]]>
+</script>
+
+    <div id="ctxM">
+
+</div>
+    
+<!-- station: 10 -->
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WL644C" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WL644C');</script>
+<!-- End Google Tag Manager -->
+<!-- Main Wrapper -->
+<!--[if lte IE 8]>
+<style>
+.toolTip:before {
+display:none;
+}
+.toolTip:after {
+display:none;
+}
+</style>
+<![endif]-->
+<div id="mnMain">
+
+<h1 id="adblockermessage" style="text-align:center; padding:50px; display:none">
+	<span style="border:2px solid #000; padding:20px;"></span>
+</h1>
+
+<script src="/js/ads.adblock.js"></script>
+
+<script>
+(function(){
+
+AdBlockManagement = {
+
+  config:{
+    showmessage:true,
+    reporting:true,
+    debug:true
+  },
+  
+  message:{
+    text:'Please disable your Ad Blocker to view this site properly.',
+    run:function(self){
+        if(self.config.showmessage){
+            var msg = document.getElementById('adblockermessage');
+            msg.style.display='block';
+            msg.getElementsByTagName('span')[0].innerText=this.text;
+            (self.config.debug)?console.log('[ADBM] - Message added ' + this.text):[];
+        }
+    
+    }  
+  },
+  
+  analytics:{
+     createpixel:function(){
+         var pixel = document.createElement('img');
+         pixel.src = 'https://sb.scorecardresearch.com/p?c1=2&amp;c2=9248945&ns_site=newsmax&name=ad_blocker';
+         pixel.height = 1;
+         pixel.width=1;
+         pixel.alt = '*';
+         return pixel;
+     },
+     run:function(self){
+        (self.config.reporting)? document.body.appendChild(this.createpixel()):[]; 
+        (self.config.debug)?console.log('[ADBM] - Pixel added to document'):[];
+     }  
+  },  
+
+  init:function(){
+    if(typeof fake_ad == 'undefined'){
+      this.analytics.run(this);
+      this.message.run(this);
+    }
+  }
+
+}
+
+AdBlockManagement.init();
+
+})();
+</script>
+
+<input type="hidden" value='www.newsmax.com' id="Sitepath" />
+<div class="TopZone">
+        <div style="clear:both"></div>    
+        <div class="TopZone" style="margin-bottom:3px;">
+            <div id="mnSiteNav">
+    <a href="/" id="mnSiteNavNewsmax" class="mnSiteNavBtn Newsmax_i" title="Newsmax" onMouseOver="jQuery(this).removeClass('Newsmax_i').addClass('Newsmax_a');" onMouseOut="jQuery(this).removeClass('Newsmax_a').addClass('Newsmax_i');" onclick="analyticsTracking(this, 'topNav');"></a>
+    
+    <a href="http://www.newsmaxtv.com/" id="mnSiteNavNewsmaxTV" class="mnSiteNavBtn TV_i" title="TV" onMouseOver="jQuery(this).removeClass('TV_i').addClass('TV_a');" onMouseOut="jQuery(this).removeClass('TV_a').addClass('TV_i');" onclick="analyticsTracking(this, 'topNav');"></a>
+ 
+
+    <a href="/health/" class="mnSiteNavBtn Health_i" title="Health" onMouseOver="jQuery(this).removeClass('Health_i').addClass('Health_a');" onMouseOut="jQuery(this).removeClass('Health_a').addClass('Health_i');" onclick="analyticsTracking(this, 'topNav');"></a>
+     
+    <a href="/finance/" class="mnSiteNavBtn Money_a" title="Finance" onMouseOver="jQuery(this).removeClass('Money_a').addClass('Money_i');" onMouseOut="jQuery(this).removeClass('Money_i').addClass('Money_a');" onclick="analyticsTracking(this, 'topNav');"></a>
+   
+     <a href="/world/" class="mnSiteNavBtn World_i" title="World" onMouseOver="jQuery(this).removeClass('World_i').addClass('World_a');" onMouseOut="jQuery(this).removeClass('World_a').addClass('World_i');" onclick="analyticsTracking(this, 'topNav');"></a>
+</div>
+    <!-- BEGIN Soft Click add-on to Comscore -->
+    <script type="text/javascript">
+        // <![CDATA[
+        function ns_onclick(q, f, u, b, o) { var i = window, l = i.ns_p, m = l && l.src, s = "&ns_", h = document.referrer.replace(/\/$/, ""), f = f || q.href, o = o || "", j = { t: 0, o: 0 }, e = eventURL = c1_match = c2_match = "", c = /\bc1=[^&]+\b/i, g = /\bc2=[^&]+\b/i, p = (i.encodeURIComponent ? encodeURIComponent : escape), n = "3.1312.06"; if (m && (c1_match = l.src.match(c)) && !c.test(u)) { e += "&" + c1_match } if (m && (c2_match = l.src.match(g)) && !g.test(u)) { e += "&" + c2_match } if (m) { var t = l.src, k = t.indexOf("?"); eventURL = t.substr(0, k > -1 ? k : t.length) + "?" } eventURL = [eventURL, u, e, s, "type=", b, s, "action=view", s, "_t=", +new Date, s, "sc_sv=", n, s, "sc_href=", p(f).substr(0, 1000), h ? "&c9=" + p(h) : ""].join(""); var r = q && q.target ? q.target.replace(/^_/, "") : "self", d = new Image(); if (i[r]) { j.t = (function (w, v, a) { return function () { clearTimeout(a.o); d.onload = d.onerror = function () { return }; i[w].location.href = v } })(r, f, j); j.o = setTimeout(j.t, 5000); d.onload = d.onerror = j.t } else { i.open(f, r, o) } d.src = eventURL; return false };
+        // ]]>
+    </script>
+
+    <!-- END Soft Click add-on to Comscore -->
+
+    <!-- Begin comScore Inline Tag - Function and No Script Tag - 1.1111.15 -->
+    <script type="text/javascript">
+        // <![CDATA[
+        function udm_(a) { var b = "comScore=", c = document, d = c.cookie, e = "", f = "indexOf", g = "substring", h = "length", i = 2048, j, k = "&ns_", l = "&", m, n, o, p, q = window, r = q.encodeURIComponent || escape; if (d[f](b) + 1) for (o = 0, n = d.split(";"), p = n[h]; o < p; o++) m = n[o][f](b), m + 1 && (e = l + unescape(n[o][g](m + b[h]))); a += k + "_t=" + +(new Date) + k + "c=" + (c.characterSet || c.defaultCharset || "") + "&c8=" + r(c.title) + e + "&c7=" + r(c.URL) + "&c9=" + r(c.referrer), a[h] > i && a[f](l) > 0 && (j = a[g](0, i - 8).lastIndexOf(l), a = (a[g](0, j) + k + "cut=" + r(a[g](j + 1)))[g](0, i)), c.images ? (m = new Image, q.ns_p || (ns_p = m), m.src = a) : c.write("<", "p", "><", 'img src="', a, '" height="1" width="1" alt="*"', "><", "/p", ">") }
+        udm_('http' + (document.location.href.charAt(4) == 's' ? 's://sb' : '://b') + '.scorecardresearch.com/b?c1=2&c2=9248945&ns_site=newsmax&name=nmx.insiders.article.trump_must_counter_democrats_socialist_views_907699&category=insiders&page_type=article&content_type=article&content_title=trump_must_counter_democrats_socialist_views&content_id=907699&content_source=peter_morici <i>twitter @pmorici1</i>');
+        // ]]>
+    </script>
+    <noscript>
+        <p>
+            <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=9248945&ns_site=newsmax&name=nmx.insiders.article.trump_must_counter_democrats_socialist_views_907699&category=insiders&page_type=article&content_type=article&content_title=trump_must_counter_democrats_socialist_views&content_id=907699&content_source=peter_morici <i>twitter @pmorici1</i>" height="1" width="1" alt="*">
+        </p>
+    </noscript>
+    <!-- End comScore Inline Tag -->
+    <script type="text/javascript">
+       // jQuery(document).ready(function () {
+          
+           digitalData.page = { 
+pageInfo: { 
+pageName: "nmx:insiders:article:trump_must_counter_democrats_socialist_views_907699",
+pageType: "article",
+primaryCategory: "insiders",
+subCategory1: "n/a",
+subCategory2: "n/a",
+reportSuiteID: "nmincnewsmaxproduction",
+status: "logged-out"
+}
+, content: { 
+contentType: "article",
+contentID: "907699",
+contentName: "trump_must_counter_democrats_socialist_views"
+} 
+};
+          
+
+       // });
+    </script>
+
+
+        </div>
+        <!-- Content container -->
+        <div class="mainDiv">
+             <div id="HeaderMain">       <a href="/finance" id="nmNewsmaxFinanceLogo" title="NEWSMAX - Independent American.">         </a></div><div id="MoneynewsHeader">
+	<div id="mnTodaysDate"> </div>
+	<div id="nmSearchCont">
+		<input class="nmSearchInput" title="Search"  placeholder="Search Newsmax" type="text" id="q" name="q" />
+		<a  id="nmBtnSearch"></a> </div>
+
+	<div class="clear"> </div>
+	<div class="mnNavSepTop"></div>
+	<div class="mnMainNav">
+		<ul>
+			<li><a id="mnHomeLink" class="mnMainNavLinkSel" href="/finance/" onclick = "analyticsTracking(this, 'MainNav');"> Home</a></li>
+			<li class="mnMainNavSep">&nbsp;</li>
+			<li><a id="mnStreetTalkLink" class="mnMainNavLink" href="/finance/streettalk/"  onclick = "analyticsTracking(this, 'MainNav');"> Street Talk</a></li>
+			<li class="mnMainNavSep">&nbsp;</li>
+			<li><a id="mnFinanceNewsLink" class="mnMainNavLink" href="/finance/personal-finance/"  onclick = "analyticsTracking(this, 'MainNav');"> Personal Finance</a></li>
+			<li class="mnMainNavSep">&nbsp;</li>
+			<li><a id="mnEconomyLink" class="mnMainNavLink" href="/finance/economy/"  onclick = "analyticsTracking(this, 'MainNav');"> Economy</a> </li>
+			<li class="mnMainNavSep">&nbsp;</li>
+			<li><a id="mnCompaniesLink" class="mnMainNavLink" href="/finance/companies/"  onclick = "analyticsTracking(this, 'MainNav');"> Companies</a> </li>
+			<li class="mnMainNavSep">&nbsp;</li>
+			<li><a id="mnMarketLink" class="mnMainNavLink" href="/finance/markets/"  onclick = "analyticsTracking(this, 'MainNav');"> Markets</a> </li>
+			<li class="mnMainNavSep">&nbsp;</li>
+			<li><a id="mnInvestingLink" class="mnMainNavLink" href="/finance/investing---analysis/"  onclick = "analyticsTracking(this, 'MainNav');"> Investing &amp; Analysis</a> </li>
+			<li class="mnMainNavSep">&nbsp;</li>
+			<li><a id="mnInsidersLink" class="mnMainNavLink" href="/finance/insiders/"  onclick = "analyticsTracking(this, 'MainNav');"> Insiders</a> </li>
+			<li class="mnMainNavSep">&nbsp;</li>
+			<li><a id="mnMoneyWireLink" class="mnMainNavLink" href="/finance/money-wire/"  onclick = "analyticsTracking(this, 'MainNav');"> Money Wire</a> </li>
+			<li class="mnMainNavSep">&nbsp;</li>
+			<li><a id="mnNewsletterLink" class="mnMainNavLink" href="/finance/newsletters/"  onclick = "analyticsTracking(this, 'MainNav');"> Subscribe</a> </li>
+		</ul>
+	</div>
+	<!-- <div id="mnMainNavBot">    </div> -->
+	<div class="mnNavSepBot"></div>
+</div>
+
+            <div id="txtBreakNews" class="breakingnewssection" >
+<div id="mnBreakingNewsCont">
+    	<div id="mnBreakingNewsTitle">
+        	Special
+        </div>  
+        <div id="mnBreakingNewsArrow"></div>      
+        	<h2><a href='https://w3.franklinprosperityreport.com/Finance/FPR/Offers/Baby-Boomer-V2?dkt_nbr=070207mduh1o'>Boost Your Social Security Payments by $103,200 in Retirement</a></h2>
+    </div>
+</div>
+            <!-- Content -->
+            <div class="zoneMainContent">
                 
-                var slot = event.slot;
-                if (slot.getTargeting('refresh').indexOf('true') > -1) {
-                    setTimeout(function () {
-                        Thm.RefreshAd(slot);
-                    }, refreshInterval);
-                }
+
+<link type="text/css" rel="stylesheet" href="/CMSPages/GetCSS.aspx?stylesheetname=MNDialogs" />
+
+  
+
+<div id="artPgWrapperDiv"> 
+	
+
+	<!-- Left Column Start -->
+	<div id="artPgLeftWrapper" > 
+  		
+    <!-- ##WebPart## Breadcrumbs Start -->
+
+    
+            <div id="artPgBrdCrmbWrapper" itemscope itemtype="http://schema.org/BreadcrumbList">
+                <!-- Breadcrumbs Start -->
+        
+            <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a class="breadCrumb" href="https://www.newsmax.com/finance/" itemprop="item" ><span itemprop="name">Home</span></a>
+                <meta itemprop="position" content="1" />
+                </span>
+        
+            |
+        
+            <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a class="breadCrumb" href="https://www.newsmax.com/finance/insiders/peter-morici/id-213/" itemprop="item" ><span itemprop="name">Peter Morici</span></a>
+                <meta itemprop="position" content="2" />
+                </span>
+        
+            <!-- Breadcrumbs End -->
+            </div>
+      
+        
+    <!-- ##WebPart## Breadcrumbs End -->
+
+
+
+
+<script type="text/javascript">
+    var SiteSettings = { isLoggedIn: false };
+</script>
+<style>
+    .membershipBar {border: 0px solid #777;background: #ccc;padding: 10px;font-family: Arial;font-size: 14px !important;}
+    .statusLine {display: inline;}
+    a.memberbtn {background: #337ab7;cursor: pointer;color: #ffffff !important;font-weight: bold;padding: 5px 20px;text-decoration: none !important;margin: -5px 5px;border-radius: 2px;float: right;}
+    a.memberbtn:hover {background-color: #5972a7;}
+    a.memberbtn:active {position: relative;top: 1px;}
+</style>
+
+
+
+    <div itemscope="" itemtype="https://schema.org/NewsArticle">
+        <script type="text/javascript">
+            var vrAllowAutomaticEcomInsertion = 'True';
+            var isArticleHasVideo = 'False';
+        </script>
+        
+
+<div id="artPgHotLnksDiv">
+    Tags: 
+    
+            <a class='hotLinks'
+                href="/hottopics/topic/trump-administration/246/"
+                >Trump Administration</a>
+        | 
+            <a class='hotLinks'
+                href="#"
+                onclick="SearchTages('trump','isKeyWords');">trump</a>
+        | 
+            <a class='hotLinks'
+                href="#"
+                onclick="SearchTages('budget','isKeyWords');"> budget</a>
+        | 
+            <a class='hotLinks'
+                href="#"
+                onclick="SearchTages('plan','isKeyWords');"> plan</a>
+        | 
+            <a class='hotLinks'
+                href="#"
+                onclick="SearchTages('democrat','isKeyWords');"> democrat</a>
+        | 
+            <a class='hotLinks'
+                href="#"
+                onclick="SearchTages('socialist','isKeyWords');"> socialist</a>
+        
+    <script type="text/javascript">
+        function SearchTages(tageName, cssClass) {
+            if (cssClass == "isKeyWords") {
+                jQuery('#q').val(tageName);
+                SearchSite();
+            }
+        }
+    </script>
+</div>
+
+        <!-- ##WebPart## Article Content Start -->
+
+        
+
+        <!-- Headline Wrapper Div Start-->
+        <div id="artPgHdLnWrapper">
+            <a name="textSize"></a>
+
+            <!-- Wrapper Div -->
+
+            <!-- Image Above Headline Start -->
+            <div id="imageTop" class="artImageContainer">
+                
+                <div class="artCaptionContainer">
+                    
+                </div>
+            </div>
+            <!-- Image Above Headline End -->
+
+            <h1 class="article" itemprop="headline">Trump Must Counter Democrats' Socialist Views</h1>
+
+            <!-- Image Below Headline Start -->
+            <div id="imageMid" class="artImageContainer">
+                <img src="https://www.newsmax.com/CMSPages/GetFile.aspx?guid=13c817c8-7938-4f56-a7b4-54f58887e4a1&amp;SiteName=Newsmax&amp;maxsidesize=600" alt="president donald trump" />
+            </div>
+
+            <div class="artCaptionContainer">
+                (AP/Evan Vucci)
+            </div>
+            <!-- Image Below Headline End -->
+
+            <div style="float: left; width: 500px;">
+                <p style="margin-top: 5px;">
+                    <img src='https://www.newsmax.com/CMSPages/GetFile.aspx?guid=46456ecd-a0c4-49b6-9ac0-66b59d5067e0&SiteName=Newsmax' class='authImage' /><style>.authImage{float:left;margin-right:10px;height:60px;}.artPgByline,.artPgDate{display:block;margin:0 0 3px 0 !important;float:left;width:330px;}span.artPgByline:first-of-type {margin-top: 5px !important;}.cta_brand{display:none !important;}.an-summary{display:none !important;}.an-special{display:none !important;}div#nmWidgetInstream-text div.nmWidgetInstream-post {margin:0 !important;}div#nmWidgetInstream-text div.nmWidgetInstream-post a {text-decoration:underline !important;}div#nmWidgetInstream-text div.nmWidgetInstream-post a.nmTitle{padding:0;}div#dfp2 {left:-10px;}.DFPInArticleNMX a {font-size:16px;text-decoration:underline;}#mainArticleDiv p:last-child {font-size: 15px;line-height: 20px;}</style>
+                    <span class="artPgByline">By <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="https://www.newsmax.com/finance/insiders/peter-morici/id-213" ><a  href="https://www.newsmax.com/finance/insiders/peter-morici/id-213" ><span itemprop="name">Peter Morici <i>Twitter @pmorici1</i></span></a></span> <br/></span>
+                    <span class="artPgDate">Tuesday, 19 March 2019 01:54 PM</span>
+                    <span class="artPgByline"><a href="https://www.newsmax.com/finance/peter-morici/federal-reserve-crisis-response/2020/04/13/id/962658">Current</a> | <a href="https://www.newsmax.com/finance/insiders/peter-morici/bio-213">Bio</a> | <a  href="https://www.newsmax.com/finance/insiders/peter-morici/id-213" >Archive</a></span>
+                    <div style="clear: both;"></div>
+                </p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="artPgShareCont1" class="share-bar">
+            
+    <div class="moreShare" style="display: none;">
+        <div class="moreShareClose">Close&nbsp;</div>
+        <div class="moreShareHeader">
+            More ways to share...
+        </div>
+        <div class="mediumShareCont">
+<div class="shareIconStumbled">
+<a onclick="javascript:(this.href = shareURL('Stumbled'));" rel="share"><img src="/App_Themes/Newsmax/images/articlePage/clear.gif" height="28" width="28" border="0" /></a>
+</div>
+<div class="mediumShareLabel">
+<a onclick="javascript:(this.href = shareURL('Stumbled'));" rel="share">Stumbled</a>
+</div> <div class="clear"></div>
+</div>
+<div class="mediumShareCont">
+<div class="shareIconLinkedIn">
+<a onclick="javascript:(this.href = shareURL('LinkedIn'));" rel="share"><img src="/App_Themes/Newsmax/images/articlePage/clear.gif" height="28" width="28" border="0" /></a>
+</div>
+<div class="mediumShareLabel">
+<a onclick="javascript:(this.href = shareURL('LinkedIn'));" rel="share">LinkedIn</a>
+</div> <div class="clear"></div>
+</div>
+<div class="mediumShareCont">
+<div class="shareIconVine">
+<a onclick="javascript:(this.href = shareURL('Vine'));" rel="share"><img src="/App_Themes/Newsmax/images/articlePage/clear.gif" height="28" width="28" border="0" /></a>
+</div>
+<div class="mediumShareLabel">
+<a onclick="javascript:(this.href = shareURL('Vine'));" rel="share">Vine</a>
+</div> <div class="clear"></div>
+</div>
+<div class="mediumShareCont">
+<div class="shareIconReddit">
+<a onclick="javascript:(this.href = shareURL('Reddit'));" rel="share"><img src="/App_Themes/Newsmax/images/articlePage/clear.gif" height="28" width="28" border="0" /></a>
+</div>
+<div class="mediumShareLabel">
+<a onclick="javascript:(this.href = shareURL('Reddit'));" rel="share">Reddit</a>
+</div> <div class="clear"></div>
+</div>
+<div class="mediumShareCont">
+<div class="shareIconDelicious">
+<a onclick="javascript:(this.href = shareURL('Delicious'));" rel="share"><img src="/App_Themes/Newsmax/images/articlePage/clear.gif" height="28" width="28" border="0" /></a>
+</div>
+<div class="mediumShareLabel">
+<a onclick="javascript:(this.href = shareURL('Delicious'));" rel="share">Delicious</a>
+</div> <div class="clear"></div>
+</div>
+<div class="mediumShareCont">
+<div class="shareIconNewstrust">
+<a onclick="javascript:(this.href = shareURL('Newstrust'));" rel="share"><img src="/App_Themes/Newsmax/images/articlePage/clear.gif" height="28" width="28" border="0" /></a>
+</div>
+<div class="mediumShareLabel">
+<a onclick="javascript:(this.href = shareURL('Newstrust'));" rel="share">Newstrust</a>
+</div> <div class="clear"></div>
+</div>
+<div class="mediumShareCont">
+<div class="shareIconTell_my_politician">
+<a onclick="javascript:(this.href = shareURL('Tell my politician'));" rel="share"><img src="/App_Themes/Newsmax/images/articlePage/clear.gif" height="28" width="28" border="0" /></a>
+</div>
+<div class="mediumShareLabel">
+<a onclick="javascript:(this.href = shareURL('Tell my politician'));" rel="share">Tell my politician</a>
+</div> <div class="clear"></div>
+</div>
+<div class="mediumShareCont">
+<div class="shareIconTechnocrati">
+<a onclick="javascript:(this.href = shareURL('Technocrati'));" rel="share"><img src="/App_Themes/Newsmax/images/articlePage/clear.gif" height="28" width="28" border="0" /></a>
+</div>
+<div class="mediumShareLabel">
+<a onclick="javascript:(this.href = shareURL('Technocrati'));" rel="share">Technocrati</a>
+</div> <div class="clear"></div>
+</div>
+
+        <div class="clear"></div>
+    </div>
+    <!-- Share Button Container Div Start -->
+
+    <div class="fb-root">
+    </div>
+    <div class="socialShare">
+        <!-- <div class="shareText">Share:</div> -->
+
+        <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_nmShare_cntSharebuttons" class="shareBtnContainer"><div class="shareIconFacebook tTip" title="Facebook">
+<a href="#" rel="sharepop"><img src="/App_Themes/Newsmax/images/articlePage/shareFB.png" height="33" width="86" border="0" /></a>
+</div>
+<div class="shareIconFacebookLike tTip" title="FacebookLike">
+<a href="#" rel="showFBLike"><img src="/App_Themes/Newsmax/images/articlePage/likeFB.png" height="33" width="50" border="0" /></a>
+</div>
+<div class="shareIconTwitter tTip" title="Twitter">
+<a href="#" rel="sharepop"><img src="/App_Themes/Newsmax/images/articlePage/shareTwitter.png" height="33" width="33" border="0" /></a>
+</div>
+<div class="EmailIcon"><a href='#' rel='ForwardPage'><img src='/App_Themes/Newsmax/images/articlePage/Email.png' height='33' width='33' border='0' style='vertical-align:middle' /></a></div></div><div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_nmShare_lnkMoreShare" class="shareMoreBtn" style="visibility: hidden; width: 0px">
+            
+        </div>
+    </div>
+
+    <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_nmShare_toolbarContainer" class="toolbarContainer">
+        
+        <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_nmShare_divEmpty" style="width:70px;" class="tool floatLeft"></div>
+        <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_nmShare_divFwdPage" class="tool floatLeft">
+            <a href="#" class="emailFwPrint" rel="ForwardPage" >Email Article</a>|
+        </div>
+        <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_nmShare_divComment" class="tool floatLeft">
+            <a href="#" class="emailFwPrint Comment" onclick="window.scrollTo(0, document.getElementById('CommentSection').offsetTop); return false;">Comment</a>|
+        </div>
+        <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_nmShare_divEmailUs" class="tool floatLeft">
+            <a href="#" class="emailFwPrint" rel="EmailUs">Contact</a>|
+        </div>
+        <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_nmShare_divPrint" class="tool floatLeft">
+            <a href="javascript:printPage(907699);" class="emailFwPrint">Print</a>|
+        </div>
+        <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_nmShare_divTextresize" class="floatLeft">
+            &#160;&#160;&#160;&#160;<a href="#textSize" class="textSizeLink textReduce" rel="textSize">A</a> &#160; 
+        <a href="#textSize" class="textEnlarge" rel="textSize">A</a>
+        </div>
+    </div>
+
+    <div class="toolTip PopupWind" style="background-color: whitesmoke; z-index: 3; height: auto">
+        <div class="toolTipClose">
+            <a href="#" class="hideToolTip">
+                <img src="/App_Themes/NewsmaxNew/images/tooltipCloseButton.png" width="20" height="20" alt="" /></a>
+        </div>
+        <div class="toolTipTextLink toolTipLink">
+            <input type="text" class="ShortLinkText" value="" />
+        </div>
+        <div class="toolTipTextLinkbutton toolTipButton">&nbsp;&nbsp;<img alt="Copy Shortlink" src="/App_Themes/NewsmaxNew/images/CopyLInk.jpg" class="toolTipCopyButton CopyButton" /></div>
+        <div class="toolTipText"></div>
+    </div>
+
+    <div class="FBtoolTip FBtooltip" style="background-color: whitesmoke; z-index: 3; height: auto">
+        <div class="FBtoolTipClose">
+            <a href="#" class="hideToolTip">
+                <img src="/App_Themes/NewsmaxNew/images/tooltipCloseButton.png" width="20" height="20" alt="" /></a>
+        </div>
+        <div class="toolTipText">
+            <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fnewsmax&amp;width&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=323020797885219" scrolling="no" frameborder="0" style="display: none; border: none; overflow: hidden; height: 258px;" allowtransparency="true" class="FBiframe"></iframe>
+
+        </div>
+    </div>
+
+    
+
+
+
+            <!-- IncludeMore="true" SharingSites="Facebook|Twitter|Digg" />  -->
+
+            <div class="clear"></div>
+        </div>
+        <div id="artPgMnStryWrapper">
+            
+
+            <!-- Vertical Share Bar Start -->
+            <ul id="sharebar">
+                <li><div id="artPgSocVertFB"></div></li>
+                <li><div id="artPgSocVertTw"></div></li>
+                <li><div id="artPgSocVertGo" class="googleplus" title="googleplus"><g:plusone size="tall"></g:plusone></div></li>
+                <li>
+                    <div id="artPgSocVertLi">
+                        <script src="https://platform.linkedin.com/in.js" type="text/javascript"></script>
+                        <script type="IN/Share" data-counter="top"></script>
+                    </div>
+                </li>
+            </ul>
+            <ul id="sharebarx">
+                <li><div id="artPgSocHorFB"></div></li>
+                <li><div id="artPgSocHorTw"></div></li>
+                <li><div id="artPgSocHorGo"><g:plusone size="medium"></g:plusone></div></li>
+                <li>
+                    <div id="artPgSocHorLi">
+                        <script src="https://platform.linkedin.com/in.js" type="text/javascript"></script>
+                        <script type="IN/Share" data-counter="right"></script>
+                    </div>
+                </li>
+            </ul>
+
+            <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_pnl" class="artPgMnStryWrapper">
+	
+                <!-- Image Before Text Start -->
+                <div id="imageBot" class="artImageContainer">
+                    
+                    <div class="artCaptionContainer">
+                        
+                    </div>
+                </div>
+                <!-- Image Before Text End -->
+                
+                
+                <div id="mainArticleDiv" itemprop="articleBody">
+                    <p>President Donald Trump&#39;s budget is dead on arrival and, my conservatism notwithstanding, that is a good thing.</p>
+
+<p>U.S. economy is beset by negative structural forces beyond our borders. Growth is slowing, a recession is becoming a real risk, and the totality of the president&#39;s budget cuts is ill-advised. Instead, he should articulate an agenda that challenges the Congress to keep the recovery on track.</p>
+
+<p>China&#39;s flagging economy won&#39;t be resurrected by any trade deal hatched by Presidents Trump and Xi. The communist leader has imposed more state controls that breed corruption and waste, and burden <a alt="https://www.wsj.com/articles/theres-no-money-right-now-chinas-building-boom-runs-into-a-great-wall-of-debt-11551267002" href="http://r20.rs6.net/tn.jsp?f=001Bv5tg7YoX9b5Q6ewf24vNKDoAcD5Hso43V534zdP2nF67dg6kIiCWNzgYsQLu6SsVtRn6y2w_qrdmDWujUiwidqo2myYKC95IFozjUVrMH50zI8xc-x9Tm4qxSe3nSo6Iq6nTMNJgIScSw-t-q-SZd2AeQGC-L5QD5lYafcIt6hYf22aRBVa5Ola2rt56Z1ZvZTU8g9F2YYD81Ei4PLtfj7MwZfbjbJ1a_ihpermxkPzsE4m-DMOu53NUWoMeV0NKvHBwq8zcn_BwhpHCV6G8pRUKKrQWRn7qOgpA20DtGY=&amp;c=rOi6jwlQ57CxdLSuQOe20FssuszCrbnYPUFSb8EGffqoWUpCvwwKyA==&amp;ch=HHTTqiv7pmL1DKAGFww0ofWMEppVdYnftnrXukcHW8Mz5mup1zyThw==" shape="rect" target="_new">provincial governments</a> and <a alt="https://www.wsj.com/articles/theres-no-money-right-now-chinas-building-boom-runs-into-a-great-wall-of-debt-11551267002" href="http://r20.rs6.net/tn.jsp?f=001Bv5tg7YoX9b5Q6ewf24vNKDoAcD5Hso43V534zdP2nF67dg6kIiCWNzgYsQLu6SsVtRn6y2w_qrdmDWujUiwidqo2myYKC95IFozjUVrMH50zI8xc-x9Tm4qxSe3nSo6Iq6nTMNJgIScSw-t-q-SZd2AeQGC-L5QD5lYafcIt6hYf22aRBVa5Ola2rt56Z1ZvZTU8g9F2YYD81Ei4PLtfj7MwZfbjbJ1a_ihpermxkPzsE4m-DMOu53NUWoMeV0NKvHBwq8zcn_BwhpHCV6G8pRUKKrQWRn7qOgpA20DtGY=&amp;c=rOi6jwlQ57CxdLSuQOe20FssuszCrbnYPUFSb8EGffqoWUpCvwwKyA==&amp;ch=HHTTqiv7pmL1DKAGFww0ofWMEppVdYnftnrXukcHW8Mz5mup1zyThw==" shape="rect" target="_new">private businesses</a> with a mountain of debt.</p>
+
+<p>Repeated injections of credit and fiscal stimulus <a alt="https://www.washingtonpost.com/business/china-has-a-dirty-1-trillion-stimulus-secret/2019/03/04/7fbba558-3ee8-11e9-85ad-779ef05fd9d8_story.html?utm_term=.8ed703c8867d" href="http://r20.rs6.net/tn.jsp?f=001Bv5tg7YoX9b5Q6ewf24vNKDoAcD5Hso43V534zdP2nF67dg6kIiCWNzgYsQLu6SsXPcaodgDaOoYAL8ghUMPXpjAzSWqS3HBwOceaN44RkDy3iTgiX_GOT1LeR5lm3Q1IDOgNoc6cvnkWyqVblX-iYFNjq6zpekOq-kGWJZVU7hzlhrc2KfRrK_Hi-L-fIkwNNPTeUh33BEkTBCcgGu1NReOXxZREta4KQpEyZISPRhAjTD-eVeZJIypRmDvXWRhMtUhvD182CQEatxA0Fa7o8NkLzk-3oDwYe4L4tKlzsm0gWue5dM1lJXWpYq0n3BDfJuwX0SpbD46iRRd90sbl-cSYCIf-SY5RjU4gOjIIKoh65d_Cqvdat0PXJnH0Kkg&amp;c=rOi6jwlQ57CxdLSuQOe20FssuszCrbnYPUFSb8EGffqoWUpCvwwKyA==&amp;ch=HHTTqiv7pmL1DKAGFww0ofWMEppVdYnftnrXukcHW8Mz5mup1zyThw==" shape="rect" target="_new">won&#39;t solve that mess.</a></p>
+
+<p>Europe remains obsessed with preserving dysfunctional macroeconomic policies required to sustain a euro that promotes German exports but is overvalued for less dynamic southern European economies.</p>
+
+<p><a alt="https://www.wsj.com/articles/europes-economy-starts-2019-with-a-whimper-11549366726" href="http://r20.rs6.net/tn.jsp?f=001Bv5tg7YoX9b5Q6ewf24vNKDoAcD5Hso43V534zdP2nF67dg6kIiCWNzgYsQLu6Ss3RPtBpKhhv12yrDSg_zf7fzAqfTX5S-wPrTpJYUG8cuoGNi7x_8joPMsvSZpo4JwoeJ-zQgduSSymtfDhPgcwNd7cHotE-TXt9DBKGxYq8MNWaZUnS0U1k8Bg1E95Uzzoxwm6r4BGyrOyIvhXsN8gNyh2HVCFpSKB7gF0GymzjXGz8Ct9pHwx2ZFjAQKdiyD&amp;c=rOi6jwlQ57CxdLSuQOe20FssuszCrbnYPUFSb8EGffqoWUpCvwwKyA==&amp;ch=HHTTqiv7pmL1DKAGFww0ofWMEppVdYnftnrXukcHW8Mz5mup1zyThw==" shape="rect" target="_new">Italy is slipping into recession</a>, and growth elsewhere remains perilously close to zero. Brussels&#39; obsession with punishing Britain for Brexit and Theresa May&#39;s unimaginative leadership <a alt="https://www.wsj.com/articles/europes-economy-starts-2019-with-a-whimper-11549366726" href="http://r20.rs6.net/tn.jsp?f=001Bv5tg7YoX9b5Q6ewf24vNKDoAcD5Hso43V534zdP2nF67dg6kIiCWNzgYsQLu6Ss3RPtBpKhhv12yrDSg_zf7fzAqfTX5S-wPrTpJYUG8cuoGNi7x_8joPMsvSZpo4JwoeJ-zQgduSSymtfDhPgcwNd7cHotE-TXt9DBKGxYq8MNWaZUnS0U1k8Bg1E95Uzzoxwm6r4BGyrOyIvhXsN8gNyh2HVCFpSKB7gF0GymzjXGz8Ct9pHwx2ZFjAQKdiyD&amp;c=rOi6jwlQ57CxdLSuQOe20FssuszCrbnYPUFSb8EGffqoWUpCvwwKyA==&amp;ch=HHTTqiv7pmL1DKAGFww0ofWMEppVdYnftnrXukcHW8Mz5mup1zyThw==" shape="rect" target="_new">leaves the island nation struggling.</a></p>
+
+<p>More European Central Bank stimulus is<a alt="https://www.wsj.com/articles/ecbs-latest-stimulus-will-help-banks-more-than-the-economy-11551973338" href="http://r20.rs6.net/tn.jsp?f=001Bv5tg7YoX9b5Q6ewf24vNKDoAcD5Hso43V534zdP2nF67dg6kIiCWNzgYsQLu6SsO_aibF0PYNpOCUHaKz6B5xXoA_d5pGtjxyoetq7iqNE2CiXBsLmVdP2cmxVYWEypuRPqq7qhoYX5IlMipfPD9RRSgk47APyW3VO1GmSiy-sCnrBz74cKlzAxn2QkJf8CvujAvJj9W0LXVnLZcp36ctIedASHMoSrR4GEuCx7lIHOLXonAPI42WYbW0JhMxvuzPhDgkQN3_Bli0ZNAdgZKA==&amp;c=rOi6jwlQ57CxdLSuQOe20FssuszCrbnYPUFSb8EGffqoWUpCvwwKyA==&amp;ch=HHTTqiv7pmL1DKAGFww0ofWMEppVdYnftnrXukcHW8Mz5mup1zyThw==" shape="rect" target="_new"> like an opioid </a>for a cancer patient. It relieves pain but will not reverse the inevitable-the ultimate collapse of the EU as a global force.</p>
+
+<p>No surprise, U.S. imports are growing more rapidly than exports, and <a alt="https://www.wsj.com/articles/u-s-trade-gap-in-goods-widened-10-in-2018-11551291772" href="http://r20.rs6.net/tn.jsp?f=001Bv5tg7YoX9b5Q6ewf24vNKDoAcD5Hso43V534zdP2nF67dg6kIiCWNzgYsQLu6Ss7HgwCMEqDMs3NbrOXKPxx4dmXLu9swaHZfgIsvNEDETAoV2eT5HkQ3BZWGsDw57Uvy0MVWvhCQLHN-ni8aSaVmO09pP_zqh3zgPxwQxnrEjDm_ywgv_xxglLDuaNy5q1kz6xFQ36TH-G4GphPSQBd9csfPVd26E6U8YmB1D_qjgVoymT7Zid97wLJOAZwfz2&amp;c=rOi6jwlQ57CxdLSuQOe20FssuszCrbnYPUFSb8EGffqoWUpCvwwKyA==&amp;ch=HHTTqiv7pmL1DKAGFww0ofWMEppVdYnftnrXukcHW8Mz5mup1zyThw==" shape="rect" target="_new">the trade deficit jumped 10%</a> last year. That taxes U.S. growth, and armistices pausing Trump&#39;s trade wars won&#39;t significantly alter the reality that revving up U.S. growth requires boosting domestic demand and addressing skilled labor shortages.</p>
+
+<p>Democratic senators running for president see all this and are promoting socialist solutions. Each has embraced <a alt="https://www.wsj.com/articles/the-aoc-primary-11551222671" href="http://r20.rs6.net/tn.jsp?f=001Bv5tg7YoX9b5Q6ewf24vNKDoAcD5Hso43V534zdP2nF67dg6kIiCWNzgYsQLu6SsZwe2UOrdkPYdlHTPQHKp0_n9lV79Ko1sBwJnujXYuTvg1FrHc-jD--ZK2fuogYKP3YGo_QOWXvenLH8KfuRTbguo3s8Aw7D_8KQE4NkUSwjtuzAOc-4r1wgcFiYXiyCvv4o1TqW1mZ-ySaF7NBCcH0R0PzymncqJ&amp;c=rOi6jwlQ57CxdLSuQOe20FssuszCrbnYPUFSb8EGffqoWUpCvwwKyA==&amp;ch=HHTTqiv7pmL1DKAGFww0ofWMEppVdYnftnrXukcHW8Mz5mup1zyThw==" shape="rect" target="_new">the Green New Deal,</a> which requires de facto government takeovers of the automotive, banking, health care, education and energy sectors and a Maoist iron rice bowl-a guaranteed basic income for all.</p>
+
+<p>Americans are <a alt="https://www.wsj.com/articles/the-lesson-of-2018-1541111176" href="http://r20.rs6.net/tn.jsp?f=001Bv5tg7YoX9b5Q6ewf24vNKDoAcD5Hso43V534zdP2nF67dg6kIiCWPYVQzDZX5qGkfplpOlWB5YbAW-R-JNrRdozahtSXIh-5IHrXgHexF8xSEUEJQ23r5IHVB3fdo03uNtFRCmgVzmmogtgTtxtnXO6iUDZ4LnQV4HHc9bWNzBkiG-nAiRhUFd_7EWRErQgzr8RC0KvZiwpT6Y8ugxxMvjQQvcs1HNO&amp;c=rOi6jwlQ57CxdLSuQOe20FssuszCrbnYPUFSb8EGffqoWUpCvwwKyA==&amp;ch=HHTTqiv7pmL1DKAGFww0ofWMEppVdYnftnrXukcHW8Mz5mup1zyThw==" shape="rect" target="_new">not that radical. </a></p>
+
+<p>Democrats won the House with <a alt="https://www.nytimes.com/2018/11/06/us/politics/midterm-elections-results.html" href="http://r20.rs6.net/tn.jsp?f=001Bv5tg7YoX9b5Q6ewf24vNKDoAcD5Hso43V534zdP2nF67dg6kIiCWLl5bTGJLYcGSArR-ePim8XKeRMTvt_hO3lOemq5-icUGC2RymIwvN7eFS_99omokjS3sqWLaFO17ELCuump4XdZjO-zm0yfbBUPjwm_lFXZ1BXUcCX4udeQUw-bGsfLFyjsHQdr8Pg-_mxWLggR5N-n-FX3mIk22SXTcU7v3Jz4dncuPaVpVLNe1Iuz43aGpKMzQPReNyBB&amp;c=rOi6jwlQ57CxdLSuQOe20FssuszCrbnYPUFSb8EGffqoWUpCvwwKyA==&amp;ch=HHTTqiv7pmL1DKAGFww0ofWMEppVdYnftnrXukcHW8Mz5mup1zyThw==" shape="rect" target="_new">moderate candidates </a>promising to work for practical solutions to improve health care and transportation and to reform immigration. The latter touches a cultural nerve in ways Washington&#39;s aging political class and Northeast liberals simply don&#39;t grasp.</p>
+
+<p>U.S. prescription drugs are rising at nearly double the rate of inflation-even after all the discounts to pharmacy-benefit-managers that the drug companies like to blame. The White House should challenge Congress with pre-drafted bills; for example, one that explicitly links U.S. drug prices to those charged in Germany.</p>
+
+<p>Similarly, the administration should offer a bill ending Big Pharma&#39;s penchant for <a alt="https://www.wsj.com/articles/the-strategies-abbvie-employed-to-protect-humira-from-copycats-1539687601" href="http://r20.rs6.net/tn.jsp?f=001Bv5tg7YoX9b5Q6ewf24vNKDoAcD5Hso43V534zdP2nF67dg6kIiCWNzgYsQLu6SshqSKFuDYBuLu1MvYanNqzg0lW5GccWsO1hWWrjtUkS-4sKhD-XSGxSjPb6p-kMF37OP23WnxV5EfKHhvV59uFewydQmtxIdQoixLVfrsljsN7lrbi5rk20JImkF8WaxVnUHocE-b3lAE8enRq5rXTxrwt7ZxwZHmq_RjT22YiFi_e9Cf-QbQeO_tN1GRXYYA-YSWFxpM9PZQbmrHEGnWTQ==&amp;c=rOi6jwlQ57CxdLSuQOe20FssuszCrbnYPUFSb8EGffqoWUpCvwwKyA==&amp;ch=HHTTqiv7pmL1DKAGFww0ofWMEppVdYnftnrXukcHW8Mz5mup1zyThw==" shape="rect" target="_new">suing generic manufactures </a>and forcing agreements that delay generics and limit competition. And perhaps investigate a few CEOs for outright price fixing.</p>
+
+<p>Trump&#39;s $1.5 trillion dollar infrastructure plan got little traction because it is full of <a alt="https://www.marketwatch.com/story/cutting-a-deal-on-infrastructure-would-benefit-everybody-2018-02-05" href="http://r20.rs6.net/tn.jsp?f=001Bv5tg7YoX9b5Q6ewf24vNKDoAcD5Hso43V534zdP2nF67dg6kIiCWNzgYsQLu6Ssqvn43AmLUizb3y1WysfAenrLYfF7eqlLixex7BspqDwF5j2yPCJqIyk6dru3nEQQiLKD1ih_ttjZ7JRlwAJOteRu7ySw2QTHRgZr73WVg4EGLDim5vgtnmrfwcoELbpiOgbgBNP2enVtq9UkYSqa7c-vMSASge_le4SqjNaEoNbLRz7-B5vMlzAGSB0mNvT4mrCtF0bwT5fO0GsJSMT-FA==&amp;c=rOi6jwlQ57CxdLSuQOe20FssuszCrbnYPUFSb8EGffqoWUpCvwwKyA==&amp;ch=HHTTqiv7pmL1DKAGFww0ofWMEppVdYnftnrXukcHW8Mz5mup1zyThw==" shape="rect" target="_blank">questionable right-wing ideas</a>-for example, private toll roads too often fail. And it didn&#39;t specify how the $200 billion federal contribution would be funded.</p>
+
+<p>After 25 years at 18.4 cents per gallon, <a alt="https://www.desmoinesregister.com/story/opinion/columnists/2015/07/25/gas-tax-trust-fund-morici/30650139/" href="http://r20.rs6.net/tn.jsp?f=001Bv5tg7YoX9b5Q6ewf24vNKDoAcD5Hso43V534zdP2nF67dg6kIiCWNzgYsQLu6SsV9fGaMt2xqSOI9CWHfiJs3IExWnwbYhJiYgkAdhHKeAZd1eNe3t7y80jn6od7aTC854ddEBVYTSpI2H8Y4aEpko5oUHpeQXONOUciAStxm9d_zl-78XX2HS2gmS5vPGOwBdCMRUS7NcSIU6oAd9meCN4rqzmRCahivz0_95EwqWcZ4ohh5ktMin3JreOnOvlMpvMmEM_z9wufXhCOLQxVoie-mxj5tkwqjoDCry0TZ4=&amp;c=rOi6jwlQ57CxdLSuQOe20FssuszCrbnYPUFSb8EGffqoWUpCvwwKyA==&amp;ch=HHTTqiv7pmL1DKAGFww0ofWMEppVdYnftnrXukcHW8Mz5mup1zyThw==" shape="rect" target="_new">it&#39;s time to raise the gas tax</a> 25 cents and offer the proceeds to the states on a per capita basis to do as they please if they match with new money and spend what they receive within 12 months. Each dollar of tax collected, if spent immediately, would boost gross domestic product by the same amount and create good-paying middle-class jobs.</p>
+
+<p>Trump should de-emphasize the border wall. He doesn&#39;t have the votes in Congress and the courts will decide if his national emergency is legitimate.</p>
+
+<p>Instead, offer <a alt="https://www.washingtontimes.com/news/2018/feb/4/donald-trumps-framework-delivers-fair-treatment-of/" href="http://r20.rs6.net/tn.jsp?f=001Bv5tg7YoX9b5Q6ewf24vNKDoAcD5Hso43V534zdP2nF67dg6kIiCWJYtg4Kj-RzoIrxcwhBXUPxRl7ZSl0iJqH-E5Wmgtm5XZtm-MQZa5ZzufZ7yDYCqAYUiphI6rTz2r5FoAI06V5QuUZ9ddm3-UranZDEHc_BofRjL2bN5vqhRDArgsqhv3n9a7iW3ICaz_kwNaWJumpbGcniXTWQIMjMO6wUHUePpWuMMC4aD7ZTHk48bnWRfCp34GeLCkKXIkRSy35L1tH_7Pgy_S7Rw8D5Hb1SWyB7l&amp;c=rOi6jwlQ57CxdLSuQOe20FssuszCrbnYPUFSb8EGffqoWUpCvwwKyA==&amp;ch=HHTTqiv7pmL1DKAGFww0ofWMEppVdYnftnrXukcHW8Mz5mup1zyThw==" shape="rect" target="_new">a grand deal on legal immigration</a>-permanent status for DACAs if the Democrats will agree to reform family reunification rules and replace the visa lottery with a system that emphasizes badly needed STEM skills.</p>
+
+<p>Trump needs to move to the center on those issues with simple understandable proposals in ready drafted bills. Then challenge Leaders Nancy Pelosi and Mitch McConnell to put those to up or down votes and hammer them relentlessly when they delay.</p>
+
+<p>These are hard swallows for many in Congress but all would help lift wages right away and make Trump the pragmatist in the face of a do-nothing Congress that only bickers, investigates and complains.</p>
+
+<p>All should be pitched as initiatives to improve the conditions for working Americans-the folks who will ultimately determine the occupant of the Oval Office in 2021.</p>
+
+<p><a href="https://www.newsmax.com/Finance/Insiders/PeterMorici/bio-213/" target="_blank">Peter Morici</a> is an economist and business professor at the University of Maryland, and a national columnist. He tweets <a href="https://twitter.com/PMorici1" target="_blank">@pmorici1</a></p>
+
+
+                    
+                </div>
+                
+
+                <div id="divBloggerExtraArticles" class="extraLinks">
+                    <h3>Posts by Peter Morici <i>Twitter @pmorici1</i></h3><ul><li><a href='https://www.newsmax.com/Finance/peter-morici/federal-reserve-crisis-response/2020/04/13/id/962658'>Fed Crisis Response Would Be More Effective With Digital Dollars</a></li>
+<li><a href='https://www.newsmax.com/Finance/peter-morici/congress-1-200-check/2020/04/06/id/961634'>Congress Should Send Everyone a $1,200 Check Every Month</a></li>
+<li><a href=https://www.newsmax.com/Finance/Insiders/Peter-Morici/id-213>View More Posts by Peter Morici <i>Twitter @pmorici1</i></a></li>
+</ul>
+                </div>
+                <div id="divLastInsidersArticles" class="extraLinks">
+                    <h3>Newsmax Blogs: </h3><ul><li><a href='https://www.newsmax.com/Finance/peterreagan/fed-gold-win-situation/2020/04/17/id/963429' >Peter Reagan: The Fed Just Put Gold in This Win-Win Situation</li></a>
+<li><a href='https://www.newsmax.com/Finance/charlessizemore/post-coronavirus-retirement-action/2020/04/17/id/963424' >Charles Sizemore: 3 Step Post-Coronavirus Retirement Action Plan</li></a>
+<li><a href='/insiders'>View More Newsmax Blogs</a></li>
+</ul>
+                </div>
+                <div id="divArticleRelatedStories">
+                    
+                </div>
+                <div id="divSingleQuestionPool">
+                    <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_pnlSingleQuestionPool">
+		
+                        
+                    
+	</div>
+                </div>
+                <div id="divArticleSpecialLinks" class="extraLinks"></div>
+
+                <p class="articleCopyright">
+                    &copy; 2020 Newsmax Finance. All rights reserved.
+                </p>
+                <div class="commentlink" rel="clink"><a class="CommentRef" href="#CommentSection">Click Here</a> to comment on this article</div>
+            
+</div>
+        </div>
+        <div id="artPgShareCont2" class="share-bar">
+            
+    <div class="moreShare" style="display: none;">
+        <div class="moreShareClose">Close&nbsp;</div>
+        <div class="moreShareHeader">
+            More ways to share...
+        </div>
+        <div class="mediumShareCont">
+<div class="shareIconStumbled">
+<a onclick="javascript:(this.href = shareURL('Stumbled'));" rel="share"><img src="/App_Themes/Newsmax/images/articlePage/clear.gif" height="28" width="28" border="0" /></a>
+</div>
+<div class="mediumShareLabel">
+<a onclick="javascript:(this.href = shareURL('Stumbled'));" rel="share">Stumbled</a>
+</div> <div class="clear"></div>
+</div>
+<div class="mediumShareCont">
+<div class="shareIconLinkedIn">
+<a onclick="javascript:(this.href = shareURL('LinkedIn'));" rel="share"><img src="/App_Themes/Newsmax/images/articlePage/clear.gif" height="28" width="28" border="0" /></a>
+</div>
+<div class="mediumShareLabel">
+<a onclick="javascript:(this.href = shareURL('LinkedIn'));" rel="share">LinkedIn</a>
+</div> <div class="clear"></div>
+</div>
+<div class="mediumShareCont">
+<div class="shareIconVine">
+<a onclick="javascript:(this.href = shareURL('Vine'));" rel="share"><img src="/App_Themes/Newsmax/images/articlePage/clear.gif" height="28" width="28" border="0" /></a>
+</div>
+<div class="mediumShareLabel">
+<a onclick="javascript:(this.href = shareURL('Vine'));" rel="share">Vine</a>
+</div> <div class="clear"></div>
+</div>
+<div class="mediumShareCont">
+<div class="shareIconReddit">
+<a onclick="javascript:(this.href = shareURL('Reddit'));" rel="share"><img src="/App_Themes/Newsmax/images/articlePage/clear.gif" height="28" width="28" border="0" /></a>
+</div>
+<div class="mediumShareLabel">
+<a onclick="javascript:(this.href = shareURL('Reddit'));" rel="share">Reddit</a>
+</div> <div class="clear"></div>
+</div>
+<div class="mediumShareCont">
+<div class="shareIconDelicious">
+<a onclick="javascript:(this.href = shareURL('Delicious'));" rel="share"><img src="/App_Themes/Newsmax/images/articlePage/clear.gif" height="28" width="28" border="0" /></a>
+</div>
+<div class="mediumShareLabel">
+<a onclick="javascript:(this.href = shareURL('Delicious'));" rel="share">Delicious</a>
+</div> <div class="clear"></div>
+</div>
+<div class="mediumShareCont">
+<div class="shareIconNewstrust">
+<a onclick="javascript:(this.href = shareURL('Newstrust'));" rel="share"><img src="/App_Themes/Newsmax/images/articlePage/clear.gif" height="28" width="28" border="0" /></a>
+</div>
+<div class="mediumShareLabel">
+<a onclick="javascript:(this.href = shareURL('Newstrust'));" rel="share">Newstrust</a>
+</div> <div class="clear"></div>
+</div>
+<div class="mediumShareCont">
+<div class="shareIconTell_my_politician">
+<a onclick="javascript:(this.href = shareURL('Tell my politician'));" rel="share"><img src="/App_Themes/Newsmax/images/articlePage/clear.gif" height="28" width="28" border="0" /></a>
+</div>
+<div class="mediumShareLabel">
+<a onclick="javascript:(this.href = shareURL('Tell my politician'));" rel="share">Tell my politician</a>
+</div> <div class="clear"></div>
+</div>
+<div class="mediumShareCont">
+<div class="shareIconTechnocrati">
+<a onclick="javascript:(this.href = shareURL('Technocrati'));" rel="share"><img src="/App_Themes/Newsmax/images/articlePage/clear.gif" height="28" width="28" border="0" /></a>
+</div>
+<div class="mediumShareLabel">
+<a onclick="javascript:(this.href = shareURL('Technocrati'));" rel="share">Technocrati</a>
+</div> <div class="clear"></div>
+</div>
+
+        <div class="clear"></div>
+    </div>
+    <!-- Share Button Container Div Start -->
+
+    <div class="fb-root">
+    </div>
+    <div class="socialShare">
+        <!-- <div class="shareText">Share:</div> -->
+
+        <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_NMSharebar1_cntSharebuttons" class="shareBtnContainer"><div class="shareIconFacebook tTip" title="Facebook">
+<a href="#" rel="sharepop"><img src="/App_Themes/Newsmax/images/articlePage/shareFB.png" height="33" width="86" border="0" /></a>
+</div>
+<div class="shareIconFacebookLike tTip" title="FacebookLike">
+<a href="#" rel="showFBLike"><img src="/App_Themes/Newsmax/images/articlePage/likeFB.png" height="33" width="50" border="0" /></a>
+</div>
+<div class="shareIconTwitter tTip" title="Twitter">
+<a href="#" rel="sharepop"><img src="/App_Themes/Newsmax/images/articlePage/shareTwitter.png" height="33" width="33" border="0" /></a>
+</div>
+<div class="EmailIcon"><a href='#' rel='ForwardPage'><img src='/App_Themes/Newsmax/images/articlePage/Email.png' height='33' width='33' border='0' style='vertical-align:middle' /></a></div></div><div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_NMSharebar1_lnkMoreShare" class="shareMoreBtn" style="visibility: hidden; width: 0px">
+            
+        </div>
+    </div>
+
+    <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_NMSharebar1_toolbarContainer" class="toolbarContainer">
+        
+        <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_NMSharebar1_divEmpty" style="width:70px;" class="tool floatLeft"></div>
+        <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_NMSharebar1_divFwdPage" class="tool floatLeft">
+            <a href="#" class="emailFwPrint" rel="ForwardPage" >Email Article</a>|
+        </div>
+        <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_NMSharebar1_divComment" class="tool floatLeft">
+            <a href="#" class="emailFwPrint Comment" onclick="window.scrollTo(0, document.getElementById('CommentSection').offsetTop); return false;">Comment</a>|
+        </div>
+        <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_NMSharebar1_divEmailUs" class="tool floatLeft">
+            <a href="#" class="emailFwPrint" rel="EmailUs">Contact</a>|
+        </div>
+        <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_NMSharebar1_divPrint" class="tool floatLeft">
+            <a href="javascript:printPage(907699);" class="emailFwPrint">Print</a>|
+        </div>
+        <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_NMSharebar1_divTextresize" class="floatLeft">
+            &#160;&#160;&#160;&#160;<a href="#textSize" class="textSizeLink textReduce" rel="textSize">A</a> &#160; 
+        <a href="#textSize" class="textEnlarge" rel="textSize">A</a>
+        </div>
+    </div>
+
+    <div class="toolTip PopupWind" style="background-color: whitesmoke; z-index: 3; height: auto">
+        <div class="toolTipClose">
+            <a href="#" class="hideToolTip">
+                <img src="/App_Themes/NewsmaxNew/images/tooltipCloseButton.png" width="20" height="20" alt="" /></a>
+        </div>
+        <div class="toolTipTextLink toolTipLink">
+            <input type="text" class="ShortLinkText" value="" />
+        </div>
+        <div class="toolTipTextLinkbutton toolTipButton">&nbsp;&nbsp;<img alt="Copy Shortlink" src="/App_Themes/NewsmaxNew/images/CopyLInk.jpg" class="toolTipCopyButton CopyButton" /></div>
+        <div class="toolTipText"></div>
+    </div>
+
+    <div class="FBtoolTip FBtooltip" style="background-color: whitesmoke; z-index: 3; height: auto">
+        <div class="FBtoolTipClose">
+            <a href="#" class="hideToolTip">
+                <img src="/App_Themes/NewsmaxNew/images/tooltipCloseButton.png" width="20" height="20" alt="" /></a>
+        </div>
+        <div class="toolTipText">
+            <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fnewsmax&amp;width&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=323020797885219" scrolling="no" frameborder="0" style="display: none; border: none; overflow: hidden; height: 258px;" allowtransparency="true" class="FBiframe"></iframe>
+
+        </div>
+    </div>
+
+    
+
+
+
+            <!-- IncludeMore="true" SharingSites="Facebook|Twitter|Digg" />-->
+            <div class="clear"></div>
+        </div>
+
+        <!-- FB Like then Share -->
+        <div class="fb-wizard fb-wiz-style">
+            <a class="fb-wizard-close-btn" href="#">
+                <img src="/App_Themes/NewsmaxNew/images/tooltipCloseButton.png" width="20" height="20" alt="">
+            </a>
+
+            &nbsp;&nbsp;&nbsp;<div class="fb-wizard-head">
+                <div class="w-pill step-1 active-step"><span>1</span>Like our page</div>
+                <div class="w-pill step-2 inactive-step"><span>2</span>Share</div>
+            </div>
+
+            <div class="fb-wizard-body">
+                <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fnewsmax&amp;width&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=323020797885219" scrolling="no" frameborder="0" style="border: none; overflow: hidden; height: 300px;" allowtransparency="true" style="display: none;"></iframe>
+            </div>
+
+            <div class="fb-wizard-footer">
+                <a href="#" class="next-btn">Share</a>
+            </div>
+        </div>
+        <!-- FB Like then Share -->
+
+        <input type="hidden" name="p$lt$zoneContent$pageplaceholder$p$lt$zoneLeft$NewsmaxArticleLayout$hdnNMID" id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_hdnNMID" value="907699" /><input type="hidden" name="p$lt$zoneContent$pageplaceholder$p$lt$zoneLeft$NewsmaxArticleLayout$hdnSectionName" id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_hdnSectionName" value="peter-morici" /><input type="hidden" name="p$lt$zoneContent$pageplaceholder$p$lt$zoneLeft$NewsmaxArticleLayout$hdnSectionType" id="hdnSectionType" value="1" />
+        <div style="display: none" itemprop="articleSection">
+            Peter-Morici
+        </div>
+        <div style="display: none" itemprop="description">
+            President Donald Trump's budget is dead on arrival and, my conservatism notwithstanding, that is a good thing.
+        </div>
+        <div style="display: none" itemprop="keywords">
+            trump, budget, plan, democrat, socialist
+        </div>
+        <div style="display: none" itemprop="thumbnailUrl">
+            <img itemprop="thumbnailUrl" src="https://www.newsmax.com/CMSPages/GetFile.aspx?guid=13c817c8-7938-4f56-a7b4-54f58887e4a1&amp;maxsidesize=120&amp;SiteName=Newsmax" alt="" />
+        </div>
+        <div style="display: none" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="https://www.newsmax.com/CMSPages/GetFile.aspx?guid=13c817c8-7938-4f56-a7b4-54f58887e4a1&maxsidesize=120&SiteName=Newsmax" />
+            <meta itemprop="width" content="300">
+            <meta itemprop="height" content="300">
+        </div>
+        <div style="display: none" itemprop="wordcount">
+            715
+        </div>
+        <div style="display: none" itemprop="datePublished">
+            Tuesday, 19 March 2019 01:54 PM
+        </div>
+        <div style="display: none" itemprop="dateCreated ">
+            2019-54-19
+        </div>
+        <div style="display: none" itemprop="dateModified ">
+            Tuesday, 19 March 2019 01:54 PM
+        </div>
+        <div style="display: none" itemscope itemprop="publisher" itemtype="https://schema.org/Organization">
+            <span itemprop="name">Newsmax Media, Inc.</span>
+            <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+                <a itemprop="url" href="https://www.newsmax.com/app_themes/newsmaxnew/images/nmLogo.png">Newsmax Media, Inc.</a>
+            </span>
+        </div>
+        <div style="display: none">
+            <a itemprop="mainEntityOfPage" href="https://www.newsmax.com">Newsmax Media, Inc.</a>
+        </div>
+    </div>
+
+<div class="sponsor-bar" style="margin: 10px 0 20px;">
+    <div id="div-gpt-ad-fdb509f5-463b-4968-82f5-594e1caf8967">
+        
+            <script type='text/javascript'>
+                googletag.cmd.push(function () {
+                    googletag.display('div-gpt-ad-fdb509f5-463b-4968-82f5-594e1caf8967');
             });
-            
-            
-            googletag.pubads().setTargeting("tags",["Abortion","Pro-Life","Ninth Circuit Court of Appeals","Title X","Ninth Circuit "]).setTargeting("author", "Beth Baumann").setTargeting("fullUrl", "liberal-ninth-circuit-upholds-trump-admins-rules-on-abortion-funding-n2561829");
+            </script>
+        
+    </div>
 
-            
+</div><div class="nocontent"><div id="dfp1" class="inline-dfp">
+    <div id="div-gpt-ad-705ca015-5c3f-4fcc-8d20-9a5afde6591b">
+        
+    </div>
 
-            googletag.enableServices();
+</div><div id="dfp2" class="inline-dfp">
+    <div id="div-gpt-ad-43659bde-e5b0-4eda-a025-257a49099a46">
+        
+    </div>
 
-        });
+</div><div id="dfp3" class="inline-dfp">
+    <div id="div-gpt-ad-b28be0ba-c1b1-4d2c-ab70-4e1eae330585">
+        
+    </div>
+
+</div><div class="nmSectionHead nmDefault">
+<div class="nmSectionHeadL"></div>
+<div class="nmSectionHeadLabel"> Around The Web </div>
+<div class="nmSectionHeadR"></div>
+<div class="whatsThis">
+<a href="http://www.newsmax.com/advertise">Powered by Newsmax</a>
+</div>
+</div>
+
+<div id='nmSponsorList'>
+    <div class="sponsors" data-count="4"></div>
+
+</div><div id="dfpTV">
+    <div id="div-gpt-ad-16252d62-c31d-4da6-a811-7fa69871ff18">
+        
+    </div>
+
+</div>
+<!-- NmModalDialog-->
+
+<!-- end NmModalDialog-->
+<!-- NmModalDialog-->
+
+<!-- end NmModalDialog-->
+<!-- NmModalDialog-->
+
+<!-- end NmModalDialog-->
+<!-- NmModalDialog-->
+
+<!-- end NmModalDialog--><div id="PollPosition">
+    <div id="div-gpt-ad-223c71fe-9afa-4bae-8169-f306412645df">
+        
+            <script type='text/javascript'>
+                googletag.cmd.push(function () {
+                    googletag.display('div-gpt-ad-223c71fe-9afa-4bae-8169-f306412645df');
+            });
+            </script>
+        
+    </div>
+
+</div><div class="DFP">
+    <div id="div-gpt-ad-ae238165-ccc3-4ccd-8039-6898b6939f2d">
+        
+            <script type='text/javascript'>
+                googletag.cmd.push(function () {
+                    googletag.display('div-gpt-ad-ae238165-ccc3-4ccd-8039-6898b6939f2d');
+            });
+            </script>
+        
+    </div>
+
+</div><div id="CommentSection"></div>
+<div class="nmSectionHead nmDefault">
+<div class="nmSectionHeadL"></div>
+<div class="nmSectionHeadLabel"> Join the Newsmax Community</div>
+<div class="nmSectionHeadR"></div>
+</div>
+
+<div>
+    <script type="text/javascript">
+        //<![CDATA[
+        var SiteSettings = { isLoggedIn: false };
+        window.XDR_COOKIE_HEADERS = ['__RequestVerificationToken', 'NMSSO', 'origin'];
+        window.XDR_DEBUG = true;
         //]]>
     </script>
-<link href="/resources/lib/owl-carousel2/dist/assets/owl.carousel.min.css" rel="stylesheet" />
-<script id="article-meta" type="application/json">
-            {"Title":"Liberal Ninth Circuit Upholds Trump Admin's Rules on Abortion Funding","IsArticleView":true,"BaseShareUrl":"http://townhall.com","Canonical":"https://townhall.com/tipsheet/bethbaumann/2020/02/24/liberal-ninth-circuit-upholds-trump-admins-rules-on-abortion-funding-n2561829","ShareTitle":"Beth Baumann - Liberal Ninth Circuit Upholds Trump Admin's Rules on Abortion Funding","PublishedDate":"2020-02-24T18:25:00","Id":131730,"Author":"Beth Baumann","AuthorImage":"https://media.townhall.com/townhall/reu/contributor-sm/authorimages/4727b24d-9b56-4a98-8c1d-a12ee01e5908.png","ImageUrl":"https://media.townhall.com/townhall/reu/ha/2019/228/083aff99-90ca-4778-b9f1-26eef9b53075.png","Tags":[27,296,691,12894,15093],"Url":"https://townhall.com/tipsheet/bethbaumann/2020/02/24/liberal-ninth-circuit-upholds-trump-admins-rules-on-abortion-funding-n2561829","Soup":0}
-        </script>
-</head>
-<body>
-<div class="thm-piano-top"></div>
-<div id="search">
-<button type="button" class="close"><i class="fa fa-close"></i></button>
-<form id="site-search">
-<input type="search" id="q" name="q" value="" placeholder="Search townhall.com...." />
-<button type="button" class="btn btn-default btn-search"><i class="fa fa-search"></i></button>
-</form>
-</div>
-<header>
-<nav id="thm-nav-sm" class="navbar navbar-default navbar-condensed navbar-fixed-top navbar-article-header">
-<div class="breaking-news-bar-container-condensed"></div>
-<div class="container">
-<div class="navbar-header">
-<a class="navbar-brand" href="/">
-<img src="/resources/th_logo.svg" class="th-logo" alt="">
-</a>
-</div>
-<div id="navbar" class="navbar-collapse collapse">
-<ul class="nav navbar-nav navbar-links navbar-right">
-<li><a title="Columnists" href="/columnists/" class="top-menu">Columnists</a></li>
-<li class="active"><a title="Tipsheet" href="/tipsheet/" class="top-menu">Tipsheet</a></li>
-<li><a title="Cartoons" href="/political-cartoons/" class="top-menu">Cartoons</a></li>
-<li><a title="Podcasts" class="top-menu" href="/podcasts/">Podcasts</a></li>
-<li><a title="Election" class="top-menu hidden-md hidden-sm" href="/election/"><img class="ec-2020-m" src="https://media.townhall.com/thm/ec2020.png" /></a></li>
-<li><a title="Membership: VIP" class="top-menu" href="/vip/"><img class="vip-brand" src="/resources/dist/svg/subscriptions-badge-vip.svg"></a></li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle top-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sections <span class="fa fa-chevron-down"></span></a>
-<ul class="dropdown-menu">
-<li><a title="Newsletter signup" href="/newsletter/">Newsletters</a></li>
-<li class="hidden-lg"><a title="Podcasts" href="/podcasts/">Podcasts</a></li>
-<li><a title="Townhall TV" href="/tv/">Townhall TV</a></li>
-<li><a title="Election " href="/election/">Election</a></li>
-<li><a title="Capitol Voices" href="/capitol-voices/">Capitol Voices</a></li>
-<li><a title="Entertainment" href="/entertainment/">Entertainment</a></li>
-<li><a title="Radio News" href="/news/">Radio News</a></li>
-<li class="hidden-lg"><a title="Election" href="/election/"><img class="ec-2020-m" src="https://media.townhall.com/thm/ec2020.png" /></a></li>
-<li><a title="Live Blog" href="/liveblog/">Live Blog</a></li>
-<li><a title="Topics" href="/tags/">Topics</a></li>
-</ul>
-</li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle top-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sites <span class="fa fa-chevron-down"></span></a>
-<ul class="dropdown-menu">
-<li><a href="http://hotair.com" target="_blank">Hot Air</a></li>
-<li><a href="http://pjmedia.com" target="_blank">PJ Media</a></li>
-<li><a href="http://bearingarms.com" target="_blank">Bearing Arms</a></li>
-<li><a href="http://twitchy.com" target="_blank">Twitchy</a></li>
-<li><a href="http://redstate.com" target="_blank">RedState</a></li>
-<li><a href="http://finance.townhall.com" target="_blank">Townhall Finance</a></li>
-<li><a href="http://www.conservativeradio.com/" target="_blank">Conservative Radio</a></li>
-</ul>
-</li>
-<li><a class="btn btn-default btn-sm btn-join hidden" href="/subscribe?tpcc=home_button">JOIN VIP</a></li>
-<li><a class="btn btn-default btn-sm btn-login hidden">LOGIN</a></li>
-<li>
-<div class="btn-group btn-account hidden">
-<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-MY ACCOUNT <span class="caret"></span>
-</button>
-<ul class="dropdown-menu">
-<li><a href="/account/" class="lnk-account">Account Settings</a></li>
-<li><a href="/newsletter/">Newsletter Subscriptions</a></li>
-<li><a href="#" class="lnk-logout">Log Out</a></li>
-</ul>
-</div>
-</li>
-<li>&nbsp;&nbsp;<button title="Search" id="btn-show-search" class="btn btn-default btn-show-search"><i class="fa fa-search"></i></button></li>
-</ul>
-</div>
-</div>
-</nav>
-<div class="thm-pad" style="padding-top:50px;">
-</div>
-<nav class="navbar navbar-default navbar-fixed-top navbar-article">
-<div class="container">
-<div class="navbar-header">
-<a class="navbar-brand" href="/"><img src="/resources/th_logo.svg" class="th-logo"></a>
-</div>
-<div id="navbar" class="navbar-collapse collapse">
-<ul class="nav navbar-nav navbar-title">
-<li class="headline">Liberal Ninth Circuit Upholds Trump Admin&#39;s Rules on Abortion Funding</li>
-</ul>
-<ul class="nav navbar-nav navbar-btn-search pull-right">
-<li><button class="btn btn-facebook-lg sc-fb"><i class="fa fa-facebook-official"></i>&nbsp;Share</button></li>
-<li><button class="btn btn-twitter-lg sc-tw"><i class="fa fa-twitter"></i>&nbsp;Tweet</button></li>
-<li><button title="Search" id="btn-show-search" class="btn btn-default btn-show-search"><i class="fa fa-search"></i></button></li>
-</ul>
-</div>
-</div>
-<div class="thm-carousel">
-<div class="owl-carousel owl-theme">
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/gov-abbott-outlines-texass-three-phases-for-re-opening-the-lone-star-state-n2567148"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="And the First State to Start Re-Opening Is Texas " data-src="//media.townhall.com/townhall/reu/b/2020/97/6145e8ce-c4e0-414e-a5c9-eeb983d20c05.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/gov-abbott-outlines-texass-three-phases-for-re-opening-the-lone-star-state-n2567148">And the First State to Start Re-Opening Is Texas </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" data-src="//media.townhall.com/townhall/reu/b/2020/108/0312f0de-aebe-4ffd-8865-086c6760c7bf.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157">Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a href="/columnists/katiepavlich/2020/04/17/nancy-pelosi-doesnt-care-n2567139"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Nancy Pelosi Doesn’t Care" data-src="//media.townhall.com/townhall/reu/b/2019/269/ef5eb632-e868-4f93-b614-50ad162493a0.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/katiepavlich/2020/04/17/nancy-pelosi-doesnt-care-n2567139">Nancy Pelosi Doesn’t Care</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="New Drug Combating Wuhan Coronavirus Yield Excellent Results...And the Dow Surged Because of It" data-src="//media.townhall.com/townhall/reu/b/2020/97/a1c032c2-2dc2-415a-a698-50aeb7968e7a.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160">New Drug Combating Wuhan Coronavirus Yield Excellent Results...And the Dow Surged Because of It</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/democrats-want-to-use-your-money-to-pay-states-to-let-criminals-out-of-jail-n2567089"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="The Latest Spending Push from Democrats: Using Your Money to Let Felons Out of Jail" data-src="//media.townhall.com/townhall/reu/b/2020/83/3e059f9d-8ceb-4679-8e5d-5428f2a82ba5.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/democrats-want-to-use-your-money-to-pay-states-to-let-criminals-out-of-jail-n2567089">The Latest Spending Push from Democrats: Using Your Money to Let Felons Out of Jail</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" data-src="//media.townhall.com/townhall/reu/b/2014/289/17329344-1af8-4a1f-8631-ab65d20076a0.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141">There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/trump-appears-to-back-protestors-against-michigan-governor-n2567129"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Trump Appears to Back Protestors Against Michigan Governor " data-src="//media.townhall.com/townhall/reu/b/2020/106/c409bf9b-dbcc-4435-b8f2-428e0b5d8196.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/trump-appears-to-back-protestors-against-michigan-governor-n2567129">Trump Appears to Back Protestors Against Michigan Governor </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/tucker-sounds-off-on-governor-whitmers-weird-fascism-n2567109"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Tucker Exposes What&#39;s Behind Governor Whitmer&#39;s &#39;Weird, Arbitrary Fascism&#39; " data-src="//media.townhall.com/townhall/reu/b/2020/35/f4488b8b-113f-4e5a-b0c5-046613b57d0c.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/tucker-sounds-off-on-governor-whitmers-weird-fascism-n2567109">Tucker Exposes What&#39;s Behind Governor Whitmer&#39;s &#39;Weird, Arbitrary Fascism&#39; </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/minnesota-governor-begins-to-ease-some-restrictions-n2567126"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Did Gov. Walz Just Take Trump&#39;s Advice to &#39;Liberate&#39; Minnesota?" data-src="//media.townhall.com/townhall/reu/b/2020/108/6d262d31-153f-4bcc-b97f-2a9584f78663.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/minnesota-governor-begins-to-ease-some-restrictions-n2567126">Did Gov. Walz Just Take Trump&#39;s Advice to &#39;Liberate&#39; Minnesota?</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a href="/tipsheet/cortneyobrien/2020/04/17/biden-downplays-china-threat-n2567062"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Nikki Haley Recalls How Biden Has Downplayed the Threat from China" data-src="//media.townhall.com/townhall/reu/b/townhall/reu/o/2018/330/76346357-2450-40f7-a097-c78820c7f712.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/biden-downplays-china-threat-n2567062">Nikki Haley Recalls How Biden Has Downplayed the Threat from China</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ny-dem-rips-pelosi-for-adding-far-left-provisions-in-coronavirus-relief-bill-n2567112"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="NY Dem Rips Pelosi for Adding &#39;Far Left&#39; Provisions in Coronavirus Relief Bill" data-src="//media.townhall.com/townhall/reu/b/2019/80/3f341d90-5ab1-4263-b5a7-97a52d2e0dfe.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ny-dem-rips-pelosi-for-adding-far-left-provisions-in-coronavirus-relief-bill-n2567112">NY Dem Rips Pelosi for Adding &#39;Far Left&#39; Provisions in Coronavirus Relief Bill</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ted-cruz-explains-how-to-hold-china-accountable-n2567110"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Ted Cruz Explains that China Is Guilty on Three Counts" data-src="//media.townhall.com/townhall/reu/b/2020/24/3c73a6b1-3be6-479f-aaca-9dec532b7741.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ted-cruz-explains-how-to-hold-china-accountable-n2567110">Ted Cruz Explains that China Is Guilty on Three Counts</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/marinamedvin/2020/04/17/business-bread-lines-run-out-of-bread-as-americans-rail-against-coronavirus-oppression-n2567083"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Business Bread Lines Run Out Of Bread as Americans Rail Against Coronavirus Oppression" data-src="//media.townhall.com/townhall/reu/b/2018/290/99f4dc8c-cbc4-4e27-9168-8013625daad0.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/marinamedvin/2020/04/17/business-bread-lines-run-out-of-bread-as-americans-rail-against-coronavirus-oppression-n2567083">Business Bread Lines Run Out Of Bread as Americans Rail Against Coronavirus Oppression</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/toddstarnes/2020/04/17/democrats-will-keep-the-states-closed-to-tank-the-economy-and-take-down-trump-n2567117"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump" data-src="//media.townhall.com/townhall/reu/b/2020/100/f05bab8f-dc2c-46b4-9bde-bca808e0e1d9.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/toddstarnes/2020/04/17/democrats-will-keep-the-states-closed-to-tank-the-economy-and-take-down-trump-n2567117">Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/davidlimbaugh/2020/04/17/media-prefer-hating-trump-to-helping-america-n2567084"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Media Prefer Hating Trump to Helping America" data-src="//media.townhall.com/townhall/reu/b/2020/90/7dba55f7-89a9-453c-9687-bd60fb6bd441.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/davidlimbaugh/2020/04/17/media-prefer-hating-trump-to-helping-america-n2567084">Media Prefer Hating Trump to Helping America</a>
-</div>
-</div>
-</div>
-</div></nav>
-</header>
-<div>
-<div class="container">
-<div class="row row-topper">
-<div class="col-xs-10">
-<ul class="breadcrumb">
-<li><a href="/">Townhall</a></li>
-<li><a href="/tipsheet/" class="text-capitalize">tipsheet</a></li>
-<li class="active">
-<a href="/tipsheet/bethbaumann/">Beth Baumann</a>
-</li>
-</ul>
-</div>
-<div class="col-xs-2">
-<a href="/tags/abortion" class="btn btn-default btn-article-supertag pull-right ">Abortion</a>
-</div>
-</div>
-<article class="with-rail">
-<div class="row">
-<div class="col-xs-12">
-<section id="article-header">
-<div class="row">
-<div class="col-xs-12">
-</div>
-</div>
-<h1 class="headline">Liberal Ninth Circuit Upholds Trump Admin&#39;s Rules on Abortion Funding</h1>
-<div class="row">
-<div class="col-xs-12">
-<div class="contributor-img pull-left">
-<a href="/author/bethbaumann">
-<img alt="Beth Baumann" class="img-thumbnail" src="https://media.townhall.com/townhall/reu/contributor-sm/authorimages//4727b24d-9b56-4a98-8c1d-a12ee01e5908.png" />
-</a>
-</div>
-<div class="contributor pull-left">
-<a href="/author/bethbaumann">Beth Baumann</a>
-</div>
-<div class="contributor pull-left">|</div>
-<div class="contributor pull-left">
-<i class="fa fa-twitter tw-icon vert-align"></i>&nbsp;<a href="https://twitter.com/eb454" target="_blank">@eb454</a>
-</div>
-<div class="contributor pull-left">|</div>
-<div class="contributor pull-left">Posted: Feb 24, 2020 6:25 PM</div>
-<div class="sc header-share">
-<a class="btn btn-facebook-lg sc-fb"><i class="fa fa-facebook-official"></i>&nbsp; Share <span class="fb-count"></span></a>
-<a class="btn btn-twitter-lg sc-tw" data-dc="185"><i class="fa fa-twitter"></i>&nbsp; Tweet <span class="tw-count"></span></a>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<div class="gpt-header">
-<div id="div-gpt-728x90_1" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-728x90_1");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-728x90_1"]])
-                    });
-                </script>
-</div>
-</div>
-</div>
-</div>
-</section>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-8">
-<section id="article-media-object">
-<img class="article-main-image" src="https://media.townhall.com/townhall/reu/ha/2019/228/083aff99-90ca-4778-b9f1-26eef9b53075.png" alt="Liberal Ninth Circuit Upholds Trump Admin&#39;s Rules on Abortion Funding" />
-<p class="main-image-source muted"><small><em>Source: AP Photo/Steve Helber</em></small></p>
-</section>
-<section id="article-body">
-<aside id="aside1" class="left">
-<div class="article-aside-ad">
-<div id="div-gpt-300x250_2" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_2");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_2"]])
-                    });
-                </script>
-</div>
-</div>
-</aside>
-<p>The liberal Ninth Circuit Court of Appeals on Monday ruled the Trump administration's decision to withhold Title X funding from medical facilities that provide abortion is constitutional. Their decision overturned preliminary injunctions issued by lower courts in three different states, <a href="http://v" rel="noopener noreferrer" target="_blank">Fox News</a> reported.&nbsp;</p><div class="thm-piano-mop"></div><p>The Title X rule was first enacted in 1970, which prohibited taxpayer-funded abortions as "a method of family planning." During President Ronald Reagan's administration in 1988, "merely provid[ing] counseling or referrals for abortion for family-planning purposes" fell under this limitation. The Supreme Court upheld those rules in a 1991 decision.</p><p>The regulations were more lax until 2019 when the Trump administration's Department of Health and Human Services decided to pull funding from any facility that provides abortions, abortion counseling or abortion referrals.</p><p>"In light of Supreme Court approval of the 1988 regulations and our broad deference to agencies’ interpretations of the statutes they are charged with implementing, plaintiffs’ legal challenges to the 2019 rule fail," Judge Sandra S. Ikuta wrote in the court's <a href="http://cdn.ca9.uscourts.gov/datastore/opinions/2020/02/24/19-15974.pdf">opinion</a>. "Accordingly, we vacate the injunctions entered by the district courts and remand for further proceedings consistent with this opinion."</p><p>The three-judge panel also stated the 1988 rules were more restrictive. Specifically, the Trump administration gave leeway on counseling that may inadvertently address abortion, saying "a counselor providing nondirective pregnancy counseling 'may discuss abortion' so long as 'the counselor neither refers for, nor encourages, abortion.'"</p><p>Pro-life groups applauded the decision.</p><p>Today’s ruling is a vindication of President Trump’s pro-life policies and a victory for the American people,” said Susan B. Anthony List President Marjorie Dannenfelser said in a <a href="https://www.sba-list.org/newsroom/press-releases/victory-9th-circuit-upholds-president-trumps-protect-life-rule" rel="noopener noreferrer" target="_blank">statement</a>. “Abortion is not ‘family planning’ and a strong majority of Americans – including 42 percent of Independents and more than one third of Democrats – oppose taxpayer funding of abortion. President Trump’s Protect Life Rule honors their will and the plain language of the Title X statute by stopping the funneling of Title X taxpayer dollars to the abortion industry, without reducing family planning funding by a dime. We thank President Trump and HHS Secretary Azar for their strong pro-life leadership and look forward to the end of further frivolous litigation by the abortion lobby.”</p> <div class="mpw-inline">
-<div>
-<div class="mpw-inline-col__rail"><a title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic - 13" href="/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159?utm_campaign=inarticle"><img class="img-responsive" src="https://media.townhall.com/townhall/reu/s124x68/2018/43/10b23fc2-706b-4096-a312-ab7270db00c0.jpg" /></a></div>
-<div class="mpw-inline-col__content">
-<div class="mpw-inline-col__title">Recommended</div>
-<a title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic - 13" href="/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159?utm_campaign=inarticle">
-<span class="mpw-inline-col__story">Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic</span>
-</a>
-<div class="mpw-inline-col__muted">
-Julio Rosas
-</div>
-</div>
-</div>
-</div>
-<p>Americans United for Life is "grateful that the court of appeals has seen through the false cries of the abortion industry and upheld a rule that protects women’s health as well as taxpayer’s consciences," President and CEO Catherine Glenn Foster told the Daily Caller. “We look forward to the implementation of the rule in a way that ensures that no public funding is ever used for elective abortions."</p><p>The Senate is scheduled to vote on Lindsey Graham's (R-SC) <a href="https://www.congress.gov/bill/115th-congress/house-bill/36" rel="noopener noreferrer" target="_blank">Pain-Capable Unborn Child Protection Act</a>, which would ban abortion past 20 weeks.&nbsp;</p>
-</section>
-<section id="article-footer">
-<div class="row">
-<div class="col-xs-12">
-<div class="thm-piano-eop">
-</div>
-<div class="thm-piano-eop-recommended"></div>
-</div>
-</div>
-<div class="article-actions-footer sc">
-<div class="row">
-<div class="col-xs-12">
-<a class="btn btn-facebook-lg btn-block sc-fb"><i class="fa fa-facebook-official"></i>&nbsp; Share this on Facebook <span class="fb-count"></span></a>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-6"><a class="btn btn-block btn-twitter-lg sc-tw" data-dc="185"><i class="fa fa-twitter"></i>&nbsp; Tweet <span class="tw-count"></span></a></div>
-<div class="col-xs-2"><a href="mailto:?subject=Liberal Ninth Circuit Upholds Trump Admin&#39;s Rules on Abortion Funding&amp;body=https://townhall.com/tipsheet/bethbaumann/2020/02/24/liberal-ninth-circuit-upholds-trump-admins-rules-on-abortion-funding-n2561829" class="btn btn-block btn-default btn-article-email"><i class="fa fa-envelope"></i></a></div>
-<div class="col-xs-2"><button data-url="https://townhall.com/tipsheet/bethbaumann/2020/02/24/liberal-ninth-circuit-upholds-trump-admins-rules-on-abortion-funding-n2561829/print" onclick="window.open('https://townhall.com/tipsheet/bethbaumann/2020/02/24/liberal-ninth-circuit-upholds-trump-admins-rules-on-abortion-funding-n2561829/print', 'print-winder', 'width=850,height=700,scrollbars=yes');" class="btn btn-block btn-default btn-article-print"><i class="fa fa-print"></i></button></div>
-<div class="col-xs-2"><a href="#article-comment-bookmark" class="btn btn-block btn-default btn-article-comment"><i class="fa fa-comment"></i></a></div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<div id="rcjsload_ffe38c"></div>
-<script type="text/javascript">
-        (function () {
-            function ad_block_test(e, o) { if ("undefined" != typeof document.body) { var t = "0.1.2-dev", o = o ? o : "sponsorText", n = document.createElement("DIV"); n.id = o, n.style.position = "absolute", n.style.left = "-999px", n.appendChild(document.createTextNode("&nbsp;")), document.body.appendChild(n), setTimeout(function () { if (n) { var o = 0 == n.clientHeight; try { } catch (d) { console && console.log && console.log("ad-block-test error", d) } e(o, t), document.body.removeChild(n) } }, 175) } }
-            ad_block_test(function (is_blocked) {
-                var widget_id = 102403;
-                if (is_blocked === true) {
-                    widget_id = 102452;
-                }
-                var referer = ""; try { if (referer = document.referrer, "undefined" == typeof referer) throw "undefined" } catch (exception) { referer = document.location.href, ("" == referer || "undefined" == typeof referer) && (referer = document.URL) } referer = referer.substr(0, 700);
-                var rcel = document.createElement("script");
-                rcel.id = 'rc_' + Math.floor(Math.random() * 1000);
-                rcel.type = 'text/javascript';
-                rcel.src = "//trends.revcontent.com/serve.js.php?w=" + widget_id + "&t=" + rcel.id + "&c=" + (new Date()).getTime() + "&width=" + (window.outerWidth || document.documentElement.clientWidth) + "&referer=" + referer + '&is_blocked=' + is_blocked;
-                rcel.async = true;
-                var rcds = document.getElementById("rcjsload_ffe38c"); rcds.appendChild(rcel);
+
+    <script type="text/javascript">
+        window.resizeColorBox = function (height) {
+            height = parseInt(height);
+            jQuery.fn.colorbox.resize({ height: height });
+        };
+        jQuery(document).ready(function () {
+
+            jQuery("a[rel='NMCommunityGuidelines']").colorbox({
+                iframe: true,
+                slideshow: false,
+                overlayClose: false,
+                height: "720",
+                width: "580",
+                href: "/Dialogs/Newsmax-Community-Guidelines/",
+                rel: "nofollow"
             });
-        })();
+        });
     </script>
-<div class="thm-bluec"></div>
+
+    <style>
+        a.disqus_btn {
+            background: #337ab7;
+            display: inline-block;
+            cursor: pointer;
+            color: #ffffff !important;
+            font-family: Arial;
+            font-size: 14px !important;
+            font-weight: bold;
+            padding: 10px 34px;
+            text-decoration: none !important;
+            margin: 20px;
+            border-radius: 2px;
+        }
+
+            a.disqus_btn:hover {
+                background-color: #5972a7;
+            }
+
+            a.disqus_btn:active {
+                position: relative;
+                top: 1px;
+            }
+
+        .Border {
+            text-align: center;
+        }
+
+
+        .comment-policy-vuukle {
+            margin-bottom: 25px;
+            color: #2a2e2e;
+            background-color: #ebeef2;
+            /*font-size: 16px;*/
+            /*width: 100%;*/
+            line-height: 1.45em;
+            padding-bottom: 15px;
+            flex-grow: 0;
+            background-position: right 20px top 20px;
+            border: none;
+            border-radius: 4px;
+            position: relative;
+            overflow: hidden;
+            margin-top: 10px;
+            font-family: "Helvetica Neue",arial,sans-serif;
+        }
+
+            .comment-policy-vuukle .disqus-content {
+                position: relative;
+                z-index: 1;
+            }
+
+            .comment-policy-vuukle .title {
+                font-size: 15px;
+                font-weight: 700;
+            }
+
+            .comment-policy-vuukle p {
+                line-height: inherit;
+                /*margin-bottom: 4px;*/
+            }
+
+        .padding-double {
+            padding: 10px 20px;
+        }
+
+        .comment-policy-vuukle i {
+            color: #e0e3e9;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 80px;
+        }
+
+        .comment-policy-vuukle .policy-link {
+            font-weight: 500;
+        }
+
+        .comment-policy-vuukle a {
+            color: #288ce4;
+            transition: color linear .1s;
+        }
+    </style>
+
+    <div class="Border disqussHelp" style="border-bottom: 1px solid #7DABD2;">
+        <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_VuukleThread_pnlUnAuthorized">
+	
+            <div>
+                <a class="link disqus_btn registration" href="#" rel="register">Register To Comment</a>
+                <a class="link disqus_btn" href="#" rel="login">Login To Comment</a>
+                <br />
+                Please review <a href="#" class="link cboxElement" rel="NMCommunityGuidelines">Community Guidelines</a> before posting a comment.
+            </div>
+
+
+        
+</div>
+    </div>
+
+    <div id="showVuukleLink" style="display:block; text-align:center;">
+        <a class="link disqus_btn" href="javascript:renderVuukle()">Click Here to Load Comments...</a>
+    </div>
+
+    <div id="contentContainer" style="display:none;">
+
+        <div>
+            <!-- disqus comment policy box -->
+            <div id="comment-policy-vuukle" class="comment-policy-vuukle">
+                <div class="disqus-content padding-double ">
+                    <p class="title">Newsmax Comment Policy</p>
+                    <p>Keep discussions on topic, avoid personal attacks and threats of any kind.  Links will not be permitted. </p>
+                    Please read our 
+                    <a href="https://www.newsmax.com/Dialogs/Newsmax-Community-Guidelines/" target="_blank" rel="noopener noreferrer" class=" policy-link">Comment Policy</a>
+                    before commenting.
+                </div>
+                <i aria-hidden="true" class="icon icon-chat-bubble"></i>
+            </div>
+        </div>
+
+        <!-- EMOTES WRAPPER: Place it where you want emotes to be displayed -->
+        <div id="vuukle-emote"></div>
+
+
+        <!-- COMMENTS WRAPPER: Place it where you want comments to be displayed -->
+        <div id="vuukle-comments"></div>
+
+    
+
+        <script type="text/javascript">
+
+
+            function readCookie(name) {
+                var nameEQ = name + "=";
+                var ca = document.cookie.split(';');
+                for (var i = 0; i < ca.length; i++) {
+                    var c = ca[i];
+                    while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+                    if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+                }
+                return null;
+            }
+
+            var login_from_vuukle = function () {
+                window.location.href = OAuthClient.getLoginURI();
+            }
+
+            var VUUKLE_CONFIG = {
+                apiKey: '3658ec56-b1fa-407e-9a1e-0c2c5ecd394a',
+                articleId: '907699',
+                img: 'https://www.newsmax.com/CMSPages/GetFile.aspx?guid=13c817c8-7938-4f56-a7b4-54f58887e4a1&SiteName=Newsmax&maxsidesize=600',
+                link: 'https://www.[url]',
+                host: 'newsmax.com',
+                ads: { enabled: false },
+                comments: {
+                    maxChars: 20000,
+                    countToLoad: '2',
+                    hideCommentInputBoxWithButton: false,
+                    toxicityLimit: '0', // disabled
+                    spamLimit: '0', // disabled
+                    editorOptions: ['italic', 'underline'],
+                    auth: {
+                        facebook: false,
+                        google: false,
+                        twitter: false,
+                        disqus: false,
+                        password: false,
+                        vuukle: false,
+                        sso: {
+                            onClick: login_from_vuukle
+                        }
+                    }
+                }
+            };
+
+
+            function loadVuuklePlatform () {
+                var d = document,
+                    s = d.createElement('script');
+                s.src = 'https://cdn.vuukle.com/platform.js';
+                (d.head || d.body).appendChild(s);
+
+                if (typeof window.vuukleLogin !== "undefined" && readCookie('sso') === null) {
+                    window.vuukleLogin();
+                }
+            }
+
+            function renderVuukle() {
+                document.getElementById("showVuukleLink").style.display = "none";
+                document.getElementById("contentContainer").style.display = "block";
+
+                loadVuuklePlatform();
+            }
+        </script>
+
+        <span id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_VuukleThread_lblAccessToken"></span>
+        <div id="ssostat" style="display: none"></div>
+    </div>
+    <script type="text/javascript" src="/js/sso/oauthclient.js?v=1.5"></script>
+
+</div>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	jQuery('.CommentRef').bind('click', function(){
+		jQuery('html,body').animate({scrollTop: jQuery('#CommentSection').offset().top},'slow');
+	});
+});
+    function scrollToAnchor(anchorId){
+    var aTag = jQuery(anchorId);
+    $jQuery('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+</script>
+<!-- LOCATION: /Finance_Master/Article/Finance-ArticleTemplate --></div>  
+	</div>    
+	<!-- Left Column End --> 
+	
+	<!-- Middle Column Spacer Start -->
+	<div id="artPgMiddleWrapper">&nbsp;
+	</div>
+	<!-- Middle Column Spacer End --> 
+
+	<!-- Right Column Start -->
+	<div id="artPgRightWrapper">
+		<div class="nocontent"><div class="DFP">
+    <div id="div-gpt-ad-c01b6cc0-fce7-43ed-a022-577d8e1a09fb">
+        
+            <script type='text/javascript'>
+                googletag.cmd.push(function () {
+                    googletag.display('div-gpt-ad-c01b6cc0-fce7-43ed-a022-577d8e1a09fb');
+            });
+            </script>
+        
+    </div>
+
+</div><div id="EmailSignupContainer">
+<!-- ##WebPart## Email Signup Start -->
+<!-- Email Signup Box Start -->
+<!--  -->
+
+<input type="hidden" name="p$lt$zoneContent$pageplaceholder$p$lt$zoneRight$NMHomeEmailSignup$hdnPromoCode" id="p_lt_zoneContent_pageplaceholder_p_lt_zoneRight_NMHomeEmailSignup_hdnPromoCode" value="102323msfnr0" />
+<input type="hidden" name="p$lt$zoneContent$pageplaceholder$p$lt$zoneRight$NMHomeEmailSignup$hdnSignUpList" id="p_lt_zoneContent_pageplaceholder_p_lt_zoneRight_NMHomeEmailSignup_hdnSignUpList" value="497" />
+<div id="nmSignUpContainer" class="col-md-12">
+    <div class="nmSectionHeadL"></div>
+	<div class="nmSectionHeadLabel">
+		Free Newsmax E-Alerts
+	</div>
+	<div class="nmSectionHeadR"></div>
+	<div class="clear"></div>
+	
+    <div id="signupFormWrapper2">
+        <div class="signupHeadMain">
+            
+        </div>
+        <div class="form-group col-xs-12">
+            <div class="signupError">
+                <div id="signupEmailError"></div>
+            </div>
+            <div class="nmSignUpLabel col-md-3">
+                Email:
+            </div>
+            <div class="nmSignUpInputCont col-md-9">
+                <input type="text" class="nmSignUpInput form-control" id="signUpEmail" name="signUpEmail" />
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="form-group col-xs-12">
+            <div class="signupError" style="font-size: 0px;"></div>
+            <div class="nmSignUpLabel col-md-3">
+                Country:
+            </div>
+            <div class="nmSignUpInputCont col-md-9">
+                <select class="nmSignUpInput form-control" id="signupCountryDrop" name="signupCountryDrop" ></select>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="form-group col-xs-12">
+            <div class="signupError">
+                <div id="signupZipError"></div>
+            </div>
+            <div class="ZipCodeGroup">
+                <div class="nmSignUpLabel col-md-3">
+                    Zip Code:
+                </div>
+                <div class="nmSignUpInputCont col-md-9">
+                    <input type="text" class="nmSignUpInputSm form-control" id="signUpZip" name="signUpZip" maxlength="10" />
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group col-xs-12">
+            <div class="nmSignUpButtonCont col-md-9 col-md-offset-3">
+                <input type="button" value="" class="signupSubmit btn btn-primary btn-block" />
+            </div>
+        </div>
+        <div class="clear"></div>
+
+        <div class="signupPrivacy">
+            <a href="https://www.newsmax.com/privacystatement/" target="_blank">Privacy</a>: We never share your email.
+        </div>
+        <div id="Progress">&nbsp;</div>
+    </div>
+</div>
+<!-- Email Signup Box End -->
+<!-- ##WebPart## Email Signup End  --></div>
+<script type="text/javascript" src="/CMSScripts/Newsmax/jQuery.signup.js"></script>
+<div id="nmTopStories"><script src="//static.newsmaxfeednetwork.com/web-clients/bootloaders/RupxWM8eyughQAylFbtuhe/bootloader.js" async="true" data-version="3" data-url="[PAGE_URL]" data-zone="[ZONE]" data-organic-clicks="[ORGANIC_TRACKING_PIXEL]" data-paid-clicks="[PAID_TRACKING_PIXEL]" data-display-within-iframe="true"></script></div><script src="//static.newsmaxfeednetwork.com/web-clients/bootloaders/ZlB6kIzR8vJVn32BbZzMWv/bootloader.js" async="true" data-version="3" data-url="[PAGE_URL]" data-zone="[ZONE]" data-organic-clicks="[ORGANIC_TRACKING_PIXEL]" data-paid-clicks="[PAID_TRACKING_PIXEL]" data-display-within-iframe="true"></script><div class="DFP">
+
+    <div id="div-gpt-ad-9559ec6d-414f-465b-bdde-e72d59ecaf2e">
+        
+            <script type='text/javascript'>
+                googletag.cmd.push(function () {
+                    googletag.display('div-gpt-ad-9559ec6d-414f-465b-bdde-e72d59ecaf2e');
+            });
+            </script>
+        
+    </div>
+
+</div><div class="clear"></div> 
+<div class="nmModuleHead">
+        <div class="nmModuleHeadL"></div>
+        <div class="nmModuleHeadLabel">
+        	Take A Look At This
+        </div>
+        <div class="nmModuleHeadR"></div>
+</div>   
+
+<div id="nmSponsorModule"> 
+	<ul class='sponsors'><div id="nmSponsorModule">
+    <div class="sponsors" data-count="4"></div>
+
+<div class="whatsThis">
+<a href="http://www.newsmax.com/advertise">Recommended by Newsmax</a>
 </div>
 </div>
-<div class="row">
-<div class="col-xs-12">
-<ul class="list-unstyled list-inline article-topics clearfix">
-<li>Tags: </li>
-<li><a class="btn btn-default btn-topic" data-tagid="27" href="/tags/abortion">Abortion</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="296" href="/tags/pro-life">Pro-Life</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="691" href="/tags/ninth-circuit-court-of-appeals">Ninth Circuit Court of Appeals</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="12894" href="/tags/title-x">Title X</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="15093" href="/tags/ninth-circuit-">Ninth Circuit </a></li>
-</ul>
-<script>
-    var rndnum = Math.floor(Math.random() * 50000);
-    var submitScript = document.createElement('script');
-    submitScript.src = 'https://townhall.com/wservices/handlers/tagcount.ashx?tid=27,296,691,12894,15093&tnd=' + rndnum;
-    document.body.appendChild(submitScript);
+	</ul>
+</div><div class="clear"></div> 
+<div class="nmModuleHead">
+        <div class="nmModuleHeadL"></div>
+        <div class="nmModuleHeadLabel">
+        	Most Commented
+        </div>
+        <div class="nmModuleHeadR"></div>
+</div>   
+
+<div class="comBoxWrapper nocontent">
+    
+            <ul>
+        
+            <li>
+                <div class="comBoxH2 nocontent">
+                    <a class="comBoxH2" href="https://www.newsmax.com/politics/virology-pandemic-covid-19-funding/2020/04/18/id/963512/" >
+                        Obama Gave $3.7M Grant to Sketchy China Virology Lab
+                    </a>
+                </div>
+                <div class="comBoxDate nocontent">
+                    Saturday, 18 Apr 2020  |
+                </div>
+                <div class="comBox">
+                    <div class="comBoxLeft">
+                    </div>
+                    <div class="comBoxtext nocontent">
+                        770
+                    </div>
+                    <div class="comBoxRight">
+                    </div>
+                </div>
+                <div class="comBoxDate nocontent">
+                    comments
+                </div>
+                <div class="clearDiv">
+                </div>
+                <div class="comBoxBody nocontent">
+                    Obama Gave $3.7M Grant to Sketchy China Virology Lab...
+                </div>
+            </li>
+        
+            <li>
+                <div class="comBoxH2 nocontent">
+                    <a class="comBoxH2" href="https://www.newsmax.com/headline/trump-virus-restrictions-lifted/2020/04/18/id/963541/" >
+                        Trump Says Some States May Lift Virus Restrictions in Coming Days
+                    </a>
+                </div>
+                <div class="comBoxDate nocontent">
+                    Saturday, 18 Apr 2020  |
+                </div>
+                <div class="comBox">
+                    <div class="comBoxLeft">
+                    </div>
+                    <div class="comBoxtext nocontent">
+                        246
+                    </div>
+                    <div class="comBoxRight">
+                    </div>
+                </div>
+                <div class="comBoxDate nocontent">
+                    comments
+                </div>
+                <div class="clearDiv">
+                </div>
+                <div class="comBoxBody nocontent">
+                    Trump Says Some States May Lift Virus Restrictions in Coming Days...
+                </div>
+            </li>
+        
+            <li>
+                <div class="comBoxH2 nocontent">
+                    <a class="comBoxH2" href="https://www.newsmax.com/politics/gretchen-whitmer-governor-michigan-rust-belt/2020/04/18/id/963521/" >
+                        Michigan Gov. Whitmer Seeks to Begin Reopening May 1
+                    </a>
+                </div>
+                <div class="comBoxDate nocontent">
+                    Saturday, 18 Apr 2020  |
+                </div>
+                <div class="comBox">
+                    <div class="comBoxLeft">
+                    </div>
+                    <div class="comBoxtext nocontent">
+                        200
+                    </div>
+                    <div class="comBoxRight">
+                    </div>
+                </div>
+                <div class="comBoxDate nocontent">
+                    comments
+                </div>
+                <div class="clearDiv">
+                </div>
+                <div class="comBoxBody nocontent">
+                    Michigan Gov. Whitmer Seeks to Begin Reopening May 1...
+                </div>
+            </li>
+        
+            <li>
+                <div class="comBoxH2 nocontent">
+                    <a class="comBoxH2" href="https://www.newsmax.com/us/cdc-fda-testing-contamination/2020/04/18/id/963526/" >
+                        CDC Lab Contamination Caused Testing Delay, HHS Probe Finds
+                    </a>
+                </div>
+                <div class="comBoxDate nocontent">
+                    Saturday, 18 Apr 2020  |
+                </div>
+                <div class="comBox">
+                    <div class="comBoxLeft">
+                    </div>
+                    <div class="comBoxtext nocontent">
+                        90
+                    </div>
+                    <div class="comBoxRight">
+                    </div>
+                </div>
+                <div class="comBoxDate nocontent">
+                    comments
+                </div>
+                <div class="clearDiv">
+                </div>
+                <div class="comBoxBody nocontent">
+                    CDC Lab Contamination Caused Testing Delay, HHS Probe Finds...
+                </div>
+            </li>
+        
+            <li>
+                <div class="comBoxH2 nocontent">
+                    <a class="comBoxH2" href="https://www.newsmax.com/politics/florida-shalala-coronavirus-pelosi/2020/04/18/id/963520/" >
+                        Florida Rep. Shalala Tapped by Pelosi to Help Oversee $2T Coronavirus Relief Funds
+                    </a>
+                </div>
+                <div class="comBoxDate nocontent">
+                    Saturday, 18 Apr 2020  |
+                </div>
+                <div class="comBox">
+                    <div class="comBoxLeft">
+                    </div>
+                    <div class="comBoxtext nocontent">
+                        87
+                    </div>
+                    <div class="comBoxRight">
+                    </div>
+                </div>
+                <div class="comBoxDate nocontent">
+                    comments
+                </div>
+                <div class="clearDiv">
+                </div>
+                <div class="comBoxBody nocontent">
+                    Florida Rep. Shalala Tapped by Pelosi to Help Oversee $2T Coronavirus...
+                </div>
+            </li>
+        
+        </ul>
+        
+</div><script src="//static.newsmaxfeednetwork.com/web-clients/bootloaders/wt0BjTTW6UJar93jynZTFi/bootloader.js" async="true" data-version="3" data-url="[PAGE_URL]" data-zone="[ZONE]" data-organic-clicks="[ORGANIC_TRACKING_PIXEL]" data-paid-clicks="[PAID_TRACKING_PIXEL]" data-display-within-iframe="true"></script> </div>  
+
+		<div id="RealVu">
+			  
+		</div>
+		<div id="stickyDFP">
+			   
+		</div> 
+	</div>
+
+</div>
+<!-- Page Wrapper End -->
+
+<div class="clearDiv"></div>
+
+<script type="text/javascript" src="/CMSScripts/Newsmax/livevalidation_standalone.compressed.js"></script>
+<script type="text/javascript" src="/CMSScripts/Newsmax/jQuery.articleDFP.js"></script>
+<script type="text/javascript" src="/CMSScripts/Newsmax/jQuery.article.js"></script>
+<script type="text/javascript" src="/CMSScripts/Newsmax/jquery.zclip.js"></script>
+                <div class="clear" ></div>
+            </div>
+        </div>    	
+<!-- Footer zone -->	
+        <div id="divMenuFooter">
+            <div class="mnNavSepTop"></div>
+<div class="mnMainNav">
+	<ul>
+		<li><a id="mnBotHomeLink" class="mnMainNavLinkSel" href="/finance/" onclick = "analyticsTracking(this, 'BottomNav');"> Home</a></li>
+		<li class="mnMainNavSep">&nbsp;</li>
+		<li><a id="mnBotStreetTalkLink" class="mnMainNavLink" href="/finance/streettalk/" onclick = "analyticsTracking(this, 'BottomNav');"> Street Talk</a></li>
+		<li class="mnMainNavSep">&nbsp;</li>
+		<li><a id="mnBotFinanceNewsLink" class="mnMainNavLink" href="/finance/personal-finance/" onclick = "analyticsTracking(this, 'BottomNav');"> Personal Finance</a></li>
+		<li class="mnMainNavSep">&nbsp;</li>
+		<li><a id="mnBotEconomyLink" class="mnMainNavLink" href="/finance/economy/" onclick = "analyticsTracking(this, 'BottomNav');"> Economy</a> </li>
+		<li class="mnMainNavSep">&nbsp;</li>
+		<li><a id="mnBotCompaniesLink" class="mnMainNavLink" href="/finance/companies/" onclick = "analyticsTracking(this, 'BottomNav');"> Companies</a> </li>
+		<li class="mnMainNavSep">&nbsp;</li>
+		<li><a id="mnBotMarketLink" class="mnMainNavLink" href="/finance/markets/" onclick = "analyticsTracking(this, 'BottomNav');"> Markets</a> </li>
+		<li class="mnMainNavSep">&nbsp;</li>
+		<li><a id="mnBotInvestingLink" class="mnMainNavLink" href="/finance/investing---analysis/" onclick = "analyticsTracking(this, 'BottomNav');"> Investing &amp; Analysis</a> </li>
+		<li class="mnMainNavSep">&nbsp;</li>
+		<li><a id="mnBotInsidersLink" class="mnMainNavLink" href="/finance/insiders/" onclick = "analyticsTracking(this, 'BottomNav');"> Insiders</a> </li>
+		<li class="mnMainNavSep">&nbsp;</li>
+		<li><a id="mnBotMoneyWireLink" class="mnMainNavLink" href="/finance/money-wire/" onclick = "analyticsTracking(this, 'BottomNav');"> Money Wire</a> </li>
+		<li class="mnMainNavSep">&nbsp;</li>
+		<li><a id="mnBotNewsletterLink" class="mnMainNavLink" href="/finance/newsletters/" onclick = "analyticsTracking(this, 'BottomNav');"> Subscribe</a> </li>
+	</ul>
+</div>
+<div class="mnNavSepBot"></div>
+<div class="statementText">
+	<p>Newsmax, Moneynews, Newsmax Health, and Independent. American. are registered trademarks of Newsmax Media, Inc. Newsmax TV, and Newsmax World are trademarks of Newsmax Media, Inc.</p>
+</div>
+
+    <div id="div-gpt-ad-b52654bd-3912-4bed-9271-ccbd61485923">
+        
+            <script type='text/javascript'>
+                googletag.cmd.push(function () {
+                    googletag.display('div-gpt-ad-b52654bd-3912-4bed-9271-ccbd61485923');
+            });
+            </script>
+        
+    </div>
+
+<script type="text/javascript">
+
+    googletag.cmd.push(function () {
+        var Ads =  (function (parent, $) {
+            var module = parent || {};
+            // Slide in Bottom Ad
+            module.siuAdFixed = function (s, e, b, size) {
+                // Animate Ad
+                var ad = document.getElementById(s);
+                if (ad) {
+                    ad.className = s + ' animated slideInUp';
+                    ad.style.cssText = 'bottom: 0; width: ' + size[0] + 'px; height: ' + size[1] + 'px;';
+
+                    // Close
+                    document.getElementById(b).addEventListener('click', function (e) {
+                        $('#' + s).remove();
+
+                        // Create cookie
+                        $.cookie(s, true, { expires: 1, path: '/' });
+                    });
+                }
+            };
+
+            // Slide in Down Ad
+            module.siuAdFixedClose = function (s, e, size) {
+                // Animate Ad
+                var ad = document.getElementById(s);
+                if (ad) {
+                    ad.className = s + ' animated slideInDown';
+                    ad.style.cssText = 'bottom: -110px; width: ' + size[0] + 'px; height: ' + size[1] + 'px;';
+                }
+            };
+
+            module.init = function (s) {
+                // If cookie is set just remove the ad
+                var c = $.cookie(s);
+                if (c) {
+                    $('#' + s).remove();
+                }
+            };
+
+            return module;
+        }(Ads || {}, jQuery));
+
+        jQuery(document).ready(function () {
+            Ads.init('siu-ad-fixed');
+        });
+
+        googletag.pubads().addEventListener('slotRenderEnded', function (event) {
+            if (!event.size) return;
+            var adRendered = false;
+            for (var p in event.slot) {
+                if (event.slot.hasOwnProperty(p)) {
+                    if (event.slot[p] === '/6305169/newsmax.mab') {
+                        adRendered = true;
+                        break;
+                    }
+                }
+            }
+
+            if (adRendered) {
+                var siuAdFixedDidAppear = false;
+                window.onscroll = function () {
+                    if (window.pageYOffset >= 3500) {
+                        if (!siuAdFixedDidAppear) {
+                            Ads.siuAdFixed('siu-ad-fixed', 'siu-ad-fixed-open', 'siu-ad-close-button', event.size);
+                        }
+                        siuAdFixedDidAppear = true;
+                    } else {
+                        if (siuAdFixedDidAppear && window.pageYOffset < 3500) {
+                            Ads.siuAdFixedClose('siu-ad-fixed', 'siu-ad-fixed-close', event.size);
+                            siuAdFixedDidAppear = false;
+                        }
+                    }
+                };
+            }
+        });
+    });
 
 </script>
+<style type="text/css">
+   .animated {
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+    }  
+
+    @-webkit-keyframes slideInUp {
+      from {
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+        visibility: visible;
+      }
+
+      to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    @keyframes slideInUp {
+      from {
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+        visibility: visible;
+      }
+
+      to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    .slideInUp {
+      -webkit-animation-name: slideInUp;
+      animation-name: slideInUp;
+    }
+
+   @-webkit-keyframes slideInDown {
+      from {
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+        visibility: visible;
+      }
+
+      to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    @keyframes slideInDown {
+      from {
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+        visibility: visible;
+      }
+
+      to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    .slideInDown {
+      -webkit-animation-name: slideInDown;
+      animation-name: slideInDown;
+    }
+
+    /* Ad Close */
+    .siu-ad-close-button {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: 0;
+        top: 0;
+        background-image: url(/App_Themes/Newsmax/images/close.png);
+        background-size: 100%;
+        cursor: pointer;
+        z-index: 999999;
+    }
+
+    /* Slide in up Ad - Fixed */
+    .siu-ad-fixed {
+        position: fixed;
+        width: 1024px;
+        height: 110px;
+        z-index: 999998;
+        left: 50%;
+        margin-left: -512px;
+        bottom: -110px; 
+    }
+
+    @media (min-width: 768px) {
+        .siu-ad-fixed {
+            width: 768px;
+            height: 110px;
+            margin-left: -384px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .siu-ad-fixed {
+            width: 768px;
+            height: 110px;
+            margin-left: -384px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .siu-ad-fixed {
+            width: 1024px;
+            height: 110px;
+            margin-left: -512px;
+        }
+    }
+
+</style>
+
+<div id="siu-ad-fixed" class="siu-ad-fixed">
+  <div id="siu-ad-close-button" class="siu-ad-close-button"></div>
+        <!-- /6305169/m.newsmax.mab -->
+    <div id="div-gpt-ad-87a15aa3-c7cd-406a-bcfd-c15a8c111f6a">
+        
+            <script type='text/javascript'>
+                googletag.cmd.push(function () {
+                    googletag.display('div-gpt-ad-87a15aa3-c7cd-406a-bcfd-c15a8c111f6a');
+            });
+            </script>
+        
+    </div>
+
+</div>
+        </div>
+            
+<div class="zoneFooter">
+<div id="mnCopyContainer">
+<div id="mnLogoSm"></div>
+                    <div id="mnCopyRight">
+            NEWSMAX.COM<br/>
+            MONEYNEWS.COM<br/>
+                        © <span id="mnYear"></span> Newsmax Media, Inc.<br/>
+            All Rights Reserved
+                    </div>
+     </div>
+<div id="mnSupportNavCont">
+            	<a href="/contact/" class="mnFooterLink" onclick= "analyticsTracking(this, 'BottomNav');">Contact</a> 
+                  <span class="mnFooterSpacer">|</span> 
+                  <a href="/advertise/" class="mnFooterLink" onclick= "analyticsTracking(this, 'BottomNav');">Advertise</a> 
+                  <span class="mnFooterSpacer">|</span> 
+                  <a href="https://shop.newsmax.com/" class="mnFooterLink" onclick= "analyticsTracking(this, 'BottomNav');">Shop</a> 
+                  <span class="mnFooterSpacer">|</span> 
+                  <a href="/rss/" class="mnFooterLink" onclick= "analyticsTracking(this, 'BottomNav');">RSS</a> 
+                  <span class="mnFooterSpacer">|</span> 
+                  <a href="/archives/" class="mnFooterLink" onclick= "analyticsTracking(this, 'BottomNav');">Archives</a> 
+                  <span class="mnFooterSpacer">|</span> 
+                  <a href="/links/" class="mnFooterLink">Links</a> 
+                  <span class="mnFooterSpacer">|</span> 
+                  <a href="https://recruiting.ultipro.com/NEW1027/JobBoard/3d5ae180-49c4-20f7-d7b4-adfe940978a7/" target="_blank" class="mnFooterLink" onclick= "analyticsTracking(this, 'BottomNav');">Careers</a> 
+                  <span class="mnFooterSpacer">|</span> 
+                  <a class="mnFooterLink" href="/privacystatement/" onclick= "analyticsTracking(this, 'BottomNav');">Privacy Policy</a> 
+                  <span class="mnFooterSpacer">|</span> 
+                  <a class="mnFooterLink" href="/termsconditions/" onclick= "analyticsTracking(this, 'BottomNav');">Terms & Conditions</a>
+        	</div>                    
+        	<div class="clear"></div>
+<div class="zoneFooterAd">
+<script type="text/javascript" src="/js/cookiedrop.js"></script>
+</div>
+            </div>
 </div>
 </div>
-<section id="grid-1">
-<div class="row">
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic" data-src="https://media.townhall.com/townhall/reu/ha/2018/43/10b23fc2-706b-4096-a312-ab7270db00c0.jpg" href="https://townhall.com/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic" href="https://townhall.com/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159">Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic</a>
-</div>
-<div class="story__author">
-Julio Rosas
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="&lt;p&gt;New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It&lt;/p&gt;" data-src="https://media.townhall.com/townhall/reu/ha/2020/97/a1c032c2-2dc2-415a-a698-50aeb7968e7a.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="&lt;p&gt;New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It&lt;/p&gt;" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"><p>New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It</p></a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" data-src="https://media.townhall.com/townhall/reu/ha/2014/289/17329344-1af8-4a1f-8631-ab65d20076a0.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141">There's Something a Little Odd About the Letter Hunter Biden's Lawyer Sent Regarding the China Allegations</a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-</div><div class="row">
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported" data-src="https://media.townhall.com/townhall/reu/ha/2020/80/b0dabbb2-2c7b-419e-a142-ce365718c3d4.jpg" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/first-largescale-antibody-testing-indicate-coronavirus-infections-much-higher-death-rate-much-lower-n2567155"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/first-largescale-antibody-testing-indicate-coronavirus-infections-much-higher-death-rate-much-lower-n2567155">New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported</a>
-</div>
-<div class="story__author">
-Bronson Stocking
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a class="thm-inc lazy" title="ICE Apprehends Five Asia Nationals Illegally Present in the U.S. " data-src="https://media.townhall.com/townhall/reu/ha/2019/133/d63885bf-3c7a-4a9a-bcbd-ac2735c54d62.png" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/five-asia-nationals-six-pakistanis-apprehended-by-ice-n2567165"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="ICE Apprehends Five Asia Nationals Illegally Present in the U.S. " href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/five-asia-nationals-six-pakistanis-apprehended-by-ice-n2567165">ICE Apprehends Five Asia Nationals Illegally Present in the U.S. </a>
-</div>
-<img class="thm-sublevel" src="/resources/dist/svg/subscriptions-badge-vip.svg" />
-<div class="story__author">
-Bronson Stocking
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" data-src="https://media.townhall.com/townhall/reu/ha/2020/108/0312f0de-aebe-4ffd-8865-086c6760c7bf.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157">Land O'Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?</a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-</div><div class="row">
-</div>
-</section>
-</section>
-<div id="article-comment-bookmark"></div>
-<section id="article-comments" name="article-comments">
-<button class="show-comments btn btn-lg btn-block btn-primary" style="margin:0 0 15px 0;" data-disqus-url="https://townhall.com/tipsheet/bethbaumann/2020/02/24/liberal-ninth-circuit-upholds-trump-admins-rules-on-abortion-funding-n2561829">SHOW COMMENTS</button>
-<div id="disqus_thread"></div>
-<script>
-      var disqus_config = function () {
-            this.page.url = "https://townhall.com/tipsheet/bethbaumann/2020/02/24/liberal-ninth-circuit-upholds-trump-admins-rules-on-abortion-funding-n2561829";
-          this.page.identifier = "https://townhall.com/tipsheet/bethbaumann/2020/02/24/liberal-ninth-circuit-upholds-trump-admins-rules-on-abortion-funding-n2561829";
-      };
-    $('.show-comments').on('click', function () {
-        $.ajax({
-            type: "GET",
-            url: "//townhallcom.disqus.com/embed.js",
-            dataType: "script",
-            cache: true
-        });
-        $(this).hide();
-    });
+
+<!-- Header Date Script -->
+<script language="javascript" type="text/javascript">
+    var now= new Date();
+    jQuery("#mnTodaysDate").html(now.format("dddd MMMM dd,  yyyy"));
+    jQuery("#mnYear").html(now.format("yyyy"));
 </script>
-</section>
-</div>
-<div class="col-xs-4 article-rail">
-<div class="ad">
-<div id="div-gpt-300x250_1" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_1");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_1"]])
-                    });
-                </script>
-</div>
-</div>
-<div class="article-actions">
-<a href="mailto:?subject=Liberal Ninth Circuit Upholds Trump Admin&#39;s Rules on Abortion Funding&amp;body=https://townhall.com/tipsheet/bethbaumann/2020/02/24/liberal-ninth-circuit-upholds-trump-admins-rules-on-abortion-funding-n2561829" class="btn btn-default btn-article-email"><i class="fa fa-envelope"></i></a>
-<a data-url="https://townhall.com/tipsheet/bethbaumann/2020/02/24/liberal-ninth-circuit-upholds-trump-admins-rules-on-abortion-funding-n2561829/print" onclick="window.open('https://townhall.com/tipsheet/bethbaumann/2020/02/24/liberal-ninth-circuit-upholds-trump-admins-rules-on-abortion-funding-n2561829/print', 'print-winder', 'width=850,height=700,scrollbars=yes');" class="btn btn-default btn-article-print"><i class="fa fa-print"></i></a>
-<a href="#article-comment-bookmark" class="btn btn-default btn-article-comment"><i class="fa fa-comment"></i></a>
-</div>
-<div class="ad" style="margin-top:10px">
-<div id="div-gpt-300x250_3" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_3");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_3"]])
-                    });
-                </script>
-</div>
-</div>
-<div class="cartoon-widget">
-<div class="cartoon-widget__title"><a href="/political-cartoons">CARTOONS</a>&nbsp;|&nbsp;<a href="/political-cartoons/michaelramirez/">Michael Ramirez</a></div>
-<a class="cartoon-widget__img" href="/political-cartoons/2020/04/18/173115?hpnl=true" style="background-image:url('//media.townhall.com/Townhall/Car/b/mrz041820dAPR20200417044513.jpg');"></a>
-<div class="cartoon-widget__button"><a href="/political-cartoons/2020/04/18/173115?hpnl=true"> View Cartoon <i class="fa fa-arrow-circle-right"></i></a></div>
-</div>
-<div class="sticky-reference">
-<div class="sticky" data-offset-top="55">
-<div class="mpw">
-<div class="mpw__title">Most Popular</div>
-<ul class="list-unstyled mpw__divide">
-<li>
-<div class="row">
-<div class="col-xs-4">
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern  - 200" href="/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2020/104/30b0d531-01a6-4224-85b5-7548e5f3b2a7.jpg" /></a>
-</div>
-<div class="col-xs-8 no-gutter">
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern  - 200" href="/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915">
-<span class="mpw__story">Israeli Professor Shows Virus Follows Fixed Pattern </span>
-</a>
-</div>
-</div>
-</li>
-<li>
-<div class="row">
-<div class="col-xs-4">
-<a title="There's Something a Little Odd About the Letter Hunter Biden's Lawyer Sent Regarding the China Allegations - 24" href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2014/289/17329344-1af8-4a1f-8631-ab65d20076a0.jpg" /></a>
-</div>
-<div class="col-xs-8 no-gutter">
-<a title="There's Something a Little Odd About the Letter Hunter Biden's Lawyer Sent Regarding the China Allegations - 24" href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141">
-<span class="mpw__story">There's Something a Little Odd About the Letter Hunter Biden's Lawyer Sent Regarding the China Allegations</span>
-</a>
-</div>
-</div>
-</li>
-<li>
-<div class="row">
-<div class="col-xs-4">
-<a title="Brutal: Pelosi's Terrible Answer About Why Democrats Keep Blocking Needed Rescue Funds for Small Businesses - 18" href="/tipsheet/guybenson/2020/04/17/listen-pelosis-terrible-answer-about-why-democrats-keep-blocking-needed-rescue-funds-for-small-businesses-n2567120"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2019/143/d59c6b2f-ac5c-46f0-a985-d3b894ad8aae.png" /></a>
-</div>
-<div class="col-xs-8 no-gutter">
-<a title="Brutal: Pelosi's Terrible Answer About Why Democrats Keep Blocking Needed Rescue Funds for Small Businesses - 18" href="/tipsheet/guybenson/2020/04/17/listen-pelosis-terrible-answer-about-why-democrats-keep-blocking-needed-rescue-funds-for-small-businesses-n2567120">
-<span class="mpw__story">Brutal: Pelosi's Terrible Answer About Why Democrats Keep Blocking Needed Rescue Funds for Small Businesses</span>
-</a>
-</div>
-</div>
-</li>
-</ul>
-</div>
-<div class="ad">
-<div id="div-gpt-300x250_sticky" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_sticky");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_sticky"]])
-                    });
-                </script>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</article>
-<div class="row sticky-stopper">
-<div class="col-xs-12">
-<div class="article-ad-970x90">
-<div id="div-gpt-lazy-728x90_3" data-gpt='{"IncludeInPrebid":true,"Target":"pos","TargetValue":"728x90_3","SectionSlug":"tipsheet","SlotId":0,"DivUniqueId":"div-gpt-lazy-728x90_3","AdSize":"[[728,90],[970,90]]","AdUnitPath":"/6177/slm.townhall/","AdType":0,"AdRenderType":1,"IsYieldBotAmp":false,"IntervalTime":0,"AdParentLocation":0}' class="lazy-ad gpt-ad">
-<script id="pb-div-gpt-lazy-728x90_3" type="application/json">
-                    {"code":"div-gpt-lazy-728x90_3","sizes":[[728,90],[970,90]],"bids":[{"bidder":"openx","params":{"unit":"537998002","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381642"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-lazy-728x90_3@728x90"}},{"bidder":"criteo","params":{"networkId":"7465"}}]}
-                </script>
-</div>
-</div>
-</div>
-</div>
-<section id="trending-on-thm" class="trending">
-<h1 class="trending__title">Trending on Townhall Media</h1>
-<div class="row">
-<div class="col-xs-4">
-<div class="mpw-bordered">
-<div class="mpw">
-<ul class="list-unstyled">
-<li>
-<a title="Two Tennessee Teens Prove How Worthless Gun Control Is - 8" href="https://bearingarms.com/tom-k/2020/04/16/two-tennessee-teens-prove-how-worthless-gun-control-is/">
-<span class="mpw__story">Two Tennessee Teens Prove How Worthless Gun Control Is</span>
-</a>
-<div class="mpw__domain" style="color:#ADADAD;">
-Bearing Arms
-</div>
-</li>
-<li>
-<a title="HUGE: The UK Just Dumped China&#39;s Huawei in 5G Tech Roll-Out — Citing its Lies Over Coronavirus. - 34" href="https://pjmedia.com/trending/huge-the-uk-just-dumped-chinas-huawei-in-5g-tech-roll-out-citing-its-lies-over-coronavirus/">
-<span class="mpw__story">HUGE: The UK Just Dumped China&#39;s Huawei in 5G Tech Roll-Out — Citing its Lies Over Coronavirus.</span>
-</a>
-<div class="mpw__domain" style="color:#00a99d;">
-PJ Media
-</div>
-</li>
-<li>
-<a title="Hold onto your HATS! Brit Hume shares fact-filled thread on study showing COVID fatality rate just bottomed out to influenza levels - 24" href="https://twitchy.com/samj-3930/2020/04/17/hold-onto-your-hats-brit-hume-shares-fact-filled-thread-on-study-showing-covid-fatality-rate-just-bottomed-out-to-influenza-levels/">
-<span class="mpw__story">Hold onto your HATS! Brit Hume shares fact-filled thread on study showing COVID fatality rate just bottomed out to influenza levels</span>
-</a>
-<div class="mpw__domain" style="color:#F27B21;">
-Twitchy
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-xs-8">
-<div class="row">
-<div class="col-xs-12">
-<div class="xl-story">
-<div class="xl-story__img">
-<a target="_top" class="lazy" href="https://townhall.com/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915" data-src="https://media.townhall.com/townhall/reu/ha/2020/104/30b0d531-01a6-4224-85b5-7548e5f3b2a7.jpg">
-&nbsp;
-</a>
-</div>
-<div class="xl-story__summary">
-<h1>
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern " href="https://townhall.com/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915">Israeli Professor Shows Virus Follows Fixed Pattern </a>
-</h1>
-<h5 style="color:#ba224b">Townhall</h5>
-</div>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-6">
-<div class="sm-story">
-<div class="sm-story__text">
-<a title="WaPo Fact Checker Glenn Kessler Morphs Into WHO Apologist in Ridiculous Fact Check on Trump" href="https://www.redstate.com/sister-toldjah/2020/04/17/wapo-fact-checker-glenn-kessler-morphs-into-who-apologist-in-ridiculous-fact-check-on-trump/">WaPo Fact Checker Glenn Kessler Morphs Into WHO Apologist in Ridiculous Fact Check on Trump</a>
-</div>
-<div class="sm-story__flavor" style="color:#CB0809">Redstate</div>
-</div>
-</div>
-<div class="col-xs-6">
-<div class="sm-story">
-<div class="sm-story__text">
-<a title="The results are in on the Texas nursing home using hydroxychloroquine" href="https://hotair.com/archives/karen-townsend/2020/04/17/results-texas-nursing-home-using-hydroxychloroquine/">The results are in on the Texas nursing home using hydroxychloroquine</a>
-</div>
-<div class="sm-story__flavor" style="color:#CD2628">Hotair</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-</div>
-<div class="thm-piano-pfixed"></div>
-</div>
-<footer class="sticky-stopper">
-<section class="footer-brands">
-<div class="container">
-<ul class="list-inline list-unstyled">
-<li><a href="https://townhall.com"><img src="https://media.townhall.com/thm/th_logo1.png" alt="" /></a></li>
-<li><a href="https://hotair.com"><img src="https://media.townhall.com/thm/ha_logo1.png" alt="" /></a></li>
-<li><a href="https://bearingarms.com"><img src="https://media.townhall.com/thm/ba_logo1.png" alt="" /></a> </li>
-<li><a href="https://twitchy.com"><img src="https://media.townhall.com/thm/tw_logo1.png" alt="" /></a></li>
-<li><a href="https://redstate.com"><img src="https://media.townhall.com/thm/rs_logo1.png" alt="" /></a></li>
-<li><a href="https://pjmedia.com" target="_blank"><img src="https://media.townhall.com/thm/pj-media.png" style="width:100px;height:45px;" alt="PJ Media" /></a></li>
-</ul>
-</div>
-</section>
-<section class="footer-links">
-<div class="container">
-<ul class="list-inline list-unstyled">
-<li><a title="Conservative Columnists" href="/columnists">Columnists</a></li>
-<li><a href="/political-cartoons">Political Cartoons</a></li>
-<li><a href="/tipsheet">Tipsheet</a> </li>
-<li><a href="/tv">Townhall TV</a> </li>
-<li><a href="/podcasts">Podcasts</a> </li>
-<li><a title="Conservative News" href="/news">Radio News</a></li>
-<li><a title="Conservative Video" href="/video">Video</a></li>
-<li><a title="Conservative Entertainment" href="/entertainment">Entertainment</a></li>
-<li><a title="VIP" href="/vip">VIP</a></li>
-<li><a title="Conservative Capitol Voices" href="/capitol-voices">Capitol Voices</a></li>
-</ul>
-<ul class="list-inline list-unstyled">
-<li><a href="/election">Election Results</a></li>
-<li><a href="/tags/">Tags</a></li>
-<li><a href="http://finance.townhall.com">Finance</a></li>
-<li><a href="#" onclick="javascript:window.open('http://saleminteractivemedia.com/ListenLive/Player/TOWNIR','TOWNIR','width=800,height=710');">Townhall Radio</a></li>
-</ul>
-<ul class="list-inline list-unstyled">
-<li><a href="/aboutus">About Townhall</a></li>
-<li><a href="http://townhallmedia.com/">Advertise</a></li>
-<li><a href="https://townhall.com/tags/gift-guides/">Gift Guides</a></li>
-<li><a href="https://media.townhall.com/townhall/privacypolicy/privacypolicy.htm">Privacy Policy</a></li>
-<li><a href="https://media.townhall.com/townhall/privacypolicy/TermsofUse.htm">Terms of Use</a></li>
-<li><span class="thm-cpa"><a href="/donotsell" rel="nofollow">California - Do Not Sell My Personal Information</a></span></li>
-<li><a target="_blank" href="http://www.conservativeradio.com/">Radio Stations</a></li>
-<li><a href="/sitemap.htm">Sitemap</a></li>
-<li><a href="/pages/townhall_jobs">Jobs </a></li>
-<li><a href="/contact-us/">Contact Us</a></li>
-<li><a href="/newslettersignup/">Newsletters</a></li>
-<li><a href="/mobile-apps">iPhone/Android Apps</a></li>
-</ul>
-</div>
-</section>
-<section class="under-footer">
-<div class="container">
-<div class="row">
-<hr>
-<div class="col-xs-4">
-<a href="/">
-<img alt="Townhall.com" src="https://media.townhall.com/_townhall/resources/images/thmplus.png">
-<img style="width: 155px;height:40px;" alt="Townhall.com" src="/resources/th_logo.svg">
-</a>
-</div>
-<div class="col-xs-8">
-<p class="copyright" style="margin-top:12px;">
-Townhall.com is the leading source for conservative news and political commentary and analysis.<br>
-Copyright &copy; Townhall.com/Salem Media. All Rights Reserved. <a href="https://media.townhall.com/townhall/privacypolicy/TermsofUse.htm" target="_blank">Terms</a> under which this service
-is provided to you
-</p>
-</div>
-</div>
-</div>
-</section>
-<div id="div-gpt-oop" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-oop");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-oop"]])
-                    });
-                </script>
-</div>
-</footer>
-<script>(function(src){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=src;var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})("https://experience.tinypass.com/xbuilder/experience/load?aid=tSxoqtcFa7");</script>
-<div id="login-form"></div> <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
-<script src="/resources/dist/js/site.min.js?v=24"></script>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- BEGIN Live Validation -->
+<script type="text/javascript" src="/CMSScripts/Newsmax/livevalidation_standalone.compressed.js"></script>
+<!-- END Live Validation -->
+
+<!-- RSS Feed Script -->
+<script type="text/javascript" src="/CMSscripts/newsmax/jquery.zrssfeed.min.js"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <script>
-    tp = window["tp"] || [];
-    tp.push(["setTags", ["thm:article","abortion","pro-life","ninth-circuit-court-of-appeals","title-x","ninth-circuit-"]]);
+if((window.location.href.search('/surveys/') > 0) || (window.location.href.search('/survey/') > 0)){
+  jQuery('#tvBanner').hide();
+}
+</script>
+
+<!-- Navigation Script Start-->
+<script type="text/javascript"> if(window.location.pathname.toLowerCase().indexOf("/streettalk")>=0){ document.getElementById("mnHomeLink").className="mnMainNavLink"; document.getElementById("mnStreetTalkLink").className="mnMainNavLinkSel"; document.getElementById("mnBotHomeLink").className="mnMainNavLink"; document.getElementById("mnBotStreetTalkLink").className="mnMainNavLinkSel";
+}
+else if(window.location.pathname.toLowerCase().indexOf("/personal-finance")>=0){ document.getElementById("mnHomeLink").className="mnMainNavLink"; document.getElementById("mnFinanceNewsLink").className="mnMainNavLinkSel"; document.getElementById("mnBotHomeLink").className="mnMainNavLink"; document.getElementById("mnBotFinanceNewsLink").className="mnMainNavLinkSel";
+}
+else if(window.location.pathname.toLowerCase().indexOf("/economy")>=0){ document.getElementById("mnHomeLink").className="mnMainNavLink"; document.getElementById("mnEconomyLink").className="mnMainNavLinkSel"; document.getElementById("mnBotHomeLink").className="mnMainNavLink"; document.getElementById("mnBotEconomyLink").className="mnMainNavLinkSel";
+}
+else if(window.location.pathname.toLowerCase().indexOf("/companies")>=0){ document.getElementById("mnHomeLink").className="mnMainNavLink"; document.getElementById("mnCompaniesLink").className="mnMainNavLinkSel"; document.getElementById("mnBotHomeLink").className="mnMainNavLink"; document.getElementById("mnBotCompaniesLink").className="mnMainNavLinkSel";
+}
+else if(window.location.pathname.toLowerCase().indexOf("/markets")>=0){ document.getElementById("mnHomeLink").className="mnMainNavLink"; document.getElementById("mnMarketLink").className="mnMainNavLinkSel"; document.getElementById("mnBotHomeLink").className="mnMainNavLink"; document.getElementById("mnBotMarketLink").className="mnMainNavLinkSel";
+}
+else if(window.location.pathname.toLowerCase().indexOf("/investing---analysis")>=0){ document.getElementById("mnHomeLink").className="mnMainNavLink"; document.getElementById("mnInvestingLink").className="mnMainNavLinkSel"; document.getElementById("mnBotHomeLink").className="mnMainNavLink"; document.getElementById("mnBotInvestingLink").className="mnMainNavLinkSel";
+}
+else if(window.location.pathname.toLowerCase().indexOf("/insiders")>=0){ document.getElementById("mnHomeLink").className="mnMainNavLink"; document.getElementById("mnInsidersLink").className="mnMainNavLinkSel"; document.getElementById("mnBotHomeLink").className="mnMainNavLink"; document.getElementById("mnBotInsidersLink").className="mnMainNavLinkSel";
+}
+else if(window.location.pathname.toLowerCase().indexOf("/money-wire")>=0){ document.getElementById("mnHomeLink").className="mnMainNavLink"; document.getElementById("mnMoneyWireLink").className="mnMainNavLinkSel"; document.getElementById("mnBotHomeLink").className="mnMainNavLink"; document.getElementById("mnBotMoneyWireLink").className="mnMainNavLinkSel";
+}
+else if (window.location.pathname.toLowerCase().indexOf("/newsletters")>=0) {
+  document.getElementById("mnHomeLink").className="mnMainNavLink";
+  document.getElementById("mnNewsletterLink").className="mnMainNavLinkSel";
+  document.getElementById("mnBotHomeLink").className="mnMainNavLink";
+  document.getElementById("mnBotNewsletterLink").className="mnMainNavLinkSel";
+}
+</script>
+<!-- Navigation Script End -->
+<script type="text/javascript" src="https://a.remarketstats.com/px/smart/?c=22b5d598fb0a39f"></script>
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+ _satellite.pageBottom();(function() {var fn = function() {$get("manScript_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+
+<script type="text/javascript">
+	//<![CDATA[
+if (typeof(Sys.Browser.WebKit) == 'undefined') {
+    Sys.Browser.WebKit = {};
+}
+if (navigator.userAgent.indexOf('WebKit/') > -1) {
+    Sys.Browser.agent = Sys.Browser.WebKit;
+    Sys.Browser.version = parseFloat(navigator.userAgent.match(/WebKit\/(\d+(\.\d+)?)/)[1]);
+    Sys.Browser.name = 'WebKit';
+}
+//]]>
 </script>
 <script type="text/javascript">
-        console.info("The End: ", window.performance.now());
-        console.info("Device: ", "Desktop");
+//<![CDATA[
+
+var callBackFrameUrl='/WebResource.axd?d=77jWlglqex52vbFCaPRVP4SMPRhLKOdJ2CJxsjbbCFGCmQQy9GjJ709t9hiLFFQpiEw9ysyf2Qeu8y8EcpWoKNOtn101&t=636939809749177621';
+WebForm_InitCallback();//]]>
+</script>
+<script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+//]]>
+</script>
+  <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="T5x33Al97kA5Sz8GDkV3vQJMlUcW270uUjT67MfIAiVX+q1aIjZJ/aQWNDdjd1IdYPDyciWvxKNldsXLrN2AXFpxZgE=" />
+  <script type="text/javascript"> 
+      //<![CDATA[
+      if (window.WebForm_InitCallback) { 
+        __theFormPostData = '';
+        __theFormPostCollection = new Array();
+        window.WebForm_InitCallback(); 
+      }
+      //]]>
     </script>
-<div class="thm-piano-bottom"></div>
+  </form>
 </body>
 </html>

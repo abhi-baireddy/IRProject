@@ -1,761 +1,206 @@
-<!DOCTYPE html>
-<html lang="en-US" class="no-js">
-<head>
-	<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Sanders &#8212; And The Media &#8212; Learned The Wrong Lessons From Trump In 2016 | FiveThirtyEight</title>
-<!-- Jetpack Site Verification Tags -->
-<link rel='dns-prefetch' href='//cdn.registerdisney.go.com' />
-<link rel='dns-prefetch' href='//platform.twitter.com' />
-<link rel='dns-prefetch' href='//s.w.org' />
-<link rel='dns-prefetch' href='//pagead2.googlesyndication.com' />
-<link rel='dns-prefetch' href='//tpc.googlesyndication.com' />
-<link rel='dns-prefetch' href='//securepubads.g.doubleclick.net' />
-<link rel='dns-prefetch' href='//www.googletagmanager.com' />
-<link rel='dns-prefetch' href='//www.googletagservices.com' />
-<link rel='dns-prefetch' href='//www.googleadservices.com' />
-<link rel='dns-prefetch' href='//adservice.google.com' />
-<link rel='dns-prefetch' href='//www.google.com' />
-<link rel='stylesheet' id='all-css-0' href='https://fivethirtyeight.com/_static/??-eJylkd1OBCEMhV9IBk1cnRvjs/DTgSoDSIuGt5fBrO6sicnEO9LT83Hayo8sMJpQLZA0RNIisdQhmVcRUBdVmiRuAaYV49QbbmR3mBQZIsscqsNI0uEiclBN6MqcolREwF+8K+lPTMlaGA9EOqlih72XRkVUvJC+Cfvoijx2Ju0+2bW8vFUobYNZVCG5I3HYY7Eiq8JtW80Z9sOcaE2JfeyOI9ylyz3dmHK8/7Ufp1Y4AljK6LG/POxh7VsDylEs+A7b+NwAnefL+15J58Gf16e70/x4ez+f5odP2Rnnzw==' type='text/css' media='all' />
-<style id='wp-block-library-inline-css'>
-.has-text-align-justify{text-align:justify;}
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title data-react-helmet="true">There Is No Profound Meaning to the Notre Dame Fire | The New Republic</title>
+		
+<!-- OneCount tracker -->
+  <script id="oc-widget-main" src="//validate.onecount.net/js/all.min.js#b25436a6ddd683837f3a8f5386d49a80464e90de"></script>
+<!-- End OneCount tracker -->
+
+<!-- check consent -->
+  <script>
+  function getConsent(name) {
+    var dc = document.cookie;
+    var prefix = name + "=";
+    var begin = dc.indexOf("; " + prefix);
+    if (begin == -1) {
+        begin = dc.indexOf(prefix);
+        if (begin != 0) return null;
+    } else {
+        begin += 2;
+        var end = document.cookie.indexOf(";", begin);
+        if (end == -1) {
+        end = dc.length;
+        }
+    }
+
+    return decodeURI(dc.substring(begin + prefix.length, end));
+  }
+  </script>
+<!-- check consent -->
+
+<!-- Google Tag Manager Data Layer -->
+<script>
+  var consentCookieValueAsBoolean = (getConsent('consent') === 'true');
+  dataLayer = [{
+    consent: consentCookieValueAsBoolean
+  }];
+</script>
+<!-- /Google Tag Mananger Data Layer -->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NMWSH2N');</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<!-- Newrelic -->
+<!-- NREUM: (0) -->
+<!-- /Newrelic -->
+
+<!-- start DFP: htlbid  -->
+<script src="https://htlbid.com/v3/newrepublic.com/htlbid.js"></script>
+<script>
+  var htlbid = htlbid || {};
+  htlbid.cmd = htlbid.cmd || [];
+</script>
+<!-- end DFP -->
+
+<!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="//assets.newrepublic.com/assets/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="//assets.newrepublic.com/assets/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="//assets.newrepublic.com/assets/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="//assets.newrepublic.com/assets/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="//assets.newrepublic.com/assets/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="//assets.newrepublic.com/assets/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="//assets.newrepublic.com/assets/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="//assets.newrepublic.com/assets/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="//assets.newrepublic.com/assets/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="//assets.newrepublic.com/assets/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="//assets.newrepublic.com/assets/favicons/favicon-194x194.png" sizes="194x194">
+  <link rel="icon" type="image/png" href="//assets.newrepublic.com/assets/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="//assets.newrepublic.com/assets/favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="//assets.newrepublic.com/assets/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="//assets.newrepublic.com/assets/favicons/manifest.json">
+  <link rel="mask-icon" href="//assets.newrepublic.com/assets/favicons/safari-pinned-tab.svg" color="#000000">
+  <link rel="shortcut icon" href="//assets.newrepublic.com/assets/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="//assets.newrepublic.com/assets/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="//assets.newrepublic.com/assets/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+<!-- /Favicons -->
+
+<!-- Start: OneCount Automation Widget -->
+<script>GCN.onecount.setTargeting();</script>
+<!-- End: OneCount Automation Widget -->
+<link rel='amphtml' href='https://newrepublic.com/amp/article/153590/no-profound-meaning-notre-dame-fire'/>
+		<meta data-react-helmet="true" name="viewport" content="width=device-width, initial-scale=1.0"/><meta data-react-helmet="true" property="fb:admins" content="4404589"/><meta data-react-helmet="true" property="fb:app_id" content="1675346479369918"/><meta data-react-helmet="true" property="fb:pages" content="161419311535"/><meta data-react-helmet="true" name="parsely-page" content="{&quot;title&quot;:&quot;There Is No Profound Meaning to the Notre Dame Fire&quot;,&quot;link&quot;:&quot;https://newrepublic.com/article/153590/no-profound-meaning-notre-dame-fire&quot;,&quot;section&quot;:&quot;Culture&quot;,&quot;pub_date&quot;:&quot;2019-04-16T19:47:41.000Z&quot;,&quot;post_id&quot;:153590,&quot;authors&quot;:[&quot;Matt Ford&quot;],&quot;type&quot;:&quot;post&quot;,&quot;tags&quot;:[&quot;Culture&quot;,&quot;Architecture&quot;,&quot;Notre Dame&quot;,&quot;Paris&quot;,&quot;Emmanuel Macron&quot;,&quot;France&quot;,&quot;Media&quot;,&quot;Politics&quot;,&quot;Yellow Vests&quot;,&quot;-homepage-bottom2&quot;,&quot;-type_article&quot;]}"/><meta data-react-helmet="true" name="parsely-metadata" content="{&quot;thumb_image&quot;:&quot;http://images.newrepublic.com/ea52ac80caebfbec805a684b92070408607270ad.jpeg&quot;}"/><meta data-react-helmet="true" property="og:title" content="There Is No Profound Meaning to the Notre Dame Fire"/><meta data-react-helmet="true" property="og:description" content="Yes, French politics and society are in turmoil. But there&#x27;s a simpler lesson from the cathedral&#x27;s burning."/><meta data-react-helmet="true" name="twitter:title" content="There Is No Profound Meaning to the Notre Dame Fire"/><meta data-react-helmet="true" name="twitter:description" content="Yes, French politics and society are in turmoil. But there&#x27;s a simpler lesson from the cathedral&#x27;s burning."/><meta data-react-helmet="true" name="description" content="Yes, French politics and society are in turmoil. But there&#x27;s a simpler lesson from the cathedral&#x27;s burning."/><meta data-react-helmet="true" name="link" ref="canonical" href="https://newrepublic.com/article/153590/no-profound-meaning-notre-dame-fire"/><meta data-react-helmet="true" property="og:type" content="article"/><meta data-react-helmet="true" property="og:url" content="https://newrepublic.com/article/153590/no-profound-meaning-notre-dame-fire"/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" property="article:publisher" content="https://www.facebook.com/newrepublic"/><meta data-react-helmet="true" property="article:published_time" content="2019-04-16"/><meta data-react-helmet="true" name="twitter:creator" content="@fordm"/><meta data-react-helmet="true" name="twitter:image" content="https://images.newrepublic.com/ea52ac80caebfbec805a684b92070408607270ad.jpeg?w=1024&amp;h=512&amp;crop=faces&amp;fit=crop&amp;fm=jpg"/><meta data-react-helmet="true" property="og:image" content="https://images.newrepublic.com/ea52ac80caebfbec805a684b92070408607270ad.jpeg?w=1109&amp;h=577&amp;crop=faces&amp;fit=crop&amp;fm=jpg"/><meta data-react-helmet="true" property="og:image:height" content="577"/><meta data-react-helmet="true" property="og:image:width" content="1109"/><meta data-react-helmet="true" property="og:image:type" content="image/jpeg"/><meta data-react-helmet="true" property="article:tag" content="Culture"/><meta data-react-helmet="true" property="article:tag" content="Architecture"/><meta data-react-helmet="true" property="article:tag" content="Notre Dame"/><meta data-react-helmet="true" property="article:tag" content="Paris"/><meta data-react-helmet="true" property="article:tag" content="Emmanuel Macron"/><meta data-react-helmet="true" property="article:tag" content="France"/><meta data-react-helmet="true" property="article:tag" content="Media"/><meta data-react-helmet="true" property="article:tag" content="Politics"/><meta data-react-helmet="true" property="article:tag" content="Yellow Vests"/><meta data-react-helmet="true" property="og:site_name" content="The New Republic"/><meta data-react-helmet="true" name="twitter:site" content="@newrepublic"/><meta data-react-helmet="true" property="og:locale" content="en_US"/>
+		<link data-react-helmet="true" rel="canonical" href="https://newrepublic.com/article/153590/no-profound-meaning-notre-dame-fire"/>
+    <link rel="stylesheet" href="//assets.newrepublic.com/assets/main-d1bad53bfc2d99d21a7b.css"/>
+  </head>
+  <body>
+    
+<style>
+div.ie-popup {
+  display:none;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE10+ only */
+
+  div.ie-popup {
+    display:block;
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(154, 151, 151, 0.88);
+    animation: fadeIn 0.25s ease-out 1s 1 backwards;
+  }
+  .ie-popup-inner {
+    position: absolute;
+    top: calc(50% + 2rem);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    background: #302E2E;
+    color: white;
+    font-family: Lava Std;
+    padding: 5.0em 2.5em 4.0em 3.5em;
+    line-height: 2.2rem;
+    border-radius: 50%;
+    font-size: 24px;
+  }
+  div.ie-popup-inner a {
+    color: #FF8200;
+    text-decoration: underline;
+  }
+  div.ie-popup-strike {
+    margin: 0.8em -1em 0.8em 0;
+    background-image: url("https://images.newrepublic.com/6298424db74112859091c134816474ddcdc13b4f.png");
+    background-size: cover;
+    padding-top: 4.75%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  div.ie-popup-inner p {
+    font-family: "lava", Georgia, serif;
+    letter-spacing: -0.005em;
+    margin-bottom: 1em;
+    line-height: 1.3;
+    font-size: 1.8rem;
+  }
+  @media (max-width: 767px) {
+
+    .ie-popup-inner {
+      font-size: 24px;
+      padding: 5.5em 1em 0 1.7em;
+      border-radius:unset;
+    }
+    .ie-popup-inner p {
+      font-size: 1.8rem;
+    }
+  }
+}
 </style>
-<style id='rpbchessboard-chessboard-inline-css'>
-
-
-@media all and (max-width:240px) {
-
-	
-	.rpbui-chessboard-size19 .rpbui-chessboard-sized, .rpbui-chessboard-size20 .rpbui-chessboard-sized, .rpbui-chessboard-size21 .rpbui-chessboard-sized, .rpbui-chessboard-size22 .rpbui-chessboard-sized, .rpbui-chessboard-size23 .rpbui-chessboard-sized, .rpbui-chessboard-size24 .rpbui-chessboard-sized, .rpbui-chessboard-size25 .rpbui-chessboard-sized, .rpbui-chessboard-size26 .rpbui-chessboard-sized, .rpbui-chessboard-size27 .rpbui-chessboard-sized, .rpbui-chessboard-size28 .rpbui-chessboard-sized, .rpbui-chessboard-size29 .rpbui-chessboard-sized, .rpbui-chessboard-size30 .rpbui-chessboard-sized, .rpbui-chessboard-size31 .rpbui-chessboard-sized, .rpbui-chessboard-size32 .rpbui-chessboard-sized, .rpbui-chessboard-size33 .rpbui-chessboard-sized, .rpbui-chessboard-size34 .rpbui-chessboard-sized, .rpbui-chessboard-size35 .rpbui-chessboard-sized, .rpbui-chessboard-size36 .rpbui-chessboard-sized, .rpbui-chessboard-size37 .rpbui-chessboard-sized, .rpbui-chessboard-size38 .rpbui-chessboard-sized, .rpbui-chessboard-size39 .rpbui-chessboard-sized, .rpbui-chessboard-size40 .rpbui-chessboard-sized, .rpbui-chessboard-size41 .rpbui-chessboard-sized, .rpbui-chessboard-size42 .rpbui-chessboard-sized, .rpbui-chessboard-size43 .rpbui-chessboard-sized, .rpbui-chessboard-size44 .rpbui-chessboard-sized, .rpbui-chessboard-size45 .rpbui-chessboard-sized, .rpbui-chessboard-size46 .rpbui-chessboard-sized, .rpbui-chessboard-size47 .rpbui-chessboard-sized, .rpbui-chessboard-size48 .rpbui-chessboard-sized, .rpbui-chessboard-size49 .rpbui-chessboard-sized, .rpbui-chessboard-size50 .rpbui-chessboard-sized, .rpbui-chessboard-size51 .rpbui-chessboard-sized, .rpbui-chessboard-size52 .rpbui-chessboard-sized, .rpbui-chessboard-size53 .rpbui-chessboard-sized, .rpbui-chessboard-size54 .rpbui-chessboard-sized, .rpbui-chessboard-size55 .rpbui-chessboard-sized, .rpbui-chessboard-size56 .rpbui-chessboard-sized, .rpbui-chessboard-size57 .rpbui-chessboard-sized, .rpbui-chessboard-size58 .rpbui-chessboard-sized, .rpbui-chessboard-size59 .rpbui-chessboard-sized, .rpbui-chessboard-size60 .rpbui-chessboard-sized, .rpbui-chessboard-size61 .rpbui-chessboard-sized, .rpbui-chessboard-size62 .rpbui-chessboard-sized, .rpbui-chessboard-size63 .rpbui-chessboard-sized, .rpbui-chessboard-size64 .rpbui-chessboard-sized {
-		min-width: 18px;
-		width    : 18px;
-		height   : 18px;
-		background-size: 18px 18px;
-		-webkit-background-size: 18px 18px;
-	}
-
-	.rpbui-chessboard-size19 .rpbui-chessboard-annotations, .rpbui-chessboard-size20 .rpbui-chessboard-annotations, .rpbui-chessboard-size21 .rpbui-chessboard-annotations, .rpbui-chessboard-size22 .rpbui-chessboard-annotations, .rpbui-chessboard-size23 .rpbui-chessboard-annotations, .rpbui-chessboard-size24 .rpbui-chessboard-annotations, .rpbui-chessboard-size25 .rpbui-chessboard-annotations, .rpbui-chessboard-size26 .rpbui-chessboard-annotations, .rpbui-chessboard-size27 .rpbui-chessboard-annotations, .rpbui-chessboard-size28 .rpbui-chessboard-annotations, .rpbui-chessboard-size29 .rpbui-chessboard-annotations, .rpbui-chessboard-size30 .rpbui-chessboard-annotations, .rpbui-chessboard-size31 .rpbui-chessboard-annotations, .rpbui-chessboard-size32 .rpbui-chessboard-annotations, .rpbui-chessboard-size33 .rpbui-chessboard-annotations, .rpbui-chessboard-size34 .rpbui-chessboard-annotations, .rpbui-chessboard-size35 .rpbui-chessboard-annotations, .rpbui-chessboard-size36 .rpbui-chessboard-annotations, .rpbui-chessboard-size37 .rpbui-chessboard-annotations, .rpbui-chessboard-size38 .rpbui-chessboard-annotations, .rpbui-chessboard-size39 .rpbui-chessboard-annotations, .rpbui-chessboard-size40 .rpbui-chessboard-annotations, .rpbui-chessboard-size41 .rpbui-chessboard-annotations, .rpbui-chessboard-size42 .rpbui-chessboard-annotations, .rpbui-chessboard-size43 .rpbui-chessboard-annotations, .rpbui-chessboard-size44 .rpbui-chessboard-annotations, .rpbui-chessboard-size45 .rpbui-chessboard-annotations, .rpbui-chessboard-size46 .rpbui-chessboard-annotations, .rpbui-chessboard-size47 .rpbui-chessboard-annotations, .rpbui-chessboard-size48 .rpbui-chessboard-annotations, .rpbui-chessboard-size49 .rpbui-chessboard-annotations, .rpbui-chessboard-size50 .rpbui-chessboard-annotations, .rpbui-chessboard-size51 .rpbui-chessboard-annotations, .rpbui-chessboard-size52 .rpbui-chessboard-annotations, .rpbui-chessboard-size53 .rpbui-chessboard-annotations, .rpbui-chessboard-size54 .rpbui-chessboard-annotations, .rpbui-chessboard-size55 .rpbui-chessboard-annotations, .rpbui-chessboard-size56 .rpbui-chessboard-annotations, .rpbui-chessboard-size57 .rpbui-chessboard-annotations, .rpbui-chessboard-size58 .rpbui-chessboard-annotations, .rpbui-chessboard-size59 .rpbui-chessboard-annotations, .rpbui-chessboard-size60 .rpbui-chessboard-annotations, .rpbui-chessboard-size61 .rpbui-chessboard-annotations, .rpbui-chessboard-size62 .rpbui-chessboard-annotations, .rpbui-chessboard-size63 .rpbui-chessboard-annotations, .rpbui-chessboard-size64 .rpbui-chessboard-annotations {
-		width : 144px;
-		height: 144px;
-		right : 26px;
-	}
-
-	
-	
-	.rpbui-chessboard-cell.rpbui-chessboard-rowCoordinate, .rpbui-chessboard-row.rpbui-chessboard-columnCoordinateRow {
-		display: none;
-	}
-
-	
-}
-@media all and (min-width:241px) and (max-width:320px) {
-
-	
-	.rpbui-chessboard-size25 .rpbui-chessboard-sized, .rpbui-chessboard-size26 .rpbui-chessboard-sized, .rpbui-chessboard-size27 .rpbui-chessboard-sized, .rpbui-chessboard-size28 .rpbui-chessboard-sized, .rpbui-chessboard-size29 .rpbui-chessboard-sized, .rpbui-chessboard-size30 .rpbui-chessboard-sized, .rpbui-chessboard-size31 .rpbui-chessboard-sized, .rpbui-chessboard-size32 .rpbui-chessboard-sized, .rpbui-chessboard-size33 .rpbui-chessboard-sized, .rpbui-chessboard-size34 .rpbui-chessboard-sized, .rpbui-chessboard-size35 .rpbui-chessboard-sized, .rpbui-chessboard-size36 .rpbui-chessboard-sized, .rpbui-chessboard-size37 .rpbui-chessboard-sized, .rpbui-chessboard-size38 .rpbui-chessboard-sized, .rpbui-chessboard-size39 .rpbui-chessboard-sized, .rpbui-chessboard-size40 .rpbui-chessboard-sized, .rpbui-chessboard-size41 .rpbui-chessboard-sized, .rpbui-chessboard-size42 .rpbui-chessboard-sized, .rpbui-chessboard-size43 .rpbui-chessboard-sized, .rpbui-chessboard-size44 .rpbui-chessboard-sized, .rpbui-chessboard-size45 .rpbui-chessboard-sized, .rpbui-chessboard-size46 .rpbui-chessboard-sized, .rpbui-chessboard-size47 .rpbui-chessboard-sized, .rpbui-chessboard-size48 .rpbui-chessboard-sized, .rpbui-chessboard-size49 .rpbui-chessboard-sized, .rpbui-chessboard-size50 .rpbui-chessboard-sized, .rpbui-chessboard-size51 .rpbui-chessboard-sized, .rpbui-chessboard-size52 .rpbui-chessboard-sized, .rpbui-chessboard-size53 .rpbui-chessboard-sized, .rpbui-chessboard-size54 .rpbui-chessboard-sized, .rpbui-chessboard-size55 .rpbui-chessboard-sized, .rpbui-chessboard-size56 .rpbui-chessboard-sized, .rpbui-chessboard-size57 .rpbui-chessboard-sized, .rpbui-chessboard-size58 .rpbui-chessboard-sized, .rpbui-chessboard-size59 .rpbui-chessboard-sized, .rpbui-chessboard-size60 .rpbui-chessboard-sized, .rpbui-chessboard-size61 .rpbui-chessboard-sized, .rpbui-chessboard-size62 .rpbui-chessboard-sized, .rpbui-chessboard-size63 .rpbui-chessboard-sized, .rpbui-chessboard-size64 .rpbui-chessboard-sized {
-		min-width: 24px;
-		width    : 24px;
-		height   : 24px;
-		background-size: 24px 24px;
-		-webkit-background-size: 24px 24px;
-	}
-
-	.rpbui-chessboard-size25 .rpbui-chessboard-annotations, .rpbui-chessboard-size26 .rpbui-chessboard-annotations, .rpbui-chessboard-size27 .rpbui-chessboard-annotations, .rpbui-chessboard-size28 .rpbui-chessboard-annotations, .rpbui-chessboard-size29 .rpbui-chessboard-annotations, .rpbui-chessboard-size30 .rpbui-chessboard-annotations, .rpbui-chessboard-size31 .rpbui-chessboard-annotations, .rpbui-chessboard-size32 .rpbui-chessboard-annotations, .rpbui-chessboard-size33 .rpbui-chessboard-annotations, .rpbui-chessboard-size34 .rpbui-chessboard-annotations, .rpbui-chessboard-size35 .rpbui-chessboard-annotations, .rpbui-chessboard-size36 .rpbui-chessboard-annotations, .rpbui-chessboard-size37 .rpbui-chessboard-annotations, .rpbui-chessboard-size38 .rpbui-chessboard-annotations, .rpbui-chessboard-size39 .rpbui-chessboard-annotations, .rpbui-chessboard-size40 .rpbui-chessboard-annotations, .rpbui-chessboard-size41 .rpbui-chessboard-annotations, .rpbui-chessboard-size42 .rpbui-chessboard-annotations, .rpbui-chessboard-size43 .rpbui-chessboard-annotations, .rpbui-chessboard-size44 .rpbui-chessboard-annotations, .rpbui-chessboard-size45 .rpbui-chessboard-annotations, .rpbui-chessboard-size46 .rpbui-chessboard-annotations, .rpbui-chessboard-size47 .rpbui-chessboard-annotations, .rpbui-chessboard-size48 .rpbui-chessboard-annotations, .rpbui-chessboard-size49 .rpbui-chessboard-annotations, .rpbui-chessboard-size50 .rpbui-chessboard-annotations, .rpbui-chessboard-size51 .rpbui-chessboard-annotations, .rpbui-chessboard-size52 .rpbui-chessboard-annotations, .rpbui-chessboard-size53 .rpbui-chessboard-annotations, .rpbui-chessboard-size54 .rpbui-chessboard-annotations, .rpbui-chessboard-size55 .rpbui-chessboard-annotations, .rpbui-chessboard-size56 .rpbui-chessboard-annotations, .rpbui-chessboard-size57 .rpbui-chessboard-annotations, .rpbui-chessboard-size58 .rpbui-chessboard-annotations, .rpbui-chessboard-size59 .rpbui-chessboard-annotations, .rpbui-chessboard-size60 .rpbui-chessboard-annotations, .rpbui-chessboard-size61 .rpbui-chessboard-annotations, .rpbui-chessboard-size62 .rpbui-chessboard-annotations, .rpbui-chessboard-size63 .rpbui-chessboard-annotations, .rpbui-chessboard-size64 .rpbui-chessboard-annotations {
-		width : 192px;
-		height: 192px;
-		right : 32px;
-	}
-
-	
-	
-	.rpbui-chessboard-cell.rpbui-chessboard-rowCoordinate, .rpbui-chessboard-row.rpbui-chessboard-columnCoordinateRow {
-		display: none;
-	}
-
-	
-}
-@media all and (min-width:321px) and (max-width:480px) {
-
-	
-	.rpbui-chessboard-size33 .rpbui-chessboard-sized, .rpbui-chessboard-size34 .rpbui-chessboard-sized, .rpbui-chessboard-size35 .rpbui-chessboard-sized, .rpbui-chessboard-size36 .rpbui-chessboard-sized, .rpbui-chessboard-size37 .rpbui-chessboard-sized, .rpbui-chessboard-size38 .rpbui-chessboard-sized, .rpbui-chessboard-size39 .rpbui-chessboard-sized, .rpbui-chessboard-size40 .rpbui-chessboard-sized, .rpbui-chessboard-size41 .rpbui-chessboard-sized, .rpbui-chessboard-size42 .rpbui-chessboard-sized, .rpbui-chessboard-size43 .rpbui-chessboard-sized, .rpbui-chessboard-size44 .rpbui-chessboard-sized, .rpbui-chessboard-size45 .rpbui-chessboard-sized, .rpbui-chessboard-size46 .rpbui-chessboard-sized, .rpbui-chessboard-size47 .rpbui-chessboard-sized, .rpbui-chessboard-size48 .rpbui-chessboard-sized, .rpbui-chessboard-size49 .rpbui-chessboard-sized, .rpbui-chessboard-size50 .rpbui-chessboard-sized, .rpbui-chessboard-size51 .rpbui-chessboard-sized, .rpbui-chessboard-size52 .rpbui-chessboard-sized, .rpbui-chessboard-size53 .rpbui-chessboard-sized, .rpbui-chessboard-size54 .rpbui-chessboard-sized, .rpbui-chessboard-size55 .rpbui-chessboard-sized, .rpbui-chessboard-size56 .rpbui-chessboard-sized, .rpbui-chessboard-size57 .rpbui-chessboard-sized, .rpbui-chessboard-size58 .rpbui-chessboard-sized, .rpbui-chessboard-size59 .rpbui-chessboard-sized, .rpbui-chessboard-size60 .rpbui-chessboard-sized, .rpbui-chessboard-size61 .rpbui-chessboard-sized, .rpbui-chessboard-size62 .rpbui-chessboard-sized, .rpbui-chessboard-size63 .rpbui-chessboard-sized, .rpbui-chessboard-size64 .rpbui-chessboard-sized {
-		min-width: 32px;
-		width    : 32px;
-		height   : 32px;
-		background-size: 32px 32px;
-		-webkit-background-size: 32px 32px;
-	}
-
-	.rpbui-chessboard-size33 .rpbui-chessboard-annotations, .rpbui-chessboard-size34 .rpbui-chessboard-annotations, .rpbui-chessboard-size35 .rpbui-chessboard-annotations, .rpbui-chessboard-size36 .rpbui-chessboard-annotations, .rpbui-chessboard-size37 .rpbui-chessboard-annotations, .rpbui-chessboard-size38 .rpbui-chessboard-annotations, .rpbui-chessboard-size39 .rpbui-chessboard-annotations, .rpbui-chessboard-size40 .rpbui-chessboard-annotations, .rpbui-chessboard-size41 .rpbui-chessboard-annotations, .rpbui-chessboard-size42 .rpbui-chessboard-annotations, .rpbui-chessboard-size43 .rpbui-chessboard-annotations, .rpbui-chessboard-size44 .rpbui-chessboard-annotations, .rpbui-chessboard-size45 .rpbui-chessboard-annotations, .rpbui-chessboard-size46 .rpbui-chessboard-annotations, .rpbui-chessboard-size47 .rpbui-chessboard-annotations, .rpbui-chessboard-size48 .rpbui-chessboard-annotations, .rpbui-chessboard-size49 .rpbui-chessboard-annotations, .rpbui-chessboard-size50 .rpbui-chessboard-annotations, .rpbui-chessboard-size51 .rpbui-chessboard-annotations, .rpbui-chessboard-size52 .rpbui-chessboard-annotations, .rpbui-chessboard-size53 .rpbui-chessboard-annotations, .rpbui-chessboard-size54 .rpbui-chessboard-annotations, .rpbui-chessboard-size55 .rpbui-chessboard-annotations, .rpbui-chessboard-size56 .rpbui-chessboard-annotations, .rpbui-chessboard-size57 .rpbui-chessboard-annotations, .rpbui-chessboard-size58 .rpbui-chessboard-annotations, .rpbui-chessboard-size59 .rpbui-chessboard-annotations, .rpbui-chessboard-size60 .rpbui-chessboard-annotations, .rpbui-chessboard-size61 .rpbui-chessboard-annotations, .rpbui-chessboard-size62 .rpbui-chessboard-annotations, .rpbui-chessboard-size63 .rpbui-chessboard-annotations, .rpbui-chessboard-size64 .rpbui-chessboard-annotations {
-		width : 256px;
-		height: 256px;
-		right : 40px;
-	}
-
-	
-	
-}
-@media all and (min-width:481px) and (max-width:768px) {
-
-	
-	.rpbui-chessboard-size57 .rpbui-chessboard-sized, .rpbui-chessboard-size58 .rpbui-chessboard-sized, .rpbui-chessboard-size59 .rpbui-chessboard-sized, .rpbui-chessboard-size60 .rpbui-chessboard-sized, .rpbui-chessboard-size61 .rpbui-chessboard-sized, .rpbui-chessboard-size62 .rpbui-chessboard-sized, .rpbui-chessboard-size63 .rpbui-chessboard-sized, .rpbui-chessboard-size64 .rpbui-chessboard-sized {
-		min-width: 56px;
-		width    : 56px;
-		height   : 56px;
-		background-size: 56px 56px;
-		-webkit-background-size: 56px 56px;
-	}
-
-	.rpbui-chessboard-size57 .rpbui-chessboard-annotations, .rpbui-chessboard-size58 .rpbui-chessboard-annotations, .rpbui-chessboard-size59 .rpbui-chessboard-annotations, .rpbui-chessboard-size60 .rpbui-chessboard-annotations, .rpbui-chessboard-size61 .rpbui-chessboard-annotations, .rpbui-chessboard-size62 .rpbui-chessboard-annotations, .rpbui-chessboard-size63 .rpbui-chessboard-annotations, .rpbui-chessboard-size64 .rpbui-chessboard-annotations {
-		width : 448px;
-		height: 448px;
-		right : 64px;
-	}
-
-	
-	
-}
-
-
-
-
-
-</style>
-<script>
-var DisneyOneID = {"config":{"clientId":"DATG-FIVETHIRTYEIGHT.WEB-PROD","langPref":"en-US","debug":false,"responderPage":"https:\/\/fivethirtyeight.com\/oneid-responder","campaignName":"FiveThirtyEight"}};
-</script>
-<script src='https://cdn.registerdisney.go.com/v2/outer/DisneyID.js'></script>
-<script>
-var ESPNTaboola = {"publisher":"abcnews-fivethirtyeight","type":"article"};
-</script>
-<script type='text/javascript' src='https://fivethirtyeight.com/_static/??-eJyVkNFOwzAMRX+ILPCwqTwgviU0d61L4oTYWdW/J2wTFASdeLJk59gn187Z9IkVrDaHOhCL9SSMxUSIuNYYrBOBip3EJgb5XSTeTXJnG0vch+pxHk5vFWW5lpsPTKShOMV6208TSGYjqScXVhJH1+Mlpdf/kzqTKorJJcWsW3xVCqTUvL/oE3mkLWgjOMYsAR/Hb1qra58Lbq196fyVe2WPIn0qv2apI5rQZfWRTtCRii6gYdR1pt8nZoTzn67P8elh3+0P3eOhu5/eAePQ1Mk='></script>
-<script async="async" defer="defer" src='https://platform.twitter.com/widgets.js?ver=1.0.23'></script>
-<script>
-var ABCAnalytics = {"nielsen":{"asset_id":269725,"section":"politics:2020-election","seg_a":"","seg_b":"","seg_c":"","debug":""},"chartbeat":{"uid":"12240","domain":"fivethirtyeight.com","path":"\/features\/sanders-and-the-media-learned-the-wrong-lessons-from-trump-in-2016\/","sections":"politics,features","authors":"Nate Silver","title":"Sanders \u2014 And The Media \u2014 Learned The Wrong Lessons From Trump In 2016","loadPubJS":false,"loadVidJS":true},"gtm":{"id":"GTM-KLHT6T2"},"omniture":{"pageName":"politics:features:sanders-and-the-media-learned-the-wrong-lessons-from-trump-in-2016","prop1":"fivethirtyeight","prop2":"","prop5":"features","prop6":"Nate Silver","prop7":"politics","prop8":"politics:2020-election","prop12":"Sanders \u2014 And The Media \u2014 Learned The Wrong Lessons From Trump In 2016","prop13":"269725:Sanders \u2014 And The Media \u2014 Learned The Wrong Lessons From Trump In 2016","prop14":"","prop15":"https:\/\/fivethirtyeight.com\/features\/sanders-and-the-media-learned-the-wrong-lessons-from-trump-in-2016\/","prop16":"https:\/\/fivethirtyeight.com\/features\/sanders-and-the-media-learned-the-wrong-lessons-from-trump-in-2016\/","prop20":"Desktop","prop23":"2016 Election, 2020 Democratic Primary, 2020 Election, Bernie Sanders, Donald Trump, Joe Biden","eVar5":"features","eVar6":"Nate Silver","eVar7":"politics","eVar8":"politics:2020-election","eVar9":"2020-04-09","eVar10":"17:11","eVar12":"Sanders \u2014 And The Media \u2014 Learned The Wrong Lessons From Trump In 2016","eVar13":"269725:Sanders \u2014 And The Media \u2014 Learned The Wrong Lessons From Trump In 2016","eVar14":"","eVar15":"https:\/\/fivethirtyeight.com\/features\/sanders-and-the-media-learned-the-wrong-lessons-from-trump-in-2016\/","eVar16":"https:\/\/fivethirtyeight.com\/features\/sanders-and-the-media-learned-the-wrong-lessons-from-trump-in-2016\/","eVar20":"Desktop","eVar21":null,"eVar22":null,"prop35":"2020-04-09"},"account":"wdgnewfivethirtyeight"};
-</script>
-<script type='text/javascript' src='https://fivethirtyeight.com/wp-content/plugins/abc-analytics/assets/js/analytics.min.js?m=1585259401g'></script>
-<link rel='https://api.w.org/' href='https://fivethirtyeight.com/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://fivethirtyeight.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://fivethirtyeight.com/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 5.4" />
-<link rel='shortlink' href='https://53eig.ht/34nxtLu' />
-<link rel="alternate" type="application/json+oembed" href="https://fivethirtyeight.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffivethirtyeight.com%2Ffeatures%2Fsanders-and-the-media-learned-the-wrong-lessons-from-trump-in-2016%2F" />
-<link rel="alternate" type="text/xml+oembed" href="https://fivethirtyeight.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffivethirtyeight.com%2Ffeatures%2Fsanders-and-the-media-learned-the-wrong-lessons-from-trump-in-2016%2F&#038;format=xml" />
-<style type='text/css'>img#wpstats{display:none}</style><link rel="amphtml" href="https://fivethirtyeight.com/features/sanders-and-the-media-learned-the-wrong-lessons-from-trump-in-2016/amp/">
-<!-- Jetpack Open Graph Tags -->
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Sanders &#8212; And The Media &#8212; Learned The Wrong Lessons From Trump In 2016" />
-<meta property="og:url" content="https://fivethirtyeight.com/features/sanders-and-the-media-learned-the-wrong-lessons-from-trump-in-2016/" />
-<meta property="og:description" content="“The [&#8230;] pitch is a mix of idealism and a shouting anger about the system, but at its heart is a hard-nosed math: He’s the only candidate with a sizable chunk&#8230;" />
-<meta property="article:published_time" content="2020-04-09T21:11:51+00:00" />
-<meta property="article:modified_time" content="2020-04-09T21:11:51+00:00" />
-<meta property="og:site_name" content="FiveThirtyEight" />
-<meta property="og:image" content="https://fivethirtyeight.com/wp-content/uploads/2020/04/USA-ELECTION-SANDERS-16x9-1.jpg?w=575" />
-<meta property="og:image:width" content="575" />
-<meta property="og:image:height" content="323" />
-<meta property="og:locale" content="en_US" />
-<meta property="article:author" content="https://facebook.com/natesilver" />
-<meta property="article:publisher" content="https://www.facebook.com/fivethirtyeight" />
-<meta property="fb:app_id" content="797620670264818" />
-<meta property="fb:pages" content="687958677914631" />
-<meta name="twitter:site" content="FiveThirtyEight" />
-<meta name="twitter:site:id" content="2303751216" />
-<meta name="twitter:widgets:csp" content="on" />
-<meta name="twitter:maxage" content="300" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:creator" content="natesilver538" />
-<meta name="twitter:creator:id" content="16017475" />
-<meta name="twitter:image:src" content="https://fivethirtyeight.com/wp-content/uploads/2020/04/USA-ELECTION-SANDERS-16x9-1.jpg?w=575" />
-<meta name="twitter:label1" content="Written by" />
-<meta name="twitter:data1" content="Nate Silver" />
-<meta name="twitter:label2" content="Filed under" />
-<meta name="twitter:data2" content="2016 Election, 2020 Democratic Primary, 2020 Election, Bernie Sanders, Donald Trump, Joe Biden" />
-
-<!-- End Jetpack Open Graph Tags -->
-<meta name="DC.date.issued" content="2020-04-09T21:11:51+00:00" />
-<meta name="description" content="“The [&#8230;] pitch is a mix of idealism and a shouting anger about the system, but at its heart is a hard-nosed math: He’s the only candidate with a sizable chunk&#8230;" />
-<link rel='author' href='https://fivethirtyeight.com/contributors/nate-silver/' />
-<link rel="alternate" type="application/rss+xml" title="Posts feed for Nate Silver" href="https://fivethirtyeight.com/contributors/nate-silver/feed/">
-<link type="text/plain" rel="author" href="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/humans.txt" /><link rel='canonical' href='https://fivethirtyeight.com/features/sanders-and-the-media-learned-the-wrong-lessons-from-trump-in-2016/' />
-<script type='application/ld+json'>
-{"@context":"http://schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https://fivethirtyeight.com/features/sanders-and-the-media-learned-the-wrong-lessons-from-trump-in-2016/"},"headline":"Sanders &#8212; And The Media &#8212; Learned The Wrong Lessons From Trump In 2016","datePublished":"2020-04-09T17:11:51-04:00","dateModified":"2020-04-10T15:41:16-04:00","publisher":{"@type":"Organization","name":"FiveThirtyEight","logo":{"url":"https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/fivethirtyeight-logo-rich-snippets.png","height":60,"width":546,"@type":"ImageObject"}},"author":{"@type":"Person","name":"Nate Silver"},"articleSection":"Politics","image":{"@type":"ImageObject","url":"https://fivethirtyeight.com/wp-content/uploads/2020/04/USA-ELECTION-SANDERS-4x3-1.jpg?w=1024","width":1024,"height":768}}
-</script>
-	<link rel="mask-icon" color="#ed713a" href="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/logo-fox-head-black.svg?v=1.0.23">
-	<link rel="shortcut icon" href="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/favicon.ico?v=1.0.23">
-	<link rel="apple-touch-icon" href="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/fivethirtyeight-logo-touch.png?v=1.0.23">
-</head>
-<body class="fte_features-template-default single single-fte_features postid-269725 vertical-politics slug-sanders-and-the-media-learned-the-wrong-lessons-from-trump-in-2016 topic-slug-2020-election">
-<div id="ad-OutStream" class="ad-outstream" data-defer="none"></div>
-<a href="#content" class="skip-to-content-link visually-hidden">Skip to main content</a>
-<div id="masterad" class="master-ad">
-	<div id="ad-Banner" class="ad-banner" data-defer="none"></div></div><!-- #masterad -->
-<i class="header-global-bground"></i>
-<header class="header-global" id="header-global">
-	<div class="site-wrapper header-global-top">
-							<h2 class="header-global-logo">
-							<a href="/" name="&amp;lpos=fivethirtyeight&amp;lid=Header Home" class="header-global-logo-link">
-					<span class="visually-hidden">FiveThirtyEight</span>
-					<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="163.451" viewBox="0 318.275 1280 163.451" class="site-logo"><path d="M0 318.275h76.009v24.323H27.363v30.403h45.606v24.323H27.363v51.687H0zm94.252 109.453h15.202v-54.727H94.252v-24.323h39.525v79.05h12.162v21.283H94.252v-21.283zm15.202-109.453h24.323v24.323h-24.323v-24.323zm434.774 109.453h15.202v-54.727h-15.202v-24.323h39.525v79.05h12.162v21.283h-51.686v-21.283zm15.202-109.453h24.323v24.323H559.43v-24.323zm401.33 109.453h15.202v-54.727H960.76v-24.323h39.525v79.05h12.161v21.283H960.76v-21.283zm15.202-109.453h24.323v24.323h-24.323v-24.323zm-811.781 82.09v-51.687h24.323v45.606l12.161 30.343h3.04l12.162-30.343v-45.606h24.323v51.687l-21.283 48.646h-33.444zm173.301 48.646h-41.288c-24.901 0-37.762-11.584-37.762-35.968v-27.88c0-23.016 13.074-39.525 39.525-39.525 28.367 0 39.525 15.415 39.525 42.565v21.283h-51.686v5.29c0 7.966 3.04 12.952 10.398 12.952h41.288v21.283zm-51.686-60.808h24.323v-4.713c0-7.966-3.223-16.57-12.557-16.57-8.483 0-11.766 6.689-11.766 16.57v4.713zm94.251-45.605h-30.403v-24.323h88.171v24.323h-30.404v106.413h-27.364zm234.11 106.413V348.678h24.323v12.161c3.466-7.449 11.401-12.161 21.952-12.161h8.452v24.323h-18.242c-8.635 0-12.161 2.858-12.161 11.857v64.152h-24.324zm130.736 0h-14.715c-21.617 0-30.89-11.219-30.89-33.9v-42.109h-18.242v-24.323h18.242v-21.283h24.323v21.283h21.283v24.323H723.61l-.213 42.353c0 6.75 2.828 12.374 11.128 12.374h10.368v21.282zm535.107 0h-14.715c-21.617 0-30.89-11.219-30.89-33.9v-42.109h-18.242v-24.323h18.242v-21.283h24.323v21.283H1280v24.323h-21.283l-.213 42.353c0 6.75 2.828 12.374 11.128 12.374H1280v21.282zm-506.953 32.714l14.016-28.883-23.928-52.477v-51.687h24.323v45.606l12.162 30.404h3.04l12.162-30.404v-45.606h24.323v51.687l-37.397 81.36zm90.421-163.45h76.009v24.323h-48.646v27.363h45.606v24.323h-45.606v30.404h48.646v24.323h-76.009zm161.14 145.938v-6.081h48.95c6.081 0 8.817-.547 8.817-3.861v-1.034c0-3.284-2.767-4.226-8.817-4.226h-39.829v-15.202l15.202-15.202c-16.084-4.5-24.323-16.509-24.323-33.444v-3.04c0-22.985 13.499-36.485 42.565-36.485a66.672 66.672 0 0 1 18.09 3.04l12.313-18.242 15.202 9.121-12.161 18.242c4.165 5.868 9.121 14.989 9.121 24.323v3.04c0 21.283-10.033 32.41-36.484 33.444l-9.121 12.161h18.242c17.999 0 27.363 7.966 27.363 23.35v.334c0 15.384-8.239 24.962-26.208 24.962h-39.525c-13.043.002-19.397-5.593-19.397-15.2zm57.767-76.01v-9.121c0-10.033-4.044-12.161-15.202-12.161-11.158 0-15.202 2.128-15.202 12.161v9.121c0 10.033 4.226 12.162 15.202 12.162s15.202-2.128 15.202-12.162zm72.969 60.808h-24.323V318.275h24.323v42.565c3.466-8.118 10.337-12.161 21.283-12.161 19.033 0 27.363 9.364 27.363 32.714v67.618h-24.323v-63.848c0-9.516-3.253-15.202-12.162-15.202-8.908 0-12.161 5.686-12.161 15.202v63.848zm-678.004 0h-24.323V318.275h24.323v42.565c3.466-8.118 11.888-12.161 22.772-12.161 19.033 0 25.874 9.516 25.874 32.867v67.466h-24.323v-66.888c0-9.516-3.253-13.499-12.161-13.499s-12.162 6.871-12.162 16.388v63.998z"/></svg>					<img src="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/logo-fox-head-color.svg" alt="FiveThirtyEight" width="57" height="55" class="site-logo-small" id="site-logo-small" />
-				</a>
-							</h2>
-			
-			<form action="https://fivethirtyeight.com/" method="get" id="searchform" class="search-form">
-				<label for="search-field" class="search-form-label">Search</label>
-				<div class="search-form-input-wrapper"><input type="search" name="s" id="search-field" class="search-form-input" placeholder="Search" tabindex="-1"></div>
-				<input type="submit" value="Search" class="search-form-submit" tabindex="-1">
-				<button aria-label="Search" class="search-button" id="search-button">
-					<span class="visually-hidden">Search</span>
-				</button>
-			</form>
-
-			<a href="https://abcnews.go.com/" rel="noopener" title="ABC News" target="_blank" class="header-espn-link" name="&amp;lpos=fivethirtyeightHeader&amp;lid=Header ABC News">
-				<svg width="65" height="23" xmlns="http://www.w3.org/2000/svg"><path d="M25.089 6.709c-.47-.496-.974-.798-1.322-.798h-.313v-.275h.261c.121 0 1.548.058 1.687.058.227 0 .886-.058 1.026-.058h.278l6.618 7.345V7.187c0-.921-.4-1.276-1.407-1.276h-.296v-.275h.313c.035 0 1.529.058 1.65.058.173 0 1.164-.058 1.355-.058h.192l.017.275c-.922.071-1.165.32-1.165 1.135v9.16h-.312l-7.904-8.77v6.6c0 1.384.314 1.756 1.46 1.756h.295v.296h-.331c-.243 0-1.441-.06-1.72-.06-.156 0-1.269.06-1.512.06h-.279v-.296c1.166-.107 1.41-.302 1.41-1.153v-7.93h-.001zm11.98.106c0-.691-.261-.904-1.079-.904h-.26v-.275h.678c.47 0 3.008.058 3.026.058.364 0 2.777-.058 3.296-.058h.695l.035 2.277h-.27c-.053-1.188-.58-1.667-1.795-1.667h-2.43v4.026h2.1c.816 0 1.268-.39 1.389-1.225l.31.018v3.178h-.293c-.138-.993-.642-1.383-1.857-1.383h-1.666v3.672c0 .603.296.905.885.905h1.736c1.126 0 1.944-.515 2.43-1.58h.314l-.731 2.23c-.505 0-2.898-.058-3.696-.058-.539 0-3.13.04-3.722.058h-.452v-.295h.278c.818-.017 1.08-.23 1.08-.923V6.815zm16.701 9.41h-.487l-1.984-5.511-2.035 5.512h-.47L45.4 6.975c-.26-.71-.505-.993-.957-1.08v-.26h.296c.191 0 1.149.059 1.375.059.191 0 1.182-.058 1.391-.058h.314v.275c-.505.019-.714.16-.714.443 0 .16.052.39.14.639l2.383 6.557 1.357-3.74-.887-2.516c-.383-1.081-.714-1.364-1.55-1.383v-.275h.28c.243 0 1.496.058 1.793.058.242 0 1.495-.058 1.773-.058h.417v.275h-.417c-.574 0-.852.142-.852.443 0 .16.07.444.174.727l2.314 6.522 1.827-5.53c.226-.709.33-1.17.33-1.453 0-.496-.243-.71-.782-.71h-.313v-.274h.087c.243 0 .851.058 1.217.058.173 0 .851-.058 1.18-.058h.123v.275c-.436.125-.66.443-1.007 1.525l-2.923 8.79zm4.01-2.563c.278.688.52 1.008.988 1.361.59.46 1.37.69 2.237.69 1.491 0 2.497-.796 2.497-1.946 0-.85-.486-1.31-2.282-2.175-1.74-.85-2.174-1.274-2.538-1.628-.537-.584-.762-1.114-.762-1.822 0-1.627 1.3-2.704 3.265-2.704.592 0 1.236.088 1.933.264.278.07.557.106.714.106.138 0 .209-.035.26-.153h.3l.034 2.229h-.247c-.156-.531-.26-.76-.487-1.05-.488-.585-1.254-.903-2.237-.903-1.248 0-2.064.601-2.064 1.504 0 .778.47 1.22 2.134 1.998 2.134 1.008 3.426 1.911 3.426 3.573 0 1.91-1.537 3.2-3.807 3.2a8.04 8.04 0 0 1-1.838-.229 3.676 3.676 0 0 0-.624-.089c-.209 0-.277.036-.415.2h-.295l-.035-.248c-.118-.7-.258-1.398-.418-2.09l.261-.089zM3.97 9.732c-.262 0-.51.06-.73.168-.587.291-.957.89-.955 1.546 0 .946.755 1.714 1.684 1.714.931 0 1.684-.768 1.684-1.714 0-.947-.753-1.715-1.684-1.715zm7.259 0c-.93 0-1.685.767-1.685 1.714 0 .946.754 1.714 1.685 1.714.93 0 1.684-.768 1.684-1.714 0-.947-.755-1.715-1.684-1.715z"/><path d="M18.47 14.875c-1.862 0-3.37-1.535-3.37-3.43 0-1.893 1.508-3.428 3.37-3.428 1.596 0 2.932 1.132 3.28 2.65h-1.78a1.68 1.68 0 0 0-1.5-.936c-.932 0-1.686.768-1.686 1.715 0 .946.754 1.714 1.685 1.714a1.68 1.68 0 0 0 1.502-.94l1.783-.017c-.339 1.53-1.68 2.672-3.285 2.672zm-7.241 0c-1.853 0-3.356-1.522-3.369-3.405l-.04-6.016h1.704l.01 3.228c.499-.396 1.077-.665 1.695-.665 1.86 0 3.368 1.535 3.368 3.429s-1.509 3.429-3.368 3.429zm-5.546 0l-.007-.859c-.382.389-1.043.859-1.824.859-1.86 0-3.251-1.535-3.251-3.43 0-1.893 1.508-3.428 3.368-3.428.29 0 .573.037.843.108 1.453.38 2.526 1.723 2.526 3.32v.01l.02 3.42H5.682zM11.229.017C5.027.017 0 5.134 0 11.446s5.027 11.43 11.229 11.43c6.2 0 11.228-5.118 11.228-11.43 0-6.312-5.028-11.429-11.228-11.429z"/></svg>			</a>
-
-			<span class="nav-global-toggle" id="nav-global-toggle">Menu</span>
-
-	</div>
-			<div class="single-sticky">
-									<div class="single-sticky-vertical"></div>
-				<div class="single-sticky-title">
-											Sanders &#8212; And The Media &#8212; Learned The Wrong Lessons From Trump In 2016									</div>
-				<a href="https://fivethirtyeight.com/features/sanders-and-the-media-learned-the-wrong-lessons-from-trump-in-2016/?share=facebook" class="button share-sticky sticky-facebook">Share on Facebook</a>
-				<a href="https://fivethirtyeight.com/features/sanders-and-the-media-learned-the-wrong-lessons-from-trump-in-2016/?share=twitter"  class="button share-sticky sticky-twitter">Share on Twitter</a>
-						</div>
-			<div class="site-wrapper header-global-bottom">
-		<nav class="nav-global" id="nav-global">
-			<ul class="nav-global-menu">
-				<li class="nav-global-menu-item menu-politics -current-vertical">
-					<a href="https://fivethirtyeight.com/politics/" name="&amp;lpos=fivethirtyeight&amp;lid=Header Politics">
-						Politics					</a>
-				</li>
-				<li class="nav-global-menu-item menu-sports">
-					<a href="https://fivethirtyeight.com/sports/" name="&amp;lpos=fivethirtyeight&amp;lid=Header Sports">
-						Sports					</a>
-				</li>
-				<li class="nav-global-menu-item menu-science">
-					<a href="https://fivethirtyeight.com/science/" name="&amp;lpos=fivethirtyeight&amp;lid=Header Science">
-						Science &amp; Health					</a>
-				</li>
-				<li class="nav-global-menu-item menu-economics">
-					<a href="https://fivethirtyeight.com/economics/" name="&amp;lpos=fivethirtyeight&amp;lid=Header Economics">
-						Economics					</a>
-				</li>
-				<li class="nav-global-menu-item menu-life">
-					<a href="https://fivethirtyeight.com/life/" name="&amp;lpos=fivethirtyeight&amp;lid=Header Culture">
-						Culture					</a>
-				</li>
-				<li class="nav-global-menu-item menu-abcn -mobile-only">
-					<a href="https://abcnews.go.com/" rel="noopener" name="&amp;lpos=fivethirtyeightHeader&amp;lid=Header ABC News">
-						ABC News					</a>
-				</li>
-			</ul>
-
-			
-	
-		</nav><!-- #nav-global -->
-		</div><!-- .site-wrapper -->
-</header><!-- #header-global -->
-
-
-<div class="site-main">
-	<div id="wrapper" class="site-wrapper">
-
-		
-	<div id="content" class="single single-feature" data-col="2">
-
-		
-		<div id="primary" class="single-col">
-			<article id="post-269725" class="post-269725 fte_features type-fte_features status-publish has-post-thumbnail hentry tag-2016-election tag-2020-democratic-primary tag-2020-election tag-bernie-sanders tag-donald-trump tag-joe-biden espn_verticals-politics vertical-politics topic-slug-2020-election">
-
-				
-								<header class="post-info single-post-header">
-										<p class="topic single-topic">
-						<time class="datetime">Apr. 9, 2020</time>,
-						at
-						<time class="datetime updated" title="2020-04-09T21:11:51+00:00">5:11 PM</time>
-
-					</p>
-					
-					<div class="single-header">
-						<h1 class="article-title article-title-single entry-title">
-							Sanders &#8212; And The Media &#8212; Learned The Wrong Lessons From Trump In 2016						</h1>
-
-											</div>
-
-					<div class="single-header-metadata-and-share-wrap">
-						<div class="single-header-metadata-wrap">
-															<p class="single-metadata single-byline vcard">By <a href="https://fivethirtyeight.com/contributors/nate-silver/" title="" class="author url fn" rel="author">Nate Silver</a></p>
-								
-														<p class="single-metadata single-topic">Filed under <a href="https://fivethirtyeight.com/tag/2020-election/" class="term " name="">2020 Election</a></p>
-								
-								
-													</div>
-						<div class="share">
-							<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-269725" class="share-facebook sd-button share-icon" href="https://fivethirtyeight.com/features/sanders-and-the-media-learned-the-wrong-lessons-from-trump-in-2016/?share=facebook" target="_blank" title="Click to share on Facebook"><span>Facebook</span></a></li><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-269725" class="share-twitter sd-button share-icon" href="https://fivethirtyeight.com/features/sanders-and-the-media-learned-the-wrong-lessons-from-trump-in-2016/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="fte-email-share sd-button share-icon" href="mailto:?subject=I thought you’d like this article from FiveThirtyEight&body=https%3A%2F%2Ffivethirtyeight.com%2Ffeatures%2Fsanders-and-the-media-learned-the-wrong-lessons-from-trump-in-2016%2F?ex_cid=538email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul></div></div></div>						</div> <!-- .share -->
-					</div>
-
-				</header><!-- .post-info -->
-
-
-					
-<figure id="single-featured-image" class="single-featured-image">
-	<span class="has-bugs post-thumbnail">
-					<div class="bug-container">
-				<picture class="featured-picture">
-											<source media="(min-width: 768px)" srcset="https://fivethirtyeight.com/wp-content/uploads/2020/04/USA-ELECTION-SANDERS-4x3-1.jpg?w=575 1x, https://fivethirtyeight.com/wp-content/uploads/2020/04/USA-ELECTION-SANDERS-4x3-1.jpg?w=1150 2x">
-					
-											<source srcset="https://fivethirtyeight.com/wp-content/uploads/2020/04/USA-ELECTION-SANDERS-4x3-1.jpg?w=575 1x, https://fivethirtyeight.com/wp-content/uploads/2020/04/USA-ELECTION-SANDERS-4x3-1.jpg?w=1150 2x">
-						<img alt="USA-ELECTION-SANDERS-4&#215;3-1" src="https://fivethirtyeight.com/wp-content/uploads/2020/04/USA-ELECTION-SANDERS-4x3-1.jpg?w=575" srcset="https://fivethirtyeight.com/wp-content/uploads/2020/04/USA-ELECTION-SANDERS-4x3-1.jpg?w=575 1x, https://fivethirtyeight.com/wp-content/uploads/2020/04/USA-ELECTION-SANDERS-4x3-1.jpg?w=1150 2x" />
-									</picture>
-
-				
-			</div>
-
-		
-		
-	</span><!-- .has-bugs -->
-
-	
-				<figcaption class="caption featured-image-caption">
-													<p class="credits">Mike Segar / REUTERS</p>
-							</figcaption>
-			
-</figure><!-- .single-featured-image -->
-				
-				<div class="entry-content single-post-content">
-					<blockquote><p><i>“The [&#8230;] pitch is a mix of idealism and a shouting anger about the system, but at its heart is a hard-nosed math: He’s the only candidate with a sizable chunk of the electorate that won’t waver, no matter what, so a field that keeps growing and splitting support keeps making things easier.”</i></p></blockquote>
-<p>As I’m sure you’ve probably guessed, this passage seems like it could be about Donald Trump’s campaign for the Republican nomination in 2016<a class="espn-footnote-link" data-footnote-id="1" href="#fn-1" data-footnote-content="&lt;p&gt;Well, maybe apart from the part about &ldquo;idealism.&rdquo;&lt;/p&gt;
-"><sup id="ss-1">1</sup></a> &#8212; but it’s actually about Bernie Sanders’s quest for the Democratic nomination this year. It comes from an April 2019 <a href="https://www.theatlantic.com/politics/archive/2019/04/bernie-sanders-thinking-he-will-win-it-all-2020/587326/">feature</a> by the Atlantic’s Edward-Isaac Dovere that I consider to be a lodestar for Sanders’s strategy since it contains a lot of on-the-record reporting from Sanders campaign.<a class="espn-footnote-link" data-footnote-id="2" href="#fn-2" data-footnote-content="&lt;p&gt;Without, frankly, a lot of pushback, either from the reporter himself or from rival campaigns.&lt;/p&gt;
-"><sup id="ss-2">2</sup></a></p>
-<p>The article also reveals how the conventional wisdom about how primary campaigns have changed, in light of Trump winning the Republican nomination in 2016 and Sanders’s better-than-expected performance against Hillary Clinton that year. In particular, it reflects several common assumptions in media coverage of the race this year:</p>
-<ul>
-<li>In a divided field, the goal is to have the largest, most enthusiastic base.</li>
-<li>Reaching out to different factions of your party is not that important &#8212; and may even dilute your differentiation from the other candidates. As long as you’re winning the <i>plurality</i> of votes, you’ll win enough states and the rest of the party will eventually come around.</li>
-<li>There is no need to make peace with the party establishment. In our populist era, nominations are won from the grassroots up. Voters don’t care about things like endorsements, and “party elites” are largely feckless.</li>
-</ul>
-<p>Indeed, if you’d beamed down to Planet Earth from some alien civilization in January 2016 and only seen that year’s primaries, those might be the lessons that you’d take away about how primaries work. They’re a reasonably apt description of the GOP primary, where the Republican establishment <a href="https://fivethirtyeight.com/features/the-republican-party-may-be-failing/">belly flopped in trying to stop Trump</a>. The Democratic primary was a bit more complicated. <a href="https://fivethirtyeight.com/features/was-the-democratic-primary-a-close-call-or-a-landslide/">Clinton beat Sanders by a rather clear margin</a> in the end.<a class="espn-footnote-link" data-footnote-id="3" href="#fn-3" data-footnote-content="&lt;p&gt;Even though Sanders won a number of states in 2016 that didn&rsquo;t translate into an especially close race for &lt;a href=&quot;https://www.thegreenpapers.com/P16/D&quot;&gt;votes&lt;/a&gt; or &lt;a href=&quot;https://projects.fivethirtyeight.com/election-2016/delegate-targets/&quot;&gt;delegates&lt;/a&gt;. Furthermore, at least some of Sanders&rsquo;s success &lt;a href=&quot;https://fivethirtyeight.com/features/bernie-sanders-was-helped-by-the-neverhillary-vote-what-does-that-mean-for-his-chances-now/&quot;&gt;came from #NeverHillary voters&lt;/a&gt; who weren&rsquo;t necessarily on board with Sanders&rsquo;s platform but were just looking for some alternative to Clinton.&lt;/p&gt;
-"><sup id="ss-3">3</sup></a> Still, Sanders overperformed expectations by enough as to at least not <i>contradict</i> the notion that 2016 was the new normal.</p>
-<p>But focusing on only what happened in the most recent election is a dumb way to do analysis. The media and campaign professionals <a href="https://www.google.com/search?q=lessons+of+2016+election&amp;rlz=1C5CHFA_enUS779US779&amp;oq=lessons+of+2016+election&amp;aqs=chrome..69i57j33l6.2098j0j4&amp;sourceid=chrome&amp;ie=UTF-8">spend endless amounts of time trying to draw “lessons” from elections</a> because they are so consequential, but you can’t escape the fact that presidential elections happen only once every four years. No matter how many lessons you might try to draw from any <i>one</i> example, you’re still dealing with a sample size of one.</p>
-<p>Rather, the history of the primaries &#8212; both in terms of how the media covers them and how campaigns wage them &#8212; is often one of fighting the last war and <i>overcompensating</i> for perceived mistakes from four years earlier. I’m not claiming to be immune from this either. One of the reasons that I initially <a href="https://fivethirtyeight.com/features/how-i-acted-like-a-pundit-and-screwed-up-on-donald-trump/">bought so heavily into “The Party Decides” hypothesis</a> in 2016 &#8212; which implied that Trump’s lack of support from the Republican party establishment would eventually doom him &#8212; was because of the Republican primary in 2012, when a series of insurgent candidates (Newt Gingrich, Herman Cain, Rick Santorum) briefly <a href="https://www.realclearpolitics.com/epolls/2012/president/us/republican_presidential_nomination-1452.html">surged in the polls</a> only to eventually lose to the slow-and-steady (and establishment-backed) Mitt Romney.</p>
-<p>But Romney’s win in 2012 was in line with the longer history of the primaries, which underscores that building coalitions across the different wings of your party (Romney <a href="https://www.washingtonpost.com/politics/mitt-romney-goes-on-offensive-in-ohio/2012/09/10/9e229690-fb84-11e1-b153-218509a954e1_story.html">tried to unite conservatives and moderates</a>, for instance) is usually a good strategy for winning instead of relying on just one faction. And as you can see in the table below, the establishment usually does win out in the end:</p>
-<section class="viz">
-<header class="viz">
-<h5 class="title">The party usually does decide, after all</h5>
-<p class="subtitle">Endorsement leaders before the Iowa caucuses where no incumbent president was running for that party’s nomination, 1972 to 2020</p>
-</header>
-<table class="viz full" data-carpenter-slug="silver.endorseintro.4">
-<thead>
-<tr>
-<th class="text" colspan="1">Year</th>
-<th class="rank" colspan="1">Party</th>
-<th class="text" colspan="1">Endorsement leader before Iowa</th>
-<th class="boolean" style="text-align: center" colspan="1">Did they have a clear endorsement lead?</th>
-<th class="boolean" style="text-align: center;width: 25%" colspan="1">Did they win the nomination?</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="text">1972</td>
-<td class="rank" style="color: #0692d6">D</td>
-<td class="text">Ed Muskie</td>
-<td class="boolean" style="text-align: center">✓</td>
-<td class="boolean" style="text-align: center;width: 25%"></td>
-</tr>
-<tr>
-<td class="text">1976</td>
-<td class="rank" style="color: #0692d6">D</td>
-<td class="text">Fred Harris</td>
-<td class="boolean" style="text-align: center"></td>
-<td class="boolean" style="text-align: center;width: 25%"></td>
-</tr>
-<tr>
-<td class="text">1980</td>
-<td class="rank" style="color: #ff330e">R</td>
-<td class="text">Ronald Reagan</td>
-<td class="boolean" style="text-align: center">✓</td>
-<td class="boolean" style="text-align: center;width: 25%">✓</td>
-</tr>
-<tr>
-<td class="text">1984</td>
-<td class="rank" style="color: #0692d6">D</td>
-<td class="text">Walter Mondale</td>
-<td class="boolean" style="text-align: center">✓</td>
-<td class="boolean" style="text-align: center;width: 25%">✓</td>
-</tr>
-<tr>
-<td class="text">1988</td>
-<td class="rank" style="color: #0692d6">D</td>
-<td class="text">Dick Gephardt</td>
-<td class="boolean" style="text-align: center"></td>
-<td class="boolean" style="text-align: center;width: 25%"></td>
-</tr>
-<tr>
-<td class="text">1988</td>
-<td class="rank" style="color: #ff330e">R</td>
-<td class="text">George H.W. Bush</td>
-<td class="boolean" style="text-align: center">✓</td>
-<td class="boolean" style="text-align: center;width: 25%">✓</td>
-</tr>
-<tr>
-<td class="text">1992</td>
-<td class="rank" style="color: #0692d6">D</td>
-<td class="text">Bill Clinton</td>
-<td class="boolean" style="text-align: center">✓</td>
-<td class="boolean" style="text-align: center;width: 25%">✓</td>
-</tr>
-<tr>
-<td class="text">1996</td>
-<td class="rank" style="color: #ff330e">R</td>
-<td class="text">Bob Dole</td>
-<td class="boolean" style="text-align: center">✓</td>
-<td class="boolean" style="text-align: center;width: 25%">✓</td>
-</tr>
-<tr>
-<td class="text">2000</td>
-<td class="rank" style="color: #0692d6">D</td>
-<td class="text">Al Gore</td>
-<td class="boolean" style="text-align: center">✓</td>
-<td class="boolean" style="text-align: center;width: 25%">✓</td>
-</tr>
-<tr>
-<td class="text">2000</td>
-<td class="rank" style="color: #ff330e">R</td>
-<td class="text">George W. Bush</td>
-<td class="boolean" style="text-align: center">✓</td>
-<td class="boolean" style="text-align: center;width: 25%">✓</td>
-</tr>
-<tr>
-<td class="text">2004</td>
-<td class="rank" style="color: #0692d6">D</td>
-<td class="text">Howard Dean</td>
-<td class="boolean" style="text-align: center"></td>
-<td class="boolean" style="text-align: center;width: 25%"></td>
-</tr>
-<tr>
-<td class="text">2008</td>
-<td class="rank" style="color: #0692d6">D</td>
-<td class="text">Hillary Clinton</td>
-<td class="boolean" style="text-align: center">✓</td>
-<td class="boolean" style="text-align: center;width: 25%"></td>
-</tr>
-<tr>
-<td class="text">2008</td>
-<td class="rank" style="color: #ff330e">R</td>
-<td class="text">John McCain</td>
-<td class="boolean" style="text-align: center"></td>
-<td class="boolean" style="text-align: center;width: 25%">✓</td>
-</tr>
-<tr>
-<td class="text">2012</td>
-<td class="rank" style="color: #ff330e">R</td>
-<td class="text">Mitt Romney</td>
-<td class="boolean" style="text-align: center">✓</td>
-<td class="boolean" style="text-align: center;width: 25%">✓</td>
-</tr>
-<tr>
-<td class="text">2016</td>
-<td class="rank" style="color: #0692d6">D</td>
-<td class="text">Hillary Clinton</td>
-<td class="boolean" style="text-align: center">✓</td>
-<td class="boolean" style="text-align: center;width: 25%">✓</td>
-</tr>
-<tr>
-<td class="text">2016</td>
-<td class="rank" style="color: #ff330e">R</td>
-<td class="text">Jeb Bush</td>
-<td class="boolean" style="text-align: center"></td>
-<td class="boolean" style="text-align: center;width: 25%"></td>
-</tr>
-<tr>
-<td class="text">2020</td>
-<td class="rank" style="color: #0692d6">D</td>
-<td class="text">Joe Biden*</td>
-<td class="boolean" style="text-align: center">✓</td>
-<td class="boolean" style="text-align: center;width: 25%">✓</td>
-</tr>
-</tbody>
-</table>
-<footer class="viz">
-<p class="notes">*Biden has not been formally nominated, but is the presumptive nominee.</p>
-<p class="notes">Endorsement leaders from 1980 to 2016 are based on FiveThirtyEight’s 2016 system for calculating endorsement points. Endorsement leaders in 1972 and 1976 are based on “The Party Decides.”</p>
-<p class="source">Sources: “The Party Decides,” News accounts</p>
-</footer>
-</section>
-<p>Of course, a result like Romney’s win in 2012 that <i>confirms</i> your theories and priors can create its own issues &#8212; it can make you overconfident. You may mistakenly assume, for instance, that something is true 100 percent of the time when it’s actually only true, say, 80 percent of the time.</p>
-<p>But while overconfidence is a serious problem, it’s probably better than assuming that an <i>abnormal</i> result (say, something that is true 20 percent of the time) is the new normal. You can see lots of this upside-down thinking in media coverage of elections since 2016. Because Trump won the general election as a (<a href="https://projects.fivethirtyeight.com/2016-election-forecast/">modest</a>) underdog in 2016, a lot have inferred that underdogs not only can win, but that they <i>usually</i> win. Before the Virginia gubernatorial election in 2017, for instance, <a href="https://www.msnbc.com/morning-joe/watch/will-gillespie-take-virginia-the-panel-debates-1089389635650">a lot of pundits predicted Republican Ed Gillespie would win</a> despite being narrowly <i>behind</i> Democrat Ralph Northam in the polls. Northam won by 9 points instead.</p>
-<p>It’s not just the media who makes these mistakes, however. It’s also the campaigns themselves. So while I don’t intend to do a long post-mortem of the Sanders campaign &#8212; instead, see my <a href="https://fivethirtyeight.com/features/did-sanders-blow-it-for-the-democratic-left-or-was-the-nomination-always-out-of-reach/">colleague Perry Bacon Jr.’s comprehensive analysis on what went wrong and why</a> &#8212; I do want to take a quick inventory of the ways that the 2020 Democratic primary was different from the Republican primary in 2016.</p>
-<p>Most of these problems were fairly predictable and known in advance. To ensure you that I’m not engaging in <i>too</i> much hindsight bias &#8212; because it’s always easier to say what went wrong with campaigns once you know who won and who lost &#8212; I’d point you toward this <a href="https://fivethirtyeight.com/features/bernie-sanders-can-win-but-he-isnt-polling-like-a-favorite/">cautiously pessimistic take on Sanders from April 2019</a> and this <a href="https://fivethirtyeight.com/features/sanders-might-have-a-ceiling-but-there-are-still-several-ways-he-could-win/">cautiously optimistic one from just after the New Hampshire primary</a>, which reflects how my thinking about the Sanders’s campaign evolved as it was happening in real-time. I started out thinking that Sanders’s factional, us-versus-them, screw-the-establishment strategy was a poor one. But it seemed to be going about as well as it possibly could after New Hampshire with the rest of the field divided.</p>
-<p>So here are some potential flaws in Sanders’s strategy &#8212; and reasons why the precedent set by Trump’s win in 2016 might not have applied to his chances this year:</p>
-<p><b>First, Democratic primaries and caucuses do not use winner-take-all rules, while many Republican states do.</b> That makes it much harder for someone to be in a commanding position by narrowly winning primaries. Instead, in a multi-candidate race, you have to eventually broaden your coalition to avoid a contested convention.</p>
-<p>In consideration of this, some elements of Sanders’s strategy simply never made a lot of sense. Here’s another key passage from <a href="https://www.theatlantic.com/politics/archive/2019/04/bernie-sanders-thinking-he-will-win-it-all-2020/587326/">that Atlantic article</a>:</p>
-<blockquote><p><i>He’s counting on winning Iowa and New Hampshire, where he was already surprisingly strong in 2016, and hoping that Cory Booker and Kamala Harris will split the black electorate in South Carolina and give him a path to slip through there, too. And then, Sanders aides believe, he’ll easily win enough delegates to put him into contention at the convention. They say they don’t need him to get more than 30 percent to make that happen.</i></p></blockquote>
-<p>Sanders’s campaign was right that it could win around 30 percent of the vote with their base and that they could win early states with that amount &#8230; but it never really had a plan for what came after that. Dovere’s article makes it sound as though Sanders was actually counting on a contested convention, an awfully risky approach given that contested conventions are: (i) highly unpredictable and (ii) not likely to be favorable terrain for Sanders, given his lack of support from the establishment and that <a href="https://www.270towin.com/content/superdelegate-rule-changes-for-the-2020-democratic-nomination">superdelegates would be allowed to vote on the second and subsequent ballots</a>.</p>
-<p><b>Second, Trump’s ideological ambiguity may have helped him in 2016, while Sanders got stuck in a “lane” this year.</b> Trump may not have done that much <i>traditional</i> outreach to different parts of the GOP, but Republican voters from several wings of the party, perhaps not being quite sure what to make of a candidate like Trump who was reactionary on some issues (say, <a href="https://fivethirtyeight.com/features/why-polls-showing-daca-as-popular-even-among-republicans-dont-tell-the-whole-story/">immigration</a>) and quite moderate on others (say, <a href="https://www.nytimes.com/2019/06/01/us/politics/trump-lgbt-rights.html">gay marriage</a>), were nonetheless Trump-curious. And that range of appeal was reflected in the primary results. In the Michigan Republican primary for instance, Trump <a href="https://www.cnn.com/election/2016/primaries/polls/mi/Rep">won the support</a> of 35 percent of “very conservative” voters, 37 percent of “somewhat conservative” voters and 37 percent of moderate voters, according to exit polls.</p>
-<p>By contrast Sanders ran <a href="https://www.thenation.com/article/politics/sanders-intersectionality-working-class/">further to the left in 2020 than he did in 2016</a>, with a message that shifted from economic populism to a broader and more “intersectional” leftism. This shift was reflected at the ballot box, too. For instance, Sanders <a href="https://www.cnn.com/election/2020/entrance-and-exit-polls/michigan/democratic">won just 24 percent of moderates in the Michigan Democratic primary this year</a> (but 63 percent of “very liberal” voters) &#8212; as compared <a href="https://www.cnn.com/election/2016/primaries/polls/mi/dem">44 percent of moderates</a> and 59 percent of “very liberal” voters in 2016.</p>
-<p><b>Third, the importance that Democratic voters attached to “electability” and to beating Trump may have made them more willing to take cues from the establishment</b>. Electability is a whole subject unto itself that I’m not going to do justice to here. I do think electability may be a <a href="https://twitter.com/NateSilver538/status/1246943229121093632?s=20">teensy, tiny bit overrated</a> as a reason for why Sanders lost. While perceptions of electability probably hurt Sanders relative to Joe Biden, it also probably <i>helped</i> him relative to candidates who weren’t white men: <a href="https://fivethirtyeight.com/features/why-people-keep-asking-elizabeth-warren-whether-she-can-win/">most notably, Elizabeth Warren</a>.</p>
-<p>Still, electability was important. In that Michigan exit poll, 58 percent of Democratic voters said they preferred a candidate that could beat Trump to someone who agreed with them on the issues &#8212; and 62 percent of the “beat Trump” voters went for Biden.</p>
-<p><b>Fourth, Democratic party elites had an opportunity to learn from Republicans in 2016, and this may have made them more aggressive in backing Biden after South Carolina. </b>One reason to be careful of declaring a “new normal” in any trend involving human behavior is that humans have an opportunity to learn from what happened last time and change course. The establishment’s failures in 2016 may have made partly elites reluctant to weigh in early on in the race this time around. But once they perceived Sanders as the true front-runner after Nevada, and Biden began to gain a little bit of momentum as <a href="https://projects.fivethirtyeight.com/polls/president-primary-d/south-carolina/">he surged to a lead in South Carolina polls</a>, party elites <a href="https://projects.fivethirtyeight.com/2020-endorsements/democratic-primary/">got behind Biden at extremely rapid rates</a>. It’s hard to know if this would have played out the same way if there wasn’t 2016 to learn from.</p>
-<p><b>Fifth, Trump’s success in 2016 may have reflected an unusually weak field of alternatives rather than a new paradigm. </b>I’m not going to spend much time on this one, because it’s rather subjective. Were Warren, Biden, Pete Buttigieg, Kamala Harris, etc. better candidates than Ted Cruz, Marco Rubio, Jeb Bush, John Kasich, etc.? I don’t know. But Democratic voters were certainly <a href="https://news.gallup.com/poll/284360/democrats-viewed-divided-satisfied-candidates.aspx">much happier with their field of candidates in 2020</a> than Republicans were with theirs in 2016, which is some indication that the field might have been stronger.</p>
-<p><b>Sixth, Democrats are a more racially-diverse party, which makes coalition building more essential than it is among Republicans.</b> Sanders didn’t do badly with nonwhite voters &#8212; winning Nevada <a href="https://fivethirtyeight.com/features/bernie-sanders-wins-nevada-putting-him-in-the-drivers-seat-to-win-the-nomination/">largely on the basis of Hispanic support</a> while also winning the support of many younger black voters. That definitely made him a more plausible nominee than Buttigieg, whose support was <a href="https://fivethirtyeight.com/features/buttigiegs-centrist-pivot-may-be-winning-him-a-new-base/">extremely white</a>, for example. Still, nonwhite support wasn’t a strength for Sanders in a head-to-head race against Biden, who <a href="https://projects.economist.com/democratic-primaries-2020/">generally beat Sanders by wide margins among black voters</a> and <a href="https://fivethirtyeight.com/features/why-sanders-may-start-losing-more-latino-voters-to-biden/">held his own among Hispanics</a> in many states. And Sanders’s outreach to African American leaders <a href="https://www.politico.com/news/2020/03/10/bernie-sanders-black-voters-124773">didn’t always go smoothly</a>, with many members of the Congressional Black Caucus backing Biden instead.</p>
-<p><b>Seventh, relying on a fixed base of voters can leave you vulnerable to a turnout surge from other candidates. </b>One rather explicit assumption made by the Sanders campaign was that it could turn out more voters than its opponents. Hence, the campaign believed there was <a href="https://twitter.com/NateSilver538/status/1227038583875194880?s=20">not much need to widen their circle to include others</a>. Even their outreach efforts to Sanders-skeptical party leaders focused on trying to <a href="https://www.theatlantic.com/politics/archive/2019/04/bernie-sanders-thinking-he-will-win-it-all-2020/587326/">browbeat them into explaining why they <i>didn’t</i> support Sanders</a> rather than explaining why they <i>should</i> support him. Again, from that Atlantic article:</p>
-<blockquote><p><em>That’s the case Sanders and his aides have been making as they’ve undertaken an outreach effort unlike anything from the last campaign, spending hours on phone calls trying to talk political leaders down from being completely opposed to him. They have a basic script: Start out asking where the support for Sanders is among their constituents, then ask why they think those people support him, and then ask the leaders to explain their own skepticism.</em></p></blockquote>
-<p>One problem with this attitude is that turnout in an election isn’t fixed &#8212; especially in primaries and caucuses where participation is low. You may turn out a certain number of people, but your base will not be constant as a <i>percentage</i> of the electorate if turnout goes up. In Michigan, for example, Sanders got nearly as many votes in 2020 (576,754) as in 2016 (599,000). But Biden got 838,555 votes in 2020, as compared to just 581,775 for Clinton in 2016 &#8212; part of a <a href="https://www.vox.com/2020/3/9/21169367/joe-biden-electability-democratic-primary-bernie-sanders-donald-trump">general pattern where turnout surged more in Biden’s best areas</a>. So Sanders went from narrowly winning Michigan to losing it by 17 percentage points.</p>
-<p>Perhaps Sanders was a victim of his own success in 2016. That is, he did such a good job of turning out voters in 2016 that it was hard to <i>improve</i> on his performance in 2020. Still, there was never really any recognition that his base alone might not be enough to win &#8212; and there were never many efforts to expand beyond his base. Indeed, it’s interesting that Sanders <i>doubled down even more</i> on his screw-the-establishment messaging amidst his success in the first three states &#8212; rather than trying to pivot to a more inclusive campaign and unify the party behind him.</p>
-<div class="non-jetpack-embed ">
-<blockquote class="twitter-tweet" data-width="550" data-dnt="true">
-<p lang="en" dir="ltr">I&#39;ve got news for the Republican establishment. I&#39;ve got news for the Democratic establishment. They can&#39;t stop us.</p>
-<p>&mdash; Bernie Sanders (@BernieSanders) <a href="https://twitter.com/BernieSanders/status/1231021453270769664?ref_src=twsrc%5Etfw">February 22, 2020</a></p></blockquote>
-<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-<p>Maybe, if a few things had gone differently, it would have worked. Sanders did outlast more than two dozen other candidates, after all. Maybe if Michael Bloomberg hadn’t qualified for the Nevada debate and stumbled so badly there, moderate support would have remained divided between Bloomberg and Biden, and Sanders would have had a lot more wins on Super Tuesday. Maybe Sanders’s <a href="https://www.nytimes.com/2020/02/24/us/bernie-sanders-fidel-castro-florida.html">“60 Minutes” interview hurt him</a>. Maybe he could have gotten Warren to endorse him. Who knows.</p>
-<p>But the Sanders campaign was always pursuing a strategy that claimed to defy the odds, that assumed the old rules no longer applied, and that stuck its thumb in the eye of the establishment. It would have been remarkable if it had succeeded. But it’s no surprise that it didn’t.</p>
-				</div><!-- .entry-content -->
-			</article>
-
-			<div class="entry-footnotes print-only">
-	<h2>Footnotes</h2>
-	<div class="entry-footnotes-content">
-		<ol class="footnotes"><li data-wrap="false" data-footnote-id="1" id="fn-1"><span><p>Well, maybe apart from the part about “idealism.”</p>
-</span></li><li data-wrap="false" data-footnote-id="2" id="fn-2"><span><p>Without, frankly, a lot of pushback, either from the reporter himself or from rival campaigns.</p>
-</span></li><li data-wrap="false" data-footnote-id="3" id="fn-3"><span><p>Even though Sanders won a number of states in 2016 that didn’t translate into an especially close race for <a href="https://www.thegreenpapers.com/P16/D">votes</a> or <a href="https://projects.fivethirtyeight.com/election-2016/delegate-targets/">delegates</a>. Furthermore, at least some of Sanders’s success <a href="https://fivethirtyeight.com/features/bernie-sanders-was-helped-by-the-neverhillary-vote-what-does-that-mean-for-his-chances-now/">came from #NeverHillary voters</a> who weren’t necessarily on board with Sanders’s platform but were just looking for some alternative to Clinton.</p>
-</span></li></ol>	</div><!-- .entry-footnotes-content -->
-</div><!-- .entry-footnotes -->
-<div class="mini-bio">
-		<p>Nate Silver is the founder and editor in chief of FiveThirtyEight. <span class="mail"><a href="mailto:nrsilver@fivethirtyeight.com"><i class="icon icon-mail"></i></a></span> <span class="twitter"><a href="https://twitter.com/natesilver538" target="_blank"><i class="icon icon-twitter"></i> <span class="twitter-username">@natesilver538</span></a></span></p>
+<div class="ie-popup">
+    <div class="ie-popup-inner">
+    <p>Looks like you’re using a browser we don’t support.</p>
+      <div class="ie-popup-strike"></div>
+      <div><p>
+      To improve your visit to our site, take a minute and
+      <a href="https://browsehappy.com/" target=_blank>upgrade your browser.</a>
+     </p> </div>
+    </div>
 </div>
-<!-- .post-author -->
-<div id="entry-comments" class="fte-expandable">
-	<h3 class="fte-expandable-title">Comments</h3>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMWSH2N"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="pwPopups"></div>
+    <div id="app-root"><div data-reactroot="" data-reactid="1" data-react-checksum="-1523986014"><!-- react-empty: 2 --><header class="page-header" data-reactid="3"><div class="sticky-nav-container" data-reactid="4"><nav class="nav-drawer" id="nav-drawer" data-reactid="5"><div class="nav-drawer-inner" data-reactid="6"><div class="nav-drawer-icons" data-reactid="7"><div class="nav-drawer-ship" data-reactid="8"><a class="" href="/" data-reactid="9"><div class="svg-wrapper svg-wrapper-monogram" data-reactid="10"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 445.85 160.76" data-reactid="11"><path d="M424.4 143.6l-43.13-63.22c-6.55 4.07-19.42 5.62-27.55 5.62-13.54 0-25.74-3.16-36.8-12v-.23C395.27 80.16 414 60.51 414 35.45 414 7.22 383.53 0 340.18 0h-107v.9c14.29 1.41 42.78 18 54.55 50.48a73.63 73.63 0 013.12 17.44v35L200.92 0H11.71L0 72.71h.9C17.61 31.16 35.45 1.13 68 1.13V114.7c0 30.48-2.25 41.55-27.09 45.16v.9H224v-.9c-14.63-1.44-44.11-18.8-55.34-52.83a74.9 74.9 0 01-2.27-14.41V36.46l106.39 124.3h41.92v-.9c-12.89-2.94-18.25-10.9-19.8-30.24v-52.4c0-40.12 5.71-65.32 18.33-73.5a13.69 13.69 0 017.45-2.14H328c25.52 0 34.78 16 34.78 35.22S353.5 73.16 328 72.7l-13.77-.22 59.84 88.28h71.8v-.9c-9.28-2.03-13.8-4.97-21.47-16.26zM162.31 83.54c0 33.38-4 56.41-12.55 67.92a16.29 16.29 0 01-5.6 5.4h-.06a12.88 12.88 0 01-9.77 1.25 15 15 0 01-9.77-6.69q-.48-.72-1-1.41c-5.2-7-5.93-18-5.93-35.35V1.13h.27a40.32 40.32 0 0130.37 14.27l9.55 11.18a18.73 18.73 0 014.49 12.17z" data-reactid="12"></path></svg></div></a></div><div class="nav-btn nav-btn-close" data-reactid="13"><a href="#" data-reactid="14"><span class="nav-icon-label" data-reactid="15">Close</span><div class="nav-icon icon-close" data-reactid="16"></div></a></div></div><div class="navbar-search" data-reactid="17"><form action="true" data-reactid="18"><input type="search" name="search" class="search-input" placeholder="Search..." id="navbar-search-input" data-reactid="19"/></form></div><ul class="nav nav-drawer-nav" data-reactid="20"><li class="nav-item" data-reactid="21"><a class="nav-link" href="/latest" data-reactid="22">Latest</a></li><li class="nav-item" data-reactid="23"><a class="nav-link" href="/tags/politics" data-reactid="24">Politics</a></li><li class="nav-item" data-reactid="25"><a class="nav-link" href="/tags/culture" data-reactid="26">Culture</a></li><li class="nav-item" data-reactid="27"><a class="nav-link" href="/magazine" data-reactid="28">Magazine</a></li><li class="nav-item" data-reactid="29"><a class="nav-link" href="/tags/climate-change" data-reactid="30">Climate</a></li><li class="nav-item" data-reactid="31"><a class="nav-link" href="/tags/books" data-reactid="32">Books</a></li><li class="nav-item" data-reactid="33"><a class="nav-link" href="/tags/photography" data-reactid="34">Photography</a></li><li class="nav-item" data-reactid="35"><a class="nav-link newsletter" href="https://mailchi.mp/61665a30a33b/tnrdaily" target="_blank" data-reactid="36">Newsletter</a></li><li class="nav-item" data-reactid="37"><a class="nav-link subscribe" href="https://tnr-reg.onecount.net/onecount/form/display.php?id=65b62084-2a9e-41e3-a826-9069eec96f50&amp;src_code=59" data-reactid="38">Subscribe</a></li><li class="nav-item" data-reactid="39"><a class="nav-link subscribe" href="https://w1.buysub.com/pubs/N2/NRD/Fund_eBlast.jsp?cds_page_id=242949&amp;cds_mag_code=NRD&amp;id=1582299208798&amp;lsid=30520933287016214&amp;vid=1&amp;cds_response_key=E9KNLFTR" target="_blank" data-reactid="40">Donate</a></li></ul><ul class="nav nav-drawer-subnav" data-reactid="41"><li class="subnav-item" data-reactid="42"><a class="" href="/pages/about" data-reactid="43">About</a></li><li class="subnav-item" data-reactid="44"><a href="http://advertise.newrepublic.com" target="_blank" data-reactid="45">Advertise</a></li><li class="subnav-item" data-reactid="46"><a class="" href="/pages/contact" data-reactid="47">Contact</a></li><li class="subnav-item" data-reactid="48"><a class="nav-link" href="/tags/press-release" data-reactid="49">Press</a></li><li class="subnav-item" data-reactid="50"><a href="/pages/about#jobs" data-reactid="51">Jobs</a></li><li class="subnav-item" data-reactid="52"><a class="" href="/pages/rss" data-reactid="53">RSS</a></li><li class="subnav-item" data-reactid="54"><a class="" href="/pages/people" data-reactid="55">Masthead</a></li><li class="subnav-item" data-reactid="56"><a class="" href="/pages/privacy" data-reactid="57">Privacy</a></li><li class="subnav-item" data-reactid="58"><a class="" href="/pages/subscriber-services" data-reactid="59">Subscriber Services</a></li></ul></div></nav><div class="sticky-nav-inner" data-reactid="60"><div class="sticky-nav-left" data-reactid="61"><a class="nav-btn nav-btn-open" href="#" data-reactid="62"><span class="nav-icon-label" data-reactid="63">Menu</span><div class="nav-icon icon-menu" data-reactid="64"><span data-reactid="65"></span><span data-reactid="66"></span><span data-reactid="67"></span></div></a></div><div class="sticky-nav-logo" data-reactid="68"><a title="The New Republic" class="sticky-nav-logo-link" href="/" data-reactid="69"><div class="logo" data-reactid="70"><div class="svg-wrapper svg-wrapper-logo" data-reactid="71"><svg class="svg-one-line-wordmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1785.2 127" data-reactid="72"><path d="M86.6 6.7H8.3L0 58.4h.6C12.5 28.9 25.2 7.5 48.3 7.5v80.8c0 21.7-1.6 29.6-19.3 32.1v.6h73.9v-.6c-17.7-2.6-19.3-10.4-19.3-32.1V7.5c23.1 0 35.8 21.4 47.7 50.9h.6l-8.3-51.7h-37z" data-reactid="73"></path><path d="M268.8 7.4v-.7h-64.2v.7C215.8 9.9 219 17.8 219 39.5v20.7h-43.4V39.5c0-21.7 3.2-29.5 14.5-32.1v-.7h-64.2v.7c11.2 2.6 14.5 10.4 14.5 32.1v48.8c0 21.7-3.2 29.6-14.4 32.1v.6h64.2v-.6c-11.2-2.6-14.5-10.4-14.5-32.1V63H219v25.3c0 21.7-3.2 29.6-14.5 32.1v.6h64.2v-.6c-11.2-2.6-14.4-10.4-14.4-32.1V39.5c0-21.7 3.2-29.6 14.5-32.1zM395.5 69.4c-12.2 29.6-53.3 50.9-74.8 50.9V62.5v.5h57.6V60.1h-57.6v.7V7.5c21.5 0 51.9 21.4 63.8 50.9h.6l-7.9-51.7H270.9v.7c11.2 2.6 14.5 10.4 14.5 32.1v48.8c0 21.7-3.2 29.6-14.5 32.1v.6h106.3l19.1-51.7h-.8zM479.4 6.7v.7c10 1 29.9 12.5 38.5 35 1.7 4.6 2.6 9.5 2.6 14.4v23.8l-64-73.9h-46.2v.7l18.8 22v38c-.1 33.3-5.9 51.8-18.8 53.1v.6h62.6v-.6c-10-1-29.9-12.5-38.4-34.9-1.7-4.6-2.6-9.5-2.6-14.4V32.6l75.7 88.4h15.7V58.4c.4-32 6.2-49.8 18.8-51.1v-.6h-62.7zM652.5 6.7v.7c8.2 1.1 11.9 3.7 15.2 11.2l50 106.5h.8L736 86.9l13.6-29.5 29.2 67.7h.6l19.2-42.6 21.5-46.8c9.8-18.1 19.8-27.7 27.8-28.4v-.6H652.5zM708.1 22c-4.7-10.9-4.7-14.3 7.1-14.3 9.8 0 14.6 3.4 17.8 10.9l15.1 35.1-13.6 29.5L708.1 22zM811 48.6l-15.2 33L773.1 22c-4.1-10.9-5.5-14.3 6.3-14.3 11.2 0 24.2 6.3 30.5 16.8 4.3 7.4 4.7 16.4 1.1 24.1zM668.7 69.4c-12.2 29.6-53.3 50.9-74.8 50.9V63h57.7V60.1h-57.7V7.5c21.5 0 51.9 21.4 63.8 50.9h.7l-7.9-51.7H544.1v.7c11.2 2.6 14.5 10.4 14.5 32.1v48.8c0 21.7-3.2 29.6-14.5 32.1v.6h106.3l19.1-51.7-.8.1zM1186.1 120.4v.6h-67.4v-.6c11.2-2.6 14.4-10.4 14.4-32.1V39.5c0-21.7-3.2-29.5-14.4-32.1v-.6h57.7c34.2 0 60.4 3.7 60.4 32.3 0 30.3-36.3 34.7-66.8 32.3v-.7c22-.8 30.5-11.7 30.5-31.5 0-20.2-8.8-31.5-32-31.6v80.8c-.1 21.6.9 29.5 17.6 32zM1533.4 120.3c21.5 0 46.2-20.7 60.2-75h1.1l-3.5 75.8h-107.6v-.6c11.2-2.6 14.5-10.4 14.5-32.1V39.5c0-21.7-3.2-29.5-14.5-32.1v-.6h64.2v.6c-11.2 2.6-14.4 10.4-14.4 32.1v80.8zM1662.4 7.4c-11.2 2.6-14.4 10.4-14.4 32.1v48.8c0 21.7 3.2 29.6 14.4 32.1v.6h-64.2v-.6c11.2-2.6 14.5-10.4 14.5-32.1V39.5c0-21.7-3.2-29.5-14.5-32.1v-.6h64.2v.6z" data-reactid="74"></path><path d="M1727.7 3.8c17.3 0 29.1 9 35.7 9 7.1 0 8-5.8 8.5-12.9h.8l12.5 60.2h-.8C1775.1 34.7 1757 5 1727.7 5c-17.8 0-28.6 26.2-28.6 58.6s10.8 58.5 28.6 58.5c29.2 0 47.4-29.7 56.7-55.2h.8l-12.5 60.2h-.8c-.5-7.1-1.4-12.8-8.5-12.8-6.6 0-18.3 9-35.7 9-38.6 0-68.3-23.1-68.3-59.6s29.8-59.9 68.3-59.9zM1124.2 69.4c-12.2 29.5-53.3 50.9-74.8 50.9V63.1h57.7V60.3h-57.6V7.6c21.5 0 51.9 21.4 63.8 50.9h.7l-7.9-51.7H999.6v.6c11.2 2.6 14.4 10.4 14.4 32.1v48.8c0 18.7-2.4 27.2-10.3 30.8-1 .4-2 .4-3 0-3.9-1.6-6.7-4.3-10.8-10.2l-30.7-45c-4.7 2.9-13.8 4-19.6 4-9.6 0-18.3-2.2-26.2-8.5v-.2c55.7 4.5 69.1-9.5 69.1-27.3 0-20.1-21.7-25.2-52.5-25.2h-70.3v.6c11.2 2.6 14.5 10.4 14.5 32.1v48.9c0 21.7-3.2 29.6-14.5 32.1v.6h64.2v-.6c-11.2-2.6-14.5-10.4-14.5-32.1V7.9h11.9c18.2 0 24.7 11.4 24.7 25s-6.6 25.9-24.7 25.5l-9.8-.2 42.6 62.8h151.8l19.1-51.7h-.8zM1440.4 60.9v-.3c26.3-3 41.9-13.2 41.9-28.6 0-14.1-12.8-25.2-48.3-25.2h-128.9v.6c11 .9 26.7 12.1 35.6 28.2 3.6 8.1 5.4 16.8 5.4 25.7v6.9c0 15.2-3.2 27.7-9.4 36-5.8 7.9-14.2 12-24.4 12h-2.3c-6.1 0-12-2.3-16.4-6.6-7-7.3-10.8-19.5-10.8-35.7v-51c0-12 4.3-13.8 13.3-15.4v-.7H1232v.6c9.5 1.6 13.2 3.4 14.1 11.1 1 8.8 1.5 17.6 1.4 26.5v30.8c0 24.1 10.4 47.7 51.2 47.7 17.8 0 30-5.6 37.9-14.9 7.9-8.7 12.3-22.6 12.3-40.5v-6.9-2.4c.2-25.7 5.3-47.2 16.4-50.9.7-.2 1.4-.3 2.1-.3h.6c.8 0 1.6.1 2.3.4 9.6 3 12.5 11.2 12.5 31.6v48.8c0 21.7-3.2 29.6-14.4 32.1v.6h71.6c30.7 0 49.8-10.6 49.8-31.2 0-24.2-26.4-28.7-49.4-29zm-22.3-53h6.9c14.5 0 21.4 9 21.4 26.3s-6.9 27-21.4 27h-6.9V7.9zm6.8 112.1h-6.8V62.3h6.8c15.7 0 27.9 7.7 27.9 29.1s-12.2 28.6-27.9 28.6z" data-reactid="75"></path></svg></div><div class="svg-wrapper svg-wrapper-logo-stacked" data-reactid="76"><svg class="svg-two-line-wordmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1301.5 347" data-reactid="77"><path d="M171.4 0H61.3L49.6 72.7h.9C67.2 31.2 85.1 1.1 117.6 1.1v113.6c0 30.5-2.3 41.6-27.1 45.2v.9h103.9v-.9c-24.8-3.6-27.1-14.7-27.1-45.2V1.1c32.5 0 50.4 30 67.1 71.6h.9L223.5 0h-52.1zM459 337.8v.9h-94.8v-.9c15.8-3.6 20.3-14.7 20.3-45.2V224c0-30.5-4.5-41.6-20.3-45.2v-.9h81.1c48.1 0 84.9 5.2 84.9 45.4 0 42.7-51 48.8-94 45.4v-.9c30.9-1.1 42.9-16.5 42.9-44.3 0-28.4-12.4-44.3-44.9-44.5v113.5c0 30.6 1.3 41.6 24.8 45.3zM947.4 337.5c30.3 0 65-29.1 84.7-105.5h1.6l-5 106.6H877.3v-.9c15.8-3.6 20.3-14.7 20.3-45.2V224c0-30.5-4.5-41.6-20.3-45.2v-.9h90.3v.9c-15.8 3.6-20.3 14.7-20.3 45.2v113.5zM1128.7 178.8c-15.8 3.6-20.3 14.7-20.3 45.2v68.7c0 30.5 4.5 41.5 20.3 45.2v.9h-90.3v-.9c15.8-3.6 20.3-14.7 20.3-45.2V224c0-30.5-4.5-41.6-20.3-45.2v-.9h90.3v.9z" data-reactid="78"></path><path d="M1220.6 173.8c24.4 0 40.9 12.6 50.1 12.6 9.9 0 11.3-8.1 12-18.1h1.1l17.6 84.7h-1.1c-13.1-35.9-38.6-77.7-79.7-77.7-25.1 0-40.2 36.8-40.2 82.4s15.1 82.2 40.2 82.2c41.1 0 66.6-41.8 79.7-77.7h1.1l-17.6 84.7h-1.1c-.7-9.9-2-18.1-12-18.1-9.3 0-25.7 12.6-50.1 12.6-54.2 0-96-32.5-96-83.8s41.8-83.8 96-83.8zM427.5.9V0h-90.3v.9c15.8 3.6 20.3 14.7 20.3 45.2v29.1h-61V46.1c0-30.5 4.5-41.5 20.3-45.2V0h-90.3v.9c15.8 3.6 20.3 14.7 20.3 45.2v68.7c0 30.5-4.5 41.5-20.3 45.2v.9h90.3v-.9c-15.8-3.6-20.3-14.7-20.3-45.2V79.2h61v35.6c0 30.5-4.5 41.6-20.3 45.2v.9h90.3v-.9c-15.8-3.6-20.3-14.7-20.3-45.2V46.1c0-30.5 4.5-41.6 20.3-45.2zM605.7 88.1c-17.2 41.6-75 71.6-105.2 71.6V78.4v.8h81.1V75.2h-81.1v.9-75c30.3 0 72.9 30 89.7 71.6h.9L580 0H430.5v.9c15.8 3.6 20.3 14.7 20.3 45.2v68.7c0 30.5-4.5 41.5-20.3 45.2v.9H580l26.9-72.7-1.2-.1zM723.7 0v.9c14.1 1.4 42 17.5 54.1 49.2 2.4 6.5 3.6 13.3 3.6 20.2v33.5L691.4 0h-65v.9l26.4 30.9v53.4c-.2 46.8-8.3 72.9-26.4 74.7v.9h88.1v-.9c-14.1-1.4-42-17.5-54-49.1-2.4-6.5-3.7-13.3-3.6-20.2V36.4l106.3 124.4h22.1V72.7c.5-45 8.7-70.1 26.4-71.8V0h-88zM967.2 0v.9c11.5 1.6 16.7 5.2 21.5 15.8l70.2 149.7h1.2l24.5-53.6 19.1-41.6 41.1 95.2h.9l27-59.9 30.2-65.8c13.7-25.4 27.9-38.9 39-39.9V0H967.2zm78.1 21.5c-6.6-15.4-6.6-20.1 9.9-20.1 13.8 0 20.6 4.7 25.1 15.4l21.3 49.4-19.1 41.5-37.2-86.2zM1190 58.8l-21.3 46.4-32-83.8c-5.9-15.4-7.7-20.1 8.8-20.1 15.7 0 34 8.8 42.9 23.7 6.1 10.3 6.7 23 1.6 33.8zM371.9 266c-17.2 41.5-75 71.6-105.2 71.6v-80.5h81.1v-4h-81.1V179c30.3 0 73 30 89.7 71.6h.9l-11.1-72.7H196.7v.9c15.8 3.6 20.3 14.7 20.3 45.2v68.6c0 26.4-3.4 38.2-14.5 43.2-1.4.6-2.9.6-4.2 0-5.4-2.2-9.4-6-15.1-14.4L140 258.3c-6.6 4.1-19.4 5.6-27.6 5.6-13.6 0-25.7-3.2-36.8-12v-.2c78.4 6.3 97.1-13.3 97.1-38.4 0-28.2-30.5-35.4-73.8-35.4H0v.9c15.8 3.6 20.3 14.7 20.3 45.2v68.7c0 30.5-4.5 41.5-20.3 45.2v.9h90.3v-.9C74.5 334.1 70 323.1 70 292.6V179.5h16.7c25.5 0 34.8 16 34.8 35.2s-9.3 36.4-34.8 35.9l-13.8-.2 59.9 88.3h213.4l26.9-72.7h-1.2zM990 88.1c-17.2 41.6-75 71.6-105.2 71.6V79.2h81.1V75.2h-81.1v-74c30.3 0 72.9 30 89.7 71.6h.9L964.2 0H814.7v.9C830.5 4.5 835 15.6 835 46.1v68.7c0 30.5-4.5 41.5-20.3 45.2v.9h149.5L991 88.1h-1zM816.7 254v-.4c37-4.3 58.9-18.5 58.9-40.2 0-19.9-18.1-35.4-68-35.4H626.3v.9c15.5 1.2 37.5 17 50.1 39.6 5 11.4 7.6 23.6 7.7 36.1v9.7c0 21.4-4.5 38.9-13.2 50.6-8.2 11.1-20 16.9-34.3 16.9h-3.3c-9.2-.2-17-3.4-23-9.2-9.8-10.2-15.2-27.4-15.2-50.2v-71.8c0-16.9 6.1-19.4 18.8-21.7v-.9h-90.4v.9c13.3 2.3 18.5 4.7 19.9 15.6 1.4 12.4 2 24.8 2 37.3V275c0 33.9 14.7 67.1 72 67.1 25 0 42.2-7.9 53.3-20.9 11.1-12.2 17.2-31.7 17.2-57v-9.7c0-1.1 0-2.2-.1-3.3.3-35.6 7.3-65.4 22.3-71.3 1.2-.5 2.6-.7 3.9-.8h.1c1.5 0 2.9.2 4.3.7 13.1 4.4 17 16 17 44.2v68.6c0 30.5-4.5 41.5-20.3 45.2v.9H816c43.1 0 70-14.9 70-43.8 0-34.1-37-40.5-69.3-40.9zm-31.4-74.5h9.7c20.3 0 30 12.6 30 37s-9.7 37.9-30 37.9h-9.7v-74.9zm9.4 157.6h-9.5V256h9.5c22.1 0 39.3 10.8 39.3 40.9s-17.1 40.2-39.3 40.2z" data-reactid="79"></path></svg></div></div></a></div><div class="sticky-nav-right" data-reactid="80"><a class="" href="/magazine" data-reactid="81">Magazine</a><a class="subscribe" href="https://tnr-reg.onecount.net/onecount/form/display.php?id=65b62084-2a9e-41e3-a826-9069eec96f50&amp;src_code=347" data-reactid="82">Subscribe</a><a id="loginStatusText" class="sticky-nav-right" href="#" data-reactid="83">Sign In</a></div></div></div></header><main class="main-content" data-reactid="84"><div class="content" data-reactid="85"><!-- react-empty: 86 --><div id="article-top-ad-unit" class="ad-unit" data-reactid="87"><div class="htl-ad" data-eager="true" data-refresh="auto" data-sizes="0x0:320x50|900x0:728x90,970x250,970x90|1024x0:728x90,970x250,970x90" data-unit="top-ad-unit" data-prebid="
+    0x0:top-ad-unit-mobile|900x0:top-ad-unit-tablet|1024x0:top-ad-unit-desktop
+    " data-reactid="88"></div></div><div class="article-container-first regular" data-reactid="89"><div class="article-container default" id="article-153590" data-reactid="90"><div class="" data-reactid="91"><!-- react-text: 92 --><!-- /react-text --><article class="article" itemscope="" itemtype="http://schema.org/Article" data-reactid="93"><!-- react-text: 94 --><!-- /react-text --><header class="article-header-wrap" data-reactid="95"><div class="article-header-grid" data-reactid="96"><div class="article-cover" data-reactid="97"><div class="article-image image" data-reactid="98"><div class="img-responsive-wrapper" style="padding-bottom:66.66666666666666%;" data-reactid="99"><img src="//images.newrepublic.com/ea52ac80caebfbec805a684b92070408607270ad.jpeg?w=1000&amp;q=65&amp;dpi=1&amp;fm=pjpg&amp;fit=crop&amp;crop=faces&amp;h=667" class="img-responsive-img img-jpg" data-reactid="100"/></div></div><div class="article-photo-credit" data-reactid="101"><div class="photo-credit" data-reactid="102">LUDOVIC MARIN/AFP/Getty Images</div></div></div><div class="article-title" data-reactid="103"><h1 class="article-headline" itemprop="headline" data-reactid="104"><span data-reactid="105">There Is No Profound Meaning to the Notre Dame Fire</span></h1><h2 class="article-subhead" data-reactid="106"><span data-reactid="107">Yes, French politics and society are in turmoil. But there's a simpler lesson from the cathedral's burning.</span></h2></div><div class="article-meta" data-reactid="108"><h3 class="article-byline" data-reactid="109"><div class="author-list author-list-all author-list-inline" data-reactid="110"><span data-reactid="111">By </span><span class="author-list-item" data-reactid="112"><a class="author-matt-ford author-link" itemprop="author" title="Matt Ford" href="/authors/matt-ford" data-reactid="113">Matt Ford</a><span class="author-list-comma" data-reactid="114"></span></span></div></h3><h5 class="article-date" data-reactid="115"><time property="dc:date dc:created" itemprop="datePublished" content="2019-04-16" datetime="2019-04-16" data-reactid="116">April 16, 2019</time></h5><!-- react-text: 117 --><!-- /react-text --><a href="https://getpocket.com/edit?url=https://newrepublic.com/article/153590/no-profound-meaning-notre-dame-fire" class="article-pocket-button" data-reactid="118"><svg width="16" height="18" xmlns="http://www.w3.org/2000/svg" data-reactid="119"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.013 10.93L7.67 14.08c-.172.197-.443.27-.64.27a.943.943 0 0 1-.688-.27l-3.294-3.15c-.344-.37-.393-.985 0-1.38.369-.344.984-.393 1.352 0l2.63 2.536 2.68-2.535c.344-.394.959-.345 1.303 0 .344.394.344 1.01 0 1.378zm1.696-5.22H1.352C.615 5.71 0 6.278 0 7.017v4.209c0 3.815 3.147 6.99 7.03 6.99 3.86 0 6.982-3.175 6.982-6.99v-4.21c0-.738-.59-1.304-1.303-1.304z" fill="#000000" data-reactid="120"></path></svg><!-- react-text: 121 -->Add to Pocket<!-- /react-text --></a></div></div></header><div class="article-body" itemprop="articleBody" data-reactid="122"><div class="sidebar-and-content-body" data-reactid="123"><div class="subscribe-sidebar" data-reactid="124"><a href="https://tnr-reg.onecount.net/onecount/form/display.php?id=65b62084-2a9e-41e3-a826-9069eec96f50&amp;src_code=99" data-reactid="125"><div class="article-subscribe" data-reactid="126"><div class="article-subscribe-cover" data-reactid="127"><img src="//images.newrepublic.com/fb4d98f5b67bb06ccd6fdabaa4dd2d49d1a101f0.jpeg?w=315&amp;q=60" data-reactid="128"/></div><div class="article-subscribe-header" data-reactid="129">Subscribe</div></div></a></div><div class="content-body" data-reactid="130"><div class="article-text-wrap"><div class="article-text-grid"><p>Fire has held a certain mystical power in the human mind since Prometheus stole it from the gods. When it burns down the spire of Notre Dame—one of Christendom’s great churches, resting at the heart of the French nation—the emotional effect can be tremendous. </p><aside id="recirc-0" class="recirc-most-popular pull-right pull-small hide"></aside><p>Parisians and the world watched in horror on Monday as flames devoured much of the ancient cathedral, though it spared its iconic twin bell towers and most of the external stone structure. The cause appears to be accidental, according to Paris officials. The cathedral’s upper levels were built in the twelfth and thirteenth century with a “<a href="https://www.cnn.com/style/article/nortre-dame-fire-oak-wood-trnd/index.html" target="_blank" rel="nofollow">forest</a>” of ancient oak trees, which became the kindling for Monday’s conflagration. Scaffolding and construction equipment on the roof may have provided the spark to ignite it. This mundane hypothesis doesn’t detract from the shock of watching an eight-century-old cultural landmark go up in flames.</p><p>Into that psychic void rushed numerous observers and commentators who sought to find a more profound meaning from the blaze, notably <span>by tying it to the social unrest and political discord in France today. </span><span>It’s human to try to find sweeping answers to seemingly random events. In their search for deeper truths, however, these analysts may have missed a conclusion that is more superficial—yet more significant.</span></p><p>President Emmanuel Macron has spent the last few months struggling to address the Yellow Vest movement, which has led waves of protests and riots against his unpopular economic policies. He had planned to deliver an address to the French people on Monday night to outline his latest response to the turmoil, but as news of the fire broke, he canceled those plans and rushed to the scene, vowing to rebuild the ancient cathedral. The fire “seemed to underscore the challenges heaped before his administration, which has struggled to reconcile the formidable weight of France’s ideals and storied past with the necessity for change to meet the demands of the 21st century,” <i>The New York Times</i> reported in its <a href="https://www.nytimes.com/2019/04/15/world/europe/notre-dame-fire.html" target="_blank" rel="nofollow">main story on the blaze</a>.<br></p></div></div><div class="full-width inserted-dfp ad-container-0"></div><div class="article-text-wrap"><div class="article-text-grid"><p>Michael Kimmelman, the <i>Times</i>’ architecture critic, also <a href="https://www.nytimes.com/2019/04/15/world/europe/notre-dame-france-fire.html" target="_blank" rel="nofollow">saw parallels</a> between the mass sorrow over the cathedral’s fate and public outrage over Macron’s reforms. “Generations that had come to rely on this social safety net, as a matter of national pride and identity, see it going up in smoke,” he wrote. “On Monday, so was the cathedral, which for centuries has enshrined an evolving notion of Frenchness. The symbolism was hard to miss.”</p><p>Others perceived an even deeper malaise. In <i>The Guardian</i>, Gilles Gressani and Mathéo Malik <a href="https://www.theguardian.com/commentisfree/2019/apr/16/notre-dame-warning-europe-value-cathedral-flames" target="_blank" rel="nofollow">argued</a> that the “catastrophe of Notre Dame represents so perfectly the condition of contemporary Europeans: people condemned to live among wonders, taking them for granted, ignorant of the fact that they may disappear—then suddenly finding themselves in a situation they’d never envisioned.” <i>National Review</i>’s Rich Lowry <a href="https://www.nationalreview.com/2019/04/notre-dame-cathedral-fire-distressing-message/" target="_blank" rel="nofollow">wrote</a><i> </i>that the cathedral “stands for so many qualities that we now lack—patience and staying power, the cultivation of beauty, a deep ­religious faith, a cultural confidence and ambition that could create a timeless monument of our civilization.” <i>The Moscow Times </i><a href="https://www.themoscowtimes.com/2019/04/16/notre-dame-fire-symbolizes-europes-decline-russian-commentators-say-a65246" target="_blank" rel="nofollow">quoted</a> Russian commentators who saw the fire as an allegory for European decline.<br></p><div class="inserted-housead"></div><p><span>A great blaze can serve as a blank slate onto which people project their social and cultural anxieties. When Rome burned in 63 A.D., imperial officials responded by persecuting the early Christians for abandoning the city’s polytheistic faith. Londoners </span><a href="https://www.smithsonianmag.com/history/great-fire-london-was-blamed-religious-terrorism-180960332/" target="_blank" rel="nofollow">blamed the great fire</a><span> that gutted most of the English capital in 1666 on the Dutch, with whom they were at war, as well as supposed Catholic agents sent by France and Spain to destroy the Protestant metropolis. For centuries, Chinese philosophers </span><a href="https://www.nytimes.com/2008/05/16/world/asia/16rumors.html" target="_blank" rel="nofollow">viewed natural disasters</a><span> as a sign that the ruling dynasty may have lost its divine mandate to govern. </span><span>Elizabeth II’s </span><span>“annus horribilis,” 1992, was </span><span>marked by a destructive fire at Windsor Castle (as well as the personal scandals of her </span><span>children).</span></p><p><span>The queen’s experience may be the most relevant. If there’s a takeaway from Notre Dame’s partial destruction, it’s profoundly simple: This was the inevitable result of neglect. The French state owns most of the country’s cultural patrimony, including Notre Dame and other major cathedrals. Government officials allocated </span><span>$2.28 million</span><span> per year for its maintenance and upkeep, including a small boost in recent years to restore the central spire. This was barely enough to keep the cathedral open and presentable to tourists, let alone the wholesale restoration and modernization that it desperately needed.</span></p></div></div><div class="full-width inserted-dfp ad-container-0"></div><div class="article-text-wrap"><div class="article-text-grid"><p>In 2017, <i>Time</i> magazine published an in-depth exploration of Notre Dame’s crumbling stonework, which had made parts of the structure almost too dangerous for people to enter. It also captured the lack of energy among civil servants to address the cathedral’s problems. “France has thousands of monuments,” the magazine <a href="http://time.com/4876087/notre-dame-cathedral-is-crumbling/" target="_blank" rel="nofollow">quoted an unnamed official</a> at the French Ministry of Culture as saying, suggesting that the cathedral was not a high priority. “It will not fall down,” she told the magazine. In a way, she was right. It burned instead.</p><p>Every country has its treasured landmarks that are expensive to maintain and even more costly to modernize. Britain’s Palace of Westminster, which houses the country’s Parliament, is among<span> the most urgent cases. </span><span>A </span><a href="https://www.theguardian.com/news/2017/dec/01/a-tale-of-decay-the-houses-of-parliament-are-falling-down" target="_blank" rel="nofollow">2017 investigation by <i>The Guardian</i></a><span> found that the baroque former palace is a dangerous tangle of Victorian steam pipes and twentieth-century wiring, and that </span><span>Parliament was</span><span> sluggish to address the problem. </span><span>After decades of delays,</span><span> lawmakers have </span><a href="https://www.theguardian.com/politics/2019/apr/16/uk-parliament-could-suffer-same-fate-as-notre-dame-warn-mps" target="_blank" rel="nofollow">finally agreed to vacate</a><span> the building in the mid-2020s for a multi-billion-dollar renovation program.</span></p><p>If Westminster burns down before then, it will be because the British government failed to save it in time—a victim of the country’s political ossification. And if there is a lesson to be taken from Notre Dame’s fate for everyone else, it isn’t about the trajectory of European civilization or the upheavals of the French nation. It’s that humanity’s cultural heritage won’t save itself.</p></div></div></div></div></div><footer class="article-footer-wrap" data-reactid="131"><div class="article-author-bio" data-reactid="132"><div class="bio-body" data-reactid="133"><div class="bio-text" data-reactid="134"><p>Matt Ford is a staff writer at <i>The New Republic</i>.</p></div><a href="https://twitter.com/fordm" target="_blank" class="bio-twitter" data-reactid="135"><div class="icon" data-reactid="136"><div class="svg-wrapper svg-wrapper-icon" data-reactid="137"><svg version="1.1" x="0px" y="0px" viewBox="0 0 64 64" class="svg-svg" data-reactid="138"><path class="icon-path icon-twitter" d="M62,13.4c-2.2,1-4.6,1.6-7.1,1.9c2.5-1.5,4.5-3.9,5.4-6.8c-2.4,1.4-5,2.4-7.8,3c-2.2-2.4-5.4-3.9-9-3.9c-6.8,0-12.3,5.5-12.3,12.3c0,1,0.1,1.9,0.3,2.8C21.3,22.2,12.2,17.3,6.2,9.9c-1.1,1.8-1.7,3.9-1.7,6.2c0,4.3,2.2,8,5.5,10.2c-2-0.1-3.9-0.6-5.6-1.5c0,0.1,0,0.1,0,0.2c0,6,4.2,10.9,9.9,12.1c-1,0.3-2.1,0.4-3.2,0.4c-0.8,0-1.6-0.1-2.3-0.2c1.6,4.9,6.1,8.4,11.5,8.5C16,49.1,10.7,51,4.9,51c-1,0-2-0.1-2.9-0.2c5.4,3.5,11.9,5.5,18.9,5.5c22.6,0,35-18.8,35-35c0-0.5,0-1.1,0-1.6C58.3,18,60.3,15.9,62,13.4z" data-reactid="139"></path></svg></div></div><!-- react-text: 140 -->@<!-- /react-text --><!-- react-text: 141 -->fordm<!-- /react-text --></a></div></div><div class="article-social article-social-bottom" data-reactid="142"><div class="article-social-inner" data-reactid="143"><a href="#" title="Share on Facebook" data-reactid="144"><div class="article-share facebook " data-reactid="145"><div class="icon" data-reactid="146"><div class="svg-wrapper svg-wrapper-icon" data-reactid="147"><svg version="1.1" x="0px" y="0px" viewBox="0 0 64 64" class="svg-svg" data-reactid="148"><path class="icon-path icon-facebook" d="M37,64V34.8h9.8l1.5-11.4H37v-7.3c0-3.3,0.9-5.5,5.6-5.5l6,0V0.4C47.6,0.3,44,0,39.8,0c-8.7,0-14.6,5.3-14.6,15v8.4h-9.8v11.4h9.8V64H37z" data-reactid="149"></path></svg></div></div></div></a><a href="#" title="Share on Twitter" data-reactid="150"><div class="article-share twitter " data-reactid="151"><div class="icon" data-reactid="152"><div class="svg-wrapper svg-wrapper-icon" data-reactid="153"><svg version="1.1" x="0px" y="0px" viewBox="0 0 64 64" class="svg-svg" data-reactid="154"><path class="icon-path icon-twitter" d="M62,13.4c-2.2,1-4.6,1.6-7.1,1.9c2.5-1.5,4.5-3.9,5.4-6.8c-2.4,1.4-5,2.4-7.8,3c-2.2-2.4-5.4-3.9-9-3.9c-6.8,0-12.3,5.5-12.3,12.3c0,1,0.1,1.9,0.3,2.8C21.3,22.2,12.2,17.3,6.2,9.9c-1.1,1.8-1.7,3.9-1.7,6.2c0,4.3,2.2,8,5.5,10.2c-2-0.1-3.9-0.6-5.6-1.5c0,0.1,0,0.1,0,0.2c0,6,4.2,10.9,9.9,12.1c-1,0.3-2.1,0.4-3.2,0.4c-0.8,0-1.6-0.1-2.3-0.2c1.6,4.9,6.1,8.4,11.5,8.5C16,49.1,10.7,51,4.9,51c-1,0-2-0.1-2.9-0.2c5.4,3.5,11.9,5.5,18.9,5.5c22.6,0,35-18.8,35-35c0-0.5,0-1.1,0-1.6C58.3,18,60.3,15.9,62,13.4z" data-reactid="155"></path></svg></div></div></div></a><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://newrepublic.com/article/153590/no-profound-meaning-notre-dame-fire&amp;title=There Is No Profound Meaning to the Notre Dame Fire&amp;summary=Yes, French politics and society are in turmoil. But there&#x27;s a simpler lesson from the cathedral&#x27;s burning.&amp;utm_source=social&amp;utm_medium=linkedin&amp;utm_campaign=sharebtn" target="_blank" title="Share on LinkedIn" data-reactid="156"><div class="article-share linkedin " data-reactid="157"><div class="icon" data-reactid="158"><div class="svg-wrapper svg-wrapper-icon" data-reactid="159"><svg version="1.1" x="0px" y="0px" viewBox="0 0 64 64" class="svg-svg" data-reactid="160"><path class="icon-path icon-linkedin" d="M11.34,2.85A6.54,6.54,0,1,1,4.8,9.39a6.54,6.54,0,0,1,6.54-6.54m-5.64,18H17V57.15H5.7V20.88h0Z" data-reactid="161"></path><path class="icon-path icon-linkedin" d="M24.05,20.88h10.8v5H35A11.84,11.84,0,0,1,45.68,20C57.09,20,59.2,27.49,59.2,37.26V57.15H47.93V39.51c0-4.21-.07-9.62-5.86-9.62s-6.76,4.58-6.76,9.32V57.15H24.05V20.88h0Z" data-reactid="162"></path></svg></div></div></div></a><a title="Share via Email" href="mailto:?subject=&amp;body=There%20Is%20No%20Profound%20Meaning%20to%20the%20Notre%20Dame%20Fire%0A%0Ahttps%3A%2F%2Fnewrepublic.com%2Farticle%2F153590%2Fno-profound-meaning-notre-dame-fire" data-reactid="163"><div class="article-share email " data-reactid="164"><div class="icon" data-reactid="165"><div class="svg-wrapper svg-wrapper-icon" data-reactid="166"><svg version="1.1" x="0px" y="0px" viewBox="0 0 64 64" class="svg-svg" data-reactid="167"><path class="icon-path icon-email" d="M54.5,6.4H9.5C4.8,6.4,1,10.2,1,15V49c0,4.7,3.8,8.5,8.5,8.5h44.9c4.7,0,8.5-3.8,8.5-8.5V15C63,10.2,59.2,6.4,54.5,6.4zM56.9,33.8l-5.2-4.2l5.2-3.8V33.8z M9.5,12.5h44.9c1.4,0,2.5,1.1,2.5,2.5v3.2L32.2,36.4c-0.1,0.1-0.2,0.1-0.3,0L7.1,18.2V15C7.1,13.6,8.2,12.5,9.5,12.5zM12.2,29.5l-5.1,4.1v-7.9L12.2,29.5z M54.5,51.5H9.5c-1.4,0-2.5-1.1-2.5-2.5v-7.6l10.1-8.2l11,8.1c1.1,0.8,2.4,1.2,3.8,1.2s2.6-0.4,3.8-1.2l10.9-8l10.3,8.3V49C56.9,50.4,55.8,51.5,54.5,51.5z" data-reactid="168"></path></svg></div></div></div></a></div></div><div class="article-footer-tags" data-reactid="169"><div class="tags-body" data-reactid="170"><span class="tag-list-label" data-reactid="171">Read More</span><div class="tag-list" itemprop="keywords" content="Culture,Architecture,Notre Dame,Paris,Emmanuel Macron,France,Media,Politics,Yellow Vests,-homepage-bottom2" data-reactid="172"><span class="tag-list-item" data-reactid="173"><a class="tag tag-culture " href="/tags/culture" data-reactid="174">Culture</a><span class="tag-list-comma" data-reactid="175">, </span></span><span class="tag-list-item" data-reactid="176"><a class="tag tag-architecture " href="/tags/architecture" data-reactid="177">Architecture</a><span class="tag-list-comma" data-reactid="178">, </span></span><span class="tag-list-item" data-reactid="179"><a class="tag tag-notre-dame " href="/tags/notre-dame" data-reactid="180">Notre Dame</a><span class="tag-list-comma" data-reactid="181">, </span></span><span class="tag-list-item" data-reactid="182"><a class="tag tag-paris " href="/tags/paris" data-reactid="183">Paris</a><span class="tag-list-comma" data-reactid="184">, </span></span><span class="tag-list-item" data-reactid="185"><a class="tag tag-emmanuel-macron " href="/tags/emmanuel-macron" data-reactid="186">Emmanuel Macron</a><span class="tag-list-comma" data-reactid="187">, </span></span><span class="tag-list-item" data-reactid="188"><a class="tag tag-france " href="/tags/france" data-reactid="189">France</a><span class="tag-list-comma" data-reactid="190">, </span></span><span class="tag-list-item" data-reactid="191"><a class="tag tag-media " href="/tags/media" data-reactid="192">Media</a><span class="tag-list-comma" data-reactid="193">, </span></span><span class="tag-list-item" data-reactid="194"><a class="tag tag-politics " href="/tags/politics" data-reactid="195">Politics</a><span class="tag-list-comma" data-reactid="196">, </span></span><span class="tag-list-item" data-reactid="197"><a class="tag tag-yellow-vests " href="/tags/yellow-vests" data-reactid="198">Yellow Vests</a><span class="tag-list-comma" data-reactid="199"></span></span></div></div></div></footer></article></div></div></div></div></main><div class="subscription-prompts" data-reactid="200"><div class="subscribe-cta" style="color:#000000;background-color:#91F5FF;" data-reactid="201"><div class="subscribe-cta__band" data-reactid="202"></div><div class="subscribe-cta__cover" data-reactid="203"><img src="//images.newrepublic.com/fb4d98f5b67bb06ccd6fdabaa4dd2d49d1a101f0.jpeg?w=500&amp;q=60" data-reactid="204"/></div><div class="subscribe-cta__text" data-reactid="205"><h2 class="subscribe-cta__header" data-reactid="206">Support independent journalism</h2><h3 class="subscribe-cta__subheader" data-reactid="207">Unlimited access for less than $2 a month</h3><a class="subscribe-cta__link" href="https://tnr-reg.onecount.net/onecount/form/display.php?id=65b62084-2a9e-41e3-a826-9069eec96f50&amp;src_code=91" data-reactid="208">Subscribe Now</a></div></div><div class="email-signup" data-reactid="209"><div class="email-signup__inner" data-reactid="210"><div class="email-signup__callout" data-reactid="211"><div class="logo" data-reactid="212"><div class="svg-wrapper svg-wrapper-logo" data-reactid="213"><svg class="svg-one-line-wordmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1785.2 127" data-reactid="214"><path d="M86.6 6.7H8.3L0 58.4h.6C12.5 28.9 25.2 7.5 48.3 7.5v80.8c0 21.7-1.6 29.6-19.3 32.1v.6h73.9v-.6c-17.7-2.6-19.3-10.4-19.3-32.1V7.5c23.1 0 35.8 21.4 47.7 50.9h.6l-8.3-51.7h-37z" data-reactid="215"></path><path d="M268.8 7.4v-.7h-64.2v.7C215.8 9.9 219 17.8 219 39.5v20.7h-43.4V39.5c0-21.7 3.2-29.5 14.5-32.1v-.7h-64.2v.7c11.2 2.6 14.5 10.4 14.5 32.1v48.8c0 21.7-3.2 29.6-14.4 32.1v.6h64.2v-.6c-11.2-2.6-14.5-10.4-14.5-32.1V63H219v25.3c0 21.7-3.2 29.6-14.5 32.1v.6h64.2v-.6c-11.2-2.6-14.4-10.4-14.4-32.1V39.5c0-21.7 3.2-29.6 14.5-32.1zM395.5 69.4c-12.2 29.6-53.3 50.9-74.8 50.9V62.5v.5h57.6V60.1h-57.6v.7V7.5c21.5 0 51.9 21.4 63.8 50.9h.6l-7.9-51.7H270.9v.7c11.2 2.6 14.5 10.4 14.5 32.1v48.8c0 21.7-3.2 29.6-14.5 32.1v.6h106.3l19.1-51.7h-.8zM479.4 6.7v.7c10 1 29.9 12.5 38.5 35 1.7 4.6 2.6 9.5 2.6 14.4v23.8l-64-73.9h-46.2v.7l18.8 22v38c-.1 33.3-5.9 51.8-18.8 53.1v.6h62.6v-.6c-10-1-29.9-12.5-38.4-34.9-1.7-4.6-2.6-9.5-2.6-14.4V32.6l75.7 88.4h15.7V58.4c.4-32 6.2-49.8 18.8-51.1v-.6h-62.7zM652.5 6.7v.7c8.2 1.1 11.9 3.7 15.2 11.2l50 106.5h.8L736 86.9l13.6-29.5 29.2 67.7h.6l19.2-42.6 21.5-46.8c9.8-18.1 19.8-27.7 27.8-28.4v-.6H652.5zM708.1 22c-4.7-10.9-4.7-14.3 7.1-14.3 9.8 0 14.6 3.4 17.8 10.9l15.1 35.1-13.6 29.5L708.1 22zM811 48.6l-15.2 33L773.1 22c-4.1-10.9-5.5-14.3 6.3-14.3 11.2 0 24.2 6.3 30.5 16.8 4.3 7.4 4.7 16.4 1.1 24.1zM668.7 69.4c-12.2 29.6-53.3 50.9-74.8 50.9V63h57.7V60.1h-57.7V7.5c21.5 0 51.9 21.4 63.8 50.9h.7l-7.9-51.7H544.1v.7c11.2 2.6 14.5 10.4 14.5 32.1v48.8c0 21.7-3.2 29.6-14.5 32.1v.6h106.3l19.1-51.7-.8.1zM1186.1 120.4v.6h-67.4v-.6c11.2-2.6 14.4-10.4 14.4-32.1V39.5c0-21.7-3.2-29.5-14.4-32.1v-.6h57.7c34.2 0 60.4 3.7 60.4 32.3 0 30.3-36.3 34.7-66.8 32.3v-.7c22-.8 30.5-11.7 30.5-31.5 0-20.2-8.8-31.5-32-31.6v80.8c-.1 21.6.9 29.5 17.6 32zM1533.4 120.3c21.5 0 46.2-20.7 60.2-75h1.1l-3.5 75.8h-107.6v-.6c11.2-2.6 14.5-10.4 14.5-32.1V39.5c0-21.7-3.2-29.5-14.5-32.1v-.6h64.2v.6c-11.2 2.6-14.4 10.4-14.4 32.1v80.8zM1662.4 7.4c-11.2 2.6-14.4 10.4-14.4 32.1v48.8c0 21.7 3.2 29.6 14.4 32.1v.6h-64.2v-.6c11.2-2.6 14.5-10.4 14.5-32.1V39.5c0-21.7-3.2-29.5-14.5-32.1v-.6h64.2v.6z" data-reactid="216"></path><path d="M1727.7 3.8c17.3 0 29.1 9 35.7 9 7.1 0 8-5.8 8.5-12.9h.8l12.5 60.2h-.8C1775.1 34.7 1757 5 1727.7 5c-17.8 0-28.6 26.2-28.6 58.6s10.8 58.5 28.6 58.5c29.2 0 47.4-29.7 56.7-55.2h.8l-12.5 60.2h-.8c-.5-7.1-1.4-12.8-8.5-12.8-6.6 0-18.3 9-35.7 9-38.6 0-68.3-23.1-68.3-59.6s29.8-59.9 68.3-59.9zM1124.2 69.4c-12.2 29.5-53.3 50.9-74.8 50.9V63.1h57.7V60.3h-57.6V7.6c21.5 0 51.9 21.4 63.8 50.9h.7l-7.9-51.7H999.6v.6c11.2 2.6 14.4 10.4 14.4 32.1v48.8c0 18.7-2.4 27.2-10.3 30.8-1 .4-2 .4-3 0-3.9-1.6-6.7-4.3-10.8-10.2l-30.7-45c-4.7 2.9-13.8 4-19.6 4-9.6 0-18.3-2.2-26.2-8.5v-.2c55.7 4.5 69.1-9.5 69.1-27.3 0-20.1-21.7-25.2-52.5-25.2h-70.3v.6c11.2 2.6 14.5 10.4 14.5 32.1v48.9c0 21.7-3.2 29.6-14.5 32.1v.6h64.2v-.6c-11.2-2.6-14.5-10.4-14.5-32.1V7.9h11.9c18.2 0 24.7 11.4 24.7 25s-6.6 25.9-24.7 25.5l-9.8-.2 42.6 62.8h151.8l19.1-51.7h-.8zM1440.4 60.9v-.3c26.3-3 41.9-13.2 41.9-28.6 0-14.1-12.8-25.2-48.3-25.2h-128.9v.6c11 .9 26.7 12.1 35.6 28.2 3.6 8.1 5.4 16.8 5.4 25.7v6.9c0 15.2-3.2 27.7-9.4 36-5.8 7.9-14.2 12-24.4 12h-2.3c-6.1 0-12-2.3-16.4-6.6-7-7.3-10.8-19.5-10.8-35.7v-51c0-12 4.3-13.8 13.3-15.4v-.7H1232v.6c9.5 1.6 13.2 3.4 14.1 11.1 1 8.8 1.5 17.6 1.4 26.5v30.8c0 24.1 10.4 47.7 51.2 47.7 17.8 0 30-5.6 37.9-14.9 7.9-8.7 12.3-22.6 12.3-40.5v-6.9-2.4c.2-25.7 5.3-47.2 16.4-50.9.7-.2 1.4-.3 2.1-.3h.6c.8 0 1.6.1 2.3.4 9.6 3 12.5 11.2 12.5 31.6v48.8c0 21.7-3.2 29.6-14.4 32.1v.6h71.6c30.7 0 49.8-10.6 49.8-31.2 0-24.2-26.4-28.7-49.4-29zm-22.3-53h6.9c14.5 0 21.4 9 21.4 26.3s-6.9 27-21.4 27h-6.9V7.9zm6.8 112.1h-6.8V62.3h6.8c15.7 0 27.9 7.7 27.9 29.1s-12.2 28.6-27.9 28.6z" data-reactid="217"></path></svg></div><div class="svg-wrapper svg-wrapper-logo-stacked" data-reactid="218"><svg class="svg-two-line-wordmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1301.5 347" data-reactid="219"><path d="M171.4 0H61.3L49.6 72.7h.9C67.2 31.2 85.1 1.1 117.6 1.1v113.6c0 30.5-2.3 41.6-27.1 45.2v.9h103.9v-.9c-24.8-3.6-27.1-14.7-27.1-45.2V1.1c32.5 0 50.4 30 67.1 71.6h.9L223.5 0h-52.1zM459 337.8v.9h-94.8v-.9c15.8-3.6 20.3-14.7 20.3-45.2V224c0-30.5-4.5-41.6-20.3-45.2v-.9h81.1c48.1 0 84.9 5.2 84.9 45.4 0 42.7-51 48.8-94 45.4v-.9c30.9-1.1 42.9-16.5 42.9-44.3 0-28.4-12.4-44.3-44.9-44.5v113.5c0 30.6 1.3 41.6 24.8 45.3zM947.4 337.5c30.3 0 65-29.1 84.7-105.5h1.6l-5 106.6H877.3v-.9c15.8-3.6 20.3-14.7 20.3-45.2V224c0-30.5-4.5-41.6-20.3-45.2v-.9h90.3v.9c-15.8 3.6-20.3 14.7-20.3 45.2v113.5zM1128.7 178.8c-15.8 3.6-20.3 14.7-20.3 45.2v68.7c0 30.5 4.5 41.5 20.3 45.2v.9h-90.3v-.9c15.8-3.6 20.3-14.7 20.3-45.2V224c0-30.5-4.5-41.6-20.3-45.2v-.9h90.3v.9z" data-reactid="220"></path><path d="M1220.6 173.8c24.4 0 40.9 12.6 50.1 12.6 9.9 0 11.3-8.1 12-18.1h1.1l17.6 84.7h-1.1c-13.1-35.9-38.6-77.7-79.7-77.7-25.1 0-40.2 36.8-40.2 82.4s15.1 82.2 40.2 82.2c41.1 0 66.6-41.8 79.7-77.7h1.1l-17.6 84.7h-1.1c-.7-9.9-2-18.1-12-18.1-9.3 0-25.7 12.6-50.1 12.6-54.2 0-96-32.5-96-83.8s41.8-83.8 96-83.8zM427.5.9V0h-90.3v.9c15.8 3.6 20.3 14.7 20.3 45.2v29.1h-61V46.1c0-30.5 4.5-41.5 20.3-45.2V0h-90.3v.9c15.8 3.6 20.3 14.7 20.3 45.2v68.7c0 30.5-4.5 41.5-20.3 45.2v.9h90.3v-.9c-15.8-3.6-20.3-14.7-20.3-45.2V79.2h61v35.6c0 30.5-4.5 41.6-20.3 45.2v.9h90.3v-.9c-15.8-3.6-20.3-14.7-20.3-45.2V46.1c0-30.5 4.5-41.6 20.3-45.2zM605.7 88.1c-17.2 41.6-75 71.6-105.2 71.6V78.4v.8h81.1V75.2h-81.1v.9-75c30.3 0 72.9 30 89.7 71.6h.9L580 0H430.5v.9c15.8 3.6 20.3 14.7 20.3 45.2v68.7c0 30.5-4.5 41.5-20.3 45.2v.9H580l26.9-72.7-1.2-.1zM723.7 0v.9c14.1 1.4 42 17.5 54.1 49.2 2.4 6.5 3.6 13.3 3.6 20.2v33.5L691.4 0h-65v.9l26.4 30.9v53.4c-.2 46.8-8.3 72.9-26.4 74.7v.9h88.1v-.9c-14.1-1.4-42-17.5-54-49.1-2.4-6.5-3.7-13.3-3.6-20.2V36.4l106.3 124.4h22.1V72.7c.5-45 8.7-70.1 26.4-71.8V0h-88zM967.2 0v.9c11.5 1.6 16.7 5.2 21.5 15.8l70.2 149.7h1.2l24.5-53.6 19.1-41.6 41.1 95.2h.9l27-59.9 30.2-65.8c13.7-25.4 27.9-38.9 39-39.9V0H967.2zm78.1 21.5c-6.6-15.4-6.6-20.1 9.9-20.1 13.8 0 20.6 4.7 25.1 15.4l21.3 49.4-19.1 41.5-37.2-86.2zM1190 58.8l-21.3 46.4-32-83.8c-5.9-15.4-7.7-20.1 8.8-20.1 15.7 0 34 8.8 42.9 23.7 6.1 10.3 6.7 23 1.6 33.8zM371.9 266c-17.2 41.5-75 71.6-105.2 71.6v-80.5h81.1v-4h-81.1V179c30.3 0 73 30 89.7 71.6h.9l-11.1-72.7H196.7v.9c15.8 3.6 20.3 14.7 20.3 45.2v68.6c0 26.4-3.4 38.2-14.5 43.2-1.4.6-2.9.6-4.2 0-5.4-2.2-9.4-6-15.1-14.4L140 258.3c-6.6 4.1-19.4 5.6-27.6 5.6-13.6 0-25.7-3.2-36.8-12v-.2c78.4 6.3 97.1-13.3 97.1-38.4 0-28.2-30.5-35.4-73.8-35.4H0v.9c15.8 3.6 20.3 14.7 20.3 45.2v68.7c0 30.5-4.5 41.5-20.3 45.2v.9h90.3v-.9C74.5 334.1 70 323.1 70 292.6V179.5h16.7c25.5 0 34.8 16 34.8 35.2s-9.3 36.4-34.8 35.9l-13.8-.2 59.9 88.3h213.4l26.9-72.7h-1.2zM990 88.1c-17.2 41.6-75 71.6-105.2 71.6V79.2h81.1V75.2h-81.1v-74c30.3 0 72.9 30 89.7 71.6h.9L964.2 0H814.7v.9C830.5 4.5 835 15.6 835 46.1v68.7c0 30.5-4.5 41.5-20.3 45.2v.9h149.5L991 88.1h-1zM816.7 254v-.4c37-4.3 58.9-18.5 58.9-40.2 0-19.9-18.1-35.4-68-35.4H626.3v.9c15.5 1.2 37.5 17 50.1 39.6 5 11.4 7.6 23.6 7.7 36.1v9.7c0 21.4-4.5 38.9-13.2 50.6-8.2 11.1-20 16.9-34.3 16.9h-3.3c-9.2-.2-17-3.4-23-9.2-9.8-10.2-15.2-27.4-15.2-50.2v-71.8c0-16.9 6.1-19.4 18.8-21.7v-.9h-90.4v.9c13.3 2.3 18.5 4.7 19.9 15.6 1.4 12.4 2 24.8 2 37.3V275c0 33.9 14.7 67.1 72 67.1 25 0 42.2-7.9 53.3-20.9 11.1-12.2 17.2-31.7 17.2-57v-9.7c0-1.1 0-2.2-.1-3.3.3-35.6 7.3-65.4 22.3-71.3 1.2-.5 2.6-.7 3.9-.8h.1c1.5 0 2.9.2 4.3.7 13.1 4.4 17 16 17 44.2v68.6c0 30.5-4.5 41.5-20.3 45.2v.9H816c43.1 0 70-14.9 70-43.8 0-34.1-37-40.5-69.3-40.9zm-31.4-74.5h9.7c20.3 0 30 12.6 30 37s-9.7 37.9-30 37.9h-9.7v-74.9zm9.4 157.6h-9.5V256h9.5c22.1 0 39.3 10.8 39.3 40.9s-17.1 40.2-39.3 40.2z" data-reactid="221"></path></svg></div></div><h3 data-reactid="222">TNR Newsletters.</h3><h3 data-reactid="223">Must reads. 5 days a week.</h3></div><a class="email-signup__button" href="https://mailchi.mp/61665a30a33b/tnrdaily" target="_blank" data-reactid="224">Sign Up Now</a></div></div></div><footer class="page-footer" data-reactid="225"><ul class="page-footer__social" data-reactid="226"><li class="page-footer__social-item twitter" data-reactid="227"><a href="https://twitter.com/newrepublic" target="_blank" data-reactid="228"><div class="icon" data-reactid="229"><div class="svg-wrapper svg-wrapper-icon" data-reactid="230"><svg version="1.1" x="0px" y="0px" viewBox="0 0 64 64" class="svg-svg" data-reactid="231"><path class="icon-path icon-twitter" d="M62,13.4c-2.2,1-4.6,1.6-7.1,1.9c2.5-1.5,4.5-3.9,5.4-6.8c-2.4,1.4-5,2.4-7.8,3c-2.2-2.4-5.4-3.9-9-3.9c-6.8,0-12.3,5.5-12.3,12.3c0,1,0.1,1.9,0.3,2.8C21.3,22.2,12.2,17.3,6.2,9.9c-1.1,1.8-1.7,3.9-1.7,6.2c0,4.3,2.2,8,5.5,10.2c-2-0.1-3.9-0.6-5.6-1.5c0,0.1,0,0.1,0,0.2c0,6,4.2,10.9,9.9,12.1c-1,0.3-2.1,0.4-3.2,0.4c-0.8,0-1.6-0.1-2.3-0.2c1.6,4.9,6.1,8.4,11.5,8.5C16,49.1,10.7,51,4.9,51c-1,0-2-0.1-2.9-0.2c5.4,3.5,11.9,5.5,18.9,5.5c22.6,0,35-18.8,35-35c0-0.5,0-1.1,0-1.6C58.3,18,60.3,15.9,62,13.4z" data-reactid="232"></path></svg></div></div></a></li><li class="page-footer__social-item instagram" data-reactid="233"><a href="https://instagram.com/newrepublic/" target="_blank" data-reactid="234"><div class="icon" data-reactid="235"><div class="svg-wrapper svg-wrapper-icon" data-reactid="236"><svg version="1.1" x="0px" y="0px" viewBox="0 0 64 64" class="svg-svg" data-reactid="237"><path class="icon-path icon-instagram" fill-rule="evenodd" clip-rule="evenodd" d="M32 0C23.3084 0 22.2204 0.0355556 18.8071 0.192C15.4009 0.348444 13.0738 0.888889 11.0382 1.68C8.90313 2.48344 6.96899 3.74294 5.37067 5.37067C3.74325 6.96925 2.4838 8.90331 1.68 11.0382C0.888889 13.0738 0.346667 15.4009 0.192 18.8089C0.0373333 22.2204 0 23.3067 0 32C0 40.6933 0.0355556 41.7796 0.192 45.1929C0.348444 48.5991 0.888889 50.9262 1.68 52.9618C2.48344 55.0969 3.74294 57.031 5.37067 58.6293C7.14844 60.4071 8.93511 61.5022 11.0382 62.32C13.0738 63.1111 15.4009 63.6533 18.8071 63.808C22.2204 63.9627 23.3084 64 32 64C40.6916 64 41.7796 63.9644 45.1929 63.808C48.5991 63.6516 50.9262 63.1111 52.9618 62.32C55.0968 61.5165 57.031 60.257 58.6293 58.6293C60.4071 56.8516 61.5022 55.0649 62.32 52.9618C63.1111 50.9262 63.6533 48.5991 63.808 45.1929C63.9627 41.7796 64 40.6916 64 32C64 23.3084 63.9644 22.2204 63.808 18.8071C63.6516 15.4009 63.1111 13.0738 62.32 11.0382C61.5165 8.90316 60.257 6.96903 58.6293 5.37067C57.0308 3.74325 55.0967 2.4838 52.9618 1.68C50.9262 0.888889 48.5991 0.346667 45.1911 0.192C41.7796 0.0373333 40.6933 0 32 0ZM32 5.76533C40.544 5.76533 41.5573 5.79911 44.9316 5.952C48.0516 6.09422 49.7458 6.61511 50.8729 7.05422C52.3662 7.63378 53.4329 8.32889 54.5529 9.44711C55.6729 10.5671 56.3662 11.6338 56.9458 13.1271C57.3849 14.2542 57.9058 15.9484 58.048 19.0684C58.2009 22.4427 58.2347 23.456 58.2347 32C58.2347 40.544 58.2009 41.5573 58.048 44.9316C57.9058 48.0516 57.3849 49.7458 56.9458 50.8729C56.4332 52.263 55.6155 53.5205 54.5529 54.5529C53.4329 55.6729 52.3662 56.3662 50.8729 56.9458C49.7458 57.3849 48.0516 57.9058 44.9316 58.048C41.5573 58.2009 40.5458 58.2347 32 58.2347C23.4542 58.2347 22.4427 58.2009 19.0684 58.048C15.9484 57.9058 14.2542 57.3849 13.1271 56.9458C11.737 56.4332 10.4795 55.6155 9.44711 54.5529C8.38455 53.5204 7.56688 52.2629 7.05422 50.8729C6.61511 49.7458 6.09422 48.0516 5.952 44.9316C5.79911 41.5573 5.76533 40.544 5.76533 32C5.76533 23.456 5.79911 22.4427 5.952 19.0684C6.09422 15.9484 6.61511 14.2542 7.05422 13.1271C7.63378 11.6338 8.32889 10.5671 9.44711 9.44711C10.5671 8.32711 11.6338 7.63378 13.1271 7.05422C14.2542 6.61511 15.9484 6.09422 19.0684 5.952C22.4427 5.79911 23.456 5.76533 32 5.76533V5.76533Z" fill="black" data-reactid="238"></path><path class="icon-path icon-instagram" fill-rule="evenodd" clip-rule="evenodd" d="M32.0002 42.6775C30.5981 42.6775 29.2096 42.4013 27.9142 41.8647C26.6188 41.3281 25.4417 40.5416 24.4502 39.5502C23.4587 38.5587 22.6723 37.3816 22.1357 36.0862C21.5991 34.7907 21.3229 33.4023 21.3229 32.0001C21.3229 30.598 21.5991 29.2095 22.1357 27.9141C22.6723 26.6187 23.4587 25.4416 24.4502 24.4501C25.4417 23.4586 26.6188 22.6722 27.9142 22.1356C29.2096 21.599 30.5981 21.3228 32.0002 21.3228C34.8321 21.3228 37.5479 22.4477 39.5503 24.4501C41.5527 26.4525 42.6776 29.1683 42.6776 32.0001C42.6776 34.8319 41.5527 37.5478 39.5503 39.5502C37.5479 41.5525 34.8321 42.6775 32.0002 42.6775V42.6775ZM32.0002 15.5521C27.638 15.5521 23.4544 17.2851 20.3698 20.3697C17.2852 23.4542 15.5522 27.6379 15.5522 32.0001C15.5522 36.3624 17.2852 40.546 20.3698 43.6306C23.4544 46.7152 27.638 48.4481 32.0002 48.4481C36.3625 48.4481 40.5461 46.7152 43.6307 43.6306C46.7153 40.546 48.4483 36.3624 48.4483 32.0001C48.4483 27.6379 46.7153 23.4542 43.6307 20.3697C40.5461 17.2851 36.3625 15.5521 32.0002 15.5521ZM53.234 15.2535C53.234 16.2846 52.8244 17.2736 52.0953 18.0027C51.3661 18.7319 50.3772 19.1415 49.346 19.1415C48.3149 19.1415 47.3259 18.7319 46.5968 18.0027C45.8677 17.2736 45.458 16.2846 45.458 15.2535C45.458 14.2223 45.8677 13.2334 46.5968 12.5042C47.3259 11.7751 48.3149 11.3655 49.346 11.3655C50.3772 11.3655 51.3661 11.7751 52.0953 12.5042C52.8244 13.2334 53.234 14.2223 53.234 15.2535" fill="black" data-reactid="239"></path></svg></div></div></a></li><li class="page-footer__social-item facebook" data-reactid="240"><a href="https://www.facebook.com/newrepublic/" target="_blank" data-reactid="241"><div class="icon" data-reactid="242"><div class="svg-wrapper svg-wrapper-icon" data-reactid="243"><svg version="1.1" x="0px" y="0px" viewBox="0 0 64 64" class="svg-svg" data-reactid="244"><path class="icon-path icon-facebook" d="M37,64V34.8h9.8l1.5-11.4H37v-7.3c0-3.3,0.9-5.5,5.6-5.5l6,0V0.4C47.6,0.3,44,0,39.8,0c-8.7,0-14.6,5.3-14.6,15v8.4h-9.8v11.4h9.8V64H37z" data-reactid="245"></path></svg></div></div></a></li></ul><a title="The New Republic" class="page-footer__ship" href="/" data-reactid="246"><div class="svg-wrapper svg-wrapper-monogram" data-reactid="247"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 445.85 160.76" data-reactid="248"><path d="M424.4 143.6l-43.13-63.22c-6.55 4.07-19.42 5.62-27.55 5.62-13.54 0-25.74-3.16-36.8-12v-.23C395.27 80.16 414 60.51 414 35.45 414 7.22 383.53 0 340.18 0h-107v.9c14.29 1.41 42.78 18 54.55 50.48a73.63 73.63 0 013.12 17.44v35L200.92 0H11.71L0 72.71h.9C17.61 31.16 35.45 1.13 68 1.13V114.7c0 30.48-2.25 41.55-27.09 45.16v.9H224v-.9c-14.63-1.44-44.11-18.8-55.34-52.83a74.9 74.9 0 01-2.27-14.41V36.46l106.39 124.3h41.92v-.9c-12.89-2.94-18.25-10.9-19.8-30.24v-52.4c0-40.12 5.71-65.32 18.33-73.5a13.69 13.69 0 017.45-2.14H328c25.52 0 34.78 16 34.78 35.22S353.5 73.16 328 72.7l-13.77-.22 59.84 88.28h71.8v-.9c-9.28-2.03-13.8-4.97-21.47-16.26zM162.31 83.54c0 33.38-4 56.41-12.55 67.92a16.29 16.29 0 01-5.6 5.4h-.06a12.88 12.88 0 01-9.77 1.25 15 15 0 01-9.77-6.69q-.48-.72-1-1.41c-5.2-7-5.93-18-5.93-35.35V1.13h.27a40.32 40.32 0 0130.37 14.27l9.55 11.18a18.73 18.73 0 014.49 12.17z" data-reactid="249"></path></svg></div></a><div class="page-footer__info" data-reactid="250"><p class="page-footer__copyright" data-reactid="251"><!-- react-text: 252 -->Copyright <!-- /react-text --><!-- react-text: 253 -->2020<!-- /react-text --><!-- react-text: 254 --> © The New Republic. All rights reserved.<!-- /react-text --></p><a title="Privacy Policy" class="page-footer__copyright" href="/pages/privacy" data-reactid="255">Privacy Policy</a></div></footer><!-- react-empty: 256 --><!-- react-empty: 257 --></div></div>
+    <script>window.__REDESIGN_PUBLIC_LAUNCH__=false</script>
+    <script>window.__dataPacket={"childQueries":{"wasServerRendered":true,"magazine":{"metaData":{"status":"DRAFT","image":{"id":"ee4fd6ac-29dd-4918-abe8-c5b671109d73","hash":"fb4d98f5b67bb06ccd6fdabaa4dd2d49d1a101f0","width":2400,"height":3150,"format":"JPEG","isAnimated":false,"baseUrl":"//images.newrepublic.com/","src":"//images.newrepublic.com/fb4d98f5b67bb06ccd6fdabaa4dd2d49d1a101f0.jpeg","meta":{}},"issueTag":{"id":"d06a8ab4-3d30-426f-886f-5ffac7538f03","slug":"may-2020","text":"May 2020","count":"17","label":"May 2020"},"embedCode":"tnr-may-2020","primaryColor":"91F5FF","secondaryColor":"000000","publishedAt":"2020-04-16T09:08:47-04:00"}},"article":{"id":"835a78fb-0eae-4c19-aed1-98a8881a06de","title":"There Is No Profound Meaning to the Notre Dame Fire","cleanTitle":"There Is No Profound Meaning to the Notre Dame Fire","body":"<p>Fire has held a certain mystical power in the human mind since Prometheus stole it from the gods. When it burns down the spire of Notre Dame\u2014one of Christendom\u2019s great churches, resting at the heart of the French nation\u2014the emotional effect can be tremendous. <\/p><p>Parisians and the world watched in horror on Monday as flames devoured much of the ancient cathedral, though it spared its iconic twin bell towers and most of the external stone structure. The cause appears to be accidental, according to Paris officials. The cathedral\u2019s upper levels were built in the twelfth and thirteenth century with a \u201c<a href=\"https://www.cnn.com/style/article/nortre-dame-fire-oak-wood-trnd/index.html\" target=\"_blank\" rel=\"nofollow\">forest<\/a>\u201d of ancient oak trees, which became the kindling for Monday\u2019s conflagration. Scaffolding and construction equipment on the roof may have provided the spark to ignite it. This mundane hypothesis doesn\u2019t detract from the shock of watching an eight-century-old cultural landmark go up in flames.<\/p><p>Into that psychic void rushed numerous observers and commentators who sought to find a more profound meaning from the blaze, notably <span>by tying it to the social unrest and political discord in France today. <\/span><span>It\u2019s human to try to find sweeping answers to seemingly random events. In their search for deeper truths, however, these analysts may have missed a conclusion that is more superficial\u2014yet more significant.<\/span><\/p><p>President Emmanuel Macron has spent the last few months struggling to address the Yellow Vest movement, which has led waves of protests and riots against his unpopular economic policies. He had planned to deliver an address to the French people on Monday night to outline his latest response to the turmoil, but as news of the fire broke, he canceled those plans and rushed to the scene, vowing to rebuild the ancient cathedral. The fire \u201cseemed to underscore the challenges heaped before his administration, which has struggled to reconcile the formidable weight of France\u2019s ideals and storied past with the necessity for change to meet the demands of the 21st century,\u201d <i>The New York Times<\/i> reported in its <a href=\"https://www.nytimes.com/2019/04/15/world/europe/notre-dame-fire.html\" target=\"_blank\" rel=\"nofollow\">main story on the blaze<\/a>.<br><\/p><p>Michael Kimmelman, the <i>Times<\/i>\u2019 architecture critic, also <a href=\"https://www.nytimes.com/2019/04/15/world/europe/notre-dame-france-fire.html\" target=\"_blank\" rel=\"nofollow\">saw parallels<\/a> between the mass sorrow over the cathedral\u2019s fate and public outrage over Macron\u2019s reforms. \u201cGenerations that had come to rely on this social safety net, as a matter of national pride and identity, see it going up in smoke,\u201d he wrote. \u201cOn Monday, so was the cathedral, which for centuries has enshrined an evolving notion of Frenchness. The symbolism was hard to miss.\u201d<\/p><p>Others perceived an even deeper malaise. In <i>The Guardian<\/i>, Gilles Gressani and Math\u00e9o Malik <a href=\"https://www.theguardian.com/commentisfree/2019/apr/16/notre-dame-warning-europe-value-cathedral-flames\" target=\"_blank\" rel=\"nofollow\">argued<\/a> that the \u201ccatastrophe of Notre Dame represents so perfectly the condition of contemporary Europeans: people condemned to live among wonders, taking them for granted, ignorant of the fact that they may disappear\u2014then suddenly finding themselves in a situation they\u2019d never envisioned.\u201d <i>National Review<\/i>\u2019s Rich Lowry <a href=\"https://www.nationalreview.com/2019/04/notre-dame-cathedral-fire-distressing-message/\" target=\"_blank\" rel=\"nofollow\">wrote<\/a><i> <\/i>that the cathedral \u201cstands for so many qualities that we now lack\u2014patience and staying power, the cultivation of beauty, a deep \u00adreligious faith, a cultural confidence and ambition that could create a timeless monument of our civilization.\u201d <i>The Moscow Times <\/i><a href=\"https://www.themoscowtimes.com/2019/04/16/notre-dame-fire-symbolizes-europes-decline-russian-commentators-say-a65246\" target=\"_blank\" rel=\"nofollow\">quoted<\/a> Russian commentators who saw the fire as an allegory for European decline.<br><\/p><p><span>A great blaze can serve as a blank slate onto which people project their social and cultural anxieties. When Rome burned in 63 A.D., imperial officials responded by persecuting the early Christians for abandoning the city\u2019s polytheistic faith. Londoners <\/span><a href=\"https://www.smithsonianmag.com/history/great-fire-london-was-blamed-religious-terrorism-180960332/\" target=\"_blank\" rel=\"nofollow\">blamed the great fire<\/a><span> that gutted most of the English capital in 1666 on the Dutch, with whom they were at war, as well as supposed Catholic agents sent by France and Spain to destroy the Protestant metropolis. For centuries, Chinese philosophers <\/span><a href=\"https://www.nytimes.com/2008/05/16/world/asia/16rumors.html\" target=\"_blank\" rel=\"nofollow\">viewed natural disasters<\/a><span> as a sign that the ruling dynasty may have lost its divine mandate to govern. <\/span><span>Elizabeth II\u2019s <\/span><span>\u201cannus horribilis,\u201d 1992, was <\/span><span>marked by a destructive fire at Windsor Castle (as well as the personal scandals of her <\/span><span>children).<\/span><\/p><p><span>The queen\u2019s experience may be the most relevant. If there\u2019s a takeaway from Notre Dame\u2019s partial destruction, it\u2019s profoundly simple: This was the inevitable result of neglect. The French state owns most of the country\u2019s cultural patrimony, including Notre Dame and other major cathedrals. Government officials allocated <\/span><span>$2.28 million<\/span><span> per year for its maintenance and upkeep, including a small boost in recent years to restore the central spire. This was barely enough to keep the cathedral open and presentable to tourists, let alone the wholesale restoration and modernization that it desperately needed.<\/span><\/p><p>In 2017, <i>Time<\/i> magazine published an in-depth exploration of Notre Dame\u2019s crumbling stonework, which had made parts of the structure almost too dangerous for people to enter. It also captured the lack of energy among civil servants to address the cathedral\u2019s problems. \u201cFrance has thousands of monuments,\u201d the magazine <a href=\"http://time.com/4876087/notre-dame-cathedral-is-crumbling/\" target=\"_blank\" rel=\"nofollow\">quoted an unnamed official<\/a> at the French Ministry of Culture as saying, suggesting that the cathedral was not a high priority. \u201cIt will not fall down,\u201d she told the magazine. In a way, she was right. It burned instead.<\/p><p>Every country has its treasured landmarks that are expensive to maintain and even more costly to modernize. Britain\u2019s Palace of Westminster, which houses the country\u2019s Parliament, is among<span> the most urgent cases. <\/span><span>A <\/span><a href=\"https://www.theguardian.com/news/2017/dec/01/a-tale-of-decay-the-houses-of-parliament-are-falling-down\" target=\"_blank\" rel=\"nofollow\">2017 investigation by <i>The Guardian<\/i><\/a><span> found that the baroque former palace is a dangerous tangle of Victorian steam pipes and twentieth-century wiring, and that <\/span><span>Parliament was<\/span><span> sluggish to address the problem. <\/span><span>After decades of delays,<\/span><span> lawmakers have <\/span><a href=\"https://www.theguardian.com/politics/2019/apr/16/uk-parliament-could-suffer-same-fate-as-notre-dame-warn-mps\" target=\"_blank\" rel=\"nofollow\">finally agreed to vacate<\/a><span> the building in the mid-2020s for a multi-billion-dollar renovation program.<\/span><\/p><p>If Westminster burns down before then, it will be because the British government failed to save it in time\u2014a victim of the country\u2019s political ossification. And if there is a lesson to be taken from Notre Dame\u2019s fate for everyone else, it isn\u2019t about the trajectory of European civilization or the upheavals of the French nation. It\u2019s that humanity\u2019s cultural heritage won\u2019t save itself.<\/p>","deck":"Yes, French politics and society are in turmoil. But there's a simpler lesson from the cathedral's burning.","bylines":null,"type":"LONGFORM","slug":"no-profound-meaning-notre-dame-fire","nid":153590,"url":"/article/153590/no-profound-meaning-notre-dame-fire","urlFull":"https://newrepublic.com/article/153590/no-profound-meaning-notre-dame-fire","status":"PUBLISHED","publishedAt":"2019-04-16T19:47:41.000Z","displayAt":null,"ledeImageCaption":"LUDOVIC MARIN/AFP/Getty Images","ampEnabled":true,"meta":{"wordCount":1013,"disableAds":false,"hideLede":false,"hideHeader":false},"frontPage":null,"ledeAltImage":null,"sponsor":null,"galleries":[],"tags":[{"id":"f6bb3de2-0f7d-43e5-ae25-77b26a6603e0","label":"Culture","slug":"culture"},{"id":"fcb98c6f-140a-4c1d-9ecb-369bfd34b7d1","label":"Architecture","slug":"architecture"},{"id":"6034e0c8-39ac-4077-acd0-4227f2d1424f","label":"Notre Dame","slug":"notre-dame"},{"id":"69d54ac2-0818-4330-abd3-df62b10e0a5d","label":"Paris","slug":"paris"},{"id":"74046d06-fdba-4378-a6e4-869e71d77420","label":"Emmanuel Macron","slug":"emmanuel-macron"},{"id":"30908d76-68a6-431f-be11-c1dc0d9fee34","label":"France","slug":"france"},{"id":"6bfcc676-2945-4226-b5fc-20eec068ca24","label":"Media","slug":"media"},{"id":"3046ee55-25d3-43cb-8491-58b17f8004d3","label":"Politics","slug":"politics"},{"id":"98372ffc-67a1-4b26-b8b5-81c440d8c917","label":"Yellow Vests","slug":"yellow-vests"},{"id":"4a98e9c7-0d2e-4274-bd89-7fbaffb37703","label":"-homepage-bottom2","slug":"-homepage-bottom2"}],"ledeImage":{"id":"9f1dfe99-c70d-49f5-9fe3-3af1c6aecc9b","hash":"ea52ac80caebfbec805a684b92070408607270ad","width":6347,"height":3570,"format":"JPEG","isAnimated":false,"baseUrl":"//images.newrepublic.com/","src":"//images.newrepublic.com/ea52ac80caebfbec805a684b92070408607270ad.jpeg","meta":{}},"authors":[{"id":"eff49e00-668e-42cf-91b6-ce08b0cdfbd6","slug":"matt-ford","name":"Matt Ford","title":"Staff Writer","blurb":"<p>Matt Ford is a staff writer at <i>The New Republic<\/i>.<\/p>","bio":"<p>Matt Ford is a staff writer at <i>The New Republic<\/i>.<\/p>","status":"INACTIVE","headshotImage":null,"UserId":"97d58d71-6f33-490c-9c21-23b0db50c653","meta":{"twitter":"fordm"}}]}},"session":{},"magazine":{"metaData":{"status":"DRAFT","image":{"id":"ee4fd6ac-29dd-4918-abe8-c5b671109d73","hash":"fb4d98f5b67bb06ccd6fdabaa4dd2d49d1a101f0","width":2400,"height":3150,"format":"JPEG","isAnimated":false,"baseUrl":"//images.newrepublic.com/","src":"//images.newrepublic.com/fb4d98f5b67bb06ccd6fdabaa4dd2d49d1a101f0.jpeg","meta":{}},"issueTag":{"id":"d06a8ab4-3d30-426f-886f-5ffac7538f03","slug":"may-2020","text":"May 2020","count":"17","label":"May 2020"},"embedCode":"tnr-may-2020","primaryColor":"91F5FF","secondaryColor":"000000","publishedAt":"2020-04-16T09:08:47-04:00"}}}</script>
+    <script src="//assets.newrepublic.com/assets/main-ef3b0311003ba5939fa7.js"></script>
+    
+<!-- Facebook -->
+  <div id="fb-root"></div>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : "1675346479369918",
+      xfbml      : true,
+      version    : 'v2.5'
+    })
+  };
 
-	<div class="entry-comments-content fte-expandable-content">
-		<div class="fb-comments" data-href="http://fivethirtyeight.com/?post_type=fte_features&#038;p=269725" data-numposts="5" data-colorscheme="light"
-														></div>
-	</div>
-	<!-- .entry-comments-content -->
-</div>
-<!-- .entry-comments -->
-<div id="taboola-269725" class="taboola-placeholder taboola-recommendations" data-src="https://fivethirtyeight.com/features/sanders-and-the-media-learned-the-wrong-lessons-from-trump-in-2016/" data-mode="thumbnails-a" data-placement="Below Article Thumbnails"></div><div class="tags">
-	<p class="filed-under">Filed under</p>
-	<p class="tag-links"><a class="tag" href="https://fivethirtyeight.com/tag/donald-trump/">Donald Trump <span class="count">(1230 posts)</span></a>
-<a class="tag" href="https://fivethirtyeight.com/tag/2016-election/">2016 Election <span class="count">(1102)</span></a>
-<a class="tag" href="https://fivethirtyeight.com/tag/2020-election/">2020 Election <span class="count">(716)</span></a>
-<a class="tag" href="https://fivethirtyeight.com/tag/2020-democratic-primary/">2020 Democratic Primary <span class="count">(682)</span></a>
-<a class="tag" href="https://fivethirtyeight.com/tag/bernie-sanders/">Bernie Sanders <span class="count">(416)</span></a>
-<a class="tag" href="https://fivethirtyeight.com/tag/joe-biden/">Joe Biden <span class="count">(315)</span></a>
-</p>
-</div>
-		</div><!-- #primary -->
-
-		<div id="secondary" class="single-col vertical-col blog-col">
-
-	<div class="sidebar-feature visually-hidden"><aside id="espn-taboola-3" class="widget espn-taboola-recommendation"><div id="taboola-269725-top-recommendation" class="taboola-placeholder taboola-recommendations" data-src="https://fivethirtyeight.com/features/sanders-and-the-media-learned-the-wrong-lessons-from-trump-in-2016/" data-mode="organic-text-links-a" data-placement="Organic Right Rail Links"></div></aside><aside id="dtci-a9-ad-16" class="widget a9-sidebar-ad"><div id="ad-A9InContent-1" class="ad-a9incontent" data-defer="none"></div></aside><aside id="fivethirtyeight-embed-160" class="widget flexible interactives embed "><h2 class="widget-title">Interactives</h2>
-					<iframe id="pym-fivethirtyeight_embed_160" title="How Popular Is Donald Trump?" src="https://projects.fivethirtyeight.com/trump-approval-ratings/promo.html" width="200" height="300" scrolling="no"></iframe>
-			</aside>
-
-<aside id="dtci-a9-ad-5" class="widget a9-sidebar-ad"><div id="ad-A9InContent-2" class="ad-a9incontent" data-defer="none"></div></aside>		<aside id="fivethirtyeight-newsletter-84" class="widget flexible newsletter-subscription">
-			<h2 class="widget-title">Newsletter</h2>
-			<div class="newsletter-subscribe weekly">
-	<div class="envelope"></div>
-
-	<div class="outer-wrapper">
-		<h4>Want more FiveThirtyEight? Get our weekly most popular stories newsletter.</h4>
-		<div class="subscribed hidden">
-	You are now subscribed!
-</div>
-
-<div class="newsletter-form-wrapper">
-	<div class="newsletter-form">
-		<div class="errors hidden"></div>
-		<div class="inputs">
-			<input type="hidden" name="nl" value="FiveThirtyEight_-_Top_Stories_N" data-newsletter="FiveThirtyEight Top Stories">
-			<input class="newsletter-input email-address" aria-label="Email Address" placeholder="Email address" type="email" name="email">
-			<button aria-label="Subscribe" class="subscribe-action button" type="submit" name="Sign me up">Sign me up</button>
-		</div>
-		<p class="all"><a href="https://fivethirtyeight.com/newsletters/">See all newsletters</a></p>
-		<p class="newsletter-agreement"></p>
-	</div>
-</div>
-	</div>
-</div>
-		</aside>
-		</div></div><!-- #secondary -->
-
-	</div><!-- .single -->
-
-	
-
-	</div><!-- #wrapper .site-wrapper -->
-	</div><!-- .site-main -->
-
-<footer id="colophon" class="site-footer">
-
-	<div class="site-wrapper footer-main-content">
-
-		<div class="footer-section-get-more">
-			Get more FiveThirtyEight		</div>
-
-		<div class="footer-section-primary-links">
-			<ul class="footer-menu">
-				<li class="footer-menu-item">
-					<a href="https://cottonbureau.com/stores/fivethirtyeight#/shop" name="&amp;lpos=fivethirtyeightFooter&amp;lid=store">Store</a>
-				</li>
-				<li class="footer-menu-item">
-					<a href="https://fivethirtyeight.com/newsletter/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=newsletter">Newsletter</a>
-				</li>
-				<li class="footer-menu-item">
-					<a href="https://fivethirtyeight.com/videos/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=videos">Videos</a>
-				</li>
-				<li class="footer-menu-item">
-					<a href="https://fivethirtyeight.com/tag/fivethirtyeight-podcasts/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=podcasts">Podcasts</a>
-				</li>
-				<li class="footer-menu-item">
-					<a href="https://twitter.com/fivethirtyeight" name="&amp;lpos=fivethirtyeightFooter&amp;lid=twitter">Twitter</a>
-				</li>
-				<li class="footer-menu-item">
-					<a href="https://www.facebook.com/fivethirtyeight" name="&amp;lpos=fivethirtyeightFooter&amp;lid=facebook">Facebook</a>
-				</li>
-				<li class="footer-menu-item">
-					<a href="https://data.fivethirtyeight.com/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=data">Data</a>
-				</li>
-				<li class="footer-menu-item">
-					<a href="https://fivethirtyeight.com/features/fear-not-readers-we-have-rss-feeds/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=rss">RSS</a>
-				</li>
-			</ul>
-		</div><!-- .footer-primary-links -->
-
-		<div class="footer-section-social-follow">
-			<ul class="footer-menu">
-				<li class="footer-menu-item social-share-item">
-					<div class="fb-like" data-href="https://www.facebook.com/fivethirtyeight" data-layout="button_count"></div>
-				</li>
-				<li class="footer-menu-item social-share-item">
-					<a href="https://twitter.com/FiveThirtyEight" class="twitter-follow-button" data-show-count="true">Follow @FiveThirtyEight</a>
-				</li>
-			</ul>
-		</div>
-
-		<div class="footer-section-secondary-links">
-			<ul class="footer-menu">
-				<li class="footer-menu-item">
-					<a href="https://fivethirtyeight.com/contact/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=contact">Contact</a>
-				</li>
-				<li class="footer-menu-item">
-					<a href="https://fivethirtyeight.com/jobs/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=jobs">Jobs</a>
-				</li>
-				<li class="footer-menu-item">
-					<a href="https://fivethirtyeight.com/masthead/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=masthead">Masthead</a>
-				</li>
-				<li class="footer-menu-item">
-					<a href="http://priv-policy.imrworldwide.com/priv/browser/us/en/optout.html" name="&amp;lpos=fivethirtyeightFooter&amp;lid=nielsen">About Nielsen Measurement</a>
-				</li>
-			</ul>
-		</div><!-- .footer-secondary-links -->
-
-		<div class="footer-section-powered-by">
-			Powered by <a href="https://wpvip.com/?utm_source=vip_powered_wpcom&#038;utm_medium=web&#038;utm_campaign=VIP%20Footer%20Credit&#038;utm_term=fivethirtyeight.com" rel="generator nofollow" class="powered-by-wpcom">WordPress.com VIP</a>		</div><!-- .powered-by -->
-
-		<div class="footer-section-tertiary-links">
-			<ul class="footer-menu">
-				<li class="menu-item">
-					<a href="https://disneytermsofuse.com/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=disneyTOS" target="_blank" rel="noopener noreferrer">Terms of Use</a>
-				</li>
-				<li class="menu-item">
-					<a href="https://disneyprivacycenter.com/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=disneyPrivacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
-				</li>
-				<li class="menu-item">
-					<a href="https://privacy.thewaltdisneycompany.com/en/dnsmi/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=doNotSell" target="_blank" rel="noopener noreferrer">Do Not Sell My Info</a>
-				</li>
-				<li class="menu-item">
-					<a href="https://disneyprivacycenter.com/notice-to-california-residents/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=californiaPrivacyRights" target="_blank" rel="noopener noreferrer">Your California Privacy Rights</a>
-				</li>
-				<li class="menu-item">
-					<a href="https://disneyprivacycenter.com/kids-privacy-policy/english/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=childrensPrivacy" target="_blank" rel="noopener noreferrer">Children's Online Privacy Policy</a>
-				</li>
-				<li class="menu-item">
-					<a href="https://preferences-mgr.truste.com/?type=abcnews&affiliateId=11&cid=clicksource_4380645_footer_interestbasedads" name="&amp;lpos=fivethirtyeightFooter&amp;lid=adPreferences" target="_blank" rel="noopener noreferrer">Interest-Based Ads</a>
-				</li>
-			</ul>
-			<p>
-				&copy; 2020 ABC News Internet Ventures. All rights reserved.
-			</p>
-		</div>
-		<!-- / .footer-section-tertiary-links -->
-	</div><!-- .site-wrapper -->
-
-	<div class="footer-section-additional-info" id="footer-additional-info">
-		<div class="site-wrapper">
-			<button class="close-additional-info" id="close-additional-info" aria-label="Close"><span class="visually-hidden">Close Additional Information</span></button>
-			<a href="https://disneytermsofuse.com/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=disneyTOS">Terms of Use</a> and <a href="https://disneyprivacycenter.com/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=disneyPrivacy">Privacy Policy</a> and Safety Information/<a href="https://disneyprivacycenter.com/notice-to-california-residents/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=californiaPrivacyRights">Your California Privacy Rights</a>/<a href="https://disneyprivacycenter.com/kids-privacy-policy/english/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=childrensPrivacy">Children's Online Privacy Policy</a> are applicable to you. © 2020 ABC News Internet Ventures. All rights reserved. <a href="https://preferences-mgr.truste.com/?type=abcnews&affiliateId=11&cid=clicksource_4380645_footer_interestbasedads" name="&amp;lpos=fivethirtyeightFooter&amp;lid=adPreferences">Interest-Based Ads</a>. <a href="https://disneyprivacycenter.com/cookies-policy-translations/cookies-policy/">Cookie Policy</a>.
-		</div><!-- .site-wrapper -->
-	</div><!-- .footer-section-additional-info -->
-</footer><!-- .site-footer -->
-	<div id="sharing_email" style="display: none;">
-		<form action="/features/sanders-and-the-media-learned-the-wrong-lessons-from-trump-in-2016/" method="post">
-			<label for="target_email">Send to Email Address</label>
-			<input type="email" name="target_email" id="target_email" value="" />
-
-			
-				<label for="source_name">Your Name</label>
-				<input type="text" name="source_name" id="source_name" value="" />
-
-				<label for="source_email">Your Email Address</label>
-				<input type="email" name="source_email" id="source_email" value="" />
-
-						<input type="text" id="jetpack-source_f_name" name="source_f_name" class="input" value="" size="25" autocomplete="off" title="This field is for validation and should not be changed" />
-			
-			<img style="float: right; display: none" class="loading" src="https://fivethirtyeight.com/wp-content/mu-plugins/jetpack/modules/sharedaddy/images/loading.gif" alt="loading" width="16" height="16" />
-			<input type="submit" value="Send Email" class="sharing_send" />
-			<a rel="nofollow" href="#cancel" class="sharing_cancel" role="button">Cancel</a>
-
-			<div class="errors errors-1" style="display: none;">
-				Post was not sent - check your email addresses!			</div>
-
-			<div class="errors errors-2" style="display: none;">
-				Email check failed, please try again			</div>
-
-			<div class="errors errors-3" style="display: none;">
-				Sorry, your blog cannot share posts by email.			</div>
-		</form>
-	</div>
-<script>
-var DTCINotice = {"enabled":"0","cookie":"dismissNotice","end_date":"2020-05-14 23:59:00","message":"Please review our <a href=\"https:\/\/disneytermsofuse.com\">Terms of Use<\/a> which changed in the United States and Canada on 04\/14\/20."};
-</script>
-<script>
-var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
-</script>
-<script>
-var ESPNSocial = {"fbVersion":"3.0","fbAppId":"797620670264818"};
-</script>
-<script>
-var DTCIAdConfig = {"adSlotsToRefresh":["Banner","InContent","A9InContent","OutStream"],"adUnitPath":"\/21783347309\/abc-news\/fivethirtyeight.com\/web\/politics","placements":{"Banner":{"out-of-page":false,"sizes":[[970,250],[970,66],[728,90],[320,50],[300,50]],"defer":"none"},"InContent":{"out-of-page":false,"sizes":[[300,250],[300,600]],"defer":"none"},"A9InContent":{"out-of-page":false,"sizes":[[300,250],[300,600]],"defer":"none"},"OutStream":{"out-of-page":false,"sizes":[[1,3]],"defer":"none"}},"slots":{"Banner":[],"InContent":[],"A9InContent":[],"OutStream":[]},"mappings":{"Banner":[[[1280,100],[[970,250],[970,66],[728,90]]],[[1024,100],[[970,250],[970,66],[728,90]]],[[768,100],[[728,90]]],[[0,0],[[320,50],[300,50]]]],"InContent":[[[0,0],[]],[[768,50],[300,250]]]},"targeting":{"sp":"fivethirtyeight","objid":"269725","lang":"en","devType":"desktop","tag":["2016-election","2020-democratic-primary","2020-election","bernie-sanders","donald-trump","joe-biden"]},"referringSite":null,"referralMap":{"facebook.com":"facebook","twitter.com":"twitter","t.co":"twitter","google.com":"google","bing.com":"bing","yahoo.com":"yahoo","www.espn.com":"espn","espn.com":"espn","instagram.com":"instagram","reddit.com":"reddit","bleacherreport.com":"bleacherreport","tumblr.com":"tumblr","t.umblr.com":"tumblr","pinterest.com":"pinterest","fivethirtyeight.com":"fivethirtyeight","grantland.com":"grantland","theundefeated.com":"theundefeated"},"useOverlay":"0","refreshSimulatenously":"1","a9id":"3899","a9Params":{"si_section":"politics","section":"story"}};
-</script>
-<script type='text/javascript' src='https://fivethirtyeight.com/_static/??-eJyVkEtuwzAMRC9URsiiRrwochZ9aJuORBkmldS3r5F0IaSugyyHM48DjLlN4DMrspoplp5YjHUebAmUoUOrZcb1JIIqZhTjYvYXOSTiwygfZgMP6gkesb/cP4zinARyB0UQnGXGuWKJA37vVfbUwRTtAq6oZq7QJ6d+QuxjCXiPrbIoxa0OHTCtIZSJoaMr6kCzLkj9oFXPk7PTg8lheLmfDfV4q3qXaH+Bc/o6fp6aU9M2x3b8AaMTt/c='></script>
-<script>
-var sharing_js_options = {"lang":"en","counts":"","is_stats_active":"1"};
-</script>
-<script src='https://fivethirtyeight.com/wp-content/mu-plugins/jetpack/_inc/build/sharedaddy/sharing.min.js?ver=8.4.2'></script>
-<script>
-var windowOpen;
-			jQuery( document.body ).on( 'click', 'a.share-facebook', function() {
-				// If there's another sharing window open, close it.
-				if ( 'undefined' !== typeof windowOpen ) {
-					windowOpen.close();
-				}
-				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
-				return false;
-			});
-var windowOpen;
-			jQuery( document.body ).on( 'click', 'a.share-twitter', function() {
-				// If there's another sharing window open, close it.
-				if ( 'undefined' !== typeof windowOpen ) {
-					windowOpen.close();
-				}
-				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
-				return false;
-			});
-</script>
-<script type='text/javascript' src='https://stats.wp.com/e-202016.js' async='async' defer='defer'></script>
-<script type='text/javascript'>
-	_stq = window._stq || [];
-	_stq.push([ 'view', {v:'ext',j:'1:8.4.2',blog:'144970551',post:'269725',tz:'-4',srv:'fivethirtyeight.com'} ]);
-	_stq.push([ 'clickTrackerInit', '144970551', '269725' ]);
-</script>
-</body>
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+  </script>
+<!-- /Facebook -->
+<script type="text/javascript">window._sf_endpt = (new Date()).getTime()</script>
+  </body>
 </html>

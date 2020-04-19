@@ -1,1110 +1,1667 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link rel="preconnect" href="//cdnjs.cloudflare.com">
-<link rel="preconnect" href="//fonts.googleapis.com">
-<link rel="preconnect" href="//ib.adnxs.com">
-<link rel="preconnect" href="//experience.tinypass.com">
-<link rel="preconnect" href="//sandbox.tinypass.com">
-<link rel="preconnect" href="//www.googletagservices.com">
-<link rel="preconnect" href="//media.townhall.com">
-<link rel="preconnect" href="//prebid.adnxs.com">
-<link rel="preconnect" href="//www.google-analytics.com">
-<link rel="preconnect" href="//pagead2.googlesyndication.com">
-<link rel="preconnect" href="//ad.doubleclick.net">
-<link rel="preconnect" href="//securepubads.g.doubleclick.net">
-<link rel="preconnect" href="//c.amazon-adsystem.com">
-<link rel="preconnect" href="//townhallmedia-d.openx.net">
-<link rel="preconnect" href="//cdn.blueconic.net">
-<script>
-        document.cookie = "__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
-        var setNptTechAdblockerCookie = function (adblocker) {
-            var d = new Date();
-            d.setTime(d.getTime() + 60 * 60 * 24 * 2 * 1000);
-            document.cookie = "__adblocker=" + (adblocker ? "true" : "false") + "; expires=" + d.toUTCString() + "; path=/";
-        }
-        var script = document.createElement("script");
-        script.setAttribute("async", true);
-        script.setAttribute("src", "//www.npttech.com/advertising.js");
-        script.setAttribute("onerror", "setNptTechAdblockerCookie(true);");
-        document.getElementsByTagName("head")[0].appendChild(script);
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>America’s Left and the Confiscation of Wealth | The American Spectator	</title>
+	<meta property="og:title" content="America’s Left and the Confiscation of Wealth | The American Spectator | Politics Is Too Important To Be Taken Seriously."/>
+
+	<meta property="fb:app_id" content="344255302750045" />
+	<meta property="og:site_name" content="The American Spectator" />
+	<meta itemprop="name" content="The American Spectator">
+
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<meta property="og:image" content="https://149366087.v2.pressablecdn.com/wp-content/uploads/2019/04/Property-Seizure-shutterstock_1313649767.jpg" /><meta name="page-type" content="post"/>
+<meta name="description" content="America’s conservatives should be those least amazed by our left’s calls for wealth confiscation. The only surprise here is the..."/>
+<meta property="og:description" content="America’s conservatives should be those least amazed by our left’s calls for wealth confiscation. The only surprise here is the..."/>
+<link rel="canonical" href="https://spectator.org/americas-left-and-the-confiscation-of-wealth/" />
+<meta property="og:url" content="https://spectator.org/americas-left-and-the-confiscation-of-wealth/"/>
+
+	<meta property="og:type" content="website" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link rel="icon" type="image/ico" href="https://149366087.v2.pressablecdn.com/wp-content/themes/spectator/imgs/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	<link rel="stylesheet" href="https://149366087.v2.pressablecdn.com/wp-content/themes/spectator/style.css?v=1.0.9">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Merriweather:400,700|Roboto:400,700" rel="stylesheet">
+
+
+	<!-- Initialize EV.Core.init // Evolok Register/Login -->
+	<!-- <link rel="stylesheet" href="/wp-content/evolok/ev-widgets/ev-widgets.min.css">
+	<link rel="stylesheet" href="/wp-content/evolok/ev-widgets/prefixed-bootstrap.css">
+	<script src="/wp-content/evolok/ev-widgets/ev-widgets.min.js"></script>
+	<script src="/wp-content/evolok/ev-ad/ev-em.min.js"></script> -->
+	
+	<link rel="stylesheet" href="/wp-content/evolok/ev-widgets/bootstrap.css">
+	<link rel="stylesheet" href="/wp-content/evolok/ev-widgets/ev-widgets.min.css">
+	<script src="/wp-content/evolok/ev-widgets/ev-widgets.min.js"></script>
+	<script src="/wp-content/evolok/ev-ad/ev-em.min.js?v=3.2.19"></script>
+	
+	<!-- <script src="/js/jquery.sticky.js"></script>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function($){
+			$("#media_image-2").sticky({topSpacing:0});
+			$('#media_image-2').on('sticky-update', function() { console.log("Update"); });
+			
+			/* $(window).scroll(function(){
+				media_image_position = $('#media_image-2').offset().top;
+				media_image_height   = $('#media_image-2').height();
+				media_image_bottom   = media_image_position + media_image_height;
+		
+				related_post_position = $('.related-posts').offset().top;
+
+				if (media_image_bottom > related_post_position) {
+            		$("#media_image-2").unstick();
+        		}
+			}); */
+		});
+	</script> -->
+
+	<!-- evwidgets overrides -->
+
+	<script>
+		EV.Core.init({
+			serviceName: 'subscriptions',			 // the default service name
+			realmName: 'default_realm',						 // the default realm name
+			icDomain: 'https://sptus.evolok.net/ic/api',	// the Identity Core endpoint to use
+			recaptchaSiteKey: 'x6Ld6rV4UAAAAANFmlesXEUMDn29KuH-gIUqnlhVs',
+			secureMode: true,					 // if enabled, then set ex_ss secure cookie
+			ssoCookieDomain: 'spectator.org'		 // set the ev_ss or ex_ss (secureMore = true) cookie for subdomain suffix
+		});
+
+
+
+	</script>
+
+	<!-- Fetch Categories and Tags from Wordpress -->
+	<span id="ev_category_list" style="display:none;"><a href="https://spectator.org/category/politics/new-socialists/" rel="category tag">New Socialists</a>,<a href="https://spectator.org/category/politics/" rel="category tag">Politics</a>,<a href="https://spectator.org/category/top-story/" rel="category tag">Top Story</a></span>
+	<span id="ev_tags_list" style="display:none;"><a href="https://spectator.org/tag/arthur-laffer/" rel="tag">Arthur Laffer</a>,<a href="https://spectator.org/tag/confiscatory-socialism/" rel="tag">Confiscatory Socialism</a>,<a href="https://spectator.org/tag/politics/" rel="tag">Politics</a>,<a href="https://spectator.org/tag/the-left/" rel="tag">The Left</a>,<a href="https://spectator.org/tag/wealth-confiscation/" rel="tag">Wealth Confiscation</a></span>
+	<!-- Initialize EV.EM.init // Evolok Metering -->
+	<script type="text/javascript">
+		EV.Em.init({
+			url: "https://sptus.evolok.net/acd/api/3.0",
+			sidCookieDomain: "spectator.org"
+		});
+		
+		var params = JSON.stringify({
+			articleId: "392876",
+			title: "America’s Left and the Confiscation of Wealth",
+			authors: "J.T. Young",
+			category: document.querySelector('#ev_category_list').innerText,
+			tags: document.querySelector('#ev_tags_list').innerText
+		});
+
+		function handleMeteringSuccess(response) {
+			console.log(response);
+
+			/* if((response.segments[1] == 'FounderCircle/FriendOfSpectator' || response.segments[1] == 'DigitalPlus' || response.segments[1] == 'FriendOfSpectator' || response.segments[1] == 'FounderCircle') && response.loggedOut == false) {
+				$('.spectator-ads').remove();
+				$('body').addClass('premium-account');
+				$('body').addClass('user-subscribed');
+				$('#sticky-footer').remove();
+				$('.udm-ad').remove();
+			}
+			
+			if(response.segments[1] == 'Digital' && response.loggedOut == false) {
+				$('body').addClass('user-subscribed');
+			} */
+			 
+			let isGold 	 = false;
+			let isSilver = false;
+			
+			response.segments.forEach(function(segment){
+				switch (segment) {
+					case 'FounderCircle/FriendOfSpectator':
+						isGold = true;
+						break;
+					case 'DigitalPlus':
+						isGold = true;
+						break;
+					case 'FriendOfSpectator':
+						isGold = true;
+						break;
+					case 'FounderCircle':
+						isGold = true;
+						break;
+					case 'Digital':
+						isSilver = true;
+						break;
+					default:
+						break;
+				}
+			});
+	
+			jQuery(document).ready(function($){
+				if (isSilver && response.loggedOut == false) {
+					$('body').addClass('user-subscribed');
+					$('body').addClass('isSilverSubscription');
+				}
+
+				if (isGold && response.loggedOut == false) {
+					$('body').addClass('isGoldSubscription');
+					$('.spectator-ads').remove();
+					$('body').addClass('premium-account');
+					$('body').addClass('user-subscribed');
+					$('#sticky-footer').remove();
+					$('.udm-ad').remove();
+					
+				}
+				
+				$('.user-subscribed #whizzco_script').remove();
+				$('.user-subscribed .whizzco_widget').remove();
+				$('.sticky-footer-standard').remove();
+			});
+			
+			
+			if (response.exceededMeter.count) {
+				count = response.activeMeter.count;
+			} else {
+				count = response.exceededMeter.count;
+			}
+			
+			if (response.activeMeter.count >= 8 || response.exceededMeter.count >= 8) {
+				$('body').addClass('registered-user-last-notifier');
+			}
+
+			if (response.result == "ALLOW_ACCESS") {
+				console.log("ALLOW_ACCESS");	
+			} else if (response.requireEntitlement) {
+				//displayRequireLoginWithEntitlementPaywall();
+				console.log("REQUIRE_LOGIN_WITH_ENTITLEMENT");
+			} else {
+				if (response.result == "REQUIRE_LOGIN") {
+					displayRequireLoginPaywall();
+					console.log("REQUIRE_LOGIN");
+				} else {
+					displayRequireEntitlementPaywall();
+					console.log("REQUIRE_ENTITLEMENT");
+				}
+			}
+		}
+		
+		function handleMeteringError(error) {
+			console.log("You have reached an error, please login");
+		}
+		
+		EV.Em.authorize(params, handleMeteringSuccess, handleMeteringError);
+
+		jQuery(document).ready(function($){
+			EV.Event.on("ev.paywall.render.ready", function() {
+				EV.Event.publish("ev.paywall.paywallentitlement");
+			});
+			EV.Event.on('ev.notifier.opened', function(){
+				$('body').addClass('active-paywall');
+			});
+			
+			EV.Event.on('ev.paywall.opened', function(){
+				$('body').addClass('active-paywall');
+			});
+		});
+		
+		EV.handleNewSession(function(result) {
+			if ( !result.allowAccess ) {
+				window.location.reload();
+			}
+		});
+	</script>
+
+	<script>
+	function goBack(event) {
+		if ('referrer' in document) {
+			window.location = document.referrer;
+		} else {
+			window.history.back();
+		}
+	}
+	EV.Event.on("login.success", function (res) {
+		console.log("Login Success = ", res);
+		EV.Event.publish("ev.paywall.close");
+		EV.Event.publish("ev.notifier.close");
+	});
+	EV.Event.on('login.failed', function (res) {
+		console.log("Login Failed = ", res);
+	});
+	EV.Event.on('registration.failed', function (res) {
+		console.log("Registration Failed = ", res);
+	});
+
+	</script>
+
+	<!-- Social EV -->
+	<script>
+	EV.Social.init({
+		icDomain: 'https://sptus.evolok.net/ic/api',
+		serviceName: 'social',
+		realmName: 'default_realm',
+		redirectUri: 'https://spectator.org/wp-content/evolok/ev-social/social_redirect.html',
+		socialAttributeMapping: {
+			'email_address'	: 'email',
+			'first_name'	: 'firstName',
+			'last_name'		: 'lastName'
+		},
+		socialKeys: {
+			facebook: '1108930615885442'
+		}
+	});
+	</script>
+
+	<!-- Translate EV -->
+	<script>
+		EV.Translate.addTranslationTable("en_US", {
+			"ev.widgets.attr.Password.confirm.label": "Confirm Password",
+			"ev.widgets.attr.Password.confirm.placeholder": "Password",
+			"ev.widgets.changepassword.buttons.cancel" : "",
+			"ev.widgets.errors.idmex400" : "Password must be 8 characters long, include a number & special character.",
+			"ev.widgets.errors.attribute_validation_failed": "Details are invalid. Please enter valid details.",
+			"ev.widgets.errors.duplicate_user_profile": "Email already exits! Please use different email for signup.", 
+			"ev.widgets.errors.edit_successful": "Profile Updated",
+			"ev.widgets.errors.evwidgetexception": "Password must be 8 characters long, include a number & special character.",
+			"ev.widgets.errors.forgot_password_success": "Password reset email sent.",
+			"ev.widgets.errors.general_attributes": "Details are invalid. Please enter valid details.",
+			"ev.widgets.errors.general_attribute": "Details are invalid. Please enter valid details.",		 
+			"ev.widgets.errors.identifiers_invalid": "The password you have entered is incorrect. Please re-enter your password.",
+			"ev.widgets.errors.identifier_value_empty": "Please enter a valid email address.",
+			"ev.widgets.errors.invalid_form": "Please enter valid profile details.", 
+			"ev.widgets.errors.invalid_profile": "User account already exists, please login in above.",
+			"ev.widgets.errors.undefined_order_id": "The order has not been created, the order ID is undefined.",
+			"ev.widgets.errors.user_profile_identifiers_not_found": "Email address not found.",
+			"ev.widgets.errors.validators_value_empty": "Please enter a valid password.",
+			"ev.widgets.login.buttons.cancel" : "",
+			"ev.widgets.productSelection.select": "Subscribe",
+			"ev.widgets.productSelection.text.boosted": "Subscribe Today",
+			"ev.widgets.productSelection.text.normal": "Subscribe Today",
+			"ev.widgets.registration.buttons.cancel" : "",
+			"ev.widgets.resetpassword.buttons.cancel" : "",
+			"ev.widgets.editprofile.buttons.cancel" : "",
+			"ev.widgets.editprofile.buttons.submit" : "Update Profile",
+			"ev.widgets.errors.idmex409": "User account already exists, please login in above."
+		});
+		EV.Translate.setActiveLanguage("en_US", true);
+		EV.Widgets = EV.Widgets || {};
+
+		var spt = {};
+		spt.countries = [
+			{ caption: "Select Country"},
+			{ caption: "United States", value: "US" },
+			{ caption: "Canada", value: "CA" },
+			{ caption: "Afghanistan", value: "AF" },
+			{ caption: "Aland Islands", value: "AX" },
+			{ caption: "Albania", value: "AL" },
+			{ caption: "Algeria", value: "DZ" },
+			{ caption: "American Samoa", value: "AS" },
+			{ caption: "Andorra", value: "AD" },
+			{ caption: "Angola", value: "AO" },
+			{ caption: "Anguilla", value: "AI" },
+			{ caption: "Antarctica", value: "AQ" },
+			{ caption: "Antigua and Barbuda", value: "AG" },
+			{ caption: "Argentina", value: "AR" },
+			{ caption: "Armenia", value: "AM" },
+			{ caption: "Aruba", value: "AW" },
+			{ caption: "Australia", value: "AU" },
+			{ caption: "Austria", value: "AT" },
+			{ caption: "Azerbaijan", value: "AZ" },
+			{ caption: "Bahamas", value: "BS" },
+			{ caption: "Bahrain", value: "BH" },
+			{ caption: "Bangladesh", value: "BD" },
+			{ caption: "Barbados", value: "BB" },
+			{ caption: "Belarus", value: "BY" },
+			{ caption: "Belgium", value: "BE" },
+			{ caption: "Belize", value: "BZ" },
+			{ caption: "Benin", value: "BJ" },
+			{ caption: "Bermuda", value: "BM" },
+			{ caption: "Bhutan", value: "BT" },
+			{ caption: "Bolivia", value: "BO" },
+			{ caption: "Bonaire", value: "BQ" },
+			{ caption: "Bosnia and Herzegovina", value: "BA" },
+			{ caption: "Botswana", value: "BW" },
+			{ caption: "Bouvet Island", value: "BV" },
+			{ caption: "Brazil", value: "BR" },
+			{ caption: "British Indian Ocean Territory", value: "IO" },
+			{ caption: "British Virgin Islands", value: "VG" },
+			{ caption: "Brunei", value: "BN" },
+			{ caption: "Bulgaria", value: "BG" },
+			{ caption: "Burkina Faso", value: "BF" },
+			{ caption: "Burundi", value: "BI" },
+			{ caption: "Cambodia", value: "KH" },
+			{ caption: "Cameroon", value: "CM" },
+			{ caption: "Canada", value: "CA" },
+			{ caption: "Cape Verde", value: "CV" },
+			{ caption: "Cayman Islands", value: "KY" },
+			{ caption: "Central African Republic", value: "CF" },
+			{ caption: "Chad", value: "TD" },
+			{ caption: "Chile", value: "CL" },
+			{ caption: "China", value: "CN" },
+			{ caption: "Christmas Island", value: "CX" },
+			{ caption: "Cocos (Keeling) Islands", value: "CC" },
+			{ caption: "Colombia", value: "CO" },
+			{ caption: "Comoros", value: "KM" },
+			{ caption: "Congo, Democratic Republic of", value: "CD" },
+			{ caption: "Congo, Republic of", value: "CG" },
+			{ caption: "Cook Islands", value: "CK" },
+			{ caption: "Costa Rica", value: "CR" },
+			{ caption: "Croatia", value: "HR" },
+			{ caption: "Cuba", value: "CU" },
+			{ caption: "Curaçao", value: "CW" },
+			{ caption: "Cyprus", value: "CY" },
+			{ caption: "Czech Republic", value: "CZ" },
+			{ caption: "Denmark", value: "DK" },
+			{ caption: "Djibouti", value: "DJ" },
+			{ caption: "Dominica", value: "DM" },
+			{ caption: "Dominican Republic", value: "DO" },
+			{ caption: "Ecuador", value: "EC" },
+			{ caption: "Egypt", value: "EG" },
+			{ caption: "El Salvador", value: "SV" },
+			{ caption: "Equatorial Guinea", value: "GQ" },
+			{ caption: "Eritrea", value: "ER" },
+			{ caption: "Estonia", value: "EE" },
+			{ caption: "Ethiopia", value: "ET" },
+			{ caption: "Falkland Islands", value: "FK" },
+			{ caption: "Faroe Islands", value: "FO" },
+			{ caption: "Fiji", value: "FJ" },
+			{ caption: "Finland", value: "FI" },
+			{ caption: "France", value: "FR" },
+			{ caption: "French Guiana", value: "GF" },
+			{ caption: "French Polynesia", value: "PF" },
+			{ caption: "French Southern and Antarctic Lands", value: "TF" },
+			{ caption: "Gabon", value: "GA" },
+			{ caption: "Gambia", value: "GM" },
+			{ caption: "Georgia", value: "GE" },
+			{ caption: "Germany", value: "DE" },
+			{ caption: "Ghana", value: "GH" },
+			{ caption: "Gibraltar", value: "GI" },
+			{ caption: "Greece", value: "GR" },
+			{ caption: "Greenland", value: "GL" },
+			{ caption: "Grenada", value: "GD" },
+			{ caption: "Guadeloupe", value: "GP" },
+			{ caption: "Guam", value: "GU" },
+			{ caption: "Guatemala", value: "GT" },
+			{ caption: "Guernsey", value: "GG" },
+			{ caption: "Guinea", value: "GN" },
+			{ caption: "Guinea-Bissau", value: "GW" },
+			{ caption: "Guyana", value: "GY" },
+			{ caption: "Haiti", value: "HT" },
+			{ caption: "Heard Island and McDonald Islands", value: "HM" },
+			{ caption: "Honduras", value: "HN" },
+			{ caption: "Hong Kong", value: "HK" },
+			{ caption: "Hungary", value: "HU" },
+			{ caption: "Iceland", value: "IS" },
+			{ caption: "India", value: "IN" },
+			{ caption: "Indonesia", value: "ID" },
+			{ caption: "Iran", value: "IR" },
+			{ caption: "Iraq", value: "IQ" },
+			{ caption: "Ireland", value: "IE" },
+			{ caption: "Isle of Man", value: "IM" },
+			{ caption: "Israel", value: "IL" },
+			{ caption: "Italy", value: "IT" },
+			{ caption: "Ivory Coast", value: "CI" },
+			{ caption: "Jamaica", value: "JM" },
+			{ caption: "Japan", value: "JP" },
+			{ caption: "Jersey", value: "JE" },
+			{ caption: "Jordan", value: "JO" },
+			{ caption: "Kazakhstan", value: "KZ" },
+			{ caption: "Kenya", value: "KE" },
+			{ caption: "Kiribati", value: "KI" },
+			{ caption: "Korea, Democratic People's Republic of", value: "KP" },
+			{ caption: "Korea, Republic of", value: "KR" },
+			{ caption: "Kosovo", value: "XK" },
+			{ caption: "Kuwait", value: "KW" },
+			{ caption: "Kyrgyzstan", value: "KG" },
+			{ caption: "Laos", value: "LA" },
+			{ caption: "Latvia", value: "LV" },
+			{ caption: "Lebanon", value: "LB" },
+			{ caption: "Lesotho", value: "LS" },
+			{ caption: "Liberia", value: "LR" },
+			{ caption: "Libya", value: "LY" },
+			{ caption: "Liechtenstein", value: "LI" },
+			{ caption: "Lithuania", value: "LT" },
+			{ caption: "Luxembourg", value: "LU" },
+			{ caption: "Macau", value: "MO" },
+			{ caption: "Macedonia", value: "MK" },
+			{ caption: "Madagascar", value: "MG" },
+			{ caption: "Malawi", value: "MW" },
+			{ caption: "Malaysia", value: "MY" },
+			{ caption: "Maldives", value: "MV" },
+			{ caption: "Mali", value: "ML" },
+			{ caption: "Malta", value: "MT" },
+			{ caption: "Marshall Islands", value: "MH" },
+			{ caption: "Martinique", value: "MQ" },
+			{ caption: "Mauritania", value: "MR" },
+			{ caption: "Mauritius", value: "MU" },
+			{ caption: "Mayotte", value: "YT" },
+			{ caption: "Mexico", value: "MX" },
+			{ caption: "Micronesia", value: "FM" },
+			{ caption: "Moldova", value: "MD" },
+			{ caption: "Monaco", value: "MC" },
+			{ caption: "Mongolia", value: "MN" },
+			{ caption: "Montenegro", value: "ME" },
+			{ caption: "Montserrat", value: "MS" },
+			{ caption: "Morocco", value: "MA" },
+			{ caption: "Mozambique", value: "MZ" },
+			{ caption: "Myanmar", value: "MM" },
+			{ caption: "Namibia", value: "NA" },
+			{ caption: "Nauru", value: "NR" },
+			{ caption: "Nepal", value: "NP" },
+			{ caption: "Netherlands", value: "NL" },
+			{ caption: "New Caledonia", value: "NC" },
+			{ caption: "New Zealand", value: "NZ" },
+			{ caption: "Nicaragua", value: "NI" },
+			{ caption: "Niger", value: "NE" },
+			{ caption: "Nigeria", value: "NG" },
+			{ caption: "Niue", value: "NU" },
+			{ caption: "Norfolk Island", value: "NF" },
+			{ caption: "Northern Mariana Islands", value: "MP" },
+			{ caption: "Norway", value: "NO" },
+			{ caption: "Oman", value: "OM" },
+			{ caption: "Pakistan", value: "PK" },
+			{ caption: "Palau", value: "PW" },
+			{ caption: "Palestine", value: "PS" },
+			{ caption: "Panama", value: "PA" },
+			{ caption: "Papua New Guinea", value: "PG" },
+			{ caption: "Paraguay", value: "PY" },
+			{ caption: "Peru", value: "PE" },
+			{ caption: "Philippines", value: "PH" },
+			{ caption: "Pitcairn Islands", value: "PN" },
+			{ caption: "Poland", value: "PL" },
+			{ caption: "Portugal", value: "PT" },
+			{ caption: "Puerto Rico", value: "PR" },
+			{ caption: "Qatar", value: "QA" },
+			{ caption: "Réunion", value: "RE" },
+			{ caption: "Romania", value: "RO" },
+			{ caption: "Russia", value: "RU" },
+			{ caption: "Rwanda", value: "RW" },
+			{ caption: "Saint Barthélemy", value: "BL" },
+			{ caption: "Saint Helena, Ascension, and Tristan da Cunha", value: "SH" },
+			{ caption: "Saint Kitts and Nevis", value: "KN" },
+			{ caption: "Saint Lucia", value: "LC" },
+			{ caption: "Saint Martin", value: "MF" },
+			{ caption: "Saint Pierre and Miquelon", value: "PM" },
+			{ caption: "Saint Vincent and the Grenadines", value: "VC" },
+			{ caption: "Samoa", value: "WS" },
+			{ caption: "San Marino", value: "SM" },
+			{ caption: "São Tomé and Príncipe", value: "ST" },
+			{ caption: "Saudi Arabia", value: "SA" },
+			{ caption: "Senegal", value: "SN" },
+			{ caption: "Serbia", value: "RS" },
+			{ caption: "Seychelles", value: "SC" },
+			{ caption: "Sierra Leone", value: "SL" },
+			{ caption: "Singapore", value: "SG" },
+			{ caption: "Sint Maarten", value: "SX" },
+			{ caption: "Slovakia", value: "SK" },
+			{ caption: "Slovenia", value: "SI" },
+			{ caption: "Solomon Islands", value: "SB" },
+			{ caption: "Somalia", value: "SO" },
+			{ caption: "South Africa", value: "ZA" },
+			{ caption: "South Georgia", value: "GS" },
+			{ caption: "South Sudan", value: "SS" },
+			{ caption: "Spain", value: "ES" },
+			{ caption: "Sri Lanka", value: "LK" },
+			{ caption: "Sudan", value: "SD" },
+			{ caption: "Suriname", value: "SR" },
+			{ caption: "Svalbard and Jan Mayen", value: "SJ" },
+			{ caption: "Swaziland", value: "SZ" },
+			{ caption: "Sweden", value: "SE" },
+			{ caption: "Switzerland", value: "CH" },
+			{ caption: "Syria", value: "SY" },
+			{ caption: "Taiwan", value: "TW" },
+			{ caption: "Tajikistan", value: "TJ" },
+			{ caption: "Tanzania", value: "TZ" },
+			{ caption: "Thailand", value: "TH" },
+			{ caption: "Timor-Leste", value: "TL" },
+			{ caption: "Togo", value: "TG" },
+			{ caption: "Tokelau", value: "TK" },
+			{ caption: "Tonga", value: "TO" },
+			{ caption: "Trinidad and Tobago", value: "TT" },
+			{ caption: "Tunisia", value: "TN" },
+			{ caption: "Turkey", value: "TR" },
+			{ caption: "Turkmenistan", value: "TM" },
+			{ caption: "Turks and Caicos Islands", value: "TC" },
+			{ caption: "Tuvalu", value: "TV" },
+			{ caption: "Uganda", value: "UG" },
+			{ caption: "Ukraine", value: "UA" },
+			{ caption: "United Arab Emirates", value: "AE" },
+			{ caption: "United Kingdom", value: "GB" },
+			{ caption: "United States", value: "US" },
+			{ caption: "United States Minor Outlying Islands", value: "UM" },
+			{ caption: "United States Virgin Islands", value: "VI" },
+			{ caption: "Uruguay", value: "UY" },
+			{ caption: "Uzbekistan", value: "UZ" },
+			{ caption: "Vanuatu", value: "VU" },
+			{ caption: "Vatican City", value: "VA" },
+			{ caption: "Venezuela", value: "VE" },
+			{ caption: "Vietnam", value: "VN" },
+			{ caption: "Wallis and Futuna", value: "WF" },
+			{ caption: "Western Sahara", value: "EH" },
+			{ caption: "Yemen", value: "YE" },
+			{ caption: "Zambia", value: "ZM" },
+			{ caption: "Zimbabwe", value: "ZW" }
+		];
+
+		EV.Widgets.Display = {
+			'opt_in': {
+				'type': 'checkbox',
+				'values': [
+					{ 'value': 'false', 'caption' : 'Opt-In to Occasional Marketing Emails' }
+				]
+			},
+			is_this_a_gift: {
+				'type': 'checkbox',
+				'values': [
+					{ 'value': 'true', 'caption': 'Is this a gift?' }
+				]
+			},
+			country : {
+				type: "dropdown",
+				values: spt.countries
+				}
+		};
+	</script>
+
+	<!-- Product List -->
+	<script>
+	EV.PM.init({
+		pmDomain: 'https://sptus.evolok.net/pm/api/v2',
+		version: 2,
+		stripeKey: "pk_live_Mzc0nK0S7Fu0oJMsSlAv5fvl"
+	});
+
+	EV.Event.publish(EV.Event.PM_VALIDATE_PROFILE, {
+		serviceName: "subscriptions", 
+		successCb: function(response) {
+			console.log("The Profile is Valid");
+			//redirect to the next step in the flow
+		},
+		errorCb: function(error) {
+			console.log("Error Validating Profile:", error);
+			//redirect to the profile widget so that the user provides the missing attributes
+		}
+	});
+	</script>
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?‘&l=‘+l:‘’;j.async=true;j.src=
+	’https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-55TX7DC');</script>
+	<!-- End Google Tag Manager -->
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+	<![endif]-->
+		<style type="text/css">			.heateorSssInstagramBackground{background:radial-gradient(circle at 30% 107%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%)}
+											.heateor_sss_horizontal_sharing .heateorSssSharing,.heateor_sss_standard_follow_icons_container .heateorSssSharing{
+							color: #fff;
+						border-width: 0px;
+			border-style: solid;
+			border-color: transparent;
+		}
+				.heateor_sss_horizontal_sharing .heateorSssTCBackground{
+			color:#666;
+		}
+				.heateor_sss_horizontal_sharing .heateorSssSharing:hover,.heateor_sss_standard_follow_icons_container .heateorSssSharing:hover{
+						border-color: transparent;
+		}
+		.heateor_sss_vertical_sharing .heateorSssSharing,.heateor_sss_floating_follow_icons_container .heateorSssSharing{
+							color: #fff;
+						border-width: 0px;
+			border-style: solid;
+			border-color: transparent;
+		}
+				.heateor_sss_vertical_sharing .heateorSssTCBackground{
+			color:#666;
+		}
+				.heateor_sss_vertical_sharing .heateorSssSharing:hover,.heateor_sss_floating_follow_icons_container .heateorSssSharing:hover{
+						border-color: transparent;
+		}
+		
+		@media screen and (max-width:783px) {.heateor_sss_vertical_sharing{display:none!important}}@media screen and (max-width:783px) {.heateor_sss_floating_follow_icons_container{display:none!important}}div.heateor_sss_sharing_title{text-align:center}ul.heateor_sss_sharing_ul{width:100%;text-align:center;}div.heateor_sss_horizontal_sharing ul.heateor_sss_sharing_ul li{float:none!important;display:inline-block;}</style>
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer>//<![CDATA[
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+//]]>
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- Open Graph Meta Tags generated by Blog2Social 620 - https://www.blog2social.com -->
+<meta property="og:title" content="America’s Left and the Confiscation of Wealth"/>
+<meta property="og:description" content="America’s conservatives should be those least amazed by our left’s calls for wealth confiscation. The only surprise here is the flaunting. After all, wealth"/>
+<meta property="og:url" content="https://spectator.org/americas-left-and-the-confiscation-of-wealth/"/>
+<meta property="og:image" content="https://149366087.v2.pressablecdn.com/wp-content/uploads/2019/04/Property-Seizure-shutterstock_1313649767.jpg"/>
+<!-- Open Graph Meta Tags generated by Blog2Social 620 - https://www.blog2social.com -->
+
+<!-- Twitter Card generated by Blog2Social 620 - https://www.blog2social.com -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="America’s Left and the Confiscation of Wealth"/>
+<meta name="twitter:description" content="America’s conservatives should be those least amazed by our left’s calls for wealth confiscation. The only surprise here is the flaunting. After all, wealth"/>
+<meta name="twitter:image" content="https://149366087.v2.pressablecdn.com/wp-content/uploads/2019/04/Property-Seizure-shutterstock_1313649767.jpg"/>
+<!-- Twitter Card generated by Blog2Social 620 - https://www.blog2social.com -->
+<meta name="author" content="J.T. Young"/>
+<link rel='dns-prefetch' href='//code.responsivevoice.org' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="The American Spectator &raquo; America’s Left and the Confiscation of Wealth Comments Feed" href="https://spectator.org/americas-left-and-the-confiscation-of-wealth/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/spectator.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://149366087.v2.pressablecdn.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='apwpultimate-jplayer-style-css'  href='https://149366087.v2.pressablecdn.com/wp-content/plugins/audio-player-with-playlist-ultimate/assets/css/jplayer.blue.monday.min.css?ver=1.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='apwpultimate-public-style-css'  href='https://149366087.v2.pressablecdn.com/wp-content/plugins/audio-player-with-playlist-ultimate/assets/css/apwpultimate-public-style.css?ver=1.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='apwpultimate-font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=1.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://149366087.v2.pressablecdn.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.7' type='text/css' media='all' />
+<link rel='stylesheet' id='perfect-pullquotes-styles-css'  href='https://149366087.v2.pressablecdn.com/wp-content/plugins/perfect-pullquotes/perfect-pullquotes.css?ver=1.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='rv-style-css'  href='https://149366087.v2.pressablecdn.com/wp-content/plugins/responsivevoice-text-to-speech/includes/css/responsivevoice.css?ver=5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='sanpop-public-style-css'  href='https://149366087.v2.pressablecdn.com/wp-content/plugins/search-and-navigation-popup/assets/css/sanpop-public-style.css?ver=1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mc4wp-form-themes-css'  href='https://149366087.v2.pressablecdn.com/wp-content/plugins/mailchimp-for-wp/assets/css/form-themes.min.css?ver=4.7.6' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='https://149366087.v2.pressablecdn.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='https://149366087.v2.pressablecdn.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=2.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='https://149366087.v2.pressablecdn.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-pro-css'  href='https://149366087.v2.pressablecdn.com/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=2.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css'  href='https://149366087.v2.pressablecdn.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=2.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css'  href='https://149366087.v2.pressablecdn.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=2.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-398914-css'  href='https://149366087.v2.pressablecdn.com/wp-content/uploads/elementor/css/post-398914.css?ver=1586541947' type='text/css' media='all' />
+<link rel='stylesheet' id='heateor_sss_frontend_css-css'  href='https://149366087.v2.pressablecdn.com/wp-content/plugins/sassy-social-share/public/css/sassy-social-share-public.css?ver=3.3.9' type='text/css' media='all' />
+<link rel='stylesheet' id='heateor_sss_sharing_default_svg-css'  href='https://149366087.v2.pressablecdn.com/wp-content/plugins/sassy-social-share/admin/css/sassy-social-share-svg.css?ver=3.3.9' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Muli%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.4' type='text/css' media='all' />
+<script type='text/javascript' src='https://149366087.v2.pressablecdn.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://149366087.v2.pressablecdn.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://code.responsivevoice.org/1.6.2/responsivevoice.js?source=wp-plugin&#038;ver=5.4'></script>
+<script type='text/javascript' src='https://149366087.v2.pressablecdn.com/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://149366087.v2.pressablecdn.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=2.9.7'></script>
+<link rel='https://api.w.org/' href='https://spectator.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://spectator.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://spectator.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='The Fleeting Feeling of Freedom' href='https://spectator.org/the-fleeting-feeling-of-freedom/' />
+<link rel='next' title='Radical Environmentalism and Transhumanism: Symptoms of the Same Disease' href='https://spectator.org/radical-environmentalism-and-transhumanism-symptoms-of-the-same-disease/' />
+
+<link rel="canonical" href="https://spectator.org/americas-left-and-the-confiscation-of-wealth/" />
+<link rel='shortlink' href='https://spectator.org/?p=392876' />
+<link rel="alternate" type="application/json+oembed" href="https://spectator.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fspectator.org%2Famericas-left-and-the-confiscation-of-wealth%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://spectator.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fspectator.org%2Famericas-left-and-the-confiscation-of-wealth%2F&#038;format=xml" />
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Account page */
+.page-id-328038 .mc4wp-form-fields img {
+    width: auto;
+    height: 150px;
+}</style>
+<!-- end Simple Custom CSS and JS -->
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.mobile-menu .search-form-2{
+   display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .sanpop-link img {
+      width: 25px !important;
+      float: right !important;
+      margin-top: 15px !important;
+      margin-right: 30px !important;
+  }
+  
+  .sanpop-search-box input[type="search"] {
+    font-size: 18px !important;
+  }
+}
+
+
+/* Account Page */
+@media screen and (max-width: 700px) {
+  
+  .page-id-328038 .elementor-element-d1f60a9 .btn { margin-bottom: 10px; }
+  .elementor-element-7ca2978, .elementor-element-4ea7d9e { width: 50%; }
+  
+  .page-id-328038 .mc4wp-form { margin-bottom: 15px; }
+}
+
+
+@media screen and (max-width: 900px) {
+  .page-id-328038 #elementor-tab-content-5474 h3 {
+      font-size: 20px;
+      text-align: center;
+  }
+  
+  .page-id-328038 .mc4wp-form-fields h2 {
+    font-size: 16px;
+	margin-bottom: 10px;
+    line-height: 1;
+  }
+
+  .page-id-328038 .mc4wp-form-fields p {
+      margin: 0;
+  }
+
+  .page-id-328038 .mc4wp-form-fields img {
+      width: auto;
+      height: 100px;
+  }
+}</style>
+<!-- end Simple Custom CSS and JS -->
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.sanpop-link img{
+    width: 25px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 30px;
+}
+
+.sanpop-search-box button{
+  display:none !important;
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->
+<!-- HFCM by 99 Robots - Snippet # 1: Freestar.io Ad Code -->
+<div class="spectator-ads">
+<!-- Freestar.io Ad Code --> 
+<script data-cfasync="false" type="text/javascript">
+  var freestar = freestar || {};
+  freestar.hitTime = Date.now();
+  freestar.queue = freestar.queue || [];
+  freestar.config = freestar.config || {};
+  freestar.debug = window.location.search.indexOf('fsdebug') === -1 ? false : true;
+
+  // Tag IDs set here, must match Tags served in the Body for proper setup
+  freestar.config.enabled_slots = [
+    "spectator_300x600_300x250_right1",
+    "spectator_970x90_728x90_top",
+    "spectator_300x250_right2",
+    "spectator_300x250_right3",
+    "spectator_300x250_right4",
+    "spectator_300x250_right5",
+    "spectator_300x250_320x50_320x100_incontent_1",
+    "spectator_160x600_right",
+    "spectator_300x250_320x50_320x100_incontent_2",
+    "spectator_300x250_320x50_320x100_incontent_3",
+    "spectator_300x250_320x50_320x100_incontent_4",
+    "spectator_728x90_endofarticle"
+  ];
+
+  !function(a,b){var c=b.getElementsByTagName("script")[0],d=b.createElement("script"),e="https://a.pub.network/spectator-org";e+=freestar.debug?"/qa/pubfig.min.js":"/pubfig.min.js",d.async=!0,d.src=e,c.parentNode.insertBefore(d,c)}(window,document);
+</script>
+<!-- End Freestar.io Ad Tag -->
+</div>
+<!-- /end HFCM by 99 Robots -->
+<!-- HFCM by 99 Robots - Snippet # 2: Instant Articles -->
+<!-- Instant articles meta tag -->
+        <meta property=“fb:pages” content=“119049414803510" />
+        <!-- Instant articles meta tag -->
+<!-- /end HFCM by 99 Robots -->
+<!-- HFCM by 99 Robots - Snippet # 4: Insticator Ad Code -->
+<div class="spectator-ads"><!-- Header Tag Code --><script data-cfasync='false' type='text/javascript'>/*<![CDATA[*/(function (a, c, s, u){'Insticator'in a || (a.Insticator={ad:{loadAd: function (b){Insticator.ad.q.push(b)}, q: []}, helper:{}, embed:{}, version: "4.0", q: [], load: function (t, o){Insticator.q.push({t: t, o: o})}}); var b=c.createElement(s); b.src=u; b.async=!0; var d=c.getElementsByTagName(s)[0]; d.parentNode.insertBefore(b, d)})(window, document, 'script', '//d3lcz8vpax4lo2.cloudfront.net/ads-code/d87e8ba1-7961-46cc-a641-d1f35ee7497f.js');/*]]>*/</script><!-- End Header Tag Code --></div>
+<!-- /end HFCM by 99 Robots -->
+
+	<style id="zeno-font-resizer" type="text/css">
+		p.zeno_font_resizer .screen-reader-text {
+			border: 0;
+			clip: rect(1px, 1px, 1px, 1px);
+			clip-path: inset(50%);
+			height: 1px;
+			margin: -1px;
+			overflow: hidden;
+			padding: 0;
+			position: absolute;
+			width: 1px;
+			word-wrap: normal !important;
+		}
+	</style>
+	
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer>//<![CDATA[
+var google_tag_params = {"pageTitle":"America\u2019s Left and the Confiscation of Wealth | ","pagePostType":"post","pagePostType2":"single-post","pageCategory":["new-socialists","politics","top-story"],"pageAttributes":["arthur-laffer","confiscatory-socialism","politics","the-left","wealth-confiscation"],"pagePostAuthorID":87,"pagePostAuthor":"J.T. Young","pagePostDate":"April 17, 2019","pagePostDateYear":"2019","pagePostDateMonth":"04","pagePostDateDay":"17"};
+	var dataLayer_content = {"pageTitle":"America’s Left and the Confiscation of Wealth | ","pagePostType":"post","pagePostType2":"single-post","pageCategory":["new-socialists","politics","top-story"],"pageAttributes":["arthur-laffer","confiscatory-socialism","politics","the-left","wealth-confiscation"],"pagePostAuthorID":87,"pagePostAuthor":"J.T. Young","pagePostDate":"April 17, 2019","pagePostDateYear":"2019","pagePostDateMonth":"04","pagePostDateDay":"17","google_tag_params":window.google_tag_params};
+	dataLayer.push( dataLayer_content );//]]>
+</script>
+<script data-cfasync="false">//<![CDATA[
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-ML2NQZP');//]]>
+</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->      <meta name="onesignal" content="wordpress-plugin"/>
+            <script>
+
+      window.OneSignal = window.OneSignal || [];
+
+      OneSignal.push( function() {
+        OneSignal.SERVICE_WORKER_UPDATER_PATH = "OneSignalSDKUpdaterWorker.js.php";
+        OneSignal.SERVICE_WORKER_PATH = "OneSignalSDKWorker.js.php";
+        OneSignal.SERVICE_WORKER_PARAM = { scope: '/' };
+
+        OneSignal.setDefaultNotificationUrl("https://spectator.org");
+        var oneSignal_options = {};
+        window._oneSignalInitOptions = oneSignal_options;
+
+        oneSignal_options['wordpress'] = true;
+oneSignal_options['appId'] = '28045d29-ff7b-4cc7-a1d6-cf9621ae5246';
+oneSignal_options['welcomeNotification'] = { };
+oneSignal_options['welcomeNotification']['title'] = "";
+oneSignal_options['welcomeNotification']['message'] = "";
+oneSignal_options['path'] = "https://spectator.org/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/";
+oneSignal_options['promptOptions'] = { };
+                OneSignal.init(window._oneSignalInitOptions);
+                      });
+
+      function documentInitOneSignal() {
+        var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+
+        var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };        for(var i = 0; i < oneSignal_elements.length; i++)
+          oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
+      }
+
+      if (document.readyState === 'complete') {
+           documentInitOneSignal();
+      }
+      else {
+           window.addEventListener("load", function(event){
+               documentInitOneSignal();
+          });
+      }
     </script>
-<script type="text/javascript" src="//d2ze07sbtyfzd0.cloudfront.net/script.js"></script>
-<script async src="https://cdn.blueconic.net/salemmediagroup.js"></script>
-<script type='text/javascript'>var _sf_startpt = (new Date()).getTime()</script>
-<link rel="manifest" href="/manifest.json">
-<link rel="alternate" href="https://townhall.com" hreflang="en-us">
+<style type="text/css">
+.apwp-audio-player-wrp .controller-common,
+			.apwp-audio-player-wrp .jp-play-bar,
+			.apwp-audio-player-wrp .jp-volume-bar-value,
+			.apwp-audio-player-wrp div.jp-type-playlist div.jp-playlist li.jp-playlist-current::before{background-color:#ff6347}
+			.apwp-audio-player-wrp div.jp-type-playlist div.jp-playlist a.jp-playlist-current, .apwp-audio-player-wrp div.jp-type-playlist div.jp-playlist a:hover,
+			.apwp-audio-player-wrp .jp-state-looped .jp-repeat::before,
+			.apwp-audio-player-wrp .playlist-btn.active::before,
+			.apwp-audio-player-wrp .jp-state-shuffled .jp-shuffle::before{color:#ff6347}
+			.apwp-audio-player-wrp .playlist-block, .apwp-audio-player-wrp .playlist-block-style-two, .apwp-audio-player-wrp .jp-playlist.playlist-block{background:#f7f7f7;}
+			div.jp-type-playlist div.jp-playlist a{color:#000000;}
+			.apwp-audio-player-wrp .album-art-block .jp-title{color:#ffffff;background-color:rgba(0,0,0,0.33);font-size:22px;}
+			.apwp-audio-player-wrp .jp-playlist-item h4{font-size:18px;}
+			.jp-video .jp-progress .jp-play-bar:before, .jp-type-single .jp-progress .jp-play-bar:before, .jp-volume-bar-value::before,.apwp-jplayer-design-overide .jp-type-single .jp-details, .apwp-jplayer-design-overide .controller-common, .apwp-jplayer-design-overide .jp-play-bar, .jp-volume-bar-value, .apwp-jplayer-design-overide .jp-state-playing .jp-play{background:#ff6347;}
+			.apwp-jplayer-design-overide .jp-state-looped .jp-repeat::before, .apwp-jplayer-design-overide .jp-volume-controls button::before{color:#ff6347;}
+           	.jp-details .jp-title {color:#ffffff; font-size:22px;}
+
+
+			
+</style>
+<link rel="icon" href="https://149366087.v2.pressablecdn.com/wp-content/uploads/2019/03/cropped-favicon-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://149366087.v2.pressablecdn.com/wp-content/uploads/2019/03/cropped-favicon-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://149366087.v2.pressablecdn.com/wp-content/uploads/2019/03/cropped-favicon-300x300.png" />
+<meta name="msapplication-TileImage" content="https://149366087.v2.pressablecdn.com/wp-content/uploads/2019/03/cropped-favicon-300x300.png" />
 <style>
-        .async-hide {
-            opacity: 0 !important
-        }
-    </style>
-<script>
-        (function (a, s, y, n, c, h, i, d, e) {
-            s.className += ' ' + y; h.start = 1 * new Date;
-            h.end = i = function () { s.className = s.className.replace(RegExp(' ?' + y), '') };
-            (a[n] = a[n] || []).hide = h; setTimeout(function () { i(); h.end = null }, c); h.timeout = c;
-        })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
-            { 'GTM-KT87G5R': true });
-    </script>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments);
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-404425-3', 'auto', { 'useAmpClientId': true });
-    
-    ga('require', 'GTM-KT87G5R');
-    
-    //ga('set', 'transport', 'beacon');
-    ga('require', 'displayfeatures');
-    if (typeof hptId !== 'undefined')
-    {
-        ga('set', 'dimension2', hptId);
-    }
-    
-    ga('set', 'dimension7', 'free');
-    ga('send', 'pageview');
-</script>
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-<link rel="apple-touch-icon" sizes="57x57" href="https://media.townhall.com/thm/favicon/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="https://media.townhall.com/thm/favicon/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="https://media.townhall.com/thm/favicon/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="https://media.townhall.com/thm/favicon/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="https://media.townhall.com/thm/favicon/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="https://media.townhall.com/thm/favicon/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="https://media.townhall.com/thm/favicon/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="https://media.townhall.com/thm/favicon/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://media.townhall.com/thm/favicon/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-16x16.png" sizes="16x16">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/android-chrome-192x192.png" sizes="192x192">
-<meta name="msapplication-square70x70logo" content="https://media.townhall.com/thm/favicon/smalltile.png" />
-<meta name="msapplication-square150x150logo" content="https://media.townhall.com/thm/favicon/mediumtile.png" />
-<meta name="msapplication-wide310x150logo" content="https://media.townhall.com/thm/favicon/widetile.png" />
-<meta name="msapplication-square310x310logo" content="https://media.townhall.com/thm/favicon/largetile.png" />
-<link href="/resources/css/bootstrap.min.css" rel="preload" as="style" />
-<link href="/resources/css/bootstrap.min.css" rel="stylesheet" />
-<link href="/resources/dist/css/main.min.css?v=2" rel="preload" as="style" />
-<link href="/resources/dist/css/main.min.css?v=2" rel="stylesheet" />
-<link href="/resources/lib/jquery/dist/jquery.min.js" rel="preload" as="script" />
-<script src="/resources/lib/jquery/dist/jquery.min.js"></script>
-<meta property="fb:app_id" content="967808926746051" />
-<meta property="fb:pages" content="41632789656,103971336305218,319569361390023,106547192707583,124538510989702,283971595408,15418366158,153162531376557,127519040661256,123834811060739,305174559545115,321502821264274,413465452078762,492802317512753,140705212665688,116757565026850,114013445328868" />
-<title>President Trump: We&#39;re Working Closely with Governors to Open the Economy</title>
-<meta name="description" content=".04/18/2020 4:57:45AM EST." />
-<link rel="amphtml" href="https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811?amp=true">
-<meta name="keywords" content="Donald Trump, Jobs and Economy, economic crisis, wuhan coronavirus" />
-<meta name="robots" content="index, follow" />
-<meta name="author" content="Katie Pavlich" />
-<link rel="author" href="https://plus.google.com/u/0/111211985562830458144/" />
-<link rel="canonical" href="https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811" />
-<meta property="og:title" content="President Trump: We&#39;re Working Closely with Governors to Open the Economy" />
-<meta property="og:type" content="Article" />
-<meta property="og:url" content="https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811" />
-<meta property="og:image" content="https://media.townhall.com/townhall/reu/s1280x720/2020/100/4ff02a46-c9da-4ec3-9884-be02dae2ba65.jpg" />
-<meta property="og:site_name" content="Townhall " />
-<meta property="og:description" content="" />
-<script type="application/ld+json">
-        {
-        "@context": "http://schema.org",
-        "@type": "NewsArticle",
-        "headline": "President Trump: We&#39;re Working Closely with Governors to Open the Economy",
-        "datePublished": "2020-04-13T12:15:00-04:00",
-        "dateModified": "2020-04-13T12:15:00-04:00" ,
-        "image": {
-        "@type": "ImageObject",
-        "url": "https://media.townhall.com/townhall/reu/s1280x720/2020/100/4ff02a46-c9da-4ec3-9884-be02dae2ba65.jpg",
-        "height": 665,
-        "width": 700
-        },
-        "mainEntityOfPage":"https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811",
-        "author": {
-        "@type": "Person",
-        "name": "Katie Pavlich"
-        },
-        "publisher": {
-        "@type":"Organization",
-        "name": "Townhall.com",
-        "logo": {
-        "@type": "ImageObject",
-        "url": "https://media.townhall.com/townhall/ampmobile/Logo_TH_3.png",
-        "width": 128,
-        "height": 60
-        }
-        }
-        }
-    </script>
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="President Trump: We&#39;re Working Closely with Governors to Open the Economy" />
-<meta name="twitter:image" content="https://media.townhall.com/townhall/reu/s1280x720/2020/100/4ff02a46-c9da-4ec3-9884-be02dae2ba65.jpg?184" />
-<meta name="twitter:url" content="https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811?184" />
-<meta name="twitter:description" content="" />
-<meta name="twitter:site" content="@townhallcom" />
-<script type="text/javascript">
-        var _sf_async_config = {};
-        /** CONFIGURATION START **/
-        _sf_async_config.uid = 14482;
-        _sf_async_config.domain = 'townhall.com';
-        _sf_async_config.sections = 'tipsheet';
-        _sf_async_config.authors = 'Katie Pavlich';
-
-        var _cbq = window._cbq = window._cbq || [];
-        if (localStorage.getItem('_cbq_acct')) {
-            _cbq.push(['_acct', localStorage.getItem( '_cbq_acct' )||"anon"]);
-        }
-
-
-        _sf_async_config.useCanonical = true;
-        /** CONFIGURATION END **/
-        (function () {
-            function loadChartbeat() {
-                window._sf_endpt = (new Date()).getTime();
-                var e = document.createElement('script');
-                e.setAttribute('language', 'javascript');
-                e.setAttribute('type', 'text/javascript');
-                e.setAttribute('src',
-                           (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
-                           'js/chartbeat.js');
-                document.body.appendChild(e);
-            }
-            var oldonload = window.onload;
-            window.onload = (typeof window.onload != 'function') ?
-                loadChartbeat : function () { oldonload(); loadChartbeat(); };
-        })();
-
-</script>
-<script>
-    var _comscore = _comscore || [];
-    _comscore.push({
-        c1: "2",
-        c2: "21057668",
-        c3: "",
-        c4: ""
-    });
-    (function () {
-        var s = document.createElement("script"),
-            el = document.getElementsByTagName("script")[0];
-        s.async = true;
-        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-        el.parentNode.insertBefore(s, el);
-    })();
-</script>
-<noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=21057668&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" /> </noscript>
-
-<script>
-    !function (f, b, e, v, n, t, s) {
-        if (f.fbq) return; n = f.fbq = function () {
-            n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        }; if (!f._fbq) f._fbq = n;
-        n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
-        t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
-    }(window,
-        document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-
-    fbq('init', '791796474183597');
-    fbq('track', "PageView");</script>
-<noscript>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=791796474183597&ev=PageView&noscript=1" />
-</noscript>
-
-<script>
-        function getRoxotGroupId() {
-            try {
-                var storageKey = 'roxot-gid';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 10000);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '10001';
-            }
-        }
-
-        function getRoxotSectorId() {
-            try {
-                var storageKey = 'roxot-sid';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 100);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '101';
-            }
-        }
-
-        function getRoxotDeep() {
-            try {
-                var storageKey = 'roxot-deep';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 100);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '101';
-            }
-        }
-
-        function getRoxotEvent() {
-            return '' + (1 + Math.floor(Math.random() * 100));
-        }
-    </script>
-<script>
-        var bidTimeout = 3000;
-        var refreshInterval = 60000;
-        var PREBID_TIMEOUT = bidTimeout;
-        var FAILSAFE_TIMEOUT = 3000;
-        var SCREEN_TIME = false;
-        var PREBID = true;
-        var adUnits = [{"code":"div-gpt-728x90_1","sizes":[[728,90],[970,90],[970,250]],"bids":[{"bidder":"openx","params":{"unit":"537998002","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381642"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-728x90_1@728x90"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_2","sizes":[[300,250]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_2@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_1","sizes":[[300,250],[300,600]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_1@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_3","sizes":[[300,250],[300,600]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_3@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_sticky","sizes":[[300,250]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_sticky@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]}];
-        var apstagSlots = [{"slotID":"div-gpt-728x90_1","slotName":"/6177/slm.townhall/tipsheet/728x90_1","sizes":[[728,90],[970,90],[970,250]]},{"slotID":"div-gpt-300x250_2","slotName":"/6177/slm.townhall/tipsheet/300x250_2","sizes":[[300,250]]},{"slotID":"div-gpt-300x250_1","slotName":"/6177/slm.townhall/tipsheet/300x250_1","sizes":[[300,250],[300,600]]},{"slotID":"div-gpt-300x250_3","slotName":"/6177/slm.townhall/tipsheet/300x250_3","sizes":[[300,250],[300,600]]},{"slotID":"div-gpt-300x250_sticky","slotName":"/6177/slm.townhall/tipsheet/300x250_sticky","sizes":[[300,250]]}];
-    </script>
-<script src="/resources/dist/js/prebid-latest.min.js?v=2.5.1-1"></script>
-<script async>
-        //<![CDATA[
-
-        var gptAdUnitPath = "tipsheet";
-        var gptAdSlot = [];
-
-        googletag.cmd.push(function () {
-            googletag.pubads().disableInitialLoad();
-            try {
-                gptAdSlot['div-gpt-728x90_1'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/728x90_1', [[728,90],[970,90],[970,250],[1,1]], 'div-gpt-728x90_1').addService(googletag.pubads()).setTargeting('pos', '728x90_1').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_2'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_2', [[300,250]], 'div-gpt-300x250_2').addService(googletag.pubads()).setTargeting('pos', '300x250_2').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_1'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_1', [[300,250],[300,600]], 'div-gpt-300x250_1').addService(googletag.pubads()).setTargeting('pos', '300x250_1').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_3'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_3', [[300,250],[300,600]], 'div-gpt-300x250_3').addService(googletag.pubads()).setTargeting('pos', '300x250_3').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_sticky'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_sticky', [[300,250]], 'div-gpt-300x250_sticky').addService(googletag.pubads()).setTargeting('pos', '300x250_sticky').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-oop'] = googletag.defineOutOfPageSlot('/6177/slm.townhall/tipsheet', 'div-gpt-oop').addService(googletag.pubads());
-
-
-                if (typeof Storage !== "undefined") {
-                    var targetingParamStr = localStorage.getItem("bcDFPTargetingParams");
-
-                    if (targetingParamStr) {
-                        var targetingParameters = JSON.parse(targetingParamStr);
-
-                        // set page-level targeting parameters
-                        jQuery.each(targetingParameters, function (index, param) {
-                            window.googletag.pubads().setTargeting(param.key, param.value);
-                        });
-                    }
-                }
-            } catch (e) {
-                console.error("thm-ad-exception", e);
-            }
-
-            googletag.pubads().addEventListener('impressionViewable', function (event) {
-                
-                var slot = event.slot;
-                if (slot.getTargeting('refresh').indexOf('true') > -1) {
-                    setTimeout(function () {
-                        Thm.RefreshAd(slot);
-                    }, refreshInterval);
-                }
-            });
-            
-            
-            googletag.pubads().setTargeting("tags",["Donald Trump","Jobs and Economy","economic crisis","wuhan coronavirus"]).setTargeting("author", "Katie Pavlich").setTargeting("fullUrl", "president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811");
-
-            
-
-            googletag.enableServices();
-
-        });
-        //]]>
-    </script>
-<link href="/resources/lib/owl-carousel2/dist/assets/owl.carousel.min.css" rel="stylesheet" />
-<script id="article-meta" type="application/json">
-            {"Title":"President Trump: We're Working Closely with Governors to Open the Economy","IsArticleView":true,"BaseShareUrl":"http://townhall.com","Canonical":"https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811","ShareTitle":"Katie Pavlich - President Trump: We're Working Closely with Governors to Open the Economy","PublishedDate":"2020-04-13T12:15:00","Id":133401,"Author":"Katie Pavlich","AuthorImage":"https://media.townhall.com/townhall/reu/contributor-sm/authorimages/44384266-8af9-4185-bebc-390f142f688a.png","ImageUrl":"https://media.townhall.com/townhall/reu/ha/2020/100/4ff02a46-c9da-4ec3-9884-be02dae2ba65.jpg","Tags":[499,1585,4619,17783],"Url":"https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811","Soup":0}
-        </script>
+.ai-viewports                 {--ai: 1;}
+.ai-viewport-3                { display: none !important;}
+.ai-viewport-2                { display: none !important;}
+.ai-viewport-1                { display: inherit !important;}
+.ai-viewport-0                { display: none !important;}
+@media (min-width: 768px) and (max-width: 979px) {
+.ai-viewport-1                { display: none !important;}
+.ai-viewport-2                { display: inherit !important;}
+}
+@media (max-width: 767px) {
+.ai-viewport-1                { display: none !important;}
+.ai-viewport-3                { display: inherit !important;}
+}
+</style>
 </head>
-<body>
-<div class="thm-piano-top"></div>
-<div id="search">
-<button type="button" class="close"><i class="fa fa-close"></i></button>
-<form id="site-search">
-<input type="search" id="q" name="q" value="" placeholder="Search townhall.com...." />
-<button type="button" class="btn btn-default btn-search"><i class="fa fa-search"></i></button>
-</form>
-</div>
-<header>
+<body class="post-template-default single single-post postid-392876 single-format-standard elementor-default elementor-kit-411485 ">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-ML2NQZP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><br style="display:none;">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55TX7DC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
-<nav id="thm-nav-sm" class="navbar navbar-default navbar-condensed navbar-fixed-top navbar-article-header">
-<div class="breaking-news-bar-container-condensed"></div>
-<div class="container">
-<div class="navbar-header">
-<a class="navbar-brand" href="/">
-<img src="/resources/th_logo.svg" class="th-logo" alt="">
-</a>
-</div>
-<div id="navbar" class="navbar-collapse collapse">
-<ul class="nav navbar-nav navbar-links navbar-right">
-<li><a title="Columnists" href="/columnists/" class="top-menu">Columnists</a></li>
-<li class="active"><a title="Tipsheet" href="/tipsheet/" class="top-menu">Tipsheet</a></li>
-<li><a title="Cartoons" href="/political-cartoons/" class="top-menu">Cartoons</a></li>
-<li><a title="Podcasts" class="top-menu" href="/podcasts/">Podcasts</a></li>
-<li><a title="Election" class="top-menu hidden-md hidden-sm" href="/election/"><img class="ec-2020-m" src="https://media.townhall.com/thm/ec2020.png" /></a></li>
-<li><a title="Membership: VIP" class="top-menu" href="/vip/"><img class="vip-brand" src="/resources/dist/svg/subscriptions-badge-vip.svg"></a></li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle top-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sections <span class="fa fa-chevron-down"></span></a>
-<ul class="dropdown-menu">
-<li><a title="Newsletter signup" href="/newsletter/">Newsletters</a></li>
-<li class="hidden-lg"><a title="Podcasts" href="/podcasts/">Podcasts</a></li>
-<li><a title="Townhall TV" href="/tv/">Townhall TV</a></li>
-<li><a title="Election " href="/election/">Election</a></li>
-<li><a title="Capitol Voices" href="/capitol-voices/">Capitol Voices</a></li>
-<li><a title="Entertainment" href="/entertainment/">Entertainment</a></li>
-<li><a title="Radio News" href="/news/">Radio News</a></li>
-<li class="hidden-lg"><a title="Election" href="/election/"><img class="ec-2020-m" src="https://media.townhall.com/thm/ec2020.png" /></a></li>
-<li><a title="Live Blog" href="/liveblog/">Live Blog</a></li>
-<li><a title="Topics" href="/tags/">Topics</a></li>
-</ul>
-</li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle top-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sites <span class="fa fa-chevron-down"></span></a>
-<ul class="dropdown-menu">
-<li><a href="http://hotair.com" target="_blank">Hot Air</a></li>
-<li><a href="http://pjmedia.com" target="_blank">PJ Media</a></li>
-<li><a href="http://bearingarms.com" target="_blank">Bearing Arms</a></li>
-<li><a href="http://twitchy.com" target="_blank">Twitchy</a></li>
-<li><a href="http://redstate.com" target="_blank">RedState</a></li>
-<li><a href="http://finance.townhall.com" target="_blank">Townhall Finance</a></li>
-<li><a href="http://www.conservativeradio.com/" target="_blank">Conservative Radio</a></li>
-</ul>
-</li>
-<li><a class="btn btn-default btn-sm btn-join hidden" href="/subscribe?tpcc=home_button">JOIN VIP</a></li>
-<li><a class="btn btn-default btn-sm btn-login hidden">LOGIN</a></li>
-<li>
-<div class="btn-group btn-account hidden">
-<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-MY ACCOUNT <span class="caret"></span>
-</button>
-<ul class="dropdown-menu">
-<li><a href="/account/" class="lnk-account">Account Settings</a></li>
-<li><a href="/newsletter/">Newsletter Subscriptions</a></li>
-<li><a href="#" class="lnk-logout">Log Out</a></li>
-</ul>
-</div>
-</li>
-<li>&nbsp;&nbsp;<button title="Search" id="btn-show-search" class="btn btn-default btn-show-search"><i class="fa fa-search"></i></button></li>
-</ul>
-</div>
-</div>
-</nav>
-<div class="thm-pad" style="padding-top:50px;">
-</div>
-<nav class="navbar navbar-default navbar-fixed-top navbar-article">
-<div class="container">
-<div class="navbar-header">
-<a class="navbar-brand" href="/"><img src="/resources/th_logo.svg" class="th-logo"></a>
-</div>
-<div id="navbar" class="navbar-collapse collapse">
-<ul class="nav navbar-nav navbar-title">
-<li class="headline">President Trump: We&#39;re Working Closely with Governors to Open the Economy</li>
-</ul>
-<ul class="nav navbar-nav navbar-btn-search pull-right">
-<li><button class="btn btn-facebook-lg sc-fb"><i class="fa fa-facebook-official"></i>&nbsp;Share</button></li>
-<li><button class="btn btn-twitter-lg sc-tw"><i class="fa fa-twitter"></i>&nbsp;Tweet</button></li>
-<li><button title="Search" id="btn-show-search" class="btn btn-default btn-show-search"><i class="fa fa-search"></i></button></li>
-</ul>
-</div>
-</div>
-<div class="thm-carousel">
-<div class="owl-carousel owl-theme">
-<div class="item">
- <div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/gov-abbott-outlines-texass-three-phases-for-re-opening-the-lone-star-state-n2567148"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="And the First State to Start Re-Opening Is Texas " data-src="//media.townhall.com/townhall/reu/b/2020/97/6145e8ce-c4e0-414e-a5c9-eeb983d20c05.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/gov-abbott-outlines-texass-three-phases-for-re-opening-the-lone-star-state-n2567148">And the First State to Start Re-Opening Is Texas </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" data-src="//media.townhall.com/townhall/reu/b/2020/108/0312f0de-aebe-4ffd-8865-086c6760c7bf.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157">Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a href="/columnists/katiepavlich/2020/04/17/nancy-pelosi-doesnt-care-n2567139"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Nancy Pelosi Doesn’t Care" data-src="//media.townhall.com/townhall/reu/b/2019/269/ef5eb632-e868-4f93-b614-50ad162493a0.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/katiepavlich/2020/04/17/nancy-pelosi-doesnt-care-n2567139">Nancy Pelosi Doesn’t Care</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="New Drug Combating Wuhan Coronavirus Yield Excellent Results...And the Dow Surged Because of It" data-src="//media.townhall.com/townhall/reu/b/2020/97/a1c032c2-2dc2-415a-a698-50aeb7968e7a.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160">New Drug Combating Wuhan Coronavirus Yield Excellent Results...And the Dow Surged Because of It</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/democrats-want-to-use-your-money-to-pay-states-to-let-criminals-out-of-jail-n2567089"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="The Latest Spending Push from Democrats: Using Your Money to Let Felons Out of Jail" data-src="//media.townhall.com/townhall/reu/b/2020/83/3e059f9d-8ceb-4679-8e5d-5428f2a82ba5.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/democrats-want-to-use-your-money-to-pay-states-to-let-criminals-out-of-jail-n2567089">The Latest Spending Push from Democrats: Using Your Money to Let Felons Out of Jail</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" data-src="//media.townhall.com/townhall/reu/b/2014/289/17329344-1af8-4a1f-8631-ab65d20076a0.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141">There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/trump-appears-to-back-protestors-against-michigan-governor-n2567129"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Trump Appears to Back Protestors Against Michigan Governor " data-src="//media.townhall.com/townhall/reu/b/2020/106/c409bf9b-dbcc-4435-b8f2-428e0b5d8196.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/trump-appears-to-back-protestors-against-michigan-governor-n2567129">Trump Appears to Back Protestors Against Michigan Governor </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/tucker-sounds-off-on-governor-whitmers-weird-fascism-n2567109"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Tucker Exposes What&#39;s Behind Governor Whitmer&#39;s &#39;Weird, Arbitrary Fascism&#39; " data-src="//media.townhall.com/townhall/reu/b/2020/35/f4488b8b-113f-4e5a-b0c5-046613b57d0c.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/tucker-sounds-off-on-governor-whitmers-weird-fascism-n2567109">Tucker Exposes What&#39;s Behind Governor Whitmer&#39;s &#39;Weird, Arbitrary Fascism&#39; </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/minnesota-governor-begins-to-ease-some-restrictions-n2567126"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Did Gov. Walz Just Take Trump&#39;s Advice to &#39;Liberate&#39; Minnesota?" data-src="//media.townhall.com/townhall/reu/b/2020/108/6d262d31-153f-4bcc-b97f-2a9584f78663.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/minnesota-governor-begins-to-ease-some-restrictions-n2567126">Did Gov. Walz Just Take Trump&#39;s Advice to &#39;Liberate&#39; Minnesota?</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a href="/tipsheet/cortneyobrien/2020/04/17/biden-downplays-china-threat-n2567062"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Nikki Haley Recalls How Biden Has Downplayed the Threat from China" data-src="//media.townhall.com/townhall/reu/b/townhall/reu/o/2018/330/76346357-2450-40f7-a097-c78820c7f712.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/biden-downplays-china-threat-n2567062">Nikki Haley Recalls How Biden Has Downplayed the Threat from China</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ny-dem-rips-pelosi-for-adding-far-left-provisions-in-coronavirus-relief-bill-n2567112"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="NY Dem Rips Pelosi for Adding &#39;Far Left&#39; Provisions in Coronavirus Relief Bill" data-src="//media.townhall.com/townhall/reu/b/2019/80/3f341d90-5ab1-4263-b5a7-97a52d2e0dfe.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ny-dem-rips-pelosi-for-adding-far-left-provisions-in-coronavirus-relief-bill-n2567112">NY Dem Rips Pelosi for Adding &#39;Far Left&#39; Provisions in Coronavirus Relief Bill</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ted-cruz-explains-how-to-hold-china-accountable-n2567110"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Ted Cruz Explains that China Is Guilty on Three Counts" data-src="//media.townhall.com/townhall/reu/b/2020/24/3c73a6b1-3be6-479f-aaca-9dec532b7741.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ted-cruz-explains-how-to-hold-china-accountable-n2567110">Ted Cruz Explains that China Is Guilty on Three Counts</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/marinamedvin/2020/04/17/business-bread-lines-run-out-of-bread-as-americans-rail-against-coronavirus-oppression-n2567083"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Business Bread Lines Run Out Of Bread as Americans Rail Against Coronavirus Oppression" data-src="//media.townhall.com/townhall/reu/b/2018/290/99f4dc8c-cbc4-4e27-9168-8013625daad0.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/marinamedvin/2020/04/17/business-bread-lines-run-out-of-bread-as-americans-rail-against-coronavirus-oppression-n2567083">Business Bread Lines Run Out Of Bread as Americans Rail Against Coronavirus Oppression</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/toddstarnes/2020/04/17/democrats-will-keep-the-states-closed-to-tank-the-economy-and-take-down-trump-n2567117"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump" data-src="//media.townhall.com/townhall/reu/b/2020/100/f05bab8f-dc2c-46b4-9bde-bca808e0e1d9.jpg" /></a>
-</div>
- <div class="thm-carousel__caption">
-<a href="/columnists/toddstarnes/2020/04/17/democrats-will-keep-the-states-closed-to-tank-the-economy-and-take-down-trump-n2567117">Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/davidlimbaugh/2020/04/17/media-prefer-hating-trump-to-helping-america-n2567084"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Media Prefer Hating Trump to Helping America" data-src="//media.townhall.com/townhall/reu/b/2020/90/7dba55f7-89a9-453c-9687-bd60fb6bd441.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/davidlimbaugh/2020/04/17/media-prefer-hating-trump-to-helping-america-n2567084">Media Prefer Hating Trump to Helping America</a>
-</div>
-</div>
-</div>
-</div></nav>
-</header>
-<div>
-<div class="container">
-<div class="row row-topper">
-<div class="col-xs-10">
-<ul class="breadcrumb">
-<li><a href="/">Townhall</a></li>
-<li><a href="/tipsheet/" class="text-capitalize">tipsheet</a></li>
-<li class="active">
-<a href="/tipsheet/katiepavlich/">Katie Pavlich</a>
-</li>
-</ul>
-</div>
-<div class="col-xs-2">
-<a href="/tags/donald-trump" class="btn btn-default btn-article-supertag pull-right ">Donald Trump</a>
-</div>
-</div>
-<article class="with-rail">
-<div class="row">
-<div class="col-xs-12">
-<section id="article-header">
-<div class="row">
-<div class="col-xs-12">
-</div>
-</div>
-<h1 class="headline">President Trump: We&#39;re Working Closely with Governors to Open the Economy</h1>
-<div class="row">
-<div class="col-xs-12">
-<div class="contributor-img pull-left">
-<a href="/author/katiepavlich">
-<img alt="Katie Pavlich" class="img-thumbnail" src="https://media.townhall.com/townhall/reu/contributor-sm/authorimages//44384266-8af9-4185-bebc-390f142f688a.png" />
-</a>
-</div>
-<div class="contributor pull-left">
-<a href="/author/katiepavlich">Katie Pavlich</a>
-</div>
-<div class="contributor pull-left">|</div>
-<div class="contributor pull-left">
-<i class="fa fa-twitter tw-icon vert-align"></i>&nbsp;<a href="https://twitter.com/KatiePavlich" target="_blank">@KatiePavlich</a>
-</div>
-<div class="contributor pull-left">|</div>
-<div class="contributor pull-left">Posted: Apr 13, 2020 12:15 PM</div>
-<div class="sc header-share">
-<a class="btn btn-facebook-lg sc-fb"><i class="fa fa-facebook-official"></i>&nbsp; Share <span class="fb-count"></span></a>
-<a class="btn btn-twitter-lg sc-tw" data-dc="184"><i class="fa fa-twitter"></i>&nbsp; Tweet <span class="tw-count"></span></a>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<div class="gpt-header">
-<div id="div-gpt-728x90_1" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-728x90_1");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-728x90_1"]])
-                    });
-                </script>
-</div>
-</div>
-</div>
-</div>
-</section>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-8">
-<section id="article-media-object">
-<img class="article-main-image" src="https://media.townhall.com/townhall/reu/ha/2020/100/4ff02a46-c9da-4ec3-9884-be02dae2ba65.jpg" alt="President Trump: We&#39;re Working Closely with Governors to Open the Economy" />
-<p class="main-image-source muted"><small><em>Source: AP Photo/Andrew Harnik</em></small></p>
-</section>
-<section id="article-body">
-<aside id="aside1" class="left">
-<div class="article-aside-ad">
-<div id="div-gpt-300x250_2" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_2");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_2"]])
-                    });
-                </script>
-</div>
-</div>
-</aside>
-<p>President Trump reiterated Monday morning he is working closely with governors across the country to determine when to safely re-open the American economy.</p><div class="thm-piano-mop"></div><blockquote class="twitter-tweet"><p dir="ltr" lang="en">For the purpose of creating conflict and confusion, some in the Fake News Media are saying that it is the Governors decision to open up the states, not that of the President of the United States &amp; the Federal Government. Let it be fully understood that this is incorrect....</p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/1249712404260421633?ref_src=twsrc%5Etfw">April 13, 2020</a></blockquote><blockquote class="twitter-tweet" data-conversation="none"><p dir="ltr" lang="en">....It is the decision of the President, and for many good reasons. With that being said, the Administration and I are working closely with the Governors, and this will continue. A decision by me, in conjunction with the Governors and input from others, will be made shortly!</p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/1249712413219397632?ref_src=twsrc%5Etfw">April 13, 2020</a></blockquote><p>New York Governor Andrew Cuomo also weighed in.</p><blockquote class="twitter-tweet"><p dir="ltr" lang="en">We are in a situation that never has occurred before.<br><br>Reopening the economy is a delicate balance.<br><br>The objective is to ease isolation &amp; increase economic activity without increasing the infection rate.<br><br>We must do it slowly &amp; intelligently &amp; with every precaution.</p>&mdash; Andrew Cuomo (@NYGovCuomo) <a href="https://twitter.com/NYGovCuomo/status/1249726464875954183?ref_src=twsrc%5Etfw">April 13, 2020</a></blockquote><p>President Trump told reporters late last week a second Wuhan coronavirus council made up of doctors, economists and business people, will be announced Tuesday.</p><p>&quot;We&#39;re setting up a council of very, very great doctors and business people. We&#39;re going to be announcing it on Tuesday. Some great people. This is beyond economic. I call it our Opening Our Country Task Force or Council,&quot; Trump said Friday afternoon. &quot;We&#39;re going to have a great group of people.&quot;</p><p>&quot;I want to get it open as soon as possible,&quot; he continued. &quot;I would love to open it. I have not determined anything. The facts are going to determine what I do.&quot;</p> <div class="mpw-inline">
-<div>
-<div class="mpw-inline-col__rail"><a title="New Drug Combating Wuhan Coronavirus Yield Excellent Results...And the Dow Surged Because of It - 22" href="/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160?utm_campaign=inarticle"><img class="img-responsive" src="https://media.townhall.com/townhall/reu/s124x68/2020/97/a1c032c2-2dc2-415a-a698-50aeb7968e7a.jpg" /></a></div>
-<div class="mpw-inline-col__content">
-<div class="mpw-inline-col__title">Recommended</div>
- <a title="New Drug Combating Wuhan Coronavirus Yield Excellent Results...And the Dow Surged Because of It - 22" href="/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160?utm_campaign=inarticle">
-<span class="mpw-inline-col__story">New Drug Combating Wuhan Coronavirus Yield Excellent Results...And the Dow Surged Because of It</span>
-</a>
-<div class="mpw-inline-col__muted">
-Matt Vespa
-</div>
-</div>
-</div>
-</div>
-<blockquote class="twitter-tweet"><p dir="ltr" lang="en">Trump says next Tuesday he will announce the members of an &quot;Opening Our Country Council,&quot; which will touch on economic issues <a href="https://t.co/9T8aUPjUrs">https://t.co/9T8aUPjUrs</a> <a href="https://t.co/lcHhfIKQEJ">pic.twitter.com/lcHhfIKQEJ</a></p>&mdash; CBS News (@CBSNews) <a href="https://twitter.com/CBSNews/status/1248696907163107328?ref_src=twsrc%5Etfw">April 10, 2020</a></blockquote><p>The new council will hold meetings digitally and members will be from cities across the country.</p><p><strong><em>Editor&#39;s Note:</em></strong> Want to support Townhall so we can keep telling the truth about China and the virus they unleashed on the world? Join <a href="https://townhall.com/subscribe?tpcc=katie0413" rel="noopener noreferrer" target="_blank"><strong><em>Townhall VIP</em></strong></a>&nbsp; and use the promo code <strong>WUHAN</strong> to get 25% off VIP membership!</p>
-</section>
-<section id="article-footer">
-<div class="row">
-<div class="col-xs-12">
-<div class="thm-piano-eop">
-</div>
-<div class="thm-piano-eop-recommended"></div>
-</div>
-</div>
-<div class="article-actions-footer sc">
-<div class="row">
-<div class="col-xs-12">
-<a class="btn btn-facebook-lg btn-block sc-fb"><i class="fa fa-facebook-official"></i>&nbsp; Share this on Facebook <span class="fb-count"></span></a>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-6"><a class="btn btn-block btn-twitter-lg sc-tw" data-dc="184"><i class="fa fa-twitter"></i>&nbsp; Tweet <span class="tw-count"></span></a></div>
-<div class="col-xs-2"><a href="mailto:?subject=President Trump: We&#39;re Working Closely with Governors to Open the Economy&amp;body=https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811" class="btn btn-block btn-default btn-article-email"><i class="fa fa-envelope"></i></a></div>
-<div class="col-xs-2"><button data-url="https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811/print" onclick="window.open('https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811/print', 'print-winder', 'width=850,height=700,scrollbars=yes');" class="btn btn-block btn-default btn-article-print"><i class="fa fa-print"></i></button></div>
-<div class="col-xs-2"><a href="#article-comment-bookmark" class="btn btn-block btn-default btn-article-comment"><i class="fa fa-comment"></i></a></div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<div id="rcjsload_ffe38c"></div>
-<script type="text/javascript">
-        (function () {
-            function ad_block_test(e, o) { if ("undefined" != typeof document.body) { var t = "0.1.2-dev", o = o ? o : "sponsorText", n = document.createElement("DIV"); n.id = o, n.style.position = "absolute", n.style.left = "-999px", n.appendChild(document.createTextNode("&nbsp;")), document.body.appendChild(n), setTimeout(function () { if (n) { var o = 0 == n.clientHeight; try { } catch (d) { console && console.log && console.log("ad-block-test error", d) } e(o, t), document.body.removeChild(n) } }, 175) } }
-            ad_block_test(function (is_blocked) {
-                var widget_id = 102403;
-                if (is_blocked === true) {
-                    widget_id = 102452;
+<!--	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId	 : '1108930615885442',
+				cookie	 : true,
+				xfbml	 : true,
+				version	: 'v2.7'
+			});
+			FB.AppEvents.logPageView();
+		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		function checkLoginState() {
+			FB.getLoginStatus(function(response) {
+			statusChangeCallback(response);
+		});
+	}
+	</script>
+	<div id="fb-root"></div>
+	<script>
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=344255302750045";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script> -->
+	<section id="search-popup" class="hidden">
+		<a href="#" class="close-search"><i class="fa fa-close"></i></a>
+		<div id="search-box">
+			<form class="search-form" action="https://spectator.org" method="get">
+				<label style="display:none;">Search</label>
+				<input type="text" name="s" value="" placeholder="SEARCH"/>
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</form>
+		</div>
+	</section>
+
+	<div class="top-bar">
+		<div class="container">
+			<div class="right-col">
+				<ev-profile profile="profile">
+					<ev-profile-when state="not-loggedIn">
+						<a href="javascript:void(0);" class="toggle-search"><i class="fa fa-search"></i></a>
+						<a href="/subscribe/" class="btn">Subscribe</a>
+						<a href="/login" class="login-btn btn">Login</a>
+						<!-- <a href="/register" class="btn">Register</a> -->
+						<form class="desktop-search search-form" aria-label = "search form" action="https://spectator.org" method="get" autocomplete="false">
+							<input aria-label="search field" type="text" name="s" value="" placeholder="SEARCH"/>
+							<button aria-label="search submit" type="submit"><i class="fa fa-search"></i></button>
+						</form>
+					</ev-profile-when>
+					<ev-profile-when state="available">
+						<a href="javascript:void(0);" class="toggle-search"><i class="fa fa-search"></i></a>
+						<!--<a href="/subscribe" class="btn">Subscribe</a>-->
+						<a href="/" onclick="javascript:EV.Core.UI.logout();" class="btn">Logout</a>
+						<a href="/my-account" class="btn">Edit Account</a>
+						<form class="desktop-search search-form" action="https://spectator.org" method="get" autocomplete="false">
+							<input aria-label="search field" type="text" name="s" value="" placeholder="SEARCH"/>
+							<button aria-label="search submit" type="submit"><i class="fa fa-search"></i></button>
+						</form>
+					</ev-profile-when>
+				</ev-profile>
+			</div>
+
+			<div class="left-col">
+				<div class="mobile-menu-btn" onclick="return jQuery('.mobile-menu').slideToggle();">
+					Menu
+				</div>
+				<div class="social-links">
+					<ul>
+									 <li class="fb-link">
+				 <a aria-label="facebook" href="https://www.facebook.com/americanspectator/" target="_blank">
+					 <svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" class="at-icon at-icon-facebook"><g><path d="M22 5.16c-.406-.054-1.806-.16-3.43-.16-3.4 0-5.733 1.825-5.733 5.17v2.882H9v3.913h3.837V27h4.604V16.965h3.823l.587-3.913h-4.41v-2.5c0-1.123.347-1.903 2.198-1.903H22V5.16z" fill-rule="evenodd"></path></g></svg>
+				 </a>
+			 </li>
+															 <li class="tw-link">
+				 <a aria-label="twitter" href="https://twitter.com/amspectator" target="_blank">
+					 <svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" class="at-icon at-icon-twitter"><g><path d="M27.996 10.116c-.81.36-1.68.602-2.592.71a4.526 4.526 0 0 0 1.984-2.496 9.037 9.037 0 0 1-2.866 1.095 4.513 4.513 0 0 0-7.69 4.116 12.81 12.81 0 0 1-9.3-4.715 4.49 4.49 0 0 0-.612 2.27 4.51 4.51 0 0 0 2.008 3.755 4.495 4.495 0 0 1-2.044-.564v.057a4.515 4.515 0 0 0 3.62 4.425 4.52 4.52 0 0 1-2.04.077 4.517 4.517 0 0 0 4.217 3.134 9.055 9.055 0 0 1-5.604 1.93A9.18 9.18 0 0 1 6 23.85a12.773 12.773 0 0 0 6.918 2.027c8.3 0 12.84-6.876 12.84-12.84 0-.195-.005-.39-.014-.583a9.172 9.172 0 0 0 2.252-2.336" fill-rule="evenodd"></path></g></svg>
+				 </a>
+			 </li>
+															 <li class="yt-link">
+				 <a aria-label="youtube" href="https://www.youtube.com/user/AmerSpectator" target="_blank">
+					 <svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" class="at-icon at-icon-youtube"><g><path d="M13.73 18.974V12.57l5.945 3.212-5.944 3.192zm12.18-9.778c-.837-.908-1.775-.912-2.205-.965C20.625 8 16.007 8 16.007 8c-.01 0-4.628 0-7.708.23-.43.054-1.368.058-2.205.966-.66.692-.875 2.263-.875 2.263S5 13.303 5 15.15v1.728c0 1.845.22 3.69.22 3.69s.215 1.57.875 2.262c.837.908 1.936.88 2.426.975 1.76.175 7.482.23 7.482.15 0 .08 4.624.072 7.703-.16.43-.052 1.368-.057 2.205-.965.66-.69.875-2.262.875-2.262s.22-1.845.22-3.69v-1.73c0-1.844-.22-3.69-.22-3.69s-.215-1.57-.875-2.262z" fill-rule="evenodd"></path></g></svg>
+				 </a>
+			 </li>
+											</ul>
+				</div>
+				<div class="menu">
+					<ul id="menu-top-bar" class="menu"><li id="menu-item-327885" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-327885"><a href="https://spectator.org/about/">About</a></li>
+<li id="menu-item-327886" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-327886"><a href="https://spectator.org/authors/">Meet Our Authors</a></li>
+<li id="menu-item-327884" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-327884"><a href="https://spectator.org/events/">Events</a></li>
+<li id="menu-item-327883" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-327883"><a href="https://spectator.org/contact/">Contact</a></li>
+<li id="menu-item-393152" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393152"><a href="https://spectator.org/submissions/">Submissions</a></li>
+</ul>				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="mobile-menu" style="display: none;">
+		<div class="container">
+			<form class="search-form-2" action="https://spectator.org" method="get">
+					<input aria-label="search field" type="text" name="s" value="" placeholder="SEARCH"/>
+					<input aria-label="search submit" type="submit"/>
+			</form>
+			<ul id="menu-main-menu-left" class="menu"><li id="menu-item-327890" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-327890"><a href="https://spectator.org/category/politics/">Politics</a></li>
+<li id="menu-item-327887" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-327887"><a href="https://spectator.org/category/americana/">Americana</a></li>
+<li id="menu-item-410760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-410760"><a href="https://spectator.org/podcast/">Podcast</a></li>
+</ul>			<ul id="menu-main-menu-right" class="menu"><li id="menu-item-406706" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406706"><a href="https://spectator.org/magazine/">Magazine</a></li>
+<li id="menu-item-327987" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-327987"><a href="https://spectator.org/category/blog/">Blog</a></li>
+<li id="menu-item-392756" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-392756"><a href="https://spectator.org/donate/">Donate</a></li>
+</ul>			<ul id="menu-top-bar-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-327885"><a href="https://spectator.org/about/">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-327886"><a href="https://spectator.org/authors/">Meet Our Authors</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-327884"><a href="https://spectator.org/events/">Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-327883"><a href="https://spectator.org/contact/">Contact</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393152"><a href="https://spectator.org/submissions/">Submissions</a></li>
+</ul>		</div>
+	</div>
+	<div class="header">
+		<div class="clear"></div>
+		<div class="container">
+							<div class="menu-left menu">
+					<ul id="menu-main-menu-left-1" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-327890"><a href="https://spectator.org/category/politics/">Politics</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-327887"><a href="https://spectator.org/category/americana/">Americana</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-410760"><a href="https://spectator.org/podcast/">Podcast</a></li>
+</ul>				</div>
+				<div class="logo alt-header">
+					<a href="https://spectator.org">
+						<img alt="Spectator logo" src="https://149366087.v2.pressablecdn.com/wp-content/themes/spectator/imgs/logo.jpg"/>
+					</a>
+				</div>
+				<div class="menu-right menu">
+					<ul id="menu-main-menu-right-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406706"><a href="https://spectator.org/magazine/">Magazine</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-327987"><a href="https://spectator.org/category/blog/">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-392756"><a href="https://spectator.org/donate/">Donate</a></li>
+</ul>				</div>
+				<div class="clear"></div>
+			
+		</div>
+	</div>
+    <div class="container page-body">
+                        <div class="post single-post">
+            <div class="top-section">
+                <div class="category">
+                    <span class="post-category"><a href="https://spectator.org/category/politics/new-socialists/">New Socialists</a></span>                </div>
+                <div class="title pf-title">
+                    America’s Left and the Confiscation of Wealth                </div>
+                                <div class="meta-bar">
+                    <div class="author">
+                                                <div class="author-text">
+                            <span class="italic">by</span> <!-- <span class="uppercase"><a class="pf-author" href="https://spectator.org/author/jtyoung/">J.T. Young</a></span> -->
+							<span class="uppercase">
+							<a href="https://spectator.org/author/jtyoung/" title="Posts by J.T. Young" class="author url fn" rel="author">J.T. Young</a><script>(function() {document.querySelectorAll('.author-text a').forEach((x) => x.className = '')})()</script> 							</span>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="date print-only">
+                        April 17, 2019, 12:05 AM                    </div>
+                    <div class="clear"></div>
+                </div>
+                                    <div class="image-container">
+                        <div id="share-anchor"></div>
+                        <div class="share" id="side-share">
+                            <!-- Go to www.addthis.com/dashboard to customize your tools --> <!-- <div class="addthis_inline_share_toolbox"></div> -->
+                            <div class="print-btn" style="display: none;">
+                                <a href="https://www.printfriendly.com" style="color:#6D9F00;text-decoration:none;" class="printfriendly at-share-btn" onclick="window.print();return false;" title="Printer Friendly and PDF">
+                                <span class="at-icon-wrapper" style="line-height: 32px; height: 32px; width: 32px;">
+                                    <svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-print-4" class="at-icon at-icon-print" style="fill: rgb(34, 34, 34); width: 32px; height: 32px;"><title id="at-svg-print-4" class="hidden-originally">Print</title><g><path d="M24.67 10.62h-2.86V7.49H10.82v3.12H7.95c-.5 0-.9.4-.9.9v7.66h3.77v1.31L15 24.66h6.81v-5.44h3.77v-7.7c-.01-.5-.41-.9-.91-.9zM11.88 8.56h8.86v2.06h-8.86V8.56zm10.98 9.18h-1.05v-2.1h-1.06v7.96H16.4c-1.58 0-.82-3.74-.82-3.74s-3.65.89-3.69-.78v-3.43h-1.06v2.06H9.77v-3.58h13.09v3.61zm.75-4.91c-.4 0-.72-.32-.72-.72s.32-.72.72-.72c.4 0 .72.32.72.72s-.32.72-.72.72zm-4.12 2.96h-6.1v1.06h6.1v-1.06zm-6.11 3.15h6.1v-1.06h-6.1v1.06z"></path></g></svg>
+                                </span>
+                                </a>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                                                <div class="image" style="background-image: url(https://149366087.v2.pressablecdn.com/wp-content/uploads/2019/04/Property-Seizure-shutterstock_1313649767.jpg);"></div>
+                        						<div class = "textspeech" style="display:inline-block; width:20%; float:right;">
+							<button id="listenButton1" class="responsivevoice-button" type="button" value="Play" title="ResponsiveVoice Tap to Start/Stop Speech"><span>&#128266; Listen to this article</span></button>
+        <script>
+            listenButton1.onclick = function(){
+                if(responsiveVoice.isPlaying()){
+                    responsiveVoice.cancel();
+                }else{
+                    responsiveVoice.speak("America’s conservatives should be those least amazed by our left’s calls for wealth confiscation. The only surprise here is the flaunting. After all, wealth confiscation is what the left everywhere has always done. Once in power, it is the only way the left’s policies can survive. As 2020 nears and the pursuit of increasingly restive radicals increases, the politicians courting them aggressively seek more extreme positions. The fear of the “liberal” label is long gone and the “socialist” sobriquet is all the rage among those who rage. With the Marxist moniker come the policies. Higher taxes on the wealthy and corporations are already passé. It is no longer enough to tax the wealthy more via their income. Now the target is their wealth directly. Calls for such blatantly confiscatory policies are still shocking to most Americans. However, as we have been repeatedly taught by the left globally, such sensibilities are hopelessly out of step with the new “progressivism.” In one sense America’s left is right in its calls: The only shocking part is their explicit nature. Usually America’s left does not admit it aims, pursuing them instead silently. The left pursues confiscatory policies not just because it supports them in its own right — though assuredly it does — but because it inevitably must. The left always starts with enemies. The question is how broadly it defines them and how stringently it pursues them. The answer depends on the amount of power the left has. Depending on place and parlance, the left’s enemies range from “the rich” and corporations, to capitalists, the bourgeoisie, and “enemies of the state.” Confiscatory policies are aimed at them because, in the words of the bank robber Willie Sutton, “that’s where the money is.” Initially these strike a blow, but they also stake the left’s expensive spending policies. But the more the left’s policies are implemented, the more they fall short. If implemented broadly enough, the economy itself falls short. Regardless, increased resources are needed to make up the shortfall. The phenomenon is akin to the Laffer Curve, albeit beyond tax revenue alone. The economist Arthur Laffer described how increasing rates of taxation, once they hit the inflection point, actually result in declining tax revenue. This creates the potential for reversal: Cutting tax rates above their inflection point results in increased revenues. This observation can be applied to the left’s policies in toto. Entitlement programs continue to escalate — either through increasing benefits, increasing utilization, or both — until they become unaffordable, requiring additional resources or rationing. Subsidies become utilized until too costly and the product subsidized goes into short supply or is rationed. Regulations mount to an extent that the activity regulated becomes less available or less desirable. Given sufficient power, the left can inflict this across an entire economy. There is no shortage of examples of this happening in individual programs here, and no shortage of this happening economy-wide abroad. It is an economic tenet that resources are limited. It is a political tenet that the left’s reach is unlimited. The only way to square this circle is to take more through confiscation. Of course, even compulsion can swim only so long against the economic tide — as the drownings of so many socialist and communist countries prove. The left has never been able to solve the question why those being increasingly confiscated from would indefinitely consent to producing more. The overall effect is analogous to a farmer eating his seed corn. Faced with a disappointing harvest, instead of curtailing consumption the farmer decides to dip into the stock he should set aside for next year’s planting. When spring comes, he sows less, and when harvest time comes, his yield is even shorter. Repeating the cycle, each year falls shorter and shorter. Eventually, he has only enough to eat, but none to plant. So it is with the left. It must make up its shortfall from others — confiscating what it lacks — until all fall short. If this sounds preposterous, look back to the left’s own past — the Soviet famine of 1932-33 and Communist China’s Great Leap Forward — or simply look at its present in Venezuela and North Korea. Or take its programs in isolation and see their inability to meet demand or be self-sufficient. Without external subsidization, they fail. This is only new to America. Here, the left’s programs are subsidized from the general budget and the budget shortfall is borrowed. Hidden from view, there has been a quiet truce: The left pursues its course in incremental steps, accepts its subsidies, and in return does not explicitly call for confiscation. However, America’s New Left reject this historical accommodation and its incrementalism. Emboldened it seeks bigger prizes — a Green New Deal, Medicare for All — and its needs (and wants) bigger prey. Confiscatory policies are now explicit. To the rest of the world — particularly those who have endured the left — such confiscatory calls are all too familiar. Far from new and novel, they are very old indeed — both chronologically, and in the sense of being worn out. They trace back to the 19thcentury and were tried repeatedly in the last century. Each time they were miserable failures — literally — leaving those subjected to them in misery. Far from being “progressive” — today’s trendy attempt at rebranding — they are actually regressive. These policies are throwbacks in time, just as they are throwaways philosophically, economically, and politically. America has not known this in the sense of living it. Knowing it intellectually, that it actually occurred elsewhere, is not the same. To America’s collective mind, it has remained a foreign affliction — like leprosy or the plague — that does not, cannot, actually occur here. America’s only real encounter has been the momentary quadrennial contact with some crank running for president as a communist or socialist. At best, such candidates pick up a comparative handful of votes and curiosity. They are the crazy aunt who mercifully shows up only for major family gatherings. Only this time, she has brought friends. We have emotionally felt that socialism and its wealth confiscation could not happen here. It can, of course. These policies now being so candidly bandied about are exactly what it would look like. And these proposals are just the beginning of what the left will do, if given the chance. J.T. Young served under President George W. Bush as the director of communications in the Office of Management and Budget and as deputy assistant secretary in legislative affairs for tax and budget at the Treasury Department. He served as a congressional staffer from 1987-2000.", "US English Female");
                 }
-                var referer = ""; try { if (referer = document.referrer, "undefined" == typeof referer) throw "undefined" } catch (exception) { referer = document.location.href, ("" == referer || "undefined" == typeof referer) && (referer = document.URL) } referer = referer.substr(0, 700);
-                var rcel = document.createElement("script");
-                rcel.id = 'rc_' + Math.floor(Math.random() * 1000);
-                rcel.type = 'text/javascript';
-                rcel.src = "//trends.revcontent.com/serve.js.php?w=" + widget_id + "&t=" + rcel.id + "&c=" + (new Date()).getTime() + "&width=" + (window.outerWidth || document.documentElement.clientWidth) + "&referer=" + referer + '&is_blocked=' + is_blocked;
-                rcel.async = true;
-                var rcds = document.getElementById("rcjsload_ffe38c"); rcds.appendChild(rcel);
-            });
-        })();
-    </script>
-<div class="thm-bluec"></div>
+            };
+        </script>
+    						</div>
+                    </div>
+                    <div style="height: 0px; width: 0px; overflow: hidden;" class="print-only">
+                        <img src="https://149366087.v2.pressablecdn.com/wp-content/uploads/2019/04/Property-Seizure-shutterstock_1313649767.jpg" class="pf-large-image"/>
+                    </div>
+                            </div>
+        </div>
+        <div class="clear" style="height: 25px;"></div>
+        <div class="sidebar">
+    <div id="trending_widget-2" class="widget widget_trending_widget">        <div class="widget top-stories-widget">
+    <div class="greenbox">
+        <div class="top-border"></div>
+        <div class="box">
+            <div class="image">
+                <img alt="trending stories" src="https://149366087.v2.pressablecdn.com/wp-content/themes/spectator/imgs/top_stories.png"/>
+            </div>
+            <div class="page-title">
+                Most Popular
+            </div>
+            <div class="title-divider">
+                <div class="bar-1"></div>
+                <div class="bar-2">
+                    <div class="bar-2-1"></div>
+                    <div class="bar-2-2"></div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="posts">
+                                        <div class="entry">
+                            <a  href="https://spectator.org/the-worst-governor-in-america/" class="post-title">
+                                The Worst Governor in America                            </a>
+                            <div class="author">
+                                <span class="italic">by</span>
+                                <span class="uppercase"><a href="https://spectator.org/author/stacy-mccain/">Robert Stacy McCain</a></span>
+                            </div>
+                        </div>
+                                                    <div class="border"></div>
+                                                    <div class="entry">
+                            <a  href="https://spectator.org/an-appeal-to-north-carolinas-governor/" class="post-title">
+                                An Appeal to North Carolina’s Governor                            </a>
+                            <div class="author">
+                                <span class="italic">by</span>
+                                <span class="uppercase"><a href="https://spectator.org/author/bob-luddy/">Bob Luddy</a></span>
+                            </div>
+                        </div>
+                                                    <div class="border"></div>
+                                                    <div class="entry">
+                            <a  href="https://spectator.org/the-dual-reckoning-to-come/" class="post-title">
+                                The Dual Reckoning to Come                            </a>
+                            <div class="author">
+                                <span class="italic">by</span>
+                                <span class="uppercase"><a href="https://spectator.org/author/smckay/">Scott McKay</a></span>
+                            </div>
+                        </div>
+                                        <div class="clear" style="height: 25px;"></div>
+            </div>
+        </div>
+        <div class="bottom-border"></div>
+    </div>
+</div>        </div>
+<div id="text-9" class="widget widget_text">			<div class="textwidget"><div class="spectator-ads"><!-- Insticator API Embed --></p>
+<div id="insticator-container">
+<div id="div-insticator-ad-1"></div>
+<div id="insticator-embed"></div>
+<div id="div-insticator-ad-2"></div>
+<p><script data-cfasync='false' type="text/javascript">/*<![CDATA[*/Insticator.ad.loadAd("div-insticator-ad-1");Insticator.ad.loadAd("div-insticator-ad-2");Insticator.load("em",{id : "6cf39429-6912-4a91-b1e2-3e9365a5e9c6"});/*]]>*/</script></p>
+</div>
+<p><!-- End Insticator API Embed --></p>
 </div>
 </div>
-<div class="row">
-<div class="col-xs-12">
-<ul class="list-unstyled list-inline article-topics clearfix">
-<li>Tags: </li>
-<li><a class="btn btn-default btn-topic" data-tagid="499" href="/tags/donald-trump">Donald Trump</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="1585" href="/tags/jobs-and-economy">Jobs and Economy</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="4619" href="/tags/economic-crisis">economic crisis</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="17783" href="/tags/wuhan-coronavirus">wuhan coronavirus</a></li>
-</ul>
-<script>
-    var rndnum = Math.floor(Math.random() * 50000);
-    var submitScript = document.createElement('script');
-    submitScript.src = 'https://townhall.com/wservices/handlers/tagcount.ashx?tid=499,1585,4619,17783&tnd=' + rndnum;
-    document.body.appendChild(submitScript);
+		</div>
+<div id="subscribe_widget-2" class="widget widget_subscribe_widget">    <div class="widget subscribe-widget">
+    Sign Up to receive <span class="sub">Our Latest Updates!</span>
+    <!--<a href="https://spectator.org/subscribe" class="btn">Subscribe</a>-->
+	<br /><a href="https://spectator.org/subscribe" class="btn">Register</a>
+</div>    </div>
+<div id="hot_widget-2" class="widget widget_hot_widget">        <div class="widget hot-widget">
+    <div class="title">
+        Hot Off<br>The Press
+    </div>
+    <div class="posts">
+        
+                    <div class="medium-post stack-image post">
+                        <a aria-label="In Sickness and In Health, But Not for Lunch" href="https://spectator.org/in-sickness-and-in-health-but-not-for-lunch/">
+                                                        <div class="image" style="background-image: url(https://149366087.v2.pressablecdn.com/wp-content/uploads/2020/04/shutterstock_1680966418-scaled.jpg);"></div>
+                        </a>
+                        <div class="content">
+                            <div class="category">
+                                <a href="https://spectator.org/category/politics/another-perspective/">Another Perspective</a>                            </div>
+                            <div class="post-title">
+                                <a href="https://spectator.org/in-sickness-and-in-health-but-not-for-lunch/">In Sickness and In Health, But Not for Lunch</a>
+                            </div>
+                            <div class="author"><span class="italic">by</span> <span class="uppercase"><a href="https://spectator.org/author/gtracymehaniii/">G. Tracy Mehan III</a></span></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
 
+                    
+                    <div class="medium-post stack-image post">
+                        <a aria-label="Andrew Cuomo and the Left’s New Champions of Life" href="https://spectator.org/andrew-cuomo-and-the-lefts-new-champions-of-life/">
+                                                        <div class="image" style="background-image: url(https://149366087.v2.pressablecdn.com/wp-content/uploads/2020/04/0b45c7529.jpeg);"></div>
+                        </a>
+                        <div class="content">
+                            <div class="category">
+                                <a href="https://spectator.org/category/americana/sunday-visitor/">Sunday Visitor</a>                            </div>
+                            <div class="post-title">
+                                <a href="https://spectator.org/andrew-cuomo-and-the-lefts-new-champions-of-life/">Andrew Cuomo and the Left’s New Champions of Life</a>
+                            </div>
+                            <div class="author"><span class="italic">by</span> <span class="uppercase"><a href="https://spectator.org/author/paul-kengor/">Paul Kengor</a></span></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+                        </div>
+</div>        </div>
+<div id="text-11" class="widget widget_text">			<div class="textwidget"><div><a href="https://spectator.org/subscribe/"><img title="Subscribe" src="https://149366087.v2.pressablecdn.com/wp-content/uploads/2020/01/300x600_1.jpg" alt="Subscription" width="300" height="600" /></a>
+</div>
+</div>
+		</div>
+</div>        <div class="page-content post single-post">
+        <div class="post-body print-only">
+        	<!-- drop cap = A--><p><span class="first-char">A</span>merica’s conservatives should be those least amazed by our left’s calls for wealth confiscation. The only surprise here is the flaunting. After all, wealth confiscation is what the left everywhere has always done. Once in power, it is the only way the left’s policies can survive.</p>
+<p>As 2020 nears and the pursuit of increasingly restive radicals increases, the politicians courting them aggressively seek more extreme positions. The fear of the “liberal” label is long gone and the “socialist” sobriquet is all the rage among those who rage. With the Marxist moniker come the policies.</p><div class='code-block code-block-1 ai-viewport-3' style='text-align: center; margin: 8px auto;'>
+<div class="spectator-ads">
+<!-- Tag ID: spectator_300x250_320x50_320x100_incontent_1 -->
+<div align="center" id="spectator_300x250_320x50_320x100_incontent_1">
+<script data-cfasync="false" type="text/javascript">
+    freestar.queue.push(function () { googletag.display('spectator_300x250_320x50_320x100_incontent_1'); });
 </script>
 </div>
+</div></div>
+
+<p>Higher taxes on the wealthy and corporations are already passé. It is no longer enough to tax the wealthy more via their income. Now the target is their wealth directly.</p>
+<p>Calls for such blatantly confiscatory policies are still shocking to most Americans. However, as we have been repeatedly taught by the left globally, such sensibilities are hopelessly out of step with the new “progressivism.” In one sense America’s left is right in its calls: The only shocking part is their explicit nature. Usually America’s left does not admit it aims, pursuing them instead silently.</p><div class='code-block code-block-2 ai-viewport-1 ai-viewport-2' style='margin: 8px 8px 8px 0; float: left;'>
+<div class="spectator-ads">
+<!-- Tag ID: spectator_300x250_right2 -->
+<div align="center" id="spectator_300x250_right2">
+<script data-cfasync="false" type="text/javascript">
+    freestar.queue.push(function () { googletag.display('spectator_300x250_right2'); });
+</script>
 </div>
-<section id="grid-1">
-<div class="row">
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic" data-src="https://media.townhall.com/townhall/reu/ha/2018/43/10b23fc2-706b-4096-a312-ab7270db00c0.jpg" href="https://townhall.com/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159"></a>
+</div></div>
+
+<p>The left pursues confiscatory policies not just because it supports them in its own right — though assuredly it does — but because it inevitably must.</p>
+<p>The left always starts with enemies. The question is how broadly it defines them and how stringently it pursues them. The answer depends on the amount of power the left has.</p>
+<p>Depending on place and parlance, the left’s enemies range from “the rich” and corporations, to capitalists, the bourgeoisie, and “enemies of the state.” Confiscatory policies are aimed at them because, in the words of the bank robber Willie Sutton, “that’s where the money is.” Initially these strike a blow, but they also stake the left’s expensive spending policies.</p>
+<p>But the more the left’s policies are implemented, the more they fall short. If implemented broadly enough, the economy itself falls short. Regardless, increased resources are needed to make up the shortfall.</p>
+<p>The phenomenon is akin to the Laffer Curve, albeit beyond tax revenue alone. The economist Arthur Laffer described how increasing rates of taxation, once they hit the inflection point, actually result in declining tax revenue. This creates the potential for reversal: Cutting tax rates above their inflection point results in increased revenues.</p>
+<p>This observation can be applied to the left’s policies <em>in toto</em>. Entitlement programs continue to escalate — either through increasing benefits, increasing utilization, or both — until they become unaffordable, requiring additional resources or rationing. Subsidies become utilized until too costly and the product subsidized goes into short supply or is rationed. Regulations mount to an extent that the activity regulated becomes less available or less desirable.</p><div class='code-block code-block-7 ai-viewport-1 ai-viewport-2' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+<div class="spectator-ads">
+<!-- Tag ID: spectator_728x90_endofarticle -->
+<div align="center" id="spectator_728x90_endofarticle">
+<script data-cfasync="false" type="text/javascript">
+    freestar.queue.push(function () { googletag.display('spectator_728x90_endofarticle'); });
+</script>
 </div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic" href="https://townhall.com/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159">Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic</a>
+</div></div>
+<div class='code-block code-block-4 ai-viewport-3' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+<div class="spectator-ads">
+<!-- Tag ID: spectator_300x250_320x50_320x100_incontent_4 -->
+<div align="center" id="spectator_300x250_320x50_320x100_incontent_4">
+<script data-cfasync="false" type="text/javascript">
+    freestar.queue.push(function () { googletag.display('spectator_300x250_320x50_320x100_incontent_4'); });
+</script>
 </div>
-<div class="story__author">
-Julio Rosas
+</div></div>
+
+<p>Given sufficient power, the left can inflict this across an entire economy. There is no shortage of examples of this happening in individual programs here, and no shortage of this happening economy-wide abroad.</p>
+<p>It is an economic tenet that resources are limited. It is a political tenet that the left’s reach is unlimited. The only way to square this circle is to take more through confiscation.</p>
+<p>Of course, even compulsion can swim only so long against the economic tide — as the drownings of so many socialist and communist countries prove. The left has never been able to solve the question why those being increasingly confiscated from would indefinitely consent to producing more.</p>
+<p>The overall effect is analogous to a farmer eating his seed corn.</p>
+<p>Faced with a disappointing harvest, instead of curtailing consumption the farmer decides to dip into the stock he should set aside for next year’s planting. When spring comes, he sows less, and when harvest time comes, his yield is even shorter. Repeating the cycle, each year falls shorter and shorter. Eventually, he has only enough to eat, but none to plant.</p>
+<p>So it is with the left. It must make up its shortfall from others — confiscating what it lacks — until all fall short. If this sounds preposterous, look back to the left’s own past — the Soviet famine of 1932-33 and Communist China’s Great Leap Forward — or simply look at its present in Venezuela and North Korea. Or take its programs in isolation and see their inability to meet demand or be self-sufficient. Without external subsidization, they fail.</p>
+<p>This is only new to America. Here, the left’s programs are subsidized from the general budget and the budget shortfall is borrowed. Hidden from view, there has been a quiet truce: The left pursues its course in incremental steps, accepts its subsidies, and in return does not explicitly call for confiscation.</p>
+<p>However, America’s New Left reject this historical accommodation and its incrementalism. Emboldened it seeks bigger prizes — a Green New Deal, Medicare for All — and its needs (and wants) bigger prey. Confiscatory policies are now explicit.</p>
+<p>To the rest of the world — particularly those who have endured the left — such confiscatory calls are all too familiar. Far from new and novel, they are very old indeed — both chronologically, and in the sense of being worn out. They trace back to the 19<sup>th</sup>century and were tried repeatedly in the last century. Each time they were miserable failures — literally — leaving those subjected to them in misery.</p>
+<p>Far from being “progressive” — today’s trendy attempt at rebranding — they are actually regressive. These policies are throwbacks in time, just as they are throwaways philosophically, economically, and politically.</p>
+<p>America has not known this in the sense of living it. Knowing it intellectually, that it actually occurred elsewhere, is not the same. To America’s collective mind, it has remained a foreign affliction — like leprosy or the plague — that does not, cannot, actually occur here.</p>
+<p>America’s only real encounter has been the momentary quadrennial contact with some crank running for president as a communist or socialist. At best, such candidates pick up a comparative handful of votes and curiosity. They are the crazy aunt who mercifully shows up only for major family gatherings. Only this time, she has brought friends.</p>
+<p>We have emotionally felt that socialism and its wealth confiscation could not happen here. It can, of course. These policies now being so candidly bandied about are exactly what it would look like. And these proposals are just the beginning of what the left will do, if given the chance.</p>
+<p><strong><em>J.T. Young served under President George W. Bush as the director of communications in the Office of Management and Budget and as deputy assistant secretary in legislative affairs for tax and budget at the Treasury Department. He served as a congressional staffer from 1987-2000.</em></strong></p>
+<div class='heateorSssClear'></div><div  class='heateor_sss_sharing_container heateor_sss_horizontal_sharing' heateor-sss-data-href='https://spectator.org/americas-left-and-the-confiscation-of-wealth/'><div class='heateor_sss_sharing_title' style="font-weight:bold" ></div><ul class="heateor_sss_sharing_ul"><li class="heateorSssSharingRound"><i style="width:110px;height:35px;" alt="Facebook" Title="Facebook" class="heateorSssSharing heateorSssFacebookBackground" onclick='heateorSssPopup("https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fspectator.org%2Famericas-left-and-the-confiscation-of-wealth%2F")'><ss style="display:block;" class="heateorSssSharingSvg heateorSssFacebookSvg"></ss></i></li><li class="heateorSssSharingRound"><i style="width:110px;height:35px;" alt="Twitter" Title="Twitter" class="heateorSssSharing heateorSssTwitterBackground" onclick='heateorSssPopup("http://twitter.com/intent/tweet?text=America%E2%80%99s%20Left%20and%20the%20Confiscation%20of%20Wealth&url=https%3A%2F%2Fspectator.org%2Famericas-left-and-the-confiscation-of-wealth%2F")'><ss style="display:block;" class="heateorSssSharingSvg heateorSssTwitterSvg"></ss></i></li><li class="heateorSssSharingRound"><i style="width:110px;height:35px;" alt="Telegram" Title="Telegram" class="heateorSssSharing heateorSssTelegramBackground" onclick='heateorSssPopup("https://telegram.me/share/url?url=https%3A%2F%2Fspectator.org%2Famericas-left-and-the-confiscation-of-wealth%2F&text=America%E2%80%99s%20Left%20and%20the%20Confiscation%20of%20Wealth")'><ss style="display:block;" class="heateorSssSharingSvg heateorSssTelegramSvg"></ss></i></li><li class="heateorSssSharingRound"><i style="width:110px;height:35px;" alt="Email" Title="Email" class="heateorSssSharing heateorSssEmailBackground"  onclick="window.location.href = 'mailto:?subject=' + decodeURIComponent('America%E2%80%99s%20Left%20and%20the%20Confiscation%20of%20Wealth' ).replace('&', '%26') + '&body=' + decodeURIComponent('https%3A%2F%2Fspectator.org%2Famericas-left-and-the-confiscation-of-wealth%2F' )"><ss style="display:block" class="heateorSssSharingSvg heateorSssEmailSvg"></ss></i></li><li class="heateorSssSharingRound"><i style="width:110px;height:35px;" alt="Print" Title="Print" class="heateorSssSharing heateorSssPrintBackground" onclick='window.print()'><ss style="display:block" class="heateorSssSharingSvg heateorSssPrintSvg"></ss></i></li></ul><div class="heateorSssClear"></div></div><div class='heateorSssClear'></div>        </div>
+        <ev-paywall></ev-paywall>
+		<ev-paywall-notifier></ev-paywall-notifier>
+        <div class="share share-large">
+                            <div class="signature">
+                    <img src="https://149366087.v2.pressablecdn.com/wp-content/themes/spectator/imgs/logo-small.jpg"/>
+                </div>
+                        <!-- Go to www.addthis.com/dashboard to customize your tools --> <!-- <div class="addthis_inline_share_toolbox_u816"></div> --> <div class="addthis_inline_share_toolbox" style="float: none;"></div>
+			<!-- Go to www.addthis.com/dashboard to customize your tools -->
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5d4843c93c45c03e"></script>
+            <div class="print-btn" style="display: none;">
+                <a href="https://www.printfriendly.com" tabindex="1" class="at-icon-wrapper at-share-btn printfriendly" onclick="window.print();return false;" title="Printer Friendly and PDF" style="background-color: #797979; border-radius: 0px;">
+                    
+                   <span class="at-icon-wrapper" style="line-height: 32px; height: 32px; width: 32px;">
+                      <svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-facebook-1" style="fill: rgb(255, 255, 255); width: 32px; height: 32px;" class="at-icon at-icon-facebook">
+                         <title id="at-svg-print-4" class="hidden-originally">Print</title>
+                          <g><path d="M24.67 10.62h-2.86V7.49H10.82v3.12H7.95c-.5 0-.9.4-.9.9v7.66h3.77v1.31L15 24.66h6.81v-5.44h3.77v-7.7c-.01-.5-.41-.9-.91-.9zM11.88 8.56h8.86v2.06h-8.86V8.56zm10.98 9.18h-1.05v-2.1h-1.06v7.96H16.4c-1.58 0-.82-3.74-.82-3.74s-3.65.89-3.69-.78v-3.43h-1.06v2.06H9.77v-3.58h13.09v3.61zm.75-4.91c-.4 0-.72-.32-.72-.72s.32-.72.72-.72c.4 0 .72.32.72.72s-.32.72-.72.72zm-4.12 2.96h-6.1v1.06h6.1v-1.06zm-6.11 3.15h6.1v-1.06h-6.1v1.06z"></path></g>It all reminds me of July 1, 1987 when President Ronald Reagan nominated Judge Robert Bork for an opening on the Supreme Court. He had it made in the shade, said my complacent conservative friends. The result was brutal. But we do not have to look back 32 years to see how unruly the leftwing mob can be. Recall the recent fate of Judge Brett Kavanaugh. Only his courage and unscotchable determinate saved him. The simple fact is that the conservatives are often slow on the draw against the American left. Only the Wall Street Journal and the intrepid New York Sun have come out swinging for Moore. It is time for the conservatives to rally around him. He can probably win with the President on his side. He apparently has the votes. Yet the coming battle would be a lot less bloody if the conservative movement were to take the field on Moore’s behalf — and make it clear that from now on they are going to wage war for the President’s nominees.
+                      </svg>
+                      <svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-print-4" class="at-icon at-icon-print" style="fill: rgb(34, 34, 34); width: 32px; height: 32px;"></svg>
+                   </span>
+                   <span class="at-label" style="line-height: 32px; padding-right: 10px; display: inline-block; vertical-align: text-top; font-size: 11.4px; color: rgb(255, 255, 255);">Print</span>
+                </a>
+            </div>
+		<div class="clear"></div>
+	    </div>
+      <a href="/subscribe/" class="subscribe-banner"><img src="https://149366087.v2.pressablecdn.com/wp-content/uploads/2020/01/728x90_1.jpg" alt="Ads" /></a>
+                </div>
+        <div class="clear"></div>
+    </div><!-- .container -->
+    <div class="container">
+    <div class="related-posts">
+                                <div class="medium-post stack-image post post-1">
+                        <a aria-label="Redefining the Parameters of Racism" href="https://spectator.org/redefining-the-parameters-of-racism/">
+                                                        <div class="image" style="background-image: url(https://149366087.v2.pressablecdn.com/wp-content/uploads/2020/02/I-actually-want-you-dead-scaled.jpg);"></div>
+                        </a>
+                        <div class="content">
+                            <div class="category">
+                                <a href="https://spectator.org/category/politics/nations-pulse/">The Nation’s Pulse</a>                            </div>
+                            <div class="title">
+                                <a href="https://spectator.org/redefining-the-parameters-of-racism/">Redefining the Parameters of Racism</a>
+                            </div>
+                            <div class="author"><span class="italic">by</span> <span class="uppercase">
+							<a href="https://spectator.org/author/ben-hall/" title="Posts by Ben Hall" class="author url fn" rel="author">Ben Hall</a><script>(function() {document.querySelectorAll('.author-text a').forEach((x) => x.className = '')})()</script> 
+								
+							</span></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                        <div class="medium-post stack-image post post-2">
+                        <a aria-label="Democrats’ Impeachment Was About Survival Not Removal" href="https://spectator.org/democrats-impeachment-was-about-survival-not-removal/">
+                                                        <div class="image" style="background-image: url(https://149366087.v2.pressablecdn.com/wp-content/uploads/2020/02/DemLeft.jpg);"></div>
+                        </a>
+                        <div class="content">
+                            <div class="category">
+                                <a href="https://spectator.org/category/politics/political-hay/">Political Hay</a>                            </div>
+                            <div class="title">
+                                <a href="https://spectator.org/democrats-impeachment-was-about-survival-not-removal/">Democrats’ Impeachment Was About Survival Not Removal</a>
+                            </div>
+                            <div class="author"><span class="italic">by</span> <span class="uppercase">
+							<a href="https://spectator.org/author/jtyoung/" title="Posts by J.T. Young" class="author url fn" rel="author">J.T. Young</a><script>(function() {document.querySelectorAll('.author-text a').forEach((x) => x.className = '')})()</script> 
+								
+							</span></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                        <div class="medium-post stack-image post post-0">
+                        <a aria-label="The Suicide of the Left" href="https://spectator.org/the-suicide-of-the-left/">
+                                                        <div class="image" style="background-image: url(https://149366087.v2.pressablecdn.com/wp-content/uploads/2020/02/Nancy-scaled.jpg);"></div>
+                        </a>
+                        <div class="content">
+                            <div class="category">
+                                <a href="https://spectator.org/category/politics/political-hay/">Political Hay</a>                            </div>
+                            <div class="title">
+                                <a href="https://spectator.org/the-suicide-of-the-left/">The Suicide of the Left</a>
+                            </div>
+                            <div class="author"><span class="italic">by</span> <span class="uppercase">
+							<a href="https://spectator.org/author/jlord/" title="Posts by Jeffrey Lord" class="author url fn" rel="author">Jeffrey Lord</a><script>(function() {document.querySelectorAll('.author-text a').forEach((x) => x.className = '')})()</script> 
+								
+							</span></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>                    <div class="medium-post stack-image post post-1">
+                        <a aria-label="The Unbearable Lightness of Marianne" href="https://spectator.org/the-unbearable-lightness-of-marianne/">
+                                                        <div class="image" style="background-image: url(https://149366087.v2.pressablecdn.com/wp-content/uploads/2020/01/Williamson2-scaled.jpg);"></div>
+                        </a>
+                        <div class="content">
+                            <div class="category">
+                                <a href="https://spectator.org/category/politics/a-further-perspective/">A Further Perspective</a>                            </div>
+                            <div class="title">
+                                <a href="https://spectator.org/the-unbearable-lightness-of-marianne/">The Unbearable Lightness of Marianne</a>
+                            </div>
+                            <div class="author"><span class="italic">by</span> <span class="uppercase">
+							<a href="https://spectator.org/author/lthornberry/" title="Posts by Larry Thornberry" class="author url fn" rel="author">Larry Thornberry</a><script>(function() {document.querySelectorAll('.author-text a').forEach((x) => x.className = '')})()</script> 
+								
+							</span></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                        <div class="medium-post stack-image post post-2">
+                        <a aria-label="The Reagan Revolution Gives Way to the Trump Revolution" href="https://spectator.org/the-trump-revolution-2/">
+                                                        <div class="image" style="background-image: url(https://149366087.v2.pressablecdn.com/wp-content/uploads/2020/01/TrumpRev2.jpg);"></div>
+                        </a>
+                        <div class="content">
+                            <div class="category">
+                                <a href="https://spectator.org/category/politics/political-hay/">Political Hay</a>                            </div>
+                            <div class="title">
+                                <a href="https://spectator.org/the-trump-revolution-2/">The Reagan Revolution Gives Way to the Trump Revolution</a>
+                            </div>
+                            <div class="author"><span class="italic">by</span> <span class="uppercase">
+							<a href="https://spectator.org/author/jlord/" title="Posts by Jeffrey Lord" class="author url fn" rel="author">Jeffrey Lord</a><script>(function() {document.querySelectorAll('.author-text a').forEach((x) => x.className = '')})()</script> 
+								
+							</span></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                        <div class="medium-post stack-image post post-0">
+                        <a aria-label="Power Mad: The Worst of the Left" href="https://spectator.org/the-worst-of-the-left/">
+                                                        <div class="image" style="background-image: url(https://149366087.v2.pressablecdn.com/wp-content/uploads/2019/12/Antonio-Guillem-shutterstock_1099606670-scaled.jpg);"></div>
+                        </a>
+                        <div class="content">
+                            <div class="category">
+                                <a href="https://spectator.org/category/politics/a-further-perspective/">A Further Perspective</a>                            </div>
+                            <div class="title">
+                                <a href="https://spectator.org/the-worst-of-the-left/">Power Mad: The Worst of the Left</a>
+                            </div>
+                            <div class="author"><span class="italic">by</span> <span class="uppercase">
+							<a href="https://spectator.org/author/ron-ross/" title="Posts by Ron Ross" class="author url fn" rel="author">Ron Ross</a><script>(function() {document.querySelectorAll('.author-text a').forEach((x) => x.className = '')})()</script> 
+								
+							</span></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>            <div class="clear"></div>
+        </div>
+		
+		<!-- Composite Start -->
+<div id="M28095ScriptRootC869605">
 </div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="&lt;p&gt;New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It&lt;/p&gt;" data-src="https://media.townhall.com/townhall/reu/ha/2020/97/a1c032c2-2dc2-415a-a698-50aeb7968e7a.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="&lt;p&gt;New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It&lt;/p&gt;" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"><p>New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It</p></a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" data-src="https://media.townhall.com/townhall/reu/ha/2014/289/17329344-1af8-4a1f-8631-ab65d20076a0.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141">There's Something a Little Odd About the Letter Hunter Biden's Lawyer Sent Regarding the China Allegations</a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-</div><div class="row">
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported" data-src="https://media.townhall.com/townhall/reu/ha/2020/80/b0dabbb2-2c7b-419e-a142-ce365718c3d4.jpg" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/first-largescale-antibody-testing-indicate-coronavirus-infections-much-higher-death-rate-much-lower-n2567155"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/first-largescale-antibody-testing-indicate-coronavirus-infections-much-higher-death-rate-much-lower-n2567155">New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported</a>
-</div>
-<div class="story__author">
-Bronson Stocking
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a class="thm-inc lazy" title="ICE Apprehends Five Asia Nationals Illegally Present in the U.S. " data-src="https://media.townhall.com/townhall/reu/ha/2019/133/d63885bf-3c7a-4a9a-bcbd-ac2735c54d62.png" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/five-asia-nationals-six-pakistanis-apprehended-by-ice-n2567165"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="ICE Apprehends Five Asia Nationals Illegally Present in the U.S. " href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/five-asia-nationals-six-pakistanis-apprehended-by-ice-n2567165">ICE Apprehends Five Asia Nationals Illegally Present in the U.S. </a>
-</div>
-<img class="thm-sublevel" src="/resources/dist/svg/subscriptions-badge-vip.svg" />
-<div class="story__author">
-Bronson Stocking
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" data-src="https://media.townhall.com/townhall/reu/ha/2020/108/0312f0de-aebe-4ffd-8865-086c6760c7bf.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157">Land O'Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?</a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-</div><div class="row">
-</div>
-</section>
-</section>
-<div id="article-comment-bookmark"></div>
-<section id="article-comments" name="article-comments">
-<button class="show-comments btn btn-lg btn-block btn-primary" style="margin:0 0 15px 0;" data-disqus-url="https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811">SHOW COMMENTS</button>
-<div id="disqus_thread"></div>
+<script src="https://jsc.mgid.com/s/p/spectator.org.869605.js" async></script>
+<!-- Composite End -->
+
+<!-- <div class="ads_container whizzco_widget" website_id="1518" widget_id="4789"></div>
+
+<div id="whizzco_script">
+    <!-- Whizzco Widget -->
+    <script type="text/javascript" src="https://cdn.whizzco.com/scripts/widget/widget_v3.js" async></script>
+    <!-- End Whizzco Widget -->
+</div> --> 
+
+        <div class="comments">
+            <div id="disqus_thread"></div>
+            <script>
+
+                /**
+                 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                /*
+                 var disqus_config = function () {
+                 this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                 };
+                 */
+                (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://spectator-org.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+            </div><!-- .container -->
 <script>
-      var disqus_config = function () {
-            this.page.url = "https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811";
-          this.page.identifier = "https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811";
-      };
-    $('.show-comments').on('click', function () {
-        $.ajax({
-            type: "GET",
-            url: "//townhallcom.disqus.com/embed.js",
-            dataType: "script",
-            cache: true
-        });
-        $(this).hide();
+    function sticktothetop() {
+        var window_top = jQuery(window).scrollTop();
+        var top = jQuery('#share-anchor').offset().top;
+        var left = jQuery('#share-anchor').offset().left;
+        if (window_top > top) {
+            jQuery('#side-share').addClass('stick');
+            jQuery('#side-share').css("left", left - 32);
+            jQuery('#share-anchor').height(jQuery('#stickThis').outerHeight());
+        } else {
+            jQuery('#side-share').removeClass('stick');
+            jQuery('#side-share').css("left", "");
+            jQuery('#share-anchor').height(0);
+        }
+    }
+    jQuery(function() {
+        jQuery(window).scroll(sticktothetop);
+        sticktothetop();
     });
 </script>
-</section>
-</div>
-<div class="col-xs-4 article-rail">
-<div class="ad">
-<div id="div-gpt-300x250_1" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_1");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_1"]])
-                    });
-                </script>
-</div>
-</div>
-<div class="article-actions">
-<a href="mailto:?subject=President Trump: We&#39;re Working Closely with Governors to Open the Economy&amp;body=https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811" class="btn btn-default btn-article-email"><i class="fa fa-envelope"></i></a>
-<a data-url="https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811/print" onclick="window.open('https://townhall.com/tipsheet/katiepavlich/2020/04/13/president-trump-were-working-closely-with-governors-to-open-the-economy-n2566811/print', 'print-winder', 'width=850,height=700,scrollbars=yes');" class="btn btn-default btn-article-print"><i class="fa fa-print"></i></a>
-<a href="#article-comment-bookmark" class="btn btn-default btn-article-comment"><i class="fa fa-comment"></i></a>
-</div>
-<div class="ad" style="margin-top:10px">
-<div id="div-gpt-300x250_3" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_3");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_3"]])
-                    });
-                </script>
-</div>
-</div>
-<div class="cartoon-widget">
-<div class="cartoon-widget__title"><a href="/political-cartoons">CARTOONS</a>&nbsp;|&nbsp;<a href="/political-cartoons/michaelramirez/">Michael Ramirez</a></div>
-<a class="cartoon-widget__img" href="/political-cartoons/2020/04/18/173115?hpnl=true" style="background-image:url('//media.townhall.com/Townhall/Car/b/mrz041820dAPR20200417044513.jpg');"></a>
-<div class="cartoon-widget__button"><a href="/political-cartoons/2020/04/18/173115?hpnl=true"> View Cartoon <i class="fa fa-arrow-circle-right"></i></a></div>
-</div>
-<div class="sticky-reference">
-<div class="sticky" data-offset-top="55">
-<div class="mpw">
-<div class="mpw__title">Most Popular</div>
-<ul class="list-unstyled mpw__divide">
-<li>
-<div class="row">
-<div class="col-xs-4">
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern  - 192" href="/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2020/104/30b0d531-01a6-4224-85b5-7548e5f3b2a7.jpg" /></a>
-</div>
-<div class="col-xs-8 no-gutter">
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern  - 192" href="/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915">
-<span class="mpw__story">Israeli Professor Shows Virus Follows Fixed Pattern </span>
-</a>
-</div>
-</div>
-</li>
-<li>
-<div class="row">
-<div class="col-xs-4">
-<a title="There's Something a Little Odd About the Letter Hunter Biden's Lawyer Sent Regarding the China Allegations - 35" href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2014/289/17329344-1af8-4a1f-8631-ab65d20076a0.jpg" /></a>
-</div>
-<div class="col-xs-8 no-gutter">
-<a title="There's Something a Little Odd About the Letter Hunter Biden's Lawyer Sent Regarding the China Allegations - 35" href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141">
-<span class="mpw__story">There's Something a Little Odd About the Letter Hunter Biden's Lawyer Sent Regarding the China Allegations</span>
- </a>
-</div>
-</div>
-</li>
-<li>
-<div class="row">
-<div class="col-xs-4">
-<a title="Brutal: Pelosi's Terrible Answer About Why Democrats Keep Blocking Needed Rescue Funds for Small Businesses - 23" href="/tipsheet/guybenson/2020/04/17/listen-pelosis-terrible-answer-about-why-democrats-keep-blocking-needed-rescue-funds-for-small-businesses-n2567120"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2019/143/d59c6b2f-ac5c-46f0-a985-d3b894ad8aae.png" /></a>
-</div>
-<div class="col-xs-8 no-gutter">
-<a title="Brutal: Pelosi's Terrible Answer About Why Democrats Keep Blocking Needed Rescue Funds for Small Businesses - 23" href="/tipsheet/guybenson/2020/04/17/listen-pelosis-terrible-answer-about-why-democrats-keep-blocking-needed-rescue-funds-for-small-businesses-n2567120">
-<span class="mpw__story">Brutal: Pelosi's Terrible Answer About Why Democrats Keep Blocking Needed Rescue Funds for Small Businesses</span>
-</a>
-</div>
-</div>
-</li>
-</ul>
-</div>
-<div class="ad">
-<div id="div-gpt-300x250_sticky" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_sticky");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_sticky"]])
-                    });
-                </script>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</article>
-<div class="row sticky-stopper">
-<div class="col-xs-12">
-<div class="article-ad-970x90">
-<div id="div-gpt-lazy-728x90_3" data-gpt='{"IncludeInPrebid":true,"Target":"pos","TargetValue":"728x90_3","SectionSlug":"tipsheet","SlotId":0,"DivUniqueId":"div-gpt-lazy-728x90_3","AdSize":"[[728,90],[970,90]]","AdUnitPath":"/6177/slm.townhall/","AdType":0,"AdRenderType":1,"IsYieldBotAmp":false,"IntervalTime":0,"AdParentLocation":0}' class="lazy-ad gpt-ad">
-<script id="pb-div-gpt-lazy-728x90_3" type="application/json">
-                    {"code":"div-gpt-lazy-728x90_3","sizes":[[728,90],[970,90]],"bids":[{"bidder":"openx","params":{"unit":"537998002","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381642"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-lazy-728x90_3@728x90"}},{"bidder":"criteo","params":{"networkId":"7465"}}]}
-                </script>
-</div>
-</div>
-</div>
-</div>
-<section id="trending-on-thm" class="trending">
-<h1 class="trending__title">Trending on Townhall Media</h1>
-<div class="row">
-<div class="col-xs-4">
-<div class="mpw-bordered">
-<div class="mpw">
-<ul class="list-unstyled">
-<li>
-<a title="HUGE: The UK Just Dumped China&#39;s Huawei in 5G Tech Roll-Out — Citing its Lies Over Coronavirus. - 41" href="https://pjmedia.com/trending/huge-the-uk-just-dumped-chinas-huawei-in-5g-tech-roll-out-citing-its-lies-over-coronavirus/">
-<span class="mpw__story">HUGE: The UK Just Dumped China&#39;s Huawei in 5G Tech Roll-Out — Citing its Lies Over Coronavirus.</span>
-</a>
- <div class="mpw__domain" style="color:#00a99d;">
-PJ Media
-</div>
-</li>
-<li>
-<a title="Two Tennessee Teens Prove How Worthless Gun Control Is - 11" href="https://bearingarms.com/tom-k/2020/04/16/two-tennessee-teens-prove-how-worthless-gun-control-is/">
-<span class="mpw__story">Two Tennessee Teens Prove How Worthless Gun Control Is</span>
-</a>
-<div class="mpw__domain" style="color:#ADADAD;">
-Bearing Arms
-</div>
-</li>
-<li>
-<a title="Hold onto your HATS! Brit Hume shares fact-filled thread on study showing COVID fatality rate just bottomed out to influenza levels - 25" href="https://twitchy.com/samj-3930/2020/04/17/hold-onto-your-hats-brit-hume-shares-fact-filled-thread-on-study-showing-covid-fatality-rate-just-bottomed-out-to-influenza-levels/">
-<span class="mpw__story">Hold onto your HATS! Brit Hume shares fact-filled thread on study showing COVID fatality rate just bottomed out to influenza levels</span>
-</a>
-<div class="mpw__domain" style="color:#F27B21;">
-Twitchy
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-xs-8">
-<div class="row">
-<div class="col-xs-12">
-<div class="xl-story">
-<div class="xl-story__img">
-<a target="_top" class="lazy" href="https://townhall.com/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915" data-src="https://media.townhall.com/townhall/reu/ha/2020/104/30b0d531-01a6-4224-85b5-7548e5f3b2a7.jpg">
-&nbsp;
-</a>
-</div>
-<div class="xl-story__summary">
-<h1>
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern " href="https://townhall.com/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915">Israeli Professor Shows Virus Follows Fixed Pattern </a>
-</h1>
-<h5 style="color:#ba224b">Townhall</h5>
-</div>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-6">
-<div class="sm-story">
-<div class="sm-story__text">
-<a title="Strassel: Here&amp;#8217;s Why the Democrats Keep Moving the Shutdown Goal Posts" href="https://www.redstate.com/elizabeth-vaughn/2020/04/17/820436/">Strassel: Here&#8217;s Why the Democrats Keep Moving the Shutdown Goal Posts</a>
-</div>
-<div class="sm-story__flavor" style="color:#CB0809">Redstate</div>
-</div>
-</div>
-<div class="col-xs-6">
-<div class="sm-story">
-<div class="sm-story__text">
-<a title="The results are in on the Texas nursing home using hydroxychloroquine" href="https://hotair.com/archives/karen-townsend/2020/04/17/results-texas-nursing-home-using-hydroxychloroquine/">The results are in on the Texas nursing home using hydroxychloroquine</a>
-</div>
-<div class="sm-story__flavor" style="color:#CD2628">Hotair</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-</div>
-<div class="thm-piano-pfixed"></div>
-</div>
-<footer class="sticky-stopper">
-<section class="footer-brands">
-<div class="container">
-<ul class="list-inline list-unstyled">
-<li><a href="https://townhall.com"><img src="https://media.townhall.com/thm/th_logo1.png" alt="" /></a></li>
-<li><a href="https://hotair.com"><img src="https://media.townhall.com/thm/ha_logo1.png" alt="" /></a></li>
-<li><a href="https://bearingarms.com"><img src="https://media.townhall.com/thm/ba_logo1.png" alt="" /></a> </li>
-<li><a href="https://twitchy.com"><img src="https://media.townhall.com/thm/tw_logo1.png" alt="" /></a></li>
-<li><a href="https://redstate.com"><img src="https://media.townhall.com/thm/rs_logo1.png" alt="" /></a></li>
-<li><a href="https://pjmedia.com" target="_blank"><img src="https://media.townhall.com/thm/pj-media.png" style="width:100px;height:45px;" alt="PJ Media" /></a></li>
-</ul>
-</div>
-</section>
-<section class="footer-links">
-<div class="container">
-<ul class="list-inline list-unstyled">
-<li><a title="Conservative Columnists" href="/columnists">Columnists</a></li>
-<li><a href="/political-cartoons">Political Cartoons</a></li>
-<li><a href="/tipsheet">Tipsheet</a> </li>
-<li><a href="/tv">Townhall TV</a> </li>
-<li><a href="/podcasts">Podcasts</a> </li>
-<li><a title="Conservative News" href="/news">Radio News</a></li>
-<li><a title="Conservative Video" href="/video">Video</a></li>
-<li><a title="Conservative Entertainment" href="/entertainment">Entertainment</a></li>
-<li><a title="VIP" href="/vip">VIP</a></li>
-<li><a title="Conservative Capitol Voices" href="/capitol-voices">Capitol Voices</a></li>
-</ul>
-<ul class="list-inline list-unstyled">
-<li><a href="/election">Election Results</a></li>
-<li><a href="/tags/">Tags</a></li>
-<li><a href="http://finance.townhall.com">Finance</a></li>
-<li><a href="#" onclick="javascript:window.open('http://saleminteractivemedia.com/ListenLive/Player/TOWNIR','TOWNIR','width=800,height=710');">Townhall Radio</a></li>
-</ul>
-<ul class="list-inline list-unstyled">
-<li><a href="/aboutus">About Townhall</a></li>
-<li><a href="http://townhallmedia.com/">Advertise</a></li>
-<li><a href="https://townhall.com/tags/gift-guides/">Gift Guides</a></li>
-<li><a href="https://media.townhall.com/townhall/privacypolicy/privacypolicy.htm">Privacy Policy</a></li>
-<li><a href="https://media.townhall.com/townhall/privacypolicy/TermsofUse.htm">Terms of Use</a></li>
-<li><span class="thm-cpa"><a href="/donotsell" rel="nofollow">California - Do Not Sell My Personal Information</a></span></li>
-<li><a target="_blank" href="http://www.conservativeradio.com/">Radio Stations</a></li>
-<li><a href="/sitemap.htm">Sitemap</a></li>
-<li><a href="/pages/townhall_jobs">Jobs </a></li>
-<li><a href="/contact-us/">Contact Us</a></li>
-<li><a href="/newslettersignup/">Newsletters</a></li>
-<li><a href="/mobile-apps">iPhone/Android Apps</a></li>
-</ul>
-</div>
-</section>
-<section class="under-footer">
-<div class="container">
-<div class="row">
-<hr>
-<div class="col-xs-4">
-<a href="/">
-<img alt="Townhall.com" src="https://media.townhall.com/_townhall/resources/images/thmplus.png">
-<img style="width: 155px;height:40px;" alt="Townhall.com" src="/resources/th_logo.svg">
-</a>
-</div>
-<div class="col-xs-8">
-<p class="copyright" style="margin-top:12px;">
-Townhall.com is the leading source for conservative news and political commentary and analysis.<br>
-Copyright &copy; Townhall.com/Salem Media. All Rights Reserved. <a href="https://media.townhall.com/townhall/privacypolicy/TermsofUse.htm" target="_blank">Terms</a> under which this service
-is provided to you
-</p>
-</div>
-</div>
-</div>
-</section>
-<div id="div-gpt-oop" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-oop");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-oop"]])
-                    });
-                </script>
-</div>
-</footer>
-<script>(function(src){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=src;var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})("https://experience.tinypass.com/xbuilder/experience/load?aid=tSxoqtcFa7");</script>
-<div id="login-form"></div> <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
-<script src="/resources/dist/js/site.min.js?v=24"></script>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script>
-    tp = window["tp"] || [];
-    tp.push(["setTags", ["thm:article","donald-trump","jobs-and-economy","economic-crisis","wuhan-coronavirus"]]);
+<!-- Go to www.addthis.com/dashboard to customize your tools --> <!-- <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5abc8ab2b3df9aca"></script> -->
+<script>var pfHeaderImgUrl = '';var pfHeaderTagline = '';var pfdisableClickToDel = 0;var pfHideImages = 0;var pfImageDisplayStyle = 'right';var pfDisablePDF = 0;var pfDisableEmail = 0;var pfDisablePrint = 0;var pfCustomCSS = '';var pfBtVersion='2';(function(){var js,pf;pf=document.createElement('script');pf.type='text/javascript';pf.src='//cdn.printfriendly.com/printfriendly.js';document.getElementsByTagName('head')[0].appendChild(pf)})();</script>
+o
+        <div class="subscribe-bar">
+    <div class="container">
+         Sign Up to receive <span class="sub">Our Latest Updates!</span>
+        <!--<a href="https://spectator.org/subscribe" class="btn">Subscribe</a>-->
+		<a href="https://spectator.org/subscribe" class="btn">Register</a>
+    </div>
+</div>        <div class="footer">
+            <div class="container">
+                <div class="menu">
+                    <ul id="menu-main-menu-left-2" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-327890"><a href="https://spectator.org/category/politics/">Politics</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-327887"><a href="https://spectator.org/category/americana/">Americana</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-410760"><a href="https://spectator.org/podcast/">Podcast</a></li>
+</ul>                </div>
+
+                <div class="social-links">
+                    <ul>
+                                                    <li class="fb-link">
+                                <a aria-label="facebook" href="https://www.facebook.com/americanspectator/" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" class="at-icon at-icon-facebook"><g><path d="M22 5.16c-.406-.054-1.806-.16-3.43-.16-3.4 0-5.733 1.825-5.733 5.17v2.882H9v3.913h3.837V27h4.604V16.965h3.823l.587-3.913h-4.41v-2.5c0-1.123.347-1.903 2.198-1.903H22V5.16z" fill-rule="evenodd"></path></g></svg>
+                                </a>
+                            </li>
+                                                                            <li class="tw-link">
+                                <a aria-label="twitter" href="https://twitter.com/amspectator" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" class="at-icon at-icon-twitter"><g><path d="M27.996 10.116c-.81.36-1.68.602-2.592.71a4.526 4.526 0 0 0 1.984-2.496 9.037 9.037 0 0 1-2.866 1.095 4.513 4.513 0 0 0-7.69 4.116 12.81 12.81 0 0 1-9.3-4.715 4.49 4.49 0 0 0-.612 2.27 4.51 4.51 0 0 0 2.008 3.755 4.495 4.495 0 0 1-2.044-.564v.057a4.515 4.515 0 0 0 3.62 4.425 4.52 4.52 0 0 1-2.04.077 4.517 4.517 0 0 0 4.217 3.134 9.055 9.055 0 0 1-5.604 1.93A9.18 9.18 0 0 1 6 23.85a12.773 12.773 0 0 0 6.918 2.027c8.3 0 12.84-6.876 12.84-12.84 0-.195-.005-.39-.014-.583a9.172 9.172 0 0 0 2.252-2.336" fill-rule="evenodd"></path></g></svg>
+                                </a>
+                            </li>
+                                                                            <li class="yt-link">
+                                <a aria-label="youtube" href="https://www.youtube.com/user/AmerSpectator" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" class="at-icon at-icon-youtube"><g><path d="M13.73 18.974V12.57l5.945 3.212-5.944 3.192zm12.18-9.778c-.837-.908-1.775-.912-2.205-.965C20.625 8 16.007 8 16.007 8c-.01 0-4.628 0-7.708.23-.43.054-1.368.058-2.205.966-.66.692-.875 2.263-.875 2.263S5 13.303 5 15.15v1.728c0 1.845.22 3.69.22 3.69s.215 1.57.875 2.262c.837.908 1.936.88 2.426.975 1.76.175 7.482.23 7.482.15 0 .08 4.624.072 7.703-.16.43-.052 1.368-.057 2.205-.965.66-.69.875-2.262.875-2.262s.22-1.845.22-3.69v-1.73c0-1.844-.22-3.69-.22-3.69s-.215-1.57-.875-2.262z" fill-rule="evenodd"></path></g></svg>
+                                </a>
+                            </li>
+                                            </ul>
+                </div>
+
+                <div class="submenu">
+                    <ul id="menu-top-bar-2" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-327885"><a href="https://spectator.org/about/">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-327886"><a href="https://spectator.org/authors/">Meet Our Authors</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-327884"><a href="https://spectator.org/events/">Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-327883"><a href="https://spectator.org/contact/">Contact</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393152"><a href="https://spectator.org/submissions/">Submissions</a></li>
+</ul>                </div>
+				<hr>	
+				<div class="submenu">
+                    <ul id="menu-terms" class="menuterms"><li id="menu-item-344876" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-344876"><a href="https://spectator.org/terms-of-service/">Terms of Service</a></li>
+<li id="menu-item-344877" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-344877"><a href="https://spectator.org/cookie-policy/">Cookie Policy</a></li>
+<li id="menu-item-344878" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-344878"><a href="https://spectator.org/privacy-policy/">Privacy Policy</a></li>
+</ul>                </div>
+            </div>
+        </div>
+                <script type="text/javascript">
+            jQuery(document).ready(function($){
+                $('.premium-account .spectator-ads').remove();
+            });
+        </script>
+
+        		<div data-elementor-type="popup" data-elementor-id="398914" class="elementor elementor-398914 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation&quot;:&quot;slideInUp&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.2,&quot;sizes&quot;:[]},&quot;triggers&quot;:[],&quot;timing&quot;:{&quot;times_times&quot;:2,&quot;times&quot;:&quot;yes&quot;}}">
+		<div class="elementor-inner">
+			<div class="elementor-section-wrap">
+						<section class="elementor-element elementor-element-7a32a2d2 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="7a32a2d2" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-2288bb94 elementor-column elementor-col-33 elementor-top-column" data-id="2288bb94" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-27d7f800 elementor-invisible elementor-widget elementor-widget-image" data-id="27d7f800" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;slideInUp&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="232" height="300" src="https://149366087.v2.pressablecdn.com/wp-content/uploads/2019/07/ben-232x300.png" class="attachment-medium size-medium" alt="" srcset="https://149366087.v2.pressablecdn.com/wp-content/uploads/2019/07/ben-232x300.png 232w , https://149366087.v2.pressablecdn.com/wp-content/uploads/2019/07/ben.png 612w " sizes="(max-width: 232px) 100vw, 232px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-78e07d6e elementor-column elementor-col-33 elementor-top-column" data-id="78e07d6e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-3365aab8 elementor-widget elementor-widget-heading" data-id="3365aab8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Be a Free Market Loving Patriot.  Subscribe Today!</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-407c5413 elementor-column elementor-col-33 elementor-top-column" data-id="407c5413" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-79df365 elementor-align-justify elementor-widget elementor-widget-button" data-id="79df365" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://spectator.org/subscribe/" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Subscribe</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+					</div>
+		</div>
+		</div>
+		<script type='text/javascript' src='https://149366087.v2.pressablecdn.com/wp-content/themes/spectator/js/script.js?ver=0.0.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/spectator.org\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
 </script>
-<script type="text/javascript">
-        console.info("The End: ", window.performance.now());
-        console.info("Device: ", "Desktop");
-    </script>
-<div class="thm-piano-bottom"></div>
-</body>
+<script type='text/javascript' src='https://149366087.v2.pressablecdn.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"spectator-org"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://149366087.v2.pressablecdn.com/wp-content/plugins/disqus-comment-system/public/js/comment_count.js?ver=3.0.17'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var embedVars = {"disqusConfig":{"integration":"wordpress 3.0.17"},"disqusIdentifier":"392876 https:\/\/spectator.org\/?p=392876","disqusShortname":"spectator-org","disqusTitle":"America\u2019s Left and the Confiscation of Wealth","disqusUrl":"https:\/\/spectator.org\/americas-left-and-the-confiscation-of-wealth\/","postId":"392876"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://149366087.v2.pressablecdn.com/wp-content/plugins/disqus-comment-system/public/js/comment_embed.js?ver=3.0.17'></script>
+<script type='text/javascript' src='https://149366087.v2.pressablecdn.com/wp-content/plugins/zeno-font-resizer/js/js.cookie.js?ver=1.7.4'></script>
+<script type='text/javascript' src='https://149366087.v2.pressablecdn.com/wp-content/plugins/zeno-font-resizer/js/jquery.fontsize.js?ver=1.7.4'></script>
+<script type='text/javascript'>
+function heateorSssLoadEvent(e) {var t=window.onload;if (typeof window.onload!="function") {window.onload=e}else{window.onload=function() {t();e()}}};	var heateorSssSharingAjaxUrl = 'https://spectator.org/wp-admin/admin-ajax.php', heateorSssCloseIconPath = 'https://149366087.v2.pressablecdn.com/wp-content/plugins/sassy-social-share/public/../images/close.png', heateorSssPluginIconPath = 'https://149366087.v2.pressablecdn.com/wp-content/plugins/sassy-social-share/public/../images/logo.png', heateorSssHorizontalSharingCountEnable = 0, heateorSssVerticalSharingCountEnable = 0, heateorSssSharingOffset = -10; var heateorSssMobileStickySharingEnabled = 0;var heateorSssCopyLinkMessage = "Link copied.";var heateorSssUrlCountFetched = [], heateorSssSharesText = 'Shares', heateorSssShareText = 'Share';function heateorSssPopup(e) {window.open(e,"popUpWindow","height=400,width=600,left=400,top=100,resizable,scrollbars,toolbar=0,personalbar=0,menubar=no,location=no,directories=no,status")};var heateorSssWhatsappShareAPI = "web";
+</script>
+<script type='text/javascript' src='https://149366087.v2.pressablecdn.com/wp-content/plugins/sassy-social-share/public/js/sassy-social-share-public.js?ver=3.3.9'></script>
+<script type='text/javascript' src='https://149366087.v2.pressablecdn.com/wp-includes/js/wp-embed.min.js?ver=5.4'></script>
+<script type='text/javascript' src='https://cdn.onesignal.com/sdks/OneSignalSDK.js?ver=5.4' async='async'></script>
+<script type='text/javascript' src='https://149366087.v2.pressablecdn.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=2.9.7'></script>
+<script type='text/javascript' src='https://149366087.v2.pressablecdn.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=2.9.2'></script>
+<script type='text/javascript'>
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/spectator.org\/wp-admin\/admin-ajax.php","nonce":"aa884ec956","i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"delicious":{"title":"Delicious"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""}};
+</script>
+<script type='text/javascript' src='https://149366087.v2.pressablecdn.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=2.9.2'></script>
+<script type='text/javascript' src='https://149366087.v2.pressablecdn.com/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://149366087.v2.pressablecdn.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.7.6'></script>
+<script type='text/javascript' src='https://149366087.v2.pressablecdn.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'></script>
+<script type='text/javascript' src='https://149366087.v2.pressablecdn.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6'></script>
+<script type='text/javascript' src='https://149366087.v2.pressablecdn.com/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=2.9.7'></script>
+<script type='text/javascript'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","downloadImage":"Download image"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.9.7","urls":{"assets":"https:\/\/spectator.org\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_global_image_lightbox":"yes","elementor_lightbox_enable_counter":"yes","elementor_lightbox_enable_fullscreen":"yes","elementor_lightbox_enable_zoom":"yes","elementor_lightbox_enable_share":"yes","elementor_lightbox_title_src":"title","elementor_lightbox_description_src":"description"},"editorPreferences":[]},"post":{"id":392876,"title":"America%E2%80%99s%20Left%20and%20the%20Confiscation%20of%20Wealth%20%E2%80%93%20The%20American%20Spectator","excerpt":"","featuredImage":"https:\/\/spectator.org\/wp-content\/uploads\/2019\/04\/Property-Seizure-shutterstock_1313649767.jpg"}};
+</script>
+<script type='text/javascript' src='https://149366087.v2.pressablecdn.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=2.9.7'></script>
+
+<script type='text/javascript' src='//spectator.org/wp-content/uploads/custom-css-js/392315.js?v=6303'></script>
+	  <script type="text/javascript">
+		(function() {
+		  var t   = document.createElement( 'script' );
+		  t.type  = 'text/javascript';
+		  t.async = true;
+		  t.id    = 'gauges-tracker';
+		  t.setAttribute( 'data-site-id', '5c2eeb6518e8d30babdfa9f9' );
+		  t.src = '//secure.gaug.es/track.js';
+		  var s = document.getElementsByTagName( 'script' )[0];
+		  s.parentNode.insertBefore( t, s );
+		})();
+	  </script>
+	      </body>
 </html>

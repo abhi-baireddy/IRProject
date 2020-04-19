@@ -1,1499 +1,196 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
-  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product# c: http://s.opencalais.com/1/pred/ sys: http://s.opencalais.com/1/type/sys/ lid: http://s.opencalais.com/1/type/lid/ cat: http://s.opencalais.com/1/type/cat/ resolved: http://s.opencalais.com/1/type/er/ cgeo: http://s.opencalais.com/1/type/er/Geo/ eventfact: http://s.opencalais.com/1/type/em/r/ entity: http://s.opencalais.com/1/type/em/e/ cld: http://s.opencalais.com/1/linkeddata/pred/ content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# op: http://media.facebook.com/op# article: http://ogp.me/ns/article#" class="post-tmpl-default single single-post pid-10275240 tf-single pt-post c-politics">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="dns-prefetch" href="https://www.google-analytics.com">
+	<link rel="dns-prefetch" href="https://connect.facebook.net">
+	<link rel="dns-prefetch" href="https://ib.adnxs.com">
+	<link rel="dns-prefetch" href="https://api.sail-personalize.com">
+	<link rel="dns-prefetch" href="https://adservice.google.com">
+	<link rel="dns-prefetch" href="https://cdn.ampproject.org">
+	<link rel="dns-prefetch" href="https://www.gstatic.com">
+	<link rel="dns-prefetch" href="https://fonts.gstatic.com">
+	<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+	<link rel="dns-prefetch" href="https://staticxx.facebook.com">
+	<link rel="dns-prefetch" href="https://breitbartproduction.disqus.com">
+	<link rel="dns-prefetch" href="https://secure.quantserve.com">
+	<link rel="dns-prefetch" href="https://pixel.quantserve.com">
+	<link rel="preload" href="/t/style-065417609590353911314.css" as="style">
+	<link rel="preload" href="/t/assets/fonts/bbn.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="/t/style-065417609590353911314.js" as="script">
+	<link rel="preload" href="/t/assets/js/prebid-6.js" as="script">
+	<link rel="preload" href="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" as="script">
+	<link rel="preload" href="https://cdn.jsdelivr.net/npm/store-js@2.0.4/dist/store.legacy.min.js" as="script">
+	<link href="/t/style-065417609590353911314.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+	<meta property="fb:pages" content="95475020353">
 
-<head profile="http://www.w3.org/1999/xhtml/vocab">
-  <script type="text/javascript">
-    var iPad = (navigator.userAgent.match(/(iPad)/) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1));
-  </script>
-      <script type="text/javascript">
-      if (!iPad) {
-        var meta = document.createElement('meta');
-        meta.name = "viewport";
-        meta.content = "width=device-width, initial-scale=1.0";
-        document.getElementsByTagName('head')[0].appendChild(meta);
-      }
-    </script>
-      <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"962df17ac8",applicationID:"409941798"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
-<script>var _sf_startpt=(new Date()).getTime();</script>
-<link rel="amphtml" href="https://thehill.com/policy/finance/493268-millions-wait-for-virus-relief-checks-in-major-test-for-irs?amp" />
-<meta property="author" content="Naomi Jagoda" />
-<link rel="shortcut icon" href="https://thehill.com/favicon.ico" type="image/vnd.microsoft.icon" />
-<meta name="description" content="The IRS has started to issue coronavirus rebates to tens of millions of people, but faces challenges in getting the payments to everyone." />
-<meta name="keywords" content="Coronavirus, stimulus checks, IRS,Steven Mnuchin, Donald Trump,IRS, Treasury Department" />
-<meta name="generator" content="Drupal 7 (http://drupal.org)" />
-<link rel="canonical" href="https://thehill.com/policy/finance/493268-millions-wait-for-virus-relief-checks-in-major-test-for-irs" />
-<link rel="shortlink" href="https://thehill.com/node/493268" />
-<meta property="fb:admins" content="581787871" />
-<meta property="fb:admins" content="732535504" />
-<meta property="fb:admins" content="1531470032" />
-<meta property="fb:app_id" content="566538590082898" />
-<meta property="fb:pages" content="7533944086, 2064147433830888" />
-<meta property="og:site_name" content="TheHill" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Millions wait for virus relief checks in major test for IRS" />
-<meta property="og:url" content="https://thehill.com/policy/finance/493268-millions-wait-for-virus-relief-checks-in-major-test-for-irs" />
-<meta property="og:description" content="The IRS has started to issue coronavirus rebates to tens of millions of people, but faces challenges in getting the payments to everyone." />
-<meta property="og:updated_time" content="2020-04-17T09:18:04-04:00" />
-<meta property="og:image" content="https://thehill.com/sites/default/files/mnuchinsteve_041620upi.jpg" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Millions wait for virus relief checks in major test for IRS" />
-<meta name="twitter:url" content="https://thehill.com/policy/finance/493268-millions-wait-for-virus-relief-checks-in-major-test-for-irs" />
-<meta name="twitter:description" content="The IRS has started to issue coronavirus rebates to tens of millions of people, but faces challenges in getting the payments to everyone." />
-<meta property="article:published_time" content="2020-04-17T06:00:25-04:00" />
-<meta property="article:modified_time" content="2020-04-17T09:18:04-04:00" />
-<meta name="dcterms.title" content="Millions wait for virus relief checks in major test for IRS" />
-<meta name="dcterms.creator" content="Meghashyam Mali" />
-<meta name="dcterms.description" content="The IRS has started to issue coronavirus rebates to tens of millions of people, but faces challenges in getting the payments to everyone." />
-<meta name="dcterms.date" content="2020-04-17T06:00-04:00" />
-<meta name="dcterms.type" content="Text" />
-<meta name="dcterms.format" content="text/html" />
-<meta name="dcterms.identifier" content="https://thehill.com/policy/finance/493268-millions-wait-for-virus-relief-checks-in-major-test-for-irs" />
-<script language="javascript" type="text/javascript" src="/sites/all/modules/thehill/thehill_header_bidding/js/prebid_2_44_2.js" async ></script><script language="javascript" type="text/javascript" src="//www.googletagservices.com/tag/js/gpt.js" async ></script>  <link rel="apple-touch-icon" sizes="512x512" href="/apple-touch-icon-512X512.png">
-  <link rel="apple-touch-icon" sizes="1024x1024" href="/apple-touch-icon-1024X1024.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152X152.png">
-  <link rel="apple-touch-icon" sizes="167x167" href="/apple-touch-icon-167X167.png">
-  <link rel="apple-touch-icon" sizes="1024x1024" href="/apple-touch-icon-1024X1024.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120X120.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180X180.png">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <title>Millions wait for virus relief checks in major test for IRS | TheHill</title>
-  <link type="text/css" rel="stylesheet" href="//thehill.com/sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" media="all" />
-<link type="text/css" rel="stylesheet" href="//thehill.com/sites/default/files/css/css_GmgcKrlcJ_1AYWSRZ5rjft4ov8QEmSHehJZEiWJRn0I.css" media="all" />
-<link type="text/css" rel="stylesheet" href="//thehill.com/sites/default/files/css/css_se2WJ1rEiCe2g4ST9LNxulYjndHtkkH0k3Iu8roJvXU.css" media="all" />
-<link type="text/css" rel="stylesheet" href="//thehill.com/sites/default/files/css/css_ysMTYayzzCVSL1t9ILuAVfcuG4fEMlpu8hyVoRpuIyA.css" media="all" />
-      <script type="text/javascript">
-      if (!iPad) {
-        var link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = '/sites/all/themes/thehill/css/mobile.css';
-        document.getElementsByTagName('head')[0].appendChild(link);
-      }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "NewsArticle",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://thehill.com/policy/finance/493268-millions-wait-for-virus-relief-checks-in-major-test-for-irs"
-      },
-      "headline": "Millions wait for virus relief checks in major test for IRS | TheHill",
-      "image": "https://thehill.com/sites/default/files/styles/article_full/public/mnuchinsteve_041620upi.jpg?itok=ETyW-Lxl",
-      "datePublished": "2020-04-17T06:00:25-04:00",
-      "dateModified": "2020-04-17T09:18:04-04:00",
-      "author": {
-        "@type": "Person",
-        "name": "Naomi Jagoda"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "The Hill",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://thehill.com/sites/all/themes/thehill/images/redesign/thehill-logo-big.png"
-        }
-      },
-      "articleSection": "Policy - Finance",
-      "description": "The IRS has started to issue coronavirus rebates to tens of millions of people, but faces challenges in getting the payments to everyone."
-    }
-  </script>
-  <!-- Krux interchange code (before the first ad call) -->
-  <script class="kxint" data-namespace="thehill" type="text/javascript">
-    window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
-    (function(){
-      function retrieve(n){
-        var k= 'kx'+'thehill_'+n, ls=(function(){
-          try {
-            return window.localStorage;
-          } catch(e) {
-            return null;
-          }
-        })();
-        if (ls) {
-          return ls[k] || '';
-        } else if (navigator.cookieEnabled) {
-          var m = document.cookie.match(k+'=([^;]*)');
-          return (m && unescape(m[1])) || '';
-        } else {
-          return '';
-        }
-      }
-      Krux.user = retrieve('user');
-      Krux.segments = retrieve('segs') ? retrieve('segs').split(',') : [];
-    })();
-  </script>
-  <script type="text/javascript">(function () { var e = false; var c = window; var t = document; function r() { if (!c.frames["__uspapiLocator"]) { if (t.body) { var a = t.body; var e = t.createElement("iframe"); e.style.cssText = "display:none"; e.name = "__uspapiLocator"; a.appendChild(e) } else { setTimeout(r, 5) } } } r(); function p() { var a = arguments; __uspapi.a = __uspapi.a || []; if (!a.length) { return __uspapi.a } else if (a[0] === "ping") { a[2]({ gdprAppliesGlobally: e, cmpLoaded: false }, true) } else { __uspapi.a.push([].slice.apply(a)) } } function l(t) { var r = typeof t.data === "string"; try { var a = r ? JSON.parse(t.data) : t.data; if (a.__cmpCall) { var n = a.__cmpCall; c.__uspapi(n.command, n.parameter, function (a, e) { var c = { __cmpReturn: { returnValue: a, success: e, callId: n.callId } }; t.source.postMessage(r ? JSON.stringify(c) : c, "*") }) } } catch (a) { } } if (typeof __uspapi !== "function") { c.__uspapi = p; __uspapi.msgHandler = l; c.addEventListener("message", l, false) } })();</script>
-<script>
-        window._sp_ccpa = {
-            config: {
-                mmsDomain: "https://cmp.thehill.com",
-                ccpaOrigin: "https://ccpa-service.sp-prod.net",
-                accountId: "1164",
-                getDnsMsgMms: true,
-                alwaysDisplayDns: false,
-            }
-        }
-</script>
-<script src="https://ccpa.sp-prod.net/ccpa.js"></script><script src="https://z.moatads.com/newscomprebidheader135900089283/yi.js"></script>   <script src="//thehill.com/sites/default/files/js/js_UsJCaTKadQHcBxW3InvotRkwEO94ieAIN0hsSq5sbL4.js"></script>
-<script>
-  var PREBID_TIMEOUT = 2000;
+	<meta name="apple-itunes-app" content="app-id=722987199">
+	<meta name="google-play-app" content="app-id=com.breitbart.app">
+	<meta name="ahrefs-site-verification" content="e5213d6c4a07fe85baa34006f2a9a3c977bd8f3a50fd0ab6d2aa93844e0b3303">
 
-  var adUnits = [ {
-          code: 'dfp-ad-leaderboard',
-          mediaTypes: {
-              banner: {
-                  sizes: [[728, 90], [970, 90], [970, 250], [970, 415], [970, 500], [1237, 500]]
-              }
-          },
-          bids: [{
-              bidder: 'openx',
-              params: {
-                  unit: '538678500',
-                  delDomain: 'thehill-d.openx.net'
-              }
-          },{
-              bidder: 'kargo',
-              params: {
-                  placementId: '_qB2XyTfayH'
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317997',
-                  size: [728,90]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317997',
-                  size: [970,90]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317997',
-                  size: [970,250]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317997',
-                  size: [970,415]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317997',
-                  size: [970,500]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317997',
-                  size: [1237,500]
-              }
-          },{
-              bidder: 'appnexus',
-              params: {
-                  placementId: '9114153'
-              }
-          },{
-              bidder: 'rubicon',
-              params: {
-                  accountId: '15654',
-                  siteId: '102722',
-                  zoneId: '482104'
-              }
-          }]
-      },{
-          code: 'dfp-ad-rightrail_bottom',
-          mediaTypes: {
-              banner: {
-                  sizes: [[300, 250], [300, 600], [300, 1050]]
-              }
-          },
-          bids: [{
-              bidder: 'openx',
-              params: {
-                  unit: '538678507',
-                  delDomain: 'thehill-d.openx.net'
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317999',
-                  size: [300,250]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317999',
-                  size: [300,600]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317999',
-                  size: [300,1050]
-              }
-          },{
-              bidder: 'appnexus',
-              params: {
-                  placementId: '9114211'
-              }
-          },{
-              bidder: 'rubicon',
-              params: {
-                  accountId: '15654',
-                  siteId: '102722',
-                  zoneId: '484056'
-              }
-          }]
-      },{
-          code: 'dfp-ad-rightrail_top',
-          mediaTypes: {
-              banner: {
-                  sizes: [[160, 600], [300, 250], [300, 600], [300, 1050]]
-              }
-          },
-          bids: [{
-              bidder: 'openx',
-              params: {
-                  unit: '538678508',
-                  delDomain: 'thehill-d.openx.net'
-              }
-          },{
-              bidder: 'kargo',
-              params: {
-                  placementId: '_w42lbbT7Mr'
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '318000',
-                  size: [300,250]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '318000',
-                  size: [160,600]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '318000',
-                  size: [300,600]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '318000',
-                  size: [300,1050]
-              }
-          },{
-              bidder: 'appnexus',
-              params: {
-                  placementId: '9114213'
-              }
-          },{
-              bidder: 'rubicon',
-              params: {
-                  accountId: '15654',
-                  siteId: '102722',
-                  zoneId: '482104'
-              }
-          }]
-      },{
-          code: 'dfp-ad-incontent_desk_1',
-          mediaTypes: {
-              banner: {
-                  sizes: [[300, 250]]
-              }
-          },
-          bids: [{
-              bidder: 'kargo',
-              params: {
-                  placementId: '_ntekP69gKO'
-              }
-          },{
-              bidder: 'openx',
-              params: {
-                  unit: '538678494',
-                  delDomain: 'thehill-d.openx.net'
-              }
-          },{
-              bidder: 'rubicon',
-              params: {
-                  accountId: '15654',
-                  siteId: '102722',
-                  zoneId: '484056'
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317998',
-                  size: [300,250]
-              }
-          },{
-              bidder: 'appnexus',
-              params: {
-                  placementId: '9114211'
-              }
-          }]
-      },{
-          code: 'dfp-ad-incontent_desk_2',
-          mediaTypes: {
-              banner: {
-                  sizes: [[300, 250]]
-              }
-          },
-          bids: [{
-              bidder: 'openx',
-              params: {
-                  unit: '538678493',
-                  delDomain: 'thehill-d.openx.net'
-              }
-          },{
-              bidder: 'rubicon',
-              params: {
-                  accountId: '15654',
-                  siteId: '102722',
-                  zoneId: '484056'
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '318002',
-                  size: [300,250]
-              }
-          },{
-              bidder: 'appnexus',
-              params: {
-                  placementId: '9114211'
-              }
-          }]
-      },{
-          code: 'dfp-ad-incontent_desk_3',
-          mediaTypes: {
-              banner: {
-                  sizes: [[300, 250]]
-              }
-          },
-          bids: [{
-              bidder: 'ix',
-              params: {
-                  siteId: '375790',
-                  size: [300,250]
-              }
-          },{
-              bidder: 'rubicon',
-              params: {
-                  accountId: '15654',
-                  siteId: '102722',
-                  zoneId: '484056'
-              }
-          },{
-              bidder: 'appnexus',
-              params: {
-                  placementId: '9114211'
-              }
-          },{
-              bidder: 'openx',
-              params: {
-                  unit: '540800209',
-                  delDomain: 'thehill-d.openx.net'
-              }
-          }]
-} ];
-  var videoAdUnit = {
-	code: 'video_preroll',
-	mediaTypes: {
-	    video: {
-	        playerSize: [640, 360],
-	        context: 'instream'
-	    }
-	},
-	bids: [
-		{
-	    	bidder: 'appnexus',
-		    params: {
-		        placementId: 15816860, 
-		        video: {
-		            skipppable: true,
-		            playback_method: ['auto_play_sound_off']
-		        }
-		    }
-		},
-		{            
-      		bidder: 'openx',             
-	      	params: {
-	         	unit: '540707777',
-	         	delDomain: 'thehill-d.openx.net',
-	      	}                      
-   		},
-   		{
-	        bidder: 'ix',
-	        params: {
-	            siteId: '449945',
-	            size: [640, 360],
-	            video: {
-	                mimes: ['video/mp4','video/webm', 'application/javascript'],
-	                minduration: 0,
-	                maxduration: 60,
-	                protocols: [2, 3, 5, 6],
-	                api: [1,2]
-	            }
-	        }
-	    }
-	]
-};
+	<link rel="home" href="https://www.breitbart.com" title="Breitbart.com">
+	<link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml">
+	<link rel="alternate" type="application/rss+xml" href="https://feeds.feedburner.com/breitbart" title="Breitbart News Feed">
 
-  var pbjs = pbjs || {};
-  pbjs.que = pbjs.que || [];
+	<link rel="mask-icon" href="/favicon.svg" color="#ff5500">
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	<link rel="icon" href="/favicon.png" sizes="192x192">
+	<link rel="manifest" href="/manifest.json">
+	<title>Report: Joe Biden Begs Donors for Boost in 2020 Campaign Cash</title>
+	<meta name="description" content="Former Vice President Joe Biden reached out to several donors on Tuesday to help him kick off a 2020 presidential campaign.">
+	<link rel="canonical" href="https://www.breitbart.com/politics/2019/03/19/report-joe-biden-begs-donors-for-boost-in-2020-campaign-cash/">
+	<link rel="publisher" href="https://plus.google.com/110812411499982071387">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Report: Joe Biden Begs Donors for Boost in 2020 Campaign Cash">
+	<meta property="og:description" content="Former Vice President Joe Biden reached out to several donors on Tuesday to help him kick off a 2020 presidential campaign.">
+	<meta property="og:url" content="https://www.breitbart.com/politics/2019/03/19/report-joe-biden-begs-donors-for-boost-in-2020-campaign-cash/">
+	<meta property="og:site_name" content="Breitbart">
+	<meta property="article:publisher" content="https://www.facebook.com/Breitbart">
+	<meta property="article:tag" content="2020">
+	<meta property="article:tag" content="Bernie Sanders">
+	<meta property="article:tag" content="Beto O&#039;Rourke">
+	<meta property="article:tag" content="donors">
+	<meta property="article:tag" content="Joe Biden">
+	<meta property="article:section" content="Politics">
+	<meta property="article:published_time" content="2019-03-20T00:59:38+00:00">
+	<meta property="article:modified_time" content="2019-03-20T03:50:25+00:00">
+	<meta property="og:updated_time" content="2019-03-20T03:50:25+00:00">
+	<meta property="fb:app_id" content="1243316582352556">
+	<meta property="og:image" content="https://media.breitbart.com/media/2019/03/Joe-Biden-Shields-Eyes.jpg">
+	<meta property="og:image:secure_url" content="https://media.breitbart.com/media/2019/03/Joe-Biden-Shields-Eyes.jpg">
+	<meta property="og:image:width" content="447">
+	<meta property="og:image:height" content="335">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:description" content="Former Vice President Joe Biden reached out to several donors on Tuesday to help him kick off a 2020 presidential campaign.">
+	<meta name="twitter:title" content="Report: Joe Biden Begs Donors for Boost in 2020 Campaign Cash">
+	<meta name="twitter:site" content="@BreitbartNews">
+	<meta name="twitter:image" content="https://media.breitbart.com/media/2019/03/Joe-Biden-Shields-Eyes.jpg">
+	<meta name="twitter:creator" content="@charliespiering">
+	<script type="application/ld+json">
+	{"@context":["https:\/\/schema.org",{"@base":"https:\/\/www.breitbart.com\/politics\/2019\/03\/19\/report-joe-biden-begs-donors-for-boost-in-2020-campaign-cash\/"}],"@graph":[{"@type":"NewsMediaOrganization","@id":"https:\/\/www.breitbart.com\/#organization","url":"https:\/\/www.breitbart.com\/","name":"Breitbart","alternateName":"Breitbart News","sameAs":["https:\/\/www.facebook.com\/Breitbart","https:\/\/twitter.com\/BreitbartNews","https:\/\/www.youtube.com\/channel\/UCmgnsaQIK1IR808Ebde-ssA","https:\/\/www.instagram.com\/wearebreitbart\/","https:\/\/soundcloud.com\/breitbart","https:\/\/parler.com\/profile\/BreitbartNews"],"logo":{"@type":"ImageObject","@id":"https:\/\/www.breitbart.com\/#logo","url":"https:\/\/www.breitbart.com\/t\/assets\/i\/BB-logo-highres-1024x1024.png","caption":"Breitbart"},"description":"Source of breaking news and analysis, insightful commentary and original reporting, curated and written specifically for the new generation of independent and conservative thinkers.","masthead":"https:\/\/www.breitbart.com\/masthead\/","founder":{"@type":"Person","name":"Andrew Breitbart","familyName":"Breitbart","givenName":"Andrew"},"foundingLocation":{"@type":"City","name":"Los Angeles"},"foundingDate":"2005-09-01","address":{"@type":"PostalAddress","addressCountry":"USA"}},{"@type":"WebSite","@id":"https:\/\/www.breitbart.com\/#website","url":"https:\/\/www.breitbart.com\/","name":"Breitbart","alternateName":"Breitbart News","publisher":{"@id":"https:\/\/www.breitbart.com\/#organization"},"image":{"@type":"ImageObject","url":"https:\/\/media.breitbart.com\/media\/2017\/01\/amp-logo2.png"}},{"@type":"WebPage","@id":"#webpage","url":"https:\/\/www.breitbart.com\/politics\/2019\/03\/19\/report-joe-biden-begs-donors-for-boost-in-2020-campaign-cash\/","inLanguage":"en-US","name":"Report: Joe Biden Begs Donors for Boost in 2020 Campaign Cash","datePublished":"2020-04-19T08:09:19+00:00","dateModified":"2020-04-19T08:09:19+00:00","isPartOf":{"@id":"https:\/\/www.breitbart.com\/#website"},"breadcrumb":{"@id":"#breadcrumb"},"primaryImageOfPage":{"@id":"#primaryimage"},"author":{"@id":"#author"}},{"@type":"ImageObject","width":640,"height":480,"url":"https:\/\/media.breitbart.com\/media\/2019\/03\/Joe-Biden-Shields-Eyes.jpg","copyrightHolder":"AFP\/Getty Images","name":"Joe Biden Shields Eyes","@id":"#primaryimage"},{"@id":"#breadcrumb","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/www.breitbart.com\/politics\/","name":"Politics"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/www.breitbart.com\/politics\/2019\/03\/19\/","name":"2019\/03\/19"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/www.breitbart.com\/politics\/2019\/03\/19\/report-joe-biden-begs-donors-for-boost-in-2020-campaign-cash\/#webpage","name":"Report: Joe Biden Begs Donors for Boost in 2020 Campaign Cash"}}]},{"@type":"NewsArticle","@id":"https:\/\/www.breitbart.com\/politics\/2019\/03\/19\/report-joe-biden-begs-donors-for-boost-in-2020-campaign-cash\/","url":"https:\/\/www.breitbart.com\/politics\/2019\/03\/19\/report-joe-biden-begs-donors-for-boost-in-2020-campaign-cash\/","headline":"Report: Joe Biden Begs Donors for Boost in 2020 Campaign Cash","alternativeHeadline":"Former Vice President Joe Biden reached out to several donors on Tuesday to help him kick off a 2020 presidential campaign with a surge of donations, according to the Wall Street Journal.","alternateName":"Joe Biden Begs Donors for Boost in 2020 Campaign Cash","description":"Biden expressed concerns that if he ran for president, it would be difficult to top candidates like Bernie Sanders and Beto O&#8217;Rourke&#8217;s initial shock release of grassroots fundraising.","keywords":["2020","Bernie Sanders","Beto O&#039;Rourke","donors","Joe Biden"],"articleSection":"Politics","genre":["Politics"],"dateCreated":"2019-03-19T17:56:38+00:00","datePublished":"2019-03-19T17:59:38+00:00","dateModified":"2019-03-19T20:50:25+00:00","wordCount":125,"author":{"@type":"Person","@id":"#author","url":"https:\/\/www.breitbart.com\/author\/charlie-spiering\/","name":"Charlie Spiering","givenName":"Charlie","familyName":"Spiering","worksFor":{"@id":"https:\/\/www.breitbart.com\/#organization"},"image":{"@type":"ImageObject","url":"https:\/\/media.breitbart.com\/media\/authors\/80x100\/1cspiering.png","caption":"Author Charlie Spiering"}},"audio":{"@type":"AudioObject","contentUrl":"https:\/\/media.breitbart.com\/media\/2019\/03\/report-joe-biden-begs-donors-for-boost-in-2020-campaign-cash-10275240.mp3","embedUrl":"https:\/\/www.breitbart.com\/politics\/2019\/03\/19\/report-joe-biden-begs-donors-for-boost-in-2020-campaign-cash\/","name":"report-joe-biden-begs-donors-for-boost-in-2020-campaign-cash-10275240.mp3","description":"Audio transcript for: Report: Joe Biden Begs Donors for Boost in 2020 Campaign Cash","duration":"PT0M56S","uploadDate":"2019-03-19T17:59:38+00:00","encodingFormat":"audio\/mpeg"},"about":"campaign","mainEntityOfPage":"https:\/\/www.breitbart.com\/politics\/2019\/03\/19\/report-joe-biden-begs-donors-for-boost-in-2020-campaign-cash\/","inLanguage":"en-US","publisher":{"@id":"https:\/\/www.breitbart.com\/#organization"},"speakable":{"@type":"SpeakableSpecification","cssSelector":["article header","article .entry-content"]},"isPartOf":{"@id":"#webpage"},"copyrightHolder":{"@id":"https:\/\/www.breitbart.com\/#organization"},"copyrightYear":"2019","sourceOrganization":{"@id":"https:\/\/www.breitbart.com\/#organization"},"image":{"@id":"#primaryimage"},"thumbnailUrl":"https:\/\/media.breitbart.com\/media\/2019\/03\/Joe-Biden-Shields-Eyes.jpg","dateline":"Charlie Spiering, Breitbart News"}]}		</script>
+	<link rel="alternate" href="https://www.breitbart.com/politics/2019/03/19/report-joe-biden-begs-donors-for-boost-in-2020-campaign-cash/" hreflang="en-us">
+	<meta content="Charlie Spiering" name="author">
+	<meta content="2020,Bernie Sanders,Beto O&#039;Rourke,donors,Joe Biden" name="news_keywords">
+	<meta content="2019-03-19T17:59:38Z" name="pubdate">
+	<meta content="2019-03-19T20:50:25Z" name="lastmod">
+	<meta content="1587283839" name="reqtime">
+	<meta content="1587283839" name="time">
+	<meta property="og:article:author:image" content="https://media.breitbart.com/media/authors/145x100/1cspiering.png">
+	<meta property="article:categories" content="Politics">
+	<link rel="amphtml" href="https://www.breitbart.com/politics/2019/03/19/report-joe-biden-begs-donors-for-boost-in-2020-campaign-cash/amp/"><script>var BB_G={D:!1,lock:'65417609590353911314',doing_popup:0,fired:{},OB_ACTIONS:{}};function gmx_set_video_loop_observer(){function e(e){e.src=e.getAttribute("data-harry"),e.removeAttribute("data-harry"),e.classList.remove("lazy-loop")}var t=[].slice.call(document.querySelectorAll("video.lazy-loop[data-harry]"));if(t&&t.length)if(t.forEach((function(e){e.addEventListener("timeupdate",(function(){this.currentTime>this.dataset.end&&(this.currentTime=this.dataset.start,this.play())}),!1)})),"IntersectionObserver"in window){var r=new IntersectionObserver((function(t,r){t.forEach((function(t){t.isIntersecting&&t.target&&(r.unobserve(t.target),e(t.target))}))}),{rootMargin:"50px 0px 50px 0px"});t.forEach((function(e){r.observe(e)}))}else t.forEach(e)}function gmx_set_observers(){if(!gmx_set_observers.ra){if(gmx_set_observers.ra=!0,"IntersectionObserver"in window){var e=new IntersectionObserver((function(e,t){e.forEach((function(e){e.isIntersecting&&e.target&&(t.unobserve(e.target),r(e.target))}))}),{rootMargin:"550px 0px 550px 0px",threshold:0});if(document.querySelectorAll("img[data-src]").forEach((function(t){e.observe(t)})),ISC_IS.home){var t=new IntersectionObserver((function(t,i){t.forEach((function(t){if(t.isIntersecting){i.unobserve(t.target),t.target.querySelectorAll("[data-src]").forEach((function(t){e.unobserve(t),r(t)}));var o=function(){var e;e=t.target,"function"==typeof window.fix_grid_block&&fix_grid_block(0,e)};o(),setTimeout(o,1e3),setTimeout(o,3e3)}}))}),{rootMargin:"3400px 0px 3000px 0px",threshold:0});document.querySelectorAll(".gb").forEach((function(e){t.observe(e)}))}}ISC_IS.home_vertical&&gmx_set_video_loop_observer()}function r(e){var t=e.getAttribute("data-src");t&&(e.src=t,e.removeAttribute("data-src"),e.removeAttribute("data-qazy"))}}if(function(e,t){function r(e,t){return e.indexOf(t)>-1}!function(r,i){e.fetch&&e.Promise&&Object.assign&&e.Map&&e.IntersectionObserver&&[].includes||(["fetch","Promise","IntersectionObserver","matchMedia"].forEach((function(t){t in e||r.push(t)})),(i=t.createElement("script")).src="//cdn.polyfill.io/v3/polyfill.min.js?features="+r.join(",")+"&flags=gated",i.async=!0,t.documentElement.appendChild(i))}([]);var i=t.documentElement,o=e.location,a=o.pathname,n=o.host,s=o.href,c=e.screen,d=i.className,l=e.navigator,u=Date.now(),m="userAgent"in l?l.userAgent:"",b="cookie"in t&&"string"==typeof t.cookie?t.cookie:"",f="gmx_h=",p={mobile:/Mobile|BB10|Android|Silk|Kindle|Opera (Mini|Mobi)|webOS|iP(hone|od)|BlackBerry/i.test(m),mobileP:/Mobi/i.test(m),tablet:/tablet|ipad|playbook|silk/i.test(m),li:r(b,"m8s2f7"),preview:r(s,"preview=true")&&r(s,"preview_id="),single:r(d,"single"),home:r(d,"home"),video:r(a,"/video/")||r(a,"/clips/"),wire:r(a,"/news/")||r(d,"-wire"),error:r(d,"error404"),search:r(a,"/search/"),framed:e!==e.parent,qazy:"IntersectionObserver"in e,ads:/(www|wp)\.breitbart\.com/.test(n)||r(n,"scsta")||r(n,"nntec"),t:{},adblock:3,cookie:"cookieEnabled"in l&&!!l.cookieEnabled,subbed:r(b,"ci2su"),views_y:0,views_w:0,views_d:0,g:r(b,f)?r(b,f+"A")?"A":r(b,f+"B")?"B":"C":u%2==0?"A":"B",t_50:u%2==0,t_33:u%3==0,t_25:u%4==0,t_20:u%5==0,t_15:u%7==0,t_10:u%10==0,t_5:u%20==0};p.ads=p.ads&&!p.framed,p.qazy=p.qazy&&!p.framed,p.mobileP=p.tablet||p.mobileP||p.mobile||(c.width<c.height?c.width:c.height)<700,"matchMedia"in e&&e.matchMedia("(max-width:480px) and (orientation:portrait), (max-width:767px)").matches&&(p.mobile=p.mobileP=!0),p.mobileP&&(i.className="ismobile "+i.className),p.adblock=!function(e){var t=e.documentElement,r=e.createElement("div");return r.appendChild(e.createTextNode(".")),r.className="pub_300x250 top-ad-container ad_wrapper top_ad_wrapper advertisement banner_ad ad ads text-ad",e=!!t.appendChild(r).offsetHeight,r.parentNode.removeChild(r),e}(t),e.ISC_IS=p}(window,document),ISC_IS.qazy){var qazy={runs:0,io:null,x:!1,RunIO:function(){qazy.runs++>200&&qazy.StopIO(),qazy.MakeList()},StopIO:function(){"number"==typeof qazy.io&&(clearInterval(qazy.io),qazy.io=null),gmx_set_observers()},MakeList:function(){!qazy.x&&document.body&&(qazy.x=!0,document.body.querySelectorAll('img[data-qazy][src^="/"], img[data-qazy][src^="https://media.brei"], img[data-qazy][src^="https://www.brei"]').forEach((function(e){e.setAttribute("data-src",e.src),e.removeAttribute("src")})),qazy.x=!1)}};qazy.RunIO(),qazy.io=setInterval(qazy.RunIO,10),window.addEventListener("load",qazy.StopIO,!1)}setTimeout(gmx_set_observers,1e3);</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-715222-1"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','UA-715222-1',{optimize_id:'GTM-PP4D92G',transport_type:'beacon',link_attribution:!0,anonymize_ip:!0,cookie_domain:'breitbart.com',linker:{accept_incoming:!0},'dimension1':'Charlie Spiering','dimension2':'politics ','dimension4':'2020 bernie-sanders beto-orourke donors joe-biden ','dimension5':window.ISC_IS&&(ISC_IS.g)||'U','metric2':window.ISC_IS&&(ISC_IS.adblock?1:0)||3});</script>
+		</head>
+<body class="post-tmpl-default single single-post pid-10275240 tf-single pt-post c-politics"><a class="skip-link" href="#ContainerW">Skip to content</a>
+			<script src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" async></script>
+			<script src="/t/assets/js/prebid-6.js" async></script>
+					<script>ISC_IS.t={"category":["politics"],"pt":["single","singular","post"],"id":["10275240"],"author":["3"],"tag":["2020","bernie-sanders","beto-orourke","donors","joe-biden"],"kw":["beto","bernie","shock","fundraising","top","campaign"]};ISC_IS.t.group = [ISC_IS.g];ISC_IS.rubicon=!1;var google_ad_client="ca-pub-9229289037503472",googletag=window.googletag||{cmd:[]},pbjs=window.pbjs||{que:[]},bnn_rubicon_adUnits=[];function init_prebid(){var e=window.location.hash.indexOf("bbprebid")>-1;function o(){pbjs.sendAdServerRequestSet||(e&&console.warn("EXEC sendAdServerRequest()"),pbjs.sendAdServerRequestSet=!0,googletag.cmd.push((function(){e&&console.warn("EXEC googletag.pubads().setTargeting",ISC_IS.t),Object.keys(ISC_IS.t).forEach((function(e){googletag.pubads().setTargeting(e,ISC_IS.t[e])})),pbjs.que.push((function(){pbjs.setTargetingForGPTAsync(),e&&console.warn("EXEC googletag.pubads().refresh"),googletag.pubads().refresh(bnn_rubicon_adUnits)}))})))}e&&console.warn("EXEC init_prebid()"),googletag.cmd.push((function(){googletag.pubads().disableInitialLoad()})),"rubicon"in ISC_IS&&ISC_IS.rubicon||pbjs.que.push((function(){e&&console.warn("pbjs.addAdUnits & pbjs.requestBids")&&console.table(bnn_adUnits),pbjs.addAdUnits(bnn_adUnits),pbjs.requestBids({bidsBackHandler:o})})),googletag.cmd.push((function(){function d(o,d,n,s){var a,i=[];a=void 0===s?googletag.defineSlot("/1003622/Breitbart."+o,[d],n).addService(googletag.pubads()):googletag.defineSlot("/1003622/Breitbart."+o,[d],n).defineSizeMapping(s).addService(googletag.pubads()),bnn_rubicon_adUnits.push(a);var t=a.getSlotElementId();i[t]=0,function o(d,n){document.getElementById(n)?(e&&console.warn("display_google_ad: FOUND: %s",n),googletag.display(n)):i[n]++<5&&!document.getElementById("FWI")&&(e&&console.error("display_google_ad: MISS: %s",n),setTimeout((function(){document.getElementById(n)?googletag.display(n):o(d,n)}),10*i[n]+2))}(a,t)}var n={Mob_Body:googletag.sizeMapping().addSize([468,300],["fluid",[120,600],[160,600],[300,600],[320,50],[320,250],[300,100],[320,480],[480,320],[200,200],[125,125],[320,100],[336,280],[468,225],[300,250],[250,250],[468,60],[300,60],[120,90],[240,400],[168,28],[120,20],[120,60],[160,90],[300,1050]]).addSize([0,0],["fluid",[120,600],[160,600],[300,600],[320,50],[320,250],[300,100],[320,480],[200,200],[125,125],[320,100],[336,280],[300,250],[250,250],[300,60],[120,90],[240,400],[168,28],[120,20],[120,60],[160,90]]).build(),Mob_Header:googletag.sizeMapping().addSize([970,100],[[970,250],[930,180],[750,300],[728,300],[728,90],[980,120],[970,90],[970,66],[580,400],[468,250],[475,245],[300,170],[125,125],[300,250],[468,60],[300,100],[300,60],[200,200],[300,50],[320,100],[320,50]]).addSize([728,100],[[750,300],[728,90],[728,300],[468,250],[475,245],[300,170],[125,125],[300,250],[468,60],[300,100],[300,60],[200,200],[300,50],[320,100],[320,50]]).addSize([0,0],[[468,250],[475,245],[300,170],[125,125],[300,250],[468,60],[300,100],[300,60],[200,200],[300,50],[320,100],[320,50]]).build(),Desk_Body:googletag.sizeMapping().addSize([0,0],["fluid",[475,245],[320,250],[200,200],[300,50],[468,60],[468,100],[336,280],[300,250],[468,225],[480,320],[125,125]]).build(),Desk_Rail:googletag.sizeMapping().addSize([0,0],["fluid",[300,600],[120,600],[160,600],[300,1050],[300,50],[216,54],[120,90],[300,100],[234,60],[120,240],[180,150],[240,400],[300,250],[200,200],[250,250],[250,360],[125,125],[120,90],[160,90]]).build(),Desk_Leader:googletag.sizeMapping().addSize([0,0],[[970,250],[750,300],[480,320],[930,180],[960,90],[580,400],[935,24],[468,225],[728,90],[970,90],[980,120],[750,200],[750,100],[468,250],[475,245],[300,170],[125,125],[468,60],[300,100],[200,200],[300,50],[320,100],[320,50]]).build()},s=ISC_IS.home?"HP":"ROS";googletag.pubads().addEventListener("slotRenderEnded",(function(o){var d=o.slot.getSlotElementId(),n=o.slot.getAdUnitPath(),s=document.getElementById(d),a=o.size?"Size: "+o.size.join("x"):"",i=o.isEmpty?"EMPTY!":"FOUND!";if(e&&console.warn("[4] slotRenderEnded: %s  id:%s  path:%s %s",i,d,n,a),!s)return e&&console.error("ELE NOT FOUND slotRenderEnded: %s  id:%s  path:%s %s",i,d,n,a);o.isEmpty?!ISC_IS.mobileP&&(d.indexOf("-R2")>-1||d.indexOf("-R3")>-1)?(s.innerHTML="",s.className+=" gmxpoll"):s.className="H":(s.style.display="block",s.className+=" padok",o.size&&1!==o.size[0]&&(s.style.width=o.size[0]+"px",s.style["min-height"]=o.size[1]+15+"px"))})),googletag.pubads().enableSingleRequest(),googletag.pubads().enableAsyncRendering(),googletag.pubads().collapseEmptyDivs(!0),googletag.pubads().setCentering(!0,!0),ISC_IS.mobile?(d("Mob."+s+".Header",[320,100],s+"-Header",n.Mob_Header),d("Mob."+s+".Body1",[300,250],"M-"+s+"-B1",n.Mob_Body),d("Mob."+s+".Body2",[300,250],"M-"+s+"-B2",n.Mob_Body),d("Mob."+s+".Body3",[300,250],"M-"+s+"-B3",n.Mob_Body),d("Mob."+s+".Body4",[300,250],"M-"+s+"-B4",n.Mob_Body)):(d(s+".Top.Leader",[728,90],s+"-Leader",n.Desk_Leader),d(s+".Body1",[468,225],"D-"+s+"-B1",n.Desk_Body),d(s+".Body2",[468,225],"D-"+s+"-B2",n.Desk_Body),d(s+".Rail1",[300,250],s+"-R1",n.Desk_Rail),d(s+".Rail2",[300,250],s+"-R2",n.Desk_Rail),d(s+".Rail3",[300,250],s+"-R3",n.Desk_Rail),d(s+".Rail4",[300,250],s+"-R4",n.Desk_Rail)),ISC_IS.t_25&&d("Infolinks",[1,1],"F-1x1"),googletag.enableServices(),"rubicon"in ISC_IS&&ISC_IS.rubicon&&pbjs.que.push((function(){e&&console.warn("pbjs.rp.requestBids")&&console.table(bnn_rubicon_adUnits),pbjs.rp.requestBids({gptSlotObjects:bnn_rubicon_adUnits,callback:o})}))})),setTimeout(o,3e3)}ISC_IS.ads&&!ISC_IS.adblock&&(init_prebid(),(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:google_ad_client,enable_page_level_ads:!0}));</script>
+		<script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script>
+		<div id="HaDW">
 
-  pbjs.que.push(function() {
-    pbjs.setConfig({
-        enableSendAllBids: true,
-        sizeConfig: [{
-            mediaQuery: '(min-width: 768px)',
-            sizesSupported: [
-                [728, 90],
-                [970, 90],
-                [300, 250],
-                [160,600],
-                [300,600],
-                [300,1050],
-                [970,250],
-                [970,415],
-                [970,500],
-                [1237,500]
-            ],
-            labels: ["desktop"]
-        }, {
-            mediaQuery: '(min-width: 0px) and (max-width: 767px)',
-            sizesSupported: [
-                [320, 50],
-                [320, 100],
-                [300, 250]
-            ],
-            labels: ["mobile"]
-        }],
-        cache: {
-            url: "https://prebid.adnxs.com/pbc/v1/cache"
-        },
-        userSync: {
-            iframeEnabled: true,
-            filterSettings: {
-                iframe: {
-                    bidders: ['openx'],
-                    filter: 'include'
-                }
-            }
-        }
-    });
-});</script>
-<script>
-var googletag = googletag || {};
-googletag.cmd = googletag.cmd || [];  googletag.cmd.push(function() {
-    googletag.pubads().disableInitialLoad();
-  });
-</script>
-<script>
-  pbjs.que.push(function() {
-    pbjs.addAdUnits(adUnits);
-    pbjs.addAdUnits(videoAdUnit);
+<figure id="ROS-Leader" class="a8d"></figure>
+<figure id="ROS-Header" class="a8d"></figure></div>
+<div id="GlobalW">
+	<header id="HeadW">
+		<div id="HWI">
+			<div id="MT" role="button" tabindex="-1" aria-label="Menu"></div>
+			<nav id="HNAV">
+				<ul id="NavT"><li class="c-politics"><a href="/politics/">Politics</a></li><li class="c-entertainment"><a href="/entertainment/">Entertainment</a></li><li class="c-the-media"><a href="/the-media/">Media</a></li><li class="c-economy"><a href="/economy/">Economy</a></li><li class="dd"><a>World</a><ul><li class="c-europe"><a href="/europe/">London / Europe</a></li><li class="c-border"><a href="/border/">Border / Cartel Chronicles</a></li><li class="c-middle-east"><a href="/middle-east/">Israel / Middle East</a></li><li class="c-africa"><a href="/africa/">Africa</a></li><li class="c-asia"><a href="/asia/">Asia</a></li><li class="c-latin-america"><a href="/latin-america/">Latin America</a></li><li class="p-world-news"><a href="/world-news/">All World</a></li></ul></li><li class="p-video"><a href="/video/">Video</a></li><li class="c-tech"><a href="/tech/">Tech</a></li><li class="c-sports"><a href="/sports/">Sports</a></li><li class="c-social-justice"><a href="/social-justice/">Social Justice</a></li><li><a href="/tag/b-inspired-news/">B Inspired</a></li></ul>				<a href="https://store.breitbart.com/" rel="nofollow" class="store" title="Breitbart Store" aria-label="Breitbart Store"></a>
+			</nav>
+			<a rel="index" class="logo" accesskey="1" href="https://www.breitbart.com/" title="Breitbart News Network">BREITBART</a>
+			<div class="fdd">
+				<form action="/search/"><label><input type="text" placeholder="search" name="s" aria-label="Search"></label></form>
+				<ul id="NavDD"><li class="c-politics"><a href="/politics/">Politics</a></li><li class="c-entertainment"><a href="/entertainment/">Entertainment</a></li><li class="c-the-media"><a href="/the-media/">Media</a></li><li class="c-economy"><a href="/economy/">Economy</a></li><li class="dd"><a>World</a><ul><li class="c-europe"><a href="/europe/">London / Europe</a></li><li class="c-border"><a href="/border/">Border / Cartel Chronicles</a></li><li class="c-middle-east"><a href="/middle-east/">Israel / Middle East</a></li><li class="c-africa"><a href="/africa/">Africa</a></li><li class="c-asia"><a href="/asia/">Asia</a></li><li class="c-latin-america"><a href="/latin-america/">Latin America</a></li><li class="p-world-news"><a href="/world-news/">World News</a></li></ul></li><li class="p-video"><a href="/video/">Video</a></li><li class="c-tech"><a href="/tech/">Tech</a></li><li class="c-sports"><a href="/sports/">Sports</a></li><li class="c-social-justice"><a href="/social-justice/">Social Justice</a></li><li><a href="/tag/b-inspired-news/">B Inspired</a></li><li><a href="/news/">Wires</a></li><li><a href="https://media.breitbart.com/media/2019/11/about-breitbart-news.pdf">About Us</a></li><li class="p-people"><a rel="nofollow" href="/people/">People</a></li></ul>			</div>
+		</div>
+		<div id="HWT">
+			<a class="logo" href="/" title="Breitbart News Network">BREITBART</a>
+			<ul id="menu-trending"><li><a href="/tag/coronavirus/">Coronavirus</a></li><li><a href="/tag/stay-at-home-orders/">Lockdown Protests</a></li><li><a href="/tag/china/">Make China Pay</a></li><li><a href="/tag/nancy-pelosi/">Pelosi Shame</a></li><li><a href="/tag/joe-biden/">Beijing Biden</a></li><li class="c-entertainment"><a href="/entertainment/">Hollywood Hate</a></li></ul>		</div>
+	</header>
+	<div id="ContentW">
+		<div id="ContainerW">
+			<div id="fb-root"></div>
+<section id="MainW">
+			<article class="the-article post-10275240 post type-post has-post-thumbnail category-politics">
+			<header>
+				<h1>Report: Joe Biden Begs Donors for Boost in 2020 Campaign Cash</h1>
+						<aside id="social-share-buttons" class="bnn-social-share" data-fbc="4364">
+			<a role="button" class="button_facebook" href="#" title="Facebook" rel="nofollow"><em></em><span class="acz5">37,911</span></a>
+			<a role="button" class="button_email" href="#" title="Email" rel="nofollow"></a>
+			<a role="button" class="button_reddit" href="#" title="Reddit" rel="nofollow"></a>
+			<a role="button" class="button_twitter" href="#" title="Twitter" rel="nofollow"></a>
+		</aside>
+		<figure><img width="640" height="480" src="https://media.breitbart.com/media/2019/03/Joe-Biden-Shields-Eyes-640x480.jpg" class="wp-post-image" alt="Joe Biden Shields Eyes" title="Joe Biden Shields Eyes"  /><figcaption><cite>AFP/Getty Images</cite></figcaption></figure><div class="header_byline"><address data-n><a href="/author/charlie-spiering/"  title="Posts by Charlie Spiering">Charlie Spiering</a></address><time datetime="2019-03-19T17:59:38Z">19 Mar 2019</time><span class="byC" data-dsqu="/politics/2019/03/19/report-joe-biden-begs-donors-for-boost-in-2020-campaign-cash/#disqus_thread" data-dsqi="10275240" data-fbc="4364"></span></div>			<div id="PollyC" data-mp3u="https://media.breitbart.com/media/2019/03/report-joe-biden-begs-donors-for-boost-in-2020-campaign-cash-10275240.mp3" data-mp3l="0:56"></div>
+						</header>
+							<div class="entry-content">
+					<p class="subheading">Former Vice President Joe Biden reached out to several donors on Tuesday to help him kick off a 2020 presidential campaign with a surge of donations, according to the <em><a href="https://www.wsj.com/articles/joe-biden-tells-supporters-he-plans-2020-bid-11553033380">Wall Street Journal.</a></em></p><div id="gmx-rev-top" class="H"></div><p>Biden expressed concerns that if he ran for president, it would be difficult to top candidates like Bernie Sanders and Beto O&#8217;Rourke&#8217;s initial shock release of grassroots fundraising.</p>
+<figure id="D-ROS-B1" class="a8d"></figure>
+<figure id="M-ROS-B1" class="a8d"></figure><figure id="gmxrevmore" class="H"></figure>
+<p>Sanders kicked off his campaign with <a href="https://www.breitbart.com/politics/2019/02/20/2020-bernie-sanders-raises-5-9-million-in-first-24-hours/">$5.9 million</a> in donations. O&#8217;Rourke followed with a record <a href="https://www.breitbart.com/politics/2019/03/18/2020-beto-orourke-raises-6-1-million-in-first-24-hours-beating-bernie-sanders/">$6.1 million.</a></p>
+<figure id="M-ROS-B2" class="a8d"></figure>
+<p>Biden said recently he <a href="https://www.reuters.com/article/us-germany-security-usa-biden/joe-biden-says-will-decide-soon-whether-to-run-for-presidency-idUSKCN1Q50KO">would</a> make a decision very soon about whether he plans to run in 2020, but all<a href="https://www.realclearpolitics.com/video/2019/03/17/joe_biden_i_get_criticizd_by_the_new_left_but_i_have_the_most_progressive_record_of_anybody_running.html"> signs</a> <a href="https://www.nytimes.com/2019/02/26/us/politics/biden-2020-family.html">point</a> to him running for president.</p>
+<p>In February, Biden said that his family had <a href="https://www.breitbart.com/politics/2019/02/27/joe-biden-family-president-donald-trump-2020-10181148/">cleared him</a> to run again, which was a major part of his decision process.</p>
+				</div>
+							<footer>
+				<p class="rmoreabt"><a href="/politics/">Politics</a><a href="/tag/2020/">2020</a><a href="/tag/bernie-sanders/">Bernie Sanders</a><a href="/tag/beto-orourke/">Beto O'Rourke</a><a href="/tag/donors/">donors</a><a class="lst" href="/tag/joe-biden/">Joe Biden</a></p>		<aside id="social-share-inline" class="bnn-social-share">
+			<a role="button" class="button_twitter" href="#" title="Twitter" rel="nofollow"></a>
+			<a role="button" class="button_facebook" href="#" title="Facebook" rel="nofollow"><em></em></a>
+		</aside>
+					</footer>
+		</article>
+		<figure id="gmx-rev-below"></figure>
+		<section id="comments">
+	<p><a href="https://www.facebook.com/Breitbart"></a>.</p>
+	<p>Please <a href="/contact-us/comment-feedback/" rel="nofollow">let us know</a> if you're having issues with commenting.</p>
+		<div id="disqus_thread"></div>
+</section>
+		<script>var disqus_identifier='10275240',disqus_title="Report: Joe Biden Begs Donors for Boost in 2020 Campaign Cash",disqus_url='https://www.breitbart.com/politics/2019/03/19/report-joe-biden-begs-donors-for-boost-in-2020-campaign-cash/'</script>
+		</section><!--MainW-->
+<aside id="SideW">
+	
+<figure id="ROS-R1" class="a8d"></figure>
+	<figure id="bnnpolls" class="H"></figure>
 
-    pbjs.bidderSettings = {
-standard: {
-        alwaysUseBid: false,
-        adserverTargeting: [{
-            key: "hb_bidder",
-          	val: function(bidResponse) {
-        	return bidResponse.bidderCode;
-          }
-        }, {
-            key: "hb_adid",
-            val: function(bidResponse) {
-                return bidResponse.adId;
-            }
-        }, 
-        {
-	    key: "hb_cache_id",
-            val: function(bidResponse) {
-		return bidResponse.videoCacheKey;
-	    }
-        },
-        {
-            key: "hb_pb",
-          	val: function(bidResponse) {
-            var cpm = bidResponse.cpm;
-            if (cpm < 3.00) {
-              return (Math.floor(cpm * 100) / 100).toFixed(2);
-            } else if (cpm < 5.00) {
-              return (Math.floor(cpm * 20) / 20).toFixed(2);
-            } else if (cpm < 10.00) {
-              return (Math.floor(cpm * 20) / 20).toFixed(2);
-            } else if (cpm < 25.00) {
-              return (Math.floor(cpm * 2) / 2).toFixed(2);
-            } else {
-              return '25.00';
-        
-            }
-            }
-        }]
+		<section id="bsocial" class="SWW">
+		<h2><i></i>SOCIAL<a href="https://store.breitbart.com/" rel="nofollow" title="Shop the Official Breitbart Store!"></a></h2>
+		<div>
+			<div class="sbi"><a class="fb" href="https://www.facebook.com/Breitbart/" title="Breitbart on Facebook"></a><a class="tw" href="https://twitter.com/intent/follow?region=follow_link&amp;screen_name=BreitbartNews&amp;tw_p=followbutton" title="Breitbart on Twitter"></a><a class="ig" href="https://www.instagram.com/b_inspired_news/" title="Breitbart on Instagram"></a><a class="yt" href="https://www.youtube.com/channel/UCmgnsaQIK1IR808Ebde-ssA" title="Breitbart on YouTube"></a></div>
+		</div>
+	</section>
 
-      },
-openx: {
-	alwaysUseBid: true,
-	adserverTargeting: [{
-		key: "oxb",
- 		val: function(bidResponse) {
- 			var bid;
- 			if (bidResponse.cpm < 20) {
- 				//Penny Bid Buckets
- 				bid = ((Math.floor(bidResponse.cpm * 100) / 100) * 100).toFixed(0);
- 			} else {
- 				//Twenty dollar bucket
- 				bid = "2000";
- 			}
- 			//Returns creativeSize_bidBucket as the value
- 			return bidResponse.width + "x" + bidResponse.height + "_" + bid;
- 		}
- 	}]
-}
-      };
-    pbjs.requestBids({
-      bidsBackHandler: sendAdserverRequest
-    });
-  });
+	<figure id="gmx-rev-sidebar" class="H"></figure>
 
-  function sendAdserverRequest() {
-    if (pbjs.adserverRequestSent) return;
-    pbjs.adserverRequestSent = true;
-    var displayAdUnitCodes = [];
-    adUnits.forEach(function(adUnit) {
-      displayAdUnitCodes.push(adUnit.code);
-    });
+	
+<figure id="ROS-R2" class="a8d"></figure><section id="DQSW"><h2>MOST POPULAR</h2><ul><li><a href="/politics/2020/04/18/donald-trump-defends-coronavirus-lockdown-protesters-some-governors-got-carried-away/" title="Donald Trump Defends Coronavirus Lockdown Protesters: Some Governors Got &#8216;Carried Away&#8217;"><img width="200" height="150" src="https://media.breitbart.com/media/2020/03/Gretchen-Whitmer-200x150.jpg" alt="Trump Defends Lockdown Protesters: Some Governors Got &#039;Carried Away&#039;" title="Donald Trump Defends Coronavirus Lockdown Protesters: Some Governors Got &#8216;Carried Away&#8217;" data-qazy><em>Trump Defends Lockdown Protesters: Some Governors Got &#039;Carried Away&#039;</em><span data-dsqu="https://www.breitbart.com/politics/2020/04/18/donald-trump-defends-coronavirus-lockdown-protesters-some-governors-got-carried-away/" data-dsqi="13193472" data-fbc="653"></span></a></li><li><a href="/politics/2020/04/17/poll-trumps-job-approval-drops-6-points-to-43-percent/" title="Poll: Trump&#8217;s Job Approval Drops 6 Points to 43 Percent"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/trump-press-april-16-ap-200x150.jpg" alt="Poll: Trump&#039;s Job Approval Drops 6 Points to 43 Percent" title="Poll: Trump&#8217;s Job Approval Drops 6 Points to 43 Percent" data-qazy><em>Poll: Trump&#039;s Job Approval Drops 6 Points to 43 Percent</em><span data-dsqu="https://www.breitbart.com/politics/2020/04/17/poll-trumps-job-approval-drops-6-points-to-43-percent/" data-dsqi="13188512" data-fbc="7394"></span></a></li><li><a href="/politics/2020/04/17/donald-trump-vows-to-investigate-wuhan-lab-coronavirus-bats/" title="Donald Trump Vows to Investigate Wuhan Lab, Coronavirus Bats"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/Coronavis-Bat-Species-1-200x150.jpeg" alt="Donald Trump Vows to Investigate Wuhan Lab and Coronavirus Bats" title="Donald Trump Vows to Investigate Wuhan Lab, Coronavirus Bats" data-qazy><em>Donald Trump Vows to Investigate Wuhan Lab and Coronavirus Bats</em><span data-dsqu="https://www.breitbart.com/politics/2020/04/17/donald-trump-vows-to-investigate-wuhan-lab-coronavirus-bats/" data-dsqi="13189967" data-fbc="1494"></span></a></li><li><a href="/politics/2020/04/17/donald-trump-tweet-storm-rips-democrats-calls-to-liberate-states/" title="Donald Trump Tweet Storm Rips Democrats; Calls to ‘Liberate&#8217; States"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/wi/ap/16/virus-outbreak-us-foreign-aid-april-15-2020-photo-president-donald-trump-speaks-coronavirus-ros-e1587143064108-200x150.jpg" alt="Donald Trump Tweet Storm Rips Democrats; Calls to ‘Liberate&#039; States" title="Donald Trump Tweet Storm Rips Democrats; Calls to ‘Liberate&#8217; States" data-qazy><em>Donald Trump Tweet Storm Rips Democrats; Calls to ‘Liberate&#039; States</em><span data-dsqu="https://www.breitbart.com/politics/2020/04/17/donald-trump-tweet-storm-rips-democrats-calls-to-liberate-states/" data-dsqi="13185932" data-fbc="2527"></span></a></li><li><a href="/politics/2020/04/18/donald-trump-yes-it-is-appropriate-to-defend-2nd-amendment-during-coronavirus-pandemic/" title="Donald Trump: Yes, It Is Appropriate to Defend 2nd Amendment During Coronavirus Pandemic"><img width="200" height="150" src="https://media.breitbart.com/media/2019/11/Second-Amendment-Sanctuary-1-200x150.jpg" alt="Trump: It Is Appropriate to Defend Second Amendment During Pandemic" title="Donald Trump: Yes, It Is Appropriate to Defend 2nd Amendment During Coronavirus Pandemic" data-qazy><em>Trump: It Is Appropriate to Defend Second Amendment During Pandemic</em><span data-dsqu="https://www.breitbart.com/politics/2020/04/18/donald-trump-yes-it-is-appropriate-to-defend-2nd-amendment-during-coronavirus-pandemic/" data-dsqi="13193347" data-fbc="1187"></span></a></li><li><a href="/politics/2020/04/18/demuth-unlike-bush-and-obama-trump-succeeded-in-crisis-by-decentralizing-power/" title="DeMuth: Unlike Bush and Obama, Trump Succeeded in Crisis by Decentralizing Power"><img width="200" height="150" src="https://media.breitbart.com/media/2017/07/George-W-Bush-Donald-Trump-Barack-Obama-Getty-200x150.jpg" alt="DeMuth: Unlike Bush/Obama, Trump Succeeded in Crisis by Decentralizing" title="DeMuth: Unlike Bush and Obama, Trump Succeeded in Crisis by Decentralizing Power" data-qazy><em>DeMuth: Unlike Bush/Obama, Trump Succeeded in Crisis by Decentralizing</em><span data-dsqu="https://www.breitbart.com/politics/2020/04/18/demuth-unlike-bush-and-obama-trump-succeeded-in-crisis-by-decentralizing-power/" data-dsqi="13194047" data-fbc="8"></span></a></li><li><a href="/clips/2020/04/17/pelosi-economy-collapsing-because-trump-refused-to-accept-facts/" title="Pelosi: Economy Collapsing Because Trump Refused to Accept Facts"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/pelosii-200x150.jpg" alt="Pelosi: Economy Collapsing Because Trump Called Virus a Hoax" title="Pelosi: Economy Collapsing Because Trump Refused to Accept Facts" data-qazy><em>Pelosi: Economy Collapsing Because Trump Called Virus a Hoax</em><span data-dsqu="https://www.breitbart.com/clips/2020/04/17/pelosi-economy-collapsing-because-trump-refused-to-accept-facts/" data-dsqi="13189602" data-fbc="8909"></span></a></li><li><a href="/tech/2020/04/18/harvard-director-to-lead-female-and-lgbt-version-of-1776-musical/" title="Harvard Director to Lead Female and LGBT Version of &#8216;1776&#8217; Musical"><img width="200" height="150" src="https://media.breitbart.com/media/2019/07/george-washington-200x150.jpg" alt="Harvard Director to Lead Female and LGBT Version of &#039;1776&#039; Musical" title="Harvard Director to Lead Female and LGBT Version of &#8216;1776&#8217; Musical" data-qazy><em>Harvard Director to Lead Female and LGBT Version of &#039;1776&#039; Musical</em><span data-dsqu="https://www.breitbart.com/tech/2020/04/18/harvard-director-to-lead-female-and-lgbt-version-of-1776-musical/" data-dsqi="13192512" data-fbc="11"></span></a></li><li><a href="/politics/2020/04/18/california-study-shows-50-times-more-people-than-projected-have-had-coronavirus-now-immune/" title="California Study Shows 50 Times More People Than Projected Have Had Coronavirus, Now Immune"><img width="200" height="150" src="https://media.breitbart.com/media/2020/02/GettyImages-1200769096-200x150.jpg" alt="CA Study Shows 50 Times More People Than Estimated Had Coronavirus" title="California Study Shows 50 Times More People Than Projected Have Had Coronavirus, Now Immune" data-qazy><em>CA Study Shows 50 Times More People Than Estimated Had Coronavirus</em><span data-dsqu="https://www.breitbart.com/politics/2020/04/18/california-study-shows-50-times-more-people-than-projected-have-had-coronavirus-now-immune/" data-dsqi="13191972" data-fbc="513"></span></a></li><li><a href="/politics/2020/04/17/gov-abbott-announces-strike-force-to-reopen-the-lone-star-state-we-will-open-texas/" title="Gov. Abbott Announces Strike Force to Reopen the Lone Star State: &#8216;We Will Open Texas&#8217;"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/Gov.-Abbott-reopening-press-conference-200x150.jpg" alt="Gov. Abbott Details Plan to Reopen State: &#039;We Will Open Texas&#039;" title="Gov. Abbott Announces Strike Force to Reopen the Lone Star State: &#8216;We Will Open Texas&#8217;" data-qazy><em>Gov. Abbott Details Plan to Reopen State: &#039;We Will Open Texas&#039;</em><span data-dsqu="https://www.breitbart.com/politics/2020/04/17/gov-abbott-announces-strike-force-to-reopen-the-lone-star-state-we-will-open-texas/" data-dsqi="13186232" data-fbc="1956"></span></a></li></ul></section>
+<figure id="ROS-R3" class="a8d"></figure>
+<figure id="ROS-R4" class="a8d"></figure>	<section id="HPSW" class="SWW C">
+		<h2 class="horiz-line-both-sides-text">FROM THE HOMEPAGE</h2>
+		<ul><li><a href="/politics/2020/04/18/demuth-unlike-bush-and-obama-trump-succeeded-in-crisis-by-decentralizing-power/"><img width="200" height="150" src="https://media.breitbart.com/media/2017/07/George-W-Bush-Donald-Trump-Barack-Obama-Getty-200x150.jpg" alt="DeMuth: Unlike Bush and Obama, Trump Succeeded in Crisis by Decentralizing Power" title="Christopher DeMuth of the Hudson Institute argues in the Wall Street &hellip;" data-qazy=""><b>DeMuth: Unlike Bush and Obama, Trump Succeeded in Crisis by Decentralizing Power</b><span class="byC" data-dsqi="13194047" data-dsqu="https://www.breitbart.com/politics/2020/04/18/demuth-unlike-bush-and-obama-trump-succeeded-in-crisis-by-decentralizing-power/#disqus_thread" data-fbc="7"></span></a></li><li><a href="/politics/2020/04/18/donald-trump-defends-coronavirus-lockdown-protesters-some-governors-got-carried-away/"><img width="200" height="150" src="https://media.breitbart.com/media/2020/03/Gretchen-Whitmer-200x150.jpg" alt="Donald Trump Defends Coronavirus Lockdown Protesters: Some Governors Got &#8216;Carried Away&#8217;" title="President Donald Trump on Saturday defended protesters who were challenging &hellip;" data-qazy=""><b>Donald Trump Defends Coronavirus Lockdown Protesters: Some Governors Got &#8216;Carried Away&#8217;</b><span class="byC" data-dsqi="13193472" data-dsqu="https://www.breitbart.com/politics/2020/04/18/donald-trump-defends-coronavirus-lockdown-protesters-some-governors-got-carried-away/#disqus_thread" data-fbc="649"></span></a></li><li><a href="/politics/2020/04/18/dr-deborah-birx-defends-jacksonville-florida-officials-for-reopening-beaches/"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/GettyImages-1219455689-200x150.jpg" alt="Dr. Deborah Birx Defends Jacksonville, Florida Officials for Reopening Beaches" title="Dr. Deborah Birx on Saturday defended Jacksonville, Florida officials who &hellip;" data-qazy=""><b>Dr. Deborah Birx Defends Jacksonville, Florida Officials for Reopening Beaches</b><span class="byC" data-dsqi="13193552" data-dsqu="https://www.breitbart.com/politics/2020/04/18/dr-deborah-birx-defends-jacksonville-florida-officials-for-reopening-beaches/#disqus_thread" data-fbc="994"></span></a></li><li><a href="/clips/2020/04/18/open-ohio-protester-this-disease-is-not-as-dangerous-as-killing-the-economy/"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/Open-Ohio-Protester-200x150.jpg" alt="&#8216;Open Ohio&#8217; Protester: &#8216;This Disease Is Not as Dangerous as Killing the Economy&#8217;" title="Tom Zawistowski, an Ohio resident, told Breitbart News that Gov. &hellip;" data-qazy=""><b>&#8216;Open Ohio&#8217; Protester: &#8216;This Disease Is Not as Dangerous as Killing the Economy&#8217;</b><span class="byC" data-dsqi="13192482" data-dsqu="https://www.breitbart.com/clips/2020/04/18/open-ohio-protester-this-disease-is-not-as-dangerous-as-killing-the-economy/#disqus_thread" data-fbc="17"></span></a></li><li><a href="/politics/2020/04/18/rep-banks-u-n-court-can-force-china-to-answer-for-coronavirus-negligence-pay-reparations/"><img width="200" height="150" src="https://media.breitbart.com/media/2020/03/AP_20070377919994-200x150.png" alt="Rep. Banks: U.N. Court Can Force China to Answer for Coronavirus Negligence, Pay Reparations" title="The U.S. should use the United Nations International Court of &hellip;" data-qazy=""><b>Rep. Banks: U.N. Court Can Force China to Answer for Coronavirus Negligence, Pay Reparations</b><span class="byC" data-dsqi="13193532" data-dsqu="https://www.breitbart.com/politics/2020/04/18/rep-banks-u-n-court-can-force-china-to-answer-for-coronavirus-negligence-pay-reparations/#disqus_thread" data-fbc="13"></span></a></li><li><a href="/health/2020/04/18/coronavirus-san-clemente-fills-skate-park-with-37-tons-of-sand-to-block-skaters/"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/Skatepark-Filled-with-Sand-200x150.jpg" alt="Coronavirus: San Clemente Fills Skate Park with 37 Tons of Sand to Block Skaters" title="A skate park in San Clemente, CA, was filled with &hellip;" data-qazy=""><b>Coronavirus: San Clemente Fills Skate Park with 37 Tons of Sand to Block Skaters</b><span class="byC" data-dsqi="13193582" data-dsqu="https://www.breitbart.com/health/2020/04/18/coronavirus-san-clemente-fills-skate-park-with-37-tons-of-sand-to-block-skaters/#disqus_thread" data-fbc="696"></span></a></li><li><a href="/politics/2020/04/18/exclusive-gov-greg-abbott-on-reopening-texas-is-the-economic-engine-of-america/"><img width="200" height="150" src="https://media.breitbart.com/media/2020/01/GettyImages-657311250-200x150.png" alt="Exclusive — Gov. Greg Abbott on Reopening: ‘Texas Is the Economic Engine of America’" title="Texas Gov. Greg Abbott told Breitbart News on Saturday that &hellip;" data-qazy=""><b>Exclusive — Gov. Greg Abbott on Reopening: ‘Texas Is the Economic Engine of America’</b><span class="byC" data-dsqi="13192847" data-dsqu="https://www.breitbart.com/politics/2020/04/18/exclusive-gov-greg-abbott-on-reopening-texas-is-the-economic-engine-of-america/#disqus_thread" data-fbc="1846"></span></a></li><li><a href="/clips/2020/04/18/clift-trump-looking-for-a-constitutional-challenge-on-w-h-o-funding-to-distract-from-death-toll/"><img width="200" height="150" src="https://media.breitbart.com/media/2020/02/Clift-214-Thumbnail-200x150.jpg" alt="Clift: Trump &#8216;Looking for a Constitutional Challenge&#8217; on W.H.O. Funding to Distract from Death Toll" title="On Friday&#039;s &quot;McLaughlin Group,&quot; the Daily Beast&#039;s Eleanor Clift argued &hellip;" data-qazy=""><b>Clift: Trump &#8216;Looking for a Constitutional Challenge&#8217; on W.H.O. Funding to Distract from Death Toll</b><span class="byC" data-dsqi="13193702" data-dsqu="https://www.breitbart.com/clips/2020/04/18/clift-trump-looking-for-a-constitutional-challenge-on-w-h-o-funding-to-distract-from-death-toll/#disqus_thread" data-fbc="1"></span></a></li><li><a href="/europe/2020/04/18/afghan-migrant-armed-knife-shot-dead-police-no-go-paris-suburbs/"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/paris-mounted-police-200x150.png" alt="Police Shoot Dead Afghan Migrant Armed with Knife in Paris No-Go Zone" title="Police shot dead an Afghan asylum seeker in the no-go &hellip;" data-qazy=""><b>Police Shoot Dead Afghan Migrant Armed with Knife in Paris No-Go Zone</b><span class="byC" data-dsqi="13177357" data-dsqu="https://www.breitbart.com/europe/2020/04/18/afghan-migrant-armed-knife-shot-dead-police-no-go-paris-suburbs/#disqus_thread" data-fbc="570"></span></a></li><li><a href="/economy/2020/04/18/woman-uses-free-time-to-deliver-groceries-to-elderly-during-pandemic/"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/Alex-Meadows-Delivers-to-Seniors-200x150.jpg" alt="Woman Uses Free Time to Deliver Groceries to Elderly During Pandemic" title="A woman in Northport, Long Island, is using her free &hellip;" data-qazy=""><b>Woman Uses Free Time to Deliver Groceries to Elderly During Pandemic</b><span class="byC" data-dsqi="13193012" data-dsqu="https://www.breitbart.com/economy/2020/04/18/woman-uses-free-time-to-deliver-groceries-to-elderly-during-pandemic/#disqus_thread" data-fbc="1"></span></a></li><li><a href="/entertainment/2020/04/18/rob-reiner-says-trump-will-lose-in-a-landslide-because-americans-will-be-voting-for-their-lives/"><img width="200" height="150" src="https://media.breitbart.com/media/2019/06/robreinerinvite1-200x150.jpg" alt="Rob Reiner Says Trump &#8216;Will Lose in a Landslide Because Americans Will be Voting for Their Lives&#8217;" title="Left-wing Hollywood director and actor Rob Reiner is predicting that &hellip;" data-qazy=""><b>Rob Reiner Says Trump &#8216;Will Lose in a Landslide Because Americans Will be Voting for Their Lives&#8217;</b><span class="byC" data-dsqi="13191827" data-dsqu="https://www.breitbart.com/entertainment/2020/04/18/rob-reiner-says-trump-will-lose-in-a-landslide-because-americans-will-be-voting-for-their-lives/#disqus_thread" data-fbc="16463"></span></a></li><li><a href="/faith/2020/04/18/chinese-police-arrest-christians-zooming-easter-service/"><img width="200" height="150" src="https://media.breitbart.com/media/2020/04/man-playing-guitar-virtual-church-ap-200x150.jpg" alt="Chinese Police Arrest Christians Zooming Easter Service" title="Chinese police raided the homes of members of the Early &hellip;" data-qazy=""><b>Chinese Police Arrest Christians Zooming Easter Service</b><span class="byC" data-dsqi="13191052" data-dsqu="https://www.breitbart.com/faith/2020/04/18/chinese-police-arrest-christians-zooming-easter-service/#disqus_thread" data-fbc="12"></span></a></li></ul>	</section>
+	
+	<figure id="rail5matched" class="VH"></figure>
 
-    googletag.cmd.push(function() {
-      pbjs.que.push(function() {
-        pbjs.setTargetingForGPTAsync(displayAdUnitCodes);
-        googletag.pubads().refresh();
-      });
-    });
-  }
-
-  setTimeout(function() {
-    sendAdserverRequest();
-  }, PREBID_TIMEOUT);
-</script>
-<script>
-googletag.slots = googletag.slots || {};</script>
-<script src="//thehill.com/sites/default/files/js/js_s3L_uC35AiN5EGYY533su-jccnLRp2aKpOnjgPLbo34.js"></script>
-<script src="//thehill.com/sites/default/files/js/js_CU3-wpoRjXqQUzVH_fXkSKR_o43ZvBVuw8S_WXUsfTY.js"></script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["rightrail_top"] = googletag.defineSlot("1107919/RightRail_top_300x250_ROS_asynch", [[160, 600], [300, 250], [300, 600], [300, 1050]], "dfp-ad-rightrail_top")
-  .addService(googletag.pubads())
-  .setTargeting("MoatSlotId", "rightrail_top");
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["rightrail_bottom"] = googletag.defineSlot("1107919/RightRail_bottom_300x250_ROS_asynch", [[300, 250], [300, 600], [300, 1050]], "dfp-ad-rightrail_bottom")
-  .addService(googletag.pubads())
-  .setTargeting("MoatSlotId", "rightrail_bottom");
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["leaderboard"] = googletag.defineSlot("1107919/Leaderboard_728x90_ROS_asynch", [[728, 90], [970, 90], [970, 250], [970, 415], [970, 500], [1237, 500]], "dfp-ad-leaderboard")
-  .addService(googletag.pubads())
-  .setTargeting("MoatSlotId", "dfp-ad-leaderboard");
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["incontent_desk_1"] = googletag.defineSlot("1107919/Content_300x250_ROS_asynch", [300, 250], "dfp-ad-incontent_desk_1")
-  .addService(googletag.pubads());
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["incontent_desk_2"] = googletag.defineSlot("1107919/Content_300x250_ROS_2_asynch", [300, 250], "dfp-ad-incontent_desk_2")
-  .addService(googletag.pubads());
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["incontent_desk_3"] = googletag.defineSlot("1107919/Content_300x250_ROS_3", [300, 250], "dfp-ad-incontent_desk_3")
-  .addService(googletag.pubads());
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["new_1x1_asynch"] = googletag.defineSlot("1107919/1x1_asynch", [1, 1], "dfp-ad-new_1x1_asynch")
-  .addService(googletag.pubads());
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["1x1_oop"] = googletag.defineSlot("1107919/1x1_asynch", [1, 1], "dfp-ad-1x1_oop")
-  .addService(googletag.pubads());
-googletag.defineOutOfPageSlot("1107919/1x1_asynch", "dfp-ad-1x1_oop-oop")
-  .addService(googletag.pubads());
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-  googletag.pubads().setTargeting("ksg", Krux.segments);
-  googletag.pubads().setTargeting("kuid", Krux.user);
-  var referrer = "";
-  try{referrer = document.referrer; if(document.referrer.length > 0) referrer = new URL(document.referrer).hostname; } catch(e) {console.log(e)}
-  googletag.pubads().setTargeting("referrer", referrer);
-  googletag.pubads().enableSingleRequest();
-  googletag.pubads().collapseEmptyDivs();
-  googletag.pubads().setTargeting("Article", "493268");
-  googletag.pubads().setTargeting("Category", "Finance");
-  googletag.pubads().setTargeting("Section", "Policy");
-  googletag.pubads().setTargeting("Tarmeta", ["Coronavirus","stimulus checks","IRS","Steven Mnuchin","Donald Trump","IRS","Treasury Departmentmillions","wait","for","virus","relief","checks","in","major","test","for","irs"]);
-  googletag.pubads().setTargeting("Video", ["Float","True"]);
-  
-  googletag.enableServices();
-});
-</script>
-<script src="//thehill.com/sites/default/files/js/js_UlgQwqBztlTNwD8PYNXSwCVbJHJOJiHEsF-8ZKBt8yE.js"></script>
-<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-10188146-1", {"cookieDomain":"auto"});ga("set", "dimension1", "Naomi Jagoda");ga("send", "pageview");</script>
-<script src="//thehill.com/sites/default/files/js/js_3FimjhHlbAdnqDEb8OwjcqUpxHVyidrcRpUJDQqOYwI.js"></script>
-<script src="//cdn.jwplayer.com/libraries/RSvzxzFp.js"></script>
-<script src="//z.moatads.com/jwplayerplugin0938452/moatplugin.js"></script>
-<script src="//sb.scorecardresearch.com/c2/plugins/streamingtag_plugin_jwplayer.js"></script>
-<script src="//thehill.com/sites/default/files/js/js_F1AP5IICyTi-s6o_2UvaN09ASXpri4fyBkXJ9Or1ow0.js"></script>
-<script src="//thehill.com/sites/default/files/js/js_Wz9V8S-p4fXho8SFba8azOpci3RS15HeZXF6aWuITag.js"></script>
-<script nonce="iXohng2hoh">jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"thehill","theme_token":"AEowNcSuFtyyXy96qH3tsYMhKKsqJx5McSs96XSiGyU","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.effect.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.effect-highlight.min.js":1,"0":1,"1":1,"2":1,"3":1,"4":1,"5":1,"6":1,"7":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"8":1,"sites\/all\/modules\/thehill\/thehill_misc\/js\/person-links.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/jquery.caroufredsel.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/helper-plugins\/jquery.ba-throttle-debounce.min.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/helper-plugins\/jquery.mousewheel.min.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/helper-plugins\/jquery.touchSwipe.min.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/helper-plugins\/jquery.transit.min.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/thehill_carousel.js":1,"misc\/jquery.cookie.js":1,"sites\/all\/modules\/mostpopular\/js\/fade.js":1,"sites\/all\/modules\/mostpopular\/js\/mostpopular.js":1,"https:\/\/cdn.jwplayer.com\/libraries\/RSvzxzFp.js":1,"https:\/\/z.moatads.com\/jwplayerplugin0938452\/moatplugin.js":1,"https:\/\/sb.scorecardresearch.com\/c2\/plugins\/streamingtag_plugin_jwplayer.js":1,"sites\/all\/modules\/disqus\/disqus.js":1,"sites\/all\/modules\/ajaxblocks\/ajaxblocks.js":1,"sites\/all\/modules\/hide_submit\/js\/hide_submit.js":1,"sites\/all\/themes\/thehill\/js\/jquery.sticky-kit.min.js":1,"sites\/all\/themes\/thehill\/js\/jquery.visible.min.js":1,"sites\/all\/themes\/thehill\/js\/script.js":1,"sites\/all\/themes\/thehill\/js\/dfp.gpt.logger.override.js":1,"sites\/all\/themes\/thehill\/js\/overriden\/mostpopular.js":1,"sites\/all\/themes\/thehill\/js\/opa.js":1,"sites\/all\/themes\/thehill\/js\/th_jwplayer.js":1,"9":1,"10":1,"11":1,"12":1,"13":1,"14":1,"15":1,"16":1,"17":1,"18":1,"19":1,"20":1,"21":1,"22":1,"23":1,"24":1,"25":1,"26":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/menu_attach_block\/menu_attach_block.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/chartbeat\/chartbeat.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/thehill\/thehill_misc\/css\/person-links.css":1,"sites\/all\/modules\/mostpopular\/css\/mostpopular-basic.css":1,"sites\/all\/modules\/mostpopular\/css\/mostpopular-full.css":1,"sites\/all\/modules\/hide_submit\/css\/hide_submit.css":1,"sites\/all\/themes\/thehill\/system.menus.css":1,"sites\/all\/themes\/thehill\/css\/normalize.css":1,"sites\/all\/themes\/thehill\/css\/wireframes.css":1,"sites\/all\/themes\/thehill\/css\/layouts\/responsive-sidebars.css":1,"sites\/all\/themes\/thehill\/css\/page-backgrounds.css":1,"sites\/all\/themes\/thehill\/css\/tabs.css":1,"sites\/all\/themes\/thehill\/css\/pages.css":1,"sites\/all\/themes\/thehill\/css\/blocks.css":1,"sites\/all\/themes\/thehill\/css\/navigation.css":1,"sites\/all\/themes\/thehill\/css\/views-styles.css":1,"sites\/all\/themes\/thehill\/css\/nodes.css":1,"sites\/all\/themes\/thehill\/css\/comments.css":1,"sites\/all\/themes\/thehill\/css\/forms.css":1,"sites\/all\/themes\/thehill\/css\/fields.css":1,"sites\/all\/themes\/thehill\/css\/print.css":1,"sites\/all\/themes\/thehill\/css\/articles-teaser.css":1,"sites\/all\/themes\/thehill\/css\/font-awesome.min.css":1,"sites\/all\/themes\/thehill\/css\/opa.css":1,"sites\/all\/themes\/thehill\/css\/opa-fix.css":1,"sites\/all\/themes\/thehill\/css\/hilltv.css":1,"sites\/all\/themes\/thehill\/css\/th_jwplayer.css":1}},"chartbeat":{"uid":3100,"domain":"thehill.com","useCanonical":true,"noCookies":false},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"ad_timeout":"25000","hide_submit":{"hide_submit_status":true,"hide_submit_method":"disable","hide_submit_css":"hide-submit-disable","hide_submit_abtext":"","hide_submit_atext":"","hide_submit_hide_css":"hide-submit-processing","hide_submit_hide_text":"Processing...","hide_submit_indicator_style":"expand-left","hide_submit_spinner_color":"#000","hide_submit_spinner_lines":12,"hide_submit_hide_fx":0,"hide_submit_reset_time":0},"urlIsAjaxTrusted":{"\/policy\/finance\/493268-millions-wait-for-virus-relief-checks-in-major-test-for-irs":true},"thehill_mostpopular":{"sid":"1","iid":"1","tag":""},"thehill_carousel":{"carousels":{"#thehill-mostpopular-block .mostpopular--content ul":{"auto":false,"infinite":false,"circular":true,"next":"#most_popular_next","mousewheel":false,"swipe":{"onMouse":true,"onTouch":true},"items":6,"mostpopular":true,"direction":"up","scroll":{"items":6,"duration":1000,"timeoutDuration":2000}}}},"mostpopular":{"url":"\/mostpopular\/ajax"},"disqus":{"domain":"thehill-v4","url":"https:\/\/thehill.com\/policy\/finance\/493268-millions-wait-for-virus-relief-checks-in-major-test-for-irs","title":"Millions wait for virus relief checks in major test for IRS","identifier":"node\/493268","developer":1,"language":"en","sso":{"name":"TheHill","url":"\/user\/login?destination=disqus\/closewindow","logout":"\/user\/logout?destination=node\/493268","width":800,"height":600,"button":"https:\/\/thehill.com\/sites\/all\/themes\/thehill\/images\/print_logo.png","icon":"https:\/\/thehill.com\/favicon.ico"},"api_key":"MU2vV9R8hBF3W9kH0Zo2HKkiLqQY5ahOlvro6pPtNeOnnI6dQLfkIjd0OgRl9W6x","remote_auth_s3":"W10= 73fbefc815f7d03a5a0973a26f62168b92b961e0 1587198361"},"ajaxblocks":"blocks=mostpopular-1\/views-articles-articles_just_in\u0026path=node"});</script>
-  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e8f5d7e1bc8befe"></script>
-  <meta http-equiv="refresh" content="2700"/><meta name="twitter:widgets:csp" content="on">
-<!-- iOS -->
- <meta name="apple-itunes-app" content="app-id=396640962">
-<!-- end iOS -->
-<!-- START Nativo -->
-<script type="text/javascript" src="//s.ntv.io/serve/load.js" async></script>
-<!-- END Nativo -->
-<!-- NDN Start -->
-<!-- script type="text/javascript" src="//launch.newsinc.com/js/embed.js"></script -->
-<!-- NDN End -->
-<script>window['moatYieldReady']=function(){return window.moatPrebidApi.setMoatTargetingForAllSlots()};</script>  <!--[if lt IE 9]>
-    <script>
-      document.createElement('header');
-      document.createElement('nav');
-      document.createElement('section');
-      document.createElement('article');
-      document.createElement('aside');
-      document.createElement('footer');
-    </script>
-  <![endif]-->
-  <!-- Krux ControlTag for "The Hill" -->
-  <script class="kxct" data-id="sf90wt710" data-timing="async" data-version="3.0" type="text/javascript">
-    window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
-    (function()
-      { var k=document.createElement('script');k.type='text/javascript';k.async=true; k.src=(location.protocol==='https:'?'https:':'http:')+'//cdn.krxd.net/controltag/sf90wt710.js'; var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s); }
-    ());
-  </script>
-</head>
-<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-493268 node-type-article section-policy smaller-size" >
-  <div id="skip-link">
-    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
-  </div>
-            <div class="region region-before-header">
-    <div id="block-system-main-menu" class="block block-system block-menu first last odd" role="navigation">
-  <div class="expand-menu-header">
-    <span class="expand-menu-close"></span>
-    <a href="/"></a>
-  </div>
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/signup" class="menu__link menu__link">sign up for newsletters</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/" class="menu__link menu__link">Home</a></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/" class="menu__link menu__link">News</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/homenews/senate" title="Senate" name="Senate" class="menu__link menu__link">Senate</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/house" class="menu__link menu__link">House</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/campaign" class="menu__link menu__link">Campaign</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/administration" class="menu__link menu__link">Administration</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/business-a-lobbying" class="menu__link menu__link">Business</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation" class="menu__link menu__link">Regulation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/media" class="menu__link menu__link">Media</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/blog-briefing-room" class="menu__link menu__link">Briefing Room</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/state-watch" class="menu__link menu__link">State Watch</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/latino" class="menu__link menu__link">Latino</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/ballot-box/polls" class="menu__link menu__link">Polls</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/1230-report" class="menu__link menu__link">12:30 Report</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/coronavirus-report" class="menu__link menu__link">Coronavirus Report</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/politics-101" class="menu__link menu__link">Politics 101</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/floor-action" class="menu__link menu__link">Floor Action</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/in-the-know" class="menu__link menu__link">In The Know</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/homenews/sunday-talk-shows" class="menu__link menu__link">Sunday Talk Shows</a></li>
-</ul></li>
-<li class="menu__item is-active-trail is-expanded menu__item is-active-trail is-expanded expanded active-trail depth-1"><a href="/policy" class="menu__link is-active-trail menu__link is-active-trail active-trail">Policy</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/policy/defense" class="menu__link menu__link">Defense</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/energy-environment" class="menu__link menu__link">Energy &amp; Environment</a></li>
-<li class="menu__item is-active-trail is-leaf menu__item is-active-trail is-leaf leaf active-trail depth-2"><a href="/policy/finance" class="menu__link is-active-trail menu__link is-active-trail active-trail">Finance</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/healthcare" class="menu__link menu__link">Healthcare</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/technology" class="menu__link menu__link">Technology</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/transportation" class="menu__link menu__link">Transportation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/international" class="menu__link menu__link">International</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/cybersecurity" class="menu__link menu__link">Cybersecurity</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/policy/national-security" class="menu__link menu__link">National Security</a></li>
-</ul></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/regulation" class="menu__link menu__link">Regulation</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/regulation/defense" class="menu__link menu__link">Defense</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/energy-environment" class="menu__link menu__link">Energy &amp; Environment</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/finance" class="menu__link menu__link">Finance</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/healthcare" class="menu__link menu__link">Healthcare</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/technology" class="menu__link menu__link">Technology</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/transportation" class="menu__link menu__link">Transportation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/international" class="menu__link menu__link">International</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/cybersecurity" class="menu__link menu__link">Cybersecurity</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/regulation/national-security" class="menu__link menu__link">National Security</a></li>
-</ul></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/opinion" class="menu__link menu__link">Opinion</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/opinion" class="menu__link menu__link">Contributors</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/opinion/columnists" class="menu__link menu__link">Columnists</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/contributor-application-form" class="menu__link menu__link">Become a contributor</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/blogs/congress-blog" class="menu__link menu__link">Congress Blog</a></li>
-</ul></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/hilltv" class="menu__link menu__link">Hill.TV</a></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1 left"><a href="/video" class="menu__link menu__link left">Video</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/video/campaign" class="menu__link menu__link">Campaign</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/defense" class="menu__link menu__link">Defense</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/energy-environment" class="menu__link menu__link">Energy &amp; Environment</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/finance" class="menu__link menu__link">Finance</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/healthcare" class="menu__link menu__link">Healthcare</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/technology" class="menu__link menu__link">Technology</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/transportation" class="menu__link menu__link">Transportation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/international" class="menu__link menu__link">International</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/cybersecurity" class="menu__link menu__link">Cybersecurity</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/national-security" class="menu__link menu__link">National Security</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/sunday-shows" class="menu__link menu__link">Sunday Shows</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/events" class="menu__link menu__link">Events</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/video/lawmaker-interviews" class="menu__link menu__link">Lawmaker Interviews</a></li>
-</ul></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/podcasts" class="menu__link menu__link">Podcasts</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/podcasts/hillcast" class="menu__link menu__link">HillCast</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/podcasts/history-cast" class="menu__link menu__link">HistoryCast</a></li>
-</ul></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1 left single"><a href="/events" class="menu__link menu__link single left">Events</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/events" class="menu__link menu__link">Upcoming Events</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/events/past" class="menu__link menu__link">Past Events</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/events/about" class="menu__link menu__link">About</a></li>
-</ul></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/people" class="menu__link menu__link">People</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/homenews/campaign" class="menu__link menu__link">Campaign</a></li>
-</ul>  <div id="expand-menu-social-share">
-    <div class="expand-menu-headline">Follow Us</div>
-    <a href="http://www.facebook.com/TheHill" class="social-share-facebook" target="_blank">Facebook</a>&nbsp;<a href="https://twitter.com/intent/follow?screen_name=thehill" class="social-share-twitter-follow" target="_blank">Twitter</a>&nbsp;<a href="https://www.linkedin.com/company/the-hill" class="social-share-linkedin" target="_blank">LinkedIn</a>&nbsp;  </div>
-  <div id="expand-menu-footer">
-    <div class="expand-menu-headline"><a href="/">TheHill.com</a></div>
-    &copy; 1996-2020 News Communication
-    <ul class="links"><li class="menu-3055 first"><a href="/terms-and-conditions">Terms &amp; Conditions</a></li>
-<li class="menu-3054 last"><a href="/privacy-policy">Privacy Policy</a></li>
-</ul>  </div>
+	<figure id="F-1x1"></figure>
+</aside>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<footer id="FootW">
+		<div id="FWI">
+			<a href="/" class="logo">BREITBART NEWS</a>
+			<ul id="NavF"><li><a rel="nofollow" href="https://mediakit.breitbart.com">Advertise</a></li><li><a href="/masthead/">Masthead</a></li><li><a href="https://media.breitbart.com/media/2019/11/about-breitbart-news.pdf">About Us</a></li><li><a rel="nofollow" href="/terms-of-use/">Terms of Use</a></li><li><a rel="nofollow" href="/privacy-policy/">Privacy Policy</a></li><li><a href="/news/">Wires</a></li><li><a rel="nofollow" href="/contact-us/">Contact Us</a></li><li><a rel="nofollow" href="/jobs/">Careers</a></li><li><a rel="nofollow" href="https://store.breitbart.com">Store</a></li><li><a href="/newsletter/">Newsletter</a></li><li><a rel="nofollow" href="/send-a-tip/">Send A Tip</a></li><li><a href="/navigational-sitemap/">Navigational Sitemap</a></li></ul>			<p><a class="fb" href="https://www.facebook.com/Breitbart" title="Breitbart on Facebook"></a><a class="tw" href="https://twitter.com/BreitbartNews" title="Breitbart on Twitter"></a><a class="yt" href="https://www.youtube.com/channel/UCmgnsaQIK1IR808Ebde-ssA" title="Breitbart on YouTube"></a><a class="ig" href="https://www.instagram.com/wearebreitbart/" title="Breitbart on Instagram"></a><a class="parler" href="https://parler.com/profile/BreitbartNews" title="Breitbart on Parler"></a><a class="rss" href="https://feeds.feedburner.com/breitbart" title="Breitbart RSS"></a></p>
+		</div>
+		<p><small>Copyright &copy; 2020 Breitbart</small></p>
+	</footer>
 </div>
-  </div>
-    <header id="header" role="banner" >
-    <div>
-      <div class="header_blocks">
-                      </div>
-      <div class="clear"></div>
-      <div id="navigation">
-        <nav id="main-menu" role="navigation">
-          <div class="expanded-menu"></div>
-                        <div class="region region-navigation">
-    <div id="block-menu-menu-top-menu" class="block block-menu first last odd" role="navigation">
-
-        <h2 class="block__title block-title">Top menu</h2>
-    
-  <div class="menu-wrapper"><ul class="menu"><li class="menu__item is-expanded menu__item is-expanded first expanded depth-1"><a href="/" class="menu__link menu__link">News</a><div class="menu-wrapper"><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/homenews/senate" class="menu__link menu__link">Senate</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/house" class="menu__link menu__link">House</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/administration" class="menu__link menu__link">Administration</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/campaign" class="menu__link menu__link">Campaign</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/business-a-lobbying" class="menu__link menu__link">Business</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation" class="menu__link menu__link">Regulation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/media" class="menu__link menu__link">Media</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/blog-briefing-room" class="menu__link menu__link">Briefing Room</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/state-watch" class="menu__link menu__link">State Watch</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/latino" class="menu__link menu__link">Latino</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/ballot-box/polls" class="menu__link menu__link">Polls</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/1230-report" class="menu__link menu__link">12:30 Report</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/coronavirus-report" class="menu__link menu__link">Coronavirus Report</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/politics-101" class="menu__link menu__link">Politics 101</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/floor-action" class="menu__link menu__link">Floor Action</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/in-the-know" class="menu__link menu__link">In The Know</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/homenews/sunday-talk-shows" class="menu__link menu__link">Sunday Talk Shows</a></li>
-</ul></div></li>
-<li class="menu__item is-active-trail is-expanded menu__item is-active-trail is-expanded expanded active-trail depth-1"><a href="/policy" class="menu__link is-active-trail menu__link is-active-trail active-trail">Policy</a><div class="menu-wrapper"><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/policy/defense" class="menu__link menu__link">Defense</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/energy-environment" class="menu__link menu__link">Energy &amp; Environment</a></li>
-<li class="menu__item is-active-trail is-leaf menu__item is-active-trail is-leaf leaf active-trail depth-2"><a href="/policy/finance" class="menu__link is-active-trail menu__link is-active-trail active-trail">Finance</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/healthcare" class="menu__link menu__link">Healthcare</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/technology" class="menu__link menu__link">Technology</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/transportation" class="menu__link menu__link">Transportation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/international" class="menu__link menu__link">International</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/cybersecurity" class="menu__link menu__link">Cybersecurity</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/policy/national-security" class="menu__link menu__link">National Security</a></li>
-</ul></div></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/opinion" class="menu__link menu__link">Opinion</a><div class="menu-wrapper opa-opinion-menu"><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/opinion/columnists" class="menu__link menu__link">Columnists</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/blogs/congress-blog" class="menu__link menu__link">Congress Blog</a></li>
-</ul><div class="opa-opinion-submenu">
-            <a href="/opinion" class="opa-opinion-submenu-all">All Contributors</a>
-            <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/opinion/campaign" class="menu__link menu__link">- Campaign</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/civil-rights" class="menu__link menu__link">- Civil Rights</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/criminal-justice" class="menu__link menu__link">- Criminal Justice</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/education" class="menu__link menu__link">- Education</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/energy-environment" class="menu__link menu__link">- Energy &amp; Environment</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/finance" class="menu__link menu__link">- Finance</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/healthcare" class="menu__link menu__link">- Healthcare</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/immigration" class="menu__link menu__link">- Immigration</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/international" class="menu__link menu__link">- International</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/judiciary" class="menu__link menu__link">- Judiciary</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/technology" class="menu__link menu__link">- Technology</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/white-house" class="menu__link menu__link">- White House</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/contributor-application-form" class="menu__link menu__link">- Become A Contributor</a></li>
-</ul>
-            </div></div></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/events" class="menu__link menu__link">Events</a><div class="menu-wrapper"><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/events" class="menu__link menu__link">Upcoming Events</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/events/about" class="menu__link menu__link">About</a></li>
-</ul></div></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/resources/classifieds/employer" class="menu__link menu__link">Jobs</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/hilltv" class="menu__link menu__link hill-tv">HILL.TV</a></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded black depth-1"><a href="/changing-america" class="menu__link menu__link">Changing America </a><div class="menu-wrapper"><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/changing-america/respect" class="menu__link menu__link">Respect</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/changing-america/sustainability" class="menu__link menu__link">Sustainability</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/changing-america/enrichment" class="menu__link menu__link">Enrichment</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/changing-america/resilience" class="menu__link menu__link">Resilience</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/changing-america/well-being" class="menu__link menu__link">Well-Being</a></li>
-</ul></div></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf covid-19 depth-1"><a href="/coronavirus-report" class="menu__link menu__link">Coronavirus Report</a></li>
-</ul></div>
-</div>
-  </div>
-                                  <div class="region region-controls">
-    <div id="block-social-share-social-share" class="block block-social-share first odd">
-
-      
-  <a href="http://www.facebook.com/TheHill" class="social-share-facebook" target="_blank">Facebook</a>&nbsp;<a href="https://twitter.com/intent/follow?screen_name=thehill" class="social-share-twitter-follow" target="_blank">Twitter</a>&nbsp;<a href="https://www.linkedin.com/company/the-hill" class="social-share-linkedin" target="_blank">LinkedIn</a>&nbsp;
-</div>
-<div id="block-search-form" class="block block-search last even" role="search">
-
-      
-  <form action="/policy/finance/493268-millions-wait-for-virus-relief-checks-in-major-test-for-irs" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
-      <h2 class="element-invisible">Search form</h2>
-    <div class="form-item form-type-textfield form-item-search-block-form">
-  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
- <input title="Enter the terms you wish to search for." placeholder="TYPE TO SEARCH" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
-</div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-7w_B39WKL2in6sqpn1CXT1MoEv9jn6tSvvjzxEn_eYQ" />
-<input type="hidden" name="form_id" value="search_block_form" />
-</div>
-</div></form>
-</div>
-  </div>
-                  </nav>  
-      </div>
-    </div>
-  </header><div id="page" class="page-new-layout responsive">
-  <div id="main" class="scrolling-content ">
-      <div class="region region-highlighted">
-    <div id="block-term-queue-0" class="block block-term-queue first last odd">
-
-        <h2 class="block__title block-title">TRENDING:</h2>
-    
-  <ul class="term-queue-links"><li class="0 first"><a href="/social-tags/coronavirus">Coronavirus</a></li>
-<li class="1"><a href="/person/donald-trump">Donald Trump</a></li>
-<li class="2"><a href="/person/anthony-fauci">Anthony Fauci</a></li>
-<li class="3 last"><a href="/person/joe-biden">Joe Biden</a></li>
-</ul>
-</div>
-  </div>
-      <div class="region region-top-page">
-    <div id="block-dfp-leaderboard" class="block block-dfp first last odd">
-
-      
-  <div id="dfp-ad-leaderboard-wrapper" class="dfp-tag-wrapper"><!-- dfp_tag.tpl.php -->
-<a href="#" class="hide_overlay"></a>
-<div  id="dfp-ad-leaderboard" class="dfp-inner">
-  <script type="text/javascript">
-    googletag.cmd.push(function() {
-      googletag.display("dfp-ad-leaderboard");
-    });
-  </script>
-</div>
-
-</div>
-</div>
-  </div>
-        <div class="content-item">
-              <div class="left-sidebar">
-        <a href="/" title="TheHill" rel="home" alt="TheHill.com">
-          <img class="logo" alt="TheHill.com" src="/sites/all/themes/thehill/images/redesign/thehill-logo-big.png" />
-        </a>
-      </div>
-      <div class="content-wrapper title">
-                          <h1 class="title" id="page-title">Millions wait for virus relief checks in major test for IRS</h1>
-                <div class="submitted-wrp">
-    <span class="submitted-by">
-    By <a href="/author/naomi-jagoda">Naomi Jagoda</a> - <span class="submitted-date">04/17/20 06:00 AM EDT</span>
-  </span>
-  <a href="/policy/finance/493268-millions-wait-for-virus-relief-checks-in-major-test-for-irs#bottom-story-socials" class="disqus-comments" data-disqus-identifier="node/493268"></a>  </div>
-      </div>
-      <div class="content-wrapper social">
-        <div class="blogs-social-wrp">
-  <span  data-behavior="social-share-count" data-href="https://thehill.com/policy/finance/493268-millions-wait-for-virus-relief-checks-in-major-test-for-irs" class="social-share-count social-share-count-493268" data-nid="493268" ></span>
-  <div class="addthis_inline_share_toolbox_ru82"></div>
-<div class="share-additional">
-  <div class="share-linkedin">
-    <script>
-      ;(function(){
-        var linkedinScriptEl = document.querySelector('script[src="//platform.linkedin.com/in.js"]');
-        if (linkedinScriptEl == null) {
-          var shareLinkedinEl = document.querySelector('.share-linkedin');
-          var scriptEl = document.createElement('script');
-          scriptEl.src = "//platform.linkedin.com/in.js";
-          scriptEl.async = true;
-          scriptEl.innerHTML = " lang: en_US";
-          shareLinkedinEl.appendChild(scriptEl);
-        }
-      })();
-    </script>
-    <script type="IN/Share"></script>
-  </div>
-</div>
-<div class="share">
-  <a href="mailto:?subject=TheHill.com%3A%20Millions%20wait%20for%20virus%20relief%20checks%20in%20major%20test%20for%20IRS&amp;body=From%20TheHill.com%3A%20%0A%0AThe%20IRS%20has%20started%20to%20issue%20coronavirus%20rebates%20to%20tens%20of%20millions%20of%20people%2C%20but%20faces%20challen...%0A%0Ahttps%3A//thehill.com/policy/finance/493268-millions-wait-for-virus-relief-checks-in-major-test-for-irs" class="email">&nbsp</a>  </div>
-</div>
-              </div>
-      <div class="left-sidebar-2">
-          <div class="region region-column-left">
-    <div id="block-views-articles-articles-just-in" class="block block-views first odd">
-
-      
-  <div id="block-views-articles-articles_just_in-ajax-content" class="ajaxblocks-wrapper"></div>
-</div>
-<div id="block-block-50" class="block block-block even">
-
-      
-  <div style="width:215px; height:200px; padding:0; margin:0;"></div>
-</div>
-<div id="block-block-52" class="block block-block last odd">
-
-      
-  <!-- Outbrain: Desktop Left Column -->
-<div class="OUTBRAIN" data-src="https://thehill.com/policy/finance/493268-millions-wait-for-virus-relief-checks-in-major-test-for-irs" data-widget-id="SB_1" data-ob-template="The Hill"></div> 
-</div>
-  </div>
-        <div class="left-sidebar-space">&nbsp;</div>
-              </div>
-      <div class="content-wrapper">
-            <div id="content" class="column">
-                                                  
-
-
-<article class="node-493268 node node-article view-mode-full clearfix" about="/policy/finance/493268-millions-wait-for-virus-relief-checks-in-major-test-for-irs" typeof="sioc:Item foaf:Document">
-    <header>
-    <span property="dc:title" content="Millions wait for virus relief checks in major test for IRS" class="rdf-meta element-hidden"></span>      </header>
-      <div class="content-with-sidebar-wrp">
-    <div class="content-wrp">
-      <div class="player-container" style="position:relative;">
-  <div class="player-position">
-    <a href="#" class="close-btn"></a>
-    <div id="493268-player"></div>
-    <div id="jwplayer-unmute-button">
-      <div class="hilltv-video-unmute-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" focusable="false"><path d="M116.4,42.8v154.5c0,2.8-1.7,3.6-3.8,1.7l-54.1-48.1H28.9c-2.8,0-5.2-2.3-5.2-5.2V94.2c0-2.8,2.3-5.2,5.2-5.2h29.6l54.1-48.1C114.6,39.1,116.4,39.9,116.4,42.8z M212.3,96.4l-14.6-14.6l-23.6,23.6l-23.6-23.6l-14.6,14.6l23.6,23.6l-23.6,23.6l14.6,14.6l23.6-23.6l23.6,23.6l14.6-14.6L188.7,120L212.3,96.4z"></path></svg>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>The IRS has started to issue coronavirus rebates to tens of millions of people but faces challenges in getting the payments to everyone.</p><p>Treasury Secretary <span class="rollover-people" data-behavior="rolloverpeople"><a class="rollover-people-link" data-nid="344978" href="/people/steven-mnuchin">Steven Mnuchin</a><span class="rollover-people-block" id="rollover-people-344978"><span class="rollover-block"><span><img typeof="foaf:Image" src="/sites/default/files/styles/thumb_100/public/mnuchinsteven_052417gn3_lead.jpg?itok=fVbADQ4d" width="100" height="100" alt="" /><a class="name" href="/people/steven-mnuchin">Steven Terner Mnuchin</a><a class="people-articles" href="/homenews/house/493449-mccarthy-says-he-supports-incorporating-hospital-funding-into-small-business">McCarthy says he supports incorporating hospital funding into small business aid package</a> <a class="people-articles" href="/policy/healthcare/493435-13-things-to-know-on-coronavirus-for-today">13 things to know for today on coronavirus</a> <a class="people-articles" href="/policy/finance/overnights/493398-on-the-money-millions-wait-for-virus-relief-checks-in-major-test">On The Money: Millions wait for virus relief checks in major test for IRS | Senate misses deadline to replenish small-business loan program | Fresh produce goes to waste as coronavirus snarls supply chains</a> <a class="more" href="/people/steven-mnuchin">MORE<span></span></a></span></span></span></span> said Wednesday that more than 80 million Americans have already received their payments via direct deposit. But millions of people who haven't previously given the IRS their bank information, or who may not typically file tax returns, are still waiting.</p><p>The IRS has taken steps in recent days to help facilitate getting the payments to people, but challenges remain in getting the payments to every eligible taxpayer in a prompt fashion. </p><div id="dfp-ad-incontent_desk_1-wrapper" class="dfp-tag-wrapper wrapper"><div id="dfp-ad-incontent_desk_1" class="dfp-tag-wrapper"><span>ADVERTISEMENT</span><script type="text/javascript">googletag.cmd.push(function() {googletag.display("dfp-ad-incontent_desk_1");});</script></div></div><p>Challenges include ensuring that low-income people get their payments and addressing the concerns of taxpayers who are struggling to use IRS web tools or who say they have not yet received their payments or received incorrect payment amounts.</p><p>“The easy part is the direct deposit payments, and the IRS deserves high grades for what they’ve done so far,” said Mark Everson, vice chairman of alliantgroup, who served as IRS commissioner from 2003 to 2007. “Now, it gets more complicated."</p><p>“The most difficult part will be getting the money to the people who are entitled to it but whom the service doesn’t have current addresses or banking information,” he added.</p><p>Legislation that <span class="rollover-people" data-behavior="rolloverpeople"><a class="rollover-people-link" data-nid="261287" href="/people/donald-trump">President Trump</a><span class="rollover-people-block" id="rollover-people-261287"><span class="rollover-block"><span><img typeof="foaf:Image" src="/sites/default/files/styles/thumb_100/public/trumpdonald_070117getty.jpg?itok=zNbH56or" width="100" height="100" alt="" /><a class="name" href="/people/donald-trump">Donald John Trump</a><a class="people-articles" href="/homenews/campaign/493454-biden-campaign-seeks-to-let-sanders-keep-his-delegates-in-unusual-move">Biden campaign seeks to let Sanders keep his delegates in unusual move</a> <a class="people-articles" href="/policy/healthcare/493452-lady-gaga-calls-who-chief-a-superstar">Lady Gaga calls WHO chief a 'superstar' </a> <a class="people-articles" href="/homenews/house/493449-mccarthy-says-he-supports-incorporating-hospital-funding-into-small-business">McCarthy says he supports incorporating hospital funding into small business aid package</a> <a class="more" href="/people/donald-trump">MORE<span></span></a></span></span></span></span> signed in late March created a program for one-time direct payments to most Americans, in an effort to help people cover their expenses amid the coronavirus pandemic. </p><p>Individuals with income under $75,000 and married couples with income under $150,000 can receive the full amounts of $1,200 per adult and $500 per child. The payment amounts phase out above those income levels and are zero for individuals making more than $99,000 and married couples without children making more than $198,000.</p><p>The IRS has started to issue payments to taxpayers who provided the agency with their direct-deposit information on their 2018 or 2019 tax returns and is expected to start sending paper checks next week. Policymakers have been encouraging people to provide their bank account information to the IRS, because people are expected to get their rebates faster if they can get them through direct deposit than if they have to wait for a mailed paper check.</p><div id="dfp-ad-incontent_desk_2-wrapper" class="dfp-tag-wrapper wrapper"><div id="dfp-ad-incontent_desk_2" class="dfp-tag-wrapper"><span>ADVERTISEMENT</span><script type="text/javascript">googletag.cmd.push(function() {googletag.display("dfp-ad-incontent_desk_2");});</script></div></div><p>Millions of people have not previously provided their bank account information to the IRS, and reaching all of those people poses challenges.</p><p>The IRS’s in-house watchdog, National Taxpayer Advocate Erin Collins, wrote on her organization’s website Wednesday that in 2019, only 59 percent of taxpayers received refunds via direct deposit.</p><p>“While I expect the IRS will successfully deliver the Economic Impact Payments to most eligible taxpayers, many taxpayers will likely experience difficulties in obtaining their payments,” Collins wrote.</p><p>The IRS has made a series of announcements that aimed at helping people receive their payments and helping them get their payments faster.</p><p>The agency has launched two web tools in recent days. One, called Non-filers: Enter Payment Info Here, allows people who are not typically required to file tax returns to provide basic information to the IRS in order to receive their payments. The second, called Get My Payment, allows people who have not previously provided the IRS with direct-deposit information to do so and allows people to track the status of their payments.</p><p>But questions remain about how effective the IRS’s efforts will be and whether the agency will send the correct payment amount at the correct location to everyone who is eligible. There are also questions about whether everyone who is eligible for payments will be aware of what actions, if any, they need to take in order to receive their rebates.</p><p>The Get My Payment tool launched on Wednesday, and lawmakers reported hearing from constituents who were having problems using it.</p><p>As people were clamoring to use the tool, some experienced delays in accessing it. The IRS said in a statement Wednesday that when website volume is too high, people are briefly sent to an online “waiting room” but that their tool didn’t crash.</p><p>The IRS also said that people who are receiving a message that their payment status is not available may be seeing such a message if they’re not eligible for a payment, are required to file a tax return but haven’t done so, recently provided the IRS with their information via the non-filers tool or receive certain government benefits. The agency also said that as of Wednesday afternoon, 9.8 million people have received information about their payment through the tool, and 1.6 million people have provided the IRS with their direct-deposit information.</p><p>The IRS’s tools don’t perform every function taxpayers may want them to. For example, the Get My Payment tool does not allow people to change bank account information that is already on file with the IRS. A Frequently Asked Questions document from the agency said that if a person’s bank account has been closed since he or she filed a tax return, the bank will reject the deposit and the IRS will mail the taxpayer a check.</p><p>There have also been news reports of taxpayers expressing concerns about their payment amount, such as parents who said they got payments that did not reflect the fact that they have children or people who received payments for their deceased spouses. A Treasury spokeswoman said the department is aware of the issues and are looking into them.</p><p>Beyond hiccups with the IRS’s online applications and concerns about the potential for other glitches, tax-policy experts said that a key challenge will be for the IRS to get payments to all non-filers who are eligible. Non-filers typically have low income, and tax experts said that many of these people may not have reliable internet access that they can use to learn about the rebates and provide the IRS with any necessary information.</p><div id="dfp-ad-incontent_desk_3-wrapper" class="dfp-tag-wrapper wrapper"><div id="dfp-ad-incontent_desk_3" class="dfp-tag-wrapper"><span>ADVERTISEMENT</span><script type="text/javascript">googletag.cmd.push(function() {googletag.display("dfp-ad-incontent_desk_3");});</script></div></div><p>The IRS on Wednesday announced that recipients of Supplemental Security Income (SSI) — a program that provides benefits to elderly, blind and disabled people with little to no income — will automatically get $1,200 payments without having to file tax returns. The agency previously announced that recipients of Social Security and railroad retirement benefits will also automatically get payments. </p><p>Lawmakers and tax professionals also want the IRS to automatically issue rebates to non-filers who receive benefits from the Department of Veterans Affairs. If non-filers aren’t able to receive the payments automatically, they will have to use the IRS’s non-filers web tool to get their rebate.</p><p>Janet Holtzblatt, a senior fellow at the Urban-Brookings Tax Policy Center, said that non-filers who aren’t in regular contact with federal or state agencies could be particularly challenging to reach and educate about the payments.</p><p>“They’re going to be a tough group to contact,” she said.</p><p>Groups that work with low-income and older Americans say they have been working to educate people and determine how best to reach out to them.</p><p>“We’re constantly trying to update and refresh the information we share, not just with our members but anyone who visits our website,” said Cristina Martin Firvida, vice president of government affairs at the AARP.</p></div></div></div>              <div class="article-tags">
-          <span>Tags</span> <a href="/organization/irs" title="IRS">IRS</a> <a href="/organization/treasury-department" title="Treasury Department">Treasury Department</a> <a href="/person/steven-mnuchin" title="Steven Mnuchin">Steven Mnuchin</a> <a href="/person/donald-trump" title="Donald Trump">Donald Trump</a> <a href="/social-tags/coronavirus" title="Coronavirus">Coronavirus</a> <a href="/social-tags/stimulus-checks" title="stimulus checks">stimulus checks</a>        </div>
-            <div id="bottom-story-socials" class="blogs-social-wrp">
-        <div class="addthis_inline_share_toolbox_ru82"></div>
-<div class="share-additional">
-  <div class="share-linkedin">
-    <script>
-      ;(function(){
-        var linkedinScriptEl = document.querySelector('script[src="//platform.linkedin.com/in.js"]');
-        if (linkedinScriptEl == null) {
-          var shareLinkedinEl = document.querySelector('.share-linkedin');
-          var scriptEl = document.createElement('script');
-          scriptEl.src = "//platform.linkedin.com/in.js";
-          scriptEl.async = true;
-          scriptEl.innerHTML = " lang: en_US";
-          shareLinkedinEl.appendChild(scriptEl);
-        }
-      })();
-    </script>
-    <script type="IN/Share"></script>
-  </div>
-</div>
-<div class="share">
-  <a href="mailto:?subject=TheHill.com%3A%20Millions%20wait%20for%20virus%20relief%20checks%20in%20major%20test%20for%20IRS&amp;body=From%20TheHill.com%3A%20%0A%0AThe%20IRS%20has%20started%20to%20issue%20coronavirus%20rebates%20to%20tens%20of%20millions%20of%20people%2C%20but%20faces%20challen...%0A%0Ahttps%3A//thehill.com/policy/finance/493268-millions-wait-for-virus-relief-checks-in-major-test-for-irs" class="email">&nbsp</a>  </div>
-      </div>
-    </div>
-  </div>
-    </article>
-            <div class="region region-content-bottom">
-    <div id="block-disqus-disqus-comments-493268" class="block block-disqus first odd">
-
-      
-  <div id="disqus_thread"><noscript><p><a href="http://thehill-v4.disqus.com/?url=https%3A%2F%2Fthehill.com%2Fpolicy%2Ffinance%2F493268-millions-wait-for-virus-relief-checks-in-major-test-for-irs">View the discussion thread.</a></p></noscript></div>
-</div>
-<div id="block-block-51" class="block block-block first last odd">
-
-      
-  <!-- Outbrain Desktop Footer -->
-<div class="OUTBRAIN" data-src="https://thehill.com/policy/finance/493268-millions-wait-for-virus-relief-checks-in-major-test-for-irs" data-widget-id="AR_1" data-ob-template="The Hill"></div> 
-</div>
-  </div>
-        </div>
-                  <aside class="sidebars">
-                          <section class="region region-sidebar-second column sidebar">
-    <div id="block-dfp-rightrail-top" class="block block-dfp first odd">
-
-      
-  <div id="dfp-ad-rightrail_top-wrapper" class="dfp-tag-wrapper"><!-- dfp_tag.tpl.php -->
-<a href="#" class="hide_overlay"></a>
-<div  id="dfp-ad-rightrail_top" class="dfp-inner">
-  <script type="text/javascript">
-    googletag.cmd.push(function() {
-      googletag.display("dfp-ad-rightrail_top");
-    });
-  </script>
-</div>
-
-</div>
-</div>
-<div id="block-mostpopular-1" class="block block-mostpopular even">
-
-        <h2 class="block__title block-title">Most Popular</h2>
-    
-  <div id="block-mostpopular-1-ajax-content" class="ajaxblocks-wrapper"></div>
-</div>
-<div id="block-dfp-rightrail-bottom" class="block block-dfp odd">
-
-      
-  <div id="dfp-ad-rightrail_bottom-wrapper" class="dfp-tag-wrapper"><!-- dfp_tag.tpl.php -->
-<a href="#" class="hide_overlay"></a>
-<div  id="dfp-ad-rightrail_bottom" class="dfp-inner">
-  <script type="text/javascript">
-    googletag.cmd.push(function() {
-      googletag.display("dfp-ad-rightrail_bottom");
-    });
-  </script>
-</div>
-
-</div>
-</div>
-<div id="block-views-hill-tv-block-video-widget" class="block block-views even">
-
-        <h2 class="block__title block-title">Video</h2>
-    
-    <div class="view view-hill-tv view-id-hill_tv view-display-id-block_video_widget hill-tv-video-widget view-dom-id-f2b50ad26a463c065dfd1916d3c42a3c">
-                            <div class="view-content">
-        <div class="views-row views-row-1 views-row-odd views-row-first">
-      
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/hilltv/rising/493358-daily-beast-political-reporter-hanna-trudo-shares-her-insight-on-bidens"><img typeof="foaf:Image" src="https://thehill.com/sites/default/files/styles/leading_video/public/bidenjoe_022920gn24_lead.jpg?itok=WdXZePZS" width="306" height="171" /></a></div>  </div>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/hilltv/rising/493358-daily-beast-political-reporter-hanna-trudo-shares-her-insight-on-bidens">Daily Beast political reporter Hanna Trudo shares insights on Biden veepstakes</a></span>  </div>  
-  <div class="views-field views-field-field-article-categories">        <div class="field-content">Rising</div>  </div>  
-  <div class="views-field views-field-field-vertical-article-category">        <div class="field-content"></div>  </div>  </div>
-  <div class="views-row views-row-2 views-row-even">
-      
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/changing-america/well-being/mental-health/486582-out-of-many-some-americans-are-now-desperately"><img typeof="foaf:Image" src="https://thehill.com/sites/default/files/styles/leading_video/public/ca_kristof_wudunn_tightrope.jpg?itok=imgzunVm" width="306" height="171" /></a></div>  </div>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/changing-america/well-being/mental-health/486582-out-of-many-some-americans-are-now-desperately">Americans are now desperately &#039;reaching for hope&#039;</a></span>  </div>  
-  <div class="views-field views-field-field-article-categories">        <div class="field-content"></div>  </div>  
-  <div class="views-field views-field-field-vertical-article-category">        <div class="field-content">Changing America</div>  </div>  </div>
-  <div class="views-row views-row-3 views-row-odd views-row-last">
-      
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/hilltv/rising/493365-social-capital-founder-says-coronavirus-relief-should-focus-on-workers-not-corporations"><img typeof="foaf:Image" src="https://thehill.com/sites/default/files/styles/leading_video/public/palihapitiyachamath_04172020_0.jpg?itok=98iKkeEX" width="306" height="171" /></a></div>  </div>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/hilltv/rising/493365-social-capital-founder-says-coronavirus-relief-should-focus-on-workers-not-corporations">Social Capital founder says coronavirus relief should focus on workers, not corporations</a></span>  </div>  
-  <div class="views-field views-field-field-article-categories">        <div class="field-content">Rising</div>  </div>  
-  <div class="views-field views-field-field-vertical-article-category">        <div class="field-content"></div>  </div>  </div>
-    </div>
-                  </div>
-
-</div>
-<div id="block-block-3" class="block block-block last odd">
-
-        <h2 class="block__title block-title">More From The Web</h2>
-    
-  <div class="newsmax-fark-block-target" height="0" width="0"></div>
-
-<script>
-var block="";
-var tgt_item = jQuery('.node.view-mode-full').length - 1;
-var isHero = jQuery('.hero-image').length;
-tgt_item = tgt_item < 0 ? 0 : tgt_item; 
-var tgt = jQuery(".newsmax-fark-block-target")[tgt_item];  
-var rnd = Math.floor(Math.random(100) * 100);
-var query_param = window.location.search; 
-var fark_override = false;
-if(query_param.length > 0 && query_param.indexOf("fark_override") >= 0) {
-	fark_override = true;
-}
-if(!isHero) { 
-if(rnd >= 30 && !fark_override) { 
-    block += "<p style=\"font-family:Arial;color:#666666;font-size:11px;text-align:right;margin-bottom:-24px;padding-top:10px\">Sponsored<\/p>";
-    block += "<div style=\"margin:20px 0;\">";
-    block += "<div id=\"yp6_inject_bn75TWX4O573bji1xoe95X\"><\/div>";
-    block += "<\/div>";
-    block += "<!-- End NewsMax -->";
-    jQuery(block).insertBefore(tgt);
-    jQuery.ajaxSetup({cache: true});
-    jQuery.getScript("https://static.newsmaxfeednetwork.com/web-clients/bootloaders/bn75TWX4O573bji1xoe95X/bootloader.js");
-} else {
-block += "<!-- Composite Start -->";
-block += "<p style=\"font-family:Arial;color:#666666;font-size:11px;text-align:right;margin-bottom:-10px;\">Sponsored<\/p>";
-block += "<div id=\"unit_93728\"><a href=\"https://mixi.media/\" rel=\"nofollow\"></a></div>";
-block += "<script type=\"text/javascript\" charset=\"utf-8\">";
-block += "(function() {";
-block +=    "var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true;";
-block +=    "sc.src = '//mixi.media/data/js/93728.js'; sc.charset = 'utf-8';";
-block +=    "var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);";
-block += " }());";
-block += "<\/script>";
-block += "<!-- Composite End -->";
-//jQuery(block).insertBefore(tgt);
-};
-};
-</script>
-
-
-</div>
-  </section>
-          </aside>
-              </div>          </div> <!-- cs-end -->
-  </div>
-            <div class="page-bottom">
-      <div class="region region-footer-bottom">
-    <div id="block-thehill-blocks-footer-signup" class="block block-thehill-blocks first last odd">
-
-      
-  <div class="simple-signup-form">
-  <div class="text">Don't miss a brief. <span>Sign up for our daily email.</span></div>
-  <form action="/policy/finance/493268-millions-wait-for-virus-relief-checks-in-major-test-for-irs" method="post" id="thehill-blocks-signup-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-email">
-  <label for="edit-email">Your Email </label>
- <input placeholder="" type="text" id="edit-email" name="email" value="" size="60" maxlength="128" class="form-text" />
-</div>
-<div class="form-item form-type-textfield form-item-list">
- <input class="hidden form-text" type="text" id="edit-list" name="list" value="" size="60" maxlength="128" />
-</div>
-<input type="submit" id="edit-submit--2" name="op" value="Submit" class="form-submit" /><input type="hidden" name="form_build_id" value="form-qcNUVg2PP09_9IZrVONm5B6oAgZhP6MvL96v62vRxeE" />
-<input type="hidden" name="form_id" value="thehill_blocks_signup_form" />
-</div></form></div>
-
-
-</div>
-  </div>
-    <a href="/" title="TheHill" rel="home" alt="TheHill.com">
-      <img class="logo" alt="TheHill.com" src="/sites/all/themes/thehill/images/redesign/thehill-logo-footer.png" />
-    </a>
-      <div class="region region-bottom-column1">
-    <div id="block-menu-menu-home" class="block block-menu first odd" role="navigation">
-
-        <h2 class="block__title block-title">News</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/homenews/senate" class="menu__link menu__link">Senate</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/homenews/house" class="menu__link menu__link">House</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/homenews/campaign" class="menu__link menu__link">Campaign</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/homenews/administration" class="menu__link menu__link">Administration</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/regulation" class="menu__link menu__link">Regulation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/homenews/media" class="menu__link menu__link">Media</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/blogs/blog-briefing-room" class="menu__link menu__link">Briefing Room</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/latino" class="menu__link menu__link">Latino</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/homenews/1230-report" class="menu__link menu__link">12:30 Report</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/homenews/coronavirus-report" class="menu__link menu__link">Coronavirus Report</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/blogs/floor-action" class="menu__link menu__link">Floor Action</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/blogs/in-the-know" class="menu__link menu__link">In The Know</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/homenews/sunday-talk-shows" class="menu__link menu__link">Sunday Talk Shows</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/" class="menu__link menu__link">More</a></li>
-</ul>
-</div>
-<div id="block-menu-menu-policy-menu" class="block block-menu even" role="navigation">
-
-        <h2 class="block__title block-title">Policy</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/policy/defense" class="menu__link menu__link">Defense</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/energy-environment" class="menu__link menu__link">Energy &amp; Environment</a></li>
-<li class="menu__item is-active-trail is-leaf menu__item is-active-trail is-leaf leaf active-trail depth-1"><a href="/policy/finance" class="menu__link is-active-trail menu__link is-active-trail active-trail">Finance</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/healthcare" class="menu__link menu__link">Healthcare</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/technology" class="menu__link menu__link">Technology</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/international" class="menu__link menu__link">International</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/transportation" class="menu__link menu__link">Transportation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/cybersecurity" class="menu__link menu__link">Cybersecurity</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/national-security" class="menu__link menu__link">National Security</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/policy" class="menu__link menu__link">More</a></li>
-</ul>
-</div>
-<div id="block-menu-menu-video" class="block block-menu odd" role="navigation">
-
-        <h2 class="block__title block-title">Video</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/video/hilltube" class="menu__link menu__link">Latest</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/defense" class="menu__link menu__link">Defense</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/energy-environment" class="menu__link menu__link">Energy &amp; Environment</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/finance" class="menu__link menu__link">Finance</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/healthcare" class="menu__link menu__link">Healthcare</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/technology" class="menu__link menu__link">Technology</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/transportation" class="menu__link menu__link">Transportation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/international" class="menu__link menu__link">International</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/cybersecurity" class="menu__link menu__link">Cybersecurity</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/national-security" class="menu__link menu__link">National Security</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/sunday-shows" class="menu__link menu__link">Sunday Shows</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/events" class="menu__link menu__link">Events</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/hill-tube" class="menu__link menu__link">More</a></li>
-</ul>
-</div>
-<div id="block-menu-menu-opinion" class="block block-menu last even" role="navigation">
-
-        <h2 class="block__title block-title">Opinion</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/opinion/columnists/brent-budowsky" class="menu__link menu__link">Brent Budowsky</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/columnists" class="menu__link menu__link">Columnists</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/blogs/congress-blog" class="menu__link menu__link">Congress Blog</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/blogs/pundits-blog" class="menu__link menu__link">Contributors</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/opinion" class="menu__link menu__link">More</a></li>
-</ul>
-</div>
-  </div>
-      <div class="region region-bottom-column2">
-    <div id="block-menu-menu-anchor-menu" class="block block-menu first odd" role="navigation">
-
-        <h2 class="block__title block-title">TheHill.com</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/privacy-policy" class="menu__link menu__link">Privacy Policy</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/terms-and-conditions" class="menu__link menu__link">Terms &amp; Conditions</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/contact" class="menu__link menu__link">Contact</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/contact/subscriptions" class="menu__link menu__link">Subscriptions</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/contact/advertise" class="menu__link menu__link">Advertise</a></li>
-</ul>
-</div>
-<div id="block-menu-menu-resources" class="block block-menu even" role="navigation">
-
-        <h2 class="block__title block-title">Resources</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/hill-apps" class="menu__link menu__link">The Hill Apps</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/people/" class="menu__link menu__link">People</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/resources/rss-feeds" class="menu__link menu__link">RSS</a></li>
-</ul>
-</div>
-<div id="block-menu-menu-menu-contributors" class="block block-menu odd" role="navigation">
-
-        <h2 class="block__title block-title">Contributors</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first last leaf depth-1"><a href="/contributor-application-form" class="menu__link menu__link">Become a Contributor</a></li>
-</ul>
-</div>
-<div id="block-menu-menu-contact-us" class="block block-menu last even" role="navigation">
-
-        <h2 class="block__title block-title">Other Areas</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/special-reports/special-reports" class="menu__link menu__link">Special Reports</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/galleries" class="menu__link menu__link">Galleries</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/classifieds" class="menu__link menu__link">Classifieds</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/resources/classifieds/employer" class="menu__link menu__link">Jobs</a></li>
-</ul>
-</div>
-  </div>
-    <div class="clearer"></div>
-    <div class="copyright-wrp">
-        <div class="region region-copyright">
-    <div id="block-thehill-blocks-copyright" class="block block-thehill-blocks first odd">
-
-      
-  <p>The Hill 1625 K Street, NW Suite 900 Washington DC 20006 | 202-628-8500 tel | 202-628-8503 fax</p><p>The contents of this site are &copy;2020 Capitol Hill Publishing Corp., a subsidiary of News Communications, Inc.</p>
-</div>
-<div id="block-dfp-new-1x1-asynch" class="block block-dfp even">
-
-      
-  <div id="dfp-ad-new_1x1_asynch-wrapper" class="dfp-tag-wrapper"><!-- dfp_tag.tpl.php -->
-<a href="#" class="hide_overlay"></a>
-<div  id="dfp-ad-new_1x1_asynch" class="dfp-inner">
-  <script type="text/javascript">
-    googletag.cmd.push(function() {
-      googletag.display("dfp-ad-new_1x1_asynch");
-    });
-  </script>
-</div>
-
-</div>
-</div>
-<div id="block-dfp-1x1-oop" class="block block-dfp odd">
-
-      
-  <div id="dfp-ad-1x1_oop-wrapper" class="dfp-tag-wrapper"><!-- dfp_tag.tpl.php -->
-<a href="#" class="hide_overlay"></a>
-<div  id="dfp-ad-1x1_oop" class="dfp-inner">
-  <script type="text/javascript">
-    googletag.cmd.push(function() {
-      googletag.display("dfp-ad-1x1_oop");
-    });
-  </script>
-</div>
-  <div id="dfp-ad-1x1_oop-oop" class="dfp-tag-wrapper">
-    <script type="text/javascript">
-      googletag.cmd.push(function() {
-        googletag.display("dfp-ad-1x1_oop-oop");
-      });
-    </script>
-  </div>
-
-</div>
-</div>
-<div id="block-block-70" class="block block-block last even">
-
-      
-  <style>
- #do-not-sell-button {
-padding-top: 15px;margin-left: 0px; width: 100%;padding-bottom: 15px;
-}
-@media only screen and (min-width:768px) {
- #do-not-sell-button {
-margin-left: -150px;
-}	
-}
-</style>
-<div id="do-not-sell-button"></div>
-    
-   
-</div>
-  </div>
-    </div>
-  </div>
-</div>
-    <div class="region region-page-bottom">
-    <script type="text/javascript">
-  var _sf_async_config=Drupal.settings.chartbeat;
-  _sf_async_config.sections = "Policy, Policy - Finance";
-  _sf_async_config.authors = "Naomi Jagoda";
-  _sf_async_config._demo = "publish_date=2020-04-17,editor=Meghashyam Mali";
-  (function(){
-    function loadChartbeat() {
-      window._sf_endpt=(new Date()).getTime();
-      var e = document.createElement('script');
-      e.setAttribute('language', 'javascript');
-      e.setAttribute('type', 'text/javascript');
-      e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
-      document.body.appendChild(e);
-    }
-    var oldonload = document.ready;
-    document.ready = (typeof document.ready != 'function') ?
-       loadChartbeat : function() { oldonload(); loadChartbeat(); };
-  })();
-</script><!-- Begin comScore Tag -->
-          <script>
-            var _comscore = _comscore || [];
-            _comscore.push({"c1":"2","c2":"10314615","c3":"","c4":"https:\/\/thehill.com\/policy\/finance\/493268-millions-wait-for-virus-relief-checks-in-major-test-for-irs","c5":"","c6":"","c15":""});
-            (function() {
-              var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-              s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-              el.parentNode.insertBefore(s, el);
-            })();
-          </script>
-          <noscript>
-            <img src="https://sb.scorecardresearch.com/p?c1=2&c2=10314615&c3=&c4=https%3A//thehill.com/policy/finance/493268-millions-wait-for-virus-relief-checks-in-major-test-for-irs&c5=&c6=&c15=&cv=2.0&cj=1" />
-          </noscript>
-      <!-- End comScore Tag --><script type="text/javascript" async="async" src="//widgets.outbrain.com/outbrain.js"></script><!--START Lightbox Javascript-->
-<script type="text/javascript">
-    /*<![CDATA[*/ window.lightboxjs || function (c) { function g(b, d) { d && (d += (/\?/.test(d) ? "&" : "?") + "lv=1"); c[b] || function () { var i = window, h = document, j = b, g = h.location.protocol, l = "load", k = 0; (function () { function b() { a.P(l); a.w = 1; c[j]("_load") } c[j] = function () { function m() { m.id = e; return c[j].apply(m, arguments) } var b, e = ++k; b = this && this != i ? this.id || 0 : 0; (a.s = a.s || []).push([e, b, arguments]); m.then = function (b, c, h) { var d = a.fh[e] = a.fh[e] || [], j = a.eh[e] = a.eh[e] || [], f = a.ph[e] = a.ph[e] || []; b && d.push(b); c && j.push(c); h && f.push(h); return m }; return m }; var a = c[j]._ = {}; a.fh = {}; a.eh = {}; a.ph = {}; a.l = d ? d.replace(/^\/\//, (g == "https:" ? g : "http:") + "//") : d; a.p = { 0: +new Date }; a.P = function (b) { a.p[b] = new Date - a.p[0] }; a.w && b(); i.addEventListener ? i.addEventListener(l, b, !1) : i.attachEvent("on" + l, b); var q = function () { function b() { return ["<head></head><", c, ' onload="var d=', n, ";d.getElementsByTagName('head')[0].", d, "(d.", g, "('script')).", i, "='", a.l, "'\"></", c, ">"].join("") } var c = "body", e = h[c]; if (!e) return setTimeout(q, 100); a.P(1); var d = "appendChild", g = "createElement",
-    i = "src", k = h[g]("div"), l = k[d](h[g]("div")), f = h[g]("iframe"), n = "document", p; k.style.display = "none"; e.insertBefore(k, e.firstChild).id = o + "-" + j; f.frameBorder = "0"; f.id = o + "-frame-" + j; /MSIE[ ]+6/.test(navigator.userAgent) && (f[i] = "javascript:false"); f.allowTransparency = "true"; l[d](f); try { f.contentWindow[n].open() } catch (s) { a.domain = h.domain, p = "javascript:var d=" + n + ".open();d.domain='" + h.domain + "';", f[i] = p + "void(0);" } try { var r = f.contentWindow[n]; r.write(b()); r.close() } catch (t) { f[i] = p + 'd.write("' + b().replace(/"/g, String.fromCharCode(92) + '"') + '");d.close();' } a.P(2) }; a.l && q() })() }(); c[b].lv = "1"; return c[b] } var o = "lightboxjs", k = window[o] = g(o); k.require = g; k.modules = c }({}); /*]]>*/</script><script type="text/javascript">window.lightboxlib = lightboxjs.require("lightboxlib", "//www.lightboxcdn.com/vendor/ee48a214-dcd9-4d76-af7b-dd194f9094db/lightbox.js?mb=" + (new Date().getTime()));</script>
-<!--END Lightbox Javascript-->
-
-<script>
-if(typeof(ga) !== 'undefined') {
-  jQuery('.hill-tv').on('click', function(e) {
-    ga('send', 'event', 'HillTVTopNav', 'click', e.currentTarget.pathname);
-  });
-
-  jQuery('#main-menu img').on('click', function(e) {
-    ga('send', 'event', 'HillTVTopNavShowImg', 'click', e.currentTarget.currentSrc);
-  });
-jQuery('document').ready(function() {
-    jQuery('#block-mostpopular-1').on('click', '#thehill-mostpopular-block li a', function(e) {
-      var meta = 'index-';
-      try {
-        meta = meta + e.currentTarget.parentElement.parentElement.previousElementSibling.innerHTML;
-      } catch(error) {
-        console.log(error);
-      }
-      ga('send', 'event', 'MostPopularItem', 'click', meta);
-    });
-    if(jQuery('#block-views-articles-articles-just-in').length) {
-        jQuery('#block-views-articles-articles-just-in').on('click', '#block-views-articles-articles-just-in li', function(e) { 
-            var justInMeta = 'index-';
-            try {
-                var regex = /\d+/g;
-                var matches = e.currentTarget.className.match(regex); 
-                justInMeta = justInMeta + matches[0];
-            } catch(e) {
-                console.log(e);
-            }
-            ga('send', 'event', 'JustInItemClick', 'click', justInMeta);
-        });
-    }
-  });
-
-  if(typeof(pbjs) !== "undefined" && typeof(pbjs.version) === "undefined") {
-    ga('send', 'event', 'Ad Setting', 'Adblock', 'Enabled');
-  }
-}
-</script>
-
-<script>
-if(typeof(ga) !== 'undefined') {
-  jQuery('.hill-tv-video-widget a').on('click', function(e) {
-    ga('send', 'event', 'HillTVVideoWidget', 'click', e.currentTarget.pathname);
-  });
-}
-setTimeout(function() {
-	 ga('send', 'event', 'AutoRefresh', 'refreshed', document.URL);
-}, 2640000);
-</script><iframe width="0" height="0" name="New Partners Tracking - Finance" frameborder="0" scrolling="no" src="//insight.adsrvr.org/tags/k81srqd/88h7qz2s/iframe"></iframe>  </div>
-<script>
-    var param = (new URL(window.location)).searchParams;
-    var uid = param.get("userid");
-    uid = uid === null ? "" : uid;
-
-    var dataLayer = {
-      "page": {
-        "author": "Naomi Jagoda",
-        "section": "Policy, Policy - Finance",
-        "keywords": "Coronavirus, stimulus checks, IRS,Steven Mnuchin, Donald Trump,IRS, Treasury Department"
-      },
-      "user": {
-        "userid" : uid
-      }
-    };
-</script>
-<script>  var disqus_shortname = 'thehill-v4';
-  (function () {
-      var s = document.createElement('script'); s.async = true;
-      s.type = 'text/javascript';
-      s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-  }());</script>
-<script>    (function() {
-        var initVars = {"nid":"493268","video_id":"84Opcske","playlist_id":null,"sticky_enabled":1,"hilltv_sticky_enabled":1,"moat_id":"thehilljwint238875905177","comscore_id":"10314615","share_url":"https:\/\/thehill.com\/policy\/finance\/493268-millions-wait-for-virus-relief-checks-in-major-test-for-irs","midroll_tag":"https:\/\/pubads.g.doubleclick.net\/gampad\/live\/ads?sz=640x360\u0026iu=\/1107919\/Hill_TV_640x360_comp_midroll\u0026ciu_szs=300x250\u0026impl=s\u0026gdfp_req=1\u0026env=vp\u0026output=vast\u0026unviewed_position_start=1\u0026url=[referrer_url]\u0026description_url=__page-url__\u0026correlator=[timestamp]\u0026cust_params=Ad_breaks%3D__item-tags__","bid_timout":"1500"};
-        if (typeof(pbjs.version) === "undefined" || typeof(videoAdUnit) !== "object") {
-          initializePlayerInstance(initVars);
-        } else {
-          if(pbjs.adserverRequestSent) {
-            initializePlayerInstance(initVars);
-          } else {
-            setTimeout(function(){
-              initializePlayerInstance(initVars);
-            }, 500);
-          }
-        }
-    })();</script>
-<script>    (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=566538590082898&version=v2.9";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-  <div id="fb-root"></div>
-  <script src="//platform.twitter.com/widgets.js"></script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"962df17ac8","applicationID":"409941798","transactionName":"YwRXYBQFWhEEUUYNV1pOdFcSDVsMSlxdAF1rEVRTAztCCwBF","queueTime":0,"applicationTime":670,"atts":"T0NUFlwfSR8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+<noscript>
+<img alt="" src="https://pixel.quantserve.com/pixel/p-dcxh5b8qxvs6g.gif">
+<img alt="" src="https://www.facebook.com/tr?id=296280873867140&amp;ev=PageView&amp;noscript=1">
+<img alt="" src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=17674108&amp;cv=2.0&amp;cj=1">
+<img alt="" src="https://certify.alexametrics.com/atrk.gif?account=l2Y7o1IW1810vg">
+</noscript>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" async></script>
+<script>var GMX_POLLS={"13005947":{"t":"Have Democrats&#8217; political games endangered Americans?","b":"\/2020\/03\/Pelosi-312-Thumbnail-420x315.jpg"},"13005522":{"t":"Are Pelosi &#038; Schumer politically exploiting the coronavirus crisis?","b":"\/2019\/10\/Pelosi-Schumer-420x315.jpg"},"13005602":{"t":"Has the Establishment Media covered the coronavirus responsibly?","b":"\/2017\/09\/jake-tapper-420x315.jpg"},"13005867":{"t":"Do you support Trump&#8217;s handling of the coronavirus crisis?","b":"\/2020\/03\/AP_20084809176834-420x315.jpg"},"13005912":{"t":"Should China be held responsible for its coronavirus coverup?","b":"\/2020\/03\/AP_20070377919994-420x315.png"}};!function e(t,n,o,r,c,a){"use strict";t&&console.error("EXEC z()"),e.C=function(){"number"==typeof e.I&&(n.clearInterval(e.I),e.I=null)},e.J=function(e){t&&console.error('z.J( "%s" )',e);var n=o.createElement("script");n.async=!0,n.src=e,n.onload=function(){n.onload=null,n&&n.parentNode&&n.parentNode.removeChild(n)},o.body.appendChild(n)},e.F=function(){return"$"in n&&"function"==typeof n.$&&"function"==typeof n.$.ajax?(e.C(),["//cdn.jsdelivr.net/npm/store-js@2.0.4/dist/store.legacy.min.js","/t/style-0"+BB_G.lock+".js"].forEach(e.J)):r>4?(c=[r=0],e.ra?e.C():(e.ra=a=10,["//cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js","//code.jquery.com/ui/1.12.1/jquery-ui.min.js"].forEach(e.J))):void(++c[r]>4&&(e.C(),c[++r]=0,e.I=n.setInterval(e.F,a+=50)))},e.I=n.setInterval(e.F,20),"www.breitbart.com"===n.location.host&&(setTimeout((function(){n._atrk_opts={atrk_acct:"l2Y7o1IW1810vg",domain:"breitbart.com",dynamic:!0},e.J("//certify-js.alexametrics.com/atrk.js")}),250),ISC_IS.t_50&&setTimeout((function(){var e=document.createElement("script");e.src="//breitbart-com.videoplayerhub.com/galleryplayer.js",document.head.appendChild(e)}),500))}(BB_G.D,window,document,0,[0],10);</script>		<script class="F-ci_tp H" type="text/ci-form" hidden><figure id="cin_poll" class="F-ci-w H"><div id="cinpollinner" class="H"><div class="bbpoll"></div><p class="sh3"><span>ALMOST THERE!</span><br>To officially cast your vote in the Breitbart Poll, provide your email address below.</p><form id="F-cin_poll" data-ci='{"l":"BNN Daily Roundup AM:BNN Daily Roundup PM:BNN Sponsored Emails","e":"EMAIL","b":"SUBMIT","p":"poll"}'></form></div></figure></script>
+		</body>
 </html>

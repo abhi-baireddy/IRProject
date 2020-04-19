@@ -1,0 +1,2398 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="icon" href="https://www.ozy.com/wp-content/themes/ozy-2019/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="https://www.ozy.com/wp-content/themes/ozy-2019/favicon.ico" type="image/x-icon" />
+
+	<!-- This js function is used by Monster insight plugin to push data for InAppBrowserAgent dimension-->
+	<script>
+		function jsInappbrowseragent() {
+		var ua = navigator.userAgent || navigator.vendor || window.opera;
+		var InAppBrowserAgent = (ua.indexOf('FBAN') > -1) || (ua.indexOf('FBAV') > -1) ? 'Facebook' : 'None';
+		return InAppBrowserAgent;
+		}
+	</script>
+    <style>
+        .qc-cmp-button.qc-cmp-secondary-button {
+          border-color: #eee !important;
+          background-color: #eee !important;
+        }
+        .qc-cmp-vendor-info-list {
+            padding: 0 0 0 20px !important;
+            font-size: 14px;
+        }
+        .qc-cmp-close-icon:hover, .qc-cmp-close-icon:focus {
+            background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M.5.5l23 23m0-23l-23 23' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10'/%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3C/svg%3E") 50% no-repeat;
+        }
+        .qc-cmp-scrolling-section ol li,
+        .qc-cmp-scrolling-section ul li {
+            margin: 0px;
+        }
+        .qc-cmp-purpose-info p {
+            font-size: 20px;
+        }
+        @media screen and (min-width: 1024px) {
+            .qc-cmp-ui-container {
+                background-color: none !important;
+            }
+            .qc-cmp-button {
+                min-width: 210px !important;
+            }
+            .qc-cmp-ui {
+                max-height: 50vh !important;
+            }
+            .qc-cmp-ui-container .qc-cmp-ui {
+                min-height: 120px !important;
+            }
+            .qc-cmp-ui-content {
+                padding: 10px 10px 0px 10px !important;
+            }
+            .qc-cmp-consent-content > .qc-cmp-scrolling-section {
+                min-height: 100px !important;
+                height: calc(100vh - 800px);
+                overflow-x: hidden;
+            }
+            .qc-cmp-consent-content {
+                padding: 10px 10px 0 !important;
+            }
+            .qc-cmp-messaging, .qc-cmp-save-and-exit {
+                margin-bottom: 5px !important;
+            }
+            .qc-cmp-back {
+                left: 235px !important;
+                top: 10px !important;
+            }
+            .qc-cmp-close-icon {
+                top: 0px !important;
+            }
+            .qc-cmp-qc-link-container {
+                padding: 0 110px 0px 0 !important;
+            }
+            .qc-cmp-link-text {
+                font-size: 10px !important;
+            }
+            .qc-cmp-publisher-logo {
+                width: 70px !important;
+                margin: 0px !important;
+            }
+            .qc-cmp-sub-title{
+                font-size: 20px !important;
+                margin: 0 !important;
+                line-height: 22px !important;
+            }
+            .qc-cmp-title, .qc-cmp-alt-buttons {
+                display: none;
+            }
+            .qc-cmp-buttons, #qcCmpButtons {
+                display: block !important;
+                padding-left: 5px !important;
+            }
+            .qc-cmp-buttons .qc-cmp-button,
+            .qc-cmp-button.qc-cmp-save-and-exit {
+                height: 30px !important;
+                line-height: 25px !important;
+                margin: 0 0 5px !important;
+                padding: 0px !important;
+            }
+            .qc-cmp-link-text {
+                margin: 0px !important;
+            }
+            .qc-cmp-close-icon, .qc-cmp-close-icon-first-view {
+                display: none;
+            }
+            .qc-cmp-horizontal-buttons .qc-cmp-button-small {
+                height: 26px !important;
+                line-height: 24px;
+            }
+            .qc-cmp-purpose-description, .qc-cmp-bold-messaging {
+                margin: 0px !important;
+            }
+            .qc-cmp-table-header {
+                background-color: #368bd6 !important;
+            }
+        }
+    </style>
+	<title>Presidential Daily Brief for February 26, 2019 | OZY</title>
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v12.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://www.ozy.com/presidential-daily-brief/pdb-92875/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Presidential Daily Brief for February 26, 2019 | OZY" />
+<meta property="og:url" content="http://www.ozy.com/presidential-daily-brief/pdb-92875" />
+<meta property="og:site_name" content="OZY" />
+<meta property="article:publisher" content="https://www.facebook.com/OZY/" />
+<meta property="article:section" content="The Presidential Daily Brief" />
+<meta property="og:image" content="https://assets.ozy.com/ozy-prod/2019/10/OZY_688x307.jpg?w=1200&#038;h=630" />
+<meta property="og:image:secure_url" content="https://assets.ozy.com/ozy-prod/2019/10/OZY_688x307.jpg?w=1200&#038;h=630" />
+<meta property="og:image:width" content="688" />
+<meta property="og:image:height" content="307" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Presidential Daily Brief for February 26, 2019 | OZY" />
+<meta name="twitter:site" content="@ozy" />
+<meta name="twitter:image" content="https://assets.ozy.com/ozy-prod/2019/07/GettyImages-1127441470.jpg?width=1024&#038;height=683&#038;fit=cover" />
+<meta name="twitter:creator" content="@ozy" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.ozy.com/#organization","name":"OZY","url":"https://www.ozy.com/","sameAs":["https://www.facebook.com/OZY/","https://instagram.com/ozy","https://www.linkedin.com/company/ozy","https://youtube.com/OZY","https://en.wikipedia.org/wiki/Ozy_(magazine)","https://twitter.com/ozy"],"logo":{"@type":"ImageObject","@id":"https://www.ozy.com/#logo","url":"https://assets.ozy.com/ozy-prod/2019/11/OZYlogo-BlackOnWhite-1.png?width=3917&height=1515&fit=cover","width":3917,"height":1515,"caption":"OZY"},"image":{"@id":"https://www.ozy.com/#logo"}},{"@type":"WebSite","@id":"https://www.ozy.com/#website","url":"https://www.ozy.com/","name":"OZY","publisher":{"@id":"https://www.ozy.com/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://www.ozy.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://www.ozy.com/presidential-daily-brief/pdb-92875/#primaryimage","url":"https://assets.ozy.com/ozy-prod/2019/07/GettyImages-1127441470.jpg?width=5542&height=3695&fit=cover","width":5542,"height":3695,"caption":"getty images 1127441470"},{"@type":"WebPage","@id":"https://www.ozy.com/presidential-daily-brief/pdb-92875/#webpage","url":"https://www.ozy.com/presidential-daily-brief/pdb-92875/","inLanguage":"en-US","name":"Presidential Daily Brief for February 26, 2019 | OZY","isPartOf":{"@id":"https://www.ozy.com/#website"},"primaryImageOfPage":{"@id":"https://www.ozy.com/presidential-daily-brief/pdb-92875/#primaryimage"},"datePublished":"2019-02-26T05:00:00-05:00","dateModified":"2019-02-26T10:22:51-05:00"}]}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//www5.smartadserver.com' />
+<link rel='dns-prefetch' href='//embed.spokenlayer.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="OZY &raquo; Feed" href="https://www.ozy.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="OZY &raquo; Comments Feed" href="https://www.ozy.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="OZY &raquo; Presidential Daily Brief for February 26, 2019 Comments Feed" href="https://www.ozy.com/presidential-daily-brief/pdb-92875/feed/" />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.10.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	var mi_version         = '7.10.0';
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-42711405-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-42711405-1', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('require', 'displayfeatures');
+		__gaTracker('set', 'dimension5', jsInappbrowseragent());
+		__gaTracker('send','pageview');
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+	<script>
+	if (PerformanceObserver !== undefined) {
+		var obsv = new PerformanceObserver(function(list) {
+		list.getEntries().forEach(function(entry) {
+			// 'name' will be either 'first-paint' or 'first-contentful-paint'.
+			var metricName = entry.name;
+			var time = Math.round(entry.startTime + entry.duration);
+			if (typeof console !== undefined) {
+				console.log('GA:',{
+					eventCategory: 'Performance Metrics',
+					eventAction: metricName,
+					eventValue: time,
+					nonInteraction: true,
+					eventLabel: time
+				});
+			}
+			__gaTracker('send', 'event', {
+				eventCategory: 'Performance Metrics',
+				eventAction: metricName,
+				eventValue: time,
+				nonInteraction: true,
+				eventLabel: time
+			});
+		});
+		});
+		obsv.observe({entryTypes: ['paint']});
+	}
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.ozy.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://www.ozy.com/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='https://www.ozy.com/wp-includes/css/dist/block-library/theme.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='elasticpress-related-posts-block-css'  href='https://www.ozy.com/wp-content/plugins/elasticpress/dist/css/related-posts-block-styles.min.css?ver=3.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='ozy-global-css'  href='https://www.ozy.com/wp-content/themes/ozy-2019/assets/build/css/global.css?ver=1587225122' type='text/css' media='all' />
+<link rel='stylesheet' id='montserrat-fonts-css'  href='https://fonts.googleapis.com/css?family=Montserrat%3A400%2C500%2C700&#038;display=swap&#038;ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ozy-pdb-css'  href='https://www.ozy.com/wp-content/themes/ozy-2019/assets/build/css/pdb.css?ver=1587225122' type='text/css' media='all' />
+<link rel='stylesheet' id='ozy-single-css'  href='https://www.ozy.com/wp-content/themes/ozy-2019/assets/build/css/single.css?ver=1587225122' type='text/css' media='all' />
+<link rel='stylesheet' id='sailthru-subscribe-widget-styles-css'  href='https://www.ozy.com/wp-content/plugins/sailthru-widget/css/widget.subscribe.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='section-header-css'  href='https://www.ozy.com/wp-content/themes/ozy-2019/assets/build/css/enhancedcategories/section-header.css?ver=5.3.2' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/www.ozy.com","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.ozy.com/wp-content/plugins/google-analytics-premium/assets/js/frontend.min.js?ver=7.10.0'></script>
+<script type='text/javascript' src='https://www.ozy.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://www.ozy.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ozy_facebook_configs = {"app_id":"155498561323567","page_id":"1393911800825140"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.ozy.com/wp-content/plugins/ozy-features/assets/build/js/facebook.js?ver=1587225166'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://www.ozy.com/wp-content/themes/ozy-2019/assets/build/js/libraries/html5shiv.js'></script>
+<![endif]-->
+<script type='text/javascript' async src='https://www5.smartadserver.com/config.js?nwid=1238&#038;ver=5.3.2'></script>
+<script type='text/javascript'>
+var sas = sas || {}; sas.cmd = sas.cmd || []; sas.cmd.push(function() { sas.setup({ domain: 'https://www5.smartadserver.com', async: true, renderMode: 0, inSequence: true}); });
+</script>
+<script type='text/javascript' src='https://www.ozy.com/wp-content/themes/ozy-2019/assets/js/libraries/mootools-more.js'></script>
+<script type='text/javascript' src='https://www.ozy.com/wp-content/themes/ozy-2019/assets/build/js/libraries/lazyload.js'></script>
+<script type='text/javascript' src='https://www.ozy.com/wp-content/themes/ozy-2019/assets/build/js/libraries/moment.js'></script>
+<script type='text/javascript' src='https://www.ozy.com/wp-content/themes/ozy-2019/assets/build/js/libraries/moment-timezone-with-data-2010-2020.js'></script>
+<script type='text/javascript' src='https://www.ozy.com/wp-content/themes/ozy-2019/assets/build/js/libraries/swipe.events.js'></script>
+<script type='text/javascript' src='https://www.ozy.com/wp-content/plugins/sailthru-widget/js/widget.subscribe.js?ver=5.3.2'></script>
+<link rel='https://api.w.org/' href='https://www.ozy.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.ozy.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.ozy.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.3.2" />
+<link rel='shortlink' href='https://www.ozy.com/?p=92875' />
+<link rel="alternate" type="application/json+oembed" href="https://www.ozy.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.ozy.com%2Fpresidential-daily-brief%2Fpdb-92875%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.ozy.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.ozy.com%2Fpresidential-daily-brief%2Fpdb-92875%2F&#038;format=xml" />
+<meta property="fb:app_id" content="155498561323567"  />
+<meta property="fb:pages" content="1393911800825140"  />
+<meta name="apple-itunes-app" content="app-id=1368881303"  />
+<meta name="content_type" content="article_default"  />
+<meta property="article:publisher" content="https://www.facebook.com/Ozy"  />
+<meta property="twitter:image:src" content="https://assets.ozy.com/ozy-prod/2019/07/GettyImages-1127441470.jpg?width=1024&amp;height=683&amp;fit=cover"  />
+
+
+<!-- BEGIN Sailthru Horizon Meta Information -->
+<meta name="sailthru.date" content="2019-02-26 00:00:00" />
+<meta name="sailthru.title" content="Presidential Daily Brief for February 26, 2019" />
+<meta name="sailthru.author" content="Dan Peleschuk" />
+<meta name="sailthru.image.full" content="https://assets.ozy.com/ozy-prod/2019/07/GettyImages-1127441470.jpg?width=5542&amp;height=3695&amp;fit=cover" />
+<meta name="sailthru.image.thumb" content="https://assets.ozy.com/ozy-prod/2019/07/GettyImages-1127441470.jpg?width=50&amp;height=50&amp;fit=cover" />
+<!-- END Sailthru Horizon Meta Information -->
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,700,900&display=swap" rel="stylesheet">
+<style>
+	/*
+	This CSS resource incorporates links to font software which is the valuable copyrighted
+	property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+	redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+	Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+	*/
+	@font-face{
+		font-family:"Amasis MT W01 Regular";
+		src:url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/0050d8a9-e3d0-44fe-8127-1bb379d3336f.eot?#iefix' );
+		src:url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/0050d8a9-e3d0-44fe-8127-1bb379d3336f.eot?#iefix' ) format("eot"),url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/df3f45e2-082e-4e16-9c32-616dd3c1fad2.woff2' ) format("woff2"),url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/a84a1cd6-9b7b-4766-b64f-f6826a9d1d93.woff' ) format("woff"),url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/35d9e398-1af3-446b-a8d6-16a2d951387d.ttf' ) format("truetype"),url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/c2f35a5c-0bd2-4101-87cd-c2949ae7698e.svg#c2f35a5c-0bd2-4101-87cd-c2949ae7698e' ) format("svg");
+	}
+	@font-face{
+		font-family:"Amasis MT W01 Medium";
+		src:url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/b4d3aec0-2d55-4e8f-9742-279a77a8e876.eot?#iefix' );
+		src:url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/b4d3aec0-2d55-4e8f-9742-279a77a8e876.eot?#iefix' ) format("eot"),url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/c6712ad6-5da0-40c8-9432-7473c0d87d77.woff2' ) format("woff2"),url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/0f278a22-d79d-40a2-b846-0eee1a278d19.woff' ) format("woff"),url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/d17654f3-7a66-4276-8aff-d2a6ea315b9c.ttf' ) format("truetype"),url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/93fc1278-b0a0-4e2e-bb70-0a0cca65d134.svg#93fc1278-b0a0-4e2e-bb70-0a0cca65d134' ) format("svg");
+	}
+	@font-face{
+		font-family:"DINNextW01-CondensedReg";
+		src:url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/6fa09720-5b0e-48a5-8895-5af8af928c01.eot?#iefix' );
+		src:url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/6fa09720-5b0e-48a5-8895-5af8af928c01.eot?#iefix' ) format("eot"),url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/5dd9f4c4-cfde-415c-bb51-433569311de5.woff2' ) format("woff2"),url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/3b15daf5-d7fb-4099-93b9-db20fd26c2fe.woff' ) format("woff"),url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/16159505-c85d-44ba-ba2b-64f94e68ddb5.ttf' ) format("truetype"),url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/b2be45ad-0169-4c84-9fc9-66a0e9ebff0a.svg#b2be45ad-0169-4c84-9fc9-66a0e9ebff0a' ) format("svg");
+	}
+	@font-face{
+		font-family:"DINNextW01-CondensedMed";
+		src:url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/0b46a18d-fb34-4ef7-b5da-5902c510577a.eot?#iefix' );
+		src:url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/0b46a18d-fb34-4ef7-b5da-5902c510577a.eot?#iefix' ) format("eot"),url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/76b8cda6-0ded-4197-acab-e314297eb90f.woff2') format("woff2"),url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/2613a064-2962-44af-ae6f-3640e06e8dc4.woff' ) format("woff"),url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/2889b152-497e-4ea3-a90d-02854d136a8d.ttf' ) format("truetype"),url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/4f311da1-9ec6-4379-9621-b45be0e23abd.svg#4f311da1-9ec6-4379-9621-b45be0e23abd' ) format("svg");
+	}
+	@font-face{
+		font-family:"DIN Next W01 Regular";
+		src:url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/da088ecc-a53c-4831-a95b-6fd81b5b338a.eot?#iefix' );
+		src:url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/da088ecc-a53c-4831-a95b-6fd81b5b338a.eot?#iefix' ) format("eot"),url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/44e7b0fa-6c8d-43c2-b19e-f1e3ce9ea57c.woff2' ) format("woff2"),url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/c5a7f89e-15b6-49a9-8259-5ea665e72191.woff' ) format("woff"),url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/868c94b5-ca49-46b7-b62b-297f8d861125.ttf' ) format("truetype"),url( 'https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/fonts.com/e3145f65-29b5-4f7f-8c6e-2dc135021b6a.svg#e3145f65-29b5-4f7f-8c6e-2dc135021b6a' ) format("svg");
+	}
+
+	@font-face{
+	  font-family:"DINNextLTPro-Regular";
+	  src:url('/fonts/din-next-lt-pro-regular.eot?#iefix');
+	  src:url('/fonts/din-next-lt-pro-regular.eot?#iefix') format("embedded-opentype"),url('/fonts/din-next-lt-pro-regular.woff2') format("woff2"),url('/fonts/din-next-lt-pro-regular.woff') format("woff"),url('/fonts/din-next-lt-pro-regular.ttf') format("truetype"),url('/fonts/din-next-lt-pro-regular.svg#DINNextLTPro-Regular') format("svg");
+	}
+
+	@font-face{
+	  font-family:"DINNextLTPro-MediumCond";
+	  src:url('/fonts/din-next-lt-pro-medium-condensed.eot?#iefix');
+	  src:url('/fonts/din-next-lt-pro-medium-condensed.eot?#iefix') format("embedded-opentype"),url('/fonts/din-next-lt-pro-medium-condensed.woff2') format("woff2"),url('/fonts/din-next-lt-pro-medium-condensed.woff') format("woff"),url('/fonts/din-next-lt-pro-medium-condensed.ttf') format("truetype"),url('/fonts/din-next-lt-pro-medium-condensed.svg#DIN Next LT Pro Medium Cond') format("svg");
+	}
+
+	@font-face{
+	  font-family:"DINCondensed-Light";
+	  src:url('/fonts/din-condensed-light.eot?#iefix');
+	  src:url('/fonts/din-condensed-light.eot?#iefix') format("embedded-opentype"),url('/fonts/din-condensed-light.woff2') format("woff2"),url('/fonts/din-condensed-light.woff') format("woff"),url('/fonts/din-condensed-light.ttf') format("truetype"),url('/fonts/din-condensed-light.svg#DINCondensed-Light') format("svg");
+	}
+
+	@font-face{
+	  font-family:"DINCondensed-Bold";
+	  src:url('/fonts/din-condensed-bold.eot?#iefix');
+	  src:url('/fonts/din-condensed-bold.eot?#iefix') format("embedded-opentype"),url('/fonts/din-condensed-bold.woff2') format("woff2"),url('/fonts/din-condensed-bold.woff') format("woff"),url('/fonts/din-condensed-bold.ttf') format("truetype"),url('/fonts/din-condensed-bold.svg#DINCondensed-Bold') format("svg");
+	}
+
+	@font-face{
+	  font-family:"BrandonGrotesque-Medium";
+	  src:url('/fonts/brandon-grotesque-medium.eot?#iefix');
+	  src:url('/fonts/brandon-grotesque-medium.eot?#iefix') format("embedded-opentype"),url('/fonts/brandon-grotesque-medium.woff2') format("woff2"),url('/fonts/brandon-grotesque-medium.woff') format("woff"),url('/fonts/brandon-grotesque-medium.ttf') format("truetype"),url('/fonts/brandon-grotesque-medium.svg#Brandon Grotesque Medium') format("svg");
+	}
+
+	@font-face{
+	  font-family:"DINNextLTPro-Condensed";
+	  src:url('/fonts/din-next-lt-pro-condensed.eot?#iefix');
+	  src:url('/fonts/din-next-lt-pro-condensed.eot?#iefix') format("embedded-opentype"),url('/fonts/din-next-lt-pro-condensed.woff2') format("woff2"),url('/fonts/din-next-lt-pro-condensed.woff') format("woff"),url('/fonts/din-next-lt-pro-condensed.ttf') format("truetype"),url('/fonts/din-next-lt-pro-condensed.svg#DIN Next LT Pro') format("svg");
+	}
+</style>
+
+<script type="text/javascript">
+
+	var MTIProjectId='37f59dc5-b622-4a27-8dfb-7b2c27a71848';
+
+	(function() {
+		var mtiTracking = document.createElement('script');
+		mtiTracking.type='text/javascript';
+		mtiTracking.async='true';
+		mtiTracking.src='https://www.ozy.com/wp-content/themes/ozy-2019/assets/fonts/mtiFontTrackingCode.js';
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild( mtiTracking );
+	})();
+
+</script>
+
+
+	<script class="kxct" data-id="ro6qv9ex7" data-timing="async" data-version="3.0" type="text/javascript">
+		window.Krux || ((Krux = function () { Krux.q.push(arguments) }).q = []);
+		(function () {
+			var k = document.createElement('script'); k.type = 'text/javascript'; k.async = true;
+			k.src = (location.protocol === 'https:' ? 'https:' : 'http:') + '//cdn.krxd.net/controltag/ro6qv9ex7.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(k, s);
+		}());
+	</script>
+
+	<script class="kxint" data-namespace="ozy" type="text/javascript">
+		window.Krux || ((Krux = function () { Krux.q.push(arguments); }).q = []);
+		(function () {
+			function retrieve(n) {
+				var k = 'kx' + 'ozy_' + n, ls = (function () {
+					try {
+						return window.localStorage;
+					} catch (e) {
+						return null;
+					}
+				})();
+				if (ls) {
+					return ls[k] || '';
+				} else if (navigator.cookieEnabled) {
+					var m = document.cookie.match(k + '=([^;]*)');
+					return (m && unescape(m[1])) || '';
+				} else {
+					return '';
+				}
+			}
+			Krux.user = retrieve('user');
+			Krux.segments = retrieve('segs') ? retrieve('segs').split(',') : [];
+		})();
+	</script>
+
+	<script class="kxint" type="text/javascript">
+		(function () {
+			if (Krux.user) {
+				Krux.SmartKeyValues = 'kuid='+Krux.user+';';
+				for (var i = 0; i < Krux.segments.length; i++ ) {
+					Krux.SmartKeyValues +='ksg='+Krux.segments[i]+';';
+				}
+			}
+		})();
+	</script>
+
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><script type="text/javascript">var sailthru_vars = {"ajaxurl":"https:\/\/www.ozy.com\/wp-admin\/admin-ajax.php"}</script>      <meta name="onesignal" content="wordpress-plugin"/>
+            <script>
+
+      window.OneSignal = window.OneSignal || [];
+
+      OneSignal.push( function() {
+        OneSignal.SERVICE_WORKER_UPDATER_PATH = "OneSignalSDKUpdaterWorker.js.php";
+        OneSignal.SERVICE_WORKER_PATH = "OneSignalSDKWorker.js.php";
+        OneSignal.SERVICE_WORKER_PARAM = { scope: '/' };
+
+        OneSignal.setDefaultNotificationUrl("https://www.ozy.com");
+        var oneSignal_options = {};
+        window._oneSignalInitOptions = oneSignal_options;
+
+        oneSignal_options['wordpress'] = true;
+oneSignal_options['appId'] = '1c236166-143c-4bf7-b0fa-5b7dd39bbe19';
+oneSignal_options['welcomeNotification'] = { };
+oneSignal_options['welcomeNotification']['title'] = "";
+oneSignal_options['welcomeNotification']['message'] = "";
+oneSignal_options['path'] = "https://www.ozy.com/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/";
+oneSignal_options['safari_web_id'] = "web.onesignal.auto.42873e37-42b9-4e5d-9423-af83e9e44ff4";
+oneSignal_options['promptOptions'] = { };
+oneSignal_options['promptOptions']['actionMessage'] = 'Sign up for notifications to stay up to date with the latest and greatest from OZY.';
+                OneSignal.init(window._oneSignalInitOptions);
+                OneSignal.showSlidedownPrompt();      });
+
+      function documentInitOneSignal() {
+        var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+
+        var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };        for(var i = 0; i < oneSignal_elements.length; i++)
+          oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
+      }
+
+      if (document.readyState === 'complete') {
+           documentInitOneSignal();
+      }
+      else {
+           window.addEventListener("load", function(event){
+               documentInitOneSignal();
+          });
+      }
+    </script>
+			<style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style>
+			<script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script>
+		</head>
+
+<body class="presidential-brief-template-default single single-presidential-brief postid-92875 story layout-alpha">
+
+<div id="page" class="hfeed site">
+
+		<script>dataLayer = [];</script>
+	<!-- Google Tag Manager -->
+	<noscript>
+		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58M3RV" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+	</noscript>
+
+	<script>
+		(
+			function ( w, d, s, l, i ) {w[l] = w[l] || [];
+				w[l].push( {
+					'gtm.start': new Date().getTime(), event: 'gtm.js'
+				} );
+				var f = d.getElementsByTagName( s )[0],
+					j = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : '';
+				j.async = true;
+				j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+				f.parentNode.insertBefore( j, f );
+			}
+		)( window, document, 'script', 'dataLayer', 'GTM-58M3RV' );
+	</script>
+	<!-- End Google Tag Manager -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-42711405-1"></script> 	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push( arguments );
+		}
+
+		gtag( 'js', new Date() );
+		gtag( 'config', 'UA-42711405-1', {
+			'linker': {
+				'domains': ['ozyfest.frontgatetickets.com', 'fevo.com', 'www.fevo.com']
+			}
+		} );
+	</script>
+	<script>
+		function getUrlParams( prop ) {
+			var params = {};
+			var search = decodeURIComponent( window.location.href.slice( window.location.href.indexOf( '?' ) + 1 ) );
+			var definitions = search.split( '&' );
+			definitions.forEach( function ( val, key ) {
+				var parts = val.split( '=', 2 );
+				params[parts[0]] = parts[1];
+			} );
+			return ( prop && prop in params ) ? params[prop] : params;
+		}
+	</script>
+	<ul class="skiplinks">
+	<li>
+		<a href="#content" accesskey="s">
+			Skip to main content		</a>
+	</li>
+</ul>
+	<nav class="ozy-header-nav" id="ozy-header-nav">
+		&nbsp;
+	</nav>
+
+	<div id="wrapper">
+		<div>
+			<div id="content">
+				<div id="pdbpage" class="pdbpage " data-relative-date-context="true">
+					<div class="pdbinnerContainer">
+						<div data-announcement-top-bar="https://www.ozy.com/ozy-ajax/get-announcement?security=02e298276c"></div>
+<div class="mast">
+	<div class="container">
+		<div class="hgroup">
+			<span class="ozy-icon dayIcon i-sun i-sun-dims">&nbsp;</span>
+			<span class="ozy-icon nightIcon i-moon i-moon-dims">&nbsp;</span>
+			<time data-pdb-publish-date="2019-02-26 00:01" data-relative-time-timezone="America/New_York">
+				<span class="day">
+					Tuesday, 				</span>
+				February 26, 2019			</time>
+							<h1>The <strong>Presidential Daily Brief</strong></h1>
+					</div>
+	</div>
+</div>
+
+<div class="scroller">
+	<div class="small-mast">
+		<span>
+							The <strong>Presidential Daily Brief</strong>
+					</span>
+	</div>
+	<div class="container">
+		<a href="#" class="hide-menu">
+			<span class="text">hide menu</span>
+			<span class="ozy-icon i-close-scroller i-close-scroller-dims"></span>
+		</a>
+		<ul class="controls">
+			<li class="previous disabled">
+				<a href="#">
+					<span class="assistive-text">previous</span>
+					<span class="ozy-icon i-left-arrow-scroller-on i-left-arrow-scroller-on-dims"></span>
+					<span class="ozy-icon i-left-arrow-scroller i-left-arrow-scroller-dims"></span>
+				</a>
+			</li>
+			<li class="next">
+				<a href="#">
+					<span class="assistive-text">next</span>
+					<span class="ozy-icon i-right-arrow-scroller-on i-right-arrow-scroller-on-dims"></span>
+					<span class="ozy-icon i-right-arrow-scroller i-right-arrow-scroller-dims"></span>
+				</a>
+			</li>
+		</ul>
+		<div class="menu-items">
+			<div class="menu-items-inner loaded">
+				<ol class="scroller-sleeve" style="padding-left: 0px; padding-right: 0px; width: 2600px; height: 111px;">
+															<li class="scroller-slide swiper-slide-visible  swiper-slide-active active ">
+											<a href="#article92895" data-scrollto="">
+												<span class="item-number">1</span>
+												<!--Thumbnail-->
+											<img src="https://assets.ozy.com/ozy-prod/2019/07/shutterstock_265604069.jpg?width=90&#038;height=90&#038;fit=cover"  width="auto" alt="shutterstock 265604069" height="auto" />												<strong>Important</strong>
+												<p>Trump, Kim Prepare for Second Summit</p>
+											</a>
+										</li>
+																				<li class="scroller-slide swiper-slide-visible  ">
+											<a href="#article92890" data-scrollto="">
+												<span class="item-number">2</span>
+												<!--Thumbnail-->
+											<img src="https://assets.ozy.com/ozy-prod/2019/07/shutterstock_314067611.jpg?width=90&#038;height=90&#038;fit=cover"  width="auto" alt="Indian army border guard Kashmir shutterstock 314067611" height="auto" />												<strong>Important</strong>
+												<p>India Bombs Islamist Militants in Pakistan</p>
+											</a>
+										</li>
+																				<li class="scroller-slide swiper-slide-visible  ">
+											<a href="#article92886" data-scrollto="">
+												<span class="item-number">3</span>
+												<!--Thumbnail-->
+											<img src="https://assets.ozy.com/ozy-prod/2019/07/Vaticanshutterstock_125398649.jpg?width=90&#038;height=90&#038;fit=cover"  width="auto" alt="vaticanshutterstock 125398649" height="auto" />												<strong>Important</strong>
+												<p>Top Catholic Cardinal Convicted of Abuse</p>
+											</a>
+										</li>
+																				<li class="scroller-slide swiper-slide-visible  ">
+											<a href="#article92893" data-scrollto="">
+												<span class="item-number">4</span>
+												<!--Thumbnail-->
+											<img src="https://assets.ozy.com/ozy-prod/2019/07/p-c-h-shutterstock_549323791.jpg?crop=759px%2C0px%2C3198px%2C3198px&#038;resize=90%2C90"  width="auto" alt="shutterstock 549323791" height="auto" />												<strong>Important</strong>
+												<p>Congress to Vote on Trump’s Emergency Declaration</p>
+											</a>
+										</li>
+																				<li class="scroller-slide swiper-slide-visible  no-image ">
+											<a href="#article92896" data-scrollto="">
+												<span class="item-number">5</span>
+												<!--Thumbnail-->
+																							<strong>Important</strong>
+												<p>Also Important…</p>
+											</a>
+										</li>
+																				<li class="scroller-slide swiper-slide-visible  ">
+											<a href="#article92889" data-scrollto="">
+												<span class="item-number">6</span>
+												<!--Thumbnail-->
+											<img src="https://assets.ozy.com/ozy-prod/2019/07/shutterstock_237385609.jpg?crop=0px%2C172px%2C2400px%2C2400px&#038;resize=90%2C90"  width="auto" alt="elon musk shutterstock 237385609" height="auto" />												<strong>Intriguing</strong>
+												<p>Elon Musk Angers the SEC — Again</p>
+											</a>
+										</li>
+																				<li class="scroller-slide swiper-slide-visible  ">
+											<a href="#article92878" data-scrollto="">
+												<span class="item-number">7</span>
+												<!--Thumbnail-->
+											<img src="https://assets.ozy.com/ozy-prod/2019/07/sweatshop.jpg?width=90&#038;height=90&#038;fit=cover"  width="auto" alt="sweatshop" height="auto" />												<strong>Intriguing</strong>
+												<p>Oxfam Blasts Australian Fashion Brands for ‘Exploitation’</p>
+											</a>
+										</li>
+																				<li class="scroller-slide swiper-slide-visible  ">
+											<a href="#article92888" data-scrollto="">
+												<span class="item-number">8</span>
+												<!--Thumbnail-->
+											<img src="https://assets.ozy.com/ozy-prod/2019/07/shutterstock_473309494.jpg?width=90&#038;height=90&#038;fit=cover"  width="auto" alt="Narendra Modi shutterstock 473309494" height="auto" />												<strong>Intriguing</strong>
+												<p>In India, Science Clashes With Politics and Faith</p>
+											</a>
+										</li>
+																				<li class="scroller-slide swiper-slide-visible  ">
+											<a href="#article92880" data-scrollto="">
+												<span class="item-number">9</span>
+												<!--Thumbnail-->
+											<img src="https://assets.ozy.com/ozy-prod/2019/07/shutterstock_1070317487.jpg?width=90&#038;height=90&#038;fit=cover"  width="auto" alt="shutterstock 1070317487" height="auto" />												<strong>Intriguing</strong>
+												<p>Avenatti Offers Another R. Kelly Sex Tape</p>
+											</a>
+										</li>
+																				<li class="scroller-slide swiper-slide-visible  ">
+											<a href="#article92887" data-scrollto="">
+												<span class="item-number">10</span>
+												<!--Thumbnail-->
+											<img src="https://assets.ozy.com/ozy-prod/2019/07/shutterstock_786723181.jpg?width=90&#038;height=90&#038;fit=cover"  width="auto" alt="shutterstock 786723181" height="auto" />												<strong>Intriguing</strong>
+												<p>Details Emerge of Robert Kraft’s Solicitation Charge</p>
+											</a>
+										</li>
+														</ol>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="scroller-height"></div>
+
+<div class="spokenlayer-player container display-spokenlayer">
+	<div class="inner-container">
+		<div class="spokenlayer" id="spokenlayer-audio-player-container" data-story-url="https://www.ozy.com/presidential-daily-brief/pdb-92875/" data-headline="Presidential Daily Brief for February 26, 2019" data-date="2019-02-26" data-requestread="false"></div>
+		<div id="sl-player-wrapper" style="height: 50px; margin-top: 4px; margin-bottom: 6px;"></div>
+	</div>
+	<div class="spokenlayer-fixed-position">
+		<div class="close-button">
+			<a href="#">
+				<span class="close-icons">
+					<span class="ozy-icon i-exit i-exit-dims"></span>
+					<span class="ozy-icon i-exit_hover i-exit_hover-dims"></span>
+				</span>
+			</a>
+		</div>
+		<div class="play-button">
+			<a href="#" class="ozy-animated-icon sl-play">
+				<span class="play-icons">
+					<span class="ozy-icon i-sl-play i-sl-play-dims"></span>
+					<span class="ozy-icon i-sl-play-on i-sl-play-on-dims"></span>
+				</span>
+				<span class="text">Listen to <strong>the PDB</strong></span>
+			</a>
+		</div>
+	</div>
+</div>
+	<div class="pdb-stories container">
+		<span class="pdb-stamp"></span>
+		<div class="pdb-important pdb-categories">
+			<div class="section-heading">
+				<h4 class="heading">Important</h4>
+			</div>
+			<ol>
+									<li class="">
+						<a id="article92895" class="hash-link"></a>
+						<article class="pdb-content">
+							<div class="pdb-story">
+								<!--Thumbnail-->
+																<div class="image">
+									<img src="https://assets.ozy.com/ozy-prod/2019/07/shutterstock_265604069.jpg?width=440&#038;height=440&#038;fit=cover"  width="auto" alt="shutterstock 265604069" height="auto" />								</div>
+								<!--Headline-->
+								<h2>
+																			<a href="https://www.ozy.com/presidential-daily-brief/pdb-92875/the-arrival-92895/">
+											Trump, Kim Prepare for Second Summit										</a>
+																		</h2>
+								<!--Content-->
+								<p>North Korean leader Kim Jong Un has arrived in Hanoi, Vietnam, ahead of his second meeting with President Donald Trump, who is expected to touch down today. Observers are wondering whether the larger-than-life leaders can deliver results during their two-day talks that reach beyond the vague pledges they made during their first summit last year.</p>
+<p><strong>What’s Kim hoping for? </strong>Some believe he’d be willing to freeze his nuclear program in exchange for sanctions relief — though others say simply showing up constitutes a win for him. Total denuclearization, as <a href="https://www.ozy.com/opinion/donald-dossier-back-for-round-two-with-kim/92846" target="_blank" rel="noopener noreferrer">OZY reports</a>, may well be a “pipe dream.”</p>
+<p><em>Check out <a href="https://www.ozy.com/provocateurs/meet-the-diplomats-playing-the-long-game-with-north-korea/86992" target="_blank" rel="noopener noreferrer">OZY’s profile</a> of the diplomats playing the long game with Pyongyang.</em></p>							</div>
+							<div class="pdb-meta">
+								<h3 class="short-title">
+									The Arrival								</h3>
+								<div class="time-meta">
+									<span class="important">Important</span>
+																										</div>
+																	<div class="read-more">
+										<span>Sources:</span>
+										<div class="tags">
+																							<a href="https://apnews.com/872da8b73d8f4b35a41f6a904b9e55f3" target="_blank">AP</a>
+																								<a href="https://edition.cnn.com/2019/02/26/asia/kim-jong-un-hanoi-summit-win-intl/index.html" target="_blank">CNN</a>
+																								<a href="https://www.reuters.com/article/us-northkorea-usa/north-koreas-kim-arrives-in-vietnam-for-summit-trump-on-the-way-idUSKCN1QE09R" target="_blank">Reuters</a>
+																								<a href="https://www.ozy.com/opinion/donald-dossier-back-for-round-two-with-kim/92846" target="_blank">OZY</a>
+																						</div>
+									</div>
+																	<div class="share-buttons">
+																		<a class="facebook-share share-button-circular addthis_button_facebook at300b"
+									   facebook-share=""
+									   addthis:url="https://www.ozy.com/presidential-daily-brief/pdb-92875/the-arrival-92895/"
+									   addthis:title="Trump, Kim Prepare for Second Summit"
+									   addthis:description="Trump, Kim Prepare for Second Summit"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="FB Share"
+									   href="javascript:void(0)"
+									   xmlns:addthis="https://www.ozy.com/2013/addthis">
+										<i class="ozy-icon i-facebook-logo i-facebook-logo-dims"></i>
+										<i class="assistive-text">Share On Facebook</i>
+									</a>
+									<a class="twitter-share share-button-circular addthis_button_twitter"
+									   twitter-share=""
+									   addthis:url="https://www.ozy.com/presidential-daily-brief/pdb-92875/the-arrival-92895/"
+									   addthis:title="Trump, Kim Prepare for Second Summit"
+									   addthis:description="Trump, Kim Prepare for Second Summit"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="TW Share" href="javascript:void(0)"
+									   xmlns:addthis="https://www.ozy.com/2013/addthis">
+										<i class="ozy-icon i-twitter-white-silhouette i-twitter-white-silhouette-dims"></i>
+										<i class="assistive-text">Share On Twitter</i>
+									</a>
+																		<a class="email-share share-button-circular"
+									   href="mailto:?subject=The%20Arrival%20-%20Trump,%20Kim%20Prepare%20for%20Second%20Summit&#038;body=The%20Arrival%20-%20Trump,%20Kim%20Prepare%20for%20Second%20Summit%20-%20https://www.ozy.com/presidential-daily-brief/pdb-92875/the-arrival-92895/"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="Email Share">
+										<i class="ozy-icon i-email-share-circled i-email-share-circled-dims"></i>
+										<i class="assistive-text">Email To A Friend</i>
+									</a>
+																	</div>
+							</div>
+						</article>
+					</li>
+										<li class="">
+						<a id="article92890" class="hash-link"></a>
+						<article class="pdb-content">
+							<div class="pdb-story">
+								<!--Thumbnail-->
+																<div class="image">
+									<img src="https://assets.ozy.com/ozy-prod/2019/07/shutterstock_314067611.jpg?width=440&#038;height=440&#038;fit=cover"  width="auto" alt="Indian army border guard Kashmir shutterstock 314067611" height="auto" />								</div>
+								<!--Headline-->
+								<h2>
+																			<a href="https://www.ozy.com/presidential-daily-brief/pdb-92875/air-war-92890/">
+											India Bombs Islamist Militants in Pakistan										</a>
+																		</h2>
+								<!--Content-->
+								<p>New Delhi says it targeted Kashmiri separatists with airstrikes in northwestern Pakistan today, two weeks after the jihadi Jaish-e-Mohammad group killed more than 40 Indian soldiers in a suicide attack. Foreign Secretary Vijay Gokhale said a preemptive strike was “absolutely necessary” to prevent the Pakistan-based group from staging more attacks on <a href="https://www.ozy.com/rising-stars/from-local-boy-made-good-to-kashmir-nationalist/91980" target="_blank" rel="noopener noreferrer">Indian-administered Kashmir</a>. He said “a very large number” of terrorists were killed — a claim refuted by Pakistan’s military.</p>
+<p><strong>Is this a major escalation?</strong> At the very least, experts say, it’s a clear sign that India’s serious about fighting terror in the disputed region.</p>							</div>
+							<div class="pdb-meta">
+								<h3 class="short-title">
+									Air War								</h3>
+								<div class="time-meta">
+									<span class="important">Important</span>
+																										</div>
+																	<div class="read-more">
+										<span>Sources:</span>
+										<div class="tags">
+																							<a href="https://www.bbc.com/news/world-asia-47366718" target="_blank">BBC</a>
+																								<a href="https://www.aljazeera.com/news/2019/02/pakistan-military-accuses-india-violating-airspace-190226040437318.html" target="_blank">Al Jazeera</a>
+																						</div>
+									</div>
+																	<div class="share-buttons">
+																		<a class="facebook-share share-button-circular addthis_button_facebook at300b"
+									   facebook-share=""
+									   addthis:url="https://www.ozy.com/presidential-daily-brief/pdb-92875/air-war-92890/"
+									   addthis:title="India Bombs Islamist Militants in Pakistan"
+									   addthis:description="India Bombs Islamist Militants in Pakistan"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="FB Share"
+									   href="javascript:void(0)"
+									   xmlns:addthis="https://www.ozy.com/2013/addthis">
+										<i class="ozy-icon i-facebook-logo i-facebook-logo-dims"></i>
+										<i class="assistive-text">Share On Facebook</i>
+									</a>
+									<a class="twitter-share share-button-circular addthis_button_twitter"
+									   twitter-share=""
+									   addthis:url="https://www.ozy.com/presidential-daily-brief/pdb-92875/air-war-92890/"
+									   addthis:title="India Bombs Islamist Militants in Pakistan"
+									   addthis:description="India Bombs Islamist Militants in Pakistan"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="TW Share" href="javascript:void(0)"
+									   xmlns:addthis="https://www.ozy.com/2013/addthis">
+										<i class="ozy-icon i-twitter-white-silhouette i-twitter-white-silhouette-dims"></i>
+										<i class="assistive-text">Share On Twitter</i>
+									</a>
+																		<a class="email-share share-button-circular"
+									   href="mailto:?subject=Air%20War%20-%20India%20Bombs%20Islamist%20Militants%20in%20Pakistan&#038;body=Air%20War%20-%20India%20Bombs%20Islamist%20Militants%20in%20Pakistan%20-%20https://www.ozy.com/presidential-daily-brief/pdb-92875/air-war-92890/"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="Email Share">
+										<i class="ozy-icon i-email-share-circled i-email-share-circled-dims"></i>
+										<i class="assistive-text">Email To A Friend</i>
+									</a>
+																	</div>
+							</div>
+						</article>
+					</li>
+										<li class="">
+						<a id="article92886" class="hash-link"></a>
+						<article class="pdb-content">
+							<div class="pdb-story">
+								<!--Thumbnail-->
+																<div class="image">
+									<img src="https://assets.ozy.com/ozy-prod/2019/07/Vaticanshutterstock_125398649.jpg?width=440&#038;height=440&#038;fit=cover"  width="auto" alt="vaticanshutterstock 125398649" height="auto" />								</div>
+								<!--Headline-->
+								<h2>
+																			<a href="https://www.ozy.com/presidential-daily-brief/pdb-92875/high-crimes-92886/">
+											Top Catholic Cardinal Convicted of Abuse										</a>
+																		</h2>
+								<!--Content-->
+								<p>In a conviction unsealed today, an Australian court found Cardinal George Pell guilty of sexually abusing two 13-year-old choirboys in the 1990s during his tenure at St. Patrick’s Cathedral in Melbourne. While the court convicted the 77-year-old former Vatican treasurer in December, media outlets were barred from reporting the news during a second trial, which has now been dropped. Pell is the highest-ranking Catholic priest to be convicted of sex crimes.</p>
+<p><strong>What does this mean for other cases?</strong> A relative of one survivor said she hopes it <a href="https://www.ozy.com/need-to-know/special-briefing-will-the-abuse-of-nuns-further-shake-catholic-faith/92570" target="_blank" rel="noopener noreferrer">compels other victims</a> to speak out, especially amid the Vatican’s public push to fight abuse.</p>							</div>
+							<div class="pdb-meta">
+								<h3 class="short-title">
+									High Crimes								</h3>
+								<div class="time-meta">
+									<span class="important">Important</span>
+																										</div>
+																	<div class="read-more">
+										<span>Sources:</span>
+										<div class="tags">
+																							<a href="https://www.smh.com.au/national/victoria/cardinal-george-pell-found-guilty-of-child-sex-abuse-20181214-p50m86.html" target="_blank">SMH</a>
+																								<a href="https://www.nytimes.com/2019/02/25/world/australia/george-pell-catholic-church-abuse.html?action=click&#038;module=Top%20Stories&#038;pgtype=Homepage" target="_blank">NYT</a>
+																						</div>
+									</div>
+																	<div class="share-buttons">
+																		<a class="facebook-share share-button-circular addthis_button_facebook at300b"
+									   facebook-share=""
+									   addthis:url="https://www.ozy.com/presidential-daily-brief/pdb-92875/high-crimes-92886/"
+									   addthis:title="Top Catholic Cardinal Convicted of Abuse"
+									   addthis:description="Top Catholic Cardinal Convicted of Abuse"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="FB Share"
+									   href="javascript:void(0)"
+									   xmlns:addthis="https://www.ozy.com/2013/addthis">
+										<i class="ozy-icon i-facebook-logo i-facebook-logo-dims"></i>
+										<i class="assistive-text">Share On Facebook</i>
+									</a>
+									<a class="twitter-share share-button-circular addthis_button_twitter"
+									   twitter-share=""
+									   addthis:url="https://www.ozy.com/presidential-daily-brief/pdb-92875/high-crimes-92886/"
+									   addthis:title="Top Catholic Cardinal Convicted of Abuse"
+									   addthis:description="Top Catholic Cardinal Convicted of Abuse"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="TW Share" href="javascript:void(0)"
+									   xmlns:addthis="https://www.ozy.com/2013/addthis">
+										<i class="ozy-icon i-twitter-white-silhouette i-twitter-white-silhouette-dims"></i>
+										<i class="assistive-text">Share On Twitter</i>
+									</a>
+																		<a class="email-share share-button-circular"
+									   href="mailto:?subject=High%20Crimes%20-%20Top%20Catholic%20Cardinal%20Convicted%20of Abuse&#038;body=High%20Crimes%20-%20Top%20Catholic%20Cardinal%20Convicted%20of Abuse%20-%20https://www.ozy.com/presidential-daily-brief/pdb-92875/high-crimes-92886/"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="Email Share">
+										<i class="ozy-icon i-email-share-circled i-email-share-circled-dims"></i>
+										<i class="assistive-text">Email To A Friend</i>
+									</a>
+																	</div>
+							</div>
+						</article>
+					</li>
+										<li class="">
+						<a id="article92893" class="hash-link"></a>
+						<article class="pdb-content">
+							<div class="pdb-story">
+								<!--Thumbnail-->
+																<div class="image">
+									<img src="https://assets.ozy.com/ozy-prod/2019/07/p-c-h-shutterstock_549323791.jpg?crop=759px%2C0px%2C3198px%2C3198px&#038;resize=440%2C440"  width="auto" alt="shutterstock 549323791" height="auto" />								</div>
+								<!--Headline-->
+								<h2>
+																			<a href="https://www.ozy.com/presidential-daily-brief/pdb-92875/legal-limbo-92893/">
+											Congress to Vote on Trump’s Emergency Declaration										</a>
+																		</h2>
+								<!--Content-->
+								<p>The Democrat-controlled House is expected to vote to end President Trump’s controversial declaration of a national emergency to build his border wall — but it remains unclear whether the measure will pass the Republican-majority Senate. Either way, it’s the latest salvo in a drawn-out constitutional feud over the separation of powers between the executive and legislative branches of government over federal spending.</p>
+<p><strong>Is this a first?</strong> Yes: Congress has never attempted to cancel a declared emergency since a 1976 law handed that power to the White House.</p>
+<p><em>Don’t miss OZY’s latest installment of <a href="https://www.ozy.com/opinion/the-mueller-thread-the-road-maps-to-the-special-counsels-report/92854" target="_blank" rel="noopener noreferrer">the Mueller Thread</a>.</em></p>							</div>
+							<div class="pdb-meta">
+								<h3 class="short-title">
+									Legal Limbo								</h3>
+								<div class="time-meta">
+									<span class="important">Important</span>
+																										</div>
+																	<div class="read-more">
+										<span>Sources:</span>
+										<div class="tags">
+																							<a href="https://www.reuters.com/article/us-usa-trump-congress/house-set-to-vote-to-end-trumps-border-wall-emergency-idUSKCN1QF0FX" target="_blank">Reuters</a>
+																								<a href="https://www.washingtonpost.com/politics/house-prepares-to-vote-to-overturn-trumps-emergency-declaration/2019/02/25/343657f2-3918-11e9-b10b-f05a22e75865_story.html?utm_term=.63bcb5f528f6" target="_blank">Washington Post</a>
+																						</div>
+									</div>
+																	<div class="share-buttons">
+																		<a class="facebook-share share-button-circular addthis_button_facebook at300b"
+									   facebook-share=""
+									   addthis:url="https://www.ozy.com/presidential-daily-brief/pdb-92875/legal-limbo-92893/"
+									   addthis:title="Congress to Vote on Trump’s Emergency Declaration"
+									   addthis:description="Congress to Vote on Trump’s Emergency Declaration"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="FB Share"
+									   href="javascript:void(0)"
+									   xmlns:addthis="https://www.ozy.com/2013/addthis">
+										<i class="ozy-icon i-facebook-logo i-facebook-logo-dims"></i>
+										<i class="assistive-text">Share On Facebook</i>
+									</a>
+									<a class="twitter-share share-button-circular addthis_button_twitter"
+									   twitter-share=""
+									   addthis:url="https://www.ozy.com/presidential-daily-brief/pdb-92875/legal-limbo-92893/"
+									   addthis:title="Congress to Vote on Trump’s Emergency Declaration"
+									   addthis:description="Congress to Vote on Trump’s Emergency Declaration"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="TW Share" href="javascript:void(0)"
+									   xmlns:addthis="https://www.ozy.com/2013/addthis">
+										<i class="ozy-icon i-twitter-white-silhouette i-twitter-white-silhouette-dims"></i>
+										<i class="assistive-text">Share On Twitter</i>
+									</a>
+																		<a class="email-share share-button-circular"
+									   href="mailto:?subject=Legal%20Limbo%20-%20Congress%20to%20Vote%20on%20Trump’s%20Emergency%20Declaration&#038;body=Legal%20Limbo%20-%20Congress%20to%20Vote%20on%20Trump’s%20Emergency%20Declaration%20-%20https://www.ozy.com/presidential-daily-brief/pdb-92875/legal-limbo-92893/"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="Email Share">
+										<i class="ozy-icon i-email-share-circled i-email-share-circled-dims"></i>
+										<i class="assistive-text">Email To A Friend</i>
+									</a>
+																	</div>
+							</div>
+						</article>
+					</li>
+										<li class="">
+						<a id="article92896" class="hash-link"></a>
+						<article class="pdb-content">
+							<div class="pdb-story">
+								<!--Thumbnail-->
+																<div class="">
+																	</div>
+								<!--Headline-->
+								<h2>
+																			<a href="https://www.ozy.com/presidential-daily-brief/pdb-92875/in-short-92896/">
+											Also Important…										</a>
+																		</h2>
+								<!--Content-->
+								<p>Vice President Mike Pence unveiled <strong><a href="http://time.com/5537438/sanctions-venezuela-maduro/" target="_blank" rel="noopener noreferrer">new U.S. sanctions against Venezuela</a></strong> yesterday. Iranian Foreign Minister Mohammad Javad Zarif <strong><a href="https://www.bbc.com/news/world-middle-east-47362962" target="_blank" rel="noopener noreferrer">has unexpectedly announced he’s stepping down</a></strong> from his post. And Russian state television <strong><a href="https://www.reuters.com/article/us-usa-nuclear-russia/after-putins-warning-russian-tv-lists-nuclear-targets-in-u-s-idUSKCN1QE1DM" target="_blank" rel="noopener noreferrer">aired the locations of the U.S. military facilities</a> </strong>that Moscow would attack in the event of nuclear war.</p>
+<p><strong><a href="https://twitter.com/ozyfacts" target="_blank" rel="noopener noreferrer">#OZYfact</a>:</strong> Dr. Rebecca Lee Crumpler was the first Black woman in America to earn a medical degree. Read more <a href="https://www.ozy.com/flashback/meet-the-trailblazing-black-female-doctor-american-history-forgot/92708" target="_blank" rel="noopener noreferrer">on OZY</a>.</p>
+<p><strong>We’re hiring!</strong> OZY is looking for an ambitious journalist to cover business and finance. Could this be you? Check out the <a href="https://www.ozy.com/jobs/business-editor/reporter/79459" target="_blank" rel="noopener noreferrer">job description</a> for more details … and find all our open jobs <a href="https://www.ozy.com/jobs" target="_blank" rel="noopener noreferrer">right here</a>.</p>							</div>
+							<div class="pdb-meta">
+								<h3 class="short-title">
+									In Short								</h3>
+								<div class="time-meta">
+									<span class="important">Important</span>
+																										</div>
+																<div class="share-buttons">
+																		<a class="facebook-share share-button-circular addthis_button_facebook at300b"
+									   facebook-share=""
+									   addthis:url="https://www.ozy.com/presidential-daily-brief/pdb-92875/in-short-92896/"
+									   addthis:title="Also Important…"
+									   addthis:description="Also Important…"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="FB Share"
+									   href="javascript:void(0)"
+									   xmlns:addthis="https://www.ozy.com/2013/addthis">
+										<i class="ozy-icon i-facebook-logo i-facebook-logo-dims"></i>
+										<i class="assistive-text">Share On Facebook</i>
+									</a>
+									<a class="twitter-share share-button-circular addthis_button_twitter"
+									   twitter-share=""
+									   addthis:url="https://www.ozy.com/presidential-daily-brief/pdb-92875/in-short-92896/"
+									   addthis:title="Also Important…"
+									   addthis:description="Also Important…"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="TW Share" href="javascript:void(0)"
+									   xmlns:addthis="https://www.ozy.com/2013/addthis">
+										<i class="ozy-icon i-twitter-white-silhouette i-twitter-white-silhouette-dims"></i>
+										<i class="assistive-text">Share On Twitter</i>
+									</a>
+																		<a class="email-share share-button-circular"
+									   href="mailto:?subject=In%20Short%20-%20Also%20Important…&#038;body=In%20Short%20-%20Also%20Important…%20-%20https://www.ozy.com/presidential-daily-brief/pdb-92875/in-short-92896/"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="Email Share">
+										<i class="ozy-icon i-email-share-circled i-email-share-circled-dims"></i>
+										<i class="assistive-text">Email To A Friend</i>
+									</a>
+																	</div>
+							</div>
+						</article>
+					</li>
+								</ol>
+		</div>
+	</div>
+
+<div data-inline-ad-wrapper mode='smart-ad-server' ad-params='{"siteId":70596,"pageId":702085,"formatId":"31143","target":"category=important;"}' ></div>
+	<div class="pdb-stories container">
+		<span class="pdb-stamp"></span>
+		<div class="pdb-intriguing pdb-categories">
+			<div class="section-heading">
+				<h4 class="heading">Intriguing</h4>
+			</div>
+			<ol>
+									<li class="">
+						<a id="article92889" class="hash-link"></a>
+						<article class="pdb-content">
+							<div class="pdb-story">
+								<!--Thumbnail-->
+																<div class="image">
+									<img src="https://assets.ozy.com/ozy-prod/2019/07/shutterstock_237385609.jpg?crop=0px%2C172px%2C2400px%2C2400px&#038;resize=440%2C440"  width="auto" alt="elon musk shutterstock 237385609" height="auto" />								</div>
+								<!--Headline-->
+								<h2>
+																			<a href="https://www.ozy.com/presidential-daily-brief/pdb-92875/tweet-that-92889/">
+											Elon Musk Angers the SEC — Again										</a>
+																		</h2>
+								<!--Content-->
+								<p>The Securities and Exchange Commission filed a request yesterday for the Tesla CEO to be held in contempt of court for his unrestrained tweeting. A $20 million settlement last year requires Musk to get preapproval for public statements that could impact Tesla’s valuation. But he allegedly violated that deal in a series of tweets this month, including a claim, which appeared to contradict company reports, that Tesla would make around 500,000 cars in 2019.</p>
+<p><strong>What punishment will he face?</strong> Experts say the judge will likely fine Musk and warn him that further violations will get him temporarily banned from serving as an officer in a public company.</p>
+<p><em>Check out <a href="https://www.ozy.com/need-to-know/can-elon-musk-tweet-tesla-into-the-black/88565" target="_blank" rel="noopener noreferrer">this OZY explainer</a> on Musk’s controversial Twitter habit.</em></p>							</div>
+							<div class="pdb-meta">
+								<h3 class="short-title">
+									Tweet That								</h3>
+								<div class="time-meta">
+									<span class="important">Intriguing</span>
+																										</div>
+																	<div class="read-more">
+										<span>Sources:</span>
+										<div class="tags">
+																							<a href="https://www.wired.com/story/elon-musk-tweet-tesla-contempt-court-sec/" target="_blank">Wired</a>
+																								<a href="https://www.npr.org/2019/02/25/698008458/sec-says-tesla-chief-elon-musks-tweets-violated-court-settlement" target="_blank">NPR</a>
+																						</div>
+									</div>
+																	<div class="share-buttons">
+																		<a class="facebook-share share-button-circular addthis_button_facebook at300b"
+									   facebook-share=""
+									   addthis:url="https://www.ozy.com/presidential-daily-brief/pdb-92875/tweet-that-92889/"
+									   addthis:title="Elon Musk Angers the SEC — Again"
+									   addthis:description="Elon Musk Angers the SEC — Again"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="FB Share"
+									   href="javascript:void(0)"
+									   xmlns:addthis="https://www.ozy.com/2013/addthis">
+										<i class="ozy-icon i-facebook-logo i-facebook-logo-dims"></i>
+										<i class="assistive-text">Share On Facebook</i>
+									</a>
+									<a class="twitter-share share-button-circular addthis_button_twitter"
+									   twitter-share=""
+									   addthis:url="https://www.ozy.com/presidential-daily-brief/pdb-92875/tweet-that-92889/"
+									   addthis:title="Elon Musk Angers the SEC — Again"
+									   addthis:description="Elon Musk Angers the SEC — Again"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="TW Share" href="javascript:void(0)"
+									   xmlns:addthis="https://www.ozy.com/2013/addthis">
+										<i class="ozy-icon i-twitter-white-silhouette i-twitter-white-silhouette-dims"></i>
+										<i class="assistive-text">Share On Twitter</i>
+									</a>
+																		<a class="email-share share-button-circular"
+									   href="mailto:?subject=Tweet%20That%20-%20Elon%20Musk%20Angers%20the%20SEC%20—%20Again&#038;body=Tweet%20That%20-%20Elon%20Musk%20Angers%20the%20SEC%20—%20Again%20-%20https://www.ozy.com/presidential-daily-brief/pdb-92875/tweet-that-92889/"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="Email Share">
+										<i class="ozy-icon i-email-share-circled i-email-share-circled-dims"></i>
+										<i class="assistive-text">Email To A Friend</i>
+									</a>
+																	</div>
+							</div>
+						</article>
+					</li>
+										<li class="">
+						<a id="article92878" class="hash-link"></a>
+						<article class="pdb-content">
+							<div class="pdb-story">
+								<!--Thumbnail-->
+																<div class="image">
+									<img src="https://assets.ozy.com/ozy-prod/2019/07/sweatshop.jpg?width=440&#038;height=440&#038;fit=cover"  width="auto" alt="sweatshop" height="auto" />								</div>
+								<!--Headline-->
+								<h2>
+																			<a href="https://www.ozy.com/presidential-daily-brief/pdb-92875/fashion-police-92878/">
+											Oxfam Blasts Australian Fashion Brands for ‘Exploitation’										</a>
+																		</h2>
+								<!--Content-->
+								<p>In a new report, the charity condemns the country’s $16 billion <a href="https://www.ozy.com/fast-forward/black-women-help-harlem-emerge-as-a-global-fashion-hub/89743" target="_blank" rel="noopener noreferrer">fashion industry</a> for the “systemic exploitation” of laborers whose work is sold at major stores such as Kmart, Target and Big W. Researchers interviewed more than 130 factory bosses and 472 female workers in Vietnam and Bangladesh, where they uncovered the widespread problem of “poverty wages.” In some cases, the garments were safeguarded more than the workers.</p>
+<p><strong>How much would better practices cost?</strong> An earlier study found that by paying universal living wages throughout the supply chain, the average retail price of one garment in Australia would rise by merely 1 percent.</p>							</div>
+							<div class="pdb-meta">
+								<h3 class="short-title">
+									Fashion Police								</h3>
+								<div class="time-meta">
+									<span class="important">Intriguing</span>
+																										</div>
+																	<div class="read-more">
+										<span>Sources:</span>
+										<div class="tags">
+																							<a href="https://www.sbs.com.au/news/australian-fashion-brands-operating-shocking-conditions-reports-oxfam" target="_blank">SBS News</a>
+																								<a href="https://www.sightmagazine.com.au/news/11558-clothes-sold-in-australia-made-by-workers-surviving-on-poverty-wages-in-bangladesh-and-vietnam-according-to-new-oxfam-research" target="_blank">Sight Magazine</a>
+																						</div>
+									</div>
+																	<div class="share-buttons">
+																		<a class="facebook-share share-button-circular addthis_button_facebook at300b"
+									   facebook-share=""
+									   addthis:url="https://www.ozy.com/presidential-daily-brief/pdb-92875/fashion-police-92878/"
+									   addthis:title="Oxfam Blasts Australian Fashion Brands for ‘Exploitation’"
+									   addthis:description="Oxfam Blasts Australian Fashion Brands for ‘Exploitation’"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="FB Share"
+									   href="javascript:void(0)"
+									   xmlns:addthis="https://www.ozy.com/2013/addthis">
+										<i class="ozy-icon i-facebook-logo i-facebook-logo-dims"></i>
+										<i class="assistive-text">Share On Facebook</i>
+									</a>
+									<a class="twitter-share share-button-circular addthis_button_twitter"
+									   twitter-share=""
+									   addthis:url="https://www.ozy.com/presidential-daily-brief/pdb-92875/fashion-police-92878/"
+									   addthis:title="Oxfam Blasts Australian Fashion Brands for ‘Exploitation’"
+									   addthis:description="Oxfam Blasts Australian Fashion Brands for ‘Exploitation’"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="TW Share" href="javascript:void(0)"
+									   xmlns:addthis="https://www.ozy.com/2013/addthis">
+										<i class="ozy-icon i-twitter-white-silhouette i-twitter-white-silhouette-dims"></i>
+										<i class="assistive-text">Share On Twitter</i>
+									</a>
+																		<a class="email-share share-button-circular"
+									   href="mailto:?subject=Fashion%20Police%20-%20Oxfam%20Blasts%20Australian%20Fashion%20Brands%20for%20‘Exploitation’&#038;body=Fashion%20Police%20-%20Oxfam%20Blasts%20Australian%20Fashion%20Brands%20for%20‘Exploitation’%20-%20https://www.ozy.com/presidential-daily-brief/pdb-92875/fashion-police-92878/"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="Email Share">
+										<i class="ozy-icon i-email-share-circled i-email-share-circled-dims"></i>
+										<i class="assistive-text">Email To A Friend</i>
+									</a>
+																	</div>
+							</div>
+						</article>
+					</li>
+										<li class="">
+						<a id="article92888" class="hash-link"></a>
+						<article class="pdb-content">
+							<div class="pdb-story">
+								<!--Thumbnail-->
+																<div class="image">
+									<img src="https://assets.ozy.com/ozy-prod/2019/07/shutterstock_473309494.jpg?width=440&#038;height=440&#038;fit=cover"  width="auto" alt="Narendra Modi shutterstock 473309494" height="auto" />								</div>
+								<!--Headline-->
+								<h2>
+																			<a href="https://www.ozy.com/presidential-daily-brief/pdb-92875/mystic-river-92888/">
+											In India, Science Clashes With Politics and Faith										</a>
+																		</h2>
+								<!--Content-->
+								<p>A river runs through it. The restoration of a dried waterway featured in ancient epics has become a focal point in the ruling Bharatiya Janata Party’s efforts to make India great again, <a href="https://www.ozy.com/fast-forward/modis-100-million-search-for-a-mythical-river/92644" target="_blank" rel="noopener noreferrer">OZY reports</a>. Despite most scientists being unconvinced that the Saraswati River began in the village of Adi Badri, the government has pumped around $100 million into getting it flowing again — part of a larger campaign promoting populism ahead of national elections.</p>
+<p><strong>How else does mythology influence science in India?</strong> Claims have included that ancient Indians designed jets that flew on donkey urine, as well as that one epic proves they mastered in vitro fertilization and stem cell therapy long before everyone else.</p>							</div>
+							<div class="pdb-meta">
+								<h3 class="short-title">
+									Mystic River								</h3>
+								<div class="time-meta">
+									<span class="important">Intriguing</span>
+																										</div>
+																	<div class="read-more">
+										<span>Sources:</span>
+										<div class="tags">
+																							<a href="https://www.ozy.com/fast-forward/modis-100-million-search-for-a-mythical-river/92644" target="_blank">OZY</a>
+																						</div>
+									</div>
+																	<div class="share-buttons">
+																		<a class="facebook-share share-button-circular addthis_button_facebook at300b"
+									   facebook-share=""
+									   addthis:url="https://www.ozy.com/presidential-daily-brief/pdb-92875/mystic-river-92888/"
+									   addthis:title="In India, Science Clashes With Politics and Faith"
+									   addthis:description="In India, Science Clashes With Politics and Faith"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="FB Share"
+									   href="javascript:void(0)"
+									   xmlns:addthis="https://www.ozy.com/2013/addthis">
+										<i class="ozy-icon i-facebook-logo i-facebook-logo-dims"></i>
+										<i class="assistive-text">Share On Facebook</i>
+									</a>
+									<a class="twitter-share share-button-circular addthis_button_twitter"
+									   twitter-share=""
+									   addthis:url="https://www.ozy.com/presidential-daily-brief/pdb-92875/mystic-river-92888/"
+									   addthis:title="In India, Science Clashes With Politics and Faith"
+									   addthis:description="In India, Science Clashes With Politics and Faith"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="TW Share" href="javascript:void(0)"
+									   xmlns:addthis="https://www.ozy.com/2013/addthis">
+										<i class="ozy-icon i-twitter-white-silhouette i-twitter-white-silhouette-dims"></i>
+										<i class="assistive-text">Share On Twitter</i>
+									</a>
+																		<a class="email-share share-button-circular"
+									   href="mailto:?subject=Mystic%20River%20-%20In%20India,%20Science%20Clashes%20With%20Politics%20and%20Faith&#038;body=Mystic%20River%20-%20In%20India,%20Science%20Clashes%20With%20Politics%20and%20Faith%20-%20https://www.ozy.com/presidential-daily-brief/pdb-92875/mystic-river-92888/"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="Email Share">
+										<i class="ozy-icon i-email-share-circled i-email-share-circled-dims"></i>
+										<i class="assistive-text">Email To A Friend</i>
+									</a>
+																	</div>
+							</div>
+						</article>
+					</li>
+										<li class="">
+						<a id="article92880" class="hash-link"></a>
+						<article class="pdb-content">
+							<div class="pdb-story">
+								<!--Thumbnail-->
+																<div class="image">
+									<img src="https://assets.ozy.com/ozy-prod/2019/07/shutterstock_1070317487.jpg?width=440&#038;height=440&#038;fit=cover"  width="auto" alt="shutterstock 1070317487" height="auto" />								</div>
+								<!--Headline-->
+								<h2>
+																			<a href="https://www.ozy.com/presidential-daily-brief/pdb-92875/damning-evidence-92880/">
+											Avenatti Offers Another R. Kelly Sex Tape										</a>
+																		</h2>
+								<!--Content-->
+								<p>As the disgraced performer pleaded not guilty yesterday to 10 counts of criminal sexual abuse, attorney Michael Avenatti said he’d obtained additional footage purportedly showing Kelly sexually assaulting a minor, and would deliver it to authorities. Avenatti previously gave Illinois prosecutors a tape he said depicted the 52-year-old abusing a 14-year-old girl. Kelly is due back in court March 22 after being released on $100,000 bail.</p>
+<p><strong>How are his alleged victims reacting? </strong>One says she feels “vindicated” after being widely shunned when testifying against him in 2008.</p>
+<p><em>Read <a href="https://www.ozy.com/opinion/how-a-rap-song-inspired-malawis-timesup/83370" target="_blank" rel="noopener noreferrer">this OZY story</a> about how a rap song inspired Malawi’s #TimesUp.</em></p>							</div>
+							<div class="pdb-meta">
+								<h3 class="short-title">
+									Damning Evidence								</h3>
+								<div class="time-meta">
+									<span class="important">Intriguing</span>
+																										</div>
+																	<div class="read-more">
+										<span>Sources:</span>
+										<div class="tags">
+																							<a href="https://www.billboard.com/articles/columns/hip-hop/8499812/r-kelly-second-sex-tape-michael-avenatti" target="_blank">Billboard</a>
+																								<a href="https://news.avclub.com/r-kelly-pleads-not-guilty-as-another-tape-allegedly-de-1832872621" target="_blank">AV Club</a>
+																								<a href="https://www.nytimes.com/2019/02/25/opinion/r-kelly-survivor-lisa-vanallen.html" target="_blank">NYT</a>
+																								<a href="https://www.nme.com/news/music/r-kelly-released-from-jail-after-posting-100000-bail-2454132" target="_blank">NME</a>
+																						</div>
+									</div>
+																	<div class="share-buttons">
+																		<a class="facebook-share share-button-circular addthis_button_facebook at300b"
+									   facebook-share=""
+									   addthis:url="https://www.ozy.com/presidential-daily-brief/pdb-92875/damning-evidence-92880/"
+									   addthis:title="Avenatti Offers Another R. Kelly Sex Tape"
+									   addthis:description="Avenatti Offers Another R. Kelly Sex Tape"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="FB Share"
+									   href="javascript:void(0)"
+									   xmlns:addthis="https://www.ozy.com/2013/addthis">
+										<i class="ozy-icon i-facebook-logo i-facebook-logo-dims"></i>
+										<i class="assistive-text">Share On Facebook</i>
+									</a>
+									<a class="twitter-share share-button-circular addthis_button_twitter"
+									   twitter-share=""
+									   addthis:url="https://www.ozy.com/presidential-daily-brief/pdb-92875/damning-evidence-92880/"
+									   addthis:title="Avenatti Offers Another R. Kelly Sex Tape"
+									   addthis:description="Avenatti Offers Another R. Kelly Sex Tape"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="TW Share" href="javascript:void(0)"
+									   xmlns:addthis="https://www.ozy.com/2013/addthis">
+										<i class="ozy-icon i-twitter-white-silhouette i-twitter-white-silhouette-dims"></i>
+										<i class="assistive-text">Share On Twitter</i>
+									</a>
+																		<a class="email-share share-button-circular"
+									   href="mailto:?subject=Damning%20Evidence%20-%20Avenatti%20Offers%20Another%20R.%20Kelly%20Sex%20Tape&#038;body=Damning%20Evidence%20-%20Avenatti%20Offers%20Another%20R.%20Kelly%20Sex%20Tape%20-%20https://www.ozy.com/presidential-daily-brief/pdb-92875/damning-evidence-92880/"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="Email Share">
+										<i class="ozy-icon i-email-share-circled i-email-share-circled-dims"></i>
+										<i class="assistive-text">Email To A Friend</i>
+									</a>
+																	</div>
+							</div>
+						</article>
+					</li>
+										<li class="">
+						<a id="article92887" class="hash-link"></a>
+						<article class="pdb-content">
+							<div class="pdb-story">
+								<!--Thumbnail-->
+																<div class="image">
+									<img src="https://assets.ozy.com/ozy-prod/2019/07/shutterstock_786723181.jpg?width=440&#038;height=440&#038;fit=cover"  width="auto" alt="shutterstock 786723181" height="auto" />								</div>
+								<!--Headline-->
+								<h2>
+																			<a href="https://www.ozy.com/presidential-daily-brief/pdb-92875/foul-play-92887/">
+											Details Emerge of Robert Kraft’s Solicitation Charge										</a>
+																		</h2>
+								<!--Content-->
+								<p>The New England Patriots owner faces up to a year in prison if convicted of soliciting a prostitute, according to documents made public yesterday. The graphic affidavit alleges the 77-year-old visited a Florida massage parlor — including on the day his team won the AFC Championship — that police say is part of a sex trafficking ring. The NFL released a statement saying its personal conduct policy applies to owners too.</p>
+<p><strong>Has a team owner faced legal trouble before?</strong> In 2014, Indianapolis Colts owner Jim Irsay was fined $500,000 and suspended for six games after a drug bust.</p>
+<p><em>Don’t miss <a href="https://www.ozy.com/the-huddle/-want-more-diversity-in-nfl-management-root-for-new-coaches-to-fail/92353" target="_blank" rel="noopener noreferrer">OZY’s story</a> about the diversity problem in <em>NFL management.</em></em></p>							</div>
+							<div class="pdb-meta">
+								<h3 class="short-title">
+									Foul Play								</h3>
+								<div class="time-meta">
+									<span class="important">Intriguing</span>
+																										</div>
+																	<div class="read-more">
+										<span>Sources:</span>
+										<div class="tags">
+																							<a href="https://sports.yahoo.com/nfl-statement-robert-kraft-personal-conduct-policy-applies-everyone-162027942.html" target="_blank">Yahoo Sports</a>
+																								<a href="https://bleacherreport.com/articles/2822361-robert-kraft-prostitution-allegations-detailed-in-affidavit-faces-year-in-jail" target="_blank">Bleacher Report</a>
+																						</div>
+									</div>
+																	<div class="share-buttons">
+																		<a class="facebook-share share-button-circular addthis_button_facebook at300b"
+									   facebook-share=""
+									   addthis:url="https://www.ozy.com/presidential-daily-brief/pdb-92875/foul-play-92887/"
+									   addthis:title="Details Emerge of Robert Kraft’s Solicitation Charge"
+									   addthis:description="Details Emerge of Robert Kraft’s Solicitation Charge"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="FB Share"
+									   href="javascript:void(0)"
+									   xmlns:addthis="https://www.ozy.com/2013/addthis">
+										<i class="ozy-icon i-facebook-logo i-facebook-logo-dims"></i>
+										<i class="assistive-text">Share On Facebook</i>
+									</a>
+									<a class="twitter-share share-button-circular addthis_button_twitter"
+									   twitter-share=""
+									   addthis:url="https://www.ozy.com/presidential-daily-brief/pdb-92875/foul-play-92887/"
+									   addthis:title="Details Emerge of Robert Kraft’s Solicitation Charge"
+									   addthis:description="Details Emerge of Robert Kraft’s Solicitation Charge"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="TW Share" href="javascript:void(0)"
+									   xmlns:addthis="https://www.ozy.com/2013/addthis">
+										<i class="ozy-icon i-twitter-white-silhouette i-twitter-white-silhouette-dims"></i>
+										<i class="assistive-text">Share On Twitter</i>
+									</a>
+																		<a class="email-share share-button-circular"
+									   href="mailto:?subject=Foul%20Play%20-%20Details%20Emerge%20of%20Robert%20Kraft’s%20Solicitation%20Charge&#038;body=Foul%20Play%20-%20Details%20Emerge%20of%20Robert%20Kraft’s%20Solicitation%20Charge%20-%20https://www.ozy.com/presidential-daily-brief/pdb-92875/foul-play-92887/"
+									   data-evcat="PDB Page" data-evact="Left Nav" data-evlabel="Email Share">
+										<i class="ozy-icon i-email-share-circled i-email-share-circled-dims"></i>
+										<i class="assistive-text">Email To A Friend</i>
+									</a>
+																	</div>
+							</div>
+						</article>
+					</li>
+								</ol>
+		</div>
+	</div>
+
+<div data-inline-ad-wrapper mode='smart-ad-server' ad-params='{"siteId":70596,"pageId":702085,"formatId":"31143","target":"category=intriguing;"}' ></div>
+
+<div class="pdb-sign-up pdb-sign-up-dark" data-simple-sign-up="">
+	<div class="pre-sign-up">
+		<form action="https://services.ozy.com/email" data-action="https://services.ozy.com/email" data-evcat="Pdb Page" data-evact="Pdb Middle" data-evlabel="Email Subscribed">
+			<h2>Get briefed like the President</h2>
+			<h3 class="tag-line">THE <strong>PRESIDENTIAL DAILY BRIEF</strong></h3>
+			<h3 class="prompt-long">Delivered to your inbox every morning</h3>
+			<fieldset>
+				<label for="email_address">
+					<span class="assistive-text">email address</span>
+				</label>
+				<label for="email_address" class="error">Invalid email</label>
+				<label for="email_address" class="alreadySubscribederror">Hey, it looks like you’re on our list already! Your subscription has been updated!</label>
+				<label for="email_address" class="servererror">
+					Well, that&#039;s embarrassing. An error occurred. Please email us at 					<a href="mailto:support@ozy.com">support@ozy.com</a>.
+				</label>
+				<input data-validators="minLength:1 abacus-validate-email" data-email="" type="email" id="email_address" class="email" name="email_address" placeholder="Hey, What&#039;s your email?">
+				<label for="email_address">
+					<span class="ozy-icon i-grey-envelope i-grey-envelope-dims"></span>
+				</label>
+				<input type="hidden" value="iwpdb" name="source" id="source">
+				<input type="hidden" value="DailyDose,PDB,O1" name="lid" id="lid">
+				<button type="submit" class="button">
+					<span class="arrow"></span>
+					<span class="button-text">Sign up</span>
+				</button>
+				<!--Terms and Conditions-->
+				<div class="ts-and-cs">
+					<a href="https://www.ozy.com/t-n-c">
+						<strong>Ozy</strong> Terms &amp; Conditions					</a>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	<div class="post-sign-up">
+		<h3>
+			<strong>Thank you</strong>
+		</h3>
+		<h3>
+			For signing up to 			<strong>Ozy</strong>
+		</h3>
+		<a class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/Ozy" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false" data-evcat="Pdb Page" data-evact="Pdb Middle" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=155498561323567&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2FOzy&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false">
+			<span style="vertical-align: bottom; width: 0; height: 0;">
+				<iframe name="f19bc2b63131ed4" width="1000px" height="1000px" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/plugins/like.php?action=like&amp;app_id=155498561323567&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Df22a9f95417d758%26domain%3Dwww.ozy.com%26origin%3Dhttps%253A%252F%252Fwww.ozy.com%252Ff1bb0b451272b8c%26relation%3Dparent.parent&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2FOzy&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false" class="" style="border: none; visibility: visible; width: 0; height: 0;"></iframe>
+			</span>
+		</a>
+	</div>
+</div>
+
+<div class="pdb-curators container full-width container-padding">
+	<div class="sleeve">
+		<ul id="pdb-curators" class="pdb-curators-content">
+			<li class="curator-title-block">
+				<div class="section-container">
+					<h2 class="section-name">Guest curator archive</h2>
+					<p class="section-description">OZY regularly invites guest curators to share what they think are the most important and intriguing stories of the day.</p>
+				</div>
+			</li>
+							<li class="featured">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-89965/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/h-k-d-gettyimages659287108.png?crop=0px%2C0px%2C2887px%2C2887px&#038;resize=600%2C600" data-image-tablet="https://assets.ozy.com/ozy-prod/2019/07/h-k-d-gettyimages659287108.png?crop=0px%2C0px%2C2887px%2C2887px&#038;resize=600%2C600" alt="OZY Guest curator: The &#039;Colored Girls&#039;">
+												<div class="caption">
+							<header>
+								<h3>The &#039;Colored Girls&#039;</h3>
+							</header>
+														<p class="date">October 14, 2018</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-87864/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/handlerchheadshot560x6201.jpg?crop=249px%2C0px%2C1599px%2C1599px&#038;resize=385%2C385" alt="OZY Guest curator: Chelsea Handler">
+												<div class="caption">
+							<header>
+								<h3>Chelsea Handler</h3>
+							</header>
+														<p class="date">July 22, 2018</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-87999/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/rubiorubio_marco122017rmb045r.png?crop=147px%2C0px%2C1905px%2C1905px&#038;resize=385%2C385" alt="OZY Guest curator: Senator Marco Rubio">
+												<div class="caption">
+							<header>
+								<h3>Senator Marco Rubio</h3>
+							</header>
+														<p class="date">July 15, 2018</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-87760/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/hasanretouched2010821.jpg?crop=443px%2C0px%2C5564px%2C5563px&#038;resize=385%2C385" alt="OZY Guest curator: Hasan Minhaj">
+												<div class="caption">
+							<header>
+								<h3>Hasan Minhaj</h3>
+							</header>
+														<p class="date">July 01, 2018</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-87214/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/logorightcorner.jpg?crop=158px%2C0px%2C1100px%2C1099px&#038;resize=385%2C385" alt="OZY Guest curator: Andrea Brimmer">
+												<div class="caption">
+							<header>
+								<h3>Andrea Brimmer</h3>
+							</header>
+														<p class="date">June 24, 2018</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-87265/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/gettyimages129076299.jpg?width=385&#038;height=385&#038;fit=cover" alt="OZY Guest curator: Senator Mike Lee">
+												<div class="caption">
+							<header>
+								<h3>Senator Mike Lee</h3>
+							</header>
+														<p class="date">June 17, 2018</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-86647/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/u-g-b-pelosi.jpg?crop=789px%2C109px%2C2727px%2C2727px&#038;resize=385%2C385" alt="OZY Guest curator: Nancy Pelosi">
+												<div class="caption">
+							<header>
+								<h3>Nancy Pelosi</h3>
+							</header>
+														<p class="date">May 13, 2018</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-86242/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/kerrypdb.jpg?crop=840px%2C0px%2C3355px%2C3354px&#038;resize=385%2C385" alt="OZY Guest curator: John Kerry">
+												<div class="caption">
+							<header>
+								<h3>John Kerry</h3>
+							</header>
+														<p class="date">April 22, 2018</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-85584/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/randpaulpdb.jpg?crop=654px%2C0px%2C1679px%2C1679px&#038;resize=385%2C385" alt="OZY Guest curator: Sen. Rand Paul">
+												<div class="caption">
+							<header>
+								<h3>Sen. Rand Paul</h3>
+							</header>
+														<p class="date">April 15, 2018</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-85317/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/gp2nb.jpg?crop=628px%2C0px%2C3540px%2C3540px&#038;resize=385%2C385" alt="OZY Guest curator: Gwyneth Paltrow">
+												<div class="caption">
+							<header>
+								<h3>Gwyneth Paltrow</h3>
+							</header>
+														<p class="date">March 11, 2018</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-82143/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/fw2i2359edit_0.jpg?crop=1101px%2C0px%2C1982px%2C1983px&#038;resize=385%2C385" alt="OZY Guest curator: Sen. John McCain">
+												<div class="caption">
+							<header>
+								<h3>Sen. John McCain</h3>
+							</header>
+														<p class="date">December 03, 2017</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-82142/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/bridges.jpg?crop=356px%2C0px%2C580px%2C580px&#038;resize=385%2C385" alt="OZY Guest curator: Jeff Bridges">
+												<div class="caption">
+							<header>
+								<h3>Jeff Bridges</h3>
+							</header>
+														<p class="date">November 26, 2017</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-81609/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/w-m-w-gettyimages474318568pdb.jpg?crop=890px%2C0px%2C2442px%2C2442px&#038;resize=385%2C385" alt="OZY Guest curator: Draymond Green">
+												<div class="caption">
+							<header>
+								<h3>Draymond Green</h3>
+							</header>
+														<p class="date">November 12, 2017</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-81833/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/s-y-h-duckworthpdb.jpg?width=385&#038;height=385&#038;fit=cover" alt="OZY Guest curator: Senator Tammy Duckworth">
+												<div class="caption">
+							<header>
+								<h3>Senator Tammy Duckworth</h3>
+							</header>
+														<p class="date">November 05, 2017</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-81668/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/jjpdb.jpg?crop=0px%2C0px%2C1856px%2C1856px&#038;resize=385%2C385" alt="OZY Guest curator: January Jones">
+												<div class="caption">
+							<header>
+								<h3>January Jones</h3>
+							</header>
+														<p class="date">October 29, 2017</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-80852/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/v-t-s-pdb.jpg?width=385&#038;height=385&#038;fit=cover" alt="OZY Guest curator: Andy Grammer">
+												<div class="caption">
+							<header>
+								<h3>Andy Grammer</h3>
+							</header>
+														<p class="date">September 17, 2017</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-80644/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/b-s-r-clinton.jpg?crop=0px%2C0px%2C1763px%2C1763px&#038;resize=385%2C385" alt="OZY Guest curator: Chelsea Clinton">
+												<div class="caption">
+							<header>
+								<h3>Chelsea Clinton</h3>
+							</header>
+														<p class="date">September 10, 2017</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-80297/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/r-w-a-marcusheadshotcopy.jpg?crop=1018px%2C0px%2C5532px%2C5532px&#038;resize=385%2C385" alt="OZY Guest curator: Marcus Samuelsson">
+												<div class="caption">
+							<header>
+								<h3>Marcus Samuelsson</h3>
+							</header>
+														<p class="date">August 27, 2017</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-80077/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/michaelchepdb.jpg?crop=380px%2C0px%2C3650px%2C3649px&#038;resize=385%2C385" alt="OZY Guest curator: Michael Che">
+												<div class="caption">
+							<header>
+								<h3>Michael Che</h3>
+							</header>
+														<p class="date">August 06, 2017</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-79529/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/c-h-y-jasonderulophotopdb.jpg?crop=0px%2C97px%2C3631px%2C3632px&#038;resize=385%2C385" alt="OZY Guest curator: Jason Derulo">
+												<div class="caption">
+							<header>
+								<h3>Jason Derulo</h3>
+							</header>
+														<p class="date">July 09, 2017</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-78726/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/i-n-b-neilblumenthalcopy.jpg?width=385&#038;height=385&#038;fit=cover" alt="OZY Guest curator: Neil Blumenthal">
+												<div class="caption">
+							<header>
+								<h3>Neil Blumenthal</h3>
+							</header>
+														<p class="date">May 28, 2017</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-77406/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/q-t-d-pdb.jpg?width=385&#038;height=385&#038;fit=cover" alt="OZY Guest curator: Senator Kamala Harris">
+												<div class="caption">
+							<header>
+								<h3>Senator Kamala Harris</h3>
+							</header>
+														<p class="date">May 14, 2017</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-76029/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/katie_couric_approved.jpg?crop=92px%2C0px%2C2930px%2C2931px&#038;resize=385%2C385" alt="OZY Guest curator: Katie Couric">
+												<div class="caption">
+							<header>
+								<h3>Katie Couric</h3>
+							</header>
+														<p class="date">March 26, 2017</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-76032/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/paugasol_hrcopy.jpg?crop=0px%2C0px%2C1048px%2C1048px&#038;resize=385%2C385" alt="OZY Guest curator: Pau Gasol">
+												<div class="caption">
+							<header>
+								<h3>Pau Gasol</h3>
+							</header>
+														<p class="date">March 12, 2017</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-74441/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/gettyimages467868762index.jpg?width=385&#038;height=385&#038;fit=cover" alt="OZY Guest curator: Tucker Carlson">
+												<div class="caption">
+							<header>
+								<h3>Tucker Carlson</h3>
+							</header>
+														<p class="date">February 19, 2017</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-74587/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/gettyimages508989464sepia.jpg?crop=450px%2C0px%2C2068px%2C2068px&#038;resize=385%2C385" alt="OZY Guest curator: Von Miller">
+												<div class="caption">
+							<header>
+								<h3>Von Miller</h3>
+							</header>
+														<p class="date">December 18, 2016</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-71999/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/pdb_0.jpg?crop=86px%2C0px%2C961px%2C962px&#038;resize=385%2C385" alt="OZY Guest curator: Brian Grazer">
+												<div class="caption">
+							<header>
+								<h3>Brian Grazer</h3>
+							</header>
+														<p class="date">September 25, 2016</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-71791/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/kenburns.jpg?crop=770px%2C0px%2C2358px%2C2358px&#038;resize=385%2C385" alt="OZY Guest curator: Ken Burns">
+												<div class="caption">
+							<header>
+								<h3>Ken Burns</h3>
+							</header>
+														<p class="date">September 18, 2016</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-70595/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/karl1200.jpg?crop=0px%2C0px%2C580px%2C580px&#038;resize=385%2C385" alt="OZY Guest curator: Karl Rove">
+												<div class="caption">
+							<header>
+								<h3>Karl Rove</h3>
+							</header>
+														<p class="date">July 17, 2016</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-66804/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/GettyImages-462347124.jpg?width=385&#038;height=385&#038;fit=cover" alt="OZY Guest curator: Bill Gates">
+												<div class="caption">
+							<header>
+								<h3>Bill Gates</h3>
+							</header>
+							<p class="description">Year in Review</p>							<p class="date">December 20, 2015</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-66493/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/f-r-d-pdb.jpg?crop=279px%2C0px%2C1996px%2C1996px&#038;resize=385%2C385" alt="OZY Guest curator: Valerie Jarrett">
+												<div class="caption">
+							<header>
+								<h3>Valerie Jarrett</h3>
+							</header>
+														<p class="date">December 06, 2015</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-64671/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/unnamed1a.jpg?width=385&#038;height=385&#038;fit=cover" alt="OZY Guest curator: Congressman Paul Ryan">
+												<div class="caption">
+							<header>
+								<h3>Congressman Paul Ryan</h3>
+							</header>
+														<p class="date">September 20, 2015</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-63094/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/GettyImages-471584018-copy1a-copy.jpg?width=385&#038;height=385&#038;fit=cover" alt="OZY Guest curator: Susan Wojcicki">
+												<div class="caption">
+							<header>
+								<h3>Susan Wojcicki</h3>
+							</header>
+														<p class="date">August 30, 2015</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-62403/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/satyaSEPIA-copy.jpg?crop=46px%2C0px%2C965px%2C965px&#038;resize=385%2C385" alt="OZY Guest curator: Satya Nadella">
+												<div class="caption">
+							<header>
+								<h3>Satya Nadella</h3>
+							</header>
+														<p class="date">August 02, 2015</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-61764/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/Michelle-Peruso1a-curated-PDB-page-topper-1680x964.jpg?width=385&#038;height=385&#038;fit=cover" alt="OZY Guest curator: Michelle Peluso">
+												<div class="caption">
+							<header>
+								<h3>Michelle Peluso</h3>
+							</header>
+														<p class="date">July 26, 2015</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-61434/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/PDB-mock-final.jpg?width=385&#038;height=385&#038;fit=cover" alt="OZY Guest curator: Maria Shriver">
+												<div class="caption">
+							<header>
+								<h3>Maria Shriver</h3>
+							</header>
+														<p class="date">June 28, 2015</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-60190/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/DSC_1357_sepia.jpg?width=385&#038;height=385&#038;fit=cover" alt="OZY Guest curator: Julián Castro">
+												<div class="caption">
+							<header>
+								<h3>Julián Castro</h3>
+							</header>
+														<p class="date">May 10, 2015</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-41388/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/u-z-l-curated-PDB-page-topper-1680x964.jpg?width=385&#038;height=385&#038;fit=cover" alt="OZY Guest curator: Arianna Huffington">
+												<div class="caption">
+							<header>
+								<h3>Arianna Huffington</h3>
+							</header>
+														<p class="date">April 19, 2015</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-38704/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/sd-111014-OZY-13-retouch.jpg?width=385&#038;height=385&#038;fit=cover" alt="OZY Guest curator: Jim Messina">
+												<div class="caption">
+							<header>
+								<h3>Jim Messina</h3>
+							</header>
+														<p class="date">January 11, 2015</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-37951/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/new_gates.jpg?width=385&#038;height=385&#038;fit=cover" alt="OZY Guest curator: Bill Gates">
+												<div class="caption">
+							<header>
+								<h3>Bill Gates</h3>
+							</header>
+							<p class="description">Year in Review</p>							<p class="date">December 14, 2014</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-34341/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/08/42-45792599.jpg?width=385&#038;height=385&#038;fit=cover" alt="OZY Guest curator: Janet Napolitano">
+												<div class="caption">
+							<header>
+								<h3>Janet Napolitano</h3>
+							</header>
+							<p class="description">Former Secretary of Homeland Security</p>							<p class="date">October 05, 2014</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-31727/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/h_14199893.jpg?width=385&#038;height=385&#038;fit=cover" alt="OZY Guest curator: Condoleezza Rice">
+												<div class="caption">
+							<header>
+								<h3>Condoleezza Rice</h3>
+							</header>
+														<p class="date">May 24, 2014</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-31525/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/s-w-x-h_14410924.jpg?width=385&#038;height=385&#038;fit=cover" alt="OZY Guest curator: Gwen Ifill">
+												<div class="caption">
+							<header>
+								<h3>Gwen Ifill</h3>
+							</header>
+														<p class="date">May 11, 2014</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-4313/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/Gates_Black_Large_Crop_BLv2.jpg?width=385&#038;height=385&#038;fit=cover" alt="OZY Guest curator: Bill Gates">
+												<div class="caption">
+							<header>
+								<h3>Bill Gates</h3>
+							</header>
+							<p class="description">Year in Review</p>							<p class="date">December 21, 2013</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-4166/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/IMG_0404.jpg?width=385&#038;height=385&#038;fit=cover" alt="OZY Guest curator: Jeb Bush">
+												<div class="caption">
+							<header>
+								<h3>Jeb Bush</h3>
+							</header>
+							<p class="description">43rd Governor of the State of Florida</p>							<p class="date">December 09, 2013</p>
+						</div>
+					</a>
+				</li>
+								<li class="">
+					<a href="https://www.ozy.com/presidential-daily-brief/pdb-3888/">
+												<img src="https://assets.ozy.com/ozy-prod/2019/07/e-x-m-Blair.jpg?width=385&#038;height=385&#038;fit=cover" alt="OZY Guest curator: Tony Blair">
+												<div class="caption">
+							<header>
+								<h3>Tony Blair</h3>
+							</header>
+							<p class="description">Tony Blair Former Prime Minister United Kingdom</p>							<p class="date">November 25, 2013</p>
+						</div>
+					</a>
+				</li>
+				
+		</ul>
+	</div>
+</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<footer class="index-footer" role="contentinfo">
+       
+<div id="ozy-footer"></div>
+</footer>
+
+
+</div> <!--#page-->
+
+
+<script type="text/html" id="oz-data-topic">
+	<div class="stories">
+		<ul></ul>
+		<div class="more-btn">
+						<a href="<%- url %>" data-evcat="Home Page" data-evact="More on Ozy" data-evlabel="<%- name %>">
+				<h3><span><%- name %></span></h3>
+								<span class="more">VIEW MORE</span>
+			</a>
+		</div>
+	</div>
+</script>
+
+<script type="text/html" id="oz-data-story-type">
+
+	
+	<li class="story <%- data.storyType %>">
+		<%= data.sponsoredBy %>
+		<a class="image" href="<%- data.storyUrl %>">
+			<img src="<%- data.image %>" alt="<%- data.title %>" class="lazy-loaded">
+		</a>
+		<div class="details">
+
+			<a href="<%- data.storyUrl %>">
+				<h3><%- data.title %></h3>
+				<p><%- data.description %></p>
+			</a>
+			<%- data.author %>
+
+			
+		</div>
+	</li>
+</script>
+
+<script type="text/html" id="tmpl-loadmore-stories">
+
+		<% _.each( posts, function( post, index ) { %>
+	<li class="new <%- post.section.color.background_classes %>" type="<%- post.layout %>">
+		<a href="<%- post.permalink %>" class="image">
+			<% if ( post.thumbnail ) { %>
+			<picture>
+				<img src="<%- post.thumbnail.src %>" alt="<%- post.title %>" >
+			</picture>
+			<% } %>
+			<% if ( post.layout ) { %>
+				<div class="play-btn">
+					<div class="play-btn-inner">
+						<i class="play-btn-bg"></i>
+						<i class="play-btn-bg-hover"></i>
+					</div>
+				</div>
+			<% } %>
+		</a>
+
+		<div class="text <%- post.section.color.css_classes %>">
+
+			<% if ( post.section.permalink && post.section.color && post.section.color.background_classes && post.section.color.css_classes && post.section.name ) { %>
+				<div class="list-tag-wrapper">
+					<a href="<%- post.section.permalink %>" class="list-tag <%- post.section.color.background_classes %> <%- post.section.color.css_classes %>">
+						<%= post.section.name %>
+					</a>
+				</div>
+			<% } %>
+
+			<h3>
+				<a href="<%- post.permalink %>">
+					<%= post.title %>
+				</a>
+			</h3>
+			<p><%= post.excerpt %></p>
+		</div>
+	</li>
+	<% } ) %>
+	</script>
+
+<script type="text/html" id="tmpl-loadmore-recommends-stories">
+
+		<% _.each( posts, function( post, index ) { %>
+	<li class="new" type="<%- post.layout %>">
+		<a href="<%- post.permalink %>" class="image">
+			<% if ( post.thumbnail ) { %>
+			<picture>
+				<img src="<%- post.thumbnail.src %>" alt="<%- post.title %>" >
+			</picture>
+			<% } %>
+			<% if ( post.layout ) { %>
+				<div class="play-btn">
+					<div class="play-btn-inner">
+						<i class="play-btn-bg"></i>
+						<i class="play-btn-bg-hover"></i>
+					</div>
+				</div>
+			<% } %>
+		</a>
+
+		<div class="text">
+
+			<% if ( post.section.permalink && post.section.color && post.section.color.background_classes && post.section.color.css_classes && post.section.name ) { %>
+				<div class="list-tag-wrapper">
+					<a href="<%- post.section.permalink %>" class="list-tag <%- post.section.color.background_classes %> <%- post.section.color.css_classes %>">
+						<%= post.section.name %>
+					</a>
+				</div>
+			<% } %>
+
+			<h3>
+				<a href="<%- post.permalink %>">
+					<%= post.title %>
+				</a>
+			</h3>
+			<p><%= post.excerpt %></p>
+		</div>
+	</li>
+	<% } ) %>
+	</script>
+
+<div class="contactme-popup hidden">
+	<div class="contactme animated zoomIn fadeIn" data-type="serious-a">
+				<div
+			class="contactme-section"
+			data-contact-me=""
+			style="background: url( https://pictures.ozy.com/Pictures/1065x640/P/web/t/d/d/PDB-ImageforMktcrop.jpg;) center top / cover no-repeat;"
+			data-image-tablet="https://pictures.ozy.com/Pictures/949x569/P/web/t/d/d/PDB-ImageforMktcrop.jpg"
+			data-image-desktop="https://pictures.ozy.com/Pictures/949x569/P/web/t/d/d/PDB-ImageforMktcrop.jpg"
+			data-image-large="https://pictures.ozy.com/Pictures/1065x640/P/web/t/d/d/PDB-ImageforMktcrop.jpg"
+			data-image-table-size="949x569"
+			data-image-desktop-size="949x569"
+			data-image-large-size="1065x640" 		>
+			<div class="close">
+				<span class="ozy-icon i-contactme-close i-contactme-close-dims"> </span>
+			</div>
+			<div class="pre-contact-me">
+				<h2> Contact <span class="contactAuthor"> </span></h2>
+				<form action="#" data-action="https://api.ozy.com/api/v1/contact/author" method="post" class="pre-form" data-evcat="Story Page" data-evact="Article Footer" data-evlabel="Contact Me Send Email">
+					<fieldset>
+						<label for="serverResponse" class="serverResponse">Something went wrong. Please try again later.</label>
+						<label for="Full_Name" class="Full_Nameerror error"> Invalid Name</label>
+						<input type="text" autofocus="" data-validators="minLength:1" data-full-name="" name="Full_Name" class="name" id="Full_Name" placeholder="Name">
+						<label for="email_address" class="email_addresserror error"> Invalid Email</label>
+						<input type="text" data-validators="minLength:1 abacus-validate-email" data-email="" id="email_address" class="email" name="email_address" placeholder="Email">
+						<label for="subject" class="subjecterror error"> Invalid Subject</label>
+						<input type="text" data-validators="minLength:1" data-subject="" name="subject" class="subject" id="subject" placeholder="Subject">
+						<label for="message" class="messageerror error"> Invalid Message</label>
+						<textarea rows="4" data-validators="minLength:1" data-message="" name="message" class="message" id="message" placeholder="Message"> </textarea>
+						<label for="recaptcha" class="captcha">Fill Captcha</label>
+						<input type="hidden" id="contact_id" class="contact_id" name="contact_id" value="4147">
+						<div id="recaptcha"></div>
+					</fieldset>
+					<button>contact</button>
+				</form>
+			</div>
+			<div class="post-contact-me">
+				<h2>
+					<i class="ozy-icon i-logo-ozy-video i-logo-ozy-video-dims">&nbsp;</i>
+					<span class="boldText">Thank you for getting in touch! </span>
+					<span>We have received your email and will get back to you as soon as possible. </span>
+				</h2>
+			</div>
+		</div>
+	</div>
+</div>
+<div data-sas-popup>
+	<script type="x/pagedata">
+	[
+    {
+        "ads": {
+            "popup": [
+                {
+                    "siteId": 70596,
+                    "pageId": 535489,
+                    "formatId": 30639
+                }
+            ]
+        }
+    }
+]	</script>
+</div>
+
+<div data-ozy-subscription-popup="true"
+	data-signup-src="https://www.ozy.com/ozy-ajax/get-popup-signup?security=8e6de70811"
+	data-popup-delay="15000"
+	data-ignore-days="14"
+	data-platforms="mobile,desktop">
+	</div>
+<script type="text/javascript">
+		/* MonsterInsights Scroll Tracking */
+			if ( typeof(jQuery) !== 'undefined' ) {
+				jQuery( document ).ready(function(){
+					function monsterinsights_scroll_tracking_load() {
+						if ( typeof(__gaTracker) !== 'undefined' && __gaTracker && __gaTracker.hasOwnProperty( "loaded" ) && __gaTracker.loaded == true ) {
+							(function(factory) {
+								factory(jQuery);
+							}(function($) {
+
+								/* Scroll Depth */
+								"use strict";
+								var defaults = {
+									percentage: true
+								};
+
+								var $window = $(window),
+									cache = [],
+									scrollEventBound = false,
+									lastPixelDepth = 0;
+
+								/*
+								 * Plugin
+								 */
+
+								$.scrollDepth = function(options) {
+
+									var startTime = +new Date();
+
+									options = $.extend({}, defaults, options);
+
+									/*
+									 * Functions
+									 */
+
+									function sendEvent(action, label, scrollDistance, timing) {
+
+										var fieldsArray = {
+											hitType       : 'event',
+											eventCategory : 'Scroll Depth',
+											eventAction   : action,
+											eventLabel    : label,
+											eventValue    : 1,
+											nonInteraction: 1
+										};
+
+										if ( 'undefined' === typeof MonsterInsightsObject || 'undefined' === typeof MonsterInsightsObject.sendEvent ) {
+											return;
+										}
+
+										MonsterInsightsObject.sendEvent( fieldsArray );
+										if (arguments.length > 3) {
+											fieldsArray = {
+												hitType        : 'timing',
+												timingCategory : 'Scroll Depth',
+												timingVar      : action,
+												timingValue    : timing,
+												timingLabel    : label,
+												nonInteraction: 1
+											};
+											MonsterInsightsObject.sendEvent( fieldsArray );
+										}
+									}
+
+									function calculateMarks(docHeight) {
+										return {
+											'25%' : parseInt(docHeight * 0.25, 10),
+											'50%' : parseInt(docHeight * 0.50, 10),
+											'75%' : parseInt(docHeight * 0.75, 10),
+											/* Cushion to trigger 100% event in iOS */
+											'100%': docHeight - 5
+										};
+									}
+
+									function checkMarks(marks, scrollDistance, timing) {
+										/* Check each active mark */
+										$.each(marks, function(key, val) {
+											if ( $.inArray(key, cache) === -1 && scrollDistance >= val ) {
+												sendEvent('Percentage', key, scrollDistance, timing);
+												cache.push(key);
+											}
+										});
+									}
+
+									function rounded(scrollDistance) {
+										/* Returns String */
+										return (Math.floor(scrollDistance/250) * 250).toString();
+									}
+
+									function init() {
+										bindScrollDepth();
+									}
+
+									/*
+									 * Public Methods
+									 */
+
+									/* Reset Scroll Depth with the originally initialized options */
+									$.scrollDepth.reset = function() {
+										cache = [];
+										lastPixelDepth = 0;
+										$window.off('scroll.scrollDepth');
+										bindScrollDepth();
+									};
+
+									/* Add DOM elements to be tracked */
+									$.scrollDepth.addElements = function(elems) {
+
+										if (typeof elems == "undefined" || !$.isArray(elems)) {
+											return;
+										}
+
+										$.merge(options.elements, elems);
+
+										/* If scroll event has been unbound from window, rebind */
+										if (!scrollEventBound) {
+											bindScrollDepth();
+										}
+
+									};
+
+									/* Remove DOM elements currently tracked */
+									$.scrollDepth.removeElements = function(elems) {
+
+										if (typeof elems == "undefined" || !$.isArray(elems)) {
+											return;
+										}
+
+										$.each(elems, function(index, elem) {
+
+											var inElementsArray = $.inArray(elem, options.elements);
+											var inCacheArray = $.inArray(elem, cache);
+
+											if (inElementsArray != -1) {
+												options.elements.splice(inElementsArray, 1);
+											}
+
+											if (inCacheArray != -1) {
+												cache.splice(inCacheArray, 1);
+											}
+
+										});
+
+									};
+
+									/*
+									 * Throttle function borrowed from:
+									 * Underscore.js 1.5.2
+									 * http://underscorejs.org
+									 * (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+									 * Underscore may be freely distributed under the MIT license.
+									 */
+
+									function throttle(func, wait) {
+										var context, args, result;
+										var timeout = null;
+										var previous = 0;
+										var later = function() {
+											previous = new Date;
+											timeout = null;
+											result = func.apply(context, args);
+										};
+										return function() {
+											var now = new Date;
+											if (!previous) previous = now;
+											var remaining = wait - (now - previous);
+											context = this;
+											args = arguments;
+											if (remaining <= 0) {
+												clearTimeout(timeout);
+												timeout = null;
+												previous = now;
+												result = func.apply(context, args);
+											} else if (!timeout) {
+												timeout = setTimeout(later, remaining);
+											}
+											return result;
+										};
+									}
+
+									/*
+									 * Scroll Event
+									 */
+
+									function bindScrollDepth() {
+
+										scrollEventBound = true;
+
+										$window.on('scroll.scrollDepth', throttle(function() {
+											/*
+											 * We calculate document and window height on each scroll event to
+											 * account for dynamic DOM changes.
+											 */
+
+											var docHeight = $(document).height(),
+												winHeight = window.innerHeight ? window.innerHeight : $window.height(),
+												scrollDistance = $window.scrollTop() + winHeight,
+
+												/* Recalculate percentage marks */
+												marks = calculateMarks(docHeight),
+
+												/* Timing */
+												timing = +new Date - startTime;
+
+											checkMarks(marks, scrollDistance, timing);
+										}, 500));
+
+									}
+
+									init();
+								};
+
+								/* UMD export */
+								return $.scrollDepth;
+
+							}));
+
+							jQuery.scrollDepth();
+						} else {
+							setTimeout(monsterinsights_scroll_tracking_load, 200);
+						}
+					}
+					monsterinsights_scroll_tracking_load();
+				});
+			}
+		/* End MonsterInsights Scroll Tracking */
+		
+</script><script type='text/javascript' src='https://www.ozy.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4'></script>
+<script type='text/javascript'>
+( 'fetch' in window ) || document.write( '<script src="https://www.ozy.com/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://www.ozy.com/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.26.0-0"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://www.ozy.com/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://www.ozy.com/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );
+</script>
+<script type='text/javascript' src='https://www.ozy.com/wp-includes/js/dist/vendor/react.min.js?ver=16.9.0'></script>
+<script type='text/javascript' src='https://www.ozy.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=16.9.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ozyExports = {"ozyImageDir":"https:\/\/images.ozy.com\/graphics","addThisConfig":{"pubid":"ra-520d1170720de4d0"},"googleRecaptcha":{"siteId":"6Le9QRoTAAAAAHdjO-U1p1oNToDE6DWix67LTonE"},"i10n":{"skipAdvert":"Skip Advert","close":"Close"},"logoSrc":{"src":"https:\/\/images.ozy.com\/graphics\/logo-animated-2x.gif"},"restBase":{"url":"https:\/\/www.ozy.com\/wp-json\/ozy\/v1","nonce":"4f2c30e3da"},"imageUrl":"https:\/\/images.ozy.com\/graphics"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.ozy.com/wp-content/themes/ozy-2019/assets/build/js/global.js?ver=1587225122'></script>
+<script type='text/javascript' src='https://www.ozy.com/wp-includes/js/comment-reply.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://embed.spokenlayer.com/v3/spokenlayer.js'></script>
+<script type='text/javascript' src='https://www.ozy.com/wp-content/themes/ozy-2019/assets/build/js/pdb.js?ver=1587225122'></script>
+<script type='text/javascript' src='https://www.ozy.com/wp-content/mu-plugins/jetpack/_inc/build/lazy-images/js/lazy-images.min.js?ver=8.4.2'></script>
+<script type='text/javascript' src='https://www.ozy.com/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://cdn.onesignal.com/sdks/OneSignalSDK.js?ver=5.3.2' async='async'></script>
+
+</body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 383/674 objects using memcached
+Page Caching using memcached 
+Database Caching 6/73 queries in 0.112 seconds using memcached
+
+Served from: www.ozy.com @ 2020-04-19 04:04:38 by W3 Total Cache
+-->

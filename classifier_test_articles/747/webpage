@@ -1,70 +1,1441 @@
-<!DOCTYPE html><html lang="en"><head><meta property="fb:pages" content="1435071773455316"/><link rel="manifest" href="/manifest.json"/><meta property="al:ios:app_store_id"/><meta property="al:ios:app_name"/><meta property="al:android:package"/><meta property="al:android:app_name"/><meta name="twitter:app:name:iphone"/><meta name="twitter:app:id:iphone"/><meta name="twitter:app:name:ipad"/><meta name="twitter:app:id:ipad"/><meta name="twitter:app:name:googleplay"/><meta name="twitter:app:id:googleplay"/><link rel="shortcut icon" type="image/x-icon" href="/_next/static/images/favicon-777f87abb86c2047a07330aa0510b9e8.ico"/><script>!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
-analytics.load("V0pPHL84jE4u8G3dNwEWUeE8S9cMVdOm");
-analytics.page();
-}}();</script><script src="https://js.recurly.com/v4/recurly.js"></script><link href="https://js.recurly.com/v4/recurly.css" rel="stylesheet" type="text/css"/><script type="text/javascript" id="hs-script-loader" async="" defer="" src="https://js.hs-scripts.com/6007149.js"></script><script src="https://b5783dbd01b545afb8aa49ab0a0582ff.js.ubembed.com" async=""></script><script>
-              !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
-              },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
-              a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
-              twq('init','ny3sc');
-              twq('track','PageView');
-              </script><script>
-              (function(e, t, n) {
-                if (e.snaptr) return;
-                var a = (e.snaptr = function() {
-                  a.handleRequest
-                    ? a.handleRequest.apply(a, arguments)
-                    : a.queue.push(arguments);
-                });
-                a.queue = [];
-                var s = "script";
-                r = t.createElement(s);
-                r.async = !0;
-                r.src = n;
-                var u = t.getElementsByTagName(s)[0];
-                u.parentNode.insertBefore(r, u);
-              })(window, document, "https://sc-static.net/scevent.min.js");
-            
-              snaptr("init", "f8577587-f899-493b-824d-579c105916df", {
-                user_email: "__INSERT_USER_EMAIL__"
-              });
-            
-              snaptr("track", "PAGE_VIEW");
-              </script><script>
-              !function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="https://www.redditstatic.com/ads/pixel.js",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);rdt('init','t2_4lr5vf6s');rdt('track', 'PageVisit');
-              </script><script>
-              (function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"26040214"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
-              </script><script data-obct="true" type="text/javascript">
-              /** DO NOT MODIFY THIS CODE**/
-              !function(_window, _document) {
-                var OB_ADV_ID='008b235ffb234b4db37a3a1866bc1fc8ab';
-                if (_window.obApi) {var toArray = function(object) {return Object.prototype.toString.call(object) === '[object Array]' ? object : [object];};_window.obApi.marketerId = toArray(_window.obApi.marketerId).concat(toArray(OB_ADV_ID));return;}
-                var api = _window.obApi = function() {api.dispatch ? api.dispatch.apply(api, arguments) : api.queue.push(arguments);};api.version = '1.1';api.loaded = true;api.marketerId = OB_ADV_ID;api.queue = [];var tag = _document.createElement('script');tag.async = true;tag.src = '//amplify.outbrain.com/cp/obtp.js';tag.type = 'text/javascript';var script = _document.getElementsByTagName('script')[0];script.parentNode.insertBefore(tag, script);}(window, document);
-                obApi('track', 'PAGE_VIEW');
-              </script><script src="//d8yw4927nnimu.cloudfront.net/script.js"></script><script type="text/javascript" data-collection-id="111" src="//vupulse.com/static/widget.js"></script><meta name="viewport" content="width=device-width"/><meta charSet="utf-8"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@realDailyWire"/><meta name="twitter:creator" content="@realDailyWire"/><meta property="og:type" content="website"/><meta property="og:locale" content="en_US"/><meta property="og:site_name" content="The Daily Wire"/><meta name="parsely-section" content="News"/><meta name="parsely-tags" content="China,Coronavirus,New England Patriots,Robert Kraft"/><meta name="parsely-pub-date" content="2020-04-02T15:40:55Z"/><meta name="parsely-link" content="https://www.dailywire.com/news/patriots-owner-bob-kraft-flies-almost-2-million-masks-to-u-s-from-china"/><meta name="parsely-image-url" content="https://dw-wp-production.imgix.net/2020/04/GettyImages-670340198.jpg?w=1200&amp;h=675&amp;ixlib=react-8.6.4"/><title>Patriots Owner Bob Kraft Flies Almost 2 Million Masks To U.S. From China | The Daily Wire</title><meta name="robots" content="index,follow"/><meta name="googlebot" content="index,follow"/><meta name="description" content="New England Patriots owner Robert Kraft, responding to the warning of Massachusetts Governor Charlie Baker that his state is in dire need of protective equipment including masks, sent his team jet to China to transport 1.7 million masks from China, donating $2 million, half of the cost of securing them. The Wall Street Journal reported [&amp;hellip;]"/><meta property="og:url" content="https://www.dailywire.com/news/patriots-owner-bob-kraft-flies-almost-2-million-masks-to-u-s-from-china"/><meta property="og:title" content="Patriots Owner Bob Kraft Flies Almost 2 Million Masks To U.S. From China"/><meta property="og:description" content="New England Patriots owner Robert Kraft, responding to the warning of Massachusetts Governor Charlie Baker that his state is in dire need of protective equipment including masks, sent his team jet to China to transport 1.7 million masks from China, donating $2 million, half of the cost of securing them. The Wall Street Journal reported [&amp;hellip;]"/><meta property="og:image" content="https://dw-wp-production.imgix.net/2020/04/GettyImages-670340198.jpg?w=1200&amp;h=675&amp;ixlib=react-8.6.4"/><meta property="og:image:alt" content="U.S. President Donald Trump (C) shakes hands with Robert Kraft (R), owner of the 2017 Super Bowl Champions the New England Patriots, at the White House in Washington, United States on April 19, 2017."/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="675"/><meta name="apple-itunes-app" content="app-id=undefined, app-argument=https://www.dailywire.com/news/patriots-owner-bob-kraft-flies-almost-2-million-masks-to-u-s-from-china"/><meta property="al:ios:url" content="https://www.dailywire.com/news/patriots-owner-bob-kraft-flies-almost-2-million-masks-to-u-s-from-china"/><meta property="al:android:url" content="https://www.dailywire.com/news/patriots-owner-bob-kraft-flies-almost-2-million-masks-to-u-s-from-china"/><meta name="twitter:app:url:iphone" content="https://www.dailywire.com/news/patriots-owner-bob-kraft-flies-almost-2-million-masks-to-u-s-from-china"/><meta name="twitter:app:url:ipad" content="https://www.dailywire.com/news/patriots-owner-bob-kraft-flies-almost-2-million-masks-to-u-s-from-china"/><meta name="twitter:app:url:googleplay" content="https://www.dailywire.com/news/patriots-owner-bob-kraft-flies-almost-2-million-masks-to-u-s-from-china"/><script type="application/ld+json">{
-    "@context": "http://schema.org",
-    "@type": "Article",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://www.dailywire.com/news/patriots-owner-bob-kraft-flies-almost-2-million-masks-to-u-s-from-china"
-    },
-    "headline": "Patriots Owner Bob Kraft Flies Almost 2 Million Masks To U.S. From China",
-    "image": [
-      "https://dw-wp-production.imgix.net/2020/04/GettyImages-670340198.jpg?w=1200&h=675&ixlib=react-8.6.4"
-     ],
-    "datePublished": "2020-04-02T15:40:55",
-    "dateModified": "2020-04-02T16:22:12",
-    "author": {
-      "@type": "Person",
-      "name": "Hank Berrien"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "The Daily Wire",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.dailywire.com/images/logo.png"
-      }
-    },
-    "description": "New England Patriots owner Robert Kraft, responding to the warning of Massachusetts Governor Charlie Baker that his state is in dire need of protective equipment including masks, sent his team jet to China to transport 1.7 million masks from China, donating $2 million, half of the cost of securing them. The Wall Street Journal reported [&hellip;]"
-  }</script><script async="" src="https://platform.twitter.com/widgets.js"></script><script async="" src="//www.instagram.com/embed.js"></script><meta name="next-head-count" content="33"/><link rel="preload" href="/_next/static/css/styles.60b0b1d6.chunk.css" as="style"/><link rel="stylesheet" href="/_next/static/css/styles.60b0b1d6.chunk.css"/><link rel="preload" href="/_next/static/Vub6yN5OTjoU5DipjZWde/pages/news/%5Bslug%5D.js" as="script"/><link rel="preload" href="/_next/static/Vub6yN5OTjoU5DipjZWde/pages/_app.js" as="script"/><link rel="preload" href="/_next/static/chunks/28.68103d6f03b86d55e339.js" as="script"/><link rel="preload" href="/_next/static/runtime/webpack-fef47862923d514c3085.js" as="script"/><link rel="preload" href="/_next/static/chunks/framework.d484dc14f0452eab1ded.js" as="script"/><link rel="preload" href="/_next/static/chunks/b11dc9a8abbd4d35c1e3fec748d0452e7f8707db.d4c84a15f4b5f6a21560.js" as="script"/><link rel="preload" href="/_next/static/chunks/081f69aa820423a87cbec845a089c08550610e25.39d2f7077b9654d045d1.js" as="script"/><link rel="preload" href="/_next/static/chunks/6366e11bcb24cc2c1204f6fbf2c0b99380fc53d8.96c8d331f4d3d42cfe6e.js" as="script"/><link rel="preload" href="/_next/static/chunks/1a7485c85f11338ccb7eab4ac71e443037b600f0.4116419d3a593b3185c8.js" as="script"/><link rel="preload" href="/_next/static/chunks/71c351776bf73a22864e68556bee1199e9f6b052.8d467106b418222959a0.js" as="script"/><link rel="preload" href="/_next/static/chunks/6007dd72c1d525865d4b79ebf02fd81f70373f42.73b87c0f2fb10775e2f1.js" as="script"/><link rel="preload" href="/_next/static/chunks/styles.5a640b5868cde59edb92.js" as="script"/><link rel="preload" href="/_next/static/runtime/main-d15709ffed81cd956f94.js" as="script"/><link rel="preload" href="/_next/static/chunks/7611a822.b6ed8cf5b87523730e65.js" as="script"/><link rel="preload" href="/_next/static/chunks/6656072dd7a85d2b080d4d0388c5e4f2eb134fd0.11821022fc3670a26f39.js" as="script"/><link rel="preload" href="/_next/static/chunks/30fe0d51615cdf6cda908114ddc0e0714c3117af.fb4f83dbd2dfca1e8650.js" as="script"/><link rel="preload" href="/_next/static/chunks/15dbbe848377939908eb6c79c471ffd08956f224.0275d50a26a1e778aa0d.js" as="script"/><link rel="preload" href="/_next/static/chunks/23970887e35e83b3020f381bce2d5e6892b9107e.3b3c6a0e2de9f3b5bd65.js" as="script"/><link rel="preload" href="/_next/static/chunks/8c53975af746cce51c3339ec3ca34d44b3bd6ea3.152f78a6a633ddeb4042.js" as="script"/><link rel="preload" href="/_next/static/chunks/bc27b3f2f30a0aa7029f54258e6598382a2cbc65.db3c5670da1a51b55ea6.js" as="script"/></head><body><div id="__next"><style data-emotion-css="dyc9sy">*{box-sizing:border-box;}html,body{margin:0;padding:0;}body,#__next{min-height:100vh;}body{font-family:"Lato",sans-serif;color:#141414;line-height:1.75;font-weight:400;min-width:320px;text-rendering:optimizeLegibility;font-feature-settings:"pnum";font-variant-numeric:proportional-nums;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overscroll-behavior-y:none;}h1,h2,h3,h4,h5,h6{margin:0 0 1.5rem;line-height:1.25;}figure{margin:0;padding:0;}img{max-width:100%;height:auto;}p{margin:1.5rem 0;}a{-webkit-text-decoration:none;text-decoration:none;}button{cursor:pointer;}@media (max-width:48em){body{font-size:0.9375rem;}}</style><style data-emotion-css="rywwip">.css-rywwip{width:100%;min-height:100vh;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}</style><div class="css-rywwip eugth8y0"><style data-emotion-css="12wu8je">.css-12wu8je{background-color:#0D0D0D;color:#fff;z-index:100;}</style><header class="css-12wu8je ekhjxqt0"><style data-emotion-css="155glzp">.css-155glzp{margin-right:auto;margin-left:auto;width:100%;padding-left:24px;padding-right:24px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;position:relative;height:80px;}@media (min-width:400px){.css-155glzp{max-width:560px;}}@media (min-width:400px){.css-155glzp{max-width:560px;}}@media (min-width:750px){.css-155glzp{max-width:824px;padding-left:48px;padding-right:48px;}}@media (min-width:1000px){.css-155glzp{max-width:1296px;}}</style><div class="css-155glzp ekhjxqt1"><a href="/"><style data-emotion-css="18dt6si">.css-18dt6si{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;-webkit-clip:rect(0,0,0,0);clip:rect(0,0,0,0);white-space:nowrap;border:0;}</style><span class="css-18dt6si">The Daily Wire</span><svg width="167" height="28" viewBox="0 0 167 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.6582 18.1983C12.6582 16.2507 11.7926 14.5346 10.2701 13.4908C9.22059 12.7946 7.69852 12.3778 5.94015 12.3778C5.33644 12.3778 4.7595 12.4236 4.28693 12.4703V24.2281C4.28693 24.321 4.3397 24.3669 4.41846 24.3669C4.83826 24.4136 5.41559 24.4369 5.88777 24.4369C7.46223 24.4369 9.01069 24.0426 10.1394 23.231C11.6347 22.1642 12.6582 20.5173 12.6582 18.2216V18.1983ZM16.7782 18.1057C16.7782 21.4914 15.2042 24.0888 12.553 25.7816C10.6639 27.0113 8.14472 27.5674 5.2317 27.5674C4.12943 27.5674 2.94839 27.5441 2.10917 27.5212C1.40032 27.4978 0.613476 27.4745 0.00976562 27.4282V27.3123C0.377191 27.1035 0.377191 26.2456 0.377191 19.4971V16.946C0.377191 10.6615 0.377191 9.8732 0.0361488 9.71064V9.47886C0.587092 9.45553 1.40032 9.38591 2.47621 9.36258C3.57848 9.3163 4.54962 9.29297 5.59952 9.29297C8.53814 9.29297 10.7947 9.8032 12.527 10.754C15.5188 12.3543 16.7782 15.2531 16.7782 18.0823V18.1057Z" fill="#ffffff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M30.3812 21.1453L30.3552 21.0757C28.8595 17.62 28.4917 16.6458 28.2822 15.9734H28.2558C28.0195 16.6458 27.6257 17.62 26.0776 21.0757L26.0516 21.1453H30.3812ZM24.8706 23.9047C23.7683 26.2707 23.3489 27.2216 23.6108 27.3604V27.4996H21.3279H18.9922V27.3604C19.2812 27.2216 19.7794 26.2707 23.1122 19.4756L28.1507 9.08594H28.728L33.6876 19.4989C36.9417 26.2474 37.4139 27.2216 37.7029 27.3604V27.4996H35.3932H32.7433V27.3604C33.0056 27.2216 32.5858 26.2474 31.5359 23.9047H24.8706Z" fill="#ffffff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M46.8563 19.498C46.8563 26.2469 46.8563 27.0814 47.2233 27.3599V27.4987H44.9404H42.5527V27.3366C42.9198 27.0814 42.9198 26.2469 42.9198 19.5214V16.9469C42.9198 10.6624 42.9198 9.8041 42.5791 9.57271V9.41016H44.8884H47.197V9.57271C46.8563 9.8041 46.8563 10.6391 46.8563 16.9469V19.498Z" fill="#ffffff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M54.9793 16.9469C54.9793 10.6624 54.9793 9.8041 54.6387 9.57271V9.41016H57H59.2305V9.57271C58.8895 9.82744 58.8895 10.6624 58.8895 16.9469V19.4514V24.3444C58.8895 24.507 58.9419 24.554 59.1258 24.554H63.3769C63.9803 24.554 64.2949 24.5303 64.6367 24.484C64.925 24.4378 65.2665 24.3444 65.3452 24.2523H65.5547C65.5283 25.6437 65.5283 26.2469 65.5024 27.4987H60.4112H54.6387V27.3132C54.9793 27.1277 54.9793 26.2235 54.9793 19.498V16.9469Z" fill="#ffffff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M77.7455 20.0316V20.6573C77.7455 26.2002 77.7455 27.174 78.1133 27.3599V27.4987H75.83H73.442V27.3366C73.809 27.1511 73.809 26.2002 73.809 20.704V20.2167L71.9463 17.2716C67.7475 10.6161 67.2225 9.73449 66.8555 9.54899V9.41016H69.4271H71.8939V9.54899C71.6048 9.71155 72.2085 10.6857 73.6786 13.0972C74.4391 14.3962 75.2791 15.7643 75.804 16.7151H75.8564C76.355 15.7643 77.1682 14.4887 77.9818 13.1669C79.5039 10.6857 80.1072 9.66488 79.8449 9.54899V9.41016H82.4429H84.5683V9.54899C84.2536 9.73449 83.7555 10.5928 79.5039 17.2716L77.7455 20.0316Z" fill="#ffffff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M110.124 27.8464H109.573C104.665 18.5005 104.036 17.1095 103.563 15.9264H103.537C103.065 17.1328 102.408 18.5472 97.3964 27.8464H96.8451L93.1189 16.5992C91.1242 10.662 90.8623 9.73449 90.5469 9.54899V9.41016H92.9089H95.2706V9.54899C94.93 9.73449 95.2706 10.6387 96.6876 15.1382C97.344 17.2483 97.6851 18.4076 98.0525 19.7761H98.1313C98.6558 18.5239 99.2335 17.3179 100.335 15.1148C101.49 12.9814 102.619 11.0567 103.406 9.59527H103.931C104.718 11.0334 105.741 12.8888 107.08 15.1844C108.051 17.202 108.68 18.5005 109.205 19.6831H109.258C109.625 18.2921 109.94 17.1328 110.517 15.2774C111.934 10.6161 112.302 9.71155 111.961 9.54899V9.41016H114.165H116.343V9.54899C116.028 9.75783 115.739 10.6387 113.798 16.5992L110.124 27.8464Z" fill="#ffffff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M126.446 19.498C126.446 26.2469 126.446 27.0814 126.813 27.3599V27.4987H124.53H122.143V27.3366C122.51 27.0814 122.51 26.2469 122.51 19.5214V16.9469C122.51 10.6624 122.51 9.8041 122.169 9.57271V9.41016H124.478H126.787V9.57271C126.446 9.8041 126.446 10.6391 126.446 16.9469V19.498Z" fill="#ffffff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M142.882 14.8822C142.882 13.2123 141.649 12.2389 139.681 12.2389C139.234 12.2389 138.867 12.2615 138.631 12.2848V17.8044C138.841 17.8273 139.13 17.8273 139.392 17.8273C140.127 17.8273 140.862 17.6422 141.386 17.3638C142.121 16.9928 142.882 16.2041 142.882 14.9056V14.8822ZM134.905 16.9462C134.905 10.6617 134.905 9.6879 134.59 9.59457V9.45573C135.036 9.4324 135.771 9.40946 136.505 9.38612C137.135 9.36279 138.29 9.33984 138.972 9.33984C140.468 9.33984 141.754 9.45573 142.909 9.78046C144.536 10.244 146.766 11.5892 146.766 14.6739C146.766 16.8307 145.506 18.2218 144.562 18.8249C144.063 19.1726 143.486 19.4973 143.04 19.6366V19.6828C143.407 20.1468 143.853 20.7037 147.79 25.5271C148.419 26.2921 149.233 27.22 149.495 27.3592V27.498H147.239H145.559C145.323 27.498 144.982 27.4747 144.719 27.4055C143.197 25.3875 141.413 23.0223 139.34 20.3327H138.631V21.2598C138.631 26.2462 138.657 27.22 138.946 27.3592V27.498H136.794H134.59V27.3592C134.905 27.22 134.905 26.2462 134.905 19.4973V16.9462Z" fill="#ffffff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M155.829 16.9469C155.829 10.6624 155.829 9.68821 155.514 9.54938V9.41016H160.92H166.247C166.247 10.4539 166.221 11.2656 166.221 12.6333H166.064C165.88 12.3786 164.699 12.309 163.098 12.309H159.739V16.8773H163.072C164.699 16.8773 165.197 16.854 165.381 16.6922H165.512V18.2687V19.962H165.381C165.197 19.7761 164.673 19.7528 163.125 19.7528H159.739V24.136C159.739 24.3444 159.765 24.4607 159.923 24.554C161.287 24.5766 163.098 24.5766 164.305 24.554C165.407 24.554 166.116 24.507 166.326 24.2752H166.483C166.457 25.667 166.457 26.432 166.457 27.4987H161.34H155.488V27.3599C155.829 27.2207 155.829 26.2469 155.829 19.498V16.9469Z" fill="#ffffff"></path><mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="167" height="28"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 27.8467H166.494V0H0V27.8467Z" fill="white"></path></mask><g mask="url(#mask0)"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.14475H62.5903V1.66797H0V2.14475Z" fill="#ffffff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M104.791 2.14475H166.493V1.66797H104.791V2.14475Z" fill="#ffffff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M71.8454 0.618729H71.1392C70.9763 0.618729 70.8576 0.638562 70.8032 0.698063H70.7637V0H71.954H72.4483H73.6631V0.698063H73.629C73.5646 0.638562 73.4505 0.618729 73.293 0.618729H72.5814V2.15369C72.5814 3.59998 72.5814 3.82709 72.6559 3.83254V3.86209H72.221H71.7763V3.83254C71.8454 3.79287 71.8454 3.59454 71.8454 2.15369V0.618729Z" fill="#ffffff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M85.2654 2.15369C85.2654 3.59454 85.2654 3.80221 85.3345 3.83254V3.86209H84.9096H84.4549V3.83254C84.5248 3.80221 84.5248 3.59454 84.5248 2.3913V2.22291H82.8801V2.3913C82.8801 3.59454 82.8801 3.80221 82.9487 3.83254V3.86209H82.5192H82.0742V3.83254C82.1437 3.80221 82.1437 3.59454 82.1437 2.15369V1.60885C82.1437 0.267558 82.1437 0.0595006 82.0797 0.0303336V0H82.5192H82.9441V0.0303336C82.8801 0.0595006 82.8801 0.267558 82.8801 1.43579V1.58902H84.5248V1.43579C84.5248 0.267558 84.5248 0.0595006 84.465 0.0303336V0H84.9096H85.3248V0.0303336C85.2654 0.0595006 85.2654 0.267558 85.2654 1.60885V2.15369Z" fill="#ffffff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M93.7222 1.60885C93.7222 0.267558 93.7222 0.0595006 93.6629 0.0299447V0H94.6802H95.6831C95.6831 0.223225 95.6777 0.396282 95.6777 0.68834H95.6482C95.6137 0.633895 95.3917 0.618729 95.0907 0.618729H94.4582V1.59446H95.0852C95.3917 1.59446 95.4852 1.58902 95.5202 1.55479H95.5446V1.89157V2.25286H95.5202C95.4852 2.21319 95.3871 2.20852 95.0953 2.20852H94.4582V3.14381C94.4582 3.18853 94.4633 3.21303 94.4924 3.23287C94.7492 3.23753 95.0907 3.23753 95.3172 3.23287C95.5248 3.23287 95.6587 3.22314 95.6975 3.17337H95.7273C95.7227 3.47048 95.7227 3.6342 95.7227 3.86171H94.7593H93.6582V3.83254C93.7222 3.80221 93.7222 3.59415 93.7222 2.15369V1.60885Z" fill="#ffffff"></path></g></svg></a><div style="visibility:hidden"><style data-emotion-css="bsxblf">.css-bsxblf{-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:transparent;border:0;padding:0;}.css-bsxblf:focus{outline:0;}</style><button class="css-bsxblf"><h2 class="css-18dt6si">Menu</h2><svg height="15" viewBox="0 0 24 15" width="24" xmlns="http://www.w3.org/2000/svg"><g fill="#fff" fill-rule="evenodd"><path d="m0 0h16v1h-16z"></path><path d="m0 7h24v1h-24z"></path><path d="m0 14h20v1h-20z"></path></g></svg></button><style data-emotion-css="6y8zlf">.css-6y8zlf{background:#fff;-webkit-transition:-webkit-transform 0.3s ease-in-out;-webkit-transition:transform 0.3s ease-in-out;transition:transform 0.3s ease-in-out;position:fixed;left:0;top:0;bottom:0;width:100%;z-index:100;-webkit-overflow-scrolling:touch;-webkit-transform:translateX(calc(-100%));-ms-transform:translateX(calc(-100%));transform:translateX(calc(-100%));}</style><div class="css-6y8zlf ebg13py0"><style data-emotion-css="8mi0ej">.css-8mi0ej{background-color:#fff;z-index:10;position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;height:100%;-webkit-overflow-scrolling:touch;overflow-y:auto;}</style><div class="css-8mi0ej ebg13py1"><style data-emotion-css="kxph0j">.css-kxph0j{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;padding:24px 23px;border-bottom:1px solid #E6E6E6;}</style><div class="css-kxph0j ebg13py6"><div><svg xmlns="http://www.w3.org/2000/svg" width="53" height="32" viewBox="0 0 53 32"><g fill="#141414" fill-rule="evenodd"><polygon points="0 17.131 17.689 17.131 24.567 .011 0 0"></polygon><polygon points="27.325 .01 26.346 2.447 46.869 2.447 47.852 0"></polygon><polygon points="0 29.367 0 31.814 51.548 31.814 52.53 29.367"></polygon><polygon points="0 24.473 0 26.92 48.838 26.92 49.822 24.473"></polygon><polygon points="0 19.578 0 22.025 45.292 22.025 46.275 19.578"></polygon><polygon points="52.136 14.683 21.43 14.683 20.447 17.13 51.153 17.13"></polygon><polygon points="49.034 9.789 23.396 9.789 22.413 12.236 48.05 12.236"></polygon><polygon points="52.136 4.894 25.363 4.894 24.38 7.341 51.153 7.341"></polygon></g></svg></div><button class="css-bsxblf"><span class="css-18dt6si">Close</span><svg height="12" viewBox="0 0 12 12" width="12" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="#807f80" stroke-linecap="round" stroke-linejoin="round"><path d="m11.5.5-11 11"></path><path d="m.5.5 11 11"></path></g></svg></button></div><style data-emotion-css="c7wrdw">.css-c7wrdw{margin:0;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;padding-bottom:32px;}</style><nav class="css-c7wrdw ebg13py2"><style data-emotion-css="1sjm66o">.css-1sjm66o{display:block;color:#141414;font-weight:700;font-size:21px;padding:0 32px;margin-top:24px;}</style><a class="css-1sjm66o ebg13py3" href="/">News</a><a class="css-1sjm66o ebg13py3" href="/shows">Shows</a><a class="css-1sjm66o ebg13py3" href="/discussions">Discussions</a><a class="css-1sjm66o ebg13py3" href="/election">2020 Election</a><a class="css-1sjm66o ebg13py3" href="/search/news">Search</a></nav><style data-emotion-css="xiif0u">.css-xiif0u{padding:24px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:flex-start;-webkit-box-align:flex-start;-ms-flex-align:flex-start;align-items:flex-start;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;background:#1A1A1A;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;}.css-xiif0u::before{content:"";height:56px;background:red;position:absolute;background:linear-gradient( to top,#ffffff 0%,rgba(255,255,255,0) 100% );top:-56px;left:0;right:0;}</style><div class="css-xiif0u ebg13py4"><style data-emotion-css="1czntnl">.css-1czntnl{font-family:"beaufortprobold";-webkit-appearance:none;-moz-appearance:none;appearance:none;border-radius:4px;cursor:pointer;line-height:1;text-align:center;-webkit-text-decoration:none;text-decoration:none;display:inline-block;border:1px solid;text-transform:uppercase;z-index:1;overflow:hidden;position:relative;-webkit-transition:all 0.5s ease;transition:all 0.5s ease;border:1px solid;background-color:transparent;color:#ffffff;border-color:#ffffff;-webkit-letter-spacing:1px;-moz-letter-spacing:1px;-ms-letter-spacing:1px;letter-spacing:1px;padding:10px 16px;font-size:12px;width:48%;}.css-1czntnl[type="submit"]{width:100%;}.css-1czntnl:focus{outline:none;}.css-1czntnl:disabled{background-color:#666666;border:1px solid #666666;color:#B3B3B3;cursor:not-allowed;}.css-1czntnl:hover{background-color:#ffffff;color:#0D0D0D;}</style><button class="css-1czntnl">Login</button><style data-emotion-css="ruv0zb">.css-ruv0zb{width:48%;font-family:"beaufortprobold";-webkit-appearance:none;-moz-appearance:none;appearance:none;border-radius:4px;cursor:pointer;line-height:1;text-align:center;-webkit-text-decoration:none;text-decoration:none;display:inline-block;border:1px solid;text-transform:uppercase;z-index:1;overflow:hidden;position:relative;-webkit-transition:all 0.5s ease;transition:all 0.5s ease;color:#ffffff;background-color:#D90000;border-color:#D90000;-webkit-letter-spacing:1px;-moz-letter-spacing:1px;-ms-letter-spacing:1px;letter-spacing:1px;padding:10px 16px;font-size:12px;}.css-ruv0zb[type="submit"]{width:100%;}.css-ruv0zb:focus{outline:none;}.css-ruv0zb:disabled{background-color:#666666;border:1px solid #666666;color:#B3B3B3;cursor:not-allowed;}.css-ruv0zb:hover{box-shadow:0px 4px 12px rgba(0,0,0,0.5);}</style><a class="css-ruv0zb ebg13py5" href="/subscribe">Subscribe</a></div></div></div></div></div></header><style data-emotion-css="l31w18">.css-l31w18{-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;background-color:#fff;}</style><main class="css-l31w18 e1k5gufo0"><article><style data-emotion-css="1v4sbfz">.css-1v4sbfz{margin-top:32px;margin-bottom:32px;margin-right:auto;margin-left:auto;width:100%;padding-left:24px;padding-right:24px;text-align:center;}@media (min-width:750px){.css-1v4sbfz{margin-top:48px;margin-bottom:48px;}}@media (min-width:400px){.css-1v4sbfz{max-width:560px;}}@media (min-width:400px){.css-1v4sbfz{max-width:560px;}}@media (min-width:750px){.css-1v4sbfz{max-width:824px;padding-left:48px;padding-right:48px;}}</style><header class="css-1v4sbfz"><style data-emotion-css="f6kmxe">.css-f6kmxe{font-family:"beaufortprobold";color:#D90000;font-size:11px;line-height:1.25;-webkit-letter-spacing:2px;-moz-letter-spacing:2px;-ms-letter-spacing:2px;letter-spacing:2px;text-transform:uppercase;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;}.css-f6kmxe::before,.css-f6kmxe::after{content:"";display:block;height:1px;background-color:#D90000;width:16px;margin:0 12px;}@media (min-width:750px){.css-f6kmxe::before,.css-f6kmxe::after{margin:0 16px;width:40px;}}@media (min-width:750px){.css-f6kmxe{font-size:12px;}}</style><time dateTime="2020-04-02T15:40:55.000+00:00" style="margin-bottom:16px" class="css-f6kmxe ewumbai11">April 2nd, 2020</time><style data-emotion-css="ul4kxx">.css-ul4kxx{font-size:24px;margin:1rem 0;line-height:1.25;font-family:"beaufortprobold";font-weight:normal;color:#0D0D0D;text-align:inherit;}@media (min-width:550px){.css-ul4kxx{font-size:32px;}}@media (min-width:1000px){.css-ul4kxx{font-size:40px;}}</style><h1 class="css-ul4kxx ewumbai0">Patriots Owner Bob Kraft Flies Almost 2 Million Masks To U.S. From China</h1><style data-emotion-css="1g85cgi">.css-1g85cgi{color:#666666;font-size:13px;}</style><span muted="" class="css-1g85cgi ewumbai9"><span muted="" class="css-1g85cgi ewumbai9">By  <a style="color:#666666" href="/author/hank-berrien">Hank Berrien</a></span><style data-emotion-css="1bhwyin">.css-1bhwyin::before{content:"";display:inline-block;vertical-align:middle;height:1em;border-left:1px solid;margin:0 16px;opacity:0.5;}</style><span class="css-1bhwyin ewumbai10"></span>DailyWire.com</span></header><style data-emotion-css="d4oiww">.css-d4oiww{padding:0 20px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin-top:32px;margin-bottom:32px;}@media (min-width:750px){.css-d4oiww{margin-top:48px;margin-bottom:48px;}}@media (min-width:750px){.css-d4oiww{padding:0 56px;}}</style><div class="css-d4oiww eizacda2"><style data-emotion-css="zkpt0z">@media (min-width:1000px){.css-zkpt0z{margin-top:-120px;}}</style><style data-emotion-css="xjjsls">.css-xjjsls{position:relative;margin:0 auto 24px;max-width:970px;line-height:0;overflow:hidden;}@media (min-width:750px){.css-xjjsls{margin-bottom:32px;}}@media (min-width:1000px){.css-xjjsls{margin-top:-120px;}}</style><figure class="css-xjjsls eizacda4"><img alt="U.S. President Donald Trump (C) shakes hands with Robert Kraft (R), owner of the 2017 Super Bowl Champions the New England Patriots, at the White House in Washington, United States on April 19, 2017." title="2017 Super Bowl Champions the New England Patriots Visit White House" width="970" height="546" src="https://dw-wp-production.imgix.net/2020/04/GettyImages-670340198.jpg?auto=format&amp;fit=crop&amp;ixlib=react-8.6.4&amp;h=546&amp;w=970" srcSet="https://dw-wp-production.imgix.net/2020/04/GettyImages-670340198.jpg?auto=format&amp;fit=crop&amp;ixlib=react-8.6.4&amp;h=546&amp;w=970&amp;q=75&amp;dpr=1 1x, https://dw-wp-production.imgix.net/2020/04/GettyImages-670340198.jpg?auto=format&amp;fit=crop&amp;ixlib=react-8.6.4&amp;h=546&amp;w=970&amp;q=50&amp;dpr=2 2x, https://dw-wp-production.imgix.net/2020/04/GettyImages-670340198.jpg?auto=format&amp;fit=crop&amp;ixlib=react-8.6.4&amp;h=546&amp;w=970&amp;q=35&amp;dpr=3 3x, https://dw-wp-production.imgix.net/2020/04/GettyImages-670340198.jpg?auto=format&amp;fit=crop&amp;ixlib=react-8.6.4&amp;h=546&amp;w=970&amp;q=23&amp;dpr=4 4x, https://dw-wp-production.imgix.net/2020/04/GettyImages-670340198.jpg?auto=format&amp;fit=crop&amp;ixlib=react-8.6.4&amp;h=546&amp;w=970&amp;q=20&amp;dpr=5 5x"/><style data-emotion-css="1eoba0z">.css-1eoba0z{position:absolute;bottom:0;right:0;background-color:rgba(255,255,255,0.7);font-size:11px;padding:12px 16px;font-weight:400;white-space:nowrap;overflow-x:auto;max-width:100%;}</style><figcaption class="css-1eoba0z ewumbai12">Photo by Samuel Corum/Anadolu Agency/Getty Images
-</figcaption></figure><style data-emotion-css="1ovkrgf">.css-1ovkrgf{-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin-bottom:24px;}@media (min-width:1000px){.css-1ovkrgf{margin-bottom:0;}}</style><style data-emotion-css="1m84wfo">.css-1m84wfo{margin-bottom:16px;}@media (min-width:1000px){.css-1m84wfo{position:-webkit-sticky;position:sticky;-webkit-order:-1;-ms-flex-order:-1;order:-1;margin:0 0 0 -56px;top:16px;left:0;width:40px;}}</style><div class="css-1m84wfo et2uo7q0"><style data-emotion-css="zjrdep">.css-zjrdep{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin-bottom:24px;}@media (min-width:1000px){.css-zjrdep{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}}@media (min-width:1000px){.css-zjrdep{margin-bottom:0;}}</style><div class="eizacda3 css-zjrdep et2uo7q1"><style data-emotion-css="120c1zg">.css-120c1zg{height:32px;width:32px;border-radius:100px;color:#fff;overflow:hidden;outline:none;cursor:pointer;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;background-color:#3a5999;}.css-120c1zg:not(:last-of-type){margin-right:12px;}.css-120c1zg svg{width:auto;height:12px;}@media (min-width:1000px){.css-120c1zg{height:40px;width:40px;border-radius:0;margin:0;}.css-120c1zg svg{width:15px;height:16px;}}</style><div aria-label="facebook" role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--facebook css-120c1zg et2uo7q2"><span class="css-18dt6si">Facebook</span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16"><path fill="#FFF" d="M3.02293,16 L3,9 L0,9 L0,6 L3,6 L3,4 C3,1.3008 4.67151,0 7.07938,0 C8.23277,0 9.22406,0.08587 9.51294,0.12425 L9.51294,2.94507 L7.84296,2.94583 C6.53343,2.94583 6.27987,3.5681 6.27987,4.48124 L6.27987,6 L10,6 L9,9 L6.27986,9 L6.27986,16 L3.02293,16 Z"></path></svg></div><style data-emotion-css="1rz8bf">.css-1rz8bf{height:32px;width:32px;border-radius:100px;color:#fff;overflow:hidden;outline:none;cursor:pointer;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;background-color:#56acee;}.css-1rz8bf:not(:last-of-type){margin-right:12px;}.css-1rz8bf svg{width:auto;height:12px;}@media (min-width:1000px){.css-1rz8bf{height:40px;width:40px;border-radius:0;margin:0;}.css-1rz8bf svg{width:15px;height:16px;}}</style><div aria-label="twitter" role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--twitter css-1rz8bf et2uo7q3"><span class="css-18dt6si">Twitter</span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" viewBox="0 0 16 13"><path fill="#FFF" d="M16,1.5 C15.4,1.8 14.8,1.9 14.1,2 C14.8,1.6 15.3,1 15.5,0.2 C14.9,0.6 14.2,0.8 13.4,1 C12.8,0.4 11.9,0 11,0 C9.3,0 7.8,1.5 7.8,3.3 C7.8,3.6 7.8,3.8 7.9,4 C5.2,3.9 2.7,2.6 1.1,0.6 C0.8,1.1 0.7,1.6 0.7,2.3 C0.7,3.4 1.3,4.4 2.2,5 C1.7,5 1.2,4.8 0.7,4.6 C0.7,4.6 0.7,4.6 0.7,4.6 C0.7,6.2 1.8,7.5 3.3,7.8 C3,7.9 2.7,7.9 2.4,7.9 C2.2,7.9 2,7.9 1.8,7.8 C2.2,9.1 3.4,10.1 4.9,10.1 C3.8,11 2.4,11.5 0.8,11.5 C0.5,11.5 0.3,11.5 0,11.5 C1.5,12.4 3.2,13 5,13 C11,13 14.3,8 14.3,3.7 C14.3,3.6 14.3,3.4 14.3,3.3 C15,2.8 15.6,2.2 16,1.5 Z"></path></svg></div><style data-emotion-css="14wexex">.css-14wexex{height:32px;width:32px;border-radius:100px;color:#fff;overflow:hidden;outline:none;cursor:pointer;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;background-color:#999999;}.css-14wexex:not(:last-of-type){margin-right:12px;}.css-14wexex svg{width:auto;height:12px;}@media (min-width:1000px){.css-14wexex{height:40px;width:40px;border-radius:0;margin:0;}.css-14wexex svg{width:15px;height:16px;}}</style><div aria-label="email" role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--email css-14wexex et2uo7q4"><span class="css-18dt6si">Mail</span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="#FFF" d="M26.8749645,12.0937832 C27.1457974,11.94795 27.4114217,11.963575 27.6718376,12.140658 C27.9322535,12.3177411 28.0416283,12.562532 27.9999619,12.8750313 L25.7499672,26.3749991 C25.7083008,26.6041651 25.5780926,26.7812481 25.3593431,26.9062478 C25.1405937,27.0312475 24.9270527,27.041664 24.7187197,26.9374978 L20.812479,25.3125016 L18.8437337,27.7187459 C18.6979005,27.9062455 18.5156095,27.9999952 18.29686,27.9999952 C18.0781105,27.9999952 17.890611,27.9322869 17.7343613,27.7968707 C17.5781117,27.6614545 17.4999869,27.4687465 17.4999869,27.2187471 L17.4999869,24.7187531 L25.0312189,15.531275 C25.0937188,15.4479417 25.0833023,15.3698169 24.999969,15.2969005 C24.9166357,15.2239842 24.8333029,15.2187757 24.7499696,15.2812756 L15.781241,23.1875067 L12.4687489,21.81251 C12.1770831,21.6875103 12.0208334,21.4687608 12,21.1562615 C11.9791666,20.8437623 12.1145832,20.6145963 12.406249,20.4687632 L26.8749645,12.0937832 Z" transform="translate(-12 -12)"></path></svg></div></div></div><div class="css-0"><style data-emotion-css="14mhynv">.css-14mhynv{margin:0 auto;width:100%;}.css-14mhynv a{color:#0077D9;border-bottom:1px solid #0077D9;}.css-14mhynv strong{font-weight:700;}.css-14mhynv p,.css-14mhynv li{font-weight:400;font-size:17px;}.css-14mhynv p{line-height:2;margin-top:0;margin-bottom:24px;}.css-14mhynv p + h2,.css-14mhynv p + h3,.css-14mhynv p + h4{margin-top:40px;}.css-14mhynv h2,.css-14mhynv h3,.css-14mhynv h4{font-weight:700;margin-top:24px;line-height:1.3;}.css-14mhynv h2{font-size:24px;}.css-14mhynv h3{font-size:21px;}.css-14mhynv h4{font-size:19px;}.css-14mhynv ul,.css-14mhynv ol{list-style:none;padding:0;margin:40px auto;line-height:1.75;}.css-14mhynv li{position:relative;margin:24px 0;margin-bottom:0;padding-left:40px;display:table;}.css-14mhynv ul li::before{content:"";height:6px;width:6px;background-color:#D90000;position:absolute;left:8px;top:14px;border-radius:50%;}.css-14mhynv ol{counter-reset:item-number;}.css-14mhynv ol li::before{counter-increment:item-number;content:counter(item-number) ".";position:absolute;left:8px;top:4px;color:#D90000;font-size:16px;font-weight:700;}.css-14mhynv blockquote{position:relative;margin-top:40px;margin-bottom:40px;padding:0 20px 0 40px;clear:left;}.css-14mhynv blockquote::before{content:"";position:absolute;left:8px;top:0;bottom:0;width:4px;background-color:#E6E6E6;}.css-14mhynv blockquote,.css-14mhynv blockquote p,.css-14mhynv blockquote cite{font-size:17px;font-weight:300;}.css-14mhynv blockquote p{margin-bottom:24px;}.css-14mhynv blockquote p:last-child{margin-bottom:0;}.css-14mhynv hr{margin:40px auto;border:none;height:1px;background-color:#E6E6E6;}.css-14mhynv p.has-drop-cap:first-of-type:first-letter{color:#D90000;font-size:104px;font-weight:700;line-height:1;float:left;padding:0px 24px 0 0;}.css-14mhynv .alignwide,.css-14mhynv .alignfull{max-width:970px;}.css-14mhynv .aligncenter{text-align:center;}.css-14mhynv .wp-block-image,.css-14mhynv .wp-block-media-text,.css-14mhynv .wp-block-embed{margin-top:32px;margin-bottom:32px;}.css-14mhynv .wp-block-pullquote blockquote{padding:0 20px;margin:32px 0;text-align:center;}.css-14mhynv .wp-block-pullquote blockquote p{font-size:21px;line-height:1.5;color:#D90000;margin-bottom:16px;}.css-14mhynv .wp-block-pullquote blockquote cite{font-weight:400;-webkit-letter-spacing:2px;-moz-letter-spacing:2px;-ms-letter-spacing:2px;letter-spacing:2px;color:#D90000;font-size:11px;text-transform:uppercase;font-style:normal;}.css-14mhynv .wp-block-pullquote blockquote::before{display:none;}.css-14mhynv figcaption{text-align:center;font-size:15px;font-weight:300;margin-top:16px;}.css-14mhynv .wp-block-media-text__media{margin-bottom:16px;}.css-14mhynv .wp-block-embed-instagram,.css-14mhynv .twitter-tweet,.css-14mhynv .instagram-media,.css-14mhynv .instagram-media-registered{width:100% !important;max-width:480px !important;}.css-14mhynv .twitter-tweet,.css-14mhynv .instagram-media,.css-14mhynv .instagram-media-registered{margin:32px auto !important;}.css-14mhynv .wp-block-embed.is-type-video .wp-block-embed__wrapper{position:relative;padding-bottom:56.25%;height:0;}.css-14mhynv .wp-block-embed.is-type-video .wp-block-embed__wrapper iframe{position:absolute;top:0;left:0;width:100%;height:100%;}@media (min-width:550px){.css-14mhynv p,.css-14mhynv li{font-size:19px;}.css-14mhynv p{line-height:2.25;margin-bottom:32px;}.css-14mhynv h2{font-size:28px;}.css-14mhynv h3{font-size:24px;}.css-14mhynv h4{font-size:21px;}.css-14mhynv hr{margin:56px auto;}.css-14mhynv blockquote{padding:0 48px 0 72px;}.css-14mhynv blockquote::before{left:32px;}}@media (min-width:1000px){.css-14mhynv .wp-block-image,.css-14mhynv .wp-block-media-text,.css-14mhynv .wp-block-embed{margin-top:40px;margin-bottom:40px;}.css-14mhynv .wp-block-pullquote blockquote{padding:0 48px;margin:40px 0;}.css-14mhynv .wp-block-pullquote blockquote p{font-size:32px;}.css-14mhynv .wp-block-pullquote blockquote cite{font-size:12px;}.css-14mhynv .wp-block-media-text:not(.alignwide) .wp-block-media-text__media,.css-14mhynv .wp-block-media-text:not(.alignfull) .wp-block-media-text__media{width:50%;}.css-14mhynv .wp-block-media-text:not(.alignwide).has-media-on-the-right .wp-block-media-text__media,.css-14mhynv .wp-block-media-text:not(.alignfull).has-media-on-the-right .wp-block-media-text__media{float:right;padding:12px 0 8px 32px;}.css-14mhynv .wp-block-media-text:not(.alignwide):not(.has-media-on-the-right) .wp-block-media-text__media,.css-14mhynv .wp-block-media-text:not(.alignfull):not(.has-media-on-the-right) .wp-block-media-text__media{float:left;padding:12px 32px 8px 0;}.css-14mhynv .wp-block-media-text.alignwide,.css-14mhynv .wp-block-media-text.alignfull{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}.css-14mhynv .wp-block-media-text.alignwide .wp-block-media-text__media,.css-14mhynv .wp-block-media-text.alignfull .wp-block-media-text__media{width:48%;margin:4px 0 0;}.css-14mhynv .wp-block-media-text.alignwide .wp-block-media-text__content,.css-14mhynv .wp-block-media-text.alignfull .wp-block-media-text__content{width:48%;}.css-14mhynv .wp-block-media-text.alignwide.has-media-on-the-right .wp-block-media-text__content,.css-14mhynv .wp-block-media-text.alignfull.has-media-on-the-right .wp-block-media-text__content{-webkit-order:-1;-ms-flex-order:-1;order:-1;}.css-14mhynv .wp-block-media-text.alignwide .wp-block-media-text__content p:last-child,.css-14mhynv .wp-block-media-text.alignfull .wp-block-media-text__content p:last-child{margin-bottom:0;}}.css-14mhynv > *{max-width:640px;margin-left:auto;margin-right:auto;}.css-14mhynv > .advertisment{max-width:920px;margin:40px auto;overflow:hidden;text-align:center;}.css-14mhynv > .advertisment::before{display:block;content:"We’ll be right back after a word from this banner. Continue below  ↓";font-size:12px;color:#666666;padding-bottom:12px;}.css-14mhynv > .advertisment iframe{display:block;margin-left:auto;margin-right:auto;}</style><div class="fitvids css-14mhynv eizacda0"><p>New England Patriots owner Robert Kraft, responding to the warning of Massachusetts Governor Charlie Baker that his state is in dire need of protective equipment including masks, sent his team jet to China to transport 1.7 million masks from China, donating $2 million, half of the cost of securing them.</p><p>The <a href="https://www.wsj.com/articles/a-million-n95-masks-are-coming-from-chinaon-board-the-new-england-patriots-plane-11585821600?mod=hp_lead_pos4&amp;ns=prod/accounts-wsj">Wall Street Journal</a> reported that Kraft’s actions were triggered by Massachusetts Gov. Charlie Baker, who believed had secured over one million masks from Chinese manufacturers, but didn’t know how to transport them, given the situation with flights in and out of China. He spoke to Robert Kraft’s son, the president of the Patriots and also chairman of the board at Massachusetts General Hospital. The Journal continued, “Gov. Baker, the U.S. State Department, Robert Kraft and others sent letters to China’s consul general in New York requesting the special permits. The letters, dated March 24 to 30, ask for waivers to allow the humanitarian mission and state that no member of the crew would leave the aircraft.”</p><p>As <a href="https://www.politico.com/news/2020/04/02/bob-kraft-patriots-plane-massachusetts-masks-160936">Politico</a> reported, “Gov. Charlie Baker will greet the National Football League team’s plane when it arrives at Logan Airport with Patriots owner Bob Kraft and Lt. Gov. Karyn Polito. From there, the state’s National Guard will transport the equipment to a strategic stockpile in Marlboro, Mass., according to the person familiar with the plans.”</p><p>Kraft told The Wall Street Journal, “I’ve never seen so much red tape in so many ways and obstacles that we had to overcome. In today’s world, those of us who are fortunate to make a difference have a significant responsibility to do so with all the assets we have available to us.”</p><p>As of Wednesday, more than 7,700 cases of coronaviruses had been confirmed in Massachusetts; over one thousand additional cases were reported on Wednesday, and 122 people have died. Politico noted, “The state converted an arena in Worcester, Mass., into a 250-bed field hospital Wednesday as it prepares for an influx in patients, and is eyeing a Boston convention center as another possible hospital site.”</p><p>Kraft is not just helping the citizens of his own state; he has plans to distribute 300,000 masks he paid for to residents of New York and New Jersey.</p><blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/Patriots?src=hash&amp;ref_src=twsrc%5Etfw">#Patriots</a> owner Robert Kraft didn’t just help purchase and deliver 1.4 million masks from China for Massachusetts. He also bought 300,000 masks with his own money for New York that will be delivered to the Javits Center tomorrow. He has strong ties to NY, as a <a href="https://twitter.com/Columbia?ref_src=twsrc%5Etfw">@Columbia</a> graduate.</p><p>— Ian Rapoport (@RapSheet) <a href="https://twitter.com/RapSheet/status/1245711140644061184?ref_src=twsrc%5Etfw">April 2, 2020</a></p></blockquote><p></p><p>Baker tweeted, “No days off. Thanks to some serious teamwork, Massachusetts is set to receive over 1 million N95 masks for our front-line workers. Huge thanks to the Krafts and several dedicated partners for making this happen.”</p><blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">No days off. Thanks to some serious teamwork, Massachusetts is set to receive over 1 million N95 masks for our front-line workers. Huge thanks to the Krafts and several dedicated partners for making this happen. <a href="https://t.co/ieV6XMC5Ow">pic.twitter.com/ieV6XMC5Ow</a></p><p>— Charlie Baker (@MassGovernor) <a href="https://twitter.com/MassGovernor/status/1245673091986046976?ref_src=twsrc%5Etfw">April 2, 2020</a></p></blockquote><p></p><p>In February 2019, <a href="https://www.youtube.com/watch?v=sSrtes_iZdU">appearing on Fox &amp; Friends</a>, Kraft said, “I pinch myself all the time that I have the privilege of owning my home town team, and I love having the responsibility of managing it; if you do a good job you do a great job for your community.” He added, “If you have people your community can identify with, what we do out in the community, how we connect with our fans, I’m pretty proud of our guys. I think we’ve tried to bring pride to our community over the last 25 years.” He added of President Trump, “He’s been very supportive. I know he’s working very hard to serve the best interests of the country.”</p></div><style data-emotion-css="144q45">.css-144q45{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:100%;max-width:640px;margin:8px auto 0;}</style><div class="css-144q45 ec62cre0"><style data-emotion-css="m8yj2z">.css-m8yj2z{margin-right:12px;line-height:0;}</style><span class="css-m8yj2z ec62cre2"><style data-emotion-css="4kk15z">.css-4kk15z{position:relative;top:8px;}</style><svg height="16" viewBox="0 0 20 16" width="20" xmlns="http://www.w3.org/2000/svg" class="css-4kk15z ec62cre1"><path d="m19.5624534 11.1875115-6.3749848 6.3749848c-.2916659.2916658-.645832.4374989-1.0624975.4374989s-.7708317-.1458331-1.0624975-.4374989l7.4374823-7.4374823-8.1562306-8.12498062h1.5312464c.4166655 0 .7708316.14583314 1.0624975.43749896l6.6249842 6.6249842c.2916658.29166581.4374989.64583195.4374989 1.06249746 0 .4166655-.1458331.7708317-.4374989 1.0624975zm-3.9999905 0-6.3749848 6.3749848c-.29166582.2916658-.64583196.4374989-1.06249747.4374989-.41666552 0-.77083166-.1458331-1.06249747-.4374989l-6.6249842-6.6249842c-.29166581-.2916658-.43749896-.645832-.43749896-1.0624975v-6.3749848c0-.41666551.14583315-.77083165.43749896-1.06249746.29166581-.29166582.64583195-.43749896 1.06249746-.43749896h6.3749848c.41666552 0 .77083166.14583314 1.06249747.43749896l6.62498421 6.6249842c.2916658.29166581.437499.64583195.437499 1.06249746 0 .4166655-.1458332.7708317-.437499 1.0624975zm-1.0624975-1.0624975-6.62498418-6.6249842h-6.3749848v6.3749848l6.62498421 6.6249842zm-9.99997613-5.12498777c.41666552 0 .77083166.14583314 1.06249747.43749895.29166581.29166582.43749895.64583196.43749895 1.06249747s-.14583314.77083165-.43749895 1.06249747c-.29166581.29166581-.64583195.43749895-1.06249747.43749895-.41666551 0-.77083165-.14583314-1.06249747-.43749895-.29166581-.29166582-.43749895-.64583196-.43749895-1.06249747s.14583314-.77083165.43749895-1.06249747c.29166582-.29166581.64583196-.43749895 1.06249747-.43749895z" fill="#999" transform="translate(0 -2)"></path></svg><span class="css-18dt6si">Read more in:</span></span><style data-emotion-css="pub3ex">.css-pub3ex{list-style:none;padding:0;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;margin:0;color:#0077D9;}</style><ol class="css-pub3ex ec62cre3"><style data-emotion-css="1baulvz">.css-1baulvz{display:inline-block;}</style><li class="css-1baulvz ec62cre4"><style data-emotion-css="1weuj1a">.css-1weuj1a{color:#0077D9;margin-left:6px;border-bottom:1px solid #0077D9;}</style><a class="css-1weuj1a ec62cre5" href="/topic/china">China</a></li>,<li class="css-1baulvz ec62cre4"><a class="css-1weuj1a ec62cre5" href="/topic/coronavirus">Coronavirus</a></li>,<li class="css-1baulvz ec62cre4"><a class="css-1weuj1a ec62cre5" href="/topic/new-england-patriots">New England Patriots</a></li>,<li class="css-1baulvz ec62cre4"><a class="css-1weuj1a ec62cre5" href="/topic/robert-kraft">Robert Kraft</a></li></ol></div></div></div><style data-emotion-css="mwmlno">.css-mwmlno{margin-top:32px;margin-bottom:32px;}@media (min-width:750px){.css-mwmlno{margin-top:48px;margin-bottom:48px;}}</style><footer class="css-mwmlno"></footer></article></main><style data-emotion-css="1qn8bat">.css-1qn8bat{background-color:#0D0D0D;color:#fff;}</style><footer class="css-1qn8bat e59ixq10"><style data-emotion-css="on35bj">.css-on35bj{padding-top:32px;padding-bottom:32px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background:#000 url("data:image/svg+xml,%3Csvg%20width%3D%221680%22%20height%3D%22712%22%20viewBox%3D%220%200%201680%20712%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20opacity%3D%220.03%22%20d%3D%22M-0.000112647%20710.999L1680%20142.001L1680%20711L-0.000112647%20710.999Z%22%20fill%3D%22white%22%3E%3C%2Fpath%3E%3Cpath%20opacity%3D%220.03%22%20d%3D%22M-420%20711.249L1680%200.000899436L1680%20711.25L-420%20711.249Z%22%20fill%3D%22white%22%3E%3C%2Fpath%3E%3Cpath%20opacity%3D%220.03%22%20d%3D%22M2008%20711.09L-3.05176e-05%2031.0009L0.000104123%20711.09L2008%20711.09Z%22%20fill%3D%22white%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E") center / cover no-repeat;}@media (min-width:750px){.css-on35bj{padding-top:48px;padding-bottom:48px;}}</style><section id="election-signup" class="css-on35bj e1kbyuqk0"><style data-emotion-css="5w0168">.css-5w0168{font-weight:normal;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin-bottom:32px;}</style><h1 class="css-5w0168 e1kbyuqk1"><style data-emotion-css="rwxzc3">.css-rwxzc3{font-size:72px;line-height:1;font-family:"beaufortproregular";-webkit-letter-spacing:8px;-moz-letter-spacing:8px;-ms-letter-spacing:8px;letter-spacing:8px;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.css-rwxzc3::before{content:'';height:24px;width:88px;background-image:url("data:image/svg+xml,%3Csvg%20width%3D%2288%22%20height%3D%2224%22%20viewBox%3D%220%200%2088%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M12%204L13.8885%209.81234L20%209.81234L15.0557%2013.4046L16.9443%2019.2169L12%2015.6247L7.05573%2019.2169L8.94427%2013.4046L4%209.81234L10.1115%209.81234L12%204Z%22%20fill%3D%22%23D90000%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M44%204L45.8885%209.81234L52%209.81234L47.0557%2013.4046L48.9443%2019.2169L44%2015.6247L39.0557%2019.2169L40.9443%2013.4046L36%209.81234L42.1115%209.81234L44%204Z%22%20fill%3D%22%23D90000%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M76%204L77.8885%209.81234L84%209.81234L79.0557%2013.4046L80.9443%2019.2169L76%2015.6247L71.0557%2019.2169L72.9443%2013.4046L68%209.81234L74.1115%209.81234L76%204Z%22%20fill%3D%22%23D90000%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");}@media (min-width:750px){.css-rwxzc3{font-size:124px;}}</style><span class="css-rwxzc3 e17f3ixj1">199</span><style data-emotion-css="1cbifvp">.css-1cbifvp{font-size:14px;font-family:"beaufortproregular";text-transform:uppercase;-webkit-letter-spacing:2px;-moz-letter-spacing:2px;-ms-letter-spacing:2px;letter-spacing:2px;color:#999999;text-align:center;}@media (min-width:750px){.css-1cbifvp{font-size:17px;}}</style><span class="css-1cbifvp e1kbyuqk2"> days <!-- -->until election</span></h1><div class="css-0 e1kbyuqk3"><style data-emotion-css="12xet20">.css-12xet20{font-size:22px;margin:0 0 16px;font-family:"beaufort_promedium";font-weight:normal;text-align:center;}@media (min-width:750px){.css-12xet20{font-size:32px;margin-bottom:24px;}}</style><h2 class="css-12xet20 e1kbyuqk4">Don&#x27;t miss a beat of our coverage.</h2></div><style data-emotion-css="17rg14x">.css-17rg14x{font-family:"beaufortproregular";font-size:12px;-webkit-letter-spacing:2px;-moz-letter-spacing:2px;-ms-letter-spacing:2px;letter-spacing:2px;text-transform:uppercase;color:#999999;border:1px solid;border-radius:9999px;padding:4px 24px;margin-top:32px;}</style><a hidden="" class="css-17rg14x e1kbyuqk5" href="/election">View 2020 Election Page</a></section><style data-emotion-css="qj3b4t">.css-qj3b4t{margin-right:auto;margin-left:auto;width:100%;padding-left:24px;padding-right:24px;padding-top:32px;padding-bottom:32px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}@media (min-width:400px){.css-qj3b4t{max-width:560px;}}@media (min-width:400px){.css-qj3b4t{max-width:560px;}}@media (min-width:750px){.css-qj3b4t{max-width:824px;padding-left:48px;padding-right:48px;}}@media (min-width:1000px){.css-qj3b4t{max-width:1296px;}}@media (min-width:750px){.css-qj3b4t{padding-top:48px;padding-bottom:48px;}}@media (min-width:1000px){.css-qj3b4t{-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:flex-start;-webkit-box-align:flex-start;-ms-flex-align:flex-start;align-items:flex-start;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}}</style><div class="css-qj3b4t e59ixq11"><style data-emotion-css="j2dsh0">.css-j2dsh0{color:#fff;display:block;margin-bottom:24px;}</style><a class="css-j2dsh0 e59ixq12" href="/"><span class="css-18dt6si">The Daily Wire</span><svg xmlns="http://www.w3.org/2000/svg" width="78" height="48" viewBox="0 0 53 32"><g fill="#fff" fill-rule="evenodd"><polygon points="0 17.131 17.689 17.131 24.567 .011 0 0"></polygon><polygon points="27.325 .01 26.346 2.447 46.869 2.447 47.852 0"></polygon><polygon points="0 29.367 0 31.814 51.548 31.814 52.53 29.367"></polygon><polygon points="0 24.473 0 26.92 48.838 26.92 49.822 24.473"></polygon><polygon points="0 19.578 0 22.025 45.292 22.025 46.275 19.578"></polygon><polygon points="52.136 14.683 21.43 14.683 20.447 17.13 51.153 17.13"></polygon><polygon points="49.034 9.789 23.396 9.789 22.413 12.236 48.05 12.236"></polygon><polygon points="52.136 4.894 25.363 4.894 24.38 7.341 51.153 7.341"></polygon></g></svg></a><style data-emotion-css="1fxuozx">@media (max-width:1000px){.css-1fxuozx{text-align:center;}}</style><div class="css-1fxuozx e59ixq16"><style data-emotion-css="s56iwv">.css-s56iwv{color:#fff;font-size:15px;margin-bottom:16px;display:block;}</style><a class="css-s56iwv e59ixq13" href="https://www.amazon.com/stores/page/E92ABC78-DF24-4AFF-B066-ADA533954653" target="_blank" rel="noopener noreferrer">Store</a><a class="css-s56iwv e59ixq13" href="https://contact.dailywire.com/" target="_blank" rel="noopener noreferrer">Advertise With Us</a><a class="css-s56iwv e59ixq13" href="https://contact.dailywire.com/speakers/" target="_blank" rel="noopener noreferrer">Book our Speakers</a><a class="css-s56iwv e59ixq13" href="https://dailywire.zendesk.com/hc/en-us" target="_blank" rel="noopener noreferrer">Help Center</a><a class="css-s56iwv e59ixq13" href="https://contact.dailywire.com/" target="_blank" rel="noopener noreferrer">Contact Us</a></div><div class="css-1fxuozx e59ixq17"><a class="css-s56iwv e59ixq13" href="/privacy">Privacy Policy</a><a class="css-s56iwv e59ixq13" href="/terms">Terms of Use</a><a class="css-s56iwv e59ixq13" href="/careers">Careers</a><a class="css-s56iwv e59ixq13" href="https://docs.google.com/forms/d/e/1FAIpQLScQ6aeTzb1abhADbShsmokHKJoJbh4m7hbvklY0O_VZacPQpg/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Internships</a></div><style data-emotion-css="2i88ri">.css-2i88ri{-webkit-order:-1;-ms-flex-order:-1;order:-1;margin:32px 0;}@media (min-width:1000px){.css-2i88ri{-webkit-order:5;-ms-flex-order:5;order:5;margin:0;}}</style><div class="css-2i88ri e59ixq14"><style data-emotion-css="19sq8ol">.css-19sq8ol{color:#fff;border:1px solid #fff;border-radius:6px;height:40px;width:40px;line-height:40px;margin:0 8px;overflow:hidden;text-align:center;display:inline-block;}@media (min-width:1000px){.css-19sq8ol{margin:0 0 0 16px;}}.css-19sq8ol:hover{background-color:#fff;}.css-19sq8ol:hover svg path{fill:#0D0D0D;}</style><a class="css-19sq8ol e59ixq15" href="https://www.facebook.com/DailyWire" target="_blank" rel="noopener noreferrer"><span class="css-18dt6si">Facebook</span><svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.40625 16H5.34375V8.84375H7.625L8 6H5.34375V4.03125C5.34375 3.59375 5.40625 3.25 5.59375 3.03125C5.78125 2.78125 6.1875 2.65625 6.75 2.65625H8.25V0.125C7.6875 0.0625 6.9375 0 6.0625 0C4.9375 0 4.0625 0.34375 3.40625 1C2.71875 1.65625 2.40625 2.5625 2.40625 3.75V6H0V8.84375H2.40625V16Z" fill="#fff"></path></svg></a><a class="css-19sq8ol e59ixq15" href="https://twitter.com/realDailyWire" target="_blank" rel="noopener noreferrer"><span class="css-18dt6si">Twitter</span><svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.3438 3.75C14.9688 3.28125 15.5312 2.71875 16 2.03125C15.375 2.3125 14.75 2.5 14.125 2.5625C14.8125 2.125 15.3125 1.53125 15.5625 0.75C14.9062 1.125 14.2188 1.40625 13.4688 1.53125C13.1562 1.21875 12.7812 0.96875 12.375 0.78125C11.9688 0.59375 11.5312 0.5 11.0625 0.5C10.4688 0.5 9.9375 0.65625 9.4375 0.9375C8.9375 1.25 8.53125 1.65625 8.25 2.15625C7.9375 2.65625 7.8125 3.21875 7.8125 3.78125C7.8125 4.03125 7.8125 4.28125 7.875 4.53125C6.53125 4.46875 5.28125 4.15625 4.09375 3.53125C2.90625 2.9375 1.9375 2.125 1.125 1.09375C0.8125 1.625 0.65625 2.1875 0.65625 2.75C0.65625 3.3125 0.78125 3.84375 1.0625 4.3125C1.3125 4.8125 1.6875 5.1875 2.125 5.5C1.59375 5.5 1.09375 5.34375 0.65625 5.0625V5.125C0.65625 5.90625 0.90625 6.59375 1.40625 7.1875C1.90625 7.8125 2.53125 8.1875 3.28125 8.34375C2.96875 8.40625 2.6875 8.4375 2.40625 8.4375C2.21875 8.4375 2 8.4375 1.8125 8.40625C2 9.0625 2.375 9.59375 2.9375 10.0312C3.5 10.4688 4.125 10.6562 4.875 10.6562C3.65625 11.5938 2.28125 12.0625 0.78125 12.0625C0.46875 12.0625 0.21875 12.0625 0 12.0312C1.5 13.0312 3.1875 13.5 5.03125 13.5C6.9375 13.5 8.625 13.0312 10.125 12.0312C11.4688 11.1562 12.5312 10 13.2812 8.5C14 7.125 14.375 5.65625 14.375 4.15625C14.375 3.96875 14.3438 3.84375 14.3438 3.75Z" fill="#fff"></path></svg></a><a class="css-19sq8ol e59ixq15" href="https://www.instagram.com/realdailywire/" target="_blank" rel="noopener noreferrer"><span class="css-18dt6si">Instagram</span><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 3.40625C7.625 3.40625 8.21875 3.59375 8.78125 3.90625C9.34375 4.21875 9.78125 4.65625 10.0938 5.21875C10.4062 5.78125 10.5938 6.375 10.5938 7C10.5938 7.65625 10.4062 8.25 10.0938 8.8125C9.78125 9.375 9.34375 9.8125 8.78125 10.125C8.21875 10.4375 7.625 10.5938 7 10.5938C6.34375 10.5938 5.75 10.4375 5.1875 10.125C4.625 9.8125 4.1875 9.375 3.875 8.8125C3.5625 8.25 3.40625 7.65625 3.40625 7C3.40625 6.375 3.5625 5.78125 3.875 5.21875C4.1875 4.65625 4.625 4.21875 5.1875 3.90625C5.75 3.59375 6.34375 3.40625 7 3.40625ZM7 9.34375C7.625 9.34375 8.1875 9.125 8.65625 8.65625C9.09375 8.21875 9.34375 7.65625 9.34375 7C9.34375 6.375 9.09375 5.8125 8.65625 5.34375C8.1875 4.90625 7.625 4.65625 7 4.65625C6.34375 4.65625 5.78125 4.90625 5.34375 5.34375C4.875 5.8125 4.65625 6.375 4.65625 7C4.65625 7.65625 4.875 8.21875 5.34375 8.65625C5.78125 9.125 6.34375 9.34375 7 9.34375ZM11.5938 3.25C11.5938 3.03125 11.5 2.84375 11.3438 2.65625C11.1562 2.5 10.9688 2.40625 10.75 2.40625C10.5 2.40625 10.3125 2.5 10.1562 2.65625C9.96875 2.84375 9.90625 3.03125 9.90625 3.25C9.90625 3.5 9.96875 3.6875 10.1562 3.84375C10.3125 4.03125 10.5 4.09375 10.75 4.09375C10.9688 4.09375 11.1562 4.03125 11.3125 3.84375C11.4688 3.6875 11.5625 3.5 11.5938 3.25ZM13.9688 4.09375C13.9688 4.6875 14 5.65625 14 7C14 8.375 13.9688 9.34375 13.9375 9.9375C13.9062 10.5312 13.8125 11.0312 13.6875 11.4688C13.5 12 13.1875 12.4688 12.8125 12.8438C12.4375 13.2188 11.9688 13.5 11.4688 13.6875C11.0312 13.8438 10.5 13.9375 9.90625 13.9688C9.3125 14 8.34375 14 7 14C5.625 14 4.65625 14 4.0625 13.9688C3.46875 13.9375 2.96875 13.8438 2.53125 13.6562C2 13.5 1.53125 13.2188 1.15625 12.8438C0.78125 12.4688 0.5 12 0.3125 11.4688C0.15625 11.0312 0.0625 10.5312 0.03125 9.9375C0 9.34375 0 8.375 0 7C0 5.65625 0 4.6875 0.03125 4.09375C0.0625 3.5 0.15625 2.96875 0.3125 2.53125C0.5 2.03125 0.78125 1.5625 1.15625 1.1875C1.53125 0.8125 2 0.5 2.53125 0.3125C2.96875 0.1875 3.46875 0.09375 4.0625 0.0625C4.65625 0.03125 5.625 0 7 0C8.34375 0 9.3125 0.03125 9.90625 0.0625C10.5 0.09375 11.0312 0.1875 11.4688 0.3125C11.9688 0.5 12.4375 0.8125 12.8125 1.1875C13.1875 1.5625 13.5 2.03125 13.6875 2.53125C13.8125 2.96875 13.9062 3.5 13.9688 4.09375ZM12.4688 11.125C12.5938 10.7812 12.6562 10.2188 12.7188 9.4375C12.7188 9 12.75 8.34375 12.75 7.5V6.5C12.75 5.65625 12.7188 5 12.7188 4.5625C12.6562 3.78125 12.5938 3.21875 12.4688 2.875C12.2188 2.25 11.75 1.78125 11.125 1.53125C10.7812 1.40625 10.2188 1.34375 9.4375 1.28125C8.96875 1.28125 8.3125 1.25 7.5 1.25H6.5C5.65625 1.25 5 1.28125 4.5625 1.28125C3.78125 1.34375 3.21875 1.40625 2.875 1.53125C2.21875 1.78125 1.78125 2.25 1.53125 2.875C1.40625 3.21875 1.3125 3.78125 1.28125 4.5625C1.25 5.03125 1.25 5.6875 1.25 6.5V7.5C1.25 8.34375 1.25 9 1.28125 9.4375C1.3125 10.2188 1.40625 10.7812 1.53125 11.125C1.78125 11.7812 2.25 12.2188 2.875 12.4688C3.21875 12.5938 3.78125 12.6875 4.5625 12.7188C5 12.75 5.65625 12.75 6.5 12.75H7.5C8.34375 12.75 9 12.75 9.4375 12.7188C10.2188 12.6875 10.7812 12.5938 11.125 12.4688C11.75 12.2188 12.2188 11.75 12.4688 11.125Z" fill="#fff"></path></svg></a><a class="css-19sq8ol e59ixq15" href="https://www.youtube.com/channel/UCaeO5vkdj5xOQHp4UmIN6dw" target="_blank" rel="noopener noreferrer"><span class="css-18dt6si">YouTube</span><svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.1875 1.875C17.3125 2.4375 17.4375 3.3125 17.5 4.4375L17.5312 6L17.5 7.5625C17.4375 8.75 17.3125 9.59375 17.1875 10.1562C17.0625 10.5312 16.875 10.8438 16.625 11.0938C16.3438 11.375 16.0312 11.5625 15.6562 11.6562C15.0938 11.8125 13.8438 11.9062 11.8438 11.9688L9 12L6.15625 11.9688C4.15625 11.9062 2.875 11.8125 2.34375 11.6562C1.96875 11.5625 1.625 11.375 1.375 11.0938C1.09375 10.8438 0.90625 10.5312 0.8125 10.1562C0.65625 9.59375 0.5625 8.75 0.5 7.5625L0.46875 6C0.46875 5.5625 0.46875 5.03125 0.5 4.4375C0.5625 3.3125 0.65625 2.4375 0.8125 1.875C0.90625 1.5 1.09375 1.1875 1.375 0.90625C1.625 0.65625 1.96875 0.46875 2.34375 0.34375C2.875 0.21875 4.15625 0.09375 6.15625 0.03125L9 0L11.8438 0.03125C13.8438 0.09375 15.0938 0.21875 15.6562 0.34375C16.0312 0.46875 16.3438 0.65625 16.625 0.90625C16.875 1.1875 17.0625 1.5 17.1875 1.875ZM7.25 8.5625L11.7188 6L7.25 3.46875V8.5625Z" fill="#fff"></path></svg></a><a class="css-19sq8ol e59ixq15" href="/rss.xml"><span class="css-18dt6si">RSS</span><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 12C4 11.4375 3.78125 10.9688 3.40625 10.5938C3.03125 10.2188 2.5625 10 2 10C1.4375 10 0.96875 10.2188 0.59375 10.5938C0.1875 10.9688 0 11.4375 0 12C0 12.5625 0.1875 13.0312 0.59375 13.4062C0.96875 13.8125 1.4375 14 2 14C2.5625 14 3.03125 13.8125 3.40625 13.4062C3.78125 13.0312 4 12.5625 4 12ZM9.5 13.4688C9.5 13.625 9.4375 13.75 9.34375 13.8438C9.25 13.9688 9.125 14 9 14H7.5C7.34375 14 7.21875 13.9688 7.125 13.875C7.03125 13.7812 7 13.6562 7 13.5312C6.90625 12.4062 6.5625 11.3438 5.96875 10.375C5.375 9.40625 4.59375 8.625 3.625 8.03125C2.65625 7.4375 1.59375 7.09375 0.46875 7C0.34375 7 0.21875 6.96875 0.125 6.875C0.03125 6.78125 0 6.65625 0 6.5V5C0 4.875 0.03125 4.75 0.15625 4.65625C0.25 4.5625 0.375 4.5 0.53125 4.5C2.09375 4.59375 3.5625 5.0625 4.90625 5.875C6.21875 6.6875 7.3125 7.78125 8.125 9.09375C8.9375 10.4375 9.40625 11.9062 9.5 13.4688ZM14 13.4688C14 13.625 13.9375 13.75 13.8438 13.8438C13.75 13.9688 13.625 14 13.5 14H12C11.8438 14 11.7188 13.9688 11.625 13.875C11.5312 13.7812 11.5 13.6562 11.5 13.5312C11.4062 11.5625 10.875 9.75 9.875 8.0625C8.875 6.4375 7.5625 5.125 5.9375 4.125C4.25 3.125 2.4375 2.59375 0.46875 2.5C0.34375 2.5 0.21875 2.46875 0.125 2.375C0.03125 2.28125 0 2.15625 0 2V0.5C0 0.375 0.03125 0.25 0.15625 0.15625C0.25 0.0625 0.375 0 0.53125 0C2.90625 0.09375 5.15625 0.75 7.21875 2C9.21875 3.1875 10.8125 4.8125 12.0312 6.8125C13.25 8.875 13.9062 11.0938 14 13.4688Z" fill="#fff"></path></svg></a></div></div><style data-emotion-css="iez9ug">.css-iez9ug{background-color:#050505;padding:16px 24px;text-align:center;color:#999999;font-size:12px;}</style><div class="css-iez9ug e59ixq18">© Copyright <!-- -->2020<!-- -->, The Daily Wire</div></footer><style data-emotion-css="nt932u">.css-nt932u{position:fixed;left:0;right:0;height:100%;background:radial-gradient( ellipse at center,rgba(50,50,50,0.75) 0%,rgba(40,40,40,0.75) 40%,rgba(0,0,0,0.75) 100% );opacity:0;z-index:-1;will-change:opacity;-webkit-transition-property:z-index,opacity;transition-property:z-index,opacity;-webkit-transition-duration:0.5s;transition-duration:0.5s;-webkit-transition-timing-function:step-end,ease;transition-timing-function:step-end,ease;}</style><div class="css-nt932u e1d9dj1t0"></div></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"post":{"id":100400,"date":"2020-04-02T15:40:55","modified":"2020-04-02T16:22:12","slug":"patriots-owner-bob-kraft-flies-almost-2-million-masks-to-u-s-from-china","title":"Patriots Owner Bob Kraft Flies Almost 2 Million Masks To U.S. From China","content":"\u003cp\u003eNew England Patriots owner Robert Kraft, responding to the warning of Massachusetts Governor Charlie Baker that his state is in dire need of protective equipment including masks, sent his team jet to China to transport 1.7 million masks from China, donating $2 million, half of the cost of securing them.\u003c/p\u003e\n\u003cp\u003eThe \u003ca href=\"https://www.wsj.com/articles/a-million-n95-masks-are-coming-from-chinaon-board-the-new-england-patriots-plane-11585821600?mod=hp_lead_pos4\u0026amp;ns=prod/accounts-wsj\"\u003eWall Street Journal\u003c/a\u003e reported that Kraft’s actions were triggered by Massachusetts Gov. Charlie Baker, who believed had secured over one million masks from Chinese manufacturers, but didn’t know how to transport them, given the situation with flights in and out of China. He spoke to Robert Kraft’s son, the president of the Patriots and also chairman of the board at Massachusetts General Hospital. The Journal continued, “Gov. Baker, the U.S. State Department, Robert Kraft and others sent letters to China’s consul general in New York requesting the special permits. The letters, dated March 24 to 30, ask for waivers to allow the humanitarian mission and state that no member of the crew would leave the aircraft.”\u003c/p\u003e\n\u003cp\u003eAs \u003ca href=\"https://www.politico.com/news/2020/04/02/bob-kraft-patriots-plane-massachusetts-masks-160936\"\u003ePolitico\u003c/a\u003e reported, “Gov. Charlie Baker will greet the National Football League team’s plane when it arrives at Logan Airport with Patriots owner Bob Kraft and Lt. Gov. Karyn Polito. From there, the state\u0026#8217;s National Guard will transport the equipment to a strategic stockpile in Marlboro, Mass., according to the person familiar with the plans.”\u003c/p\u003e\n\u003cp\u003eKraft told The Wall Street Journal, \u0026#8220;I\u0026#8217;ve never seen so much red tape in so many ways and obstacles that we had to overcome. In today\u0026#8217;s world, those of us who are fortunate to make a difference have a significant responsibility to do so with all the assets we have available to us.\u0026#8221;\u003c/p\u003e\n\u003cp\u003eAs of Wednesday, more than 7,700 cases of coronaviruses had been confirmed in Massachusetts; over one thousand additional cases were reported on Wednesday, and 122 people have died. Politico noted, “The state converted an arena in Worcester, Mass., into a 250-bed field hospital Wednesday as it prepares for an influx in patients, and is eyeing a Boston convention center as another possible hospital site.”\u003c/p\u003e\n\u003cp\u003eKraft is not just helping the citizens of his own state; he has plans to distribute 300,000 masks he paid for to residents of New York and New Jersey.\u003c/p\u003e\n\u003cblockquote class=\"twitter-tweet\" data-width=\"500\" data-dnt=\"true\"\u003e\n\u003cp lang=\"en\" dir=\"ltr\"\u003e\u003ca href=\"https://twitter.com/hashtag/Patriots?src=hash\u0026amp;ref_src=twsrc%5Etfw\"\u003e#Patriots\u003c/a\u003e owner Robert Kraft didn’t just help purchase and deliver 1.4 million masks from China for Massachusetts. He also bought 300,000 masks with his own money for New York that will be delivered to the Javits Center tomorrow. He has strong ties to NY, as a \u003ca href=\"https://twitter.com/Columbia?ref_src=twsrc%5Etfw\"\u003e@Columbia\u003c/a\u003e graduate.\u003c/p\u003e\n\u003cp\u003e\u0026mdash; Ian Rapoport (@RapSheet) \u003ca href=\"https://twitter.com/RapSheet/status/1245711140644061184?ref_src=twsrc%5Etfw\"\u003eApril 2, 2020\u003c/a\u003e\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp\u003e\u003cscript async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"\u003e\u003c/script\u003e\u003c/p\u003e\n\u003cp\u003eBaker tweeted, “No days off. Thanks to some serious teamwork, Massachusetts is set to receive over 1 million N95 masks for our front-line workers. Huge thanks to the Krafts and several dedicated partners for making this happen.”\u003c/p\u003e\n\u003cblockquote class=\"twitter-tweet\" data-width=\"500\" data-dnt=\"true\"\u003e\n\u003cp lang=\"en\" dir=\"ltr\"\u003eNo days off. Thanks to some serious teamwork, Massachusetts is set to receive over 1 million N95 masks for our front-line workers. Huge thanks to the Krafts and several dedicated partners for making this happen. \u003ca href=\"https://t.co/ieV6XMC5Ow\"\u003epic.twitter.com/ieV6XMC5Ow\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u0026mdash; Charlie Baker (@MassGovernor) \u003ca href=\"https://twitter.com/MassGovernor/status/1245673091986046976?ref_src=twsrc%5Etfw\"\u003eApril 2, 2020\u003c/a\u003e\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp\u003e\u003cscript async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"\u003e\u003c/script\u003e\u003c/p\u003e\n\u003cp\u003eIn February 2019, \u003ca href=\"https://www.youtube.com/watch?v=sSrtes_iZdU\"\u003eappearing on Fox \u0026amp; Friends\u003c/a\u003e, Kraft said, “I pinch myself all the time that I have the privilege of owning my home town team, and I love having the responsibility of managing it; if you do a good job you do a great job for your community.\u0026#8221; He added, \u0026#8220;If you have people your community can identify with, what we do out in the community, how we connect with our fans, I\u0026#8217;m pretty proud of our guys. I think we\u0026#8217;ve tried to bring pride to our community over the last 25 years.\u0026#8221; He added of President Trump, \u0026#8220;He\u0026#8217;s been very supportive. I know he\u0026#8217;s working very hard to serve the best interests of the country.\u0026#8221;\u003c/p\u003e\n","excerpt":"\u003cp\u003eNew England Patriots owner Robert Kraft, responding to the warning of Massachusetts Governor Charlie Baker that his state is in dire need of protective equipment including masks, sent his team jet to China to transport 1.7 million masks from China, donating $2 million, half of the cost of securing them. The Wall Street Journal reported [\u0026hellip;]\u003c/p\u003e\n","display_options":[],"commentStatus":"closed","image":{"id":100408,"title":"2017 Super Bowl Champions the New England Patriots Visit White House","alt":"U.S. President Donald Trump (C) shakes hands with Robert Kraft (R), owner of the 2017 Super Bowl Champions the New England Patriots, at the White House in Washington, United States on April 19, 2017.","caption":"\u003cp\u003ePhoto by Samuel Corum/Anadolu Agency/Getty Images\u003c/p\u003e\n","url":"https://dw-wp-production.imgix.net/2020/04/GettyImages-670340198.jpg"},"author":{"id":9,"name":"Hank Berrien","slug":"hank-berrien"},"topics":[{"id":173,"name":"China","slug":"china"},{"id":2334,"name":"Coronavirus","slug":"coronavirus"},{"id":326,"name":"New England Patriots","slug":"new-england-patriots"},{"id":327,"name":"Robert Kraft","slug":"robert-kraft"}]}},"apolloState":{}},"page":"/news/[slug]","query":{"slug":"patriots-owner-bob-kraft-flies-almost-2-million-masks-to-u-s-from-china"},"buildId":"Vub6yN5OTjoU5DipjZWde","runtimeConfig":{},"nextExport":false,"isFallback":false,"dynamicIds":["+baU","0ejA","0fF6","0zwh","49sm","4vwy","5HO8","77Jp","97HV","9fJ0","AvE0","BRr/","E73J","Ez4D","GIBT","H7XF","JQSS","NRXh","P7XM","TMUX","Uwf0","V59f","V7jp","WASD","YLRr","YM+4","YxWK","aq3e","b70m","bqhC","cHMM","ciN2","eYZT","fXKp","fhwx","fiWp","fz4f","gCkb","h23c","h2lD","hS6j","hwdV","iU62","ibbH","jGaU","kVK+","n6uJ","oW49","pkaL","q9EV","r1xY","r8Bx","roXE","scSy","tjlA","uWBR","wT93","xWCP",3,"vX2W","zmHf"]}</script><script nomodule="" src="/_next/static/runtime/polyfills-09f61e00d11d6f19d537.js"></script><script async="" data-next-page="/news/[slug]" src="/_next/static/Vub6yN5OTjoU5DipjZWde/pages/news/%5Bslug%5D.js"></script><script async="" data-next-page="/_app" src="/_next/static/Vub6yN5OTjoU5DipjZWde/pages/_app.js"></script><script async="" src="/_next/static/chunks/28.68103d6f03b86d55e339.js"></script><script src="/_next/static/runtime/webpack-fef47862923d514c3085.js" async=""></script><script src="/_next/static/chunks/framework.d484dc14f0452eab1ded.js" async=""></script><script src="/_next/static/chunks/b11dc9a8abbd4d35c1e3fec748d0452e7f8707db.d4c84a15f4b5f6a21560.js" async=""></script><script src="/_next/static/chunks/081f69aa820423a87cbec845a089c08550610e25.39d2f7077b9654d045d1.js" async=""></script><script src="/_next/static/chunks/6366e11bcb24cc2c1204f6fbf2c0b99380fc53d8.96c8d331f4d3d42cfe6e.js" async=""></script><script src="/_next/static/chunks/1a7485c85f11338ccb7eab4ac71e443037b600f0.4116419d3a593b3185c8.js" async=""></script><script src="/_next/static/chunks/71c351776bf73a22864e68556bee1199e9f6b052.8d467106b418222959a0.js" async=""></script><script src="/_next/static/chunks/6007dd72c1d525865d4b79ebf02fd81f70373f42.73b87c0f2fb10775e2f1.js" async=""></script><script src="/_next/static/chunks/styles.5a640b5868cde59edb92.js" async=""></script><script src="/_next/static/runtime/main-d15709ffed81cd956f94.js" async=""></script><script src="/_next/static/chunks/7611a822.b6ed8cf5b87523730e65.js" async=""></script><script src="/_next/static/chunks/6656072dd7a85d2b080d4d0388c5e4f2eb134fd0.11821022fc3670a26f39.js" async=""></script><script src="/_next/static/chunks/30fe0d51615cdf6cda908114ddc0e0714c3117af.fb4f83dbd2dfca1e8650.js" async=""></script><script src="/_next/static/chunks/15dbbe848377939908eb6c79c471ffd08956f224.0275d50a26a1e778aa0d.js" async=""></script><script src="/_next/static/chunks/23970887e35e83b3020f381bce2d5e6892b9107e.3b3c6a0e2de9f3b5bd65.js" async=""></script><script src="/_next/static/chunks/8c53975af746cce51c3339ec3ca34d44b3bd6ea3.152f78a6a633ddeb4042.js" async=""></script><script src="/_next/static/chunks/bc27b3f2f30a0aa7029f54258e6598382a2cbc65.db3c5670da1a51b55ea6.js" async=""></script><script src="/_next/static/Vub6yN5OTjoU5DipjZWde/_buildManifest.js" async=""></script><script src="/_next/static/Vub6yN5OTjoU5DipjZWde/_ssgManifest.js" async=""></script></body></html>
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US" xmlns:fb="http://ogp.me/ns/fb#">
+<!--<![endif]-->
+<head><link rel="stylesheet" type="text/css" href="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/hY9dDsIwDIMvtCyAxHlQVqKRLf2h6UC9PWyApj7x5s-yo_iMV7GCg0Y3g8qQKVe0UpV7L6E74EMSkoekyyjB3lJgJFXO9YTOGgO2nu2lwPfPrdaaDONTwVGOi7Gu0P_gf7Lc2HN3xIlLIjfjRYJDi05IQeMYrYFtxR5eP_7qFw.css?9067122fa57259cbe04dfb40ebcd2b15
+" media="all" />
+
+
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, user-scalable=0">
+<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/images/favicon/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/favicon/manifest.json">
+	<link rel="mask-icon" href="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/images/favicon/mstile-144x144.png">
+	<meta name="msapplication-config" content="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	
+    <!-- OneTrust Cookies Consent Notice start -->
+    <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="3a50bf71-e2e9-4034-a078-dbcba7fda162"></script>
+    <script type="text/javascript">
+		function OptanonWrapper() {
+			var allIframes = document.querySelectorAll( 'iframe[class*="optanon-category"]' );
+
+			allIframes.forEach (function( iframe ) {
+				var thisIframeCategories = iframe.classList.value.match(/C000\d+/g);
+
+				// Check if user allowed every category assigned to this iframe
+				var shouldBeLoaded = thisIframeCategories.every( function( item ) {
+					return OptanonActiveGroups.match( item );
+				});
+
+				// Load iframe if every category is allowed
+				if ( shouldBeLoaded ) {
+					loadIframe( iframe );
+				}
+			});
+
+			// load iframe element
+			function loadIframe( element ) {
+				element.tagName == "IFRAME" ? element.setAttribute("src", element.dataset.src) : -1;
+			}
+		}
+    </script>
+    <!-- OneTrust Cookies Consent Notice end -->
+
+	
+	<title>Brutal 6-Foot, 160-Lb Bird Mauls Owner To Death! | National Enquirer</title>
+
+	<link rel="profile" href="http://gmpg.org/xfn/11"/>
+	<link rel="pingback" href="https://www.nationalenquirer.com/xmlrpc.php"/>
+	<script type="text/plain" class="optanon-category-C0004" src="//d17tqr44y57o31.cloudfront.net/script.js"></script>    <script>
+    var _0x4fb0=["\x44\x46\x50","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x70\x61\x72\x65\x6E\x74","\x72\x65\x66\x65\x72\x72\x65\x72","\x68\x72\x65\x66","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\x34","\x35","\x61\x64\x73","\x44\x46\x50\x20\x53\x74\x61\x72\x74","\x6C\x65\x6E\x67\x74\x68","\x64\x69\x6D\x65\x6E\x73\x69\x6F\x6E","\x2C","\x6A\x6F\x69\x6E","\x70\x75\x73\x68","\x73\x74\x61\x72\x74","\x65\x6E\x64","\x6C\x6F\x61\x64\x5F\x74\x69\x6D\x65","\x20\x6C\x6F\x61\x64\x20\x74\x69\x6D\x65","\x48\x42\x20\x73\x65\x6E\x64\x69\x6E\x67\x20\x74\x6F\x20\x47\x41\x3A","\x6C\x6F\x67","\x68\x62\x2E\x73\x65\x6E\x64","\x74\x69\x6D\x69\x6E\x67","\x66\x6F\x72\x45\x61\x63\x68","\x74\x72\x61\x63\x6B\x69\x6E\x67\x49\x64","\x67\x65\x74","\x67\x65\x74\x41\x6C\x6C","\x63\x72\x65\x61\x74\x65","\x61\x75\x74\x6F","\x68\x62","\x67\x65\x74\x54\x69\x6D\x65","\x72\x65\x73\x70\x6F\x6E\x73\x65\x53\x74\x61\x72\x74","\x70\x65\x72\x66\x6F\x72\x6D\x61\x6E\x63\x65","\x6D\x69\x6E","\x73\x6F\x72\x74","","\x73\x65\x6C\x66","\x74\x6F\x70","\x7C","\x20\x65\x72\x72\x6F\x72\x3A\x20","\x6D\x65\x73\x73\x61\x67\x65","\x49\x4E\x44\x58\x57","\x4F\x50\x45\x4E\x58","\x59\x4C\x44\x42\x54","\x50\x42\x4D\x54\x43","\x52\x55\x42\x49","\x41\x4F\x4C","\x53\x56\x52\x4E","\x49\x4E\x44\x58","\x46\x42","\x53\x48\x54\x48","\x33\x4C\x49\x46\x54","\x59\x49\x45\x4C\x44","\x53\x4F\x56\x52","\x69\x6E\x64\x65\x78\x4F\x66","\x2E\x2A","\x74\x65\x73\x74","\x6F\x70\x65\x6E","\x70\x72\x6F\x74\x6F\x74\x79\x70\x65","\x73\x65\x6E\x64","\x74\x69\x6D\x65\x6F\x75\x74","\x68\x62\x54\x69\x6D\x65\x6F\x75\x74\x44\x65\x62\x75\x67","\x4F\x76\x65\x72\x72\x69\x64\x69\x6E\x67\x20\x58\x48\x52\x20\x74\x69\x6D\x65\x6F\x75\x74\x20\x66\x72\x6F\x6D\x20","\x20\x74\x6F\x20","\x20\x66\x6F\x72\x20","\x66\x61\x69\x6C\x65\x64\x20\x74\x6F\x20\x6F\x76\x65\x72\x72\x69\x64\x65\x20\x74\x69\x6D\x65\x6F\x75\x74\x20\x66\x6F\x72\x20","\x61\x70\x70\x6C\x79","\x45\x72\x72\x6F\x72\x20\x72\x75\x6E\x6E\x69\x6E\x67\x20\x48\x42\x20\x6F\x70\x65\x6E","\x6F\x6E\x72\x65\x61\x64\x79\x73\x74\x61\x74\x65\x63\x68\x61\x6E\x67\x65","\x72\x65\x61\x64\x79\x53\x74\x61\x74\x65","\x73\x74\x61\x74\x75\x73","\x72\x65\x73\x70\x6F\x6E\x73\x65\x55\x52\x4C","\x48\x42\x20\x44\x46\x50\x20\x73\x65\x6E\x64\x69\x6E\x67\x20\x74\x69\x6D\x69\x6E\x67\x73\x20\x66\x72\x6F\x6D\x20\x6D\x75\x74\x61\x69\x6F\x6E\x20\x6F\x62\x6A\x65\x63\x74","\x48\x42\x20\x53\x54\x41\x54\x45\x3A\x20","\x20\x63\x6F\x64\x65\x3A","\x20","\x20\x62\x69\x64\x64\x65\x72\x3A","\x45\x72\x72\x6F\x72\x20\x72\x75\x6E\x6E\x69\x6E\x67\x20\x48\x42\x20\x73\x65\x6E\x64","\x61\x64\x64\x65\x64\x4E\x6F\x64\x65\x73","\x73\x72\x63","\x6F\x6E\x6C\x6F\x61\x64","\x48\x42\x20","\x20\x73\x63\x72\x69\x70\x74\x20\x6C\x6F\x61\x64\x65\x64\x20","\x68\x65\x61\x64","\x6F\x62\x73\x65\x72\x76\x65","\x66\x75\x6E\x63\x74\x69\x6F\x6E","\x45\x72\x72\x6F\x72\x20\x67\x61\x74\x68\x65\x72\x69\x6E\x67\x20\x68\x65\x61\x64\x65\x72\x20\x62\x69\x64\x64\x65\x72\x20\x73\x74\x61\x74\x73"];try{var DEBUG=false;var DFP_ID=_0x4fb0[0];var bidders={};var hb_timings_sent=false;var hb_onload_run=false;var MAX_MILLIS=20000;var MAX_XHR_MILLIS=2000;var getIFrameURL=function(){return (window[_0x4fb0[1]]!= window[_0x4fb0[2]][_0x4fb0[1]])?document[_0x4fb0[3]]:document[_0x4fb0[1]][_0x4fb0[4]]};var hb_track_hb=function(_0x9d4axa,_0x9d4axb,_0x9d4axc,_0x9d4axd){var _0x9d4axe=bidders[_0x9d4axa][_0x9d4axb];if(_0x9d4axe&& _0x9d4axe> 0&& _0x9d4axe<= MAX_MILLIS){if( typeof hbDFPdim=== _0x4fb0[5]){hbDFPdim= _0x4fb0[6]};if( typeof hbFRAMEdim=== _0x4fb0[5]){hbFRAMEdim= _0x4fb0[7]};var _0x9d4axf={timingCategory:_0x4fb0[8],timingVar:_0x4fb0[0],timingValue:_0x9d4axe,timingLabel:_0x4fb0[9]};if(_0x9d4axc[_0x4fb0[10]]> 0){_0x9d4axf[_0x4fb0[11]+ hbDFPdim]= _0x9d4axc[_0x4fb0[13]](_0x4fb0[12])};if(_0x9d4axd){_0x9d4axf[_0x4fb0[11]+ hbFRAMEdim]= _0x9d4axd};var _0x9d4ax10=[];_0x9d4ax10[_0x4fb0[14]](_0x9d4axf);for(i= 0;i< toMonitor[_0x4fb0[10]];i++){var _0x9d4ax11=toMonitor[i];var _0x9d4ax12=bidders[_0x9d4ax11][_0x4fb0[15]];var _0x9d4ax13=bidders[_0x9d4ax11][_0x4fb0[16]];if(_0x9d4ax12&& _0x9d4ax13&& _0x9d4ax12> 0&& _0x9d4ax13> 0){var _0x9d4ax14=_0x9d4ax13- _0x9d4ax12;if(_0x9d4ax14<= MAX_MILLIS){_0x9d4axf= {timingCategory:_0x4fb0[17],timingVar:_0x9d4ax11,timingValue:_0x9d4ax14,timingLabel:_0x9d4ax11+ _0x4fb0[18]};_0x9d4ax10[_0x4fb0[14]](_0x9d4axf)}}};if(DEBUG){console[_0x4fb0[20]](_0x4fb0[19]);console[_0x4fb0[20]](_0x9d4ax10)}else {_0x9d4ax10[_0x4fb0[23]](function(_0x9d4axf){ga(_0x4fb0[21],_0x4fb0[22],_0x9d4axf)})};return true};return false};var hb_log_timings=function(){if(hb_timings_sent){return};hb_timings_sent= true;var _0x9d4ax16=ga[_0x4fb0[26]]()[0][_0x4fb0[25]](_0x4fb0[24]);ga(_0x4fb0[27],{trackingId:_0x9d4ax16,cookieDomain:_0x4fb0[28],name:_0x4fb0[29],siteSpeedSampleRate:1});var _0x9d4axc=[];for(bidder in bidders){if(bidder== DFP_ID){continue};if(!bidders[bidder][_0x4fb0[16]]){bidders[bidder][_0x4fb0[16]]= Math[_0x4fb0[33]](( new Date())[_0x4fb0[30]]()- window[_0x4fb0[32]][_0x4fb0[22]][_0x4fb0[31]],MAX_MILLIS)};if(bidders[bidder][_0x4fb0[16]]- bidders[DFP_ID][_0x4fb0[15]]> 0){_0x9d4axc[_0x4fb0[14]](bidder)}};_0x9d4axc[_0x4fb0[34]]();var _0x9d4axd=_0x4fb0[35];try{if(window[_0x4fb0[36]]!== window[_0x4fb0[37]]){var _0x9d4ax17=null;if(window[_0x4fb0[36]]&& window[_0x4fb0[36]][_0x4fb0[1]]){_0x9d4ax17= window[_0x4fb0[36]][_0x4fb0[1]][_0x4fb0[4]]};var _0x9d4ax18=null;if(window[_0x4fb0[37]]&& window[_0x4fb0[37]][_0x4fb0[1]]){_0x9d4ax18= window[_0x4fb0[37]][_0x4fb0[1]][_0x4fb0[4]]};if(_0x9d4ax17!= _0x9d4ax18){_0x9d4axd= getIFrameURL();_0x9d4axd= _0x9d4axd+ _0x4fb0[38]+ _0x9d4ax17+ _0x4fb0[38]+ _0x9d4ax18}}}catch(err){_0x9d4axd= getIFrameURL()+ _0x4fb0[39]+ err[_0x4fb0[40]]};hb_track_hb(DFP_ID,_0x4fb0[15],_0x9d4axc,_0x9d4axd)};var toMonitor=[_0x4fb0[41]];var jsRegexp={"\x2E\x64\x6F\x75\x62\x6C\x65\x63\x6C\x69\x63\x6B\x2E\x6E\x65\x74\x2F\x67\x61\x6D\x70\x61\x64\x2F\x61\x64\x73":_0x4fb0[0],"\x2E\x6F\x70\x65\x6E\x78\x2E\x6E\x65\x74\x2F\x77\x2F\x31\x2E\x30\x2F\x61\x63\x6A":_0x4fb0[42],"\x2E\x79\x6C\x64\x62\x74\x2E\x63\x6F\x6D\x2F\x6D\x2F\x2E\x2A\x69\x6E\x69\x74":_0x4fb0[43],"\x2E\x79\x6C\x64\x62\x74\x2E\x63\x6F\x6D\x2F\x6D\x2F\x2E\x2A\x69\x6E\x69\x74":_0x4fb0[43],"\x2F\x70\x62\x2E\x6A\x73":_0x4fb0[41]};var xhrRegexp={"\x2E\x70\x75\x62\x6D\x61\x74\x69\x63\x2E\x63\x6F\x6D\x2F\x41\x64\x53\x65\x72\x76\x65\x72\x2F\x41\x64\x43\x61\x6C\x6C\x41\x67\x67\x72\x65\x67\x61\x74\x6F\x72":_0x4fb0[44],"\x2E\x70\x75\x62\x6D\x61\x74\x69\x63\x2E\x63\x6F\x6D\x2F\x41\x64\x53\x65\x72\x76\x65\x72\x2F\x41\x64\x53\x65\x72\x76\x65\x72\x53\x65\x72\x76\x6C\x65\x74":_0x4fb0[44],"\x2E\x72\x75\x62\x69\x63\x6F\x6E\x70\x72\x6F\x6A\x65\x63\x74\x2E\x63\x6F\x6D\x2F\x61\x2F\x61\x70\x69\x2F\x66\x61\x73\x74\x6C\x61\x6E\x65\x2E\x6A\x73\x6F\x6E":_0x4fb0[45],"\x2E\x61\x64\x74\x65\x63\x68\x2E\x2A\x2E\x61\x64\x76\x65\x72\x74\x69\x73\x69\x6E\x67\x2E\x63\x6F\x6D\x2F\x70\x75\x62\x61\x70\x69\x2E\x2A\x63\x6D\x64\x3D\x62\x69\x64":_0x4fb0[46],"\x2E\x6C\x69\x6A\x69\x74\x2E\x63\x6F\x6D\x2F\x72\x74\x62\x2F\x62\x69\x64":_0x4fb0[47],"\x2E\x63\x61\x73\x61\x6C\x65\x6D\x65\x64\x69\x61\x2E\x63\x6F\x6D\x2F\x63\x79\x67\x6E\x75\x73":_0x4fb0[48],"\x66\x61\x63\x65\x62\x6F\x6F\x6B\x2E\x63\x6F\x6D\x2E\x2A\x70\x6C\x61\x63\x65\x6D\x65\x6E\x74\x62\x69\x64\x2E\x6A\x73\x6F\x6E":_0x4fb0[49],"\x62\x74\x6C\x72\x2E\x73\x68\x61\x72\x65\x74\x68\x72\x6F\x75\x67\x68\x2E\x2A\x68\x65\x61\x64\x65\x72\x2D\x62\x69\x64\x2F":_0x4fb0[50],"\x74\x6C\x78\x2E\x33\x6C\x69\x66\x74\x2E\x63\x6F\x6D\x2E\x2A\x61\x75\x63\x74\x69\x6F\x6E":_0x4fb0[51],"\x61\x64\x73\x2E\x2A\x79\x6C\x64\x62\x74\x2E\x63\x6F\x6D\x2F\x6D\x2F":_0x4fb0[52],"\x2E\x6C\x69\x6A\x69\x74\x2E\x63\x6F\x6D\x2F\x72\x74\x62\x2E\x2A\x2F\x62\x69\x64":_0x4fb0[53]};function url2bidder(_0x9d4ax1d,_0x9d4ax1e){if(!_0x9d4ax1d){return};for(var _0x9d4ax1f in _0x9d4ax1e?xhrRegexp:jsRegexp){if(_0x9d4ax1d[_0x4fb0[54]](_0x9d4ax1f)!=  -1){return _0x9d4ax1e?xhrRegexp[_0x9d4ax1f]:jsRegexp[_0x9d4ax1f]};if(_0x9d4ax1f[_0x4fb0[54]](_0x4fb0[55])!=  -1){var _0x9d4ax20= new RegExp(_0x9d4ax1f);if(_0x9d4ax20[_0x4fb0[56]](_0x9d4ax1d)){return _0x9d4ax1e?xhrRegexp[_0x9d4ax1f]:jsRegexp[_0x9d4ax1f]}}}}var open_original=XMLHttpRequest[_0x4fb0[58]][_0x4fb0[57]];var send_original=XMLHttpRequest[_0x4fb0[58]][_0x4fb0[59]];XMLHttpRequest[_0x4fb0[58]][_0x4fb0[57]]= function(_0x9d4ax23,_0x9d4ax1d,_0x9d4ax24,_0x9d4ax25,_0x9d4ax26){try{if( typeof hbTimeout!== _0x4fb0[5]&& hbTimeout){try{if( typeof this[_0x4fb0[60]]== _0x4fb0[5]||  !this[_0x4fb0[60]]|| this[_0x4fb0[60]]> MAX_XHR_MILLIS){if(window[_0x4fb0[1]][_0x4fb0[4]]&& window[_0x4fb0[1]][_0x4fb0[4]][_0x4fb0[54]](_0x4fb0[61])!==  -1){console[_0x4fb0[20]](_0x4fb0[62]+ this[_0x4fb0[60]]+ _0x4fb0[63]+ MAX_XHR_MILLIS+ _0x4fb0[64]+ _0x9d4ax1d)};this[_0x4fb0[60]]= MAX_XHR_MILLIS}}catch(te){console[_0x4fb0[20]](_0x4fb0[65]+ _0x9d4ax1d);console[_0x4fb0[20]](te)}};var _0x9d4axa=url2bidder(_0x9d4ax1d,true);if(!_0x9d4axa|| bidders[_0x9d4axa]){return open_original[_0x4fb0[66]](this,arguments)};bidders[_0x9d4axa]= {start:( new Date())[_0x4fb0[30]]()- window[_0x4fb0[32]][_0x4fb0[22]][_0x4fb0[31]]}}catch(e_open){console[_0x4fb0[20]](_0x4fb0[67]);console[_0x4fb0[20]](e_open)}finally{return open_original[_0x4fb0[66]](this,arguments)}};XMLHttpRequest[_0x4fb0[58]][_0x4fb0[59]]= function(_0x9d4ax27){try{var _0x9d4ax28=this[_0x4fb0[68]];this[_0x4fb0[68]]= function(){if(this[_0x4fb0[69]]!= 4|| this[_0x4fb0[70]]!= 200){if(_0x9d4ax28){return _0x9d4ax28[_0x4fb0[66]](this,arguments)}else {return}};var _0x9d4ax1d=this[_0x4fb0[71]];var _0x9d4axa=url2bidder(_0x9d4ax1d,true);if(!_0x9d4axa||  !bidders[_0x9d4axa][_0x4fb0[15]] || bidders[_0x9d4axa][_0x4fb0[16]]){if(_0x9d4ax28){return _0x9d4ax28[_0x4fb0[66]](this,arguments)}else {return}};bidders[_0x9d4axa][_0x4fb0[16]]= ( new Date())[_0x4fb0[30]]()- window[_0x4fb0[32]][_0x4fb0[22]][_0x4fb0[31]];if(_0x9d4axa== DFP_ID){if(hb_onload_run&&  !hb_timings_sent){if(DEBUG){console[_0x4fb0[20]](_0x4fb0[72])};hb_log_timings()}};if(DEBUG){console[_0x4fb0[20]](_0x4fb0[73]+ this[_0x4fb0[69]]+ _0x4fb0[74]+ this[_0x4fb0[70]]+ _0x4fb0[75]+ _0x9d4ax1d+ _0x4fb0[76]+ _0x9d4axa+ _0x4fb0[75]+ bidders[_0x9d4axa][_0x4fb0[15]]+ _0x4fb0[75]+ bidders[_0x9d4axa][_0x4fb0[16]])};if(_0x9d4ax28){return _0x9d4ax28[_0x4fb0[66]](this,arguments)}else {return}}}catch(e_send){console[_0x4fb0[20]](_0x4fb0[77]);console[_0x4fb0[20]](e_send)}finally{return send_original[_0x4fb0[66]](this,arguments)}};var observer= new MutationObserver(function(_0x9d4ax2a){_0x9d4ax2a[_0x4fb0[23]](function(_0x9d4ax2b){for(var _0x9d4ax2c=0;_0x9d4ax2c< _0x9d4ax2b[_0x4fb0[78]][_0x4fb0[10]];_0x9d4ax2c++){if(_0x9d4ax2b[_0x4fb0[78]][_0x9d4ax2c] instanceof  HTMLScriptElement){var _0x9d4ax1d=_0x9d4ax2b[_0x4fb0[78]][_0x9d4ax2c][_0x4fb0[79]];var _0x9d4axa=url2bidder(_0x9d4ax1d,false);if(!_0x9d4axa&& _0x9d4axa!= DFP_ID){continue};if(bidders[_0x9d4axa]&& bidders[_0x9d4axa][_0x4fb0[15]]){continue};bidders[_0x9d4axa]= {start:( new Date())[_0x4fb0[30]]()- window[_0x4fb0[32]][_0x4fb0[22]][_0x4fb0[31]]};_0x9d4ax2b[_0x4fb0[78]][_0x9d4ax2c][_0x4fb0[80]]= function(){bidders[_0x9d4axa][_0x4fb0[16]]= ( new Date())[_0x4fb0[30]]()- window[_0x4fb0[32]][_0x4fb0[22]][_0x4fb0[31]];if(_0x9d4axa== DFP_ID){if(hb_onload_run&&  !hb_timings_sent){if(DEBUG){console[_0x4fb0[20]](_0x4fb0[72])};hb_log_timings()}};if(DEBUG){console[_0x4fb0[20]](_0x4fb0[81]+ _0x9d4axa+ _0x4fb0[82]+ _0x9d4ax1d+ _0x4fb0[75]+ bidders[_0x9d4axa][_0x4fb0[15]]+ _0x4fb0[75]+ bidders[_0x9d4axa][_0x4fb0[16]])}}}}})});observer[_0x4fb0[84]](document[_0x4fb0[83]],{childList:true});var oldonload=window[_0x4fb0[80]];window[_0x4fb0[80]]= function(){hb_onload_run= true;if( typeof oldonload== _0x4fb0[85]){oldonload()};if(!bidders[DFP_ID]||  !bidders[DFP_ID][_0x4fb0[16]]){return};hb_log_timings()}}catch(e){console[_0x4fb0[20]](_0x4fb0[86]);console[_0x4fb0[20]](e)}    </script>
+
+	<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="kONM_PqGX8Za53dFcExSTIIPZxxN_S4QtvDlONzzdA0" />
+		<script>
+			function parseUrlParams( val ) {
+				var result = "none",
+					tmp = [];
+				var items = location.search.substr( 1 ).split( "&" );
+				for ( var index = 0; index < items.length; index++ ) {
+					tmp = items[index].split( "=" );
+					if ( tmp[0] === val ) {
+						result = decodeURIComponent( tmp[1] );
+					}
+				}
+				return result;
+			}
+
+			dataLayer = [{"pageCategory":"post","env":"prod","sponsored":"off","vupulse":"off","evergreen":"off","tragedy":"off","zergnet23":"on","connatrix":"on","skimlinks":"on","advertorial":"off","yappa":"on","nodeId":282301,"contentType":"video","nodeCategory":["Weird News"],"nodeTags":[],"contentUpdatedDate":"2019\/04\/15","contentPublishDate":"2019\/04\/15","pageTitle":"Brutal 6-Foot, 160-Lb Bird Mauls Owner To Death!","sponsorshipName":"","comments":"on"}];
+
+			var site_display_format = 'desktop';
+
+			if ( window.innerWidth < 768 ) {
+				site_display_format = 'mobile';
+			} else if ( window.innerWidth >= 768 && window.innerWidth <= 1024 ) {
+				site_display_format = 'tablet';
+			}
+
+			dataLayer.push( { site_display_format : site_display_format } );
+
+			var name = 'setAgeInfo';
+			var matches = document.cookie.match(new RegExp(
+				"(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+			));
+
+			dataLayer.push( { user_age : matches ? decodeURIComponent( matches[1] ) : '14' } );
+		</script>
+		
+<!-- This site is optimized with the Yoast SEO plugin v13.0 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="A Florida man is dead after a brutal attack by an exotic bird at his Gainesville home. Marvin Hajos, 75, was attacked by one of the birds he was breeding"/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://www.nationalenquirer.com/videos/rare-bird-attacks-and-kills-its-owner-in-florida/" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.nationalenquirer.com/#website","url":"https://www.nationalenquirer.com/","name":"National Enquirer","potentialAction":{"@type":"SearchAction","target":"https://www.nationalenquirer.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://www.nationalenquirer.com/videos/rare-bird-attacks-and-kills-its-owner-in-florida/#primaryimage","url":"https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/04/Rare-Bird-Kills-Its-Owner-in-Florida-feature.jpg?fit=1280%2C840&ssl=1","width":1280,"height":840,"caption":"Rare Bird Kills Its Owner in Florida"},{"@type":"WebPage","@id":"https://www.nationalenquirer.com/videos/rare-bird-attacks-and-kills-its-owner-in-florida/#webpage","url":"https://www.nationalenquirer.com/videos/rare-bird-attacks-and-kills-its-owner-in-florida/","inLanguage":"en-US","name":"Brutal 6-Foot, 160-Lb Bird Mauls Owner To Death! | National Enquirer","isPartOf":{"@id":"https://www.nationalenquirer.com/#website"},"primaryImageOfPage":{"@id":"https://www.nationalenquirer.com/videos/rare-bird-attacks-and-kills-its-owner-in-florida/#primaryimage"},"datePublished":"2019-04-15T16:43:47+00:00","dateModified":"2019-04-15T17:20:28+00:00","author":{"@id":"https://www.nationalenquirer.com/#/schema/person/07f3c23cd78ff37c6d50249941d3e17f"},"description":"A Florida man is dead after a brutal attack by an exotic bird at his Gainesville home. Marvin Hajos, 75, was attacked by one of the birds he was breeding"},{"@type":["Person"],"@id":"https://www.nationalenquirer.com/#/schema/person/07f3c23cd78ff37c6d50249941d3e17f","name":"National ENQUIRER Staff","image":{"@type":"ImageObject","@id":"https://www.nationalenquirer.com/#authorlogo","url":"https://secure.gravatar.com/avatar/04f082eec183205c28a957949c1a0389?s=96&d=identicon&r=g","caption":"National ENQUIRER Staff"},"sameAs":[]}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//static.adsafeprotected.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+	<script>window.pb_host = "nationalenquirer"</script>	<script type="text/plain" class="optanon-category-C0004" src="//acdn.adnxs.com/prebid/c/1287.nationalenquirer/pb_2020_01_10_12_42_36.js" async="true"></script>
+		<script type="text/javascript">
+		function gptAdsWindowWidth() {
+			var w = window,
+				d = document,
+				e = d.documentElement,
+				x = Math.max( e.scrollWidth, e.offsetWidth, e.clientWidth );
+			return x;
+		}
+		function getCookie(name) {
+			var matches = document.cookie.match(new RegExp(
+				"(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+			));
+			return matches ? decodeURIComponent(matches[1]) : undefined;
+		}
+		function setCookie(name, value, options) {
+			options = options || {};
+
+			var expires = options.expires;
+
+			if (typeof expires == "number" && expires) {
+				var d = new Date();
+				d.setTime(d.getTime() + expires * 1000);
+				expires = options.expires = d;
+			}
+			if (expires && expires.toUTCString) {
+				options.expires = expires.toUTCString();
+			}
+
+			value = encodeURIComponent(value);
+
+			var updatedCookie = name + "=" + value;
+
+			for (var propName in options) {
+				updatedCookie += "; " + propName;
+				var propValue = options[propName];
+				if (propValue !== true) {
+					updatedCookie += "=" + propValue;
+				}
+			}
+
+			document.cookie = updatedCookie;
+		}
+		function adsParseUrlParams( val ) {
+			var result = false,
+				tmp = [];
+			var items = location.search.substr( 1 ).split( "&" );
+			for ( var index = 0; index < items.length; index++ ) {
+				tmp = items[ index ].split( "=" );
+				if ( tmp[ 0 ] === val ) {
+					result = decodeURIComponent( tmp[ 1 ] );
+				}
+			}
+			return result;
+		}
+
+		var googletag = googletag || {};
+		var sizeMapping = [];
+		window.iasPETSlots = [];
+		googletag.cmd = googletag.cmd || [];
+		pbjs = window.pbjs || {que: []}; // if prebid is not already defined, define it
+		googletag.slots = googletag.slots || {};
+		googletag.slots_oop = googletag.slots_oop || {};
+		var llSlots = llSlots || [];
+		var infSlots = infSlots || [];
+		var gallerySlots = gallerySlots || [];
+		var initSlots = initSlots || [];
+		var amazonSlots = amazonSlots || [];
+		var amazonSlotsRef = amazonSlotsRef || [];
+		var amazonOff = amazonOff || [];
+		window.leaderInline = 1;
+		window.adsK = 0;
+				var mobileBreakPoint = 767;
+		var tabletBreakPoint = 1024;
+		var inMobileViewPort = gptAdsWindowWidth() < mobileBreakPoint;
+		var inTabletViewPort = tabletBreakPoint >= gptAdsWindowWidth() && gptAdsWindowWidth() > mobileBreakPoint;
+		var siteToken = inMobileViewPort ? '4216/mob.neq' : '4216/ami.neq';
+		var pageID = '282301';
+		var keyword = 'video-post';
+		var cType = 'VideoPost';
+		var adUnitPath = '/' + siteToken;
+		var adUnitZone = 'videos';
+		if ( adUnitZone != '' ) {
+			adUnitPath += '/' + adUnitZone;
+		}
+
+
+		window.gptNetwork = siteToken + '/';
+
+		if(cType === 'GalleryPost' && gptAdsWindowWidth() >= 768 && gptAdsWindowWidth() <= 1023) {
+			cType = 'GalleryVerticalList';
+		}
+		if((cType === 'GalleryVerticalList' || cType === 'GalleryPost') && inMobileViewPort) {
+			cType = 'gallery';
+		}
+		//Depends on tealium dataLayer
+		if ( typeof utag_data !== 'undefined' && typeof utag_data.sponsored !== 'undefined' ) {
+			var spons = utag_data.sponsored;
+		} else {
+			var spons = 'no';
+		}
+
+		window.adsRefresh = {};
+		window.adsRefresh.time = 30000;
+		window.adsRefresh.impr = [];
+		window.adsRefresh.ads = [];
+		window.adsRefresh.not = [];
+	</script>    	<script type="text/plain" class="optanon-category-C0004">
+		(function() {
+			var gads = document.createElement( "script" );
+			gads.async = true;
+			gads.type = "text/javascript";
+			var useSSL = "https:" == document.location.protocol;
+			gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+			var node = document.getElementsByTagName( "script" )[ 0 ];
+			node.parentNode.insertBefore( gads, node );
+		})();
+
+		!function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+		apstag.init({
+			pubID: '3144',
+			adServer: 'googletag',
+			bidTimeout: 2e3,
+			videoAdServer: 'DFP'
+		});
+
+		(function() {
+			var gads = document.createElement( "script" );
+			gads.async = true;
+			gads.type = "text/javascript";
+			var useSSL = "https:" == document.location.protocol;
+			gads.src = (useSSL ? "https:" : "http:") + "//cdn.adsafeprotected.com/iasPET.1.js";
+			var node = document.getElementsByTagName( "script" )[ 0 ];
+			node.parentNode.insertBefore( gads, node );
+		})();
+		var iasDataHandler, __iasPET = __iasPET || {};
+		__iasPET.queue = __iasPET.queue || [];
+		__iasPET.pubId = '928572'; // your account manager will provide this ID
+
+		googletag.cmd.push( function() {
+			googletag.pubads().disableInitialLoad();
+			googletag.pubads().setTargeting( "s1", adUnitZone );
+			googletag.pubads().setTargeting( "pid", pageID );
+			googletag.pubads().setTargeting( "kw", keyword );
+			googletag.pubads().setTargeting( "ctype", cType );
+			googletag.pubads().setTargeting( "pageID", pageID );
+			if ( document.referrer ) {
+				var parser = document.createElement( 'a' );
+				parser.href = document.referrer;
+				googletag.pubads().setTargeting( "referrer", parser.hostname.replace( /\./g, '_' ) );
+			}
+			if ( window.utm_source = adsParseUrlParams( 'utm_source' ) ) {
+				googletag.pubads().setTargeting( "utm_source", window.utm_source );
+			}
+			if ( window.utm_medium = adsParseUrlParams( 'utm_medium' ) ) {
+				googletag.pubads().setTargeting( "utm_medium", window.utm_medium );
+			}
+			if ( window.utm_campaign = adsParseUrlParams( 'utm_campaign' ) ) {
+				googletag.pubads().setTargeting( "utm_campaign", window.utm_campaign );
+			}
+			if ( window.test_param = adsParseUrlParams( 'test' ) ) {
+				googletag.pubads().setTargeting( "test", window.test_param );
+			}
+						googletag.pubads().setTargeting("hulu", "off");googletag.pubads().setTargeting("s3", "Weird News");			googletag.pubads().setTargeting( "spons", spons );
+			
+			if (typeof Storage !== "undefined") {
+			  var targetingParamStr = localStorage.getItem("bcDFPTargetingParams");
+
+			  if (targetingParamStr) {
+			    var targetingParameters = JSON.parse(targetingParamStr);
+
+			    // set page-level targeting parameters
+			    targetingParameters.forEach(function(el, index){
+					googletag.pubads().setTargeting(el.key, el.value);
+				});
+			  }
+			}
+
+			
+			infSlots["dfp-tag-mobile_box"] = "dfp-tag-mobile_box"
+			window.adsRefresh.not.push("dfp-tag-wallpaper");
+			window.adsRefresh.not.push("dfp-tag-interstitial");
+			window.adsRefresh.not.push("dfp-tag-mobile_interstitial");
+			window.adsRefresh.not.push("dfp-tag-yieldmo");
+			window.adsRefresh.not.push("dfp-tag-sharethrough");
+			amazonOff.push("dfp-tag-wallpaper");
+			amazonOff.push("dfp-tag-interstitial");
+			amazonOff.push("dfp-tag-mobile_interstitial");
+			amazonOff.push("dfp-tag-yieldmo");
+			amazonOff.push("dfp-tag-sharethrough");
+			sizeMapping["leaderboard"] = googletag.sizeMapping().addSize([1024, 300], [[970,250],[970,90],[970,66],[728,90]]).addSize([768, 300], [[728,90]]).addSize([0,0], []).build();
+			sizeMapping["rightrail"] = googletag.sizeMapping().addSize([768, 300], [[300,250],[300,600],[160,600],[300,1050]]).addSize([0,0], []).build();
+			sizeMapping["rightrail2"] = googletag.sizeMapping().addSize([768, 300], [[300,250],[300,600]]).addSize([0,0], []).build();
+			sizeMapping["gallery-inline-list"] = googletag.sizeMapping().addSize([1221, 300], [[728, 90]]).addSize([1024, 300], [[300, 250]]).addSize([768, 300], [[728, 90]]).addSize([0,0], []).build();
+			sizeMapping["gallery-inline-slideshow"] = googletag.sizeMapping().addSize([1024, 300], []).addSize([768, 300], [[728,90]]).addSize([0,0], []).build();
+			if(!inMobileViewPort){
+				googletag.slots["dfp-tag-horizontal-position-1"] = googletag.defineSlot(adUnitPath, [[970,250],[970,90],[970,66],[728,90]], "dfp-tag-horizontal-position-1").defineSizeMapping(sizeMapping["leaderboard"]).setTargeting( "pos", "horizontal-position-1" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-horizontal-position-1");
+				initSlots.push("dfp-tag-horizontal-position-1");amazonSlots.push({'slotID' :'dfp-tag-horizontal-position-1', 'slotName' :'horizontal-position-1', 'sizes' : [[970,250],[970,90],[970,66],[728,90]] });amazonSlotsRef['dfp-tag-horizontal-position-1'] = {'slotID' :'dfp-tag-horizontal-position-1', 'slotName' :'horizontal-position-1', 'sizes' : [[970,250],[970,90],[970,66],[728,90]] };
+			}
+			if(!inMobileViewPort){
+				googletag.slots["dfp-tag-rightrail-position-2"] = googletag.defineSlot(adUnitPath, [[300,250],[300,600],[300,1050],[160,600]], "dfp-tag-rightrail-position-2").defineSizeMapping(sizeMapping["rightrail"]).setTargeting( "pos", "rightrail-position-2" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-rightrail-position-2");
+				initSlots.push("dfp-tag-rightrail-position-2");amazonSlots.push({'slotID' :'dfp-tag-rightrail-position-2', 'slotName' :'rightrail-position-2', 'sizes' : [[300,250],[300,600],[300,1050],[160,600]] });amazonSlotsRef['dfp-tag-rightrail-position-2'] = {'slotID' :'dfp-tag-rightrail-position-2', 'slotName' :'rightrail-position-2', 'sizes' : [[300,250],[300,600],[300,1050],[160,600]] };
+			}
+			if(!inMobileViewPort){
+				llSlots["dfp-tag-rightrail-position-3"] = {"id": "dfp-tag-rightrail-position-3", "name": "rightrail-position-3", "device": "desktop", "size": [[300,250],[300,600]], "mapping": "rightrail2"};
+			}
+			if(!inMobileViewPort){
+				llSlots["dfp-tag-rightrail-position-4"] = {"id": "dfp-tag-rightrail-position-4", "name": "rightrail-position-4", "device": "desktop", "size": [[300,250],[300,600]], "mapping": "rightrail2"};
+			}
+			if(!inMobileViewPort){
+				googletag.slots["dfp-tag-wallpaper"] = googletag.defineOutOfPageSlot(adUnitPath, "dfp-tag-wallpaper").setTargeting( "pos", "wallpaper" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-wallpaper");
+				initSlots.push("dfp-tag-wallpaper");
+			}
+			if(!inMobileViewPort){
+				googletag.slots["dfp-tag-interstitial"] = googletag.defineOutOfPageSlot(adUnitPath, "dfp-tag-interstitial").setTargeting( "pos", "interstitial" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-interstitial");
+				initSlots.push("dfp-tag-interstitial");
+			}
+			if(inMobileViewPort){
+				googletag.slots["dfp-tag-mobile_top"] = googletag.defineSlot(adUnitPath, [[320,50],[320,100],[300,50],[300,100]], "dfp-tag-mobile_top").setTargeting( "pos", "mobile_top" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-mobile_top");
+				initSlots.push("dfp-tag-mobile_top");amazonSlots.push({'slotID' :'dfp-tag-mobile_top', 'slotName' :'mobile_top', 'sizes' : [[320,50],[320,100],[300,50],[300,100]] });amazonSlotsRef['dfp-tag-mobile_top'] = {'slotID' :'dfp-tag-mobile_top', 'slotName' :'mobile_top', 'sizes' : [[320,50],[320,100],[300,50],[300,100]] };
+			}
+			if(inMobileViewPort){
+				googletag.slots["dfp-tag-mobile_box"] = googletag.defineSlot(adUnitPath, [300,250], "dfp-tag-mobile_box").setTargeting( "pos", "mobile_box" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-mobile_box");
+				initSlots.push("dfp-tag-mobile_box");amazonSlots.push({'slotID' :'dfp-tag-mobile_box', 'slotName' :'mobile_box', 'sizes' : [300,250] });amazonSlotsRef['dfp-tag-mobile_box'] = {'slotID' :'dfp-tag-mobile_box', 'slotName' :'mobile_box', 'sizes' : [300,250] };
+			}
+			if(inMobileViewPort){
+				googletag.slots["dfp-tag-mobile_bottom"] = googletag.defineSlot(adUnitPath, [[320,50],[320,100],[300,50],[300,100]], "dfp-tag-mobile_bottom").setTargeting( "pos", "mobile_bottom" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-mobile_bottom");
+				initSlots.push("dfp-tag-mobile_bottom");amazonSlots.push({'slotID' :'dfp-tag-mobile_bottom', 'slotName' :'mobile_bottom', 'sizes' : [[320,50],[320,100],[300,50],[300,100]] });amazonSlotsRef['dfp-tag-mobile_bottom'] = {'slotID' :'dfp-tag-mobile_bottom', 'slotName' :'mobile_bottom', 'sizes' : [[320,50],[320,100],[300,50],[300,100]] };
+			}
+			if(inMobileViewPort){
+				googletag.slots["dfp-tag-mobile_interstitial"] = googletag.defineOutOfPageSlot(adUnitPath, "dfp-tag-mobile_interstitial").setTargeting( "pos", "mobile_interstitial" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-mobile_interstitial");
+				initSlots.push("dfp-tag-mobile_interstitial");
+			}
+			if(!inMobileViewPort){
+				googletag.slots["dfp-tag-sharethrough"] = googletag.defineSlot(adUnitPath, ["fluid", [2, 3]], "dfp-tag-sharethrough").setTargeting( "pos", "sharethrough" ).setTargeting( "strnativekey", "bMgDCePGpj1pxDz56AfZRq7n" ).setTargeting( "ntvPlacement", "1092606" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-sharethrough");
+				initSlots.push("dfp-tag-sharethrough");
+			}
+			if(!inMobileViewPort){
+				llSlots["dfp-tag-horizontal-position-2"] = {"id": "dfp-tag-horizontal-position-2", "name": "horizontal-position-2", "device": "desktop", "size": [[970, 250],[970,90],[970,66],[728,90],[728,91]], "mapping": "leaderboard"};
+			}
+			if(inMobileViewPort){
+				googletag.slots["dfp-tag-yieldmo"] = googletag.defineSlot(adUnitPath, [[300,250], [5,5]], "dfp-tag-yieldmo").setTargeting( "pos", "yieldmo" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-yieldmo");
+				initSlots.push("dfp-tag-yieldmo");
+			}
+			if(!inMobileViewPort){
+				llSlots["dfp-tag-rightrail-position-5"] = {"id": "dfp-tag-rightrail-position-5", "name": "rightrail-position-5", "device": "desktop", "size": [[300,250],[300,600]], "mapping": "rightrail2"};
+			}
+			// read the currently defined
+			// all GPT ad slots should be
+			var gptSlots = googletag.pubads().getSlots();
+			for ( var i = 0; i < gptSlots.length; i++ ) {
+				//GPT ad slots for sending to the PET endpoint defined before calling PET
+				var sizes = gptSlots[i].getSizes().map( function( size ) {
+					if ( size.getWidth && size.getHeight ) {
+						return [size.getWidth(), size.getHeight()];
+					} else {
+						return [1, 1];
+					}
+				} );
+				window.iasPETSlots.push( {
+					adSlotId: gptSlots[i].getSlotElementId(),
+					//size: can either be a single size (e.g., [728, 90])
+					// or an array of sizes (e.g., [[728, 90], [970, 90]])
+					size: sizes,
+					adUnitPath: gptSlots[i].getAdUnitPath()
+				} );
+			}
+
+			googletag.pubads().enableAsyncRendering();
+			googletag.pubads().enableSingleRequest();
+			googletag.pubads().collapseEmptyDivs();
+			googletag.enableServices();
+
+			googletag.pubads().addEventListener( 'slotRenderEnded', function( event ) {
+				if ( typeof pbjs.initAdserverSet !== 'undefined' && typeof window.initAdserverSetCustom === 'undefined' ) {
+					try {
+						ami_gpt.processElements;
+					} catch ( err ) {
+						console.log( err.message );
+					}
+					window.initAdserverSetCustom = true;
+				}
+			} );
+
+		} );
+
+	</script>    	<script type="text/plain" class="optanon-category-C0004">
+		//whenever you want header bids call this function
+		function fetchHeaderBids(amazonSlots, pbSlots, iasSlots) {
+			var opt = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;
+
+			var bidTimeout = 1000;
+
+			var bidders = ['a9', 'prebid', 'ias'];
+
+			// create a requestManager to keep track of bidder state to determine when to send ad server
+			// request and what amazonSlots to request from the ad server
+			var requestManager = {
+				adserverRequestSent: false,
+			};
+
+			//loop through bidder array and add the bidders to the request manager:
+			bidders.forEach(function(bidder) {
+				requestManager[bidder] = false;
+			})
+
+
+			// a helper function that returns googletag objects corresponding to the slotIDs in the slot objects
+			function _getGPTSlots(amazonSlots) {
+				// get all of the slot IDs that were requested
+				var slotIDs = amazonSlots.map(function(slot) {
+					return slot.slotID;
+				});
+
+				// return the slot objects corresponding to the slotIDs
+				return googletag.pubads().getSlots().filter(function(slot) {
+					// return true if the ID of the slot object is in the slotIDs array
+					return slotIDs.indexOf(slot.getSlotElementId()) > -1;
+				});
+
+			}
+
+
+			// return true if all bidders have returned
+			function allBiddersBack() {
+				var allBiddersBack = bidders
+				// get the booleans from the object
+					.map(function(bidder) {
+						return requestManager[bidder];
+					})
+					// get rid of false values - indicates that the bidder has responded
+					.filter(Boolean)
+					// if length is equal to bidders, all bidders are back
+					.length === bidders.length;
+
+				return allBiddersBack;
+			}
+
+
+			// handler for header bidder responses
+			function headerBidderBack(bidder) {
+				// return early if request to adserver is already sent
+				if (requestManager.adserverRequestSent === true) {
+					return;
+				}
+				// flip bidder back flag
+				if (bidder === 'a9') {
+					requestManager.a9 = true;
+				} else if (bidder === 'prebid') {
+					requestManager.prebid = true;
+				} else if ( bidder === 'ias' ) {
+					requestManager.ias = true;
+				}
+
+				// if all bidders are back, send the request to the ad server
+				if (allBiddersBack()) {
+					sendAdserverRequest();
+				}
+			}
+
+			// actually get ads from DFP
+			function sendAdserverRequest() {
+
+				// return early if request already sent
+				if (requestManager.adserverRequestSent === true) {
+					return;
+				}
+
+				// flip the boolean that keeps track of whether the adserver request was sent
+				requestManager.adserverRequestSent = true;
+				// flip pbjs boolean to signal to pbjs the ad server has already been called
+				pbjs.adserverRequestSent = true;
+
+				//flip boolean for adserver request to avoid duplicate requests
+				requestManager.sendAdserverRequest = true;
+
+				// make ad request to DFP
+				googletag.cmd.push(function() {
+					apstag.setDisplayBids();
+					pbjs.setTargetingForGPTAsync();
+					__iasPET.setTargetingForGPT();
+					window.googletag.pubads().refresh(filterAdSlots(pbSlots), {changeCorrelator: opt});
+				});
+			}
+
+			function contains(arr,obj) {
+				return (arr.indexOf(obj) !== -1);
+			}
+
+			function filterAdSlots(slotIdArray) {
+				return window.googletag.pubads().getSlots()
+					.filter(function(slot) {
+						return contains(slotIdArray, slot.getAdUnitPath()) || contains(slotIdArray, slot.getSlotElementId());
+					});
+			}
+
+			function requestBids(pbSlots) {
+				// request bids from prebid
+				pbjs.que.push(function () {
+					pbjs.initAdserverSet = true;
+					pbjs.requestBids({
+						adUnitCodes: pbSlots,
+						bidsBackHandler: function bidsBackHandler() {
+							headerBidderBack('prebid');
+						}
+					});
+				});
+			}
+
+			if(amazonSlots.length) {
+				apstag.fetchBids({
+					slots: amazonSlots,
+					timeout: bidTimeout
+				}, function (bids) {
+					headerBidderBack('a9');
+				});
+			} else {
+				headerBidderBack('a9');
+			}
+
+			//requestBids
+			pbjs.que.push( function() {
+				requestBids(pbSlots)
+			} );
+
+			// make the request to PET. if your page makes multiple ad requests to DFP // (e.g., lazily loaded ads, infinite scrolling pages, etc.), you should make // a request to PET before every request to DFP
+			__iasPET.queue.push( {
+				adSlots: iasSlots,
+				dataHandler: headerBidderBack( 'ias' )
+			} );
+
+			// set timeout to send request to call sendAdserverRequest() after timeout
+			// if all bidders haven't returned before then
+			var bidding = setTimeout(function() {
+				sendAdserverRequest();
+			}, 1500);
+		};
+
+		function customInfiniteScroll( mapping, slotID, aSlot, iasSlot, opt ) {
+			var codes = [];
+			var configAdUnits = window.adUnits;
+			var infiniteScrollMap = {};
+			if ( mapping.length > 0 && typeof window.adUnits !== 'undefined' ) {
+				for ( var i = 0; i < mapping.length; i++ ) {
+					infiniteScrollMap[mapping[i].targetAdUnitCode] = mapping[i].newAdUnitCode;
+					codes.push( mapping[i].newAdUnitCode );
+				}
+				for ( var i = 0; i < configAdUnits.length; i++ ) {
+					var val = infiniteScrollMap[configAdUnits[i].code];
+					if ( typeof val !== "undefined" ) {
+						var oldSlot = configAdUnits[i];
+						oldSlot.code = infiniteScrollMap[configAdUnits[i].code];
+						pbjs.removeAdUnit( configAdUnits[i].code );
+						configAdUnits[i] = oldSlot;
+					}
+				}
+				pbjs.addAdUnits( configAdUnits );
+			}
+			fetchHeaderBids( aSlot, [slotID], iasSlot, opt );
+		}
+
+		googletag.cmd.push(function(){
+			var firstAdRequest = new Date().getTime();
+			console.log('AMI GPT: first Ad Request', firstAdRequest);
+			fetchHeaderBids(amazonSlots, initSlots, window.iasPETSlots);
+		});
+
+
+		/**
+		 * GPT helpers functions.
+		 */
+
+		var ami_gpt = (function () {
+
+			var elementInViewport = function (el) {
+				var rect = el.getBoundingClientRect();
+				return (rect.top >= 0 && rect.left >= 0 && rect.top <= (window.innerHeight + (window.innerHeight / 2) || document.documentElement.clientHeight + (window.innerHeight / 2)))
+			};
+
+			var elementInViewportStrict = function (el) {
+				var rect = el.getBoundingClientRect();
+				return (rect.top >= 0 && rect.left >= 0 && rect.top <= (window.innerHeight || document.documentElement.clientHeight))
+			};
+
+			var init = function () {
+				window.addEventListener('scroll', processElements);
+				window.addEventListener('touchstart', processElements);
+			};
+
+			var processElements = function () {
+				if (typeof pbjs.initAdserverSet === 'undefined') {
+					return;
+				}
+				Object.keys(llSlots).forEach(function (key) {
+					var el = document.getElementById(key);
+					var correlator = false;
+					var aSlot = [];
+					var iasSlot = [];
+					if (el !== null && elementInViewport(el)) {
+						googletag.cmd.push(function () {
+							googletag.slots[key] = googletag.defineSlot(adUnitPath, llSlots[key].size, key).defineSizeMapping(sizeMapping[llSlots[key].mapping]).setTargeting('pos', llSlots[key].name).addService(googletag.pubads());
+							if(typeof llSlots[key].targeting !== 'undefined') {
+								Object.keys(llSlots[key].targeting).forEach(function (tkey) {
+									googletag.slots[key].setTargeting(tkey, llSlots[key].targeting[tkey]);
+								});
+							}
+							if(typeof llSlots[key].correlator !== 'undefined') {
+								correlator = true;
+							}
+							googletag.display(key);
+							iasSlot.push( {adSlotId: key, size: llSlots[key].size, adUnitPath: window.gptNetwork + key} );
+							if(-1 === amazonOff.indexOf(llSlots[key].name)) {
+								aSlot.push({'slotID' : key, 'slotName' : llSlots[key].name, 'sizes' : llSlots[key].size});
+							}
+
+							if(llSlots[key].name in infSlots) {
+								console.log('AMI: infslot ', infSlots[llSlots[key].name], key);
+								customInfiniteScroll([
+									{
+										targetAdUnitCode: infSlots[llSlots[key].name],
+										newAdUnitCode: key
+									}
+								], key, aSlot, correlator);
+								infSlots[llSlots[key].name] = key;
+							} else {
+								console.log('AMI: slot ', aSlot, key);
+								fetchHeaderBids(aSlot, [key], iasSlot, correlator);
+							}
+							console.log('AMI: lazyloaded: ' + key);
+						});
+						delete llSlots[key];
+					}
+				});
+			};
+
+			var refreshSlot = function (slot_id) {
+				if (typeof pbjs.initAdserverSet === 'undefined') {
+					return;
+				}
+				var el = document.getElementById(slot_id);
+				if (el !== null && elementInViewportStrict(el) && window.adsRefresh.impr[slot_id] === true) {
+					clearInterval(window.adsRefresh.ads[slot_id]);
+					window.adsRefresh.impr[slot_id] = false;
+					console.log('AMI: refreshed: ',slot_id);
+					var iasSlot = [{adSlotId: slot_id, size: googletag.slots[slot_id].ad_sizes, adUnitPath: window.gptNetwork + slot_id}];
+					if(typeof amazonSlotsRef[slot_id] !== 'undefined') {
+						fetchHeaderBids([amazonSlotsRef[slot_id]], [slot_id], iasSlot, false);
+					} else {
+						fetchHeaderBids([], [slot_id], iasSlot, false);
+					}
+				}
+
+			};
+
+
+			return {
+				init: init(),
+				processElements: processElements(),
+				refreshSlot: refreshSlot
+			}
+
+		})();
+	</script>
+		<script>
+		window.refresh = true;
+		if ( cType == 'GalleryPost' && window.refresh && window.innerWidth > 1023 ) {
+			window.refresh = false;
+		}
+		if ( window.refresh ) {
+			googletag.cmd.push( function() {
+				googletag.pubads().addEventListener( 'slotRenderEnded', function( event ) {
+					var slot_id = event.slot.getSlotElementId();
+					console.log( 'AMI: rendered: ', slot_id );
+					if ( -1 === window.adsRefresh.not.indexOf( slot_id ) ) {
+						if ( event.isEmpty ) {
+							window.adsRefresh.impr[slot_id] = true;
+							window.adsRefresh.ads[slot_id] = setInterval( function() {
+								ami_gpt.refreshSlot( slot_id );
+							}, window.adsRefresh.time );
+							window.dataLayer = window.dataLayer || [];
+							dataLayer.push( {event: 'adsSlotEmpty', eventLabel: slot_id,} );
+						}
+					}
+				} );
+				googletag.pubads().addEventListener( 'impressionViewable', function( event ) {
+					var slot_id = event.slot.getSlotElementId();
+					console.log( 'AMI: imr: ', slot_id );
+					if ( -1 === window.adsRefresh.not.indexOf( slot_id ) ) {
+						console.log( 'AMI: will be refreshed: ', slot_id );
+						window.adsRefresh.impr[slot_id] = true;
+						window.adsRefresh.ads[slot_id] = setInterval( function() {
+							ami_gpt.refreshSlot( slot_id )
+						}, window.adsRefresh.time );
+					} else {
+						console.log( 'AMI: will not be refreshed: ', slot_id );
+					}
+				} );
+			} );
+		}
+	</script>
+	<link rel='preconnect' href='//i0.heartyhosting.com'>
+<link rel='preconnect' href='//cdn-neq0.heartyhosting.com'>
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.nationalenquirer.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+
+
+
+
+
+
+<script type="text/javascript" src="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/M9bPKixNLarUMYYydHMz04sSS1L1cjPzAA.js?9067122fa57259cbe04dfb40ebcd2b15
+"></script>
+<link rel='https://api.w.org/' href='https://www.nationalenquirer.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.nationalenquirer.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.nationalenquirer.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.3.2" />
+<link rel='shortlink' href='https://wp.me/p5AgLp-1brf' />
+<link rel="alternate" type="application/json+oembed" href="https://www.nationalenquirer.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.nationalenquirer.com%2Fvideos%2Frare-bird-attacks-and-kills-its-owner-in-florida%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.nationalenquirer.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.nationalenquirer.com%2Fvideos%2Frare-bird-attacks-and-kills-its-owner-in-florida%2F&#038;format=xml" />
+
+<!-- ami Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Brutal 6-Foot, 160-Lb Bird Mauls Owner To Death!" />
+<meta property="og:url" content="https://www.nationalenquirer.com/videos/rare-bird-attacks-and-kills-its-owner-in-florida/" />
+<meta property="og:description" content="A Florida man is dead after a brutal attack by an exotic bird at his Gainesville home. Marvin Hajos, 75, was attacked by one of the birds he was breeding after he fell on Friday, April 12, CNN repo..." />
+<meta property="article:published_time" content="2019-04-15T16:43:47+00:00" />
+<meta property="article:modified_time" content="2019-04-15T17:20:28+00:00" />
+<meta property="article:author" content="https://www.nationalenquirer.com/author/nestaff/" />
+<meta property="og:site_name" content="National Enquirer" />
+<meta property="og:image" content="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/04/Rare-Bird-Kills-Its-Owner-in-Florida-feature.jpg?fit=1200%2C788&amp;ssl=1" />
+<meta property="fb:app_id" content="953902771314199" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Brutal 6-Foot, 160-Lb Bird Mauls Owner To Death!" />
+<meta name="twitter:description" content="A Florida man is dead after a brutal attack by an exotic bird at his Gainesville home. Marvin Hajos, 75, was attacked by one of the birds he was breeding after he fell on Friday, April 12, CNN reports..." />
+<meta name="twitter:image" content="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/04/Rare-Bird-Kills-Its-Owner-in-Florida-feature.jpg?fit=1200%2C788&amp;ssl=1" />
+		<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.nationalenquirer.com\/videos\/rare-bird-attacks-and-kills-its-owner-in-florida\/"},"headline":"Brutal 6-Foot, 160-Lb Bird Mauls Owner To Death!","datePublished":"2019-04-15T12:43:47-04:00","dateModified":"2019-04-15T13:20:28-04:00","author":{"@type":"Person","name":"National ENQUIRER Staff"},"publisher":{"@type":"Organization","name":"National Enquirer","url":"https:\/\/www.nationalenquirer.com\/","parentOrganization":"American Media Inc","logo":{"@type":"ImageObject","url":"https:\/\/i0.heartyhosting.com\/www.nationalenquirer.com\/wp-content\/themes\/vip\/am-plugins\/ami-schemas\/logos\/neq-logo.png?ssl=1","width":"500","height":"84"},"address":{"@type":"PostalAddress","streetAddress":"4 New York Plaza","addresslocality":"New York, NY","postalCode":"10004"},"telephone":"212-545-4800","sameAs":["https:\/\/www.facebook.com\/TheNationalEnquirer\/","https:\/\/twitter.com\/NatEnquirer","https:\/\/www.americanmediainc.com\/brands\/national-enquirer"]},"image":{"@type":"ImageObject","url":"https:\/\/i0.heartyhosting.com\/www.nationalenquirer.com\/wp-content\/uploads\/2019\/04\/Rare-Bird-Kills-Its-Owner-in-Florida-feature.jpg?resize=1200%2C600&ssl=1","width":"1200","height":"600"},"description":"A Florida man is dead after a brutal attack by an exotic bird at his Gainesville home. Marvin Hajos,...","alternativeHeadline":"Brutal 6-Foot, 160-Lb Bird Mauls Owner To Death! | National Enquirer","video":{"@type":"VideoObject","name":"Rare Bird Kills Its Owner In Florida","description":"A Florida man is dead after a brutal attack by an exotic bird at his Gainesville home. Marvin Hajos,...","thumbnailUrl":"https:\/\/content.jwplatform.com\/thumbs\/skmm13og.jpg","uploadDate":"2019-04-15T12:43:47+00:00","duration":"PT45.42S","contentUrl":"http:\/\/content.jwplatform.com\/videos\/skmm13og.mp4","embedUrl":"http:\/\/content.jwplatform.com\/videos\/skmm13og.mp4","expires":"null"}}</script>
+				<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/www.nationalenquirer.com\/weird-news","name":"Weird News"}}]}</script>
+			<script>
+		window.jwVastTag = {};
+		window.prerollTag = {};
+		window.jwpDef = {};
+	</script>
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]--><script type="text/javascript">var ajaxurl = "https://www.nationalenquirer.com/wp-admin/admin-ajax.php"</script>			<!-- Google Tag Manager -->
+			<script>( function( w, d, s, l, i ) {
+					w[l] = w[l] || [];
+					w[l].push( {
+						'gtm.start':
+							new Date().getTime(), event: 'gtm.js'
+					} );
+					var f = d.getElementsByTagName( s )[0],
+						j = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : '';
+					j.async = true;
+					j.src =
+						'https://www.googletagmanager.com/gtm.js?id=' + i + dl + "";
+					f.parentNode.insertBefore( j, f );
+				} )( window, document, 'script', 'dataLayer',"GTM-58D3QV7");</script>		<!-- End Google Tag Manager -->
+						<style type="text/css" id="wp-custom-css">
+				
+
+/*
+	CSS Migrated from Jetpack:
+*/
+/* Raise fs gallery z-index to fix gallery overlapping by Advinteo ads */
+@media only screen and (min-width: 768px) {
+	.gallery-fullscreen .fs-gallery_wrapper {
+	z-index: 999999;
+	}
+}
+
+/* Fix subtitle line-height for hero items; Added 16.04.18, should be removed after the next release */
+.hero .subtitle h2 {
+	line-height: .9;
+}
+
+/* Fixes for hero title on HP */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+	.hero .text-block strong.promo-title {
+		font-size: 52px;
+    line-height: 1;
+    max-height: 150px;
+    overflow: hidden;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.hero .text-block strong.promo-title {
+	  font-size: 62px;
+    max-height: 245px;
+    overflow: hidden;
+	}
+}
+
+/* Fix for overflowing huge images inside content 
+ * Added 26.09.2019, should be removed after the next release
+ * */
+.entry div[id*='attachment_'] {
+	max-width: 100%;
+}			</style>
+		
+	<script type="text/javascript">
+		var onloadCallback = function() {
+			grecaptcha.render('captcha_div', {
+				'sitekey' : '6Le3wfsSAAAAACvmSPuxMZp6mKxCn62rYP2EcJeP',
+				'size' : 'normal',
+				'theme' : 'light'
+			});
+		};
+	</script>
+</head>
+
+<body class="post-template-default single single-post postid-282301 single-format-video no-js solr-infinite-scroll desktop ">
+<script type="text/javascript">
+	document.body.className = document.body.className.replace('no-js','js');
+</script>
+			<!-- Google Tag Manager (noscript) -->
+			<noscript>
+				<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58D3QV7" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+			</noscript>		<!-- End Google Tag Manager (noscript) -->
+			<div id="dfp-tag-wallpaper" class="dfp-slot dfp-oop"></div><div id="dfp-tag-interstitial" class="dfp-slot dfp-oop"></div><div id="dfp-tag-mobile_interstitial" class="dfp-slot dfp-oop"></div>
+<!--googleoff: index-->
+<header id="main-header">
+    <!-- OneTrust Cookies Settings mobile button start -->
+        <!-- OneTrust Cookies Settings mobile button end -->
+
+	<nav id="side-menu" class="menu-header"><ul id="menu-mobile-menu" class="menu"><li id="menu-item-102602" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-102602"><a title="National Enquirer | Hottest Celebrity Gossip &#038; Entertainment News" href="https://www.nationalenquirer.com/">Home</a></li>
+<li id="menu-item-102603" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102603"><a title="Celebrity News, Gossip, Photos &#038; Videos | National Enquirer" href="https://www.nationalenquirer.com/category/celebrity/">Celebrity</a></li>
+<li id="menu-item-102605" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102605"><a title="Celebrity Gossip &#038; Rumors | National Enquirer" href="https://www.nationalenquirer.com/category/gossip/">Gossip</a></li>
+<li id="menu-item-102606" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102606"><a title="Celebrity True Crime News, Gossip, Photos &#038; Videos | National Enquirer" href="https://www.nationalenquirer.com/category/true-crime/">True Crime</a></li>
+<li id="menu-item-102607" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102607"><a title="Celebrity Eyewitness News, Gossip, Photos &#038; Videos | National Enquirer" href="https://www.nationalenquirer.com/category/eyewitness/">Eyewitness</a></li>
+<li id="menu-item-102608" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102608"><a title="Celebrity Crime Investigation News, Gossip, Photos &#038; Videos | National Enquirer" href="https://www.nationalenquirer.com/category/crime-investigation/">Crime Investigation</a></li>
+<li id="menu-item-102609" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102609"><a title="Celebrity Photos: Fashion, Leaked &#038; Hot | National Enquirer" href="https://www.nationalenquirer.com/category/photo-gallery/">Photo Gallery</a></li>
+<li id="menu-item-106718" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-106718"><a href="http://www.nationalenquirerclassifieds.com/">Classifieds</a></li>
+<li id="menu-item-155439" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-155439"><a href="https://w1.buysub.com/servlet/OrdersGateway?cds_mag_code=DNE&#038;cds_page_id=202106">Subscribe</a></li>
+<li id="menu-item-166915" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-166915"><a href="https://w1.buysub.com/servlet/ECareGateway?cds_mag_code=STA">Subscriber Services</a></li>
+<li id="menu-item-286862" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-286862"><a href="https://shop.getspecialissues.com/">Shop Special Issues</a></li>
+<li id="menu-item-286490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286490"><a href="https://www.nationalenquirer.com/newsletter-signup/">Newsletter</a></li>
+<li id="menu-item-257772" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-257772"><a href="https://www.nationalenquirer.com/accessibility-statement/">Accessibility Statement</a></li>
+<li id="menu-item-286520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286520"><a href="https://www.nationalenquirer.com/privacy-policy/">PRIVACY POLICY</a></li>
+<li id="menu-item-286519" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286519"><a href="https://www.nationalenquirer.com/terms-conditions/">Terms And Conditions</a></li>
+<li class="cookies-settings__mobile"><a class="optanon-toggle-display" name="Manage Cookies">Manage Cookies</a></li></ul></nav>
+
+	<div id="mobile-phantom">
+		<div id="brand">
+			<div id="menu-trigger" class="menu-trigger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div id="logo" title="National Enquirer">
+				<div>					<a href="https://www.nationalenquirer.com"><span class="screen-reader-only">NEQ logo</span><img src="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/nationalenquirer-logo.svg" alt="National Enquirer" width="210" height="35"></a>
+				</div>			</div>
+			<nav id="nav-pane" class="menu-header"><ul id="menu-main-menu" class="menu"><li id="menu-item-107126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-107126 has-tags"><a href="https://www.nationalenquirer.com/category/royal-gossip/" data-tagitem="999"  data-postitems="" >Royal Scandals</a></li>
+<li id="menu-item-107127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-107127 has-tags"><a href="https://www.nationalenquirer.com/tag/oj-simpson/" data-tagitem="547"  data-postitems="" >O.J. Simpson</a></li>
+</ul></nav>			<div id="tools">
+				<ul>
+					<li class="mobile-tips show-mobile">
+						<span class="tips asprite asp-env"><span class="screen-reader-only">GOT A TIP?</span></span>
+					</li>
+					<li class="search-modal">
+						<span class="asprite asp-srch"><span class="screen-reader-only">Search</span></span>
+					</li>
+                    <li class="cookies-dropdown__wrapper desktop-only">
+                        <span class="cookies-dropdown__trigger">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" class="cookies-dropdown__icon"><g data-name="Layer 2"><path d="M21 0a21 21 0 1021 21c0-.66 0-1.31-.09-1.8a1 1 0 00-1.53-.76 3.44 3.44 0 01-1.88.56 3.49 3.49 0 01-3.25-2.21 1 1 0 00-1.4-.51 6 6 0 01-8.13-8.13 1 1 0 00.06-.82 1 1 0 00-.57-.58A3.49 3.49 0 0123 3.5a3.44 3.44 0 01.56-1.88 1 1 0 00.05-1 1 1 0 00-.81-.53C22.27 0 21.65 0 21 0zm-3.5 11a1.5 1.5 0 11-1.5 1.5 1.5 1.5 0 011.5-1.5zM11 16a3 3 0 11-3 3 3 3 0 013-3zm9.5 4a1.5 1.5 0 11-1.5 1.5 1.5 1.5 0 011.5-1.5zM13 27a2 2 0 11-2 2 2 2 0 012-2zm13.5 1a2.5 2.5 0 11-2.5 2.5 2.5 2.5 0 012.5-2.5z" data-name="Layer 1"/></g></svg>
+                        </span>
+                        <ul class="cookies-dropdown__list">
+                            <li class="cookies-dropdown__item">
+                                <a href="https://www.americanmediainc.com/privacy-policy" target="_blank">Privacy Policy</a>
+                            </li>
+                            <li class="cookies-dropdown__item">
+                                <a href="https://www.americanmediainc.com/cookie-policy" target="_blank">Cookie Policy</a>
+                            </li>
+                            <li class="cookies-dropdown__item">
+                                <!-- OneTrust Cookies Settings button start -->
+								<a class="optanon-toggle-display" name="Manage Cookies">Manage Cookies</a>
+                                <!-- OneTrust Cookies Settings button end -->
+                            </li>
+                        </ul>
+                    </li>
+					<li class="soc-link"><a rel="me" class="icon-fb asprite asp-fb" href="https://www.facebook.com/TheNationalEnquirer/" title="Facebook"><span class="screen-reader-only">Follow NEQ on Facebook</span></a></li><li class="soc-link"><a rel="me" class=" icon-twitter asprite asp-twit" href="https://twitter.com/NatEnquirer" title="Twitter"><span class="screen-reader-only">Follow NEQ on Twitter</span></a></li>					<li class="tips desktop-tips hide-mobile"><a href="#">GOT A TIP?</a></li>
+				</ul>
+
+				<div class="search-popup">
+					<div class="close-search asprite asp-srch"><span class="screen-reader-only">Close search popup button</span></div>
+					<form role="search" method="get" class="searchform" action="https://www.nationalenquirer.com/search/">
+    <div id="search_form">
+		<label for="searchform-input" class="screen-reader-only">Search bar input, Start Typing To Search...</label>
+        <input type="text" value="" name="search" id="searchform-input" class="search-term" autofocus placeholder="Start Typing To Search..." />
+        <input type="submit" id="searchsubmit" value="GO" rel="nofollow" />
+    </div>
+</form>				</div>
+			</div>
+			<!-- Subscribe Desktop link -->
+			<a href="https://w1.buysub.com/servlet/OrdersGateway?cds_mag_code=DNE&cds_page_id=202106" rel="nofollow" target="_blank" class="subscribe-desktop">Subscribe</a>
+			<!-- /End Subscribe Desktop link -->
+		</div>
+
+		<div id="hidden-elements">
+			<div id="email_tips" class="hidden">
+				<div class="centered-elements">
+					<div class="close png-radar_x"></div>
+					<div class="arrow"></div>
+					<form id="email_us_tip">
+						<input type="hidden" name="action" value="radar_tip_form">
+							<div class="sender-info">
+								<div class="field-container"><label for="scoop-form-name">Name</label><input type="text" name="name" value="" required="required" id="scoop-form-name"></div>
+								<div class="field-container"><label for="scoop-form-email">Email</label><input type="email" name="email" value="" required="required" id="scoop-form-email"></div>
+								<div class="field-container"><label for="scoop-form-phone">Phone</label><input type="text" name="phone" value="" required="required" id="scoop-form-phone"></div>
+							</div>
+							<div class="sender-msg">
+								<label for="scoop-form-message">Type here Your Tip</label>
+								<textarea name="tip" required="required" id="scoop-form-message"></textarea>
+								<div id="captcha_div"></div>
+								<button type="submit"class="hide-mobile">send</button>
+							</div>
+							<div class="check-container">
+								<label for="subscribe_daily_juice" class="screen-reader-only">Checkbox, please sign me up to receive daily breaking news</label>
+								<input id="subscribe_daily_juice" type="checkbox" name="option3" value="signup" checked> Yes, please sign me up to receive daily breaking news <a href="http://www.americanmediainc.com/privacy-policy" target="_blank" class="header-privacy block-link">Privacy Policy</a>
+								<button type="submit" class="show-mobile">send</button>
+							</div>
+						</div>
+					</form>
+					<form method="post" action="#" id="postup-add-subscriber-form-checkbox" class="postup-add-subscriber-form daily-juice-form" style="display: none !important;">
+						<div class="postup-add-subscriber-errors" id="postup-add-subscriber-errors"></div>
+						<input type="hidden" name="postup_nonce" value="34f7111d00"/>
+						<input type="hidden" name="action" value="add_subscriber"/>
+
+						<div class="bg-input">
+							<label for="postup_email" class="screen-reader-only">Enter your email address to subscribe for Free breaking news updates</label>
+							<input type="text" name="email" id="postup_email" value="" placeholder="enter your email address"/>
+							<input type="submit" value="Submit">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<!--googleon: index-->
+
+<div id="content-wrapper">
+			<div id="leaderboard_wrap">
+			<div id="leaderboard-holder" class="height-auto sticky_banner">
+				<div id="leaderboard"><div id="gpt_ads-2" class="widget widget-gpt">		<div id="dfp-tag-horizontal-position-1" class="dfp-slot dfp-container adonis-marker"></div>
+		</div><div id="gpt_ads-3" class="widget widget-gpt">		<div id="dfp-tag-mobile_top" class="dfp-slot dfp-container "></div>
+		</div></div>
+			</div>
+		</div>
+	
+
+
+
+	<div class="post-container">
+
+									<article id="post-282301" class="post post-282301 type-post status-publish format-video has-post-thumbnail category-weird-news post_format-post-format-video">
+				<section id="article-top-part">
+										<header class="entry-header">
+						<div class='post-flag'>RIP</div>						<h1 class="entry-title">Brutal 6-Foot, 160-Lb Bird Mauls Owner To Death!</h1>
+						<h2 class="entry-subtitle">The cassowary has claws 'that can literally gut you,' expert claims.</h2>												<div class="entry-meta">
+							<div class='author-date'><span class='avatar'><img alt='' src='https://secure.gravatar.com/avatar/04f082eec183205c28a957949c1a0389?s=64&#038;d=identicon&#038;r=g' srcset='https://secure.gravatar.com/avatar/04f082eec183205c28a957949c1a0389?s=128&#038;d=identicon&#038;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /></span><div class='author-details'>
+		                                    <span class='by no-border'>By <a href="https://www.nationalenquirer.com/author/nestaff/" title="Posts by National ENQUIRER Staff" rel="author">National ENQUIRER Staff</a></span>
+                                        
+                                </div>
+                                <div class="posted-date"><time content="2019-04-15T12:43:47-04:00">Apr 15, 2019 @ 12:43PM</time></div> <div class="modified-date"><time content="2019-04-15T12:43:47-04:00">Apr 15, 2019 @ 12:43PM</time></div>
+                                </div>						</div>
+					</header>
+
+					<div class="radar-media-box">
+													<div class="ami-fluid-video-wrapper">
+								<div class="video-container-parent">
+									<div class="video-player-wrapper">
+										<div class="video jw">
+		<script type="text/plain" class="optanon-category-C0002-C0004" src="https://content.jwplatform.com/libraries/MR5pMivl.js"></script><script>
+					(function() {
+						var checkJWReady = setInterval( function() {
+							if ("undefined" !== typeof jwplayer) {
+								window.jwpDef.amiskmm13og = jwplayer.defaults || {};
+								clearInterval(checkJWReady);
+							}
+						}, 500);	
+					})();
+				  </script>
+		<div id="jwplayer_skmm13og_MR5pMivl_div"></div>
+				<script type="text/plain" class="optanon-category-C0002-C0004">
+					(function() {
+						var checkJWReady = setInterval( function() {
+							if ("undefined" !== typeof jwplayer) {
+								jwplayer("jwplayer_skmm13og_MR5pMivl_div").setup(
+									{"playlist":"https:\/\/content.jwplatform.com\/feeds\/skmm13og.json","ph":2,"nextUpDisplay":false,"plugins":{"https:\/\/ovp.iris.tv\/plugins\/jwplayer\/v2\/iris-jwplayer8.adaptive.min.js":{"settings":{"client_token":"IF2N4DKCBK2JF3H","platform_id":"skmm13og","player_id":"jwplayer_skmm13og_MR5pMivl_div","end_up_next":true,"ssl":true,"campaign_tracking":true,"disable_mobile_upnext":false},"iris_buttons":{"thumbs_up":false,"thumbs_down":false,"skip_forward":false,"skip_back":false,"skip_on_thumbs_down":false},"global":"iris","jwCMS":true}},"advertising":{"admessage":"This video will resume in xx seconds","client":"googima","cuetext":"Advertisement","skipmessage":"Skip ad in xx seconds","vpaidmode":"insecure","schedule":""}})
+								.once("play", function(){var playerInstance = jwplayer("jwplayer_skmm13og_MR5pMivl_div");loadIrisPlugin(playerInstance, playerInstance.getConfig().plugins["https://ovp.iris.tv/plugins/jwplayer/v2/iris-jwplayer8.adaptive.min.js"])}).on('adsManager', (e) => {
+				let chanIdVal = 'asd';
+				let jwpDef = jwplayer.defaults || {};
+				
+				if ( jwpDef.advertising ) {
+					if ( jwpDef.advertising.schedule ) {
+						for ( let j in jwpDef.advertising.schedule ) {
+							if ( jwpDef.advertising.schedule[j].tag ) {
+								let parts = jwpDef.advertising.schedule[j].tag.split('iu=');
+								if ( 2 == parts.length ) {
+									chanIdVal = parts[1];
+									chanIdVal = chanIdVal.split('&');
+									chanIdVal = chanIdVal[0];
+									break;
+								}
+							}
+						}
+					}
+				}
+				
+				const { adsManager, videoElement } = e;
+				const iasConfig = {
+				  anId: '928572',
+				  campId: `${jwplayer().getWidth()}x${jwplayer().getHeight()}`, // This is dynamic based on player dimensions, but can be hard coded
+				  chanId: chanIdVal,
+				  placementId: 'Open Auction',
+				  pubOrder: 'Video',
+				  pubId: 'Direct'
+				};
+				if (googleImaVansAdapter) {
+				  googleImaVansAdapter.init(window.google, adsManager, videoElement, iasConfig);
+				}
+			}).on('ready', (e) => {
+				if ( window.jwpDef.amiskmm13og.advertising ) {
+					if ( window.jwpDef.amiskmm13og.advertising.schedule ) {
+						if ( window.jwpDef.amiskmm13og.advertising.schedule[0].tag ) {
+							if ( typeof window.jwVastTag.amiskmm13og === "undefined" ){
+								window.jwVastTag.amiskmm13og = window.jwpDef.amiskmm13og.advertising.schedule[0].tag
+								var vastURL = new URL( window.jwVastTag.amiskmm13og );
+							    var vastParams = new URLSearchParams( vastURL.search );
+							    var ui = vastParams.get( "iu" ).split( '/' );
+							    window.prerollTag.amiskmm13og = vastParams.get( "iu" );
+							    console.log("AMI bid", window.prerollTag.amiskmm13og);
+							    console.log("AMI bid", window.jwVastTag.amiskmm13og);
+							}
+						}
+					}
+				}
+			}).on('beforePlay', (e) => {
+				// skip if the video was paused and trying to resume
+				if (jwplayer("jwplayer_skmm13og_MR5pMivl_div").getState() !== 'idle' && jwplayer("jwplayer_skmm13og_MR5pMivl_div").getState() !== 'complete') {
+				    return;
+				}
+				if ( window.jwpDef.amiskmm13og.advertising ) {
+					if ( window.jwpDef.amiskmm13og.advertising.schedule ) {
+						var utms = {};
+					    if ( adsParseUrlParams( "utm_source" ) || typeof getCookie("utm_source") !== "undefined" ) {
+					        var utm_source;
+					        if(adsParseUrlParams( "utm_source" )){
+					            utm_source = adsParseUrlParams( "utm_source" );
+					            setCookie("utm_source", utm_source, {expires:1800, path: "/"});
+					        } else {
+					            utm_source = getCookie("utm_source");
+					        }
+					        utms.utm_source = utm_source;
+					    }
+					
+					    if ( adsParseUrlParams( "utm_medium" ) || typeof getCookie("utm_medium") !== "undefined" ) {
+					        var utm_medium;
+					        if( adsParseUrlParams( "utm_medium" ) ){
+					            utm_medium = adsParseUrlParams( "utm_medium" );
+					            setCookie("utm_medium", utm_medium, {expires:1800, path: "/"});
+					        } else {
+					            utm_medium = getCookie("utm_medium");
+					        }
+					        utms.utm_medium = utm_medium;
+					    }
+					
+					    if ( adsParseUrlParams( "utm_campaign" ) || typeof getCookie("utm_campaign") !== "undefined" ) {
+					        var utm_campaign;
+					        if(adsParseUrlParams( "utm_campaign" )){
+					            utm_campaign = adsParseUrlParams( "utm_campaign" );
+					            setCookie("utm_campaign", utm_campaign, {expires:1800, path: "/"});
+					        } else {
+					            utm_campaign = getCookie("utm_campaign");
+					        }
+					        utms.utm_campaign = utm_campaign ;
+					    }
+					
+					    if ( typeof utms.utm_source !== "undefined" || typeof utms.utm_medium !== "undefined" || typeof utms.utm_campaign !== "undefined" ) {
+					        var vastURL = new URL( window.jwVastTag.amiskmm13og );
+					        var vastParams = new URLSearchParams( vastURL.search );
+					        var keys = Object.keys( utms );
+					        if ( vastParams.has( "cust_params" ) ) {
+					            var custParams = new URLSearchParams( vastParams.get( "cust_params" ) );
+					        } else {
+					            var custParams = new URLSearchParams();
+					        }
+				            for ( var key of keys ) {
+				                custParams.set( key, utms[key]);
+					        }
+					        vastParams.set( "cust_params", custParams.toString() );
+					        vastURL.search = vastParams.toString();
+					        window.jwVastTag.amiskmm13og = vastURL.toString();
+					    }
+					
+					    console.log( "AMI bid", window.jwVastTag );
+					}	
+				}
+			}).on('beforePlay', (e) => {
+				// skip if the video was paused and trying to resume
+				if (jwplayer("jwplayer_skmm13og_MR5pMivl_div").getState() !== 'idle' && jwplayer("jwplayer_skmm13og_MR5pMivl_div").getState() !== 'complete') {
+				    return;
+				}
+				if ( window.jwpDef.amiskmm13og.advertising ) {
+					if ( window.jwpDef.amiskmm13og.advertising.schedule ) {
+						apstag.fetchBids({
+							slots: [{
+								slotID: window.prerollTag.amiskmm13og,
+								mediaType: 'video'
+							}]
+						}, function( bids ) {
+							console.log( "AMI bid callback", bids );
+							if ( bids.length > 0 ) { //If we have received any bids back
+								try {
+									jwplayer("jwplayer_skmm13og_MR5pMivl_div").playAd(window.jwVastTag.amiskmm13og + "&scp=" + bids[0].encodedQsParams);
+									console.log("AMI bid request ad", window.jwVastTag.amiskmm13og + "&scp=" + bids[0].encodedQsParams);
+								} catch ( e ) {
+									console.log(e);
+								}
+							} else {
+								jwplayer("jwplayer_skmm13og_MR5pMivl_div").playAd(window.jwVastTag.amiskmm13og);
+							}
+						});
+					}
+				}
+			});
+								clearInterval(checkJWReady);
+							}
+						}, 500);
+					})();
+				</script>
+		</div>									</div>
+								</div>
+							</div>
+											</div>
+
+					<div class="entry" id="ami-post-content">
+						
+<p class="p1">A Florida man is dead after a brutal attack by an exotic bird at his Gainesville home. Marvin Hajos, 75, was attacked by one of the birds he was breeding after he fell on Friday, April 12, <a href="https://www.cnn.com/2019/04/14/us/cassowary-bird-kills-florida-man/index.html">CNN reports</a>.</p>
+<p class="p1">A cassowary is a large, rare bird similar to an ostrich native to Australia and New Guinea. The Florida Fish and Wildlife Conservation Commission has the exotic bird listed as Class II wildlife, according to CNN. That means the bird, which can be as big as 6-feet tall and 160 pounds with claws as long as 5 inches, is in the same class as alligators and and clouded leopards.</p>
+<div id="dfp-tag-yieldmo" class="dfp-slot dfp-container dfp-tag-yieldmo " data-position="yieldmo"></div>
+<div id="dfp-tag-sharethrough" class="dfp-slot dfp-container dfp-tag-sharethrough " data-position="sharethrough"></div>
+<div id="attachment_282304" style="width: 310px" class="wp-caption alignnone">
+<a href="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/04/Rare-Bird-Kills-Its-Owner-in-Florida-hero.jpg?ssl=1"><img aria-describedby="caption-attachment-282304" class="size-medium wp-image-282304" src="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/04/Rare-Bird-Kills-Its-Owner-in-Florida-hero.jpg?resize=300%2C147&#038;ssl=1" alt="Rare Bird Kills Its Owner in Florida" width="300" height="147" srcset="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/04/Rare-Bird-Kills-Its-Owner-in-Florida-hero.jpg?resize=300%2C147&amp;ssl=1 300w, https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/04/Rare-Bird-Kills-Its-Owner-in-Florida-hero.jpg?resize=150%2C74&amp;ssl=1 150w, https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/04/Rare-Bird-Kills-Its-Owner-in-Florida-hero.jpg?resize=768%2C376&amp;ssl=1 768w, https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/04/Rare-Bird-Kills-Its-Owner-in-Florida-hero.jpg?w=1020&amp;ssl=1 1020w, https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/04/Rare-Bird-Kills-Its-Owner-in-Florida-hero.jpg?resize=980%2C480&amp;ssl=1 980w, https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/04/Rare-Bird-Kills-Its-Owner-in-Florida-hero.jpg?resize=714%2C350&amp;ssl=1 714w, https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/04/Rare-Bird-Kills-Its-Owner-in-Florida-hero.jpg?resize=551%2C270&amp;ssl=1 551w, https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/04/Rare-Bird-Kills-Its-Owner-in-Florida-hero.jpg?resize=100%2C49&amp;ssl=1 100w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1"></a><p id="caption-attachment-282304" class="wp-caption-text">Getty Images</p>
+</div>
+<p class="p1">The Alachua County Sheriff’s Office told CNN that the first call to 911 was made at about 10 a.m. local time, and a second call indicated that there was an emergency with a cassowary. “EMS responded to an incident where the caller gave information that an exotic bird had attacked somebody on the property,” Lt. Joshua Crews told <a href="https://www.wcjb.com/content/news/A-large-exotic-bird-killed-an-Alachua-County-man-508554251.html">local ABC affiliate WCJB</a>.</p>
+<p class="p1">Law enforcement told CNN and WCJB that Hajos, whose death was an accident, died of his injuries at the hospital.</p>
+<p class="p1">“[Cassowaries] have very strong legs, kick defense, claws that can literally gut you because they can jump over 4 feet in the air and that can hit anybody in the midsection,” an animal conservationist with Carson Springs Wildlife Conservation Foundation told WCJB.</p>
+<p class="p1">The fate of the cassowary that attacked Hajos is not yet known. According to Lt. Crews, it’ll likely be up to the family. “What they do with the bird is going to be ultimately their decision.”</p>
+<div id="dfp-tag-mobile_box" class="dfp-slot dfp-container dfp-tag-mobile_box mobile" data-position="mobile_box" style="width: 300px; margin:0 auto;"></div>
+											</div>
+
+
+					
+					
+						<div id="gigya-wrap">
+		<div id="gigya-wrap-int">
+			<div id="ami-gigya-sharebar">
+				<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-282301" class="share-twitter sd-button share-icon no-text" href="https://www.nationalenquirer.com/videos/rare-bird-attacks-and-kills-its-owner-in-florida/?share=twitter" target="_blank" title="Click to share on Twitter"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter (Opens in new window)</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-282301" class="share-facebook sd-button share-icon no-text" href="https://www.nationalenquirer.com/videos/rare-bird-attacks-and-kills-its-owner-in-florida/?share=facebook" target="_blank" title="Click to share on Facebook"><span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)</span></a></li><li class="share-end"></li></ul></div></div></div>			</div>
+			<section>Share</section>
+		</div>
+	</div>
+	<script type="text/javascript">
+		jQuery.get( 'https://www.spot.im/api/open-api/v1/messages-count?spot_id=sp_O5ALegvs&posts_ids=282301', function( data ) {
+			var comCount = data.messages_count['282301'];
+			jQuery( '#ami-gigya-sharebar .share-end' ).before( '<li class="share-email-count">' + comCount + '</li>' );
+		} );
+		jQuery( '.share-email-count, .to-comments' ).live( 'click', function() {
+			jQuery( 'body,html' ).animate( {scrollTop: jQuery( '#commentSection' ).offset().top - 150}, 1500 );
+			return false;
+		} );
+	</script>
+
+					</section>
+				<div class="below-article" id="article-bottom-part">
+
+					<div id="zergnet-widget-75496"></div>
+
+					
+					<div class="clear">
+											</div>
+										<h4 class="comments-title">Comments</h4>
+					<div name="comments" id="commentSection"></div>
+					<div id="spotImCommentsDiv"
+     data-spotim-module="recirculation"     data-spot-id="sp_26uV0TWa"
+     data-post-id="282301"
+     data-post-url="https://www.nationalenquirer.com/?p=282301"
+     data-article-tags="Weird News"
+	>
+</div>
+				</div>
+			</article>
+		<div id="sidebar-right"><div id="sidebar_interior_for_banners"><div id="gpt_ads-11" class="widget-gpt widget">		<div id="dfp-tag-rightrail-position-2" class="dfp-slot dfp-container adonis-marker"></div>
+		</div><div id="gpt_ads-12" class="widget-gpt widget">		<div id="dfp-tag-rightrail-position-3" class="dfp-slot dfp-container adonis-marker"></div>
+		</div>
+		<div id="radar_zoninator_zoneposts_widget-24" class="widget-zone-posts widget">			<div class="zone_layout_widget featured-photos">
+								<div class="first_photo ggnoads">
+					<a href="https://www.nationalenquirer.com/photos/hot-photos-feb-2020/">
+						<div class='radar-thumb radar-gallery-thumb'><div class='centring-box'><div><img width="300" height="194" src="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2020/02/Hot-pics-feb-2020-jlo-shakira-n.jpg?resize=300%2C194&#038;ssl=1" data-thumbnail="false" class="attachment-300x194 size-300x194 wp-post-image" alt="Shakira and Jennifer Lopez perform during halftime of the National Football League&#039;s Super Bowl LIV at Hard Rock Stadium in Miami Gardens, Florida"><span class='gallery-icon'><span class='image-count'>15</span></span></div></div></div>						<h2>Hot Photos</h2>
+													<h3>Here’s Who We Spotted Out And About In The Last 24 Hours...</h3>
+											</a>
+				</div>
+			</div>
+			</div>
+		<div id="gpt_ads-13" class="widget-gpt widget">		<div id="dfp-tag-rightrail-position-4" class="dfp-slot dfp-container adonis-marker"></div>
+		</div>
+		
+			<div id="radar_zoninator_zoneposts_widget-25" class="widget-zone-posts widget">			<div class='zone-most-popular'>
+				<span class="widget-title">Most Popular</span>				<div class="zone_layout_widget most-popular">
+					<ul class="most-popular">
+													<li>
+								<a href="https://www.nationalenquirer.com/celebrity/fight-back-against-crooks-and-win/">
+									<div class='radar-thumb radar-standard-thumb'><div class='centring-box'><div><img width="127" height="71" src="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2020/03/Bolo-HEADER.jpg?resize=127%2C71&#038;ssl=1" data-thumbnail="false" class="attachment-127x71 size-127x71 wp-post-image" alt="BOLO Safety header"></div></div></div>									<h4>FIGHT BACK AGAINST CROOKS — AND WIN!</h4>
+								</a>
+							</li>
+													<li>
+								<a href="https://www.nationalenquirer.com/celebrity/cashing-in-prince-harry-meghan-markle-offered-job-as-faces-of-tax-reduction-in-u-s/">
+									<div class='radar-thumb radar-standard-thumb'><div class='centring-box'><div><img width="127" height="71" src="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2020/01/Cashing-In-Prince-Harry-Meghan-Markle-Offered-Job-As-Faces-Of-‘Tax-Reduction’-In-U.S.-pp.jpg?resize=127%2C71&#038;ssl=1" data-thumbnail="false" class="attachment-127x71 size-127x71 wp-post-image" alt="Cashing In? Prince Harry &amp; Meghan Markle Offered Job As Faces Of ‘Tax Reduction’ In U.S."></div></div></div>									<h4>Harry &amp; Meghan Offered Job As Faces Of ‘Tax Reduction’</h4>
+								</a>
+							</li>
+													<li>
+								<a href="https://www.nationalenquirer.com/celebrity/jessica-biel-orders-justin-timberlake-marriage-therapy/">
+									<div class='radar-thumb radar-standard-thumb'><div class='centring-box'><div><img width="127" height="71" src="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/12/Jessica-Biel-Orders-Justin-Timberlake-Marriage-Therapy-pp.jpg?resize=127%2C71&#038;ssl=1" data-thumbnail="false" class="attachment-127x71 size-127x71 wp-post-image" alt="Jessica Biel Orders Justin Timberlake To Marriage Therapy!"></div></div></div>									<h4>Jessica Biel Orders Justin Timberlake To Therapy</h4>
+								</a>
+							</li>
+													<li>
+								<a href="https://www.nationalenquirer.com/photos/scary-photos-spark-new-fears-for-friends-star-matthew-perry/">
+									<div class='radar-thumb radar-gallery-thumb'><div class='centring-box'><div><img width="127" height="71" src="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/11/Scary-Photos-Spark-New-Fears-For-Friends-Star-Matthew-Perry-pp.jpg?resize=127%2C71&#038;ssl=1" data-thumbnail="false" class="attachment-127x71 size-127x71 wp-post-image" alt="INset of Matthew Perry, Matthew Perry Standing and Smoking"></div></div></div>									<h4>Scary Pics Spark New Fears For Matthew Perry!</h4>
+								</a>
+							</li>
+													<li>
+								<a href="https://www.nationalenquirer.com/photos/ben-affleck-jen-garner-street-fight-partying-family-photo/">
+									<div class='radar-thumb radar-gallery-thumb'><div class='centring-box'><div><img width="127" height="71" src="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/12/Ben-Affleck-Jen-Garner-Street-Fight-Partying-Family-Photo-pp.jpg?resize=127%2C71&#038;ssl=1" data-thumbnail="false" class="attachment-127x71 size-127x71 wp-post-image" alt="Jennifer Garner Wearng Yellow Tan Sweater With Striped Shirt, Ben AFfleck Wearing Gray Blazer And Blue Shirt"></div></div></div>									<h4>Ben Affleck and Jen Garner’s Street Fight!</h4>
+								</a>
+							</li>
+													<li>
+								<a href="https://www.nationalenquirer.com/celebrity-scandals/heather-locklear-popping-pills-friends-fear-rehab/">
+									<div class='radar-thumb radar-standard-thumb'><div class='centring-box'><div><img width="127" height="71" src="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/12/heather-locklear-popping-pills-friends-fear-rehab-pp.jpg?resize=127%2C71&#038;ssl=1" data-thumbnail="false" class="attachment-127x71 size-127x71 wp-post-image" alt="Heather Locklear Caught Popping Pills"></div></div></div>									<h4>Heather Locklear Caught Popping Pills!</h4>
+								</a>
+							</li>
+													<li>
+								<a href="https://www.nationalenquirer.com/photos/duchess-kate-middleton-orders-prince-andrew-stay-away-from-kids/">
+									<div class='radar-thumb radar-gallery-thumb'><div class='centring-box'><div><img width="127" height="71" src="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/09/Duchess-Kate-Middleton-Orders-Prince-Andrew-Stay-Away-From-Kids-pp.jpg?resize=127%2C71&#038;ssl=1" data-thumbnail="false" class="attachment-127x71 size-127x71 wp-post-image" alt="Prince Andrew Wearing Dark Suit, Light Blue Shirt And Red Pattern Tie, Duchess Kate Middleton Wearing Navy And White Pattern Blouse, Inset Prince George, Princess Charlotte"></div></div></div>									<h4>Duchess Kate To Prince Andrew: Stay Away From My Kids</h4>
+								</a>
+							</li>
+													<li>
+								<a href="https://www.nationalenquirer.com/celebrity/angelina-jolie-breaks-deal-kids-spend-holidays-brad-pitt/">
+									<div class='radar-thumb radar-standard-thumb'><div class='centring-box'><div><img width="127" height="71" src="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/12/Angelina-Jolie-Breaks-Deal-Kids-Spend-Holidays-Brad-Pitt-pp.jpg?resize=127%2C71&#038;ssl=1" data-thumbnail="false" class="attachment-127x71 size-127x71 wp-post-image" alt="Brad Pitt Wearing Camel Color Hat Dark Blazer, Angelina Jolie Wearing Siver and Gold dress, Inset Shiloh Joli-Pitt"></div></div></div>									<h4>Brad and Angie&#039;s Holiday Smackdown!</h4>
+								</a>
+							</li>
+													<li>
+								<a href="https://www.nationalenquirer.com/royal-gossip/kate-middleton-prince-william-expecting-twins-queen-elizabeth-ii/">
+									<div class='radar-thumb radar-standard-thumb'><div class='centring-box'><div><img width="127" height="71" src="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/12/Kate-Middleton-Prince-William-expecting-twins-Queen-Elizabeth-pp.jpg?resize=127%2C71&#038;ssl=1" data-thumbnail="false" class="attachment-127x71 size-127x71 wp-post-image" alt="Smiling Prince William and Duchess Catherine (Kate Middleton), Inset Queen Elizabeth II"></div></div></div>									<h4>Royal Joy! Kate’s Expecting Twins!</h4>
+								</a>
+							</li>
+													<li>
+								<a href="https://www.nationalenquirer.com/celebrity/katherine-jackson-facing-final-days/">
+									<div class='radar-thumb radar-standard-thumb'><div class='centring-box'><div><img width="127" height="71" src="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/10/Katherine-Jackson-Facing-Final-Days-pp.jpg?resize=127%2C71&#038;ssl=1" data-thumbnail="false" class="attachment-127x71 size-127x71 wp-post-image" alt="Katherine Jackson Sitting In Wheelchair Inset Michael Jackson Coffin"></div></div></div>									<h4>Katherine Jackson Facing Final Days</h4>
+								</a>
+							</li>
+																	</ul>
+				</div>
+			</div>
+			</div>
+		<div id="gpt_ads-14" class="widget-gpt widget">		<div id="dfp-tag-rightrail-position-5" class="dfp-slot dfp-container adonis-marker"></div>
+		</div></div></div>		<input type="hidden" name="lastpos" value="1" id="lastpos" />
+	</div>
+
+</div><!-- End of #content-wrapper -->
+
+<div id="above_footer_section" class="centered-elements">
+	<div id="gpt_ads-15" class="widget widget-gpt">		<div id="dfp-tag-mobile_bottom" class="dfp-slot dfp-container "></div>
+		</div><div id="gpt_ads-16" class="widget widget-gpt">		<div id="dfp-tag-horizontal-position-2" class="dfp-slot dfp-container adonis-marker"></div>
+		</div></div>
+
+<footer id="super-footer">
+
+		<div id="footer_bottom">
+			<div class="centered-elements">
+				<div class="site-info">
+					<p class="footer-disclaimer">National ENQUIRER has affiliate partnerships so we may receive compensation for some links to products and services.</p>
+                    <div class="footer-menu-copyright">
+                        <div class="ami-group-copyright">Part of the American Media Entertainment Group.</div>
+                        <div class="copyright-tag-block">
+                            <span>&copy; 2020 National Enquirer, LLC</span>
+                            <span id="powered-by">Powered by <a href="http://boylesoftware.com/" rel="generator nofollow" class="powered-by-wpcom" target="_blank">BS</a></span>
+                            <span class="footer-promo-links">
+                            <a href="/privacy-policy/">Privacy Policy</a>
+                                <!-- OneTrust Cookies Settings button start -->
+			                    <a class="optanon-toggle-display" name="Manage Cookies">Manage Cookies</a>
+                                <!-- OneTrust Cookies Settings button end -->
+                                <a href="/accessibility-statement/">Accessibility Statement</a><a href="/terms-conditions/">Terms of Use</a>
+                                <a href="https://www.nationalenquirer.com/wp-content/uploads/2019/06/2019_NEQ_Media_Kit.pdf" target="_blank">Media Kit</a>
+                            </span>
+                            <div class="tag-registered-logo">
+                                <img src="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/svg/logo-tag-registered.svg" alt="TAG Trustworthy Accountability Group" title="TAG Trustworthy Accountability Group">
+                                <img src="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/svg/logo-tag-registered-green.svg" alt="TAG Trustworthy Accountability Group" title="TAG Trustworthy Accountability Group">
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+</footer>
+
+		<!-- wpsolr - ajax auto completion nonce -->
+		<input type="hidden" id="wpsolr_autocomplete_nonce"
+		       value="1c3a13f464">
+
+			<script>
+		jQuery(document).ready(function ($) {
+			$('a[href^="http"]')
+				.not('[href^="' + location.protocol + '//' + location.hostname + '"]')
+				.attr('target', '_blank');
+		});
+	</script> 	<style type="text/css" media="screen">
+		@media screen and ( max-width: 782px ) {
+			html { margin-top: 0px !important; }
+			* html body { margin-top: 0px !important; }
+			#wpadminbar { display:none; }
+		}
+	</style>
+<script type="text/javascript" src="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/dY1BCoUwDAUvZA2eSNIabLUmIYnIv_1XcOviMZsZ3gQbhWLZYW5cIJ-tL6BVQvjFeDQeJrjUpVtyQis1Ea-NCTaHLBIehprip4SVcPmys1xkc5FDhYnD7_y0Dveejz8.js?9067122fa57259cbe04dfb40ebcd2b15
+"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wp_localize_script_autocomplete = {"ajax_url":"https:\/\/www.nationalenquirer.com\/wp-admin\/admin-ajax.php","is_show_url_parameters":"","is_url_redirect":"1","SEARCH_PARAMETER_SEARCH":"search","SEARCH_PARAMETER_Q":"wpsolr_q","SEARCH_PARAMETER_FQ":"wpsolr_fq","SEARCH_PARAMETER_SORT":"wpsolr_sort","SEARCH_PARAMETER_PAGE":"wpsolr_page","SORT_CODE_BY_RELEVANCY_DESC":"sort_by_relevancy_desc","wpsolr_autocomplete_selector":".search-field","wpsolr_autocomplete_action":"wdm_return_solr_rows","wpsolr_autocomplete_nonce_selector":"#wpsolr_autocomplete_nonce"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/M9QvLyjOzynSLU5NLErO0E3NS8_MS9XPKtZPLC3JT87PLchJLUmNBykBAA.js?9067122fa57259cbe04dfb40ebcd2b15
+"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wp_localize_script_infinitescroll = {"ajax_url":"\/wp-admin\/admin-ajax.php","loadimage":"https:\/\/www.nationalenquirer.com\/wp-content\/plugins\/wpsolr-search-engine\/images\/infinitescroll.gif","loadingtext":"Loading ...","SEARCH_PARAMETER_Q":"wpsolr_q"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/M9QvLyjOzynSLU5NLErO0E3NS8_MS9XPKtbPKixNLarUy8xLy8zLLEktTi7Kz8kBAA.js?9067122fa57259cbe04dfb40ebcd2b15
+"></script>
+<script class="optanon-category-C0004" type="text/plain"  src='https://static.adsafeprotected.com/vans-adapter-google-ima.js'></script>
+<script type="text/javascript" src="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/jY5rDoMgEIQvVMD0RkBWXbs8ZEHC7YuJpjE1af_NzH6T2UFtGJV2IlKZ0HOXKCZNBKk91cKKCe1LEhrp0D-GX_iyli5l1S0G9Jn_a3moYuQz-vAe1v0cKgmrUygMtBt5mi_ymJ-t4Nz_btf5K7QhoyG4RSKkEWwWbFMgMjrdUnkGB28.js?9067122fa57259cbe04dfb40ebcd2b15
+"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var amiNewsletterStrings = {"userEndpoint":"https:\/\/www.nationalenquirer.com\/wp-json\/ami\/v1\/newsletter\/user","listEndpoint":"https:\/\/www.nationalenquirer.com\/wp-json\/ami\/v1\/newsletter\/list","processMessage":"Sending your request...","defaultError":"An internal error has occurred. Please try again later.","invalidEmailError":"Please enter a valid email and try again."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/M9AvyyzQT8zVLcgpTc_MKwYyM3XzUsuLc1JLSlKL9LOK9RE8HRP98gLd1Nyk1BS93Mw8AA.js?9067122fa57259cbe04dfb40ebcd2b15
+"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"","is_stats_active":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/M9TPSi0pSEzO1o_PzEvWTyrNzEnRL85ILEpNSUxJqQQzM_PS9XIz8wA.js?9067122fa57259cbe04dfb40ebcd2b15
+"></script>
+<script type='text/javascript'>
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-twitter', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-facebook', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+</script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+</script>
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using disk
+Database Caching 41/63 queries in 0.075 seconds using memcached
+Object Caching 2299/2556 objects using memcached
+Content Delivery Network via cdn-neq0.heartyhosting.com
+
+ Served from: www.nationalenquirer.com @ 2020-04-19 04:04:20 by W3 Total Cache backend 172.31.30.67 -->

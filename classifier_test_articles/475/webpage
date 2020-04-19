@@ -1,1110 +1,1159 @@
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link rel="preconnect" href="//cdnjs.cloudflare.com">
-<link rel="preconnect" href="//fonts.googleapis.com">
-<link rel="preconnect" href="//ib.adnxs.com">
-<link rel="preconnect" href="//experience.tinypass.com">
-<link rel="preconnect" href="//sandbox.tinypass.com">
-<link rel="preconnect" href="//www.googletagservices.com">
-<link rel="preconnect" href="//media.townhall.com">
-<link rel="preconnect" href="//prebid.adnxs.com">
-<link rel="preconnect" href="//www.google-analytics.com">
-<link rel="preconnect" href="//pagead2.googlesyndication.com">
-<link rel="preconnect" href="//ad.doubleclick.net">
-<link rel="preconnect" href="//securepubads.g.doubleclick.net">
-<link rel="preconnect" href="//c.amazon-adsystem.com">
-<link rel="preconnect" href="//townhallmedia-d.openx.net">
-<link rel="preconnect" href="//cdn.blueconic.net">
-<script>
-        document.cookie = "__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
-        var setNptTechAdblockerCookie = function (adblocker) {
-            var d = new Date();
-            d.setTime(d.getTime() + 60 * 60 * 24 * 2 * 1000);
-            document.cookie = "__adblocker=" + (adblocker ? "true" : "false") + "; expires=" + d.toUTCString() + "; path=/";
-        }
-        var script = document.createElement("script");
-        script.setAttribute("async", true);
-        script.setAttribute("src", "//www.npttech.com/advertising.js");
-        script.setAttribute("onerror", "setNptTechAdblockerCookie(true);");
-        document.getElementsByTagName("head")[0].appendChild(script);
-    </script>
-<script type="text/javascript" src="//d2ze07sbtyfzd0.cloudfront.net/script.js"></script>
-<script async src="https://cdn.blueconic.net/salemmediagroup.js"></script>
-<script type='text/javascript'>var _sf_startpt = (new Date()).getTime()</script>
-<link rel="manifest" href="/manifest.json">
-<link rel="alternate" href="https://townhall.com" hreflang="en-us">
-<style>
-        .async-hide {
-            opacity: 0 !important
-        }
-    </style>
-<script>
-        (function (a, s, y, n, c, h, i, d, e) {
-            s.className += ' ' + y; h.start = 1 * new Date;
-            h.end = i = function () { s.className = s.className.replace(RegExp(' ?' + y), '') };
-            (a[n] = a[n] || []).hide = h; setTimeout(function () { i(); h.end = null }, c); h.timeout = c;
-        })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
-            { 'GTM-KT87G5R': true });
-    </script>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments);
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-404425-3', 'auto', { 'useAmpClientId': true });
-    
-    ga('require', 'GTM-KT87G5R');
-    
-    //ga('set', 'transport', 'beacon');
-    ga('require', 'displayfeatures');
-    if (typeof hptId !== 'undefined')
-    {
-        ga('set', 'dimension2', hptId);
-    }
-    
-    ga('set', 'dimension7', 'free');
-    ga('send', 'pageview');
-</script>
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-<link rel="apple-touch-icon" sizes="57x57" href="https://media.townhall.com/thm/favicon/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="https://media.townhall.com/thm/favicon/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="https://media.townhall.com/thm/favicon/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="https://media.townhall.com/thm/favicon/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="https://media.townhall.com/thm/favicon/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="https://media.townhall.com/thm/favicon/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="https://media.townhall.com/thm/favicon/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="https://media.townhall.com/thm/favicon/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://media.townhall.com/thm/favicon/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-16x16.png" sizes="16x16">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/android-chrome-192x192.png" sizes="192x192">
-<meta name="msapplication-square70x70logo" content="https://media.townhall.com/thm/favicon/smalltile.png" />
-<meta name="msapplication-square150x150logo" content="https://media.townhall.com/thm/favicon/mediumtile.png" />
-<meta name="msapplication-wide310x150logo" content="https://media.townhall.com/thm/favicon/widetile.png" />
-<meta name="msapplication-square310x310logo" content="https://media.townhall.com/thm/favicon/largetile.png" />
-<link href="/resources/css/bootstrap.min.css" rel="preload" as="style" />
-<link href="/resources/css/bootstrap.min.css" rel="stylesheet" />
-<link href="/resources/dist/css/main.min.css?v=2" rel="preload" as="style" />
-<link href="/resources/dist/css/main.min.css?v=2" rel="stylesheet" />
-<link href="/resources/lib/jquery/dist/jquery.min.js" rel="preload" as="script" />
-<script src="/resources/lib/jquery/dist/jquery.min.js"></script>
-<meta property="fb:app_id" content="967808926746051" />
-<meta property="fb:pages" content="41632789656,103971336305218,319569361390023,106547192707583,124538510989702,283971595408,15418366158,153162531376557,127519040661256,123834811060739,305174559545115,321502821264274,413465452078762,492802317512753,140705212665688,116757565026850,114013445328868" />
-<title>California Governor Tries Blaming Trump Admin for Homeless Crisis</title>
-<meta name="description" content=".04/18/2020 5:04:41AM EST." />
-<link rel="amphtml" href="https://townhall.com/tipsheet/leahbarkoukis/2019/12/27/california-governor-tries-blaming-federal-govt-for-homeless-problem-n2558590?amp=true">
-<meta name="keywords" content="California, homelessness, Gavin Newsom, Trump Administration" />
-<meta name="robots" content="index, follow" />
-<meta name="author" content="Leah Barkoukis" />
-<link rel="author" href="https://plus.google.com/101372920058162363989/" />
-<link rel="canonical" href="https://townhall.com/tipsheet/leahbarkoukis/2019/12/27/california-governor-tries-blaming-federal-govt-for-homeless-problem-n2558590" />
-<meta property="og:title" content="California Governor Tries Blaming Trump Admin for Homeless Crisis" />
-<meta property="og:type" content="Article" />
-<meta property="og:url" content="https://townhall.com/tipsheet/leahbarkoukis/2019/12/27/california-governor-tries-blaming-federal-govt-for-homeless-problem-n2558590" />
-<meta property="og:image" content="https://media.townhall.com/townhall/reu/s1280x720/2019/176/710ea37d-9a62-488f-b54e-49b9980b61b7.png" />
-<meta property="og:site_name" content="Townhall " />
-<meta property="og:description" content="" />
-<script type="application/ld+json">
-        {
-        "@context": "http://schema.org",
-        "@type": "NewsArticle",
-        "headline": "California Governor Tries Blaming Trump Admin for Homeless Crisis",
-        "datePublished": "2019-12-27T08:10:00-05:00",
-        "dateModified": "2019-12-27T08:10:00-05:00" ,
-        "image": {
-        "@type": "ImageObject",
-        "url": "https://media.townhall.com/townhall/reu/s1280x720/2019/176/710ea37d-9a62-488f-b54e-49b9980b61b7.png",
-        "height": 665,
-        "width": 700
-        },
-        "mainEntityOfPage":"https://townhall.com/tipsheet/leahbarkoukis/2019/12/27/california-governor-tries-blaming-federal-govt-for-homeless-problem-n2558590",
-        "author": {
-        "@type": "Person",
-        "name": "Leah Barkoukis"
-        },
-        "publisher": {
-        "@type":"Organization",
-        "name": "Townhall.com",
-        "logo": {
-        "@type": "ImageObject",
-        "url": "https://media.townhall.com/townhall/ampmobile/Logo_TH_3.png",
-        "width": 128,
-        "height": 60
-        }
-        }
-        }
-    </script>
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="California Governor Tries Blaming Trump Admin for Homeless Crisis" />
-<meta name="twitter:image" content="https://media.townhall.com/townhall/reu/s1280x720/2019/176/710ea37d-9a62-488f-b54e-49b9980b61b7.png?185" />
-<meta name="twitter:url" content="https://townhall.com/tipsheet/leahbarkoukis/2019/12/27/california-governor-tries-blaming-federal-govt-for-homeless-problem-n2558590?185" />
-<meta name="twitter:description" content="" />
-<meta name="twitter:site" content="@townhallcom" />
-<script type="text/javascript">
-        var _sf_async_config = {};
-        /** CONFIGURATION START **/
-        _sf_async_config.uid = 14482;
-        _sf_async_config.domain = 'townhall.com';
-        _sf_async_config.sections = 'tipsheet';
-        _sf_async_config.authors = 'Leah Barkoukis';
-
-        var _cbq = window._cbq = window._cbq || [];
-        if (localStorage.getItem('_cbq_acct')) {
-            _cbq.push(['_acct', localStorage.getItem( '_cbq_acct' )||"anon"]);
-        }
-
-
-        _sf_async_config.useCanonical = true;
-        /** CONFIGURATION END **/
-        (function () {
-            function loadChartbeat() {
-                window._sf_endpt = (new Date()).getTime();
-                var e = document.createElement('script');
-                e.setAttribute('language', 'javascript');
-                e.setAttribute('type', 'text/javascript');
-                e.setAttribute('src',
-                           (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
-                           'js/chartbeat.js');
-                document.body.appendChild(e);
+<html prefix="og: http://ogp.me/ns#" lang="en-US">
+    <head>
+        <!-- Piano ad blocker -->
+        <script>
+            document.cookie = "__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+            var setNptTechAdblockerCookie = function(adblocker) {
+                var d = new Date();
+                d.setTime(d.getTime() + 60 * 60 * 24 * 2 * 1000);
+                document.cookie = "__adblocker=" + (adblocker ? "true" : "false") + "; expires=" + d.toUTCString() + "; path=/";
             }
-            var oldonload = window.onload;
-            window.onload = (typeof window.onload != 'function') ?
-                loadChartbeat : function () { oldonload(); loadChartbeat(); };
-        })();
-
-</script>
-<script>
-    var _comscore = _comscore || [];
-    _comscore.push({
-        c1: "2",
-        c2: "21057668",
-        c3: "",
-        c4: ""
-    });
-    (function () {
-        var s = document.createElement("script"),
-            el = document.getElementsByTagName("script")[0];
-        s.async = true;
-        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-        el.parentNode.insertBefore(s, el);
-    })();
-</script>
-<noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=21057668&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" /> </noscript>
-
-<script>
-    !function (f, b, e, v, n, t, s) {
-        if (f.fbq) return; n = f.fbq = function () {
-            n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        }; if (!f._fbq) f._fbq = n;
-        n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
-        t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
-    }(window,
-        document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-
-    fbq('init', '791796474183597');
-    fbq('track', "PageView");</script>
-<noscript>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=791796474183597&ev=PageView&noscript=1" />
-</noscript>
-
-<script>
-        function getRoxotGroupId() {
-            try {
-                var storageKey = 'roxot-gid';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 10000);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '10001';
-            }
-        }
-
-        function getRoxotSectorId() {
-            try {
-                var storageKey = 'roxot-sid';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 100);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '101';
-            }
-        }
-
-        function getRoxotDeep() {
-            try {
-                var storageKey = 'roxot-deep';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 100);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '101';
-            }
-        }
-
-        function getRoxotEvent() {
-            return '' + (1 + Math.floor(Math.random() * 100));
-        }
-    </script>
-<script>
-        var bidTimeout = 3000;
-        var refreshInterval = 60000;
-        var PREBID_TIMEOUT = bidTimeout;
-        var FAILSAFE_TIMEOUT = 3000;
-        var SCREEN_TIME = false;
-        var PREBID = true;
-        var adUnits = [{"code":"div-gpt-728x90_1","sizes":[[728,90],[970,90],[970,250]],"bids":[{"bidder":"openx","params":{"unit":"537998002","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381642"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-728x90_1@728x90"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_2","sizes":[[300,250]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_2@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_1","sizes":[[300,250],[300,600]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_1@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_3","sizes":[[300,250],[300,600]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_3@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_sticky","sizes":[[300,250]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_sticky@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]}];
-        var apstagSlots = [{"slotID":"div-gpt-728x90_1","slotName":"/6177/slm.townhall/tipsheet/728x90_1","sizes":[[728,90],[970,90],[970,250]]},{"slotID":"div-gpt-300x250_2","slotName":"/6177/slm.townhall/tipsheet/300x250_2","sizes":[[300,250]]},{"slotID":"div-gpt-300x250_1","slotName":"/6177/slm.townhall/tipsheet/300x250_1","sizes":[[300,250],[300,600]]},{"slotID":"div-gpt-300x250_3","slotName":"/6177/slm.townhall/tipsheet/300x250_3","sizes":[[300,250],[300,600]]},{"slotID":"div-gpt-300x250_sticky","slotName":"/6177/slm.townhall/tipsheet/300x250_sticky","sizes":[[300,250]]}];
-    </script>
-<script src="/resources/dist/js/prebid-latest.min.js?v=2.5.1-1"></script>
-<script async>
-        //<![CDATA[
-
-        var gptAdUnitPath = "tipsheet";
-        var gptAdSlot = [];
-
-        googletag.cmd.push(function () {
-            googletag.pubads().disableInitialLoad();
-            try {
-                gptAdSlot['div-gpt-728x90_1'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/728x90_1', [[728,90],[970,90],[970,250],[1,1]], 'div-gpt-728x90_1').addService(googletag.pubads()).setTargeting('pos', '728x90_1').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_2'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_2', [[300,250]], 'div-gpt-300x250_2').addService(googletag.pubads()).setTargeting('pos', '300x250_2').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_1'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_1', [[300,250],[300,600]], 'div-gpt-300x250_1').addService(googletag.pubads()).setTargeting('pos', '300x250_1').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_3'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_3', [[300,250],[300,600]], 'div-gpt-300x250_3').addService(googletag.pubads()).setTargeting('pos', '300x250_3').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_sticky'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_sticky', [[300,250]], 'div-gpt-300x250_sticky').addService(googletag.pubads()).setTargeting('pos', '300x250_sticky').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-oop'] = googletag.defineOutOfPageSlot('/6177/slm.townhall/tipsheet', 'div-gpt-oop').addService(googletag.pubads());
-
-
-                if (typeof Storage !== "undefined") {
-                    var targetingParamStr = localStorage.getItem("bcDFPTargetingParams");
-
-                    if (targetingParamStr) {
-                        var targetingParameters = JSON.parse(targetingParamStr);
-
-                        // set page-level targeting parameters
-                        jQuery.each(targetingParameters, function (index, param) {
-                            window.googletag.pubads().setTargeting(param.key, param.value);
-                        });
-                    }
-                }
-            } catch (e) {
-                console.error("thm-ad-exception", e);
-            }
-
-            googletag.pubads().addEventListener('impressionViewable', function (event) {
-                
-                var slot = event.slot;
-                if (slot.getTargeting('refresh').indexOf('true') > -1) {
-                    setTimeout(function () {
-                        Thm.RefreshAd(slot);
-                    }, refreshInterval);
-                }
-            });
-            
-            
-            googletag.pubads().setTargeting("tags",["California","homelessness","Gavin Newsom","Trump Administration"]).setTargeting("author", "Leah Barkoukis").setTargeting("fullUrl", "california-governor-tries-blaming-federal-govt-for-homeless-problem-n2558590");
-
-            
-
-            googletag.enableServices();
-
-        });
-        //]]>
-    </script>
-<link href="/resources/lib/owl-carousel2/dist/assets/owl.carousel.min.css" rel="stylesheet" />
-<script id="article-meta" type="application/json">
-            {"Title":"California Governor Tries Blaming Trump Admin for Homeless Crisis","IsArticleView":true,"BaseShareUrl":"http://townhall.com","Canonical":"https://townhall.com/tipsheet/leahbarkoukis/2019/12/27/california-governor-tries-blaming-federal-govt-for-homeless-problem-n2558590","ShareTitle":"Leah Barkoukis - California Governor Tries Blaming Trump Admin for Homeless Crisis","PublishedDate":"2019-12-27T08:10:00","Id":129966,"Author":"Leah Barkoukis","AuthorImage":"https://media.townhall.com/townhall/reu/contributor-sm/authorimages/2f0c076e-5f46-4c3e-b169-e98908c43546.png","ImageUrl":"https://media.townhall.com/townhall/reu/ha/2019/176/710ea37d-9a62-488f-b54e-49b9980b61b7.png","Tags":[109,2828,11739,11969],"Url":"https://townhall.com/tipsheet/leahbarkoukis/2019/12/27/california-governor-tries-blaming-federal-govt-for-homeless-problem-n2558590","Soup":0}
+            var script = document.createElement("script");
+            script.setAttribute("async", true);
+            script.setAttribute("src", "//www.npttech.com/advertising.js");
+            script.setAttribute("onerror", "setNptTechAdblockerCookie(true);");
+            document.getElementsByTagName("head")[0].appendChild(script);
         </script>
-</head>
-<body>
-<div class="thm-piano-top"></div>
-<div id="search">
-<button type="button" class="close"><i class="fa fa-close"></i></button>
-<form id="site-search">
-<input type="search" id="q" name="q" value="" placeholder="Search townhall.com...." />
-<button type="button" class="btn btn-default btn-search"><i class="fa fa-search"></i></button>
-</form>
-</div>
-<header>
-<nav id="thm-nav-sm" class="navbar navbar-default navbar-condensed navbar-fixed-top navbar-article-header">
-<div class="breaking-news-bar-container-condensed"></div>
-<div class="container">
-<div class="navbar-header">
-<a class="navbar-brand" href="/">
-<img src="/resources/th_logo.svg" class="th-logo" alt="">
-</a>
-</div>
-<div id="navbar" class="navbar-collapse collapse">
-<ul class="nav navbar-nav navbar-links navbar-right">
-<li><a title="Columnists" href="/columnists/" class="top-menu">Columnists</a></li>
-<li class="active"><a title="Tipsheet" href="/tipsheet/" class="top-menu">Tipsheet</a></li>
-<li><a title="Cartoons" href="/political-cartoons/" class="top-menu">Cartoons</a></li>
-<li><a title="Podcasts" class="top-menu" href="/podcasts/">Podcasts</a></li>
-<li><a title="Election" class="top-menu hidden-md hidden-sm" href="/election/"><img class="ec-2020-m" src="https://media.townhall.com/thm/ec2020.png" /></a></li>
-<li><a title="Membership: VIP" class="top-menu" href="/vip/"><img class="vip-brand" src="/resources/dist/svg/subscriptions-badge-vip.svg"></a></li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle top-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sections <span class="fa fa-chevron-down"></span></a>
-<ul class="dropdown-menu">
-<li><a title="Newsletter signup" href="/newsletter/">Newsletters</a></li>
-<li class="hidden-lg"><a title="Podcasts" href="/podcasts/">Podcasts</a></li>
-<li><a title="Townhall TV" href="/tv/">Townhall TV</a></li>
-<li><a title="Election " href="/election/">Election</a></li>
-<li><a title="Capitol Voices" href="/capitol-voices/">Capitol Voices</a></li>
-<li><a title="Entertainment" href="/entertainment/">Entertainment</a></li>
-<li><a title="Radio News" href="/news/">Radio News</a></li>
-<li class="hidden-lg"><a title="Election" href="/election/"><img class="ec-2020-m" src="https://media.townhall.com/thm/ec2020.png" /></a></li>
-<li><a title="Live Blog" href="/liveblog/">Live Blog</a></li>
-<li><a title="Topics" href="/tags/">Topics</a></li>
-</ul>
-</li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle top-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sites <span class="fa fa-chevron-down"></span></a>
-<ul class="dropdown-menu">
-<li><a href="http://hotair.com" target="_blank">Hot Air</a></li>
-<li><a href="http://pjmedia.com" target="_blank">PJ Media</a></li>
-<li><a href="http://bearingarms.com" target="_blank">Bearing Arms</a></li>
-<li><a href="http://twitchy.com" target="_blank">Twitchy</a></li>
-<li><a href="http://redstate.com" target="_blank">RedState</a></li>
-<li><a href="http://finance.townhall.com" target="_blank">Townhall Finance</a></li>
-<li><a href="http://www.conservativeradio.com/" target="_blank">Conservative Radio</a></li>
-</ul>
-</li>
-<li><a class="btn btn-default btn-sm btn-join hidden" href="/subscribe?tpcc=home_button">JOIN VIP</a></li>
-<li><a class="btn btn-default btn-sm btn-login hidden">LOGIN</a></li>
-<li>
-<div class="btn-group btn-account hidden">
-<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-MY ACCOUNT <span class="caret"></span>
-</button>
-<ul class="dropdown-menu">
-<li><a href="/account/" class="lnk-account">Account Settings</a></li>
-<li><a href="/newsletter/">Newsletter Subscriptions</a></li>
-<li><a href="#" class="lnk-logout">Log Out</a></li>
-</ul>
-</div>
-</li>
-<li>&nbsp;&nbsp;<button title="Search" id="btn-show-search" class="btn btn-default btn-show-search"><i class="fa fa-search"></i></button></li>
-</ul>
-</div>
-</div>
-</nav>
-<div class="thm-pad" style="padding-top:50px;">
-</div>
-<nav class="navbar navbar-default navbar-fixed-top navbar-article">
-<div class="container">
-<div class="navbar-header">
-<a class="navbar-brand" href="/"><img src="/resources/th_logo.svg" class="th-logo"></a>
-</div>
-<div id="navbar" class="navbar-collapse collapse">
-<ul class="nav navbar-nav navbar-title">
-<li class="headline">California Governor Tries Blaming Trump Admin for Homeless Crisis</li>
-</ul>
-<ul class="nav navbar-nav navbar-btn-search pull-right">
-<li><button class="btn btn-facebook-lg sc-fb"><i class="fa fa-facebook-official"></i>&nbsp;Share</button></li>
-<li><button class="btn btn-twitter-lg sc-tw"><i class="fa fa-twitter"></i>&nbsp;Tweet</button></li>
-<li><button title="Search" id="btn-show-search" class="btn btn-default btn-show-search"><i class="fa fa-search"></i></button></li>
-</ul>
-</div>
-</div>
-<div class="thm-carousel">
-<div class="owl-carousel owl-theme">
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/gov-abbott-outlines-texass-three-phases-for-re-opening-the-lone-star-state-n2567148"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="And the First State to Start Re-Opening Is Texas " data-src="//media.townhall.com/townhall/reu/b/2020/97/6145e8ce-c4e0-414e-a5c9-eeb983d20c05.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/gov-abbott-outlines-texass-three-phases-for-re-opening-the-lone-star-state-n2567148">And the First State to Start Re-Opening Is Texas </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" data-src="//media.townhall.com/townhall/reu/b/2020/108/0312f0de-aebe-4ffd-8865-086c6760c7bf.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157">Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a href="/columnists/katiepavlich/2020/04/17/nancy-pelosi-doesnt-care-n2567139"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Nancy Pelosi Doesn’t Care" data-src="//media.townhall.com/townhall/reu/b/2019/269/ef5eb632-e868-4f93-b614-50ad162493a0.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/katiepavlich/2020/04/17/nancy-pelosi-doesnt-care-n2567139">Nancy Pelosi Doesn’t Care</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
+        <!-- End Piano ad blocker -->
 
-<a href="/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="New Drug Combating Wuhan Coronavirus Yield Excellent Results...And the Dow Surged Because of It" data-src="//media.townhall.com/townhall/reu/b/2020/97/a1c032c2-2dc2-415a-a698-50aeb7968e7a.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160">New Drug Combating Wuhan Coronavirus Yield Excellent Results...And the Dow Surged Because of It</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/democrats-want-to-use-your-money-to-pay-states-to-let-criminals-out-of-jail-n2567089"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="The Latest Spending Push from Democrats: Using Your Money to Let Felons Out of Jail" data-src="//media.townhall.com/townhall/reu/b/2020/83/3e059f9d-8ceb-4679-8e5d-5428f2a82ba5.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/democrats-want-to-use-your-money-to-pay-states-to-let-criminals-out-of-jail-n2567089">The Latest Spending Push from Democrats: Using Your Money to Let Felons Out of Jail</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" data-src="//media.townhall.com/townhall/reu/b/2014/289/17329344-1af8-4a1f-8631-ab65d20076a0.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141">There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/trump-appears-to-back-protestors-against-michigan-governor-n2567129"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Trump Appears to Back Protestors Against Michigan Governor " data-src="//media.townhall.com/townhall/reu/b/2020/106/c409bf9b-dbcc-4435-b8f2-428e0b5d8196.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/trump-appears-to-back-protestors-against-michigan-governor-n2567129">Trump Appears to Back Protestors Against Michigan Governor </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/tucker-sounds-off-on-governor-whitmers-weird-fascism-n2567109"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Tucker Exposes What&#39;s Behind Governor Whitmer&#39;s &#39;Weird, Arbitrary Fascism&#39; " data-src="//media.townhall.com/townhall/reu/b/2020/35/f4488b8b-113f-4e5a-b0c5-046613b57d0c.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/tucker-sounds-off-on-governor-whitmers-weird-fascism-n2567109">Tucker Exposes What&#39;s Behind Governor Whitmer&#39;s &#39;Weird, Arbitrary Fascism&#39; </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/minnesota-governor-begins-to-ease-some-restrictions-n2567126"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Did Gov. Walz Just Take Trump&#39;s Advice to &#39;Liberate&#39; Minnesota?" data-src="//media.townhall.com/townhall/reu/b/2020/108/6d262d31-153f-4bcc-b97f-2a9584f78663.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/minnesota-governor-begins-to-ease-some-restrictions-n2567126">Did Gov. Walz Just Take Trump&#39;s Advice to &#39;Liberate&#39; Minnesota?</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a href="/tipsheet/cortneyobrien/2020/04/17/biden-downplays-china-threat-n2567062"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Nikki Haley Recalls How Biden Has Downplayed the Threat from China" data-src="//media.townhall.com/townhall/reu/b/townhall/reu/o/2018/330/76346357-2450-40f7-a097-c78820c7f712.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/biden-downplays-china-threat-n2567062">Nikki Haley Recalls How Biden Has Downplayed the Threat from China</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ny-dem-rips-pelosi-for-adding-far-left-provisions-in-coronavirus-relief-bill-n2567112"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="NY Dem Rips Pelosi for Adding &#39;Far Left&#39; Provisions in Coronavirus Relief Bill" data-src="//media.townhall.com/townhall/reu/b/2019/80/3f341d90-5ab1-4263-b5a7-97a52d2e0dfe.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ny-dem-rips-pelosi-for-adding-far-left-provisions-in-coronavirus-relief-bill-n2567112">NY Dem Rips Pelosi for Adding &#39;Far Left&#39; Provisions in Coronavirus Relief Bill</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ted-cruz-explains-how-to-hold-china-accountable-n2567110"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Ted Cruz Explains that China Is Guilty on Three Counts" data-src="//media.townhall.com/townhall/reu/b/2020/24/3c73a6b1-3be6-479f-aaca-9dec532b7741.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ted-cruz-explains-how-to-hold-china-accountable-n2567110">Ted Cruz Explains that China Is Guilty on Three Counts</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/marinamedvin/2020/04/17/business-bread-lines-run-out-of-bread-as-americans-rail-against-coronavirus-oppression-n2567083"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Business Bread Lines Run Out Of Bread as Americans Rail Against Coronavirus Oppression" data-src="//media.townhall.com/townhall/reu/b/2018/290/99f4dc8c-cbc4-4e27-9168-8013625daad0.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/marinamedvin/2020/04/17/business-bread-lines-run-out-of-bread-as-americans-rail-against-coronavirus-oppression-n2567083">Business Bread Lines Run Out Of Bread as Americans Rail Against Coronavirus Oppression</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/toddstarnes/2020/04/17/democrats-will-keep-the-states-closed-to-tank-the-economy-and-take-down-trump-n2567117"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump" data-src="//media.townhall.com/townhall/reu/b/2020/100/f05bab8f-dc2c-46b4-9bde-bca808e0e1d9.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/toddstarnes/2020/04/17/democrats-will-keep-the-states-closed-to-tank-the-economy-and-take-down-trump-n2567117">Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/davidlimbaugh/2020/04/17/media-prefer-hating-trump-to-helping-america-n2567084"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Media Prefer Hating Trump to Helping America" data-src="//media.townhall.com/townhall/reu/b/2020/90/7dba55f7-89a9-453c-9687-bd60fb6bd441.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/davidlimbaugh/2020/04/17/media-prefer-hating-trump-to-helping-america-n2567084">Media Prefer Hating Trump to Helping America</a>
-</div>
-</div>
-</div>
-</div></nav>
-</header>
-<div>
-<div class="container">
-<div class="row row-topper">
-<div class="col-xs-10">
-<ul class="breadcrumb">
-<li><a href="/">Townhall</a></li>
-<li><a href="/tipsheet/" class="text-capitalize">tipsheet</a></li>
-<li class="active">
-<a href="/tipsheet/leahbarkoukis/">Leah Barkoukis</a>
-</li>
-</ul>
-</div>
-<div class="col-xs-2">
-<a href="/tags/california" class="btn btn-default btn-article-supertag pull-right ">California</a>
-</div>
-</div>
-<article class="with-rail">
-<div class="row">
-<div class="col-xs-12">
-<section id="article-header">
-<div class="row">
-<div class="col-xs-12">
-</div>
-</div>
-<h1 class="headline">California Governor Tries Blaming Trump Admin for Homeless Crisis</h1>
-<div class="row">
-<div class="col-xs-12">
-<div class="contributor-img pull-left">
-<a href="/author/leahbarkoukis">
-<img alt="Leah Barkoukis" class="img-thumbnail" src="https://media.townhall.com/townhall/reu/contributor-sm/authorimages//2f0c076e-5f46-4c3e-b169-e98908c43546.png" />
-</a>
-</div>
-<div class="contributor pull-left">
-<a href="/author/leahbarkoukis">Leah Barkoukis</a>
-</div>
-<div class="contributor pull-left">|</div>
-<div class="contributor pull-left">
-<i class="fa fa-twitter tw-icon vert-align"></i>&nbsp;<a href="https://twitter.com/LeahBarkoukis" target="_blank">@LeahBarkoukis</a>
-</div>
-<div class="contributor pull-left">|</div>
-<div class="contributor pull-left">Posted: Dec 27, 2019 8:10 AM</div>
-<div class="sc header-share">
-<a class="btn btn-facebook-lg sc-fb"><i class="fa fa-facebook-official"></i>&nbsp; Share <span class="fb-count"></span></a>
-<a class="btn btn-twitter-lg sc-tw" data-dc="185"><i class="fa fa-twitter"></i>&nbsp; Tweet <span class="tw-count"></span></a>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<div class="gpt-header">
-<div id="div-gpt-728x90_1" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-728x90_1");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-728x90_1"]])
-                    });
-                </script>
-</div>
-</div>
-</div>
-</div>
-</section>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-8">
-<section id="article-media-object">
-<img class="article-main-image" src="https://media.townhall.com/townhall/reu/ha/2019/176/710ea37d-9a62-488f-b54e-49b9980b61b7.png" alt="California Governor Tries Blaming Trump Admin for Homeless Crisis" />
-<p class="main-image-source muted"><small><em>Source: Jeff Lewis/AP Images for AIDS Healthcare Foundation</em></small></p>
-</section>
-<section id="article-body">
-<aside id="aside1" class="left">
-<div class="article-aside-ad">
-<div id="div-gpt-300x250_2" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_2");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_2"]])
-                    });
-                </script>
-</div>
-</div>
-</aside>
-<p>The Office of California Gov. Gavin Newsom touted its efforts in combating the homeless crisis in the state and took shots at the Trump administration even as federal data shows it is responsible for the uptick in the U.S.'s overall homeless population.&nbsp;</p><div class="thm-piano-mop"></div><p>“CA is doing more than ever to tackle the homelessness crisis despite the federal administration's roadblocks,” the office tweeted, pointing to “1B investment including $650M in emergency aid,” new legislation, and expert advice on addressing the issue.</p><blockquote class="twitter-tweet"><p dir="ltr" lang="en">CA is doing more than ever to tackle the homelessness crisis despite the federal administration's roadblocks:<br>??$1B investment including $650M in emergency aid<br>??New legislation to help cities &amp; counties<br>??Homelessness experts to identify solutions + more<a href="https://t.co/1ZMjC1eSOt">https://t.co/1ZMjC1eSOt</a></p>— Office of the Governor of California (@CAgovernor) <a href="https://twitter.com/CAgovernor/status/1210365309338521600?ref_src=twsrc%5Etfw">December 27, 2019</a></blockquote><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><p>The office linked to a press release from earlier in the month that highlighted the governor opening up hundreds of millions in emergency aid to cities and counties across the state.&nbsp;</p><p>“California is doing more than ever before to tackle the homelessness crisis but every level of government, including the federal government, must step up and put real skin in the game,” Newsom said at the time. “California is making historic investments now to help our communities fight homelessness. But we have work to do and we need the federal government to do its part.”</p><p>The pushback comes after President Trump <a href="https://townhall.com/tipsheet/leahbarkoukis/2019/12/26/trumps-warning-to-california-governor-about-homeless-crisis-n2558536" rel="noopener noreferrer" target="_blank">criticized</a> California on Wednesday over its failure to address the homeless problem and threatened that the federal government would have to step in if the state couldn't fix the situation.&nbsp;</p><p>According to a Housing and Urban Development report last week, the rise in homelessness in the U.S. is largely due to California's unchecked problem.&nbsp;</p><p>"While the rest of the country experienced a combined decrease in homelessness in 2019, significant increases in unsheltered and chronic homelessness on the West Coast, particularly California and Oregon, offset those nationwide decreases, causing an overall increase in homelessness of 2.7 percent in 2019,” HUD <a href="https://www.hud.gov/press/press_releases_media_advisories/HUD_No_19_177">said</a> in a statement. “Twenty-nine states and the District of Columbia reported declines in homelessness between 2018 and 2019, while 21 states reported increases in the number of persons experiencing homelessness. Homelessness in California increased by 21,306 people, or 16.4 percent, which is more than the total national increase of every other state combined.”</p><p>The exchange between Newsom and Trump comes after the California governor blamed HUD for his state's homeless problem last week.&nbsp;</p><blockquote class="twitter-tweet"><p dir="ltr" lang="en">In spin room at <a href="https://twitter.com/hashtag/DemDebate?src=hash&ref_src=twsrc%5Etfw">#DemDebate</a>, <a href="https://twitter.com/GavinNewsom?ref_src=twsrc%5Etfw">@GavinNewsom</a> slams Trump Administration and HUD for doing “nothing” on “housing first,” the priority to solve homelessness. <a href="https://t.co/AQXRHUwZys">pic.twitter.com/AQXRHUwZys</a></p>— Carla Marinucci (@cmarinucci) <a href="https://twitter.com/cmarinucci/status/1207882406612455424?ref_src=twsrc%5Etfw">December 20, 2019</a></blockquote><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><p>HUD Secretary Ben Carson addressed California's problem Thursday on Fox News, telling Ed Henry he hoped the state would have more "urgency" in addressing the crisis.&nbsp;</p><blockquote><p>"First of all, you have a significant number of people with disturbances in their mental capacity. We have drug addiction, and we have people who simply cannot afford to live in a place where you have so many regulations that drive up the cost of everything," he said.</p><p>He dismissed Sacramento's calls for more HUD vouchers, saying such aid came from a nationwide pool of money that "doesn't grow because you say, 'grow it.'"</p><p>He continued, "So, the better thing to do is go&nbsp;and look at the root cause: Why&nbsp;are things they are so&nbsp;expensive?&nbsp;What can be done about them?&nbsp;And then, how can we deal with&nbsp;the mentally ill individuals?"</p><p>Washington "recently was given a waiver by HHS so they could use Medicaid dollars for mental illness. California could apply for that same waiver. And, those are the kind of things that have to be done, and they have to be done with the federal, state, local, as well as faith-based, the for-profit, the not-for-profits -- we need to work together to get this done; it can be done, absolutely," Carson added. (<a href="https://www.foxnews.com/media/ben-carson-california-homelessness-gavin-newsom" rel="noopener noreferrer" target="_blank">Fox News</a>)</p></blockquote><p>Carson then gave a direct message to Newsom, asking him to "put the people first."</p> <div class="mpw-inline">
-<div>
-<div class="mpw-inline-col__rail"><a title="There's Something a Little Odd About the Letter Hunter Biden's Lawyer Sent Regarding the China Allegations - 21" href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141?utm_campaign=inarticle"><img class="img-responsive" src="https://media.townhall.com/townhall/reu/s124x68/2014/289/17329344-1af8-4a1f-8631-ab65d20076a0.jpg" /></a></div>
-<div class="mpw-inline-col__content">
-<div class="mpw-inline-col__title">Recommended</div>
-<a title="There's Something a Little Odd About the Letter Hunter Biden's Lawyer Sent Regarding the China Allegations - 21" href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141?utm_campaign=inarticle">
-<span class="mpw-inline-col__story">There's Something a Little Odd About the Letter Hunter Biden's Lawyer Sent Regarding the China Allegations</span>
-</a>
-<div class="mpw-inline-col__muted">
-Matt Vespa
-</div>
-</div>
-</div>
-</div>
-<p>"It's Christmastime. Think about what the Bible says," he told Henry. "'He that oppresses the poor reproaches his Maker. He that honoreth with him has mercy on the poor.' Let’s think about some mercy on the poor. Let’s think about real compassion. Let’s not think about ways that we can keep people dependent and in these horrible situations, but how can we liberate them?"</p>
-</section>
-<section id="article-footer">
-<div class="row">
-<div class="col-xs-12">
-<div class="thm-piano-eop">
-</div>
-<div class="thm-piano-eop-recommended"></div>
-</div>
-</div>
-<div class="article-actions-footer sc">
-<div class="row">
-<div class="col-xs-12">
-<a class="btn btn-facebook-lg btn-block sc-fb"><i class="fa fa-facebook-official"></i>&nbsp; Share this on Facebook <span class="fb-count"></span></a>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-6"><a class="btn btn-block btn-twitter-lg sc-tw" data-dc="185"><i class="fa fa-twitter"></i>&nbsp; Tweet <span class="tw-count"></span></a></div>
-<div class="col-xs-2"><a href="mailto:?subject=California Governor Tries Blaming Trump Admin for Homeless Crisis&amp;body=https://townhall.com/tipsheet/leahbarkoukis/2019/12/27/california-governor-tries-blaming-federal-govt-for-homeless-problem-n2558590" class="btn btn-block btn-default btn-article-email"><i class="fa fa-envelope"></i></a></div>
-<div class="col-xs-2"><button data-url="https://townhall.com/tipsheet/leahbarkoukis/2019/12/27/california-governor-tries-blaming-federal-govt-for-homeless-problem-n2558590/print" onclick="window.open('https://townhall.com/tipsheet/leahbarkoukis/2019/12/27/california-governor-tries-blaming-federal-govt-for-homeless-problem-n2558590/print', 'print-winder', 'width=850,height=700,scrollbars=yes');" class="btn btn-block btn-default btn-article-print"><i class="fa fa-print"></i></button></div>
-<div class="col-xs-2"><a href="#article-comment-bookmark" class="btn btn-block btn-default btn-article-comment"><i class="fa fa-comment"></i></a></div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<div id="rcjsload_ffe38c"></div>
-<script type="text/javascript">
-        (function () {
-            function ad_block_test(e, o) { if ("undefined" != typeof document.body) { var t = "0.1.2-dev", o = o ? o : "sponsorText", n = document.createElement("DIV"); n.id = o, n.style.position = "absolute", n.style.left = "-999px", n.appendChild(document.createTextNode("&nbsp;")), document.body.appendChild(n), setTimeout(function () { if (n) { var o = 0 == n.clientHeight; try { } catch (d) { console && console.log && console.log("ad-block-test error", d) } e(o, t), document.body.removeChild(n) } }, 175) } }
-            ad_block_test(function (is_blocked) {
-                var widget_id = 102403;
-                if (is_blocked === true) {
-                    widget_id = 102452;
-                }
-                var referer = ""; try { if (referer = document.referrer, "undefined" == typeof referer) throw "undefined" } catch (exception) { referer = document.location.href, ("" == referer || "undefined" == typeof referer) && (referer = document.URL) } referer = referer.substr(0, 700);
-                var rcel = document.createElement("script");
-                rcel.id = 'rc_' + Math.floor(Math.random() * 1000);
-                rcel.type = 'text/javascript';
-                rcel.src = "//trends.revcontent.com/serve.js.php?w=" + widget_id + "&t=" + rcel.id + "&c=" + (new Date()).getTime() + "&width=" + (window.outerWidth || document.documentElement.clientWidth) + "&referer=" + referer + '&is_blocked=' + is_blocked;
-                rcel.async = true;
-                var rcds = document.getElementById("rcjsload_ffe38c"); rcds.appendChild(rcel);
-            });
-        })();
-    </script>
-<div class="thm-bluec"></div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<ul class="list-unstyled list-inline article-topics clearfix">
-<li>Tags: </li>
-<li><a class="btn btn-default btn-topic" data-tagid="109" href="/tags/california">California</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="2828" href="/tags/homelessness">homelessness</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="11739" href="/tags/gavin-newsom">Gavin Newsom</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="11969" href="/tags/trump-administration">Trump Administration</a></li>
-</ul>
-<script>
-    var rndnum = Math.floor(Math.random() * 50000);
-    var submitScript = document.createElement('script');
-    submitScript.src = 'https://townhall.com/wservices/handlers/tagcount.ashx?tid=109,2828,11739,11969&tnd=' + rndnum;
-    document.body.appendChild(submitScript);
+        <meta charset="utf-8"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"f5b9626936",applicationID:"224917688"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>For Africa, Chinese-Built Internet Is Better Than No Internet at All &#8211; Foreign Policy</title>
 
+        <meta name="wapoGroupsX" content="default">
+        <meta name="google-site-verification" content="7Z5A6Xlt7BhqqooipJUtw0cu2IjSQ-_RnNbEA2c6pfc">
+        <meta name="apple-itunes-app" content="app-id=1034756405">
+        <meta name="pocket-site-verification" content="21de1071947281ccc893fa0bbfb1f6" />
+        
+                <!-- CANONICAL -->
+        <link rel="canonical" href="https://foreignpolicy.com/2019/03/19/for-africa-chinese-built-internet-is-better-than-no-internet-at-all/">
+
+                    <!-- FB Tags -->
+            <meta property="og:title" content="For Africa, Chinese-Built Internet Is Better Than No Internet at All">
+            <meta property="og:image" content="https://foreignpolicy.com/wp-content/uploads/2019/03/gettyimages-1128822424.jpg">
+            <meta property="og:url" content="https://foreignpolicy.com/2019/03/19/for-africa-chinese-built-internet-is-better-than-no-internet-at-all/">
+            <meta property="og:description" content="The need for web access has driven African countries to Huawei despite U.S. concerns.">
+            <meta property="og:site_name" content="Foreign Policy">
+            <meta property="fb:app_id" content="107151292643652" />
+            <meta property="og:type" content="article" />
+
+            <!-- Twitter Tags -->
+            <meta name="twitter:card" content="summary_large_image">
+            <meta name="twitter:site" content="@ForeignPolicy">
+            <meta name="twitter:title" content="For Africa, Chinese-Built Internet Is Better Than No Internet at All">
+            <meta name="twitter:description" content="The need for web access has driven African countries to Huawei despite U.S. concerns.">
+            <meta name="twitter:image" content="https://foreignpolicy.com/wp-content/uploads/2019/03/gettyimages-1128822424.jpg">
+            <meta property="twitter:domain" value="foreignpolicy.com"/>
+
+            <!-- Author Tags -->
+            <meta property="article:author" content="Amy Mackinnon">
+            <meta name="author" content="Amy Mackinnon">
+
+        
+                
+        
+
+        <!-- Preload fonts -->
+        <link rel="preload" href="/wp-content/themes/foreign-policy-2017/assets/dist/fonts/tiempos--normal--600.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/wp-content/themes/foreign-policy-2017/assets/dist/fonts/dala-moa--normal--800.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/wp-content/themes/foreign-policy-2017/assets/dist/fonts/solido--normal--400.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/wp-content/themes/foreign-policy-2017/assets/dist/fonts/tiempos--normal--400.woff2" as="font" type="font/woff2" crossorigin>
+                <link rel="preload" href="/wp-content/themes/foreign-policy-2017/assets/dist/fonts/solido-condensed--normal--600.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/wp-content/themes/foreign-policy-2017/assets/dist/fonts/solido--normal--800.woff2" as="font" type="font/woff2" crossorigin>
+        
+
+        <meta
+    name="application-name"
+    content="Foreign Policy">
+<meta
+    name="apple-mobile-web-app-title"
+    content="Foreign Policy">
+<meta name="theme-color" content="#eb372e">
+<meta name="msapplication-TileColor" content="#eb372e">
+<meta
+    name="msapplication-TileImage"
+    content="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/logos/favicon-256.png">
+<link
+    rel="apple-touch-icon"
+    sizes="192x192"
+    type="image/png"
+    href="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/logos/favicon-192.png">
+<link
+    rel="icon"
+    sizes="192x192"
+    type="image/png"
+    href="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/logos/favicon-192.png">
+<link
+    rel="icon"
+    sizes="16x16 32x32"
+    type="image/x-icon"
+    href="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/logos/favicon.ico">
+        <script>
+    window.FP = window.FP || {};
+    FP.Config = {"api":{"ip_access":"https:\/\/foreignpolicy.com\/r\/api\/ip-access\/","link_access":"https:\/\/foreignpolicy.com\/r\/api\/link-access\/{0}\/","users_by_id":"https:\/\/foreignpolicy.com\/r\/api\/users\/{0}\/"},"context":{"is_home":false,"is_sponsored":false,"is_events":false,"is_chinadaily":false},"current_site_admin_hostname":"foreignpolicy.com","current_site_hostname":"foreignpolicy.com","fonts":[{"family":"Dala Moa","option":{"style":"normal","weight":800}},{"family":"Solido","option":{"style":"normal","weight":400}},{"family":"Tiempos","option":{"style":"normal","weight":400}},{"family":"Tiempos","option":{"style":"normal","weight":600}},{"family":"Solido","option":{"style":"normal","weight":800}},{"family":"Solido Condensed","option":{"style":"normal","weight":600}}],"is_production":true,"marketing":{"after_content_messaging":"<p>Like this article? Read an unlimited number of articles, plus access to our entire 47-year printed archive, the FP App, and the Digital Magazine when you <strong><a href=\"https:\/\/foreignpolicy.com\/subscribe?utm_source=AMP%20-%20Launched%2018_08_23&amp;utm_medium=AMP&amp;utm_campaign=Premium\">subscribe to FP Premium<\/a><\/strong>!<\/p>","after_content_messaging_fbia":"<p>Like this article? Read an unlimited number of articles, plus access to our entire 47-year printed archive, the FP App, and the Digital Magazine when you <strong><a href=\"https:\/\/foreignpolicy.com\/subscribe?utm_source=FBIA%20-%20Launched%2018_09_04&amp;utm_medium=FBIA&amp;utm_campaign=Premium\">subscribe to FP Premium<\/a><\/strong>!<\/p>"},"misc":{"current_magazine_issue":{"isset":true,"link":"https:\/\/foreignpolicy.com\/the-magazine\/"}},"referrers":["google.com"],"user":{"login_url":"https:\/\/fp-reg.onecount.net\/onecount\/login\/loginlogout.cgi","logout_url":"https:\/\/fp-reg.onecount.net\/onecount\/login\/loginlogout.cgi","edit_profile_url":"https:\/\/fp-reg.onecount.net\/onecount\/flexreg\/displayform.php?g=0&form=387","registration_url":"http:\/\/fp-reg.onecount.net\/onecount\/flexreg\/displayform.php?form=137&brand=fp","customer_service_url":"https:\/\/subscribe.foreignpolicy.com\/FRP\/?f=custcare","view_count_limit":null,"paywall_resource_id":null,"registration_product_ids":[34],"subscription_product_ids":[26,235],"premium_product_ids":[145],"newsletter_ids":[177,185,129,161,227,317]},"widgets":[]};
+    window.lazySizesConfig = window.lazySizesConfig || {};
+    lazySizesConfig = {"lazyClass":"-lazy","preloadClass":"-preloaded","loadingClass":"-loading","loadedClass":"-loaded"};
 </script>
-</div>
-</div>
-<section id="grid-1">
-<div class="row">
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic" data-src="https://media.townhall.com/townhall/reu/ha/2018/43/10b23fc2-706b-4096-a312-ab7270db00c0.jpg" href="https://townhall.com/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic" href="https://townhall.com/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159">Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic</a>
-</div>
-<div class="story__author">
-Julio Rosas
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="&lt;p&gt;New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It&lt;/p&gt;" data-src="https://media.townhall.com/townhall/reu/ha/2020/97/a1c032c2-2dc2-415a-a698-50aeb7968e7a.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="&lt;p&gt;New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It&lt;/p&gt;" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"><p>New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It</p></a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" data-src="https://media.townhall.com/townhall/reu/ha/2014/289/17329344-1af8-4a1f-8631-ab65d20076a0.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141">There's Something a Little Odd About the Letter Hunter Biden's Lawyer Sent Regarding the China Allegations</a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-</div><div class="row">
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported" data-src="https://media.townhall.com/townhall/reu/ha/2020/80/b0dabbb2-2c7b-419e-a142-ce365718c3d4.jpg" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/first-largescale-antibody-testing-indicate-coronavirus-infections-much-higher-death-rate-much-lower-n2567155"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/first-largescale-antibody-testing-indicate-coronavirus-infections-much-higher-death-rate-much-lower-n2567155">New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported</a>
-</div>
-<div class="story__author">
-Bronson Stocking
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a class="thm-inc lazy" title="ICE Apprehends Five Asia Nationals Illegally Present in the U.S. " data-src="https://media.townhall.com/townhall/reu/ha/2019/133/d63885bf-3c7a-4a9a-bcbd-ac2735c54d62.png" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/five-asia-nationals-six-pakistanis-apprehended-by-ice-n2567165"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="ICE Apprehends Five Asia Nationals Illegally Present in the U.S. " href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/five-asia-nationals-six-pakistanis-apprehended-by-ice-n2567165">ICE Apprehends Five Asia Nationals Illegally Present in the U.S. </a>
-</div>
-<img class="thm-sublevel" src="/resources/dist/svg/subscriptions-badge-vip.svg" />
-<div class="story__author">
-Bronson Stocking
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" data-src="https://media.townhall.com/townhall/reu/ha/2020/108/0312f0de-aebe-4ffd-8865-086c6760c7bf.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157">Land O'Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?</a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-</div><div class="row">
-</div>
-</section>
-</section>
-<div id="article-comment-bookmark"></div>
-<section id="article-comments" name="article-comments">
-<button class="show-comments btn btn-lg btn-block btn-primary" style="margin:0 0 15px 0;" data-disqus-url="https://townhall.com/tipsheet/leahbarkoukis/2019/12/27/california-governor-tries-blaming-federal-govt-for-homeless-problem-n2558590">SHOW COMMENTS</button>
-<div id="disqus_thread"></div>
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//cdn.taboola.com' />
+<link rel='dns-prefetch' href='//c.jsrdn.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Foreign Policy &raquo; For Africa, Chinese-Built Internet Is Better Than No Internet at All Comments Feed" href="https://foreignpolicy.com/2019/03/19/for-africa-chinese-built-internet-is-better-than-no-internet-at-all/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/foreignpolicy.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='FP__styles__components__power_maps_font-css'  href='https://fonts.googleapis.com/css?family=Bebas+Neue&#038;display=swap&#038;ver=1.0.0' media='all' />
+<link rel='stylesheet' id='all-css-2' href='https://foreignpolicy.com/_static/??-eJytksFqw0AMRH+oipKASXso/ZQg7yr21trVspIT/Pd1gm+9tb4JMfMGDcJHhVSCzJENgxnGZI69aJhAUt+oLWi+CB9yKodV8IarI2hxLo4+cl59N22chgJVJYUFzsfTBcmMfcO9AIY9GeM1079BQXPVsvoMbaTGcW/qyBS57U2tuq53ZmYqNOze6k3V/3K/OXkKG3DkZwJFAxJubsC96gSVlgeJgNPEeudmkLVPwkDxmpMFEB4oLL9i8wxV5iEVw2/2SmF6/es2P+Vf+fPUvV+O3fmj634A6M0PGw==' type='text/css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<script type="application/javascript">var googletag=googletag||{};googletag.cmd=googletag.cmd||[];googletag.cmd.push(	function(){googletag.pubads().disableInitialLoad()});</script><script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+<script type='text/javascript' src='https://foreignpolicy.com/_static/??-eJytkdFqwzAMRX9ojppB2u5h7FsUW0kUbMlYXkbz9U2hr31IuhchBOcI7oW/7LxKJalQJ0pkMGghHsVljexv7vPUXgDNqBpY8WC+cN72hSRoAbKzy0UTGzX4W7WZ7QPelQ4bPKAn7Y3KQqWxihIwqtB7/ufp4bcdpu19ZQ+zwVRT7Gzi5RBdyLJKOMSOUXuM/xJvxPVmvNKeCF7bMOGq4noOgWV0to34qOknfbfd9XxtT91XO98Ba6XjFA=='></script>
+<script src='//c.jsrdn.com/s/cs.js?p=22420'></script>
 <script>
-      var disqus_config = function () {
-            this.page.url = "https://townhall.com/tipsheet/leahbarkoukis/2019/12/27/california-governor-tries-blaming-federal-govt-for-homeless-problem-n2558590";
-          this.page.identifier = "https://townhall.com/tipsheet/leahbarkoukis/2019/12/27/california-governor-tries-blaming-federal-govt-for-homeless-problem-n2558590";
-      };
-    $('.show-comments').on('click', function () {
-        $.ajax({
-            type: "GET",
-            url: "//townhallcom.disqus.com/embed.js",
-            dataType: "script",
-            cache: true
-        });
-        $(this).hide();
+var FPSharesEndpoint = {"endpoint":"https:\/\/foreignpolicy.com\/_share_count\/"};
+var ajaxurl = {"ajaxurl":"https:\/\/foreignpolicy.com\/wp-admin\/admin-ajax.php"};
+</script>
+<script type='text/javascript' src='https://foreignpolicy.com/_static/??-eJyVzFEOgjAQRdENMUxBUH8Ma2makU4DLekbMO5eWIJ/N7nJ4c9GoWSTbGxRVgG/SxWdM21l0fCl3nUPhnnTwAkMf2iezwkjRF8FbULD/zK+hqiHEOQqOpl9sYua1lc3Pof7zblhTD9FTjjw'></script>
+<link rel='https://api.w.org/' href='https://foreignpolicy.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://foreignpolicy.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://foreignpolicy.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4" />
+<link rel="canonical" href="https://foreignpolicy.com/2019/03/19/for-africa-chinese-built-internet-is-better-than-no-internet-at-all/" />
+<link rel='shortlink' href='http://bit.ly/2WgYcV3' />
+<link rel="alternate" type="application/json+oembed" href="https://foreignpolicy.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fforeignpolicy.com%2F2019%2F03%2F19%2Ffor-africa-chinese-built-internet-is-better-than-no-internet-at-all%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://foreignpolicy.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fforeignpolicy.com%2F2019%2F03%2F19%2Ffor-africa-chinese-built-internet-is-better-than-no-internet-at-all%2F&#038;format=xml" />
+<style type='text/css'>img#wpstats{display:none}</style>		<style>
+		.getty.alignleft {
+			margin-right: 5px;
+		}
+		.getty.alignright {
+			margin-left: 5px;
+		}
+		</style>
+		<link rel="icon" href="https://foreignpolicy.com/wp-content/uploads/2017/12/cropped-favicon-512_2017.png?w=32" sizes="32x32" />
+<link rel="icon" href="https://foreignpolicy.com/wp-content/uploads/2017/12/cropped-favicon-512_2017.png?w=192" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://foreignpolicy.com/wp-content/uploads/2017/12/cropped-favicon-512_2017.png?w=180" />
+<meta name="msapplication-TileImage" content="https://foreignpolicy.com/wp-content/uploads/2017/12/cropped-favicon-512_2017.png?w=270" />
+
+        
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-6874192-41"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    // Add additional data for GA / GTM
+    dataLayer.push({
+        'author': "Amy Mackinnon",
+        'category': "Report", 
+        'datePublished': "2019-03-19",
+        'editor': "",
+        'region': "Africa, Asia",
+        'tags': "Africa, China, cyber espionage, Democracy", 
+        'vertical': "Africa, Middle East &amp; Africa, Asia",
+        'pageType': "Article",
+        'inMagazine': "",
+        // Values below defined after OC JS runs
+        'accessId': "",
+        'accessGroup': "",
+        'subscriberState': ""
     });
+
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    // GA set config and WP post content group
+    // GA track page group -  syntax: gtag('config', 'GA_TRACKING_ID', {'content_group5': '/news/sports'});
+    if ('undefined' !== typeof realReferer && '' !== document.referrer && realReferer !== document.referrer) {
+        // ONECount tracking override
+        dataLayer.push({
+            'dimension2': 'LID',
+            'dimension3': 'RGRP',
+            'dimension4': 'VID',
+            'realReferer': realReferer,
+            // track category as content group, may be replaced by dataLayer below
+            'content_group1': "Report"        });
+    } else {
+        // Standard tracking
+        dataLayer.push({
+            'dimension2': 'LID',
+            'dimension3': 'RGRP',
+            'dimension4': 'VID',
+            // track category as content group, may be replaced by dataLayer below
+            'content_group1': "Report"        });
+    }
 </script>
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KVBCHJC');</script>
+        <!-- End Google Tag Manager -->
+
+        
+        <script type="text/javascript">googletag.cmd.push( function(){ googletag.pubads().setTargeting("tags",["Africa","China","cyber espionage","Democracy","Report"]) });</script><script type="text/javascript">googletag.cmd.push( function(){ googletag.pubads().setTargeting("postID","962540") });</script><script type="text/javascript">googletag.cmd.push( function(){ googletag.pubads().setTargeting("author",["Amy Mackinnon"]) });</script>            </head>
+    <body class="post-template-default single single-post postid-962540 single-format-standard site-root">
+
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVBCHJC"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <div id="site-wrapper">            <header class="site-header">
+                <a href="https://foreignpolicy.com/" class="logo">
+    <svg class="site-icon -inline -textonly" width="75" height="47.5" viewBox="0 0 75 47.5"><path fill="#EE3524" d="M39.4,8.7H40V0.5H0v0.8c4.5,0.2,7.4,0.8,7.4,4.9v36c0,4.2-2.9,4.8-7.4,4.9V48h26.2v-0.8c-5.2-0.3-9-0.8-9-4.9
+		V25.2h8.7c3,0,4.2,2.2,4.9,6.2h0.5V18h-0.5c-0.7,4-1.9,6.2-4.9,6.2h-8.7V1.3h13.3C35.9,1.3,37.7,2.8,39.4,8.7 M52.9,25.2h6.2
+		c11.1,0,15.9-5.8,15.9-13.1c0-6.4-4.5-11.7-17.3-11.7H40.9l0,41.8c0,4.2-2.9,4.8-7.4,4.9V48h27.3v-0.8c-5.2-0.3-9-0.8-9-4.9V1.5
+		h3.4c6.1,0,9.5,5.5,9.5,12c0,7.5-3.5,10.8-9.6,10.8h-2.4V25.2z"/></svg><!--hide-mobile-->
+<!--svg class="site-icon -inline -textonly hide-desktop" width="75" height="47.5" viewBox="0 0 75 47.5"><path fill="#FFFFFF" d="M39.4,8.7H40V0.5H0v0.8c4.5,0.2,7.4,0.8,7.4,4.9v36c0,4.2-2.9,4.8-7.4,4.9V48h26.2v-0.8c-5.2-0.3-9-0.8-9-4.9
+		V25.2h8.7c3,0,4.2,2.2,4.9,6.2h0.5V18h-0.5c-0.7,4-1.9,6.2-4.9,6.2h-8.7V1.3h13.3C35.9,1.3,37.7,2.8,39.4,8.7 M52.9,25.2h6.2
+		c11.1,0,15.9-5.8,15.9-13.1c0-6.4-4.5-11.7-17.3-11.7H40.9l0,41.8c0,4.2-2.9,4.8-7.4,4.9V48h27.3v-0.8c-5.2-0.3-9-0.8-9-4.9V1.5
+		h3.4c6.1,0,9.5,5.5,9.5,12c0,7.5-3.5,10.8-9.6,10.8h-2.4V25.2z"/></svg-->    <span class="hide">Foreign Policy Magazine</span>
+</a>
+
+                <div class="header-nav-wrapper">
+                    <nav class="header-nav">
+                        <div class="header-mobile-subnav">
+                            <ul class="manage-account account">
+                                <li class="header-menu-item">
+                                    <a href="#" class="navlink -top -user -signin FP-paywall--login">Sign In</a>
+                                </li>
+                                <li class="header-menu-item subscribe-link">
+                                    <a href="/subscribe" class="navlink -top -user -emph subscribe-prompt">
+                                        <span class="subscribe--long">Subscribe</span>
+                                        <span class="subscribe--short">Subscribe</span>
+                                    </a>
+                                    <a href="/subscribe" class="navlink -top -user -emph upgrade-to-insider-prompt">
+                                        <span class="subscribe--long">Upgrade to Insider</span>
+                                        <span class="subscribe--short">Upgrade to Insider</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header-nav-main">
+                            <ul class="header-menu -top">
+                                <li class="header-menu-item hide-desktop">
+                                    <a href="/category/latest/" class="navlink red">Latest</a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="/channel/news/" class="navlink">News</a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="/channel/analysis/" class="navlink">Analysis</a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="/podcasts/" class="navlink">Podcasts</a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="/the-magazine/" class="navlink">The Magazine</a>
+                                </li>
+                                <li class="header-menu-item -parent">
+                                    <a class="navlink">Channels</a>
+                                    <ul class="header-menu -top">
+                                        <li class="header-menu-item"><a href="/channel/economics/" class="navlink">Economics</a></li>
+                                        <li class="header-menu-item"><a href="/channel/security-2/" class="navlink">Security</a></li>
+                                        <li class="header-menu-item"><a href="/category/elephants-in-the-room/" class="navlink">Elephants in the Room</a></li>
+                                        <li class="header-menu-item"><a href="/category/shadow-government/" class="navlink">Shadow Government</a></li>
+                                        <li class="header-menu-item"><a href="/channel/her-power/" class="navlink">Her Power</a></li>
+                                    </ul>
+                                    <span class="close-nav">
+                                        <img draggable="false" class="emoji" alt="❌" src="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/icons/close.svg" />&nbsp;&nbsp;Close
+                                    </span>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="/newsletters/" class="navlink">Newsletters</a>
+                                </li>
+                            </ul>
+
+                            <div class="header-insider-menu">
+                                <p><a href="/fpinsider/" class="red"><span class="insider-only-text hide">Your </span>FP Insider Access:</a></p>
+                                <ul>
+                                    <li><a href="/power-maps">Power Maps</a></li>
+                                    <li><a href="/conference-calls">Conference Calls</a></li>
+                                    <li><a href="/special-reports">Special Reports</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="header-mobile-subnav">
+                            <div class="expando-search">
+    <div class="icon">
+        <svg viewBox="0 0 18 18">
+	<circle class="search-icon" cx="7.5" cy="7.3" r="6.5"/>
+	<line class="search-icon" x1="12.1" y1="11.9" x2="17.5" y2="17.3"/>
+</svg>    </div>
+        <form role="search" method="get" id="searchform-mobile" class="searchform" action="/">
+    	<label class="hide" for="searchfield-mobile">Search</label>
+    	<input class="search" type="search" name="s" id="searchfield-mobile" />
+    	<input type="submit" value="search-submit" style="display:none" />
+    </form>
+</div>
+                                                        <div class="latest-posts-nav">
+                                <h2 class="title">latest</h2>
+                                <div class="grid--container">
+                                    <div class="grid--flex no-border grid__fourth">
+                                                                                <div>
+                                            <div class="excerpt-content -noimage">
+    <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2020/04/18/un-ceasefire-coronavirus-big-government/">
+    <h3 class="hed">Our Top Weekend Reads</h3>
+</a>
+<div class="dek-heading -excerpt">
+    <p class="dek">No global cease-fire, big government is here to stay, and the misuse of accurate disaster predictions.</p>
+</div>
+<div class="meta-data -excerpt">
+        <a
+        href="https://foreignpolicy.com/category/five-reads/"
+        class="department-name -excerpt">
+        5 Top Reads    </a>
+        <span class="separator">|</span>
+        <address class="author-list -excerpt">
+    <a
+        href="https://foreignpolicy.com/author/dan-haverty/"
+        rel="author"
+        class="author">
+    Dan Haverty</a></address>
+
+</div>
+</div>
+                                        </div>
+                                                                                <div>
+                                            <div class="excerpt-content -noimage">
+    <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2020/04/17/united-states-stoking-crisis-kosovo-serbia-peace-deal-trump-grenell/">
+    <h3 class="hed">Why the United States Is Stoking a Crisis in Kosovo</h3>
+</a>
+<div class="dek-heading -excerpt">
+    <p class="dek">Even amid an unprecedented pandemic, Trump wants a deal above all else.</p>
+</div>
+<div class="meta-data -excerpt">
+        <a
+        href="https://foreignpolicy.com/category/while-you-werent-looking/"
+        class="department-name -excerpt">
+        While You Weren&#039;t Looking    </a>
+        <span class="separator">|</span>
+        <address class="author-list -excerpt">
+    <a
+        href="https://foreignpolicy.com/author/amy-mackinnon/"
+        rel="author"
+        class="author">
+    Amy Mackinnon</a></address>
+
+</div>
+</div>
+                                        </div>
+                                                                                <div>
+                                            <div class="excerpt-content -noimage">
+    <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2020/04/17/big-pharma-post-pandemic-world-coronavirus-vaccine-cure-intellectual-property/">
+    <h3 class="hed">The Remaking of Big Pharma in a Post-Pandemic World</h3>
+</a>
+<div class="dek-heading -excerpt">
+    <p class="dek">COVID-19 has bucked conventional wisdom on how the industry must operate.</p>
+</div>
+<div class="meta-data -excerpt">
+        <a
+        href="https://foreignpolicy.com/category/analysis/argument/"
+        class="department-name -excerpt">
+        Argument    </a>
+        <span class="separator">|</span>
+        <address class="author-list -excerpt">
+    <a
+        href="https://foreignpolicy.com/author/ethan-guillen/"
+        rel="author"
+        class="author">
+    Ethan Guillén</a><span class="separator">,</span> <a
+        href="https://foreignpolicy.com/author/melissa-chan/"
+        rel="author"
+        class="author">
+    Melissa Chan</a></address>
+
+</div>
+</div>
+                                        </div>
+                                                                                <div>
+                                            <div class="excerpt-content -noimage">
+    <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2020/04/17/erdogan-turkey-coronavirus-relief-politics-akp-chp-brother-tayyip-soup-kitchen/">
+    <h3 class="hed">Brother Tayyip’s Soup Kitchen</h3>
+</a>
+<div class="dek-heading -excerpt">
+    <p class="dek">Turkish President Recep Tayyip Erdogan’s battle with opposition local governments over who provides coronavirus relief is endangering the public.</p>
+</div>
+<div class="meta-data -excerpt">
+        <a
+        href="https://foreignpolicy.com/category/news/dispatch/"
+        class="department-name -excerpt">
+        Dispatch    </a>
+        <span class="separator">|</span>
+        <address class="author-list -excerpt">
+    <a
+        href="https://foreignpolicy.com/author/tessa-fox/"
+        rel="author"
+        class="author">
+    Tessa Fox</a></address>
+
+</div>
+</div>
+                                        </div>
+                                                                            </div>
+                                </div>
+                                <div class="read-more">
+                                    <a href="/category/latest/">See All Stories</a>
+                                </div>
+                            </div>
+
+                            <div class="header-footer-nav">
+                                <span>
+                                    <ul id="menu-footer-column-1" class="mobile-subnav-menu"><li id="menu-item-783354" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-783354 header-menu-item"><a href="https://foreignpolicy.com/staff/" class="navlink">Meet the Staff</a></li>
+<li id="menu-item-988928" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-988928 header-menu-item"><a href="https://foreignpolicy.com/events" class="navlink">FP Events</a></li>
+<li id="menu-item-993024" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-993024 header-menu-item"><a href="https://foreignpolicy.com/fp-analytics/" class="navlink">FP Analytics</a></li>
+<li id="menu-item-1002749" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1002749 header-menu-item"><a href="https://foreignpolicy.com/fp-peacegames/" class="navlink">FP PeaceGames</a></li>
+</ul><ul id="menu-footer-column-2" class="mobile-subnav-menu"><li id="menu-item-993038" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-993038 header-menu-item"><a href="https://foreignpolicy.com/subscription-services/" class="navlink">Subscription Services</a></li>
+<li id="menu-item-988929" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-988929 header-menu-item"><a href="https://foreignpolicy.com/reprint-permissions/" class="navlink">Reprint Permissions</a></li>
+<li id="menu-item-939400" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-939400 header-menu-item"><a href="https://foreignpolicy.submittable.com/submit" class="navlink">Writer&#8217;s Guidelines</a></li>
+<li id="menu-item-1002750" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1002750 header-menu-item"><a href="/employment-opportunities/" class="navlink">Work at FP</a></li>
+</ul>                                </span>
+                                <span>
+                                    <ul id="menu-footer-column-3" class="mobile-subnav-menu"><li id="menu-item-927960" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-927960 header-menu-item"><a href="https://fpguide.foreignpolicy.com/2020-career" class="navlink">FP Guides &#8211; Graduate Education</a></li>
+<li id="menu-item-996597" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-996597 header-menu-item"><a href="https://foreignpolicy.com/fp-for-education/" class="navlink">FP For Education</a></li>
+<li id="menu-item-660886" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-660886 header-menu-item"><a href="/magazine" class="navlink">FP Archive</a></li>
+<li id="menu-item-660961" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-660961 header-menu-item"><a href="https://foreignpolicy.com/buy-back-issues/" class="navlink">Buy Back Issues</a></li>
+</ul><ul id="menu-footer-column-4" class="mobile-subnav-menu"><li id="menu-item-993026" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-993026 header-menu-item"><a href="https://foreignpolicy.com/advertise-with-foreign-policy/" class="navlink">Advertise with FP</a></li>
+<li id="menu-item-988932" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-988932 header-menu-item"><a href="https://foreignpolicy.com/privacy/" class="navlink">Privacy Policy</a></li>
+<li id="menu-item-660967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-660967 header-menu-item"><a href="https://foreignpolicy.com/contact-us/" class="navlink">Contact Us</a></li>
+</ul>                                </span>
+                            </div>
+                        </div>
+
+                    </nav>
+                </div>
+
+                <div class="header-subnav-wrapper">
+                    <nav class="header-subnav">
+                        <ul class="header-menu -top">
+                            <li class="header-menu-item">
+                                <a href="#" class="navlink -top -user -signin FP-paywall--login">Sign In</a>
+                            </li>
+                            <li class="header-menu-item subscribe-link">
+                                <a href="/subscribe" class="navlink -top -user -emph subscribe-prompt">
+                                    <span class="subscribe--long">Subscribe</span>
+                                    <span class="subscribe--short">Subscribe</span>
+                                </a>
+                                <a href="/subscribe" class="navlink -top -user -emph upgrade-to-insider-prompt">
+                                    <span class="subscribe--long">Upgrade to Insider</span>
+                                    <span class="subscribe--short">Upgrade</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <div class="expando-search">
+    <div class="icon">
+        <svg viewBox="0 0 18 18">
+	<circle class="search-icon" cx="7.5" cy="7.3" r="6.5"/>
+	<line class="search-icon" x1="12.1" y1="11.9" x2="17.5" y2="17.3"/>
+</svg>    </div>
+        <form role="search" method="get" id="searchform-desktop" class="searchform" action="/">
+    	<label class="hide" for="searchfield-desktop">Search</label>
+    	<input class="search" type="search" name="s" id="searchfield-desktop" />
+    	<input type="submit" value="search-submit" style="display:none" />
+    </form>
+</div>
+                    </nav>
+                </div>
+                
+                <button class="hamburger-button">
+    <span class="line"></span>
+    <span class="hide">Toggle display of website navigation</span>
+</button>
+
+                                <div class="header-alt-layout__title">
+                    <p class="header-alt-title">
+                                                <span class="department-title">
+                            Report:
+                        </span>
+                                                <span class="header-alt-title__desktop">
+                            For Africa, Chinese-Built Internet Is Better Than No Internet at All                        </span>
+                        <span class="header-alt-title__mobile">
+                            For Africa, Chinese-Built Internet Is Better...                        </span>
+                    </p>
+                    <div class="header-social-shares">
+                        <span class="share-title">SHARE:</span>
+                        <a data-endpoint="facebook" data-title="For Africa, Chinese-Built Internet Is Better Than No Internet at All" data-text="The need for web access has driven African countries to Huawei despite U.S. concerns." data-url="https://foreignpolicy.com/2019/03/19/for-africa-chinese-built-internet-is-better-than-no-internet-at-all/" onclick="socialshares.share(this);">
+                            <img src="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/icons/facebook_blue.svg" alt="Share on Facebook" class="facebook-button" />
+                        </a>
+                        <a data-endpoint="twitter" data-title="The need for web access has driven African countries to Huawei despite U.S. concerns." data-text="The need for web access has driven African countries to Huawei despite U.S. concerns." data-url="https://foreignpolicy.com/2019/03/19/for-africa-chinese-built-internet-is-better-than-no-internet-at-all/" onclick="socialshares.share(this);">
+                            <img src="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/icons/twitter_blue.svg" alt="Share on Twitter" class="twitter-button" />
+                        </a>
+                        <a data-endpoint="linkedin" data-title="For Africa, Chinese-Built Internet Is Better Than No Internet at All" data-text="The need for web access has driven African countries to Huawei despite U.S. concerns." data-url="https://foreignpolicy.com/2019/03/19/for-africa-chinese-built-internet-is-better-than-no-internet-at-all/" onclick="socialshares.share(this);">
+                            <img src="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/icons/linkedin_blue.svg" alt="Share on LinkedIn" class="linkedin-button" />
+                        </a>
+                        <a href="#" title="Print" onclick="window.print();">
+                            <img src="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/icons/print_black.svg" alt="Print this page" class="print-button" />
+                        </a>
+                        <a href="mailto:?subject=Check%20out%20this%20story%20on%20Foreign%20Policy&amp;body=For Africa, Chinese-Built Internet Is Better Than No Internet at All%20-%20https://foreignpolicy.com/2019/03/19/for-africa-chinese-built-internet-is-better-than-no-internet-at-all/%2F" title="Share via Email">
+                            <img src="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/icons/email_black.svg" alt="Share via Email" class="email-button" />
+                        </a>
+                                            </div>
+                </div>
+                        
+
+        </header>
+
+<script type="text/javascript">/* Load GPT asynchronously */var googletag = googletag || {};googletag.cmd = googletag.cmd || [];(function() {var gads = document.createElement("script");gads.async = true;gads.type = "text/javascript";var useSSL = "https:" == document.location.protocol;gads.src = (useSSL ? "https:" : "http:") +"//securepubads.g.doubleclick.net/tag/js/gpt.js";var node = document.getElementsByTagName("script")[0];node.parentNode.insertBefore(gads, node);})();googletag.cmd.push( function() { window.FP_gtagBannerSlots = {};/* Define a size mapping object. The first parameter to addSize is a viewport size, while the second is a list of allowed ad sizes. */var mappingMobileFooter = googletag.sizeMapping()./* Mobile fixed footer ad */addSize([320, 50], [320, 50]).build();var mappingSidebar = googletag.sizeMapping()./* Desktop sidebar and mobile ad */addSize([300, 250], [300, 250]).build();var mappingSidebarLarge = googletag.sizeMapping()./* Desktop sidebar and mobile ad */addSize([300, 250], [300, 250])./* Taller desktop sidebar and mobile ad */addSize([300, 600], [[300, 250], [300, 600]]).build();var mappingMainLarge = googletag.sizeMapping()./* Do not display these ads on smaller screens */addSize([0, 0], [])./* Small banner ad */addSize([728, 90], [728, 90])./* Large banner ad */addSize([970, 90], [[970, 90], [728, 90]]).build();var mappingMainLargeAndSmall = googletag.sizeMapping()./* Desktop sidebar and mobile ad */addSize([300, 250], [300, 250])./* Small banner ad */addSize([728, 90], [728, 90])./* Large banner ad */addSize([970, 90], [[970, 90], [728, 90]]).build();var mappingMainSmall = googletag.sizeMapping()./* Desktop sidebar and mobile ad */addSize([300, 250], [300, 250])./* Small banner ad */addSize([728, 90], [])./* Large banner ad */addSize([970, 90], []).build();googletag.defineSlot("/7971222/global_superleaderboard_top", [[970, 90], [728, 90]], "div-gpt-ad-1452807828370-0").defineSizeMapping(mappingMainLarge).addService(googletag.pubads());googletag.pubads().disableInitialLoad();googletag.pubads().enableLazyLoad({fetchMarginPercent: 0,renderMarginPercent: 0,mobileScaling: 2.0});
+			googletag.enableServices(); } );</script><div id="div-gpt-ad-1452807828370-0" class="home-ad-region-1 _970">
+
+			<script type="text/javascript">
+
+				googletag.cmd.push( function() {
+
+					googletag.display( "div-gpt-ad-1452807828370-0" );
+
+				} );
+
+			</script>
+
+		</div>
+<div id="main" data-context="article" class="default default_text_style text_above_photo  ">
+
+	<div class="post-content" data-post-id="962540" data-premium="no" data-premium-trigger="yes" data-whitelist="">
+
+		<article class="article" data-post-id="962540" data-post-url="https://foreignpolicy.com/2019/03/19/for-africa-chinese-built-internet-is-better-than-no-internet-at-all/" data-lfcollectionmeta="eyJ0eXAiOiJqd3QiLCJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6IkZvciBBZnJpY2EsIENoaW5lc2UtQnVpbHQgSW50ZXJuZXQgSXMgQmV0dGVyIFRoYW4gTm8gSW50ZXJuZXQgYXQgQWxsIiwidXJsIjoiaHR0cHM6XC9cL2ZvcmVpZ25wb2xpY3kuY29tXC8yMDE5XC8wM1wvMTlcL2Zvci1hZnJpY2EtY2hpbmVzZS1idWlsdC1pbnRlcm5ldC1pcy1iZXR0ZXItdGhhbi1uby1pbnRlcm5ldC1hdC1hbGxcLyIsInN0cmVhbV90eXBlIjoibGl2ZWNvbW1lbnRzIiwiY2hlY2tzdW0iOiI1MjFmMDViMWY1ZTE5NDBhOTg5MTBlOTQyNzk0YmQ0YiIsImFydGljbGVJZCI6ImZvcmVpZ25wb2xpY3lfd3BfOTYyNTQwIn0.z8SRRJtF2mU9A6OIgGYX159W2LD4LHW5_NpPmZhU7ZE" data-lfchecksum="521f05b1f5e1940a98910e942794bd4b" data-lfarticleid="foreignpolicy_wp_962540">
+
+			
+				
+
+
+<a
+    href="https://foreignpolicy.com/category/news/report/"
+    class="department-name">
+    <h3 class="department">Report</h3></a>
+<span
+    class="hed-heading"
+    href="https://foreignpolicy.com/2019/03/19/for-africa-chinese-built-internet-is-better-than-no-internet-at-all/">
+    <h1 class="hed">For Africa, Chinese-Built Internet Is Better Than No Internet at All</h1>
+</span>
+<h2 class="dek-heading">The need for web access has driven African countries to Huawei despite U.S. concerns.</h2>
+<div class="meta-data ">
+    <address class="author-list">
+    <span class="pre">By</span>
+    <a
+        href="https://foreignpolicy.com/author/amy-mackinnon/"
+        rel="author"
+        class="author">
+    Amy Mackinnon</a></address>
+    <span class="separator">|</span>
+    <time
+    pubdate
+    datetime="2019-03-19"
+    title="March 19th, 2019"
+    class="date-time">
+March 19, 2019, 3:53 PM</time>
+</div>
+
+
+
+
+				<figure class="figure-image ">
+            <span
+            style="padding-bottom:66.666666666667%;
+        "
+                class="image-attachment -ratioscale  horizontal-orientation">
+        <img
+            data-sizes="(max-width: 800px) 100vw, 800px"
+            data-srcset="https://foreignpolicy.com/wp-content/uploads/2019/03/gettyimages-1128822424.jpg?quality=90 1500w, https://foreignpolicy.com/wp-content/uploads/2019/03/gettyimages-1128822424.jpg?resize=150,100&amp;quality=90 150w, https://foreignpolicy.com/wp-content/uploads/2019/03/gettyimages-1128822424.jpg?resize=550,367&amp;quality=90 550w, https://foreignpolicy.com/wp-content/uploads/2019/03/gettyimages-1128822424.jpg?resize=768,512&amp;quality=90 768w, https://foreignpolicy.com/wp-content/uploads/2019/03/gettyimages-1128822424.jpg?resize=400,267&amp;quality=90 400w, https://foreignpolicy.com/wp-content/uploads/2019/03/gettyimages-1128822424.jpg?resize=401,267&amp;quality=90 401w, https://foreignpolicy.com/wp-content/uploads/2019/03/gettyimages-1128822424.jpg?resize=800,533&amp;quality=90 800w, https://foreignpolicy.com/wp-content/uploads/2019/03/gettyimages-1128822424.jpg?resize=275,183&amp;quality=90 275w, https://foreignpolicy.com/wp-content/uploads/2019/03/gettyimages-1128822424.jpg?resize=325,217&amp;quality=90 325w, https://foreignpolicy.com/wp-content/uploads/2019/03/gettyimages-1128822424.jpg?resize=600,400&amp;quality=90 600w"
+            data-src="https://foreignpolicy.com/wp-content/uploads/2019/03/gettyimages-1128822424.jpg?w=800&#038;h=533&#038;quality=90"
+            sizes="(max-width: 800px) 100vw, 800px"
+            src=""
+            alt="A staff member of Huawei uses her mobile phone at the Huawei Digital Transformation Showcase in Shenzhen, in China&#039;s Guangdong province, on March 6. (Wang Zhao/AFP/Getty Images)"
+            style="width:auto;"
+            class="image -fit -lazy"
+        >
+        <noscript>
+            <img
+                src="https://foreignpolicy.com/wp-content/uploads/2019/03/gettyimages-1128822424.jpg?w=800&#038;h=533&#038;quality=90"
+                alt="A staff member of Huawei uses her mobile phone at the Huawei Digital Transformation Showcase in Shenzhen, in China&#039;s Guangdong province, on March 6. (Wang Zhao/AFP/Getty Images)"
+                class="image -fit-3-2">
+        </noscript>
+        </span>
+                    <div class="caption">
+            A staff member of Huawei uses her mobile phone at the Huawei Digital Transformation Showcase in Shenzhen, in China's Guangdong province, on March 6. (Wang Zhao/AFP/Getty Images)            <span class="attribution"></span>
+        </div>
+    </figure>
+
+
+				
+			
+						
+			<div class="post-content-main initial-drop-cap shares-position">
+								<p><span style="font-weight:400;">The Chinese telecommunications company Huawei has made huge inroads in Africa in recent years even as the United States urges its allies around the world to avoid working with the firm over cybersecurity concerns.</span></p>
+<p><span style="font-weight:400;">Huawei has built about 70 percent of the continent’s 4G networks, vastly outpacing European rivals, according to Cobus van Staden, a senior China-Africa researcher at the South African Institute of International Affairs. The construction is often accompanied by loans from Chinese state banks, which are approved faster and with fewer conditions than loans from international institutions.</span></p>
+<p><span style="font-weight:400;">While concerns about Huawei are shared by other countries around the world, in Africa they are largely overshadowed by the imperative for greater internet access. The continent is home to some of the world’s</span><a href="https://qz.com/africa/1522126/african-economies-to-watch-in-2019-and-looming-debt/"> <span style="font-weight:400;">fastest-</span></a><span style="font-weight:400;">growing economies, and its population is expected to double by 2050.</span></p>
+<p><span style="font-weight:400;">“At least for the time being, Africa doesn’t have any other cost or competency alternatives,” said Howard French, who teaches at the Columbia School of Journalism and has been the <em>New York Times</em> bureau chief in West and Central Africa and in China.</span></p>
+<p><span style="font-weight:400;">The United States believes Huawei and other Chinese telecommunications companies that build critical infrastructure around the world might be installing so-called backdoors and using them to spy on behalf of the Chinese government. U.S. Secretary of State Mike Pompeo has threatened to withhold intelligence from countries that use Chinese networks.</span></p>
+<p><span style="font-weight:400;">Huawei’s founder has told the</span><em><a href="https://www.wsj.com/articles/huawei-ceo-hits-back-at-claims-company-spies-for-china-11547542616?mod=hp_lead_pos4&amp;ns=prod/accounts-wsj"> <span style="font-weight:400;">Wall Street Journal</span></a></em><span style="font-weight:400;"> that his company has never spied for China. But some experts are skeptical.</span></p>
+<p><span style="font-weight:400;">“This idea that Huawei would never reveal anything to the Chinese state if asked is implausible because any Chinese company has to operate within the rules of the Chinese state,” said French, the author of <em>Everything Under the Heavens: How the Past Helps Shape China’s Push for Global Power</em>.</span></p>
+<p><span style="font-weight:400;">In January 2018, the French newspaper</span><em><a href="https://www.lemonde.fr/afrique/article/2018/01/26/a-addis-abeba-le-siege-de-l-union-africaine-espionne-par-les-chinois_5247521_3212.html"> <span style="font-weight:400;">Le Monde</span></a></em><span style="font-weight:400;"> reported that Beijing had bugged the headquarters of the African Union—whose construction was paid for and built by China. Every night for five years the entire contents of the building’s computer systems—which were installed by Huawei—were reportedly transferred to China. Microphones were found embedded in the desks and walls, according to the report. Both China and the African Union dismissed the allegations.</span></p>
+<p><span style="font-weight:400;">“Most policymakers and politicians in Africa, they don’t really care,” said Emeka Umejei, who teaches journalism at the American University of Nigeria. “Africa is a pawn on the global chessboard in the ongoing geopolitical context. Everybody spies on Africa,” he said.</span></p>
+<p><span style="font-weight:400;">David Shinn, a former U.S. ambassador to Ethiopia and Burkina Faso, said </span><span style="font-weight:400;">that for many Africans, the </span><span style="font-weight:400;">suspicion is, “if the Americans are peddling this argument, they have their own vested interests.”</span></p>
+<p><span style="font-weight:400;">In Africa, where internet penetration lags behind the global</span><a href="https://www.internetworldstats.com/stats1.htm"> <span style="font-weight:400;">average</span></a><span style="font-weight:400;"> at 35.2 percent, Huawei’s compact rural cell towers have brought internet access to remote regions while the M-Pesa cellphone banking system, run on Huawei’s Mobile Money platform, has been lauded for helping millions in East Africa move into the formal financial system.</span></p>
+<p><span style="font-weight:400;">“The moment the networks are up, they kick off a whole host of other economies,” said van Staden of the South African Institute of International Affairs.</span></p>
+<p><span style="font-weight:400;">As Chinese-built internet expands across Africa, many fear that the continent’s authoritarian leaders will seek to curb the internet’s ability to spread popular discontent by adopting a Chinese style restricted web.</span></p>
+<p><span style="font-weight:400;">“The Chinese are explicitly pushing this idea of internet governance,” said Joshua Meservey, a senior analyst with the Heritage Foundation. “They frame it as a sovereignty issue, but what they are really talking about is the ability of a state to control the free flow of information online.”</span></p>
+<p><span style="font-weight:400;">China has encouraged foreign officials to follow its lead on internet control, conducting large-scale training for officials around the world, according to Freedom House’s 2018 “Freedom on the Net” <a href="https://freedomhouse.org/report/freedom-net/freedom-net-2018">report</a>. The U.S. government-funded watchdog noted that increased activity by Chinese officials in Africa was followed by the passage of restrictive cybercrime and media laws in Tanzania and Uganda.</span></p>
+<p><span style="font-weight:400;">Last year, the government of Zimbabwe signed a</span><a href="https://foreignpolicy.com/2018/07/24/beijings-big-brother-tech-needs-african-faces/"> <span style="font-weight:400;">deal</span></a><span style="font-weight:400;"> with the Chinese company CloudWalk to build a nationwide facial recognition system. The data will flow back to China as a way of training its AI systems to recognize and track people from different ethnic backgrounds.</span></p>
+<p><span style="font-weight:400;">Being the only viable provider of internet connectivity can also give China significant leverage over African governments, said </span><span style="font-weight:400;">Andrew Davenport, the chief operating officer of the RWR Advisory Group, a Washington-based consulting firm that tracks Chinese investment.</span></p>
+<p><span style="font-weight:400;">“Beyond just espionage, there’s leverage that comes with being the low-cost solution provider to a country whose political leadership might, in part, derive popular support from being able to offer connectivity to their population,” h</span><span style="font-weight:400;">e said.</span></p>
+<p><span style="font-weight:400;">With so much of the continent’s telecoms infrastructure in Huawei’s hands, it’s going to be difficult for African countries to disentangle themselves from China, said Meservey of the Heritage Foundation.</span></p>
+<p><span style="font-weight:400;">“The U.S. is going to have to be strategic about how they approach this challenge. You can’t just blunder in and say, ‘It’s us or them.’ China does provide things that the continent needs,” he said.</span></p>
+<p><span style="font-weight:400;">When U.S. National Security Advisor John Bolton unveiled the Trump administration’s new Africa strategy in December 2018, it was interpreted mainly as a strategy to counter China’s influence on the continent. The United States continues to be the largest donor to Africa, but many questioned whether the U.S. resources allocated there would be sufficient to implement the kind of strategy Bolton envisioned.</span></p>
+<p><span style="font-weight:400;">In lieu of having a viable technological alternative to offer in Africa, French of Columbia University said that the United States should make a positive, values-based case to encourage a move away from Huawei.</span></p>
+<p><span style="font-weight:400;">“In authoritarian countries there is a real divide between the rulers and the populace, and I think on this issue I’m pretty sure the populace in most of these countries if given the choice would prefer an open internet regime,” he said.</span></p>
+<p><span style="font-weight:400;">Bolton announced the new U.S. Africa strategy at a speech at a Washington-based think tank. </span><span style="font-weight:400;">When Chinese leader Xi Jinping unveiled China’s Second Africa Policy in 2015, by contrast, he did it in South Africa, surrounded by African leaders who had gathered for the Forum on China-Africa Cooperation, noted Joshua Eisenman, an assistant professor of public affairs at the University of Texas at Austin.</span></p>
+<p><span style="font-weight:400;">“That’s going to get attention. But John Bolton standing in Washington and giving a talk, then going back to his office to work on more important matters? There needs to be a follow-through,” Eisenman said.</span></p>
+<div data-fp-lazy-load-image></div>							</div>
+			
+			
+<section class="bio-no-photo">
+	<div class="last-author">
+		<p><strong>Amy Mackinnon</strong> is a staff writer at <em>Foreign Policy</em>.&nbsp;Twitter:&nbsp;<a href="http://www.twitter.com/ak_mack" target="_blank">@ak_mack</a></p>	</div>
 </section>
-</div>
-<div class="col-xs-4 article-rail">
-<div class="ad">
-<div id="div-gpt-300x250_1" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_1");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_1"]])
-                    });
-                </script>
-</div>
-</div>
-<div class="article-actions">
-<a href="mailto:?subject=California Governor Tries Blaming Trump Admin for Homeless Crisis&amp;body=https://townhall.com/tipsheet/leahbarkoukis/2019/12/27/california-governor-tries-blaming-federal-govt-for-homeless-problem-n2558590" class="btn btn-default btn-article-email"><i class="fa fa-envelope"></i></a>
-<a data-url="https://townhall.com/tipsheet/leahbarkoukis/2019/12/27/california-governor-tries-blaming-federal-govt-for-homeless-problem-n2558590/print" onclick="window.open('https://townhall.com/tipsheet/leahbarkoukis/2019/12/27/california-governor-tries-blaming-federal-govt-for-homeless-problem-n2558590/print', 'print-winder', 'width=850,height=700,scrollbars=yes');" class="btn btn-default btn-article-print"><i class="fa fa-print"></i></a>
-<a href="#article-comment-bookmark" class="btn btn-default btn-article-comment"><i class="fa fa-comment"></i></a>
-</div>
-<div class="ad" style="margin-top:10px">
-<div id="div-gpt-300x250_3" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_3");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_3"]])
-                    });
-                </script>
-</div>
-</div>
-<div class="cartoon-widget">
-<div class="cartoon-widget__title"><a href="/political-cartoons">CARTOONS</a>&nbsp;|&nbsp;<a href="/political-cartoons/michaelramirez/">Michael Ramirez</a></div>
-<a class="cartoon-widget__img" href="/political-cartoons/2020/04/18/173115?hpnl=true" style="background-image:url('//media.townhall.com/Townhall/Car/b/mrz041820dAPR20200417044513.jpg');"></a>
-<div class="cartoon-widget__button"><a href="/political-cartoons/2020/04/18/173115?hpnl=true"> View Cartoon <i class="fa fa-arrow-circle-right"></i></a></div>
-</div>
-<div class="sticky-reference">
-<div class="sticky" data-offset-top="55">
-<div class="mpw">
-<div class="mpw__title">Most Popular</div>
-<ul class="list-unstyled mpw__divide">
-<li>
-<div class="row">
-<div class="col-xs-4">
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern  - 196" href="/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2020/104/30b0d531-01a6-4224-85b5-7548e5f3b2a7.jpg" /></a>
-</div>
-<div class="col-xs-8 no-gutter">
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern  - 196" href="/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915">
-<span class="mpw__story">Israeli Professor Shows Virus Follows Fixed Pattern </span>
+			<div class="the-comments">
+				<a href="/comments_view/?view_post_comments=https%3A%2F%2Fforeignpolicy.com%2F2019%2F03%2F19%2Ffor-africa-chinese-built-internet-is-better-than-no-internet-at-all%2F" style="color:#fff">View<br />Comments</a>
+			</div>
+
+			<div class="the-tags">
+    <span class="title">Tags:</span>
+    <a
+        href="https://foreignpolicy.com/tag/africa/"
+        class="tag">
+        Africa</a><span class="separator">,</span><a
+        href="https://foreignpolicy.com/tag/china/"
+        class="tag">
+        China</a><span class="separator">,</span><a
+        href="https://foreignpolicy.com/tag/cyber-espionage/"
+        class="tag">
+        cyber espionage</a><span class="separator">,</span><a
+        href="https://foreignpolicy.com/tag/democracy/"
+        class="tag">
+        Democracy</a></div>
+
+						<div class="taboola">
+				<div class="taboola--inner border-top">
+					<p class="taboola--heading">Trending Now <a href="http://www.taboola.com/" class="taboola--subheading" target="_blank">Sponsored Links by Taboola</a></p>
+					<div id="taboola-below-article-thumbs"></div>
+					<div class="taboola--subheading taboola--subheading__right">By Taboola</div>
+				</div>
+			</div>
+
+			<div class="taboola taboola__fp">
+				<div class="taboola--inner">
+					<p class="taboola--heading heading__red">More from Foreign Policy</p>
+					<div id="taboola-below-article-thumbs_fp"></div>
+					<div class="taboola--subheading taboola--subheading__right">By Taboola</div>
+				</div>
+			</div>
+			<div class="fp-related-wrapper related-articles--no-video">
+    <div class="related-articles">
+        <p class="heading-container"><span class="heading">Read More</span></p>
+                    <div class="blog-list-layout" data-post-id="958924">
+                <div class="excerpt-content--list --first-post content-block" data-post-id="958924">
+    <figure class="figure-image -nocaption">
+            <a
+            style="padding-bottom:66.666666666667%;
+        "
+                    href="https://foreignpolicy.com/2019/01/31/who-benefits-from-the-u-s-crackdown-on-huawei/"
+                class="image-attachment -ratioscale  horizontal-orientation">
+        <img
+            data-sizes="(max-width: 800px) 100vw, 800px"
+            data-srcset="https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1090892970.jpg?quality=80 1500w, https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1090892970.jpg?resize=150,100&amp;quality=80 150w, https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1090892970.jpg?resize=550,367&amp;quality=80 550w, https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1090892970.jpg?resize=768,512&amp;quality=80 768w, https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1090892970.jpg?resize=400,267&amp;quality=80 400w, https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1090892970.jpg?resize=401,267&amp;quality=80 401w, https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1090892970.jpg?resize=800,533&amp;quality=80 800w, https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1090892970.jpg?resize=275,183&amp;quality=80 275w, https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1090892970.jpg?resize=325,217&amp;quality=80 325w, https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1090892970.jpg?resize=600,400&amp;quality=80 600w"
+            data-src="https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1090892970.jpg?w=800&#038;h=533&#038;quality=80"
+            sizes="(max-width: 800px) 100vw, 800px"
+            src=""
+            alt="A cleaner in front of a store selling Huawei products in Beijing on Jan. 29. (Kevin Frayer/Getty Images)"
+            style="width:auto;"
+            class="image -fit -lazy"
+        >
+        <noscript>
+            <img
+                src="https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1090892970.jpg?w=800&#038;h=533&#038;quality=80"
+                alt="A cleaner in front of a store selling Huawei products in Beijing on Jan. 29. (Kevin Frayer/Getty Images)"
+                class="image -fit-3-2">
+        </noscript>
+        </a>
+        </figure>
+    <div class="list-text">
+    <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2019/01/31/who-benefits-from-the-u-s-crackdown-on-huawei/">
+    <h3 class="hed">Who Benefits From the U.S. Crackdown on Huawei?</h3>
 </a>
+<div class="dek-heading -excerpt">
+    <p class="dek">Rival companies could get a boost—or face a backlash from China.</p>
 </div>
+<div class="meta-data -excerpt">
+        <a
+        href="https://foreignpolicy.com/category/news/report/"
+        class="department-name -excerpt">
+        Report    </a>
+        <span class="separator">|</span>
+        <address class="author-list -excerpt">
+    <a
+        href="https://foreignpolicy.com/author/elias-groll/"
+        rel="author"
+        class="author">
+    Elias Groll</a></address>
+
 </div>
-</li>
-<li>
-<div class="row">
-<div class="col-xs-4">
-<a title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic - 22" href="/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2018/43/10b23fc2-706b-4096-a312-ab7270db00c0.jpg" /></a>
+    </div>
 </div>
-<div class="col-xs-8 no-gutter">
-<a title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic - 22" href="/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159">
-<span class="mpw__story">Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic</span>
+            </div> 
+                    <div class="blog-list-layout" data-post-id="956579">
+                <div class="excerpt-content--list content-block" data-post-id="956579">
+    <figure class="figure-image -nocaption">
+            <a
+            style="padding-bottom:66.666666666667%;
+        "
+                    href="https://foreignpolicy.com/2019/01/07/china-is-shooting-itself-in-the-foot-over-huawei/"
+                class="image-attachment -ratioscale  horizontal-orientation">
+        <img
+            data-sizes="(max-width: 800px) 100vw, 800px"
+            data-srcset="https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1072917348-1.jpg?quality=80 1600w, https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1072917348-1.jpg?resize=150,100&amp;quality=80 150w, https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1072917348-1.jpg?resize=550,366&amp;quality=80 550w, https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1072917348-1.jpg?resize=768,512&amp;quality=80 768w, https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1072917348-1.jpg?resize=1537,1024&amp;quality=80 1537w, https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1072917348-1.jpg?resize=1536,1023&amp;quality=80 1536w, https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1072917348-1.jpg?resize=400,267&amp;quality=80 400w, https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1072917348-1.jpg?resize=401,267&amp;quality=80 401w, https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1072917348-1.jpg?resize=800,533&amp;quality=80 800w, https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1072917348-1.jpg?resize=275,183&amp;quality=80 275w, https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1072917348-1.jpg?resize=325,217&amp;quality=80 325w, https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1072917348-1.jpg?resize=600,400&amp;quality=80 600w"
+            data-src="https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1072917348-1.jpg?w=800&#038;h=533&#038;quality=80"
+            sizes="(max-width: 800px) 100vw, 800px"
+            src=""
+            alt="Chinese police patrol in front of the Canadian embassy in Beijing on December 14, 2018. (GREG BAKER/AFP/Getty Images)"
+            style="width:auto;"
+            class="image -fit -lazy"
+        >
+        <noscript>
+            <img
+                src="https://foreignpolicy.com/wp-content/uploads/2019/01/gettyimages-1072917348-1.jpg?w=800&#038;h=533&#038;quality=80"
+                alt="Chinese police patrol in front of the Canadian embassy in Beijing on December 14, 2018. (GREG BAKER/AFP/Getty Images)"
+                class="image -fit-3-2">
+        </noscript>
+        </a>
+        </figure>
+    <div class="list-text">
+    <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2019/01/07/china-is-shooting-itself-in-the-foot-over-huawei/">
+    <h3 class="hed">China Is Shooting Itself in the Foot Over Huawei</h3>
 </a>
+<div class="dek-heading -excerpt">
+    <p class="dek">Beijing&#039;s hostage diplomacy is confirming the West&#039;s suspicions. </p>
 </div>
+<div class="meta-data -excerpt">
+        <a
+        href="https://foreignpolicy.com/category/analysis/argument/"
+        class="department-name -excerpt">
+        Argument    </a>
+        <span class="separator">|</span>
+        <address class="author-list -excerpt">
+    <a
+        href="https://foreignpolicy.com/author/lynette-ong/"
+        rel="author"
+        class="author">
+    Lynette Ong</a></address>
+
 </div>
-</li>
-<li>
-<div class="row">
-<div class="col-xs-4">
- <a title="Brutal: Pelosi's Terrible Answer About Why Democrats Keep Blocking Needed Rescue Funds for Small Businesses - 21" href="/tipsheet/guybenson/2020/04/17/listen-pelosis-terrible-answer-about-why-democrats-keep-blocking-needed-rescue-funds-for-small-businesses-n2567120"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2019/143/d59c6b2f-ac5c-46f0-a985-d3b894ad8aae.png" /></a>
+    </div>
 </div>
-<div class="col-xs-8 no-gutter">
-<a title="Brutal: Pelosi's Terrible Answer About Why Democrats Keep Blocking Needed Rescue Funds for Small Businesses - 21" href="/tipsheet/guybenson/2020/04/17/listen-pelosis-terrible-answer-about-why-democrats-keep-blocking-needed-rescue-funds-for-small-businesses-n2567120">
-<span class="mpw__story">Brutal: Pelosi's Terrible Answer About Why Democrats Keep Blocking Needed Rescue Funds for Small Businesses</span>
+            </div> 
+                    <div class="blog-list-layout" data-post-id="51028">
+                <div class="excerpt-content--list content-block" data-post-id="51028">
+    <figure class="figure-image -nocaption">
+            <a
+            style="padding-bottom:66.666666666667%;
+        "
+                    href="https://foreignpolicy.com/2012/10/12/my-way-or-the-huawei/"
+                class="image-attachment -ratioscale  horizontal-orientation">
+        <img
+            data-sizes="(max-width: 625px) 100vw, 625px"
+            data-srcset="https://foreignpolicy.com/wp-content/uploads/2012/10/huawei16.jpg?quality=80 625w, https://foreignpolicy.com/wp-content/uploads/2012/10/huawei16.jpg?resize=150,96&amp;quality=80 150w, https://foreignpolicy.com/wp-content/uploads/2012/10/huawei16.jpg?resize=550,352&amp;quality=80 550w, https://foreignpolicy.com/wp-content/uploads/2012/10/huawei16.jpg?resize=400,256&amp;quality=80 400w, https://foreignpolicy.com/wp-content/uploads/2012/10/huawei16.jpg?resize=401,257&amp;quality=80 401w, https://foreignpolicy.com/wp-content/uploads/2012/10/huawei16.jpg?resize=275,176&amp;quality=80 275w, https://foreignpolicy.com/wp-content/uploads/2012/10/huawei16.jpg?resize=325,208&amp;quality=80 325w, https://foreignpolicy.com/wp-content/uploads/2012/10/huawei16.jpg?resize=600,384&amp;quality=80 600w"
+            data-src="https://foreignpolicy.com/wp-content/uploads/2012/10/huawei16.jpg?w=625&#038;h=400&#038;quality=80"
+            sizes="(max-width: 625px) 100vw, 625px"
+            src=""
+            alt="INDRANIL MUKHERJEE/AFP/Getty Images"
+            style="width:auto;"
+            class="image -fit -lazy"
+        >
+        <noscript>
+            <img
+                src="https://foreignpolicy.com/wp-content/uploads/2012/10/huawei16.jpg?w=625&#038;h=400&#038;quality=80"
+                alt="INDRANIL MUKHERJEE/AFP/Getty Images"
+                class="image -fit-3-2">
+        </noscript>
+        </a>
+        </figure>
+    <div class="list-text">
+    <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2012/10/12/my-way-or-the-huawei/">
+    <h3 class="hed">My Way Or the Huawei</h3>
 </a>
-</div>
-</div>
-</li>
-</ul>
-</div>
-<div class="ad">
-<div id="div-gpt-300x250_sticky" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_sticky");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_sticky"]])
-                    });
-                </script>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</article>
-<div class="row sticky-stopper">
-<div class="col-xs-12">
-<div class="article-ad-970x90">
-<div id="div-gpt-lazy-728x90_3" data-gpt='{"IncludeInPrebid":true,"Target":"pos","TargetValue":"728x90_3","SectionSlug":"tipsheet","SlotId":0,"DivUniqueId":"div-gpt-lazy-728x90_3","AdSize":"[[728,90],[970,90]]","AdUnitPath":"/6177/slm.townhall/","AdType":0,"AdRenderType":1,"IsYieldBotAmp":false,"IntervalTime":0,"AdParentLocation":0}' class="lazy-ad gpt-ad">
-<script id="pb-div-gpt-lazy-728x90_3" type="application/json">
-                    {"code":"div-gpt-lazy-728x90_3","sizes":[[728,90],[970,90]],"bids":[{"bidder":"openx","params":{"unit":"537998002","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381642"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-lazy-728x90_3@728x90"}},{"bidder":"criteo","params":{"networkId":"7465"}}]}
-                </script>
-</div>
-</div>
-</div>
-</div>
-<section id="trending-on-thm" class="trending">
-<h1 class="trending__title">Trending on Townhall Media</h1>
-<div class="row">
-<div class="col-xs-4">
-<div class="mpw-bordered">
-<div class="mpw">
-<ul class="list-unstyled">
-<li>
-<a title="Two Tennessee Teens Prove How Worthless Gun Control Is - 7" href="https://bearingarms.com/tom-k/2020/04/16/two-tennessee-teens-prove-how-worthless-gun-control-is/">
-<span class="mpw__story">Two Tennessee Teens Prove How Worthless Gun Control Is</span>
-</a>
-<div class="mpw__domain" style="color:#ADADAD;">
-Bearing Arms
-</div>
-</li>
-<li>
-<a title="HUGE: The UK Just Dumped China&#39;s Huawei in 5G Tech Roll-Out — Citing its Lies Over Coronavirus. - 32" href="https://pjmedia.com/trending/huge-the-uk-just-dumped-chinas-huawei-in-5g-tech-roll-out-citing-its-lies-over-coronavirus/">
-<span class="mpw__story">HUGE: The UK Just Dumped China&#39;s Huawei in 5G Tech Roll-Out — Citing its Lies Over Coronavirus.</span>
-</a>
-<div class="mpw__domain" style="color:#00a99d;">
-PJ Media
-</div>
-</li>
-<li>
-<a title="Hold onto your HATS! Brit Hume shares fact-filled thread on study showing COVID fatality rate just bottomed out to influenza levels - 25" href="https://twitchy.com/samj-3930/2020/04/17/hold-onto-your-hats-brit-hume-shares-fact-filled-thread-on-study-showing-covid-fatality-rate-just-bottomed-out-to-influenza-levels/">
-<span class="mpw__story">Hold onto your HATS! Brit Hume shares fact-filled thread on study showing COVID fatality rate just bottomed out to influenza levels</span>
-</a>
-<div class="mpw__domain" style="color:#F27B21;">
-Twitchy
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-xs-8">
-<div class="row">
-<div class="col-xs-12">
-<div class="xl-story">
-<div class="xl-story__img">
-<a target="_top" class="lazy" href="https://townhall.com/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915" data-src="https://media.townhall.com/townhall/reu/ha/2020/104/30b0d531-01a6-4224-85b5-7548e5f3b2a7.jpg">
-&nbsp;
-</a>
-</div>
-<div class="xl-story__summary">
-<h1>
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern " href="https://townhall.com/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915">Israeli Professor Shows Virus Follows Fixed Pattern </a>
-</h1>
-<h5 style="color:#ba224b">Townhall</h5>
-</div>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-6">
-<div class="sm-story">
-<div class="sm-story__text">
-<a title="The results are in on the Texas nursing home using hydroxychloroquine" href="https://hotair.com/archives/karen-townsend/2020/04/17/results-texas-nursing-home-using-hydroxychloroquine/">The results are in on the Texas nursing home using hydroxychloroquine</a>
-</div>
-<div class="sm-story__flavor" style="color:#CD2628">Hotair</div>
-</div>
-</div>
-<div class="col-xs-6">
-<div class="sm-story">
-<div class="sm-story__text">
-<a title="WaPo Fact Checker Glenn Kessler Morphs Into WHO Apologist in Ridiculous Fact Check on Trump" href="https://www.redstate.com/sister-toldjah/2020/04/17/wapo-fact-checker-glenn-kessler-morphs-into-who-apologist-in-ridiculous-fact-check-on-trump/">WaPo Fact Checker Glenn Kessler Morphs Into WHO Apologist in Ridiculous Fact Check on Trump</a>
-</div>
-<div class="sm-story__flavor" style="color:#CB0809">Redstate</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-</div>
-<div class="thm-piano-pfixed"></div>
-</div>
-<footer class="sticky-stopper">
-<section class="footer-brands">
-<div class="container">
-<ul class="list-inline list-unstyled">
-<li><a href="https://townhall.com"><img src="https://media.townhall.com/thm/th_logo1.png" alt="" /></a></li>
-<li><a href="https://hotair.com"><img src="https://media.townhall.com/thm/ha_logo1.png" alt="" /></a></li>
-<li><a href="https://bearingarms.com"><img src="https://media.townhall.com/thm/ba_logo1.png" alt="" /></a> </li>
-<li><a href="https://twitchy.com"><img src="https://media.townhall.com/thm/tw_logo1.png" alt="" /></a></li>
-<li><a href="https://redstate.com"><img src="https://media.townhall.com/thm/rs_logo1.png" alt="" /></a></li>
-<li><a href="https://pjmedia.com" target="_blank"><img src="https://media.townhall.com/thm/pj-media.png" style="width:100px;height:45px;" alt="PJ Media" /></a></li>
-</ul>
-</div>
-</section>
-<section class="footer-links">
-<div class="container">
-<ul class="list-inline list-unstyled">
-<li><a title="Conservative Columnists" href="/columnists">Columnists</a></li>
-<li><a href="/political-cartoons">Political Cartoons</a></li>
-<li><a href="/tipsheet">Tipsheet</a> </li>
-<li><a href="/tv">Townhall TV</a> </li>
-<li><a href="/podcasts">Podcasts</a> </li>
-<li><a title="Conservative News" href="/news">Radio News</a></li>
-<li><a title="Conservative Video" href="/video">Video</a></li>
-<li><a title="Conservative Entertainment" href="/entertainment">Entertainment</a></li>
-<li><a title="VIP" href="/vip">VIP</a></li>
-<li><a title="Conservative Capitol Voices" href="/capitol-voices">Capitol Voices</a></li>
-</ul>
-<ul class="list-inline list-unstyled">
-<li><a href="/election">Election Results</a></li>
-<li><a href="/tags/">Tags</a></li>
-<li><a href="http://finance.townhall.com">Finance</a></li>
-<li><a href="#" onclick="javascript:window.open('http://saleminteractivemedia.com/ListenLive/Player/TOWNIR','TOWNIR','width=800,height=710');">Townhall Radio</a></li>
-</ul>
-<ul class="list-inline list-unstyled">
-<li><a href="/aboutus">About Townhall</a></li>
-<li><a href="http://townhallmedia.com/">Advertise</a></li>
-<li><a href="https://townhall.com/tags/gift-guides/">Gift Guides</a></li>
-<li><a href="https://media.townhall.com/townhall/privacypolicy/privacypolicy.htm">Privacy Policy</a></li>
-<li><a href="https://media.townhall.com/townhall/privacypolicy/TermsofUse.htm">Terms of Use</a></li>
-<li><span class="thm-cpa"><a href="/donotsell" rel="nofollow">California - Do Not Sell My Personal Information</a></span></li>
-<li><a target="_blank" href="http://www.conservativeradio.com/">Radio Stations</a></li>
-<li><a href="/sitemap.htm">Sitemap</a></li>
-<li><a href="/pages/townhall_jobs">Jobs </a></li>
-<li><a href="/contact-us/">Contact Us</a></li>
-<li><a href="/newslettersignup/">Newsletters</a></li>
-<li><a href="/mobile-apps">iPhone/Android Apps</a></li>
-</ul>
-</div>
-</section>
-<section class="under-footer">
-<div class="container">
-<div class="row">
-<hr>
-<div class="col-xs-4">
-<a href="/">
-<img alt="Townhall.com" src="https://media.townhall.com/_townhall/resources/images/thmplus.png">
-<img style="width: 155px;height:40px;" alt="Townhall.com" src="/resources/th_logo.svg">
-</a>
-</div>
-<div class="col-xs-8">
-<p class="copyright" style="margin-top:12px;">
-Townhall.com is the leading source for conservative news and political commentary and analysis.<br>
-Copyright &copy; Townhall.com/Salem Media. All Rights Reserved. <a href="https://media.townhall.com/townhall/privacypolicy/TermsofUse.htm" target="_blank">Terms</a> under which this service
-is provided to you
+<div class="dek-heading -excerpt">
+    <p class="dek">The U.S. government&#039;s recent accusations against two Chinese companies are seriously overblown. 
 </p>
 </div>
+<div class="meta-data -excerpt">
+        <a
+        href="https://foreignpolicy.com/category/analysis/argument/"
+        class="department-name -excerpt">
+        Argument    </a>
+        <span class="separator">|</span>
+        <address class="author-list -excerpt">
+    <a
+        href="https://foreignpolicy.com/author/trevor-timm/"
+        rel="author"
+        class="author">
+    Trevor Timm</a></address>
+
+</div>
+    </div>
+</div>
+            </div> 
+            </div>
+</div>
+
+		</article>
+
+		
+<div class="sidebar">
+	<div>
+		<script type="text/javascript">/* Load GPT asynchronously */var googletag = googletag || {};googletag.cmd = googletag.cmd || [];(function() {var gads = document.createElement("script");gads.async = true;gads.type = "text/javascript";var useSSL = "https:" == document.location.protocol;gads.src = (useSSL ? "https:" : "http:") +"//securepubads.g.doubleclick.net/tag/js/gpt.js";var node = document.getElementsByTagName("script")[0];node.parentNode.insertBefore(gads, node);})();googletag.cmd.push( function() { window.FP_gtagBannerSlots = {};/* Define a size mapping object. The first parameter to addSize is a viewport size, while the second is a list of allowed ad sizes. */var mappingMobileFooter = googletag.sizeMapping()./* Mobile fixed footer ad */addSize([320, 50], [320, 50]).build();var mappingSidebar = googletag.sizeMapping()./* Desktop sidebar and mobile ad */addSize([300, 250], [300, 250]).build();var mappingSidebarLarge = googletag.sizeMapping()./* Desktop sidebar and mobile ad */addSize([300, 250], [300, 250])./* Taller desktop sidebar and mobile ad */addSize([300, 600], [[300, 250], [300, 600]]).build();var mappingMainLarge = googletag.sizeMapping()./* Do not display these ads on smaller screens */addSize([0, 0], [])./* Small banner ad */addSize([728, 90], [728, 90])./* Large banner ad */addSize([970, 90], [[970, 90], [728, 90]]).build();var mappingMainLargeAndSmall = googletag.sizeMapping()./* Desktop sidebar and mobile ad */addSize([300, 250], [300, 250])./* Small banner ad */addSize([728, 90], [728, 90])./* Large banner ad */addSize([970, 90], [[970, 90], [728, 90]]).build();var mappingMainSmall = googletag.sizeMapping()./* Desktop sidebar and mobile ad */addSize([300, 250], [300, 250])./* Small banner ad */addSize([728, 90], [])./* Large banner ad */addSize([970, 90], []).build();googletag.defineSlot("/7971222/default_fp2_bigbox_ATF", [[300, 250],[300, 600]], "div-gpt-ad-1385102181603-0").defineSizeMapping(mappingSidebarLarge).addService(googletag.pubads());googletag.defineSlot("/7971222/default_fp2_bigbox_CENTER", [300, 250], "div-gpt-ad-1390433129530-0").defineSizeMapping(mappingSidebar).addService(googletag.pubads());googletag.defineSlot("/7971222/default_fp2_bigbox_BTF", [[300, 250],[300, 600]], "div-gpt-ad-1385071228815-0").defineSizeMapping(mappingSidebarLarge).addService(googletag.pubads());googletag.pubads().disableInitialLoad();googletag.pubads().enableLazyLoad({fetchMarginPercent: 0,renderMarginPercent: 0,mobileScaling: 2.0});
+			googletag.enableServices(); } );</script><div id="div-gpt-ad-1385102181603-0" class="channel-sidebar-big-box-ad _300">
+
+				<script type="text/javascript">
+
+					googletag.cmd.push( function() {
+
+						googletag.display( "div-gpt-ad-1385102181603-0" );
+
+					} );
+
+				</script>
+
+			</div>
+		<div class="sidebar-list">
+    <div class="title">Latest</div>
+<div class="excerpt-content">
+    <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2020/04/18/un-ceasefire-coronavirus-big-government/">
+    <h3 class="hed">Our Top Weekend Reads</h3>
+</a>
+<div class="meta-data -ago">
+    <time
+    pubdate
+    datetime="2020-04-18"
+    title="April 18th, 2020"
+    class="date-time">
+April 18, 2020, 7:00 AM</time>
 </div>
 </div>
-</section>
-<div id="div-gpt-oop" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-oop");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-oop"]])
-                    });
-                </script>
+<div class="excerpt-content">
+    <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2020/04/17/united-states-stoking-crisis-kosovo-serbia-peace-deal-trump-grenell/">
+    <h3 class="hed">Why the United States Is Stoking a Crisis in Kosovo</h3>
+</a>
+<div class="meta-data -ago">
+    <time
+    pubdate
+    datetime="2020-04-17"
+    title="April 17th, 2020"
+    class="date-time">
+April 17, 2020, 6:39 PM</time>
 </div>
-</footer>
-<script>(function(src){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=src;var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})("https://experience.tinypass.com/xbuilder/experience/load?aid=tSxoqtcFa7");</script>
-<div id="login-form"></div> <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
-<script src="/resources/dist/js/site.min.js?v=24"></script>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script>
-    tp = window["tp"] || [];
-    tp.push(["setTags", ["thm:article","california","homelessness","gavin-newsom","trump-administration"]]);
+</div>
+<div class="excerpt-content">
+    <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2020/04/17/big-pharma-post-pandemic-world-coronavirus-vaccine-cure-intellectual-property/">
+    <h3 class="hed">The Remaking of Big Pharma in a Post-Pandemic World</h3>
+</a>
+<div class="meta-data -ago">
+    <time
+    pubdate
+    datetime="2020-04-17"
+    title="April 17th, 2020"
+    class="date-time">
+April 17, 2020, 5:39 PM</time>
+</div>
+</div>
+<div class="excerpt-content">
+    <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2020/04/17/erdogan-turkey-coronavirus-relief-politics-akp-chp-brother-tayyip-soup-kitchen/">
+    <h3 class="hed">Brother Tayyip’s Soup Kitchen</h3>
+</a>
+<div class="meta-data -ago">
+    <time
+    pubdate
+    datetime="2020-04-17"
+    title="April 17th, 2020"
+    class="date-time">
+April 17, 2020, 5:29 PM</time>
+</div>
+</div>
+<div class="excerpt-content">
+    <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2020/04/17/after-flattening-the-curve-austria-takes-a-gamble/">
+    <h3 class="hed">After Flattening the Curve, Austria Takes a Gamble</h3>
+</a>
+<div class="meta-data -ago">
+    <time
+    pubdate
+    datetime="2020-04-17"
+    title="April 17th, 2020"
+    class="date-time">
+April 17, 2020, 5:11 PM</time>
+</div>
+</div>
+</div>
+
+<div class="sidebar-list-more">
+    <a href="/category/latest/">See All Stories</a>
+</div>
+	</div>
+	<div class="fp-trending-wrapper trending-articles--no-video">
+    <div class="trending-articles top-ten-stories">
+        <p><span class="heading">Trending</span></p>
+        <ol>
+                    <li class="fp-trending-content">
+                <div class="fp-trending-count">1</div>
+                <div class="title">
+                    <a href="/2020/04/17/nnevvy-bright-firewall-thailand-china-online-army/">Thais Show How to Beat China’s Online Army</a>
+                                    </div>
+            </li>
+                    <li class="fp-trending-content">
+                <div class="fp-trending-count">2</div>
+                <div class="title">
+                    <a href="/2020/04/15/how-the-economy-will-look-after-the-coronavirus-pandemic/">How the Economy Will Look After the Coronavirus Pandemic</a>
+                                    </div>
+            </li>
+                    <li class="fp-trending-content">
+                <div class="fp-trending-count">3</div>
+                <div class="title">
+                    <a href="/2020/03/20/world-order-after-coroanvirus-pandemic/">How the World Will Look After the Coronavirus Pandemic</a>
+                                    </div>
+            </li>
+                    <li class="fp-trending-content">
+                <div class="fp-trending-count">4</div>
+                <div class="title">
+                    <a href="/2020/04/16/coronavirus-pandemic-china-united-states-power-competition/">No, the Coronavirus Will Not Change the Global Order</a>
+                                    </div>
+            </li>
+                    <li class="fp-trending-content">
+                <div class="fp-trending-count">5</div>
+                <div class="title">
+                    <a href="/2020/04/15/chinas-racism-is-wrecking-its-success-in-africa/">China’s Racism Is Wrecking Its Success in Africa</a>
+                                    </div>
+            </li>
+                </ol>
+    </div>
+</div>
+	<div id="div-gpt-ad-1390433129530-0" class="ad-container _300">
+
+				<script type="text/javascript">
+
+					googletag.cmd.push( function() {
+
+						googletag.display( "div-gpt-ad-1390433129530-0" );
+
+					} );
+
+				</script>
+
+			</div>
+	<div class="sidebar-list">
+    <div class="title">Voices</div>
+
+    <div class="excerpt-content">
+        <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2020/04/17/global-pandemic-bailout-imf-world-bank-meetings-america-sdrs/">
+    <h3 class="hed">A Global Pandemic Bailout Was Coming—Until America Stopped It</h3>
+</a>
+                <div class="meta-data -excerpt">
+            <address class="author-list -excerpt">
+                <a href="https://foreignpolicy.com/author/adam-tooze/" rel="author" class="author">
+    Adam Tooze</a>            </address>
+        </div>
+    </div>
+
+    <div class="excerpt-content">
+        <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2020/04/15/china-is-bargain-hunting-and-western-security-is-at-risk/">
+    <h3 class="hed">China Is Bargain Hunting—and Western Security Is at Risk</h3>
+</a>
+                <div class="meta-data -excerpt">
+            <address class="author-list -excerpt">
+                <a href="https://foreignpolicy.com/author/elisabeth-braw/" rel="author" class="author">
+    Elisabeth Braw</a>            </address>
+        </div>
+    </div>
+
+    <div class="excerpt-content last">
+        <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2020/04/15/coronavirus-pandemic-small-government-aftermath-nationalism/">
+    <h3 class="hed">After the Coronavirus, the Era of Small Government Will Be Over</h3>
+</a>
+                <div class="meta-data -excerpt">
+            <address class="author-list -excerpt">
+                <a href="https://foreignpolicy.com/author/james-traub/" rel="author" class="author">
+    James Traub</a>            </address>
+        </div>
+    </div>
+</div>
+
+	<div id="div-gpt-ad-1385071228815-0" class="channel-sidebar-big-box-ad _300">
+
+				<script type="text/javascript">
+
+					googletag.cmd.push( function() {
+
+						googletag.display( "div-gpt-ad-1385071228815-0" );
+
+					} );
+
+				</script>
+
+			</div></div>
+
+
+	</div>
+
+</div>
+
+<div class="piano-sticky-bar"></div>
+
+            <footer class="site-footer-wrapper">
+                <div class="site-footer">
+                    <div class="logo">
+                                    <a
+                style="padding-bottom:42%;
+        "
+                href="https://foreignpolicy.com/"
+            class="image-attachment -ratioscale">
+        <img
+            data-srcset=""
+            data-src="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/logos/FP.svg"
+            alt="Foreign Policy Magazine"
+            class="image -fit -lazy">
+        <noscript>
+            <img
+                src="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/logos/FP.svg"
+                alt="Foreign Policy Magazine"
+                class="image -fit">
+        </noscript>
+        </a>
+                            </div>
+                    <nav class="nav">
+                        <ul id="menu-footer-column-5" class="footer-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-783354 footer-menu-item"><a href="https://foreignpolicy.com/staff/" class="navlink">Meet the Staff</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-988928 footer-menu-item"><a href="https://foreignpolicy.com/events" class="navlink">FP Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-993024 footer-menu-item"><a href="https://foreignpolicy.com/fp-analytics/" class="navlink">FP Analytics</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1002749 footer-menu-item"><a href="https://foreignpolicy.com/fp-peacegames/" class="navlink">FP PeaceGames</a></li>
+</ul><ul id="menu-footer-column-6" class="footer-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-993038 footer-menu-item"><a href="https://foreignpolicy.com/subscription-services/" class="navlink">Subscription Services</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-988929 footer-menu-item"><a href="https://foreignpolicy.com/reprint-permissions/" class="navlink">Reprint Permissions</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-939400 footer-menu-item"><a href="https://foreignpolicy.submittable.com/submit" class="navlink">Writer&#8217;s Guidelines</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1002750 footer-menu-item"><a href="/employment-opportunities/" class="navlink">Work at FP</a></li>
+</ul><ul id="menu-footer-column-7" class="footer-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-927960 footer-menu-item"><a href="https://fpguide.foreignpolicy.com/2020-career" class="navlink">FP Guides &#8211; Graduate Education</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-996597 footer-menu-item"><a href="https://foreignpolicy.com/fp-for-education/" class="navlink">FP For Education</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-660886 footer-menu-item"><a href="/magazine" class="navlink">FP Archive</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-660961 footer-menu-item"><a href="https://foreignpolicy.com/buy-back-issues/" class="navlink">Buy Back Issues</a></li>
+</ul><ul id="menu-footer-column-8" class="footer-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-993026 footer-menu-item"><a href="https://foreignpolicy.com/advertise-with-foreign-policy/" class="navlink">Advertise with FP</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-988932 footer-menu-item"><a href="https://foreignpolicy.com/privacy/" class="navlink">Privacy Policy</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-660967 footer-menu-item"><a href="https://foreignpolicy.com/contact-us/" class="navlink">Contact Us</a></li>
+</ul>                        <span class="powered-by-wpcom--parent">
+                            <div>Powered by <a href="https://wpvip.com/?utm_source=vip_powered_wpcom&#038;utm_medium=web&#038;utm_campaign=VIP%20Footer%20Credit&#038;utm_term=foreignpolicy.com" rel="generator nofollow" class="powered-by-wpcom">WordPress.com VIP</a></div>
+                            <div>&copy; 2020, The Slate Group</div>
+                        </span>
+                    </nav>
+                </div>
+            </footer>
+
+        </div><!-- end site-wrapper -->
+
+
+                                    <div
+                data-campaign="HSBC ROS nd Econ"
+                data-stay-closed="false"
+                data-mobile-ad="div-gpt-ad-1453402331387-0"
+                data-refresh="30000"
+                data-closeable="false"
+                class="FP-mobile-ad FP-mobile-ad_fixedbottom"></div>
+        
+
+        <script>
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+// Insert Twitter Pixel ID and Standard Event data below
+twq('init','nzlz2');
+twq('track','PageView');
 </script>
+
+        <script type="application/ld+json">{"@context":"http:\/\/schema.org","publisher":{"@type":"Organization","name":"Foreign Policy","url":"https:\/\/foreignpolicy.com","logo":{"@type":"ImageObject","height":60,"url":"https:\/\/foreignpolicy.com\/wp-content\/uploads\/2016\/04\/logo.png","width":74}},"@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/foreignpolicy.com\/2019\/03\/19\/for-africa-chinese-built-internet-is-better-than-no-internet-at-all\/"},"headline":"For Africa, Chinese-Built Internet Is Better Than No Internet at All","description":"The need for web access has driven African countries to Huawei despite U.S. concerns.","Articlebody":"<span style=\"font-weight:400;\">The Chinese telecommunications company Huawei has made huge inroads in Africa in recent years even as the United States urges its allies around the world to avoid working with the firm over cybersecurity concerns.<\/span>\r\n\r\n<span style=\"font-weight:400;\">Huawei has built about 70 percent of the continent\u2019s 4G networks, vastly outpacing European rivals, according to Cobus van Staden, a senior China-Africa researcher at the South African Institute of International Affairs. The construction is often accompanied by loans from Chinese state banks, which are approved faster and with fewer conditions than loans from international institutions.<\/span>\r\n\r\n<span style=\"font-weight:400;\">While concerns about Huawei are shared by other countries around the world, in Africa they are largely overshadowed by the imperative for greater internet access. The continent is home to some of the world\u2019s<\/span><a href=\"https:\/\/qz.com\/africa\/1522126\/african-economies-to-watch-in-2019-and-looming-debt\/\"> <span style=\"font-weight:400;\">fastest-<\/span><\/a><span style=\"font-weight:400;\">growing economies, and its population is expected to double by 2050.<\/span>\r\n\r\n<span style=\"font-weight:400;\">\u201cAt least for the time being, Africa doesn\u2019t have any other cost or competency alternatives,\u201d said Howard French, who teaches at the Columbia School of Journalism and has been the <em>New York Times<\/em> bureau chief in West and Central Africa and in China.<\/span>\r\n\r\n<span style=\"font-weight:400;\">The United States believes Huawei and other Chinese telecommunications companies that build critical infrastructure around the world might be installing so-called backdoors and using them to spy on behalf of the Chinese government. U.S. Secretary of State Mike Pompeo has threatened to withhold intelligence from countries that use Chinese networks.<\/span>\r\n\r\n<span style=\"font-weight:400;\">Huawei\u2019s founder has told the<\/span><em><a href=\"https:\/\/www.wsj.com\/articles\/huawei-ceo-hits-back-at-claims-company-spies-for-china-11547542616?mod=hp_lead_pos4&amp;ns=prod\/accounts-wsj\"> <span style=\"font-weight:400;\">Wall Street Journal<\/span><\/a><\/em><span style=\"font-weight:400;\"> that his company has never spied for China. But some experts are skeptical.<\/span>\r\n\r\n<span style=\"font-weight:400;\">\u201cThis idea that Huawei would never reveal anything to the Chinese state if asked is implausible because any Chinese company has to operate within the rules of the Chinese state,\u201d said French, the author of <em>Everything Under the Heavens: How the Past Helps Shape China\u2019s Push for Global Power<\/em>.<\/span>\r\n\r\n<span style=\"font-weight:400;\">In January 2018, the French newspaper<\/span><em><a href=\"https:\/\/www.lemonde.fr\/afrique\/article\/2018\/01\/26\/a-addis-abeba-le-siege-de-l-union-africaine-espionne-par-les-chinois_5247521_3212.html\"> <span style=\"font-weight:400;\">Le Monde<\/span><\/a><\/em><span style=\"font-weight:400;\"> reported that Beijing had bugged the headquarters of the African Union\u2014whose construction was paid for and built by China. Every night for five years the entire contents of the building\u2019s computer systems\u2014which were installed by Huawei\u2014were reportedly transferred to China. Microphones were found embedded in the desks and walls, according to the report. Both China and the African Union dismissed the allegations.<\/span>\r\n\r\n<span style=\"font-weight:400;\">\u201cMost policymakers and politicians in Africa, they don\u2019t really care,\u201d said Emeka Umejei, who teaches journalism at the American University of Nigeria. \u201cAfrica is a pawn on the global chessboard in the ongoing geopolitical context. Everybody spies on Africa,\u201d he said.<\/span>\r\n\r\n<span style=\"font-weight:400;\">David Shinn, a former U.S. ambassador to Ethiopia and Burkina Faso, said <\/span><span style=\"font-weight:400;\">that for many Africans, the <\/span><span style=\"font-weight:400;\">suspicion is, \u201cif the Americans are peddling this argument, they have their own vested interests.\u201d<\/span>\r\n\r\n<span style=\"font-weight:400;\">In Africa, where internet penetration lags behind the global<\/span><a href=\"https:\/\/www.internetworldstats.com\/stats1.htm\"> <span style=\"font-weight:400;\">average<\/span><\/a><span style=\"font-weight:400;\"> at 35.2 percent, Huawei\u2019s compact rural cell towers have brought internet access to remote regions while the M-Pesa cellphone banking system, run on Huawei\u2019s Mobile Money platform, has been lauded for helping millions in East Africa move into the formal financial system.<\/span>\r\n\r\n<span style=\"font-weight:400;\">\u201cThe moment the networks are up, they kick off a whole host of other economies,\u201d said van Staden of the South African Institute of International Affairs.<\/span>\r\n\r\n<span style=\"font-weight:400;\">As Chinese-built internet expands across Africa, many fear that the continent\u2019s authoritarian leaders will seek to curb the internet\u2019s ability to spread popular discontent by adopting a Chinese style restricted web.<\/span>\r\n\r\n<span style=\"font-weight:400;\">\u201cThe Chinese are explicitly pushing this idea of internet governance,\u201d said Joshua Meservey, a senior analyst with the Heritage Foundation. \u201cThey frame it as a sovereignty issue, but what they are really talking about is the ability of a state to control the free flow of information online.\u201d<\/span>\r\n\r\n<span style=\"font-weight:400;\">China has encouraged foreign officials to follow its lead on internet control, conducting large-scale training for officials around the world, according to Freedom House\u2019s 2018 \u201cFreedom on the Net\u201d <a href=\"https:\/\/freedomhouse.org\/report\/freedom-net\/freedom-net-2018\">report<\/a>. The U.S. government-funded watchdog noted that increased activity by Chinese officials in Africa was followed by the passage of restrictive cybercrime and media laws in Tanzania and Uganda.<\/span>\r\n\r\n<span style=\"font-weight:400;\">Last year, the government of Zimbabwe signed a<\/span><a href=\"https:\/\/foreignpolicy.com\/2018\/07\/24\/beijings-big-brother-tech-needs-african-faces\/\"> <span style=\"font-weight:400;\">deal<\/span><\/a><span style=\"font-weight:400;\"> with the Chinese company CloudWalk to build a nationwide facial recognition system. The data will flow back to China as a way of training its AI systems to recognize and track people from different ethnic backgrounds.<\/span>\r\n\r\n<span style=\"font-weight:400;\">Being the only viable provider of internet connectivity can also give China significant leverage over African governments, said <\/span><span style=\"font-weight:400;\">Andrew Davenport, the chief operating officer of the RWR Advisory Group, a Washington-based consulting firm that tracks Chinese investment.<\/span>\r\n\r\n<span style=\"font-weight:400;\">\u201cBeyond just espionage, there\u2019s leverage that comes with being the low-cost solution provider to a country whose political leadership might, in part, derive popular support from being able to offer connectivity to their population,\u201d h<\/span><span style=\"font-weight:400;\">e said.<\/span>\r\n\r\n<span style=\"font-weight:400;\">With so much of the continent\u2019s telecoms infrastructure in Huawei\u2019s hands, it\u2019s going to be difficult for African countries to disentangle themselves from China, said Meservey of the Heritage Foundation.<\/span>\r\n\r\n<span style=\"font-weight:400;\">\u201cThe U.S. is going to have to be strategic about how they approach this challenge. You can\u2019t just blunder in and say, \u2018It\u2019s us or them.\u2019 China does provide things that the continent needs,\u201d he said.<\/span>\r\n\r\n<span style=\"font-weight:400;\">When U.S. National Security Advisor John Bolton unveiled the Trump administration\u2019s new Africa strategy in December 2018, it was interpreted mainly as a strategy to counter China\u2019s influence on the continent. The United States continues to be the largest donor to Africa, but many questioned whether the U.S. resources allocated there would be sufficient to implement the kind of strategy Bolton envisioned.<\/span>\r\n\r\n<span style=\"font-weight:400;\">In lieu of having a viable technological alternative to offer in Africa, French of Columbia University said that the United States should make a positive, values-based case to encourage a move away from Huawei.<\/span>\r\n\r\n<span style=\"font-weight:400;\">\u201cIn authoritarian countries there is a real divide between the rulers and the populace, and I think on this issue I\u2019m pretty sure the populace in most of these countries if given the choice would prefer an open internet regime,\u201d he said.<\/span>\r\n\r\n<span style=\"font-weight:400;\">Bolton announced the new U.S. Africa strategy at a speech at a Washington-based think tank. <\/span><span style=\"font-weight:400;\">When Chinese leader Xi Jinping unveiled China\u2019s Second Africa Policy in 2015, by contrast, he did it in South Africa, surrounded by African leaders who had gathered for the Forum on China-Africa Cooperation, noted Joshua Eisenman, an assistant professor of public affairs at the University of Texas at Austin.<\/span>\r\n\r\n<span style=\"font-weight:400;\">\u201cThat\u2019s going to get attention. But John Bolton standing in Washington and giving a talk, then going back to his office to work on more important matters? There needs to be a follow-through,\u201d Eisenman said.<\/span>","datePublished":"2019-03-19T15:53:14+00:00","dateModified":"2019-03-19T15:53:14+00:00","url":"https:\/\/foreignpolicy.com\/2019\/03\/19\/for-africa-chinese-built-internet-is-better-than-no-internet-at-all\/","author":{"@type":"Person","name":"Amy Mackinnon","url":"https:\/\/foreignpolicy.com\/author\/amy-mackinnon\/"},"image":{"@type":"ImageObject","url":"https:\/\/foreignpolicy.com\/wp-content\/uploads\/2019\/03\/gettyimages-1128822424.jpg?w=1500","height":1000,"width":1500},"isAccessibleForFree":"False","hasPart":{"@type":"WebPageElement","isAccessibleForFree":"False","cssSelector":".post-content-main"}}</script>
+<script>
+var fpUtilsLoc = {"isDev":"","redirectUri":"https:\/\/foreignpolicy.com\/share_redirect\/"};
+</script>
+<script>
+var chartbeatData = {"category_name":"Report","author_list":"Amy Mackinnon"};
+</script>
+<script>
+var postDataPiano = ["Africa","China","cyber espionage","Democracy","article"];
+</script>
+<script type='text/javascript' src='https://foreignpolicy.com/_static/??-eJytksFOw0AMRH+IrUklIBwQn1K5i0k23awX22nav8dSJe4ke7Ivfp4ZDaw1RC5GxcBGmknhm4XSUELlnOI9HJ+7N0BVMgWVCBolVd/PNOI1sSgUnwNa4nKY9AlaEGkNaypfvAa6GUnBHHIqF9334EqOFIio4z9Aau4twqSwWMoKmSNmNRYcaDumVVSR+ZIo+K1u1XOqwrf7CWN0yCbC9LOQ3A8PLfucPTJ2RXPSJig1SWVoQVokNyy4ZjKvdlA/XGqbYo8odia0fTT1vFwcF7esrrAmLNwWidnCX98+54/upX/t349d302/1nqxsw=='></script>
+<script src='//cdn.taboola.com/libtrc/foreignpolicy/loader.js'></script>
+<script>
+var myFpAlertsLoc = {"isVIPEnv":"1"};
+</script>
+<script>
+var zMoatADVERTISER = {"moatPassback":"editorial"};
+</script>
+<script type='text/javascript' src='https://foreignpolicy.com/_static/??-eJylk8FSAyEMhl/ILdax2h4cL76Anrxm2bSbnUAoCe307c10Rnu1uycgkC8/PyGcSxclG2YLNmJCDXupSIfcFWGKl+7pcf0aQBVNg9YYNFYqPj9hHqQGg16EYTXpQ5jN6nGEE0nVEIFjYzAcOiMnGKRyB9vPG8UwaZiODetltW85OojyYQllJDXxcQFCKRXGJAPwEkx0k2blA2N1p6fPK+b7QxJQ/kKnqs0CknZJemJc9vRRUpHseR6+WtQp04B1lqbSmI9NbKGmWztCdbJrOoPF8S5R/8IWONwj9XbRJGC/GctENSP2iEQC1hEq/rUX5chtcJLX8yWmHoeV/yTff09v681287LdbXbP0w+RVJMF'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202016.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:8.4.2',blog:'162972146',post:'962540',tz:'-4',srv:'foreignpolicy.com'} ]);
+	_stq.push([ 'clickTrackerInit', '162972146', '962540' ]);
+</script>
+
+
+        <!--START Lightbox Javascript-->
 <script type="text/javascript">
-        console.info("The End: ", window.performance.now());
-        console.info("Device: ", "Desktop");
-    </script>
-<div class="thm-piano-bottom"></div>
-</body>
+    /*<![CDATA[*/ window.lightboxjs || function (c) { function g(b, d) { d && (d += (/\?/.test(d) ? "&" : "?") + "lv=1"); c[b] || function () { var i = window, h = document, j = b, g = h.location.protocol, l = "load", k = 0; (function () { function b() { a.P(l); a.w = 1; c[j]("_load") } c[j] = function () { function m() { m.id = e; return c[j].apply(m, arguments) } var b, e = ++k; b = this && this != i ? this.id || 0 : 0; (a.s = a.s || []).push([e, b, arguments]); m.then = function (b, c, h) { var d = a.fh[e] = a.fh[e] || [], j = a.eh[e] = a.eh[e] || [], f = a.ph[e] = a.ph[e] || []; b && d.push(b); c && j.push(c); h && f.push(h); return m }; return m }; var a = c[j]._ = {}; a.fh = {}; a.eh = {}; a.ph = {}; a.l = d ? d.replace(/^\/\//, (g == "https:" ? g : "http:") + "//") : d; a.p = { 0: +new Date }; a.P = function (b) { a.p[b] = new Date - a.p[0] }; a.w && b(); i.addEventListener ? i.addEventListener(l, b, !1) : i.attachEvent("on" + l, b); var q = function () { function b() { return ["<head></head><", c, ' onload="var d=', n, ";d.getElementsByTagName('head')[0].", d, "(d.", g, "('script')).", i, "='", a.l, "'\"></", c, ">"].join("") } var c = "body", e = h[c]; if (!e) return setTimeout(q, 100); a.P(1); var d = "appendChild", g = "createElement",
+    i = "src", k = h[g]("div"), l = k[d](h[g]("div")), f = h[g]("iframe"), n = "document", p; k.style.display = "none"; e.insertBefore(k, e.firstChild).id = o + "-" + j; f.frameBorder = "0"; f.id = o + "-frame-" + j; /MSIE[ ]+6/.test(navigator.userAgent) && (f[i] = "javascript:false"); f.allowTransparency = "true"; l[d](f); try { f.contentWindow[n].open() } catch (s) { a.domain = h.domain, p = "javascript:var d=" + n + ".open();d.domain='" + h.domain + "';", f[i] = p + "void(0);" } try { var r = f.contentWindow[n]; r.write(b()); r.close() } catch (t) { f[i] = p + 'd.write("' + b().replace(/"/g, String.fromCharCode(92) + '"') + '");d.close();' } a.P(2) }; a.l && q() })() }(); c[b].lv = "1"; return c[b] } var o = "lightboxjs", k = window[o] = g(o); k.require = g; k.modules = c }({}); /*]]>*/</script><script type="text/javascript">window.lightboxlib = lightboxjs.require("lightboxlib", "//www.lightboxcdn.com/vendor/044b8435-d6a0-427d-af56-eec8f6ae795a/lightbox.js?mb=" + (new Date().getTime()));</script>
+<!--END Lightbox Javascript-->
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f5b9626936","applicationID":"224917688","transactionName":"Z1cDYUFXXhVYWkINXF4dIFZHX18IFkpfClRcVw==","queueTime":0,"applicationTime":526,"atts":"SxAUFwlNTUobWBReSE1P","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

@@ -1,818 +1,1362 @@
 <!DOCTYPE html>
-<html lang="en-AU" prefix="og: http://ogp.me/ns#">
-<head>
-	<meta charset="UTF-8"/>
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link rel="pingback" href="https://quillette.com/xmlrpc.php">
-        <script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
-        <script src="https://cdn.ocelot.studio/clients/quillette.js" async></script>
-	<!--[if lt IE 9]>
-		<script src="https://quillette.com/wp-content/themes/zuki/js/html5.js"></script>
-	<![endif]-->
-<title>Social Distancing During the Black Death - Quillette</title>
-<!-- Jetpack Site Verification Tags -->
-<meta name="google-site-verification" content="3jmk2p2fUYJdIErgmQcMQWWktdvlZ4N0Um7RJpJRQb4"/>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US" xmlns:fb="http://ogp.me/ns/fb#">
+<!--<![endif]-->
+<head><link rel="stylesheet" type="text/css" href="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/hY9dDsIwDIMvtCyAxHlQVqKRLf2h6UC9PWyApj7x5s-yo_iMV7GCg0Y3g8qQKVe0UpV7L6E74EMSkoekyyjB3lJgJFXO9YTOGgO2nu2lwPfPrdaaDONTwVGOi7Gu0P_gf7Lc2HN3xIlLIjfjRYJDi05IQeMYrYFtxR5eP_7qFw.css?9067122fa57259cbe04dfb40ebcd2b15
+" media="all" />
 
-<!-- This site is optimized with the Yoast SEO plugin v11.1.1 - https://yoast.com/wordpress/plugins/seo/ -->
-<link rel="canonical" href="https://quillette.com/2020/03/28/social-distancing-during-the-black-death/"/>
-<meta property="og:locale" content="en_US"/>
-<meta property="og:type" content="article"/>
-<meta property="og:title" content="Social Distancing During the Black Death - Quillette"/>
-<meta property="og:description" content="One of the comforts of studying history is that, no matter how bad things get, you can always find a moment in the past when things were much, much worse. Some commentators on our current crisis have been throwing around comparisons to earlier pandemics, and the Black Death of 1347 — 50 inevitably gets mentioned. Please. The Black Death wiped out half the population of Europe in the space of four years. In some places the mortality was far swifter and deadlier than that. The novelist Giovanni Boccaccio, who gave us the most vivid picture of the Black Death in literature, estimated that 100,000 people died in Florence in the four months between March and July 1348. The population of the city in 1338, according to one contemporary chronicler, stood at 120,000. Boccaccio at the time was a city tax official and saw the whole thing at ground level. Every morning bodies of the dead—husbands, wives, children, servants—were pushed out into the street where they were piled on stretchers, later on carts. They were carried &hellip;"/>
-<meta property="og:url" content="https://quillette.com/2020/03/28/social-distancing-during-the-black-death/"/>
-<meta property="og:site_name" content="Quillette"/>
-<meta property="article:publisher" content="https://www.facebook.com/QuilletteM/"/>
-<meta property="article:tag" content="Black Death"/>
-<meta property="article:tag" content="Renaissance"/>
-<meta property="article:tag" content="social distancing"/>
-<meta property="article:section" content="History"/>
-<meta property="article:published_time" content="2020-03-28T23:50:27+00:00"/>
-<meta property="article:modified_time" content="2020-03-31T21:15:28+00:00"/>
-<meta property="og:updated_time" content="2020-03-31T21:15:28+00:00"/>
-<meta property="og:image" content="https://i1.wp.com/d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/03/26200610/A_street_during_the_plague_in_London_with_a_death_cart_and_m_Wellcome_V0010604.jpg?fit=1200%2C800&#038;ssl=1"/>
-<meta property="og:image:secure_url" content="https://i1.wp.com/d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/03/26200610/A_street_during_the_plague_in_London_with_a_death_cart_and_m_Wellcome_V0010604.jpg?fit=1200%2C800&#038;ssl=1"/>
-<meta property="og:image:width" content="1200"/>
-<meta property="og:image:height" content="800"/>
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:description" content="One of the comforts of studying history is that, no matter how bad things get, you can always find a moment in the past when things were much, much worse. Some commentators on our current crisis have been throwing around comparisons to earlier pandemics, and the Black Death of 1347 — 50 inevitably gets mentioned. Please. The Black Death wiped out half the population of Europe in the space of four years. In some places the mortality was far swifter and deadlier than that. The novelist Giovanni Boccaccio, who gave us the most vivid picture of the Black Death in literature, estimated that 100,000 people died in Florence in the four months between March and July 1348. The population of the city in 1338, according to one contemporary chronicler, stood at 120,000. Boccaccio at the time was a city tax official and saw the whole thing at ground level. Every morning bodies of the dead—husbands, wives, children, servants—were pushed out into the street where they were piled on stretchers, later on carts. They were carried &hellip;"/>
-<meta name="twitter:title" content="Social Distancing During the Black Death - Quillette"/>
-<meta name="twitter:site" content="@Quillette"/>
-<meta name="twitter:image" content="https://i1.wp.com/d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/03/26200610/A_street_during_the_plague_in_London_with_a_death_cart_and_m_Wellcome_V0010604.jpg?fit=1200%2C800&#038;ssl=1"/>
-<meta name="twitter:creator" content="@Quillette"/>
-<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://quillette.com/#organization","name":"Quillette","url":"https://quillette.com/","sameAs":["https://www.facebook.com/QuilletteM/","https://www.linkedin.com/company/quillette-magazine","https://www.youtube.com/channel/UCUK9GA3mt1fVKWj91wW7mfQ","https://twitter.com/Quillette"],"logo":{"@type":"ImageObject","@id":"https://quillette.com/#logo","url":"https://i1.wp.com/d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2017/01/09044428/quillette-Q-512pxby512px-white-on-black-0n-574pxby574px-transparency.png?fit=574%2C574&ssl=1","width":574,"height":574,"caption":"Quillette"},"image":{"@id":"https://quillette.com/#logo"}},{"@type":"WebSite","@id":"https://quillette.com/#website","url":"https://quillette.com/","name":"Quillette","publisher":{"@id":"https://quillette.com/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://quillette.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"WebPage","@id":"https://quillette.com/2020/03/28/social-distancing-during-the-black-death/#webpage","url":"https://quillette.com/2020/03/28/social-distancing-during-the-black-death/","inLanguage":"en-AU","name":"Social Distancing During the Black Death - Quillette","isPartOf":{"@id":"https://quillette.com/#website"},"image":{"@type":"ImageObject","@id":"https://quillette.com/2020/03/28/social-distancing-during-the-black-death/#primaryimage","url":"https://i1.wp.com/d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/03/26200610/A_street_during_the_plague_in_London_with_a_death_cart_and_m_Wellcome_V0010604.jpg?fit=1200%2C800&ssl=1","width":1200,"height":800},"primaryImageOfPage":{"@id":"https://quillette.com/2020/03/28/social-distancing-during-the-black-death/#primaryimage"},"datePublished":"2020-03-28T23:50:27+00:00","dateModified":"2020-03-31T21:15:28+00:00"},{"@type":"Article","@id":"https://quillette.com/2020/03/28/social-distancing-during-the-black-death/#article","isPartOf":{"@id":"https://quillette.com/2020/03/28/social-distancing-during-the-black-death/#webpage"},"author":{"@id":"https://quillette.com/author/james-hankins/#author","name":"James Hankins"},"publisher":{"@id":"https://quillette.com/#organization"},"headline":"Social Distancing During the Black Death","datePublished":"2020-03-28T23:50:27+00:00","dateModified":"2020-03-31T21:15:28+00:00","commentCount":"13","mainEntityOfPage":"https://quillette.com/2020/03/28/social-distancing-during-the-black-death/#webpage","image":{"@id":"https://quillette.com/2020/03/28/social-distancing-during-the-black-death/#primaryimage"},"keywords":"Black Death,Renaissance,social distancing","articleSection":"History,Top Stories"},{"@type":"Person","@id":"https://quillette.com/author/james-hankins/#author","name":"James Hankins","image":{"@type":"ImageObject","@id":"https://quillette.com/#personlogo","url":"https://secure.gravatar.com/avatar/7aecbe478d10d3fcf316d14df9b05b75?s=96&d=mm&r=g","caption":"James Hankins"},"sameAs":[]}]}</script>
+
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, user-scalable=0">
+<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/images/favicon/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/favicon/manifest.json">
+	<link rel="mask-icon" href="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/images/favicon/mstile-144x144.png">
+	<meta name="msapplication-config" content="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	
+    <!-- OneTrust Cookies Consent Notice start -->
+    <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="3a50bf71-e2e9-4034-a078-dbcba7fda162"></script>
+    <script type="text/javascript">
+		function OptanonWrapper() {
+			var allIframes = document.querySelectorAll( 'iframe[class*="optanon-category"]' );
+
+			allIframes.forEach (function( iframe ) {
+				var thisIframeCategories = iframe.classList.value.match(/C000\d+/g);
+
+				// Check if user allowed every category assigned to this iframe
+				var shouldBeLoaded = thisIframeCategories.every( function( item ) {
+					return OptanonActiveGroups.match( item );
+				});
+
+				// Load iframe if every category is allowed
+				if ( shouldBeLoaded ) {
+					loadIframe( iframe );
+				}
+			});
+
+			// load iframe element
+			function loadIframe( element ) {
+				element.tagName == "IFRAME" ? element.setAttribute("src", element.dataset.src) : -1;
+			}
+		}
+    </script>
+    <!-- OneTrust Cookies Consent Notice end -->
+
+	
+	<title>Goldie Hawn And Kurt Russell&#039;s Relationship Secrets Exposed</title>
+
+	<link rel="profile" href="http://gmpg.org/xfn/11"/>
+	<link rel="pingback" href="https://www.nationalenquirer.com/xmlrpc.php"/>
+	<script type="text/plain" class="optanon-category-C0004" src="//d17tqr44y57o31.cloudfront.net/script.js"></script>    <script>
+    var _0x4fb0=["\x44\x46\x50","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x70\x61\x72\x65\x6E\x74","\x72\x65\x66\x65\x72\x72\x65\x72","\x68\x72\x65\x66","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\x34","\x35","\x61\x64\x73","\x44\x46\x50\x20\x53\x74\x61\x72\x74","\x6C\x65\x6E\x67\x74\x68","\x64\x69\x6D\x65\x6E\x73\x69\x6F\x6E","\x2C","\x6A\x6F\x69\x6E","\x70\x75\x73\x68","\x73\x74\x61\x72\x74","\x65\x6E\x64","\x6C\x6F\x61\x64\x5F\x74\x69\x6D\x65","\x20\x6C\x6F\x61\x64\x20\x74\x69\x6D\x65","\x48\x42\x20\x73\x65\x6E\x64\x69\x6E\x67\x20\x74\x6F\x20\x47\x41\x3A","\x6C\x6F\x67","\x68\x62\x2E\x73\x65\x6E\x64","\x74\x69\x6D\x69\x6E\x67","\x66\x6F\x72\x45\x61\x63\x68","\x74\x72\x61\x63\x6B\x69\x6E\x67\x49\x64","\x67\x65\x74","\x67\x65\x74\x41\x6C\x6C","\x63\x72\x65\x61\x74\x65","\x61\x75\x74\x6F","\x68\x62","\x67\x65\x74\x54\x69\x6D\x65","\x72\x65\x73\x70\x6F\x6E\x73\x65\x53\x74\x61\x72\x74","\x70\x65\x72\x66\x6F\x72\x6D\x61\x6E\x63\x65","\x6D\x69\x6E","\x73\x6F\x72\x74","","\x73\x65\x6C\x66","\x74\x6F\x70","\x7C","\x20\x65\x72\x72\x6F\x72\x3A\x20","\x6D\x65\x73\x73\x61\x67\x65","\x49\x4E\x44\x58\x57","\x4F\x50\x45\x4E\x58","\x59\x4C\x44\x42\x54","\x50\x42\x4D\x54\x43","\x52\x55\x42\x49","\x41\x4F\x4C","\x53\x56\x52\x4E","\x49\x4E\x44\x58","\x46\x42","\x53\x48\x54\x48","\x33\x4C\x49\x46\x54","\x59\x49\x45\x4C\x44","\x53\x4F\x56\x52","\x69\x6E\x64\x65\x78\x4F\x66","\x2E\x2A","\x74\x65\x73\x74","\x6F\x70\x65\x6E","\x70\x72\x6F\x74\x6F\x74\x79\x70\x65","\x73\x65\x6E\x64","\x74\x69\x6D\x65\x6F\x75\x74","\x68\x62\x54\x69\x6D\x65\x6F\x75\x74\x44\x65\x62\x75\x67","\x4F\x76\x65\x72\x72\x69\x64\x69\x6E\x67\x20\x58\x48\x52\x20\x74\x69\x6D\x65\x6F\x75\x74\x20\x66\x72\x6F\x6D\x20","\x20\x74\x6F\x20","\x20\x66\x6F\x72\x20","\x66\x61\x69\x6C\x65\x64\x20\x74\x6F\x20\x6F\x76\x65\x72\x72\x69\x64\x65\x20\x74\x69\x6D\x65\x6F\x75\x74\x20\x66\x6F\x72\x20","\x61\x70\x70\x6C\x79","\x45\x72\x72\x6F\x72\x20\x72\x75\x6E\x6E\x69\x6E\x67\x20\x48\x42\x20\x6F\x70\x65\x6E","\x6F\x6E\x72\x65\x61\x64\x79\x73\x74\x61\x74\x65\x63\x68\x61\x6E\x67\x65","\x72\x65\x61\x64\x79\x53\x74\x61\x74\x65","\x73\x74\x61\x74\x75\x73","\x72\x65\x73\x70\x6F\x6E\x73\x65\x55\x52\x4C","\x48\x42\x20\x44\x46\x50\x20\x73\x65\x6E\x64\x69\x6E\x67\x20\x74\x69\x6D\x69\x6E\x67\x73\x20\x66\x72\x6F\x6D\x20\x6D\x75\x74\x61\x69\x6F\x6E\x20\x6F\x62\x6A\x65\x63\x74","\x48\x42\x20\x53\x54\x41\x54\x45\x3A\x20","\x20\x63\x6F\x64\x65\x3A","\x20","\x20\x62\x69\x64\x64\x65\x72\x3A","\x45\x72\x72\x6F\x72\x20\x72\x75\x6E\x6E\x69\x6E\x67\x20\x48\x42\x20\x73\x65\x6E\x64","\x61\x64\x64\x65\x64\x4E\x6F\x64\x65\x73","\x73\x72\x63","\x6F\x6E\x6C\x6F\x61\x64","\x48\x42\x20","\x20\x73\x63\x72\x69\x70\x74\x20\x6C\x6F\x61\x64\x65\x64\x20","\x68\x65\x61\x64","\x6F\x62\x73\x65\x72\x76\x65","\x66\x75\x6E\x63\x74\x69\x6F\x6E","\x45\x72\x72\x6F\x72\x20\x67\x61\x74\x68\x65\x72\x69\x6E\x67\x20\x68\x65\x61\x64\x65\x72\x20\x62\x69\x64\x64\x65\x72\x20\x73\x74\x61\x74\x73"];try{var DEBUG=false;var DFP_ID=_0x4fb0[0];var bidders={};var hb_timings_sent=false;var hb_onload_run=false;var MAX_MILLIS=20000;var MAX_XHR_MILLIS=2000;var getIFrameURL=function(){return (window[_0x4fb0[1]]!= window[_0x4fb0[2]][_0x4fb0[1]])?document[_0x4fb0[3]]:document[_0x4fb0[1]][_0x4fb0[4]]};var hb_track_hb=function(_0x9d4axa,_0x9d4axb,_0x9d4axc,_0x9d4axd){var _0x9d4axe=bidders[_0x9d4axa][_0x9d4axb];if(_0x9d4axe&& _0x9d4axe> 0&& _0x9d4axe<= MAX_MILLIS){if( typeof hbDFPdim=== _0x4fb0[5]){hbDFPdim= _0x4fb0[6]};if( typeof hbFRAMEdim=== _0x4fb0[5]){hbFRAMEdim= _0x4fb0[7]};var _0x9d4axf={timingCategory:_0x4fb0[8],timingVar:_0x4fb0[0],timingValue:_0x9d4axe,timingLabel:_0x4fb0[9]};if(_0x9d4axc[_0x4fb0[10]]> 0){_0x9d4axf[_0x4fb0[11]+ hbDFPdim]= _0x9d4axc[_0x4fb0[13]](_0x4fb0[12])};if(_0x9d4axd){_0x9d4axf[_0x4fb0[11]+ hbFRAMEdim]= _0x9d4axd};var _0x9d4ax10=[];_0x9d4ax10[_0x4fb0[14]](_0x9d4axf);for(i= 0;i< toMonitor[_0x4fb0[10]];i++){var _0x9d4ax11=toMonitor[i];var _0x9d4ax12=bidders[_0x9d4ax11][_0x4fb0[15]];var _0x9d4ax13=bidders[_0x9d4ax11][_0x4fb0[16]];if(_0x9d4ax12&& _0x9d4ax13&& _0x9d4ax12> 0&& _0x9d4ax13> 0){var _0x9d4ax14=_0x9d4ax13- _0x9d4ax12;if(_0x9d4ax14<= MAX_MILLIS){_0x9d4axf= {timingCategory:_0x4fb0[17],timingVar:_0x9d4ax11,timingValue:_0x9d4ax14,timingLabel:_0x9d4ax11+ _0x4fb0[18]};_0x9d4ax10[_0x4fb0[14]](_0x9d4axf)}}};if(DEBUG){console[_0x4fb0[20]](_0x4fb0[19]);console[_0x4fb0[20]](_0x9d4ax10)}else {_0x9d4ax10[_0x4fb0[23]](function(_0x9d4axf){ga(_0x4fb0[21],_0x4fb0[22],_0x9d4axf)})};return true};return false};var hb_log_timings=function(){if(hb_timings_sent){return};hb_timings_sent= true;var _0x9d4ax16=ga[_0x4fb0[26]]()[0][_0x4fb0[25]](_0x4fb0[24]);ga(_0x4fb0[27],{trackingId:_0x9d4ax16,cookieDomain:_0x4fb0[28],name:_0x4fb0[29],siteSpeedSampleRate:1});var _0x9d4axc=[];for(bidder in bidders){if(bidder== DFP_ID){continue};if(!bidders[bidder][_0x4fb0[16]]){bidders[bidder][_0x4fb0[16]]= Math[_0x4fb0[33]](( new Date())[_0x4fb0[30]]()- window[_0x4fb0[32]][_0x4fb0[22]][_0x4fb0[31]],MAX_MILLIS)};if(bidders[bidder][_0x4fb0[16]]- bidders[DFP_ID][_0x4fb0[15]]> 0){_0x9d4axc[_0x4fb0[14]](bidder)}};_0x9d4axc[_0x4fb0[34]]();var _0x9d4axd=_0x4fb0[35];try{if(window[_0x4fb0[36]]!== window[_0x4fb0[37]]){var _0x9d4ax17=null;if(window[_0x4fb0[36]]&& window[_0x4fb0[36]][_0x4fb0[1]]){_0x9d4ax17= window[_0x4fb0[36]][_0x4fb0[1]][_0x4fb0[4]]};var _0x9d4ax18=null;if(window[_0x4fb0[37]]&& window[_0x4fb0[37]][_0x4fb0[1]]){_0x9d4ax18= window[_0x4fb0[37]][_0x4fb0[1]][_0x4fb0[4]]};if(_0x9d4ax17!= _0x9d4ax18){_0x9d4axd= getIFrameURL();_0x9d4axd= _0x9d4axd+ _0x4fb0[38]+ _0x9d4ax17+ _0x4fb0[38]+ _0x9d4ax18}}}catch(err){_0x9d4axd= getIFrameURL()+ _0x4fb0[39]+ err[_0x4fb0[40]]};hb_track_hb(DFP_ID,_0x4fb0[15],_0x9d4axc,_0x9d4axd)};var toMonitor=[_0x4fb0[41]];var jsRegexp={"\x2E\x64\x6F\x75\x62\x6C\x65\x63\x6C\x69\x63\x6B\x2E\x6E\x65\x74\x2F\x67\x61\x6D\x70\x61\x64\x2F\x61\x64\x73":_0x4fb0[0],"\x2E\x6F\x70\x65\x6E\x78\x2E\x6E\x65\x74\x2F\x77\x2F\x31\x2E\x30\x2F\x61\x63\x6A":_0x4fb0[42],"\x2E\x79\x6C\x64\x62\x74\x2E\x63\x6F\x6D\x2F\x6D\x2F\x2E\x2A\x69\x6E\x69\x74":_0x4fb0[43],"\x2E\x79\x6C\x64\x62\x74\x2E\x63\x6F\x6D\x2F\x6D\x2F\x2E\x2A\x69\x6E\x69\x74":_0x4fb0[43],"\x2F\x70\x62\x2E\x6A\x73":_0x4fb0[41]};var xhrRegexp={"\x2E\x70\x75\x62\x6D\x61\x74\x69\x63\x2E\x63\x6F\x6D\x2F\x41\x64\x53\x65\x72\x76\x65\x72\x2F\x41\x64\x43\x61\x6C\x6C\x41\x67\x67\x72\x65\x67\x61\x74\x6F\x72":_0x4fb0[44],"\x2E\x70\x75\x62\x6D\x61\x74\x69\x63\x2E\x63\x6F\x6D\x2F\x41\x64\x53\x65\x72\x76\x65\x72\x2F\x41\x64\x53\x65\x72\x76\x65\x72\x53\x65\x72\x76\x6C\x65\x74":_0x4fb0[44],"\x2E\x72\x75\x62\x69\x63\x6F\x6E\x70\x72\x6F\x6A\x65\x63\x74\x2E\x63\x6F\x6D\x2F\x61\x2F\x61\x70\x69\x2F\x66\x61\x73\x74\x6C\x61\x6E\x65\x2E\x6A\x73\x6F\x6E":_0x4fb0[45],"\x2E\x61\x64\x74\x65\x63\x68\x2E\x2A\x2E\x61\x64\x76\x65\x72\x74\x69\x73\x69\x6E\x67\x2E\x63\x6F\x6D\x2F\x70\x75\x62\x61\x70\x69\x2E\x2A\x63\x6D\x64\x3D\x62\x69\x64":_0x4fb0[46],"\x2E\x6C\x69\x6A\x69\x74\x2E\x63\x6F\x6D\x2F\x72\x74\x62\x2F\x62\x69\x64":_0x4fb0[47],"\x2E\x63\x61\x73\x61\x6C\x65\x6D\x65\x64\x69\x61\x2E\x63\x6F\x6D\x2F\x63\x79\x67\x6E\x75\x73":_0x4fb0[48],"\x66\x61\x63\x65\x62\x6F\x6F\x6B\x2E\x63\x6F\x6D\x2E\x2A\x70\x6C\x61\x63\x65\x6D\x65\x6E\x74\x62\x69\x64\x2E\x6A\x73\x6F\x6E":_0x4fb0[49],"\x62\x74\x6C\x72\x2E\x73\x68\x61\x72\x65\x74\x68\x72\x6F\x75\x67\x68\x2E\x2A\x68\x65\x61\x64\x65\x72\x2D\x62\x69\x64\x2F":_0x4fb0[50],"\x74\x6C\x78\x2E\x33\x6C\x69\x66\x74\x2E\x63\x6F\x6D\x2E\x2A\x61\x75\x63\x74\x69\x6F\x6E":_0x4fb0[51],"\x61\x64\x73\x2E\x2A\x79\x6C\x64\x62\x74\x2E\x63\x6F\x6D\x2F\x6D\x2F":_0x4fb0[52],"\x2E\x6C\x69\x6A\x69\x74\x2E\x63\x6F\x6D\x2F\x72\x74\x62\x2E\x2A\x2F\x62\x69\x64":_0x4fb0[53]};function url2bidder(_0x9d4ax1d,_0x9d4ax1e){if(!_0x9d4ax1d){return};for(var _0x9d4ax1f in _0x9d4ax1e?xhrRegexp:jsRegexp){if(_0x9d4ax1d[_0x4fb0[54]](_0x9d4ax1f)!=  -1){return _0x9d4ax1e?xhrRegexp[_0x9d4ax1f]:jsRegexp[_0x9d4ax1f]};if(_0x9d4ax1f[_0x4fb0[54]](_0x4fb0[55])!=  -1){var _0x9d4ax20= new RegExp(_0x9d4ax1f);if(_0x9d4ax20[_0x4fb0[56]](_0x9d4ax1d)){return _0x9d4ax1e?xhrRegexp[_0x9d4ax1f]:jsRegexp[_0x9d4ax1f]}}}}var open_original=XMLHttpRequest[_0x4fb0[58]][_0x4fb0[57]];var send_original=XMLHttpRequest[_0x4fb0[58]][_0x4fb0[59]];XMLHttpRequest[_0x4fb0[58]][_0x4fb0[57]]= function(_0x9d4ax23,_0x9d4ax1d,_0x9d4ax24,_0x9d4ax25,_0x9d4ax26){try{if( typeof hbTimeout!== _0x4fb0[5]&& hbTimeout){try{if( typeof this[_0x4fb0[60]]== _0x4fb0[5]||  !this[_0x4fb0[60]]|| this[_0x4fb0[60]]> MAX_XHR_MILLIS){if(window[_0x4fb0[1]][_0x4fb0[4]]&& window[_0x4fb0[1]][_0x4fb0[4]][_0x4fb0[54]](_0x4fb0[61])!==  -1){console[_0x4fb0[20]](_0x4fb0[62]+ this[_0x4fb0[60]]+ _0x4fb0[63]+ MAX_XHR_MILLIS+ _0x4fb0[64]+ _0x9d4ax1d)};this[_0x4fb0[60]]= MAX_XHR_MILLIS}}catch(te){console[_0x4fb0[20]](_0x4fb0[65]+ _0x9d4ax1d);console[_0x4fb0[20]](te)}};var _0x9d4axa=url2bidder(_0x9d4ax1d,true);if(!_0x9d4axa|| bidders[_0x9d4axa]){return open_original[_0x4fb0[66]](this,arguments)};bidders[_0x9d4axa]= {start:( new Date())[_0x4fb0[30]]()- window[_0x4fb0[32]][_0x4fb0[22]][_0x4fb0[31]]}}catch(e_open){console[_0x4fb0[20]](_0x4fb0[67]);console[_0x4fb0[20]](e_open)}finally{return open_original[_0x4fb0[66]](this,arguments)}};XMLHttpRequest[_0x4fb0[58]][_0x4fb0[59]]= function(_0x9d4ax27){try{var _0x9d4ax28=this[_0x4fb0[68]];this[_0x4fb0[68]]= function(){if(this[_0x4fb0[69]]!= 4|| this[_0x4fb0[70]]!= 200){if(_0x9d4ax28){return _0x9d4ax28[_0x4fb0[66]](this,arguments)}else {return}};var _0x9d4ax1d=this[_0x4fb0[71]];var _0x9d4axa=url2bidder(_0x9d4ax1d,true);if(!_0x9d4axa||  !bidders[_0x9d4axa][_0x4fb0[15]] || bidders[_0x9d4axa][_0x4fb0[16]]){if(_0x9d4ax28){return _0x9d4ax28[_0x4fb0[66]](this,arguments)}else {return}};bidders[_0x9d4axa][_0x4fb0[16]]= ( new Date())[_0x4fb0[30]]()- window[_0x4fb0[32]][_0x4fb0[22]][_0x4fb0[31]];if(_0x9d4axa== DFP_ID){if(hb_onload_run&&  !hb_timings_sent){if(DEBUG){console[_0x4fb0[20]](_0x4fb0[72])};hb_log_timings()}};if(DEBUG){console[_0x4fb0[20]](_0x4fb0[73]+ this[_0x4fb0[69]]+ _0x4fb0[74]+ this[_0x4fb0[70]]+ _0x4fb0[75]+ _0x9d4ax1d+ _0x4fb0[76]+ _0x9d4axa+ _0x4fb0[75]+ bidders[_0x9d4axa][_0x4fb0[15]]+ _0x4fb0[75]+ bidders[_0x9d4axa][_0x4fb0[16]])};if(_0x9d4ax28){return _0x9d4ax28[_0x4fb0[66]](this,arguments)}else {return}}}catch(e_send){console[_0x4fb0[20]](_0x4fb0[77]);console[_0x4fb0[20]](e_send)}finally{return send_original[_0x4fb0[66]](this,arguments)}};var observer= new MutationObserver(function(_0x9d4ax2a){_0x9d4ax2a[_0x4fb0[23]](function(_0x9d4ax2b){for(var _0x9d4ax2c=0;_0x9d4ax2c< _0x9d4ax2b[_0x4fb0[78]][_0x4fb0[10]];_0x9d4ax2c++){if(_0x9d4ax2b[_0x4fb0[78]][_0x9d4ax2c] instanceof  HTMLScriptElement){var _0x9d4ax1d=_0x9d4ax2b[_0x4fb0[78]][_0x9d4ax2c][_0x4fb0[79]];var _0x9d4axa=url2bidder(_0x9d4ax1d,false);if(!_0x9d4axa&& _0x9d4axa!= DFP_ID){continue};if(bidders[_0x9d4axa]&& bidders[_0x9d4axa][_0x4fb0[15]]){continue};bidders[_0x9d4axa]= {start:( new Date())[_0x4fb0[30]]()- window[_0x4fb0[32]][_0x4fb0[22]][_0x4fb0[31]]};_0x9d4ax2b[_0x4fb0[78]][_0x9d4ax2c][_0x4fb0[80]]= function(){bidders[_0x9d4axa][_0x4fb0[16]]= ( new Date())[_0x4fb0[30]]()- window[_0x4fb0[32]][_0x4fb0[22]][_0x4fb0[31]];if(_0x9d4axa== DFP_ID){if(hb_onload_run&&  !hb_timings_sent){if(DEBUG){console[_0x4fb0[20]](_0x4fb0[72])};hb_log_timings()}};if(DEBUG){console[_0x4fb0[20]](_0x4fb0[81]+ _0x9d4axa+ _0x4fb0[82]+ _0x9d4ax1d+ _0x4fb0[75]+ bidders[_0x9d4axa][_0x4fb0[15]]+ _0x4fb0[75]+ bidders[_0x9d4axa][_0x4fb0[16]])}}}}})});observer[_0x4fb0[84]](document[_0x4fb0[83]],{childList:true});var oldonload=window[_0x4fb0[80]];window[_0x4fb0[80]]= function(){hb_onload_run= true;if( typeof oldonload== _0x4fb0[85]){oldonload()};if(!bidders[DFP_ID]||  !bidders[DFP_ID][_0x4fb0[16]]){return};hb_log_timings()}}catch(e){console[_0x4fb0[20]](_0x4fb0[86]);console[_0x4fb0[20]](e)}    </script>
+
+	<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="kONM_PqGX8Za53dFcExSTIIPZxxN_S4QtvDlONzzdA0" />
+		<script>
+			function parseUrlParams( val ) {
+				var result = "none",
+					tmp = [];
+				var items = location.search.substr( 1 ).split( "&" );
+				for ( var index = 0; index < items.length; index++ ) {
+					tmp = items[index].split( "=" );
+					if ( tmp[0] === val ) {
+						result = decodeURIComponent( tmp[1] );
+					}
+				}
+				return result;
+			}
+
+			dataLayer = [{"pageCategory":"post","env":"prod","sponsored":"off","vupulse":"on","evergreen":"off","tragedy":"off","zergnet23":"on","connatrix":"on","skimlinks":"on","advertorial":"off","yappa":"on","nodeId":280661,"contentType":"gallery","nodeCategory":["Celebrity"],"nodeTags":["Goldie Hawn","Kurt Russell"],"contentUpdatedDate":"2019\/03\/20","contentPublishDate":"2019\/03\/19","pageTitle":"Goldie Hawn and Kurt Russell&#8217;s Relationship Secrets Exposed!","sponsorshipName":"","comments":"on"}];
+
+			var site_display_format = 'desktop';
+
+			if ( window.innerWidth < 768 ) {
+				site_display_format = 'mobile';
+			} else if ( window.innerWidth >= 768 && window.innerWidth <= 1024 ) {
+				site_display_format = 'tablet';
+			}
+
+			dataLayer.push( { site_display_format : site_display_format } );
+
+			var name = 'setAgeInfo';
+			var matches = document.cookie.match(new RegExp(
+				"(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+			));
+
+			dataLayer.push( { user_age : matches ? decodeURIComponent( matches[1] ) : '14' } );
+		</script>
+		
+<!-- This site is optimized with the Yoast SEO plugin v13.0 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Goldie Hawn and Kurt Russell&#039;s shocking relationship secrets have been revealed — get the details!"/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://www.nationalenquirer.com/photos/goldie-hawn-and-kurt-russells-relationship-secrets-exposed/" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.nationalenquirer.com/#website","url":"https://www.nationalenquirer.com/","name":"National Enquirer","potentialAction":{"@type":"SearchAction","target":"https://www.nationalenquirer.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://www.nationalenquirer.com/photos/goldie-hawn-and-kurt-russells-relationship-secrets-exposed/#primaryimage","url":"https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-pp.jpg?fit=1280%2C840&ssl=1","width":1280,"height":840,"caption":"Goldie Hawn and Kurt Russell Relationship Secrets"},{"@type":"WebPage","@id":"https://www.nationalenquirer.com/photos/goldie-hawn-and-kurt-russells-relationship-secrets-exposed/#webpage","url":"https://www.nationalenquirer.com/photos/goldie-hawn-and-kurt-russells-relationship-secrets-exposed/","inLanguage":"en-US","name":"Goldie Hawn And Kurt Russell&#039;s Relationship Secrets Exposed","isPartOf":{"@id":"https://www.nationalenquirer.com/#website"},"primaryImageOfPage":{"@id":"https://www.nationalenquirer.com/photos/goldie-hawn-and-kurt-russells-relationship-secrets-exposed/#primaryimage"},"datePublished":"2019-03-19T16:57:18+00:00","dateModified":"2019-03-20T16:47:46+00:00","author":{"@id":"https://www.nationalenquirer.com/#/schema/person/07f3c23cd78ff37c6d50249941d3e17f"},"description":"Goldie Hawn and Kurt Russell's shocking relationship secrets have been revealed \u2014 get the details!"},{"@type":["Person"],"@id":"https://www.nationalenquirer.com/#/schema/person/07f3c23cd78ff37c6d50249941d3e17f","name":"National ENQUIRER Staff","image":{"@type":"ImageObject","@id":"https://www.nationalenquirer.com/#authorlogo","url":"https://secure.gravatar.com/avatar/04f082eec183205c28a957949c1a0389?s=96&d=identicon&r=g","caption":"National ENQUIRER Staff"},"sameAs":[]}]}</script>
 <!-- / Yoast SEO plugin. -->
 
-<link rel='dns-prefetch' href='//s0.wp.com'/>
-<link rel='dns-prefetch' href='//fonts.googleapis.com'/>
-<link rel='dns-prefetch' href='//s.w.org'/>
-<link rel="alternate" type="application/rss+xml" title="Quillette &raquo; Feed" href="https://quillette.com/feed/"/>
-<link rel="alternate" type="application/rss+xml" title="Quillette &raquo; Comments Feed" href="https://quillette.com/comments/feed/"/>
-<link rel="alternate" type="application/rss+xml" title="Quillette &raquo; Social Distancing During the Black Death Comments Feed" href="https://quillette.com/2020/03/28/social-distancing-during-the-black-death/feed/"/>
-		<script type="text/javascript">window._wpemojiSettings={"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/quillette.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.1.2"}};!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);</script>
-		<style type="text/css">img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-.1em!important;background:none!important;padding:0!important}</style>
-	<link rel='stylesheet' id='wp-block-library-css' href='https://quillette.com/wp-includes/css/dist/block-library/style.min.css?ver=5.1.2' type='text/css' media='all'/>
-<link rel='stylesheet' id='amazonpolly-css' href='https://quillette.com/wp-content/plugins/amazon-polly/public/css/amazonpolly-public.css?ver=1.0.0' type='text/css' media='all'/>
-<link rel='stylesheet' id='comment_styles-css' href='https://quillette.com/wp-content/plugins/wp-discourse/css/comments.css?ver=1.9.3' type='text/css' media='all'/>
-<link rel='stylesheet' id='parent-style-css' href='https://quillette.com/wp-content/themes/zuki/style.css?ver=5.1.2' type='text/css' media='all'/>
-<link rel='stylesheet' id='zuki-flex-slider-style-css' href='https://quillette.com/wp-content/themes/zuki/js/flex-slider/flexslider.css?ver=5.1.2' type='text/css' media='all'/>
-<link rel='stylesheet' id='zuki-fonts-css' href='//fonts.googleapis.com/css?family=Libre+Baskerville%3A400%2C700%2C400italic%7CKarla%3A400%2C400italic%2C700%2C700italic%26subset%3Dlatin%2Clatin-ext&#038;subset=latin%2Clatin-ext' type='text/css' media='all'/>
-<link rel='stylesheet' id='genericons-css' href='https://quillette.com/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1' type='text/css' media='all'/>
-<link rel='stylesheet' id='zuki-style-css' href='https://quillette.com/wp-content/themes/zukichildthemefolder/style.css?ver=20140630' type='text/css' media='all'/>
-<!-- Inline jetpack_facebook_likebox -->
-<style id='jetpack_facebook_likebox-inline-css' type='text/css'>.widget_facebook_likebox{overflow:hidden}</style>
-<link rel='stylesheet' id='tablepress-default-css' href='https://quillette.com/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all'/>
-<style id='tablepress-default-inline-css' type='text/css'>.tablepress-id-1 .column-1,2{padding:4px}.tablepress-id-1 .column-1{width:40%}.tablepress-id-1 .column-2{width:40%}</style>
-<link rel='stylesheet' id='cb_p6-css-main-css' href='https://quillette.com/wp-content/plugins/patron-button-and-widgets-by-codebard/plugin/templates/default/style.css?ver=5.1.2' type='text/css' media='all'/>
-<link rel='stylesheet' id='social-logos-css' href='https://quillette.com/wp-content/plugins/jetpack/_inc/social-logos/social-logos.min.css?ver=1' type='text/css' media='all'/>
-<link rel='stylesheet' id='jetpack_css-css' href='https://quillette.com/wp-content/plugins/jetpack/css/jetpack.css?ver=7.3.1' type='text/css' media='all'/>
-<script type='text/javascript' src='https://quillette.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript' src='https://quillette.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript'>//<![CDATA[
-var related_posts_js_options={"post_heading":"h4"};
-//]]></script>
-<script type='text/javascript' src='https://quillette.com/wp-content/plugins/jetpack/_inc/build/related-posts/related-posts.min.js?ver=20190204'></script>
-<script type='text/javascript' src='https://quillette.com/wp-content/plugins/amazon-polly/public/js/amazonpolly-public.js?ver=1.0.0'></script>
-<script type='text/javascript' src='https://quillette.com/wp-content/themes/zuki/js/jquery.fitvids.js?ver=1.1'></script>
-<script type='text/javascript' src='https://quillette.com/wp-content/themes/zuki/js/flex-slider/jquery.flexslider-min.js?ver=5.1.2'></script>
-<script type='text/javascript' src='https://quillette.com/wp-content/themes/zuki/js/functions.js?ver=20140426'></script>
-<script type='text/javascript' src='https://quillette.com/wp-content/plugins/jetpack/_inc/build/postmessage.min.js?ver=7.3.1'></script>
-<script type='text/javascript' src='https://quillette.com/wp-content/plugins/jetpack/_inc/build/jquery.jetpack-resize.min.js?ver=7.3.1'></script>
-<link rel='https://api.w.org/' href='https://quillette.com/wp-json/'/>
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://quillette.com/xmlrpc.php?rsd"/>
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://quillette.com/wp-includes/wlwmanifest.xml"/> 
-<meta name="generator" content="WordPress 5.1.2"/>
-<link rel='shortlink' href='https://wp.me/p6SXrP-py2'/>
-<link rel="alternate" type="application/json+oembed" href="https://quillette.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fquillette.com%2F2020%2F03%2F28%2Fsocial-distancing-during-the-black-death%2F"/>
-<link rel="alternate" type="text/xml+oembed" href="https://quillette.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fquillette.com%2F2020%2F03%2F28%2Fsocial-distancing-during-the-black-death%2F&#038;format=xml"/>
+<link rel='dns-prefetch' href='//static.adsafeprotected.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+	<script>window.pb_host = "nationalenquirer"</script>	<script type="text/plain" class="optanon-category-C0004" src="//acdn.adnxs.com/prebid/c/1287.nationalenquirer/pb_2020_01_10_12_42_36.js" async="true"></script>
+		<script type="text/javascript">
+		function gptAdsWindowWidth() {
+			var w = window,
+				d = document,
+				e = d.documentElement,
+				x = Math.max( e.scrollWidth, e.offsetWidth, e.clientWidth );
+			return x;
+		}
+		function getCookie(name) {
+			var matches = document.cookie.match(new RegExp(
+				"(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+			));
+			return matches ? decodeURIComponent(matches[1]) : undefined;
+		}
+		function setCookie(name, value, options) {
+			options = options || {};
+
+			var expires = options.expires;
+
+			if (typeof expires == "number" && expires) {
+				var d = new Date();
+				d.setTime(d.getTime() + expires * 1000);
+				expires = options.expires = d;
+			}
+			if (expires && expires.toUTCString) {
+				options.expires = expires.toUTCString();
+			}
+
+			value = encodeURIComponent(value);
+
+			var updatedCookie = name + "=" + value;
+
+			for (var propName in options) {
+				updatedCookie += "; " + propName;
+				var propValue = options[propName];
+				if (propValue !== true) {
+					updatedCookie += "=" + propValue;
+				}
+			}
+
+			document.cookie = updatedCookie;
+		}
+		function adsParseUrlParams( val ) {
+			var result = false,
+				tmp = [];
+			var items = location.search.substr( 1 ).split( "&" );
+			for ( var index = 0; index < items.length; index++ ) {
+				tmp = items[ index ].split( "=" );
+				if ( tmp[ 0 ] === val ) {
+					result = decodeURIComponent( tmp[ 1 ] );
+				}
+			}
+			return result;
+		}
+
+		var googletag = googletag || {};
+		var sizeMapping = [];
+		window.iasPETSlots = [];
+		googletag.cmd = googletag.cmd || [];
+		pbjs = window.pbjs || {que: []}; // if prebid is not already defined, define it
+		googletag.slots = googletag.slots || {};
+		googletag.slots_oop = googletag.slots_oop || {};
+		var llSlots = llSlots || [];
+		var infSlots = infSlots || [];
+		var gallerySlots = gallerySlots || [];
+		var initSlots = initSlots || [];
+		var amazonSlots = amazonSlots || [];
+		var amazonSlotsRef = amazonSlotsRef || [];
+		var amazonOff = amazonOff || [];
+		window.leaderInline = 1;
+		window.adsK = 0;
+				var mobileBreakPoint = 767;
+		var tabletBreakPoint = 1024;
+		var inMobileViewPort = gptAdsWindowWidth() < mobileBreakPoint;
+		var inTabletViewPort = tabletBreakPoint >= gptAdsWindowWidth() && gptAdsWindowWidth() > mobileBreakPoint;
+		var siteToken = inMobileViewPort ? '4216/mob.neq' : '4216/ami.neq';
+		var pageID = '280661';
+		var keyword = 'gallery-post';
+		var cType = 'GalleryPost';
+		var adUnitPath = '/' + siteToken;
+		var adUnitZone = 'photos';
+		if ( adUnitZone != '' ) {
+			adUnitPath += '/' + adUnitZone;
+		}
 
 
-<!-- Plugin: Open external links a new window. Plugin by Kristian Risager Larsen, http://kristianrisagerlarsen.dk . Download it at http://wordpress.org/extend/plugins/open-external-links-in-a-new-window/ -->
-<script type="text/javascript">//<![CDATA[
-function external_links_in_new_windows_loop(){if(!document.links){document.links=document.getElementsByTagName('a');}
-var change_link=false;var force='';var ignore='';for(var t=0;t<document.links.length;t++){var all_links=document.links[t];change_link=false;if(document.links[t].hasAttribute('onClick')==false){if(all_links.href.search(/^http/)!=-1&&all_links.href.search('quillette.com')==-1){change_link=true;}
-if(force!=''&&all_links.href.search(force)!=-1){change_link=true;}
-if(ignore!=''&&all_links.href.search(ignore)!=-1){change_link=false;}
-if(change_link==true){document.links[t].setAttribute('onClick','javascript:window.open(\''+all_links.href+'\'); return false;');document.links[t].removeAttribute('target');}}}}
-function external_links_in_new_windows_load(func)
-{var oldonload=window.onload;if(typeof window.onload!='function'){window.onload=func;}else{window.onload=function(){oldonload();func();}}}
-external_links_in_new_windows_load(external_links_in_new_windows_loop);
-//]]></script>
+		window.gptNetwork = siteToken + '/';
 
+		if(cType === 'GalleryPost' && gptAdsWindowWidth() >= 768 && gptAdsWindowWidth() <= 1023) {
+			cType = 'GalleryVerticalList';
+		}
+		if((cType === 'GalleryVerticalList' || cType === 'GalleryPost') && inMobileViewPort) {
+			cType = 'gallery';
+		}
+		//Depends on tealium dataLayer
+		if ( typeof utag_data !== 'undefined' && typeof utag_data.sponsored !== 'undefined' ) {
+			var spons = utag_data.sponsored;
+		} else {
+			var spons = 'no';
+		}
 
-<link rel='dns-prefetch' href='//jetpack.wordpress.com'/>
-<link rel='dns-prefetch' href='//s0.wp.com'/>
-<link rel='dns-prefetch' href='//s1.wp.com'/>
-<link rel='dns-prefetch' href='//s2.wp.com'/>
-<link rel='dns-prefetch' href='//public-api.wordpress.com'/>
-<link rel='dns-prefetch' href='//0.gravatar.com'/>
-<link rel='dns-prefetch' href='//1.gravatar.com'/>
-<link rel='dns-prefetch' href='//2.gravatar.com'/>
-<link rel='dns-prefetch' href='//i0.wp.com'/>
-<link rel='dns-prefetch' href='//i1.wp.com'/>
-<link rel='dns-prefetch' href='//i2.wp.com'/>
-<link rel='dns-prefetch' href='//widgets.wp.com'/>
-<style type='text/css'>img#wpstats{display:none}</style>	<style type="text/css">.widget-area p.summary a,.entry-content p a,.entry-content li a,.page .entry-content p a,blockquote cite a,.textwidget a,#comments .comment-text a,.authorbox p.author-description a{color: }.widget_zuki_recentposts_color .bg-wrap{background:#ebf8fe}.archive-menu-content{background: }</style>
-    	<style type="text/css" id="zuki-header-css">#site-title h1,#site-title h2.site-description{display:none}</style>
-				<style type="text/css">html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {display:none}</style>
-			<script>document.documentElement.classList.add('jetpack-lazy-images-js-enabled');</script>
-				<script type="text/javascript">var __ATA_PP={pt:1,ht:2,tn:'zukichildthemefolder',amp:false,siteid:101756249,consent:0};var __ATA=__ATA||{};__ATA.cmd=__ATA.cmd||[];__ATA.criteo=__ATA.criteo||{};__ATA.criteo.cmd=__ATA.criteo.cmd||[];</script>		<link rel='dns-prefetch' href='//s.pubmine.com'/>
-		<link rel='dns-prefetch' href='//x.bidswitch.net'/>
-		<link rel='dns-prefetch' href='//static.criteo.net'/>
-		<link rel='dns-prefetch' href='//ib.adnxs.com'/>
-		<link rel='dns-prefetch' href='//aax.amazon-adsystem.com'/>
-		<link rel='dns-prefetch' href='//bidder.criteo.com'/>
-		<link rel='dns-prefetch' href='//cas.criteo.com'/>
-		<link rel='dns-prefetch' href='//gum.criteo.com'/>
-		<link rel='dns-prefetch' href='//ads.pubmatic.com'/>
-		<link rel='dns-prefetch' href='//gads.pubmatic.com'/>
-		<link rel='dns-prefetch' href='//tpc.googlesyndication.com'/>
-		<link rel='dns-prefetch' href='//ad.doubleclick.net'/>
-		<link rel='dns-prefetch' href='//googleads.g.doubleclick.net'/>
-		<link rel='dns-prefetch' href='//www.googletagservices.com'/>
-		<script async type="text/javascript" src="//s.pubmine.com/head.js"></script><link rel="icon" href="https://i1.wp.com/d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2019/05/16053149/cropped-Q-1.png?fit=32%2C32&#038;ssl=1" sizes="32x32"/>
-<link rel="icon" href="https://i1.wp.com/d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2019/05/16053149/cropped-Q-1.png?fit=192%2C192&#038;ssl=1" sizes="192x192"/>
-<link rel="apple-touch-icon-precomposed" href="https://i1.wp.com/d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2019/05/16053149/cropped-Q-1.png?fit=180%2C180&#038;ssl=1"/>
-<meta name="msapplication-TileImage" content="https://i1.wp.com/d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2019/05/16053149/cropped-Q-1.png?fit=270%2C270&#038;ssl=1"/>
-			<link rel="stylesheet" type="text/css" id="wp-custom-css" href="https://quillette.com/?custom-css=f3ae0b598e"/>
-		</head>
+		window.adsRefresh = {};
+		window.adsRefresh.time = 0;
+		window.adsRefresh.impr = [];
+		window.adsRefresh.ads = [];
+		window.adsRefresh.not = [];
+	</script>    	<script type="text/plain" class="optanon-category-C0004">
+		(function() {
+			var gads = document.createElement( "script" );
+			gads.async = true;
+			gads.type = "text/javascript";
+			var useSSL = "https:" == document.location.protocol;
+			gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+			var node = document.getElementsByTagName( "script" )[ 0 ];
+			node.parentNode.insertBefore( gads, node );
+		})();
 
-<body class="post-template-default single single-post postid-98210 single-format-standard">
+		!function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+		apstag.init({
+			pubID: '3144',
+			adServer: 'googletag',
+			bidTimeout: 2e3,
+			videoAdServer: 'DFP'
+		});
 
-	<div id="container">
+		(function() {
+			var gads = document.createElement( "script" );
+			gads.async = true;
+			gads.type = "text/javascript";
+			var useSSL = "https:" == document.location.protocol;
+			gads.src = (useSSL ? "https:" : "http:") + "//cdn.adsafeprotected.com/iasPET.1.js";
+			var node = document.getElementsByTagName( "script" )[ 0 ];
+			node.parentNode.insertBefore( gads, node );
+		})();
+		var iasDataHandler, __iasPET = __iasPET || {};
+		__iasPET.queue = __iasPET.queue || [];
+		__iasPET.pubId = '928572'; // your account manager will provide this ID
 
-		<header id="masthead" class="cf" role="banner">
-
-							<nav id="header-top-nav">
-					<ul id="menu-about" class="menu"><li id="menu-item-71157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-71157"><a href="https://quillette.com/">Home</a></li>
-<li id="menu-item-70992" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70992"><a href="https://quillette.com/about/">About</a></li>
-<li id="menu-item-94146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94146"><a href="https://quillette.com/subscribe/">Subscribe</a></li>
-<li id="menu-item-89819" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89819"><a href="https://quillette.com/helpfreethoughtlive/">Donate</a></li>
-<li id="menu-item-94139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94139"><a href="https://quillette.com/quillette-circle/">Quillette Circle</a></li>
-<li id="menu-item-98394" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98394"><a href="https://quillette.com/book-club/">Q Book Club</a></li>
-</ul>				</nav><!-- end #header-top -->
+		googletag.cmd.push( function() {
+			googletag.pubads().disableInitialLoad();
+			googletag.pubads().setTargeting( "s1", adUnitZone );
+			googletag.pubads().setTargeting( "pid", pageID );
+			googletag.pubads().setTargeting( "kw", keyword );
+			googletag.pubads().setTargeting( "ctype", cType );
+			googletag.pubads().setTargeting( "pageID", pageID );
+			if ( document.referrer ) {
+				var parser = document.createElement( 'a' );
+				parser.href = document.referrer;
+				googletag.pubads().setTargeting( "referrer", parser.hostname.replace( /\./g, '_' ) );
+			}
+			if ( window.utm_source = adsParseUrlParams( 'utm_source' ) ) {
+				googletag.pubads().setTargeting( "utm_source", window.utm_source );
+			}
+			if ( window.utm_medium = adsParseUrlParams( 'utm_medium' ) ) {
+				googletag.pubads().setTargeting( "utm_medium", window.utm_medium );
+			}
+			if ( window.utm_campaign = adsParseUrlParams( 'utm_campaign' ) ) {
+				googletag.pubads().setTargeting( "utm_campaign", window.utm_campaign );
+			}
+			if ( window.test_param = adsParseUrlParams( 'test' ) ) {
+				googletag.pubads().setTargeting( "test", window.test_param );
+			}
+						googletag.pubads().setTargeting("hulu", "off");
+googletag.pubads().setTargeting("tags", "Goldie Hawn,Kurt Russell");googletag.pubads().setTargeting("s3", "Celebrity");			googletag.pubads().setTargeting( "spons", spons );
 			
-			<div id="site-title">
-							<div id="site-header">
-					<a href="https://quillette.com/" rel="home"><img src="https://d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2019/05/16053246/cropped-logo.png" width="1500" height="354" alt=""></a>
-				</div><!-- end #site-header -->
-							<h1><a href="https://quillette.com/" title="Quillette">Quillette</a></h1>
-							<h2 class="site-description">Free Thought Lives</h2>
-						</div><!-- end #site-title -->
+			if (typeof Storage !== "undefined") {
+			  var targetingParamStr = localStorage.getItem("bcDFPTargetingParams");
 
-			<a href="#menuopen" id="mobile-menu-toggle"><span>Menu</span></a>
+			  if (targetingParamStr) {
+			    var targetingParameters = JSON.parse(targetingParamStr);
 
-			<div id="mobile-menu-wrap" class="cf">
-								<nav id="site-nav" class="cf">
-					<ul id="menu-categories" class="nav-menu"><li id="menu-item-71055" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-71055"><a href="https://quillette.com/category/features/">Features</a></li>
-<li id="menu-item-71142" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-71142"><a href="https://quillette.com/category/science-tech/">Science / Tech</a></li>
-<li id="menu-item-71141" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-71141"><a href="https://quillette.com/category/politics/">Politics</a></li>
-<li id="menu-item-71348" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-71348"><a href="https://quillette.com/category/review/">Review</a></li>
-<li id="menu-item-94148" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-94148"><a href="https://quillette.com/category/podcast/">Podcast</a></li>
-</ul>				</nav><!-- end #site-nav -->
-				<a href="#menuclose" id="mobile-menu-close"><span>Close Menu</span></a>
-			</div><!-- end #mobile-menu-wrap -->
+			    // set page-level targeting parameters
+			    targetingParameters.forEach(function(el, index){
+					googletag.pubads().setTargeting(el.key, el.value);
+				});
+			  }
+			}
 
 			
-		</header><!-- end #masthead -->
+			infSlots["dfp-tag-mobile_box"] = "dfp-tag-mobile_box"
+			window.adsRefresh.not.push("dfp-tag-wallpaper");
+			window.adsRefresh.not.push("dfp-tag-interstitial");
+			window.adsRefresh.not.push("dfp-tag-mobile_interstitial");
+			window.adsRefresh.not.push("dfp-tag-yieldmo");
+			window.adsRefresh.not.push("dfp-tag-sharethrough");
+			amazonOff.push("dfp-tag-wallpaper");
+			amazonOff.push("dfp-tag-interstitial");
+			amazonOff.push("dfp-tag-mobile_interstitial");
+			amazonOff.push("dfp-tag-yieldmo");
+			amazonOff.push("dfp-tag-sharethrough");
+			sizeMapping["leaderboard"] = googletag.sizeMapping().addSize([1024, 300], [[970,250],[970,90],[970,66],[728,90]]).addSize([768, 300], [[728,90]]).addSize([0,0], []).build();
+			sizeMapping["rightrail"] = googletag.sizeMapping().addSize([768, 300], [[300,250],[300,600],[160,600],[300,1050]]).addSize([0,0], []).build();
+			sizeMapping["rightrail2"] = googletag.sizeMapping().addSize([768, 300], [[300,250],[300,600]]).addSize([0,0], []).build();
+			sizeMapping["gallery-inline-list"] = googletag.sizeMapping().addSize([1221, 300], [[728, 90]]).addSize([1024, 300], [[300, 250]]).addSize([768, 300], [[728, 90]]).addSize([0,0], []).build();
+			sizeMapping["gallery-inline-slideshow"] = googletag.sizeMapping().addSize([1024, 300], []).addSize([768, 300], [[728,90]]).addSize([0,0], []).build();
+			if(!inMobileViewPort){
+				googletag.slots["dfp-tag-horizontal-position-1"] = googletag.defineSlot(adUnitPath, [[970,250],[970,90],[970,66],[728,90]], "dfp-tag-horizontal-position-1").defineSizeMapping(sizeMapping["leaderboard"]).setTargeting( "pos", "horizontal-position-1" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-horizontal-position-1");
+				initSlots.push("dfp-tag-horizontal-position-1");amazonSlots.push({'slotID' :'dfp-tag-horizontal-position-1', 'slotName' :'horizontal-position-1', 'sizes' : [[970,250],[970,90],[970,66],[728,90]] });amazonSlotsRef['dfp-tag-horizontal-position-1'] = {'slotID' :'dfp-tag-horizontal-position-1', 'slotName' :'horizontal-position-1', 'sizes' : [[970,250],[970,90],[970,66],[728,90]] };
+			}
+			if(!inMobileViewPort){
+				googletag.slots["dfp-tag-rightrail-position-2"] = googletag.defineSlot(adUnitPath, [[300,250],[300,600],[300,1050],[160,600]], "dfp-tag-rightrail-position-2").defineSizeMapping(sizeMapping["rightrail"]).setTargeting( "pos", "rightrail-position-2" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-rightrail-position-2");
+				initSlots.push("dfp-tag-rightrail-position-2");amazonSlots.push({'slotID' :'dfp-tag-rightrail-position-2', 'slotName' :'rightrail-position-2', 'sizes' : [[300,250],[300,600],[300,1050],[160,600]] });amazonSlotsRef['dfp-tag-rightrail-position-2'] = {'slotID' :'dfp-tag-rightrail-position-2', 'slotName' :'rightrail-position-2', 'sizes' : [[300,250],[300,600],[300,1050],[160,600]] };
+			}
+			if(!inMobileViewPort){
+				llSlots["dfp-tag-rightrail-position-3"] = {"id": "dfp-tag-rightrail-position-3", "name": "rightrail-position-3", "device": "desktop", "size": [[300,250],[300,600]], "mapping": "rightrail2"};
+			}
+			if(!inMobileViewPort){
+				llSlots["dfp-tag-rightrail-position-4"] = {"id": "dfp-tag-rightrail-position-4", "name": "rightrail-position-4", "device": "desktop", "size": [[300,250],[300,600]], "mapping": "rightrail2"};
+			}
+			if(!inMobileViewPort){
+				googletag.slots["dfp-tag-wallpaper"] = googletag.defineOutOfPageSlot(adUnitPath, "dfp-tag-wallpaper").setTargeting( "pos", "wallpaper" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-wallpaper");
+				initSlots.push("dfp-tag-wallpaper");
+			}
+			if(!inMobileViewPort){
+				googletag.slots["dfp-tag-interstitial"] = googletag.defineOutOfPageSlot(adUnitPath, "dfp-tag-interstitial").setTargeting( "pos", "interstitial" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-interstitial");
+				initSlots.push("dfp-tag-interstitial");
+			}
+			if(inMobileViewPort){
+				googletag.slots["dfp-tag-mobile_top"] = googletag.defineSlot(adUnitPath, [[320,50],[320,100],[300,50],[300,100]], "dfp-tag-mobile_top").setTargeting( "pos", "mobile_top" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-mobile_top");
+				initSlots.push("dfp-tag-mobile_top");amazonSlots.push({'slotID' :'dfp-tag-mobile_top', 'slotName' :'mobile_top', 'sizes' : [[320,50],[320,100],[300,50],[300,100]] });amazonSlotsRef['dfp-tag-mobile_top'] = {'slotID' :'dfp-tag-mobile_top', 'slotName' :'mobile_top', 'sizes' : [[320,50],[320,100],[300,50],[300,100]] };
+			}
+			if(inMobileViewPort){
+				googletag.slots["dfp-tag-mobile_box"] = googletag.defineSlot(adUnitPath, [300,250], "dfp-tag-mobile_box").setTargeting( "pos", "mobile_box" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-mobile_box");
+				initSlots.push("dfp-tag-mobile_box");amazonSlots.push({'slotID' :'dfp-tag-mobile_box', 'slotName' :'mobile_box', 'sizes' : [300,250] });amazonSlotsRef['dfp-tag-mobile_box'] = {'slotID' :'dfp-tag-mobile_box', 'slotName' :'mobile_box', 'sizes' : [300,250] };
+			}
+			if(inMobileViewPort){
+				googletag.slots["dfp-tag-mobile_bottom"] = googletag.defineSlot(adUnitPath, [[320,50],[320,100],[300,50],[300,100]], "dfp-tag-mobile_bottom").setTargeting( "pos", "mobile_bottom" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-mobile_bottom");
+				initSlots.push("dfp-tag-mobile_bottom");amazonSlots.push({'slotID' :'dfp-tag-mobile_bottom', 'slotName' :'mobile_bottom', 'sizes' : [[320,50],[320,100],[300,50],[300,100]] });amazonSlotsRef['dfp-tag-mobile_bottom'] = {'slotID' :'dfp-tag-mobile_bottom', 'slotName' :'mobile_bottom', 'sizes' : [[320,50],[320,100],[300,50],[300,100]] };
+			}
+			if(inMobileViewPort){
+				googletag.slots["dfp-tag-mobile_interstitial"] = googletag.defineOutOfPageSlot(adUnitPath, "dfp-tag-mobile_interstitial").setTargeting( "pos", "mobile_interstitial" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-mobile_interstitial");
+				initSlots.push("dfp-tag-mobile_interstitial");
+			}
+			if(inMobileViewPort){
+				googletag.slots["dfp-tag-yieldmo"] = googletag.defineSlot(adUnitPath, [[300,250], [5,5]], "dfp-tag-yieldmo").setTargeting( "pos", "yieldmo" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-yieldmo");
+				initSlots.push("dfp-tag-yieldmo");
+			}
+			// read the currently defined
+			// all GPT ad slots should be
+			var gptSlots = googletag.pubads().getSlots();
+			for ( var i = 0; i < gptSlots.length; i++ ) {
+				//GPT ad slots for sending to the PET endpoint defined before calling PET
+				var sizes = gptSlots[i].getSizes().map( function( size ) {
+					if ( size.getWidth && size.getHeight ) {
+						return [size.getWidth(), size.getHeight()];
+					} else {
+						return [1, 1];
+					}
+				} );
+				window.iasPETSlots.push( {
+					adSlotId: gptSlots[i].getSlotElementId(),
+					//size: can either be a single size (e.g., [728, 90])
+					// or an array of sizes (e.g., [[728, 90], [970, 90]])
+					size: sizes,
+					adUnitPath: gptSlots[i].getAdUnitPath()
+				} );
+			}
 
-<div id="main-wrap">
+			googletag.pubads().enableAsyncRendering();
+			googletag.pubads().enableSingleRequest();
+			googletag.pubads().collapseEmptyDivs();
+			googletag.enableServices();
 
-	<div id="primary" class="site-content cf" role="main">
-		
-<article id="post-98210" class="post-98210 post type-post status-publish format-standard has-post-thumbnail hentry category-history category-top-stories tag-black-death tag-renaissance tag-social-distancing">
+			googletag.pubads().addEventListener( 'slotRenderEnded', function( event ) {
+				if ( typeof pbjs.initAdserverSet !== 'undefined' && typeof window.initAdserverSetCustom === 'undefined' ) {
+					try {
+						ami_gpt.processElements;
+					} catch ( err ) {
+						console.log( err.message );
+					}
+					window.initAdserverSetCustom = true;
+				}
+			} );
 
-	<header class="entry-header">
-		<div class="entry-cats">
-			<a href="https://quillette.com/category/features/history/" rel="category tag">History</a>, <a href="https://quillette.com/category/top-stories/" rel="category tag">Top Stories</a>		</div><!-- end .entry-cats -->
+		} );
 
-		<div class="entry-date">
-			Published on <a href="https://quillette.com/2020/03/28/social-distancing-during-the-black-death/">March 28, 2020</a>
-		</div><!-- end .entry-date -->
-				
-		<h1 class="entry-title">Social Distancing During the Black Death</h1>
-		<div class="entry-author">
-			written by <a href="https://quillette.com/author/james-hankins/" title="All posts by James Hankins">James Hankins</a>		</div><!-- end .entry-author -->
-	</header><!-- end .entry-header -->
+	</script>    	<script type="text/plain" class="optanon-category-C0004">
+		//whenever you want header bids call this function
+		function fetchHeaderBids(amazonSlots, pbSlots, iasSlots) {
+			var opt = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;
 
-			<div class="entry-thumbnail">
-			<a href="https://quillette.com/2020/03/28/social-distancing-during-the-black-death/" title="Permalink to Social Distancing During the Black Death"><img width="1200" height="800" src="https://d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/03/26200610/A_street_during_the_plague_in_London_with_a_death_cart_and_m_Wellcome_V0010604.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image jetpack-lazy-image" alt="" data-lazy-srcset="https://d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/03/26200610/A_street_during_the_plague_in_London_with_a_death_cart_and_m_Wellcome_V0010604.jpg 1200w, https://d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/03/26200610/A_street_during_the_plague_in_London_with_a_death_cart_and_m_Wellcome_V0010604.jpg 300w, https://d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/03/26200610/A_street_during_the_plague_in_London_with_a_death_cart_and_m_Wellcome_V0010604.jpg 768w, https://d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/03/26200610/A_street_during_the_plague_in_London_with_a_death_cart_and_m_Wellcome_V0010604.jpg 1024w, https://d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/03/26200610/A_street_during_the_plague_in_London_with_a_death_cart_and_m_Wellcome_V0010604.jpg 840w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" data-lazy-src="https://d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/03/26200610/A_street_during_the_plague_in_London_with_a_death_cart_and_m_Wellcome_V0010604.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></a>
-		</div><!-- end .entry-thumbnail -->
+			var bidTimeout = 1000;
+
+			var bidders = ['a9', 'prebid', 'ias'];
+
+			// create a requestManager to keep track of bidder state to determine when to send ad server
+			// request and what amazonSlots to request from the ad server
+			var requestManager = {
+				adserverRequestSent: false,
+			};
+
+			//loop through bidder array and add the bidders to the request manager:
+			bidders.forEach(function(bidder) {
+				requestManager[bidder] = false;
+			})
+
+
+			// a helper function that returns googletag objects corresponding to the slotIDs in the slot objects
+			function _getGPTSlots(amazonSlots) {
+				// get all of the slot IDs that were requested
+				var slotIDs = amazonSlots.map(function(slot) {
+					return slot.slotID;
+				});
+
+				// return the slot objects corresponding to the slotIDs
+				return googletag.pubads().getSlots().filter(function(slot) {
+					// return true if the ID of the slot object is in the slotIDs array
+					return slotIDs.indexOf(slot.getSlotElementId()) > -1;
+				});
+
+			}
+
+
+			// return true if all bidders have returned
+			function allBiddersBack() {
+				var allBiddersBack = bidders
+				// get the booleans from the object
+					.map(function(bidder) {
+						return requestManager[bidder];
+					})
+					// get rid of false values - indicates that the bidder has responded
+					.filter(Boolean)
+					// if length is equal to bidders, all bidders are back
+					.length === bidders.length;
+
+				return allBiddersBack;
+			}
+
+
+			// handler for header bidder responses
+			function headerBidderBack(bidder) {
+				// return early if request to adserver is already sent
+				if (requestManager.adserverRequestSent === true) {
+					return;
+				}
+				// flip bidder back flag
+				if (bidder === 'a9') {
+					requestManager.a9 = true;
+				} else if (bidder === 'prebid') {
+					requestManager.prebid = true;
+				} else if ( bidder === 'ias' ) {
+					requestManager.ias = true;
+				}
+
+				// if all bidders are back, send the request to the ad server
+				if (allBiddersBack()) {
+					sendAdserverRequest();
+				}
+			}
+
+			// actually get ads from DFP
+			function sendAdserverRequest() {
+
+				// return early if request already sent
+				if (requestManager.adserverRequestSent === true) {
+					return;
+				}
+
+				// flip the boolean that keeps track of whether the adserver request was sent
+				requestManager.adserverRequestSent = true;
+				// flip pbjs boolean to signal to pbjs the ad server has already been called
+				pbjs.adserverRequestSent = true;
+
+				//flip boolean for adserver request to avoid duplicate requests
+				requestManager.sendAdserverRequest = true;
+
+				// make ad request to DFP
+				googletag.cmd.push(function() {
+					apstag.setDisplayBids();
+					pbjs.setTargetingForGPTAsync();
+					__iasPET.setTargetingForGPT();
+					window.googletag.pubads().refresh(filterAdSlots(pbSlots), {changeCorrelator: opt});
+				});
+			}
+
+			function contains(arr,obj) {
+				return (arr.indexOf(obj) !== -1);
+			}
+
+			function filterAdSlots(slotIdArray) {
+				return window.googletag.pubads().getSlots()
+					.filter(function(slot) {
+						return contains(slotIdArray, slot.getAdUnitPath()) || contains(slotIdArray, slot.getSlotElementId());
+					});
+			}
+
+			function requestBids(pbSlots) {
+				// request bids from prebid
+				pbjs.que.push(function () {
+					pbjs.initAdserverSet = true;
+					pbjs.requestBids({
+						adUnitCodes: pbSlots,
+						bidsBackHandler: function bidsBackHandler() {
+							headerBidderBack('prebid');
+						}
+					});
+				});
+			}
+
+			if(amazonSlots.length) {
+				apstag.fetchBids({
+					slots: amazonSlots,
+					timeout: bidTimeout
+				}, function (bids) {
+					headerBidderBack('a9');
+				});
+			} else {
+				headerBidderBack('a9');
+			}
+
+			//requestBids
+			pbjs.que.push( function() {
+				requestBids(pbSlots)
+			} );
+
+			// make the request to PET. if your page makes multiple ad requests to DFP // (e.g., lazily loaded ads, infinite scrolling pages, etc.), you should make // a request to PET before every request to DFP
+			__iasPET.queue.push( {
+				adSlots: iasSlots,
+				dataHandler: headerBidderBack( 'ias' )
+			} );
+
+			// set timeout to send request to call sendAdserverRequest() after timeout
+			// if all bidders haven't returned before then
+			var bidding = setTimeout(function() {
+				sendAdserverRequest();
+			}, 1500);
+		};
+
+		function customInfiniteScroll( mapping, slotID, aSlot, iasSlot, opt ) {
+			var codes = [];
+			var configAdUnits = window.adUnits;
+			var infiniteScrollMap = {};
+			if ( mapping.length > 0 && typeof window.adUnits !== 'undefined' ) {
+				for ( var i = 0; i < mapping.length; i++ ) {
+					infiniteScrollMap[mapping[i].targetAdUnitCode] = mapping[i].newAdUnitCode;
+					codes.push( mapping[i].newAdUnitCode );
+				}
+				for ( var i = 0; i < configAdUnits.length; i++ ) {
+					var val = infiniteScrollMap[configAdUnits[i].code];
+					if ( typeof val !== "undefined" ) {
+						var oldSlot = configAdUnits[i];
+						oldSlot.code = infiniteScrollMap[configAdUnits[i].code];
+						pbjs.removeAdUnit( configAdUnits[i].code );
+						configAdUnits[i] = oldSlot;
+					}
+				}
+				pbjs.addAdUnits( configAdUnits );
+			}
+			fetchHeaderBids( aSlot, [slotID], iasSlot, opt );
+		}
+
+		googletag.cmd.push(function(){
+			var firstAdRequest = new Date().getTime();
+			console.log('AMI GPT: first Ad Request', firstAdRequest);
+			fetchHeaderBids(amazonSlots, initSlots, window.iasPETSlots);
+		});
+
+
+		/**
+		 * GPT helpers functions.
+		 */
+
+		var ami_gpt = (function () {
+
+			var elementInViewport = function (el) {
+				var rect = el.getBoundingClientRect();
+				return (rect.top >= 0 && rect.left >= 0 && rect.top <= (window.innerHeight + (window.innerHeight / 2) || document.documentElement.clientHeight + (window.innerHeight / 2)))
+			};
+
+			var elementInViewportStrict = function (el) {
+				var rect = el.getBoundingClientRect();
+				return (rect.top >= 0 && rect.left >= 0 && rect.top <= (window.innerHeight || document.documentElement.clientHeight))
+			};
+
+			var init = function () {
+				window.addEventListener('scroll', processElements);
+				window.addEventListener('touchstart', processElements);
+			};
+
+			var processElements = function () {
+				if (typeof pbjs.initAdserverSet === 'undefined') {
+					return;
+				}
+				Object.keys(llSlots).forEach(function (key) {
+					var el = document.getElementById(key);
+					var correlator = false;
+					var aSlot = [];
+					var iasSlot = [];
+					if (el !== null && elementInViewport(el)) {
+						googletag.cmd.push(function () {
+							googletag.slots[key] = googletag.defineSlot(adUnitPath, llSlots[key].size, key).defineSizeMapping(sizeMapping[llSlots[key].mapping]).setTargeting('pos', llSlots[key].name).addService(googletag.pubads());
+							if(typeof llSlots[key].targeting !== 'undefined') {
+								Object.keys(llSlots[key].targeting).forEach(function (tkey) {
+									googletag.slots[key].setTargeting(tkey, llSlots[key].targeting[tkey]);
+								});
+							}
+							if(typeof llSlots[key].correlator !== 'undefined') {
+								correlator = true;
+							}
+							googletag.display(key);
+							iasSlot.push( {adSlotId: key, size: llSlots[key].size, adUnitPath: window.gptNetwork + key} );
+							if(-1 === amazonOff.indexOf(llSlots[key].name)) {
+								aSlot.push({'slotID' : key, 'slotName' : llSlots[key].name, 'sizes' : llSlots[key].size});
+							}
+
+							if(llSlots[key].name in infSlots) {
+								console.log('AMI: infslot ', infSlots[llSlots[key].name], key);
+								customInfiniteScroll([
+									{
+										targetAdUnitCode: infSlots[llSlots[key].name],
+										newAdUnitCode: key
+									}
+								], key, aSlot, correlator);
+								infSlots[llSlots[key].name] = key;
+							} else {
+								console.log('AMI: slot ', aSlot, key);
+								fetchHeaderBids(aSlot, [key], iasSlot, correlator);
+							}
+							console.log('AMI: lazyloaded: ' + key);
+						});
+						delete llSlots[key];
+					}
+				});
+			};
+
+			var refreshSlot = function (slot_id) {
+				if (typeof pbjs.initAdserverSet === 'undefined') {
+					return;
+				}
+				var el = document.getElementById(slot_id);
+				if (el !== null && elementInViewportStrict(el) && window.adsRefresh.impr[slot_id] === true) {
+					clearInterval(window.adsRefresh.ads[slot_id]);
+					window.adsRefresh.impr[slot_id] = false;
+					console.log('AMI: refreshed: ',slot_id);
+					var iasSlot = [{adSlotId: slot_id, size: googletag.slots[slot_id].ad_sizes, adUnitPath: window.gptNetwork + slot_id}];
+					if(typeof amazonSlotsRef[slot_id] !== 'undefined') {
+						fetchHeaderBids([amazonSlotsRef[slot_id]], [slot_id], iasSlot, false);
+					} else {
+						fetchHeaderBids([], [slot_id], iasSlot, false);
+					}
+				}
+
+			};
+
+
+			return {
+				init: init(),
+				processElements: processElements(),
+				refreshSlot: refreshSlot
+			}
+
+		})();
+	</script>
+		<script>
+		window.refresh = false;
+		if ( cType == 'GalleryPost' && window.refresh && window.innerWidth > 1023 ) {
+			window.refresh = false;
+		}
+		if ( window.refresh ) {
+			googletag.cmd.push( function() {
+				googletag.pubads().addEventListener( 'slotRenderEnded', function( event ) {
+					var slot_id = event.slot.getSlotElementId();
+					console.log( 'AMI: rendered: ', slot_id );
+					if ( -1 === window.adsRefresh.not.indexOf( slot_id ) ) {
+						if ( event.isEmpty ) {
+							window.adsRefresh.impr[slot_id] = true;
+							window.adsRefresh.ads[slot_id] = setInterval( function() {
+								ami_gpt.refreshSlot( slot_id );
+							}, window.adsRefresh.time );
+							window.dataLayer = window.dataLayer || [];
+							dataLayer.push( {event: 'adsSlotEmpty', eventLabel: slot_id,} );
+						}
+					}
+				} );
+				googletag.pubads().addEventListener( 'impressionViewable', function( event ) {
+					var slot_id = event.slot.getSlotElementId();
+					console.log( 'AMI: imr: ', slot_id );
+					if ( -1 === window.adsRefresh.not.indexOf( slot_id ) ) {
+						console.log( 'AMI: will be refreshed: ', slot_id );
+						window.adsRefresh.impr[slot_id] = true;
+						window.adsRefresh.ads[slot_id] = setInterval( function() {
+							ami_gpt.refreshSlot( slot_id )
+						}, window.adsRefresh.time );
+					} else {
+						console.log( 'AMI: will not be refreshed: ', slot_id );
+					}
+				} );
+			} );
+		}
+	</script>
+	<link rel='preconnect' href='//i0.heartyhosting.com'>
+<link rel='preconnect' href='//cdn-neq0.heartyhosting.com'>
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.nationalenquirer.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
 	
-	<div class="entry-content">
-		<p>One of the comforts of studying history is that, no matter how bad things get, you can always find a moment in the past when things were much, much worse. Some commentators on our current crisis have been throwing around comparisons to earlier pandemics, and the <a href="https://en.wikipedia.org/wiki/Black_Death">Black Death</a> of 1347 — 50 inevitably gets mentioned. Please. The Black Death wiped out half the population of Europe in the space of four years. In some places the mortality was far swifter and deadlier than that. The novelist <a href="https://en.wikipedia.org/wiki/Giovanni_Boccaccio">Giovanni Boccaccio</a>, who gave us the most vivid picture of the Black Death in literature, estimated that 100,000 people died in Florence in the four months between March and July 1348. The population of the city in 1338, according to one contemporary chronicler, stood at 120,000.</p>
-<p>Boccaccio at the time was a city tax official and saw the whole thing at ground level. Every morning bodies of the dead—husbands, wives, children, servants—were pushed out into the street where they were piled on stretchers, later on carts. They were carried to the nearest church for a quick blessing, then trundled to graveyards outside the city for burial. As the death toll rose, traditional burial practices were abandoned. Deep trenches were dug into which bodies were dumped in layers with a thin covering of soil shoveled on top. Boccaccio writes that “no more respect was accorded the dead than would today be shown to dead goats.”</p>
-<p>Like COVID-19, the disease spread with bewildering rapidity, but unlike in the modern pandemic, it infected everyone, young and old, rich and poor, not mainly the old and infirm. And again unlike the current virus, the effects of bubonic plague were particularly humiliating. Tumor-like growths as big as apples, called “bubos,” would appear in the groin or armpit. Gangrenous blotches would appear on hands and feet causing the skin to turn black and die. The victims would start coughing up blood, all their bodily fluids stank and their breath became putrid. “The stench of dead bodies, sickness and medicines seemed to fill and pollute the whole atmosphere.” There was no dying with dignity during the Black Death.</p>
-<p>It’s no surprise that a kind of extreme social distancing became the norm, even without urging from governments. Boccaccio’s stories are shocking. Everyone ran in panic from the sick. Neighbors shunned neighbors, relatives relatives. Children abandoned elderly parents and priests their flocks. Incredibly, “even fathers and mothers refused to nurse and assist their own children, as though they did not belong to them.” Some reacted by locking themselves up with a few friends in some comfortable place stocked with food and fine wines. They would entertain themselves with music and refuse to receive any news of the dead. Others, often those without the means to escape, became fatalistic and began looting the houses of the dead, stuffing themselves with food and drink, heedless of the risks of infection.</p>
-<p>It is not yet certain that COVID-19 will become the fifth endemic coronavirus in the world today. The far more deadly bubonic plague long remained endemic in Europe, turning pandemic again some 17 times before its last outbreak in 1664 — 67—about once a generation. Over time a kind of bush telegraph developed in cities to keep track of new outbreaks. Transmitting news of the plague became a regular topic of private and public correspondence. The questions sound familiar to us now: <em>Has the plague come to Bologna? How long has it been there? How many are infected? How many have died? Has a quarantine been imposed?</em> Public authorities, predictably, took drastic measures to isolate the sick. In Venice, physicians were forbidden to leave the city during plague—as today, there was no social distancing for medical personnel. Plague doctors were required to wear the premodern equivalent of the hazmat suit: a long linen gown, a hat covering the hair, eyeglasses, and a mask with a long beak containing antidotes and perfumes to mask the stench of death. Today, the plague doctor’s dress still exists as a popular costume during Carnival.</p>
-<p>Were there any silver linings to so horrible a pestilence? There were surely a few, though some of them remain speculative even now. Florentine Republicans began to appreciate <em>Madonna Peste</em> (Lady Pestilence) when she carried off their great nemesis, the duke of Milan, in 1402, at a critical moment during their long war with the great tyrant. After the Black Death there was an “inheritance effect” that led to far greater concentrations of wealth among those who survived. Some modern historians have claimed that this concentrated wealth led to an upmarket “investment in culture” that made possible the Renaissance itself. That’s a bit of a stretch.</p>
-<div id="attachment_98312" style="width: 242px" class="wp-caption alignright"><img aria-describedby="caption-attachment-98312" class="wp-image-98312 size-medium jetpack-lazy-image" src="https://i1.wp.com/d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/03/26195636/Plague_doctors_beak_shaped_mask-232x300.png?resize=232%2C300&#038;ssl=1" alt width="232" height="300" data-recalc-dims="1" data-lazy-srcset="https://d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/03/26195636/Plague_doctors_beak_shaped_mask.png 232w, https://d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/03/26195636/Plague_doctors_beak_shaped_mask.png 385w" data-lazy-sizes="(max-width: 232px) 100vw, 232px" data-lazy-src="https://i1.wp.com/d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/03/26195636/Plague_doctors_beak_shaped_mask-232x300.png?resize=232%2C300&amp;is-pending-load=1#038;ssl=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img aria-describedby="caption-attachment-98312" class="wp-image-98312 size-medium" src="https://i1.wp.com/d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/03/26195636/Plague_doctors_beak_shaped_mask-232x300.png?resize=232%2C300&#038;ssl=1" alt="" width="232" height="300" srcset="https://d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/03/26195636/Plague_doctors_beak_shaped_mask.png 232w, https://d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/03/26195636/Plague_doctors_beak_shaped_mask.png 385w" sizes="(max-width: 232px) 100vw, 232px" data-recalc-dims="1"/></noscript><p id="caption-attachment-98312" class="wp-caption-text">Plague Doctor (wikicommons)</p></div>
-<p>But there was one lasting benefit of plague that is with us still. In Renaissance Italy, the most effective form of social distancing turned out to be <em>villeggiatura—</em>withdrawing from the city to a country farm or villa and waiting for the pestilence to subside. After the first few outbreaks of plague in the later 1300s, many city folk began to invest in country estates, in part to secure reliable food supplies for their families in times of crisis. They began to spend more time in the country, especially during the hot summer months when the plague was at its worst. The Medici eventually owned 27 villas in the Tuscan countryside, many of them designed and decorated by leading architects like Giuliano da Sangallo and painters like Filippino Lippi and Jacopo Pontormo. Villa life became generally popular for wealthier bourgeois families, and over time a villa culture developed. Boccaccio’s <em>Decameron</em> provided an early literary model. It depicted a group of noble young men and women escaping to the hills outside Florence during the plague, entertaining each other with witty stories, song, and dancing. Renaissance literati, being passionate lovers of antiquity, adored Cicero and longed to imitate the urbane conversations on literature and philosophy he described in his dialogues, held in his classical villa at Tusculum. Even the less sophisticated learned to enjoy more spacious living in the country, reading in cool, manicured gardens or viewing scenic landscapes. They began to cultivate summer sports, musical events, and festivals. The summer vacation was born.</p>
-<p>&nbsp;</p>
-<p><strong>James Hankins is a professor of Renaissance history at Harvard University.</strong></p>
-<p><em>Featured image: &#8220;Bring Out Your Dead&#8221; courtesy of  <a class="external text" href="http://wellcomeimages.org/" rel="nofollow">Wellcome Images</a></em></p>
-<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-official sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-pocket"><div class="pocket_button"><a href="https://getpocket.com/save" class="pocket-btn" data-lang="en" data-save-url="https://quillette.com/2020/03/28/social-distancing-during-the-black-death/" data-pocket-count="horizontal">Pocket</a></div></li><li class="share-jetpack-whatsapp"><a rel="nofollow noopener noreferrer" data-shared="" class="share-jetpack-whatsapp sd-button" href="https://quillette.com/2020/03/28/social-distancing-during-the-black-death/?share=jetpack-whatsapp" target="_blank" title="Click to share on WhatsApp"><span>WhatsApp</span></a></li><li class="share-linkedin"><div class="linkedin_button"><script type="in/share" data-url="https://quillette.com/2020/03/28/social-distancing-during-the-black-death/" data-counter="right"></script></div></li><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button" href="https://quillette.com/2020/03/28/social-distancing-during-the-black-death/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-print"><a rel="nofollow noopener noreferrer" data-shared="" class="share-print sd-button" href="https://quillette.com/2020/03/28/social-distancing-during-the-black-death/#print" target="_blank" title="Click to print"><span>Print</span></a></li><li class="share-end"></li></ul></div></div></div>
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
 
-<div id='jp-relatedposts' class='jp-relatedposts'>
-	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
-</div>			</div><!-- end .entry-content -->
 
-	<footer class="entry-meta">
-		<div class="entry-cats">
-			<span>Filed under: </span><a href="https://quillette.com/category/features/history/" rel="category tag">History</a>, <a href="https://quillette.com/category/top-stories/" rel="category tag">Top Stories</a>		</div><!-- end .entry-cats -->
-						<div class="entry-tags"><span>Tagged with: </span><a href="https://quillette.com/tag/black-death/" rel="tag">Black Death</a>, <a href="https://quillette.com/tag/renaissance/" rel="tag">Renaissance</a>, <a href="https://quillette.com/tag/social-distancing/" rel="tag">social distancing</a></div>
+
+
+
+
+<script type="text/javascript" src="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/M9bPKixNLarUMYYydHMz04sSS1L1cjPzAA.js?9067122fa57259cbe04dfb40ebcd2b15
+"></script>
+<link rel='https://api.w.org/' href='https://www.nationalenquirer.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.nationalenquirer.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.nationalenquirer.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.3.2" />
+<link rel='shortlink' href='https://wp.me/p5AgLp-1b0N' />
+<link rel="alternate" type="application/json+oembed" href="https://www.nationalenquirer.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.nationalenquirer.com%2Fphotos%2Fgoldie-hawn-and-kurt-russells-relationship-secrets-exposed%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.nationalenquirer.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.nationalenquirer.com%2Fphotos%2Fgoldie-hawn-and-kurt-russells-relationship-secrets-exposed%2F&#038;format=xml" />
+
+<!-- ami Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Goldie Hawn and Kurt Russell&#039;s Relationship Secrets Exposed!" />
+<meta property="og:url" content="https://www.nationalenquirer.com/photos/goldie-hawn-and-kurt-russells-relationship-secrets-exposed/" />
+<meta property="og:description" content="Hollywood duo Goldie Hawn and Kurt Russell have been together for a whopping 36 years, but they&#039;ve yet to make it down the aisle! The pair doesn&#039;t call themselves husband and wife, but that doesn&#039;t..." />
+<meta property="article:published_time" content="2019-03-19T16:57:18+00:00" />
+<meta property="article:modified_time" content="2019-03-20T16:47:46+00:00" />
+<meta property="article:author" content="https://www.nationalenquirer.com/author/nestaff/" />
+<meta property="og:site_name" content="National Enquirer" />
+<meta property="og:image" content="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-pp.jpg?fit=1200%2C788&amp;ssl=1" />
+<meta property="fb:app_id" content="953902771314199" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Goldie Hawn and Kurt Russell&#039;s Relationship Secrets Exposed!" />
+<meta name="twitter:description" content="Hollywood duo Goldie Hawn and Kurt Russell have been together for a whopping 36 years, but they&#039;ve yet to make it down the aisle! The pair doesn&#039;t call themselves husband and wife, but that doesn&#039;t me..." />
+<meta name="twitter:image" content="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-pp.jpg?fit=1200%2C788&amp;ssl=1" />
+		<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.nationalenquirer.com\/photos\/goldie-hawn-and-kurt-russells-relationship-secrets-exposed\/"},"headline":"Goldie Hawn and Kurt Russell&#8217;s Relationship Secrets Exposed!","datePublished":"2019-03-19T12:57:18-04:00","dateModified":"2019-03-20T12:47:46-04:00","author":{"@type":"Person","name":"National ENQUIRER Staff"},"publisher":{"@type":"Organization","name":"National Enquirer","url":"https:\/\/www.nationalenquirer.com\/","parentOrganization":"American Media Inc","logo":{"@type":"ImageObject","url":"https:\/\/i0.heartyhosting.com\/www.nationalenquirer.com\/wp-content\/themes\/vip\/am-plugins\/ami-schemas\/logos\/neq-logo.png?ssl=1","width":"500","height":"84"},"address":{"@type":"PostalAddress","streetAddress":"4 New York Plaza","addresslocality":"New York, NY","postalCode":"10004"},"telephone":"212-545-4800","sameAs":["https:\/\/www.facebook.com\/TheNationalEnquirer\/","https:\/\/twitter.com\/NatEnquirer","https:\/\/www.americanmediainc.com\/brands\/national-enquirer"]},"image":{"@type":"ImageObject","url":"https:\/\/i0.heartyhosting.com\/www.nationalenquirer.com\/wp-content\/uploads\/2019\/03\/goldie-hawn-and-kurt-russell-relationship-secrets-pp.jpg?resize=1200%2C600&ssl=1","width":"1200","height":"600"},"description":"Goldie Hawn and Kurt Russell's shocking relationship secrets have been revealed \u2014 get the details!","alternativeHeadline":"Goldie Hawn And Kurt Russell&#039;s Relationship Secrets Exposed"}</script>
+				<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/www.nationalenquirer.com\/celebrity","name":"Celebrity"}}]}</script>
+			<script>
+		window.jwVastTag = {};
+		window.prerollTag = {};
+		window.jwpDef = {};
+	</script>
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]--><script type="text/javascript">var ajaxurl = "https://www.nationalenquirer.com/wp-admin/admin-ajax.php"</script>			<!-- Google Tag Manager -->
+			<script>( function( w, d, s, l, i ) {
+					w[l] = w[l] || [];
+					w[l].push( {
+						'gtm.start':
+							new Date().getTime(), event: 'gtm.js'
+					} );
+					var f = d.getElementsByTagName( s )[0],
+						j = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : '';
+					j.async = true;
+					j.src =
+						'https://www.googletagmanager.com/gtm.js?id=' + i + dl + "";
+					f.parentNode.insertBefore( j, f );
+				} )( window, document, 'script', 'dataLayer',"GTM-58D3QV7");</script>		<!-- End Google Tag Manager -->
+						<style type="text/css" id="wp-custom-css">
+				
+
+/*
+	CSS Migrated from Jetpack:
+*/
+/* Raise fs gallery z-index to fix gallery overlapping by Advinteo ads */
+@media only screen and (min-width: 768px) {
+	.gallery-fullscreen .fs-gallery_wrapper {
+	z-index: 999999;
+	}
+}
+
+/* Fix subtitle line-height for hero items; Added 16.04.18, should be removed after the next release */
+.hero .subtitle h2 {
+	line-height: .9;
+}
+
+/* Fixes for hero title on HP */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+	.hero .text-block strong.promo-title {
+		font-size: 52px;
+    line-height: 1;
+    max-height: 150px;
+    overflow: hidden;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.hero .text-block strong.promo-title {
+	  font-size: 62px;
+    max-height: 245px;
+    overflow: hidden;
+	}
+}
+
+/* Fix for overflowing huge images inside content 
+ * Added 26.09.2019, should be removed after the next release
+ * */
+.entry div[id*='attachment_'] {
+	max-width: 100%;
+}			</style>
 		
-			</footer><!-- end .entry-meta -->
-</article><!-- end .post-98210 -->		<div id="comments" class="comments-area discourse-comments-area">
-			<div class="comments-title-wrap">
-				<h2 class="comments-title discourse-comments-title">Comments</h2>
+	<script type="text/javascript">
+		var onloadCallback = function() {
+			grecaptcha.render('captcha_div', {
+				'sitekey' : '6Le3wfsSAAAAACvmSPuxMZp6mKxCn62rYP2EcJeP',
+				'size' : 'normal',
+				'theme' : 'light'
+			});
+		};
+	</script>
+</head>
+
+<body class="post-template-default single single-post postid-280661 single-format-gallery no-js solr-infinite-scroll desktop ">
+<script type="text/javascript">
+	document.body.className = document.body.className.replace('no-js','js');
+</script>
+			<!-- Google Tag Manager (noscript) -->
+			<noscript>
+				<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58D3QV7" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+			</noscript>		<!-- End Google Tag Manager (noscript) -->
+			<div id="dfp-tag-wallpaper" class="dfp-slot dfp-oop"></div><div id="dfp-tag-interstitial" class="dfp-slot dfp-oop"></div><div id="dfp-tag-mobile_interstitial" class="dfp-slot dfp-oop"></div>
+<!--googleoff: index-->
+<header id="main-header">
+    <!-- OneTrust Cookies Settings mobile button start -->
+        <!-- OneTrust Cookies Settings mobile button end -->
+
+	<nav id="side-menu" class="menu-header"><ul id="menu-mobile-menu" class="menu"><li id="menu-item-102602" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-102602"><a title="National Enquirer | Hottest Celebrity Gossip &#038; Entertainment News" href="https://www.nationalenquirer.com/">Home</a></li>
+<li id="menu-item-102603" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-102603"><a title="Celebrity News, Gossip, Photos &#038; Videos | National Enquirer" href="https://www.nationalenquirer.com/category/celebrity/">Celebrity</a></li>
+<li id="menu-item-102605" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102605"><a title="Celebrity Gossip &#038; Rumors | National Enquirer" href="https://www.nationalenquirer.com/category/gossip/">Gossip</a></li>
+<li id="menu-item-102606" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102606"><a title="Celebrity True Crime News, Gossip, Photos &#038; Videos | National Enquirer" href="https://www.nationalenquirer.com/category/true-crime/">True Crime</a></li>
+<li id="menu-item-102607" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102607"><a title="Celebrity Eyewitness News, Gossip, Photos &#038; Videos | National Enquirer" href="https://www.nationalenquirer.com/category/eyewitness/">Eyewitness</a></li>
+<li id="menu-item-102608" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102608"><a title="Celebrity Crime Investigation News, Gossip, Photos &#038; Videos | National Enquirer" href="https://www.nationalenquirer.com/category/crime-investigation/">Crime Investigation</a></li>
+<li id="menu-item-102609" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102609"><a title="Celebrity Photos: Fashion, Leaked &#038; Hot | National Enquirer" href="https://www.nationalenquirer.com/category/photo-gallery/">Photo Gallery</a></li>
+<li id="menu-item-106718" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-106718"><a href="http://www.nationalenquirerclassifieds.com/">Classifieds</a></li>
+<li id="menu-item-155439" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-155439"><a href="https://w1.buysub.com/servlet/OrdersGateway?cds_mag_code=DNE&#038;cds_page_id=202106">Subscribe</a></li>
+<li id="menu-item-166915" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-166915"><a href="https://w1.buysub.com/servlet/ECareGateway?cds_mag_code=STA">Subscriber Services</a></li>
+<li id="menu-item-286862" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-286862"><a href="https://shop.getspecialissues.com/">Shop Special Issues</a></li>
+<li id="menu-item-286490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286490"><a href="https://www.nationalenquirer.com/newsletter-signup/">Newsletter</a></li>
+<li id="menu-item-257772" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-257772"><a href="https://www.nationalenquirer.com/accessibility-statement/">Accessibility Statement</a></li>
+<li id="menu-item-286520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286520"><a href="https://www.nationalenquirer.com/privacy-policy/">PRIVACY POLICY</a></li>
+<li id="menu-item-286519" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286519"><a href="https://www.nationalenquirer.com/terms-conditions/">Terms And Conditions</a></li>
+<li class="cookies-settings__mobile"><a class="optanon-toggle-display" name="Manage Cookies">Manage Cookies</a></li></ul></nav>
+
+	<div id="mobile-phantom">
+		<div id="brand">
+			<div id="menu-trigger" class="menu-trigger">
+				<span></span>
+				<span></span>
+				<span></span>
 			</div>
-			<ol class="comment-list">		<li class="comment even depth-1">
-			<article class="comment-body">
-				<footer class="comment-meta">
-					<div class="comment-author vcard">
-						<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/m/58956e/64.png" class="avatar avatar-64 photo avatar-default" height="64" width="64">
-						<b class="fn"><a href="https://forum.quillette.com/t/social-distancing-during-the-black-death/6556" rel="external" class="url">Miya</a></b>
-						<span class="says screen-reader-text">says:</span><!-- screen reader text -->
-					</div>
-					<div class="comment-metadata">
-						<time datetime=""></time>
-					</div>
-				</footer>
-				<div class="comment-content"><p>Medical advances and technology are so much more advanced than at the times of the Black death. All new news and developments back then were slow to spread, unlike the plague itself.<br>
-Panic must of been extreme, as once you contracted the virus you knew certain horrific death was to follow. Human behaviour hasn’t changed since then, and now the monetary system weighs heavily on any decisions made.<br>
-How can we pass through this pandemic whilst leaving our normal way of life intact? With historical accounts of the plague, and medical and technological advances, plus the speed to gather information, we ought to be able to act collectively to get the best outcome. But will those in power use this pandemic  to herd people in a direction that will be much less favourable than what we have now?</p></div>
-			</article>
-		</li>
-				<li class="comment odd depth-1">
-			<article class="comment-body">
-				<footer class="comment-meta">
-					<div class="comment-author vcard">
-						<img alt="" src="https://forum-cdn.quillette.com/user_avatar/forum.quillette.com/ship/64/657_2.png" class="avatar avatar-64 photo avatar-default" height="64" width="64">
-						<b class="fn"><a href="https://forum.quillette.com/t/social-distancing-during-the-black-death/6556" rel="external" class="url">Ship</a></b>
-						<span class="says screen-reader-text">says:</span><!-- screen reader text -->
-					</div>
-					<div class="comment-metadata">
-						<time datetime=""></time>
-					</div>
-				</footer>
-				<div class="comment-content"><p>“Today, the dominant explanation for the  <strong>Black Death</strong>  is the  <strong>plague</strong>  theory, which attributes the outbreak to Yersinia pestis, also responsible for an epidemic that began in southern  <strong>China</strong>  in 1865, eventually spreading to India.” - Wikipedia</p>
-<p>China needs to get its shit together. While it is terribly misguided to attack random Chinese people on the street for this, we all know where this came from and sterile terms emerging from the mouths of politicians can’t change that. A plague by any other name still stinks. China owes reparations to the world it sickened.</p>
-</div>
-			</article>
-		</li>
-				<li class="comment even depth-1">
-			<article class="comment-body">
-				<footer class="comment-meta">
-					<div class="comment-author vcard">
-						<img alt="" src="https://forum-cdn.quillette.com/user_avatar/forum.quillette.com/beyondmedia/64/2475_2.png" class="avatar avatar-64 photo avatar-default" height="64" width="64">
-						<b class="fn"><a href="https://forum.quillette.com/t/social-distancing-during-the-black-death/6556" rel="external" class="url">BeyondMedia</a></b>
-						<span class="says screen-reader-text">says:</span><!-- screen reader text -->
-					</div>
-					<div class="comment-metadata">
-						<time datetime=""></time>
-					</div>
-				</footer>
-				<div class="comment-content"><blockquote>
-<p><a class="mention" href="https://forum.quillette.com/u/quillette">@quillette</a>: One of the comforts of studying history is that, no matter how bad things get, you can always find a moment in the past when things were much, much worse.</p>
-</blockquote>
-<p>How true. And even if Corona turns out to be the most severe pandemic we have experienced in a century, we should not forget that fortunately our starting point in terms of knowledge, technology, communication, wealth and medicine is the highest that humans have ever experienced in all recorded and unrecorded history. If people from the plague-stricken Middle Ages were brought into the present with a time machine, they would probably sigh with relief and praise heaven for the change, despite the spreading Corona threat.</p>
-<p>I hope that we as a society will overcome the crisis in such a way that we prove ourselves worthy of this privileged starting position. So far, the Western countries in particular have not exactly covered themselves in glory. More than two months of advance warning have been wasted instead of being used for emergency preparations and containment. Now, finally, everyone is trying to catch up. But the late start now makes much stronger countermeasures necessary, which in turn will most likely sow the seeds for a severe economic crisis. Maybe future generations will find the term <em>The Sleepwalkers</em> appropriate to describe how we managed to get ourselves into such a mess.</p>
-</div>
-			</article>
-		</li>
-				<li class="comment odd depth-1">
-			<article class="comment-body">
-				<footer class="comment-meta">
-					<div class="comment-author vcard">
-						<img alt="" src="https://forum-cdn.quillette.com/user_avatar/forum.quillette.com/beyondmedia/64/2475_2.png" class="avatar avatar-64 photo avatar-default" height="64" width="64">
-						<b class="fn"><a href="https://forum.quillette.com/t/social-distancing-during-the-black-death/6556" rel="external" class="url">BeyondMedia</a></b>
-						<span class="says screen-reader-text">says:</span><!-- screen reader text -->
-					</div>
-					<div class="comment-metadata">
-						<time datetime=""></time>
-					</div>
-				</footer>
-				<div class="comment-content"><p>And speaking of responsible behavior in the face of a looming pandemic:</p>
-<p>In <strong>Spain,</strong> despite urgent warnings of the growing danger of Corona, many women’s marches took place on 8th March, the largest of which was in Madrid. As a result, two ministers and countless participants <em><a href="https://www.wsj.com/articles/spain-seized-by-fast-growing-coronavirus-outbreak-11585074509" rel="nofollow noopener">were infected with the virus</a></em> :</p>
-<blockquote>
-<p>Earlier this month, tens of thousands marched in Spain to commemorate International Women’s Day, defying warnings that such large gatherings could spread the new coronavirus, which had already infected hundreds of people in the Mediterranean country. Four days later, two government ministers who participated in the march were diagnosed with the virus and the number of known infections in Spain had quintupled to almost 3,000. Prime Minister Pedro Sánchez’s wife, who attended the demonstration, also tested positive.</p>
-</blockquote>
-<p>By now, the number of infected people in Spain has risen to 72,335 and the number of deaths to 5,820.</p>
-<p>Former <strong>Finnish</strong> President Martti Ahtisaari (Nobel Peace Prize 2008) is also infected with the coronavirus. He was infected by his wife, who in turn had been infected, among many others, <em><a href="https://yle.fi/uutiset/osasto/news/former_presidents_wife_diagnosed_with_coronavirus/11270153" rel="nofollow noopener">at a concert</a></em> on International Women’s day.</p>
-<p>At the same day, the police in <strong>Switzerland</strong> , a neighboring country of Italy, <em><a href="https://www.nzz.ch/zuerich/trotz-coronavirus-demonstrantinnen-versammeln-sich-in-zuerich-zu-unbewilligter-frauendemo-ld.1545053" rel="nofollow noopener">tolerated an actually unauthorized</a></em> demonstration of feminists. Today the country is the world leader in terms of the number of cases per capita.</p>
-<p>You have to set priorities. I hope it was worth it.</p>
-</div>
-			</article>
-		</li>
-				<li class="comment even depth-1">
-			<article class="comment-body">
-				<footer class="comment-meta">
-					<div class="comment-author vcard">
-						<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/j/ce7236/64.png" class="avatar avatar-64 photo avatar-default" height="64" width="64">
-						<b class="fn"><a href="https://forum.quillette.com/t/social-distancing-during-the-black-death/6556" rel="external" class="url">Jsavage</a></b>
-						<span class="says screen-reader-text">says:</span><!-- screen reader text -->
-					</div>
-					<div class="comment-metadata">
-						<time datetime=""></time>
-					</div>
-				</footer>
-				<div class="comment-content"><p>A really good article. No politics, just well researched and written.  It is so rare these days to read something like this. Thank you.</p></div>
-			</article>
-		</li>
-				<li class="comment odd depth-1">
-			<article class="comment-body">
-				<footer class="comment-meta">
-					<div class="comment-author vcard">
-						<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/j/ecae2f/64.png" class="avatar avatar-64 photo avatar-default" height="64" width="64">
-						<b class="fn"><a href="https://forum.quillette.com/t/social-distancing-during-the-black-death/6556" rel="external" class="url">JWombacher</a></b>
-						<span class="says screen-reader-text">says:</span><!-- screen reader text -->
-					</div>
-					<div class="comment-metadata">
-						<time datetime=""></time>
-					</div>
-				</footer>
-				<div class="comment-content"><p>I think this article is instructive.  True, we are not facing something as serious as the Black Death, that is good, but our society today is so much more complex and we are many times more interdependent.   I am deeply worried about what is headed for us right around the corner.  In the 15th century, despite the plague, many people could survive because most were farmers.  Even right up until the Great Depression most people worked in agriculture.  However miserable the Great Depression was, most people could at least grow their own food and make by hand many of the things they needed.  It was no picnic, to be sure, but when I hear pundits right now saying things like “oh well, it looks like we are just going to have another Great Depression, ho-hum, no big deal, we can deal with that”, well, I become terrified.  Things could get really bad really fast for millions of people.  We take for granted that enough food will make it to cities with millions of people totally dependent on farmers.  We have governors and a president casually making ad hoc policy about “essential and non-essential” workers.  This is risky and short sighted in the extreme.  To take one example, Transportation is critical for food supply, we are not just dealing with farming here.  Therefore fuel also is critical.  Then, the parts and repair work for trucks and trains also become essential, which makes all raw materials essential too, etc. Where do you stop?  What is not essential besides maybe cinema and cafes, although good arguments can be made for those too?   I do not trust politicians to make this kind of decision.  We can realistically only shut down so much of the economy today without taking a huge gamble that could result in catastrophe for millions.</p></div>
-			</article>
-		</li>
-				<li class="comment even depth-1">
-			<article class="comment-body">
-				<footer class="comment-meta">
-					<div class="comment-author vcard">
-						<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/c/58956e/64.png" class="avatar avatar-64 photo avatar-default" height="64" width="64">
-						<b class="fn"><a href="https://forum.quillette.com/t/social-distancing-during-the-black-death/6556" rel="external" class="url">Caleb</a></b>
-						<span class="says screen-reader-text">says:</span><!-- screen reader text -->
-					</div>
-					<div class="comment-metadata">
-						<time datetime=""></time>
-					</div>
-				</footer>
-				<div class="comment-content"><aside class="quote no-group" data-post="6" data-topic="6556"><div class="title">
-<div class="quote-controls"></div>
-<img alt width="20" height="20" src="https://forum-cdn.quillette.com/user_avatar/forum.quillette.com/beyondmedia/40/2475_2.png" class="avatar"> BeyondMedia:</div>
-<blockquote>
-<p>many women’s marches took place on 8th March,</p>
-</blockquote>
-</aside><p>Yes, I remember seeing one such parade in Dublin and been particularly galled by witnessing it. Hundreds of protesters tightly packed together many of whom were Spanish. What right I felt did they have as Spanish citizens who are wealthy enough  to study here to protest how women are treated in my country. How self absorbed I thought to insist on “ your right to protest” at such a time.</p>
-<p>A generation of activists who have never experienced any real hardship . Unfortunately the whole womens marches on the 8th March remains a fitting metaphor for the self absorption and the obsession over the wrong things of the times.</p>
-</div>
-			</article>
-		</li>
-				<li class="comment odd depth-1">
-			<article class="comment-body">
-				<footer class="comment-meta">
-					<div class="comment-author vcard">
-						<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/g/f04885/64.png" class="avatar avatar-64 photo avatar-default" height="64" width="64">
-						<b class="fn"><a href="https://forum.quillette.com/t/social-distancing-during-the-black-death/6556" rel="external" class="url">GeorgeQTyrebyter</a></b>
-						<span class="says screen-reader-text">says:</span><!-- screen reader text -->
-					</div>
-					<div class="comment-metadata">
-						<time datetime=""></time>
-					</div>
-				</footer>
-				<div class="comment-content"><p>There was a key difference between our time and the time of the plague - the presence of the older citizens who do not work.</p>
-<p>Quillette published a piece on “luxury beliefs” in Nov, 2019. These are defined as “Luxury beliefs are ideas and opinions that confer status on the rich at very little cost, while taking a toll on the lower class.” We have those with the current plague - a vast number of older persons are saying “DO NOT OPEN THE ECONOMY”. That’s because they get paid by pension or Social Security regardless of how the economy is doing. This is the very essence of a “luxury belief” - they want nothing but medical safety. Mostly they don’t give a shit about the single mom with the 2 kids who works as a waitress.</p>
-<p>The working poor, who have small children, are the ones who will be sacrificed in this. And also the persons who own small restaurants, bars, breweries, and other such places. In my small town, we have 8 small breweries. My guess is that 4 of the 8 will not survive. A small brewery was built 1/2 M from my house. Traffic is down, way down to that brewery.</p>
-<p>Yes, no one wants to die. I don’t want to die - I am 67, wife is 71, mom is 93. We are all in the higher-risk group. But even for Mom the risk is 15-20%. Not great but not certain death.</p>
-<p>There is a lot of exaggeration going on, a lot of hysteria, a lot of panicking.</p>
-</div>
-			</article>
-		</li>
-				<li class="comment even depth-1">
-			<article class="comment-body">
-				<footer class="comment-meta">
-					<div class="comment-author vcard">
-						<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/w/65b543/64.png" class="avatar avatar-64 photo avatar-default" height="64" width="64">
-						<b class="fn"><a href="https://forum.quillette.com/t/social-distancing-during-the-black-death/6556" rel="external" class="url">WRMF</a></b>
-						<span class="says screen-reader-text">says:</span><!-- screen reader text -->
-					</div>
-					<div class="comment-metadata">
-						<time datetime=""></time>
-					</div>
-				</footer>
-				<div class="comment-content"><p>Don’t know about the rest of the “Western Countries” but here in the US our federal government was 100% consumed by Impeachment. Alas, democracy died in darkness (again! sad …). There was no have time for pondering trivialities like the approaching Wuhan Flu. In fact, to even suggest Social Distancing people from China was RACIST.</p>
-<p>TW:CNN</p>
-<aside class="onebox whitelistedgeneric"><header class="source"><a href="https://www.cnn.com/2020/01/31/asia/wuhan-coronavirus-racism-fear-intl-hnk/index.html" target="_blank">CNN</a>
-  </header><article class="onebox-body"><div class="aspect-image"><img src="https://forum-cdn.quillette.com/original/2X/e/e692c29566cb1d513c1493db5f013731b3fb310e.jpeg" class="thumbnail"></div>
+			<div id="logo" title="National Enquirer">
+				<div>					<a href="https://www.nationalenquirer.com"><span class="screen-reader-only">NEQ logo</span><img src="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/nationalenquirer-logo.svg" alt="National Enquirer" width="210" height="35"></a>
+				</div>			</div>
+			<nav id="nav-pane" class="menu-header"><ul id="menu-main-menu" class="menu"><li id="menu-item-107126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-107126 has-tags"><a href="https://www.nationalenquirer.com/category/royal-gossip/" data-tagitem="999"  data-postitems="" >Royal Scandals</a></li>
+<li id="menu-item-107127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-107127 has-tags"><a href="https://www.nationalenquirer.com/tag/oj-simpson/" data-tagitem="547"  data-postitems="" >O.J. Simpson</a></li>
+</ul></nav>			<div id="tools">
+				<ul>
+					<li class="mobile-tips show-mobile">
+						<span class="tips asprite asp-env"><span class="screen-reader-only">GOT A TIP?</span></span>
+					</li>
+					<li class="search-modal">
+						<span class="asprite asp-srch"><span class="screen-reader-only">Search</span></span>
+					</li>
+                    <li class="cookies-dropdown__wrapper desktop-only">
+                        <span class="cookies-dropdown__trigger">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" class="cookies-dropdown__icon"><g data-name="Layer 2"><path d="M21 0a21 21 0 1021 21c0-.66 0-1.31-.09-1.8a1 1 0 00-1.53-.76 3.44 3.44 0 01-1.88.56 3.49 3.49 0 01-3.25-2.21 1 1 0 00-1.4-.51 6 6 0 01-8.13-8.13 1 1 0 00.06-.82 1 1 0 00-.57-.58A3.49 3.49 0 0123 3.5a3.44 3.44 0 01.56-1.88 1 1 0 00.05-1 1 1 0 00-.81-.53C22.27 0 21.65 0 21 0zm-3.5 11a1.5 1.5 0 11-1.5 1.5 1.5 1.5 0 011.5-1.5zM11 16a3 3 0 11-3 3 3 3 0 013-3zm9.5 4a1.5 1.5 0 11-1.5 1.5 1.5 1.5 0 011.5-1.5zM13 27a2 2 0 11-2 2 2 2 0 012-2zm13.5 1a2.5 2.5 0 11-2.5 2.5 2.5 2.5 0 012.5-2.5z" data-name="Layer 1"/></g></svg>
+                        </span>
+                        <ul class="cookies-dropdown__list">
+                            <li class="cookies-dropdown__item">
+                                <a href="https://www.americanmediainc.com/privacy-policy" target="_blank">Privacy Policy</a>
+                            </li>
+                            <li class="cookies-dropdown__item">
+                                <a href="https://www.americanmediainc.com/cookie-policy" target="_blank">Cookie Policy</a>
+                            </li>
+                            <li class="cookies-dropdown__item">
+                                <!-- OneTrust Cookies Settings button start -->
+								<a class="optanon-toggle-display" name="Manage Cookies">Manage Cookies</a>
+                                <!-- OneTrust Cookies Settings button end -->
+                            </li>
+                        </ul>
+                    </li>
+					<li class="soc-link"><a rel="me" class="icon-fb asprite asp-fb" href="https://www.facebook.com/TheNationalEnquirer/" title="Facebook"><span class="screen-reader-only">Follow NEQ on Facebook</span></a></li><li class="soc-link"><a rel="me" class=" icon-twitter asprite asp-twit" href="https://twitter.com/NatEnquirer" title="Twitter"><span class="screen-reader-only">Follow NEQ on Twitter</span></a></li>					<li class="tips desktop-tips hide-mobile"><a href="#">GOT A TIP?</a></li>
+				</ul>
 
-<h3><a href="https://www.cnn.com/2020/01/31/asia/wuhan-coronavirus-racism-fear-intl-hnk/index.html" target="_blank">As the coronavirus spreads, fear is fueling racism and xenophobia</a></h3>
+				<div class="search-popup">
+					<div class="close-search asprite asp-srch"><span class="screen-reader-only">Close search popup button</span></div>
+					<form role="search" method="get" class="searchform" action="https://www.nationalenquirer.com/search/">
+    <div id="search_form">
+		<label for="searchform-input" class="screen-reader-only">Search bar input, Start Typing To Search...</label>
+        <input type="text" value="" name="search" id="searchform-input" class="search-term" autofocus placeholder="Start Typing To Search..." />
+        <input type="submit" id="searchsubmit" value="GO" rel="nofollow" />
+    </div>
+</form>				</div>
+			</div>
+			<!-- Subscribe Desktop link -->
+			<a href="https://w1.buysub.com/servlet/OrdersGateway?cds_mag_code=DNE&cds_page_id=202106" rel="nofollow" target="_blank" class="subscribe-desktop">Subscribe</a>
+			<!-- /End Subscribe Desktop link -->
+		</div>
 
-<p>The panic around the coronavirus outbreak has led to the re-emergence of old racist tropes that portray Asians, their food, and their customs as unsafe and unwelcome.</p>
+		<div id="hidden-elements">
+			<div id="email_tips" class="hidden">
+				<div class="centered-elements">
+					<div class="close png-radar_x"></div>
+					<div class="arrow"></div>
+					<form id="email_us_tip">
+						<input type="hidden" name="action" value="radar_tip_form">
+							<div class="sender-info">
+								<div class="field-container"><label for="scoop-form-name">Name</label><input type="text" name="name" value="" required="required" id="scoop-form-name"></div>
+								<div class="field-container"><label for="scoop-form-email">Email</label><input type="email" name="email" value="" required="required" id="scoop-form-email"></div>
+								<div class="field-container"><label for="scoop-form-phone">Phone</label><input type="text" name="phone" value="" required="required" id="scoop-form-phone"></div>
+							</div>
+							<div class="sender-msg">
+								<label for="scoop-form-message">Type here Your Tip</label>
+								<textarea name="tip" required="required" id="scoop-form-message"></textarea>
+								<div id="captcha_div"></div>
+								<button type="submit"class="hide-mobile">send</button>
+							</div>
+							<div class="check-container">
+								<label for="subscribe_daily_juice" class="screen-reader-only">Checkbox, please sign me up to receive daily breaking news</label>
+								<input id="subscribe_daily_juice" type="checkbox" name="option3" value="signup" checked> Yes, please sign me up to receive daily breaking news <a href="http://www.americanmediainc.com/privacy-policy" target="_blank" class="header-privacy block-link">Privacy Policy</a>
+								<button type="submit" class="show-mobile">send</button>
+							</div>
+						</div>
+					</form>
+					<form method="post" action="#" id="postup-add-subscriber-form-checkbox" class="postup-add-subscriber-form daily-juice-form" style="display: none !important;">
+						<div class="postup-add-subscriber-errors" id="postup-add-subscriber-errors"></div>
+						<input type="hidden" name="postup_nonce" value="34f7111d00"/>
+						<input type="hidden" name="action" value="add_subscriber"/>
 
-
-  </article><div class="onebox-metadata">
-    
-    
-  </div>
-  <div style="clear: both"></div>
-</aside>
-</div>
-			</article>
-		</li>
-				<li class="comment odd depth-1">
-			<article class="comment-body">
-				<footer class="comment-meta">
-					<div class="comment-author vcard">
-						<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/d/87869e/64.png" class="avatar avatar-64 photo avatar-default" height="64" width="64">
-						<b class="fn"><a href="https://forum.quillette.com/t/social-distancing-during-the-black-death/6556" rel="external" class="url">dirk</a></b>
-						<span class="says screen-reader-text">says:</span><!-- screen reader text -->
-					</div>
-					<div class="comment-metadata">
-						<time datetime=""></time>
-					</div>
-				</footer>
-				<div class="comment-content"><p>Thanks, good to know it even happens in the US. In fact, I,m surprised it isn’t tried more often, hide out in the quiet , less populous and fresh country (Vermont? with all those hobby farmers??). In the NLs, very few people still have family or relations in the rural, as in NwYork, I think. But even in France, and certainly in Spain, Greece and Italy,  quite normal. I can understand that not everybody would be happy with the city dwellers right now, though!</p></div>
-			</article>
-		</li>
-				<li class="comment even depth-1">
-			<article class="comment-body">
-				<footer class="comment-meta">
-					<div class="comment-author vcard">
-						<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/w/65b543/64.png" class="avatar avatar-64 photo avatar-default" height="64" width="64">
-						<b class="fn"><a href="https://forum.quillette.com/t/social-distancing-during-the-black-death/6556" rel="external" class="url">WRMF</a></b>
-						<span class="says screen-reader-text">says:</span><!-- screen reader text -->
-					</div>
-					<div class="comment-metadata">
-						<time datetime=""></time>
-					</div>
-				</footer>
-				<div class="comment-content"><p>The Not Welcome sign is up everywhere across America.</p>
-<p>Even in lonely Wydaho, where I live:</p>
-<aside class="onebox whitelistedgeneric"><header class="source"><img src="https://www.jhnewsandguide.com/content/tncms/site/icon.ico" class="site-icon" width="16" height="16"><a href="https://www.jhnewsandguide.com/news/health/coronavirus/teton-valley-mayors-please-don-t-visit/article_6932e08e-4ce1-5902-b2f2-eab567613404.html" target="_blank">Jackson Hole News&amp;Guide</a>
-  </header><article class="onebox-body"><div class="aspect-image"><img src="https://forum-cdn.quillette.com/original/2X/1/1e20c3ecd39b252e31a178be3b579dfb7e5ced23.jpeg" class="thumbnail"></div>
-
-<h3><a href="https://www.jhnewsandguide.com/news/health/coronavirus/teton-valley-mayors-please-don-t-visit/article_6932e08e-4ce1-5902-b2f2-eab567613404.html" target="_blank">Teton Valley mayors: Please don't visit</a></h3>
-
-<p>Please don’t come here.</p>
-
-
-  </article><div class="onebox-metadata">
-    
-    
-  </div>
-  <div style="clear: both"></div>
-</aside><p>Keep in mind that “Wyoming” is an old Native American (“First Nation” in Canadian) term meaning “Social Distancing”</p>
-<p>We also have a home on Kauai, but if we tried to get there, we’d be hunted down, killed, and forced into 14 days quarantine without access to food (in that order):</p>
-<aside class="onebox whitelistedgeneric"><header class="source"><img src="https://www.thegardenisland.com/favicon.ico" class="site-icon" width="48" height="48"><a href="https://www.thegardenisland.com/2020/03/22/opinion/visitors-coming-now-are-selfish-inconsiderate/" target="_blank" title="10:05AM - 22 March 2020">The Garden Island – 22 Mar 20</a>
-  </header><article class="onebox-body"><div class="aspect-image"><img src="https://forum-cdn.quillette.com/original/2X/1/1057d6e101521388cce0d118ff763012633d6093.png" class="thumbnail"></div>
-
-<h3><a href="https://www.thegardenisland.com/2020/03/22/opinion/visitors-coming-now-are-selfish-inconsiderate/" target="_blank">Visitors coming now are selfish, inconsiderate - The Garden Island</a></h3>
-
-<p>I cannot believe, when I look at my FB feed, that FB friends of mine are still planning on coming to Kauai for vacations, retreats, gatherings, etc. from the mainland in the next couple of months. In the midst of a pandemic. Canceling your vacation...</p>
-
-
-  </article><div class="onebox-metadata">
-    
-    
-  </div>
-  <div style="clear: both"></div>
-</aside><p>Outsiders are unclean and need to stay out. If you are not already here, you are an outsider. Even if you live here, you are an outsider if you are not here.</p>
-</div>
-			</article>
-		</li>
-				<li class="comment odd depth-1">
-			<article class="comment-body">
-				<footer class="comment-meta">
-					<div class="comment-author vcard">
-						<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/b/f17d59/64.png" class="avatar avatar-64 photo avatar-default" height="64" width="64">
-						<b class="fn"><a href="https://forum.quillette.com/t/social-distancing-during-the-black-death/6556" rel="external" class="url">Benitacanova</a></b>
-						<span class="says screen-reader-text">says:</span><!-- screen reader text -->
-					</div>
-					<div class="comment-metadata">
-						<time datetime=""></time>
-					</div>
-				</footer>
-				<div class="comment-content"><p>What I got from my time in Spain is that the populace has a Pavlovian protest response to just about anything and everything. They just start swarming and yelling, either for or against.</p>
-<p>They are crowd people by nature. I remember walking into a bar that was blessedly half empty and sighing in relief, while the Spanish friend I was with was horrified by all that non-peopled space. If they can’t jostle, it just ain’t worth it.</p>
-</div>
-			</article>
-		</li>
-				<li class="comment even depth-1">
-			<article class="comment-body">
-				<footer class="comment-meta">
-					<div class="comment-author vcard">
-						<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/g/f04885/64.png" class="avatar avatar-64 photo avatar-default" height="64" width="64">
-						<b class="fn"><a href="https://forum.quillette.com/t/social-distancing-during-the-black-death/6556" rel="external" class="url">GeorgeQTyrebyter</a></b>
-						<span class="says screen-reader-text">says:</span><!-- screen reader text -->
-					</div>
-					<div class="comment-metadata">
-						<time datetime=""></time>
-					</div>
-				</footer>
-				<div class="comment-content"><aside class="quote no-group" data-post="26" data-topic="6556"><div class="title">
-<div class="quote-controls"></div>
-<img alt width="20" height="20" src="https://forum-cdn.quillette.com/user_avatar/forum.quillette.com/fuzzyheadedmang/40/156_2.png" class="avatar"> FuzzyHeadedMang:</div>
-<blockquote>
-<p>THe evidence from Italy and Spain and New York</p>
-</blockquote>
-</aside><p>No, actually there is a huge amount of panic and hysteria. In every state of the USA in which there is virus (that is, all states), there are many many many places with no virus. In my state, there are perhaps 400 towns, many of which are completely safe. In IL, there are hundreds of towns, and many of those are completely safe. A rational process would have 1) kept such towns open 2) had anyone who traveled in from outside self-isolate for 14 days and 3) change to full-on isolation after some number of cases (10 maybe) were found. Instead, the response in most states that lockdown has been to lockdown EVERYWHERE. This maximizes medical safety, but is going to absolutely destroy a ton of small businesses.</p>
-<p>The WHOLE POINT of the “flatten the curve” IS NOT to kill off the virus. It’s to slow the spread. We will likely all or most of us get the virus, unless there is a vaccine.</p>
-</div>
-			</article>
-		</li>
-				<li class="comment odd depth-1">
-			<article class="comment-body">
-				<footer class="comment-meta">
-					<div class="comment-author vcard">
-						<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/g/f04885/64.png" class="avatar avatar-64 photo avatar-default" height="64" width="64">
-						<b class="fn"><a href="https://forum.quillette.com/t/social-distancing-during-the-black-death/6556" rel="external" class="url">GeorgeQTyrebyter</a></b>
-						<span class="says screen-reader-text">says:</span><!-- screen reader text -->
-					</div>
-					<div class="comment-metadata">
-						<time datetime=""></time>
-					</div>
-				</footer>
-				<div class="comment-content"><aside class="quote no-group" data-post="28" data-topic="6556"><div class="title">
-<div class="quote-controls"></div>
-<img alt width="20" height="20" src="https://forum-cdn.quillette.com/user_avatar/forum.quillette.com/fuzzyheadedmang/40/156_2.png" class="avatar"> FuzzyHeadedMang:</div>
-<blockquote>
-<p>So basically, George, you say the medical experts are wrong and you know better than them what the situation is.</p>
-</blockquote>
-</aside><p>No, not at all. You need to practice deep breathing, and not jump into the deep water before you can swim. I am actually a biostatistician with multiple articles in the medical literature, and work in a med school in an adjunct manner.</p>
-<p>It’s possible for intelligent people to keep several thoughts in their mind at the same time. You may wish to try that.</p>
-</div>
-			</article>
-		</li>
-				<li class="comment even depth-1">
-			<article class="comment-body">
-				<footer class="comment-meta">
-					<div class="comment-author vcard">
-						<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/b/f17d59/64.png" class="avatar avatar-64 photo avatar-default" height="64" width="64">
-						<b class="fn"><a href="https://forum.quillette.com/t/social-distancing-during-the-black-death/6556" rel="external" class="url">Benitacanova</a></b>
-						<span class="says screen-reader-text">says:</span><!-- screen reader text -->
-					</div>
-					<div class="comment-metadata">
-						<time datetime=""></time>
-					</div>
-				</footer>
-				<div class="comment-content"><aside class="quote no-group" data-post="26" data-topic="6556"><div class="title">
-<div class="quote-controls"></div>
-<img alt width="20" height="20" src="https://forum-cdn.quillette.com/user_avatar/forum.quillette.com/fuzzyheadedmang/40/156_2.png" class="avatar"> FuzzyHeadedMang:</div>
-<blockquote>
-<p>THe evidence from Italy and Spain and New York<br>
-Re: what happens when you don’t control a pandemic until its too late, and the evidence from China, about what happens when you do control it</p>
-</blockquote>
-</aside><p>This hasn’t aged well.</p>
-</div>
-			</article>
-		</li>
-		</ol>
-			<div class="respond comment-respond">
-				<h3 id="reply-title" class="comment-reply-title">
-					Continue the discussion in 								<a class="wpdc-discourse-topic-link" target="_blank" href="https://forum.quillette.com/t/social-distancing-during-the-black-death/6556">Quillette Circle</a>
-							</h3>
-				<p class="more-replies">20 more replies</p>
-				<div class="comment-reply-title">
-					<h4 class="discourse-participants">Participants</h4>
-					<p>		<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/d/db5fbb/64.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-				<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/g/f04885/64.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-				<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/t/3da27b/64.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-				<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/a/45deac/64.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-				<img alt="" src="https://forum-cdn.quillette.com/user_avatar/forum.quillette.com/forthay/64/430_2.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-				<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/j/ecae2f/64.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-				<img alt="" src="https://forum-cdn.quillette.com/user_avatar/forum.quillette.com/indyka/64/1500_2.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-				<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/w/65b543/64.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-				<img alt="" src="https://forum-cdn.quillette.com/user_avatar/forum.quillette.com/ship/64/657_2.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-				<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/d/87869e/64.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-				<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/m/58956e/64.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-				<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/b/f17d59/64.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-				<img alt="" src="https://forum-cdn.quillette.com/user_avatar/forum.quillette.com/halifaxcb/64/524_2.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-				<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/m/77aa72/64.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-				<img alt="" src="https://forum-cdn.quillette.com/user_avatar/forum.quillette.com/fuzzyheadedmang/64/156_2.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-				<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/c/58956e/64.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-				<img alt="" src="https://forum-cdn.quillette.com/user_avatar/forum.quillette.com/quillette/64/1107_2.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-				<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/c/9d8465/64.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-				<img alt="" src="https://forum-cdn.quillette.com/letter_avatar_proxy/v4/letter/j/ce7236/64.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-				<img alt="" src="https://forum-cdn.quillette.com/user_avatar/forum.quillette.com/morganfoster/64/6065_2.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-				<img alt="" src="https://forum-cdn.quillette.com/user_avatar/forum.quillette.com/geary_johansen2020/64/4313_2.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-				<img alt="" src="https://forum-cdn.quillette.com/user_avatar/forum.quillette.com/beyondmedia/64/2475_2.png" class="avatar avatar-25 photo avatar-default" height="25" width="25">
-		</p>
+						<div class="bg-input">
+							<label for="postup_email" class="screen-reader-only">Enter your email address to subscribe for Free breaking news updates</label>
+							<input type="text" name="email" id="postup_email" value="" placeholder="enter your email address"/>
+							<input type="submit" value="Submit">
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>
-		<div class="discourse-existing-comments-heading">Comments have moved to our forum</div>
-	<div id="comments" class="comments-area">
-
-	
-	<h3 class="comments-title">
-		48 Comments	</h3>
-
-	<ol class="commentlist">
-			<li class="pingback">
-		<p><span>Pingback:</span> <a href='https://melbournesnews.com.au/the-new-center-thinklab/' rel='external nofollow' class='url'>The New Center &#124; Thinklab</a></p>
-		<p class="pingback-edit"></p>
-	</li><!-- #comment-## -->
-	<li class="pingback">
-		<p><span>Pingback:</span> <a href='https://infobuzz.ro/moartea-neagra-a-ucis-jumatate-din-populatia-europei/' rel='external nofollow' class='url'>&#8220;moartea neagră&#8221; a ucis jumătate din populația Europei | InfoBuzz - blog</a></p>
-		<p class="pingback-edit"></p>
-	</li><!-- #comment-## -->
-	<li class="pingback">
-		<p><span>Pingback:</span> <a href='https://tntplay.ro/povestea-mai-putin-cunoscuta-despre-cum-ciuma-a-schimbat-lumea/' rel='external nofollow' class='url'>Povestea mai puțin cunoscută despre cum ciuma a schimbat lumea &#8211; TNTPlay | Stiri din orice domenii</a></p>
-		<p class="pingback-edit"></p>
-	</li><!-- #comment-## -->
-	<li class="pingback">
-		<p><span>Pingback:</span> <a href='https://webdesigndoru.wordpress.com/2020/03/29/povestea-mai-putin-cunoscuta-despre-cum-ciuma-a-schimbat-lumea/' rel='external nofollow' class='url'>Povestea mai puțin cunoscută despre cum ciuma a schimbat lumea &#8211; WEB-DESIGNDORU PROIECTARE SI DEZVOLTARE WEBSITE-URI WINDOWS LINUX SMART ZONE</a></p>
-		<p class="pingback-edit"></p>
-	</li><!-- #comment-## -->
-	<li class="pingback">
-		<p><span>Pingback:</span> <a href='https://www.palisatrium.com/2020/03/29/coronavirus/' rel='external nofollow' class='url'>Complete Coronavirus Center - Updated Daily - Palisatrium</a></p>
-		<p class="pingback-edit"></p>
-	</li><!-- #comment-## -->
-	<li class="pingback">
-		<p><span>Pingback:</span> <a href='http://www.crispreport.com/2020/03/30/social-distancing-during-the-black-death/' rel='external nofollow' class='url'>Social Distancing During the Black Death | Crispreport</a></p>
-		<p class="pingback-edit"></p>
-	</li><!-- #comment-## -->
-	<li class="pingback">
-		<p><span>Pingback:</span> <a href='https://cersipamantromanesc.wordpress.com/2020/03/30/omenirea-in-timpul-mortii-negre-cea-mai-ucigatoare-pandemie-cunoscuta-pana-in-zilele-noastre/' rel='external nofollow' class='url'>Omenirea în timpul Morții Negre, cea mai ucigătoare pandemie cunoscută până în zilele noastre &laquo; CER SI PAMANT ROMANESC</a></p>
-		<p class="pingback-edit"></p>
-	</li><!-- #comment-## -->
-	<li class="pingback">
-		<p><span>Pingback:</span> <a href='https://autopresse.eu/social-distancing-during-the-black-death-autopresse-eu/' rel='external nofollow' class='url'>Social Distancing Through the Black Demise-Autopresse.eu - Autopresse</a></p>
-		<p class="pingback-edit"></p>
-	</li><!-- #comment-## -->
-	<li class="pingback">
-		<p><span>Pingback:</span> <a href='https://lastmanthere.info/social-distancing-during-the-black-death-quillette/' rel='external nofollow' class='url'>Social Distancing During the Black Death &#8211; Quillette &#8211; R48G: Revolutions per second</a></p>
-		<p class="pingback-edit"></p>
-	</li><!-- #comment-## -->
-	<li class="pingback">
-		<p><span>Pingback:</span> <a href='https://burnedoverdistrictobserver.wordpress.com/2020/04/02/will-coronavirus-produce-a-boccaccio/' rel='external nofollow' class='url'>Will Coronavirus Produce a Boccaccio? | New Amsterdam Paleoconservative</a></p>
-		<p class="pingback-edit"></p>
-	</li><!-- #comment-## -->
-	<li class="pingback">
-		<p><span>Pingback:</span> <a href='https://www.gb7.net/2020/04/covid/508' rel='external nofollow' class='url'>readings of note</a></p>
-		<p class="pingback-edit"></p>
-	</li><!-- #comment-## -->
-	<li class="pingback">
-		<p><span>Pingback:</span> <a href='https://ruasbumi.wordpress.com/2020/04/05/keterpurukan-pandemi-dalam-sejarah/' rel='external nofollow' class='url'>PANDEMI DALAM SEJARAH : SEBUAH KETERPURUKAN YANG TERULANG &#8211; RUAS BUMI.</a></p>
-		<p class="pingback-edit"></p>
-	</li><!-- #comment-## -->
-	<li class="pingback">
-		<p><span>Pingback:</span> <a href='https://janetakesonhistory.org/2020/04/07/april-history-news-plague-doctors-with-beaks-fresh-air/' rel='external nofollow' class='url'>April History News: Plague Doctors with Beaks. . . Fresh Air. . . | Jane Takes On History</a></p>
-		<p class="pingback-edit"></p>
-	</li><!-- #comment-## -->
-	</ol><!-- end .comment-list -->
-
-		
-			<p class="nocomments">Comments are closed.</p>
-	
-	
-	
-	</div><!-- #comments .comments-area -->
-
-
-			<div class="nav-wrap cf">
-		<nav id="nav-single">
-			<div class="nav-previous"><a href="https://quillette.com/2020/03/28/the-case-for-economic-hibernation-during-the-covid-19-lockdowns/" rel="prev"><span class="meta-nav">Previous Post</span>The Case for Economic Hibernation during the COVID-19 Lockdowns</a></div>
-			<div class="nav-next"><a href="https://quillette.com/2020/03/29/denmarks-weapons-against-covid-19-early-action-high-trust-and-a-no-nonsense-queen/" rel="next"><span class="meta-nav">Next Post</span>Denmark’s Weapons Against COVID-19: Early Action, High Trust—and a No-Nonsense Queen</a></div>
-		</nav><!-- #nav-single -->
-	</div><!-- end .nav-wrap -->
-	
-	</div><!-- end #primary -->
-
-<div id="blog-sidebar" class="default-sidebar widget-area" role="complementary">
-	<aside id="adwidget_imagewidget-12" class="widget AdWidget_ImageWidget"><a target="_blank" href='https://lp.constantcontactpages.com/su/S1rJPHh/bookclub' alt='Ad'><img style='width: 100%;' src='https://d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/03/28000759/Quarantine-Book-Club-2.png' alt='Ad'/></a></aside><aside id="adwidget_htmlwidget-26" class="widget AdWidget_HTMLWidget"><div style='text-align: center;'><div id="Right2"></div></div></aside><aside id="zuki_recentposts_color-20" class="widget widget_zuki_recentposts_color">
-		<div class="widget-title-wrap"><h3 class="widget-title"><span>Podcast</span></h3></div>
-
-<div class="bg-wrap cf">
-
-   
-   <article class="rp-color cf">
-	   			 <div class="entry-thumb">
-				 <a href="https://quillette.com/2020/04/09/podcast-86-dr-michael-shermer-on-his-new-book-giving-the-devil-his-due/" title="Permalink to PODCAST 86: Dr Michael Shermer on His New Book Giving the Devil His Due"><img width="420" height="560" src="https://i2.wp.com/d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/04/11052653/Untitled-design-37.png?resize=420%2C560&amp;ssl=1" class="attachment-zuki-medium-portrait size-zuki-medium-portrait wp-post-image jetpack-lazy-image" alt="" data-lazy-srcset="https://d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/04/11052653/Untitled-design-37.png 420w, https://d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/04/11052653/Untitled-design-37.png 840w" data-lazy-sizes="(max-width: 420px) 100vw, 420px" data-lazy-src="https://i2.wp.com/d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/04/11052653/Untitled-design-37.png?resize=420%2C560&amp;ssl=1&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></a>
-			</div><!-- end .entry-thumb -->
-		
-		<header class="entry-header">
-			<div class="entry-cats">
-				<a href="https://quillette.com/category/podcast/" rel="category tag">Podcast</a>			</div><!-- end .entry-cats -->
-			<h3 class="entry-title"><a href="https://quillette.com/2020/04/09/podcast-86-dr-michael-shermer-on-his-new-book-giving-the-devil-his-due/" title="Permalink to PODCAST 86: Dr Michael Shermer on His New Book Giving the Devil His Due">PODCAST 86: Dr Michael Shermer on His New Book Giving the Devil His Due</a></h3>
-		</header>
-		<div class="story">
-			<p class="summary">Science writer, author and Skeptic editor-in-chief Michael Shermer talks to Toby Young about his new book Giving the Devil His Due: Reflections of a Scientific Humanist. They talk about a...</p>
-			<footer class="entry-footer">
-				<div class="entry-date"><a href="https://quillette.com/2020/04/09/podcast-86-dr-michael-shermer-on-his-new-book-giving-the-devil-his-due/" class="entry-date">April 9, 2020</a></div>
-							</footer>
-		</div><!--end .story -->
-    </article><!--end .rp-color -->
-
-   
-</div><!--end .bg-wrap -->
-
-	   </aside><aside id="adwidget_imagewidget-13" class="widget AdWidget_ImageWidget"><a target="_blank" href='https://lp.constantcontactpages.com/su/S1rJPHh/bookclub' alt='Ad'><img style='width: 100%;' src='https://d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/03/28000759/Quarantine-Book-Club-2.png' alt='Ad'/></a></aside><aside id="custom_html-2" class="widget_text widget widget_custom_html"><h3 class="widget-title">Share</h3><div class="textwidget custom-html-widget"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-<ul style="padding:0">
-<li>
-<button onclick="window.open('https://www.facebook.com/dialog/share?app_id=586833251482093&display=popup&href=' + encodeURIComponent(document.URL) + '&redirect_uri=' + encodeURIComponent(document.URL), '_blank', 'width=550,height=420')" onmouseover="this.style.cursor='pointer'" onmouseenter="this.style.color='#999'" onmouseout="this.style.color='inherit'" style="border:0;background:none;padding:0;color:inherit;"><i class="fa fa-facebook-official" aria-hidden="true" style="font-size:48px"></i></button>
-</li>
-<li>
-<button onclick="window.open('https://twitter.com/intent/tweet?url=' + encodeURIComponent(document.URL) + '&text=' + encodeURIComponent(document.title) + '&via=Quillette', '_blank', 'width=550,height=420')" onmouseover="this.style.cursor='pointer'" onmouseenter="this.style.color='#999'" onmouseout="this.style.color='inherit'" style="border:0;background:none;padding:0;color:inherit;"><i class="fa fa-twitter" aria-hidden="true" style="font-size:48px"></i></button>
-</li>
-</ul></div></aside></div><!-- end #blog-sidebar -->
-
-
-<div id="footerwidgets-wrap" class="cf">
-			<div id="footer-one" class="default-sidebar widget-area" role="complementary">
-			<aside id="custom_html-4" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><!-- Begin Constant Contact Active Forms -->
-<script>var _ctct_m="a6a514976a5987fd56550135dd59b71a";</script>
-<script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
-<!-- End Constant Contact Active Forms --></div></aside>		</div><!-- end #footer-one -->
-	
-	
-	
-			<div id="footer-four" class="default-sidebar widget-area" role="complementary">
-			<aside id="eu_cookie_law_widget-2" class="widget widget_eu_cookie_law_widget"><div class="hide-on-button ads-active" data-hide-timeout="5" data-consent-expiration="180" id="eu-cookie-law">
-	<form method="post">
-		<input type="submit" value="Close and accept" class="accept"/>
-	</form>
-
-	Privacy &amp; Cookies: This site uses cookies. By continuing to use this website, you agree to their use. <br/>
-To find out more, including how to control cookies, see here:
-	<a href="https://automattic.com/cookies/">
-		Cookie Policy	</a>
-</div>
-</aside>		</div><!-- end #footer-four -->
-	
-	</div><!-- end #footerwidgets-wrap -->
-<footer id="colophon" class="site-footer cf">
-			<p class="site-description">Free Thought Lives</p>
-	
-			<div id="footer-social-nav">
-							<h3 class="social-nav-title">Follow Us</h3>
-						<ul id="menu-social" class="menu"><li id="menu-item-71138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71138"><a href="https://www.facebook.com/Quillette-923721701039919/">Menu Item</a></li>
-<li id="menu-item-71135" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71135"><a href="https://twitter.com/Quillette">Menu Item</a></li>
-</ul>		</div><!-- end #footer-social -->
-	
-	<div id="site-info">
-		<ul class="credit" role="contentinfo">
-							<li>Copyright © 2019 Quillette Pty Ltd | All Rights Reserved</li>
-					</ul><!-- end .credit -->
-	</div><!-- end #site-info -->
-
-</footer><!-- end #colophon -->
-</div><!-- end #main-wrap -->
-
-</div><!-- end #container -->
-
-<!-- Jetpack Google Analytics -->
-			<script type='text/javascript'>var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-68484579-1']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'===document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
-	<div style="display:none">
 	</div>
+</header>
+<!--googleon: index-->
 
-	<script type="text/javascript">window.WPCOM_sharing_counts={"https:\/\/quillette.com\/2020\/03\/28\/social-distancing-during-the-black-death\/":98210};</script>
-						<script>function jetpack_sharing_pocket_init(){jQuery.getScript('https://widgets.getpocket.com/v1/j/btn.js?v=1');}
-jQuery(document).ready(jetpack_sharing_pocket_init);jQuery(document.body).on('post-load',jetpack_sharing_pocket_init);</script>
-		<script type="text/javascript">jQuery(document).ready(function(){jQuery.getScript('https://platform.linkedin.com/in.js?async=true',function success(){IN.init();});});jQuery(document.body).on('post-load',function(){if(typeof IN!='undefined')
-IN.parse();});</script>	<div id="sharing_email" style="display: none;">
-		<form action="/2020/03/28/social-distancing-during-the-black-death/" method="post">
-			<label for="target_email">Send to Email Address</label>
-			<input type="email" name="target_email" id="target_email" value=""/>
+<div id="content-wrapper">
+			<div id="leaderboard_wrap">
+			<div id="leaderboard-holder" class="height-auto sticky_banner">
+				<div id="leaderboard"><div id="gpt_ads-2" class="widget widget-gpt">		<div id="dfp-tag-horizontal-position-1" class="dfp-slot dfp-container adonis-marker"></div>
+		</div><div id="gpt_ads-3" class="widget widget-gpt">		<div id="dfp-tag-mobile_top" class="dfp-slot dfp-container "></div>
+		</div></div>
+			</div>
+		</div>
+	
 
-			
-				<label for="source_name">Your Name</label>
-				<input type="text" name="source_name" id="source_name" value=""/>
 
-				<label for="source_email">Your Email Address</label>
-				<input type="email" name="source_email" id="source_email" value=""/>
 
-						<input type="text" id="jetpack-source_f_name" name="source_f_name" class="input" value="" size="25" autocomplete="off" title="This field is for validation and should not be changed"/>
-			
-			<img style="float: right; display: none" class="loading" src="https://quillette.com/wp-content/plugins/jetpack/modules/sharedaddy/images/loading.gif" alt="loading" width="16" height="16"/>
-			<input type="submit" value="Send Email" class="sharing_send"/>
-			<a rel="nofollow" href="#cancel" class="sharing_cancel" role="button">Cancel</a>
+	<div class="post-container">
 
-			<div class="errors errors-1" style="display: none;">
-				Post was not sent - check your email addresses!			</div>
+						<div class="mobile-only-hero-image"><div class='radar-thumb radar-gallery-thumb'><div class='centring-box'><div><img width="408" height="229" src="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-pp.jpg?resize=408%2C229&#038;ssl=1" data-thumbnail="false" class="attachment-408x229 size-408x229 wp-post-image" alt="Goldie Hawn and Kurt Russell Relationship Secrets"></div></div></div></div>			<article id="post-280661" class="post post-280661 type-post status-publish format-gallery has-post-thumbnail category-celebrity tag-goldie-hawn tag-kurt-russell post_format-post-format-gallery">
+				<section id="article-top-part">
+										<header class="entry-header">
+						<div class='post-flag'>Trouble in Love!</div>						<h1 class="entry-title">Goldie Hawn and Kurt Russell&#8217;s Relationship Secrets Exposed!</h1>
+						<h2 class="entry-subtitle">Inside their 36 years of surprising ups and downs!</h2>								<span class="record-trigger"></span>
+								<div class="entry-meta">
+							<div class='author-date'><span class='avatar'><img alt='' src='https://secure.gravatar.com/avatar/04f082eec183205c28a957949c1a0389?s=64&#038;d=identicon&#038;r=g' srcset='https://secure.gravatar.com/avatar/04f082eec183205c28a957949c1a0389?s=128&#038;d=identicon&#038;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /></span><div class='author-details'>
+		                                    <span class='by no-border'>By <a href="https://www.nationalenquirer.com/author/nestaff/" title="Posts by National ENQUIRER Staff" rel="author">National ENQUIRER Staff</a></span>
+                                        
+                                </div>
+                                <div class="posted-date"><time content="2019-03-19T12:57:18-04:00">Mar 19, 2019 @ 12:57PM</time></div> <div class="modified-date"><time content="2019-03-19T12:57:18-04:00">Mar 19, 2019 @ 12:57PM</time></div>
+                                </div>						</div>
+					</header>
 
-			<div class="errors errors-2" style="display: none;">
-				Email check failed, please try again			</div>
+					<div class="radar-media-box">
+						<figure><span class="gallery-button-wrapper"><div class="slide_share-bar mobile-only"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-280661" class="share-twitter sd-button share-icon no-text" href="https://www.nationalenquirer.com/photos/goldie-hawn-and-kurt-russells-relationship-secrets-exposed/?share=twitter" target="_blank" title="Click to share on Twitter"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter (Opens in new window)</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-280661" class="share-facebook sd-button share-icon no-text" href="https://www.nationalenquirer.com/photos/goldie-hawn-and-kurt-russells-relationship-secrets-exposed/?share=facebook" target="_blank" title="Click to share on Facebook"><span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)</span></a></li><li class="share-end"></li></ul></div></div></div></div><div class='radar-thumb radar-gallery-thumb'><div class='centring-box'><div><img width="540" height="400" src="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-pp.jpg?resize=540%2C400&#038;ssl=1" data-thumbnail="false" class="attachment-540x400 size-540x400 wp-post-image" alt="Goldie Hawn and Kurt Russell Relationship Secrets"></div></div></div><a href="#" class="gallery-link">View gallery <span class="gallery-total-count">8</span></a></span><div class="absolute-credit"><div class='photo_credit'>Getty Images</div></div></figure>					</div>
 
-			<div class="errors errors-3" style="display: none;">
-				Sorry, your blog cannot share posts by email.			</div>
+					<div class="entry" id="ami-post-content">
+						
+<p>Hollywood duo <a href="v">Goldie Hawn</a> and <a href="https://www.nationalenquirer.com/search/?search=kurt+russell">Kurt Russell</a> have been together for a whopping 36 years, but they’ve yet to make it down the aisle!</p>
+<p>The pair doesn’t call themselves husband and wife, but that doesn’t mean their three-decade-long relationship hasn’t had its fair share of ups and downs! In fact, The <em>National ENQUIRER</em> has dug up some of Goldie and Kurt’s darkest relationship secrets!</p>
+<div id="dfp-tag-sharethrough" class="dfp-slot dfp-container dfp-tag-sharethrough " data-position="sharethrough"></div>
+<p><strong>Click through the gallery above for the biggest woes of their relationship!</strong></p>
+									<div class="fs-gallery_wrapper">
+				<!-- This is just a fallback and should be removed after accessibility tickets release -->
+				<style type="text/css">
+					.screen-reader-only {
+						position: absolute;
+						left: -10000px;
+						top: auto;
+						width: 1px;
+						height: 1px;
+						overflow: hidden;
+					}
+				</style>
+				<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"ImageGallery","description":" Hollywood duo Goldie Hawn and Kurt Russell have been together for a whopping 36 years,...","image":[{"@type":"ImageObject","datePublished":"2019-03-19T11:20:07-04:00","caption":"A source told The EXAMINER\u00a0in May 2018 that Goldie has no desire to walk down the aisle to Kurt. \"Goldie is a strong, independent woman, and she likes standing on her own two feet,\" a pal dished. \"She doesn't feel the need to get married and hasn't felt that way for many years.\"","url":"https:\/\/i0.heartyhosting.com\/www.nationalenquirer.com\/wp-content\/uploads\/2019\/03\/goldie-hawn-and-kurt-russell-relationship-secrets-529138737.jpg?resize=1200%2C1200&ssl=1","width":"1200","height":"1200"},{"@type":"ImageObject","datePublished":"2019-03-19T11:20:07-04:00","caption":"\u201cGoldie doesn\u2019t want to be tied down to any man,\u201d the pal dished to The EXAMINER. \u201cShe\u2019s OK being by herself and is perfectly comfortable in her own skin \u2014 she\u2019d even live on her own if she had to!\u201d","url":"https:\/\/i0.heartyhosting.com\/www.nationalenquirer.com\/wp-content\/uploads\/2019\/03\/goldie-hawn-and-kurt-russell-relationship-secrets-126614707.jpg?resize=1200%2C1200&ssl=1","width":"1200","height":"1200"},{"@type":"ImageObject","datePublished":"2019-03-19T11:20:08-04:00","caption":"Back in 2000, 17 years into their relationship, Kurt was spotted leaving a seedy massage parlor in Santa Monica behind Goldie's back. The sketchy move allegedly caused a strain in their relationship. ","url":"https:\/\/i0.heartyhosting.com\/www.nationalenquirer.com\/wp-content\/uploads\/2019\/03\/goldie-hawn-and-kurt-russell-relationship-secrets-113519675.jpg?resize=1200%2C1200&ssl=1","width":"1200","height":"1200"},{"@type":"ImageObject","datePublished":"2019-03-19T11:20:08-04:00","caption":"The National ENQUIRER exclusively revealed in 2015 that Kurt has quite the temper! \u201cKurt\u2019s anger issues have gotten worse. He yells and screams at Goldie all the time over stupid things, and their sex life has fallen off,\u201d the source revealed.","url":"https:\/\/i0.heartyhosting.com\/www.nationalenquirer.com\/wp-content\/uploads\/2019\/03\/goldie-hawn-and-kurt-russell-relationship-secrets-1132896180.jpg?resize=1200%2C1200&ssl=1","width":"1200","height":"1200"},{"@type":"ImageObject","datePublished":"2019-03-19T11:20:08-04:00","caption":"In June 2018, The EXAMINER revealed that Goldie and Tom were hiding a sexy secret from the world \u2014 they were in love! \"Goldie was ecstatic about her relationship with Tom,\" a source said at the time. \"She said she loved him and he loved her.\"\n\nAlthough this was long before Kurt's days, an insider revealed they were \"very loving and warm to one another\" at parties. \"They would openly kiss and cuddle, and hey got together every chance they could!\" the insider added.","url":"https:\/\/i0.heartyhosting.com\/www.nationalenquirer.com\/wp-content\/uploads\/2019\/03\/goldie-hawn-and-kurt-russell-relationship-secrets-1011177192.jpg?resize=1200%2C1200&ssl=1","width":"1200","height":"1200"},{"@type":"ImageObject","datePublished":"2019-03-19T11:20:09-04:00","caption":"In February 2017, Goldie was spotted having lunch with a hunk \u2014 an explosive scandal that almost wrecked their relationship!\n\n\u201cThey had lunch together, \u201d says another source. \u201cThey arrived together in a Tesla Model S, and they looked very, very at ease and happy. They high-fived and kept laughing it up.\u201d\n\nThe eyewitness added that her date \"had his hands all over Goldie. He even gave her a big kiss with his arms around her.\"","url":"https:\/\/i0.heartyhosting.com\/www.nationalenquirer.com\/wp-content\/uploads\/2019\/03\/goldie-hawn-and-kurt-russell-relationship-secrets-813584616.jpg?resize=1200%2C1200&ssl=1","width":"1200","height":"1200"},{"@type":"ImageObject","datePublished":"2019-03-19T11:20:08-04:00","caption":"No wonder the couple has yet to say \"I do\" \u2014 they've both been married before! Goldie was hitched to Gus Trikonis from 1969 until 1976, and to Bill Hudson from 1976 until 1982, with whom she welcomed son Oliver, 42, and daughter Kate, 39.\n\nKurt was married to Season Hubley from 1979 until 1983, and he's a dad to son Boston, 39, from that union. \n","url":"https:\/\/i0.heartyhosting.com\/www.nationalenquirer.com\/wp-content\/uploads\/2019\/03\/goldie-hawn-and-kurt-russell-relationship-secrets-625776126.jpg?resize=1200%2C1200&ssl=1","width":"1200","height":"1200"},{"@type":"ImageObject","datePublished":"2019-03-19T11:20:09-04:00","caption":"Even though they never married, Goldie and Kurt are parents to a 32-year-old son, Wyatt, whom they welcomed in July of 1986.","url":"https:\/\/i0.heartyhosting.com\/www.nationalenquirer.com\/wp-content\/uploads\/2019\/03\/goldie-hawn-and-kurt-russell-relationship-secrets-173109812.jpg?resize=1200%2C1200&ssl=1","width":"1200","height":"1200"}]}</script>
+                
+
+				<!-- Gallery HEADER -->
+				<div class="fs-gallery_header">
+					<div class="left-col">
+						<div class="site-logo">
+							<a class="logo_link" href="https://www.nationalenquirer.com/" title="National Enquirer" rel="home">
+								<img src="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/nationalenquirer-logo.svg" alt="National Enquirer" width="126" height="64">
+							</a>
+						</div>
+						<div class="gallery-title">
+							<span>Goldie Hawn and Kurt Russell&#8217;s Relationship Secrets Exposed!</span>
+						</div>
+					</div>
+
+					<div class="right-col">
+						<div class="gallery-counter">
+							<span class="current"> 1 </span>
+							of
+							<span class="total"> 8 </span>
+						</div>
+						<div class="gallery-close_button">
+							<a href="#" class="gallery-close_btn"><span class="screen-reader-only">Close gallery</span></a>
+						</div>
+					</div>
+				</div>
+				<!-- END Gallery header -->
+
+
+				<!-- Gallery BODY -->
+				<div class="fs-gallery_body">
+					<!-- Gallery main block -->
+					<div class="fs-gallery_main">
+						<div class="fs-gallery_slick">
+							<div data-item-number='1' data-item-id='280669' id='280669' class='ami-image-type ami-gallery-item ami-gallery-item-0 ami-gallery-item-id-280669 ami-gallery-item-image'><p class='gallery-counter mobile-only'><span>1</span> of <span>8</span></p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" data-sizes="(min-width: 768px) 1000px, 100vw" data-lazy="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-529138737.jpg?w=750&#038;ssl=1" data-srcset="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-529138737.jpg?fit=1380%2C880&#038;ssl=1 1000w, https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-529138737.jpg?w=750&#038;ssl=1 500w" alt="Goldie Doesn’t Want To Get Married" ><div class="caption-slide mobile-only"><h3>Goldie Doesn’t Want To Get Married</h3><div class="gallery-item-caption">A source told The <em>EXAMINER </em>in May 2018 that Goldie has no desire to walk down the aisle to Kurt. "Goldie is a strong, independent woman, and she likes standing on her own two feet," a pal dished. "She doesn't feel the need to get married and hasn't felt that way for many years."</div><p class="gallery-photo-credit">Photo credit: Getty Images</p></div><div id="dfp-tag-yieldmo" class="mobile-only dfp-slot dfp-container mobile"></div></div><div data-item-number='2' data-item-id='280670' id='280670' class='ami-image-type ami-gallery-item ami-gallery-item-1 ami-gallery-item-id-280670 ami-gallery-item-image'><p class='gallery-counter mobile-only'><span>2</span> of <span>8</span></p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" data-sizes="(min-width: 768px) 1000px, 100vw" data-lazy="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-126614707.jpg?w=750&#038;ssl=1" data-srcset="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-126614707.jpg?fit=1380%2C880&#038;ssl=1 1000w, https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-126614707.jpg?w=750&#038;ssl=1 500w" alt="Goldie Would Live Without Kurt If She Had To" ><div class="caption-slide mobile-only"><h3>Goldie Would Live Without Kurt If She Had To</h3><div class="gallery-item-caption">“Goldie doesn’t want to be tied down to any man,” the pal dished to The <em>EXAMINER</em>. “She’s OK being by herself and is perfectly comfortable in her own skin — she’d even live on her own if she had to!”</div><p class="gallery-photo-credit">Photo credit: Getty Images</p></div><div id="dfp-tag-mobile_box" class="mobile-only dfp-slot dfp-container dfp-tag-mobile_box mobile" style="width: 300px; height: 250px; margin:0 auto;" ></div></div><div data-item-number='3' data-item-id='280671' id='280671' class='ami-image-type ami-gallery-item ami-gallery-item-2 ami-gallery-item-id-280671 ami-gallery-item-image'><p class='gallery-counter mobile-only'><span>3</span> of <span>8</span></p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" data-sizes="(min-width: 768px) 1000px, 100vw" data-lazy="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-113519675.jpg?w=750&#038;ssl=1" data-srcset="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-113519675.jpg?fit=1380%2C880&#038;ssl=1 1000w, https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-113519675.jpg?w=750&#038;ssl=1 500w" alt="Kurt Was Once Spotted Leaving A Massage Parlor" ><div class="caption-slide mobile-only"><h3>Kurt Was Once Spotted Leaving A Massage Parlor</h3><div class="gallery-item-caption">Back in 2000, 17 years into their relationship, Kurt was spotted leaving a seedy massage parlor in Santa Monica behind Goldie's back. The sketchy move allegedly caused a strain in their relationship. </div><p class="gallery-photo-credit">Photo credit: Getty Images</p></div></div><div data-item-number='4' data-item-id='280672' id='280672' class='ami-image-type ami-gallery-item ami-gallery-item-3 ami-gallery-item-id-280672 ami-gallery-item-image'><p class='gallery-counter mobile-only'><span>4</span> of <span>8</span></p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" data-sizes="(min-width: 768px) 1000px, 100vw" data-lazy="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-1132896180.jpg?w=750&#038;ssl=1" data-srcset="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-1132896180.jpg?fit=1380%2C880&#038;ssl=1 1000w, https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-1132896180.jpg?w=750&#038;ssl=1 500w" alt="Kurt Has Some Serious Anger Issues" ><div class="caption-slide mobile-only"><h3>Kurt Has Some Serious Anger Issues</h3><div class="gallery-item-caption">The <em>National ENQUIRER</em> exclusively revealed in 2015 that Kurt has quite the temper! “Kurt’s anger issues have gotten worse. He yells and screams at Goldie all the time over stupid things, and their sex life has fallen off,” the source revealed.</div><p class="gallery-photo-credit">Photo credit: Getty Images</p></div><div id="dfp-tag-mobile_box-1" class="mobile-only dfp-slot dfp-container dfp-tag-mobile_box mobile" style="width: 300px; height: 250px; margin:0 auto;" ></div>											<script>
+												if(inMobileViewPort) {
+													
+													llSlots['dfp-tag-mobile_box-1'] = {"id": "dfp-tag-mobile_box-1", "name": "dfp-tag-mobile_box", "device": "mobile", "size": [[300, 250]], "mapping": "", "correlator": true};
+												}
+											</script>
+											</div><div data-item-number='5' data-item-id='280673' id='280673' class='ami-image-type ami-gallery-item ami-gallery-item-4 ami-gallery-item-id-280673 ami-gallery-item-image'><p class='gallery-counter mobile-only'><span>5</span> of <span>8</span></p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" data-sizes="(min-width: 768px) 1000px, 100vw" data-lazy="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-1011177192.jpg?w=750&#038;ssl=1" data-srcset="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-1011177192.jpg?fit=1380%2C880&#038;ssl=1 1000w, https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-1011177192.jpg?w=750&#038;ssl=1 500w" alt="Goldie Was Once In Love With Tom Selleck" ><div class="caption-slide mobile-only"><h3>Goldie Was Once In Love With Tom Selleck</h3><div class="gallery-item-caption">In June 2018, The <em>EXAMINER</em> revealed that Goldie and Tom were hiding a sexy secret from the world — they were in love! "Goldie was ecstatic about her relationship with Tom," a source said at the time. "She said she loved him and he loved her."
+
+Although this was long before Kurt's days, an insider revealed they were "very loving and warm to one another" at parties. "They would openly kiss and cuddle, and hey got together every chance they could!" the insider added.</div><p class="gallery-photo-credit">Photo credit: Getty Images</p></div></div><div data-item-number='6' data-item-id='280675' id='280675' class='ami-image-type ami-gallery-item ami-gallery-item-5 ami-gallery-item-id-280675 ami-gallery-item-image'><p class='gallery-counter mobile-only'><span>6</span> of <span>8</span></p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" data-sizes="(min-width: 768px) 1000px, 100vw" data-lazy="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-813584616.jpg?w=750&#038;ssl=1" data-srcset="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-813584616.jpg?fit=1380%2C880&#038;ssl=1 1000w, https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-813584616.jpg?w=750&#038;ssl=1 500w" alt="Goldie Was Once Spotted With Another Man" ><div class="caption-slide mobile-only"><h3>Goldie Was Once Spotted With Another Man</h3><div class="gallery-item-caption">In February 2017, Goldie was spotted having lunch with a hunk — an explosive scandal that almost wrecked their relationship!
+
+“They had lunch together, ” says another source. “They arrived together in a Tesla Model S, and they looked very, very at ease and happy. They high-fived and kept laughing it up.”
+
+The eyewitness added that her date "had his hands all over Goldie. He even gave her a big kiss with his arms around her."</div><p class="gallery-photo-credit">Photo credit: Getty Images</p></div><div id="dfp-tag-mobile_box-2" class="mobile-only dfp-slot dfp-container dfp-tag-mobile_box mobile" style="width: 300px; height: 250px; margin:0 auto;" ></div>											<script>
+												if(inMobileViewPort) {
+													
+													llSlots['dfp-tag-mobile_box-2'] = {"id": "dfp-tag-mobile_box-2", "name": "dfp-tag-mobile_box", "device": "mobile", "size": [[300, 250]], "mapping": "", "correlator": true};
+												}
+											</script>
+											</div><div data-item-number='7' data-item-id='280674' id='280674' class='ami-image-type ami-gallery-item ami-gallery-item-6 ami-gallery-item-id-280674 ami-gallery-item-image'><p class='gallery-counter mobile-only'><span>7</span> of <span>8</span></p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" data-sizes="(min-width: 768px) 1000px, 100vw" data-lazy="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-625776126.jpg?w=750&#038;ssl=1" data-srcset="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-625776126.jpg?fit=1380%2C880&#038;ssl=1 1000w, https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-625776126.jpg?w=750&#038;ssl=1 500w" alt="They’ve Both Been Married Before" ><div class="caption-slide mobile-only"><h3>They’ve Both Been Married Before</h3><div class="gallery-item-caption">No wonder the couple has yet to say "I do" — they've both been married before! Goldie was hitched to Gus Trikonis from 1969 until 1976, and to Bill Hudson from 1976 until 1982, with whom she welcomed son Oliver, 42, and daughter Kate, 39.
+
+Kurt was married to Season Hubley from 1979 until 1983, and he's a dad to son Boston, 39, from that union. 
+</div><p class="gallery-photo-credit">Photo credit: Getty Images</p></div></div><div data-item-number='8' data-item-id='280676' id='280676' class='ami-image-type ami-gallery-item ami-gallery-item-7 ami-gallery-item-id-280676 ami-gallery-item-image'><p class='gallery-counter mobile-only'><span>8</span> of <span>8</span></p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" data-sizes="(min-width: 768px) 1000px, 100vw" data-lazy="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-173109812.jpg?w=750&#038;ssl=1" data-srcset="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-173109812.jpg?fit=1380%2C880&#038;ssl=1 1000w, https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/03/goldie-hawn-and-kurt-russell-relationship-secrets-173109812.jpg?w=750&#038;ssl=1 500w" alt="Goldie And Kurt Have A Son Together" ><div class="caption-slide mobile-only"><h3>Goldie And Kurt Have A Son Together</h3><div class="gallery-item-caption">Even though they never married, Goldie and Kurt are parents to a 32-year-old son, Wyatt, whom they welcomed in July of 1986.</div><p class="gallery-photo-credit">Photo credit: Getty Images</p></div><div id="dfp-tag-mobile_box-3" class="mobile-only dfp-slot dfp-container dfp-tag-mobile_box mobile" style="width: 300px; height: 250px; margin:0 auto;" ></div>											<script>
+												if(inMobileViewPort) {
+													
+													llSlots['dfp-tag-mobile_box-3'] = {"id": "dfp-tag-mobile_box-3", "name": "dfp-tag-mobile_box", "device": "mobile", "size": [[300, 250]], "mapping": "", "correlator": true};
+												}
+											</script>
+											</div>						</div>
+						<div class="bottom-ads">
+														<div class="inner-wrap" id="dfp-tag-slideshow-leaderboard" adonis-marker></div>
+						</div>
+					</div>
+					<!-- Gallery main block -->
+
+					<!-- Gallery right sidebar -->
+					<div class="fs-gallery_right-col">
+						<div class="slide_share-bar">
+							<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-280661" class="share-twitter sd-button share-icon no-text" href="https://www.nationalenquirer.com/photos/goldie-hawn-and-kurt-russells-relationship-secrets-exposed/?share=twitter" target="_blank" title="Click to share on Twitter"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter (Opens in new window)</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-280661" class="share-facebook sd-button share-icon no-text" href="https://www.nationalenquirer.com/photos/goldie-hawn-and-kurt-russells-relationship-secrets-exposed/?share=facebook" target="_blank" title="Click to share on Facebook"><span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)</span></a></li><li class="share-end"></li></ul></div></div></div>						</div>
+						<div class="slide_caption">
+							<div class="slick-gallery-caption-slider">
+							<div class="caption-slide"><h3>Goldie Doesn’t Want To Get Married</h3><div class="gallery-item-caption">A source told The <em>EXAMINER </em>in May 2018 that Goldie has no desire to walk down the aisle to Kurt. "Goldie is a strong, independent woman, and she likes standing on her own two feet," a pal dished. "She doesn't feel the need to get married and hasn't felt that way for many years."</div><div><p class="gallery-photo-credit">Photo credit: Getty Images</p></div></div><div class="caption-slide"><h3>Goldie Would Live Without Kurt If She Had To</h3><div class="gallery-item-caption">“Goldie doesn’t want to be tied down to any man,” the pal dished to The <em>EXAMINER</em>. “She’s OK being by herself and is perfectly comfortable in her own skin — she’d even live on her own if she had to!”</div><div><p class="gallery-photo-credit">Photo credit: Getty Images</p></div></div><div class="caption-slide"><h3>Kurt Was Once Spotted Leaving A Massage Parlor</h3><div class="gallery-item-caption">Back in 2000, 17 years into their relationship, Kurt was spotted leaving a seedy massage parlor in Santa Monica behind Goldie's back. The sketchy move allegedly caused a strain in their relationship. </div><div><p class="gallery-photo-credit">Photo credit: Getty Images</p></div></div><div class="caption-slide"><h3>Kurt Has Some Serious Anger Issues</h3><div class="gallery-item-caption">The <em>National ENQUIRER</em> exclusively revealed in 2015 that Kurt has quite the temper! “Kurt’s anger issues have gotten worse. He yells and screams at Goldie all the time over stupid things, and their sex life has fallen off,” the source revealed.</div><div><p class="gallery-photo-credit">Photo credit: Getty Images</p></div></div><div class="caption-slide"><h3>Goldie Was Once In Love With Tom Selleck</h3><div class="gallery-item-caption">In June 2018, The <em>EXAMINER</em> revealed that Goldie and Tom were hiding a sexy secret from the world — they were in love! "Goldie was ecstatic about her relationship with Tom," a source said at the time. "She said she loved him and he loved her."
+
+Although this was long before Kurt's days, an insider revealed they were "very loving and warm to one another" at parties. "They would openly kiss and cuddle, and hey got together every chance they could!" the insider added.</div><div><p class="gallery-photo-credit">Photo credit: Getty Images</p></div></div><div class="caption-slide"><h3>Goldie Was Once Spotted With Another Man</h3><div class="gallery-item-caption">In February 2017, Goldie was spotted having lunch with a hunk — an explosive scandal that almost wrecked their relationship!
+
+“They had lunch together, ” says another source. “They arrived together in a Tesla Model S, and they looked very, very at ease and happy. They high-fived and kept laughing it up.”
+
+The eyewitness added that her date "had his hands all over Goldie. He even gave her a big kiss with his arms around her."</div><div><p class="gallery-photo-credit">Photo credit: Getty Images</p></div></div><div class="caption-slide"><h3>They’ve Both Been Married Before</h3><div class="gallery-item-caption">No wonder the couple has yet to say "I do" — they've both been married before! Goldie was hitched to Gus Trikonis from 1969 until 1976, and to Bill Hudson from 1976 until 1982, with whom she welcomed son Oliver, 42, and daughter Kate, 39.
+
+Kurt was married to Season Hubley from 1979 until 1983, and he's a dad to son Boston, 39, from that union. 
+</div><div><p class="gallery-photo-credit">Photo credit: Getty Images</p></div></div><div class="caption-slide"><h3>Goldie And Kurt Have A Son Together</h3><div class="gallery-item-caption">Even though they never married, Goldie and Kurt are parents to a 32-year-old son, Wyatt, whom they welcomed in July of 1986.</div><div><p class="gallery-photo-credit">Photo credit: Getty Images</p></div></div>							</div>
+						</div>
+						<div class="right-ads">
+															<div class="inner-wrap" id="dfp-tag-slideshow-box" adonis-marker></div>
+													</div>
+					</div>
+					<!-- END Gallery right sidebar -->
+				</div>
+				<!-- END Gallery body -->
+			</div>
+								</div>
+
+
+					
+					
+						<div id="gigya-wrap">
+		<div id="gigya-wrap-int">
+			<div id="ami-gigya-sharebar">
+				<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-280661" class="share-twitter sd-button share-icon no-text" href="https://www.nationalenquirer.com/photos/goldie-hawn-and-kurt-russells-relationship-secrets-exposed/?share=twitter" target="_blank" title="Click to share on Twitter"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter (Opens in new window)</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-280661" class="share-facebook sd-button share-icon no-text" href="https://www.nationalenquirer.com/photos/goldie-hawn-and-kurt-russells-relationship-secrets-exposed/?share=facebook" target="_blank" title="Click to share on Facebook"><span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)</span></a></li><li class="share-end"></li></ul></div></div></div>			</div>
+			<section>Share</section>
+		</div>
+	</div>
+	<script type="text/javascript">
+		jQuery.get( 'https://www.spot.im/api/open-api/v1/messages-count?spot_id=sp_O5ALegvs&posts_ids=280661', function( data ) {
+			var comCount = data.messages_count['280661'];
+			jQuery( '#ami-gigya-sharebar .share-end' ).before( '<li class="share-email-count">' + comCount + '</li>' );
+		} );
+		jQuery( '.share-email-count, .to-comments' ).live( 'click', function() {
+			jQuery( 'body,html' ).animate( {scrollTop: jQuery( '#commentSection' ).offset().top - 150}, 1500 );
+			return false;
+		} );
+	</script>
+
+					</section>
+				<div class="below-article" id="article-bottom-part">
+
+					<div id="zergnet-widget-75496"></div>
+
+					
+					<div class="clear">
+											</div>
+					<div class="tags"> <a href="https://www.nationalenquirer.com/tag/goldie-hawn/" rel="tag">Goldie Hawn</a> <a href="https://www.nationalenquirer.com/tag/kurt-russell/" rel="tag">Kurt Russell</a></div>					<h4 class="comments-title">Comments</h4>
+					<div name="comments" id="commentSection"></div>
+					<div id="spotImCommentsDiv"
+     data-spotim-module="recirculation"     data-spot-id="sp_26uV0TWa"
+     data-post-id="280661"
+     data-post-url="https://www.nationalenquirer.com/?p=280661"
+     data-article-tags="Goldie Hawn, Kurt Russell, Celebrity"
+	>
+</div>
+				</div>
+			</article>
+		<div id="sidebar-right"><div id="sidebar_interior_for_banners"><div id="gpt_ads-8" class="widget widget-gpt">		<div id="dfp-tag-rightrail-position-2" class="dfp-slot dfp-container adonis-marker"></div>
+		</div>
+		<div id="radar_zoninator_zoneposts_widget-19" class="widget widget-zone-posts">			<div class="zone_layout_widget featured-photos">
+								<div class="first_photo ggnoads">
+					<a href="https://www.nationalenquirer.com/photos/hot-photos-feb-2020/">
+						<div class='radar-thumb radar-gallery-thumb'><div class='centring-box'><div><img width="300" height="194" src="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2020/02/Hot-pics-feb-2020-jlo-shakira-n.jpg?resize=300%2C194&#038;ssl=1" data-thumbnail="false" class="attachment-300x194 size-300x194 wp-post-image" alt="Shakira and Jennifer Lopez perform during halftime of the National Football League&#039;s Super Bowl LIV at Hard Rock Stadium in Miami Gardens, Florida"><span class='gallery-icon'><span class='image-count'>15</span></span></div></div></div>						<h2>Hot Photos</h2>
+													<h3>Here’s Who We Spotted Out And About In The Last 24 Hours...</h3>
+											</a>
+				</div>
+			</div>
+			</div>
+		<div id="gpt_ads-9" class="widget widget-gpt">		<div id="dfp-tag-rightrail-position-3" class="dfp-slot dfp-container adonis-marker"></div>
+		</div><div id="postup-subscribe-id-2" class="widget Postup_Subscribe"><span class="widget-title"></span>	<div class="daily-juice">
+
+		<h2>Free breaking news updates</h2>
+		<h3>National Enquirer Daily</h3>
+		<div class="success hidden">Thank you for subscribing!</div>
+		<form method="post" action="#" id="postup-add-subscriber-form" class="postup-add-subscriber-form daily-juice-form">
+			<div class="postup-add-subscriber-errors" id="postup-add-subscriber-errors"></div>
+			<input type="hidden" name="postup_nonce" value="34f7111d00"/>
+			<input type="hidden" name="action" value="add_subscriber"/>
+
+			<div class="bg-input">
+				<label for="postup_email" class="screen-reader-only">Enter your email address to subscribe for Free breaking news updates</label>
+				<input type="text" name="email" id="postup_email" value="" placeholder="enter your email address"/>
+				<input type="submit" value="Submit">
+			</div>
 		</form>
 	</div>
-<script type='text/javascript' src='https://quillette.com/wp-content/plugins/jetpack/_inc/build/photon/photon.min.js?ver=20190201'></script>
-<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202016'></script>
-<script type='text/javascript'>//<![CDATA[
-var discourse={"url":"https:\/\/forum.quillette.com"};
-//]]></script>
-<script type='text/javascript' src='https://quillette.com/wp-content/plugins/wp-discourse/js/comments.js?ver=1.9.3'></script>
-<script type='text/javascript' src='https://quillette.com/wp-content/plugins/jetpack/_inc/build/widgets/eu-cookie-law/eu-cookie-law.min.js?ver=20180522'></script>
-<script type='text/javascript'>//<![CDATA[
-var jpfbembed={"appid":"249643311490","locale":"en_US"};
-//]]></script>
-<script type='text/javascript' src='https://quillette.com/wp-content/plugins/jetpack/_inc/build/facebook-embed.min.js'></script>
-<script type='text/javascript' src='https://quillette.com/wp-content/plugins/jetpack/modules/widgets/search/js/search-widget.js?ver=7.3.1'></script>
-<script type='text/javascript'>//<![CDATA[
-var q2w3_sidebar_options=[{"sidebar":"blog-sidebar","margin_top":30,"margin_bottom":0,"stop_id":"footerwidgets-wrap","screen_max_width":0,"screen_max_height":0,"width_inherit":false,"refresh_interval":1500,"window_load_hook":false,"disable_mo_api":false,"widgets":["adwidget_imagewidget-13","custom_html-2"]}];
-//]]></script>
-<script type='text/javascript' src='https://quillette.com/wp-content/plugins/q2w3-fixed-widget/js/q2w3-fixed-widget.min.js?ver=5.1.7'></script>
-<script type='text/javascript' src='https://quillette.com/wp-content/plugins/jetpack/_inc/build/lazy-images/js/lazy-images.min.js?ver=7.3.1'></script>
-<script type='text/javascript' src='https://quillette.com/wp-content/plugins/jetpack/_inc/build/likes/queuehandler.min.js?ver=7.3.1'></script>
-<script type='text/javascript' src='https://quillette.com/wp-includes/js/wp-embed.min.js?ver=5.1.2'></script>
-<script type='text/javascript'>//<![CDATA[
-var sharing_js_options={"lang":"en","counts":"1","is_stats_active":"1"};
-//]]></script>
-<script type='text/javascript' src='https://quillette.com/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js?ver=7.3.1'></script>
-<script type='text/javascript' src='https://stats.wp.com/e-202016.js' async='async' defer='defer'></script>
-<script type='text/javascript'>_stq=window._stq||[];_stq.push(['view',{v:'ext',j:'1:7.3.1',blog:'101756249',post:'98210',tz:'0',srv:'quillette.com'}]);_stq.push(['clickTrackerInit','101756249','98210']);</script>
+			<script type="text/javascript">
+			(function ($) {
+				"use strict";
+				$(function () {
 
+					/**
+					 * Process the for submit event.
+					 *
+					 * @return {void}
+					 */
+					var processSubmit = function( $form ) {
+						var user_input = $form.serialize();
+
+						$.post(
+							ajaxurl,
+							user_input,
+							function(data) {
+								data = jQuery.parseJSON(data);
+								if( data.error == true ) {
+									$(".postup-add-subscriber-errors").html(data.message);
+								} else {
+									$($form).html('');
+									$($form).parent().find(".success").show();
+								}
+							}
+						);
+					};
+
+					// when a user clicks subscribe
+					$(".postup-add-subscriber-form").submit( function( e ){
+						var $form = $(this);
+
+						e.preventDefault();
+						processSubmit( $form );
+
+					});
+
+				});
+			}(jQuery));
+		</script>
+
+		</div><div id="gpt_ads-10" class="widget widget-gpt">		<div id="dfp-tag-rightrail-position-4" class="dfp-slot dfp-container adonis-marker"></div>
+		</div></div></div>		<input type="hidden" name="lastpos" value="1" id="lastpos" />
+	</div>
+
+</div><!-- End of #content-wrapper -->
+
+<div id="above_footer_section" class="centered-elements">
+	<div id="gpt_ads-15" class="widget widget-gpt">		<div id="dfp-tag-mobile_bottom" class="dfp-slot dfp-container "></div>
+		</div><div id="gpt_ads-16" class="widget widget-gpt">		<div id="dfp-tag-horizontal-position-2" class="dfp-slot dfp-container adonis-marker"></div>
+		</div></div>
+
+<footer id="super-footer">
+
+		<div id="footer_bottom">
+			<div class="centered-elements">
+				<div class="site-info">
+					<p class="footer-disclaimer">National ENQUIRER has affiliate partnerships so we may receive compensation for some links to products and services.</p>
+                    <div class="footer-menu-copyright">
+                        <div class="ami-group-copyright">Part of the American Media Entertainment Group.</div>
+                        <div class="copyright-tag-block">
+                            <span>&copy; 2020 National Enquirer, LLC</span>
+                            <span id="powered-by">Powered by <a href="http://boylesoftware.com/" rel="generator nofollow" class="powered-by-wpcom" target="_blank">BS</a></span>
+                            <span class="footer-promo-links">
+                            <a href="/privacy-policy/">Privacy Policy</a>
+                                <!-- OneTrust Cookies Settings button start -->
+			                    <a class="optanon-toggle-display" name="Manage Cookies">Manage Cookies</a>
+                                <!-- OneTrust Cookies Settings button end -->
+                                <a href="/accessibility-statement/">Accessibility Statement</a><a href="/terms-conditions/">Terms of Use</a>
+                                <a href="https://www.nationalenquirer.com/wp-content/uploads/2019/06/2019_NEQ_Media_Kit.pdf" target="_blank">Media Kit</a>
+                            </span>
+                            <div class="tag-registered-logo">
+                                <img src="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/svg/logo-tag-registered.svg" alt="TAG Trustworthy Accountability Group" title="TAG Trustworthy Accountability Group">
+                                <img src="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/svg/logo-tag-registered-green.svg" alt="TAG Trustworthy Accountability Group" title="TAG Trustworthy Accountability Group">
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+</footer>
+
+		<!-- wpsolr - ajax auto completion nonce -->
+		<input type="hidden" id="wpsolr_autocomplete_nonce"
+		       value="1c3a13f464">
+
+			<script>
+		jQuery(document).ready(function ($) {
+			$('a[href^="http"]')
+				.not('[href^="' + location.protocol + '//' + location.hostname + '"]')
+				.attr('target', '_blank');
+		});
+	</script> 	<style type="text/css" media="screen">
+		@media screen and ( max-width: 782px ) {
+			html { margin-top: 0px !important; }
+			* html body { margin-top: 0px !important; }
+			#wpadminbar { display:none; }
+		}
+	</style>
+<script type="text/javascript" src="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/dY1BCoUwDAUvZA2eSNIabLUmIYnIv_1XcOviMZsZ3gQbhWLZYW5cIJ-tL6BVQvjFeDQeJrjUpVtyQis1Ea-NCTaHLBIehprip4SVcPmys1xkc5FDhYnD7_y0Dveejz8.js?9067122fa57259cbe04dfb40ebcd2b15
+"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wp_localize_script_autocomplete = {"ajax_url":"https:\/\/www.nationalenquirer.com\/wp-admin\/admin-ajax.php","is_show_url_parameters":"","is_url_redirect":"1","SEARCH_PARAMETER_SEARCH":"search","SEARCH_PARAMETER_Q":"wpsolr_q","SEARCH_PARAMETER_FQ":"wpsolr_fq","SEARCH_PARAMETER_SORT":"wpsolr_sort","SEARCH_PARAMETER_PAGE":"wpsolr_page","SORT_CODE_BY_RELEVANCY_DESC":"sort_by_relevancy_desc","wpsolr_autocomplete_selector":".search-field","wpsolr_autocomplete_action":"wdm_return_solr_rows","wpsolr_autocomplete_nonce_selector":"#wpsolr_autocomplete_nonce"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/M9QvLyjOzynSLU5NLErO0E3NS8_MS9XPKtZPLC3JT87PLchJLUmNBykBAA.js?9067122fa57259cbe04dfb40ebcd2b15
+"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wp_localize_script_infinitescroll = {"ajax_url":"\/wp-admin\/admin-ajax.php","loadimage":"https:\/\/www.nationalenquirer.com\/wp-content\/plugins\/wpsolr-search-engine\/images\/infinitescroll.gif","loadingtext":"Loading ...","SEARCH_PARAMETER_Q":"wpsolr_q"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/M9QvLyjOzynSLU5NLErO0E3NS8_MS9XPKtbPKixNLarUy8xLy8zLLEktTi7Kz8kBAA.js?9067122fa57259cbe04dfb40ebcd2b15
+"></script>
+<script class="optanon-category-C0004" type="text/plain"  src='https://static.adsafeprotected.com/vans-adapter-google-ima.js'></script>
+<script type="text/javascript" src="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/jY5rDoMgEIQvVMD0RkBWXbs8ZEHC7YuJpjE1af_NzH6T2UFtGJV2IlKZ0HOXKCZNBKk91cKKCe1LEhrp0D-GX_iyli5l1S0G9Jn_a3moYuQz-vAe1v0cKgmrUygMtBt5mi_ymJ-t4Nz_btf5K7QhoyG4RSKkEWwWbFMgMjrdUnkGB28.js?9067122fa57259cbe04dfb40ebcd2b15
+"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var amiNewsletterStrings = {"userEndpoint":"https:\/\/www.nationalenquirer.com\/wp-json\/ami\/v1\/newsletter\/user","listEndpoint":"https:\/\/www.nationalenquirer.com\/wp-json\/ami\/v1\/newsletter\/list","processMessage":"Sending your request...","defaultError":"An internal error has occurred. Please try again later.","invalidEmailError":"Please enter a valid email and try again."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/M9AvyyzQT8zVLcgpTc_MKwYyM3XzUsuLc1JLSlKL9LOK9RE8HRP98gLd1Nyk1BS93Mw8AA.js?9067122fa57259cbe04dfb40ebcd2b15
+"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"","is_stats_active":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/M9TPSi0pSEzO1o_PzEvWTyrNzEnRL85ILEpNSUxJqQQzM_PS9XIz8wA.js?9067122fa57259cbe04dfb40ebcd2b15
+"></script>
+<script type='text/javascript'>
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-twitter', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-facebook', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+</script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+</script>
 </body>
 </html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using disk
+Database Caching 71/114 queries in 0.060 seconds using memcached
+Object Caching 2912/3271 objects using memcached
+Content Delivery Network via cdn-neq0.heartyhosting.com
+
+ Served from: www.nationalenquirer.com @ 2020-04-18 23:44:16 by W3 Total Cache backend 172.31.52.88 -->

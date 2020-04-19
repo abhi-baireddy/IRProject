@@ -1,0 +1,1235 @@
+<!DOCTYPE HTML><html>
+<head>   
+ 	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"> 
+
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '136639230282606');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=136639230282606&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+  
+  <script type="text/javascript">
+    window.jstag=function(){function t(t){return function(){return t.apply(this,arguments),this}}function n(){var n=["ready"].concat(c.call(arguments));return t(function(){n.push(c.call(arguments)),this._q.push(n)})}var i={_q:[],_c:{},ts:(new Date).getTime(),ver:"2.0.0"},c=Array.prototype.slice;return i.init=function(t){return i._c=t,t.synchronous||i.loadtagmgr(t),this},i.loadtagmgr=function(t){var n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=t.url+"/api/tag/"+t.cid+"/lio.js";var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(n,i)},i.ready=n(),i.send=n("send"),i.mock=n("mock"),i.identify=n("identify"),i.pageView=n("pageView"),i.bind=t(function(t){i._q.push([t,c.call(arguments,1)])}),i.block=t(function(){i._c.blockload=!0}),i.unblock=t(function(){i._c.blockload=!1}),i}(),window.jstag.init({cid:"9d62173db8741a894f24f42e5eada439", url:"//c.lytics.io", min:true, loadid:false});
+</script>
+  
+  <!-- Hotjar Tracking Code for pro.dentresearch.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:943619,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<script> window['_fs_debug'] = false; window['_fs_host'] = 'fullstory.com'; window['_fs_org'] = 'HT2VV'; window['_fs_namespace'] = 'FS'; (function(m,n,e,t,l,o,g,y){ if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;} g=m[e]=function(a,b,s){g.q?g.q.push([a,b,s]):g._api(a,b,s);};g.q=[]; o=n.createElement(t);o.async=1;o.crossOrigin='anonymous';o.src='https://'+_fs_host+'/s/fs.js'; y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y); g.identify=function(i,v,s){g(l,{uid:i},s);if(v)g(l,v,s)};g.setUserVars=function(v,s){g(l,v,s)};g.event=function(i,v,s){g('event',{n:i,p:v},s)}; g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)}; g.consent=function(a){g("consent",!arguments.length||a)}; g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)}; g.clearUserCookie=function(){}; })(window,document,window['_fs_namespace'],'script','user'); </script> 
+ 	<style type="text/css">    
+  		.subscribeNow img {border: 0;}   
+ 	</style>     
+	<script data-type="required" type="text/javascript" src="/p/Scripts/Common.js"></script><script data-type="required" type="text/javascript">
+  var __subscribeNowDelay = 0 * 1000;
+</script>
+<style type="text/css">.subscribeNow { display:none; }</style>
+<script data-type="required" type="text/javascript" src="/p/Scripts/HideContent.js"></script><meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"65387c3314","applicationID":"46346808,5284047","transactionName":"YANVZUdYDxFXW0UMWllJemd2FiINWExUC0F0CVlFR1YNDlNKHilaVgJ0XltNBAxC","queueTime":15,"applicationTime":42,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"Uw8EVVVTGwcGV1VUDwEP",licenseKey:"65387c3314",applicationID:"46346808"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(25),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{l?l-=1:o(s||new UncaughtException(t,e,n),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t,e){var n=e?null:c.now();i("err",[t,n])}var i=t("handle"),a=t(26),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,p="nr@seenError",l=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(13),t(12),"addEventListener"in window&&t(6),c.xhrWrappable&&t(14),d=!0)}s.on("fn-start",function(t,e,n){d&&(l+=1)}),s.on("fn-err",function(t,e,n){d&&!n[p]&&(f(n,p,function(){return!0}),this.thrown=!0,o(n))}),s.on("fn-end",function(){d&&!this.thrown&&l>0&&(l-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){L++,C=g.hash,this[u]=y.now()}function o(){L--,g.hash!==C&&i(0,!0);var t=y.now();this[h]=~~this[h]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+g,e])}function a(t,e){t.on(e,function(){this[e]=y.now()})}var s="-start",c="-end",f="-body",u="fn"+s,d="fn"+c,p="cb"+s,l="cb"+c,h="jsTime",m="fetch",v="addEventListener",w=window,g=w.location,y=t("loader");if(w[v]&&y.xhrWrappable){var x=t(10),b=t(11),E=t(8),O=t(6),R=t(13),P=t(7),T=t(14),N=t(9),M=t("ee"),S=M.get("tracer");t(16),y.features.spa=!0;var C,L=0;M.on(u,r),M.on(p,r),M.on(d,o),M.on(l,o),M.buffer([u,d,"xhr-done","xhr-resolved"]),O.buffer([u]),R.buffer(["setTimeout"+c,"clearTimeout"+s,u]),T.buffer([u,"new-xhr","send-xhr"+s]),P.buffer([m+s,m+"-done",m+f+s,m+f+c]),E.buffer(["newURL"]),x.buffer([u]),b.buffer(["propagate",p,l,"executor-err","resolve"+s]),S.buffer([u,"no-"+u]),N.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(T,"send-xhr"+s),a(M,"xhr-resolved"),a(M,"xhr-done"),a(P,m+s),a(P,m+"-done"),a(N,"new-jsonp"),a(N,"jsonp-end"),a(N,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,!0),w[v]("load",i,!0),w[v]("popstate",function(){i(0,L>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(13),s=t(12),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",l="-start",h="-end",m="fn"+l,v="fn"+h,w="bstTimer",g="pushState",y=t("loader");y.features.stn=!0,t(8),"addEventListener"in window&&t(6);var x=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof x&&(this.bstStart=y.now())}),o.on(v,function(t,e){var n=t[0];n instanceof x&&i("bst",[n,e,this.bstStart,y.now()])}),a.on(m,function(t,e,n){this.bstStart=y.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,y.now(),this.bstType])}),s.on(m,function(){this.bstStart=y.now()}),s.on(v,function(t,e){i(w,[e,this.bstStart,y.now(),"requestAnimationFrame"])}),o.on(g+l,function(t){this.time=y.now(),this.startPath=location.pathname+location.hash}),o.on(g+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=i(arguments),e={};o.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return o.emit(n+"start",[t,a],s),s.then(function(t){return o.emit(n+"end",[null,t],s),t},function(t){throw o.emit(n+"end",[t],s),t})})}var o=t("ee").get("fetch"),i=t(26),a=t(25);e.exports=o;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,p=s.Response,l=s.fetch,h="prototype",m="nr@context";d&&p&&l&&(a(u,function(t,e){r(d[h],e,f),r(p[h],e,f)}),r(s,"fetch",c),o.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),o.emit(c+"done",[null,e],n)}else o.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t("wrap-function")(r);e.exports=r;var i=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;i&&i.pushState&&i.replaceState&&(a=i),o.inPlace(a,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){function r(t){function e(){c.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}function n(){c.emit("jsonp-error",[],p),c.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var u=s(a),d="function"==typeof u.parent[u.key];if(d){var p={};f.inPlace(u.parent,[u.key],"cb-",p),t.addEventListener("load",e,!1),t.addEventListener("error",n,!1),c.emit("new-jsonp",[t.src],p)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(u);return e?e[1]:null}function a(t,e){var n=t.match(p),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function s(t){var e=t.match(d);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var c=t("ee").get("jsonp"),f=t("wrap-function")(c);if(e.exports=c,o()){var u=/[?&](?:callback|cb)=([^&#]+)/,d=/(.*)\.([^.]+)/,p=/^(\w+)(\.|$)(.*)$/,l=["appendChild","insertBefore","replaceChild"];Node&&Node.prototype&&Node.prototype.appendChild?f.inPlace(Node.prototype,l,"dom-"):(f.inPlace(HTMLElement.prototype,l,"dom-"),f.inPlace(HTMLHeadElement.prototype,l,"dom-"),f.inPlace(HTMLBodyElement.prototype,l,"dom-")),c.on("dom-start",function(t){r(t[0])})}},{}],10:[function(t,e,n){var r=t("ee").get("mutation"),o=t("wrap-function")(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],11:[function(t,e,n){function r(t){var e=a.context(),n=s(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t("wrap-function"),a=t("ee").get("promise"),s=i(a),c=t(25),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;c(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),s=f.resolve(i);return s}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),c(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=s(t[0],"resolve-",this),t[1]=s(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),s.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=s(t[0],"cb-",this),t[1]=s(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],12:[function(t,e,n){var r=t("ee").get("raf"),o=t("wrap-function")(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],13:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t("wrap-function")(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],14:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,g,"fn-",s)}function i(t){y.push(t),h&&(b?b.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),p=NREUM.o,l=p.XHR,h=p.MO,m=p.PR,v=p.SI,w="readystatechange",g=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new l(t);try{u.emit("new-xhr",[e],e),e.addEventListener(w,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(l,x),x.prototype=l.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],15:[function(t,e,n){function r(t){if(!i(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,s=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var c=a.generateCatId(),f=a.generateCatId(),u=Date.now(),d=o(c,f,u,n,r,s);return{header:d,guid:c,traceId:f,timestamp:u}}function o(t,e,n,r,o,i){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:o,id:t,tr:e,ti:n}};return i&&r!==i&&(s.d.tk=i),btoa(JSON.stringify(s))}function i(t){var e=!1,n=!1,r={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(r=NREUM.init.distributed_tracing,n=!!r.enabled),n)if(t.sameOrigin)e=!0;else if(r.allowed_origins instanceof Array)for(var o=0;o<r.allowed_origins.length;o++){var i=s(r.allowed_origins[o]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){e=!0;break}}return n&&e}var a=t(23),s=t(17);e.exports={generateTracePayload:r,shouldGenerateTrace:i}},{}],16:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<p;r++)t.removeEventListener(d[r],this.listener,!1);e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):i(this,t),n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime]))}}function o(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=c(e),t.sameOrigin=t.parsedOrigin.sameOrigin}function i(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(17),f=t(15).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],p=d.length,l=t("id"),h=t(21),m=t(20),v=t(18),w=window.XMLHttpRequest;a.features.xhr=!0,t(14),t(7),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,t.addEventListener("load",function(n){i(e,t)},!1),h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);n&&n.header&&(e.setRequestHeader("newrelic",n.header),this.dt=n)}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=m(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<p;s++)e.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof w&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){var e,n=t[1]||{};"string"==typeof t[0]?e=t[0]:t[0]&&t[0].url&&(e=t[0].url),e&&(this.parsedOrigin=c(e),this.sameOrigin=this.parsedOrigin.sameOrigin);var r=f(this.parsedOrigin);if(r&&r.header){var o=r.header;if("string"==typeof t[0]){var i={};for(var a in n)i[a]=n[a];i.headers=new Headers(n.headers||{}),i.headers.set("newrelic",o),this.dt=r,t.length>1?t[1]=i:t.push(i)}else t[0]&&t[0].headers&&(t[0].headers.append("newrelic",o),this.dt=r)}})}},{}],17:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];var e=document.createElement("a"),n=window.location,o={};e.href=t,o.port=e.port;var i=e.href.split("://");!o.port&&i[1]&&(o.port=i[1].split("/")[0].split("@").pop().split(":")[1]),o.port&&"0"!==o.port||(o.port="https"===i[0]?"443":"80"),o.hostname=e.hostname||n.hostname,o.pathname=e.pathname,o.protocol=i[0],"/"!==o.pathname.charAt(0)&&(o.pathname="/"+o.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return o.sameOrigin=a&&(!e.hostname||s),"/"===o.pathname&&(r[t]=o),o}},{}],18:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?o(t.response):"text"===n||"document"===n||""===n||void 0===n?o(t.responseText):void 0}var o=t(20);e.exports=r},{}],19:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(25),s=t(26),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){u[e]=o(p+e,!0,"api")}),u.addPageAction=o(p+"addPageAction",!0),u.setCurrentRouteName=o(p+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[f.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=o(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,e])}},{}],20:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],21:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],22:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?c("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&c("timing",["fcp",Math.floor(t.startTime)])})}function o(t,e){var n=t.getEntries();n.length>0&&c("lcp",[n[n.length-1]])}function i(t){if(t instanceof u&&!p){var e,n=Math.round(t.timeStamp);e=n>1e12?Date.now()-n:f.now()-n,p=!0,c("timing",["fi",n,{type:t.type,fid:e}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,s,c=t("handle"),f=t("loader"),u=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),s=new PerformanceObserver(o);try{a.observe({entryTypes:["paint"]}),s.observe({entryTypes:["largest-contentful-paint"]})}catch(d){}}if("addEventListener"in document){var p=!1,l=["click","keydown","mousedown","pointerdown","touchstart"];l.forEach(function(t){document.addEventListener(t,i,!1)})}}},{}],23:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&Uint8Array&&(e=r.getRandomValues(new Uint8Array(31)));for(var o=[],i=0;i<16;i++)o.push(t().toString(16));return o.join("")}e.exports={generateUuid:r,generateCatId:o}},{}],24:[function(t,e,n){function r(t,e){if(!o)return!1;if(t!==o)return!1;if(!e)return!0;if(!i)return!1;for(var n=i.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}e.exports={agent:o,version:i,match:r}},{}],25:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],26:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],27:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function n(n,r,o,i){if(!p.aborted||i){t&&t(n,r,o);for(var a=e(o),s=m(n),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[n]];return d&&d.push([x,n,r,a]),a}}function l(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function v(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var g={},y={},x={on:l,addEventListener:l,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:w,abort:a,aborted:!1};return x}function i(){return new r}function a(){(u.api||u.feature)&&(p.aborted=!0,u=p.backlog={})}var s="nr@context",c=t("gos"),f=t(25),u={},d={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!E++){var t=b.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(y,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()+b.offset],null,"api");var n=l.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(25),u=t("ee"),d=t(24),p=window,l=p.document,h="addEventListener",m="attachEvent",v=p.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:v,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var g=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1167.min.js"},x=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),b=e.exports={offset:s,now:a,origin:g,features:{},xhrWrappable:x,userAgent:d};t(19),t(22),l[h]?(l[h]("DOMContentLoaded",i,!1),p[h]("load",r,!1)):(l[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(27)},{}],"wrap-function":[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(26),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(f){p([f,"",[r,a,o],s])}u(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],s),d}finally{u(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<e.length;c++)s=e[c],a=t[s],r(a)||(t[s]=n(a,f?s+o:o,i,s))}function u(n,r,o){if(!c||e){var i=c;c=!0;try{t.emit(n,r,o,e)}catch(a){p([a,n,r,o])}c=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function p(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}]},{},["loader",2,16,5,3,4]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>David Stockman Book</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/xvw7rcc.css">
+<link rel="stylesheet" href="https://use.typekit.net/oad4kgy.css">
+
+	
+<style>
+/* ———————————————————— COLORS ———————————————————— */
+h2, li:before {
+	color: #871625;
+}
+li:before, .quote, ol.square > li:before, .content-container.serif ol.square > li:before, span.page {
+    background: #871625;
+}
+/* ———————————————————— TYPOGRAPHY ———————————————————— */
+* {
+    -webkit-font-smoothing: antialiased;
+}
+body .content-container {
+	font-family: Helvetica, Arial, sans-serif;
+}
+body .content-container.serif, .quote, div#intro p.lead {
+	font-family: minion-3, Times New Roman, serif;
+}
+h1 {
+	font-family: adobe-caslon-pro, serif;
+	font-weight: 600;
+}
+div#intro p.lead {
+     color: #fff;
+}
+p.eyebrow, span.page, span.head, a.btn, .author {
+	font-family: roboto-condensed, sans-serif;
+	font-weight: 700;
+}
+h2 {
+    max-width: 600px;
+    margin: 40px auto 20px;
+    font-weight: 700;
+}
+h3 {
+    max-width: 600px;
+    margin: 20px auto;
+    font-weight: 700;
+}
+p, li, blockquote {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    max-width: 600px;
+    margin: 16px auto;
+}
+.content-container.serif p, .content-container.serif li {
+    font-size: 22px;
+    line-height: 32px;
+}
+p.lead, .large li {
+    font-size: 24px;
+    line-height: 34px;
+}
+.content-container.serif p.lead, .content-container.serif .large li {
+    font-size: 26px;
+    line-height: 36px;
+}
+p.eyebrow {
+    font-size: 17px;
+    font-weight: 700;
+}
+/* ———————————————————— LISTS ———————————————————— */
+li {
+    list-style: none;
+    max-width: 450px;
+}
+dl, ol, ul {
+    padding: 0;
+    max-width: 80%;
+    margin: 20px auto;
+}
+dl.thin, ol.thin, ul.thin {
+    max-width: 40%;
+}
+li:before {
+    content: " ";
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    margin-top: 8px;
+    margin-left: -26px;
+}
+.circle > li:before {
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+.check > li:before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    position: absolute;
+    margin-top: -2px;
+    background: none;
+    margin-left: -32px;
+    font-size: 1.1em;
+}
+.check.green > li:before {
+    color: #0ead69;
+}
+.x > li:before {
+    content: "\f00d";
+    font-family: FontAwesome;
+    position: absolute;
+    margin-top: -2px;
+    background: none;
+    margin-left: -32px;
+    font-size: 1.1em;
+}
+.x.red > li:before {
+    color: #e64040;
+}
+.arrow > li:before {
+    content: "\f101";
+    font-family: FontAwesome;
+    position: absolute;
+    margin-top: -2px;
+    background: none;
+    margin-left: -28px;
+    font-size: 1.4em;
+}
+ol > li {
+    list-style-type: none;
+    counter-increment: item;
+}
+ol > li:before {
+    font-weight: bold;
+    content: counter(item) ".";
+    margin-left: -48px;
+    text-align: right;
+    width: 35px;
+    background: none;
+    margin-top: 0;
+}
+ol.square > li:before {
+    width: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 3px 0;
+    margin-top: 0px;
+    content: counter(item);
+    font-size: 16px;
+    line-height: 24px;
+    height: 29px;
+}
+.large li:before {
+    height: 14px;
+    width: 14px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+.circle.large li:before {
+    margin-top: 12px;
+    margin-left: -28px;
+	height: 12px;
+    width: 12px;
+}
+.check.large > li:before {
+    margin-left: -38px;
+	margin-top: 0;
+}
+.x.large > li:before, .arrow.large > li:before {
+    margin-left: -36px;
+	margin-top: 0;
+}
+ol.large > li:before {
+    margin-left: -34px;
+    margin-top: 0;
+}
+ol.square.large > li:before {
+    margin-left: -44px;
+}
+.content-container.serif li:before {
+    margin-top: 10px;
+}
+.content-container.serif .circle > li:before {
+    margin-top: 12px;
+}
+.content-container.serif .check > li:before, .content-container.serif .x > li:before, .content-container.serif .arrow > li:before {
+    margin-top: -2px;
+    margin-left: -32px;
+}
+.content-container.serif ol > li:before {
+    font-weight: bold;
+    content: counter(item) ".";
+    margin-left: -48px;
+    text-align: right;
+    width: 35px;
+    background: none;
+    margin-top: 0;
+}
+.content-container.serif ol.square > li:before {
+    width: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 3px 0;
+    margin-top: 0px;
+    content: counter(item);
+    font-size: 16px;
+    line-height: 24px;
+    height: 29px;
+}
+.content-container.serif .large li:before {
+    height: 14px;
+    width: 14px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+.content-container.serif .circle.large li:before {
+    margin-top: 12px;
+    margin-left: -28px;
+}
+.content-container.serif .check.large > li:before {
+    margin-left: -38px;
+	margin-top: 0;
+}
+.content-container.serif .x.large > li:before, .content-container.serif .arrow.large > li:before {
+    margin-left: -36px;
+	margin-top: 0;
+}
+.content-container.serif ol.large > li:before {
+    margin-left: -34px;
+    margin-top: 0;
+}
+.content-container.serif ol.square.large > li:before {
+    margin-left: -44px;
+	margin-top: 5px;
+}
+.none li:before {
+    display: none;
+}
+ol ol, ol ul, ul ol, ul ul {
+    margin-bottom: 0;
+    max-width: 60%;
+}
+/* ———————————————————— IMAGES ———————————————————— */
+.full-img {
+    max-width: 100%;
+    margin: 30px auto;
+}
+.float {
+    max-width: 35%;
+	margin-bottom: 20px;
+	clear: both;
+}
+.float.large {
+    max-width: 50%;
+}
+.float.small {
+    max-width: 20%;
+}
+.float.right {
+    float: right;
+    margin-left: 30px;
+}
+.float.left {
+    float: left;
+    margin-right: 30px;
+}
+span.caption {
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    margin: 10px;
+}
+	
+	
+h2 {
+    font-size: 46px;
+    text-align: center;
+	line-height: 1.1;
+}	
+	
+	
+.content-container {
+    max-width: 760px;
+	margin-bottom: 50px;
+}	
+.quote {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    color: #fff;
+    padding: 20px;
+    margin-top: 6px;
+}
+blockquote {
+    max-width: 70%;
+    font-style: italic;
+    margin: 30px auto;
+    opacity: 0.5;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    text-indent: -10px;
+    letter-spacing: 0.3px;
+}
+thead th {
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    font-weight: bolder;
+}
+span.circle:before {
+    content: url(https://csresearch.s3.amazonaws.com/DEL/2019/Promos/Incognito/Circle.png);
+    position: absolute;
+    transform: scale(0.6);
+    margin-left: -80px;
+    margin-top: -50px;
+}
+/*
+h2 {
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+    margin-top: 30px;
+}
+h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #343a40;
+    display: inline-block;
+    padding-bottom: 4px;
+    font-size: 26px;
+    line-height: 32px;
+	color: #343a40;
+}
+p, li {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    color: #404040;
+}
+li {
+    margin: 20px 30px;
+	font-weight: 700;
+}
+*/
+
+
+div#intro {
+    background: #f1f1f1;
+    margin-bottom: 20px;
+    padding: 40px 0;
+    overflow: hidden;
+    position: relative;
+}
+div#intro p {
+    max-width: 100%;
+}
+.headshot {
+    position: absolute;
+    right: 15%;
+    margin-top: -40px;
+    max-width: 400px;
+}
+div#intro.withHeadshot {
+    padding: 80px 0;
+}
+
+
+
+
+
+
+hr {
+    margin: 40px 0;
+}
+pre {
+    padding: 20px;
+    background: #333;
+    border-radius: 0.4rem;
+    white-space: pre;
+    word-wrap: normal;
+    word-break: normal;
+    overflow-x: auto;
+    max-height: 200px;
+    color: #aed581;
+	max-width: 600px;
+	margin: 30px auto 40px;
+}
+
+
+
+
+
+a.btn {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 15px 30px;
+    color: #fff!important;
+    box-shadow: 0 4px 0 0 #d66f00, 0 0 0 1px #d66f00, 0 6px 0 1px #d66f00, 0 8px 2px 2px rgba(0,0,0,0.15);
+    border: none;
+    background: #ff9e00;
+    margin: 5px auto;
+    transition: 0.1s ease;
+	position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+a.btn:hover {
+    margin: 10px auto 0;
+    box-shadow: 0 1px 0 0 #d66f00, 0 0 0 1px #d66f00, 0 1px 0 1px #d66f00, 0 3px 2px 2px rgba(0,0,0,0.15);
+    background: #d66f00;
+	position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+a.btn.green {
+    box-shadow: 0 4px 0 0 #4E6804, 0 0 0 1px #4E6804, 0 6px 0 1px #4E6804, 0 8px 2px 2px rgba(0,0,0,0.15);
+    background: #78A300;
+}
+a.btn.green:hover {
+    box-shadow: 0 1px 0 0 #4E6804, 0 0 0 1px #4E6804, 0 1px 0 1px #4E6804, 0 3px 2px 2px rgba(0,0,0,0.15);
+    background: #4E6804;
+}
+a.btn.red {
+    box-shadow: 0 4px 0 0 #960202, 0 0 0 1px #960202, 0 6px 0 1px #960202, 0 8px 2px 2px rgba(0,0,0,0.15);
+    background: #e21010;
+}
+a.btn.red:hover {
+    box-shadow: 0 1px 0 0 #960202, 0 0 0 1px #960202, 0 1px 0 1px #960202, 0 3px 2px 2px rgba(0,0,0,0.15);
+    background: #960202;
+}
+a.btn.gray {
+    box-shadow: 0 4px 0 0 #777, 0 0 0 1px #777, 0 6px 0 1px #777, 0 8px 2px 2px rgba(0,0,0,0.15);
+    background: #999;
+}
+a.btn.gray:hover {
+    box-shadow: 0 1px 0 0 #777, 0 0 0 1px #777, 0 1px 0 1px #777, 0 3px 2px 2px rgba(0,0,0,0.15);
+    background: #777;
+}
+span.page {
+    text-transform: uppercase;
+    margin-top: 5px;
+    color: #fff;
+    text-align: center;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 17px;
+    display: inline-block;
+    line-height: 20px;
+}
+span.highlight {
+    background: yellow;
+}
+span.head {
+    display: block;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+a.btn {
+    text-transform: uppercase;
+}
+.testimonial p {
+    text-align: center;
+	font-style: italic;
+}
+.testimonial p:before {
+    content: "“";
+    color: #F9B06E;
+    font-family: arial!important;
+    font-style: normal;
+    font-weight: 700;
+    display: block;
+    font-size: 100px;
+    margin-bottom: -10px;
+}
+.author {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+	line-height: 24px;
+}
+span.light {
+    display: block;
+    opacity: 0.5;
+}
+.testimonial {
+    padding: 20px 15px;
+}
+
+
+
+
+
+div#intro {
+    background: url(https://csresearch.s3.amazonaws.com/STL/2019/Promos/PeakTrump/Background.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+h1 {
+    font-size: 62px;
+    line-height: 68px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+p.eyebrow {
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #f89841;
+	margin-bottom: 20px;
+}
+img.david {
+    box-shadow: -5px -5px 0 #f89841;
+    margin-bottom: -45px;
+}
+
+
+@media (max-width: 1499px) {
+	.headshot {
+		right: 10%;
+	}
+}
+@media (max-width: 1399px) {
+	.headshot {
+		right: 5%;
+	}
+}
+@media (max-width: 1199px) {
+	.headshot {
+		right: -2%;
+	}
+	h1 {
+		font-size: 58px;
+		line-height: 64px;
+	}
+	p.eyebrow {
+		font-size: 16px;
+		line-height: 24px;
+	}
+}
+@media (max-width: 991px) {
+	.btn-row a.btn, .btn-row a.btn:hover {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.headshot {
+		position: absolute;
+		right: -10%;
+		margin-top: -20px;
+		max-width: 380px;
+	}
+	div#intro.withHeadshot {
+		padding: 60px 0;
+	}
+	h1 {
+		font-size: 48px;
+		line-height: 54px;
+	}
+}
+@media screen and (max-width:767px) {
+	dl, ol, ul, dl.thin, ol.thin, ul.thin {
+		max-width: 75%;
+	}
+	.headshot {
+		position: relative;
+		right: 0;
+		max-width: 240px;
+		margin: 10px auto 0;
+	}
+	div#intro.withHeadshot {
+		padding: 40px 0 0;
+		text-align: center;
+	}
+	div#intro.withImage {
+		text-align: center;
+	}
+	div#intro.withImage img {
+		max-width: 240px;
+		margin-top: 24px;
+	}
+}
+@media screen and (max-width: 575px) {
+	.float, .float.right, .float.left {
+		float: none;
+		max-width: 100%;
+		margin-left: 0;
+		margin-bottom: 20px;
+		margin-right: 0;
+		text-align: center;
+	}
+	.float img {
+		max-height: 200px;
+		width: auto;
+	}
+	dl, ol, ul, dl.thin, ol.thin, ul.thin {
+		max-width: 70%;
+	}
+	div#intro.withHeadshot {
+		padding: 30px 0 0;
+	}
+	div#intro.withImage img {
+		max-width: 200px;
+	}
+	h2 {
+		font-size: 36px;
+		margin: 30px auto 20px;
+	}
+	div#intro {
+		padding: 20px 0 40px;
+		margin-bottom: 10px;
+	}
+}	
+</style>    
+	 
+</head>      
+<body>            
+	
+ 	<div class="container-fluid withImage" id="intro">
+<div class="container">
+<div class="row d-flex align-items-center">
+<div class="col-md-7 col-lg-8 order-first order-md-last">
+<p class="eyebrow"><u>NATIONAL CRISIS AHEAD:</u></p>
+
+<h1>America on the Edge</h1>
+
+<p class="lead">This former White House official is stepping forward to warn everyone who’ll listen that <u>our country’s entire future is in danger</u>.</p>
+<p class="lead">To learn why and how to protect yourself NOW, claim a FREE copy of his controversial new book below!</p>
+</div>
+
+<div class="col order-last order-md-first"><img class="img-fluid pl-5 pr-5" src="https://csresearch.s3.amazonaws.com/STL/2019/Promos/PeakTrump/PeakTrumpNoShadow.png" /></div>
+</div>
+</div>
+</div>
+
+<div class="container content-container serif">
+<div class="row">
+<div class="col-12"><!--———————————————————— PROMO BODY CONTENT ———————————————————— -->
+<p>Dear Friend,</p>
+
+<p>On November 8, 2016, I cast my vote for Donald Trump for President of the United States.</p>
+
+<p>I wanted &ldquo;The Great Disruptor.&rdquo;</p>
+
+<p>I wanted the swamp drained.</p>
+
+<p>But, above all, I wanted America to <em>truly </em>become great again.</p>
+
+<p>It didn&rsquo;t happen.</p>
+
+<p>None of it.</p>
+
+<p>Instead, we&rsquo;re in a far worse&hellip; far more <em>dangerous </em>spot than we were just two years ago.</p>
+
+<p>One where the Welfare State and the Warfare State threaten to destroy our economy&hellip; leaving ordinary Americans crippled in the wreckage.</p>
+
+<p>One where our national debt is approaching an astounding $23 trillion&hellip; with no end in sight.</p>
+
+<p>One where border wars&hellip; trade wars&hellip; and Twitter wars have stolen our focus from a ticking time bomb in the stock market.</p>
+
+<p>And one where the Deep State has boldly emerged from out of the shadows to steal our democracy right from under us.</p>
+
+<p><strong>Your assets&hellip; your savings&hellip; your retirement&hellip; everything you&rsquo;ve worked <em>so truly hard for&hellip; </em></strong></p>
+
+<p><strong>It could ALL be at risk. </strong></p>
+
+<p><strong>That&rsquo;s why, with the release of my new book, I&rsquo;m sounding the alarm for every citizen who&rsquo;ll listen. </strong></p>
+
+<p><strong>And I&rsquo;d like to send you a FREE copy (a $26.99 value) today. </strong></p>
+
+<p>Because it&rsquo;s critical that you learn the truth as quickly as possible to protect your wealth, your freedoms, and your future.</p>
+
+<p>Donald Trump, through his own catastrophic mistakes, as well as the many forces working against him, will NOT be able to stop what&rsquo;s coming.</p>
+
+<p>He won&rsquo;t be able to save you.</p>
+
+<p>You can only do it yourself.</p>
+
+<p>But I&rsquo;d like to help.</p>
+
+<h2>My name is David Stockman<br class="d-none d-lg-block" />
+&nbsp;and I <em>still</em>&nbsp;believe America can<br class="d-none d-lg-block" />
+be great again</h2>
+
+<p>When I first went to Washington in 1970, I took on the role of a public servant for the first time.</p>
+
+<p>I did so with a firm belief in America and a desire to make us truly great.</p>
+
+<p>I was just 24 years old at the time&hellip;</p>
+
+<p>Just a decade later, I&rsquo;d gone from being a junior congressman from Michigan&hellip;</p>
+
+<p>To being the White House Budget Director and the &ldquo;Father of Reaganomics.&rdquo;</p>
+
+<p>Here&rsquo;s a picture of me next to President Reagan early in his first term&hellip;</p>
+
+<div class="full-img"><img class="img-fluid" src="https://csresearch.s3.amazonaws.com/STL/2019/Promos/PeakTrump/DavidReagan.jpg" /></div>
+
+<p>Like all young men who get close to the seat of power, I thought we were going to change the world.</p>
+
+<p>You see, I was part of a new wave in the Republican Party.</p>
+
+<p><strong>We believed (and still believe) in sound money, low taxes, small government, and unleashing free enterprise for the benefit of all.</strong></p>
+
+<p>We wanted to TRULY make America great&hellip;</p>
+
+<p>To become a symbol of prosperity and freedom for all the world to see.</p>
+
+<div class="full-img"><img class="img-fluid" src="https://csresearch.s3.amazonaws.com/STL/2019/Promos/PeakTrump/DavidNews.png" /></div>
+
+<p>President Reagan and I didn&rsquo;t accomplish everything we wanted to during our time in the White House.</p>
+
+<p>But we did some very good things.</p>
+
+<p>We lowered taxes.</p>
+
+<p>We stimulated an economic boom.</p>
+
+<p>We forged new peaceful alliances with former enemies.</p>
+
+<p>But the same forces that are working against President Trump today were around even back during the Reagan administration.</p>
+
+<p><strong>I&rsquo;m talking about &ldquo;The Deep State.&rdquo; </strong></p>
+
+<p>The Deep State isn&rsquo;t any one person or group&hellip;</p>
+
+<p>It&rsquo;s an elitist ideology that &ldquo;they&rdquo; know what&rsquo;s best for the rest of us&hellip;</p>
+
+<p>That &ldquo;we the people&rdquo; can&rsquo;t be trusted with democracy&hellip;</p>
+
+<p>That we must be controlled.</p>
+
+<p>And, thanks to many of his own blunders, Donald Trump has perhaps unknowingly become the Deep State&rsquo;s biggest weapon.</p>
+
+<p>And I believe that&rsquo;s left YOU and nearly every single American in <em>grave danger</em>.</p>
+
+<h2>Your money&hellip; your<br class="d-none d-lg-block" />
+freedom&hellip; and your entire future are at terrible risk</h2>
+
+<p>Thanks to Bush I, Clinton, Bush II, Obama, and now Trump, the arms of the Deep State have taken over Washington.</p>
+
+<p>Endless wars&hellip; endless bailouts for billionaires&hellip; endless corruption at every level of government&hellip; and a $22 trillion debt that&rsquo;s growing faster than ever.</p>
+
+<p>This is the swamp&hellip;</p>
+
+<p>Thick, black, murky, and completely undrainable.</p>
+
+<p>Believe me, I&rsquo;ve tried to fight this war against the Deep State from the inside.</p>
+
+<p>I&rsquo;ve tried it from my seat in Congress, as President Reagan&rsquo;s budget director&hellip; even during my time as a fund manager on Wall Street.</p>
+
+<p>And I&rsquo;ve tried to warn people on my many appearances in the mainstream media&hellip;</p>
+
+<div class="full-img"><img class="img-fluid" src="https://csresearch.s3.amazonaws.com/STL/2019/Promos/PeakTrump/DavidCNBC.jpg" /></div>
+
+<p>But it hasn&rsquo;t worked.</p>
+
+<p>I can&rsquo;t reach everyone I want and NEED to with a five-minute spot on the cable networks.</p>
+
+<p>It&rsquo;s just not enough of a platform to equip you with everything you&rsquo;ll need to know to protect yourself.</p>
+
+<p>And there&rsquo;s so much corruption in our government that I just don&rsquo;t trust they&rsquo;ll do the right thing to help citizens like you, either.</p>
+
+<p>Which is why I&rsquo;ve decided to take a different approach.</p>
+
+<p>I&rsquo;m not going to wait for these &ldquo;gatekeepers&rdquo; any longer.</p>
+
+<p>Because I don&rsquo;t need them.</p>
+
+<p>And neither do you.</p>
+
+<p>That&rsquo;s why I&rsquo;m getting the word out myself.</p>
+
+<p>So, if you truly want to discover the REAL dangers I believe we face as a nation&hellip;</p>
+
+<p>I&rsquo;d like to send you a FREE copy of my brand-new book:</p>
+
+<h2><em>Peak Trump:<br class="d-none d-lg-block" />
+The Undrainable Swamp and the Fantasy of MAGA</em></h2>
+
+<div class="float right"><img class="img-fluid" src="https://csresearch.s3.amazonaws.com/STL/2019/Promos/PeakTrump/PeakTrump.png" /></div>
+
+<p>I never wanted to have to write this book.</p>
+
+<p>I wanted Donald Trump to be the &ldquo;Great Disruptor&rdquo; our nation needs to truly save its future.</p>
+
+<p>I wanted him to weed out the lifetime politicians who were long ago bought and paid for by special interests and corporations.</p>
+
+<p>I wanted him to get us out of pointless, expensive wars and conflicts abroad.</p>
+
+<p>I wanted him to instill some financial sanity by letting the stock market begin its natural reset and by cutting our massive national debt.</p>
+
+<p>But, thanks to the actions of the Deep State&hellip; and to Trump&rsquo;s own spectacular mistakes&hellip;</p>
+
+<p><strong>&hellip;the situation has become FAR worse for your money, your freedom, and your future. </strong></p>
+
+<p>And that&rsquo;s why I had no choice but to sit down and write my new book, <strong><em>Peak Trump: The Undrainable Swamp and The Fantasy of MAGA</em></strong><em>.</em></p>
+
+<p>Now, I&rsquo;m sure you&rsquo;re wondering&hellip;</p>
+
+<p><em>What IS &ldquo;Peak Trump?&rdquo; </em></p>
+
+<p>That&rsquo;s what I call the era in which we&rsquo;re actually living in right now.</p>
+
+<p>One where the stock market has rallied once again up to its previous record highs&hellip;</p>
+
+<p>But where the same false sense of security threatens to leave many Americans in harm&rsquo;s way when this bubble finally bursts.</p>
+
+<p><strong>And, by loudly taking credit for this, the longest bull market in history, Trump has handcuffed his fate to Wall Street. </strong></p>
+
+<p>Take September 20, 2018, for instance.</p>
+
+<p>That day, the S&amp;P 500&rsquo;s giant bubble topped out at 2,941.</p>
+
+<p>I can&rsquo;t say for certain, but that day MAY have been the very definition of &ldquo;Peak Trump.&rdquo;</p>
+
+<p>Because, as I write this, despite a few rallies, it&rsquo;s never been able to hit those heights again.</p>
+
+<p>There may still be some small increases on the horizon&hellip; which Trump will tweet about and take credit for instantly&hellip;</p>
+
+<p>But you should expect to see FAR more significant drops in the market in the coming months.</p>
+
+<p>Some of those drops will come completely out of the blue, too.</p>
+
+<p>Which is why it&rsquo;s so important that you prepare yourself for them NOW.</p>
+
+<p>Trump has embraced the largest financial bubble in history.</p>
+
+<p>Instead of &ldquo;clearing the deck&rdquo; and letting it burst so that our economy could reset with sensible spending and growth&hellip;</p>
+
+<p><strong>We&rsquo;re now left with a looming financial crisis that could make the Great Depression look like a day at the beach. </strong></p>
+
+<p>Because thanks to Trump&rsquo;s tax cuts&hellip;</p>
+
+<h2>Trillions of dollars of<br class="d-none d-lg-block" />
+NEW DEBT are about to<br class="d-none d-lg-block" />
+flood into America!</h2>
+
+<p>When the President was celebrating his big-time tax cuts for the wealthy last year, I was left shaking my head.</p>
+
+<p>Without ALL that tax revenue coming in, WHERE is the money to pay for basic government services going to come from?</p>
+
+<p>The national debt jumped $782 billion on Trump&rsquo;s watch in fiscal year 2018.</p>
+
+<p>That&rsquo;s $116 billion more than the year before.</p>
+
+<p>And that huge increase can be traced directly back to those tax cuts.</p>
+
+<p>The shortfall in revenue, including corporate tax receipts plunging $92 billion year-on-year, have left the U.S. scrambling for cash.</p>
+
+<p>But the richest of Americans (many of them members of the Deep State) will pay LESS taxes&hellip;</p>
+
+<p><strong>While the government is expected to borrow over $1 trillion from the Treasury for the SECOND year in a row in order to make up for those tax shortfalls. </strong></p>
+
+<p>What happens next is the truly terrifying part.</p>
+
+<p>If the government can&rsquo;t pay its bills...</p>
+
+<p>And the President continues to keep this financial bubble inflated with more tax cuts for corporations and the wealthy&hellip;</p>
+
+<p><strong>Your assets&hellip; your savings&hellip; your retirement&hellip; everything you&rsquo;ve worked your entire life to build&hellip; </strong></p>
+
+<p><strong>Is ALL in grave danger. </strong></p>
+
+<p>No matter which side of the political aisle you fall on, ask yourself&hellip;</p>
+
+<ul class="arrow large">
+	<li><strong>Will you be &ldquo;winning&rdquo; if you&rsquo;re not allowed to withdraw more than $40 a day from your OWN bank account? </strong></li>
+	<li><strong>Does the idea of having money taken out of YOUR pension to keep the government afloat sound like a &ldquo;great&rdquo; America? </strong></li>
+	<li><strong>And when this bull market finally DOES collapse under the weight of all this debt&hellip; will you even be able to afford to retire by the time you&rsquo;re 80!? </strong></li>
+</ul>
+
+<p>Inside my new book, <strong><em>Peak Trump: The Undrainable Swamp and The Fantasy of MAGA</em></strong>, I reveal the truth about what I think has really happened to America since Donald Trump took office.</p>
+
+<p>Not the insanely biased version the leftist mainstream media feeds you&hellip;</p>
+
+<p>And not the rose-tinted view that Trump&rsquo;s mouthpieces on Fox News spout off, either.</p>
+
+<p>I&rsquo;ve meticulously researched and analyzed the events of every single day of the Trump presidency.</p>
+
+<p>Having spent my entire career inside the two deepest parts of the Deep State &ndash; Imperial Washington and Wall Street&hellip;</p>
+
+<p><strong>I&rsquo;ve been able to unravel the truth about where America could be headed&hellip; and to identify steps YOU need to take in order to ensure you aren&rsquo;t left behind. </strong></p>
+
+<p><u>I&rsquo;ll tell you how to claim your FREE copy of the book in just a moment. </u></p>
+
+<p>But first&hellip;</p>
+
+<h2>Here&rsquo;s just some of what<br class="d-none d-lg-block" />
+I reveal inside <em>Peak Trump</em>&hellip;</h2>
+
+<div class="float right"><img class="img-fluid" src="https://csresearch.s3.amazonaws.com/STL/2019/Promos/PeakTrump/PeakTrump.png" /></div>
+
+<ul class="check">
+	<li><strong>The worst rookie mistake in the history of the American presidency and what it means to you and your money &nbsp;<span class="page">page 5</span></strong></li>
+	<li><strong>Why the mainstream media WON&rsquo;T get their wish to bring down Trump &nbsp;<span class="page">page 19</span></strong></li>
+	<li><strong>The silent assassin who killed MAGA from right inside our government! &nbsp;<span class="page">page 29</span></strong></li>
+	<li><strong>Why the &ldquo;Trump Boom&rdquo; has been a complete lie and what you must do to save your finances before it vanishes &nbsp;<span class="page">page 53</span></strong></li>
+	<li><strong>How Washington and Wall Street teamed up to create &ldquo;The Everything Bubble&rdquo; that&rsquo;s about to explode &nbsp;<span class="page">page 129</span></strong></li>
+	<li><strong>How Washington blew America&rsquo;s LAST shot at saving our financial future and why your kids and grandkids will be the ones to suffer the consequences &nbsp;<span class="page">page 206</span></strong></li>
+	<li><strong>The real reason behind the U.S. trade disaster the Donald <em>didn&rsquo;t</em> mention &nbsp;<span class="page">page 235</span></strong></li>
+	<li><strong>Want to <em>really </em>drain the swamp? THIS is how you do it! &nbsp;<span class="page">page 377</span></strong></li>
+	<li><strong>The truth about the Deep State&rsquo;s assault on Donald Trump &nbsp;<span class="page">page 464</span></strong></li>
+	<li><strong>Why the Mueller investigation really IS a great big &ldquo;nothingburger&rdquo; &nbsp;<span class="page">page 495</span></strong></li>
+	<li><strong>Evidence of how Russian trolls tricked the masses in Florida &nbsp;<span class="page">page 512</span></strong></li>
+	<li><strong>The Trump Tower meeting &ndash; and what CNN and Fox News haven&rsquo;t revealed to you about it! &nbsp;<span class="page">page 524</span></strong></li>
+	<li><strong>How the Donald&rsquo;s border obsession is now the <em>true enemy </em>of MAGA &nbsp;<span class="page">page 576</span></strong></li>
+	<li><strong>And much&hellip; MUCH more! </strong></li>
+</ul>
+
+<p>This is an absolutely crucial time for every American to prepare for what&rsquo;s ahead.</p>
+
+<p>That&rsquo;s why I wrote <em>Peak Trump</em>.</p>
+
+<p>Not to pile on the President&rsquo;s embattled administration.</p>
+
+<p>And not because I have an axe to grind with Trump himself&hellip;</p>
+
+<p>Remember, I voted for the guy! I wanted him to succeed!</p>
+
+<p><strong>But unless you know the TRUTH about what&rsquo;s happening in our highest levels of government and business right now&hellip; </strong></p>
+
+<p><strong>&hellip;you don&rsquo;t stand a chance of surviving the crisis that&rsquo;s about to come. </strong></p>
+
+<p>I&rsquo;d like to send you a FREE copy of my brand new book here today so that you can protect your hard-earned money and God-given freedoms as an American.</p>
+
+<p>But this looming disaster is so big that I needed to include some other critical resources for you as well.</p>
+
+<p>So, in addition to your free copy of <em>Peak Trump: The Undrainable Swamp and The Fantasy of MAGA</em>, I&rsquo;d also like to send you&hellip;</p>
+
+<h2>Four FREE Emergency<br class="d-none d-lg-block" />
+Action Reports</h2>
+
+<p class="text-center"><span class="highlight"><strong>PLEASE NOTE: None of these bonus reports are available when you purchase <em>Peak Trump</em> in stores or on Amazon. They&rsquo;re ONLY available through this special offer.</strong></span></p>
+
+<p>It starts with&hellip;</p>
+
+<div class="float right"><img class="img-fluid" src="https://csresearch.s3.amazonaws.com/STL/2019/Promos/PeakTrump/DRSTL4561StckmnLttrRprt-ThWpns-Value.png" /></div>
+
+<h3><span class="head"><u>Emergency Action Report #1</u></span><em>The Weapons of the Deep State</em></h3>
+
+<p>The Deep State has existed for decades&hellip;</p>
+
+<p>But the threat to your freedoms and your wealth has never been greater.</p>
+
+<p><strong>If their actions are allowed to proceed unchallenged, lifelong savers and retirees could lose HALF their money to the Deep State!</strong></p>
+
+<p>The one mistake you can make today is to sit back and wait for President Trump to drain the swamp.</p>
+
+<p><strong>The Deep State is simply this &mdash; an intricate web of money, power, and influence that spreads from Wall Street to Washington.</strong></p>
+
+<p>This report will help you quickly get up to speed about the five weapons of the Deep State and the tactics used to help those in power stay in power.</p>
+
+<div class="float right"><img class="img-fluid" src="https://csresearch.s3.amazonaws.com/STL/2019/Promos/PeakTrump/DRSTL4561StckmnLttrRprt-HwToPrtct-Value.png" /></div>
+
+<h3><span class="head"><u>Emergency Action Report #2:</u></span><em>How to Protect Your Wealth from the Next Market Crash</em></h3>
+
+<p>Too many investors believe we&rsquo;re in a world where markets can only go higher and higher&hellip;</p>
+
+<p>They&rsquo;re dead wrong.</p>
+
+<p><strong>If you need your money for anything in the next FIVE years &mdash; retirement, your kids or grandkids college, medical expenses&hellip; </strong></p>
+
+<p><strong>It&rsquo;s time to be VERY selective about what you invest in!</strong></p>
+
+<p>In this report, you&rsquo;ll discover:</p>
+
+<ul>
+	<li><strong>The No. 1 reason you should ignore the world&rsquo;s most famous investor&rsquo;s advice &mdash; and how doing so could help you DOUBLE your investment returns</strong></li>
+	<li><strong>The personal strategy I&rsquo;ve use to protect and grow my wealth from the Fed&rsquo;s &ldquo;Bubble Finance&rdquo;</strong></li>
+	<li><strong>How to pick a portfolio model that fits&nbsp;<em>your</em> unique situation&hellip; helping you understand how to invest safely as we barrel towards the next potential market crash</strong></li>
+</ul>
+
+<p>That&rsquo;s two FREE emergency action reports&hellip;</p>
+
+<p>But there&rsquo;s still TWO MORE I also need to send you:</p>
+
+<div class="float right"><img class="img-fluid" src="https://csresearch.s3.amazonaws.com/STL/2019/Promos/PeakTrump/STLRprt4StrtgsToPrspr-Value.png" /></div>
+
+<h3><span class="head"><u>Emergency Action Report #3:</u></span><em>Four Profitable Truths to Prosper in the Inevitable Crisis Ahead </em></h3>
+
+<p>Once the bubble does pop, every stock will suffer.</p>
+
+<p>So, what will be the safe havens to guard and grow your wealth?</p>
+
+<p>This report will unlock the four truths you must accept today to uncover the ultra-safe profit opportunities you may not know about.</p>
+
+<p><strong>If you truly want to continue to grow your wealth during the major crash ahead of us, you&rsquo;ll need this report to help you do it. </strong></p>
+
+<p>Otherwise you could end up losing a huge chunk of your money like so many other unprepared Americans.</p>
+
+<p>And to help you avoid that, I&rsquo;d also like to send you&hellip;</p>
+
+<div class="float right"><img class="img-fluid" src="https://csresearch.s3.amazonaws.com/STL/2019/Promos/PeakTrump/STLRprt10StcksToDmpNw-Value.png" /></div>
+
+<h3><span class="head"><u>Emergency Action Report #4:</u></span><em>10 Stocks to Dump NOW Before Sundown in America</em></h3>
+
+<p>It&rsquo;s about to get rough out there.</p>
+
+<p>As markets start to drop and the crash becomes more likely, stock dumping will become the norm.</p>
+
+<p>The ones that have run up the most or are drastically overvalued will get hit the fastest and the hardest.</p>
+
+<p>And, sadly, many retirement nest eggs will get crushed as investors cling to plummeting stocks.</p>
+
+<p>But not yours.</p>
+
+<p><strong>Not if you dump these 10 stocks right now!</strong></p>
+
+<p>By making these moves today, you can save your wealth from the worst of it.</p>
+
+<p>And, if you own any of these companies, take the profits now and run!</p>
+
+<h2>I&rsquo;ll send you all FOUR<br class="d-none d-lg-block" />
+of these reports, in addition to your copy of <em>Peak Trump</em>&hellip;<br class="d-none d-lg-block" />
+at NO cost!</h2>
+
+<p>All I ask in return is one thing&hellip;</p>
+
+<p>Many of my readers have reached out, thanking me for exposing the truth behind the Deep State&hellip;</p>
+
+<p>Many of you are worried we&rsquo;re staring down the barrel of the next financial crisis, with the Deep State at the trigger&hellip;</p>
+
+<p>And many of you want to take action&hellip; TODAY.</p>
+
+<p>Which is why I&rsquo;d like to invite you to become a charter member of my newest project.</p>
+
+<div class="full-img"><img class="mt-3 pl-5 pr-5 img-fluid" src="https://csresearch.s3.amazonaws.com/STL/2019/Promos/PeakTrump/StockmanLetterLogo.png" /></div>
+
+<p><em>The Stockman Letter</em>&nbsp;is an in-depth monthly letter covering Wall Street, Washington, and the impact both have on Main Street Americans like you.</p>
+
+<p>I cover a lot of ground in&nbsp;<em>The Stockman Letter</em>, including:</p>
+
+<ul>
+	<li><strong>Pulling back the curtain and exposing the weapons of the Deep State, including why it&rsquo;s in their best interest to eventually destroy the American Dream.</strong></li>
+	<li><strong>Uncovering the truth about who really controls the purse strings in Washington &hellip; and how ONE secret could help you invest more successfully AND more profitably.</strong></li>
+	<li><strong>Tracking and revealing a number of ways to help you protect and safely grow your money.</strong></li>
+	<li><strong>And much, much more!</strong></li>
+</ul>
+
+<p>I&rsquo;d love for you to see it for yourself.</p>
+
+<p><u>That&rsquo;s why I&rsquo;m asking you to try a simple 30-day subscription for just $4.95.</u></p>
+
+<p>And when you do (with zero obligation beyond those 30 days)&hellip;</p>
+
+<p><strong>I&rsquo;ll send you a FREE copy of my brand new book, <em>Peak Trump: The Undrainable Swamp and The Fantasy of MAGA.</em></strong></p>
+
+<p><strong>PLUS the four FREE emergency action reports I just previewed for you: </strong></p>
+
+<div class="full-img"><img class="img-fluid" src="https://csresearch.s3.amazonaws.com/STL/2019/Promos/PeakTrump/Reports.png" /></div>
+
+<p><strong>That&rsquo;s a $572 value!</strong></p>
+
+<p>And for accepting this easy 30-day subscription for just $4.95, you&rsquo;ll also get:</p>
+
+<ul class="check">
+	<li><strong>One issue of&nbsp;<em>The Stockman Letter:</em> The uncensored truth about what&rsquo;s going on in Washington D.C. and on Wall Street. Each month, I&rsquo;m going to name names, expose lies, and reveal the dirty tricks being used to keep the Deep State in control of our government.</strong></li>
+	<li><strong>A complimentary subscription to my free daily e-letter,&nbsp;<em>Deep State Declassified</em>, delivered to your email five days a week at approximately 6 p.m. ET.</strong></li>
+</ul>
+
+<p>Most importantly, you&rsquo;ll be securing a FREE copy of my critically important new book, <em>Peak Trump</em>.</p>
+<a class="btn" href="https://pro.charlesstreetresearch.com/o/STLBK/PSTLV352?h=true">YES! Send me my<br />
+FREE copy of David&rsquo;s<br />
+NEW book today! &raquo;</a>
+
+<h2>Just listen to what critics<br class="d-none d-lg-block" />
+and readers have said about several of my books&hellip;</h2>
+
+<div class="row d-flex align-items-center">
+<div class="col-md-6">
+<div class="testimonial">
+<p class="lead">A welcome thrashing of the ruling classes in both parties.</p>
+
+<div class="author"><em>The Wall Street Journal</em></div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="testimonial">
+<p class="lead">Bring your dog-eared copy to the polls or stay home.</p>
+
+<div class="author">Michael Levin<span class="light"><em>Huffington Post</em></span></div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="testimonial">
+<p class="lead">Even though you are highly likely to disagree with &lsquo;something&rsquo; he says, you are highly unlikely to disagree with &lsquo;everything&rsquo; he says. Most importantly, I suspect he will change your mind or leanings on something. Whether you like Trump or not just Get the Book!</p>
+
+<div class="author">Mike &quot;Mish&quot; Shedlock<span class="light">Macroeconomic Analyst</span></div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="testimonial">
+<p class="lead">I have absorbed a dozen of those previous books. Stockman&#39;s is my favorite because of his original research, the context he presents (starting with the economic depression of the 1930s), his former insider status, and his apparent political non-partisanship during the endeavor.</p>
+
+<div class="author"><em>USA Today</em></div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="testimonial">
+<p class="lead">I was very much impressed by his first book, The Great Deformation, and his new book is just as good. If you want to understand what is wrong with the US, you should definitely read both books.</p>
+
+<div class="author">Dan Popescu<span class="light">gold and silver analyst</span></div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="testimonial">
+<p class="lead">This is truly the book we have been waiting for, and we owe David Stockman a great debt.</p>
+
+<div class="author">Lew Rockwell<span class="light"><em>author and anarcho-capitalist</em></span></div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="testimonial">
+<p class="lead">This thought-provoking book will contribute to important debates on these issues.</p>
+
+<div class="author"><em>Booklist</em></div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="testimonial">
+<p class="lead">Agree with Stockman or not, one can&#39;t deny that he&#39;s a colorful writer!</p>
+
+<div class="author">Townhall.com</div>
+</div>
+</div>
+</div>
+
+<h2>I truly believe<br class="d-none d-lg-block" />
+we&rsquo;re at a turning point in<br class="d-none d-lg-block" />
+American history&hellip;</h2>
+
+<p>That&rsquo;s why I&rsquo;ve decided to send out as many FREE copies of <em>Peak Trump: The Undrainable Swamp and The Fantasy of MAGA </em>as my publisher will allow.</p>
+
+<p>All I ask is you accept an easy 30-day subscription to <em>The Stockman Letter </em>for just $4.95 today.</p>
+
+<p>And as a &ldquo;thank you!&rdquo; I&rsquo;ll throw in the FOUR emergency action reports I previewed earlier at NO COST.</p>
+
+<div class="full-img"><img class="img-fluid" src="https://csresearch.s3.amazonaws.com/STL/2019/Promos/PeakTrump/BundleWithBook.png" /></div>
+
+<p><strong>That all adds up to a $572 value&hellip; which you can claim for LESS than five bucks! </strong></p>
+
+<p>But the level of knowledge, truth, and actionable strategies you&rsquo;ll take from all these resources is invaluable.</p>
+
+<p>After all, it could help save your finances AND your freedoms for decades to come!</p>
+
+<p>I hope you&rsquo;ll claim your copy of my new book, along with all the other important resources I&rsquo;m offering along with it, today.</p>
+
+<p><strong>Remember, you&rsquo;ll pay $26.99 for a copy of <em>Peak Trump</em> in stores.</strong></p>
+
+<p><strong>And you WON&rsquo;T receive any of the emergency action reports I&rsquo;ve included with your FREE copy</strong>.</p>
+
+<p>So, please, don&rsquo;t let this opportunity pass you by.</p>
+
+<p>Just click below to arrange for your copy of my brand-new book to be sent to you today!</p>
+
+<p>Sincerely,</p>
+
+<p><img class="img-fluid" src="https://csresearch.s3.amazonaws.com/STL/2019/Promos/PeakTrump/DavidSSig.png" /></p>
+
+<p>David Stockman</p>
+<a class="btn" href="https://pro.charlesstreetresearch.com/o/STLBK/PSTLV352?h=true">YES! Send me my<br />
+FREE copy of David&rsquo;s<br />
+NEW book today! &raquo;</a> <!--———————————————————— END PROMO BODY CONTENT ———————————————————— --></div>
+</div>
+</div>
+<script type="text/javascript">
+           var months = ['January','February','March','April','May','June','July',
+'August','September','October','November','December'];       
+var tomorrow = new Date();
+tomorrow.setTime(tomorrow.getTime() + (1000*3600*24));       
+document.getElementById("spanDate").innerHTML = months[tomorrow.getMonth()] + " " + tomorrow.getFullYear();
+</script>  
+ 	
+</body>      
+</html>

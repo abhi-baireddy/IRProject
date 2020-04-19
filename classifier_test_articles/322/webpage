@@ -1,335 +1,1182 @@
-<html class="pages/article">
+<!doctype html>
+<html lang="en" class="nojs">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-	<style>*{box-sizing:border-box}body,html{margin:0;padding:0;font-family:Lato,verdana;font-size:14px;min-width:310px}a{color:#c73930;text-decoration:none}a:hover photo{opacity:.9}button{color:#111;cursor:pointer;background-color:transparent;border-color:transparent;border:none;line-height:50px}button a{color:inherit}button.white{display:block;padding:0 20px;margin:10px auto;color:#222;border:1px solid #222}button.white:hover{background-color:#222;color:#fff;border:1px solid #fff}h2{border-top:2px solid #000;border-bottom:2px solid #000;font-family:Lora,serif;font-weight:700;font-size:22px;line-height:44px;text-align:center;text-transform:uppercase;margin:10px 0 5px;padding:0}h3{position:relative;z-index:1;font-family:Lora,serif;font-weight:300;font-size:22px;line-height:44px;text-align:center;text-transform:uppercase;margin:10px 0 5px;padding:0}h3 span{background-color:#fff;padding:0 20px}h3 hr{border:0;border-top:1px solid #8a8a8a;position:absolute;z-index:-1;left:0;right:0;top:50%;margin:0;line-height:1px}h4{font-family:Roboto,verdana;font-weight:700;margin:10px 0;font-size:22px}h5{color:#ccc;font-family:raleway;text-transform:uppercase;font-weight:300;font-size:16px;margin:10px 0}hr{border:0;border-top:1px solid #8a8a8a;top:50%;margin:0;line-height:1px}hr.indent{margin:0 40px}blockquote{padding:1px 0 1px 20px;margin:0 0 20px;font-size:17.5px;border-left:5px solid #eee}form{margin:0}section{position:relative;overflow:hidden;display:block;margin:0 auto;max-width:1200px;padding:0 15px}section#spacer{margin-top:85px;overflow:hidden}.fadein{opacity:0;transition:opacity .5s ease}.ad{text-align:center;margin-topxx:10px}atom{width:calc(100% - 320px);float:left}article{padding:10px 0;font-weight:500;font-family:Raleway;font-size:18px;color:#222;height:137px}article * img{max-width:100%}photo{display:block;background-repeat:no-repeat;background-size:cover;background-position:center}article photo{float:left;width:35%;transition:all .5s;height:100%}articles article{padding-right:10%;border-bottom:1px solid #eee}features{padding:10px 0;display:block;height:360px}features article{position:relative;float:left;font-weight:400;font-size:11px;padding:0;text-transform:uppercase}features photo{position:absolute;z-index:-1;width:100%}features span{display:block;width:100%;font-family:Roboto,sans-serif;color:#fff;position:absolute;bottom:0;padding:8px;background-color:rgba(0,0,0,.8)}features a article{width:35%;height:calc(50% - 2px)}features a:nth-of-type(1) article{width:65%;height:100%;font-size:16px}features a:nth-of-type(1) article photo,features a:nth-of-type(1) article span{width:calc(100% - 4px);padding-right:10px}features a:nth-of-type(2) article{margin-bottom:2px}features a:nth-of-type(3) article{margin-top:2px}articles,features{display:block;clear:both}articles photo{margin-right:10px}articles author{display:block;font-size:13px;line-height:22px;color:#ccc;font-family:Verdana}sidebar{display:block;float:right;positionxx:absolute;topxx:0;rightxx:0;width:300px;min-height:700px;padding-rightxx:15px}sidebar photo{width:100%;height:137px;margin-bottom:8px}sidebar article{font-weight:600;height:auto;font-size:13px}detail{overflow:hidden;width:calc(100% - 320px);float:left;display:block}detail h1{font-family:Roboto;font-weight:600;font-size:22px;line-height:26px;letter-spacing:-.2px;text-transform:uppercase;margin:0 0 10px 0}detail author{font-weight:700;font-size:14px;color:#c73930}detail author:hover{color:#222}detail photo{display:block;margin-top:10px;background-position:center;background-color:#000;background-size:cover;height:370px;width:100%}detail article{font-family:verdana;font-size:16px;line-height:24px;color:#222;display:block;background-color:#fff;padding:15px;margin:-50px auto 15px;width:85%;height:auto}detail a{color:#c73930}detail text div.wp-caption,detail text div.wp-caption img{width:100%!important;height:auto!important}iframe.instagram-mediaxx{max-width:100%!important;position:relative!important;width:250px!important}.wp-caption .wp-caption-text{background-color:#333;color:#fff;margin:0;padding:5px;font-size:12px;text-align:center}articles.popular article{padding-right:10px;font-size:15px;font-weight:600;float:left;width:50%}@media only screen and (max-width:900px){atom,detail{width:100%}articles,features,sidebar{width:100%;margin:0;padding-right:0;overflow:hidden}sidebar article{width:50%;float:left;height:215px}sidebar a:nth-child(odd) article{padding-right:5px}sidebar a:nth-child(even) article{padding-left:5px}sidebar{position:static}}@media only screen and (max-width:700px){detail article{margin:0;width:100%}}@media only screen and (max-width:500px){articles.popular article{height:370px}features{height:auto}features a article,features a:nth-of-type(1) article{width:100%;padding-right:0;margin:0;height:300px;margin-bottom:10px}features article photo,features article span{width:100%!important;font-size:16px}articles article{position:relative;height:320px;padding:0}articles article author{display:none}articles article .socialmedia-article{position:absolute;top:210px;right:0}articles article photo{height:250px;width:100%}articles.popular article{padding:0}articles.popular a:nth-child(odd) article{padding-right:5px}articles.popular a:nth-child(even) article{padding-left:5px}}author{cursor:pointer}author.full{display:block;padding:10px 0;margin:10px 0 20px 0;padding-right:10%;border-bottom:1px solid #eee;border-top:1px solid #eee;overflow:hidden}author.full::after{clear:both}author.full h1{font-family:arial;font-size:20px;color:#222;text-transform:uppercase;margin:0 0 10px 0}author.full photo{width:100px;height:100px;background-position:center center;background-size:cover;border-radius:50%;margin:0 10px 0 0;float:left}html.pages\/gallery{overflow:hidden}html.pages\/gallery header{height:50px}a.close{z-index:10;position:fixed;right:10px;top:5px;color:#fff}gallery{display:block;overflow:hidden;padding-bottom:20px}gallery img{width:20%;float:left;padding:3px;cursor:pointer}.lightbox{background-color:#000;opacity:1;width:100%;height:100%;position:fixed;top:0;z-index:1;display:block}.slidemat{width:100%;z-index:1;margin-top:65px;margin-bottom:100px;position:fixed;display:none;top:0;bottom:0;background-size:contain;background-repeat:no-repeat;background-position:center}.slideleft,.slideright{padding:200px 0;display:flex;justify-content:center;align-items:center;background-colorxxx:#1c1c1c;color:#8a8a8a;position:fixed;z-index:1;top:0;height:100%;width:10%;cursor:pointer}.slideleft:hover,.slideright:hover{background-color:#555}.slideright{right:0}.slideleft{left:0}.slidefooter{color:#fff;background-color:#000;position:fixed;width:100%;z-index:1;height:86px;bottom:0}.slidecounter{margin-top:4px;width:25%;text-align:center;float:left;font-family:Anton,sans-serif;font-size:25px}.slidetext{font-family:Roboto,serif;font-size:22px;width:75%;marginxx:0 auto;text-align:center}.slide{width:75%;max-width:500px;margin:0 auto;background-color:#1a1a1a}header{height:85px;overflow:hidden;transition:height .5s;display:block;width:100%;z-index:2;background-color:#000;position:fixed;background-color:#eee;top:0}header.fixed{height:50px}header.dev{background-color:#006400}ul.nav{display:block;list-style:none;float:right}ul.nav li{float:left}.logo{height:100%;width:400px;display:inline-block;heightx:56px;widthx:250px;background-size:contain;background-repeat:no-repeat;background-position:left center;background-image:url(/assets/images/check-logo.png)}header #search-box{float:right;display:flex;justify-content:center;align-items:center;height:100%;padding:20px 40px 20px 0}header input.search{background-color:transparent;border:none;border-bottom:1px solid #ddd;color:#000}@media only screen and (max-width:500px){header .logo{width:100%}}section#page{font-family:Raleway}section#page h1{font-family:Anton;font-size:30px;letter-spacing:2px;text-transform:uppercase;margin-bottom:0;padding-bottom:0}section#page p{font-family:Raleway;font-size:22px;line-height:30px}section#page content{min-height:2200px;display:block;color:#000;width:calc(100% - 320px);float:left;font-family:Raleway;font-size:22px;line-height:30px;font-weight:300}.policy-section-1>h1{color:#fff;line-height:1.5}.policy-section-1{background-color:#000;color:#fff;padding:6% 7%}.policy-section-1 a{color:#f3f3f3}.policy-section-1 a:first-child{color:#fff}.policy-section-1 hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}content div.highlight{background-color:#f6f2f2;padding:10px;margin:20px 0}content input{background-color:#fff;border:1px solid #ccc;color:rgba(0,0,0,.75);display:block;font-size:.875rem;margin:0 0 1rem;padding:.5rem;height:2.3125rem;width:100%}content button{float:right;background-color:#ccc;padding:9px;margin-top:-45px}content button .fa-search{color:#fff}@media only screen and (max-width:900px){section#page content{margin-right:0;width:100%}}#social-box{float:right;display:flex;justify-content:center;align-items:center;margin:0 20px;padding:22px 22px;height:100%;border-right:1px solid #f5f5f5;border-left:1px solid #f5f5f5}#social-box a{padding:0 16px}articles.popular .fa{margin-top:5px;padding-right:5px;color:#ccc}articles.popular .fa:hover{color:#000}section#main .fa-stack{margin-right:5px;color:#ccc}section#main .fa-stack:hover{color:#000}#article-share{border:0 solid red;min-height:25px;margin-left:7px}button.social-share-btn{font-size:9px;line-height:10px;width:90px;height:28px;margin:0;margin-left:-7px;display:inline;text-align:left;background-color:#000;border:0 solid #fff;cursor:pointer}section#main button.social-share-btn span.fa-stack{color:transparent}button.social-share-btn.clrfb{background-color:#3b5998}button.social-share-btn.clrtw{background-color:#00aced}button.social-share-btn.clrgp{background-color:#dd4b39}button.social-share-btn.clrds{background-color:#6b6b6b}button.social-share-btn.sbottom{text-transform:uppercase;width:150px;height:42px;text-align:center}button.social-share-btn.sbottom i.fa-inverse{font-size:1.33333333em}button.social-share-btn.sbottom span.fa-stack{width:100%}button.social-share-btn.sbottom span.slabel{font-size:9px;padding-left:4px}button.social-share-btn.stop span.slabel{display:none}</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-site-verification"
+          content="ZD8FXatzTA8IUUJR-ZTLm6TNCa5anRbPApADrOWnmgM"/>
+    <meta name="theme-color" content="#2c4971">
+    <title>Lawmaker: Outlaw Abortion Because Women Are &#039;Just Not Having Enough Babies&#039; | Crooks and Liars</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/sites/all/themes/cl_theme18/assets/css/vendor.css"/>
+	
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/custom/donation_drives/css/dd_theme.regular.css?5" />
+<link type="text/css" rel="stylesheet" media="all" href="https://crooksandliars.com/files/css/css_49004cc6ab88298e185632078d778711.css" />
+<link type="text/css" rel="stylesheet" media="print" href="https://crooksandliars.com/files/css/css_2b9780558b4023c393e1cb35228d95db.css" />
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-QXNM');</script>
+<!-- End Google Tag Manager -->
+            <style>
+            .st-sticky-share-buttons {
+                display: none !important;
+            }
 
+            body {
+                padding-bottom:0 !important;
+            }
+        </style>
+        <script>
+        document.documentElement.className = document.documentElement.className.replace('nojs', 'hasjs');
+    </script>
+        <link rel="icon" sizes="192x192"
+          href="https://crooksandliars.com/sites/all/themes/cl_theme18/touch//apple-touch-icon.png"/>
+    <link rel="apple-touch-icon"
+          href="https://crooksandliars.com/sites/all/themes/cl_theme18/touch//apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="57x57"
+          href="https://crooksandliars.com/sites/all/themes/cl_theme18/touch//apple-touch-icon-57x57.png"/>
+    <link rel="apple-touch-icon" sizes="72x72"
+          href="https://crooksandliars.com/sites/all/themes/cl_theme18/touch//apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="76x76"
+          href="https://crooksandliars.com/sites/all/themes/cl_theme18/touch//apple-touch-icon-76x76.png"/>
+    <link rel="apple-touch-icon" sizes="114x114"
+          href="https://crooksandliars.com/sites/all/themes/cl_theme18/touch//apple-touch-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="120x120"
+          href="https://crooksandliars.com/sites/all/themes/cl_theme18/touch//apple-touch-icon-120x120.png"/>
+    <link rel="apple-touch-icon" sizes="144x144"
+          href="https://crooksandliars.com/sites/all/themes/cl_theme18/touch//apple-touch-icon-144x144.png"/>
+    <link rel="apple-touch-icon" sizes="152x152"
+          href="https://crooksandliars.com/sites/all/themes/cl_theme18/touch//apple-touch-icon-152x152.png"/>
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed"
+          href="http://feeds.crooksandliars.com/crooksandliars/YaCP">
+    
+<script>var CLABResponsiveUnits = [];</script>
+<link rel="amphtml" href="https://crooksandliars.com/2019/04/state-rep-supports-abortion-bills-because/amp" />
+<meta name="description" content="Delaware state Rep. Richard Collins (R) said this week that he was sponsoring an anti-abortion bill because women are not replenishing the (white) U.S. population quickly enough." />
+<meta name="copyright" content="2020 Crooks and Liars" />
+<meta name="canonical" content="https://crooksandliars.com/2019/04/state-rep-supports-abortion-bills-because" />
+<meta name="author" content="David" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="Crooks and Liars" />
+<meta name="twitter:site:id" content="crooksandliars" />
+<meta name="twitter:creator" content="David" />
+<meta name="twitter:image:src" content="https://crooksandliars.com/files/primary_image/19/04/richard_collins1-800x430.jpg" />
+<meta name="twitter:description" content="Delaware state Rep. Richard Collins (R) said this week that he was sponsoring an anti-abortion bill because women are not replenishing the (white) U.S. population quickly enough." />
+<meta property="fb:app_id" content="175539195933165" />
+<meta property="og:title" content="Lawmaker: Outlaw Abortion Because Women Are &#039;Just Not Having Enough Babies&#039;" />
+<meta property="og:url" content="https://crooksandliars.com/2019/04/state-rep-supports-abortion-bills-because" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Crooks and Liars" />
+<meta property="og:image" content="https://crooksandliars.com/files/primary_image/19/04/richard_collins1-800x430.jpg" />
+<meta property="og:image:width" content="800" />
+<meta property="og:image:height" content="430" />
+<meta property="og:description" content="Delaware state Rep. Richard Collins (R) said this week that he was sponsoring an anti-abortion bill because women are not replenishing the (white) U.S. population quickly enough." />
+<meta property="og:twitter:image:src" content="https://crooksandliars.com/files/primary_image/19/04/richard_collins1-800x430.jpg" />
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"NewsArticle","publisher":{"@type":"Organization","name":"Crooks and Liars","logo":{"@type":"ImageObject","url":"https:\/\/crooksandliars.com\/files\/cl_theme_logo.png","width":"184","height":"101"}},"mainEntityOfPage":"https:\/\/crooksandliars.com\/2019\/04\/state-rep-supports-abortion-bills-because","image":{"@type":"ImageObject","url":"https:\/\/crooksandliars.com\/files\/primary_image\/19\/04\/richard_collins1-800x430.jpg"},"headline":"Lawmaker: Outlaw Abortion Because Women Are 'Just Not Having Enough Babies'","datePublished":"2019-04-16T12:46:00-07:00","dateModified":"2019-04-25T16:56:55-07:00","author":{"@type":"person","name":"David"},"description":"Delaware state Rep. Richard Collins (R) said this week that he was sponsoring an anti-abortion bill because women are not replenishing the (white) U.S. population quickly enough."}</script>
+<link rel="shortcut icon" href="https://crooksandliars.com/files/favicon.ico" type="image/x-icon" />
+<meta name="msvalidate.01" content="CA97BE6D257F69A253773C6E5C001E03" />
+<link rel="manifest" href="/onesignal/manifest.json" />
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "6e53e4f0-debb-4365-bdbe-2806cd20ee52",
+      safari_web_id: "web.onesignal.auto.220e9b0b-02d4-465b-a5d3-49d3d287ceee"
+    });
+  });
+</script>     <script>
+var propertag = propertag || {};
+propertag.cmd = propertag.cmd || [];
+(function() {
+var pm = document.createElement('script');
+pm.async = true; pm.type = 'text/javascript';
+var is_ssl = 'https:' == document.location.protocol;
+pm.src = (is_ssl ? 'https:' : 'http:') + '//global.proper.io/crooksandliars.min.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(pm, node);
+})();
+</script>
+<script type="text/javascript" class="teads" src="//a.teads.tv/page/101830/tag" async="true"></script>
+<script async src="//cdn.avantisvideo.com/avm/js/video-loader.js?id=419955f2-1ca2-4dd8-a68e-332882485bbd&tagId=2&subId=&callback=" id="avantisJS"> </script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: 'ca-pub-6512936480753445',
+    enable_page_level_ads: true,
+    overlays: {google_ad_channel: '6916694011'}
+  });
+</script>
+<!-- Start BounceX tag. Deploy at the beginning of document head. -->
+<script>
+	(function(d) {
+		var e = d.createElement('script');
+		e.src = d.location.protocol + '//tag.bounceexchange.com/3601/i.js';
+		e.async = true;
+		d.getElementsByTagName("head")[0].appendChild(e);
+	}(document));
+</script>
+<!-- End BounceX tag -->
+<script>
+if (window.screen.width < 700) {
+    var script = document.createElement('script');
+    script.setAttribute('data-ad-client', 'ca-pub-5155643920455169');
+    script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
+    document.head.appendChild(script);
+}
+</script>
 
-	<!-- JSON-LD -->
-	<script type="application/ld+json">
-		{
-			"@context": "http://schema.org",
-			"@type": "NewsArticle",
-			"mainEntityOfPage": {
-				"@type": "WebPage",
-				"@id": "http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/"
-			},
-			"headline": "FACT CHECK: 'In The Time Of Pandemic' – Was This Poem Written In 1869 And Reprinted During The Spanish Influenza?",
-			"image": [
-					"https://cdn01.dailycaller.com/wp-content/uploads/2020/04/shutterstock_1400736155-e1586894269385.jpg"
-			],
-			"thumbnailUrl": "https://cdn01.dailycaller.com/wp-content/uploads/2020/04/shutterstock_1400736155-e1586894269385.jpg",
-			"datePublished": "2020-04-14T20:14:24.000Z",
-			"dateModified": "2020-04-14T20:14:24.000Z",
-			"articleSection": "Politics",
-			"author": {
-				"@type": "Person",
-				"name": "Elias Atienza"
-			},
-			"keywords": ["covid-19","pandemic","poetry"],
-			"description": "A viral Facebook post claims that French-Irish writer Kathleen O’Meara wrote the poem &quot;In the Time of Pandemic&quot; in 1869.",
-			"publisher": {
-				"@type": "Organization",
-				"name": "Check Your Fact",
-				"logo": {
-					"@type": "ImageObject",
-					"url": "https://checkyourfact.com/files/check-logo-amp.png",
-					"width": 436,
-					"height": 60
-				}
-			}
-		}
-	</script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@graph": [
+                {
+                    "@type": "WebSite",
+                    "url": "https://crooksandliars.com/",
+                    "logo": "https://crooksandliars.com/files/cl_theme_logo.png",
+                    "potentialAction": {
+                        "@type": "SearchAction",
+                        "target": "https://crooksandliars.com/solr/{search_term_string}",
+                        "query-input": "required name=search_term_string"
+                    }
+                },
+                {
+                    "@context": "http://schema.org",
+                    "@type": "Organization",
+                    "name": "Crooks and Liars",
+                    "url": "https://crooksandliars.com",
+                    "logo": "https://crooksandliars.com/files/cl_theme_logo.png",
+                    "sameAs": [
+                        "https://www.facebook.com/crooksandliars.site",
+                        "https://twitter.com/crooksandliars",
+                        "https://plus.google.com/+crooksandliars",
+                        "https://crooksandliars.tumblr.com/"
+                    ]
+                }
+            ]
+        }
 
-	<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "ClaimReview",
-			"datePublished": "2020-04-14T20:14:24.000Z",
-			"url": "http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/",
-			"claimReviewed": "French-Irish writer Kathleen O’Meara wrote the poem \"In the Time of Pandemic\" in 1869",
-			"itemReviewed": {
-				"@type": "Claim",
-				"author": {
-					"@type": "Organization",
-					"name": "Viral Post",
-					"sameAs": "https://www.facebook.com/photo.php?fbid=10158554693991388&set=a.359904971387&type=3&theater"
-				},
-				"datePublished": "2020-04-03",
-				"appearance": "https://www.facebook.com/photo.php?fbid=10158554693991388&set=a.359904971387&type=3&theater"
-			},
-			"author": {
-				"@type": "Organization",
-				"name": "Check Your Fact",
-				"url": "https://checkyourfact.com"
-			},
-			"reviewRating": {
-				"@type": "Rating",
-				"ratingValue": "1",
-				"bestRating": "3",
-				"worstRating": "1",
-				"alternateName":"False"
-			}
-		}
-	</script>
+    </script>
 
-	<link rel="canonical" href="https://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/">
-	<link rel="amphtml" href="https://amp.checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara"/>
-	<meta property="og:url" content="http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/">
-	<meta property="og:image" content="https://cdn01.dailycaller.com/wp-content/uploads/2020/04/shutterstock_1400736155-e1586894269385.jpg">
-	<meta property="og:title" content="FACT CHECK: &#8216;In The Time Of Pandemic&#8217; – Was This Poem Written In 1869 And Reprinted During The Spanish Influenza?">
-	<meta property="og:description" content="&#x27;And people stayed home&#x27;">
-	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:site" content="check_your_fact" />
-	<meta property="twitter:title" content="FACT CHECK: &#8216;In The Time Of Pandemic&#8217; – Was This Poem Written In 1869 And Reprinted During The Spanish Influenza?" />
-	<meta property="twitter:description" content="&#x27;And people stayed home&#x27;" />
-	<meta property="twitter:image" content="https://cdn01.dailycaller.com/wp-content/uploads/2020/04/shutterstock_1400736155-e1586894269385.jpg" />
-	<link rel="apple-touch-icon" sizes="256x256" href="/files/CheckYourFact-Icon.png">
-
-
-	<!--- Google Tag Init --->
-	<script>
-	  var googletag = googletag || {};
-	  googletag.cmd = googletag.cmd || [];
-	</script>
-
-	<!--- GOOGLE TAG MANAGER --->
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12159302-14"></script>
-	<script async src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-
-	<script>
-
-	  googletag.cmd.push(function() {
-		googletag.defineSlot('/10519169/entertainment_site', [[1, 1], [970, 90], [970, 250], [728, 90], [320, 50], [970, 66]], 'div-gpt-ad-1508441224341-1')
-		  .setTargeting( 'pos', ['top'] )
-		  .addService(googletag.pubads());
-
-		googletag.defineSlot('/10519169/entertainment_site', [[1, 1], [300, 250], [300, 600], [300, 1050]], 'div-gpt-ad-1508441224341-2')
-		  .setTargeting( 'pos', ['right1'] )
-		  .addService(googletag.pubads());
-
-		googletag.defineSlot('/10519169/entertainment_site', [[1, 1], [970, 90], [970, 250], [728, 90], [320, 50], [970, 66]], 'div-gpt-ad-1508441224341-3')
-		  .setTargeting( 'pos', ['middle'] )
-		  .addService(googletag.pubads());
-
-		googletag.pubads().enableSingleRequest();
-		//googletag.pubads().collapseEmptyDivs();
-		googletag.enableServices();
-	  });
-
-	</script>
-
-	<!-- Ads -->
-	<script>
-	var googletag = googletag || {};
-	googletag.cmd = googletag.cmd || [];
-
-	googletag.cmd.push( function () {
-	googletag.pubads().disableInitialLoad();
-	} );
-	</script>
-
-	<!-- Trending -->
-	<script>
-	if (Math.random() < 0.34) {
-		var img = document.createElement('img');
-		img.src = "ping";
-	};
-	</script>
 
 </head>
-<body>    
-	<header class="prod">
-		<section>
-			<a class="logo" style="background-image:url(/assets/images/check-logo.png)" href="/"></a>	
-			
-			<div id="search-box">
-				<form method="get" action="/search/">
-				<input type="text" name="q" class="search">
-				<button><i class="fa fa-lg fa-search"></i></button>
-				</form>
-			</div>	
-			
-			<div id="social-box">
-				<a href="https://www.facebook.com/checkyourfact/" target="_blank">	
-				<button><i class="fa fa-lg fa-facebook-square"></i></button>
-				</a>
-				<a href="https://twitter.com/check_your_fact" target="_blank">
-				<button><i class="fa fa-lg fa-twitter"></i></button>
-				</a>			
-			</div>	
-		
-		</section>
-	</header>
-	
-	 <section id="spacer">
-	</section> 	<section id="main">
-	<detail>
-		<photo title="London / UK - October 5 2018: Stack of old books and an open book against a dark blue background with copy space for custom text (Shutterstock/Tennessee Witney]" id="m0" style="background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2020/04/shutterstock_1400736155-e1586894269385.jpg"></photo>	
-		<article>
-			<h1>FACT CHECK: &#8216;In The Time Of Pandemic&#8217; – Was This Poem Written In 1869 And Reprinted During The Spanish Influenza?</h1>
-			<time>4:14 PM 04/14/2020</time>
-			<author data-slug="Elias+Atienza">Elias Atienza | Fact Check Reporter</author>
-			<div id="article-share">
-				<button class="social-share-btn clrfb stop" onclick="return social(this, 'fb', 'http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/', 'FACT CHECK: &amp;#8216;In The Time Of Pandemic&amp;#8217; – Was This Poem Written In 1869 And Reprinted During The Spanish Influenza?')"><span  class="fa-stack"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"><span class="slabel"> share on facebook</span></i></span></button>
-				<button class="social-share-btn clrtw stop" onclick="return social(this, 'tw', 'http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/', 'FACT CHECK: &#8216;In The Time Of Pandemic&#8217; – Was This Poem Written In 1869 And Reprinted During The Spanish Influenza?')"><span class="fa-stack"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"><span class="slabel"> tweet this</span></i></span></button>
-				<button class="social-share-btn clrds stop" onclick="return social(this, 'ds', 'http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/', 'FACT CHECK: &amp;#8216;In The Time Of Pandemic&amp;#8217; – Was This Poem Written In 1869 And Reprinted During The Spanish Influenza?')"><span class="fa-stack"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-comment fa-stack-1x fa-inverse"><span class="slabel"> show comments</span></i></span></button>
-			</div>
-			<text>
-				<div id="ob-read-more-selector"><p>A <a href="https://www.facebook.com/photo.php?fbid=10158554693991388&amp;set=a.359904971387&amp;type=3&amp;theater" target="_blank" rel="noopener noreferrer">viral Facebook post</a> claims that French-Irish writer Kathleen O&rsquo;Meara wrote the poem &ldquo;In the Time of Pandemic&rdquo; in 1869.</p> <p><iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10158554693991388%26set%3Da.359904971387%26type%3D3&amp;width=500" height="663" width="500" frameborder="0" scrolling="no"></iframe></p><div id="/10519169/dailycaller_inline1" class="ad"> <script> googletag.cmd.push(function() { googletag.display('dailycaller_inline1'); }); </script></div> <p>&ldquo;History repeats itself,&rdquo; reads the introduction to the poem. &ldquo;Came across this poem written in 1869, reprinted during 1919 Pandemic. This is Timeless.&rdquo;</p> <p><span style="color: #800000;"><strong>Verdict: False</strong></span></p> <p>Retired teacher Catherine O&rsquo;Meara actually wrote the poem in March.</p> <p><span style="color: #800000;"><strong>Fact Check:&nbsp;</strong></span></p><div align="center" id="/10519169/dailycaller_inline2" class="ad"> <script> googletag.cmd.push(function() { googletag.display('dailycaller_inline2'); }); </script></div> <div id="outbrainPlaceholder"></div> <div class="readmore"></div> <p>The <a href="https://www.facebook.com/photo.php?fbid=10158554693991388&amp;set=a.359904971387&amp;type=3&amp;theater" target="_blank" rel="noopener noreferrer">post</a> claims that the poem about social distancing was originally written in 1869 by Kathleen O&rsquo;Meara and later reprinted during the <a href="https://www.cdc.gov/flu/pandemic-resources/1918-pandemic-h1n1.html" target="_blank" rel="noopener noreferrer">Spanish flu pandemic</a> that started in 1918. Kathleen O&rsquo;Meara, also known by her pen name <a href="http://www.newadvent.org/cathen/11250b.htm" target="_blank" rel="noopener noreferrer">Grace Ramsey</a>, was a 19th century French-Irish biographer and novelist.</p> <p>The poem has <a href="https://www.facebook.com/photo.php?fbid=10158554693991388&amp;set=a.359904971387&amp;type=3&amp;theater" target="_blank" rel="noopener noreferrer">circulated widely</a> on Facebook and Instagram with that attribution in recent weeks due to its reflections on <a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/social-distancing.html" target="_blank" rel="noopener noreferrer">social distancing practices</a>, which have been implemented during the current coronavirus pandemic. It begins with the line &ldquo;And people stayed home&rdquo; and goes on to describe ways of passing time in self-isolation, including reading, exercising and making art.</p> <p>But, contrary to the post&rsquo;s claims, Kathleen O&rsquo;Meara didn&rsquo;t write the poem in 1869 or any other year. <strong><a href="https://checkyourfact.com/2020/03/31/fact-check-f-scott-fitzgerald-letter-quarantined-spanish-influenza/" target="_blank" rel="noopener noreferrer">(RELATED: Did F. Scott Fitzgerald Pen This Letter While Quarantined During The Spanish Influenza?)</a></strong></p> <p><a href="https://www.oprahmag.com/entertainment/a31747557/and-the-people-stayed-home-poem-kitty-omeara-interview/" target="_blank" rel="noopener noreferrer">Catherine O&rsquo;Meara</a>, a retired teacher who lives from Madison, Wisconsin, actually wrote the <a href="https://the-daily-round.com/2020/03/16/in-the-time-of-pandemic/" target="_blank" rel="noopener noreferrer">poem</a>, though the wording varies slightly. It was published on her website <a href="https://the-daily-round.com/2020/03/16/in-the-time-of-pandemic/" target="_blank" rel="noopener noreferrer">The Daily Round</a> in March and has since been shared by author <a href="https://www.facebook.com/DeepakChopra/posts/10157079181385665" target="_blank" rel="noopener noreferrer">Deepak Chopra</a> and model <a href="https://www.instagram.com/p/B9z2qwQAy0W/" target="_blank" rel="noopener noreferrer">Bella Hadid</a>, among others.</p><div id="/10519169/dailycaller_inline3" class="ad"> <script> googletag.cmd.push(function() { googletag.display('dailycaller_inline3'); }); </script></div> <p>&ldquo;I post stuff like that all the time,&rdquo;&nbsp;<a href="https://www.oprahmag.com/entertainment/a31747557/and-the-people-stayed-home-poem-kitty-omeara-interview/" target="_blank" rel="noopener noreferrer">OprahMag.com</a> quotes Catherine O&rsquo;Meara as saying. &ldquo;I usually don&rsquo;t get a lot of response. But this found its niche.&rdquo;</p> <!--fbpopup--></div>	
-				</div>
-			</text>		
-			
-			<div id="article-share">
-				<button class="social-share-btn clrfb sbottom" onclick="return social(this, 'fb', 'http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/', 'FACT CHECK: &amp;#8216;In The Time Of Pandemic&amp;#8217; – Was This Poem Written In 1869 And Reprinted During The Spanish Influenza?')"><span  class="fa-stack"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"><span class="slabel"> share on facebook</span></i></span></button>
-				<button class="social-share-btn clrtw sbottom" onclick="return social(this, 'tw', 'http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/', 'FACT CHECK: &#8216;In The Time Of Pandemic&#8217; – Was This Poem Written In 1869 And Reprinted During The Spanish Influenza?')"><span class="fa-stack"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"><span class="slabel"> tweet this</span></i></span></button>
-				<button class="social-share-btn clrds sbottom" onclick="return social(this, 'ds', 'http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/', 'FACT CHECK: &amp;#8216;In The Time Of Pandemic&amp;#8217; – Was This Poem Written In 1869 And Reprinted During The Spanish Influenza?')"><span class="fa-stack"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-comment fa-stack-1x fa-inverse"><span class="slabel"> show comments</span></i></span></button>
-			</div>
-			<author class="full">
-				<photo style="background-image: url(https://dailycaller.com/wp-content/uploads/2020/02/EAprofile-1.jpeg)"></photo>
-				<h1>Elias Atienza</h1>
-				<h5>Fact Check Reporter</h5>
-				<div><em><a href="https://twitter.com/AtienzaElias" target="_blank" rel="noopener">Follow Elias on Twitter</a></em> <em>Have a fact check suggestion? Send ideas to <a href="elias@dailycaller.com"><span class="__cf_email__" data-cfemail="3550595c54467551545c594c5654595950471b565a58">[email&#160;protected]</span></a>.</em></div>
-			</author>
-			<div id="disqus_thread"></div>	
-			
-			<div>
-				<!-- OUTBRAIN -->
-				<div class="OUTBRAIN" data-src="http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/" data-widget-id="AR_9" data-ob-template="TheDailyCaller" ></div>
-				<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" async="async" src="https://widgets.outbrain.com/outbrain.js"></script>
-				<!-- END OUTBRAIN -->
-			</div>
-		</article>
+<body class="is-regular node-view node-full">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-QXNM"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="preheader">
+    <div class="container">
+        <section id="block-cl_ad_blocks-2" class="">
 
-	</detail>
-		<sidebar>	
-			<h2>Trending</h2>
-			<a href="/2020/04/13/fact-check-eating-alkaline-foods-coronavirus-ph/"><article><photo class="t0"></photo>FACT CHECK: No, Eating Alkaline Foods Won't 'Beat' Coronavirus</article></a><a href="/2020/04/17/fact-check-eucalyptus-vapor-prevent-coronavirus/"><article><photo class="t1"></photo>FACT CHECK: Does Eucalyptus Vapor Prevent COVID-19?</article></a><a href="/2018/12/16/fact-check-trump-executive-order-illegal-immigrants-welfare/"><article><photo class="t2"></photo>FACT CHECK: Did Trump Sign An Executive Order To Prevent Illegal Immigrants From Getting Welfare?</article></a><a href="/2020/01/31/fact-check-bill-gates-pirbright-institute-patent-coronavirus/"><article><photo class="t3"></photo>FACT CHECK: Does A Bill Gates-Funded Research Institute Own The Patent For Coronavirus?</article></a>
-		
-			<!-- OUTBRAIN -->
-			<div class="OUTBRAIN" data-src="http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/" data-widget-id="SB_3" data-ob-template="TheDailyCaller" ></div>
-			<script type="text/javascript" async="async" src="https://widgets.outbrain.com/outbrain.js"></script>
-			<!-- END OUTBRAIN -->
-	
-		</sidebar>
+
+  <div class="pane-content"><div class="clab clab-type-block" data-clab-id="2"><div class="proper-ad-unit" style="overflow:hidden">
+    <div id="proper-ad-crooksandliars_leaderboard"> <script> propertag.cmd.push(function() { proper_display('crooksandliars_leaderboard'); }); </script> </div>
+</div></div></div>
 </section>
+    </div>
+</div>
+<header id="header" class="sticky-top">
 
-	
-	<footer>
-		<section>
-			<a class="logo" href="/"></a><span class="social"></span>
-			<ul class="nav">
-				<li><a href="/about-us">About us</a></li>
-				<li><a href="/privacy-policy">Privacy policy</a></li>
-				<li><a href="/terms-of-service">Terms of service</a></li>
-				<li><a href="/contact">Contact</a></li>
-				<li class="navup"><span class="fa-stack fa-lg">				
-					<i class="fa fa-chevron-up fa-stack-1x fa-inverse"></i>
-				</span></li>
-			</ul>
-		</section> 
-	</footer>
-	
-	<style>@font-face{font-family:Lora;font-style:normal;font-weight:700;src:local('Lora Bold'),local('Lora-Bold'),url(https://fonts.gstatic.com/s/lora/v10/P18Nsu9EiYldSvHIj_0e5w.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}@font-face{font-family:Raleway;font-style:normal;font-weight:500;src:local('Raleway Medium'),local('Raleway-Medium'),url(https://fonts.gstatic.com/s/raleway/v11/CcKI4k9un7TZVWzRVT-T8_k_vArhqVIZ0nv9q090hN8.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(https://fonts.gstatic.com/s/raleway/v11/-_Ctzj9b56b8RgXW8FArifk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}@font-face{font-family:Anton;font-style:normal;font-weight:400;src:local('Anton Regular'),local('Anton-Regular'),url(https://fonts.gstatic.com/s/anton/v8/o-91-t7-bPc7W26HmS2N4Q.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v16/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}footer{display:block;width:100%;height:90px;z-index:2;top:0;border-top:18px #f5f5f5 solid;background-color:#eee}footer section{padding-top:12px}footer .logo{height:46px;width:200px}footer ul.nav a:hover{color:#fff}footer ul.nav a{margin-left:25px;font-size:16px;font-family:Georgia;color:#9d9d9d}.navup{margin-left:10px;cursor:pointer}.navup span{background-color:#222;margin-top:-10px}@media only screen and (max-width:900px){footer .logo{display:none}}@media only screen and (max-width:500px){footer{overflow:hidden;height:auto}footer ul li{width:100%;text-align:center;text-transform:uppercase}footer ul li.navup{margin-top:20px}}slideshow *{box-sizing:content-box}slideshow{display:block;color:#fff;background-color:#000;height:565px;padding:15px 0}slideshow section photo{width:100%;height:300px}slideshow h3{text-align:left;font-family:Raleway,arial}slideshow h4{margin-top:26px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;display:block}slideshow h3 span{padding:0 20px 0 0;background-color:#000}slideshow .slick-track{margin-bottom:20px}slideshow .slick-slide{outline:0;height:386px;margin:5px 15px 5px 0;padding-right:15px;border-right:1px solid #999;cursor:pointer}icons{display:block;width:80px;color:#8a8a8a;margin:10px auto;font-size:1.6em;cursor:pointer}.rightIcon{float:right}.leftIcon,.rightIcon{font-size:3em}</style>
-	
-	<style>
-		
-		
-		
-		.t0 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2020/04/fruit-e1585944731983-620x266.jpg)}.t1 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2020/04/Eucalyptus-e1586288178238-620x266.jpg)}.t2 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2018/12/Trump-Executive-Order-Illegal-Immigrant-fact-check-e1544637612893-620x266.jpg)}.t3 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/09/GettyImages-1158031539-e1568220442864-620x267.jpg)}.t4 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/12/Simpsons-e1576850219765-620x266.jpg)}.t5 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/05/RTX6R7MX-e1557344953880-620x265.jpg)}.t6 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2020/03/GettyImages-1207503529-e1585345857931-620x266.jpg)}.t7 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2020/03/Tiger_King-e1585575062547-620x266.jpg)}.t8 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/09/Napoleon-e1569518862735-620x266.jpg)}.t9 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2020/03/Nostradamus--e1584740830472-620x266.jpg)}.t10 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/12/GettyImages-903030184-e1576610252569-620x267.jpg)}.t11 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/06/RTX2SX3T-e1561570372224-620x266.jpg)}.t12 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2018/07/fonda-e1532546441845-620x266.jpg)}.t13 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/02/RTS2DAHX-e1549314769734-620x265.jpg)}.t14 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/09/RTR1JKJZ-e1569441853704-620x266.jpg)}.t15 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2018/12/Migrant-Caravan-e1544640590131-620x266.jpg)}.t16 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/04/RTX6RSJS-e1555431690952-620x265.jpg)}.t17 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/04/shutterstock_252141862-e1556211089339-620x282.jpg)}.t18 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/08/Mike_Tyson-e1565794149912-620x265.jpg)}.t19 {background-image: url(https://cdn01.dailycaller.com/wp-content/uploads/2019/04/shutterstock_638917678-e1556312175729-620x265.jpg)}	
-		snippet {display: none}
-	</style>
-	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"></link>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"></link>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
-	
-	
-	<!--- HTML Snippet section --->
-	<snippet id="socialmedia-articles">
-		<span class="socialmedia-article">
-		<span onclick="return social(this, 'fb')" class="fa-stack"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span>
-		<span onclick="return social(this, 'tw')" class="fa-stack"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span>
-		</span>
-	</snippet>
-	
-	<snippet id="socialmedia-popular">	
-		<div><i onclick="return social(this, 'fb')" class="fa fa-facebook"></i>
-		<i onclick="return social(this, 'tw')" class="fa fa-twitter"></i></div>
-	</snippet>
-	<script>var params = {"year":"2020","month":"04","day":"14","article":"fact-check-poem-time-pandemic-catherine-o-meara"};	var config = {"root":"https://checkyourfact.com","twitter":{"url":"https://twitter.com/check_your_fact","site":"check_your_fact","card":"summary_large_image"},"facebook":{"url":"https://www.facebook.com/checkyourfact/"},"discus":{"shortname":"checkyourfact"}};</script>
-	<script>$('a[href="'+location.pathname+'"]').parent().addClass("active"),$(function(){var i=!1;$(window).scroll(function(t){!function(){var t=$(window).scrollTop();"hidden"!=$("html").css("overflow")&&(0<t&&!i&&(i=!0,$("header").toggleClass("fixed",!0)),0==t&&i&&(i=!1,$("header").toggleClass("fixed",!1)))}()}),$("div.video-js").each(function(t){}),$("detail iframe").each(function(t){}),$("article iframe").each(function(t){var i=$(this).attr("src");if(i&&(i.match(/facebook.com/)||i.match(/instagram.com/)))$(this).parent().css({width:"100%"}),$(this).css({width:"100%"});else{var a=parseInt($(this).width()),e=parseInt($(this).height())/a*100+"%";a<=0&&(e="56.25%"),$(this).wrap("<div></div>"),$(this).parent().css({position:"relative",width:"100%",height:"100%","padding-bottom":e}),$(this).css({position:"absolute",width:"100%",height:"100%",top:"0px",left:"0px"})}})});</script><script>var baseUrl=$("meta[property='og:url']").attr("content").replace(/^.*\/\/[^\/]+/,""),slideIndex=0,slideOpacity=1;if(params.slide){$(window).scrollTop(5),$(".lightbox").show().css("opacity",slideOpacity),$(".slidemat").show();var slide=$('gallery img[data-name="'+params.slide+'"]');1==slide.length?showSlide($(slide).attr("data-index"),!0):showSlide(0,!0)}function showSlide(e,i){e=parseInt(e);var t=parseInt($("gallery img:last-child").attr("data-index"));e<0&&(e=t),t<e&&(e=0),slideIndex=e,$(".slidecounter").html(slideIndex+1+"/"+(t+1));var a=$('gallery [data-index="'+slideIndex+'"]'),d=$(a).attr("data-embed"),l=$(a).attr("data-src"),s=$(a).attr("data-title"),n=(e=$(a).attr("data-index"),$(a).attr("data-name"));if(n){history.replaceState({slide:e},s,baseUrl+n),""==d&&l?$(".slidemat").css("background-image","url("+l+")"):$(".slidemat").css("background-image","none");var o=s.indexOf("::");$(".slide").html(d),0<o?$(".slidetext").html(s.substring(0,o)+"</br><small>"+s.substring(o+2)+"</small>"):$(".slidetext").html(s),window.instgrm&&window.instgrm.Embeds.process(),$(".lightbox").is(":hidden")&&$(".lightbox").hide().fadeTo(250,slideOpacity,function(){$(".slidemat").show()})}}$(window).bind("popstate",function(){event.state.slide&&showSlide(event.state.slide,!0)}),$(function(){$(".slideright").click(function(e){showSlide(++slideIndex),e.stopPropagation(),ga?ga("send","pageview"):console.log("missing ga")}),$(".slideleft").click(function(e){showSlide(--slideIndex),e.stopPropagation(),ga&&ga("send","pageview")}),$(".lightbox, .slidemat, header.prod").click(function(){var e=$('gallery [data-index="'+slideIndex+'"]'),i=$(e).attr("data-link");i?window.location=i:params.slide?showSlide(++slideIndex):($(".lightbox").hide(),$(".slidemat").hide())}),$("gallery img").click(function(e){showSlide(parseInt($(this).attr("data-index")))})});</script><script>$("slideshow slides div, div.slideshow div.slides div ").on("click",function(){var i=$(this);i.hasClass("slick-current")&&($.cookie("slideshow",i.attr("data-slick-index")),window.location=i.attr("data-href"))});var slideshow=$.cookie("slideshow");$("slideshow slides, div.slideshow div.slides").on("init",function(i,s){s.slickGoTo(slideshow||1,!1)}),$("slideshow slides, div.slideshow div.slides").slick({slidesToShow:1,slidesToScroll:1,centerPadding:"18%",draggable:!1,dots:!1,centerMode:!0,focusOnSelect:!0,infinite:!0,initialSlide:slideshow||1,prevArrow:$(".leftIcon"),nextArrow:$(".rightIcon")}),$("slideshow slides2, div.slideshow div.slides2").slick({slidesToShow:1,slidesToScroll:1,centerPadding:"18%",draggable:!1,dots:!1,lazyLoad:"ondemand",centerMode:!0,focusOnSelect:!0,infinite:!1,initialSlide:1,prevArrow:$(".leftIcon"),nextArrow:$(".rightIcon")});</script><script>function populateSnippet(e,t,a){t=$("snippet#"+t).children().clone().appendTo(e)}function social(e,t,a,r,i,n){var o,c;i=i||config.twitter.site,a=encodeURI(a||config.root+$(e).closest("a").attr("href")),r=encodeURI(r||$(e).parent().siblings("name, h3").text());switch(handleGoogleAnalytics(t,a),t){case"fb":var s="http://www.facebook.com/sharer.php?u="+a+"&display=popup";break;case"tw":s="https://twitter.com/intent/tweet?text="+r+"&url="+a+"&via="+i;break;case"ds":var l=document.querySelector("[data-disqus-placeholder]");return l&&l.classList.add("show"),window.scrollTo(0,$("#disqus_thread").offset().top-300),o=document,(c=o.createElement("script")).src="https://"+config.discus.shortname+".disqus.com/embed.js",c.setAttribute("data-timestamp",+new Date),(o.head||o.body).appendChild(c),!0;case"red":s="//www.reddit.com/submit?url="+a;break;case"li":s="http://www.linkedin.com/shareArticle?url="+a;break;case"pin":s="http://pinterest.com/pin/create/button/?url="+a+"&media="+n+"&description="+r;break;case"wa":s="whatsapp://send?text="+r+" "+a;break;default:return!0}window.open(s,"socialwindow","left=20,top=20,width=600,height=700,toolbar=0,resizable=1");return!1}function handleGoogleAnalytics(e,t){if(e&&t&&window.ga)return ga("send","social",e,"share",t)}function handlePrint(){var e=window.location.href;"/"!=e.slice(-1)&&(e+="/"),e+="print",window.location.href=e}populateSnippet('section#main articles article:not(".ad")',"socialmedia-articles"),populateSnippet("articles.social article","socialmedia-popular"),populateSnippet("div.articles.social article","socialmedia-popular"),populateSnippet('section div.articles.news article:not(".ad")',"socialmedia-articles"),$(".navup").click(function(){window.scrollTo(0,0)}),$("author, .author").click(function(){var e=$(this).attr("data-slug");return!e||(window.location="/author/"+e,!1)}),function(){var e=document.querySelectorAll("[data-share-trigger]");if(e)for(var t=0;t<e.length;t++)e[t].addEventListener("click",function(){this.classList.toggle("is-active")})}(),function(){function i(){var e=window.location;return"dailycaller.com"===e.host?e.href:e.protocol+"//dailycaller.com"+e.pathname}!function(e){if(!document.querySelectorAll("[data-twitter-counter]"))return;i()}(),function(){var r=document.querySelectorAll("[data-facebook-counter]");if(!r)return;$.ajaxSetup({cache:!0});var e=(new Date).getTime(),t=i();setInterval(function(){e=(new Date).getTime()},6e5);var a="https://graph.facebook.com/?id="+t+"&callback=?&_noCache="+e;$.getJSON(a).done(function(e){var t=0;if(e.share&&(t=e.share.share_count),1<=t)for(var a=0;a<r.length;a++)r[a].innerHTML=t,r[a].setAttribute("style","display: inline-block"),r[a].classList.add("has-counts")}).fail(function(e){console.error(e)})}()}(),function(){var e=document.querySelectorAll("[data-email-form]");if(e){for(var t=0;t<e.length;t++)e[t].addEventListener("submit",function(e){e.preventDefault(),r(this)});var a=document.querySelectorAll("[data-email-trigger]");if(a)for(t=0;t<a.length;t++)a[t].addEventListener("click",function(){this.classList.toggle("is-active")})}function r(t){if(!t)return!1;var e=t.querySelector('input[name="to"]').value,a=t.querySelector('input[name="from"]').value,r=t.querySelector('textarea[name="message"]').value,i=t.querySelector('textarea[name="g-recaptcha-response"]').value;$.ajax({method:"POST",url:window.location.href+"email",data:{toEmail:e,fromName:a,message:r,recaptcha:i}}).done(function(e){!function(e,t){if(!e.message)return;if(!t)return;var a=t.querySelector("[data-email-response]"),r=t.querySelector("[data-email-data]");"success"!==e.message?function(t,e){if(e.errors&&0!==e.errors.length)t.classList.add("error"),t.textContent="Error",e.errors.forEach(function(e){t.innerHTML+="<br>"+e})}(a,e):(a.classList.remove("error"),a.classList.add("success"),a.innerText="Success! Your email has been sent.",r.setAttribute("style","display:none;"))}(e,t)}).fail(function(e){console.error(e),alert("There was an error sending your email. Please try again later.")})}}();</script>
-	
-	
-	<!--- 3rd Party Tags --->
-	<!--- Tag: GA --->
-	<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		ga( 'create', 'UA-12159302-14', 'auto' );
-	    ga( 'set', 'dimension1' ,'Elias Atienza');
-		ga( 'send', 'pageview' );
-	</script>
-	
-	<!-- Tag: Gallery -->
-	
-	
-	<!-- Tag: Disqus -->
-	<script>
-	/**
-	*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-	*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-	
-	var disqus_config = function () {
-		this.page.url = 'http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/';  // Replace PAGE_URL with your page's canonical URL variable
-		this.page.identifier = 'http://checkyourfact.com/2020/04/14/fact-check-poem-time-pandemic-catherine-o-meara/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-	};
-	</script>
-	
-	<!-- Tag: Quant -->
-	<script type="text/javascript">
-		var _qevents = _qevents || [];
-		(function () {
-			var elem = document.createElement( 'script' );
-			elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
-			elem.async = true;
-			elem.type = "text/javascript";
-			var scpt = document.getElementsByTagName( 'script' )[0];
-			scpt.parentNode.insertBefore( elem, scpt );
-		})();
-		_qevents.push( {
-			qacct: "p-8ckCzGybQyMFc"
-		} );
-	</script>
-	<noscript>
-		<div style="display:none;">
-			<img src="//pixel.quantserve.com/pixel/p-8ckCzGybQyMFc.gif" border="0" height="1" width="1" alt="Quantcast"/>
-		</div>
-	</noscript>
-	
-	<!-- TAG: Parse.ly -->
-	<div id="parsely-root" style="display: none">
-		<span id="parsely-cfg" data-parsely-site="dailycaller.com"></span>
-	</div>
-	<script>
-		(function(s, p, d) {
-			var h=d.location.protocol, i=p+"-"+s,e=d.getElementById(i), r=d.getElementById(p+"-root"),u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net":"static."+p+".com";
-			if (e) return;
-			e = d.createElement(s); e.id = i; e.async = true;
-			e.src = h+"//"+u+"/p.js"; r.appendChild(e);
-		})("script", "parsely", document);
-	</script>
-	
-	<style>
-		.fadein {opacity: 1};
-	</style>
-	
-	</html>
-</body></html>
+    <div class="container masthead">
+    <div class="dude">
+        <a href="/">
+        <img src="/sites/all/themes/cl_theme18/images/dude_only.png" alt="Crooks and Liars dude">
+        </a>
+    </div>
+    <div class="main">
+        <div class="top">
+            <a href="/">
+            <img src="/sites/all/themes/cl_theme18/images/site_name.png" alt="Crooks and Liars" />
+            </a>
+        </div>
+        <nav class="bottom main-nav">
+            <div class="nav-inner">
+                                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/politics">Politics</a>
+                    </li>
+                    <li class="nav-item d-xs-none">
+                        <a class="nav-link" href="/cltv">CLTV</a>
+                    </li>
+                    <li class="nav-item d-md-none d-lg-inline-block">
+                        <a class="nav-link" href="/media-bites">MediaBites</a>
+                    </li>
+
+                </ul>
+                                    <div class="search-toggle">
+                        <a class="nav-link" href="/solr" title="Search this site"><i class="fa fa-search"></i></a>
+                    </div>
+                <div class="search-box">
+                    <form action="/solr"  accept-charset="UTF-8" method="post" id="cl-misc-search-block-1" class="cl-search-box">
+<div><div class="form-item form-group" id="edit-search-block-form-1-wrapper">
+ <label for="edit-search-block-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." placeholder="Search..." class="form-text form-control" />
+</div>
+<button name="op" id="edit-submit-2"  class="btn btn-primary form-submit" >Search</button>
+<input type="hidden" name="form_id" id="edit-cl-misc-search-block-1" value="cl_misc_search_block"  />
+<input type="hidden" name="form_build_id" id="form-Hidf6krl38oIUVPqcZVeaSYXJ744BuBxdxGesyoZH5c" value="form-Hidf6krl38oIUVPqcZVeaSYXJ744BuBxdxGesyoZH5c"  />
+
+</div></form>
+                </div>
+                            </div>
+        </nav>
+    </div>
+    <div class="right">
+        <div class="top">
+            <a href="https://www.facebook.com/crooksandliars.site" title="Like us on Facebook" ><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/crooksandliars" title="Follow us on Twitter" ><i class="fa fa-twitter"></i></a>
+            <a href="https://flipboard.com/@CrooksandLiars" title="Follow us on Flipboard">
+                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="flipboard" class="svg-inline--fa fa-flipboard fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 32v448h448V32H0zm358.4 179.2h-89.6v89.6h-89.6v89.6H89.6V121.6h268.8v89.6z"></path></svg>
+            </a>
+            <div id="c-user-act">
+                <div id="cl_log_in"><div class="login-links"><span class="login-link"><a href="/user/login?destination=node%2F148921">Login</a></span> <span class="cl-register"> | <a href="/user/register">Register</a></span></div><div class="cl-login-body"><div class="arrow"></div><div class="inner"><form action="/2019/04/state-rep-supports-abortion-bills-because?destination=node%2F148921"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item form-group" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text form-control required" />
+</div>
+<div class="form-item form-group" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text form-control required" />
+</div>
+<div class="new-password"><a href="/user/password">Forgot password?</a></div><div class="form-item form-group" id="edit-persistent-login-wrapper">
+ <label class="option" for="edit-persistent-login"><input type="checkbox" name="persistent_login" id="edit-persistent-login" value="1"   class="form-checkbox" /> Remember my login on this computer</label>
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Log in"  class="form-submit btn btn-primary form-submit" />
+<input type="hidden" name="form_build_id" id="form-rdeWOY50ZGjEzkWioVn25lNEbD7A-Q1_IrMQcziZ2-M" value="form-rdeWOY50ZGjEzkWioVn25lNEbD7A-Q1_IrMQcziZ2-M"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+</div></div></div>            </div>
+
+        </div>
+        <div class="bottom">
+            <button class="btn btn-link" id="drawer-toggle" aria-label="Toggle Navdrawer" aria-expanded="false" aria-controls="drawer"><i class="fa fa-bars"></i></button>
+        </div>
+    </div>
+
+
+</div>
+    <div class='sharethis-sticky-share-buttons' ></div>
+</header>
+<section id="main-wrapper">
+        
+                    
+        <div id="node-view">
+
+    <div class="container page-full">
+
+                <div class="row">
+            <div class="col-12 col-sm-12">
+                <div class="panel-pane pane-node-header" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="pre-header">
+    <div class="node-section"><a href="/politics" title="Posted in Politics">Politics</a></div>    <div class="node-ts"><time datetime="2019-04-16 12:46">4/16/19 12:46pm</time></div>            <div class="read-time">
+            Read time: 1 minute        </div>
+        <div class="comment-count">
+        <i class="fa fa-comments"></i> <a href="#comments" data-disqus-identifier="node/148921">Comments</a>
+    </div>
+</div>
+<h1 class="page-title"><a href="/2019/04/state-rep-supports-abortion-bills-because">Lawmaker: Outlaw Abortion Because Women Are 'Just Not Having Enough Babies'</a></h1>
+<div class="post-lede">
+    <div class="node-summary">Delaware state Rep. Richard Collins (R) said this week that he was sponsoring an anti-abortion bill because women are not replenishing the (white) U.S. population quickly enough.</div></div>
+<div class="nh-footer">
+
+    <div class="byline">
+        By <a href="/user/david" title="View David&#039;s profile and posts">David</a>    </div>
+</div>
+
+  </div>
+
+  
+  </div>
+            </div>
+        </div>
+                <div class="row">
+            <div class="col-md-7 col-sm-12 main">
+                <div class="panel-pane pane-node-content" >
+  
+  
+  
+  <div class="pane-content">
+    <article
+        data-nid="148921"
+        class="node node-type-blog node-display-full node-status-published clearfix">
+
+
+      <div class="primary-media primary-image"><figure class="primary-image"><img  alt="Lawmaker: Outlaw Abortion Because Women Are &#039;Just Not Having Enough Babies&#039;" title="Lawmaker: Outlaw Abortion Because Women Are &#039;Just Not Having Enough Babies&#039;" src="/files/imagecache/node_primary/primary_image/19/04/richard_collins1-800x430.jpg" /></figure></div>  
+    <div class="post-body">
+      <p>Delaware state Rep. Richard Collins (R) said this week that he was sponsoring an anti-abortion bill because women are not replenishing the U.S. population quickly enough.</p>
+<p>While speaking to WGMD-FM on Tuesday, Collins explained that he was introducing a bill that would require women to listen to the fetal heartbeat before having an abortion. A second bill would outlaw abortion after 20 weeks.</p>
+<p>“God is moving in strange and wonderful ways, folks,” the lawmaker insisted. “Gun bills that we’ve talked about will save essentially no lives because it will have no impact on criminals getting of keeping their guns. But every single year, we kill hundreds of people in abortions.”</p>
+<p>“You know, we have a massive problem in this country,” he continued. “Our birthrate is way, way below replacement [levels]. You know, we are just not having enough babies.”</p>
+<p>According to Collins, women are “doing away” with their fetuses “before they have a chance to grow into these people that we need to support us.”</p>
+<p>“These bills are very, very minor,” Collins said dismissively. “All that we’re adding is, let them see the baby moving within them and let them hear the heartbeat… Just add the ability to see it move — live action — and they say about 75% of the women will not do the abortion.”</p>
+<p>In the video below, Collins explains why he’s passionate about the Bible.</p>
+<div class="cl-responsive-wrapper">
+<div style="width: 100%; max-width: 425; height:0; position:relative; padding-bottom: 56.2353%"><iframe src="//www.youtube.com/embed/NZB1_W0jHG4" style="width: 100%; height: 100%; position: absolute"  frameborder="0" allowfullscreen scrolling="no"></iframe></div>
+</div><div class="clab clab-type-post_end" data-clab-id="7"><div class="proper-ad-unit">
+    <div id="proper-ad-crooksandliars_content_1"> <script> propertag.cmd.push(function() { proper_display('crooksandliars_content_1'); }); </script> </div>
+</div></div>    </div>
+      <footer class="clearfix">
+        <div class="node-tags-wrapper">
+            <span class="label"><i class="fa fa-tags"></i> Tags:</span> <div class="node-tags clearfix"><span class="ion-pricetags"></span><div class="items"><a href="/taxonomy/term/247">Abortion</a>, <a href="/taxonomy/term/16312">Delaware</a>, <a href="/taxonomy/term/77979">Richard Collins</a></div></div>        </div>
+                </footer>
+
+  
+</article>
+  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-block pane-cl-misc-cl-share" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="cl-share clearfix"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcrooksandliars.com%2F2019%2F04%2Fstate-rep-supports-abortion-bills-because" class="cl-share-fb" target="_blank" title="Share on Facebook"><span class="icon"><i class="fa fa-facebook"></i></span><span class="label">Facebook</span></a>
+<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fcrooksandliars.com%2F2019%2F04%2Fstate-rep-supports-abortion-bills-because&text=Lawmaker%3A+Outlaw+Abortion+Because+Women+Are+%27Just+Not+Having+Enough+Babies%27+%7C+%40crooksandliars" class="cl-share-twitter" target="_blank" title="Share on Twitter"><span class="icon"><i class="fa fa-twitter"></i></span><span class="label">Twitter</span></a>
+<a href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fcrooksandliars.com%2F2019%2F04%2Fstate-rep-supports-abortion-bills-because&media=&description=Lawmaker%3A+Outlaw+Abortion+Because+Women+Are+%27Just+Not+Having+Enough+Babies%27" class="cl-share-pinterest" target="_blank" title="Pin on Pinterest"><span class="icon"><i class="fa fa-pinterest"></i></span><span class="label">Pinterest</span></a>
+<a data-flip-widget="shareflip" href="https://flipboard.com" class="cl-share-flipboard"><span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="flipboard" class="svg-inline--fa fa-flipboard fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 32v448h448V32H0zm358.4 179.2h-89.6v89.6h-89.6v89.6H89.6V121.6h268.8v89.6z"></path></svg></span><span class="label">Flipboard</span></a><script src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript"></script>
+<a href="mailto:?subject=Lawmaker%3A+Outlaw+Abortion+Because+Women+Are+%27Just+Not+Having+Enough+Babies%27&body=https%3A%2F%2Fcrooksandliars.com%2F2019%2F04%2Fstate-rep-supports-abortion-bills-because" class="cl-share-email" title="Email"><span class="icon"><i class="fa fa-envelope"></i></span><span class="label">Email</span></a></div>  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-block pane-donation-drives-after-post" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="donation-drive dd-after-post">
+            <div class="dd-title">
+        Can you help us out?    </div>
+            <div class="dd-body">
+        <p>For 16 years we have been exposing Washington lies and untangling media deceit. We work 7 days a week, 16 hours a day for our labor of love, but with rising hosting and associated costs, we need your help! Could you donate $20 for 2020? Please consider a one time or recurring donation of whatever amount you can spare. It will be greatly appreciated and help us continue our mission of exposing the real FAKE NEWS!</p>
+    </div>
+        <div class="dd-footer">
+        
+                        <div class="dd-buttons-header">Donate via:</div>
+        <div class="dd-buttons">
+                            <div class="dd-btn-o">
+                    <a href="https://www.kindest.com/donate/crooks-and-liars" title="Donate via Kindest" class="dd-btn dd-btn-kindest dd-track" data-dd-type="kindest" data-dd-id="1" data-dd-location="ap"><span ></span> Kindest</a>                </div>
+                                        <div class="dd-btn-o">
+                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4VSR5RAE3WMEN" title="Donate via PayPal" class="dd-btn dd-btn-paypal dd-track" data-dd-type="kindest" data-dd-id="1" data-dd-location="ap">Donate via PayPal</a>                </div>
+            
+                            <div class="dd-btn-o">
+                    <div class="dd-snailmail">Or mail checks to:<br />
+CrooksandLiars.com<br />
+PO BOX 66310<br />
+Los Angeles, CA 90066</div>                </div>
+                    </div>
+            </div>
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-block pane-apachesolr-mlt-002" >
+  
+    <div class="block-title-wrapper">
+    <h3 class="pane-title">More C&amp;L Coverage</h3>
+    <div class="line"></div>
+    </div>
+  
+  
+  <div class="pane-content">
+    <div class="solr-related-nodes"><article class="node card node-type-blog node-display-card" data-nid="148666">
+    <a href="/2019/04/fox-friends-hollywood-don-t-let-georgia-s" title="Fox &amp; Friends To Hollywood: Don’t Let Georgia’s Extreme Anti-Abortion Law Keep You Away!">
+      <img src="https://crooksandliars.com/files/imagecache/node_teaser/primary_image/19/04/fox-ginny-ehrhart-040319.png" alt="Fox &amp; Friends To Hollywood: Don’t Let Georgia’s Extreme Anti-Abortion Law Keep You Away!" class="card-img-top" />
+</a>
+
+    <div class="card-body">
+        <div class="card-title">
+            <h4><a href="/2019/04/fox-friends-hollywood-don-t-let-georgia-s"  title="Fox &amp; Friends To Hollywood: Don’t Let Georgia’s Extreme Anti-Abortion Law Keep You Away!">Fox & Friends To Hollywood: Don’t Let Georgia’s Extreme Anti-Abortion Law Keep You Away!</a></h4>
+        </div>
+        <div class="card-text">
+                        Georgia’s passage of an anti-abortion bill has ignited calls for a film industry boycott of the state, but never fear, Fox &amp; Friends is giving Georgia a helping hand.        </div>
+
+    </div>
+    <div class="card-footer">
+        <div class="pull-right">
+            Apr 07, 2019        </div>
+        <span class="node-submitted">By <a href="/user/news-hounds-priscilla" title="View News Hounds Priscilla&#039;s profile and posts">News Hounds Pri...</a></span>
+    </div>
+</article>
+
+<article class="node card node-type-blog node-display-card" data-nid="147536">
+    <a href="/2019/02/steve-doocy-endorses-ms-gov-lie-democrats" title="Steve Doocy Endorses MS Governor&#039;s Lie That Democrats Support ‘Infanticide’">
+      <img src="https://crooksandliars.com/files/imagecache/node_teaser/primary_image/19/02/fox-doocy-bryant-022119.png" alt="Steve Doocy Endorses MS Governor&#039;s Lie That Democrats Support ‘Infanticide’" class="card-img-top" />
+</a>
+
+    <div class="card-body">
+        <div class="card-title">
+            <h4><a href="/2019/02/steve-doocy-endorses-ms-gov-lie-democrats"  title="Steve Doocy Endorses MS Governor&#039;s Lie That Democrats Support ‘Infanticide’">Steve Doocy Endorses MS Governor's Lie That Democrats Support ‘Infanticide’</a></h4>
+        </div>
+        <div class="card-text">
+                        Expect the the bogus and dangerous lies that Democrats support “infanticide” to ramp up as the presidential election draws closer over on Fox &quot;news.&quot;        </div>
+
+    </div>
+    <div class="card-footer">
+        <div class="pull-right">
+            Feb 25, 2019        </div>
+        <span class="node-submitted">By <a href="/user/news-hounds-priscilla" title="View News Hounds Priscilla&#039;s profile and posts">News Hounds Pri...</a></span>
+    </div>
+</article>
+
+<article class="node card node-type-media node-display-card" data-nid="148665">
+    <a href="/cltv/2019/04/fox-friends-promotes-georgias-extreme" title="Fox &amp; Friends Promotes Georgia&#039;s Extreme Anti-Abortion Law">
+      <img src="https://crooksandliars.com/files/imagecache/node_teaser/mediaposters/2019/04/41941.jpg" alt="Fox &amp; Friends Promotes Georgia&#039;s Extreme Anti-Abortion Law" class="card-img-top" />
+</a>
+
+    <div class="card-body">
+        <div class="card-title">
+            <h4><a href="/cltv/2019/04/fox-friends-promotes-georgias-extreme"  title="Fox &amp; Friends Promotes Georgia&#039;s Extreme Anti-Abortion Law">Fox & Friends Promotes Georgia's Extreme Anti-Abortion Law</a></h4>
+        </div>
+        <div class="card-text">
+                        Fox&#039;s Steve Doocy and Georgia State Rep. Ginny Ehrhart promote Georgia&#039;s latest anti-abortion so-called &quot;heartbeat&quot; bill.        </div>
+
+    </div>
+    <div class="card-footer">
+        <div class="pull-right">
+            Apr 07, 2019        </div>
+        <span class="node-submitted">By <a href="/users/heather" title="View Heather&#039;s profile and posts">Heather</a></span>
+    </div>
+</article>
+
+<article class="node card node-type-blog node-display-card" data-nid="125530">
+    <a href="/2016/12/why-merrick-garlands-appointment" title="THIS Is Why Merrick Garland&#039;s Appointment Is Imperative: Ohio Passes &#039;Fetal Heartbeat&#039; Bill">
+      <img src="https://crooksandliars.com/files/imagecache/node_teaser/embeds/2016/12/21614.jpg" alt="THIS Is Why Merrick Garland&#039;s Appointment Is Imperative: Ohio Passes &#039;Fetal Heartbeat&#039; Bill" class="card-img-top" />
+</a>
+
+    <div class="card-body">
+        <div class="card-title">
+            <h4><a href="/2016/12/why-merrick-garlands-appointment"  title="THIS Is Why Merrick Garland&#039;s Appointment Is Imperative: Ohio Passes &#039;Fetal Heartbeat&#039; Bill">THIS Is Why Merrick Garland's Appointment Is Imperative: Ohio Passes 'Fetal Heartbeat' Bill</a></h4>
+        </div>
+        <div class="card-text">
+                        The bill will make it nearly impossible for many women to obtain an abortion legally, should it be upheld by the courts.        </div>
+
+    </div>
+    <div class="card-footer">
+        <div class="pull-right">
+            Dec 07, 2016        </div>
+        <span class="node-submitted">By <a href="/users/karoli" title="View Karoli Kuns&#039;s profile and posts">Karoli Kuns</a></span>
+    </div>
+</article>
+</div>  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-adverts pane-20" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="clab clab-type-panel" data-clab-id="20"><script async type='text/javascript' src='https://cdn.connatix.com/min/connatix.renderer.infeed.min.js' data-connatix-token='28bc625d-1659-4f3c-be85-c57b288ffdf4'></script></div>  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-adverts pane-17" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="clab clab-type-panel" data-clab-id="17"><div id="zergnet-widget-69930"></div></div>  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-custom pane-1" >
+  
+  
+  
+  <div class="pane-content">
+    <div id="yappa-comments-frame"></div>
+<script type="text/javascript" src="https://comments.yappaapp.com/embed/yappa-comments.js"></script>  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-block pane-cl-disqus-disqus-comments" >
+  
+    <div class="block-title-wrapper">
+    <h3 class="pane-title">Comments</h3>
+    <div class="line"></div>
+    </div>
+  
+  
+  <div class="pane-content">
+    <div id="comments"><div class='comment-guidelines'><div style="background: #def;padding: 5px;border: 1px solid #00c;font-size: 16px;font-weight: bold;">We welcome relevant, respectful comments. Any comments that are sexist or in any other way deemed hateful by our staff will be deleted and constitute grounds for a ban from posting on the site. Please refer to our <a href="http://crooksandliars.com/tos">Terms of Service (revised 3/17/2016)</a> for information on our posting policy.</div>
+</div>
+<div id="disqus_thread"></div>
+    </div>  </div>
+
+  
+  </div>
+            </div>
+            <aside class="col-md-5 col-sm-12 sticky-container" id="sidebar">
+                <div class=" sticky-sidebar">
+                    <div class="sidebar-inner">
+                        <div class="panel-pane pane-panels-mini pane-general-pages" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="panel-display panel-1col clear-block" id="mini-panel-general_pages">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-adverts pane-6" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="clab clab-type-panel" data-clab-id="6"><div class="proper-ad-unit">
+    <div id="proper-ad-crooksandliars_side_1"> <script> propertag.cmd.push(function() { proper_display('crooksandliars_side_1'); }); </script> </div>
+</div>
+</div>  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views-panes pane-widgets-widget-latest-posts galt-child galt-child-latest"  id="cl-widget-latest-posts">
+  
+    <div class="block-title-wrapper">
+    <h3 class="pane-title">Latest</h3>
+    <div class="line"></div>
+    </div>
+  
+  
+  <div class="pane-content">
+    <div class="view view-widgets view-id-widgets view-display-id-widget_latest_posts view-dom-id-43978fa28138a2cad40308b74b9e2609">
+    
+  
+  
+      <div class="view-content">
+      
+
+
+  <div class="views-row views-row-1 views-row-odd views-row-first">
+    <article class="node card node-type-lnmc node-display-card" data-nid="158281">
+    <a href="/2020/04/lmnc-fiona-apple" title="LMNC With Fiona Apple">
+      <img src="https://videocafe.crooksandliars.com/files/imagecache/node_teaser/embeds/2020/04/40054.jpg" alt="LMNC With Fiona Apple" class="card-img-top" />
+</a>
+
+    <div class="card-body">
+        <div class="card-title">
+            <h4><a href="/2020/04/lmnc-fiona-apple"  title="LMNC With Fiona Apple">LMNC With Fiona Apple</a></h4>
+        </div>
+        <div class="card-text">
+                        Fiona Apple Released &quot;Fetch The Bolt Cutters&quot; this week and it&#039;s already being hailed by many as a masterpiece...        </div>
+
+    </div>
+    <div class="card-footer">
+        <div class="pull-right">
+            Apr 18, 2020        </div>
+        <span class="node-submitted">By <a href="/user/jared-shade-reynolds" title="View Jared Shade Reynolds&#039;s profile and posts">Jared Shade Reynolds</a></span>
+    </div>
+</article>
+  </div>
+
+  
+  <div class="views-row views-row-2 views-row-even">
+    <article class="node card node-type-blog node-display-card" data-nid="158276">
+    <a href="/2020/04/incitement-by-trump-gets-total-pass-covid" title="Incitement By Trump Gets Total Pass From Press At COVID Briefing">
+      <img src="https://videocafe.crooksandliars.com/files/imagecache/node_teaser/primary_image/20/04/screen_shot_2020-04-18_at_3.15.47_pm.png" alt="Incitement By Trump Gets Total Pass From Press At COVID Briefing" class="card-img-top" />
+</a>
+
+    <div class="card-body">
+        <div class="card-title">
+            <h4><a href="/2020/04/incitement-by-trump-gets-total-pass-covid"  title="Incitement By Trump Gets Total Pass From Press At COVID Briefing">Incitement By Trump Gets Total Pass From Press At COVID Briefing</a></h4>
+        </div>
+        <div class="card-text">
+                        There was incredible lack of pushback from the media at Trump&#039;s COVID-19 rally on Friday, after he&#039;d tweeted that three states with Democratic governors needed to &quot;liberate&quot; themselves.        </div>
+
+    </div>
+    <div class="card-footer">
+        <div class="pull-right">
+            Apr 18, 2020        </div>
+        <span class="node-submitted">By <a href="/user/aliza-worthington" title="View Aliza Worthington&#039;s profile and posts">Aliza Worthington</a></span>
+    </div>
+</article>
+  </div>
+
+  
+  <div class="views-row views-row-3 views-row-odd">
+    <article class="node card node-type-blog node-display-card" data-nid="158277">
+    <a href="/2020/04/conservative-economist-compares-idiot" title="Conservative Economist Equates Rabid MAGA Protestors To Civil Rights Icon Rosa Parks">
+      <img src="https://videocafe.crooksandliars.com/files/imagecache/node_teaser/mediaposters/2020/04/44836.jpg" alt="Conservative Economist Equates Rabid MAGA Protestors To Civil Rights Icon Rosa Parks" class="card-img-top" />
+</a>
+
+    <div class="card-body">
+        <div class="card-title">
+            <h4><a href="/2020/04/conservative-economist-compares-idiot"  title="Conservative Economist Equates Rabid MAGA Protestors To Civil Rights Icon Rosa Parks">Conservative Economist Equates Rabid MAGA Protestors To Civil Rights Icon Rosa Parks</a></h4>
+        </div>
+        <div class="card-text">
+                        Honestly, this may be one of the dumbest (and most offensive) comparisons ever.         </div>
+
+    </div>
+    <div class="card-footer">
+        <div class="pull-right">
+            Apr 18, 2020        </div>
+        <span class="node-submitted">By <a href="/user/red-painter" title="View Red Painter&#039;s profile and posts">Red Painter</a></span>
+    </div>
+</article>
+  </div>
+
+  
+  <div class="views-row views-row-4 views-row-even">
+    <article class="node card node-type-blog node-display-card" data-nid="158269">
+    <a href="/2020/04/republican-party-has-become-death-cult" title="The Republican Party Has Become A Death Cult">
+      <img src="https://videocafe.crooksandliars.com/files/imagecache/node_teaser/primary_image/20/04/39607.jpg" alt="The Republican Party Has Become A Death Cult" class="card-img-top" />
+</a>
+
+    <div class="card-body">
+        <div class="card-title">
+            <h4><a href="/2020/04/republican-party-has-become-death-cult"  title="The Republican Party Has Become A Death Cult">The Republican Party Has Become A Death Cult</a></h4>
+        </div>
+        <div class="card-text">
+                        American conservatism—the so-called &quot;culture of life&quot;—worships annihilation.        </div>
+
+    </div>
+    <div class="card-footer">
+        <div class="pull-right">
+            Apr 18, 2020        </div>
+        <span class="node-submitted">By <a href="/user/common-dreams" title="View Common Dreams&#039;s profile and posts">Common Dreams</a></span>
+    </div>
+</article>
+  </div>
+
+  
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+    <article class="node card node-type-blog node-display-card" data-nid="158274">
+    <a href="/2020/04/florida-surgeon-general-suspiciously" title="Florida Surgeon General Suspiciously Silenced After Contradicting DeSantis On Coronavirus">
+      <img src="https://videocafe.crooksandliars.com/files/imagecache/node_teaser/mediaposters/2020/04/44835.jpg" alt="Florida Surgeon General Suspiciously Silenced After Contradicting DeSantis On Coronavirus" class="card-img-top" />
+</a>
+
+    <div class="card-body">
+        <div class="card-title">
+            <h4><a href="/2020/04/florida-surgeon-general-suspiciously"  title="Florida Surgeon General Suspiciously Silenced After Contradicting DeSantis On Coronavirus">Florida Surgeon General Suspiciously Silenced After Contradicting DeSantis On Coronavirus</a></h4>
+        </div>
+        <div class="card-text">
+                        When Florida’s Trump-worshiping Governor Ron DeSantis got medical advice at inconvenient odds with his plans for reopening the state, his surgeon general was suddenly removed from a coronavirus briefing.        </div>
+
+    </div>
+    <div class="card-footer">
+        <div class="pull-right">
+            Apr 18, 2020        </div>
+        <span class="node-submitted">By <a href="/users/news-hound-ellen" title="View NewsHound Ellen&#039;s profile and posts">NewsHound Ellen</a></span>
+    </div>
+</article>
+  </div>
+
+  
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <div style="margin-top: 5px; text-align: right; font-size:16px;font-weight:bold;">
+<a href="/latest">View All &raquo;</a>
+</div>
+    </div>
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-adverts pane-13" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="clab clab-type-panel" data-clab-id="13"><script async type='text/javascript' src='https://cdn.connatix.com/min/connatix.renderer.infeed.min.js' data-connatix-token='a84e2fea-bdfa-4477-8f32-2c516f9c8250'></script></div>  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-adverts pane-10" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="clab clab-type-panel" data-clab-id="10"><div id="zergnet-widget-77779"></div>
+
+<script language="javascript" type="text/javascript">
+    (function() {
+        var zergnet = document.createElement('script');
+        zergnet.type = 'text/javascript'; zergnet.async = true;
+        zergnet.src = (document.location.protocol == "https:" ? "https:" : "http:") + '//www.zergnet.com/zerg.js?id=77779';
+        var znscr = document.getElementsByTagName('script')[0];
+        znscr.parentNode.insertBefore(zergnet, znscr);
+    })();
+</script>
+
+
+</div>  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-adverts pane-18" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="clab clab-type-panel" data-clab-id="18"><script src="//static.newsmaxfeednetwork.com/web-clients/bootloaders/TdUGmQOcTfm6Or8W2H9nVT/bootloader.js" async="true" data-version="3" data-url="[PAGE_URL]" data-zone="[ZONE]" data-organic-clicks="[ORGANIC_TRACKING_PIXEL]" data-paid-clicks="[PAID_TRACKING_PIXEL]"></script></div>  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-block pane-block-46" >
+  
+  
+  
+  <div class="pane-content">
+      <script src="https://blueamerica.crooksandliars.com/widgets/latest/latest.js"></script>
+  <div class="blueamerica-latest-widget" data-items="5"></div>  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-adverts pane-5" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="clab clab-type-panel" data-clab-id="5"><div class="proper-ad-unit">
+    <div id="proper-ad-crooksandliars_side_3"> <script> propertag.cmd.push(function() { proper_display('crooksandliars_side_3'); }); </script> </div>
+</div></div>  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views-panes pane-widgets-latest-cltv galt-child galt-child-latest_cltv" >
+  
+    <div class="block-title-wrapper">
+    <h3 class="pane-title">Latest from CLTV</h3>
+    <div class="line"></div>
+    </div>
+  
+  
+  <div class="pane-content">
+    <div class="view view-widgets view-id-widgets view-display-id-latest_cltv view-dom-id-60dd5c5c5d8d102964613f8e66e5ab3e">
+    
+  
+  
+      <div class="view-content">
+      
+
+
+  <div class="views-row views-row-1 views-row-odd views-row-first">
+    <article class="node card node-type-media node-display-card" data-nid="158278">
+    <a href="/cltv/2020/04/media-treats-trump-kid-gloves-liberate" title="Media Treats Trump With Kid Gloves On &#039;Liberate&#039; Tweets">
+      <img src="https://videocafe.crooksandliars.com/files/imagecache/node_teaser/mediaposters/2020/04/44837.jpg" alt="Media Treats Trump With Kid Gloves On &#039;Liberate&#039; Tweets" class="card-img-top" />
+</a>
+
+    <div class="card-body">
+        <div class="card-title">
+            <h4><a href="/cltv/2020/04/media-treats-trump-kid-gloves-liberate"  title="Media Treats Trump With Kid Gloves On &#039;Liberate&#039; Tweets">Media Treats Trump With Kid Gloves On 'Liberate' Tweets</a></h4>
+        </div>
+        <div class="card-text">
+                        The media asked Trump gentle questions about his tweets inciting insurrection in three states, and meekly accepted his answers.        </div>
+
+    </div>
+    <div class="card-footer">
+        <div class="pull-right">
+            Apr 18, 2020        </div>
+        <span class="node-submitted">By <a href="/user/aliza-worthington" title="View Aliza Worthington&#039;s profile and posts">Aliza Worthington</a></span>
+    </div>
+</article>
+  </div>
+
+  
+  <div class="views-row views-row-2 views-row-even">
+    <article class="node card node-type-media node-display-card" data-nid="158275">
+    <a href="/cltv/2020/04/stephen-moore-compares-coronavirus" title="Stephen Moore Compares Coronavirus Protesters To Rosa Parks">
+      <img src="https://videocafe.crooksandliars.com/files/imagecache/node_teaser/mediaposters/2020/04/44836.jpg" alt="Stephen Moore Compares Coronavirus Protesters To Rosa Parks" class="card-img-top" />
+</a>
+
+    <div class="card-body">
+        <div class="card-title">
+            <h4><a href="/cltv/2020/04/stephen-moore-compares-coronavirus"  title="Stephen Moore Compares Coronavirus Protesters To Rosa Parks">Stephen Moore Compares Coronavirus Protesters To Rosa Parks</a></h4>
+        </div>
+        <div class="card-text">
+                        In an appearance on the Freedom on Tap Youtube show, Moore discussed helping protesters in Wisconsin, and urged more such “civil disobedience.”        </div>
+
+    </div>
+    <div class="card-footer">
+        <div class="pull-right">
+            Apr 18, 2020        </div>
+        <span class="node-submitted">By <a href="/user/scarce" title="View Ed Scarce&#039;s profile and posts">Ed Scarce</a></span>
+    </div>
+</article>
+  </div>
+
+  
+  <div class="views-row views-row-3 views-row-odd">
+    <article class="node card node-type-media node-display-card" data-nid="158272">
+    <a href="/cltv/2020/04/val-demings-and-joy-reid-wonder" title="Val Demings And Joy Reid Wonder Why Florida&#039;s Surgeon General Got The Hook">
+      <img src="https://videocafe.crooksandliars.com/files/imagecache/node_teaser/mediaposters/2020/04/44835.jpg" alt="Val Demings And Joy Reid Wonder Why Florida&#039;s Surgeon General Got The Hook" class="card-img-top" />
+</a>
+
+    <div class="card-body">
+        <div class="card-title">
+            <h4><a href="/cltv/2020/04/val-demings-and-joy-reid-wonder"  title="Val Demings And Joy Reid Wonder Why Florida&#039;s Surgeon General Got The Hook">Val Demings And Joy Reid Wonder Why Florida's Surgeon General Got The Hook</a></h4>
+        </div>
+        <div class="card-text">
+                        Florida&#039;s Surgeon General was interrupted and whisked away in the middle of issuing wise advice about COVID-19, which just happens to completely contradict Gov. DeSantis and Donald Trump.        </div>
+
+    </div>
+    <div class="card-footer">
+        <div class="pull-right">
+            Apr 18, 2020        </div>
+        <span class="node-submitted">By <a href="/user/aliza-worthington" title="View Aliza Worthington&#039;s profile and posts">Aliza Worthington</a></span>
+    </div>
+</article>
+  </div>
+
+  
+  <div class="views-row views-row-4 views-row-even">
+    <article class="node card node-type-media node-display-card" data-nid="158268">
+    <a href="/cltv/2020/04/joy-reid-sums-maga-re-open-protests" title="Joy Reid Sums Up The MAGA &#039;Re-Open&#039; Protests Popping Up Across The Nation">
+      <img src="https://videocafe.crooksandliars.com/files/imagecache/node_teaser/mediaposters/2020/04/44833.jpg" alt="Joy Reid Sums Up The MAGA &#039;Re-Open&#039; Protests Popping Up Across The Nation" class="card-img-top" />
+</a>
+
+    <div class="card-body">
+        <div class="card-title">
+            <h4><a href="/cltv/2020/04/joy-reid-sums-maga-re-open-protests"  title="Joy Reid Sums Up The MAGA &#039;Re-Open&#039; Protests Popping Up Across The Nation">Joy Reid Sums Up The MAGA 'Re-Open' Protests Popping Up Across The Nation</a></h4>
+        </div>
+        <div class="card-text">
+                        In a damning opening segment, the AM Joy host drew parallels to the Brooks Brothers protests and the Tea Party&#039;s origins, and it wasn&#039;t pretty.        </div>
+
+    </div>
+    <div class="card-footer">
+        <div class="pull-right">
+            Apr 18, 2020        </div>
+        <span class="node-submitted">By <a href="/user/aliza-worthington" title="View Aliza Worthington&#039;s profile and posts">Aliza Worthington</a></span>
+    </div>
+</article>
+  </div>
+
+  
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+    <article class="node card node-type-media node-display-card" data-nid="158271">
+    <a href="/cltv/2020/04/gov-ron-desantis-cant-mask-his" title="Gov. Ron DeSantis Can&#039;t Mask His Stupidity">
+      <img src="https://videocafe.crooksandliars.com/files/imagecache/node_teaser/mediaposters/2020/04/44834.jpg" alt="Gov. Ron DeSantis Can&#039;t Mask His Stupidity" class="card-img-top" />
+</a>
+
+    <div class="card-body">
+        <div class="card-title">
+            <h4><a href="/cltv/2020/04/gov-ron-desantis-cant-mask-his"  title="Gov. Ron DeSantis Can&#039;t Mask His Stupidity">Gov. Ron DeSantis Can't Mask His Stupidity</a></h4>
+        </div>
+        <div class="card-text">
+                        The Governor could not find his ears to put on a mask correctly.        </div>
+
+    </div>
+    <div class="card-footer">
+        <div class="pull-right">
+            Apr 18, 2020        </div>
+        <span class="node-submitted">By <a href="/user/scarce" title="View Ed Scarce&#039;s profile and posts">Ed Scarce</a></span>
+    </div>
+</article>
+  </div>
+
+  
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <div style="margin-top: 5px; text-align: right; font-size:16px;font-weight:bold;">
+<a href="/cltv">Visit CLTV &raquo;</a>
+</div>
+    </div>
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-block pane-cl-misc-cl-connect" >
+  
+    <div class="block-title-wrapper">
+    <h3 class="pane-title">Stay connected</h3>
+    <div class="line"></div>
+    </div>
+  
+  
+  <div class="pane-content">
+    <div class="cl-connect-block">
+    <div class="social-buttons">
+        <a href="https://www.facebook.com/crooksandliars.site" title="Like us on Facebook" class="btn social-btn btn-facebook"><i class="fa fa-facebook"></i> Facebook</a>
+        <a href="https://twitter.com/crooksandliars" title="Follow us on Twitter" class="btn social-btn btn-twitter"><i class="fa fa-twitter"></i> Twitter</a>
+        <a href="https://flipboard.com/@CrooksandLiars" title="Follow us on Flipboard" class="btn social-btn btn-flipboard">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="flipboard" class="svg-inline--fa fa-flipboard fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 32v448h448V32H0zm358.4 179.2h-89.6v89.6h-89.6v89.6H89.6V121.6h268.8v89.6z"></path></svg>
+           <span>Flipboard</span>
+        </a>
+        <a href="/feeds" title="Stay up to date with your favorite feed reader" class="btn social-btn btn-rss"><i class="fa fa-rss"></i> Feeds</a>
+    </div>
+    <div class="email-signup">
+        <div class="title">Daily Newsletter</div>
+        <form action="//crooksandliars.us2.list-manage.com/subscribe/post?u=1b79560977ef0d50a412db2c8&amp;id=d4904be7bc" method="post" id="mc-embedded-subscribe-form" class="cl-mailchimp-block-form cl-mailchimp-anon" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+            <div><div class="cl-mailchimp-desc">Our daily top picks right to your inbox</div>
+                <div  class="form-group">
+                    <label for="mceEMAIL" style="display:none">Email</label>
+                    <input type="email" value="" name="EMAIL" class="form-control required"  id="mceEMAIL" placeholder="email address" required>
+                </div>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;">
+                    <label for="mceNAME">Name</label>
+                    <input type="text" id="mceNAME"> name="b_1b79560977ef0d50a412db2c8_d4904be7bc" tabindex="-1" value=""></div>
+                <input type="submit" class="btn btn-primary btn-lg btn-block" value="Sign Up!" id="subscribe-submit" name="op">
+            </div>
+        </form>
+    </div>
+</div>
+
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+  
+  </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</div>
+            </section>
+<footer id="footer">
+    <div class="inner-dark">
+        <div class="container">
+                                        <div class="footer-columns">
+                                            <div class="footer-col footer-first">
+                            <section id="block-cl_misc-staff_list" class="">
+
+<h5 class="pane-title">
+    Staff</h5>
+
+
+  <div class="pane-content"><div class="cl-staff-list double"><div class="list-left"><div class="item-list"><ul><li class="first"><div class="staff-role-name">Editor &amp; Publisher</div><div class="item-list"><ul><li class="first last"><a href="/user/john-amato" title="View John Amato&#039;s profile and posts">John Amato</a></li>
+</ul></div></li>
+<li><div class="staff-role-name">Managing Editor</div><div class="item-list"><ul><li class="first last"><a href="/users/karoli" title="View Karoli Kuns&#039;s profile and posts">Karoli Kuns</a></li>
+</ul></div></li>
+<li class="last"><div class="staff-role-name">Associate Editors</div><div class="item-list"><ul><li class="first"><a href="/user/aliza-worthington" title="View Aliza Worthington&#039;s profile and posts">Aliza Worthington</a></li>
+<li><a href="/user/bluegal-aka-fran" title="View Frances Langum&#039;s profile and posts">Frances Langum</a></li>
+<li><a href="/users/heather" title="View Heather&#039;s profile and posts">Heather</a></li>
+<li><a href="/user/nicole-belle" title="View Nicole Belle&#039;s profile and posts">Nicole Belle</a></li>
+<li class="last"><a href="/users/susie-madrak" title="View Susie Madrak&#039;s profile and posts">Susie Madrak</a></li>
+</ul></div></li>
+</ul></div></div><div class="list-right"><div class="item-list"><ul><li class="first"><div class="staff-role-name">Contributors</div><div class="item-list"><ul><li class="first"><a href="/user/capper" title="View Chris capper Liebenthal&#039;s profile and posts">Chris capper Li...</a></li>
+<li><a href="/user/smashyd" title="View Dale Merrill&#039;s profile and posts">Dale Merrill</a></li>
+<li><a href="/user/david" title="View David&#039;s profile and posts">David</a></li>
+<li><a href="/user/scarce" title="View Ed Scarce&#039;s profile and posts">Ed Scarce</a></li>
+<li><a href="/user/liberal-yell" title="View Jenn Budd&#039;s profile and posts">Jenn Budd</a></li>
+<li><a href="/users/news-hound-ellen" title="View NewsHound Ellen&#039;s profile and posts">NewsHound Ellen</a></li>
+<li class="last"><a href="/user/red-painter" title="View Red Painter&#039;s profile and posts">Red Painter</a></li>
+</ul></div></li>
+<li class="last"><div class="staff-role-name">Webmaster</div><div class="item-list"><ul><li class="first last"><a href="/user/jamie" title="View Jamie&#039;s profile and posts">Jamie</a></li>
+</ul></div></li>
+</ul></div></div></div></div>
+</section>
+                        </div>
+                                                                <div class="footer-col footer-second">
+                            <section id="block-block-25" class="">
+
+<h5 class="pane-title">
+    Support C&amp;L</h5>
+
+
+  <div class="pane-content"><p>
+   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=NRC45DGVRGQZ6" target="_blank"><img src="/btn_donateCC_LG.gif" alt="Donate via PayPal" /></a>
+</p>
+<p>Or by snail mail:<br />
+CrooksandLiars.com<br />
+PO BOX 66310<br />
+Los Angeles, CA 90066</p>
+</div>
+</section>
+                        </div>
+                                                                <div class="footer-col footer-third">
+                            <section id="block-cl_ad_blocks-3" class="">
+
+
+  <div class="pane-content"><div class="clab clab-type-block" data-clab-id="3"><div class="proper-ad-unit">
+    <div id="proper-ad-crooksandliars_side_2"> <script> propertag.cmd.push(function() { proper_display('crooksandliars_side_2'); }); </script> </div>
+</div></div></div>
+</section>
+                        </div>
+                                    </div>
+                    </div>
+    </div>
+        <div class="inner-light">
+        <div class="container">
+
+                <div class="footer-bottom">
+                                            <div class="footer-col footer-bottom-left">
+                            <section id="block-block-33" class="">
+
+
+  <div class="pane-content"><!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=8624509; 
+var sc_invisible=0; 
+var sc_security="4af12c5c"; 
+var sc_https=1; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/8624509/0/4af12c5c/0/"
+alt="web analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide --></div>
+</section>
+<section id="block-block-34" class="">
+
+
+  <div class="pane-content">&copy;2020 Crooks and Liars</div>
+</section>
+                        </div>
+                                                                <div class="footer-col footer-bottom-right">
+                            <section id="block-menu-menu-footer-menu" class="">
+
+<h5 class="pane-title">
+    Footer</h5>
+
+
+  <div class="pane-content"><ul class="menu"><li class="leaf first"><a href="/about" title="" class="nav-link">About Us</a></li>
+<li class="leaf"><a href="/feeds" title="" class="nav-link">Feeds</a></li>
+<li class="leaf"><a href="/contactus" title="" class="nav-link">Contact</a></li>
+<li class="leaf"><a href="/tos" title="" class="nav-link">Terms of Service</a></li>
+<li class="leaf"><a href="/privacy" title="" class="nav-link">Privacy</a></li>
+<li class="leaf last"><a href="/dmca" title="" class="nav-link">DMCA</a></li>
+</ul></div>
+</section>
+<section id="block-cl_ad_blocks-19" class="">
+
+
+  <div class="pane-content"><div class="clab clab-type-block" data-clab-id="19"><div class="proper-ad-unit ad-sticky">
+    <div id="proper-ad-crooksandliars_sticky_1"> <script> propertag.cmd.push(function() { proper_display('crooksandliars_sticky_1'); }); </script> </div>
+</div>
+</div></div>
+</section>
+                        </div>
+                                    </div>
+
+        </div>
+    </div>
+    </footer>
+<div id="drawer" aria-hidden="true">
+
+    <div class="drawer-block">
+
+    </div>
+    <nav id="drawer-nav">
+        <div id="cl-nav-menu"><div class="cl-nav-menu-wrapper"><div id="cl-nav-search"><form action="/solr"  accept-charset="UTF-8" method="post" id="cl-misc-search-block" class="cl-search-box">
+<div><div class="form-item form-group" id="edit-search-block-form-wrapper">
+ <label for="edit-search-block-form">Search this site: </label>
+ <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form" size="15" value="" title="Enter the terms you wish to search for." placeholder="Search..." class="form-text form-control" />
+</div>
+<button name="op" id="edit-submit"  class="btn btn-primary form-submit" >Search</button>
+<input type="hidden" name="form_id" id="edit-cl-misc-search-block" value="cl_misc_search_block"  />
+<input type="hidden" name="form_build_id" id="form-OZxpC-FRKVxMZruVsL467H5m7AXkR1A4OieUlnXPcSc" value="form-OZxpC-FRKVxMZruVsL467H5m7AXkR1A4OieUlnXPcSc"  />
+
+</div></form>
+</div><ul class="nav-menu-items"><li class="0 first"><a href="/">Home</a></li>
+<li class="1"><a href="/cltv" data-section-sid="cltv">CLTV</a></li>
+<li class="active"><a href="/politics" data-section-sid="1">Politics</a></li>
+<li class="2"><a href="/media-bites" data-section-sid="2">Media Bites</a></li>
+<li class="3"><a href="/entertainment" data-section-sid="3">Entertainment</a></li>
+<li class="4"><a href="/activism" data-section-sid="5">Activism</a></li>
+<li class="5"><a href="/section/sports" data-section-sid="4">Sports</a></li>
+<li class="6"><a href="/section/tech" data-section-sid="8">Tech</a></li>
+<li class="7"><a href="/section/green" data-section-sid="9">Green</a></li>
+<li class="8"><a href="/section/business" data-section-sid="10">Business</a></li>
+<li class="9"><a href="/section/yesteryear" data-section-sid="6">Yesteryear</a></li>
+<li class="10 last"><a href="/section/misc" data-section-sid="7">Misc</a></li>
+</ul></div></div>    </nav>
+</div>
+<script type="text/javascript" src="https://crooksandliars.com/files/js/js_52f03b707d8e4e4c7e8ddbc98057e5dc.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","colorbox":{"transition":"elastic","speed":350,"opacity":"0.85","slideshow":false,"slideshowAuto":false,"slideshowSpeed":2500,"slideshowStart":"","slideshowStop":"","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"maxWidth":"100%","maxHeight":"100%"},"CLMedia":{"statsServer":"https:\/\/embed.crooksandliars.com\/"},"clCookieDomain":".crooksandliars.com","disqus":{"title":"Lawmaker: Outlaw Abortion Because Women Are 'Just Not Having Enough Babies'","url":"https:\/\/crooksandliars.com\/2019\/04\/state-rep-supports-abortion-bills-because","identifier":"node\/148921","developer":0,"sso":{"name":"Crooks and Liars","url":"https:\/\/crooksandliars.com\/user\/login?destination=disqusclose\u0026disqus=true","logout":"https:\/\/crooksandliars.com\/logout?destination=node%2F148921","width":450,"height":250,"button":"https:\/\/crooksandliars.com\/sites\/all\/modules\/custom\/cl_disqus\/login.png"},"remote_auth_s3":"W10= 7993e9c7fde02322462f7f3c9207e8ab8fa24e93 1587283844","api_key":"qFMqHSvb8IhZuTO904mjdmr8DDm4yc6KGEWccQyco5D97gxReC7VwUWpKIXjOcin"},"CToolsUrlIsAjaxTrusted":{"\/solr":[true,true],"\/2019\/04\/state-rep-supports-abortion-bills-because?destination=node%2F148921":true}});
+//--><!]]>
+</script>
+<script src="/sites/all/themes/cl_theme18/assets/js/theme.js"></script>
+<script type="text/javascript" src="//www.google.com/jsapi"></script>
+
+
+    <script>
+    var disqus_shortname = 'candl';
+
+</script>
+
+
+<script async src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8" charset="utf-8"></script>
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<!--Start Analytics-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2640119-1', 'crooksandliars.com');
+      ga('set', 'dimension1', 'blog');
+      ga('set', 'dimension2', 'David');
+      ga('set', 'dimension4', '148921');
+      ga('set', 'dimension5', 'post');
+  
+  
+  ga('send', 'pageview');
+
+</script>
+<!--/Analytics abc-->
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();_qevents.push({
+qacct:"p-BPccr2KyQ9KB9"
+});
+</script><noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-BPccr2KyQ9KB9.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+
+
+<!-- Twitter universal website tag code -->
+<script>
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+// Insert Twitter Pixel ID and Standard Event data below
+twq('init','nyd17');
+twq('track','PageView');
+</script>
+<!-- End Twitter universal website tag code -->
+</body>
+</html>

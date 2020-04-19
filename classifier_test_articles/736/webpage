@@ -1,218 +1,1271 @@
-<!doctype html>
-<html>
-<head>
-    <title>Bloomberg - Are you a robot?</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="https://assets.bwbx.io/font-service/css/BWHaasGrotesk-55Roman-Web,BWHaasGrotesk-75Bold-Web,BW%20Haas%20Text%20Mono%20A-55%20Roman/font-face.css">
-    <style rel="stylesheet" type="text/css">
-        html, body, div, span, applet, object, iframe,
-        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-        a, abbr, acronym, address, big, cite, code,
-        del, dfn, em, img, ins, kbd, q, s, samp,
-        small, strike, strong, sub, sup, tt, var,
-        b, u, i, center,
-        dl, dt, dd, ol, ul, li,
-        fieldset, form, label, legend,
-        table, caption, tbody, tfoot, thead, tr, th, td,
-        article, aside, canvas, details, embed,
-        figure, figcaption, footer, header, hgroup,
-        menu, nav, output, ruby, section, summary,
-        time, mark, audio, video {
-            margin: 0;
-            padding: 0;
-            border: 0;
-            font-size: 100%;
-            font: inherit;
-            vertical-align: baseline;
-        }
-        /* HTML5 display-role reset for older browsers */
-        article, aside, details, figcaption, figure,
-        footer, header, hgroup, menu, nav, section {
-            display: block;
-        }
-        body {
-            line-height: 1;
-        }
-        ol, ul {
-            list-style: none;
-        }
-        blockquote, q {
-            quotes: none;
-        }
-        blockquote:before, blockquote:after,
-        q:before, q:after {
-            content: '';
-            content: none;
-        }
-        table {
-            border-collapse: collapse;
-            border-spacing: 0;
-        }
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US" xmlns:fb="http://ogp.me/ns/fb#">
+<!--<![endif]-->
+<head><link rel="stylesheet" type="text/css" href="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/hY9dDsIwDIMvtCyAxHlQVqKRLf2h6UC9PWyApj7x5s-yo_iMV7GCg0Y3g8qQKVe0UpV7L6E74EMSkoekyyjB3lJgJFXO9YTOGgO2nu2lwPfPrdaaDONTwVGOi7Gu0P_gf7Lc2HN3xIlLIjfjRYJDi05IQeMYrYFtxR5eP_7qFw.css?9067122fa57259cbe04dfb40ebcd2b15
+" media="all" />
 
-        * {
-            box-sizing: border-box;
-        }
 
-        body {
-            background-color: #f2f2f2;
-            font-family: "BWHaasGrotesk-55Roman-Web";
-            line-height: 1.2;
-        }
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, user-scalable=0">
+<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/images/favicon/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/favicon/manifest.json">
+	<link rel="mask-icon" href="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/images/favicon/mstile-144x144.png">
+	<meta name="msapplication-config" content="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
 
-        .header {
-            margin: 0;
-            height: 60px;
-            width: 100%;
-            background-color: black;
-            color: white;
-            overflow-x: hidden;
-        }
-
-        .logo {
-            float: left;
-            margin: 0 20px;
-            height: 60px;
-            width: 140px;
-            background-image: url('data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTcuNzUgNDcuNjMiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojZmZmO308L3N0eWxlPjwvZGVmcz48dGl0bGU+Qmxvb21iZXJnX05IR193aHQ8L3RpdGxlPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTgxLjczLDExMzhIMTAwLjZjMy41NywwLDYuMzIuODcsOC4yNiwyLjQ1YTkuNDUsOS40NSwwLDAsMSwzLjM3LDcuNmMwLDMuNjctMS40OCw2LTQuNTQsNy4zOXYwLjE1YzQsMS4zMyw2LjI3LDQuOSw2LjI3LDkuMjMsMCw0LjEzLTEuNTgsNy4zNC00LjE4LDkuMjgtMi4xOSwxLjU4LTUsMi4zNS04LjgyLDIuMzVIODEuNzNWMTEzOFptMTcsMTVjMiwwLDMuNTItMS4xMiwzLjUyLTMuMzdzLTEuNTMtMy4yNi0zLjU3LTMuMjZIOTIuMTlWMTE1M2g2LjUzWm0xLDE0Ljg5YTMuOTMsMy45MywwLDEsMC0uMDUtNy44NUg5Mi4xOXY3Ljg1aDcuNVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC04MS43MyAtMTEzNy45OCkiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0xMTUuOCwxMTM4aDkuODl2MzguNDVIMTE1LjhWMTEzOFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC04MS43MyAtMTEzNy45OCkiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0xMjcuNjksMTE2Mi43N2MwLTguNjcsNS42MS0xNC41NCwxNC4yOC0xNC41NHMxNC4xOCw1Ljg3LDE0LjE4LDE0LjU0LTUuNTEsMTQuNTMtMTQuMTgsMTQuNTNTMTI3LjY5LDExNzEuNDgsMTI3LjY5LDExNjIuNzdabTE4LjY2LDBjMC00Ljc5LTEuNTMtNy44LTQuNDktNy44cy00LjM5LDMtNC4zOSw3LjgsMS40Myw3Ljg1LDQuMzksNy44NVMxNDYuMzUsMTE2Ny42MSwxNDYuMzUsMTE2Mi43N1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC04MS43MyAtMTEzNy45OCkiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0xNTcuMzIsMTE2Mi43N2MwLTguNjcsNS42MS0xNC41NCwxNC4yOC0xNC41NHMxNC4xOCw1Ljg3LDE0LjE4LDE0LjU0LTUuNTEsMTQuNTMtMTQuMTgsMTQuNTNTMTU3LjMyLDExNzEuNDgsMTU3LjMyLDExNjIuNzdabTE4LjY2LDBjMC00Ljc5LTEuNTMtNy44LTQuNDktNy44cy00LjM5LDMtNC4zOSw3LjgsMS40Myw3Ljg1LDQuMzksNy44NVMxNzYsMTE2Ny42MSwxNzYsMTE2Mi43N1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC04MS43MyAtMTEzNy45OCkiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0xODcuNzYsMTE0OWg5LjE4djQuMTNoMC4xNWMxLjg0LTMuMjEsNC4zMy00Ljk1LDguMjYtNC45NWE3LjY2LDcuNjYsMCwwLDEsNy4zOSw0Ljc0aDAuMTVhOS4yMSw5LjIxLDAsMCwxLDguNTItNC43NGM2LjM3LDAsOS4xMyw0LjY5LDkuMTMsMTF2MTcuMjRoLTkuNjR2LTE1LjVjMC0yLjgtLjg3LTQuNjQtMy4zMS00LjY0cy0zLjYyLDIuMjQtMy42Miw1LjJ2MTQuOTRoLTkuNjR2LTE1LjVjMC0yLjgtLjg3LTQuNjQtMy4zMS00LjY0cy0zLjYyLDIuMjQtMy42Miw1LjJ2MTQuOTRoLTkuNjRWMTE0OVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC04MS43MyAtMTEzNy45OCkiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0yNDIuNjksMTE3Mi44NmgtMC4xdjMuNTdoLTkuMThWMTEzOEgyNDN2MTMuODdoMC4xNWE5LjEyLDkuMTIsMCwwLDEsNy44LTMuNjdjNi44OCwwLDEwLjg2LDYuMjIsMTAuODYsMTQuNDgsMCw5LjMzLTQuMzMsMTQuNjktMTEuNDcsMTQuNjlBOC42Nyw4LjY3LDAsMCwxLDI0Mi42OSwxMTcyLjg2Wm05LjM4LTEwLjNjMC00LjQ0LTEuNjMtNy4yOS00LjU0LTcuMjlzLTQuODQsMi44Ni00Ljg0LDcuMjksMS44OSw3LjI5LDQuODQsNy4yOVMyNTIuMDcsMTE2NywyNTIuMDcsMTE2Mi41NloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC04MS43MyAtMTEzNy45OCkiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0yNjMsMTE2Mi42NmMwLTguNTcsNS42Ni0xNC41MywxMy44Ny0xNC41M2ExMy4zNCwxMy4zNCwwLDAsMSw5LjY0LDMuNTdjMy4xNiwzLjA2LDQuNTksNy44NSw0LjQ5LDEzLjUxSDI3Mi42M2MwLjQxLDMuNDIsMiw1LjE1LDQuOTUsNS4xNWEzLjcsMy43LDAsMCwwLDMuNzctMi42aDkuMjhjLTEuNjMsNi4yNy02LjQ4LDkuNDQtMTMuMzYsOS40NEMyNjguNzUsMTE3Ny4yLDI2MywxMTcxLjQzLDI2MywxMTYyLjY2Wm05LjU5LTIuODZoOC43N2MtMC4xNS0zLjMxLTItNS00LjI4LTVDMjc0LjQ2LDExNTQuNzYsMjczLDExNTYuNjQsMjcyLjYzLDExNTkuODFaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtODEuNzMgLTExMzcuOTgpIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMzAyLDExNTMuNjloMC4xNWMyLTMuODIsNC41OS01LjI1LDcuOS01LjI1YTMuNzIsMy43MiwwLDAsMSwxLjU4LjI1djguNDFoLTAuMmMtNS42Ni0xLTksMS42OC05LDcuODV2MTEuNDdoLTkuNjRWMTE0OUgzMDJ2NC42OVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC04MS43MyAtMTEzNy45OCkiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0zMTIuNjYsMTE3Ni40OGg5LjI4YzAuMzYsMS4xNywxLjU4LDIuMzUsMy44OCwyLjM1LDMuMTEsMCw0LjE4LTEuOTQsNC4xOC00Ljc5di0yaC0wLjJhOC4yNiw4LjI2LDAsMCwxLTYuNTgsMy4xMWMtNS45MiwwLTExLjA3LTQuMzgtMTEuMDctMTMsMC03Ljg1LDQuMjMtMTQsMTAuNjEtMTQsMy42NywwLDUuOTEsMS40OCw3LjM5LDMuODJoMC4xNXYtM2g5LjE4djIzLjc2YzAsNC4zOC0xLjUzLDcuOC0zLjgyLDkuODRzLTUuODEsMy05LjY5LDNDMzE4LjY4LDExODUuNjEsMzEzLjU4LDExODIuNiwzMTIuNjYsMTE3Ni40OFptMTcuNzUtMTQuNzljMC0zLjQyLTEuNjMtNi4xNy00LjQ0LTYuMTdzLTQuNDQsMi40NS00LjQ0LDYuMTcsMS43Myw2LjMyLDQuNDQsNi4zMlMzMzAuNDEsMTE2NS4zMSwzMzAuNDEsMTE2MS42OVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC04MS43MyAtMTEzNy45OCkiLz48L3N2Zz4=');
-            background-repeat: no-repeat;
-            background-position: center;
-            font-size: 0;
-        }
-
-        .contact-us {
-            float: right;
-            margin: 0 20px;
-            line-height: 60px;
-            font-family: "BWHaasGrotesk-55Roman-Web";
-            font-size: 14px;
-            color: white;
-            text-decoration: underline;
-        }
-
-        .box {
-            margin: 30px auto;
-            padding: 30px;
-            width: 680px;
-            background-color: white;
-        }
-
-        @media (max-width:760px) {
-            .box {
-                width: calc(100% - 20px);
-            }
-        }
-
-        .main__heading, .info__heading {
-            font-family: "BWHaasGrotesk-75Bold-Web";
-        }
-
-        .main__heading {
-            font-size: 19px;
-            padding-bottom: 9px;
-        }
-
-        .continue {
-            font-size: 18px;
-        }
-
-        #px-captcha {
-            margin-top: 20px;
-            min-height: 80px;
-        }
-
-        .info {
-            border-top: dotted 1px black;
-            padding-top: 9px;
-        }
-
-        .info + .info {
-            margin-top: 30px;
-        }
-
-        .info__link {
-            color: black;
-            text-decoration: underline;
-        }
-
-        .info__heading {
-            font-size: 16px;
-            line-height: 20px;
-            padding-bottom: 9px;
-        }
-
-        .info__text {
-            padding-bottom: 9px;
-        }
-
-        #block_uuid {
-            display: inline-block;
-            padding: 6px;
-            background-color: #f2f2f2;
-            font-family: "BW Haas Text Mono A-55 Roman";
-            font-size: 14px;
-        }
-
-    </style>
-    <script>
-        window._pxAppId = "PX8FCGYgk4";
-        window._pxJsClientSrc = "/8FCGYgk4/init.js";
-        window._pxFirstPartyEnabled = true;
-        window._pxHostUrl = "/8FCGYgk4/xhr";
-        window._pxreCaptchaTheme = "light";
-        window._pxUuid = qs("uuid");
-
-        if(!window._pxUuid) {
-            window.pxInit = function (px) {
-                px.Events.one("uid", function (uuid) {
-                    if (uuid) {
-                        document.getElementById("block_uuid").innerText = "Block reference ID: " + uuid;
-                    }
-                });
-            };
-        }
-
-        function qs(name) {
-            var search = window.location.search;
-            var rx = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
-            var match = rx.exec(search);
-            return match ? decodeURIComponent(match[2].replace(/\+/g, " ")) : "";
-        }
-    </script>
-    <script src="/8FCGYgk4/captcha/captcha.js?a=c&m=0" async></script>
-</head>
-<body>
-    <header class="header">
-        <h1 class="logo">Bloomberg</h1>
-        <a class="contact-us" href="/feedback">Need help? Contact us</a>
-    </header>
-    <section class="box main">
-        <h2 class="main__heading">We've detected unusual activity from your computer network</h2>
-        <p class="continue">To continue, please click the box below to let us know you're not a robot.</p>
-        <div id="px-captcha"></div>
-    </section>
-    <section class="box">
-        <section class="info">
-            <h3 class="info__heading">Why did this happen?</h3>
-            <p class="info__text">Please make sure your browser supports JavaScript and cookies and that you are not blocking them from loading. For more information you can review our <a class="info__link" href="/notices/tos">Terms of Service</a> and <a class="info__link" href="/notices/tos">Cookie Policy</a>.</p>
-        </section>
-        <section class="info">
-            <h3 class="info__heading">Need Help?</h3>
-            <p class="info__text">For inquiries related to this message please <a class="info__link" href="/feedback">contact our support team</a> and provide the reference ID below.</p>
-            <div id="block_uuid">Block reference ID: </div>
-        </section>
-    </section>
+	
+    <!-- OneTrust Cookies Consent Notice start -->
+    <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="3a50bf71-e2e9-4034-a078-dbcba7fda162"></script>
     <script type="text/javascript">
-    document.getElementById("block_uuid").innerText = "Block reference ID: " + window._pxUuid;
+		function OptanonWrapper() {
+			var allIframes = document.querySelectorAll( 'iframe[class*="optanon-category"]' );
+
+			allIframes.forEach (function( iframe ) {
+				var thisIframeCategories = iframe.classList.value.match(/C000\d+/g);
+
+				// Check if user allowed every category assigned to this iframe
+				var shouldBeLoaded = thisIframeCategories.every( function( item ) {
+					return OptanonActiveGroups.match( item );
+				});
+
+				// Load iframe if every category is allowed
+				if ( shouldBeLoaded ) {
+					loadIframe( iframe );
+				}
+			});
+
+			// load iframe element
+			function loadIframe( element ) {
+				element.tagName == "IFRAME" ? element.setAttribute("src", element.dataset.src) : -1;
+			}
+		}
     </script>
-    <!-- Google Tag Manager -->
-    <script>(function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-        var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.defer = true;
-        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-MNTH5N');</script>
-    <!-- End Google Tag Manager -->
+    <!-- OneTrust Cookies Consent Notice end -->
+
+	
+	<title>Billy Cosby Slams AIG for Settling Sex Assault Case | National Enquirer</title>
+
+	<link rel="profile" href="http://gmpg.org/xfn/11"/>
+	<link rel="pingback" href="https://www.nationalenquirer.com/xmlrpc.php"/>
+	<script type="text/plain" class="optanon-category-C0004" src="//d17tqr44y57o31.cloudfront.net/script.js"></script>    <script>
+    var _0x4fb0=["\x44\x46\x50","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x70\x61\x72\x65\x6E\x74","\x72\x65\x66\x65\x72\x72\x65\x72","\x68\x72\x65\x66","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\x34","\x35","\x61\x64\x73","\x44\x46\x50\x20\x53\x74\x61\x72\x74","\x6C\x65\x6E\x67\x74\x68","\x64\x69\x6D\x65\x6E\x73\x69\x6F\x6E","\x2C","\x6A\x6F\x69\x6E","\x70\x75\x73\x68","\x73\x74\x61\x72\x74","\x65\x6E\x64","\x6C\x6F\x61\x64\x5F\x74\x69\x6D\x65","\x20\x6C\x6F\x61\x64\x20\x74\x69\x6D\x65","\x48\x42\x20\x73\x65\x6E\x64\x69\x6E\x67\x20\x74\x6F\x20\x47\x41\x3A","\x6C\x6F\x67","\x68\x62\x2E\x73\x65\x6E\x64","\x74\x69\x6D\x69\x6E\x67","\x66\x6F\x72\x45\x61\x63\x68","\x74\x72\x61\x63\x6B\x69\x6E\x67\x49\x64","\x67\x65\x74","\x67\x65\x74\x41\x6C\x6C","\x63\x72\x65\x61\x74\x65","\x61\x75\x74\x6F","\x68\x62","\x67\x65\x74\x54\x69\x6D\x65","\x72\x65\x73\x70\x6F\x6E\x73\x65\x53\x74\x61\x72\x74","\x70\x65\x72\x66\x6F\x72\x6D\x61\x6E\x63\x65","\x6D\x69\x6E","\x73\x6F\x72\x74","","\x73\x65\x6C\x66","\x74\x6F\x70","\x7C","\x20\x65\x72\x72\x6F\x72\x3A\x20","\x6D\x65\x73\x73\x61\x67\x65","\x49\x4E\x44\x58\x57","\x4F\x50\x45\x4E\x58","\x59\x4C\x44\x42\x54","\x50\x42\x4D\x54\x43","\x52\x55\x42\x49","\x41\x4F\x4C","\x53\x56\x52\x4E","\x49\x4E\x44\x58","\x46\x42","\x53\x48\x54\x48","\x33\x4C\x49\x46\x54","\x59\x49\x45\x4C\x44","\x53\x4F\x56\x52","\x69\x6E\x64\x65\x78\x4F\x66","\x2E\x2A","\x74\x65\x73\x74","\x6F\x70\x65\x6E","\x70\x72\x6F\x74\x6F\x74\x79\x70\x65","\x73\x65\x6E\x64","\x74\x69\x6D\x65\x6F\x75\x74","\x68\x62\x54\x69\x6D\x65\x6F\x75\x74\x44\x65\x62\x75\x67","\x4F\x76\x65\x72\x72\x69\x64\x69\x6E\x67\x20\x58\x48\x52\x20\x74\x69\x6D\x65\x6F\x75\x74\x20\x66\x72\x6F\x6D\x20","\x20\x74\x6F\x20","\x20\x66\x6F\x72\x20","\x66\x61\x69\x6C\x65\x64\x20\x74\x6F\x20\x6F\x76\x65\x72\x72\x69\x64\x65\x20\x74\x69\x6D\x65\x6F\x75\x74\x20\x66\x6F\x72\x20","\x61\x70\x70\x6C\x79","\x45\x72\x72\x6F\x72\x20\x72\x75\x6E\x6E\x69\x6E\x67\x20\x48\x42\x20\x6F\x70\x65\x6E","\x6F\x6E\x72\x65\x61\x64\x79\x73\x74\x61\x74\x65\x63\x68\x61\x6E\x67\x65","\x72\x65\x61\x64\x79\x53\x74\x61\x74\x65","\x73\x74\x61\x74\x75\x73","\x72\x65\x73\x70\x6F\x6E\x73\x65\x55\x52\x4C","\x48\x42\x20\x44\x46\x50\x20\x73\x65\x6E\x64\x69\x6E\x67\x20\x74\x69\x6D\x69\x6E\x67\x73\x20\x66\x72\x6F\x6D\x20\x6D\x75\x74\x61\x69\x6F\x6E\x20\x6F\x62\x6A\x65\x63\x74","\x48\x42\x20\x53\x54\x41\x54\x45\x3A\x20","\x20\x63\x6F\x64\x65\x3A","\x20","\x20\x62\x69\x64\x64\x65\x72\x3A","\x45\x72\x72\x6F\x72\x20\x72\x75\x6E\x6E\x69\x6E\x67\x20\x48\x42\x20\x73\x65\x6E\x64","\x61\x64\x64\x65\x64\x4E\x6F\x64\x65\x73","\x73\x72\x63","\x6F\x6E\x6C\x6F\x61\x64","\x48\x42\x20","\x20\x73\x63\x72\x69\x70\x74\x20\x6C\x6F\x61\x64\x65\x64\x20","\x68\x65\x61\x64","\x6F\x62\x73\x65\x72\x76\x65","\x66\x75\x6E\x63\x74\x69\x6F\x6E","\x45\x72\x72\x6F\x72\x20\x67\x61\x74\x68\x65\x72\x69\x6E\x67\x20\x68\x65\x61\x64\x65\x72\x20\x62\x69\x64\x64\x65\x72\x20\x73\x74\x61\x74\x73"];try{var DEBUG=false;var DFP_ID=_0x4fb0[0];var bidders={};var hb_timings_sent=false;var hb_onload_run=false;var MAX_MILLIS=20000;var MAX_XHR_MILLIS=2000;var getIFrameURL=function(){return (window[_0x4fb0[1]]!= window[_0x4fb0[2]][_0x4fb0[1]])?document[_0x4fb0[3]]:document[_0x4fb0[1]][_0x4fb0[4]]};var hb_track_hb=function(_0x9d4axa,_0x9d4axb,_0x9d4axc,_0x9d4axd){var _0x9d4axe=bidders[_0x9d4axa][_0x9d4axb];if(_0x9d4axe&& _0x9d4axe> 0&& _0x9d4axe<= MAX_MILLIS){if( typeof hbDFPdim=== _0x4fb0[5]){hbDFPdim= _0x4fb0[6]};if( typeof hbFRAMEdim=== _0x4fb0[5]){hbFRAMEdim= _0x4fb0[7]};var _0x9d4axf={timingCategory:_0x4fb0[8],timingVar:_0x4fb0[0],timingValue:_0x9d4axe,timingLabel:_0x4fb0[9]};if(_0x9d4axc[_0x4fb0[10]]> 0){_0x9d4axf[_0x4fb0[11]+ hbDFPdim]= _0x9d4axc[_0x4fb0[13]](_0x4fb0[12])};if(_0x9d4axd){_0x9d4axf[_0x4fb0[11]+ hbFRAMEdim]= _0x9d4axd};var _0x9d4ax10=[];_0x9d4ax10[_0x4fb0[14]](_0x9d4axf);for(i= 0;i< toMonitor[_0x4fb0[10]];i++){var _0x9d4ax11=toMonitor[i];var _0x9d4ax12=bidders[_0x9d4ax11][_0x4fb0[15]];var _0x9d4ax13=bidders[_0x9d4ax11][_0x4fb0[16]];if(_0x9d4ax12&& _0x9d4ax13&& _0x9d4ax12> 0&& _0x9d4ax13> 0){var _0x9d4ax14=_0x9d4ax13- _0x9d4ax12;if(_0x9d4ax14<= MAX_MILLIS){_0x9d4axf= {timingCategory:_0x4fb0[17],timingVar:_0x9d4ax11,timingValue:_0x9d4ax14,timingLabel:_0x9d4ax11+ _0x4fb0[18]};_0x9d4ax10[_0x4fb0[14]](_0x9d4axf)}}};if(DEBUG){console[_0x4fb0[20]](_0x4fb0[19]);console[_0x4fb0[20]](_0x9d4ax10)}else {_0x9d4ax10[_0x4fb0[23]](function(_0x9d4axf){ga(_0x4fb0[21],_0x4fb0[22],_0x9d4axf)})};return true};return false};var hb_log_timings=function(){if(hb_timings_sent){return};hb_timings_sent= true;var _0x9d4ax16=ga[_0x4fb0[26]]()[0][_0x4fb0[25]](_0x4fb0[24]);ga(_0x4fb0[27],{trackingId:_0x9d4ax16,cookieDomain:_0x4fb0[28],name:_0x4fb0[29],siteSpeedSampleRate:1});var _0x9d4axc=[];for(bidder in bidders){if(bidder== DFP_ID){continue};if(!bidders[bidder][_0x4fb0[16]]){bidders[bidder][_0x4fb0[16]]= Math[_0x4fb0[33]](( new Date())[_0x4fb0[30]]()- window[_0x4fb0[32]][_0x4fb0[22]][_0x4fb0[31]],MAX_MILLIS)};if(bidders[bidder][_0x4fb0[16]]- bidders[DFP_ID][_0x4fb0[15]]> 0){_0x9d4axc[_0x4fb0[14]](bidder)}};_0x9d4axc[_0x4fb0[34]]();var _0x9d4axd=_0x4fb0[35];try{if(window[_0x4fb0[36]]!== window[_0x4fb0[37]]){var _0x9d4ax17=null;if(window[_0x4fb0[36]]&& window[_0x4fb0[36]][_0x4fb0[1]]){_0x9d4ax17= window[_0x4fb0[36]][_0x4fb0[1]][_0x4fb0[4]]};var _0x9d4ax18=null;if(window[_0x4fb0[37]]&& window[_0x4fb0[37]][_0x4fb0[1]]){_0x9d4ax18= window[_0x4fb0[37]][_0x4fb0[1]][_0x4fb0[4]]};if(_0x9d4ax17!= _0x9d4ax18){_0x9d4axd= getIFrameURL();_0x9d4axd= _0x9d4axd+ _0x4fb0[38]+ _0x9d4ax17+ _0x4fb0[38]+ _0x9d4ax18}}}catch(err){_0x9d4axd= getIFrameURL()+ _0x4fb0[39]+ err[_0x4fb0[40]]};hb_track_hb(DFP_ID,_0x4fb0[15],_0x9d4axc,_0x9d4axd)};var toMonitor=[_0x4fb0[41]];var jsRegexp={"\x2E\x64\x6F\x75\x62\x6C\x65\x63\x6C\x69\x63\x6B\x2E\x6E\x65\x74\x2F\x67\x61\x6D\x70\x61\x64\x2F\x61\x64\x73":_0x4fb0[0],"\x2E\x6F\x70\x65\x6E\x78\x2E\x6E\x65\x74\x2F\x77\x2F\x31\x2E\x30\x2F\x61\x63\x6A":_0x4fb0[42],"\x2E\x79\x6C\x64\x62\x74\x2E\x63\x6F\x6D\x2F\x6D\x2F\x2E\x2A\x69\x6E\x69\x74":_0x4fb0[43],"\x2E\x79\x6C\x64\x62\x74\x2E\x63\x6F\x6D\x2F\x6D\x2F\x2E\x2A\x69\x6E\x69\x74":_0x4fb0[43],"\x2F\x70\x62\x2E\x6A\x73":_0x4fb0[41]};var xhrRegexp={"\x2E\x70\x75\x62\x6D\x61\x74\x69\x63\x2E\x63\x6F\x6D\x2F\x41\x64\x53\x65\x72\x76\x65\x72\x2F\x41\x64\x43\x61\x6C\x6C\x41\x67\x67\x72\x65\x67\x61\x74\x6F\x72":_0x4fb0[44],"\x2E\x70\x75\x62\x6D\x61\x74\x69\x63\x2E\x63\x6F\x6D\x2F\x41\x64\x53\x65\x72\x76\x65\x72\x2F\x41\x64\x53\x65\x72\x76\x65\x72\x53\x65\x72\x76\x6C\x65\x74":_0x4fb0[44],"\x2E\x72\x75\x62\x69\x63\x6F\x6E\x70\x72\x6F\x6A\x65\x63\x74\x2E\x63\x6F\x6D\x2F\x61\x2F\x61\x70\x69\x2F\x66\x61\x73\x74\x6C\x61\x6E\x65\x2E\x6A\x73\x6F\x6E":_0x4fb0[45],"\x2E\x61\x64\x74\x65\x63\x68\x2E\x2A\x2E\x61\x64\x76\x65\x72\x74\x69\x73\x69\x6E\x67\x2E\x63\x6F\x6D\x2F\x70\x75\x62\x61\x70\x69\x2E\x2A\x63\x6D\x64\x3D\x62\x69\x64":_0x4fb0[46],"\x2E\x6C\x69\x6A\x69\x74\x2E\x63\x6F\x6D\x2F\x72\x74\x62\x2F\x62\x69\x64":_0x4fb0[47],"\x2E\x63\x61\x73\x61\x6C\x65\x6D\x65\x64\x69\x61\x2E\x63\x6F\x6D\x2F\x63\x79\x67\x6E\x75\x73":_0x4fb0[48],"\x66\x61\x63\x65\x62\x6F\x6F\x6B\x2E\x63\x6F\x6D\x2E\x2A\x70\x6C\x61\x63\x65\x6D\x65\x6E\x74\x62\x69\x64\x2E\x6A\x73\x6F\x6E":_0x4fb0[49],"\x62\x74\x6C\x72\x2E\x73\x68\x61\x72\x65\x74\x68\x72\x6F\x75\x67\x68\x2E\x2A\x68\x65\x61\x64\x65\x72\x2D\x62\x69\x64\x2F":_0x4fb0[50],"\x74\x6C\x78\x2E\x33\x6C\x69\x66\x74\x2E\x63\x6F\x6D\x2E\x2A\x61\x75\x63\x74\x69\x6F\x6E":_0x4fb0[51],"\x61\x64\x73\x2E\x2A\x79\x6C\x64\x62\x74\x2E\x63\x6F\x6D\x2F\x6D\x2F":_0x4fb0[52],"\x2E\x6C\x69\x6A\x69\x74\x2E\x63\x6F\x6D\x2F\x72\x74\x62\x2E\x2A\x2F\x62\x69\x64":_0x4fb0[53]};function url2bidder(_0x9d4ax1d,_0x9d4ax1e){if(!_0x9d4ax1d){return};for(var _0x9d4ax1f in _0x9d4ax1e?xhrRegexp:jsRegexp){if(_0x9d4ax1d[_0x4fb0[54]](_0x9d4ax1f)!=  -1){return _0x9d4ax1e?xhrRegexp[_0x9d4ax1f]:jsRegexp[_0x9d4ax1f]};if(_0x9d4ax1f[_0x4fb0[54]](_0x4fb0[55])!=  -1){var _0x9d4ax20= new RegExp(_0x9d4ax1f);if(_0x9d4ax20[_0x4fb0[56]](_0x9d4ax1d)){return _0x9d4ax1e?xhrRegexp[_0x9d4ax1f]:jsRegexp[_0x9d4ax1f]}}}}var open_original=XMLHttpRequest[_0x4fb0[58]][_0x4fb0[57]];var send_original=XMLHttpRequest[_0x4fb0[58]][_0x4fb0[59]];XMLHttpRequest[_0x4fb0[58]][_0x4fb0[57]]= function(_0x9d4ax23,_0x9d4ax1d,_0x9d4ax24,_0x9d4ax25,_0x9d4ax26){try{if( typeof hbTimeout!== _0x4fb0[5]&& hbTimeout){try{if( typeof this[_0x4fb0[60]]== _0x4fb0[5]||  !this[_0x4fb0[60]]|| this[_0x4fb0[60]]> MAX_XHR_MILLIS){if(window[_0x4fb0[1]][_0x4fb0[4]]&& window[_0x4fb0[1]][_0x4fb0[4]][_0x4fb0[54]](_0x4fb0[61])!==  -1){console[_0x4fb0[20]](_0x4fb0[62]+ this[_0x4fb0[60]]+ _0x4fb0[63]+ MAX_XHR_MILLIS+ _0x4fb0[64]+ _0x9d4ax1d)};this[_0x4fb0[60]]= MAX_XHR_MILLIS}}catch(te){console[_0x4fb0[20]](_0x4fb0[65]+ _0x9d4ax1d);console[_0x4fb0[20]](te)}};var _0x9d4axa=url2bidder(_0x9d4ax1d,true);if(!_0x9d4axa|| bidders[_0x9d4axa]){return open_original[_0x4fb0[66]](this,arguments)};bidders[_0x9d4axa]= {start:( new Date())[_0x4fb0[30]]()- window[_0x4fb0[32]][_0x4fb0[22]][_0x4fb0[31]]}}catch(e_open){console[_0x4fb0[20]](_0x4fb0[67]);console[_0x4fb0[20]](e_open)}finally{return open_original[_0x4fb0[66]](this,arguments)}};XMLHttpRequest[_0x4fb0[58]][_0x4fb0[59]]= function(_0x9d4ax27){try{var _0x9d4ax28=this[_0x4fb0[68]];this[_0x4fb0[68]]= function(){if(this[_0x4fb0[69]]!= 4|| this[_0x4fb0[70]]!= 200){if(_0x9d4ax28){return _0x9d4ax28[_0x4fb0[66]](this,arguments)}else {return}};var _0x9d4ax1d=this[_0x4fb0[71]];var _0x9d4axa=url2bidder(_0x9d4ax1d,true);if(!_0x9d4axa||  !bidders[_0x9d4axa][_0x4fb0[15]] || bidders[_0x9d4axa][_0x4fb0[16]]){if(_0x9d4ax28){return _0x9d4ax28[_0x4fb0[66]](this,arguments)}else {return}};bidders[_0x9d4axa][_0x4fb0[16]]= ( new Date())[_0x4fb0[30]]()- window[_0x4fb0[32]][_0x4fb0[22]][_0x4fb0[31]];if(_0x9d4axa== DFP_ID){if(hb_onload_run&&  !hb_timings_sent){if(DEBUG){console[_0x4fb0[20]](_0x4fb0[72])};hb_log_timings()}};if(DEBUG){console[_0x4fb0[20]](_0x4fb0[73]+ this[_0x4fb0[69]]+ _0x4fb0[74]+ this[_0x4fb0[70]]+ _0x4fb0[75]+ _0x9d4ax1d+ _0x4fb0[76]+ _0x9d4axa+ _0x4fb0[75]+ bidders[_0x9d4axa][_0x4fb0[15]]+ _0x4fb0[75]+ bidders[_0x9d4axa][_0x4fb0[16]])};if(_0x9d4ax28){return _0x9d4ax28[_0x4fb0[66]](this,arguments)}else {return}}}catch(e_send){console[_0x4fb0[20]](_0x4fb0[77]);console[_0x4fb0[20]](e_send)}finally{return send_original[_0x4fb0[66]](this,arguments)}};var observer= new MutationObserver(function(_0x9d4ax2a){_0x9d4ax2a[_0x4fb0[23]](function(_0x9d4ax2b){for(var _0x9d4ax2c=0;_0x9d4ax2c< _0x9d4ax2b[_0x4fb0[78]][_0x4fb0[10]];_0x9d4ax2c++){if(_0x9d4ax2b[_0x4fb0[78]][_0x9d4ax2c] instanceof  HTMLScriptElement){var _0x9d4ax1d=_0x9d4ax2b[_0x4fb0[78]][_0x9d4ax2c][_0x4fb0[79]];var _0x9d4axa=url2bidder(_0x9d4ax1d,false);if(!_0x9d4axa&& _0x9d4axa!= DFP_ID){continue};if(bidders[_0x9d4axa]&& bidders[_0x9d4axa][_0x4fb0[15]]){continue};bidders[_0x9d4axa]= {start:( new Date())[_0x4fb0[30]]()- window[_0x4fb0[32]][_0x4fb0[22]][_0x4fb0[31]]};_0x9d4ax2b[_0x4fb0[78]][_0x9d4ax2c][_0x4fb0[80]]= function(){bidders[_0x9d4axa][_0x4fb0[16]]= ( new Date())[_0x4fb0[30]]()- window[_0x4fb0[32]][_0x4fb0[22]][_0x4fb0[31]];if(_0x9d4axa== DFP_ID){if(hb_onload_run&&  !hb_timings_sent){if(DEBUG){console[_0x4fb0[20]](_0x4fb0[72])};hb_log_timings()}};if(DEBUG){console[_0x4fb0[20]](_0x4fb0[81]+ _0x9d4axa+ _0x4fb0[82]+ _0x9d4ax1d+ _0x4fb0[75]+ bidders[_0x9d4axa][_0x4fb0[15]]+ _0x4fb0[75]+ bidders[_0x9d4axa][_0x4fb0[16]])}}}}})});observer[_0x4fb0[84]](document[_0x4fb0[83]],{childList:true});var oldonload=window[_0x4fb0[80]];window[_0x4fb0[80]]= function(){hb_onload_run= true;if( typeof oldonload== _0x4fb0[85]){oldonload()};if(!bidders[DFP_ID]||  !bidders[DFP_ID][_0x4fb0[16]]){return};hb_log_timings()}}catch(e){console[_0x4fb0[20]](_0x4fb0[86]);console[_0x4fb0[20]](e)}    </script>
+
+	<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="kONM_PqGX8Za53dFcExSTIIPZxxN_S4QtvDlONzzdA0" />
+		<script>
+			function parseUrlParams( val ) {
+				var result = "none",
+					tmp = [];
+				var items = location.search.substr( 1 ).split( "&" );
+				for ( var index = 0; index < items.length; index++ ) {
+					tmp = items[index].split( "=" );
+					if ( tmp[0] === val ) {
+						result = decodeURIComponent( tmp[1] );
+					}
+				}
+				return result;
+			}
+
+			dataLayer = [{"pageCategory":"post","env":"prod","sponsored":"off","vupulse":"off","evergreen":"off","tragedy":"off","zergnet23":"on","connatrix":"on","skimlinks":"on","advertorial":"off","yappa":"on","nodeId":282366,"contentType":"article","nodeCategory":["Celebrity"],"nodeTags":["Bill Cosby"],"contentUpdatedDate":"2019\/07\/31","contentPublishDate":"2019\/04\/16","pageTitle":"Bill Cosby Slams \u2018Despicable\u2019 Insurer for Settling Sex Assault Case Without His OK","sponsorshipName":"","comments":"on"}];
+
+			var site_display_format = 'desktop';
+
+			if ( window.innerWidth < 768 ) {
+				site_display_format = 'mobile';
+			} else if ( window.innerWidth >= 768 && window.innerWidth <= 1024 ) {
+				site_display_format = 'tablet';
+			}
+
+			dataLayer.push( { site_display_format : site_display_format } );
+
+			var name = 'setAgeInfo';
+			var matches = document.cookie.match(new RegExp(
+				"(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+			));
+
+			dataLayer.push( { user_age : matches ? decodeURIComponent( matches[1] ) : '14' } );
+		</script>
+		
+<!-- This site is optimized with the Yoast SEO plugin v13.0 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Bill Cosby slammed insurance company AIG after it settled his sexual assault case with Chloe Goins without his consent."/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://www.nationalenquirer.com/celebrity/bill-cosby-slams-despicable-insurer-for-settling-sex-assault-case-without-his-ok/" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.nationalenquirer.com/#website","url":"https://www.nationalenquirer.com/","name":"National Enquirer","potentialAction":{"@type":"SearchAction","target":"https://www.nationalenquirer.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://www.nationalenquirer.com/celebrity/bill-cosby-slams-despicable-insurer-for-settling-sex-assault-case-without-his-ok/#primaryimage","url":"https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/04/bill-cosby-slams-despicable-insurer-sex-assault-case-AIG-chloe-goins-without-approval-pp.jpg?fit=1280%2C840&ssl=1","width":1280,"height":840,"caption":"bill cosby slams despicable insurer sex assault case AIG chloe goins without approval"},{"@type":"WebPage","@id":"https://www.nationalenquirer.com/celebrity/bill-cosby-slams-despicable-insurer-for-settling-sex-assault-case-without-his-ok/#webpage","url":"https://www.nationalenquirer.com/celebrity/bill-cosby-slams-despicable-insurer-for-settling-sex-assault-case-without-his-ok/","inLanguage":"en-US","name":"Billy Cosby Slams AIG for Settling Sex Assault Case | National Enquirer","isPartOf":{"@id":"https://www.nationalenquirer.com/#website"},"primaryImageOfPage":{"@id":"https://www.nationalenquirer.com/celebrity/bill-cosby-slams-despicable-insurer-for-settling-sex-assault-case-without-his-ok/#primaryimage"},"datePublished":"2019-04-16T18:21:01+00:00","dateModified":"2019-07-31T18:34:06+00:00","author":{"@id":"https://www.nationalenquirer.com/#/schema/person/07f3c23cd78ff37c6d50249941d3e17f"},"description":"Bill Cosby slammed insurance company AIG after it settled his sexual assault case with Chloe Goins without his consent."},{"@type":["Person"],"@id":"https://www.nationalenquirer.com/#/schema/person/07f3c23cd78ff37c6d50249941d3e17f","name":"National ENQUIRER Staff","image":{"@type":"ImageObject","@id":"https://www.nationalenquirer.com/#authorlogo","url":"https://secure.gravatar.com/avatar/04f082eec183205c28a957949c1a0389?s=96&d=identicon&r=g","caption":"National ENQUIRER Staff"},"sameAs":[]}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//static.adsafeprotected.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+	<script>window.pb_host = "nationalenquirer"</script>	<script type="text/plain" class="optanon-category-C0004" src="//acdn.adnxs.com/prebid/c/1287.nationalenquirer/pb_2020_01_10_12_42_36.js" async="true"></script>
+		<script type="text/javascript">
+		function gptAdsWindowWidth() {
+			var w = window,
+				d = document,
+				e = d.documentElement,
+				x = Math.max( e.scrollWidth, e.offsetWidth, e.clientWidth );
+			return x;
+		}
+		function getCookie(name) {
+			var matches = document.cookie.match(new RegExp(
+				"(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+			));
+			return matches ? decodeURIComponent(matches[1]) : undefined;
+		}
+		function setCookie(name, value, options) {
+			options = options || {};
+
+			var expires = options.expires;
+
+			if (typeof expires == "number" && expires) {
+				var d = new Date();
+				d.setTime(d.getTime() + expires * 1000);
+				expires = options.expires = d;
+			}
+			if (expires && expires.toUTCString) {
+				options.expires = expires.toUTCString();
+			}
+
+			value = encodeURIComponent(value);
+
+			var updatedCookie = name + "=" + value;
+
+			for (var propName in options) {
+				updatedCookie += "; " + propName;
+				var propValue = options[propName];
+				if (propValue !== true) {
+					updatedCookie += "=" + propValue;
+				}
+			}
+
+			document.cookie = updatedCookie;
+		}
+		function adsParseUrlParams( val ) {
+			var result = false,
+				tmp = [];
+			var items = location.search.substr( 1 ).split( "&" );
+			for ( var index = 0; index < items.length; index++ ) {
+				tmp = items[ index ].split( "=" );
+				if ( tmp[ 0 ] === val ) {
+					result = decodeURIComponent( tmp[ 1 ] );
+				}
+			}
+			return result;
+		}
+
+		var googletag = googletag || {};
+		var sizeMapping = [];
+		window.iasPETSlots = [];
+		googletag.cmd = googletag.cmd || [];
+		pbjs = window.pbjs || {que: []}; // if prebid is not already defined, define it
+		googletag.slots = googletag.slots || {};
+		googletag.slots_oop = googletag.slots_oop || {};
+		var llSlots = llSlots || [];
+		var infSlots = infSlots || [];
+		var gallerySlots = gallerySlots || [];
+		var initSlots = initSlots || [];
+		var amazonSlots = amazonSlots || [];
+		var amazonSlotsRef = amazonSlotsRef || [];
+		var amazonOff = amazonOff || [];
+		window.leaderInline = 1;
+		window.adsK = 0;
+				var mobileBreakPoint = 767;
+		var tabletBreakPoint = 1024;
+		var inMobileViewPort = gptAdsWindowWidth() < mobileBreakPoint;
+		var inTabletViewPort = tabletBreakPoint >= gptAdsWindowWidth() && gptAdsWindowWidth() > mobileBreakPoint;
+		var siteToken = inMobileViewPort ? '4216/mob.neq' : '4216/ami.neq';
+		var pageID = '282366';
+		var keyword = 'post';
+		var cType = 'Post';
+		var adUnitPath = '/' + siteToken;
+		var adUnitZone = 'celebrity';
+		if ( adUnitZone != '' ) {
+			adUnitPath += '/' + adUnitZone;
+		}
+
+
+		window.gptNetwork = siteToken + '/';
+
+		if(cType === 'GalleryPost' && gptAdsWindowWidth() >= 768 && gptAdsWindowWidth() <= 1023) {
+			cType = 'GalleryVerticalList';
+		}
+		if((cType === 'GalleryVerticalList' || cType === 'GalleryPost') && inMobileViewPort) {
+			cType = 'gallery';
+		}
+		//Depends on tealium dataLayer
+		if ( typeof utag_data !== 'undefined' && typeof utag_data.sponsored !== 'undefined' ) {
+			var spons = utag_data.sponsored;
+		} else {
+			var spons = 'no';
+		}
+
+		window.adsRefresh = {};
+		window.adsRefresh.time = 30000;
+		window.adsRefresh.impr = [];
+		window.adsRefresh.ads = [];
+		window.adsRefresh.not = [];
+	</script>    	<script type="text/plain" class="optanon-category-C0004">
+		(function() {
+			var gads = document.createElement( "script" );
+			gads.async = true;
+			gads.type = "text/javascript";
+			var useSSL = "https:" == document.location.protocol;
+			gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+			var node = document.getElementsByTagName( "script" )[ 0 ];
+			node.parentNode.insertBefore( gads, node );
+		})();
+
+		!function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+		apstag.init({
+			pubID: '3144',
+			adServer: 'googletag',
+			bidTimeout: 2e3,
+			videoAdServer: 'DFP'
+		});
+
+		(function() {
+			var gads = document.createElement( "script" );
+			gads.async = true;
+			gads.type = "text/javascript";
+			var useSSL = "https:" == document.location.protocol;
+			gads.src = (useSSL ? "https:" : "http:") + "//cdn.adsafeprotected.com/iasPET.1.js";
+			var node = document.getElementsByTagName( "script" )[ 0 ];
+			node.parentNode.insertBefore( gads, node );
+		})();
+		var iasDataHandler, __iasPET = __iasPET || {};
+		__iasPET.queue = __iasPET.queue || [];
+		__iasPET.pubId = '928572'; // your account manager will provide this ID
+
+		googletag.cmd.push( function() {
+			googletag.pubads().disableInitialLoad();
+			googletag.pubads().setTargeting( "s1", adUnitZone );
+			googletag.pubads().setTargeting( "pid", pageID );
+			googletag.pubads().setTargeting( "kw", keyword );
+			googletag.pubads().setTargeting( "ctype", cType );
+			googletag.pubads().setTargeting( "pageID", pageID );
+			if ( document.referrer ) {
+				var parser = document.createElement( 'a' );
+				parser.href = document.referrer;
+				googletag.pubads().setTargeting( "referrer", parser.hostname.replace( /\./g, '_' ) );
+			}
+			if ( window.utm_source = adsParseUrlParams( 'utm_source' ) ) {
+				googletag.pubads().setTargeting( "utm_source", window.utm_source );
+			}
+			if ( window.utm_medium = adsParseUrlParams( 'utm_medium' ) ) {
+				googletag.pubads().setTargeting( "utm_medium", window.utm_medium );
+			}
+			if ( window.utm_campaign = adsParseUrlParams( 'utm_campaign' ) ) {
+				googletag.pubads().setTargeting( "utm_campaign", window.utm_campaign );
+			}
+			if ( window.test_param = adsParseUrlParams( 'test' ) ) {
+				googletag.pubads().setTargeting( "test", window.test_param );
+			}
+						googletag.pubads().setTargeting("hulu", "off");
+googletag.pubads().setTargeting("tags", "Bill Cosby");googletag.pubads().setTargeting("s3", "Celebrity");			googletag.pubads().setTargeting( "spons", spons );
+			
+			if (typeof Storage !== "undefined") {
+			  var targetingParamStr = localStorage.getItem("bcDFPTargetingParams");
+
+			  if (targetingParamStr) {
+			    var targetingParameters = JSON.parse(targetingParamStr);
+
+			    // set page-level targeting parameters
+			    targetingParameters.forEach(function(el, index){
+					googletag.pubads().setTargeting(el.key, el.value);
+				});
+			  }
+			}
+
+			
+			infSlots["dfp-tag-mobile_box"] = "dfp-tag-mobile_box"
+			window.adsRefresh.not.push("dfp-tag-wallpaper");
+			window.adsRefresh.not.push("dfp-tag-interstitial");
+			window.adsRefresh.not.push("dfp-tag-mobile_interstitial");
+			window.adsRefresh.not.push("dfp-tag-yieldmo");
+			window.adsRefresh.not.push("dfp-tag-sharethrough");
+			amazonOff.push("dfp-tag-wallpaper");
+			amazonOff.push("dfp-tag-interstitial");
+			amazonOff.push("dfp-tag-mobile_interstitial");
+			amazonOff.push("dfp-tag-yieldmo");
+			amazonOff.push("dfp-tag-sharethrough");
+			sizeMapping["leaderboard"] = googletag.sizeMapping().addSize([1024, 300], [[970,250],[970,90],[970,66],[728,90]]).addSize([768, 300], [[728,90]]).addSize([0,0], []).build();
+			sizeMapping["rightrail"] = googletag.sizeMapping().addSize([768, 300], [[300,250],[300,600],[160,600],[300,1050]]).addSize([0,0], []).build();
+			sizeMapping["rightrail2"] = googletag.sizeMapping().addSize([768, 300], [[300,250],[300,600]]).addSize([0,0], []).build();
+			sizeMapping["gallery-inline-list"] = googletag.sizeMapping().addSize([1221, 300], [[728, 90]]).addSize([1024, 300], [[300, 250]]).addSize([768, 300], [[728, 90]]).addSize([0,0], []).build();
+			sizeMapping["gallery-inline-slideshow"] = googletag.sizeMapping().addSize([1024, 300], []).addSize([768, 300], [[728,90]]).addSize([0,0], []).build();
+			if(!inMobileViewPort){
+				googletag.slots["dfp-tag-horizontal-position-1"] = googletag.defineSlot(adUnitPath, [[970,250],[970,90],[970,66],[728,90]], "dfp-tag-horizontal-position-1").defineSizeMapping(sizeMapping["leaderboard"]).setTargeting( "pos", "horizontal-position-1" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-horizontal-position-1");
+				initSlots.push("dfp-tag-horizontal-position-1");amazonSlots.push({'slotID' :'dfp-tag-horizontal-position-1', 'slotName' :'horizontal-position-1', 'sizes' : [[970,250],[970,90],[970,66],[728,90]] });amazonSlotsRef['dfp-tag-horizontal-position-1'] = {'slotID' :'dfp-tag-horizontal-position-1', 'slotName' :'horizontal-position-1', 'sizes' : [[970,250],[970,90],[970,66],[728,90]] };
+			}
+			if(!inMobileViewPort){
+				googletag.slots["dfp-tag-rightrail-position-2"] = googletag.defineSlot(adUnitPath, [[300,250],[300,600],[300,1050],[160,600]], "dfp-tag-rightrail-position-2").defineSizeMapping(sizeMapping["rightrail"]).setTargeting( "pos", "rightrail-position-2" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-rightrail-position-2");
+				initSlots.push("dfp-tag-rightrail-position-2");amazonSlots.push({'slotID' :'dfp-tag-rightrail-position-2', 'slotName' :'rightrail-position-2', 'sizes' : [[300,250],[300,600],[300,1050],[160,600]] });amazonSlotsRef['dfp-tag-rightrail-position-2'] = {'slotID' :'dfp-tag-rightrail-position-2', 'slotName' :'rightrail-position-2', 'sizes' : [[300,250],[300,600],[300,1050],[160,600]] };
+			}
+			if(!inMobileViewPort){
+				llSlots["dfp-tag-rightrail-position-3"] = {"id": "dfp-tag-rightrail-position-3", "name": "rightrail-position-3", "device": "desktop", "size": [[300,250],[300,600]], "mapping": "rightrail2"};
+			}
+			if(!inMobileViewPort){
+				llSlots["dfp-tag-rightrail-position-4"] = {"id": "dfp-tag-rightrail-position-4", "name": "rightrail-position-4", "device": "desktop", "size": [[300,250],[300,600]], "mapping": "rightrail2"};
+			}
+			if(!inMobileViewPort){
+				googletag.slots["dfp-tag-wallpaper"] = googletag.defineOutOfPageSlot(adUnitPath, "dfp-tag-wallpaper").setTargeting( "pos", "wallpaper" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-wallpaper");
+				initSlots.push("dfp-tag-wallpaper");
+			}
+			if(!inMobileViewPort){
+				googletag.slots["dfp-tag-interstitial"] = googletag.defineOutOfPageSlot(adUnitPath, "dfp-tag-interstitial").setTargeting( "pos", "interstitial" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-interstitial");
+				initSlots.push("dfp-tag-interstitial");
+			}
+			if(inMobileViewPort){
+				googletag.slots["dfp-tag-mobile_top"] = googletag.defineSlot(adUnitPath, [[320,50],[320,100],[300,50],[300,100]], "dfp-tag-mobile_top").setTargeting( "pos", "mobile_top" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-mobile_top");
+				initSlots.push("dfp-tag-mobile_top");amazonSlots.push({'slotID' :'dfp-tag-mobile_top', 'slotName' :'mobile_top', 'sizes' : [[320,50],[320,100],[300,50],[300,100]] });amazonSlotsRef['dfp-tag-mobile_top'] = {'slotID' :'dfp-tag-mobile_top', 'slotName' :'mobile_top', 'sizes' : [[320,50],[320,100],[300,50],[300,100]] };
+			}
+			if(inMobileViewPort){
+				googletag.slots["dfp-tag-mobile_box"] = googletag.defineSlot(adUnitPath, [300,250], "dfp-tag-mobile_box").setTargeting( "pos", "mobile_box" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-mobile_box");
+				initSlots.push("dfp-tag-mobile_box");amazonSlots.push({'slotID' :'dfp-tag-mobile_box', 'slotName' :'mobile_box', 'sizes' : [300,250] });amazonSlotsRef['dfp-tag-mobile_box'] = {'slotID' :'dfp-tag-mobile_box', 'slotName' :'mobile_box', 'sizes' : [300,250] };
+			}
+			if(inMobileViewPort){
+				googletag.slots["dfp-tag-mobile_bottom"] = googletag.defineSlot(adUnitPath, [[320,50],[320,100],[300,50],[300,100]], "dfp-tag-mobile_bottom").setTargeting( "pos", "mobile_bottom" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-mobile_bottom");
+				initSlots.push("dfp-tag-mobile_bottom");amazonSlots.push({'slotID' :'dfp-tag-mobile_bottom', 'slotName' :'mobile_bottom', 'sizes' : [[320,50],[320,100],[300,50],[300,100]] });amazonSlotsRef['dfp-tag-mobile_bottom'] = {'slotID' :'dfp-tag-mobile_bottom', 'slotName' :'mobile_bottom', 'sizes' : [[320,50],[320,100],[300,50],[300,100]] };
+			}
+			if(inMobileViewPort){
+				googletag.slots["dfp-tag-mobile_interstitial"] = googletag.defineOutOfPageSlot(adUnitPath, "dfp-tag-mobile_interstitial").setTargeting( "pos", "mobile_interstitial" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-mobile_interstitial");
+				initSlots.push("dfp-tag-mobile_interstitial");
+			}
+			if(!inMobileViewPort){
+				googletag.slots["dfp-tag-sharethrough"] = googletag.defineSlot(adUnitPath, ["fluid", [2, 3]], "dfp-tag-sharethrough").setTargeting( "pos", "sharethrough" ).setTargeting( "strnativekey", "bMgDCePGpj1pxDz56AfZRq7n" ).setTargeting( "ntvPlacement", "1092606" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-sharethrough");
+				initSlots.push("dfp-tag-sharethrough");
+			}
+			if(!inMobileViewPort){
+				llSlots["dfp-tag-horizontal-position-2"] = {"id": "dfp-tag-horizontal-position-2", "name": "horizontal-position-2", "device": "desktop", "size": [[970, 250],[970,90],[970,66],[728,90],[728,91]], "mapping": "leaderboard"};
+			}
+			if(inMobileViewPort){
+				googletag.slots["dfp-tag-yieldmo"] = googletag.defineSlot(adUnitPath, [[300,250], [5,5]], "dfp-tag-yieldmo").setTargeting( "pos", "yieldmo" ).addService(googletag.pubads());
+				googletag.display("dfp-tag-yieldmo");
+				initSlots.push("dfp-tag-yieldmo");
+			}
+			// read the currently defined
+			// all GPT ad slots should be
+			var gptSlots = googletag.pubads().getSlots();
+			for ( var i = 0; i < gptSlots.length; i++ ) {
+				//GPT ad slots for sending to the PET endpoint defined before calling PET
+				var sizes = gptSlots[i].getSizes().map( function( size ) {
+					if ( size.getWidth && size.getHeight ) {
+						return [size.getWidth(), size.getHeight()];
+					} else {
+						return [1, 1];
+					}
+				} );
+				window.iasPETSlots.push( {
+					adSlotId: gptSlots[i].getSlotElementId(),
+					//size: can either be a single size (e.g., [728, 90])
+					// or an array of sizes (e.g., [[728, 90], [970, 90]])
+					size: sizes,
+					adUnitPath: gptSlots[i].getAdUnitPath()
+				} );
+			}
+
+			googletag.pubads().enableAsyncRendering();
+			googletag.pubads().enableSingleRequest();
+			googletag.pubads().collapseEmptyDivs();
+			googletag.enableServices();
+
+			googletag.pubads().addEventListener( 'slotRenderEnded', function( event ) {
+				if ( typeof pbjs.initAdserverSet !== 'undefined' && typeof window.initAdserverSetCustom === 'undefined' ) {
+					try {
+						ami_gpt.processElements;
+					} catch ( err ) {
+						console.log( err.message );
+					}
+					window.initAdserverSetCustom = true;
+				}
+			} );
+
+		} );
+
+	</script>    	<script type="text/plain" class="optanon-category-C0004">
+		//whenever you want header bids call this function
+		function fetchHeaderBids(amazonSlots, pbSlots, iasSlots) {
+			var opt = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;
+
+			var bidTimeout = 1000;
+
+			var bidders = ['a9', 'prebid', 'ias'];
+
+			// create a requestManager to keep track of bidder state to determine when to send ad server
+			// request and what amazonSlots to request from the ad server
+			var requestManager = {
+				adserverRequestSent: false,
+			};
+
+			//loop through bidder array and add the bidders to the request manager:
+			bidders.forEach(function(bidder) {
+				requestManager[bidder] = false;
+			})
+
+
+			// a helper function that returns googletag objects corresponding to the slotIDs in the slot objects
+			function _getGPTSlots(amazonSlots) {
+				// get all of the slot IDs that were requested
+				var slotIDs = amazonSlots.map(function(slot) {
+					return slot.slotID;
+				});
+
+				// return the slot objects corresponding to the slotIDs
+				return googletag.pubads().getSlots().filter(function(slot) {
+					// return true if the ID of the slot object is in the slotIDs array
+					return slotIDs.indexOf(slot.getSlotElementId()) > -1;
+				});
+
+			}
+
+
+			// return true if all bidders have returned
+			function allBiddersBack() {
+				var allBiddersBack = bidders
+				// get the booleans from the object
+					.map(function(bidder) {
+						return requestManager[bidder];
+					})
+					// get rid of false values - indicates that the bidder has responded
+					.filter(Boolean)
+					// if length is equal to bidders, all bidders are back
+					.length === bidders.length;
+
+				return allBiddersBack;
+			}
+
+
+			// handler for header bidder responses
+			function headerBidderBack(bidder) {
+				// return early if request to adserver is already sent
+				if (requestManager.adserverRequestSent === true) {
+					return;
+				}
+				// flip bidder back flag
+				if (bidder === 'a9') {
+					requestManager.a9 = true;
+				} else if (bidder === 'prebid') {
+					requestManager.prebid = true;
+				} else if ( bidder === 'ias' ) {
+					requestManager.ias = true;
+				}
+
+				// if all bidders are back, send the request to the ad server
+				if (allBiddersBack()) {
+					sendAdserverRequest();
+				}
+			}
+
+			// actually get ads from DFP
+			function sendAdserverRequest() {
+
+				// return early if request already sent
+				if (requestManager.adserverRequestSent === true) {
+					return;
+				}
+
+				// flip the boolean that keeps track of whether the adserver request was sent
+				requestManager.adserverRequestSent = true;
+				// flip pbjs boolean to signal to pbjs the ad server has already been called
+				pbjs.adserverRequestSent = true;
+
+				//flip boolean for adserver request to avoid duplicate requests
+				requestManager.sendAdserverRequest = true;
+
+				// make ad request to DFP
+				googletag.cmd.push(function() {
+					apstag.setDisplayBids();
+					pbjs.setTargetingForGPTAsync();
+					__iasPET.setTargetingForGPT();
+					window.googletag.pubads().refresh(filterAdSlots(pbSlots), {changeCorrelator: opt});
+				});
+			}
+
+			function contains(arr,obj) {
+				return (arr.indexOf(obj) !== -1);
+			}
+
+			function filterAdSlots(slotIdArray) {
+				return window.googletag.pubads().getSlots()
+					.filter(function(slot) {
+						return contains(slotIdArray, slot.getAdUnitPath()) || contains(slotIdArray, slot.getSlotElementId());
+					});
+			}
+
+			function requestBids(pbSlots) {
+				// request bids from prebid
+				pbjs.que.push(function () {
+					pbjs.initAdserverSet = true;
+					pbjs.requestBids({
+						adUnitCodes: pbSlots,
+						bidsBackHandler: function bidsBackHandler() {
+							headerBidderBack('prebid');
+						}
+					});
+				});
+			}
+
+			if(amazonSlots.length) {
+				apstag.fetchBids({
+					slots: amazonSlots,
+					timeout: bidTimeout
+				}, function (bids) {
+					headerBidderBack('a9');
+				});
+			} else {
+				headerBidderBack('a9');
+			}
+
+			//requestBids
+			pbjs.que.push( function() {
+				requestBids(pbSlots)
+			} );
+
+			// make the request to PET. if your page makes multiple ad requests to DFP // (e.g., lazily loaded ads, infinite scrolling pages, etc.), you should make // a request to PET before every request to DFP
+			__iasPET.queue.push( {
+				adSlots: iasSlots,
+				dataHandler: headerBidderBack( 'ias' )
+			} );
+
+			// set timeout to send request to call sendAdserverRequest() after timeout
+			// if all bidders haven't returned before then
+			var bidding = setTimeout(function() {
+				sendAdserverRequest();
+			}, 1500);
+		};
+
+		function customInfiniteScroll( mapping, slotID, aSlot, iasSlot, opt ) {
+			var codes = [];
+			var configAdUnits = window.adUnits;
+			var infiniteScrollMap = {};
+			if ( mapping.length > 0 && typeof window.adUnits !== 'undefined' ) {
+				for ( var i = 0; i < mapping.length; i++ ) {
+					infiniteScrollMap[mapping[i].targetAdUnitCode] = mapping[i].newAdUnitCode;
+					codes.push( mapping[i].newAdUnitCode );
+				}
+				for ( var i = 0; i < configAdUnits.length; i++ ) {
+					var val = infiniteScrollMap[configAdUnits[i].code];
+					if ( typeof val !== "undefined" ) {
+						var oldSlot = configAdUnits[i];
+						oldSlot.code = infiniteScrollMap[configAdUnits[i].code];
+						pbjs.removeAdUnit( configAdUnits[i].code );
+						configAdUnits[i] = oldSlot;
+					}
+				}
+				pbjs.addAdUnits( configAdUnits );
+			}
+			fetchHeaderBids( aSlot, [slotID], iasSlot, opt );
+		}
+
+		googletag.cmd.push(function(){
+			var firstAdRequest = new Date().getTime();
+			console.log('AMI GPT: first Ad Request', firstAdRequest);
+			fetchHeaderBids(amazonSlots, initSlots, window.iasPETSlots);
+		});
+
+
+		/**
+		 * GPT helpers functions.
+		 */
+
+		var ami_gpt = (function () {
+
+			var elementInViewport = function (el) {
+				var rect = el.getBoundingClientRect();
+				return (rect.top >= 0 && rect.left >= 0 && rect.top <= (window.innerHeight + (window.innerHeight / 2) || document.documentElement.clientHeight + (window.innerHeight / 2)))
+			};
+
+			var elementInViewportStrict = function (el) {
+				var rect = el.getBoundingClientRect();
+				return (rect.top >= 0 && rect.left >= 0 && rect.top <= (window.innerHeight || document.documentElement.clientHeight))
+			};
+
+			var init = function () {
+				window.addEventListener('scroll', processElements);
+				window.addEventListener('touchstart', processElements);
+			};
+
+			var processElements = function () {
+				if (typeof pbjs.initAdserverSet === 'undefined') {
+					return;
+				}
+				Object.keys(llSlots).forEach(function (key) {
+					var el = document.getElementById(key);
+					var correlator = false;
+					var aSlot = [];
+					var iasSlot = [];
+					if (el !== null && elementInViewport(el)) {
+						googletag.cmd.push(function () {
+							googletag.slots[key] = googletag.defineSlot(adUnitPath, llSlots[key].size, key).defineSizeMapping(sizeMapping[llSlots[key].mapping]).setTargeting('pos', llSlots[key].name).addService(googletag.pubads());
+							if(typeof llSlots[key].targeting !== 'undefined') {
+								Object.keys(llSlots[key].targeting).forEach(function (tkey) {
+									googletag.slots[key].setTargeting(tkey, llSlots[key].targeting[tkey]);
+								});
+							}
+							if(typeof llSlots[key].correlator !== 'undefined') {
+								correlator = true;
+							}
+							googletag.display(key);
+							iasSlot.push( {adSlotId: key, size: llSlots[key].size, adUnitPath: window.gptNetwork + key} );
+							if(-1 === amazonOff.indexOf(llSlots[key].name)) {
+								aSlot.push({'slotID' : key, 'slotName' : llSlots[key].name, 'sizes' : llSlots[key].size});
+							}
+
+							if(llSlots[key].name in infSlots) {
+								console.log('AMI: infslot ', infSlots[llSlots[key].name], key);
+								customInfiniteScroll([
+									{
+										targetAdUnitCode: infSlots[llSlots[key].name],
+										newAdUnitCode: key
+									}
+								], key, aSlot, correlator);
+								infSlots[llSlots[key].name] = key;
+							} else {
+								console.log('AMI: slot ', aSlot, key);
+								fetchHeaderBids(aSlot, [key], iasSlot, correlator);
+							}
+							console.log('AMI: lazyloaded: ' + key);
+						});
+						delete llSlots[key];
+					}
+				});
+			};
+
+			var refreshSlot = function (slot_id) {
+				if (typeof pbjs.initAdserverSet === 'undefined') {
+					return;
+				}
+				var el = document.getElementById(slot_id);
+				if (el !== null && elementInViewportStrict(el) && window.adsRefresh.impr[slot_id] === true) {
+					clearInterval(window.adsRefresh.ads[slot_id]);
+					window.adsRefresh.impr[slot_id] = false;
+					console.log('AMI: refreshed: ',slot_id);
+					var iasSlot = [{adSlotId: slot_id, size: googletag.slots[slot_id].ad_sizes, adUnitPath: window.gptNetwork + slot_id}];
+					if(typeof amazonSlotsRef[slot_id] !== 'undefined') {
+						fetchHeaderBids([amazonSlotsRef[slot_id]], [slot_id], iasSlot, false);
+					} else {
+						fetchHeaderBids([], [slot_id], iasSlot, false);
+					}
+				}
+
+			};
+
+
+			return {
+				init: init(),
+				processElements: processElements(),
+				refreshSlot: refreshSlot
+			}
+
+		})();
+	</script>
+		<script>
+		window.refresh = true;
+		if ( cType == 'GalleryPost' && window.refresh && window.innerWidth > 1023 ) {
+			window.refresh = false;
+		}
+		if ( window.refresh ) {
+			googletag.cmd.push( function() {
+				googletag.pubads().addEventListener( 'slotRenderEnded', function( event ) {
+					var slot_id = event.slot.getSlotElementId();
+					console.log( 'AMI: rendered: ', slot_id );
+					if ( -1 === window.adsRefresh.not.indexOf( slot_id ) ) {
+						if ( event.isEmpty ) {
+							window.adsRefresh.impr[slot_id] = true;
+							window.adsRefresh.ads[slot_id] = setInterval( function() {
+								ami_gpt.refreshSlot( slot_id );
+							}, window.adsRefresh.time );
+							window.dataLayer = window.dataLayer || [];
+							dataLayer.push( {event: 'adsSlotEmpty', eventLabel: slot_id,} );
+						}
+					}
+				} );
+				googletag.pubads().addEventListener( 'impressionViewable', function( event ) {
+					var slot_id = event.slot.getSlotElementId();
+					console.log( 'AMI: imr: ', slot_id );
+					if ( -1 === window.adsRefresh.not.indexOf( slot_id ) ) {
+						console.log( 'AMI: will be refreshed: ', slot_id );
+						window.adsRefresh.impr[slot_id] = true;
+						window.adsRefresh.ads[slot_id] = setInterval( function() {
+							ami_gpt.refreshSlot( slot_id )
+						}, window.adsRefresh.time );
+					} else {
+						console.log( 'AMI: will not be refreshed: ', slot_id );
+					}
+				} );
+			} );
+		}
+	</script>
+	<link rel='preconnect' href='//i0.heartyhosting.com'>
+<link rel='preconnect' href='//cdn-neq0.heartyhosting.com'>
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.nationalenquirer.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+
+
+
+
+
+
+<script type="text/javascript" src="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/M9bPKixNLarUMYYydHMz04sSS1L1cjPzAA.js?9067122fa57259cbe04dfb40ebcd2b15
+"></script>
+<link rel='https://api.w.org/' href='https://www.nationalenquirer.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.nationalenquirer.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.nationalenquirer.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.3.2" />
+<link rel='shortlink' href='https://wp.me/p5AgLp-1bsi' />
+<link rel="alternate" type="application/json+oembed" href="https://www.nationalenquirer.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.nationalenquirer.com%2Fcelebrity%2Fbill-cosby-slams-despicable-insurer-for-settling-sex-assault-case-without-his-ok%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.nationalenquirer.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.nationalenquirer.com%2Fcelebrity%2Fbill-cosby-slams-despicable-insurer-for-settling-sex-assault-case-without-his-ok%2F&#038;format=xml" />
+
+<!-- ami Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Bill Cosby Slams ‘Despicable’ Insurer for Settling Sex Assault Case Without His OK" />
+<meta property="og:url" content="https://www.nationalenquirer.com/celebrity/bill-cosby-slams-despicable-insurer-for-settling-sex-assault-case-without-his-ok/" />
+<meta property="og:description" content="Not having it. Disgraced comedian Bill Cosby is livid that his insurance company AIG has settled with Chloe Goins, who filed a civil case accusing the incarcerated star of sexually assaulting her a..." />
+<meta property="article:published_time" content="2019-04-16T18:21:01+00:00" />
+<meta property="article:modified_time" content="2019-07-31T18:34:06+00:00" />
+<meta property="article:author" content="https://www.nationalenquirer.com/author/nestaff/" />
+<meta property="og:site_name" content="National Enquirer" />
+<meta property="og:image" content="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/04/bill-cosby-slams-despicable-insurer-sex-assault-case-AIG-chloe-goins-without-approval-pp.jpg?fit=1200%2C788&amp;ssl=1" />
+<meta property="fb:app_id" content="953902771314199" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Bill Cosby Slams ‘Despicable’ Insurer for Settling Sex Assault Case Without His OK" />
+<meta name="twitter:description" content="Not having it. Disgraced comedian Bill Cosby is livid that his insurance company AIG has settled with Chloe Goins, who filed a civil case accusing the incarcerated star of sexually assaulting her at a..." />
+<meta name="twitter:image" content="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/04/bill-cosby-slams-despicable-insurer-sex-assault-case-AIG-chloe-goins-without-approval-pp.jpg?fit=1200%2C788&amp;ssl=1" />
+		<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.nationalenquirer.com\/celebrity\/bill-cosby-slams-despicable-insurer-for-settling-sex-assault-case-without-his-ok\/"},"headline":"Bill Cosby Slams \u2018Despicable\u2019 Insurer for Settling Sex Assault Case Without His OK","datePublished":"2019-04-16T14:21:01-04:00","dateModified":"2019-07-31T14:34:06-04:00","author":{"@type":"Person","name":"National ENQUIRER Staff"},"publisher":{"@type":"Organization","name":"National Enquirer","url":"https:\/\/www.nationalenquirer.com\/","parentOrganization":"American Media Inc","logo":{"@type":"ImageObject","url":"https:\/\/i0.heartyhosting.com\/www.nationalenquirer.com\/wp-content\/themes\/vip\/am-plugins\/ami-schemas\/logos\/neq-logo.png?ssl=1","width":"500","height":"84"},"address":{"@type":"PostalAddress","streetAddress":"4 New York Plaza","addresslocality":"New York, NY","postalCode":"10004"},"telephone":"212-545-4800","sameAs":["https:\/\/www.facebook.com\/TheNationalEnquirer\/","https:\/\/twitter.com\/NatEnquirer","https:\/\/www.americanmediainc.com\/brands\/national-enquirer"]},"image":{"@type":"ImageObject","url":"https:\/\/i0.heartyhosting.com\/www.nationalenquirer.com\/wp-content\/uploads\/2019\/04\/bill-cosby-slams-despicable-insurer-sex-assault-case-AIG-chloe-goins-without-approval-pp.jpg?resize=1200%2C600&ssl=1","width":"1200","height":"600"},"description":"Bill Cosby slammed insurance company AIG after it settled his sexual assault case with Chloe Goins without his consent.","alternativeHeadline":"Billy Cosby Slams AIG for Settling Sex Assault Case | National Enquirer"}</script>
+				<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/www.nationalenquirer.com\/celebrity","name":"Celebrity"}}]}</script>
+			<script>
+		window.jwVastTag = {};
+		window.prerollTag = {};
+		window.jwpDef = {};
+	</script>
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]--><script type="text/javascript">var ajaxurl = "https://www.nationalenquirer.com/wp-admin/admin-ajax.php"</script>			<!-- Google Tag Manager -->
+			<script>( function( w, d, s, l, i ) {
+					w[l] = w[l] || [];
+					w[l].push( {
+						'gtm.start':
+							new Date().getTime(), event: 'gtm.js'
+					} );
+					var f = d.getElementsByTagName( s )[0],
+						j = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : '';
+					j.async = true;
+					j.src =
+						'https://www.googletagmanager.com/gtm.js?id=' + i + dl + "";
+					f.parentNode.insertBefore( j, f );
+				} )( window, document, 'script', 'dataLayer',"GTM-58D3QV7");</script>		<!-- End Google Tag Manager -->
+						<style type="text/css" id="wp-custom-css">
+				
+
+/*
+	CSS Migrated from Jetpack:
+*/
+/* Raise fs gallery z-index to fix gallery overlapping by Advinteo ads */
+@media only screen and (min-width: 768px) {
+	.gallery-fullscreen .fs-gallery_wrapper {
+	z-index: 999999;
+	}
+}
+
+/* Fix subtitle line-height for hero items; Added 16.04.18, should be removed after the next release */
+.hero .subtitle h2 {
+	line-height: .9;
+}
+
+/* Fixes for hero title on HP */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+	.hero .text-block strong.promo-title {
+		font-size: 52px;
+    line-height: 1;
+    max-height: 150px;
+    overflow: hidden;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.hero .text-block strong.promo-title {
+	  font-size: 62px;
+    max-height: 245px;
+    overflow: hidden;
+	}
+}
+
+/* Fix for overflowing huge images inside content 
+ * Added 26.09.2019, should be removed after the next release
+ * */
+.entry div[id*='attachment_'] {
+	max-width: 100%;
+}			</style>
+		
+	<script type="text/javascript">
+		var onloadCallback = function() {
+			grecaptcha.render('captcha_div', {
+				'sitekey' : '6Le3wfsSAAAAACvmSPuxMZp6mKxCn62rYP2EcJeP',
+				'size' : 'normal',
+				'theme' : 'light'
+			});
+		};
+	</script>
+</head>
+
+<body class="post-template-default single single-post postid-282366 single-format-standard no-js solr-infinite-scroll desktop ">
+<script type="text/javascript">
+	document.body.className = document.body.className.replace('no-js','js');
+</script>
+			<!-- Google Tag Manager (noscript) -->
+			<noscript>
+				<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58D3QV7" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+			</noscript>		<!-- End Google Tag Manager (noscript) -->
+			<div id="dfp-tag-wallpaper" class="dfp-slot dfp-oop"></div><div id="dfp-tag-interstitial" class="dfp-slot dfp-oop"></div><div id="dfp-tag-mobile_interstitial" class="dfp-slot dfp-oop"></div>
+<!--googleoff: index-->
+<header id="main-header">
+    <!-- OneTrust Cookies Settings mobile button start -->
+        <!-- OneTrust Cookies Settings mobile button end -->
+
+	<nav id="side-menu" class="menu-header"><ul id="menu-mobile-menu" class="menu"><li id="menu-item-102602" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-102602"><a title="National Enquirer | Hottest Celebrity Gossip &#038; Entertainment News" href="https://www.nationalenquirer.com/">Home</a></li>
+<li id="menu-item-102603" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-102603"><a title="Celebrity News, Gossip, Photos &#038; Videos | National Enquirer" href="https://www.nationalenquirer.com/category/celebrity/">Celebrity</a></li>
+<li id="menu-item-102605" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102605"><a title="Celebrity Gossip &#038; Rumors | National Enquirer" href="https://www.nationalenquirer.com/category/gossip/">Gossip</a></li>
+<li id="menu-item-102606" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102606"><a title="Celebrity True Crime News, Gossip, Photos &#038; Videos | National Enquirer" href="https://www.nationalenquirer.com/category/true-crime/">True Crime</a></li>
+<li id="menu-item-102607" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102607"><a title="Celebrity Eyewitness News, Gossip, Photos &#038; Videos | National Enquirer" href="https://www.nationalenquirer.com/category/eyewitness/">Eyewitness</a></li>
+<li id="menu-item-102608" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102608"><a title="Celebrity Crime Investigation News, Gossip, Photos &#038; Videos | National Enquirer" href="https://www.nationalenquirer.com/category/crime-investigation/">Crime Investigation</a></li>
+<li id="menu-item-102609" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102609"><a title="Celebrity Photos: Fashion, Leaked &#038; Hot | National Enquirer" href="https://www.nationalenquirer.com/category/photo-gallery/">Photo Gallery</a></li>
+<li id="menu-item-106718" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-106718"><a href="http://www.nationalenquirerclassifieds.com/">Classifieds</a></li>
+<li id="menu-item-155439" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-155439"><a href="https://w1.buysub.com/servlet/OrdersGateway?cds_mag_code=DNE&#038;cds_page_id=202106">Subscribe</a></li>
+<li id="menu-item-166915" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-166915"><a href="https://w1.buysub.com/servlet/ECareGateway?cds_mag_code=STA">Subscriber Services</a></li>
+<li id="menu-item-286862" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-286862"><a href="https://shop.getspecialissues.com/">Shop Special Issues</a></li>
+<li id="menu-item-286490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286490"><a href="https://www.nationalenquirer.com/newsletter-signup/">Newsletter</a></li>
+<li id="menu-item-257772" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-257772"><a href="https://www.nationalenquirer.com/accessibility-statement/">Accessibility Statement</a></li>
+<li id="menu-item-286520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286520"><a href="https://www.nationalenquirer.com/privacy-policy/">PRIVACY POLICY</a></li>
+<li id="menu-item-286519" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286519"><a href="https://www.nationalenquirer.com/terms-conditions/">Terms And Conditions</a></li>
+<li class="cookies-settings__mobile"><a class="optanon-toggle-display" name="Manage Cookies">Manage Cookies</a></li></ul></nav>
+
+	<div id="mobile-phantom">
+		<div id="brand">
+			<div id="menu-trigger" class="menu-trigger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div id="logo" title="National Enquirer">
+				<div>					<a href="https://www.nationalenquirer.com"><span class="screen-reader-only">NEQ logo</span><img src="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/nationalenquirer-logo.svg" alt="National Enquirer" width="210" height="35"></a>
+				</div>			</div>
+			<nav id="nav-pane" class="menu-header"><ul id="menu-main-menu" class="menu"><li id="menu-item-107126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-107126 has-tags"><a href="https://www.nationalenquirer.com/category/royal-gossip/" data-tagitem="999"  data-postitems="" >Royal Scandals</a></li>
+<li id="menu-item-107127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-107127 has-tags"><a href="https://www.nationalenquirer.com/tag/oj-simpson/" data-tagitem="547"  data-postitems="" >O.J. Simpson</a></li>
+</ul></nav>			<div id="tools">
+				<ul>
+					<li class="mobile-tips show-mobile">
+						<span class="tips asprite asp-env"><span class="screen-reader-only">GOT A TIP?</span></span>
+					</li>
+					<li class="search-modal">
+						<span class="asprite asp-srch"><span class="screen-reader-only">Search</span></span>
+					</li>
+                    <li class="cookies-dropdown__wrapper desktop-only">
+                        <span class="cookies-dropdown__trigger">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" class="cookies-dropdown__icon"><g data-name="Layer 2"><path d="M21 0a21 21 0 1021 21c0-.66 0-1.31-.09-1.8a1 1 0 00-1.53-.76 3.44 3.44 0 01-1.88.56 3.49 3.49 0 01-3.25-2.21 1 1 0 00-1.4-.51 6 6 0 01-8.13-8.13 1 1 0 00.06-.82 1 1 0 00-.57-.58A3.49 3.49 0 0123 3.5a3.44 3.44 0 01.56-1.88 1 1 0 00.05-1 1 1 0 00-.81-.53C22.27 0 21.65 0 21 0zm-3.5 11a1.5 1.5 0 11-1.5 1.5 1.5 1.5 0 011.5-1.5zM11 16a3 3 0 11-3 3 3 3 0 013-3zm9.5 4a1.5 1.5 0 11-1.5 1.5 1.5 1.5 0 011.5-1.5zM13 27a2 2 0 11-2 2 2 2 0 012-2zm13.5 1a2.5 2.5 0 11-2.5 2.5 2.5 2.5 0 012.5-2.5z" data-name="Layer 1"/></g></svg>
+                        </span>
+                        <ul class="cookies-dropdown__list">
+                            <li class="cookies-dropdown__item">
+                                <a href="https://www.americanmediainc.com/privacy-policy" target="_blank">Privacy Policy</a>
+                            </li>
+                            <li class="cookies-dropdown__item">
+                                <a href="https://www.americanmediainc.com/cookie-policy" target="_blank">Cookie Policy</a>
+                            </li>
+                            <li class="cookies-dropdown__item">
+                                <!-- OneTrust Cookies Settings button start -->
+								<a class="optanon-toggle-display" name="Manage Cookies">Manage Cookies</a>
+                                <!-- OneTrust Cookies Settings button end -->
+                            </li>
+                        </ul>
+                    </li>
+					<li class="soc-link"><a rel="me" class="icon-fb asprite asp-fb" href="https://www.facebook.com/TheNationalEnquirer/" title="Facebook"><span class="screen-reader-only">Follow NEQ on Facebook</span></a></li><li class="soc-link"><a rel="me" class=" icon-twitter asprite asp-twit" href="https://twitter.com/NatEnquirer" title="Twitter"><span class="screen-reader-only">Follow NEQ on Twitter</span></a></li>					<li class="tips desktop-tips hide-mobile"><a href="#">GOT A TIP?</a></li>
+				</ul>
+
+				<div class="search-popup">
+					<div class="close-search asprite asp-srch"><span class="screen-reader-only">Close search popup button</span></div>
+					<form role="search" method="get" class="searchform" action="https://www.nationalenquirer.com/search/">
+    <div id="search_form">
+		<label for="searchform-input" class="screen-reader-only">Search bar input, Start Typing To Search...</label>
+        <input type="text" value="" name="search" id="searchform-input" class="search-term" autofocus placeholder="Start Typing To Search..." />
+        <input type="submit" id="searchsubmit" value="GO" rel="nofollow" />
+    </div>
+</form>				</div>
+			</div>
+			<!-- Subscribe Desktop link -->
+			<a href="https://w1.buysub.com/servlet/OrdersGateway?cds_mag_code=DNE&cds_page_id=202106" rel="nofollow" target="_blank" class="subscribe-desktop">Subscribe</a>
+			<!-- /End Subscribe Desktop link -->
+		</div>
+
+		<div id="hidden-elements">
+			<div id="email_tips" class="hidden">
+				<div class="centered-elements">
+					<div class="close png-radar_x"></div>
+					<div class="arrow"></div>
+					<form id="email_us_tip">
+						<input type="hidden" name="action" value="radar_tip_form">
+							<div class="sender-info">
+								<div class="field-container"><label for="scoop-form-name">Name</label><input type="text" name="name" value="" required="required" id="scoop-form-name"></div>
+								<div class="field-container"><label for="scoop-form-email">Email</label><input type="email" name="email" value="" required="required" id="scoop-form-email"></div>
+								<div class="field-container"><label for="scoop-form-phone">Phone</label><input type="text" name="phone" value="" required="required" id="scoop-form-phone"></div>
+							</div>
+							<div class="sender-msg">
+								<label for="scoop-form-message">Type here Your Tip</label>
+								<textarea name="tip" required="required" id="scoop-form-message"></textarea>
+								<div id="captcha_div"></div>
+								<button type="submit"class="hide-mobile">send</button>
+							</div>
+							<div class="check-container">
+								<label for="subscribe_daily_juice" class="screen-reader-only">Checkbox, please sign me up to receive daily breaking news</label>
+								<input id="subscribe_daily_juice" type="checkbox" name="option3" value="signup" checked> Yes, please sign me up to receive daily breaking news <a href="http://www.americanmediainc.com/privacy-policy" target="_blank" class="header-privacy block-link">Privacy Policy</a>
+								<button type="submit" class="show-mobile">send</button>
+							</div>
+						</div>
+					</form>
+					<form method="post" action="#" id="postup-add-subscriber-form-checkbox" class="postup-add-subscriber-form daily-juice-form" style="display: none !important;">
+						<div class="postup-add-subscriber-errors" id="postup-add-subscriber-errors"></div>
+						<input type="hidden" name="postup_nonce" value="34f7111d00"/>
+						<input type="hidden" name="action" value="add_subscriber"/>
+
+						<div class="bg-input">
+							<label for="postup_email" class="screen-reader-only">Enter your email address to subscribe for Free breaking news updates</label>
+							<input type="text" name="email" id="postup_email" value="" placeholder="enter your email address"/>
+							<input type="submit" value="Submit">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<!--googleon: index-->
+
+<div id="content-wrapper">
+			<div id="leaderboard_wrap">
+			<div id="leaderboard-holder" class="height-auto sticky_banner">
+				<div id="leaderboard"><div id="gpt_ads-2" class="widget widget-gpt">		<div id="dfp-tag-horizontal-position-1" class="dfp-slot dfp-container adonis-marker"></div>
+		</div><div id="gpt_ads-3" class="widget widget-gpt">		<div id="dfp-tag-mobile_top" class="dfp-slot dfp-container "></div>
+		</div></div>
+			</div>
+		</div>
+	
+
+
+
+	<div class="post-container">
+
+									<article id="post-282366" class="post post-282366 type-post status-publish format-standard has-post-thumbnail category-celebrity tag-bill-cosby">
+				<section id="article-top-part">
+										<header class="entry-header">
+						<div class='post-flag'>THE LATEST</div>						<h1 class="entry-title">Bill Cosby Slams ‘Despicable’ Insurer for Settling Sex Assault Case Without His OK</h1>
+						<h2 class="entry-subtitle">AIG is ‘complicit in this scheme to destroy me’!</h2>												<div class="entry-meta">
+							<div class='author-date'><span class='avatar'><img alt='' src='https://secure.gravatar.com/avatar/04f082eec183205c28a957949c1a0389?s=64&#038;d=identicon&#038;r=g' srcset='https://secure.gravatar.com/avatar/04f082eec183205c28a957949c1a0389?s=128&#038;d=identicon&#038;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /></span><div class='author-details'>
+		                                    <span class='by no-border'>By <a href="https://www.nationalenquirer.com/author/nestaff/" title="Posts by National ENQUIRER Staff" rel="author">National ENQUIRER Staff</a></span>
+                                        
+                                </div>
+                                <div class="posted-date"><time content="2019-04-16T14:21:01-04:00">Apr 16, 2019 @ 14:21PM</time></div> <div class="modified-date"><time content="2019-04-16T14:21:01-04:00">Apr 16, 2019 @ 14:21PM</time></div>
+                                </div>						</div>
+					</header>
+
+					<div class="radar-media-box">
+						<figure><div class='radar-thumb radar-standard-thumb'><div class='centring-box'><div><img width="540" height="400" src="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2019/04/bill-cosby-slams-despicable-insurer-sex-assault-case-AIG-chloe-goins-without-approval-pp.jpg?resize=540%2C400&#038;ssl=1" data-thumbnail="false" class="attachment-540x400 size-540x400 wp-post-image" alt="bill cosby slams despicable insurer sex assault case AIG chloe goins without approval"></div></div></div><div class="absolute-credit"><div class='photo_credit'>Getty Images; Dr.Phil</div></div></figure>					</div>
+
+					<div class="entry" id="ami-post-content">
+						
+<p>Not having it. Disgraced comedian <strong><a href="https://www.nationalenquirer.com/tag/bill-cosby/">Bill Cosby</a></strong> is livid that his insurance company AIG has settled with <strong>Chloe Goins</strong>, who filed a civil case accusing the incarcerated star of sexually assaulting her at a 2008 Playboy Mansion party when she was 18.</p>
+<p>“Yesterday, our legal team was informed that AIG decided to settle a frivolous lawsuit, which was made by Chloe Goins, over the objections of Mr. Cosby,” <strong>Andrew Wyatt</strong>, a spokesperson for the 81-year-old actor, said in a statement shared with <em>National ENQUIRER</em> on Tuesday, April 16. “AIG ignored the fact that the Los Angeles District attorney found that ‘there is no evidence’ to support Ms. Goins’ claims.”</p>
+<div id="dfp-tag-yieldmo" class="dfp-slot dfp-container dfp-tag-yieldmo " data-position="yieldmo"></div>
+<div id="dfp-tag-sharethrough" class="dfp-slot dfp-container dfp-tag-sharethrough " data-position="sharethrough"></div>
+<p>Wyatt also noted in his statement that Cosby’s team had medical records to show that the <em>Cosby Show</em> star was recovering from eye surgery in New York at the time of the alleged abuse in 2008. Goins claims that during the shindig in Los Angeles, Cosby had drugged and raped her.</p>
+<p>The actor, who has been an AIG policyholder for more than two decades, slammed the insurer. “AIG’s conduct is ‘despicable’ and I can only imagine how terribly they’re treating their policyholders who don’t have my means and my resources,” fumed Cosby in the statement. “It was proven by the Los Angeles Police Department that I was not at the Playboy Mansion on the date in question, and was not in the State of California.”</p>
+<p>“AIG continues to act egregiously by settling these heinous claims without my knowledge and/or consent,” he continued. “And AIG continues to show they’re complicit in this scheme to destroy me and my family. I encourage all of AIG’s policyholders to drop this pathetic insurance company quickly before they destroy you and your family.”</p>
+<p>Cosby concluded by noting that he would continue to purse his claims against Goins.</p>
+<p><em><a href="https://radaronline.com/exclusives/2019/03/bill-cosby-chloe-goins-sexual-assault-statute-of-limitation-defense/">Radar Online</a></em> previously reported that Cosby’s team had filed to bifurcate his statute-of-limitations defense in March. Goins previously did not file any complaints against Cosby until 2015, after the statute of limitations had expired.</p>
+<p>The model responded April 4 by arguing that Cosby’s legal team was seeking a bifurcation only to avoid having the star testify, and accused them of trying to prevent her team from obtaining “any discovery from Cosby.”</p>
+<p>The actor is currently serving a sentence of up to 10 years for drugging and sexually assaulting <a href="https://www.nationalenquirer.com/tag/Andrea-Constand" msn="nolink">Andrea Constand</a> in 2004.</p>
+<div id="dfp-tag-mobile_box" class="dfp-slot dfp-container dfp-tag-mobile_box mobile" data-position="mobile_box" style="width: 300px; margin:0 auto;"></div>
+											</div>
+
+
+					
+					
+						<div id="gigya-wrap">
+		<div id="gigya-wrap-int">
+			<div id="ami-gigya-sharebar">
+				<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-282366" class="share-twitter sd-button share-icon no-text" href="https://www.nationalenquirer.com/celebrity/bill-cosby-slams-despicable-insurer-for-settling-sex-assault-case-without-his-ok/?share=twitter" target="_blank" title="Click to share on Twitter"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter (Opens in new window)</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-282366" class="share-facebook sd-button share-icon no-text" href="https://www.nationalenquirer.com/celebrity/bill-cosby-slams-despicable-insurer-for-settling-sex-assault-case-without-his-ok/?share=facebook" target="_blank" title="Click to share on Facebook"><span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)</span></a></li><li class="share-end"></li></ul></div></div></div>			</div>
+			<section>Share</section>
+		</div>
+	</div>
+	<script type="text/javascript">
+		jQuery.get( 'https://www.spot.im/api/open-api/v1/messages-count?spot_id=sp_O5ALegvs&posts_ids=282366', function( data ) {
+			var comCount = data.messages_count['282366'];
+			jQuery( '#ami-gigya-sharebar .share-end' ).before( '<li class="share-email-count">' + comCount + '</li>' );
+		} );
+		jQuery( '.share-email-count, .to-comments' ).live( 'click', function() {
+			jQuery( 'body,html' ).animate( {scrollTop: jQuery( '#commentSection' ).offset().top - 150}, 1500 );
+			return false;
+		} );
+	</script>
+
+					</section>
+				<div class="below-article" id="article-bottom-part">
+
+					<div id="zergnet-widget-75496"></div>
+
+					
+					<div class="clear">
+											</div>
+					<div class="tags"> <a href="https://www.nationalenquirer.com/tag/bill-cosby/" rel="tag">Bill Cosby</a></div>					<h4 class="comments-title">Comments</h4>
+					<div name="comments" id="commentSection"></div>
+					<div id="spotImCommentsDiv"
+     data-spotim-module="recirculation"     data-spot-id="sp_26uV0TWa"
+     data-post-id="282366"
+     data-post-url="https://www.nationalenquirer.com/?p=282366"
+     data-article-tags="Bill Cosby, Celebrity"
+	>
+</div>
+				</div>
+			</article>
+		<div id="sidebar-right"><div id="sidebar_interior_for_banners"><div id="gpt_ads-8" class="widget widget-gpt">		<div id="dfp-tag-rightrail-position-2" class="dfp-slot dfp-container adonis-marker"></div>
+		</div>
+		<div id="radar_zoninator_zoneposts_widget-19" class="widget widget-zone-posts">			<div class="zone_layout_widget featured-photos">
+								<div class="first_photo ggnoads">
+					<a href="https://www.nationalenquirer.com/photos/hot-photos-feb-2020/">
+						<div class='radar-thumb radar-gallery-thumb'><div class='centring-box'><div><img width="300" height="194" src="https://i0.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2020/02/Hot-pics-feb-2020-jlo-shakira-n.jpg?resize=300%2C194&#038;ssl=1" data-thumbnail="false" class="attachment-300x194 size-300x194 wp-post-image" alt="Shakira and Jennifer Lopez perform during halftime of the National Football League&#039;s Super Bowl LIV at Hard Rock Stadium in Miami Gardens, Florida"><span class='gallery-icon'><span class='image-count'>15</span></span></div></div></div>						<h2>Hot Photos</h2>
+													<h3>Here’s Who We Spotted Out And About In The Last 24 Hours...</h3>
+											</a>
+				</div>
+			</div>
+			</div>
+		<div id="gpt_ads-9" class="widget widget-gpt">		<div id="dfp-tag-rightrail-position-3" class="dfp-slot dfp-container adonis-marker"></div>
+		</div><div id="postup-subscribe-id-2" class="widget Postup_Subscribe"><span class="widget-title"></span>	<div class="daily-juice">
+
+		<h2>Free breaking news updates</h2>
+		<h3>National Enquirer Daily</h3>
+		<div class="success hidden">Thank you for subscribing!</div>
+		<form method="post" action="#" id="postup-add-subscriber-form" class="postup-add-subscriber-form daily-juice-form">
+			<div class="postup-add-subscriber-errors" id="postup-add-subscriber-errors"></div>
+			<input type="hidden" name="postup_nonce" value="34f7111d00"/>
+			<input type="hidden" name="action" value="add_subscriber"/>
+
+			<div class="bg-input">
+				<label for="postup_email" class="screen-reader-only">Enter your email address to subscribe for Free breaking news updates</label>
+				<input type="text" name="email" id="postup_email" value="" placeholder="enter your email address"/>
+				<input type="submit" value="Submit">
+			</div>
+		</form>
+	</div>
+			<script type="text/javascript">
+			(function ($) {
+				"use strict";
+				$(function () {
+
+					/**
+					 * Process the for submit event.
+					 *
+					 * @return {void}
+					 */
+					var processSubmit = function( $form ) {
+						var user_input = $form.serialize();
+
+						$.post(
+							ajaxurl,
+							user_input,
+							function(data) {
+								data = jQuery.parseJSON(data);
+								if( data.error == true ) {
+									$(".postup-add-subscriber-errors").html(data.message);
+								} else {
+									$($form).html('');
+									$($form).parent().find(".success").show();
+								}
+							}
+						);
+					};
+
+					// when a user clicks subscribe
+					$(".postup-add-subscriber-form").submit( function( e ){
+						var $form = $(this);
+
+						e.preventDefault();
+						processSubmit( $form );
+
+					});
+
+				});
+			}(jQuery));
+		</script>
+
+		</div><div id="gpt_ads-10" class="widget widget-gpt">		<div id="dfp-tag-rightrail-position-4" class="dfp-slot dfp-container adonis-marker"></div>
+		</div></div></div>		<input type="hidden" name="lastpos" value="1" id="lastpos" />
+	</div>
+
+</div><!-- End of #content-wrapper -->
+
+<div id="above_footer_section" class="centered-elements">
+	<div id="gpt_ads-15" class="widget widget-gpt">		<div id="dfp-tag-mobile_bottom" class="dfp-slot dfp-container "></div>
+		</div><div id="gpt_ads-16" class="widget widget-gpt">		<div id="dfp-tag-horizontal-position-2" class="dfp-slot dfp-container adonis-marker"></div>
+		</div></div>
+
+<footer id="super-footer">
+
+		<div id="footer_bottom">
+			<div class="centered-elements">
+				<div class="site-info">
+					<p class="footer-disclaimer">National ENQUIRER has affiliate partnerships so we may receive compensation for some links to products and services.</p>
+                    <div class="footer-menu-copyright">
+                        <div class="ami-group-copyright">Part of the American Media Entertainment Group.</div>
+                        <div class="copyright-tag-block">
+                            <span>&copy; 2020 National Enquirer, LLC</span>
+                            <span id="powered-by">Powered by <a href="http://boylesoftware.com/" rel="generator nofollow" class="powered-by-wpcom" target="_blank">BS</a></span>
+                            <span class="footer-promo-links">
+                            <a href="/privacy-policy/">Privacy Policy</a>
+                                <!-- OneTrust Cookies Settings button start -->
+			                    <a class="optanon-toggle-display" name="Manage Cookies">Manage Cookies</a>
+                                <!-- OneTrust Cookies Settings button end -->
+                                <a href="/accessibility-statement/">Accessibility Statement</a><a href="/terms-conditions/">Terms of Use</a>
+                                <a href="https://www.nationalenquirer.com/wp-content/uploads/2019/06/2019_NEQ_Media_Kit.pdf" target="_blank">Media Kit</a>
+                            </span>
+                            <div class="tag-registered-logo">
+                                <img src="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/svg/logo-tag-registered.svg" alt="TAG Trustworthy Accountability Group" title="TAG Trustworthy Accountability Group">
+                                <img src="https://cdn-neq0.heartyhosting.com/wp-content/themes/vip/am-neq/images/svg/logo-tag-registered-green.svg" alt="TAG Trustworthy Accountability Group" title="TAG Trustworthy Accountability Group">
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+</footer>
+
+		<!-- wpsolr - ajax auto completion nonce -->
+		<input type="hidden" id="wpsolr_autocomplete_nonce"
+		       value="1c3a13f464">
+
+			<script>
+		jQuery(document).ready(function ($) {
+			$('a[href^="http"]')
+				.not('[href^="' + location.protocol + '//' + location.hostname + '"]')
+				.attr('target', '_blank');
+		});
+	</script> 	<style type="text/css" media="screen">
+		@media screen and ( max-width: 782px ) {
+			html { margin-top: 0px !important; }
+			* html body { margin-top: 0px !important; }
+			#wpadminbar { display:none; }
+		}
+	</style>
+<script type="text/javascript" src="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/dY1BCoUwDAUvZA2eSNIabLUmIYnIv_1XcOviMZsZ3gQbhWLZYW5cIJ-tL6BVQvjFeDQeJrjUpVtyQis1Ea-NCTaHLBIehprip4SVcPmys1xkc5FDhYnD7_y0Dveejz8.js?9067122fa57259cbe04dfb40ebcd2b15
+"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wp_localize_script_autocomplete = {"ajax_url":"https:\/\/www.nationalenquirer.com\/wp-admin\/admin-ajax.php","is_show_url_parameters":"","is_url_redirect":"1","SEARCH_PARAMETER_SEARCH":"search","SEARCH_PARAMETER_Q":"wpsolr_q","SEARCH_PARAMETER_FQ":"wpsolr_fq","SEARCH_PARAMETER_SORT":"wpsolr_sort","SEARCH_PARAMETER_PAGE":"wpsolr_page","SORT_CODE_BY_RELEVANCY_DESC":"sort_by_relevancy_desc","wpsolr_autocomplete_selector":".search-field","wpsolr_autocomplete_action":"wdm_return_solr_rows","wpsolr_autocomplete_nonce_selector":"#wpsolr_autocomplete_nonce"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/M9QvLyjOzynSLU5NLErO0E3NS8_MS9XPKtZPLC3JT87PLchJLUmNBykBAA.js?9067122fa57259cbe04dfb40ebcd2b15
+"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wp_localize_script_infinitescroll = {"ajax_url":"\/wp-admin\/admin-ajax.php","loadimage":"https:\/\/www.nationalenquirer.com\/wp-content\/plugins\/wpsolr-search-engine\/images\/infinitescroll.gif","loadingtext":"Loading ...","SEARCH_PARAMETER_Q":"wpsolr_q"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/M9QvLyjOzynSLU5NLErO0E3NS8_MS9XPKtbPKixNLarUy8xLy8zLLEktTi7Kz8kBAA.js?9067122fa57259cbe04dfb40ebcd2b15
+"></script>
+<script class="optanon-category-C0004" type="text/plain"  src='https://static.adsafeprotected.com/vans-adapter-google-ima.js'></script>
+<script type="text/javascript" src="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/jY5rDoMgEIQvVMD0RkBWXbs8ZEHC7YuJpjE1af_NzH6T2UFtGJV2IlKZ0HOXKCZNBKk91cKKCe1LEhrp0D-GX_iyli5l1S0G9Jn_a3moYuQz-vAe1v0cKgmrUygMtBt5mi_ymJ-t4Nz_btf5K7QhoyG4RSKkEWwWbFMgMjrdUnkGB28.js?9067122fa57259cbe04dfb40ebcd2b15
+"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var amiNewsletterStrings = {"userEndpoint":"https:\/\/www.nationalenquirer.com\/wp-json\/ami\/v1\/newsletter\/user","listEndpoint":"https:\/\/www.nationalenquirer.com\/wp-json\/ami\/v1\/newsletter\/list","processMessage":"Sending your request...","defaultError":"An internal error has occurred. Please try again later.","invalidEmailError":"Please enter a valid email and try again."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/M9AvyyzQT8zVLcgpTc_MKwYyM3XzUsuLc1JLSlKL9LOK9RE8HRP98gLd1Nyk1BS93Mw8AA.js?9067122fa57259cbe04dfb40ebcd2b15
+"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"","is_stats_active":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cdn-neq0.heartyhosting.com/wp-content/cache/minify/000000/M9TPSi0pSEzO1o_PzEvWTyrNzEnRL85ILEpNSUxJqQQzM_PS9XIz8wA.js?9067122fa57259cbe04dfb40ebcd2b15
+"></script>
+<script type='text/javascript'>
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-twitter', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-facebook', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+</script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+</script>
 </body>
 </html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using disk
+Database Caching 38/82 queries in 0.040 seconds using memcached
+Object Caching 2291/2567 objects using memcached
+Content Delivery Network via cdn-neq0.heartyhosting.com
+
+ Served from: www.nationalenquirer.com @ 2020-04-19 01:41:10 by W3 Total Cache backend 172.31.52.88 -->

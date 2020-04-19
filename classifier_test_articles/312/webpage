@@ -1,1554 +1,342 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
-  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product# c: http://s.opencalais.com/1/pred/ sys: http://s.opencalais.com/1/type/sys/ lid: http://s.opencalais.com/1/type/lid/ cat: http://s.opencalais.com/1/type/cat/ resolved: http://s.opencalais.com/1/type/er/ cgeo: http://s.opencalais.com/1/type/er/Geo/ eventfact: http://s.opencalais.com/1/type/em/r/ entity: http://s.opencalais.com/1/type/em/e/ cld: http://s.opencalais.com/1/linkeddata/pred/ content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<link href="//www.googletagmanager.com" rel="dns-prefetch" />
+<link href="https://www.google-analytics.com" rel="preconnect" crossorigin />
+<script src="https://www.googletagmanager.com/gtag/js?id=UA-56065110-1" async></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-56065110-1');
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/thesis/skins/k1/css.css" rel="stylesheet" />
+<title>Talking Trash: Unfortunate Truths About Recycling - CounterPunch.org</title>
+<link href="https://www.counterpunch.org/2019/04/16/talking-trash-unfortunate-truths-about-recycling/" rel="canonical" />
+<link rel= "icon" type= "image/png" href="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/04/CP-16x16-2T.png">
+<link rel="apple-touch-icon" href="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/04/CP-touch-icon-iphone-6plus-180x180.png">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i,700,700i|Source+Serif+Pro:400,600,700" rel="stylesheet">
 
-<head profile="http://www.w3.org/1999/xhtml/vocab">
-  <script type="text/javascript">
-    var iPad = (navigator.userAgent.match(/(iPad)/) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1));
-  </script>
-      <script type="text/javascript">
-      if (!iPad) {
-        var meta = document.createElement('meta');
-        meta.name = "viewport";
-        meta.content = "width=device-width, initial-scale=1.0";
-        document.getElementsByTagName('head')[0].appendChild(meta);
-      }
-    </script>
-      <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"962df17ac8",applicationID:"409941798"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
-<script>var _sf_startpt=(new Date()).getTime();</script>
-<link rel="amphtml" href="https://thehill.com/homenews/senate/492832-democrats-try-to-force-mcconnells-hand?amp" />
-<meta property="author" content="Alexander Bolton" />
-<link rel="shortcut icon" href="https://thehill.com/favicon.ico" type="image/vnd.microsoft.icon" />
-<meta name="description" content="Congressional Democratic leaders are trying to box out Senate Majority Leader Mitch McConnell (R-Ky.) by negotiating a deal with Treasury Secretary Steven Mnuchin and President Trump to provide $251 billion in new funding for small businesses." />
-<meta name="keywords" content="Coronavirus,Mitch McConnell, Charles Schumer, Steven Mnuchin, Thomas Massie, Anthony Brown, Larry Kudlow, Nancy Pelosi, Donald Trump, Ben Cardin, Rand Paul, Mike Lee," />
-<meta name="generator" content="Drupal 7 (http://drupal.org)" />
-<link rel="canonical" href="https://thehill.com/homenews/senate/492832-democrats-try-to-force-mcconnells-hand" />
-<link rel="shortlink" href="https://thehill.com/node/492832" />
-<meta property="fb:admins" content="581787871" />
-<meta property="fb:admins" content="732535504" />
-<meta property="fb:admins" content="1531470032" />
-<meta property="fb:app_id" content="566538590082898" />
-<meta property="fb:pages" content="7533944086, 2064147433830888" />
-<meta property="og:site_name" content="TheHill" />
+
+<link rel="mask-icon" href="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/safari-pinned-tab.svg" color="#111111">
+<meta name="application-name" content="CounterPunch"/>
+<meta name="msapplication-square70x70logo" content="small.jpg"/>
+<meta name="msapplication-square150x150logo" content="medium.jpg"/>
+<meta name="msapplication-wide310x150logo" content="wide.jpg"/>
+<meta name="msapplication-square310x310logo" content="large.jpg"/>
+<meta name="msapplication-TileColor" content="#ffffff"/>
+
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'xgh0xek',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+<link href="https://www.counterpunch.org/feed/" rel="alternate" type="application/rss+xml" title="CounterPunch.org feed" />
+<link href="https://www.counterpunch.org/xmlrpc.php" rel="pingback" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- This site is optimized with the Yoast SEO Premium plugin v13.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Democrats try to force McConnell&#039;s hand on coronavirus aid" />
-<meta property="og:url" content="https://thehill.com/homenews/senate/492832-democrats-try-to-force-mcconnells-hand" />
-<meta property="og:description" content="Congressional Democratic leaders are trying to box out Senate Majority Leader Mitch McConnell (R-Ky.) by negotiating a deal with Treasury Secretary Steven Mnuchin and President Trump to provide $251 billion in new funding for small businesses." />
-<meta property="og:updated_time" content="2020-04-15T08:52:33-04:00" />
-<meta property="og:image" content="https://thehill.com/sites/default/files/mconnellmitch_mnuchinsteven_schumerchalres_041420gn_lead.jpg" />
+<meta property="og:title" content="Talking Trash: Unfortunate Truths About Recycling - CounterPunch.org" />
+<meta property="og:description" content="When I first lobbied for recycling more household waste in the 1980s, few types of rubbish could be handled by recycling facilities—if you or your department of public works could find one. A lot has changed for the better since then. Accordingto the economic consulting firm John Dunham &amp; Associates, by 2017 the US recycling industry had an economic impact of $117 billion and directly or indirectly employed more than 534,500 workers to collect, haul, process, and furnish facilities, equipment, transportation, and supplies.[2]But how can we tell if that money is well spent, how well are towns, cities, states, and the industry handling all the stuff we keep throwing out, and what’s a citizen-consumer to do about it? More" />
+<meta property="og:url" content="https://www.counterpunch.org/2019/04/16/talking-trash-unfortunate-truths-about-recycling/" />
+<meta property="og:site_name" content="CounterPunch.org" />
+<meta property="article:publisher" content="https://www.facebook.com/CounterPunchOrg/" />
+<meta property="article:section" content="articles 2015" />
+<meta property="article:published_time" content="2019-04-16T08:59:03+00:00" />
+<meta property="article:modified_time" content="2019-04-13T18:26:14+00:00" />
+<meta property="og:updated_time" content="2019-04-13T18:26:14+00:00" />
+<meta property="fb:app_id" content="379846302459811" />
+<meta property="og:image" content="https://www.counterpunch.org/wp-content/dropzone/2019/04/curbside-pickup_2-510x383.jpg" />
+<meta property="og:image:secure_url" content="https://www.counterpunch.org/wp-content/dropzone/2019/04/curbside-pickup_2-510x383.jpg" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Democrats try to force McConnell&#039;s hand on coronavirus aid" />
-<meta name="twitter:url" content="https://thehill.com/homenews/senate/492832-democrats-try-to-force-mcconnells-hand" />
-<meta name="twitter:description" content="Congressional Democratic leaders are trying to box out Senate Majority Leader Mitch McConnell (R-Ky.) by negotiating a deal with Treasury Secretary Steven Mnuchin and President Trump to provide $251" />
-<meta property="article:published_time" content="2020-04-15T06:00:26-04:00" />
-<meta property="article:modified_time" content="2020-04-15T08:52:33-04:00" />
-<meta name="dcterms.title" content="Democrats try to force McConnell&#039;s hand on coronavirus aid" />
-<meta name="dcterms.creator" content="Linda Petre" />
-<meta name="dcterms.description" content="Congressional Democratic leaders are trying to box out Senate Majority Leader Mitch McConnell (R-Ky.) by negotiating a deal with Treasury Secretary Steven Mnuchin and President Trump to provide $251 billion in new funding for small businesses." />
-<meta name="dcterms.date" content="2020-04-15T06:00-04:00" />
-<meta name="dcterms.type" content="Text" />
-<meta name="dcterms.format" content="text/html" />
-<meta name="dcterms.identifier" content="https://thehill.com/homenews/senate/492832-democrats-try-to-force-mcconnells-hand" />
-<script language="javascript" type="text/javascript" src="/sites/all/modules/thehill/thehill_header_bidding/js/prebid_2_44_2.js" async ></script><script language="javascript" type="text/javascript" src="//www.googletagservices.com/tag/js/gpt.js" async ></script>  <link rel="apple-touch-icon" sizes="512x512" href="/apple-touch-icon-512X512.png">
-  <link rel="apple-touch-icon" sizes="1024x1024" href="/apple-touch-icon-1024X1024.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152X152.png">
-  <link rel="apple-touch-icon" sizes="167x167" href="/apple-touch-icon-167X167.png">
-  <link rel="apple-touch-icon" sizes="1024x1024" href="/apple-touch-icon-1024X1024.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120X120.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180X180.png">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <title>Democrats try to force McConnell's hand on coronavirus aid | TheHill</title>
-  <link type="text/css" rel="stylesheet" href="//thehill.com/sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" media="all" />
-<link type="text/css" rel="stylesheet" href="//thehill.com/sites/default/files/css/css_GmgcKrlcJ_1AYWSRZ5rjft4ov8QEmSHehJZEiWJRn0I.css" media="all" />
-<link type="text/css" rel="stylesheet" href="//thehill.com/sites/default/files/css/css_se2WJ1rEiCe2g4ST9LNxulYjndHtkkH0k3Iu8roJvXU.css" media="all" />
-<link type="text/css" rel="stylesheet" href="//thehill.com/sites/default/files/css/css_ysMTYayzzCVSL1t9ILuAVfcuG4fEMlpu8hyVoRpuIyA.css" media="all" />
-      <script type="text/javascript">
-      if (!iPad) {
-        var link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = '/sites/all/themes/thehill/css/mobile.css';
-        document.getElementsByTagName('head')[0].appendChild(link);
-      }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "NewsArticle",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://thehill.com/homenews/senate/492832-democrats-try-to-force-mcconnells-hand"
-      },
-      "headline": "Democrats try to force McConnell's hand on coronavirus aid | TheHill",
-      "image": "https://thehill.com/sites/default/files/styles/article_full/public/mconnellmitch_mnuchinsteven_schumerchalres_041420gn_lead.jpg?itok=zFDH85qn",
-      "datePublished": "2020-04-15T06:00:26-04:00",
-      "dateModified": "2020-04-15T08:52:33-04:00",
-      "author": {
-        "@type": "Person",
-        "name": "Alexander Bolton"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "The Hill",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://thehill.com/sites/all/themes/thehill/images/redesign/thehill-logo-big.png"
-        }
-      },
-      "articleSection": "News - Senate",
-      "description": "Congressional Democratic leaders are trying to box out Senate Majority Leader Mitch McConnell (R-..."
-    }
-  </script>
-  <!-- Krux interchange code (before the first ad call) -->
-  <script class="kxint" data-namespace="thehill" type="text/javascript">
-    window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
-    (function(){
-      function retrieve(n){
-        var k= 'kx'+'thehill_'+n, ls=(function(){
-          try {
-            return window.localStorage;
-          } catch(e) {
-            return null;
-          }
-        })();
-        if (ls) {
-          return ls[k] || '';
-        } else if (navigator.cookieEnabled) {
-          var m = document.cookie.match(k+'=([^;]*)');
-          return (m && unescape(m[1])) || '';
-        } else {
-          return '';
-        }
-      }
-      Krux.user = retrieve('user');
-      Krux.segments = retrieve('segs') ? retrieve('segs').split(',') : [];
-    })();
-  </script>
-  <script type="text/javascript">(function () { var e = false; var c = window; var t = document; function r() { if (!c.frames["__uspapiLocator"]) { if (t.body) { var a = t.body; var e = t.createElement("iframe"); e.style.cssText = "display:none"; e.name = "__uspapiLocator"; a.appendChild(e) } else { setTimeout(r, 5) } } } r(); function p() { var a = arguments; __uspapi.a = __uspapi.a || []; if (!a.length) { return __uspapi.a } else if (a[0] === "ping") { a[2]({ gdprAppliesGlobally: e, cmpLoaded: false }, true) } else { __uspapi.a.push([].slice.apply(a)) } } function l(t) { var r = typeof t.data === "string"; try { var a = r ? JSON.parse(t.data) : t.data; if (a.__cmpCall) { var n = a.__cmpCall; c.__uspapi(n.command, n.parameter, function (a, e) { var c = { __cmpReturn: { returnValue: a, success: e, callId: n.callId } }; t.source.postMessage(r ? JSON.stringify(c) : c, "*") }) } } catch (a) { } } if (typeof __uspapi !== "function") { c.__uspapi = p; __uspapi.msgHandler = l; c.addEventListener("message", l, false) } })();</script>
-<script>
-        window._sp_ccpa = {
-            config: {
-                mmsDomain: "https://cmp.thehill.com",
-                ccpaOrigin: "https://ccpa-service.sp-prod.net",
-                accountId: "1164",
-                getDnsMsgMms: true,
-                alwaysDisplayDns: false,
-            }
-        }
-</script>
-<script src="https://ccpa.sp-prod.net/ccpa.js"></script><script src="https://z.moatads.com/newscomprebidheader135900089283/yi.js"></script>   <script src="//thehill.com/sites/default/files/js/js_UsJCaTKadQHcBxW3InvotRkwEO94ieAIN0hsSq5sbL4.js"></script>
-<script>
-  var PREBID_TIMEOUT = 2000;
+<meta name="twitter:description" content="When I first lobbied for recycling more household waste in the 1980s, few types of rubbish could be handled by recycling facilities—if you or your department of public works could find one. A lot has changed for the better since then. Accordingto the economic consulting firm John Dunham &amp; Associates, by 2017 the US recycling industry had an economic impact of $117 billion and directly or indirectly employed more than 534,500 workers to collect, haul, process, and furnish facilities, equipment, transportation, and supplies.[2]But how can we tell if that money is well spent, how well are towns, cities, states, and the industry handling all the stuff we keep throwing out, and what’s a citizen-consumer to do about it? More" />
+<meta name="twitter:title" content="Talking Trash: Unfortunate Truths About Recycling - CounterPunch.org" />
+<meta name="twitter:site" content="@NatCounterPunch" />
+<meta name="twitter:image" content="https://www.counterpunch.org/wp-content/dropzone/2019/04/curbside-pickup_2-510x383.jpg" />
+<meta name="twitter:creator" content="@NatCounterPunch" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.counterpunch.org/#website","url":"https://www.counterpunch.org/","name":"CounterPunch.org","inLanguage":"en-US","description":"Tells the Facts, Names the Names","potentialAction":[{"@type":"SearchAction","target":"https://www.counterpunch.org/?s={search_term_string}","query-input":"required name=search_term_string"}]},{"@type":"ImageObject","@id":"https://www.counterpunch.org/2019/04/16/talking-trash-unfortunate-truths-about-recycling/#primaryimage","inLanguage":"en-US","url":"https://www.counterpunch.org/wp-content/dropzone/2019/04/curbside-pickup_2.jpg","width":510,"height":383},{"@type":"WebPage","@id":"https://www.counterpunch.org/2019/04/16/talking-trash-unfortunate-truths-about-recycling/#webpage","url":"https://www.counterpunch.org/2019/04/16/talking-trash-unfortunate-truths-about-recycling/","name":"Talking Trash: Unfortunate Truths About Recycling - CounterPunch.org","isPartOf":{"@id":"https://www.counterpunch.org/#website"},"inLanguage":"en-US","primaryImageOfPage":{"@id":"https://www.counterpunch.org/2019/04/16/talking-trash-unfortunate-truths-about-recycling/#primaryimage"},"datePublished":"2019-04-16T08:59:03+00:00","dateModified":"2019-04-13T18:26:14+00:00","author":{"@id":"https://www.counterpunch.org/#/schema/person/6ea3c0fd2098b0bfa125509f14bd37b9"},"potentialAction":[{"@type":"ReadAction","target":["https://www.counterpunch.org/2019/04/16/talking-trash-unfortunate-truths-about-recycling/"]}]},{"@type":["Person"],"@id":"https://www.counterpunch.org/#/schema/person/6ea3c0fd2098b0bfa125509f14bd37b9","name":"Geoff Dutton","description":"<em class=\"\"><strong class=\"\">Geoff Dutton</strong></em> <em class=\"\">is a reformed geek turned columnist, novelist, and publisher hailing from Boston who writes about whatever distortions of reality strike his fancy</em><em class=\"\">. <a href=\"https://perfidy.press/turkey-shoot/\">Turkey Shoot</a>,</em> <em class=\"\">his novel interrogating the lives and times of members of a cell of terrorists in Europe, recently received an award for Courage in Fiction. You can find more of his writing here and at <a class=\"\" href=\"http://progressivepilgrim.review/\">Progressive Pilgrim Review</a>. He welcomes correspondence at geoff-at-perfidy-dot-press.</em>","sameAs":[]}]}</script>
+<!-- / Yoast SEO Premium plugin. -->
 
-  var adUnits = [ {
-          code: 'dfp-ad-leaderboard',
-          mediaTypes: {
-              banner: {
-                  sizes: [[728, 90], [970, 90], [970, 250], [970, 415], [970, 500], [1237, 500]]
-              }
-          },
-          bids: [{
-              bidder: 'openx',
-              params: {
-                  unit: '538678500',
-                  delDomain: 'thehill-d.openx.net'
-              }
-          },{
-              bidder: 'kargo',
-              params: {
-                  placementId: '_qB2XyTfayH'
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317997',
-                  size: [728,90]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317997',
-                  size: [970,90]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317997',
-                  size: [970,250]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317997',
-                  size: [970,415]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317997',
-                  size: [970,500]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317997',
-                  size: [1237,500]
-              }
-          },{
-              bidder: 'appnexus',
-              params: {
-                  placementId: '9114153'
-              }
-          },{
-              bidder: 'rubicon',
-              params: {
-                  accountId: '15654',
-                  siteId: '102722',
-                  zoneId: '482104'
-              }
-          }]
-      },{
-          code: 'dfp-ad-rightrail_bottom',
-          mediaTypes: {
-              banner: {
-                  sizes: [[300, 250], [300, 600], [300, 1050]]
-              }
-          },
-          bids: [{
-              bidder: 'openx',
-              params: {
-                  unit: '538678507',
-                  delDomain: 'thehill-d.openx.net'
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317999',
-                  size: [300,250]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317999',
-                  size: [300,600]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317999',
-                  size: [300,1050]
-              }
-          },{
-              bidder: 'appnexus',
-              params: {
-                  placementId: '9114211'
-              }
-          },{
-              bidder: 'rubicon',
-              params: {
-                  accountId: '15654',
-                  siteId: '102722',
-                  zoneId: '484056'
-              }
-          }]
-      },{
-          code: 'dfp-ad-rightrail_top',
-          mediaTypes: {
-              banner: {
-                  sizes: [[160, 600], [300, 250], [300, 600], [300, 1050]]
-              }
-          },
-          bids: [{
-              bidder: 'openx',
-              params: {
-                  unit: '538678508',
-                  delDomain: 'thehill-d.openx.net'
-              }
-          },{
-              bidder: 'kargo',
-              params: {
-                  placementId: '_w42lbbT7Mr'
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '318000',
-                  size: [300,250]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '318000',
-                  size: [160,600]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '318000',
-                  size: [300,600]
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '318000',
-                  size: [300,1050]
-              }
-          },{
-              bidder: 'appnexus',
-              params: {
-                  placementId: '9114213'
-              }
-          },{
-              bidder: 'rubicon',
-              params: {
-                  accountId: '15654',
-                  siteId: '102722',
-                  zoneId: '482104'
-              }
-          }]
-      },{
-          code: 'dfp-ad-incontent_desk_1',
-          mediaTypes: {
-              banner: {
-                  sizes: [[300, 250]]
-              }
-          },
-          bids: [{
-              bidder: 'kargo',
-              params: {
-                  placementId: '_ntekP69gKO'
-              }
-          },{
-              bidder: 'openx',
-              params: {
-                  unit: '538678494',
-                  delDomain: 'thehill-d.openx.net'
-              }
-          },{
-              bidder: 'rubicon',
-              params: {
-                  accountId: '15654',
-                  siteId: '102722',
-                  zoneId: '484056'
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '317998',
-                  size: [300,250]
-              }
-          },{
-              bidder: 'appnexus',
-              params: {
-                  placementId: '9114211'
-              }
-          }]
-      },{
-          code: 'dfp-ad-incontent_desk_2',
-          mediaTypes: {
-              banner: {
-                  sizes: [[300, 250]]
-              }
-          },
-          bids: [{
-              bidder: 'openx',
-              params: {
-                  unit: '538678493',
-                  delDomain: 'thehill-d.openx.net'
-              }
-          },{
-              bidder: 'rubicon',
-              params: {
-                  accountId: '15654',
-                  siteId: '102722',
-                  zoneId: '484056'
-              }
-          },{
-              bidder: 'ix',
-              params: {
-                  siteId: '318002',
-                  size: [300,250]
-              }
-          },{
-              bidder: 'appnexus',
-              params: {
-                  placementId: '9114211'
-              }
-          }]
-      },{
-          code: 'dfp-ad-incontent_desk_3',
-          mediaTypes: {
-              banner: {
-                  sizes: [[300, 250]]
-              }
-          },
-          bids: [{
-              bidder: 'ix',
-              params: {
-                  siteId: '375790',
-                  size: [300,250]
-              }
-          },{
-              bidder: 'rubicon',
-              params: {
-                  accountId: '15654',
-                  siteId: '102722',
-                  zoneId: '484056'
-              }
-          },{
-              bidder: 'appnexus',
-              params: {
-                  placementId: '9114211'
-              }
-          },{
-              bidder: 'openx',
-              params: {
-                  unit: '540800209',
-                  delDomain: 'thehill-d.openx.net'
-              }
-          }]
-      },{
-          code: 'dfp-ad-incontent_desk_4',
-          mediaTypes: {
-              banner: {
-                  sizes: [[300, 250]]
-              }
-          },
-          bids: [{
-              bidder: 'ix',
-              params: {
-                  siteId: '375791',
-                  size: [300,250]
-              }
-          },{
-              bidder: 'rubicon',
-              params: {
-                  accountId: '15654',
-                  siteId: '102722',
-                  zoneId: '484056'
-              }
-          },{
-              bidder: 'appnexus',
-              params: {
-                  placementId: '9114211'
-              }
-          },{
-              bidder: 'openx',
-              params: {
-                  unit: '540800213',
-                  delDomain: 'thehill-d.openx.net'
-              }
-          }]
-} ];
-  var videoAdUnit = {
-	code: 'video_preroll',
-	mediaTypes: {
-	    video: {
-	        playerSize: [640, 360],
-	        context: 'instream'
-	    }
-	},
-	bids: [
-		{
-	    	bidder: 'appnexus',
-		    params: {
-		        placementId: 15816860, 
-		        video: {
-		            skipppable: true,
-		            playback_method: ['auto_play_sound_off']
-		        }
-		    }
-		},
-		{            
-      		bidder: 'openx',             
-	      	params: {
-	         	unit: '540707777',
-	         	delDomain: 'thehill-d.openx.net',
-	      	}                      
-   		},
-   		{
-	        bidder: 'ix',
-	        params: {
-	            siteId: '449945',
-	            size: [640, 360],
-	            video: {
-	                mimes: ['video/mp4','video/webm', 'application/javascript'],
-	                minduration: 0,
-	                maxduration: 60,
-	                protocols: [2, 3, 5, 6],
-	                api: [1,2]
-	            }
-	        }
-	    }
-	]
-};
-
-  var pbjs = pbjs || {};
-  pbjs.que = pbjs.que || [];
-
-  pbjs.que.push(function() {
-    pbjs.setConfig({
-        enableSendAllBids: true,
-        sizeConfig: [{
-            mediaQuery: '(min-width: 768px)',
-            sizesSupported: [
-                [728, 90],
-                [970, 90],
-                [300, 250],
-                [160,600],
-                [300,600],
-                [300,1050],
-                [970,250],
-                [970,415],
-                [970,500],
-                [1237,500]
-            ],
-            labels: ["desktop"]
-        }, {
-            mediaQuery: '(min-width: 0px) and (max-width: 767px)',
-            sizesSupported: [
-                [320, 50],
-                [320, 100],
-                [300, 250]
-            ],
-            labels: ["mobile"]
-        }],
-        cache: {
-            url: "https://prebid.adnxs.com/pbc/v1/cache"
-        },
-        userSync: {
-            iframeEnabled: true,
-            filterSettings: {
-                iframe: {
-                    bidders: ['openx'],
-                    filter: 'include'
-                }
-            }
-        }
-    });
-});</script>
-<script>
-var googletag = googletag || {};
-googletag.cmd = googletag.cmd || [];  googletag.cmd.push(function() {
-    googletag.pubads().disableInitialLoad();
-  });
-</script>
-<script>
-  pbjs.que.push(function() {
-    pbjs.addAdUnits(adUnits);
-    pbjs.addAdUnits(videoAdUnit);
-
-    pbjs.bidderSettings = {
-standard: {
-        alwaysUseBid: false,
-        adserverTargeting: [{
-            key: "hb_bidder",
-          	val: function(bidResponse) {
-        	return bidResponse.bidderCode;
-          }
-        }, {
-            key: "hb_adid",
-            val: function(bidResponse) {
-                return bidResponse.adId;
-            }
-        }, 
-        {
-	    key: "hb_cache_id",
-            val: function(bidResponse) {
-		return bidResponse.videoCacheKey;
-	    }
-        },
-        {
-            key: "hb_pb",
-          	val: function(bidResponse) {
-            var cpm = bidResponse.cpm;
-            if (cpm < 3.00) {
-              return (Math.floor(cpm * 100) / 100).toFixed(2);
-            } else if (cpm < 5.00) {
-              return (Math.floor(cpm * 20) / 20).toFixed(2);
-            } else if (cpm < 10.00) {
-              return (Math.floor(cpm * 20) / 20).toFixed(2);
-            } else if (cpm < 25.00) {
-              return (Math.floor(cpm * 2) / 2).toFixed(2);
-            } else {
-              return '25.00';
-        
-            }
-            }
-        }]
-
-      },
-openx: {
-	alwaysUseBid: true,
-	adserverTargeting: [{
-		key: "oxb",
- 		val: function(bidResponse) {
- 			var bid;
- 			if (bidResponse.cpm < 20) {
- 				//Penny Bid Buckets
- 				bid = ((Math.floor(bidResponse.cpm * 100) / 100) * 100).toFixed(0);
- 			} else {
- 				//Twenty dollar bucket
- 				bid = "2000";
- 			}
- 			//Returns creativeSize_bidBucket as the value
- 			return bidResponse.width + "x" + bidResponse.height + "_" + bid;
- 		}
- 	}]
+<link rel='dns-prefetch' href='//a.opmnstr.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='tf-google-webfont-source-sans-pro-css'  href='//fonts.googleapis.com/css?family=Source+Sans+Pro%3Ainherit%2C400&#038;subset=latin%2Clatin-ext&#038;ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tf-google-webfont-dosis-css'  href='//fonts.googleapis.com/css?family=Dosis%3Ainherit%2C400&#038;subset=latin%2Clatin-ext&#038;ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='addtoany-css'  href='https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.15' type='text/css' media='all' />
+<style id='addtoany-inline-css' type='text/css'>
+@media screen and (min-width:1079px){
+.a2a_floating_style.a2a_default_style{display:none;}
 }
-      };
-    pbjs.requestBids({
-      bidsBackHandler: sendAdserverRequest
-    });
-  });
-
-  function sendAdserverRequest() {
-    if (pbjs.adserverRequestSent) return;
-    pbjs.adserverRequestSent = true;
-    var displayAdUnitCodes = [];
-    adUnits.forEach(function(adUnit) {
-      displayAdUnitCodes.push(adUnit.code);
-    });
-
-    googletag.cmd.push(function() {
-      pbjs.que.push(function() {
-        pbjs.setTargetingForGPTAsync(displayAdUnitCodes);
-        googletag.pubads().refresh();
-      });
-    });
-  }
-
-  setTimeout(function() {
-    sendAdserverRequest();
-  }, PREBID_TIMEOUT);
-</script>
-<script>
-googletag.slots = googletag.slots || {};</script>
-<script src="//thehill.com/sites/default/files/js/js_s3L_uC35AiN5EGYY533su-jccnLRp2aKpOnjgPLbo34.js"></script>
-<script src="//thehill.com/sites/default/files/js/js_gbyB-8624b04gFWZoHErKXFxSQxvWm7c4JcfaGYxlCo.js"></script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["rightrail_top"] = googletag.defineSlot("1107919/RightRail_top_300x250_ROS_asynch", [[160, 600], [300, 250], [300, 600], [300, 1050]], "dfp-ad-rightrail_top")
-  .addService(googletag.pubads())
-  .setTargeting("MoatSlotId", "rightrail_top");
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["rightrail_bottom"] = googletag.defineSlot("1107919/RightRail_bottom_300x250_ROS_asynch", [[300, 250], [300, 600], [300, 1050]], "dfp-ad-rightrail_bottom")
-  .addService(googletag.pubads())
-  .setTargeting("MoatSlotId", "rightrail_bottom");
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["leaderboard"] = googletag.defineSlot("1107919/Leaderboard_728x90_ROS_asynch", [[728, 90], [970, 90], [970, 250], [970, 415], [970, 500], [1237, 500]], "dfp-ad-leaderboard")
-  .addService(googletag.pubads())
-  .setTargeting("MoatSlotId", "dfp-ad-leaderboard");
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["incontent_desk_1"] = googletag.defineSlot("1107919/Content_300x250_ROS_asynch", [300, 250], "dfp-ad-incontent_desk_1")
-  .addService(googletag.pubads());
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["incontent_desk_2"] = googletag.defineSlot("1107919/Content_300x250_ROS_2_asynch", [300, 250], "dfp-ad-incontent_desk_2")
-  .addService(googletag.pubads());
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["incontent_desk_3"] = googletag.defineSlot("1107919/Content_300x250_ROS_3", [300, 250], "dfp-ad-incontent_desk_3")
-  .addService(googletag.pubads());
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["incontent_desk_4"] = googletag.defineSlot("1107919/Content_300x250_ROS_4", [300, 250], "dfp-ad-incontent_desk_4")
-  .addService(googletag.pubads());
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["new_1x1_asynch"] = googletag.defineSlot("1107919/1x1_asynch", [1, 1], "dfp-ad-new_1x1_asynch")
-  .addService(googletag.pubads());
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-googletag.slots["1x1_oop"] = googletag.defineSlot("1107919/1x1_asynch", [1, 1], "dfp-ad-1x1_oop")
-  .addService(googletag.pubads());
-googletag.defineOutOfPageSlot("1107919/1x1_asynch", "dfp-ad-1x1_oop-oop")
-  .addService(googletag.pubads());
-});
-</script>
-<script>
-googletag.cmd.push(function() {
-  googletag.pubads().setTargeting("ksg", Krux.segments);
-  googletag.pubads().setTargeting("kuid", Krux.user);
-  var referrer = "";
-  try{referrer = document.referrer; if(document.referrer.length > 0) referrer = new URL(document.referrer).hostname; } catch(e) {console.log(e)}
-  googletag.pubads().setTargeting("referrer", referrer);
-  googletag.pubads().enableSingleRequest();
-  googletag.pubads().collapseEmptyDivs();
-  googletag.pubads().enableVideoAds();
-  googletag.companionAds().setRefreshUnfilledSlots(true);
-  googletag.pubads().setTargeting("Article", "492832");
-  googletag.pubads().setTargeting("Category", "Senate");
-  googletag.pubads().setTargeting("Section", "News");
-  googletag.pubads().setTargeting("Tarmeta", ["Coronavirus","Mitch McConnell","Charles Schumer","Steven Mnuchin","Thomas Massie","Anthony Brown","Larry Kudlow","Nancy Pelosi","Donald Trump","Ben Cardin","Rand Paul","Mike Lee","democrats","try","to","force","mcconnells","hand"]);
-  googletag.pubads().setTargeting("Video", ["Float","True"]);
-  
-  googletag.enableServices();
-});
-</script>
-<script src="//thehill.com/sites/default/files/js/js_4zCT9TF1zdyFo5cHWewfDVwD1ET5wj0vY8l6UcKmAsI.js"></script>
-<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-10188146-1", {"cookieDomain":"auto"});ga("set", "dimension1", "Alexander Bolton");ga("send", "pageview");</script>
-<script src="//thehill.com/sites/default/files/js/js_3FimjhHlbAdnqDEb8OwjcqUpxHVyidrcRpUJDQqOYwI.js"></script>
-<script src="//cdn.jwplayer.com/libraries/RSvzxzFp.js"></script>
-<script src="//z.moatads.com/jwplayerplugin0938452/moatplugin.js"></script>
-<script src="//sb.scorecardresearch.com/c2/plugins/streamingtag_plugin_jwplayer.js"></script>
-<script src="//thehill.com/sites/default/files/js/js_F1AP5IICyTi-s6o_2UvaN09ASXpri4fyBkXJ9Or1ow0.js"></script>
-<script src="//thehill.com/sites/default/files/js/js_Wz9V8S-p4fXho8SFba8azOpci3RS15HeZXF6aWuITag.js"></script>
-<script nonce="iXohng2hoh">jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"thehill","theme_token":"WPLwcRhxpSQLr03DnOth-mnvy0vbyxIxyD9MEL2elhs","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.effect.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.effect-highlight.min.js":1,"0":1,"1":1,"2":1,"3":1,"4":1,"5":1,"6":1,"7":1,"8":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/thehill_rba.js":1,"9":1,"sites\/all\/modules\/thehill\/thehill_misc\/js\/person-links.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/jquery.caroufredsel.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/helper-plugins\/jquery.ba-throttle-debounce.min.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/helper-plugins\/jquery.mousewheel.min.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/helper-plugins\/jquery.touchSwipe.min.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/helper-plugins\/jquery.transit.min.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/thehill_carousel.js":1,"misc\/jquery.cookie.js":1,"sites\/all\/modules\/mostpopular\/js\/fade.js":1,"sites\/all\/modules\/mostpopular\/js\/mostpopular.js":1,"https:\/\/cdn.jwplayer.com\/libraries\/RSvzxzFp.js":1,"https:\/\/z.moatads.com\/jwplayerplugin0938452\/moatplugin.js":1,"https:\/\/sb.scorecardresearch.com\/c2\/plugins\/streamingtag_plugin_jwplayer.js":1,"sites\/all\/modules\/disqus\/disqus.js":1,"sites\/all\/modules\/ajaxblocks\/ajaxblocks.js":1,"sites\/all\/modules\/hide_submit\/js\/hide_submit.js":1,"sites\/all\/themes\/thehill\/js\/jquery.sticky-kit.min.js":1,"sites\/all\/themes\/thehill\/js\/jquery.visible.min.js":1,"sites\/all\/themes\/thehill\/js\/script.js":1,"sites\/all\/themes\/thehill\/js\/dfp.gpt.logger.override.js":1,"sites\/all\/themes\/thehill\/js\/overriden\/mostpopular.js":1,"sites\/all\/themes\/thehill\/js\/opa.js":1,"sites\/all\/themes\/thehill\/js\/th_jwplayer.js":1,"10":1,"11":1,"12":1,"13":1,"14":1,"15":1,"16":1,"17":1,"18":1,"19":1,"20":1,"21":1,"22":1,"23":1,"24":1,"25":1,"26":1,"27":1,"28":1,"29":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/menu_attach_block\/menu_attach_block.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/chartbeat\/chartbeat.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/thehill\/thehill_misc\/css\/person-links.css":1,"sites\/all\/modules\/mostpopular\/css\/mostpopular-basic.css":1,"sites\/all\/modules\/mostpopular\/css\/mostpopular-full.css":1,"sites\/all\/modules\/hide_submit\/css\/hide_submit.css":1,"sites\/all\/themes\/thehill\/system.menus.css":1,"sites\/all\/themes\/thehill\/css\/normalize.css":1,"sites\/all\/themes\/thehill\/css\/wireframes.css":1,"sites\/all\/themes\/thehill\/css\/layouts\/responsive-sidebars.css":1,"sites\/all\/themes\/thehill\/css\/page-backgrounds.css":1,"sites\/all\/themes\/thehill\/css\/tabs.css":1,"sites\/all\/themes\/thehill\/css\/pages.css":1,"sites\/all\/themes\/thehill\/css\/blocks.css":1,"sites\/all\/themes\/thehill\/css\/navigation.css":1,"sites\/all\/themes\/thehill\/css\/views-styles.css":1,"sites\/all\/themes\/thehill\/css\/nodes.css":1,"sites\/all\/themes\/thehill\/css\/comments.css":1,"sites\/all\/themes\/thehill\/css\/forms.css":1,"sites\/all\/themes\/thehill\/css\/fields.css":1,"sites\/all\/themes\/thehill\/css\/print.css":1,"sites\/all\/themes\/thehill\/css\/articles-teaser.css":1,"sites\/all\/themes\/thehill\/css\/font-awesome.min.css":1,"sites\/all\/themes\/thehill\/css\/opa.css":1,"sites\/all\/themes\/thehill\/css\/opa-fix.css":1,"sites\/all\/themes\/thehill\/css\/hilltv.css":1,"sites\/all\/themes\/thehill\/css\/th_jwplayer.css":1}},"chartbeat":{"uid":3100,"domain":"thehill.com","useCanonical":true,"noCookies":false},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"ad_timeout":"25000","hide_submit":{"hide_submit_status":true,"hide_submit_method":"disable","hide_submit_css":"hide-submit-disable","hide_submit_abtext":"","hide_submit_atext":"","hide_submit_hide_css":"hide-submit-processing","hide_submit_hide_text":"Processing...","hide_submit_indicator_style":"expand-left","hide_submit_spinner_color":"#000","hide_submit_spinner_lines":12,"hide_submit_hide_fx":0,"hide_submit_reset_time":0},"rba":{"start":1431367200000,"end":1431378900000,"expiration":"43200","ad_tag":"road_block_ad","timer":15000,"url":"\/rba_page"},"urlIsAjaxTrusted":{"\/homenews\/senate\/492832-democrats-try-to-force-mcconnells-hand":true},"thehill_mostpopular":{"sid":"1","iid":"1","tag":""},"thehill_carousel":{"carousels":{"#thehill-mostpopular-block .mostpopular--content ul":{"auto":false,"infinite":false,"circular":true,"next":"#most_popular_next","mousewheel":false,"swipe":{"onMouse":true,"onTouch":true},"items":6,"mostpopular":true,"direction":"up","scroll":{"items":6,"duration":1000,"timeoutDuration":2000}}}},"mostpopular":{"url":"\/mostpopular\/ajax"},"disqus":{"domain":"thehill-v4","url":"https:\/\/thehill.com\/homenews\/senate\/492832-democrats-try-to-force-mcconnells-hand","title":"Democrats try to force McConnell\u0026#039;s hand on coronavirus aid","identifier":"node\/492832","developer":1,"language":"en","sso":{"name":"TheHill","url":"\/user\/login?destination=disqus\/closewindow","logout":"\/user\/logout?destination=node\/492832","width":800,"height":600,"button":"https:\/\/thehill.com\/sites\/all\/themes\/thehill\/images\/print_logo.png","icon":"https:\/\/thehill.com\/favicon.ico"},"api_key":"MU2vV9R8hBF3W9kH0Zo2HKkiLqQY5ahOlvro6pPtNeOnnI6dQLfkIjd0OgRl9W6x","remote_auth_s3":"W10= 2eb6e421287fd7c1afc8651f6c36ef3c11302882 1587197863"},"ajaxblocks":"blocks=mostpopular-1\/views-articles-articles_just_in\u0026path=node"});</script>
-  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e8f5d7e1bc8befe"></script>
-  <meta http-equiv="refresh" content="2700"/><meta name="twitter:widgets:csp" content="on">
-<!-- iOS -->
- <meta name="apple-itunes-app" content="app-id=396640962">
-<!-- end iOS -->
-<!-- START Nativo -->
-<script type="text/javascript" src="//s.ntv.io/serve/load.js" async></script>
-<!-- END Nativo -->
-<!-- NDN Start -->
-<!-- script type="text/javascript" src="//launch.newsinc.com/js/embed.js"></script -->
-<!-- NDN End -->
-<script>window['moatYieldReady']=function(){return window.moatPrebidApi.setMoatTargetingForAllSlots()};</script>  <!--[if lt IE 9]>
-    <script>
-      document.createElement('header');
-      document.createElement('nav');
-      document.createElement('section');
-      document.createElement('article');
-      document.createElement('aside');
-      document.createElement('footer');
-    </script>
-  <![endif]-->
-  <!-- Krux ControlTag for "The Hill" -->
-  <script class="kxct" data-id="sf90wt710" data-timing="async" data-version="3.0" type="text/javascript">
-    window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
-    (function()
-      { var k=document.createElement('script');k.type='text/javascript';k.async=true; k.src=(location.protocol==='https:'?'https:':'http:')+'//cdn.krxd.net/controltag/sf90wt710.js'; var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s); }
-    ());
-  </script>
-</head>
-<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-492832 node-type-article featured-other--articles section-homenews smaller-size" >
-  <div id="skip-link">
-    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
-  </div>
-            <div class="region region-before-header">
-    <div id="block-system-main-menu" class="block block-system block-menu first last odd" role="navigation">
-  <div class="expand-menu-header">
-    <span class="expand-menu-close"></span>
-    <a href="/"></a>
-  </div>
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/signup" class="menu__link menu__link">sign up for newsletters</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/" class="menu__link menu__link">Home</a></li>
-<li class="menu__item is-active-trail is-expanded menu__item is-active-trail is-expanded expanded active-trail depth-1"><a href="/" class="menu__link is-active-trail menu__link is-active-trail active-trail">News</a><ul class="menu"><li class="menu__item is-active-trail is-leaf menu__item is-active-trail is-leaf first leaf active-trail depth-2"><a href="/homenews/senate" title="Senate" name="Senate" class="menu__link is-active-trail menu__link is-active-trail active-trail">Senate</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/house" class="menu__link menu__link">House</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/campaign" class="menu__link menu__link">Campaign</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/administration" class="menu__link menu__link">Administration</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/business-a-lobbying" class="menu__link menu__link">Business</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation" class="menu__link menu__link">Regulation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/media" class="menu__link menu__link">Media</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/blog-briefing-room" class="menu__link menu__link">Briefing Room</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/state-watch" class="menu__link menu__link">State Watch</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/latino" class="menu__link menu__link">Latino</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/ballot-box/polls" class="menu__link menu__link">Polls</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/1230-report" class="menu__link menu__link">12:30 Report</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/coronavirus-report" class="menu__link menu__link">Coronavirus Report</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/politics-101" class="menu__link menu__link">Politics 101</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/floor-action" class="menu__link menu__link">Floor Action</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/in-the-know" class="menu__link menu__link">In The Know</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/homenews/sunday-talk-shows" class="menu__link menu__link">Sunday Talk Shows</a></li>
-</ul></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/policy" class="menu__link menu__link">Policy</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/policy/defense" class="menu__link menu__link">Defense</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/energy-environment" class="menu__link menu__link">Energy &amp; Environment</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/finance" class="menu__link menu__link">Finance</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/healthcare" class="menu__link menu__link">Healthcare</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/technology" class="menu__link menu__link">Technology</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/transportation" class="menu__link menu__link">Transportation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/international" class="menu__link menu__link">International</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/cybersecurity" class="menu__link menu__link">Cybersecurity</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/policy/national-security" class="menu__link menu__link">National Security</a></li>
-</ul></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/regulation" class="menu__link menu__link">Regulation</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/regulation/defense" class="menu__link menu__link">Defense</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/energy-environment" class="menu__link menu__link">Energy &amp; Environment</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/finance" class="menu__link menu__link">Finance</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/healthcare" class="menu__link menu__link">Healthcare</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/technology" class="menu__link menu__link">Technology</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/transportation" class="menu__link menu__link">Transportation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/international" class="menu__link menu__link">International</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/cybersecurity" class="menu__link menu__link">Cybersecurity</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/regulation/national-security" class="menu__link menu__link">National Security</a></li>
-</ul></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/opinion" class="menu__link menu__link">Opinion</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/opinion" class="menu__link menu__link">Contributors</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/opinion/columnists" class="menu__link menu__link">Columnists</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/contributor-application-form" class="menu__link menu__link">Become a contributor</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/blogs/congress-blog" class="menu__link menu__link">Congress Blog</a></li>
-</ul></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/hilltv" class="menu__link menu__link">Hill.TV</a></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1 left"><a href="/video" class="menu__link menu__link left">Video</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/video/campaign" class="menu__link menu__link">Campaign</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/defense" class="menu__link menu__link">Defense</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/energy-environment" class="menu__link menu__link">Energy &amp; Environment</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/finance" class="menu__link menu__link">Finance</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/healthcare" class="menu__link menu__link">Healthcare</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/technology" class="menu__link menu__link">Technology</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/transportation" class="menu__link menu__link">Transportation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/international" class="menu__link menu__link">International</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/cybersecurity" class="menu__link menu__link">Cybersecurity</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/national-security" class="menu__link menu__link">National Security</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/sunday-shows" class="menu__link menu__link">Sunday Shows</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/events" class="menu__link menu__link">Events</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/video/lawmaker-interviews" class="menu__link menu__link">Lawmaker Interviews</a></li>
-</ul></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/podcasts" class="menu__link menu__link">Podcasts</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/podcasts/hillcast" class="menu__link menu__link">HillCast</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/podcasts/history-cast" class="menu__link menu__link">HistoryCast</a></li>
-</ul></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1 left single"><a href="/events" class="menu__link menu__link single left">Events</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/events" class="menu__link menu__link">Upcoming Events</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/events/past" class="menu__link menu__link">Past Events</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/events/about" class="menu__link menu__link">About</a></li>
-</ul></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/people" class="menu__link menu__link">People</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/homenews/campaign" class="menu__link menu__link">Campaign</a></li>
-</ul>  <div id="expand-menu-social-share">
-    <div class="expand-menu-headline">Follow Us</div>
-    <a href="http://www.facebook.com/TheHill" class="social-share-facebook" target="_blank">Facebook</a>&nbsp;<a href="https://twitter.com/intent/follow?screen_name=thehill" class="social-share-twitter-follow" target="_blank">Twitter</a>&nbsp;<a href="https://www.linkedin.com/company/the-hill" class="social-share-linkedin" target="_blank">LinkedIn</a>&nbsp;  </div>
-  <div id="expand-menu-footer">
-    <div class="expand-menu-headline"><a href="/">TheHill.com</a></div>
-    &copy; 1996-2020 News Communication
-    <ul class="links"><li class="menu-3055 first"><a href="/terms-and-conditions">Terms &amp; Conditions</a></li>
-<li class="menu-3054 last"><a href="/privacy-policy">Privacy Policy</a></li>
-</ul>  </div>
-</div>
-  </div>
-    <header id="header" role="banner" >
-    <div>
-      <div class="header_blocks">
-                      </div>
-      <div class="clear"></div>
-      <div id="navigation">
-        <nav id="main-menu" role="navigation">
-          <div class="expanded-menu"></div>
-                        <div class="region region-navigation">
-    <div id="block-menu-menu-top-menu" class="block block-menu first last odd" role="navigation">
-
-        <h2 class="block__title block-title">Top menu</h2>
-    
-  <div class="menu-wrapper"><ul class="menu"><li class="menu__item is-active-trail is-expanded menu__item is-active-trail is-expanded first expanded active-trail depth-1"><a href="/" class="menu__link is-active-trail menu__link is-active-trail active-trail">News</a><div class="menu-wrapper"><ul class="menu"><li class="menu__item is-active-trail is-leaf menu__item is-active-trail is-leaf first leaf active-trail depth-2"><a href="/homenews/senate" class="menu__link is-active-trail menu__link is-active-trail active-trail">Senate</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/house" class="menu__link menu__link">House</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/administration" class="menu__link menu__link">Administration</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/campaign" class="menu__link menu__link">Campaign</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/business-a-lobbying" class="menu__link menu__link">Business</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation" class="menu__link menu__link">Regulation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/media" class="menu__link menu__link">Media</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/blog-briefing-room" class="menu__link menu__link">Briefing Room</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/state-watch" class="menu__link menu__link">State Watch</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/latino" class="menu__link menu__link">Latino</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/ballot-box/polls" class="menu__link menu__link">Polls</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/1230-report" class="menu__link menu__link">12:30 Report</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/coronavirus-report" class="menu__link menu__link">Coronavirus Report</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/politics-101" class="menu__link menu__link">Politics 101</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/floor-action" class="menu__link menu__link">Floor Action</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/in-the-know" class="menu__link menu__link">In The Know</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/homenews/sunday-talk-shows" class="menu__link menu__link">Sunday Talk Shows</a></li>
-</ul></div></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/policy" class="menu__link menu__link">Policy</a><div class="menu-wrapper"><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/policy/defense" class="menu__link menu__link">Defense</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/energy-environment" class="menu__link menu__link">Energy &amp; Environment</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/finance" class="menu__link menu__link">Finance</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/healthcare" class="menu__link menu__link">Healthcare</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/technology" class="menu__link menu__link">Technology</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/transportation" class="menu__link menu__link">Transportation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/international" class="menu__link menu__link">International</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/policy/cybersecurity" class="menu__link menu__link">Cybersecurity</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/policy/national-security" class="menu__link menu__link">National Security</a></li>
-</ul></div></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/opinion" class="menu__link menu__link">Opinion</a><div class="menu-wrapper opa-opinion-menu"><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/opinion/columnists" class="menu__link menu__link">Columnists</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/blogs/congress-blog" class="menu__link menu__link">Congress Blog</a></li>
-</ul><div class="opa-opinion-submenu">
-            <a href="/opinion" class="opa-opinion-submenu-all">All Contributors</a>
-            <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/opinion/campaign" class="menu__link menu__link">- Campaign</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/civil-rights" class="menu__link menu__link">- Civil Rights</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/criminal-justice" class="menu__link menu__link">- Criminal Justice</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/education" class="menu__link menu__link">- Education</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/energy-environment" class="menu__link menu__link">- Energy &amp; Environment</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/finance" class="menu__link menu__link">- Finance</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/healthcare" class="menu__link menu__link">- Healthcare</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/immigration" class="menu__link menu__link">- Immigration</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/international" class="menu__link menu__link">- International</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/judiciary" class="menu__link menu__link">- Judiciary</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/technology" class="menu__link menu__link">- Technology</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/white-house" class="menu__link menu__link">- White House</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/contributor-application-form" class="menu__link menu__link">- Become A Contributor</a></li>
-</ul>
-            </div></div></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/events" class="menu__link menu__link">Events</a><div class="menu-wrapper"><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/events" class="menu__link menu__link">Upcoming Events</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/events/about" class="menu__link menu__link">About</a></li>
-</ul></div></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/resources/classifieds/employer" class="menu__link menu__link">Jobs</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/hilltv" class="menu__link menu__link hill-tv">HILL.TV</a></li>
-<li class="menu__item is-expanded menu__item is-expanded expanded black depth-1"><a href="/changing-america" class="menu__link menu__link">Changing America </a><div class="menu-wrapper"><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/changing-america/respect" class="menu__link menu__link">Respect</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/changing-america/sustainability" class="menu__link menu__link">Sustainability</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/changing-america/enrichment" class="menu__link menu__link">Enrichment</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/changing-america/resilience" class="menu__link menu__link">Resilience</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-2"><a href="/changing-america/well-being" class="menu__link menu__link">Well-Being</a></li>
-</ul></div></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf covid-19 depth-1"><a href="/coronavirus-report" class="menu__link menu__link">Coronavirus Report</a></li>
-</ul></div>
-</div>
-  </div>
-                                  <div class="region region-controls">
-    <div id="block-social-share-social-share" class="block block-social-share first odd">
-
-      
-  <a href="http://www.facebook.com/TheHill" class="social-share-facebook" target="_blank">Facebook</a>&nbsp;<a href="https://twitter.com/intent/follow?screen_name=thehill" class="social-share-twitter-follow" target="_blank">Twitter</a>&nbsp;<a href="https://www.linkedin.com/company/the-hill" class="social-share-linkedin" target="_blank">LinkedIn</a>&nbsp;
-</div>
-<div id="block-search-form" class="block block-search last even" role="search">
-
-      
-  <form action="/homenews/senate/492832-democrats-try-to-force-mcconnells-hand" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
-      <h2 class="element-invisible">Search form</h2>
-    <div class="form-item form-type-textfield form-item-search-block-form">
-  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
- <input title="Enter the terms you wish to search for." placeholder="TYPE TO SEARCH" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
-</div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-4E3k8C3df9Cg_DHlYeWxFkUZXLApX46Uz8Q7rVd2CT8" />
-<input type="hidden" name="form_id" value="search_block_form" />
-</div>
-</div></form>
-</div>
-  </div>
-                  </nav>  
-      </div>
-    </div>
-  </header><div id="page" class="page-new-layout responsive">
-  <div id="main" class="scrolling-content ">
-      <div class="region region-highlighted">
-    <div id="block-term-queue-0" class="block block-term-queue first last odd">
-
-        <h2 class="block__title block-title">TRENDING:</h2>
-    
-  <ul class="term-queue-links"><li class="0 first"><a href="/social-tags/coronavirus">Coronavirus</a></li>
-<li class="1"><a href="/person/donald-trump">Donald Trump</a></li>
-<li class="2"><a href="/person/anthony-fauci">Anthony Fauci</a></li>
-<li class="3 last"><a href="/person/joe-biden">Joe Biden</a></li>
-</ul>
-</div>
-  </div>
-      <div class="region region-top-page">
-    <div id="block-dfp-leaderboard" class="block block-dfp first last odd">
-
-      
-  <div id="dfp-ad-leaderboard-wrapper" class="dfp-tag-wrapper"><!-- dfp_tag.tpl.php -->
-<a href="#" class="hide_overlay"></a>
-<div  id="dfp-ad-leaderboard" class="dfp-inner">
-  <script type="text/javascript">
-    googletag.cmd.push(function() {
-      googletag.display("dfp-ad-leaderboard");
-    });
-  </script>
-</div>
-
-</div>
-</div>
-  </div>
-        <div class="content-item">
-              <div class="left-sidebar">
-        <a href="/" title="TheHill" rel="home" alt="TheHill.com">
-          <img class="logo" alt="TheHill.com" src="/sites/all/themes/thehill/images/redesign/thehill-logo-big.png" />
-        </a>
-      </div>
-      <div class="content-wrapper title">
-                          <h1 class="title" id="page-title">Democrats try to force McConnell&#039;s hand on coronavirus aid</h1>
-                <div class="submitted-wrp">
-    <span class="submitted-by">
-    By <a href="/author/alexander-bolton">Alexander Bolton</a> - <span class="submitted-date">04/15/20 06:00 AM EDT</span>
-  </span>
-  <a href="/homenews/senate/492832-democrats-try-to-force-mcconnells-hand#bottom-story-socials" class="disqus-comments" data-disqus-identifier="node/492832"></a>  </div>
-      </div>
-      <div class="content-wrapper social">
-        <div class="blogs-social-wrp">
-  <span  data-behavior="social-share-count" data-href="https://thehill.com/homenews/senate/492832-democrats-try-to-force-mcconnells-hand" class="social-share-count social-share-count-492832" data-nid="492832" ></span>
-  <div class="addthis_inline_share_toolbox_ru82"></div>
-<div class="share-additional">
-  <div class="share-linkedin">
-    <script>
-      ;(function(){
-        var linkedinScriptEl = document.querySelector('script[src="//platform.linkedin.com/in.js"]');
-        if (linkedinScriptEl == null) {
-          var shareLinkedinEl = document.querySelector('.share-linkedin');
-          var scriptEl = document.createElement('script');
-          scriptEl.src = "//platform.linkedin.com/in.js";
-          scriptEl.async = true;
-          scriptEl.innerHTML = " lang: en_US";
-          shareLinkedinEl.appendChild(scriptEl);
-        }
-      })();
-    </script>
-    <script type="IN/Share"></script>
-  </div>
-</div>
-<div class="share">
-  <a href="mailto:?subject=TheHill.com%3A%20Democrats%20try%20to%20force%20McConnell%26%23039%3Bs%20hand%20on%20coronavirus%20aid&amp;body=From%20TheHill.com%3A%20%0A%0A%0A%0Ahttps%3A//thehill.com/homenews/senate/492832-democrats-try-to-force-mcconnells-hand" class="email">&nbsp</a>  </div>
-</div>
-              </div>
-      <div class="left-sidebar-2">
-          <div class="region region-column-left">
-    <div id="block-views-articles-articles-just-in" class="block block-views first odd">
-
-      
-  <div id="block-views-articles-articles_just_in-ajax-content" class="ajaxblocks-wrapper"></div>
-</div>
-<div id="block-block-50" class="block block-block even">
-
-      
-  <div style="width:215px; height:200px; padding:0; margin:0;"></div>
-</div>
-<div id="block-thehill-blocks-taboola-right-rail" class="block block-thehill-blocks odd">
-
-      
-  <div id="taboola-right-rail-492832" class="taboola-right-rail" data-behavior="taboolarightrail"></div>
-</div>
-<div id="block-block-52" class="block block-block last even">
-
-      
-  <!-- Outbrain: Desktop Left Column -->
-<div class="OUTBRAIN" data-src="https://thehill.com/homenews/senate/492832-democrats-try-to-force-mcconnells-hand" data-widget-id="SB_1" data-ob-template="The Hill"></div> 
-</div>
-  </div>
-        <div class="left-sidebar-space">&nbsp;</div>
-              </div>
-      <div class="content-wrapper">
-            <div id="content" class="column">
-                                                  
-
-
-<article class="node-492832 node node-article view-mode-full clearfix" about="/homenews/senate/492832-democrats-try-to-force-mcconnells-hand" typeof="sioc:Item foaf:Document">
-    <header>
-    <span property="dc:title" content="Democrats try to force McConnell&#039;s hand on coronavirus aid" class="rdf-meta element-hidden"></span>      </header>
-      <div class="content-with-sidebar-wrp">
-    <div class="content-wrp">
-      <div class="player-container" style="position:relative;">
-  <div class="player-position">
-    <a href="#" class="close-btn"></a>
-    <div id="492832-player"></div>
-    <div id="jwplayer-unmute-button">
-      <div class="hilltv-video-unmute-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" focusable="false"><path d="M116.4,42.8v154.5c0,2.8-1.7,3.6-3.8,1.7l-54.1-48.1H28.9c-2.8,0-5.2-2.3-5.2-5.2V94.2c0-2.8,2.3-5.2,5.2-5.2h29.6l54.1-48.1C114.6,39.1,116.4,39.9,116.4,42.8z M212.3,96.4l-14.6-14.6l-23.6,23.6l-23.6-23.6l-14.6,14.6l23.6,23.6l-23.6,23.6l14.6,14.6l23.6-23.6l23.6,23.6l14.6-14.6L188.7,120L212.3,96.4z"></path></svg>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Congressional Democratic leaders are trying to box out Senate Majority Leader <span class="rollover-people" data-behavior="rolloverpeople"><a class="rollover-people-link" data-nid="188280" href="/people/mitch-mcconnell">Mitch McConnell</a><span class="rollover-people-block" id="rollover-people-188280"><span class="rollover-block"><span><img typeof="foaf:Image" src="/sites/default/files/styles/thumb_100/public/mcconnellmitch_080117gn4_lead.jpg?itok=A6Pe1mOZ" width="100" height="100" alt="" /><a class="name" href="/people/mitch-mcconnell">Addison (Mitch) Mitchell McConnell</a><a class="people-articles" href="/homenews/senate/493405-mcconnell-rolls-out-senate-oversight-efforts-for-coronavirus-relief-package">McConnell rolls out GOP oversight efforts for coronavirus relief package</a> <a class="people-articles" href="/blogs/congress-blog/politics/493368-joe-bidens-record-on-social-security-isnt-perfect-but-donald">Joe Biden's record on Social Security isn't perfect, but Donald Trump's is far worse</a> <a class="people-articles" href="/policy/finance/493374-gop-rep-french-hill-named-to-coronavirus-oversight-committee">GOP Rep. French Hill named to coronavirus oversight committee</a> <a class="more" href="/people/mitch-mcconnell">MORE<span></span></a></span></span></span></span> (R-Ky.) by negotiating a deal with Treasury Secretary <span class="rollover-people" data-behavior="rolloverpeople"><a class="rollover-people-link" data-nid="344978" href="/people/steven-mnuchin">Steven Mnuchin</a><span class="rollover-people-block" id="rollover-people-344978"><span class="rollover-block"><span><img typeof="foaf:Image" src="/sites/default/files/styles/thumb_100/public/mnuchinsteven_052417gn3_lead.jpg?itok=fVbADQ4d" width="100" height="100" alt="" /><a class="name" href="/people/steven-mnuchin">Steven Terner Mnuchin</a><a class="people-articles" href="/homenews/house/493449-mccarthy-says-he-supports-incorporating-hospital-funding-into-small-business">McCarthy says he supports incorporating hospital funding into small business aid package</a> <a class="people-articles" href="/policy/healthcare/493435-13-things-to-know-on-coronavirus-for-today">13 things to know for today on coronavirus</a> <a class="people-articles" href="/policy/finance/overnights/493398-on-the-money-millions-wait-for-virus-relief-checks-in-major-test">On The Money: Millions wait for virus relief checks in major test for IRS | Senate misses deadline to replenish small-business loan program | Fresh produce goes to waste as coronavirus snarls supply chains</a> <a class="more" href="/people/steven-mnuchin">MORE<span></span></a></span></span></span></span> and <span class="rollover-people" data-behavior="rolloverpeople"><a class="rollover-people-link" data-nid="261287" href="/people/donald-trump">President Trump</a><span class="rollover-people-block" id="rollover-people-261287"><span class="rollover-block"><span><img typeof="foaf:Image" src="/sites/default/files/styles/thumb_100/public/trumpdonald_070117getty.jpg?itok=zNbH56or" width="100" height="100" alt="" /><a class="name" href="/people/donald-trump">Donald John Trump</a><a class="people-articles" href="/homenews/campaign/493454-biden-campaign-seeks-to-let-sanders-keep-his-delegates-in-unusual-move">Biden campaign seeks to let Sanders keep his delegates in unusual move</a> <a class="people-articles" href="/policy/healthcare/493452-lady-gaga-calls-who-chief-a-superstar">Lady Gaga calls WHO chief a 'superstar' </a> <a class="people-articles" href="/homenews/house/493449-mccarthy-says-he-supports-incorporating-hospital-funding-into-small-business">McCarthy says he supports incorporating hospital funding into small business aid package</a> <a class="more" href="/people/donald-trump">MORE<span></span></a></span></span></span></span> to provide $251 billion in new funding for small businesses.</p><p>Senate Minority Leader <span class="rollover-people" data-behavior="rolloverpeople"><a class="rollover-people-link" data-nid="188216" href="/people/charles-schumer">Charles Schumer</a><span class="rollover-people-block" id="rollover-people-188216"><span class="rollover-block"><span><img typeof="foaf:Image" src="/sites/default/files/styles/thumb_100/public/schumercharles_071117gn2_lead.jpg?itok=0PSEgyjQ" width="100" height="100" alt="" /><a class="name" href="/people/charles-schumer">Charles (Chuck) Ellis Schumer</a><a class="people-articles" href="/homenews/senate/493405-mcconnell-rolls-out-senate-oversight-efforts-for-coronavirus-relief-package">McConnell rolls out GOP oversight efforts for coronavirus relief package</a> <a class="people-articles" href="/policy/cybersecurity/493021-stacey-abrams-throws-support-behind-vote-by-mail-efforts">Stacey Abrams throws support behind vote-by-mail efforts</a> <a class="people-articles" href="/hilltv/rising/492959-former-msnbc-host-dylan-ratigan-why-ubi-is-a-ventilator-for-the-us-economy-in">Former MSNBC host explains why UBI is a ventilator for U.S. economy in a crisis</a> <a class="more" href="/people/charles-schumer">MORE<span></span></a></span></span></span></span> (D-N.Y.) and Speaker <span class="rollover-people" data-behavior="rolloverpeople"><a class="rollover-people-link" data-nid="187954" href="/people/nancy-pelosi">Nancy Pelosi</a><span class="rollover-people-block" id="rollover-people-187954"><span class="rollover-block"><span><img typeof="foaf:Image" src="/sites/default/files/styles/thumb_100/public/pelosinancy_111317cf_lead.jpg?itok=IEFj6CaK" width="100" height="100" alt="" /><a class="name" href="/people/nancy-pelosi">Nancy Pelosi</a><a class="people-articles" href="/policy/healthcare/493452-lady-gaga-calls-who-chief-a-superstar">Lady Gaga calls WHO chief a 'superstar' </a> <a class="people-articles" href="/homenews/house/493449-mccarthy-says-he-supports-incorporating-hospital-funding-into-small-business">McCarthy says he supports incorporating hospital funding into small business aid package</a> <a class="people-articles" href="/homenews/administration/493443-trump-criticizes-pelosi-over-stalemate-on-small-business-loan-funds">Trump criticizes Pelosi over stalemate on small business loan funds</a> <a class="more" href="/people/nancy-pelosi">MORE<span></span></a></span></span></span></span> (D-Calif.) calculate that Trump will be eager for a deal when funding for the Paycheck Protection Program (PPP), a popular small-business lending program, is projected to expire Thursday, when another wave of unemployment claims become public.</p><p>They have largely worked with Mnuchin instead of McConnell, betting that if Trump signs on to a $500 billion deal to extend small-business lending, send funds to hospitals and rescue cash-strapped states, McConnell and other GOP lawmakers will fall in line.</p><div id="dfp-ad-incontent_desk_1-wrapper" class="dfp-tag-wrapper wrapper"><div id="dfp-ad-incontent_desk_1" class="dfp-tag-wrapper"><span>ADVERTISEMENT</span><script type="text/javascript">googletag.cmd.push(function() {googletag.display("dfp-ad-incontent_desk_1");});</script></div></div><p>While congressional Republican staff have reached out to Democrats, Schumer and Pelosi have preferred to work with Mnuchin, viewing him as a more sympathetic negotiator.</p><p>Sen. <span class="rollover-people" data-behavior="rolloverpeople"><a class="rollover-people-link" data-nid="188213" href="/people/benjamin-cardin">Ben Cardin</a><span class="rollover-people-block" id="rollover-people-188213"><span class="rollover-block"><span><img typeof="foaf:Image" src="/sites/default/files/styles/thumb_100/public/cardinben_gregnash.jpg?itok=01BxP723" width="100" height="100" alt="" /><a class="name" href="/people/benjamin-cardin">Benjamin (Ben) Louis Cardin</a><a class="people-articles" href="/homenews/senate/492832-democrats-try-to-force-mcconnells-hand">Democrats try to force McConnell's hand on coronavirus aid</a> <a class="people-articles" href="/homenews/senate/492615-aides-expect-schumer-mnuchin-to-reach-deal-on-coronavirus-relief">Aides expect Schumer, Mnuchin to reach deal on coronavirus relief</a> <a class="people-articles" href="/homenews/senate/492312-pressure-for-quick-action-on-next-relief-bill-strains-gop-unity">Pressure for quick action on next relief bill strains GOP unity</a> <a class="more" href="/people/benjamin-cardin">MORE<span></span></a></span></span></span></span> (Md.), the top-ranking Democrat on the Small Business Committee, said Schumer and Mnuchin have “a pretty good relationship.”</p><p>Senate Republican aides expect a deal to emerge this week even though McConnell hasn’t signed off on anything and passing legislation during a pro forma session scheduled for Thursday would require consent from every senator. That is a very tall order.</p><p>“There’s already the uncertainty about this program and it’s discouraging people from applying. The closer we let it go to banks not accepting applications the worse it gets. There’s a sense of urgency. It’s just a matter of what’s going to be demanded to get it across the finish line,” said a GOP aide.</p><p>If Trump endorses the deal, however, it would be tough for any Republican to stand in the way, especially since the add-ons requested by Democrats are $100 billion more for hospitals, $150 billion more for state and local governments and a 15 percent increase in the Supplemental Nutrition Assistance Program.</p><p>Ford O’Connell, a Republican strategist, said Democrats “think they have leverage on the president because they’re going to say he’s in charge of the economy.”</p><div id="dfp-ad-incontent_desk_2-wrapper" class="dfp-tag-wrapper wrapper"><div id="dfp-ad-incontent_desk_2" class="dfp-tag-wrapper"><span>ADVERTISEMENT</span><script type="text/javascript">googletag.cmd.push(function() {googletag.display("dfp-ad-incontent_desk_2");});</script></div></div><p>“At the same time, if you’re Trump and you bow to all of their demands, their demands are only going to get bigger,” he added. “The White House would like to get it resolved as soon as possible.”</p><p>“The White House doesn’t want to wait until May. They want to get a good deal done,” he said. “The Democrats feel that they have so much leverage that they have the Republicans over a barrel and they’re waiting for the Republicans to blink.”</p><p>Some GOP staffers warn that Schumer and Pelosi may be forgetting that Mnuchin doesn’t speak for Republican senators and can’t guarantee that they will be on board with any deal he and the president agree to.</p><p>McConnell said last week that he would favor providing more money for hospitals and health care providers “down the line.” But talk of adding hospital funding to the $251 billion for the Small Business Administration will set off a battle among senators who want to tweak the formula and get special benefits for their home states.</p><p>That’s the reason McConnell wants to keep the funding boost for the small-business lending program “clean.”</p><p>Two stalwart fiscal conservatives who have a history of bucking the GOP leadership, Sens. <span class="rollover-people" data-behavior="rolloverpeople"><a class="rollover-people-link" data-nid="188293" href="/people/rand-paul">Rand Paul</a><span class="rollover-people-block" id="rollover-people-188293"><span class="rollover-block"><span><img typeof="foaf:Image" src="/sites/default/files/styles/thumb_100/public/article_images/randpaul_0.jpg?itok=AKEGsdrj" width="100" height="100" alt="" /><a class="name" href="/people/rand-paul">Randal (Rand) Howard Paul</a><a class="people-articles" href="/homenews/senate/493115-trump-taps-members-of-congress-to-advise-on-reopening">Trump taps members of Congress to advise on reopening</a> <a class="people-articles" href="/homenews/senate/492832-democrats-try-to-force-mcconnells-hand">Democrats try to force McConnell's hand on coronavirus aid</a> <a class="people-articles" href="/policy/healthcare/492829-13-things-to-know-about-coronavirus-for-today">13 things to know about coronavirus for today</a> <a class="more" href="/people/rand-paul">MORE<span></span></a></span></span></span></span> (R-Ky.) and <span class="rollover-people" data-behavior="rolloverpeople"><a class="rollover-people-link" data-nid="188274" href="/people/mike-lee">Mike Lee</a><span class="rollover-people-block" id="rollover-people-188274"><span class="rollover-block"><span><img typeof="foaf:Image" src="/sites/default/files/styles/thumb_100/public/article_images/leemike_041416getty.jpg?itok=7e7ShRhP" width="100" height="100" alt="" /><a class="name" href="/people/mike-lee">Michael (Mike) Shumway Lee</a><a class="people-articles" href="/homenews/senate/492832-democrats-try-to-force-mcconnells-hand">Democrats try to force McConnell's hand on coronavirus aid</a> <a class="people-articles" href="/homenews/senate/491689-zoom-grocery-delivery-self-isolation-how-lawmakers-are-surviving-coronavirus">Zoom, grocery delivery, self-isolation: How lawmakers are surviving coronavirus</a> <a class="people-articles" href="/policy/national-security/490691-justice-ig-pours-fuel-on-looming-fight-over-fisa-court">Justice IG pours fuel on looming fight over FISA court</a> <a class="more" href="/people/mike-lee">MORE<span></span></a></span></span></span></span> (R-Utah), were not present when the Senate voted 96-0 last month to pass the $2.2 trillion CARES Act, which included $349 billion for the small-business lending program.</p><p>Both lawmakers were in quarantine, Paul because he was diagnosed with coronavirus and Lee out of precaution.</p><p>Senate GOP aides said they didn’t know for sure how Paul or Lee would react if asked to give consent to allow an interim coronavirus relief package to pass during Thursday’s pro forma session. </p><p>Pressure on Trump and Congress to act will mount Thursday morning when the Department of Labor is expected to announce millions of new unemployment claims. More than 16 million Americans have filed first-time unemployment claims in the past three weeks.</p><p>A survey published by Main Street America on Tuesday projected that 3½ million businesses may close permanently over the next two months and 7½ million businesses may close over the next five months.</p><p>“Every week [the impasse goes on] is a week businesses don’t have cash flow and more uncertainty gets injected,” the GOP aide said. “There’s nothing like a deadline to make things move fast.”</p><p>National Economic Council Director <span class="rollover-people" data-behavior="rolloverpeople"><a class="rollover-people-link" data-nid="440662" href="/people/lawrence-larry-kudlow">Larry Kudlow</a><span class="rollover-people-block" id="rollover-people-440662"><span class="rollover-block"><span><img typeof="foaf:Image" src="/sites/default/files/styles/thumb_100/public/kudlowlarry_022819gn9_lead.jpg?itok=b2a4DC4x" width="100" height="100" alt="" /><a class="name" href="/people/lawrence-larry-kudlow">Lawrence (Larry) Alan Kudlow</a><a class="more" href="/people/lawrence-larry-kudlow">MORE<span></span></a></span></span></span></span> is warning that the PPP is due to run out of money as soon as Thursday.</p><div id="dfp-ad-incontent_desk_3-wrapper" class="dfp-tag-wrapper wrapper"><div id="dfp-ad-incontent_desk_3" class="dfp-tag-wrapper"><span>ADVERTISEMENT</span><script type="text/javascript">googletag.cmd.push(function() {googletag.display("dfp-ad-incontent_desk_3");});</script></div></div><p>“At the present run-rate, we’re going to be out of money,” Kudlow told Fox Business Network.</p><p>The Small Business Administration’s Economic Injury Disaster Loan program, a direct lending apparatus distinct from the PPP, is also out of money.</p><p>The pressure to refund the disaster loan program is made more acute by the severe storms that tore through Southern states over Easter weekend, leaving 30 people dead and 1.3 million without power. The area must be officially declared a disaster zone before the program can kick in, however.</p><p>Trump on Tuesday sought to apply some political heat on Schumer and Pelosi, tweeting: “The Democrats don’t want to approve more money for our great workers under the incredibly successful ‘Paycheck’ plan. Replenish Account Now!”</p><p>If Senate Republicans object to passing an interim package in the ballpark of $500 billion, then small businesses may have to wait until the second week of May to see a resumption of loan activity through the PPP.</p><p>McConnell announced Tuesday the full Senate is not expected to reconvene in Washington before May 4.</p><div id="dfp-ad-incontent_desk_4-wrapper" class="dfp-tag-wrapper wrapper"><div id="dfp-ad-incontent_desk_4" class="dfp-tag-wrapper"><span>ADVERTISEMENT</span><script type="text/javascript">googletag.cmd.push(function() {googletag.display("dfp-ad-incontent_desk_4");});</script></div></div><p>“All members will receive at least 24 hours’ notice if this changes. This bipartisan decision reflects consultation with Leader Schumer and my colleagues in Senate leadership,” he said.</p><p>If a deal passes the Senate on Thursday, then its next stop is the House, where it would be a tough task to get all 429 members to sign off.</p><p>House leaders have also said they do not plan to reconvene the chamber before May 4, which means legislation would have to pass by voice vote as the CARES Act did on March 27. </p><p>Rep. <span class="rollover-people" data-behavior="rolloverpeople"><a class="rollover-people-link" data-nid="186527" href="/people/thomas-massie">Thomas Massie</a><span class="rollover-people-block" id="rollover-people-186527"><span class="rollover-block"><span><img typeof="foaf:Image" src="/sites/default/files/styles/thumb_100/public/massiethomas_100916gn_lead.jpg?itok=VwfISoVs" width="100" height="100" alt="" /><a class="name" href="/people/thomas-massie">Thomas Harold Massie</a><a class="people-articles" href="/homenews/house/493408-top-republican-voices-skepticism-of-rule-change-to-allow-remote-voting">Top Republican voices skepticism of rule change to allow remote voting</a> <a class="people-articles" href="/blogs/congress-blog/politics/493280-remote-voting-would-further-undermine-civility">Remote voting would further undermine civility</a> <a class="people-articles" href="/homenews/senate/493250-senate-misses-deadline-but-talks-on-loans-go-on">Senate misses deadline, but talks on loans go on</a> <a class="more" href="/people/thomas-massie">MORE<span></span></a></span></span></span></span> (R-Ky.), a conservative libertarian who is facing a primary challenge, says he again will try to force the House to hold a formal roll-call vote on the next coronavirus relief package.</p><p>Last month, Trump stated Massie should be thrown out of the Republican Party as he vowed to delay the CARES Act. Massie’s threats caused some unhappy House members to travel back to the nation’s capital.</p><p>The presiding Democrat in the chair, Rep. <span class="rollover-people" data-behavior="rolloverpeople"><a class="rollover-people-link" data-nid="353662" href="/people/anthony-brown">Anthony Brown</a><span class="rollover-people-block" id="rollover-people-353662"><span class="rollover-block"><span><img typeof="foaf:Image" src="/sites/default/files/styles/thumb_100/public/brownanthony_010317gn_0.jpg?itok=Ghsge3q8" width="100" height="100" alt="" /><a class="name" href="/people/anthony-brown">Anthony Gregory Brown</a><a class="people-articles" href="/homenews/senate/492832-democrats-try-to-force-mcconnells-hand">Democrats try to force McConnell's hand on coronavirus aid</a> <a class="people-articles" href="/homenews/senate/492615-aides-expect-schumer-mnuchin-to-reach-deal-on-coronavirus-relief">Aides expect Schumer, Mnuchin to reach deal on coronavirus relief</a> <a class="people-articles" href="/homenews/house/489835-democrat-refuses-to-yield-house-floor-underscoring-tensions-on-coronavirus">Democrat refuses to yield House floor, underscoring tensions on coronavirus vote</a> <a class="more" href="/people/anthony-brown">MORE<span></span></a></span></span></span></span> (D-Md.), overruled Massie’s objection by ruling that a quorum was present and letting the package pass by voice vote.</p></div></div></div>              <div class="article-tags">
-          <span>Tags</span> <a href="/person/mitch-mcconnell" title="Mitch McConnell">Mitch McConnell</a> <a href="/person/charles-schumer" title="Charles Schumer">Charles Schumer</a> <a href="/person/steven-mnuchin" title="Steven Mnuchin">Steven Mnuchin</a> <a href="/person/thomas-massie" title="Thomas Massie">Thomas Massie</a> <a href="/person/anthony-brown" title="Anthony Brown">Anthony Brown</a> <a href="/person/larry-kudlow" title="Larry Kudlow">Larry Kudlow</a> <a href="/person/nancy-pelosi" title="Nancy Pelosi">Nancy Pelosi</a> <a href="/person/donald-trump" title="Donald Trump">Donald Trump</a> <a href="/person/ben-cardin" title="Ben Cardin">Ben Cardin</a> <a href="/person/rand-paul" title="Rand Paul">Rand Paul</a> <a href="/person/mike-lee" title="Mike Lee">Mike Lee</a> <a href="/social-tags/coronavirus" title="Coronavirus">Coronavirus</a>        </div>
-            <div id="bottom-story-socials" class="blogs-social-wrp">
-        <div class="addthis_inline_share_toolbox_ru82"></div>
-<div class="share-additional">
-  <div class="share-linkedin">
-    <script>
-      ;(function(){
-        var linkedinScriptEl = document.querySelector('script[src="//platform.linkedin.com/in.js"]');
-        if (linkedinScriptEl == null) {
-          var shareLinkedinEl = document.querySelector('.share-linkedin');
-          var scriptEl = document.createElement('script');
-          scriptEl.src = "//platform.linkedin.com/in.js";
-          scriptEl.async = true;
-          scriptEl.innerHTML = " lang: en_US";
-          shareLinkedinEl.appendChild(scriptEl);
-        }
-      })();
-    </script>
-    <script type="IN/Share"></script>
-  </div>
-</div>
-<div class="share">
-  <a href="mailto:?subject=TheHill.com%3A%20Democrats%20try%20to%20force%20McConnell%27s%20hand%20on%20coronavirus%20aid&amp;body=From%20TheHill.com%3A%20%0A%0A%0A%0Ahttps%3A//thehill.com/homenews/senate/492832-democrats-try-to-force-mcconnells-hand" class="email">&nbsp</a>  </div>
-      </div>
-    </div>
-  </div>
-    </article>
-            <div class="region region-content-bottom">
-    <div id="block-disqus-disqus-comments-492832" class="block block-disqus first odd">
-
-      
-  <div id="disqus_thread"><noscript><p><a href="http://thehill-v4.disqus.com/?url=https%3A%2F%2Fthehill.com%2Fhomenews%2Fsenate%2F492832-democrats-try-to-force-mcconnells-hand">View the discussion thread.</a></p></noscript></div>
-</div>
-<div id="block-block-51" class="block block-block first last odd">
-
-      
-  <!-- Outbrain Desktop Footer -->
-<div class="OUTBRAIN" data-src="https://thehill.com/homenews/senate/492832-democrats-try-to-force-mcconnells-hand" data-widget-id="AR_1" data-ob-template="The Hill"></div> 
-</div>
-  </div>
-        </div>
-                  <aside class="sidebars">
-                          <section class="region region-sidebar-second column sidebar">
-    <div id="block-dfp-rightrail-top" class="block block-dfp first odd">
-
-      
-  <div id="dfp-ad-rightrail_top-wrapper" class="dfp-tag-wrapper"><!-- dfp_tag.tpl.php -->
-<a href="#" class="hide_overlay"></a>
-<div  id="dfp-ad-rightrail_top" class="dfp-inner">
-  <script type="text/javascript">
-    googletag.cmd.push(function() {
-      googletag.display("dfp-ad-rightrail_top");
-    });
-  </script>
-</div>
-
-</div>
-</div>
-<div id="block-mostpopular-1" class="block block-mostpopular even">
-
-        <h2 class="block__title block-title">Most Popular</h2>
-    
-  <div id="block-mostpopular-1-ajax-content" class="ajaxblocks-wrapper"></div>
-</div>
-<div id="block-dfp-rightrail-bottom" class="block block-dfp odd">
-
-      
-  <div id="dfp-ad-rightrail_bottom-wrapper" class="dfp-tag-wrapper"><!-- dfp_tag.tpl.php -->
-<a href="#" class="hide_overlay"></a>
-<div  id="dfp-ad-rightrail_bottom" class="dfp-inner">
-  <script type="text/javascript">
-    googletag.cmd.push(function() {
-      googletag.display("dfp-ad-rightrail_bottom");
-    });
-  </script>
-</div>
-
-</div>
-</div>
-<div id="block-views-hill-tv-block-video-widget" class="block block-views even">
-
-        <h2 class="block__title block-title">Video</h2>
-    
-    <div class="view view-hill-tv view-id-hill_tv view-display-id-block_video_widget hill-tv-video-widget view-dom-id-3188437ea706d99be368ae5e5ea3a566">
-                            <div class="view-content">
-        <div class="views-row views-row-1 views-row-odd views-row-first">
-      
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/hilltv/rising/493358-daily-beast-political-reporter-hanna-trudo-shares-her-insight-on-bidens"><img typeof="foaf:Image" src="https://thehill.com/sites/default/files/styles/leading_video/public/bidenjoe_022920gn24_lead.jpg?itok=WdXZePZS" width="306" height="171" /></a></div>  </div>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/hilltv/rising/493358-daily-beast-political-reporter-hanna-trudo-shares-her-insight-on-bidens">Daily Beast political reporter Hanna Trudo shares insights on Biden veepstakes</a></span>  </div>  
-  <div class="views-field views-field-field-article-categories">        <div class="field-content">Rising</div>  </div>  
-  <div class="views-field views-field-field-vertical-article-category">        <div class="field-content"></div>  </div>  </div>
-  <div class="views-row views-row-2 views-row-even">
-      
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/changing-america/well-being/mental-health/486582-out-of-many-some-americans-are-now-desperately"><img typeof="foaf:Image" src="https://thehill.com/sites/default/files/styles/leading_video/public/ca_kristof_wudunn_tightrope.jpg?itok=imgzunVm" width="306" height="171" /></a></div>  </div>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/changing-america/well-being/mental-health/486582-out-of-many-some-americans-are-now-desperately">Americans are now desperately &#039;reaching for hope&#039;</a></span>  </div>  
-  <div class="views-field views-field-field-article-categories">        <div class="field-content"></div>  </div>  
-  <div class="views-field views-field-field-vertical-article-category">        <div class="field-content">Changing America</div>  </div>  </div>
-  <div class="views-row views-row-3 views-row-odd views-row-last">
-      
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/hilltv/rising/493365-social-capital-founder-says-coronavirus-relief-should-focus-on-workers-not-corporations"><img typeof="foaf:Image" src="https://thehill.com/sites/default/files/styles/leading_video/public/palihapitiyachamath_04172020_0.jpg?itok=98iKkeEX" width="306" height="171" /></a></div>  </div>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/hilltv/rising/493365-social-capital-founder-says-coronavirus-relief-should-focus-on-workers-not-corporations">Social Capital founder says coronavirus relief should focus on workers, not corporations</a></span>  </div>  
-  <div class="views-field views-field-field-article-categories">        <div class="field-content">Rising</div>  </div>  
-  <div class="views-field views-field-field-vertical-article-category">        <div class="field-content"></div>  </div>  </div>
-    </div>
-                  </div>
-
-</div>
-<div id="block-block-3" class="block block-block last odd">
-
-        <h2 class="block__title block-title">More From The Web</h2>
-    
-  <div class="newsmax-fark-block-target" height="0" width="0"></div>
-
-<script>
-var block="";
-var tgt_item = jQuery('.node.view-mode-full').length - 1;
-var isHero = jQuery('.hero-image').length;
-tgt_item = tgt_item < 0 ? 0 : tgt_item; 
-var tgt = jQuery(".newsmax-fark-block-target")[tgt_item];  
-var rnd = Math.floor(Math.random(100) * 100);
-var query_param = window.location.search; 
-var fark_override = false;
-if(query_param.length > 0 && query_param.indexOf("fark_override") >= 0) {
-	fark_override = true;
-}
-if(!isHero) { 
-if(rnd >= 30 && !fark_override) { 
-    block += "<p style=\"font-family:Arial;color:#666666;font-size:11px;text-align:right;margin-bottom:-24px;padding-top:10px\">Sponsored<\/p>";
-    block += "<div style=\"margin:20px 0;\">";
-    block += "<div id=\"yp6_inject_bn75TWX4O573bji1xoe95X\"><\/div>";
-    block += "<\/div>";
-    block += "<!-- End NewsMax -->";
-    jQuery(block).insertBefore(tgt);
-    jQuery.ajaxSetup({cache: true});
-    jQuery.getScript("https://static.newsmaxfeednetwork.com/web-clients/bootloaders/bn75TWX4O573bji1xoe95X/bootloader.js");
-} else {
-block += "<!-- Composite Start -->";
-block += "<p style=\"font-family:Arial;color:#666666;font-size:11px;text-align:right;margin-bottom:-10px;\">Sponsored<\/p>";
-block += "<div id=\"unit_93728\"><a href=\"https://mixi.media/\" rel=\"nofollow\"></a></div>";
-block += "<script type=\"text/javascript\" charset=\"utf-8\">";
-block += "(function() {";
-block +=    "var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true;";
-block +=    "sc.src = '//mixi.media/data/js/93728.js'; sc.charset = 'utf-8';";
-block +=    "var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);";
-block += " }());";
-block += "<\/script>";
-block += "<!-- Composite End -->";
-//jQuery(block).insertBefore(tgt);
-};
-};
-</script>
-
-
-</div>
-  </section>
-          </aside>
-              </div>          </div> <!-- cs-end -->
-  </div>
-            <div class="page-bottom">
-      <div class="region region-footer-bottom">
-    <div id="block-thehill-blocks-footer-signup" class="block block-thehill-blocks first last odd">
-
-      
-  <div class="simple-signup-form">
-  <div class="text">Don't miss a brief. <span>Sign up for our daily email.</span></div>
-  <form action="/homenews/senate/492832-democrats-try-to-force-mcconnells-hand" method="post" id="thehill-blocks-signup-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-email">
-  <label for="edit-email">Your Email </label>
- <input placeholder="" type="text" id="edit-email" name="email" value="" size="60" maxlength="128" class="form-text" />
-</div>
-<div class="form-item form-type-textfield form-item-list">
- <input class="hidden form-text" type="text" id="edit-list" name="list" value="" size="60" maxlength="128" />
-</div>
-<input type="submit" id="edit-submit--2" name="op" value="Submit" class="form-submit" /><input type="hidden" name="form_build_id" value="form-OOTz043sfAqKYlY0XaPmz1a9_-r7syzjNGSqXlx0eMo" />
-<input type="hidden" name="form_id" value="thehill_blocks_signup_form" />
-</div></form></div>
-
-
-</div>
-  </div>
-    <a href="/" title="TheHill" rel="home" alt="TheHill.com">
-      <img class="logo" alt="TheHill.com" src="/sites/all/themes/thehill/images/redesign/thehill-logo-footer.png" />
-    </a>
-      <div class="region region-bottom-column1">
-    <div id="block-menu-menu-home" class="block block-menu first odd" role="navigation">
-
-        <h2 class="block__title block-title">News</h2>
-    
-  <ul class="menu"><li class="menu__item is-active-trail is-leaf menu__item is-active-trail is-leaf first leaf active-trail depth-1"><a href="/homenews/senate" class="menu__link is-active-trail menu__link is-active-trail active-trail">Senate</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/homenews/house" class="menu__link menu__link">House</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/homenews/campaign" class="menu__link menu__link">Campaign</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/homenews/administration" class="menu__link menu__link">Administration</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/regulation" class="menu__link menu__link">Regulation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/homenews/media" class="menu__link menu__link">Media</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/blogs/blog-briefing-room" class="menu__link menu__link">Briefing Room</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/latino" class="menu__link menu__link">Latino</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/homenews/1230-report" class="menu__link menu__link">12:30 Report</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/homenews/coronavirus-report" class="menu__link menu__link">Coronavirus Report</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/blogs/floor-action" class="menu__link menu__link">Floor Action</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/blogs/in-the-know" class="menu__link menu__link">In The Know</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/homenews/sunday-talk-shows" class="menu__link menu__link">Sunday Talk Shows</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/" class="menu__link menu__link">More</a></li>
-</ul>
-</div>
-<div id="block-menu-menu-policy-menu" class="block block-menu even" role="navigation">
-
-        <h2 class="block__title block-title">Policy</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/policy/defense" class="menu__link menu__link">Defense</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/energy-environment" class="menu__link menu__link">Energy &amp; Environment</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/finance" class="menu__link menu__link">Finance</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/healthcare" class="menu__link menu__link">Healthcare</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/technology" class="menu__link menu__link">Technology</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/international" class="menu__link menu__link">International</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/transportation" class="menu__link menu__link">Transportation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/cybersecurity" class="menu__link menu__link">Cybersecurity</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/policy/national-security" class="menu__link menu__link">National Security</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/policy" class="menu__link menu__link">More</a></li>
-</ul>
-</div>
-<div id="block-menu-menu-video" class="block block-menu odd" role="navigation">
-
-        <h2 class="block__title block-title">Video</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/video/hilltube" class="menu__link menu__link">Latest</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/defense" class="menu__link menu__link">Defense</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/energy-environment" class="menu__link menu__link">Energy &amp; Environment</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/finance" class="menu__link menu__link">Finance</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/healthcare" class="menu__link menu__link">Healthcare</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/technology" class="menu__link menu__link">Technology</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/transportation" class="menu__link menu__link">Transportation</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/international" class="menu__link menu__link">International</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/cybersecurity" class="menu__link menu__link">Cybersecurity</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/national-security" class="menu__link menu__link">National Security</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/sunday-shows" class="menu__link menu__link">Sunday Shows</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/video/events" class="menu__link menu__link">Events</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/hill-tube" class="menu__link menu__link">More</a></li>
-</ul>
-</div>
-<div id="block-menu-menu-opinion" class="block block-menu last even" role="navigation">
-
-        <h2 class="block__title block-title">Opinion</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/opinion/columnists/brent-budowsky" class="menu__link menu__link">Brent Budowsky</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/opinion/columnists" class="menu__link menu__link">Columnists</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/blogs/congress-blog" class="menu__link menu__link">Congress Blog</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/blogs/pundits-blog" class="menu__link menu__link">Contributors</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/opinion" class="menu__link menu__link">More</a></li>
-</ul>
-</div>
-  </div>
-      <div class="region region-bottom-column2">
-    <div id="block-menu-menu-anchor-menu" class="block block-menu first odd" role="navigation">
-
-        <h2 class="block__title block-title">TheHill.com</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/privacy-policy" class="menu__link menu__link">Privacy Policy</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/terms-and-conditions" class="menu__link menu__link">Terms &amp; Conditions</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/contact" class="menu__link menu__link">Contact</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/contact/subscriptions" class="menu__link menu__link">Subscriptions</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/contact/advertise" class="menu__link menu__link">Advertise</a></li>
-</ul>
-</div>
-<div id="block-menu-menu-resources" class="block block-menu even" role="navigation">
-
-        <h2 class="block__title block-title">Resources</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/hill-apps" class="menu__link menu__link">The Hill Apps</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/people/" class="menu__link menu__link">People</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/resources/rss-feeds" class="menu__link menu__link">RSS</a></li>
-</ul>
-</div>
-<div id="block-menu-menu-menu-contributors" class="block block-menu odd" role="navigation">
-
-        <h2 class="block__title block-title">Contributors</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first last leaf depth-1"><a href="/contributor-application-form" class="menu__link menu__link">Become a Contributor</a></li>
-</ul>
-</div>
-<div id="block-menu-menu-contact-us" class="block block-menu last even" role="navigation">
-
-        <h2 class="block__title block-title">Other Areas</h2>
-    
-  <ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-1"><a href="/special-reports/special-reports" class="menu__link menu__link">Special Reports</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/galleries" class="menu__link menu__link">Galleries</a></li>
-<li class="menu__item is-leaf menu__item is-leaf leaf depth-1"><a href="/classifieds" class="menu__link menu__link">Classifieds</a></li>
-<li class="menu__item is-leaf menu__item is-leaf last leaf depth-1"><a href="/resources/classifieds/employer" class="menu__link menu__link">Jobs</a></li>
-</ul>
-</div>
-  </div>
-    <div class="clearer"></div>
-    <div class="copyright-wrp">
-        <div class="region region-copyright">
-    <div id="block-thehill-blocks-copyright" class="block block-thehill-blocks first odd">
-
-      
-  <p>The Hill 1625 K Street, NW Suite 900 Washington DC 20006 | 202-628-8500 tel | 202-628-8503 fax</p><p>The contents of this site are &copy;2020 Capitol Hill Publishing Corp., a subsidiary of News Communications, Inc.</p>
-</div>
-<div id="block-dfp-new-1x1-asynch" class="block block-dfp even">
-
-      
-  <div id="dfp-ad-new_1x1_asynch-wrapper" class="dfp-tag-wrapper"><!-- dfp_tag.tpl.php -->
-<a href="#" class="hide_overlay"></a>
-<div  id="dfp-ad-new_1x1_asynch" class="dfp-inner">
-  <script type="text/javascript">
-    googletag.cmd.push(function() {
-      googletag.display("dfp-ad-new_1x1_asynch");
-    });
-  </script>
-</div>
-
-</div>
-</div>
-<div id="block-dfp-1x1-oop" class="block block-dfp odd">
-
-      
-  <div id="dfp-ad-1x1_oop-wrapper" class="dfp-tag-wrapper"><!-- dfp_tag.tpl.php -->
-<a href="#" class="hide_overlay"></a>
-<div  id="dfp-ad-1x1_oop" class="dfp-inner">
-  <script type="text/javascript">
-    googletag.cmd.push(function() {
-      googletag.display("dfp-ad-1x1_oop");
-    });
-  </script>
-</div>
-  <div id="dfp-ad-1x1_oop-oop" class="dfp-tag-wrapper">
-    <script type="text/javascript">
-      googletag.cmd.push(function() {
-        googletag.display("dfp-ad-1x1_oop-oop");
-      });
-    </script>
-  </div>
-
-</div>
-</div>
-<div id="block-block-70" class="block block-block last even">
-
-      
-  <style>
- #do-not-sell-button {
-padding-top: 15px;margin-left: 0px; width: 100%;padding-bottom: 15px;
-}
-@media only screen and (min-width:768px) {
- #do-not-sell-button {
-margin-left: -150px;
-}	
-}
+.a2a_svg { border-radius: 0 !important; }
 </style>
-<div id="do-not-sell-button"></div>
-    
+<link rel='stylesheet' id='grid-css'  href='https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/thesis/skins/k1/style.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='https://www.counterpunch.org/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.counterpunch.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.counterpunch.org%2F2019%2F04%2F16%2Ftalking-trash-unfortunate-truths-about-recycling%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.counterpunch.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.counterpunch.org%2F2019%2F04%2F16%2Ftalking-trash-unfortunate-truths-about-recycling%2F&#038;format=xml" />
+
+<script data-cfasync="false">
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+a2a_config.templates.twitter = "${title} ${link} by @NatCounterPunch";
+(function(d,s,a,b){a=d.createElement(s);b=d.getElementsByTagName(s)[0];a.async=1;a.src="https://static.addtoany.com/menu/page.js";b.parentNode.insertBefore(a,b);})(document,"script");
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body.front-page {box-sizing: border-box;}
+body.front-page img {max-width: 100%; display: block;}
    
-</div>
-  </div>
-    </div>
-  </div>
-</div>
-    <div class="region region-page-bottom">
-    <script type="text/javascript">
-  var _sf_async_config=Drupal.settings.chartbeat;
-  _sf_async_config.sections = "News, News - Senate";
-  _sf_async_config.authors = "Alexander Bolton";
-  _sf_async_config._demo = "publish_date=2020-04-15,editor=Linda Petre";
-  (function(){
-    function loadChartbeat() {
-      window._sf_endpt=(new Date()).getTime();
-      var e = document.createElement('script');
-      e.setAttribute('language', 'javascript');
-      e.setAttribute('type', 'text/javascript');
-      e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
-      document.body.appendChild(e);
-    }
-    var oldonload = document.ready;
-    document.ready = (typeof document.ready != 'function') ?
-       loadChartbeat : function() { oldonload(); loadChartbeat(); };
-  })();
-</script><!-- Begin comScore Tag -->
-          <script>
-            var _comscore = _comscore || [];
-            _comscore.push({"c1":"2","c2":"10314615","c3":"","c4":"https:\/\/thehill.com\/homenews\/senate\/492832-democrats-try-to-force-mcconnells-hand","c5":"","c6":"","c15":""});
-            (function() {
-              var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-              s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-              el.parentNode.insertBefore(s, el);
-            })();
-          </script>
-          <noscript>
-            <img src="https://sb.scorecardresearch.com/p?c1=2&c2=10314615&c3=&c4=https%3A//thehill.com/homenews/senate/492832-democrats-try-to-force-mcconnells-hand&c5=&c6=&c15=&cv=2.0&cj=1" />
-          </noscript>
-      <!-- End comScore Tag --><script type="text/javascript" async="async" src="//widgets.outbrain.com/outbrain.js"></script><!--START Lightbox Javascript-->
-<script type="text/javascript">
-    /*<![CDATA[*/ window.lightboxjs || function (c) { function g(b, d) { d && (d += (/\?/.test(d) ? "&" : "?") + "lv=1"); c[b] || function () { var i = window, h = document, j = b, g = h.location.protocol, l = "load", k = 0; (function () { function b() { a.P(l); a.w = 1; c[j]("_load") } c[j] = function () { function m() { m.id = e; return c[j].apply(m, arguments) } var b, e = ++k; b = this && this != i ? this.id || 0 : 0; (a.s = a.s || []).push([e, b, arguments]); m.then = function (b, c, h) { var d = a.fh[e] = a.fh[e] || [], j = a.eh[e] = a.eh[e] || [], f = a.ph[e] = a.ph[e] || []; b && d.push(b); c && j.push(c); h && f.push(h); return m }; return m }; var a = c[j]._ = {}; a.fh = {}; a.eh = {}; a.ph = {}; a.l = d ? d.replace(/^\/\//, (g == "https:" ? g : "http:") + "//") : d; a.p = { 0: +new Date }; a.P = function (b) { a.p[b] = new Date - a.p[0] }; a.w && b(); i.addEventListener ? i.addEventListener(l, b, !1) : i.attachEvent("on" + l, b); var q = function () { function b() { return ["<head></head><", c, ' onload="var d=', n, ";d.getElementsByTagName('head')[0].", d, "(d.", g, "('script')).", i, "='", a.l, "'\"></", c, ">"].join("") } var c = "body", e = h[c]; if (!e) return setTimeout(q, 100); a.P(1); var d = "appendChild", g = "createElement",
-    i = "src", k = h[g]("div"), l = k[d](h[g]("div")), f = h[g]("iframe"), n = "document", p; k.style.display = "none"; e.insertBefore(k, e.firstChild).id = o + "-" + j; f.frameBorder = "0"; f.id = o + "-frame-" + j; /MSIE[ ]+6/.test(navigator.userAgent) && (f[i] = "javascript:false"); f.allowTransparency = "true"; l[d](f); try { f.contentWindow[n].open() } catch (s) { a.domain = h.domain, p = "javascript:var d=" + n + ".open();d.domain='" + h.domain + "';", f[i] = p + "void(0);" } try { var r = f.contentWindow[n]; r.write(b()); r.close() } catch (t) { f[i] = p + 'd.write("' + b().replace(/"/g, String.fromCharCode(92) + '"') + '");d.close();' } a.P(2) }; a.l && q() })() }(); c[b].lv = "1"; return c[b] } var o = "lightboxjs", k = window[o] = g(o); k.require = g; k.modules = c }({}); /*]]>*/</script><script type="text/javascript">window.lightboxlib = lightboxjs.require("lightboxlib", "//www.lightboxcdn.com/vendor/ee48a214-dcd9-4d76-af7b-dd194f9094db/lightbox.js?mb=" + (new Date().getTime()));</script>
-<!--END Lightbox Javascript-->
-
-<script>
-if(typeof(ga) !== 'undefined') {
-  jQuery('.hill-tv').on('click', function(e) {
-    ga('send', 'event', 'HillTVTopNav', 'click', e.currentTarget.pathname);
-  });
-
-  jQuery('#main-menu img').on('click', function(e) {
-    ga('send', 'event', 'HillTVTopNavShowImg', 'click', e.currentTarget.currentSrc);
-  });
-jQuery('document').ready(function() {
-    jQuery('#block-mostpopular-1').on('click', '#thehill-mostpopular-block li a', function(e) {
-      var meta = 'index-';
-      try {
-        meta = meta + e.currentTarget.parentElement.parentElement.previousElementSibling.innerHTML;
-      } catch(error) {
-        console.log(error);
-      }
-      ga('send', 'event', 'MostPopularItem', 'click', meta);
-    });
-    if(jQuery('#block-views-articles-articles-just-in').length) {
-        jQuery('#block-views-articles-articles-just-in').on('click', '#block-views-articles-articles-just-in li', function(e) { 
-            var justInMeta = 'index-';
-            try {
-                var regex = /\d+/g;
-                var matches = e.currentTarget.className.match(regex); 
-                justInMeta = justInMeta + matches[0];
-            } catch(e) {
-                console.log(e);
-            }
-            ga('send', 'event', 'JustInItemClick', 'click', justInMeta);
-        });
-    }
-  });
-
-  if(typeof(pbjs) !== "undefined" && typeof(pbjs.version) === "undefined") {
-    ga('send', 'event', 'Ad Setting', 'Adblock', 'Enabled');
-  }
+body.front-page .listing li {
+  border: 1px solid #dd0000;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
 }
-</script>
-
-<script>
-if(typeof(ga) !== 'undefined') {
-  jQuery('.hill-tv-video-widget a').on('click', function(e) {
-    ga('send', 'event', 'HillTVVideoWidget', 'click', e.currentTarget.pathname);
-  });
+body.front-page .listing .cta {
+  margin-top: auto;
+  border-top: 1px solid #dd0000;
+  padding: 10px;
+  text-align: center;
 }
-setTimeout(function() {
-	 ga('send', 'event', 'AutoRefresh', 'refreshed', document.URL);
-}, 2640000);
-</script>  </div>
-<script>
-    var param = (new URL(window.location)).searchParams;
-    var uid = param.get("userid");
-    uid = uid === null ? "" : uid;
+body.front-page .listing .body {
+  padding: 0px;
+}
+body.front-page .listing {
+  list-style: none;
+  margin: 1em;
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+}
+body.front-page .listing .wide {
+  grid-column-end: span 2;
+}
 
-    var dataLayer = {
-      "page": {
-        "author": "Alexander Bolton",
-        "section": "News, News - Senate",
-        "keywords": "Coronavirus,Mitch McConnell, Charles Schumer, Steven Mnuchin, Thomas Massie, Anthony Brown, Larry Kudlow, Nancy Pelosi, Donald Trump, Ben Cardin, Rand Paul, Mike Lee,"
-      },
-      "user": {
-        "userid" : uid
-      }
-    };
-</script>
-<script>  var disqus_shortname = 'thehill-v4';
-  (function () {
-      var s = document.createElement('script'); s.async = true;
-      s.type = 'text/javascript';
-      s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-  }());</script>
-<script>    (function() {
-        var initVars = {"nid":"492832","video_id":"3jXBCGQe","playlist_id":null,"sticky_enabled":1,"hilltv_sticky_enabled":1,"moat_id":"thehilljwint238875905177","comscore_id":"10314615","share_url":"https:\/\/thehill.com\/homenews\/senate\/492832-democrats-try-to-force-mcconnells-hand","midroll_tag":"https:\/\/pubads.g.doubleclick.net\/gampad\/live\/ads?sz=640x360\u0026iu=\/1107919\/Hill_TV_640x360_comp_midroll\u0026ciu_szs=300x250\u0026impl=s\u0026gdfp_req=1\u0026env=vp\u0026output=vast\u0026unviewed_position_start=1\u0026url=[referrer_url]\u0026description_url=__page-url__\u0026correlator=[timestamp]\u0026cust_params=Ad_breaks%3D__item-tags__","bid_timout":"1500"};
-        if (typeof(pbjs.version) === "undefined" || typeof(videoAdUnit) !== "object") {
-          initializePlayerInstance(initVars);
-        } else {
-          if(pbjs.adserverRequestSent) {
-            initializePlayerInstance(initVars);
-          } else {
-            setTimeout(function(){
-              initializePlayerInstance(initVars);
-            }, 500);
-          }
-        }
-    })();</script>
-<script>    (function($) {
-      Drupal.behaviors.taboolarightrail= {
-        attach: function(context) {
-          window._taboola = window._taboola || [];
-          if (jQuery('div.taboola-right-rail:last').is(':empty')) {
-            _taboola.push({mode:'organic-thumbnails-rr', container: jQuery('div.taboola-right-rail:last').attr('id'), placement: 'Right Rail Thumbnails', target_type: 'mix'});
-          }
-        }
-      };
-    })(jQuery);</script>
-<script>    (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=566538590082898&version=v2.9";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-  <div id="fb-root"></div>
-  <script src="//platform.twitter.com/widgets.js"></script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"962df17ac8","applicationID":"409941798","transactionName":"YwRXYBQFWhEEUUYNV1pOdFcSDVsMSlxdAF1rEVRTAztCCwBF","queueTime":0,"applicationTime":713,"atts":"T0NUFlwfSR8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+.ml-rc-link {
+    background-color: black;
+}
+		</style>
+		<link rel="preload" href="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/plugins/add-to-any/addtoany.min.js" as="script">
+<link rel="preload" href="https://a.opmnstr.com/app/js/api.min.js" as="script">
+<link rel="preload" href="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-includes/js/wp-embed.min.js" as="script">
+</head>
+<body class="template-single post-template-default single single-post postid-110865 single-format-standard">
+		<div id="header_area" class="container">
+			<div class="wrap row">
+<div id="image_header_1" class="text_box five columns">
+	<a href="https://www.counterpunch.org"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2015/06/cp5.png"/></a>
+</div>
+<div id="right_header_box" class="text_box">
+	<a href="https://store.counterpunch.org/subscribe/"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/11/Screen-Shot-2019-11-05-at-9.39.46-AM-e1572976279559.png"></a>
+</div>
+<div id="menu_wrap" class="twelve columns">
+	<ul id="menu-main2" class="menu"><li id="menu-item-63180" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-63180"><a href="https://www.counterpunch.org">Home</a></li>
+<li id="menu-item-66952" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-66952"><a href="https://www.counterpunch.org/articles/">Articles</a>
+<ul class="sub-menu">
+	<li id="menu-item-67047" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-67047"><a href="https://www.counterpunch.org/articles/">Recent Articles</a></li>
+</ul>
+</li>
+<li id="menu-item-73673" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-73673"><a href="https://store.counterpunch.org/back-issues/">Magazine</a>
+<ul class="sub-menu">
+	<li id="menu-item-73676" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-73676"><a href="https://store.counterpunch.org/current-issue/">Current Issue</a></li>
+	<li id="menu-item-68715" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-68715"><a href="https://store.counterpunch.org/back-issues/">Back Issues</a></li>
+	<li id="menu-item-83712" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83712"><a href="https://store.counterpunch.org/subscribe">Subscribe</a></li>
+	<li id="menu-item-85481" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85481"><a href="https://store.counterpunch.org/back-issues-subscriber-access/">Subscriber Access</a></li>
+</ul>
+</li>
+<li id="menu-item-63162" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-63162"><a href="https://store.counterpunch.org/subscribe">Subscribe</a></li>
+<li id="menu-item-63163" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-63163"><a href="https://store.counterpunch.org/">Donate</a></li>
+<li id="menu-item-57999" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-57999"><a href="https://www.counterpunch.org/archives/">Archives</a>
+<ul class="sub-menu">
+	<li id="menu-item-79410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79410"><a href="https://www.counterpunch.org/search-authors/">Search Authors</a></li>
+</ul>
+</li>
+<li id="menu-item-72555" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-72555"><a href="https://www.counterpunch.org/about/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-66975" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-66975"><a href="https://visitor.r20.constantcontact.com/manage/optin/ea?v=001LCajc7xp4KNJq_OKmN7MPQ%3D%3D">JOIN LIST</a></li>
+	<li id="menu-item-110148" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110148"><a href="https://www.counterpunch.org/privacy-policy/">Privacy Policy</a></li>
+</ul>
+</li>
+<li id="menu-item-63164" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-63164"><a href="https://store.counterpunch.org/product-category/books/">Books</a>
+<ul class="sub-menu">
+	<li id="menu-item-63165" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-63165"><a href="https://store.counterpunch.org/product-category/merchandise/">T-shirts</a></li>
+</ul>
+</li>
+<li id="menu-item-71299" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71299"><a href="https://store.counterpunch.org/category/counterpunch-radio-podcasts/">podcasts</a></li>
+<li id="menu-item-58006" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58006"><a href="https://www.counterpunch.org/faqs/">FAQs</a></li>
+</ul>
+</div>
+			</div>
+		</div>
+<div id="content_area" class="container">
+	<div id="outside_wrap">
+		<div id="social-scrolling-box" class="widget_a2a_share_save_widget">
+<div class="widget widget_a2a_share_save_widget fixed-social" id="a2a_share_save_widget-2"><div class="a2a_kit a2a_kit_size_ addtoany_list"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fwww.counterpunch.org%2F2019%2F04%2F16%2Ftalking-trash-unfortunate-truths-about-recycling%2F&amp;linkname=Talking%20Trash%3A%20Unfortunate%20Truths%20About%20Recycling%20-%20CounterPunch.org" title="Facebook" rel="nofollow noopener" target="_blank"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2015/09/facebook.png" alt="Facebook"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fwww.counterpunch.org%2F2019%2F04%2F16%2Ftalking-trash-unfortunate-truths-about-recycling%2F&amp;linkname=Talking%20Trash%3A%20Unfortunate%20Truths%20About%20Recycling%20-%20CounterPunch.org" title="Twitter" rel="nofollow noopener" target="_blank"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2015/09/twitter.png" alt="Twitter"></a><a class="a2a_button_reddit" href="https://www.addtoany.com/add_to/reddit?linkurl=https%3A%2F%2Fwww.counterpunch.org%2F2019%2F04%2F16%2Ftalking-trash-unfortunate-truths-about-recycling%2F&amp;linkname=Talking%20Trash%3A%20Unfortunate%20Truths%20About%20Recycling%20-%20CounterPunch.org" title="Reddit" rel="nofollow noopener" target="_blank"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2015/09/reddit.png" alt="Reddit"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fwww.counterpunch.org%2F2019%2F04%2F16%2Ftalking-trash-unfortunate-truths-about-recycling%2F&amp;linkname=Talking%20Trash%3A%20Unfortunate%20Truths%20About%20Recycling%20-%20CounterPunch.org" title="Email" rel="nofollow noopener" target="_blank"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2015/09/email.png" alt="Email"></a></div></div>		</div>
+		<div id="content_box" class="wrap row">
+			<div id="content" class="nine columns">
+				<div id="post-110865" class="post_box top post type-post status-publish format-standard category-articles-2015 category-leading-article" itemscope itemtype="https://schema.org/Article">
+					<link href="https://www.counterpunch.org/2019/04/16/talking-trash-unfortunate-truths-about-recycling/" itemprop="mainEntityOfPage" />
+					<meta itemprop="datePublished" content="2019-04-16" />
+					<meta itemprop="dateModified" content="2019-04-13" />
+					<span class="post_date" title="2019-04-16">April 16, 2019</span>
+					<h1 class="headline" itemprop="headline"><a href="https://www.counterpunch.org/2019/04/16/talking-trash-unfortunate-truths-about-recycling/" rel="bookmark">Talking Trash: Unfortunate Truths About Recycling</a></h1>
+					<span class="post_author_intro">by</span> <span class="post_author" itemprop="author"><a href="https://www.counterpunch.org/author/geoff-dutton/" rel="nofollow">Geoff Dutton</a></span>
+<div class="socialtwo"><div class="a2a_kit a2a_kit_size_32 a2a_default_style left-social" data-a2a-icon-color="unset">
+  <a class="a2a_button_facebook"></a>
+ <a class="a2a_button_twitter"></a>
+<a class="a2a_button_reddit"></a>
+<a class="a2a_button_email"></a>
+<a href="https://www.counterpunch.org/2019/04/16/talking-trash-unfortunate-truths-about-recycling/print/" rel="nofollow" title="Print This Post" class="print-icon"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2017/09/atoa-print-icon.png"/></a>
+</div>
+</div>   					<div class="post_content" itemprop="articleBody">
+<img class="alignnone size-large wp-image-110866" src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/04/curbside-pickup_2-510x383.jpg" alt="" width="510" height="383" srcset="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/04/curbside-pickup_2.jpg 510w, https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/04/curbside-pickup_2-300x225.jpg 300w" sizes="(max-width: 510px) 100vw, 510px" />
+<p>Americans have come to embrace recycling their trash with an almost religious fervor, but in some sense they are praying to a false god. In the quarter-century over which its acolytes have swelled, recycling has almost come full circle, from near total indifference all the way around to near total impossibility. In between, and especially over the past couple of years, just when many localities had seen the light, their recycling efforts started bogging down. It wasn’t just that China banned imports of raw recyclables from the US in early 2018, although that was a wallop that the industry hasn’t recovered from. A 2018 <a href="https://ecology.wa.gov/Waste-Toxics/Reducing-recycling-waste/China-s-recycling-ban">report</a> from the Washington State Ecology Department notes:</p>
+<blockquote><p>China is the largest consumer of North American recyclables. One-third of all scrap material collected in the U.S. is shipped overseas, with the large majority going to China. In 2016, the U.S. exported $5.6 billion in scrap commodities to China. This makes recyclable materials the sixth largest U.S. export to China.<a href="applewebdata://95A957F9-E208-436A-AF31-8B3D3D04652A#_edn1" name="_ednref1"><sup>[1]</sup></a></p></blockquote>
+<p>The prime reason China gave for rejecting American trash was that its valuable plastics were laced with non-recyclable contaminants. This was true, and I’ll talk about why, but Trump’s tariffs and geopolitical rivalry probably made it happen when it did. Regardless, even had China not shut that door, we would still be in a tizzy over how to make our vast waste stream go away. Americans simply buy and toss too much stuff and their expectations that it will all be magically disposed of properly simply don’t jibe with reality.</p>
+<p>When I first lobbied for recycling more household waste in the 1980s, few types of rubbish could be handled by recycling facilities—if you or your department of public works could find one. A lot has changed for the better since then. <a href="https://global-recycling.info/archives/2172">According</a>to the economic consulting firm John Dunham &amp; Associates, by 2017 the US recycling industry had an economic impact of $117 billion and directly or indirectly employed more than 534,500 workers to collect, haul, process, and furnish facilities, equipment, transportation, and supplies.<a href="applewebdata://95A957F9-E208-436A-AF31-8B3D3D04652A#_edn2" name="_ednref2"><sup>[2]</sup></a>But how can we tell if that money is well spent, how well are towns, cities, states, and the industry handling all the stuff we keep throwing out, and what’s a citizen-consumer to do about it?</p>
+<p>Last year, our town just west of Boston switched solid waste vendors to boost trash collection to new heights of automation. Within a month, its new contractor had distributed two massive two-wheeled receptacles to every household: a black one with a 64-gallon capacity for garbage, and a bigger blue 96-gallon one—large enough to stuff a couple of non-dismembered bodies into — for recyclables. The town instructed residents to wheel out their carts and line them along the curb on pickup day, front facing the street, with lids closed. Citizens dutifully obey, emplacing the sturdy sentinels to form temporary no-parking zones. And in winter, when snow mounds up over curbs, the carts make driving along narrow streets even more of a slalom.</p>
+<p>My household’s carts are rarely more than a quarter full. As they are a pain to rumble out to the curb, I’m sometimes tempted to deposit our one or two waste bags in a neighbor’s cart. But that somehow feels more transgressive that it should, and, as many residents top theirs off and some keep going, there might not be room in it. It’s hard to imagine how one family can possibly generate that much solid waste, but a lot of them do. Overflowing carts are officially prohibited, but they get emptied anyway, with occasional spillage for critters to root through.</p>
+<p>Trash gets picked up every week; recycling every other week on the same day. Two sets of towering garbage trucks lumber through the streets with retractable robot arms that grasp one-inch-thick steel bars on the bins to tip them into their hoppers, and then set the empties down with a resounding thud. As the new carts plus contents are too heavy for most mortals to lift, the robots are necessary. And, whereas each truck formerly had a driver plus one or two sanitation workers to pick up and empty our old trash barrels, now only the drivers remain. Even aided by cameras and other sensors to deploy the arms, the driver has more to do than before, and the workers that formerly rode with them are ostensibly looking for jobs, perhaps repairing robots.</p>
+<p>The new receptacles are unwieldy, hulking eyesores that clog curbs and take up more space to stow than the barrels they replaced, which either now clutter yards and driveways or were pitched into the waste stream. The new bins’ greater capacity encourages residents to consume more stuff and, being free, deprive stores that sell trash barrels of accustomed revenues, their distant supplier having cut out those middlemen. On the plus side, we now have single-stream recycling, meaning we can chuck all our recyclable items, whether paper, glass, metal, or plastic, into the same bin. No more sorting conundrums like “Does this juice carton go with paper or plastic?” Nonetheless, such convenience comes at a price.</p>
+<p>After decades of nagging by environmental pressure groups and citizen activists, the public and municipal officials are starting to get real—even enthusiastic—about recycling. The same forces have pressured consumer product companies, food processors, and food vendors to adopt more environmentally friendly practices, with some success. But while less waste goes to waste than used to, much of it—particularly plastics—poses difficult challenges to recyclers as the composition of the waste stream and demand for recycled materials have changed.</p>
+<p>Take paper products: Thanks mainly to electronic documents and drastic declines in newspaper readership, there’s a lot less recyclable paper being tossed out and less demand for it. Also, the supply of corrugated cardboard (think home delivery detritus) keeps growing. Cardboard can be transformed into more of the same and building materials. For paper, less consumption means a smaller or stagnant market for recycled paper fiber. As waste paper becomes less valuable, fewer recycling haulers want to handle it, and those that do may charge municipalities more for the privilege.</p>
+<p>Increasingly replaced by plastic ones, fewer glass bottles and jars are being discarded. Their affixed labels make them unsuitable for remanufacturing, so most get get pulverized for mixing into concrete and asphalt, but that product isn’t very profitable. Too, the plastic containers superseding them keep getting flimsier. Many are made of lower-grade resin that isn’t economical to recycle into other products. And because they are so much lighter, a ton of them (the unit of measure for valuing most recyclable materials) takes up way more space than glass, metal, or paper, decreasing the tonnage and thus the value of a truckload of baled plastic. Many containers are made of PET (polyethylene terephthalate, a clear polyester resin, also made into plastic sheets and films). Despite possibly leaching endocrine-disrupting chemicals, the more rigid PET containers are sought-after recyclables. However, for PET to be eligible for remanufacturing, flimsy lower-grade containers must first be separated out. As triaging PET is labor-intensive, many processing facilities don’t bother to, prompting some of China’s complaints.</p>
+<p>To discover which type of plastic you are about to toss, you should refer to its resin code, fuzzily embossed within a triangle on container bottoms (keep a magnifier handy). But bearing such a brand doesn’t necessarily mean an item is recyclable. That totally depends on whether the recycling facility your trash gets sent to accepts that code, which isn’t generally easy to know (ask your local DPW.) Here’s a cheat sheet that identifies the seven most common resins, what they are used for, and what types of products they can be recycled into. PET’s code number is one.</p>
+<div id="attachment_110867" style="width: 478px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-110867" class="wp-image-110867 size-full" src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/04/7-resin-codes.jpg" alt="" width="468" height="468" srcset="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/04/7-resin-codes.jpg 468w, https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/04/7-resin-codes-150x150.jpg 150w, https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/04/7-resin-codes-300x300.jpg 300w" sizes="(max-width: 468px) 100vw, 468px" /><p id="caption-attachment-110867" class="wp-caption-text"><em>Seven resin codes.</em></p></div>
+<p>Confounding this regime, many containers for food and consumer products imported from abroad don’t carry resin identifiers, puzzling diligent consumers and complicating their recycling. In addition, many foods now come in even lighter packaging, such as thin-film pouches. Think about potato chips, which once came in wax or coated paper bags; now many are sealed in metalized Mylar (PET) pouches. While they create less waste, pouches aren’t a win for recyclers because there’s less substance to make new things out of and what there is may consist of compound materials that can’t be economically separated. And so, much packaging gets buried or burned. In a landfill, its half-life is measured in centuries. Combusted in a furnace, it fills the air we breathe with all sorts of exciting compounds. And even if recyclable, many plastics expose humans to allergens, immune suppressants, endocrine disruptors, and carcinogens with effects such as adiposity, insulin resistance, and decreased levels of sex hormones, harming children most of all.<a href="applewebdata://95A957F9-E208-436A-AF31-8B3D3D04652A#_edn3" name="_ednref3"><sup>[3]</sup></a></p>
+<p>Those nice heavy-duty black takeout food containers—and in fact all black plastics—aren’t recyclable, by the way. Even though most are PET, as sturdy as they may be, they end up in landfills because the spectral scanners that inform automate sorting machines can’t see into them to determine what they’re made of. If you are presented with one, feel free to wash and reuse it and request that the vendor switch to paper containers like Chinese food boxes. Being plastic-coated, they aren’t recyclable either, but at least they aren’t completely plastic.</p>
+<p>And then there is food wrap, lightweight plastic grocery and produce bags, bubble wrap, and those puffy little pillows that you find nestled in delivery parcels that get thrown or blown into oceans and waterways, strangling or immobilizing marine animals. Nearly nine million tons of plastics enter the world’s oceans every year, much of which nature has kindly accumulated in five giant garbage patches around the planet, as The National Oceanic and Atmospheric Administration (NOAA) and others have reported. The largest of these, the <em>Great Pacific Garbage Patch</em>between Hawaii and the US mainland, is the size of France. Nonprofit organization <a href="https://www.theoceancleanup.com/great-pacific-garbage-patch/">The Ocean Cleanup</a><a href="applewebdata://95A957F9-E208-436A-AF31-8B3D3D04652A#_edn4" name="_ednref4"><sup>[4]</sup></a>explains that, over time, plastic items degrade into tiny motes of “microplastic” that marine organisms ingest and pass up the food chain, eventually to people.</p>
+<p>Plastic bags aren’t suitable for recycling but many are disposed of as if they were, along with flimsy, clear clam-shell produce containers and crinkly beverage bottles—all low-grade materials that can’t be given a new life, despite being labeled with an acceptable resin number. They must be separated at the plant to prevent grinders from seizing up and reusable byproducts from being polluted. Given China’s trash embargo, there is room for improvement.</p>
+<p>To add to our confusion, different localities have varying rules governing what materials are accepted for recycling. You might be told not to recycle glassware along with bottles. Lids may or may not need to be removed from bottles and jars. Tinfoil, egg cartons, or empty pill bottles may or may not be accepted. Certain resin identifiers may be excluded, as may small metal items and scraps, but not cans.<a href="https://www.eastbayexpress.com/oakland/the-problems-with-bioplastics/Content?oid=22699508">According</a>to the East Bay Express, even so-called “compostable bioplastic” containers, tableware, and utensils are likely to be unwanted. Sadly, although made from plant material such as starch, chitin, and sugar cane, they won’t degrade in your compost heap; it takes processing plants with high-temperature digesters to break them down, but once tossed into the waste stream they are rarely rescued. Same for compostable clear bioplastics made with PLA (polylactic acid, identified by a green stripe). Most consumers blithely recycle them along with petroleum-based plastics. If recyclers can’t sort them out, the batch is apt to be declared contaminated and sent to a landfill.<a href="applewebdata://95A957F9-E208-436A-AF31-8B3D3D04652A#_edn5" name="_ednref5"><sup>[5]</sup></a></p>
+<p>There’s a long way to go. Despite a leveling off of per-capita waste creation, our total waste production continues to climb:</p>
+<img class="alignnone size-large wp-image-110868" src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/04/TotalWasteGeneration-510x308.jpg" alt="" width="510" height="308" srcset="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/04/TotalWasteGeneration.jpg 510w, https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/04/TotalWasteGeneration-300x181.jpg 300w, https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/04/TotalWasteGeneration-768x463.jpg 768w" sizes="(max-width: 510px) 100vw, 510px" />
+<p>For further inconvenient facts and figures on recycling in the US, though not the most up-to-date, see <a href="https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling"><em>Advancing Sustainable Materials Management: 2015</em></a>, a publication by the EPA that quantifies trends in material generation and disposal methods between 1960 and 2015.<a href="applewebdata://95A957F9-E208-436A-AF31-8B3D3D04652A#_edn6" name="_ednref6"><sup>[6]</sup></a>Among other things, it reveals that paper products by far have the highest rate of recycling: 66 percent, by weight, in 2015. The worst? Plastic, at 9.1 percent, as this chart (courtesy of <a href="https://thetechnoskeptic.com/">The Technoskeptic</a>) shows.</p>
+<img class="alignnone size-large wp-image-110870" src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/04/WasteChart-510x393.jpg" alt="" width="510" height="393" srcset="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/04/WasteChart.jpg 510w, https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/04/WasteChart-300x231.jpg 300w, https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/04/WasteChart-768x591.jpg 768w" sizes="(max-width: 510px) 100vw, 510px" />
+<p>See also the <a href="https://www.waste360.com/waste-reduction/14-charts-epa-s-latest-msw-estimates">Waste360 website</a><a href="applewebdata://95A957F9-E208-436A-AF31-8B3D3D04652A#_edn7" name="_ednref7"><sup>[7]</sup></a> for many interactive graphics depicting what gets recycled and what doesn’t.</p>
+<p style="text-align: center;">* * *</p>
+<p>You wanna help? Bring reusable bags with you when you shop. Top off a durable water bottle with filtered tap water and take it with you when you leave home. Don’t buy bottled water or any beverage in flimsy bottles. (In any event, bottled water costs more per gallon than gasoline and may not be all that pure.) Tell your grocer you want to take home produce in paper bags or cardboard containers, not those clear plastic ones that are so hard to wrench open and whose future uses are limited to growing seedlings. Better yet, bring reusable produce bags with you when you shop. Also, ask the meat counter to wrap meat, poultry and fish in paper rather than put them out shrink-wrapped polystyrene trays, or at least to dispense with the trays.</p>
+<p>Buy beer and soda in cans or glass bottles. Lobby for “bottle bills” that require deposits on drink containers and for bans on disposable plastic grocery bags. Bring your own mugs to cafés and invest in a few metal straws. Compost food scraps and dispose of what you can’t in paper sacks rather than in plastic garbage bags whose sole mission is to be buried or burned. If you’re an apartment dweller, advocate for a municipal composting program to divert food scraps from landfills to community gardens.</p>
+<p>And when you need durable goods, find used appliances, furniture, clothes, and electronics on Craigslist or Freecycle or at rummage sales. Ten of my 12 cars were pre-owned. Each one avoided the junkyard for up to ten years and helped keep my auto mechanic in business. Join environmental groups working in your area to reduce the waste steam and ban stuff like Styrofoam containers, plastic bags, cutlery, and straws.</p>
+<p>Good progress is being made in banning or cutting down on non-reusable plastic items and toxic ingredients like <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Bisphenol+A">bisphenol-A</a> (BPA).<a href="applewebdata://95A957F9-E208-436A-AF31-8B3D3D04652A#_edn8" name="_ednref8"><sup>[8]</sup></a>Even so, there’s only so much a person, an organization, or even the recycling industry itself can do to stem the tsunami of product containers, more and more of which are of such complex or exotic construction that they cannot be recycled at all. These sorts of trashy innovations have to be curtailed.</p>
+<p>The only reason for having a 96-gallon recycling cart is to hold all those boxes and containers that consumable products come in. If mountains of unusable refuse are the necessary price of economic growth, we need to rethink the whole economy, starting with home economics. Reduce mail orders. Buy locally made products from local retailers and pay them with cash or checks. (They’ll thank you.) Choose and demand low-tech packaging, preferably plant-based that can be recycled, downcycled, or composted. Bone up on which plastics can harm your health. Reuse empty containers that are hard to recycle to the extent it’s practical or safe. Walk, cycle, scoot, or take transit to the store and of course, don’t forget your shopping bags.</p>
+<p><em>An earlier version of this article appeared in <a href="https://thetechnoskeptic.com/talking-trash-recycling/">The Technoskeptic</a> magazine, 3/20/2019.</em></p>
+<p><strong>References</strong></p>
+<p><a href="applewebdata://95A957F9-E208-436A-AF31-8B3D3D04652A#_ednref1" name="_edn1">[1]</a> China’s Recycling Ban, Dept. of Ecology, University of Washington, https://ecology.wa.gov/Waste-Toxics/Reducing-recycling-waste/China-s-recycling-ban</p>
+<p><a href="applewebdata://95A957F9-E208-436A-AF31-8B3D3D04652A#_ednref2" name="_edn2">[2]</a>Global Recycling Magazine (2018), <em>USA: Recycling Generates 117 Billion US-Dollar per Year</em>, https://global-recycling.info/archives/2172</p>
+<p><a href="applewebdata://95A957F9-E208-436A-AF31-8B3D3D04652A#_ednref3" name="_edn3">[3]</a>Rustagi, N., Pradhan, S. K., &amp; Singh, R. (2011). Public health impact of plastics: An overview. <em>Indian journal of occupational and environmental medicine</em>, 15(3), 100-3.</p>
+<p><a href="applewebdata://95A957F9-E208-436A-AF31-8B3D3D04652A#_ednref4" name="_edn4">[4]</a>The Ocean Cleanup, <em>The Great Pacific Garbage Patch</em>. https://www.theoceancleanup.com/great-pacific-garbage-patch/</p>
+<p><a href="applewebdata://95A957F9-E208-436A-AF31-8B3D3D04652A#_ednref5" name="_edn5">[5] </a>East Bay Express, 11/14/18,<em>The Problems With Bioplastics</em>, <a href="https://www.eastbayexpress.com/oakland/the-problems-with-bioplastics/Content?oid=22699508">https://www.eastbayexpress.com/oakland/the-problems-with-bioplastics/Content?oid=22699508</a></p>
+<p><a href="applewebdata://95A957F9-E208-436A-AF31-8B3D3D04652A#_ednref6" name="_edn6">[6]</a>US EPA: Advancing Sustainable Materials Management: 2015 Fact Sheet; PDF version: <a href="https://www.epa.gov/sites/production/files/2018-07/documents/2015_smm_msw_factsheet_07242018_fnl_508_002.pdf">https://www.epa.gov/sites/production/files/2018-07/documents/2015_smm_msw_factsheet_07242018_fnl_508_002.pdf</a></p>
+<p>HTML version: Facts and Figures about Materials, Waste and Recycling. <a href="https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling">https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling</a></p>
+<p><a href="applewebdata://95A957F9-E208-436A-AF31-8B3D3D04652A#_ednref7" name="_edn7">[7]</a>David Bodamer, <em>14 Charts from the EPA’s Latest MSW Estimates.</em></p>
+<p>https://www.waste360.com/waste-reduction/14-charts-epa-s-latest-msw-estimates.</p>
+<p><a href="applewebdata://95A957F9-E208-436A-AF31-8B3D3D04652A#_ednref8" name="_edn8">[8]</a>Scientific papers relating to Bisphenol-A at PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Bisphenol+A">https://www.ncbi.nlm.nih.gov/pubmed/?term=Bisphenol+A</a></p>
+					</div>
+					<div id="fb-link-page" class="text_box">
+						<a href="https://www.facebook.com/CounterPunch-official-172470146144666/"> Join the debate on Facebook </a>
+					</div>
+					<div class="post_nav">
+					</div>
+<div class="more-by-author">More articles by:<span class="post_author"><a href="https://www.counterpunch.org/author/geoff-dutton/">Geoff Dutton</a></span></div>
+
+					<div>
+						<p class="author_description">
+														<em class=""><strong class="">Geoff Dutton</strong></em> <em class="">is a reformed geek turned columnist, novelist, and publisher hailing from Boston who writes about whatever distortions of reality strike his fancy</em><em class="">. <a href="https://perfidy.press/turkey-shoot/">Turkey Shoot</a>,</em> <em class="">his novel interrogating the lives and times of members of a cell of terrorists in Europe, recently received an award for Courage in Fiction. You can find more of his writing here and at <a class="" href="http://progressivepilgrim.review/">Progressive Pilgrim Review</a>. He welcomes correspondence at geoff-at-perfidy-dot-press.</em>
+						</p>
+					</div>
+				</div>
+			</div>
+<div id="two-col-sidebar" class="three columns">
+	<div class="nav_container_search">
+		<div class="text_box gs-box">
+			<form action="https://www.counterpunch.org/search-results/" class="custom-gs" >
+  <div>
+    <input type="hidden" name="cx" value="000357264939014560440:icshsy4bfu0" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" size="15" placeholder="Search" />  
+  </div>
+</form>
+		</div>
+	</div>
+	<div class="text_box roaming-charges">
+		<a href="https://www.counterpunch.org/category/roaming-charges"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2019/03/JS-buffalo.png"/> </a>
+
+<h2 class="sidebar-title">New from<br />CounterPunch</h2>
+	</div>
+	<div class="query_box" itemscope itemtype="https://schema.org/Article">
+		<div class="post_content" itemprop="articleBody">
+<a href="https://store.counterpunch.org/product/the-big-heat/"><img class="aligncenter wp-image-106090" src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2018/10/The-Big-Heat-Cover.png" alt="" width="177" height="275" srcset="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2018/10/The-Big-Heat-Cover.png 510w, https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2018/10/The-Big-Heat-Cover-193x300.png 193w" sizes="(max-width: 177px) 100vw, 177px" /></a>
+		</div>
+	</div>
+	<div class="query_box" itemscope itemtype="https://schema.org/Article">
+		<div class="post_content" itemprop="articleBody">
+<a href="https://store.counterpunch.org/product/bernie-the-sandernistas/"><img class="size-full wp-image-87432 aligncenter" src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2016/10/Bernie-the-Sandernistas-cover-344x550-e1477943826411.jpg" alt="bernie-the-sandernistas-cover-344x550" width="175" height="280" /></a>
+		</div>
+	</div>
+	<div class="text_box">
+		<div class="weekend">Weekend Edition<br>April 17, 2020<br>Friday - Sunday</div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Tamara Pearson</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/the-self-centered-rich-country-response-to-pandemics-and-crises-is-wrecking-poor-countries/">The Self-Centered Rich Country Response to Pandemics and Crises is Wrecking Poor Countries</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Rob Urie</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/never-let-a-good-waste-go-to-crisis/">Never Let a Good Waste Go to Crisis</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Steven Salaita</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/sanders-and-palestine-a-post-mortem/">Sanders and Palestine: a Post Mortem</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Jeffrey St. Clair</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/roaming-charges-bernt-offerings/">Roaming Charges: Bernt Offerings</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Kathleen Wallace</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/bernies-political-funeral-2/">Bernie’s Political Funeral </a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Paul Street</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/danger-clown-and-the-return-to-american-normalcy/">Danger Clown and the Return to American Normalcy</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">John McMurtry</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/the-unconscious-system-plague-will-covid-19-finally-awaken-us/">The Unconscious System Plague: Will Covid-19 Finally Awaken Us?</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Marshall Auerback – Jan Frel</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/the-new-fault-lines-in-a-post-globalized-world/">The New Fault Lines in a Post-Globalized World</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Andrew Levine</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/if-democrats-wont-dump-biden-they-should-at-least-keep-him-out-of-sight/">If Democrats Won’t Dump Biden, They Should At Least Keep Him Out of Sight</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Pete Dolack</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/will-the-pandemic-finish-trump-or-give-his-regime-an-escape/">Will the Pandemic Finish Trump or Give his Régime an Escape?</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">T.J. Coles</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/the-global-fragmentation-of-public-health-systems/">The Global Fragmentation of Public Health Systems</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Joseph Natoli</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/post-pandemic-post-trump/">Post-Pandemic/Post-Trump</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Ron Jacobs</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/the-sixties-in-the-city-of-the-fallen-angels/">The Sixties in the City of the Fallen Angels</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Missy Comley Beattie</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/there-is-no-hope-but-i-may-be-wrong/">“There Is No Hope, But I May Be Wrong”</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Roger Harris</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/bernie-sanders-tests-the-limits-of-the-us-political-system/">Bernie Sanders Tests the Limits of the US Political System</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Ramzy Baroud</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/spreading-the-virus-of-occupation-spitting-as-a-weapon-in-the-hand-of-colonial-israel/">Spreading the Virus of Occupation: Spitting as a Weapon in the Hand of Colonial Israel</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Medea Benjamin - Leonardo Flores</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/threatening-military-intervention-in-venezuela-during-a-pandemic/">Threatening Military Intervention in Venezuela During a Pandemic?</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Conn Hallinan</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/india-and-the-coronavirus/">India and the Coronavirus</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Emrah Yildiz</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/what-does-trumps-celebration-of-the-resurgent-dollar-tell-us-about-the-international-monetary-system/">What does Trump’s Celebration of the Resurgent Dollar Tell us about the International Monetary System?</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Sarah Anderson</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/postal-carriers-are-essential-workers-they-need-a-stimulus-too/">Postal Carriers are Essential Workers&#8230;They Need a Stimulus, Too</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Howie Wolke</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/wilderness-protects-biological-diversity/">Wilderness Protects Biological Diversity</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Jonathan Cook</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/if-coronavirus-overwhelms-gaza-israel-alone-is-to-blame/">If Coronavirus Overwhelms Gaza, Israel Alone is to Blame</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Dr. Norm Case</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/university-leader-speak-play-the-game-with-me/">University-Leader-Speak: Play the Game With Me?</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Mark Ashwill</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/view-from-vietnam-covid-19-reminds-the-world-that-donald-trump-has-no-clothes/">View From Vietnam: COVID-19 Reminds the World That Trump Has No Clothes</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Thomas Mountain</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/the-gangster-head-of-the-who/">The Gangster Head of the WHO</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Thomas S. Harrington</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/when-consumerism-locks-death-and-diminishment-away-in-the-back-room/">When Consumerism Locks Death and Diminishment Away in the Back Room</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Kathleen Wallace</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/bernies-political-funeral/">Bernie’s Political Funeral</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">John K. White</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/billionaire-games-did-you-give-away-anything-before-you-passed/">Billionaire Games: Did You Give Away Anything Before You Passed?</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">W. T. Whitney</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/as-pandemic-rages-us-economic-sanctions-against-cuba-are-deadly/">As Pandemic Rages, US Economic Sanctions Against Cuba are Deadly</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Daniel Falcone</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/richard-falk-on-world-order-and-covid-19/">Richard Falk on ‘World Order’ and COVID-19</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">John G. Russell</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/collateral-damage-and-the-war-on-covid-19/">Collateral Damage and the “War on COVID-19”</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">David Rosen</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/class-caste-and-the-end-of-the-american-dream/">Class, Caste and the End of the American Dream</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">George Wuerthner</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/the-problem-with-conservation-easements/">The Problem With Conservation Easements</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Binoy Kampmark</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/hell-is-other-people-pandemic-lifestyles-and-domestic-violence/">Hell is Other People: Pandemic Lifestyles and Domestic Violence</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Thomas Klikauer</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/corona-and-the-rise-of-the-german-police-state/">Corona and the Rise of the German Police State</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Paula Green</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/time-to-declare-an-outbreak-of-peace/">Time to Declare an Outbreak of Peace</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Kollibri terre Sonnenblume</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/eight-reasons-trump-doesnt-need-to-cancel-the-election/">Eight Reasons Trump Doesn’t Need to “Cancel the Election”</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Sonali Kolhatkar</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/can-democracy-survive-covid-19/">Can Democracy Survive COVID-19?</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Nicky Reid</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/fear-and-loathing-in-coronaville-volume-4-insanity-is-a-virtue-in-a-mad-world/">Fear and Loathing in Coronaville Volume 4: Insanity is a Virtue in a Mad World</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Kim C. Domenico</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/restoring-the-interior-commons-is-the-best-hope-for-a-human-supportive-world/">Restoring the Interior Commons is the Best Hope for A Human-Supportive World</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Jon Hochschartner</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/we-need-a-progressive-alternative-to-the-humane-society-legislative-fund/">We Need a Progressive Alternative to the Humane Society Legislative Fund</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Tom Crofton</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/so-come-and-get-me-joe/">So, Come and Get Me, Joe</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Jeff Sher</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/want-to-save-the-world-dont-buy-what-you-dont-need/">Want to Save the World? Don’t Buy What You Don’t Need</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">Louis Proyect</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/syria-and-the-lust-for-power/">Syria and the Lust for Power</a></div></div><div class="post-list-rs" align="left"><span class="post-list-author-rs">David Yearsley</span><br><div class="post-list-title-rs"><a href="https://www.counterpunch.org/2020/04/17/memory-malfunkshun/">Memory Malfunkshun</a></div></div><div class="linktoarchive-rbar"><a href="https://counterpunch.org/archives">Find All Articles</a></div>
+	</div>
+</div>
+		</div>
+	</div>
+</div>
+<div class="wrap row">
+	<div id="footer_area" class="twelve columns">
+<div id="footer-single" class="twelve columns">
+	<div class="text_box">
+		<div id="footer-1" class="three columns">
+					<h4>CounterPunch</h4>
+				    Tells the Facts and Names the Names<br>
+       				 Published since 1996<br>
+         			 Copyright © CounterPunch<br>
+	   				 All rights reserved.<br>
+	    			<a href="mailto:counterpunch@counterpunch.org">counterpunch@counterpunch.org</a>   </div>
+           
+           <div id="footer-2" class="two columns">
+           <h4>Mailing Address</h4>
+			  CounterPunch<br>
+				  PO Box 228<br>
+				Petrolia, CA 95558
+				<h4>Telephone</h4>
+				  1(707) 629-3683</div>
+				
+				<div id="footer-3" class="two columns">
+				<h4>Editorial</h4>
+	 Jeffrey St. Clair, Editor<br>
+            Joshua Frank, Managing Editor<br>
+         Nathaniel St. Clair, Social Media<br>
+          Alexander Cockburn, 1941-2012 <br /></div>
+          <div id="footer-4" class="three columns">
+          <h4>Business</h4>
+          Becky Grant<br>
+          Business Manager<br>
+          <a href="mailto:counterpunchbiz@gmail.com">counterpunchbiz@gmail.com</a><br>
+          Deva Wheeler<br>
+          Subscription and merchandise fulfillment<br>
+          <a href="mailto:counterpunchdeva@gmail.com">counterpunchdeva@gmail.com</a>		</div>
+          <div id="footer-5"> 
+<div><a href="https://visitor.r20.constantcontact.com/d.jsp?llr=ltx99deab&#038;p=oi&#038;m=1103935397483&#038;sit=kg4ybrrfb&#038;f=ee7e5b5e-2748-49b8-aec9-56dde4e38a63"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2014/04/JoinList-new.png"/></a></div></div>
+	</div>
+</div>
+	</div>
+</div>
+<script type='text/javascript' src='https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1'></script>
+<script type='text/javascript' data-cfasync="false" id="omapi-script" async="async" src='https://a.opmnstr.com/app/js/api.min.js'></script>
+<script type='text/javascript' src='https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
+<div class="a2a_kit a2a_kit_size_ a2a_floating_style a2a_default_style" style="bottom:0px;right:0px;background-color:transparent;"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fwww.counterpunch.org%2F2019%2F04%2F16%2Ftalking-trash-unfortunate-truths-about-recycling%2F&amp;linkname=Talking%20Trash%3A%20Unfortunate%20Truths%20About%20Recycling%20-%20CounterPunch.org" title="Facebook" rel="nofollow noopener" target="_blank"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2015/09/facebook.png" alt="Facebook"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fwww.counterpunch.org%2F2019%2F04%2F16%2Ftalking-trash-unfortunate-truths-about-recycling%2F&amp;linkname=Talking%20Trash%3A%20Unfortunate%20Truths%20About%20Recycling%20-%20CounterPunch.org" title="Twitter" rel="nofollow noopener" target="_blank"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2015/09/twitter.png" alt="Twitter"></a><a class="a2a_button_reddit" href="https://www.addtoany.com/add_to/reddit?linkurl=https%3A%2F%2Fwww.counterpunch.org%2F2019%2F04%2F16%2Ftalking-trash-unfortunate-truths-about-recycling%2F&amp;linkname=Talking%20Trash%3A%20Unfortunate%20Truths%20About%20Recycling%20-%20CounterPunch.org" title="Reddit" rel="nofollow noopener" target="_blank"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2015/09/reddit.png" alt="Reddit"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fwww.counterpunch.org%2F2019%2F04%2F16%2Ftalking-trash-unfortunate-truths-about-recycling%2F&amp;linkname=Talking%20Trash%3A%20Unfortunate%20Truths%20About%20Recycling%20-%20CounterPunch.org" title="Email" rel="nofollow noopener" target="_blank"><img src="https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/dropzone/2015/09/email.png" alt="Email"></a></div><!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blaster for GDPR --><script type="text/javascript" src="https://a.opmnstr.com/app/js/api.min.js" data-campaign="ba0ghopza4hc6jblcbbr" data-user="11179"></script><!-- / OptinMonster --><!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: CP blaster 2.0 --><script type="text/javascript" src="https://a.opmnstr.com/app/js/api.min.js" data-campaign="bxznqekxzkzx44xgqkbr" data-user="11179"></script><!-- / OptinMonster -->		<script type="text/javascript">var ba0ghopza4hc6jblcbbr_shortcode = true;var bxznqekxzkzx44xgqkbr_shortcode = true;</script>
+		<script type='text/javascript' src='https://uziiw38pmyg1ai60732c4011-wpengine.netdna-ssl.com/wp-content/plugins/optinmonster/assets/js/helper.js?ver=1.9.6'></script>
+		<script type="text/javascript">var omapi_localized = { ajax: 'https://www.counterpunch.org/wp-admin/admin-ajax.php?optin-monster-ajax-route=1', nonce: 'c2fb11e636', slugs: {"ba0ghopza4hc6jblcbbr":{"slug":"ba0ghopza4hc6jblcbbr","mailpoet":false},"bxznqekxzkzx44xgqkbr":{"slug":"bxznqekxzkzx44xgqkbr","mailpoet":false}} };</script>
+				<script type="text/javascript">var omapi_data = {"wc_cart":[],"object_id":110865,"object_key":"post","object_type":"post","term_ids":[5249,5228]};</script>
+		</body>
 </html>

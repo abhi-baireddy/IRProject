@@ -1,1328 +1,298 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-<head>
-            
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title data-react-helmet="true">Brexit Is Making Britain Look Weak | The New Republic</title>
+		
+<!-- OneCount tracker -->
+  <script id="oc-widget-main" src="//validate.onecount.net/js/all.min.js#b25436a6ddd683837f3a8f5386d49a80464e90de"></script>
+<!-- End OneCount tracker -->
 
+<!-- check consent -->
+  <script>
+  function getConsent(name) {
+    var dc = document.cookie;
+    var prefix = name + "=";
+    var begin = dc.indexOf("; " + prefix);
+    if (begin == -1) {
+        begin = dc.indexOf(prefix);
+        if (begin != 0) return null;
+    } else {
+        begin += 2;
+        var end = document.cookie.indexOf(";", begin);
+        if (end == -1) {
+        end = dc.length;
+        }
+    }
 
-    
-     <!-- Critical JS -->
-     <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'enhanced')})(document.documentElement)</script>
-     <script>window.PP={};window.PP.utils={};window.PP.config={};PP.config.donateBanner={secondsUntilShown:0.25,daysForDonateBarDismissal:3};;(function(win,undefined){var PP=win.PP;// loadJS: load a JS file asynchronously. Included from https://github.com/filamentgroup/loadJS/
-function loadJS(src,cb){"use strict";var ref=window.document.getElementsByTagName("script")[0];var script=window.document.createElement("script");script.src=src;script.async=true;ref.parentNode.insertBefore(script,ref);if(cb&&typeof cb==="function"){script.onload=cb}return script}PP.utils.loadJS=loadJS;// cookie function from https://github.com/filamentgroup/cookie/
-function cookie(name,value,days){// if value is undefined, get the cookie value
-if(value===undefined){var cookiestring="; "+window.document.cookie;var cookies=cookiestring.split("; "+name+"=");if(cookies.length===2){return cookies.pop().split(";").shift()}return null}else{var expires;var domain;// if value is a false boolean, we'll treat that as a delete
-if(value===false){days=-1}if(days){var date=new Date;date.setTime(date.getTime()+days*24*60*60*1000);expires="; expires="+date.toGMTString()}else{expires=""}// check if we're in dev, if not, lets make it a domain-wide cookie
-if(location.hostname=="localhost"||location.hostname=="127.0.0.1"){domain=""}else{domain="; domain=.propublica.org"}window.document.cookie=name+"="+value+expires+domain+"; path=/"}}// expose it
-PP.utils.cookie=cookie})(this);;(function(win,undefined){// Enable JS strict mode
-"use strict";// Environment variables
-var PP=win.PP,utils=PP.utils,docClasses=[];// if ( "sessionStorage" in window ) {
-//
-//     // Font loading!
-//     var fontsClass = "fonts-loaded";
-//
-//     if ( sessionStorage.getItem( "fontsLoaded" ) === "loaded" ) {
-//         docClasses.push( fontsClass );
-//     } else {
-//         // Okay! Let’s watch for font events!
-//         var tiemposText = new FontFaceObserver( "Tiempos Text", {
-//             weight: 400
-//         } );
-//         var tiemposTextItalic = new FontFaceObserver( "Tiempos Text", {
-//             style: "italic",
-//             weight: 400
-//         } );
-//         var tiemposTextBold = new FontFaceObserver( "Tiempos Text", {
-//             weight: 700
-//         } );
-//         var tiemposTextBoldItalic = new FontFaceObserver( "Tiempos Text", {
-//             style: "italic",
-//             weight: 700
-//         } );
-//         var graphik = new FontFaceObserver( "Graphik", {
-//             weight: 400
-//         } );
-//         var graphikItalic = new FontFaceObserver( "Graphik", {
-//             style: "italic",
-//             weight: 400
-//         } );
-//         var graphikBold = new FontFaceObserver( "Graphik", {
-//             weight: 700
-//         } );
-//         var graphikBoldItalic = new FontFaceObserver( "Graphik", {
-//             style: "italic",
-//             weight: 700
-//         } );
-//
-//         // When the fonts above are loaded, we'll attach a .fonts-loaded class to the document. (Per https://www.filamentgroup.com/lab/font-events.html) We'll also append the class to the `html`.
-//         win.Promise
-//             .all( [
-//                 tiemposText.load(),
-//                 tiemposTextItalic.load(),
-//                 tiemposTextBold.load(),
-//                 tiemposTextBoldItalic.load(),
-//                 graphik.load(),
-//                 graphikItalic.load(),
-//                 graphikBold.load(),
-//                 graphikBoldItalic.load()
-//             ] )
-//             .then( function() {
-//                 win.document.documentElement.className += " " + fontsClass;
-//                 sessionStorage.setItem( "fontsLoaded" , "loaded" );
-//             } );
-//     }
-// }
-// Add scoping classes to HTML element
-win.document.documentElement.className+=" "+docClasses.join(" ")})(this);
-//# sourceMappingURL=initial.js.map
+    return decodeURI(dc.substring(begin + prefix.length, end));
+  }
+  </script>
+<!-- check consent -->
+
+<!-- Google Tag Manager Data Layer -->
+<script>
+  var consentCookieValueAsBoolean = (getConsent('consent') === 'true');
+  dataLayer = [{
+    consent: consentCookieValueAsBoolean
+  }];
 </script>
+<!-- /Google Tag Mananger Data Layer -->
 
-     <!-- DFP JS -->
-     <script src="https://htlbid.com/v3/propublica.org/htlbid.js" async></script>
-     <script>var htlbid = htlbid || {};
-htlbid.cmd = htlbid.cmd || [];
-htlbid.cmd.push(function() {
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NMWSH2N');</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<!-- Newrelic -->
+<!-- NREUM: (0) -->
+<!-- /Newrelic -->
 
-});
+<!-- start DFP: htlbid  -->
+<script src="https://htlbid.com/v3/newrepublic.com/htlbid.js"></script>
+<script>
+  var htlbid = htlbid || {};
+  htlbid.cmd = htlbid.cmd || [];
 </script>
+<!-- end DFP -->
 
-    <!-- PRECONNECT -->
-    <link href="https://assets.propublica.org/static/v4/" rel="preconnect">
-    <link href="https://assets.propublica.org/static/v4/" rel="dns-prefetch">
-    <link href="https://www.facebook.com" rel="preconnect">
-    <link href="https://www.facebook.com" rel="dns-prefetch">
-    <link href="https://www.google.com" rel="preconnect">
-    <link href="https://www.google.com" rel="dns-prefetch">
+<!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="//assets.newrepublic.com/assets/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="//assets.newrepublic.com/assets/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="//assets.newrepublic.com/assets/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="//assets.newrepublic.com/assets/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="//assets.newrepublic.com/assets/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="//assets.newrepublic.com/assets/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="//assets.newrepublic.com/assets/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="//assets.newrepublic.com/assets/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="//assets.newrepublic.com/assets/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="//assets.newrepublic.com/assets/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="//assets.newrepublic.com/assets/favicons/favicon-194x194.png" sizes="194x194">
+  <link rel="icon" type="image/png" href="//assets.newrepublic.com/assets/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="//assets.newrepublic.com/assets/favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="//assets.newrepublic.com/assets/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="//assets.newrepublic.com/assets/favicons/manifest.json">
+  <link rel="mask-icon" href="//assets.newrepublic.com/assets/favicons/safari-pinned-tab.svg" color="#000000">
+  <link rel="shortcut icon" href="//assets.newrepublic.com/assets/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="//assets.newrepublic.com/assets/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="//assets.newrepublic.com/assets/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+<!-- /Favicons -->
 
-     <!-- STYLES -->
-     <link rel="stylesheet" href="https://assets.propublica.org/static/v4/css/main.d088cc6a.css">
-
-    <!-- Chartbeat -->
-    <script>
-        var _sf_async_config = window._sf_async_config = (window._sf_async_config || {});
-        _sf_async_config.uid = 1577;
-        _sf_async_config.domain = 'propublica.org';
-        _sf_async_config.useCanonical = true;
-        _sf_async_config.useCanonicalDomain = true;
-                _sf_async_config.authors = 'Jack Gillum,Jessica Huseman';
-    </script>
-
-    <!-- OTHER -->
-    <link rel="shortcut icon" type="image/x-icon" href="https://assets.propublica.org/static/v4/images/electionland.ico">
-    <link rel="apple-touch-icon" href="https://assets.propublica.org/static/v4/images/apple-touch-icon-electionland-180x180.png" sizes="180x180">
-
+<!-- Start: OneCount Automation Widget -->
+<script>GCN.onecount.setTargeting();</script>
+<!-- End: OneCount Automation Widget -->
+<link rel='amphtml' href='https://newrepublic.com/amp/article/153338/brexit-making-britain-look-weak'/>
+		<meta data-react-helmet="true" name="viewport" content="width=device-width, initial-scale=1.0"/><meta data-react-helmet="true" property="fb:admins" content="4404589"/><meta data-react-helmet="true" property="fb:app_id" content="1675346479369918"/><meta data-react-helmet="true" property="fb:pages" content="161419311535"/><meta data-react-helmet="true" name="parsely-page" content="{&quot;title&quot;:&quot;Brexit Is Making Britain Look Weak&quot;,&quot;link&quot;:&quot;https://newrepublic.com/article/153338/brexit-making-britain-look-weak&quot;,&quot;section&quot;:&quot;Foreign Affairs&quot;,&quot;pub_date&quot;:&quot;2019-03-19T10:00:00.000Z&quot;,&quot;post_id&quot;:153338,&quot;authors&quot;:[&quot;Alexis Papazoglou&quot;],&quot;type&quot;:&quot;post&quot;,&quot;tags&quot;:[&quot;Foreign Affairs&quot;,&quot;Brexit&quot;,&quot;Theresa May&quot;,&quot;Boris Johnson&quot;,&quot;European Union&quot;,&quot;-type_article&quot;]}"/><meta data-react-helmet="true" name="parsely-metadata" content="{&quot;thumb_image&quot;:&quot;http://images.newrepublic.com/9d22652c4c135d6052c91b312c08913e38ad33c0.jpeg&quot;}"/><meta data-react-helmet="true" property="og:title" content="Brexit Is Making Britain Look Weak"/><meta data-react-helmet="true" property="og:description" content="The goal was to seize back sovereignty. Instead, failed Brexit deliberations have handed control over the country&#x27;s fate to the EU."/><meta data-react-helmet="true" name="twitter:title" content="Brexit Is Making Britain Look Weak"/><meta data-react-helmet="true" name="twitter:description" content="The goal was to seize back sovereignty. Instead, failed Brexit deliberations have handed control over the country&#x27;s fate to the EU."/><meta data-react-helmet="true" name="description" content="The goal was to seize back sovereignty. Instead, failed Brexit deliberations have handed control over the country&#x27;s fate to the EU."/><meta data-react-helmet="true" name="link" ref="canonical" href="https://newrepublic.com/article/153338/brexit-making-britain-look-weak"/><meta data-react-helmet="true" property="og:type" content="article"/><meta data-react-helmet="true" property="og:url" content="https://newrepublic.com/article/153338/brexit-making-britain-look-weak"/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" property="article:publisher" content="https://www.facebook.com/newrepublic"/><meta data-react-helmet="true" property="article:published_time" content="2019-03-19"/><meta data-react-helmet="true" name="twitter:creator" content="@philosgreek"/><meta data-react-helmet="true" name="twitter:image" content="https://images.newrepublic.com/9d22652c4c135d6052c91b312c08913e38ad33c0.jpeg?w=1024&amp;h=512&amp;crop=faces&amp;fit=crop&amp;fm=jpg"/><meta data-react-helmet="true" property="og:image" content="https://images.newrepublic.com/9d22652c4c135d6052c91b312c08913e38ad33c0.jpeg?w=1109&amp;h=577&amp;crop=faces&amp;fit=crop&amp;fm=jpg"/><meta data-react-helmet="true" property="og:image:height" content="577"/><meta data-react-helmet="true" property="og:image:width" content="1109"/><meta data-react-helmet="true" property="og:image:type" content="image/jpeg"/><meta data-react-helmet="true" property="article:tag" content="Foreign Affairs"/><meta data-react-helmet="true" property="article:tag" content="Brexit"/><meta data-react-helmet="true" property="article:tag" content="Theresa May"/><meta data-react-helmet="true" property="article:tag" content="Boris Johnson"/><meta data-react-helmet="true" property="article:tag" content="European Union"/><meta data-react-helmet="true" property="og:site_name" content="The New Republic"/><meta data-react-helmet="true" name="twitter:site" content="@newrepublic"/><meta data-react-helmet="true" property="og:locale" content="en_US"/>
+		<link data-react-helmet="true" rel="canonical" href="https://newrepublic.com/article/153338/brexit-making-britain-look-weak"/>
+    <link rel="stylesheet" href="//assets.newrepublic.com/assets/main-d1bad53bfc2d99d21a7b.css"/>
+  </head>
+  <body>
     
+<style>
+div.ie-popup {
+  display:none;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE10+ only */
 
-<title>The Iowa Caucuses App Had Another Problem: It Could Have… — ProPublica</title><meta name="description" content="While there is no evidence hackers intercepted or tampered with the results, a security firm consulted by ProPublica found that the app lacks key…">
-<meta name="referrer" content="no-referrer-when-downgrade">
-<meta name="robots" content="all">
-<meta content="The Iowa Caucuses App Had Another Problem: It Could Have Been Hacked" property="headline">
-<meta content="13320939444" property="fb:profile_id">
-<meta content="229862657130557" property="fb:app_id">
-<meta content="en_US" property="og:locale">
-<meta content="ProPublica" property="og:site_name">
-<meta content="article" property="og:type">
-<meta content="https://www.propublica.org/article/the-iowa-caucuses-app-had-another-problem-it-could-have-been-hacked" property="og:url">
-<meta content="The Iowa Caucuses App Had Another Problem: It Could Have Been Hacked" property="og:title">
-<meta content="While there is no evidence hackers intercepted or tampered with the results, a security firm consulted by ProPublica found that the app lacks key safeguards." property="og:description">
-<meta content="https://assets-c3.propublica.org/images/articles/_1200x630_crop_center-center_82_none/20200205-Iowa-App-1200x630.jpg?mtime=1582259111" property="og:image">
-<meta content="1200" property="og:image:width">
-<meta content="630" property="og:image:height">
-<meta content="https://vimeo.com/propublica" property="og:see_also">
-<meta content="https://www.pinterest.ie/propublica" property="og:see_also">
-<meta content="https://www.instagram.com/propublica" property="og:see_also">
-<meta content="https://www.linkedin.com/company/propublica/" property="og:see_also">
-<meta content="https://github.com/propublica" property="og:see_also">
-<meta content="https://www.youtube.com/user/propublica" property="og:see_also">
-<meta content="https://en.wikipedia.org/wiki/ProPublica" property="og:see_also">
-<meta content="https://www.facebook.com/propublica/" property="og:see_also">
-<meta content="https://twitter.com/propublica" property="og:see_also">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@propublica">
-<meta name="twitter:creator" content="@propublica">
-<meta name="twitter:title" content="The Iowa Caucuses App Had Another Problem: It Could Have Been Hacked">
-<meta name="twitter:description" content="While there is no evidence hackers intercepted or tampered with the results, a security firm consulted by ProPublica found that the app lacks key safeguards.">
-<meta name="twitter:image" content="https://assets-c3.propublica.org/images/articles/_800x418_crop_center-center_82_none/20200205-Iowa-App-1200x630.jpg?mtime=1582259111">
-<meta name="twitter:image:width" content="800">
-<meta name="twitter:image:height" content="418">
-<link href="https://www.propublica.org/article/the-iowa-caucuses-app-had-another-problem-it-could-have-been-hacked" rel="canonical">
-<link href="https://www.propublica.org/" rel="home">
-<link type="text/plain" href="https://www.propublica.org/humans.txt" rel="author">
-<script>dataLayer=[{"contentType":"Item","contentSubtype":"Article","publicationDate":"February 05, 2020 16:16:00","articleCategory":"","articleTitle":"The Iowa Caucuses App Had Another Problem: It Could Have Been Hacked","authorName":"Jack Gillum,Jessica Huseman","seriesName":"","contentRegion":"Electionland","contentFormat":"site","contentLanguage":"en","craftId":494374}];</script></head>
+  div.ie-popup {
+    display:block;
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(154, 151, 151, 0.88);
+    animation: fadeIn 0.25s ease-out 1s 1 backwards;
+  }
+  .ie-popup-inner {
+    position: absolute;
+    top: calc(50% + 2rem);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    background: #302E2E;
+    color: white;
+    font-family: Lava Std;
+    padding: 5.0em 2.5em 4.0em 3.5em;
+    line-height: 2.2rem;
+    border-radius: 50%;
+    font-size: 24px;
+  }
+  div.ie-popup-inner a {
+    color: #FF8200;
+    text-decoration: underline;
+  }
+  div.ie-popup-strike {
+    margin: 0.8em -1em 0.8em 0;
+    background-image: url("https://images.newrepublic.com/6298424db74112859091c134816474ddcdc13b4f.png");
+    background-size: cover;
+    padding-top: 4.75%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  div.ie-popup-inner p {
+    font-family: "lava", Georgia, serif;
+    letter-spacing: -0.005em;
+    margin-bottom: 1em;
+    line-height: 1.3;
+    font-size: 1.8rem;
+  }
+  @media (max-width: 767px) {
 
-<body id="www-propublica-org" class="site-electionland article article-medium mast-compact">
-
-
-    	<!-- SVG Sprite Sheet (sprites in alphabetical order) -->
-
-	<svg style="display: none;">
-
-        <!-- Close button light -->
-        <symbol id="icon-close-light" viewBox="0 0 24 24">
-            <title>Close</title>
-            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
-                <g transform="translate(-1149.000000, -24.000000)" class="line" stroke="#FFFFFF" stroke-width="2">
-                    <g id="Group-6" transform="translate(1150.000000, 25.000000)">
-                        <path d="M0.393398282,21.6066017 L21.6066017,0.393398282" id="Line-lt"></path>
-                        <path d="M0.393398282,21.6066017 L21.6066017,0.393398282" id="Line-lt-Copy" transform="translate(11.000000, 11.000000) scale(-1, 1) translate(-11.000000, -11.000000) "></path>
-                    </g>
-                </g>
-            </g>
-        </symbol>
-
-        <!-- Close button dark -->
-        <symbol id="icon-close-dark" viewBox="0 0 24 24">
-            <title>Close</title>
-            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
-                <g transform="translate(-1149.000000, -24.000000)" class="line" stroke="#304154" stroke-width="2">
-                    <g id="Group-6-2" transform="translate(1150.000000, 25.000000)">
-                        <path d="M0.393398282,21.6066017 L21.6066017,0.393398282" id="Line-dk"></path>
-                        <path d="M0.393398282,21.6066017 L21.6066017,0.393398282" id="Line-dk-Copy" transform="translate(11.000000, 11.000000) scale(-1, 1) translate(-11.000000, -11.000000) "></path>
-                    </g>
-                </g>
-            </g>
-        </symbol>
-
-		<!-- Comment -->
-		<symbol id="icon-comment" viewbox="0 0 24 24">
-			<title>Comment</title>
-			<path d="M23.05,6.71a8,8,0,0,1,0,7.58A9.86,9.86,0,0,1,20.5,17.4a12.6,12.6,0,0,1-3.83,2.07,14.1,14.1,0,0,1-4.67.77,15.91,15.91,0,0,1-2-.14Q6.83,23.25,3.5,23.25a.48.48,0,0,1-.48-.3.54.54,0,0,1,.12-.55l0,0a7.21,7.21,0,0,0,1.59-3,9,9,0,0,0,.19-.94A10.65,10.65,0,0,1,1.32,15,8.11,8.11,0,0,1,.95,6.71,9.87,9.87,0,0,1,3.5,3.6,12.6,12.6,0,0,1,7.33,1.52,14.1,14.1,0,0,1,12,.75a14.1,14.1,0,0,1,4.67.77A12.6,12.6,0,0,1,20.5,3.6,9.86,9.86,0,0,1,23.05,6.71Z"/>
-		</symbol>
-
-		<!-- Creative Commons -->
-		<symbol id="icon-cc" viewbox="0 0 24 24">
-			<title>Creative Commons</title>
-			<path d="M12,0A11.56,11.56,0,0,0,3.56,3.49,12.07,12.07,0,0,0,0,12a11.78,11.78,0,0,0,3.52,8.45A11.9,11.9,0,0,0,12,24a12.21,12.21,0,0,0,8.59-3.58A11.55,11.55,0,0,0,24,12a11.76,11.76,0,0,0-3.46-8.48A11.87,11.87,0,0,0,12,0Zm0,2.17A9.77,9.77,0,0,1,21.83,12,9.37,9.37,0,0,1,19,18.87a10,10,0,0,1-7,2.93A9.7,9.7,0,0,1,5.1,18.9,9.76,9.76,0,0,1,2.17,12,9.91,9.91,0,0,1,5.1,5,9.45,9.45,0,0,1,12,2.17Z"/><path d="M11.86,10A3.37,3.37,0,0,0,8.68,8.28,3.45,3.45,0,0,0,5.17,12a3.39,3.39,0,0,0,3.58,3.72,3.6,3.6,0,0,0,3.15-1.87l-1.49-.76a1.46,1.46,0,0,1-1.48,1c-1.1,0-1.61-.92-1.61-2.13s.43-2.13,1.61-2.13a1.52,1.52,0,0,1,1.33,1Z"/><path d="M18.79,10a3.38,3.38,0,0,0-3.18-1.73A3.45,3.45,0,0,0,12.1,12a3.39,3.39,0,0,0,3.58,3.72,3.6,3.6,0,0,0,3.15-1.87l-1.49-.76a1.46,1.46,0,0,1-1.48,1c-1.1,0-1.61-.92-1.61-2.13s.43-2.13,1.61-2.13a1.52,1.52,0,0,1,1.33,1Z"/>
-		</symbol>
-
-		<!-- Donate -->
-		<symbol id="icon-donate" viewbox="0 0 24 24">
-			<title>Donate</title>
-			<path d="M1,24H11V22H10a3,3,0,0,1-3-3H9a1,1,0,0,0,1,1h1V18H10a3,3,0,0,1,0-6h1V10H1Z"/><path d="M9,15a1,1,0,0,0,1,1h1V14H10A1,1,0,0,0,9,15Z"/><path d="M13,12h1a3,3,0,0,1,3,3H15a1,1,0,0,0-1-1H13v2h1a3,3,0,0,1,0,6H13v2H23V10H13Z"/><path d="M15,19a1,1,0,0,0-1-1H13v2h1A1,1,0,0,0,15,19Z"/><path d="M20.65,5A3.46,3.46,0,0,0,21,3.5,3.5,3.5,0,0,0,17.5,0,6.5,6.5,0,0,0,12,3.05,6.5,6.5,0,0,0,6.5,0,3.5,3.5,0,0,0,3,3.5,3.46,3.46,0,0,0,3.35,5H0V9H24V5ZM6.5,5a1.5,1.5,0,0,1,0-3,4.49,4.49,0,0,1,4.22,3Zm11,0H13.28A4.49,4.49,0,0,1,17.5,2a1.5,1.5,0,0,1,0,3Z"/>
-		</symbol>
-
-		<!-- Email -->
-		<symbol id="icon-email" viewbox="0 0 24 24">
-			<title>Email</title>
-			<path d="M12,13.5,0,4.5A1.45,1.45,0,0,1,.44,3.44,1.44,1.44,0,0,1,1.5,3h21A1.5,1.5,0,0,1,24,4.5Zm0,2.7,12-9V19.5A1.5,1.5,0,0,1,22.5,21H1.5a1.44,1.44,0,0,1-1.06-.44A1.45,1.45,0,0,1,0,19.5V7.2Z"/>
-		</symbol>
-
-        <!-- Email (add/subscribe) -->
-        <symbol id="icon-add-email" viewBox="0 0 24 24">
-        	<title>Add Email</title>
-        	<path d="M18.81,2a5.13,5.13,0,0,0-5.2,5.06A5.2,5.2,0,0,0,24,7.08,5.13,5.13,0,0,0,18.81,2Zm3.24,5.7h-2.6v2.53H18.16V7.72h-2.6V6.45h2.6V3.91h1.29V6.45h2.6Zm-2.6,5.65V20.8A1.2,1.2,0,0,1,18.24,22h-17A1.2,1.2,0,0,1,0,20.8V11l9.73,7.14,7-5.12a6.89,6.89,0,0,0,2.1.34C19,13.4,19.24,13.39,19.45,13.37ZM9.73,16,0,8.9A1.2,1.2,0,0,1,1.22,7.72H12.35A6.28,6.28,0,0,0,15,12.18Z"/>
-        </symbol>
-
-		<!-- Facebook -->
-		<symbol id="icon-facebook" viewbox="0 0 24 24">
-			<title>Facebook</title>
-			<path d="M24,1.5v21A1.52,1.52,0,0,1,22.5,24h-6V14.67h3l.5-3.46H16.5V8.5a1.6,1.6,0,0,1,.38-1.15A1.48,1.48,0,0,1,18,6.95h2.25V3.83a15.64,15.64,0,0,0-2.46-.16A5.11,5.11,0,0,0,14.1,4.89a4.41,4.41,0,0,0-1.27,3.33v3h-3v3.46h3V24H1.5a1.44,1.44,0,0,1-1.05-.45A1.44,1.44,0,0,1,0,22.5V1.5A1.44,1.44,0,0,1,.45.45,1.44,1.44,0,0,1,1.5,0h21a1.44,1.44,0,0,1,1.05.45A1.44,1.44,0,0,1,24,1.5Z"/>
-		</symbol>
-
-        <!-- Instagram -->
-        <symbol id="icon-instagram" viewbox="0 0 24 24">
-        	<title>Instagram</title>
-        	<path d="M12,2.32c3.15,0,3.53,0,4.77.07a6.51,6.51,0,0,1,2.19.4,3.58,3.58,0,0,1,1.36.89A3.58,3.58,0,0,1,21.21,5a6.51,6.51,0,0,1,.4,2.19c.06,1.24.07,1.62.07,4.77s0,3.53-.07,4.77a6.51,6.51,0,0,1-.4,2.19A4,4,0,0,1,19,21.21a6.51,6.51,0,0,1-2.19.4c-1.24.06-1.62.07-4.77.07s-3.53,0-4.77-.07A6.51,6.51,0,0,1,5,21.21a3.58,3.58,0,0,1-1.36-.89A3.58,3.58,0,0,1,2.79,19a6.51,6.51,0,0,1-.4-2.19c-.06-1.24-.07-1.62-.07-4.77s0-3.53.07-4.77A6.51,6.51,0,0,1,2.79,5a3.58,3.58,0,0,1,.89-1.36A3.58,3.58,0,0,1,5,2.79a6.51,6.51,0,0,1,2.19-.4c1.24-.06,1.62-.07,4.77-.07M12,.19C8.79.19,8.39.2,7.13.26A8.84,8.84,0,0,0,4.26.81,6,6,0,0,0,.81,4.26,8.84,8.84,0,0,0,.26,7.13C.2,8.39.19,8.79.19,12s0,3.61.07,4.87a8.84,8.84,0,0,0,.55,2.87,6,6,0,0,0,3.45,3.45,8.84,8.84,0,0,0,2.87.55c1.26.06,1.66.07,4.87.07s3.61,0,4.87-.07a8.84,8.84,0,0,0,2.87-.55,6,6,0,0,0,3.45-3.45,8.84,8.84,0,0,0,.55-2.87c.06-1.26.07-1.66.07-4.87s0-3.61-.07-4.87a8.84,8.84,0,0,0-.55-2.87A6,6,0,0,0,19.74.81,8.84,8.84,0,0,0,16.87.26C15.61.2,15.21.19,12,.19Z"/><path d="M12,5.94A6.06,6.06,0,1,0,18.06,12,6.06,6.06,0,0,0,12,5.94Zm0,10A3.94,3.94,0,1,1,15.94,12,3.95,3.95,0,0,1,12,15.94Z"/><circle cx="18.3" cy="5.7" r="1.42"/>
-        </symbol>
-
-        <!-- Messenger -->
-        <symbol id="icon-messenger" viewBox="0 0 22 22">
-            <title>Facebook Messenger</title>
-            <path id="Facebook-Messenger" fill="#FFFFFF" fill-rule="nonzero" d="M11,0 C4.92620865,0 0,4.55793451 0,10.1826196 C0,13.3828715 1.59262087,16.2367758 4.08651399,18.1042821 L4.08651399,22 L7.83994911,19.938539 C8.84198473,20.2156171 9.9,20.3652393 11,20.3652393 C17.0737913,20.3652393 22,15.8073048 22,10.1826196 C22,4.55793451 17.0737913,0 11,0 Z M12.1587786,13.6544081 L9.31221374,10.7284635 L3.8346056,13.7292191 L9.84122137,7.42015113 L12.6849873,10.3460957 L18.1625954,7.34534005 L12.1587786,13.6544081 Z"></path>
-        </symbol>
-
-		<!-- Mobile -->
-		<symbol id="icon-mobile" viewbox="0 0 24 24">
-			<title>Mobile</title>
-			<path d="M18,0a1.45,1.45,0,0,1,1.06.44A1.45,1.45,0,0,1,19.5,1.5v21A1.5,1.5,0,0,1,18,24H6a1.5,1.5,0,0,1-1.5-1.5V1.5A1.45,1.45,0,0,1,4.94.44,1.44,1.44,0,0,1,6,0ZM17,18V4H7V18Zm-6.06,4.06A1.5,1.5,0,1,0,10.5,21,1.45,1.45,0,0,0,10.94,22.06Z"/>
-		</symbol>
-
-        <!-- Nav menu button (hamburger) -->
-        <symbol id="icon-nav-menu" viewBox="0 0 24 24">
-            <title>Nav Menu</title>
-            <path d="M24,5.5a.5.5,0,0,1-.5.5H.5A.5.5,0,0,1,0,5.5v-4A.5.5,0,0,1,.5,1h23a.5.5,0,0,1,.5.5Zm0,9a.5.5,0,0,1-.5.5H.5a.5.5,0,0,1-.5-.5v-4A.5.5,0,0,1,.5,10h23a.5.5,0,0,1,.5.5Zm0,9a.5.5,0,0,1-.5.5H.5a.5.5,0,0,1-.5-.5v-4A.5.5,0,0,1,.5,19h23a.5.5,0,0,1,.5.5Z"/>
-        </symbol>
-
-		
-		<!-- Podcast -->
-		<symbol id="icon-podcast" viewbox="0 0 24 24">
-			<title>Podcast</title>
-			<path d="M10,22a.48.48,0,0,1-.35-.14L4.29,16.5H.51a.49.49,0,0,1-.36-.15A.49.49,0,0,1,0,16V8a.49.49,0,0,1,.15-.36A.49.49,0,0,1,.51,7.5H4.29L9.65,2.14a.5.5,0,0,1,.86.35v19a.45.45,0,0,1-.3.46A.63.63,0,0,1,10,22Zm5.2-2a.45.45,0,0,1-.35.15A.49.49,0,0,1,14.5,20l-1.42-1.42a.51.51,0,0,1-.14-.36.47.47,0,0,1,.14-.35,8.09,8.09,0,0,0,2.14-3.71,8.18,8.18,0,0,0,0-4.25,8.09,8.09,0,0,0-2.14-3.71.47.47,0,0,1-.14-.35.51.51,0,0,1,.14-.36L14.5,4a.49.49,0,0,1,.36-.15.45.45,0,0,1,.35.15,11,11,0,0,1,2.46,3.72,11.06,11.06,0,0,1,0,8.47A11,11,0,0,1,15.21,20Zm3.19,3.89L17,22.43a.51.51,0,0,1-.14-.36.47.47,0,0,1,.14-.35,13.78,13.78,0,0,0,2.58-3.56,13,13,0,0,0,1.29-4.07,15.09,15.09,0,0,0,0-4.2,13,13,0,0,0-1.29-4.07A13.78,13.78,0,0,0,17,2.27a.47.47,0,0,1-.14-.35A.51.51,0,0,1,17,1.57L18.39.15A.51.51,0,0,1,18.75,0a.47.47,0,0,1,.35.14,17,17,0,0,1,2.72,3.57,16.43,16.43,0,0,1,1.65,4,17.24,17.24,0,0,1,0,8.51,16.43,16.43,0,0,1-1.65,4,17,17,0,0,1-2.72,3.57.47.47,0,0,1-.35.14A.51.51,0,0,1,18.39,23.85Z"/>
-		</symbol>
-
-		<!-- Print -->
-		<symbol id="icon-print" viewbox="0 0 24 24">
-			<title>Print</title>
-			<path d="M22.5,0a1.45,1.45,0,0,1,1.06.44A1.45,1.45,0,0,1,24,1.5v12A1.5,1.5,0,0,1,22.5,15H20V10H4v5H1.5a1.45,1.45,0,0,1-1.06-.44A1.45,1.45,0,0,1,0,13.5V1.5A1.45,1.45,0,0,1,.44.44,1.45,1.45,0,0,1,1.5,0ZM6,12V23.5a.5.5,0,0,0,.5.5h11a.5.5,0,0,0,.5-.5V12ZM18.44,5.56A1.5,1.5,0,0,0,21,4.5a1.5,1.5,0,0,0-3,0A1.45,1.45,0,0,0,18.44,5.56Z"/>
-		</symbol>
-
-		<!-- ProPublica Logo -->
-		<symbol id="propublica-logo" viewBox="0 0 574.24 75">
-			<title>ProPublica</title>
-			<path class="cls-1" d="M66.4,13.48,66,14.91l6.23,11.45,1.15.47L75,26.29V75H50.95A41.2,41.2,0,0,0,62.13,46.88a40.61,40.61,0,0,0-3.39-16.26,45.17,45.17,0,0,1,7.79-4.95l1.69-.2.14-.41L65,18.83H64.5l-.88,1.29c-2.91,1.9-4.67,2.3-8.54,3.79A41.35,41.35,0,0,0,20.46,5.42,39.87,39.87,0,0,0,0,10.91V0H75V8.81ZM57.32,47A37.54,37.54,0,0,1,44.65,75H0V16A37,37,0,0,1,57.32,47ZM43.7,37.06c0-8.13-6-12-17.75-12H7.18v3.66l4.2.95V62.2l-4.2.95v3.73H27.85V63.14l-7.18-.95V50.14h5.15C37.26,50.14,43.7,45.53,43.7,37.06Zm-9.76.27c0,5.15-2.78,8.33-7.25,8.33h-6V29.47H27C31.37,29.47,33.94,32.32,33.94,37.33Z"/><path class="cls-1" d="M116.53,60.07l9.15,1.08v4.2H99.39v-4.2l5.28-1.36v-44l-5.28-1.36V10.41H123c15.31,0,22.9,5.28,22.9,16.13,0,11.18-8.33,17.41-23.1,17.41h-6.3Zm0-21.14h6.84c6.44,0,10.5-4.61,10.5-12.06,0-7.18-3.73-11.45-10.09-11.45h-7.25Z"/><path class="cls-1" d="M200.74,61.15v4.2H185.9l-16-20.6h-2.51v15l5.28,1.36v4.2H150.27v-4.2l5.28-1.36V23.35l-5-1.36V17.93H175.2c10.5,0,17.55,5.08,17.55,12.67,0,8.4-5.76,12.2-11,13.55l13.48,15.79ZM167.41,39.74h4.47c5.76,0,8.81-3.18,8.81-8.88,0-5.35-2.85-7.93-8.81-7.93h-4.47Z"/><path class="cls-1" d="M199.59,41.64c0-14.77,9.82-24.73,25.68-24.73s25.68,10,25.68,24.73-9.82,24.73-25.68,24.73S199.59,56.48,199.59,41.64Zm38.89,0c0-9.69-3.25-19.17-13.21-19.17S212.05,32,212.05,41.64s3.25,19.17,13.21,19.17S238.48,51.33,238.48,41.64Z"/><path class="cls-1" d="M270.79,60.07l9.15,1.08v4.2H253.31v-4.2l5.62-1.36v-44l-5.62-1.36V10.41h24c15.31,0,22.9,5.28,22.9,16.13,0,11.18-8.33,17.41-23.1,17.41h-6.3Zm0-21.14h6.84c6.44,0,10.5-4.61,10.5-12.06,0-7.18-3.73-11.45-10.1-11.45h-7.25Z"/><path class="cls-1" d="M354.26,22l-4.95,1.36V47c0,12.87-7.79,19.38-20.05,19.38-13.62,0-20.73-7.86-20.73-20v-23L303.58,22V17.93h22V22l-5.08,1.36V47.74c0,7.25,4.34,12.06,11.45,12.06,6.84,0,11.25-4.47,11.25-11.31V23.35L338.14,22V17.93h16.12Z"/><path class="cls-1" d="M403.85,52.21c0,8.88-7.11,13.14-22,13.14H357.58v-4.2l5.56-1.36V23.35L358.26,22V17.93h23.92c12.6,0,19.51,3.79,19.51,11.72,0,6.17-4.06,9.08-10.91,9.89v.27C399.31,40.76,403.85,45.1,403.85,52.21ZM375,38.32h5.76c6.1,0,9-2.78,9-7.79,0-5.22-3.12-7.59-9-7.59H375Zm16.8,13.41c0-5.62-3.79-8.67-11.25-8.67H375V60.34h6.64C388.07,60.34,391.79,57.29,391.79,51.74Z"/><path class="cls-1" d="M451.07,48.62l-4.4,16.73H408v-4.2l5.28-1.36V23.35L407.65,22V17.93h22.76V22l-5.28,1.36v37l14.16-.81L447,47.26Z"/><path class="cls-1" d="M475.4,61.15v4.2H453v-4.2l5.28-1.36V23.35L453,22V17.93H475.4V22l-5.28,1.36V59.8Z"/><path class="cls-1" d="M478,41.78c0-15.85,12.13-24.86,27-24.86a35.6,35.6,0,0,1,18.29,5.15l-2,13.21h-4.2l-1.69-9.08a13.23,13.23,0,0,0-10.09-4.13c-9.15,0-14.7,6.57-14.7,18.22,0,13.21,6.84,19.31,15.24,19.31,6.17,0,10.23-3.39,13.41-9.55l4.27,2c-4.27,10-11.65,14.36-21.07,14.36C488.4,66.37,478,56.48,478,41.78Z"/><path class="cls-1" d="M574.24,61.15v4.2H551.48v-4.2L557,60l-2.85-8.13h-16.6l-3.12,8.2,5.42,1.15-.07,4.2-16.53-.07v-4.2l4.27-1.08,14.9-37.33-4-1.29V17.93h13.69L569.3,60Zm-27.57-31-.47-1.56-.47,1.56-6.23,16.73h12.94Z"/>
-		</symbol>
-
-		<!-- RSS -->
-		<symbol id="icon-rss" viewbox="0 0 24 24">
-			<title>RSS</title>
-			<path d="M24,23.5a.5.5,0,0,1-.5.5H20a.5.5,0,0,1-.5-.5,18.88,18.88,0,0,0-.68-5.05,18.84,18.84,0,0,0-1.9-4.55,19.06,19.06,0,0,0-3-3.84,19.06,19.06,0,0,0-3.84-3,18.84,18.84,0,0,0-4.55-1.9A18.88,18.88,0,0,0,.5,4.5a.49.49,0,0,1-.36-.15A.49.49,0,0,1,0,4V.5A.49.49,0,0,1,.15.15.49.49,0,0,1,.5,0,23.23,23.23,0,0,1,6.74.84a23.3,23.3,0,0,1,5.62,2.36,23.69,23.69,0,0,1,4.75,3.69,23.69,23.69,0,0,1,3.69,4.75,23.3,23.3,0,0,1,2.36,5.62A23.23,23.23,0,0,1,24,23.5Zm-7.5,0a.5.5,0,0,1-.5.5H12.5a.5.5,0,0,1-.5-.5A11.27,11.27,0,0,0,11.09,19a11.52,11.52,0,0,0-2.45-3.67A11.52,11.52,0,0,0,5,12.91,11.27,11.27,0,0,0,.5,12a.49.49,0,0,1-.36-.15A.49.49,0,0,1,0,11.5V8a.49.49,0,0,1,.15-.36A.49.49,0,0,1,.5,7.5a15.83,15.83,0,0,1,4.24.57A15.94,15.94,0,0,1,8.58,9.68a16,16,0,0,1,3.23,2.51,16,16,0,0,1,2.51,3.23,15.94,15.94,0,0,1,1.61,3.83A15.83,15.83,0,0,1,16.5,23.5ZM6.41,17.59a3.79,3.79,0,0,1,0,5.32A3.62,3.62,0,0,1,3.75,24a3.62,3.62,0,0,1-2.66-1.09,3.79,3.79,0,0,1,0-5.32A3.62,3.62,0,0,1,3.75,16.5,3.62,3.62,0,0,1,6.41,17.59Z"/>
-		</symbol>
-
-		<!-- Search -->
-		<symbol id="icon-search" viewbox="0 0 24 24">
-			<title>Search</title>
-			<path d="M10.48,1.21a9.06,9.06,0,0,1,9,0,9,9,0,0,1,3.28,3.28A8.8,8.8,0,0,1,24,9a8.8,8.8,0,0,1-1.21,4.52,9,9,0,0,1-3.28,3.28A8.8,8.8,0,0,1,15,18a8.7,8.7,0,0,1-4.8-1.39L3.42,23.41A2,2,0,0,1,2,24a1.93,1.93,0,0,1-1.42-.59,2,2,0,0,1,0-2.84L7.39,13.8A8.7,8.7,0,0,1,6,9,8.8,8.8,0,0,1,7.21,4.48,9,9,0,0,1,10.48,1.21Zm2.19,13.32a5.94,5.94,0,0,0,4.65,0,5.94,5.94,0,0,0,3.2-3.2,5.94,5.94,0,0,0,0-4.65,5.94,5.94,0,0,0-3.2-3.2,5.94,5.94,0,0,0-4.65,0,5.94,5.94,0,0,0-3.2,3.2,5.94,5.94,0,0,0,0,4.65,5.94,5.94,0,0,0,3.2,3.2Z"/>
-		</symbol>
-
-		<!-- Secure -->
-		<symbol id="icon-secure" viewbox="0 0 24 24">
-			<title>Secure</title>
-			<path d="M19.5,10.5A1.5,1.5,0,0,1,21,12V22.5A1.5,1.5,0,0,1,19.5,24H4.5A1.5,1.5,0,0,1,3,22.5V12a1.5,1.5,0,0,1,1.5-1.5H6V6a5.84,5.84,0,0,1,.47-2.33A5.94,5.94,0,0,1,9.67.47a5.94,5.94,0,0,1,4.65,0,5.94,5.94,0,0,1,3.2,3.2A5.84,5.84,0,0,1,18,6v4.5ZM9,6v4.5h6V6a2.89,2.89,0,0,0-.88-2.12,3,3,0,0,0-4.24,0A2.89,2.89,0,0,0,9,6Z"/>
-		</symbol>
-
-		
-		<!-- Twitter -->
-		<symbol id="icon-twitter" viewbox="0 0 24 24">
-			<title>Twitter</title>
-			<path d="M24,4.55A9.88,9.88,0,0,1,21.55,7.1v.64a13.51,13.51,0,0,1-.42,3.3,15.87,15.87,0,0,1-1.2,3.22,13.16,13.16,0,0,1-2,2.92,14.5,14.5,0,0,1-2.73,2.37,12.7,12.7,0,0,1-3.49,1.6,14.57,14.57,0,0,1-4.17.59,13.69,13.69,0,0,1-7.56-2,7.81,7.81,0,0,0,1.17.08,8.52,8.52,0,0,0,3.21-.63,11.36,11.36,0,0,0,2.89-1.7,4.66,4.66,0,0,1-2.85-1A4.79,4.79,0,0,1,2.7,14.07,4.78,4.78,0,0,0,4.92,14,4.8,4.8,0,0,1,2.1,12.3,4.76,4.76,0,0,1,1,9.16V9.11a4.91,4.91,0,0,0,2.23.61A4.94,4.94,0,0,1,1.59,8,4.75,4.75,0,0,1,1,5.64a4.82,4.82,0,0,1,.67-2.39A13.69,13.69,0,0,0,6.14,6.81,14.18,14.18,0,0,0,11.8,8.3a5.16,5.16,0,0,1-.11-1.14,4.73,4.73,0,0,1,1.44-3.47,4.73,4.73,0,0,1,3.47-1.44A4.91,4.91,0,0,1,20.23,3.8a9.79,9.79,0,0,0,3.11-1.2,4.72,4.72,0,0,1-2.17,2.73A9.36,9.36,0,0,0,24,4.55Z"/>
-		</symbol>
-
-		<!-- WhatsApp -->
-        <svg id="icon-whatsapp" viewBox="0 0 25 24">
-            <title>WhatsApp</title>
-            <path d="M20.7589168,3.489665 C18.4736378,1.24305061 15.4401331,0.005702067 12.2036214,0 C5.53339105,0 0.110203805,5.33713471 0.104403605,11.8888097 C0.104403605,13.9871703 0.66122283,16.0285103 1.71685928,17.8360656 L0,24 L6.41502149,22.3464006 C8.18408258,23.2929437 10.1735513,23.7947256 12.1978212,23.7947256 L12.2036214,23.7947256 C12.2036214,23.7947256 12.2036214,23.7947256 12.2036214,23.7947256 C18.8680515,23.7947256 24.2970389,18.4575909 24.3028391,11.9002138 C24.3028391,8.72416251 23.0441957,5.7362794 20.7589168,3.489665 Z M12.2036214,21.787598 C10.3939589,21.787598 8.6248978,21.3086244 7.08204453,20.4076978 L6.71663191,20.1910192 L2.91170053,21.1717748 L3.92673558,17.5224519 L3.68892737,17.1461155 C2.67969252,15.572345 2.1518743,13.7533856 2.1518743,11.8888097 C2.1518743,6.43763364 6.66443011,2.00712758 12.2094216,2.00712758 C14.8949143,2.00712758 17.4180014,3.03920171 19.3204671,4.90377762 C21.2171326,6.7740556 22.2611686,9.25445474 22.2611686,11.8945118 C22.2553684,17.3513899 17.7428126,21.787598 12.2036214,21.787598 Z M17.7196118,14.380613 C17.4180014,14.2323592 15.9331501,13.5138988 15.6547405,13.4112616 C15.3763309,13.3143264 15.1733239,13.2630078 14.9761171,13.5595153 C14.7731101,13.8560228 14.1930901,14.5288667 14.019084,14.722737 C13.845078,14.9223093 13.6652718,14.9451176 13.3636614,14.7968639 C13.062051,14.6486101 12.0876174,14.3349964 10.9333775,13.3200285 C10.0343465,12.5331433 9.43112563,11.5580898 9.25131943,11.2615823 C9.07731342,10.9650748 9.23391882,10.805417 9.38472403,10.6571632 C9.51812864,10.5260157 9.68633445,10.3093371 9.83713965,10.1382751 C9.98794486,9.96721311 10.0401467,9.84176764 10.1387501,9.6421953 C10.2373535,9.44262295 10.1909519,9.27156094 10.1155493,9.1233072 C10.0401467,8.97505346 9.43692583,7.50962224 9.18171702,6.91660727 C8.93810861,6.33499644 8.6887,6.41482537 8.50309359,6.40912331 C8.32908758,6.39771917 8.12608057,6.39771917 7.92307356,6.39771917 C7.72006655,6.39771917 7.39525534,6.47184604 7.11684573,6.76835353 C6.83843611,7.06486101 6.06120928,7.78332145 6.06120928,9.24875267 C6.06120928,10.7141839 7.14584673,12.1225944 7.29665194,12.3221668 C7.44745714,12.5217391 9.42532543,15.5210264 12.4588302,16.8096935 C13.178055,17.1176051 13.7406744,17.3000713 14.1814897,17.4369209 C14.9065147,17.6650036 15.5619373,17.6307912 16.0839553,17.5566643 C16.6639754,17.4711333 17.870417,16.8382038 18.1256258,16.1425517 C18.3750344,15.4468995 18.3750344,14.8538845 18.2996318,14.7284391 C18.2242292,14.6029936 18.0212222,14.5288667 17.7196118,14.380613 Z"></path>
-        </svg>
-
-		<!-- YouTube -->
-		<symbol id="icon-youtube" viewbox="0 0 24 24">
-			<title>YouTube</title>
-			<path d="M24,12c0,8.5,0,8.5-12,8.5S0,20.5,0,12,0,3.5,12,3.5,24,3.5,24,12Zm-7.5,0L9,7.5v9Z"/>
-		</symbol>
-
-	</svg>
-    <div class="masthead-wrapper">
-
-    <div class="masthead-inner content">
-
-        
-
-
-<!-- General donation banner-->
-<div class="promo-banner fundraising-fearless">
-        <p><a href="https://donate.propublica.org/give/203438/#!/donation/checkout">Support fearless journalism that makes a difference. <strong>Donate to ProPublica.</strong></a></p>
-    </div>
-
-
-
-        <header role="banner" class="masthead">
-            <nav class="org-nav">
-                <ul>
-                    <li class="org-nav-item main"><a href="/">ProPublica</a></li>
-                    <li class="org-nav-item illinois"><a href="/illinois/"><span class="squelch">ProPublica</span> Illinois</a></li>
-                    <li class="org-nav-item lrn"><a href="/local-reporting-network/">Local Reporting <span class="squelch">Network</span></a></li>
-                    <li class="org-nav-item electionland current"><a href="/electionland/">Electionland</a></li>
-                    <li class="org-nav-item data-store"><a href="/datastore/">Data Store</a></li>
-                </ul>
-            </nav>
-            <!-- end .org-nav -->
-
-            <nav class="action-nav">
-                <ul>
-                    <li class="action-nav-item donate">
-                        <a href="https://go.propublica.org/donate">Donate</a>
-                    </li>
-                    <li class="action-nav-item social twitter">
-                        <a href="https://twitter.com/propublica">
-                            <svg class="icon" width="24" height="24">
-                                <use xlink:href="#icon-twitter" />
-                            </svg>
-                            <span class="cta">Follow us on Twitter</span>
-                        </a>
-                    </li>
-                    <li class="action-nav-item social facebook">
-                        <a href="https://www.facebook.com/propublica">
-                            <svg class="icon" width="24" height="24">
-                                <use xlink:href="#icon-facebook" />
-                            </svg>
-                            <span class="cta">Like us on Facebook</span>
-                        </a>
-                    </li>
-                    <li class="action-nav-item tools search">
-                        <a href="/search/" data-collapsible-target="#modal-search">
-                            <svg class="icon" width="24" height="24">
-                                <use xlink:href="#icon-search" />
-                            </svg>
-                            <span class="cta">Search</span>
-                        </a>
-                    </li>
-                    <li class="action-nav-item tools newsletters">
-                        <a href="/newsletters/">
-                            <svg class="icon" width="24" height="24">
-                                <use xlink:href="#icon-add-email" />
-                            </svg>
-                            <span class="cta">Newsletters</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <!-- end .action-nav -->
-
-            <div class="masthead-inner-wrapper">
-                <h1>
-                    <span class="a11y">Electionland</span>
-                    <a class="logo" href="/electionland/" data-title="The Iowa Caucuses App Had Another Problem: It Could Have Been Hacked">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1073.42 146.09"><defs><style>.cls-1{fill:#304154;}.cls-2{fill:red;}.cls-3{fill:#49b3e6;}.cls-4{fill:#231f20;}.cls-5{fill:#fff;}</style></defs><path class="cls-1" d="M239.73,39.5h66.5v18H262.71V81.3h34.81V98.14H262.71v25.4h45.8v18H239.73Z"/><path class="cls-1" d="M323.34,33.07h20.55V141.52H323.34Z"/><path class="cls-1" d="M358.16,105.14V104c0-23.54,16.69-38.81,38.38-38.81,19.26,0,36.39,11.27,36.39,38v5.7h-53.8c.57,12.42,7.28,19.55,18.55,19.55,9.56,0,14.27-4.14,15.56-10.41h19.55c-2.43,16.12-15.27,25.11-35.68,25.11C374.57,143.09,358.16,129,358.16,105.14Zm54.65-9c-.71-11.28-6.42-16.7-16.27-16.7-9.27,0-15.55,6.14-17.12,16.7Z"/><path class="cls-1" d="M441.91,105.14V104c0-24.11,17.27-38.81,38.53-38.81,17.26,0,33.25,7.56,35.1,29H496c-1.43-8.71-6.71-12.7-15.12-12.7-10.71,0-17.84,8-17.84,22.26v1.14c0,15,6.71,22.69,18.26,22.69,8.28,0,15-4.85,16-14.41H516c-1.14,17.69-14,30-35.68,30S441.91,129.53,441.91,105.14Z"/><path class="cls-1" d="M532.08,119.4V81.59h-9.56V66.89h9.56V50.77h20.55V66.89h15.7v14.7h-15.7v36c0,6,3,8.85,8.28,8.85a19.27,19.27,0,0,0,7.85-1.43v16a37.62,37.62,0,0,1-12.56,2C540.5,143,532.08,135,532.08,119.4Z"/><path class="cls-1" d="M581.74,45.49c0-6.42,5.13-11.27,11.7-11.27s11.84,4.85,11.84,11.27-5.13,11.27-11.84,11.27S581.74,51.91,581.74,45.49Zm1.57,21.4h20.54v74.63H583.31Z"/><path class="cls-1" d="M615.41,105v-1.14c0-23.4,17-38.67,39.38-38.67S694,80.16,694,103.42v1.14c0,23.55-17,38.53-39.38,38.53S615.41,128.25,615.41,105Zm57.65-.28v-1c0-14.27-6.71-22.83-18.27-22.83-11.41,0-18.26,8.27-18.26,22.54v1.14c0,14.27,6.56,22.84,18.26,22.84S673.06,118.83,673.06,104.71Z"/><path class="cls-1" d="M705,66.89H725.7V78.74c3.71-7.42,11.85-13.56,24.26-13.56,14.7,0,25.12,8.85,25.12,28.82v47.52H754.39V97c0-10.13-4-15-13.13-15-8.85,0-15.56,5.42-15.56,16.41v43.09H705Z"/><path class="cls-1" d="M793.33,33.07h20.55V141.52H793.33Z"/><path class="cls-1" d="M827.86,120.83c0-17.41,16-24,38.81-24h8.42v-3c0-8.84-2.71-13.7-12.13-13.7-8.13,0-11.84,4.14-12.7,10.56H830.72C832,73,846,65.18,864.25,65.18S895.5,72.6,895.5,92.86v48.66H875.38v-9c-4.28,6-10.85,10.56-22.55,10.56C839.28,143.09,827.86,136.53,827.86,120.83Zm47.23-5.42v-6.28h-8c-12,0-19,2.57-19,10.56,0,5.42,3.29,9,10.85,9C868.1,128.68,875.09,123.68,875.09,115.41Z"/><path class="cls-1" d="M913.19,66.89h20.69V78.74c3.71-7.42,11.84-13.56,24.25-13.56,14.7,0,25.12,8.85,25.12,28.82v47.52H962.56V97c0-10.13-4-15-13.13-15-8.85,0-15.55,5.42-15.55,16.41v43.09H913.19Z"/><path class="cls-1" d="M996.51,105.28v-1.14c0-24.55,14.13-39,32.82-39,12,0,19.41,5.28,23.54,12.84V33.07h20.55V141.52h-20.55V129.11c-3.85,7.56-13,14-24,14C1010.78,143.09,996.51,130.11,996.51,105.28Zm56.94-.72v-1.14c0-14.84-6.57-22.4-17.84-22.4-11.56,0-18,7.85-18,22.69v1.14c0,14.84,7.13,22.12,17.41,22.12C1045.88,127,1053.45,119.69,1053.45,104.56Z"/><polygon class="cls-2" points="81.87 146.09 205.46 146.09 205.46 122.69 93.63 122.69 81.87 146.09"/><rect class="cls-2" x="105.55" y="78.08" width="79.77" height="23.4"/><rect class="cls-2" x="105.55" y="33.48" width="99.91" height="23.4"/><path class="cls-3" d="M0,112.42V0H112.43V112.42Z"/><polygon class="cls-4" points="112.43 112.42 81.87 146.09 85.67 112.42 112.43 112.42"/><path class="cls-5" d="M46.5,70.86,37.81,54.78H19.43L35.1,83.51a2.52,2.52,0,0,0,2.22,1.31H55a2.53,2.53,0,0,0,2.12-1.15L93,28H74.06Z"/></svg>
-                    </a>
-                    <!-- end .logo -->
-                </h1>
-                <nav class="primary-nav">
-                    <ul>
-                        <li class="primary-nav-item faq"><a href="/electionland-faq/">FAQ</a></li>
-                        <li class="primary-nav-item sign-up"><a href="/electionland-sign-up-for-journalists/">For Journalists</a></li>
-                    </ul>
-                </nav>
-                <!-- end .primary-nav -->
-
-                <nav class="email-nav">
-                    <form class="" action="https://signup.propublica.org/newsletter/turing" method="post" id="newsletter-header-form">
-                        <div class="input-wrapper">
-                            <input class="text subscribe-email-text" type="email" placeholder="Sign up for A User’s Guide to Democracy" id="pp-email-signup--lead" name="email" onfocus="recaptchaInit()" />
-                            <input id="newsletter-signup-header" class="btn subscribe-email-btn g-recaptcha" type="submit" value="Join" />
-                            <input type="hidden" name="target" value="l/125411/2020-01-23/774g8d" />
-                            <input type="hidden" name="success_location" value="https://www.propublica.org/forms/thankyou" />
-                            <input type="hidden" name="origin_location" value="https://v3-www.propublica.org/article/the-iowa-caucuses-app-had-another-problem-it-could-have-been-hacked" />
-                            <input type="hidden" name="error_location" value="https://www.propublica.org/forms/error" />
-                            <svg class="icon">
-                                <use xlink:href="#icon-add-email" />
-                            </svg>
-                        </div>
-                    </form>
-                </nav>
-                <!-- end .email-nav -->
-
-            </div>
-            <!-- end .masthead-inner-wrapper -->
-
-            <nav class="secondary-nav">
-
-                <ul class="extras-nav">
-
-                    <li class="extras-nav-item search">
-                        <a href="/search" data-collapsible-target="#modal-search">
-                            <svg class="icon" width="24" height="24">
-                                <use xlink:href="#icon-search" />
-                            </svg>
-                            <span class="cta">Search</span>
-                        </a>
-                    </li>
-                    <li nav class="extras-nav-item more">
-                        <a href="#footer-links" data-collapsible-target="#nav-menu">
-                            <span class="cta">More</span>
-                            <svg class="icon" width="24" height="24">
-                                <use xlink:href="#icon-nav-menu" />
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-                <!-- end .extras-nav -->
-
-            </nav>
-            <!-- end .secondary-nav -->
-
-        </header>
-        <!-- end .masthead -->
+    .ie-popup-inner {
+      font-size: 24px;
+      padding: 5.5em 1em 0 1.7em;
+      border-radius:unset;
+    }
+    .ie-popup-inner p {
+      font-size: 1.8rem;
+    }
+  }
+}
+</style>
+<div class="ie-popup">
+    <div class="ie-popup-inner">
+    <p>Looks like you’re using a browser we don’t support.</p>
+      <div class="ie-popup-strike"></div>
+      <div><p>
+      To improve your visit to our site, take a minute and
+      <a href="https://browsehappy.com/" target=_blank>upgrade your browser.</a>
+     </p> </div>
     </div>
 </div>
-<!-- end .masthead-wrapper -->
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMWSH2N"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="pwPopups"></div>
+    <div id="app-root"><div data-reactroot="" data-reactid="1" data-react-checksum="194241462"><!-- react-empty: 2 --><header class="page-header" data-reactid="3"><div class="sticky-nav-container" data-reactid="4"><nav class="nav-drawer" id="nav-drawer" data-reactid="5"><div class="nav-drawer-inner" data-reactid="6"><div class="nav-drawer-icons" data-reactid="7"><div class="nav-drawer-ship" data-reactid="8"><a class="" href="/" data-reactid="9"><div class="svg-wrapper svg-wrapper-monogram" data-reactid="10"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 445.85 160.76" data-reactid="11"><path d="M424.4 143.6l-43.13-63.22c-6.55 4.07-19.42 5.62-27.55 5.62-13.54 0-25.74-3.16-36.8-12v-.23C395.27 80.16 414 60.51 414 35.45 414 7.22 383.53 0 340.18 0h-107v.9c14.29 1.41 42.78 18 54.55 50.48a73.63 73.63 0 013.12 17.44v35L200.92 0H11.71L0 72.71h.9C17.61 31.16 35.45 1.13 68 1.13V114.7c0 30.48-2.25 41.55-27.09 45.16v.9H224v-.9c-14.63-1.44-44.11-18.8-55.34-52.83a74.9 74.9 0 01-2.27-14.41V36.46l106.39 124.3h41.92v-.9c-12.89-2.94-18.25-10.9-19.8-30.24v-52.4c0-40.12 5.71-65.32 18.33-73.5a13.69 13.69 0 017.45-2.14H328c25.52 0 34.78 16 34.78 35.22S353.5 73.16 328 72.7l-13.77-.22 59.84 88.28h71.8v-.9c-9.28-2.03-13.8-4.97-21.47-16.26zM162.31 83.54c0 33.38-4 56.41-12.55 67.92a16.29 16.29 0 01-5.6 5.4h-.06a12.88 12.88 0 01-9.77 1.25 15 15 0 01-9.77-6.69q-.48-.72-1-1.41c-5.2-7-5.93-18-5.93-35.35V1.13h.27a40.32 40.32 0 0130.37 14.27l9.55 11.18a18.73 18.73 0 014.49 12.17z" data-reactid="12"></path></svg></div></a></div><div class="nav-btn nav-btn-close" data-reactid="13"><a href="#" data-reactid="14"><span class="nav-icon-label" data-reactid="15">Close</span><div class="nav-icon icon-close" data-reactid="16"></div></a></div></div><div class="navbar-search" data-reactid="17"><form action="true" data-reactid="18"><input type="search" name="search" class="search-input" placeholder="Search..." id="navbar-search-input" data-reactid="19"/></form></div><ul class="nav nav-drawer-nav" data-reactid="20"><li class="nav-item" data-reactid="21"><a class="nav-link" href="/latest" data-reactid="22">Latest</a></li><li class="nav-item" data-reactid="23"><a class="nav-link" href="/tags/politics" data-reactid="24">Politics</a></li><li class="nav-item" data-reactid="25"><a class="nav-link" href="/tags/culture" data-reactid="26">Culture</a></li><li class="nav-item" data-reactid="27"><a class="nav-link" href="/magazine" data-reactid="28">Magazine</a></li><li class="nav-item" data-reactid="29"><a class="nav-link" href="/tags/climate-change" data-reactid="30">Climate</a></li><li class="nav-item" data-reactid="31"><a class="nav-link" href="/tags/books" data-reactid="32">Books</a></li><li class="nav-item" data-reactid="33"><a class="nav-link" href="/tags/photography" data-reactid="34">Photography</a></li><li class="nav-item" data-reactid="35"><a class="nav-link newsletter" href="https://mailchi.mp/61665a30a33b/tnrdaily" target="_blank" data-reactid="36">Newsletter</a></li><li class="nav-item" data-reactid="37"><a class="nav-link subscribe" href="https://tnr-reg.onecount.net/onecount/form/display.php?id=65b62084-2a9e-41e3-a826-9069eec96f50&amp;src_code=59" data-reactid="38">Subscribe</a></li><li class="nav-item" data-reactid="39"><a class="nav-link subscribe" href="https://w1.buysub.com/pubs/N2/NRD/Fund_eBlast.jsp?cds_page_id=242949&amp;cds_mag_code=NRD&amp;id=1582299208798&amp;lsid=30520933287016214&amp;vid=1&amp;cds_response_key=E9KNLFTR" target="_blank" data-reactid="40">Donate</a></li></ul><ul class="nav nav-drawer-subnav" data-reactid="41"><li class="subnav-item" data-reactid="42"><a class="" href="/pages/about" data-reactid="43">About</a></li><li class="subnav-item" data-reactid="44"><a href="http://advertise.newrepublic.com" target="_blank" data-reactid="45">Advertise</a></li><li class="subnav-item" data-reactid="46"><a class="" href="/pages/contact" data-reactid="47">Contact</a></li><li class="subnav-item" data-reactid="48"><a class="nav-link" href="/tags/press-release" data-reactid="49">Press</a></li><li class="subnav-item" data-reactid="50"><a href="/pages/about#jobs" data-reactid="51">Jobs</a></li><li class="subnav-item" data-reactid="52"><a class="" href="/pages/rss" data-reactid="53">RSS</a></li><li class="subnav-item" data-reactid="54"><a class="" href="/pages/people" data-reactid="55">Masthead</a></li><li class="subnav-item" data-reactid="56"><a class="" href="/pages/privacy" data-reactid="57">Privacy</a></li><li class="subnav-item" data-reactid="58"><a class="" href="/pages/subscriber-services" data-reactid="59">Subscriber Services</a></li></ul></div></nav><div class="sticky-nav-inner" data-reactid="60"><div class="sticky-nav-left" data-reactid="61"><a class="nav-btn nav-btn-open" href="#" data-reactid="62"><span class="nav-icon-label" data-reactid="63">Menu</span><div class="nav-icon icon-menu" data-reactid="64"><span data-reactid="65"></span><span data-reactid="66"></span><span data-reactid="67"></span></div></a></div><div class="sticky-nav-logo" data-reactid="68"><a title="The New Republic" class="sticky-nav-logo-link" href="/" data-reactid="69"><div class="logo" data-reactid="70"><div class="svg-wrapper svg-wrapper-logo" data-reactid="71"><svg class="svg-one-line-wordmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1785.2 127" data-reactid="72"><path d="M86.6 6.7H8.3L0 58.4h.6C12.5 28.9 25.2 7.5 48.3 7.5v80.8c0 21.7-1.6 29.6-19.3 32.1v.6h73.9v-.6c-17.7-2.6-19.3-10.4-19.3-32.1V7.5c23.1 0 35.8 21.4 47.7 50.9h.6l-8.3-51.7h-37z" data-reactid="73"></path><path d="M268.8 7.4v-.7h-64.2v.7C215.8 9.9 219 17.8 219 39.5v20.7h-43.4V39.5c0-21.7 3.2-29.5 14.5-32.1v-.7h-64.2v.7c11.2 2.6 14.5 10.4 14.5 32.1v48.8c0 21.7-3.2 29.6-14.4 32.1v.6h64.2v-.6c-11.2-2.6-14.5-10.4-14.5-32.1V63H219v25.3c0 21.7-3.2 29.6-14.5 32.1v.6h64.2v-.6c-11.2-2.6-14.4-10.4-14.4-32.1V39.5c0-21.7 3.2-29.6 14.5-32.1zM395.5 69.4c-12.2 29.6-53.3 50.9-74.8 50.9V62.5v.5h57.6V60.1h-57.6v.7V7.5c21.5 0 51.9 21.4 63.8 50.9h.6l-7.9-51.7H270.9v.7c11.2 2.6 14.5 10.4 14.5 32.1v48.8c0 21.7-3.2 29.6-14.5 32.1v.6h106.3l19.1-51.7h-.8zM479.4 6.7v.7c10 1 29.9 12.5 38.5 35 1.7 4.6 2.6 9.5 2.6 14.4v23.8l-64-73.9h-46.2v.7l18.8 22v38c-.1 33.3-5.9 51.8-18.8 53.1v.6h62.6v-.6c-10-1-29.9-12.5-38.4-34.9-1.7-4.6-2.6-9.5-2.6-14.4V32.6l75.7 88.4h15.7V58.4c.4-32 6.2-49.8 18.8-51.1v-.6h-62.7zM652.5 6.7v.7c8.2 1.1 11.9 3.7 15.2 11.2l50 106.5h.8L736 86.9l13.6-29.5 29.2 67.7h.6l19.2-42.6 21.5-46.8c9.8-18.1 19.8-27.7 27.8-28.4v-.6H652.5zM708.1 22c-4.7-10.9-4.7-14.3 7.1-14.3 9.8 0 14.6 3.4 17.8 10.9l15.1 35.1-13.6 29.5L708.1 22zM811 48.6l-15.2 33L773.1 22c-4.1-10.9-5.5-14.3 6.3-14.3 11.2 0 24.2 6.3 30.5 16.8 4.3 7.4 4.7 16.4 1.1 24.1zM668.7 69.4c-12.2 29.6-53.3 50.9-74.8 50.9V63h57.7V60.1h-57.7V7.5c21.5 0 51.9 21.4 63.8 50.9h.7l-7.9-51.7H544.1v.7c11.2 2.6 14.5 10.4 14.5 32.1v48.8c0 21.7-3.2 29.6-14.5 32.1v.6h106.3l19.1-51.7-.8.1zM1186.1 120.4v.6h-67.4v-.6c11.2-2.6 14.4-10.4 14.4-32.1V39.5c0-21.7-3.2-29.5-14.4-32.1v-.6h57.7c34.2 0 60.4 3.7 60.4 32.3 0 30.3-36.3 34.7-66.8 32.3v-.7c22-.8 30.5-11.7 30.5-31.5 0-20.2-8.8-31.5-32-31.6v80.8c-.1 21.6.9 29.5 17.6 32zM1533.4 120.3c21.5 0 46.2-20.7 60.2-75h1.1l-3.5 75.8h-107.6v-.6c11.2-2.6 14.5-10.4 14.5-32.1V39.5c0-21.7-3.2-29.5-14.5-32.1v-.6h64.2v.6c-11.2 2.6-14.4 10.4-14.4 32.1v80.8zM1662.4 7.4c-11.2 2.6-14.4 10.4-14.4 32.1v48.8c0 21.7 3.2 29.6 14.4 32.1v.6h-64.2v-.6c11.2-2.6 14.5-10.4 14.5-32.1V39.5c0-21.7-3.2-29.5-14.5-32.1v-.6h64.2v.6z" data-reactid="74"></path><path d="M1727.7 3.8c17.3 0 29.1 9 35.7 9 7.1 0 8-5.8 8.5-12.9h.8l12.5 60.2h-.8C1775.1 34.7 1757 5 1727.7 5c-17.8 0-28.6 26.2-28.6 58.6s10.8 58.5 28.6 58.5c29.2 0 47.4-29.7 56.7-55.2h.8l-12.5 60.2h-.8c-.5-7.1-1.4-12.8-8.5-12.8-6.6 0-18.3 9-35.7 9-38.6 0-68.3-23.1-68.3-59.6s29.8-59.9 68.3-59.9zM1124.2 69.4c-12.2 29.5-53.3 50.9-74.8 50.9V63.1h57.7V60.3h-57.6V7.6c21.5 0 51.9 21.4 63.8 50.9h.7l-7.9-51.7H999.6v.6c11.2 2.6 14.4 10.4 14.4 32.1v48.8c0 18.7-2.4 27.2-10.3 30.8-1 .4-2 .4-3 0-3.9-1.6-6.7-4.3-10.8-10.2l-30.7-45c-4.7 2.9-13.8 4-19.6 4-9.6 0-18.3-2.2-26.2-8.5v-.2c55.7 4.5 69.1-9.5 69.1-27.3 0-20.1-21.7-25.2-52.5-25.2h-70.3v.6c11.2 2.6 14.5 10.4 14.5 32.1v48.9c0 21.7-3.2 29.6-14.5 32.1v.6h64.2v-.6c-11.2-2.6-14.5-10.4-14.5-32.1V7.9h11.9c18.2 0 24.7 11.4 24.7 25s-6.6 25.9-24.7 25.5l-9.8-.2 42.6 62.8h151.8l19.1-51.7h-.8zM1440.4 60.9v-.3c26.3-3 41.9-13.2 41.9-28.6 0-14.1-12.8-25.2-48.3-25.2h-128.9v.6c11 .9 26.7 12.1 35.6 28.2 3.6 8.1 5.4 16.8 5.4 25.7v6.9c0 15.2-3.2 27.7-9.4 36-5.8 7.9-14.2 12-24.4 12h-2.3c-6.1 0-12-2.3-16.4-6.6-7-7.3-10.8-19.5-10.8-35.7v-51c0-12 4.3-13.8 13.3-15.4v-.7H1232v.6c9.5 1.6 13.2 3.4 14.1 11.1 1 8.8 1.5 17.6 1.4 26.5v30.8c0 24.1 10.4 47.7 51.2 47.7 17.8 0 30-5.6 37.9-14.9 7.9-8.7 12.3-22.6 12.3-40.5v-6.9-2.4c.2-25.7 5.3-47.2 16.4-50.9.7-.2 1.4-.3 2.1-.3h.6c.8 0 1.6.1 2.3.4 9.6 3 12.5 11.2 12.5 31.6v48.8c0 21.7-3.2 29.6-14.4 32.1v.6h71.6c30.7 0 49.8-10.6 49.8-31.2 0-24.2-26.4-28.7-49.4-29zm-22.3-53h6.9c14.5 0 21.4 9 21.4 26.3s-6.9 27-21.4 27h-6.9V7.9zm6.8 112.1h-6.8V62.3h6.8c15.7 0 27.9 7.7 27.9 29.1s-12.2 28.6-27.9 28.6z" data-reactid="75"></path></svg></div><div class="svg-wrapper svg-wrapper-logo-stacked" data-reactid="76"><svg class="svg-two-line-wordmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1301.5 347" data-reactid="77"><path d="M171.4 0H61.3L49.6 72.7h.9C67.2 31.2 85.1 1.1 117.6 1.1v113.6c0 30.5-2.3 41.6-27.1 45.2v.9h103.9v-.9c-24.8-3.6-27.1-14.7-27.1-45.2V1.1c32.5 0 50.4 30 67.1 71.6h.9L223.5 0h-52.1zM459 337.8v.9h-94.8v-.9c15.8-3.6 20.3-14.7 20.3-45.2V224c0-30.5-4.5-41.6-20.3-45.2v-.9h81.1c48.1 0 84.9 5.2 84.9 45.4 0 42.7-51 48.8-94 45.4v-.9c30.9-1.1 42.9-16.5 42.9-44.3 0-28.4-12.4-44.3-44.9-44.5v113.5c0 30.6 1.3 41.6 24.8 45.3zM947.4 337.5c30.3 0 65-29.1 84.7-105.5h1.6l-5 106.6H877.3v-.9c15.8-3.6 20.3-14.7 20.3-45.2V224c0-30.5-4.5-41.6-20.3-45.2v-.9h90.3v.9c-15.8 3.6-20.3 14.7-20.3 45.2v113.5zM1128.7 178.8c-15.8 3.6-20.3 14.7-20.3 45.2v68.7c0 30.5 4.5 41.5 20.3 45.2v.9h-90.3v-.9c15.8-3.6 20.3-14.7 20.3-45.2V224c0-30.5-4.5-41.6-20.3-45.2v-.9h90.3v.9z" data-reactid="78"></path><path d="M1220.6 173.8c24.4 0 40.9 12.6 50.1 12.6 9.9 0 11.3-8.1 12-18.1h1.1l17.6 84.7h-1.1c-13.1-35.9-38.6-77.7-79.7-77.7-25.1 0-40.2 36.8-40.2 82.4s15.1 82.2 40.2 82.2c41.1 0 66.6-41.8 79.7-77.7h1.1l-17.6 84.7h-1.1c-.7-9.9-2-18.1-12-18.1-9.3 0-25.7 12.6-50.1 12.6-54.2 0-96-32.5-96-83.8s41.8-83.8 96-83.8zM427.5.9V0h-90.3v.9c15.8 3.6 20.3 14.7 20.3 45.2v29.1h-61V46.1c0-30.5 4.5-41.5 20.3-45.2V0h-90.3v.9c15.8 3.6 20.3 14.7 20.3 45.2v68.7c0 30.5-4.5 41.5-20.3 45.2v.9h90.3v-.9c-15.8-3.6-20.3-14.7-20.3-45.2V79.2h61v35.6c0 30.5-4.5 41.6-20.3 45.2v.9h90.3v-.9c-15.8-3.6-20.3-14.7-20.3-45.2V46.1c0-30.5 4.5-41.6 20.3-45.2zM605.7 88.1c-17.2 41.6-75 71.6-105.2 71.6V78.4v.8h81.1V75.2h-81.1v.9-75c30.3 0 72.9 30 89.7 71.6h.9L580 0H430.5v.9c15.8 3.6 20.3 14.7 20.3 45.2v68.7c0 30.5-4.5 41.5-20.3 45.2v.9H580l26.9-72.7-1.2-.1zM723.7 0v.9c14.1 1.4 42 17.5 54.1 49.2 2.4 6.5 3.6 13.3 3.6 20.2v33.5L691.4 0h-65v.9l26.4 30.9v53.4c-.2 46.8-8.3 72.9-26.4 74.7v.9h88.1v-.9c-14.1-1.4-42-17.5-54-49.1-2.4-6.5-3.7-13.3-3.6-20.2V36.4l106.3 124.4h22.1V72.7c.5-45 8.7-70.1 26.4-71.8V0h-88zM967.2 0v.9c11.5 1.6 16.7 5.2 21.5 15.8l70.2 149.7h1.2l24.5-53.6 19.1-41.6 41.1 95.2h.9l27-59.9 30.2-65.8c13.7-25.4 27.9-38.9 39-39.9V0H967.2zm78.1 21.5c-6.6-15.4-6.6-20.1 9.9-20.1 13.8 0 20.6 4.7 25.1 15.4l21.3 49.4-19.1 41.5-37.2-86.2zM1190 58.8l-21.3 46.4-32-83.8c-5.9-15.4-7.7-20.1 8.8-20.1 15.7 0 34 8.8 42.9 23.7 6.1 10.3 6.7 23 1.6 33.8zM371.9 266c-17.2 41.5-75 71.6-105.2 71.6v-80.5h81.1v-4h-81.1V179c30.3 0 73 30 89.7 71.6h.9l-11.1-72.7H196.7v.9c15.8 3.6 20.3 14.7 20.3 45.2v68.6c0 26.4-3.4 38.2-14.5 43.2-1.4.6-2.9.6-4.2 0-5.4-2.2-9.4-6-15.1-14.4L140 258.3c-6.6 4.1-19.4 5.6-27.6 5.6-13.6 0-25.7-3.2-36.8-12v-.2c78.4 6.3 97.1-13.3 97.1-38.4 0-28.2-30.5-35.4-73.8-35.4H0v.9c15.8 3.6 20.3 14.7 20.3 45.2v68.7c0 30.5-4.5 41.5-20.3 45.2v.9h90.3v-.9C74.5 334.1 70 323.1 70 292.6V179.5h16.7c25.5 0 34.8 16 34.8 35.2s-9.3 36.4-34.8 35.9l-13.8-.2 59.9 88.3h213.4l26.9-72.7h-1.2zM990 88.1c-17.2 41.6-75 71.6-105.2 71.6V79.2h81.1V75.2h-81.1v-74c30.3 0 72.9 30 89.7 71.6h.9L964.2 0H814.7v.9C830.5 4.5 835 15.6 835 46.1v68.7c0 30.5-4.5 41.5-20.3 45.2v.9h149.5L991 88.1h-1zM816.7 254v-.4c37-4.3 58.9-18.5 58.9-40.2 0-19.9-18.1-35.4-68-35.4H626.3v.9c15.5 1.2 37.5 17 50.1 39.6 5 11.4 7.6 23.6 7.7 36.1v9.7c0 21.4-4.5 38.9-13.2 50.6-8.2 11.1-20 16.9-34.3 16.9h-3.3c-9.2-.2-17-3.4-23-9.2-9.8-10.2-15.2-27.4-15.2-50.2v-71.8c0-16.9 6.1-19.4 18.8-21.7v-.9h-90.4v.9c13.3 2.3 18.5 4.7 19.9 15.6 1.4 12.4 2 24.8 2 37.3V275c0 33.9 14.7 67.1 72 67.1 25 0 42.2-7.9 53.3-20.9 11.1-12.2 17.2-31.7 17.2-57v-9.7c0-1.1 0-2.2-.1-3.3.3-35.6 7.3-65.4 22.3-71.3 1.2-.5 2.6-.7 3.9-.8h.1c1.5 0 2.9.2 4.3.7 13.1 4.4 17 16 17 44.2v68.6c0 30.5-4.5 41.5-20.3 45.2v.9H816c43.1 0 70-14.9 70-43.8 0-34.1-37-40.5-69.3-40.9zm-31.4-74.5h9.7c20.3 0 30 12.6 30 37s-9.7 37.9-30 37.9h-9.7v-74.9zm9.4 157.6h-9.5V256h9.5c22.1 0 39.3 10.8 39.3 40.9s-17.1 40.2-39.3 40.2z" data-reactid="79"></path></svg></div></div></a></div><div class="sticky-nav-right" data-reactid="80"><a class="" href="/magazine" data-reactid="81">Magazine</a><a class="subscribe" href="https://tnr-reg.onecount.net/onecount/form/display.php?id=65b62084-2a9e-41e3-a826-9069eec96f50&amp;src_code=347" data-reactid="82">Subscribe</a><a id="loginStatusText" class="sticky-nav-right" href="#" data-reactid="83">Sign In</a></div></div></div></header><main class="main-content" data-reactid="84"><div class="content" data-reactid="85"><!-- react-empty: 86 --><div id="article-top-ad-unit" class="ad-unit" data-reactid="87"><div class="htl-ad" data-eager="true" data-refresh="auto" data-sizes="0x0:320x50|900x0:728x90,970x250,970x90|1024x0:728x90,970x250,970x90" data-unit="top-ad-unit" data-prebid="
+    0x0:top-ad-unit-mobile|900x0:top-ad-unit-tablet|1024x0:top-ad-unit-desktop
+    " data-reactid="88"></div></div><div class="article-container-first regular" data-reactid="89"><div class="article-container default" id="article-153338" data-reactid="90"><div class="" data-reactid="91"><!-- react-text: 92 --><!-- /react-text --><article class="article" itemscope="" itemtype="http://schema.org/Article" data-reactid="93"><!-- react-text: 94 --><!-- /react-text --><header class="article-header-wrap" data-reactid="95"><div class="article-header-grid" data-reactid="96"><div class="article-cover" data-reactid="97"><div class="article-image image" data-reactid="98"><div class="img-responsive-wrapper" style="padding-bottom:66.66666666666666%;" data-reactid="99"><img src="//images.newrepublic.com/9d22652c4c135d6052c91b312c08913e38ad33c0.jpeg?w=1000&amp;q=65&amp;dpi=1&amp;fm=pjpg&amp;fit=crop&amp;crop=faces&amp;h=667" class="img-responsive-img img-jpg" data-reactid="100"/></div></div><div class="article-photo-credit" data-reactid="101"><div class="photo-credit" data-reactid="102">Niklas Halle&#x27;n/AFP/Getty Images</div></div></div><div class="article-title" data-reactid="103"><h1 class="article-headline" itemprop="headline" data-reactid="104"><span data-reactid="105">Brexit Is Making Britain Look Weak</span></h1><h2 class="article-subhead" data-reactid="106"><span data-reactid="107">The goal was to seize back sovereignty. Instead, failed Brexit deliberations have handed control over the country's fate to the EU.</span></h2></div><div class="article-meta" data-reactid="108"><h3 class="article-byline" data-reactid="109"><div class="author-list author-list-all author-list-inline" data-reactid="110"><span data-reactid="111">By </span><span class="author-list-item" data-reactid="112"><a class="author-alexis-papazoglou author-link" itemprop="author" title="Alexis Papazoglou" href="/authors/alexis-papazoglou" data-reactid="113">Alexis Papazoglou</a><span class="author-list-comma" data-reactid="114"></span></span></div></h3><h5 class="article-date" data-reactid="115"><time property="dc:date dc:created" itemprop="datePublished" content="2019-03-19" datetime="2019-03-19" data-reactid="116">March 19, 2019</time></h5><!-- react-text: 117 --><!-- /react-text --><a href="https://getpocket.com/edit?url=https://newrepublic.com/article/153338/brexit-making-britain-look-weak" class="article-pocket-button" data-reactid="118"><svg width="16" height="18" xmlns="http://www.w3.org/2000/svg" data-reactid="119"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.013 10.93L7.67 14.08c-.172.197-.443.27-.64.27a.943.943 0 0 1-.688-.27l-3.294-3.15c-.344-.37-.393-.985 0-1.38.369-.344.984-.393 1.352 0l2.63 2.536 2.68-2.535c.344-.394.959-.345 1.303 0 .344.394.344 1.01 0 1.378zm1.696-5.22H1.352C.615 5.71 0 6.278 0 7.017v4.209c0 3.815 3.147 6.99 7.03 6.99 3.86 0 6.982-3.175 6.982-6.99v-4.21c0-.738-.59-1.304-1.303-1.304z" fill="#000000" data-reactid="120"></path></svg><!-- react-text: 121 -->Add to Pocket<!-- /react-text --></a></div></div></header><div class="article-body" itemprop="articleBody" data-reactid="122"><div class="sidebar-and-content-body" data-reactid="123"><div class="subscribe-sidebar" data-reactid="124"><a href="https://tnr-reg.onecount.net/onecount/form/display.php?id=65b62084-2a9e-41e3-a826-9069eec96f50&amp;src_code=99" data-reactid="125"><div class="article-subscribe" data-reactid="126"><div class="article-subscribe-cover" data-reactid="127"><img src="//images.newrepublic.com/fb4d98f5b67bb06ccd6fdabaa4dd2d49d1a101f0.jpeg?w=315&amp;q=60" data-reactid="128"/></div><div class="article-subscribe-header" data-reactid="129">Subscribe</div></div></a></div><div class="content-body" data-reactid="130"><div class="article-text-wrap"><div class="article-text-grid"><p>Brexit so far
+has been a story of the United Kingdom’s political class <span>losing its authority</span><span>.&nbsp; Last week’s three-day voting spree in the
+House of Commons was the culmination of a two-year effort by the U.K.’s
+government and Parliament to extract the country from the European Union, to “take back control,” as the Leave campaign slogan promised. Yet those votes—rejecting
+the prime minister’s Brexit deal Tuesday, rejecting both the option of a&nbsp; no-deal Brexit </span><i>and </i><span>the option of a
+second referendum on Wednesday, and voting to delay exit Thursday—demonstrated
+that neither the ruling party nor any other parliamentary faction commands the
+majority to do that in practice. In fact, the only tangible outcome of the last
+week has been, ironically, to shift control of Brexit’s fate to the EU.</span></p><aside id="recirc-0" class="recirc-most-popular pull-right pull-small hide"></aside><p>One of the
+reasons the U.K. finds itself in this situation is that it was not clear from
+the start who <i>should</i> have gained
+control as a result of Brexit. Theresa May’s government assumed the task of implementing
+the referendum’s result lay with the executive. Their plan was to trigger
+Article 50 of the EU Treaty—the legal process by which an EU member state
+initiates the withdrawal ­process—without consulting the legislative branch,
+Parliament. That seemed to make a mockery of the very value over which the U.K.’s
+departure from the EU was fought in the first place: parliamentary sovereignty.
+The challenge to May’s plans didn’t come from the Commons, but from a civilian,
+Gina Miller, who took the government to court and <a href="https://www.theguardian.com/commentisfree/2017/jan/24/supreme-court-brexit-judgment-constitution-gina-miller" target="_blank" rel="nofollow">won</a>.
+As a result, Parliament had to debate and vote on whether it approved the
+initiation of the U.K.’s exit from the EU. The bill passed <a href="https://www.bbc.com/news/uk-politics-38833883" target="_blank" rel="nofollow">comfortably</a> in
+February 2017 but set a precedent: The government couldn’t simply do as it
+pleased when it came to Brexit terms—it had to get Parliamentary approval. May
+had to promise Parliament a “<a href="https://www.itv.com/news/2019-01-06/brexit-what-is-the-meaningful-vote-and-how-does-it-work/" target="_blank" rel="nofollow">meaningful
+vote</a><span class="MsoHyperlink">,” i.e.</span> a vote on the government’s
+final withdrawal agreement with the EU. It is this meaningful vote that May has
+been trying, and failing, to win since she struck her deal with the EU back in <a href="https://www.theguardian.com/politics/2018/nov/14/theresa-mays-brexit-deal-everything-you-need-to-know" target="_blank" rel="nofollow">November</a>.&nbsp;&nbsp;</p><p>Last Tuesday,
+May’s withdrawal deal was <a href="https://www.bbc.com/news/uk-politics-47547887" target="_blank" rel="nofollow">defeated</a> in Parliament
+by 149 votes, only two weeks ahead of the U.K.’s scheduled March 29 departure
+date. It was a better result than January’s, (when a near identical deal was rejected
+by the <a href="https://www.independent.co.uk/news/uk/politics/brexit-vote-theresa-may-defeat-mps-history-biggest-ever-loss-commons-a8729791.html" target="_blank" rel="nofollow">greatest
+margin</a> in modern parliamentary history) but still nowhere near a majority.
+It appears as though the Prime Minister has lost control of Brexit, her
+government’s main preoccupation, and that Parliament has taken over. But things
+are never that simple when it comes to Brexit. Parliament is divided in
+different factions, aiming for different outcomes, yet without the power to
+bring any of those outcomes about.</p><p>A group of
+ultra-Euroskeptic Conservative MPs, the European Research Group (ERG), are
+opposed to May’s deal because of the so-called backstop, a provision that avoids
+the creation of a hard border between Northern Ireland (part of the U.K.) and
+the Republic of Ireland (part of the EU) as a result of Brexit. The absence of
+such a border is integral to the Good Friday Agreement which ended decades of
+violence between the two countries, but hardcore Brexiteers don’t like the idea
+of keeping Northern Ireland (and, by extension, the U.K.) in a European customs
+union to fulfill that requirement. Instead, the <a href="https://www.scotsman.com/news/politics/general-election/brexit-erg-and-dup-refuse-to-back-theresa-may-s-deal-1-4887886" target="_blank" rel="nofollow">ERG</a>
+favors a so-called “no-deal Brexit” wherein the U.K. leaves the European Union
+without any arrangements in place. The option is predicted to lead to severe
+economic disruption, but prominent Brexit campaigner Boris Johnson has called
+it the only way that the country’s self-respect can be <a href="https://blogs.spectator.co.uk/2019/03/boris-johnson-leaving-on-29-march-is-the-only-way-to-preserve-the-uks-self-respect/" target="_blank" rel="nofollow">preserved</a>.
+The DUP, a Northern Irish party propping up May’s minority government, has also
+taken this <a href="https://www.bbc.com/news/uk-politics-47586694" target="_blank" rel="nofollow">position</a>.
+No-deal is still legally the default if the U.K. can’t come up with a deal
+before the deadline, so the ERG and DUP are hoping that by blocking May’s deal,
+no-deal becomes more likely. The majority of Parliament, however, finds a no-deal
+Brexit unacceptable, and last Wednesday voted to <a href="https://www.bbc.com/news/uk-politics-47562995" target="_blank" rel="nofollow">rule it out</a> as an
+outcome.<span>&nbsp;</span></p></div></div><div class="full-width inserted-dfp ad-container-0"></div><div class="article-text-wrap"><div class="article-text-grid"><p>As
+demonstrations of sovereignty go, this is functionally meaningless: To actually
+avoid a no-deal default, Parliament must either vote through <i>some</i> withdrawal agreement or stop Brexit
+altogether. At the moment, there is no majority for either of those
+alternatives. Or if there is, we don’t know it, as the option of holding “indicative
+votes” to find a majority for an alternative path was <a href="https://www.theguardian.com/politics/live/2019/mar/14/brexit-mps-to-vote-on-delaying-departure-from-european-union-politics-live" target="_blank" rel="nofollow">rejected</a>,
+thus preserving a shroud of mystery over how the people’s elected
+representatives think Brexit should be resolved.</p><p>Parliament,
+then, is no more in control of Brexit than the prime minister is. A natural way
+of resolving this impasse would be to hold a second referendum, giving the
+people that voted for Brexit in the first place the power to decide what should
+happen next, but this too has been <a href="https://www.bbc.com/news/av/uk-politics-47575445/mps-reject-a-second-brexit-referendum-by-334-votes-to-85" target="_blank" rel="nofollow">defeated</a>
+in last week’s votes.</p><div class="inserted-housead"></div><p>Given the
+impasse and looming Brexit deadline on the 29th of March, Parliament came
+together in agreeing to ask the EU for an <a href="https://www.bbc.com/news/live/uk-politics-parliaments-47529293" target="_blank" rel="nofollow">extension</a>.
+That essentially gives the EU control over the next stages of Brexit—something
+it will likely decide at the <a href="https://www.bbc.com/news/uk-politics-46393399" target="_blank" rel="nofollow">EU summit</a> later this week.
+To begin with, all other 27 EU members must agree to the U.K.’s request. In all
+probability they will, despite concerns that no-deal zealots have been <a href="https://www.theguardian.com/politics/2019/mar/13/brexiters-lobby-for-european-veto-of-article-50-extension" target="_blank" rel="nofollow">lobbying</a>
+countries like Italy and Poland to veto the extension. But what will truly determine
+Brexit’s future is the length of the extension the EU will agree to. The British
+government will have to offer reasons why more time can facilitate Parliament’s
+approving a withdrawal deal. Theresa May favors a short extension, but it’s
+hard to see the justification for it. It is unlikely that substantial enough
+changes can be made to the prime minister’s current deal in a short time frame—the
+speaker of the House warned on Monday that a third meaningful vote on a lightly
+tweaked version of May’s plan would violate <a href="https://www.bbc.com/news/uk-politics-47614074" target="_blank" rel="nofollow">parliamentary convention</a>.
+A short extension would also not allow time for other avenues, like a second
+referendum or a general election, to become available. If the EU favors a
+longer extension instead, as Donald Tusk, President of the European Council, has
+<a href="https://www.bbc.com/news/world-europe-47557216" target="_blank" rel="nofollow">hinted</a>, all bets are
+off. The U.K. will have to participate in the <a href="https://www.economist.com/britain/2019/01/17/extending-article-50-may-mean-britain-must-elect-meps-again" target="_blank" rel="nofollow">European
+Parliament elections</a> in May, whose results could create a new political
+dynamic, including the possibility of a general election or a second referendum
+giving Brexit a whole new direction. That longer extension, then, would grant
+the U.K. more autonomy and options about how to proceed.&nbsp;</p><p><span>Autonomy was indeed
+one of the reasons the U.K. voted to leave the EU in the first place. Ironically, that freedom is now dependent on
+the EU granting it.&nbsp;</span></p></div></div></div></div></div><footer class="article-footer-wrap" data-reactid="131"><div class="article-author-bio" data-reactid="132"><div class="bio-body" data-reactid="133"><div class="bio-text" data-reactid="134"><p>Alexis Papazoglou writes on philosophy, current affairs, and politics. He previously taught philosophy at the University of Cambridge and Royal Holloway, University of London.</p></div><a href="https://twitter.com/philosgreek" target="_blank" class="bio-twitter" data-reactid="135"><div class="icon" data-reactid="136"><div class="svg-wrapper svg-wrapper-icon" data-reactid="137"><svg version="1.1" x="0px" y="0px" viewBox="0 0 64 64" class="svg-svg" data-reactid="138"><path class="icon-path icon-twitter" d="M62,13.4c-2.2,1-4.6,1.6-7.1,1.9c2.5-1.5,4.5-3.9,5.4-6.8c-2.4,1.4-5,2.4-7.8,3c-2.2-2.4-5.4-3.9-9-3.9c-6.8,0-12.3,5.5-12.3,12.3c0,1,0.1,1.9,0.3,2.8C21.3,22.2,12.2,17.3,6.2,9.9c-1.1,1.8-1.7,3.9-1.7,6.2c0,4.3,2.2,8,5.5,10.2c-2-0.1-3.9-0.6-5.6-1.5c0,0.1,0,0.1,0,0.2c0,6,4.2,10.9,9.9,12.1c-1,0.3-2.1,0.4-3.2,0.4c-0.8,0-1.6-0.1-2.3-0.2c1.6,4.9,6.1,8.4,11.5,8.5C16,49.1,10.7,51,4.9,51c-1,0-2-0.1-2.9-0.2c5.4,3.5,11.9,5.5,18.9,5.5c22.6,0,35-18.8,35-35c0-0.5,0-1.1,0-1.6C58.3,18,60.3,15.9,62,13.4z" data-reactid="139"></path></svg></div></div><!-- react-text: 140 -->@<!-- /react-text --><!-- react-text: 141 -->philosgreek<!-- /react-text --></a></div></div><div class="article-social article-social-bottom" data-reactid="142"><div class="article-social-inner" data-reactid="143"><a href="#" title="Share on Facebook" data-reactid="144"><div class="article-share facebook " data-reactid="145"><div class="icon" data-reactid="146"><div class="svg-wrapper svg-wrapper-icon" data-reactid="147"><svg version="1.1" x="0px" y="0px" viewBox="0 0 64 64" class="svg-svg" data-reactid="148"><path class="icon-path icon-facebook" d="M37,64V34.8h9.8l1.5-11.4H37v-7.3c0-3.3,0.9-5.5,5.6-5.5l6,0V0.4C47.6,0.3,44,0,39.8,0c-8.7,0-14.6,5.3-14.6,15v8.4h-9.8v11.4h9.8V64H37z" data-reactid="149"></path></svg></div></div></div></a><a href="#" title="Share on Twitter" data-reactid="150"><div class="article-share twitter " data-reactid="151"><div class="icon" data-reactid="152"><div class="svg-wrapper svg-wrapper-icon" data-reactid="153"><svg version="1.1" x="0px" y="0px" viewBox="0 0 64 64" class="svg-svg" data-reactid="154"><path class="icon-path icon-twitter" d="M62,13.4c-2.2,1-4.6,1.6-7.1,1.9c2.5-1.5,4.5-3.9,5.4-6.8c-2.4,1.4-5,2.4-7.8,3c-2.2-2.4-5.4-3.9-9-3.9c-6.8,0-12.3,5.5-12.3,12.3c0,1,0.1,1.9,0.3,2.8C21.3,22.2,12.2,17.3,6.2,9.9c-1.1,1.8-1.7,3.9-1.7,6.2c0,4.3,2.2,8,5.5,10.2c-2-0.1-3.9-0.6-5.6-1.5c0,0.1,0,0.1,0,0.2c0,6,4.2,10.9,9.9,12.1c-1,0.3-2.1,0.4-3.2,0.4c-0.8,0-1.6-0.1-2.3-0.2c1.6,4.9,6.1,8.4,11.5,8.5C16,49.1,10.7,51,4.9,51c-1,0-2-0.1-2.9-0.2c5.4,3.5,11.9,5.5,18.9,5.5c22.6,0,35-18.8,35-35c0-0.5,0-1.1,0-1.6C58.3,18,60.3,15.9,62,13.4z" data-reactid="155"></path></svg></div></div></div></a><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://newrepublic.com/article/153338/brexit-making-britain-look-weak&amp;title=Brexit Is Making Britain Look Weak&amp;summary=The goal was to seize back sovereignty. Instead, failed Brexit deliberations have handed control over the country&#x27;s fate to the EU.&amp;utm_source=social&amp;utm_medium=linkedin&amp;utm_campaign=sharebtn" target="_blank" title="Share on LinkedIn" data-reactid="156"><div class="article-share linkedin " data-reactid="157"><div class="icon" data-reactid="158"><div class="svg-wrapper svg-wrapper-icon" data-reactid="159"><svg version="1.1" x="0px" y="0px" viewBox="0 0 64 64" class="svg-svg" data-reactid="160"><path class="icon-path icon-linkedin" d="M11.34,2.85A6.54,6.54,0,1,1,4.8,9.39a6.54,6.54,0,0,1,6.54-6.54m-5.64,18H17V57.15H5.7V20.88h0Z" data-reactid="161"></path><path class="icon-path icon-linkedin" d="M24.05,20.88h10.8v5H35A11.84,11.84,0,0,1,45.68,20C57.09,20,59.2,27.49,59.2,37.26V57.15H47.93V39.51c0-4.21-.07-9.62-5.86-9.62s-6.76,4.58-6.76,9.32V57.15H24.05V20.88h0Z" data-reactid="162"></path></svg></div></div></div></a><a title="Share via Email" href="mailto:?subject=&amp;body=Brexit%20Is%20Making%20Britain%20Look%20Weak%0A%0Ahttps%3A%2F%2Fnewrepublic.com%2Farticle%2F153338%2Fbrexit-making-britain-look-weak" data-reactid="163"><div class="article-share email " data-reactid="164"><div class="icon" data-reactid="165"><div class="svg-wrapper svg-wrapper-icon" data-reactid="166"><svg version="1.1" x="0px" y="0px" viewBox="0 0 64 64" class="svg-svg" data-reactid="167"><path class="icon-path icon-email" d="M54.5,6.4H9.5C4.8,6.4,1,10.2,1,15V49c0,4.7,3.8,8.5,8.5,8.5h44.9c4.7,0,8.5-3.8,8.5-8.5V15C63,10.2,59.2,6.4,54.5,6.4zM56.9,33.8l-5.2-4.2l5.2-3.8V33.8z M9.5,12.5h44.9c1.4,0,2.5,1.1,2.5,2.5v3.2L32.2,36.4c-0.1,0.1-0.2,0.1-0.3,0L7.1,18.2V15C7.1,13.6,8.2,12.5,9.5,12.5zM12.2,29.5l-5.1,4.1v-7.9L12.2,29.5z M54.5,51.5H9.5c-1.4,0-2.5-1.1-2.5-2.5v-7.6l10.1-8.2l11,8.1c1.1,0.8,2.4,1.2,3.8,1.2s2.6-0.4,3.8-1.2l10.9-8l10.3,8.3V49C56.9,50.4,55.8,51.5,54.5,51.5z" data-reactid="168"></path></svg></div></div></div></a></div></div><div class="article-footer-tags" data-reactid="169"><div class="tags-body" data-reactid="170"><span class="tag-list-label" data-reactid="171">Read More</span><div class="tag-list" itemprop="keywords" content="Foreign Affairs,Brexit,Theresa May,Boris Johnson,European Union" data-reactid="172"><span class="tag-list-item" data-reactid="173"><a class="tag tag-foreign-affairs " href="/tags/foreign-affairs" data-reactid="174">Foreign Affairs</a><span class="tag-list-comma" data-reactid="175">, </span></span><span class="tag-list-item" data-reactid="176"><a class="tag tag-brexit " href="/tags/brexit" data-reactid="177">Brexit</a><span class="tag-list-comma" data-reactid="178">, </span></span><span class="tag-list-item" data-reactid="179"><a class="tag tag-theresa-may " href="/tags/theresa-may" data-reactid="180">Theresa May</a><span class="tag-list-comma" data-reactid="181">, </span></span><span class="tag-list-item" data-reactid="182"><a class="tag tag-boris-johnson " href="/tags/boris-johnson" data-reactid="183">Boris Johnson</a><span class="tag-list-comma" data-reactid="184">, </span></span><span class="tag-list-item" data-reactid="185"><a class="tag tag-european-union " href="/tags/european-union" data-reactid="186">European Union</a><span class="tag-list-comma" data-reactid="187"></span></span></div></div></div></footer></article></div></div></div></div></main><div class="subscription-prompts" data-reactid="188"><div class="subscribe-cta" style="color:#000000;background-color:#91F5FF;" data-reactid="189"><div class="subscribe-cta__band" data-reactid="190"></div><div class="subscribe-cta__cover" data-reactid="191"><img src="//images.newrepublic.com/fb4d98f5b67bb06ccd6fdabaa4dd2d49d1a101f0.jpeg?w=500&amp;q=60" data-reactid="192"/></div><div class="subscribe-cta__text" data-reactid="193"><h2 class="subscribe-cta__header" data-reactid="194">Support independent journalism</h2><h3 class="subscribe-cta__subheader" data-reactid="195">Unlimited access for less than $2 a month</h3><a class="subscribe-cta__link" href="https://tnr-reg.onecount.net/onecount/form/display.php?id=65b62084-2a9e-41e3-a826-9069eec96f50&amp;src_code=91" data-reactid="196">Subscribe Now</a></div></div><div class="email-signup" data-reactid="197"><div class="email-signup__inner" data-reactid="198"><div class="email-signup__callout" data-reactid="199"><div class="logo" data-reactid="200"><div class="svg-wrapper svg-wrapper-logo" data-reactid="201"><svg class="svg-one-line-wordmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1785.2 127" data-reactid="202"><path d="M86.6 6.7H8.3L0 58.4h.6C12.5 28.9 25.2 7.5 48.3 7.5v80.8c0 21.7-1.6 29.6-19.3 32.1v.6h73.9v-.6c-17.7-2.6-19.3-10.4-19.3-32.1V7.5c23.1 0 35.8 21.4 47.7 50.9h.6l-8.3-51.7h-37z" data-reactid="203"></path><path d="M268.8 7.4v-.7h-64.2v.7C215.8 9.9 219 17.8 219 39.5v20.7h-43.4V39.5c0-21.7 3.2-29.5 14.5-32.1v-.7h-64.2v.7c11.2 2.6 14.5 10.4 14.5 32.1v48.8c0 21.7-3.2 29.6-14.4 32.1v.6h64.2v-.6c-11.2-2.6-14.5-10.4-14.5-32.1V63H219v25.3c0 21.7-3.2 29.6-14.5 32.1v.6h64.2v-.6c-11.2-2.6-14.4-10.4-14.4-32.1V39.5c0-21.7 3.2-29.6 14.5-32.1zM395.5 69.4c-12.2 29.6-53.3 50.9-74.8 50.9V62.5v.5h57.6V60.1h-57.6v.7V7.5c21.5 0 51.9 21.4 63.8 50.9h.6l-7.9-51.7H270.9v.7c11.2 2.6 14.5 10.4 14.5 32.1v48.8c0 21.7-3.2 29.6-14.5 32.1v.6h106.3l19.1-51.7h-.8zM479.4 6.7v.7c10 1 29.9 12.5 38.5 35 1.7 4.6 2.6 9.5 2.6 14.4v23.8l-64-73.9h-46.2v.7l18.8 22v38c-.1 33.3-5.9 51.8-18.8 53.1v.6h62.6v-.6c-10-1-29.9-12.5-38.4-34.9-1.7-4.6-2.6-9.5-2.6-14.4V32.6l75.7 88.4h15.7V58.4c.4-32 6.2-49.8 18.8-51.1v-.6h-62.7zM652.5 6.7v.7c8.2 1.1 11.9 3.7 15.2 11.2l50 106.5h.8L736 86.9l13.6-29.5 29.2 67.7h.6l19.2-42.6 21.5-46.8c9.8-18.1 19.8-27.7 27.8-28.4v-.6H652.5zM708.1 22c-4.7-10.9-4.7-14.3 7.1-14.3 9.8 0 14.6 3.4 17.8 10.9l15.1 35.1-13.6 29.5L708.1 22zM811 48.6l-15.2 33L773.1 22c-4.1-10.9-5.5-14.3 6.3-14.3 11.2 0 24.2 6.3 30.5 16.8 4.3 7.4 4.7 16.4 1.1 24.1zM668.7 69.4c-12.2 29.6-53.3 50.9-74.8 50.9V63h57.7V60.1h-57.7V7.5c21.5 0 51.9 21.4 63.8 50.9h.7l-7.9-51.7H544.1v.7c11.2 2.6 14.5 10.4 14.5 32.1v48.8c0 21.7-3.2 29.6-14.5 32.1v.6h106.3l19.1-51.7-.8.1zM1186.1 120.4v.6h-67.4v-.6c11.2-2.6 14.4-10.4 14.4-32.1V39.5c0-21.7-3.2-29.5-14.4-32.1v-.6h57.7c34.2 0 60.4 3.7 60.4 32.3 0 30.3-36.3 34.7-66.8 32.3v-.7c22-.8 30.5-11.7 30.5-31.5 0-20.2-8.8-31.5-32-31.6v80.8c-.1 21.6.9 29.5 17.6 32zM1533.4 120.3c21.5 0 46.2-20.7 60.2-75h1.1l-3.5 75.8h-107.6v-.6c11.2-2.6 14.5-10.4 14.5-32.1V39.5c0-21.7-3.2-29.5-14.5-32.1v-.6h64.2v.6c-11.2 2.6-14.4 10.4-14.4 32.1v80.8zM1662.4 7.4c-11.2 2.6-14.4 10.4-14.4 32.1v48.8c0 21.7 3.2 29.6 14.4 32.1v.6h-64.2v-.6c11.2-2.6 14.5-10.4 14.5-32.1V39.5c0-21.7-3.2-29.5-14.5-32.1v-.6h64.2v.6z" data-reactid="204"></path><path d="M1727.7 3.8c17.3 0 29.1 9 35.7 9 7.1 0 8-5.8 8.5-12.9h.8l12.5 60.2h-.8C1775.1 34.7 1757 5 1727.7 5c-17.8 0-28.6 26.2-28.6 58.6s10.8 58.5 28.6 58.5c29.2 0 47.4-29.7 56.7-55.2h.8l-12.5 60.2h-.8c-.5-7.1-1.4-12.8-8.5-12.8-6.6 0-18.3 9-35.7 9-38.6 0-68.3-23.1-68.3-59.6s29.8-59.9 68.3-59.9zM1124.2 69.4c-12.2 29.5-53.3 50.9-74.8 50.9V63.1h57.7V60.3h-57.6V7.6c21.5 0 51.9 21.4 63.8 50.9h.7l-7.9-51.7H999.6v.6c11.2 2.6 14.4 10.4 14.4 32.1v48.8c0 18.7-2.4 27.2-10.3 30.8-1 .4-2 .4-3 0-3.9-1.6-6.7-4.3-10.8-10.2l-30.7-45c-4.7 2.9-13.8 4-19.6 4-9.6 0-18.3-2.2-26.2-8.5v-.2c55.7 4.5 69.1-9.5 69.1-27.3 0-20.1-21.7-25.2-52.5-25.2h-70.3v.6c11.2 2.6 14.5 10.4 14.5 32.1v48.9c0 21.7-3.2 29.6-14.5 32.1v.6h64.2v-.6c-11.2-2.6-14.5-10.4-14.5-32.1V7.9h11.9c18.2 0 24.7 11.4 24.7 25s-6.6 25.9-24.7 25.5l-9.8-.2 42.6 62.8h151.8l19.1-51.7h-.8zM1440.4 60.9v-.3c26.3-3 41.9-13.2 41.9-28.6 0-14.1-12.8-25.2-48.3-25.2h-128.9v.6c11 .9 26.7 12.1 35.6 28.2 3.6 8.1 5.4 16.8 5.4 25.7v6.9c0 15.2-3.2 27.7-9.4 36-5.8 7.9-14.2 12-24.4 12h-2.3c-6.1 0-12-2.3-16.4-6.6-7-7.3-10.8-19.5-10.8-35.7v-51c0-12 4.3-13.8 13.3-15.4v-.7H1232v.6c9.5 1.6 13.2 3.4 14.1 11.1 1 8.8 1.5 17.6 1.4 26.5v30.8c0 24.1 10.4 47.7 51.2 47.7 17.8 0 30-5.6 37.9-14.9 7.9-8.7 12.3-22.6 12.3-40.5v-6.9-2.4c.2-25.7 5.3-47.2 16.4-50.9.7-.2 1.4-.3 2.1-.3h.6c.8 0 1.6.1 2.3.4 9.6 3 12.5 11.2 12.5 31.6v48.8c0 21.7-3.2 29.6-14.4 32.1v.6h71.6c30.7 0 49.8-10.6 49.8-31.2 0-24.2-26.4-28.7-49.4-29zm-22.3-53h6.9c14.5 0 21.4 9 21.4 26.3s-6.9 27-21.4 27h-6.9V7.9zm6.8 112.1h-6.8V62.3h6.8c15.7 0 27.9 7.7 27.9 29.1s-12.2 28.6-27.9 28.6z" data-reactid="205"></path></svg></div><div class="svg-wrapper svg-wrapper-logo-stacked" data-reactid="206"><svg class="svg-two-line-wordmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1301.5 347" data-reactid="207"><path d="M171.4 0H61.3L49.6 72.7h.9C67.2 31.2 85.1 1.1 117.6 1.1v113.6c0 30.5-2.3 41.6-27.1 45.2v.9h103.9v-.9c-24.8-3.6-27.1-14.7-27.1-45.2V1.1c32.5 0 50.4 30 67.1 71.6h.9L223.5 0h-52.1zM459 337.8v.9h-94.8v-.9c15.8-3.6 20.3-14.7 20.3-45.2V224c0-30.5-4.5-41.6-20.3-45.2v-.9h81.1c48.1 0 84.9 5.2 84.9 45.4 0 42.7-51 48.8-94 45.4v-.9c30.9-1.1 42.9-16.5 42.9-44.3 0-28.4-12.4-44.3-44.9-44.5v113.5c0 30.6 1.3 41.6 24.8 45.3zM947.4 337.5c30.3 0 65-29.1 84.7-105.5h1.6l-5 106.6H877.3v-.9c15.8-3.6 20.3-14.7 20.3-45.2V224c0-30.5-4.5-41.6-20.3-45.2v-.9h90.3v.9c-15.8 3.6-20.3 14.7-20.3 45.2v113.5zM1128.7 178.8c-15.8 3.6-20.3 14.7-20.3 45.2v68.7c0 30.5 4.5 41.5 20.3 45.2v.9h-90.3v-.9c15.8-3.6 20.3-14.7 20.3-45.2V224c0-30.5-4.5-41.6-20.3-45.2v-.9h90.3v.9z" data-reactid="208"></path><path d="M1220.6 173.8c24.4 0 40.9 12.6 50.1 12.6 9.9 0 11.3-8.1 12-18.1h1.1l17.6 84.7h-1.1c-13.1-35.9-38.6-77.7-79.7-77.7-25.1 0-40.2 36.8-40.2 82.4s15.1 82.2 40.2 82.2c41.1 0 66.6-41.8 79.7-77.7h1.1l-17.6 84.7h-1.1c-.7-9.9-2-18.1-12-18.1-9.3 0-25.7 12.6-50.1 12.6-54.2 0-96-32.5-96-83.8s41.8-83.8 96-83.8zM427.5.9V0h-90.3v.9c15.8 3.6 20.3 14.7 20.3 45.2v29.1h-61V46.1c0-30.5 4.5-41.5 20.3-45.2V0h-90.3v.9c15.8 3.6 20.3 14.7 20.3 45.2v68.7c0 30.5-4.5 41.5-20.3 45.2v.9h90.3v-.9c-15.8-3.6-20.3-14.7-20.3-45.2V79.2h61v35.6c0 30.5-4.5 41.6-20.3 45.2v.9h90.3v-.9c-15.8-3.6-20.3-14.7-20.3-45.2V46.1c0-30.5 4.5-41.6 20.3-45.2zM605.7 88.1c-17.2 41.6-75 71.6-105.2 71.6V78.4v.8h81.1V75.2h-81.1v.9-75c30.3 0 72.9 30 89.7 71.6h.9L580 0H430.5v.9c15.8 3.6 20.3 14.7 20.3 45.2v68.7c0 30.5-4.5 41.5-20.3 45.2v.9H580l26.9-72.7-1.2-.1zM723.7 0v.9c14.1 1.4 42 17.5 54.1 49.2 2.4 6.5 3.6 13.3 3.6 20.2v33.5L691.4 0h-65v.9l26.4 30.9v53.4c-.2 46.8-8.3 72.9-26.4 74.7v.9h88.1v-.9c-14.1-1.4-42-17.5-54-49.1-2.4-6.5-3.7-13.3-3.6-20.2V36.4l106.3 124.4h22.1V72.7c.5-45 8.7-70.1 26.4-71.8V0h-88zM967.2 0v.9c11.5 1.6 16.7 5.2 21.5 15.8l70.2 149.7h1.2l24.5-53.6 19.1-41.6 41.1 95.2h.9l27-59.9 30.2-65.8c13.7-25.4 27.9-38.9 39-39.9V0H967.2zm78.1 21.5c-6.6-15.4-6.6-20.1 9.9-20.1 13.8 0 20.6 4.7 25.1 15.4l21.3 49.4-19.1 41.5-37.2-86.2zM1190 58.8l-21.3 46.4-32-83.8c-5.9-15.4-7.7-20.1 8.8-20.1 15.7 0 34 8.8 42.9 23.7 6.1 10.3 6.7 23 1.6 33.8zM371.9 266c-17.2 41.5-75 71.6-105.2 71.6v-80.5h81.1v-4h-81.1V179c30.3 0 73 30 89.7 71.6h.9l-11.1-72.7H196.7v.9c15.8 3.6 20.3 14.7 20.3 45.2v68.6c0 26.4-3.4 38.2-14.5 43.2-1.4.6-2.9.6-4.2 0-5.4-2.2-9.4-6-15.1-14.4L140 258.3c-6.6 4.1-19.4 5.6-27.6 5.6-13.6 0-25.7-3.2-36.8-12v-.2c78.4 6.3 97.1-13.3 97.1-38.4 0-28.2-30.5-35.4-73.8-35.4H0v.9c15.8 3.6 20.3 14.7 20.3 45.2v68.7c0 30.5-4.5 41.5-20.3 45.2v.9h90.3v-.9C74.5 334.1 70 323.1 70 292.6V179.5h16.7c25.5 0 34.8 16 34.8 35.2s-9.3 36.4-34.8 35.9l-13.8-.2 59.9 88.3h213.4l26.9-72.7h-1.2zM990 88.1c-17.2 41.6-75 71.6-105.2 71.6V79.2h81.1V75.2h-81.1v-74c30.3 0 72.9 30 89.7 71.6h.9L964.2 0H814.7v.9C830.5 4.5 835 15.6 835 46.1v68.7c0 30.5-4.5 41.5-20.3 45.2v.9h149.5L991 88.1h-1zM816.7 254v-.4c37-4.3 58.9-18.5 58.9-40.2 0-19.9-18.1-35.4-68-35.4H626.3v.9c15.5 1.2 37.5 17 50.1 39.6 5 11.4 7.6 23.6 7.7 36.1v9.7c0 21.4-4.5 38.9-13.2 50.6-8.2 11.1-20 16.9-34.3 16.9h-3.3c-9.2-.2-17-3.4-23-9.2-9.8-10.2-15.2-27.4-15.2-50.2v-71.8c0-16.9 6.1-19.4 18.8-21.7v-.9h-90.4v.9c13.3 2.3 18.5 4.7 19.9 15.6 1.4 12.4 2 24.8 2 37.3V275c0 33.9 14.7 67.1 72 67.1 25 0 42.2-7.9 53.3-20.9 11.1-12.2 17.2-31.7 17.2-57v-9.7c0-1.1 0-2.2-.1-3.3.3-35.6 7.3-65.4 22.3-71.3 1.2-.5 2.6-.7 3.9-.8h.1c1.5 0 2.9.2 4.3.7 13.1 4.4 17 16 17 44.2v68.6c0 30.5-4.5 41.5-20.3 45.2v.9H816c43.1 0 70-14.9 70-43.8 0-34.1-37-40.5-69.3-40.9zm-31.4-74.5h9.7c20.3 0 30 12.6 30 37s-9.7 37.9-30 37.9h-9.7v-74.9zm9.4 157.6h-9.5V256h9.5c22.1 0 39.3 10.8 39.3 40.9s-17.1 40.2-39.3 40.2z" data-reactid="209"></path></svg></div></div><h3 data-reactid="210">TNR Newsletters.</h3><h3 data-reactid="211">Must reads. 5 days a week.</h3></div><a class="email-signup__button" href="https://mailchi.mp/61665a30a33b/tnrdaily" target="_blank" data-reactid="212">Sign Up Now</a></div></div></div><footer class="page-footer" data-reactid="213"><ul class="page-footer__social" data-reactid="214"><li class="page-footer__social-item twitter" data-reactid="215"><a href="https://twitter.com/newrepublic" target="_blank" data-reactid="216"><div class="icon" data-reactid="217"><div class="svg-wrapper svg-wrapper-icon" data-reactid="218"><svg version="1.1" x="0px" y="0px" viewBox="0 0 64 64" class="svg-svg" data-reactid="219"><path class="icon-path icon-twitter" d="M62,13.4c-2.2,1-4.6,1.6-7.1,1.9c2.5-1.5,4.5-3.9,5.4-6.8c-2.4,1.4-5,2.4-7.8,3c-2.2-2.4-5.4-3.9-9-3.9c-6.8,0-12.3,5.5-12.3,12.3c0,1,0.1,1.9,0.3,2.8C21.3,22.2,12.2,17.3,6.2,9.9c-1.1,1.8-1.7,3.9-1.7,6.2c0,4.3,2.2,8,5.5,10.2c-2-0.1-3.9-0.6-5.6-1.5c0,0.1,0,0.1,0,0.2c0,6,4.2,10.9,9.9,12.1c-1,0.3-2.1,0.4-3.2,0.4c-0.8,0-1.6-0.1-2.3-0.2c1.6,4.9,6.1,8.4,11.5,8.5C16,49.1,10.7,51,4.9,51c-1,0-2-0.1-2.9-0.2c5.4,3.5,11.9,5.5,18.9,5.5c22.6,0,35-18.8,35-35c0-0.5,0-1.1,0-1.6C58.3,18,60.3,15.9,62,13.4z" data-reactid="220"></path></svg></div></div></a></li><li class="page-footer__social-item instagram" data-reactid="221"><a href="https://instagram.com/newrepublic/" target="_blank" data-reactid="222"><div class="icon" data-reactid="223"><div class="svg-wrapper svg-wrapper-icon" data-reactid="224"><svg version="1.1" x="0px" y="0px" viewBox="0 0 64 64" class="svg-svg" data-reactid="225"><path class="icon-path icon-instagram" fill-rule="evenodd" clip-rule="evenodd" d="M32 0C23.3084 0 22.2204 0.0355556 18.8071 0.192C15.4009 0.348444 13.0738 0.888889 11.0382 1.68C8.90313 2.48344 6.96899 3.74294 5.37067 5.37067C3.74325 6.96925 2.4838 8.90331 1.68 11.0382C0.888889 13.0738 0.346667 15.4009 0.192 18.8089C0.0373333 22.2204 0 23.3067 0 32C0 40.6933 0.0355556 41.7796 0.192 45.1929C0.348444 48.5991 0.888889 50.9262 1.68 52.9618C2.48344 55.0969 3.74294 57.031 5.37067 58.6293C7.14844 60.4071 8.93511 61.5022 11.0382 62.32C13.0738 63.1111 15.4009 63.6533 18.8071 63.808C22.2204 63.9627 23.3084 64 32 64C40.6916 64 41.7796 63.9644 45.1929 63.808C48.5991 63.6516 50.9262 63.1111 52.9618 62.32C55.0968 61.5165 57.031 60.257 58.6293 58.6293C60.4071 56.8516 61.5022 55.0649 62.32 52.9618C63.1111 50.9262 63.6533 48.5991 63.808 45.1929C63.9627 41.7796 64 40.6916 64 32C64 23.3084 63.9644 22.2204 63.808 18.8071C63.6516 15.4009 63.1111 13.0738 62.32 11.0382C61.5165 8.90316 60.257 6.96903 58.6293 5.37067C57.0308 3.74325 55.0967 2.4838 52.9618 1.68C50.9262 0.888889 48.5991 0.346667 45.1911 0.192C41.7796 0.0373333 40.6933 0 32 0ZM32 5.76533C40.544 5.76533 41.5573 5.79911 44.9316 5.952C48.0516 6.09422 49.7458 6.61511 50.8729 7.05422C52.3662 7.63378 53.4329 8.32889 54.5529 9.44711C55.6729 10.5671 56.3662 11.6338 56.9458 13.1271C57.3849 14.2542 57.9058 15.9484 58.048 19.0684C58.2009 22.4427 58.2347 23.456 58.2347 32C58.2347 40.544 58.2009 41.5573 58.048 44.9316C57.9058 48.0516 57.3849 49.7458 56.9458 50.8729C56.4332 52.263 55.6155 53.5205 54.5529 54.5529C53.4329 55.6729 52.3662 56.3662 50.8729 56.9458C49.7458 57.3849 48.0516 57.9058 44.9316 58.048C41.5573 58.2009 40.5458 58.2347 32 58.2347C23.4542 58.2347 22.4427 58.2009 19.0684 58.048C15.9484 57.9058 14.2542 57.3849 13.1271 56.9458C11.737 56.4332 10.4795 55.6155 9.44711 54.5529C8.38455 53.5204 7.56688 52.2629 7.05422 50.8729C6.61511 49.7458 6.09422 48.0516 5.952 44.9316C5.79911 41.5573 5.76533 40.544 5.76533 32C5.76533 23.456 5.79911 22.4427 5.952 19.0684C6.09422 15.9484 6.61511 14.2542 7.05422 13.1271C7.63378 11.6338 8.32889 10.5671 9.44711 9.44711C10.5671 8.32711 11.6338 7.63378 13.1271 7.05422C14.2542 6.61511 15.9484 6.09422 19.0684 5.952C22.4427 5.79911 23.456 5.76533 32 5.76533V5.76533Z" fill="black" data-reactid="226"></path><path class="icon-path icon-instagram" fill-rule="evenodd" clip-rule="evenodd" d="M32.0002 42.6775C30.5981 42.6775 29.2096 42.4013 27.9142 41.8647C26.6188 41.3281 25.4417 40.5416 24.4502 39.5502C23.4587 38.5587 22.6723 37.3816 22.1357 36.0862C21.5991 34.7907 21.3229 33.4023 21.3229 32.0001C21.3229 30.598 21.5991 29.2095 22.1357 27.9141C22.6723 26.6187 23.4587 25.4416 24.4502 24.4501C25.4417 23.4586 26.6188 22.6722 27.9142 22.1356C29.2096 21.599 30.5981 21.3228 32.0002 21.3228C34.8321 21.3228 37.5479 22.4477 39.5503 24.4501C41.5527 26.4525 42.6776 29.1683 42.6776 32.0001C42.6776 34.8319 41.5527 37.5478 39.5503 39.5502C37.5479 41.5525 34.8321 42.6775 32.0002 42.6775V42.6775ZM32.0002 15.5521C27.638 15.5521 23.4544 17.2851 20.3698 20.3697C17.2852 23.4542 15.5522 27.6379 15.5522 32.0001C15.5522 36.3624 17.2852 40.546 20.3698 43.6306C23.4544 46.7152 27.638 48.4481 32.0002 48.4481C36.3625 48.4481 40.5461 46.7152 43.6307 43.6306C46.7153 40.546 48.4483 36.3624 48.4483 32.0001C48.4483 27.6379 46.7153 23.4542 43.6307 20.3697C40.5461 17.2851 36.3625 15.5521 32.0002 15.5521ZM53.234 15.2535C53.234 16.2846 52.8244 17.2736 52.0953 18.0027C51.3661 18.7319 50.3772 19.1415 49.346 19.1415C48.3149 19.1415 47.3259 18.7319 46.5968 18.0027C45.8677 17.2736 45.458 16.2846 45.458 15.2535C45.458 14.2223 45.8677 13.2334 46.5968 12.5042C47.3259 11.7751 48.3149 11.3655 49.346 11.3655C50.3772 11.3655 51.3661 11.7751 52.0953 12.5042C52.8244 13.2334 53.234 14.2223 53.234 15.2535" fill="black" data-reactid="227"></path></svg></div></div></a></li><li class="page-footer__social-item facebook" data-reactid="228"><a href="https://www.facebook.com/newrepublic/" target="_blank" data-reactid="229"><div class="icon" data-reactid="230"><div class="svg-wrapper svg-wrapper-icon" data-reactid="231"><svg version="1.1" x="0px" y="0px" viewBox="0 0 64 64" class="svg-svg" data-reactid="232"><path class="icon-path icon-facebook" d="M37,64V34.8h9.8l1.5-11.4H37v-7.3c0-3.3,0.9-5.5,5.6-5.5l6,0V0.4C47.6,0.3,44,0,39.8,0c-8.7,0-14.6,5.3-14.6,15v8.4h-9.8v11.4h9.8V64H37z" data-reactid="233"></path></svg></div></div></a></li></ul><a title="The New Republic" class="page-footer__ship" href="/" data-reactid="234"><div class="svg-wrapper svg-wrapper-monogram" data-reactid="235"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 445.85 160.76" data-reactid="236"><path d="M424.4 143.6l-43.13-63.22c-6.55 4.07-19.42 5.62-27.55 5.62-13.54 0-25.74-3.16-36.8-12v-.23C395.27 80.16 414 60.51 414 35.45 414 7.22 383.53 0 340.18 0h-107v.9c14.29 1.41 42.78 18 54.55 50.48a73.63 73.63 0 013.12 17.44v35L200.92 0H11.71L0 72.71h.9C17.61 31.16 35.45 1.13 68 1.13V114.7c0 30.48-2.25 41.55-27.09 45.16v.9H224v-.9c-14.63-1.44-44.11-18.8-55.34-52.83a74.9 74.9 0 01-2.27-14.41V36.46l106.39 124.3h41.92v-.9c-12.89-2.94-18.25-10.9-19.8-30.24v-52.4c0-40.12 5.71-65.32 18.33-73.5a13.69 13.69 0 017.45-2.14H328c25.52 0 34.78 16 34.78 35.22S353.5 73.16 328 72.7l-13.77-.22 59.84 88.28h71.8v-.9c-9.28-2.03-13.8-4.97-21.47-16.26zM162.31 83.54c0 33.38-4 56.41-12.55 67.92a16.29 16.29 0 01-5.6 5.4h-.06a12.88 12.88 0 01-9.77 1.25 15 15 0 01-9.77-6.69q-.48-.72-1-1.41c-5.2-7-5.93-18-5.93-35.35V1.13h.27a40.32 40.32 0 0130.37 14.27l9.55 11.18a18.73 18.73 0 014.49 12.17z" data-reactid="237"></path></svg></div></a><div class="page-footer__info" data-reactid="238"><p class="page-footer__copyright" data-reactid="239"><!-- react-text: 240 -->Copyright <!-- /react-text --><!-- react-text: 241 -->2020<!-- /react-text --><!-- react-text: 242 --> © The New Republic. All rights reserved.<!-- /react-text --></p><a title="Privacy Policy" class="page-footer__copyright" href="/pages/privacy" data-reactid="243">Privacy Policy</a></div></footer><!-- react-empty: 244 --><!-- react-empty: 245 --></div></div>
+    <script>window.__REDESIGN_PUBLIC_LAUNCH__=false</script>
+    <script>window.__dataPacket={"childQueries":{"wasServerRendered":true,"magazine":{"metaData":{"status":"DRAFT","image":{"id":"ee4fd6ac-29dd-4918-abe8-c5b671109d73","hash":"fb4d98f5b67bb06ccd6fdabaa4dd2d49d1a101f0","width":2400,"height":3150,"format":"JPEG","isAnimated":false,"baseUrl":"//images.newrepublic.com/","src":"//images.newrepublic.com/fb4d98f5b67bb06ccd6fdabaa4dd2d49d1a101f0.jpeg","meta":{}},"issueTag":{"id":"d06a8ab4-3d30-426f-886f-5ffac7538f03","slug":"may-2020","text":"May 2020","count":"17","label":"May 2020"},"embedCode":"tnr-may-2020","primaryColor":"91F5FF","secondaryColor":"000000","publishedAt":"2020-04-16T09:08:47-04:00"}},"article":{"id":"eb371cb6-cd7a-425b-a014-e3e1ce153fc2","title":"Brexit Is Making Britain Look Weak","cleanTitle":"Brexit Is Making Britain Look Weak","body":"<p>Brexit so far\nhas been a story of the United Kingdom\u2019s political class <span>losing its authority<\/span><span>.&nbsp; Last week\u2019s three-day voting spree in the\nHouse of Commons was the culmination of a two-year effort by the U.K.\u2019s\ngovernment and Parliament to extract the country from the European Union, to \u201ctake back control,\u201d as the Leave campaign slogan promised. Yet those votes\u2014rejecting\nthe prime minister\u2019s Brexit deal Tuesday, rejecting both the option of a&nbsp; no-deal Brexit <\/span><i>and <\/i><span>the option of a\nsecond referendum on Wednesday, and voting to delay exit Thursday\u2014demonstrated\nthat neither the ruling party nor any other parliamentary faction commands the\nmajority to do that in practice. In fact, the only tangible outcome of the last\nweek has been, ironically, to shift control of Brexit\u2019s fate to the EU.<\/span><\/p><p>One of the\nreasons the U.K. finds itself in this situation is that it was not clear from\nthe start who <i>should<\/i> have gained\ncontrol as a result of Brexit. Theresa May\u2019s government assumed the task of implementing\nthe referendum\u2019s result lay with the executive. Their plan was to trigger\nArticle 50 of the EU Treaty\u2014the legal process by which an EU member state\ninitiates the withdrawal \u00adprocess\u2014without consulting the legislative branch,\nParliament. That seemed to make a mockery of the very value over which the U.K.\u2019s\ndeparture from the EU was fought in the first place: parliamentary sovereignty.\nThe challenge to May\u2019s plans didn\u2019t come from the Commons, but from a civilian,\nGina Miller, who took the government to court and <a href=\"https://www.theguardian.com/commentisfree/2017/jan/24/supreme-court-brexit-judgment-constitution-gina-miller\" target=\"_blank\" rel=\"nofollow\">won<\/a>.\nAs a result, Parliament had to debate and vote on whether it approved the\ninitiation of the U.K.\u2019s exit from the EU. The bill passed <a href=\"https://www.bbc.com/news/uk-politics-38833883\" target=\"_blank\" rel=\"nofollow\">comfortably<\/a> in\nFebruary 2017 but set a precedent: The government couldn\u2019t simply do as it\npleased when it came to Brexit terms\u2014it had to get Parliamentary approval. May\nhad to promise Parliament a \u201c<a href=\"https://www.itv.com/news/2019-01-06/brexit-what-is-the-meaningful-vote-and-how-does-it-work/\" target=\"_blank\" rel=\"nofollow\">meaningful\nvote<\/a><span class=\"MsoHyperlink\">,\u201d i.e.<\/span> a vote on the government\u2019s\nfinal withdrawal agreement with the EU. It is this meaningful vote that May has\nbeen trying, and failing, to win since she struck her deal with the EU back in <a href=\"https://www.theguardian.com/politics/2018/nov/14/theresa-mays-brexit-deal-everything-you-need-to-know\" target=\"_blank\" rel=\"nofollow\">November<\/a>.&nbsp;&nbsp;<\/p><p>Last Tuesday,\nMay\u2019s withdrawal deal was <a href=\"https://www.bbc.com/news/uk-politics-47547887\" target=\"_blank\" rel=\"nofollow\">defeated<\/a> in Parliament\nby 149 votes, only two weeks ahead of the U.K.\u2019s scheduled March 29 departure\ndate. It was a better result than January\u2019s, (when a near identical deal was rejected\nby the <a href=\"https://www.independent.co.uk/news/uk/politics/brexit-vote-theresa-may-defeat-mps-history-biggest-ever-loss-commons-a8729791.html\" target=\"_blank\" rel=\"nofollow\">greatest\nmargin<\/a> in modern parliamentary history) but still nowhere near a majority.\nIt appears as though the Prime Minister has lost control of Brexit, her\ngovernment\u2019s main preoccupation, and that Parliament has taken over. But things\nare never that simple when it comes to Brexit. Parliament is divided in\ndifferent factions, aiming for different outcomes, yet without the power to\nbring any of those outcomes about.<\/p><p>A group of\nultra-Euroskeptic Conservative MPs, the European Research Group (ERG), are\nopposed to May\u2019s deal because of the so-called backstop, a provision that avoids\nthe creation of a hard border between Northern Ireland (part of the U.K.) and\nthe Republic of Ireland (part of the EU) as a result of Brexit. The absence of\nsuch a border is integral to the Good Friday Agreement which ended decades of\nviolence between the two countries, but hardcore Brexiteers don\u2019t like the idea\nof keeping Northern Ireland (and, by extension, the U.K.) in a European customs\nunion to fulfill that requirement. Instead, the <a href=\"https://www.scotsman.com/news/politics/general-election/brexit-erg-and-dup-refuse-to-back-theresa-may-s-deal-1-4887886\" target=\"_blank\" rel=\"nofollow\">ERG<\/a>\nfavors a so-called \u201cno-deal Brexit\u201d wherein the U.K. leaves the European Union\nwithout any arrangements in place. The option is predicted to lead to severe\neconomic disruption, but prominent Brexit campaigner Boris Johnson has called\nit the only way that the country\u2019s self-respect can be <a href=\"https://blogs.spectator.co.uk/2019/03/boris-johnson-leaving-on-29-march-is-the-only-way-to-preserve-the-uks-self-respect/\" target=\"_blank\" rel=\"nofollow\">preserved<\/a>.\nThe DUP, a Northern Irish party propping up May\u2019s minority government, has also\ntaken this <a href=\"https://www.bbc.com/news/uk-politics-47586694\" target=\"_blank\" rel=\"nofollow\">position<\/a>.\nNo-deal is still legally the default if the U.K. can\u2019t come up with a deal\nbefore the deadline, so the ERG and DUP are hoping that by blocking May\u2019s deal,\nno-deal becomes more likely. The majority of Parliament, however, finds a no-deal\nBrexit unacceptable, and last Wednesday voted to <a href=\"https://www.bbc.com/news/uk-politics-47562995\" target=\"_blank\" rel=\"nofollow\">rule it out<\/a> as an\noutcome.<span>&nbsp;<\/span><\/p><p>As\ndemonstrations of sovereignty go, this is functionally meaningless: To actually\navoid a no-deal default, Parliament must either vote through <i>some<\/i> withdrawal agreement or stop Brexit\naltogether. At the moment, there is no majority for either of those\nalternatives. Or if there is, we don\u2019t know it, as the option of holding \u201cindicative\nvotes\u201d to find a majority for an alternative path was <a href=\"https://www.theguardian.com/politics/live/2019/mar/14/brexit-mps-to-vote-on-delaying-departure-from-european-union-politics-live\" target=\"_blank\" rel=\"nofollow\">rejected<\/a>,\nthus preserving a shroud of mystery over how the people\u2019s elected\nrepresentatives think Brexit should be resolved.<\/p><p>Parliament,\nthen, is no more in control of Brexit than the prime minister is. A natural way\nof resolving this impasse would be to hold a second referendum, giving the\npeople that voted for Brexit in the first place the power to decide what should\nhappen next, but this too has been <a href=\"https://www.bbc.com/news/av/uk-politics-47575445/mps-reject-a-second-brexit-referendum-by-334-votes-to-85\" target=\"_blank\" rel=\"nofollow\">defeated<\/a>\nin last week\u2019s votes.<\/p><p>Given the\nimpasse and looming Brexit deadline on the 29th of March, Parliament came\ntogether in agreeing to ask the EU for an <a href=\"https://www.bbc.com/news/live/uk-politics-parliaments-47529293\" target=\"_blank\" rel=\"nofollow\">extension<\/a>.\nThat essentially gives the EU control over the next stages of Brexit\u2014something\nit will likely decide at the <a href=\"https://www.bbc.com/news/uk-politics-46393399\" target=\"_blank\" rel=\"nofollow\">EU summit<\/a> later this week.\nTo begin with, all other 27 EU members must agree to the U.K.\u2019s request. In all\nprobability they will, despite concerns that no-deal zealots have been <a href=\"https://www.theguardian.com/politics/2019/mar/13/brexiters-lobby-for-european-veto-of-article-50-extension\" target=\"_blank\" rel=\"nofollow\">lobbying<\/a>\ncountries like Italy and Poland to veto the extension. But what will truly determine\nBrexit\u2019s future is the length of the extension the EU will agree to. The British\ngovernment will have to offer reasons why more time can facilitate Parliament\u2019s\napproving a withdrawal deal. Theresa May favors a short extension, but it\u2019s\nhard to see the justification for it. It is unlikely that substantial enough\nchanges can be made to the prime minister\u2019s current deal in a short time frame\u2014the\nspeaker of the House warned on Monday that a third meaningful vote on a lightly\ntweaked version of May\u2019s plan would violate <a href=\"https://www.bbc.com/news/uk-politics-47614074\" target=\"_blank\" rel=\"nofollow\">parliamentary convention<\/a>.\nA short extension would also not allow time for other avenues, like a second\nreferendum or a general election, to become available. If the EU favors a\nlonger extension instead, as Donald Tusk, President of the European Council, has\n<a href=\"https://www.bbc.com/news/world-europe-47557216\" target=\"_blank\" rel=\"nofollow\">hinted<\/a>, all bets are\noff. The U.K. will have to participate in the <a href=\"https://www.economist.com/britain/2019/01/17/extending-article-50-may-mean-britain-must-elect-meps-again\" target=\"_blank\" rel=\"nofollow\">European\nParliament elections<\/a> in May, whose results could create a new political\ndynamic, including the possibility of a general election or a second referendum\ngiving Brexit a whole new direction. That longer extension, then, would grant\nthe U.K. more autonomy and options about how to proceed.&nbsp;<\/p><p><span>Autonomy was indeed\none of the reasons the U.K. voted to leave the EU in the first place. Ironically, that freedom is now dependent on\nthe EU granting it.&nbsp;<\/span><\/p>","deck":"The goal was to seize back sovereignty. Instead, failed Brexit deliberations have handed control over the country's fate to the EU.","bylines":null,"type":"LONGFORM","slug":"brexit-making-britain-look-weak","nid":153338,"url":"/article/153338/brexit-making-britain-look-weak","urlFull":"https://newrepublic.com/article/153338/brexit-making-britain-look-weak","status":"PUBLISHED","publishedAt":"2019-03-19T10:00:00.000Z","displayAt":null,"ledeImageCaption":"Niklas Halle'n/AFP/Getty Images","ampEnabled":true,"meta":{"wordCount":1184,"disableAds":false,"hideLede":false,"hideHeader":false},"frontPage":null,"ledeAltImage":null,"sponsor":null,"galleries":[],"tags":[{"id":"7619366e-2824-4cf2-8562-162832670d8e","label":"Foreign Affairs","slug":"foreign-affairs"},{"id":"14ad1d83-d466-4886-82f9-0c502b9bc8b6","label":"Brexit","slug":"brexit"},{"id":"e5fe3e26-24a1-4198-bc70-4dcf7a7898e6","label":"Theresa May","slug":"theresa-may"},{"id":"a6da7931-5e13-4b7c-a54c-76cbda646ff4","label":"Boris Johnson","slug":"boris-johnson"},{"id":"193228f7-63da-4ad6-9d5e-73add6b376d9","label":"European Union","slug":"european-union"}],"ledeImage":{"id":"e5fd3c98-39e4-4dd4-ad08-cedeb005784b","hash":"9d22652c4c135d6052c91b312c08913e38ad33c0","width":6000,"height":4000,"format":"JPEG","isAnimated":false,"baseUrl":"//images.newrepublic.com/","src":"//images.newrepublic.com/9d22652c4c135d6052c91b312c08913e38ad33c0.jpeg","meta":{}},"authors":[{"id":"4a5436fb-6d9c-4960-8d10-ae7d12be6544","slug":"alexis-papazoglou","name":"Alexis Papazoglou","title":null,"blurb":"<p>Alexis Papazoglou writes on philosophy, current affairs, and politics. He previously taught philosophy at the University of Cambridge and Royal Holloway, University of London.<\/p>","bio":"<p>Alexis Papazoglou writes on philosophy, current affairs, and politics. He previously taught philosophy at the University of Cambridge and Royal Holloway, University of London.<\/p>","status":"INACTIVE","headshotImage":null,"UserId":null,"meta":{"twitter":"philosgreek"}}]}},"session":{},"magazine":{"metaData":{"status":"DRAFT","image":{"id":"ee4fd6ac-29dd-4918-abe8-c5b671109d73","hash":"fb4d98f5b67bb06ccd6fdabaa4dd2d49d1a101f0","width":2400,"height":3150,"format":"JPEG","isAnimated":false,"baseUrl":"//images.newrepublic.com/","src":"//images.newrepublic.com/fb4d98f5b67bb06ccd6fdabaa4dd2d49d1a101f0.jpeg","meta":{}},"issueTag":{"id":"d06a8ab4-3d30-426f-886f-5ffac7538f03","slug":"may-2020","text":"May 2020","count":"17","label":"May 2020"},"embedCode":"tnr-may-2020","primaryColor":"91F5FF","secondaryColor":"000000","publishedAt":"2020-04-16T09:08:47-04:00"}}}</script>
+    <script src="//assets.newrepublic.com/assets/main-ef3b0311003ba5939fa7.js"></script>
     
-<main role="main" class="content" id="main" tabindex="-1">
-
-    	<!-- <div class="contact-electionland">
-
-		<p class="contact-cta">
-			<strong>Voting Problems?</strong>
-		    <span class="prompt prompt-en">Text or message the word VOTE to us.</span>
-		</p>
-
-		<ul class="contact-options">
-
-			
-			<li class="contact-item">
-				<a class="sms" href="sms:81380">
-					<svg class="icon">
-						<use xlink:href="#icon-mobile"></use>
-					</svg>
-					<span>SMS</span>
-				</a>
-			</li>
-
-            <li class="contact-item">
-				<a class="whatsapp" href="https://api.whatsapp.com/send?l=en&phone=tel:18509098683&text=VOTE">
-					<svg class="icon">
-						<use xlink:href="#icon-whatsapp"></use>
-					</svg>
-					<span>WhatsApp</span>
-				</a>
-			</li>
-
-            <li class="contact-item">
-				<a class="messenger" href="https://m.me/electionland">
-					<svg class="icon">
-						<use xlink:href="#icon-messenger"></use>
-					</svg>
-					<span>Messenger</span>
-				</a>
-			</li>
-
-            <li class="contact-item">
-				<a class="form" href="https://www.propublica.org/electionland-2018-voters-form/ ">
-                    <span>Or use our form.</span>
-				</a>
-			</li>
-
-		</ul>
-
-	</div> -->
-
-	<div id="level1">
-
-		<article>
-
-			<div id="content-top"></div>
-
-			
-			<div class="article-wrap  ">
-
-				<header class="article-header">
-
-					
-					<!--
-															-->
-
-					<h2 class="hed">The Iowa Caucuses App Had Another Problem: It Could Have Been Hacked</h2>
-
-										<p class="dek">While there is no evidence hackers intercepted or tampered with the results, a security firm consulted by ProPublica found that the app lacks key safeguards.</p>
-					
-					<div class="metadata">
-						<p class="byline">by <a class="name" href="https://www.propublica.org/people/jack-gillum">Jack Gillum</a> and <a class="name" href="https://www.propublica.org/people/jessica-huseman">Jessica Huseman</a></p>
-						<time class="timestamp" datetime="2020-02-05EST16:16">Feb. 5, 4:16 p.m. EST</time>
-					</div>
-
-					
-<nav class="story-tools semi-fixed" data-element-ceiling="body" data-element-floor=".article-wrap">
-	<ul>
-		<li>
-			<a href="https://www.facebook.com/sharer/sharer.php?u=https://www.propublica.org/article/the-iowa-caucuses-app-had-another-problem-it-could-have-been-hacked" title="Share this story on Facebook">
-				<svg class="icon" width="24" height="24">
-					<use xlink:href="#icon-facebook" />
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://twitter.com/intent/tweet?url=https://www.propublica.org/article/the-iowa-caucuses-app-had-another-problem-it-could-have-been-hacked&text=The%20Iowa%20Caucuses%20App%20Had%20Another%20Problem%3A%20It%20Could%20Have%20Been%20Hacked" title="Share this story on Twitter">
-				<svg class="icon" width="24" height="24">
-					<use xlink:href="#icon-twitter" />
-				</svg>
-			</a>
-		</li>
-		<li>
-									<a class="nav-tools-link" title="Republish this story" href="/cdn-cgi/l/email-protection#8eb1fdfbece4ebedfab3dae6ebabbcbec7e1f9efabbcbecdeffbedfbfdebfdabbcbecffefeabbcbec6efeaabbcbecfe0e1fae6ebfcabbcbedefce1ece2ebe3abbdcfabbcbec7faabbcbecde1fbe2eaabbcbec6eff8ebabbcbeccebebe0abbcbec6efede5ebeaa8ece1eaf7b3c7aefae6e1fbe9e6faaef7e1fbaee3e7e9e6faaeebe0e4e1f7aefae6e7fdaeeffcfae7ede2ebaee8fce1e3aedefce1defbece2e7edefb4aee6fafafefdabbdcfabbcc8abbcc8f9f9f9a0fefce1fefbece2e7edefa0e1fce9abbcc8effcfae7ede2ebabbcc8fae6eba3e7e1f9efa3edeffbedfbfdebfda3effefea3e6efeaa3efe0e1fae6ebfca3fefce1ece2ebe3a3e7faa3ede1fbe2eaa3e6eff8eba3ecebebe0a3e6efede5ebea">
-				<svg class="icon" width="24" height="24">
-					<use xlink:href="#icon-email" />
-				</svg>
-			</a>
-		</li>
-				<li>
-				<a id="republish-link" data-region="electionland" class="nav-tools-link" title="Republish our story" href="#modal-republish" data-collapsible-target >
-				<svg class="icon" width="24" height="24">
-					<use xlink:href="#icon-cc" />
-				</svg>
-			</a>
-			</li>
-		<li>
-			<a href="https://donate.propublica.org" title="Donate to ProPublica">
-				<svg class="icon" width="24" height="24">
-					<use xlink:href="#icon-donate" />
-				</svg>
-			</a>
-		</li>
-	</ul>
-</nav>
-
-				</header><!-- .article-header -->
-
-
-						
-
-
-      	<figure class="lead-art">
-					<div class="aspect-3-2">
-                    						<img alt="" src="https://assets-c3.propublica.org/images/articles/_threeTwo400w/20200205-Iowa-App-3x2.jpg" width="400" height="267" srcset="https://assets-c3.propublica.org/images/articles/_threeTwo400w/20200205-Iowa-App-3x2.jpg 400w, https://assets-c3.propublica.org/images/articles/_threeTwo800w/20200205-Iowa-App-3x2.jpg 800w, https://assets-c3.propublica.org/images/articles/_threeTwo1200w/20200205-Iowa-App-3x2.jpg 1200w, https://assets-c3.propublica.org/images/articles/_threeTwo1600w/20200205-Iowa-App-3x2.jpg 1600w, https://assets-c3.propublica.org/images/articles/_threeTwo2000w/20200205-Iowa-App-3x2.jpg 2000w" sizes="(min-width: 1720px) 826px, (min-width: 780px) calc(46.09vw + 43px), (min-width: 600px) 59.38vw, 93.21vw"/>
-					</div>
-											<figcaption class="caption">Precinct captain Carl Voss of Des Moines, Iowa, shows the IowaReporterApp on his phone.
-															<span class="credit">(Nati Harnik/AP)</span>
-													</figcaption>
-									</figure>
-            			
-				<div class="article-body">
-
-					
-					
-										<div class="top-notes">
-						
-            
-					<div class="note" id="newsletter-txt-note">
-						<p>ProPublica is a nonprofit newsroom that investigates abuses of power. Sign up to receive <a href="https://go.propublica.org/big-story-2019">our biggest stories</a> as soon as they’re published.</p>
-
-					</div>
-
-        	
-
-					</div><!-- end .top-notes -->
-					
-					
-
-        
-	<p data-pp-blocktype="copy" data-pp-id="1.0">A glitch in the smartphone app used to count and report votes from individual precincts continues to delay results from Monday’s Iowa caucuses. But a closer look shows that the app had a potentially graver problem that apparently did not come into play: its vulnerability to hacking.</p>
-	
-</p>
-                        
-	<p data-pp-blocktype="copy" data-pp-id="3.0">The IowaReporterApp was so insecure that vote totals, passwords and other sensitive information could have been intercepted or even changed, according to officials at Massachusetts-based Veracode, a security firm that reviewed the software at ProPublica’s request. Because of a lack of safeguards, transmissions to and from the phone were left largely unprotected.</p>
-	
-<p data-pp-blocktype="copy" data-pp-id="3.1">Chris Wysopal, Veracode’s chief technology officer, said the problems were elementary. He called it a “poor decision” to release the software without first fixing them. “It is important for all mobile apps that deal with sensitive data to have adequate security testing, and have any vulnerabilities fixed before being released for use,” he said.</p>
-	
-</p>
-            
-
-    
-            <aside class="newsletter newsletter-big-story small left">
-                <h3 class="newsletter-head">Get Our Top Investigations</h3>
-                <p>Subscribe to the Big Story newsletter.</p>
-                                <form class="form-subscribe" method="post" action="https://signup.propublica.org/newsletter/turing">
-                                    <input type="hidden" name="target" value="l/125411/2018-05-16/5blp4k" />
-                                                    <div class="form-label-set">
-                        <input placeholder="Enter your email" class="input-text" name="email" id="big-story-email-input" type="email" onfocus="recaptchaInit()" required />
-                        <label for="big-story-email-input">
-                            <span class="a11y">Email address</span>
-                            <svg class="icon" aria-hidden="true"><use xlink:href="#icon-email"></use></svg>
-                        </label>
-                    </div>
-                    <input id="newsletter-signup-body-557196" class="g-recaptcha" value="Sign Up" type="submit" />
-                    <input type="hidden" name="success_location" value="https://www.propublica.org/forms/thankyou" />
-                    <input type="hidden" name="error_location" value="https://www.propublica.org/forms/error" />
-                    <input type="hidden" name="origin_location" value="https://v3-www.propublica.org/article/the-iowa-caucuses-app-had-another-problem-it-could-have-been-hacked" />
-                    <small class="legal">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</small>
-                                </form>
-            </aside>
-
-
-        
-
-            
-	<p data-pp-blocktype="copy" data-pp-id="5.0">The weaknesses reinforce concerns about political parties managing elections, especially in an era of heightened sensitivity to digital security issues — and about the Iowa Democratic Party’s actions in particular. Party officials, who touted the new technology as a fast way to tally votes, may have given short shrift to assuring not only the app’s effectiveness but also its security, experts said.</p>
-	
-<p data-pp-blocktype="copy" data-pp-id="5.1">There’s no evidence that hackers intercepted or tampered with caucus results. An attack would have required some degree of sophistication, but it would have been much easier to pull off had a precinct worker used an open Wi-Fi hotspot to report votes instead of a cell data plan.</p>
-	
-<p data-pp-blocktype="copy" data-pp-id="5.2">Still, the turmoil over counting the votes in Iowa has raised fresh doubts about the election’s integrity. “It absolutely hurts confidence overall because you have folks looking at this and saying: ‘Did my vote matter? Did it count?’” said Amber McReynolds, the former elections director in Denver and now CEO of the National Vote at Home Institute. “And they’ll ask those questions again in November.”</p>
-	
-<p data-pp-blocktype="copy" data-pp-id="5.3">The Iowa Democratic Party referred questions about testing and vulnerabilities to the app’s maker, Shadow Inc. Mandy McClure, the party’s spokeswoman, said all “electoral data and results have been exported from the application and are in the process of being verified through the paper record.”</p>
-	
-<p data-pp-blocktype="copy" data-pp-id="5.4">Gerard Niemira, Shadow’s CEO, said in a statement to ProPublica that “we are committed to the security of our products, including the app used during the Iowa caucuses. While there were reporting delays, what was most important is that the data was accurate and the caucus reporting process remained secure throughout.</p>
-	
-<p data-pp-blocktype="copy" data-pp-id="5.5">“Our app underwent multiple, rigorous tests by a third party, but we learned today that a researcher found a vulnerability in our app. As with all software, sometimes vulnerabilities are discovered after they are released.” He added that no “hack or intrusion” occurred during the caucuses, and that “the integrity of the vote in Iowa was not compromised in any way.” The app is not currently in use, he said.</p>
-	
-</p>
-                        <aside class="ad-300">
-            <!-- /2219821/Mobile_Leaderboard -->
-            <div class="inner htl-ad"
-                data-unit="Mobile_Leaderboard"
-                data-sizes="0x0:1x1,320x50|960x0:"
-                data-prebid="0x0:Mobile_Leaderboard|960x0:"
-                data-refresh="viewable"
-                data-refresh-secs="60"
-            ></div>
-            <!-- /2219821/Desktop_MedRec_3 -->
-            <div class="inner htl-ad"
-                data-unit="Desktop_Medrec_3"
-                data-sizes="0x0:|960x0:1x1,300x250,300x600"
-                data-prebid="0x0:|960x0:Desktop_Medrec_3"
-                data-refresh="viewable"
-                data-refresh-secs="60"
-            ></div>
-        </aside>
-                
-	<p data-pp-blocktype="copy" data-pp-id="7.0">The app was plagued with data-reporting problems and curious error messages, according to screenshots published by <a href="https://www.vice.com/en_us/article/y3m33x/heres-the-shadow-inc-app-that-failed-in-iowa-last-night">Motherboard</a>, which was first able to download and install a copy of the app this week. The app’s failure prevented some precinct workers from transmitting local election results to the state’s Democratic Party. Because there wasn’t enough backup staffing, officials encountered long delays to phone in tallies. Some still have not been posted.</p>
-	
-<p data-pp-blocktype="copy" data-pp-id="7.1">The U.S. Department of Homeland Security offered to test the app for the Iowa Democratic Party, but the party never took the government up on it, according to a U.S. official familiar with the matter who was not authorized to speak publicly. The official said the party did participate in a dry run, known as a tabletop exercise. The party did not respond to requests for comment on this issue.</p>
-	
-<p data-pp-blocktype="copy" data-pp-id="7.2">Political parties have less training and experience in administering the vote than do state and county governments, which will manage most of the upcoming primaries along with the general election. Government agencies must adhere to state and federal information security standards, which do not necessarily apply to parties. The Nevada State Democratic Party, which paid Shadow Inc. <a href="https://www.fec.gov/data/disbursements/?data_type=processed&amp;committee_id=C00208991&amp;recipient_name=Shadow&amp;two_year_transaction_period=2020&amp;min_date=01%2F01%2F2019&amp;max_date=12%2F31%2F2020">$58,000</a> in August for “technology services,” <a href="https://twitter.com/nvdems/status/1224748733981609984">said</a> it will not employ the app during its Feb. 22 caucuses.</p>
-	
-<p data-pp-blocktype="copy" data-pp-id="7.3">ProPublica obtained a version of the app from an Iowa precinct chair and sent it to Veracode for review this week. ProPublica is not publishing the specific problems with the app to avoid giving a detailed blueprint to hackers, should a similar version of the software be used again.</p>
-	
-<p data-pp-blocktype="copy" data-pp-id="7.4">“This is an extremely serious vulnerability,” said J. Alex Halderman, a University of Michigan computer science professor and chief scientist at the security firm Censys. “An adversary could exploit it to intercept and change caucus results as they were being submitted through the app. Such a change would probably be caught eventually, if officials carefully compared paper return sheets from each location to the computerized results, but it still would have cast doubt on the whole process in peoples’ minds.”</p>
-	
-<p data-pp-blocktype="copy" data-pp-id="7.5">In 2015, Halderman and another researcher found a similar security issue in one of Australia’s online voting platforms. That problem, he said, would have allowed an attacker to change votes during transmission.</p>
-	
-<p data-pp-blocktype="copy" data-pp-id="7.6">“With all the attention that’s supposed to be going into election security, it’s shocking that code with this problem made it into production,” Halderman said. “It’s total amateur hour.”</p>
-	
-</p>
-            
-    <aside data-pp-id="8" data-pp-blocktype="promo" class="promo large left">
-                    <h3 class="aside-head">Read More</h3>
-                
-
-        
-        
-        
-        
-
-        
-                                        
-            <div class="story-entry section-articles">
-
-                                
-                                                                                                <div class="lead-art">
-                                <a class="aspect-3-2" href="https://www.propublica.org/article/iowas-lesson-political-parties-are-not-as-good-as-government-officials-at-counting-votes">
-                                    <img alt="" src="https://assets-c3.propublica.org/images/articles/_threeTwo400w/20200204-Iowa-Caucas-Voting-3x2.jpg" width="400" height="267" srcset="https://assets-c3.propublica.org/images/articles/_threeTwo400w/20200204-Iowa-Caucas-Voting-3x2.jpg 400w, https://assets-c3.propublica.org/images/articles/_threeTwo800w/20200204-Iowa-Caucas-Voting-3x2.jpg 800w, https://assets-c3.propublica.org/images/articles/_threeTwo1200w/20200204-Iowa-Caucas-Voting-3x2.jpg 1200w" sizes="(min-width: 1720px) 335px, (min-width: 960px) calc(18.38vw + 23px), (min-width: 780px) 18.75vw, (min-width: 600px) 27.5vw, 43.21vw"/>
-                                </a>
-                            </div>
-                        
-                    
-                                <!-- end if Featured Image -->
-
-                <div class="description">
-                    <h4 class="hed"><a href="https://www.propublica.org/article/iowas-lesson-political-parties-are-not-as-good-as-government-officials-at-counting-votes">Iowa’s Lesson: Political Parties Are Not as Good as Government Officials at Counting Votes</a></h4>
-                    <p class="dek">Most primaries are run by state and local governments. But caucuses are different — and Iowa shows how that can be a problem.</p>
-                </div>
-            </div>
-
-        
-    </aside>
-    
-                    
-										<div class="bottom-notes">
-						
-
-				<div class="note tips-callout">
-						
-												<p>Do you have access to information about election security that should be public? Email <a href="/cdn-cgi/l/email-protection#3f555e5c5411585653534a527f4f4d504f4a5d53565c5e11504d58"><span class="__cf_email__" data-cfemail="b5dfd4d6de9bd2dcd9d9c0d8f5c5c7dac5c0d7d9dcd6d49bdac7d2">[email&#160;protected]</span></a>. Here’s how to <a href="https://www.propublica.org/article/how-to-leak-to-propublica">send tips and documents</a> to ProPublica securely.</p>
-
-				</div>
-
-
-						
-					</div><!-- end .bottom-notes -->
-					
-					
-				</div><!-- end .article-body-->
-
-				<div id="content-bottom"></div>
-
-				<footer class="article-footer">
-					<div class="newsletter">
-    <div class="newsletter-inner">
-        <form class="form-subscribe" method="post" action="https://signup.propublica.org/newsletter/turing" id="daily-email-follow-pp-module">
-            <h2 class="pp-module-title">Get the latest news from ProPublica every afternoon.</h2>
-            <fieldset>
-                <div class="form-label-set">
-                    <input placeholder="Enter your email" class="input-text" name="email" id="subscribe-email" type="email" required onfocus="recaptchaInit()" />
-                    <label for="subscribe-email">
-                        <span class="a11y">Email address</span>
-                        <svg class="icon" aria-hidden="true"><use xlink:href="#icon-email"></use></svg>
-                    </label>
-                </div>
-                <input id="newsletter-signup-follow" class="g-recaptcha" value="Sign Up" type="submit" />
-                <input type="hidden" name="success_location" value="https://www.propublica.org/forms/thankyou" />
-                <input type="hidden" name="error_location" value="https://www.propublica.org/forms/error" />
-                <input type="hidden" name="target" value="l/125411/2018-05-17/5bnss9" />
-                <input type="hidden" name="origin_location" value="https://v3-www.propublica.org/article/the-iowa-caucuses-app-had-another-problem-it-could-have-been-hacked" />
-            </fieldset>
-            <small class="legal">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</small>
-    	</form>
-    </div>
-</div><!-- end .newsletter -->
-					
- 
-
-
-
-
- 
-
-
-	<div class="author-bio">
-
-										<div class="info">
-				<p class="author-name"><a href="https://www.propublica.org/people/jack-gillum">Jack Gillum</a></p>
-									<p>Jack Gillum is a senior reporter at ProPublica covering technology, specializing in how algorithms, big data and social media platforms affect people’s daily lives and civil rights.</p>
-
-							</div> <!-- end .info -->
-
-		
-
-		<ul class="contact">
-			<li>
-				<a class="contact-method" title="Email" href="/cdn-cgi/l/email-protection#a4cec5c7cf8ac3cdc8c8d1c9e4d4d6cbd4d1c6c8cdc7c58acbd6c3">
-					<svg class="icon" width="24" height="24">
-						<use xlink:href="#icon-email" />
-					</svg>
-					<span class="__cf_email__" data-cfemail="4e242f2d2560292722223b230e3e3c213e3b2c22272d2f60213c29">[email&#160;protected]</span>
-				</a>
-			</li>
-			<li>
-				<a class="contact-method" title="Twitter" href="https://twitter.com/jackgillum">
-					<svg class="icon" width="24" height="24">
-						<use xlink:href="#icon-twitter" />
-					</svg>
-					@jackgillum
-				</a>
-			</li>
-			<li>
-				<a class="contact-method" title="Phone" href="tel:202-886-9504">					<svg class="icon" width="24" height="24">
-						<use xlink:href="#icon-mobile" />
-					</svg>
-					202-886-9504
-				</a>
-			</li>
-			<li>
-				<span class="contact-method" title="Signal (Secure)">
-					<svg class="icon" width="24" height="24">
-						<use xlink:href="#icon-secure" />
-					</svg>
-					Signal: 202-854-9062
-				</span>
-			</li>
-		</ul> <!-- end .contact -->
-	</div> <!-- end .author-bio -->
-
-
-
-
- 
-
-
-
-
- 
-
-
-	<div class="author-bio">
-
-											<a class="thumbnail" href="https://www.propublica.org/people/jessica-huseman"><img alt="Portrait of Jessica Huseman" src="https://assets-c3.propublica.org/images/bio/_oneOne75w/20171212_portraits0259-jessica-huseman-sized-new.jpg" width="75" height="75" srcset="https://assets-c3.propublica.org/images/bio/_oneOne75w/20171212_portraits0259-jessica-huseman-sized-new.jpg 75w, https://assets-c3.propublica.org/images/bio/_oneOne150w/20171212_portraits0259-jessica-huseman-sized-new.jpg 150w" /></a>
-						<div class="info">
-				<p class="author-name"><a href="https://www.propublica.org/people/jessica-huseman">Jessica Huseman</a></p>
-									<p>Jessica Huseman covers voting rights and election administration for ProPublica.</p>
-
-							</div> <!-- end .info -->
-
-		
-
-		<ul class="contact">
-			<li>
-				<a class="contact-method" title="Email" href="/cdn-cgi/l/email-protection#9dd7f8eeeef4fefcb3d5e8eef8f0fcf3ddedeff2ede8fff1f4fefcb3f2effa">
-					<svg class="icon" width="24" height="24">
-						<use xlink:href="#icon-email" />
-					</svg>
-					<span class="__cf_email__" data-cfemail="410b2432322822206f093432242c202f0131332e3134232d2822206f2e3326">[email&#160;protected]</span>
-				</a>
-			</li>
-			<li>
-				<a class="contact-method" title="Twitter" href="https://twitter.com/JessicaHuseman">
-					<svg class="icon" width="24" height="24">
-						<use xlink:href="#icon-twitter" />
-					</svg>
-					@JessicaHuseman
-				</a>
-			</li>
-		</ul> <!-- end .contact -->
-	</div> <!-- end .author-bio -->
-
-
-
-				</footer><!-- end .article-footer -->
-
-			</div><!-- end .article-wrap-->
-            
-			<div class="global-promos">
-				<div class="introduction">
-    <h2 class="title">About Electionland</h2>
-	<p>Electionland is a coalition of newsrooms around the country that are covering misinformation, cybersecurity, and problems that prevent eligible voters from casting their ballots during the 2020 elections.</p>
-    <p>Questions? <a href="/electionland-faq/">Read our FAQ.</a></p>
-</div>
-
-
-<div class="pp-module module-follow" id="l1">
-	<h2 class="pp-module-title">Follow Electionland</h2>
-	<ul class="list-plain links-social">
-		<li>
-			<a class="btn btn-social social-main social-link-twitter" href="https://twitter.com/electionland" id="twitter-follow-pp-module">
-				<svg class="icon" width="24" height="24"><use xlink:href="#icon-twitter" /></svg>
-				<span>Twitter</span>
-			</a>
-		</li>
-		<li>
-			<a class="btn btn-social social-main social-link-fb" href="https://www.facebook.com/electionland" id="facebook-follow-pp-module">
-				<svg class="icon" width="24" height="24"><use xlink:href="#icon-facebook" /></svg>
-				<span>Facebook</span>
-			</a>
-		</li>
-	</ul>
-</div><!-- end .pp-module.module-follow -->
-
-<div class="pp-module module-internal-ad">
-    <h2 class="pp-module-title">More Election Tools</h2>
-
-    <h3 class="secondary-title"><a href="https://projects.propublica.org/graphics/users-guide-to-democracy">The User’s Guide to Democracy</a></h3>
-    <p>Congress works for you. Here’s how to <a href="https://projects.propublica.org/graphics/users-guide-to-democracy">be a better boss</a>.</p>
-
-    <h3 class="secondary-title"><a href="https://projects.propublica.org/represent/">Represent</a></h3>
-    <p>See what your representatives in Congress <a href="https://projects.propublica.org/represent/">say and do</a>.</p>
-
-    <h3 class="secondary-title"><a href="https://ifttt.com/propublica">ProPublica on IFTTT</a></h3>
-    <p>Do more with ProPublica data and <a href="https://ifttt.com/propublica">automated notifications</a>.</p>
-
-</div>
-
-<div class="pp-module module-partners">
-    <h2 class="pp-module-title">Partners</h2>
-
-    <p>Coming soon. <a href="/electionland-sign-up-for-journalists/">Sign up to become a partner here.</a></p>
-
-    <!-- <h3 class="secondary-title">Electionland Coalition</h3>
-    <ul class="partner-list">
-                                                    <li class="partner">
-                                <a href="https://www.propublica.org">
-                    <img alt="ProPublica" src="https://assets-c3.propublica.org/images/organizations/_threeTwo400w/propublica-wordmark-intrinsic.jpg" srcset="https://assets-c3.propublica.org/images/organizations/_threeTwo400w/propublica-wordmark-intrinsic.jpg 400w, https://assets-c3.propublica.org/images/organizations/_threeTwo800w/propublica-wordmark-intrinsic.jpg 800w, https://assets-c3.propublica.org/images/organizations/_threeTwo1200w/propublica-wordmark-intrinsic.jpg 1200w, https://assets-c3.propublica.org/images/organizations/_threeTwo2000w/propublica-wordmark-intrinsic.jpg 2000w"/>
-                </a>
-                            </li>
-                                                        <li class="partner">
-                                <a href="https://qz.com/">
-                    <img alt="Quartz" src="https://assets-c3.propublica.org/images/organizations/_threeTwo400w/quartz-logo-intrinsic.jpg" srcset="https://assets-c3.propublica.org/images/organizations/_threeTwo400w/quartz-logo-intrinsic.jpg 400w, https://assets-c3.propublica.org/images/organizations/_threeTwo800w/quartz-logo-intrinsic.jpg 800w, https://assets-c3.propublica.org/images/organizations/_threeTwo1200w/quartz-logo-intrinsic.jpg 1200w, https://assets-c3.propublica.org/images/organizations/_threeTwo2000w/quartz-logo-intrinsic.jpg 2000w"/>
-                </a>
-                            </li>
-                                                        <li class="partner">
-                                <a href="https://newsinitiative.withgoogle.com/training/">
-                    <img alt="Google News Initiative" src="https://assets-c3.propublica.org/images/organizations/_threeTwo400w/google-news-initiative-logo-intrinsic.jpg" srcset="https://assets-c3.propublica.org/images/organizations/_threeTwo400w/google-news-initiative-logo-intrinsic.jpg 400w, https://assets-c3.propublica.org/images/organizations/_threeTwo800w/google-news-initiative-logo-intrinsic.jpg 800w, https://assets-c3.propublica.org/images/organizations/_threeTwo1200w/google-news-initiative-logo-intrinsic.jpg 1200w, https://assets-c3.propublica.org/images/organizations/_threeTwo2000w/google-news-initiative-logo-intrinsic.jpg 2000w"/>
-                </a>
-                            </li>
-                                                        <li class="partner">
-                                <a href="https://www.journalism.cuny.edu/">
-                    <img alt="Craig Newmark Graduate School of Journalism at CUNY" src="https://assets-c3.propublica.org/images/organizations/_threeTwo400w/newmark-j-school-logo-intrinsic.jpg" srcset="https://assets-c3.propublica.org/images/organizations/_threeTwo400w/newmark-j-school-logo-intrinsic.jpg 400w, https://assets-c3.propublica.org/images/organizations/_threeTwo800w/newmark-j-school-logo-intrinsic.jpg 800w, https://assets-c3.propublica.org/images/organizations/_threeTwo1200w/newmark-j-school-logo-intrinsic.jpg 1200w, https://assets-c3.propublica.org/images/organizations/_threeTwo2000w/newmark-j-school-logo-intrinsic.jpg 2000w"/>
-                </a>
-                            </li>
-                                                        <li class="partner">
-                                <a href="https://www.univision.com/univision-news">
-                    <img alt="Univision News" src="https://assets-c3.propublica.org/images/organizations/_threeTwo400w/Univision-Logo-intrinsic-trimmed.jpg" srcset="https://assets-c3.propublica.org/images/organizations/_threeTwo400w/Univision-Logo-intrinsic-trimmed.jpg 400w, https://assets-c3.propublica.org/images/organizations/_threeTwo800w/Univision-Logo-intrinsic-trimmed.jpg 800w, https://assets-c3.propublica.org/images/organizations/_threeTwo1200w/Univision-Logo-intrinsic-trimmed.jpg 1200w, https://assets-c3.propublica.org/images/organizations/_threeTwo2000w/Univision-Logo-intrinsic-trimmed.jpg 2000w"/>
-                </a>
-                            </li>
-                                                        <li class="partner">
-                                <a href="https://shorensteincenter.org/">
-                    <img alt="Shorenstein Center on Media, Politics and Public Policy" src="https://assets-c3.propublica.org/images/organizations/_threeTwo400w/shorenstein-center-logo-intrinsic.jpg" srcset="https://assets-c3.propublica.org/images/organizations/_threeTwo400w/shorenstein-center-logo-intrinsic.jpg 400w, https://assets-c3.propublica.org/images/organizations/_threeTwo800w/shorenstein-center-logo-intrinsic.jpg 800w, https://assets-c3.propublica.org/images/organizations/_threeTwo1200w/shorenstein-center-logo-intrinsic.jpg 1200w, https://assets-c3.propublica.org/images/organizations/_threeTwo2000w/shorenstein-center-logo-intrinsic.jpg 2000w"/>
-                </a>
-                            </li>
-                        </ul>
-
-    <h3 class="secondary-title">Technical Partners</h3>
-    <ul class="partner-list">
-                                                    <li class="partner">
-                                <a href="https://www.twilio.com/">
-                    <img alt="Twilio" src="https://assets-c3.propublica.org/images/organizations/_threeTwo400w/twilio-logo-intrinsic.jpg" srcset="https://assets-c3.propublica.org/images/organizations/_threeTwo400w/twilio-logo-intrinsic.jpg 400w, https://assets-c3.propublica.org/images/organizations/_threeTwo800w/twilio-logo-intrinsic.jpg 800w, https://assets-c3.propublica.org/images/organizations/_threeTwo1200w/twilio-logo-intrinsic.jpg 1200w, https://assets-c3.propublica.org/images/organizations/_threeTwo2000w/twilio-logo-intrinsic.jpg 2000w"/>
-                </a>
-                            </li>
-                                                        <li class="partner">
-                                <a href="https://rundexter.com/">
-                    <img alt="Dexter" src="https://assets-c3.propublica.org/images/organizations/_threeTwo400w/dexter-logo-intrinsic.jpg" srcset="https://assets-c3.propublica.org/images/organizations/_threeTwo400w/dexter-logo-intrinsic.jpg 400w, https://assets-c3.propublica.org/images/organizations/_threeTwo800w/dexter-logo-intrinsic.jpg 800w, https://assets-c3.propublica.org/images/organizations/_threeTwo1200w/dexter-logo-intrinsic.jpg 1200w, https://assets-c3.propublica.org/images/organizations/_threeTwo2000w/dexter-logo-intrinsic.jpg 2000w"/>
-                </a>
-                            </li>
-                                                        <li class="partner">
-                                <a href="https://uptime.com/">
-                    <img alt="Uptime" src="https://assets-c3.propublica.org/images/organizations/_threeTwo400w/uptime-logo-intrinsic.png" srcset="https://assets-c3.propublica.org/images/organizations/_threeTwo400w/uptime-logo-intrinsic.png 400w, https://assets-c3.propublica.org/images/organizations/_threeTwo800w/uptime-logo-intrinsic.png 800w, https://assets-c3.propublica.org/images/organizations/_threeTwo1200w/uptime-logo-intrinsic.png 1200w, https://assets-c3.propublica.org/images/organizations/_threeTwo2000w/uptime-logo-intrinsic.png 2000w"/>
-                </a>
-                            </li>
-                        </ul> -->
-
-</div>
-			</div><!-- end .global-promos -->
-
-		</article>
-
-		<div class="post-article">
-
-			<div class="related-stories">
-</div> <!-- end .related-stories -->
-
-            
-		</div><!-- end .post-article -->
-
-	</div>
-
-	<div class="latest-stories">
-
-        	    
-      <h2 class="title">Latest Stories from ProPublica</h2>
-  
-          
-                
-    <div class="story-entry region-national section-articles">
-
-                              <div class="lead-art">
-          <a class="aspect-3-2" href="https://www.propublica.org/article/lessons-learned-from-running-icus-in-disaster-zones">
-            <img alt="" src="https://assets-c3.propublica.org/images/articles/_threeTwo400w/20200410-low-resource-QA-3x2.jpg" width="400" height="267" srcset="https://assets-c3.propublica.org/images/articles/_threeTwo400w/20200410-low-resource-QA-3x2.jpg 400w, https://assets-c3.propublica.org/images/articles/_threeTwo800w/20200410-low-resource-QA-3x2.jpg 800w, https://assets-c3.propublica.org/images/articles/_threeTwo1200w/20200410-low-resource-QA-3x2.jpg 1200w" sizes="(min-width: 1720px) 335px, (min-width: 960px) calc(18.38vw + 23px), (min-width: 780px) 18.75vw, 43.7vw"/>
-          </a>
-        </div>
-        
-      
-      <div class="description">
-        <h3 class="hed"><a href="https://www.propublica.org/article/lessons-learned-from-running-icus-in-disaster-zones">Lessons Learned From Running ICUs in Disaster Zones</a></h3>
-                  </div>
-      </div><!-- end .story-entry -->
-
-  
-                
-    <div class="story-entry region-national section-articles">
-
-                              <div class="lead-art">
-          <a class="aspect-3-2" href="https://www.propublica.org/article/coronavirus-tests-are-being-fast-tracked-by-the-fda-but-its-unclear-how-accurate-they-are">
-            <img alt="" src="https://assets-c3.propublica.org/images/articles/_threeTwo400w/20200410-false-negatives-3x2.jpg" width="400" height="267" srcset="https://assets-c3.propublica.org/images/articles/_threeTwo400w/20200410-false-negatives-3x2.jpg 400w, https://assets-c3.propublica.org/images/articles/_threeTwo800w/20200410-false-negatives-3x2.jpg 800w, https://assets-c3.propublica.org/images/articles/_threeTwo1200w/20200410-false-negatives-3x2.jpg 1200w" sizes="(min-width: 1720px) 335px, (min-width: 960px) calc(18.38vw + 23px), (min-width: 780px) 18.75vw, 43.7vw"/>
-          </a>
-        </div>
-        
-      
-      <div class="description">
-        <h3 class="hed"><a href="https://www.propublica.org/article/coronavirus-tests-are-being-fast-tracked-by-the-fda-but-its-unclear-how-accurate-they-are">Coronavirus Tests Are Being Fast-Tracked by the FDA, but It’s Unclear How Accurate They Are.</a></h3>
-                  </div>
-      </div><!-- end .story-entry -->
-
-  
-                
-    <div class="story-entry region-texas section-articles">
-
-                              <div class="lead-art">
-          <a class="aspect-3-2" href="https://www.propublica.org/article/he-spent--500-000-to-buy-coronavirus-tests-health-officials-say-theyre-unreliable">
-            <img alt="" src="https://assets-c3.propublica.org/images/articles/_threeTwo400w/04102020_laredo_alt_3x2.png" width="400" height="267" srcset="https://assets-c3.propublica.org/images/articles/_threeTwo400w/04102020_laredo_alt_3x2.png 400w, https://assets-c3.propublica.org/images/articles/_threeTwo800w/04102020_laredo_alt_3x2.png 800w, https://assets-c3.propublica.org/images/articles/_threeTwo1200w/04102020_laredo_alt_3x2.png 1200w" sizes="(min-width: 1720px) 335px, (min-width: 960px) calc(18.38vw + 23px), (min-width: 780px) 18.75vw, 43.7vw"/>
-          </a>
-        </div>
-        
-      
-      <div class="description">
-        <h3 class="hed"><a href="https://www.propublica.org/article/he-spent--500-000-to-buy-coronavirus-tests-health-officials-say-theyre-unreliable">He Spent $500,000 to Buy Coronavirus Tests. Health Officials Say They’re Unreliable.</a></h3>
-                  </div>
-      </div><!-- end .story-entry -->
-
-  
-                
-    <div class="story-entry region-national section-articles">
-
-                              <div class="lead-art">
-          <a class="aspect-3-2" href="https://www.propublica.org/article/the-white-house-pushed-fema-to-give-its-biggest-coronavirus-contract-to-a-company-that-never-had-to-bid">
-            <img alt="" src="https://assets-c3.propublica.org/images/articles/_threeTwo400w/20200410-FEMA-contracting-3x2.jpg" width="400" height="267" srcset="https://assets-c3.propublica.org/images/articles/_threeTwo400w/20200410-FEMA-contracting-3x2.jpg 400w, https://assets-c3.propublica.org/images/articles/_threeTwo800w/20200410-FEMA-contracting-3x2.jpg 800w, https://assets-c3.propublica.org/images/articles/_threeTwo1200w/20200410-FEMA-contracting-3x2.jpg 1200w" sizes="(min-width: 1720px) 335px, (min-width: 960px) calc(18.38vw + 23px), (min-width: 780px) 18.75vw, 43.7vw"/>
-          </a>
-        </div>
-        
-      
-      <div class="description">
-        <h3 class="hed"><a href="https://www.propublica.org/article/the-white-house-pushed-fema-to-give-its-biggest-coronavirus-contract-to-a-company-that-never-had-to-bid">The White House Pushed FEMA To Give its Biggest Coronavirus Contract to a Company That Never Had to Bid</a></h3>
-                  </div>
-      </div><!-- end .story-entry -->
-
-    </div> <!-- end .latest-stories -->
-
-</main><!-- end .content -->
-
-
-    <div id="modal-search" class="modal collapsible collapsible-collapsed">
-
-    <div class="collapsible-header close-btn ">
-        <svg class="icon" width="24" height="24">
-            <use xlink:href="#icon-close-light" />
-        </svg>
-        <span class="a11y">Close this screen</span>
-    </div>
-    <!-- end .collapsible-header -->
-
-    <div class="collapsible-content content">
-        <form class="nav-site-search" action="https://www.propublica.org/search" method="get">
-            <label class="a11y hed-form hed-site-search">Search ProPublica:</label>
-            <div class="input-wrapper reverse">
-                <input placeholder="Search ProPublica" class="text nav-site-search-text" type="search" value="" name="qss" />
-                <input type="submit" value="Search" />
-            </div>
-        </form>
-    </div>
-    <!-- end .collapsible-content -->
-
-</div>
-<!-- end #modal-search -->
-    <div id="modal-republish" class="modal collapsible collapsible-collapsed">
-
-    <div class="collapsible-header close-btn">
-        <svg class="icon" width="24" height="24">
-            <use xlink:href="#icon-close-light" />
-        </svg>
-        <span class="a11y">Close this screen</span>
-    </div>
-    <!-- end .collapsible-header -->
-
-    <div class="collapsible-content content">
-
-        <div class="wrapper">
-
-            <h3>Republish This Story for Free</h3>
-            <p class="license"><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons License (CC BY-NC-ND 3.0)</a></p>
-
-            <div class="republish-instructions">
-
-                <h3 class="title"></h3>
-                <p class="byline"></p>
-
-                <p class="intro">Thank you for your interest in republishing this story. You are are free republish the article and graphics so long as you do the following:</p>
-                <ul>
-                    <li>You have to credit us — ideally in the byline. We prefer “Author Name, ProPublica.” If your CMS does not allow you to do this, please include a line at the top of the story that reads: “This story was originally published by ProPublica.”</li>
-                    
-                    <li>If you’re republishing online, you must link to our website, include all of the links from our story, and use our <a href="/pixelping">PixelPing tag</a>.</li>
-                    
-                    <li>You can’t edit our material, except to reflect relative changes in time, location and editorial style. (For example, “yesterday” can be changed to “last week,” and “Portland, Ore.” to “Portland” or “here.”)</li>
-                    
-                    <li>You cannot republish our photographs or illustrations without specific permission (contact us at <a href="/cdn-cgi/l/email-protection#bad7dfded3dbfacac8d5cacfd8d6d3d9db94d5c8dd"><span class="__cf_email__" data-cfemail="f8959d9c9199b8888a97888d9a94919b99d6978a9f">[email&#160;protected]</span></a> for more information).</li>
-                    
-                    <li>It’s okay to put our stories on pages with ads, but not ads specifically sold against our stories. You can’t state or imply that donations to your organization support ProPublica’s work.</li>
-                    
-                    <li>You can’t sell our material separately or syndicate it. </li>
-                    
-                    <li>You can’t republish our material wholesale, or automatically; you need to select stories to be republished individually. (To inquire about syndication or licensing opportunities, contact our Director of Business Development, <a href="/people/celeste-lecompte">Celeste LeCompte</a>.)</li>
-                    
-                    <li>You can’t use our work to populate a web site designed to improve rankings on search engines, or solely to gain revenue from network-based advertisements.</li>
-                    
-                    <li>We do not generally permit translation of our stories into another language.</li>
-                    
-                    <li>Any web site our stories appear on must include a prominent and effective way to contact you.</li>
-                    
-                    <li>If you share republished stories on social media, we’d appreciate being tagged in your posts. We have official accounts for ProPublica and ProPublica Illinois on both Twitter (<a href="https://twitter.com/propublica">@ProPublica</a> and <a href="https://twitter.com/propublicail">@ProPublicaIL</a>) and Facebook.</li>
-                </ul>
-            </div>
-            <!-- end .republish-content -->
-
-            <div class="republish-copy">
-                <p>Copy and paste the following into your page to republish:</p>
-            </div>
-            <!-- end .republish-copy -->
-
-        </div>
-        <!-- end .wrapper -->
-
-    </div>
-    <!-- end .collapsible-content -->
-
-</div>
-<!-- end #modal-republish -->
-    <div id="nav-menu" class="modal collapsible collapsible-collapsed">
-
-    <div class="collapsible-header close-btn">
-        <svg class="icon" width="24" height="24">
-            <use xlink:href="#icon-close-light" />
-        </svg>
-        <span class="a11y">Close this menu</span>
-    </div>
-
-    <div class="collapsible-content">
-
-        <nav class="primary-nav">
-            <ul>
-                <li class="primary-nav-item news-apps"><a href="/newsapps/">Graphics &amp; Data</a></li>
-                <li class="primary-nav-item topics"><a href="/topics/">Topics</a></li>
-                <li class="primary-nav-item series"><a href="/series/">Series</a></li>
-                <li class="primary-nav-item videos"><a href="/video/">Videos</a></li>
-                <li class="primary-nav-item impact"><a href="/impact/">Impact</a></li>
-            </ul>
-        </nav><!-- end .primary-nav -->
-
-        <nav class="org-nav">
-            <ul>
-                <li class="org-nav-item illinois"><a href="/illinois/">ProPublica Illinois</a></li>
-                <li class="org-nav-item lrn"><a href="/local-reporting-network/">Local Reporting Network</a></li>
-                <li class="org-nav-item electionland"><a href="/electionland/">Electionland</a></li>
-                <li class="org-nav-item data-store"><a href="/datastore/">Data Store</a></li>
-            </ul>
-        </nav><!-- end .org-nav -->
-
-        <nav class="action-nav">
-            <p>Follow Us:</p>
-            <ul>
-                <li class="action-nav-item social facebook">
-                    <a href="https://www.facebook.com/propublica">
-                        <svg class="icon" width="24" height="24">
-                            <use xlink:href="#icon-facebook" />
-                        </svg>
-                        <span class="cta">Like us on Facebook</span>
-                    </a>
-                </li>
-                <li class="action-nav-item social twitter">
-                    <a href="https://twitter.com/propublica">
-                        <svg class="icon" width="24" height="24">
-                            <use xlink:href="#icon-twitter" />
-                        </svg>
-                        <span class="cta">Follow us on Twitter</span>
-                    </a>
-                </li>
-            </ul>
-        </nav><!-- end .action-nav -->
-
-    </div><!-- end .modal-inner -->
-
-</div><!-- end .modal -->
-
-              
-    <!-- jQuery/Legacy JS -->
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://www.propublica.org/js/public/assets/all.js"></script>
-    <!-- FOOTER -->
-
-<footer role="contentinfo">
-
-    <div class="newsletter">
-        <div class="site-footer-inner">
-            <form class="subscribe-email" action="https://signup.propublica.org/newsletter/turing" method="post" >
-                <h2 class="pp-module-title">Stay informed with the Daily Digest.</h2>
-                <fieldset>
-                    <label for="pp-email-signup--full" class="a11y">Email address</label>
-                    <input class="text subscribe-email-text" type="email" placeholder="Enter your email" id="pp-email-signup--full" name="email" onfocus="recaptchaInit()" />
-                    <input id="newsletter-signup-footer" class="btn subscribe-email-btn g-recaptcha" type="submit" value="Sign Up" />
-                    <input type="hidden" name="target" value="l/125411/2018-05-16/5bllvw" />
-                    <input type="hidden" name="success_location" value="https://www.propublica.org/forms/thankyou" />
-                    <input type="hidden" name="error_location" value="https://www.propublica.org/forms/error" />
-                    <input type="hidden" name="origin_location" value="https://v3-www.propublica.org/article/the-iowa-caucuses-app-had-another-problem-it-could-have-been-hacked" />
-                </fieldset>
-            </form><!-- end .subscribe-email -->
-        </div>
-    </div><!-- end .newsletter -->
-
-    <div class="site-footer-inner">
-
-      <nav id="footer-links">
-
-        <div>
-          <div class="collapsible collapsible-collapsed collapsible-expandwhenwide" data-collapsible-set="footer-links">
-              <h3>Sites</h3>
-              <ul>
-                  <li><a href="/">ProPublica</a></li>
-                  <li><a href="/illinois/">ProPublica Illinois</a></li>
-                  <li><a href="/local-reporting-network/">Local Reporting Network</a></li>
-                  <li><a href="/datastore/">The Data Store</a></li>
-              </ul>
-          </div>
-          <div class="collapsible collapsible-collapsed collapsible-expandwhenwide" data-collapsible-set="footer-links">
-              <h3>Sections</h3>
-              <ul>
-                  <li><a href="/topics/">Topics</a></li>
-                  <li><a href="/series/">Series</a></li>
-                  <li><a href="/video/">Videos</a></li>
-                  <li><a href="/newsapps/">News Apps</a></li>
-                  <li><a href="/getinvolved/">Get Involved</a></li>
-                  <li><a href="/nerds/">The Nerd Blog</a></li>
-                  <li><a href="/atpropublica/">@ProPublica</a></li>
-                  <li><a href="/events/">Events</a></li>
-              </ul>
-          </div>
-        </div>
-
-        <div>
-          <div class="collapsible collapsible-collapsed collapsible-expandwhenwide" data-collapsible-set="footer-links">
-              <h3>Info</h3>
-              <ul>
-                  <li><a href="/about/">About Us</a></li>
-                  <li><a href="/leadership/">Board and Advisors</a></li>
-                  <li><a href="/staff/">Officers and Staff</a></li>
-                  <li><a href="/diversity/">Diversity</a></li>
-                  <li><a href="/jobs/">Jobs</a> and <a href="/fellowships/">Fellowships</a></li>
-                  <li><a href="/media-center/">Media Center</a></li>
-                  <li><a href="/reports/">Reports</a></li>
-                  <li><a href="/impact/">Impact</a></li>
-                  <li><a href="/awards/">Awards</a></li>
-                  <li><a href="/corrections/">Corrections</a></li>
-              </ul>
-          </div>
-          <div class="collapsible collapsible-collapsed collapsible-expandwhenwide" data-collapsible-set="footer-links">
-              <h3>Policies</h3>
-              <ul>
-                  <li><a href="/code-of-ethics/">Code of Ethics</a></li>
-                  <li><a href="/advertising/">Advertising Policy</a></li>
-                  <li><a href="/legal/">Privacy Policy</a></li>
-              </ul>
-          </div>
-        </div>
-
-        <div>
-          <div class="collapsible collapsible-collapsed collapsible-expandwhenwide" data-collapsible-set="footer-links">
-              <h3>Follow</h3>
-              <ul>
-                  <li><a href="/newsletters/">Newsletters</a></li>
-                  <li><a href="/podcast/">Podcast</a></li>
-                  <li><a href="https://itunes.apple.com/us/app/propublica/id355298887?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.propublica&hl=en">Android</a></li>
-                  <li><a href="http://feeds.propublica.org/propublica/main">RSS Feed</a></li>
-              </ul>
-          </div>
-          <div class="collapsible collapsible-collapsed collapsible-expandwhenwide" data-collapsible-set="footer-links">
-              <h3>More</h3>
-              <ul>
-                  <li><a href="/tips/">Send Us Tips</a></li>
-                  <li><a href="/steal-our-stories/">Steal Our Stories</a></li>
-                  <li><a href="https://www.propub3r6espa33w.onion">Browse via Tor</a></li>
-                  <li><a href="/contact/">Contact Us</a></li>
-                  <li><a href="https://donate.propublica.org/">Donate</a></li>
-              </ul>
-          </div>
-        </div>
-
-      </nav>
-
-      <div class="site-copyright">
-        <a class="logo" href="/">
-          <svg role="img" width="574" height="75">
-            <use xlink:href="#propublica-logo" />
-            <text class="a11y">ProPublica</text>
-          </svg>
-        </a>
-        <p class="slogan">Journalism in the Public&nbsp;Interest</p>
-        <small>&copy; Copyright 2020 Pro Publica Inc.</small>
-      </div>
-
-    </div>
-    <!-- end .site-footer-inner -->
-
-</footer>
-
-<!-- anchors used by `aria-describedby` states -->
-<div id="wayfinding" class="squelch">
-    <span id="current-site">Current site</span>
-    <span id="current-page">Current page</span>
-</div>
-
-<script
-    data-syndicate
-    src="https://assets.propublica.org/static/v4/js/deploy/syndicated-newsletter-v1.1.0.js"
-    data-delay="3"
-    data-endpoint="https://www.propublica.org/partials/newsletter-roadblock-big-story.html"
-    data-stylesheet="https://assets.propublica.org/static/v4/css/deploy/syndicated-newsletter.css"
-    data-target="l/125411/2018-11-01/5vd2wz">
-</script>
-
-
-<!-- END FOOTER -->
-        <script src="//www.propublica.org/js/public/assets/beacons.js"></script>
-    <script src="//connect.facebook.net/en_US/all.js"></script>
-    <div id="fb-root"></div>
-    <script>
-	    FB.init({
-	        appId: '229862657130557', // App ID
-	        status: true, // check login status
-	        cookie: true, // enable cookies to allow the server to access the session
-	        xfbml: true // parse XFBML
-	    });
-    </script>
-    <script src="https://assets.propublica.org/static/v4/js/main.d596b67c.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js?onload=grecaptchaLoaded&render=6LdI1rAUAAAAACI0GsFv-yRpC0tPF5ECiIMDUz2x'></script>
-
-
-<script type="application/ld+json">{"@context":"http://schema.org","@graph":[{"@type":"NewsArticle","author":{"@id":"https://www.propublica.org#identity"},"copyrightHolder":{"@id":"https://www.propublica.org#identity"},"copyrightYear":"2020","creator":["Jack Gillum","Jessica Huseman"],"dateModified":"2020-03-01T17:36:32-05:00","datePublished":"2020-02-05T16:16:00-05:00","description":"While there is no evidence hackers intercepted or tampered with the results, a security firm consulted by ProPublica found that the app lacks key safeguards.","headline":"The Iowa Caucuses App Had Another Problem: It Could Have Been Hacked","image":{"@type":"ImageObject","url":"https://assets-c3.propublica.org/images/articles/20200205-Iowa-App-1200x630.jpg"},"inLanguage":"en-us","mainEntityOfPage":"https://www.propublica.org/article/the-iowa-caucuses-app-had-another-problem-it-could-have-been-hacked","name":"The Iowa Caucuses App Had Another Problem: It Could Have Been Hacked","publisher":{"@id":"https://www.propublica.org#creator"},"thumbnailUrl":"https://assets-c3.propublica.org/images/articles/20200205-Iowa-App-1200x630.jpg","url":"https://www.propublica.org/article/the-iowa-caucuses-app-had-another-problem-it-could-have-been-hacked"},{"@id":"https://www.propublica.org#identity","@type":"NGO","address":{"@type":"PostalAddress","addressCountry":"US","addressLocality":"13th Floor","addressRegion":"New York","postalCode":"N.Y. 10013","streetAddress":"155 Avenue of the Americas"},"description":"ProPublica is an independent, non-profit newsroom that produces investigative journalism in the public interest.","email":"info@propublica.org","name":"ProPublica","sameAs":["https://twitter.com/propublica","https://www.facebook.com/propublica/","https://en.wikipedia.org/wiki/ProPublica","https://www.youtube.com/user/propublica","https://github.com/propublica","https://www.linkedin.com/company/propublica/","https://www.instagram.com/propublica","https://www.pinterest.ie/propublica","https://vimeo.com/propublica"],"telephone":"1-212-514-5250","url":"https://www.propublica.org"},{"@id":"#creator","@type":"Organization"},{"@type":"BreadcrumbList","description":"Breadcrumbs list","itemListElement":[{"@type":"ListItem","item":"https://www.propublica.org/","name":"Homepage","position":1},{"@type":"ListItem","item":"https://www.propublica.org/article/the-iowa-caucuses-app-had-another-problem-it-could-have-been-hacked","name":"The Iowa Caucuses App Had Another Problem: It Could Have Been Hacked","position":2}],"name":"Breadcrumbs"}]}</script></body>
+<!-- Facebook -->
+  <div id="fb-root"></div>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : "1675346479369918",
+      xfbml      : true,
+      version    : 'v2.5'
+    })
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+  </script>
+<!-- /Facebook -->
+<script type="text/javascript">window._sf_endpt = (new Date()).getTime()</script>
+  </body>
 </html>

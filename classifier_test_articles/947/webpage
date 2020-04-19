@@ -1,1116 +1,1080 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js mh-two-sb" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link rel="preconnect" href="//cdnjs.cloudflare.com">
-<link rel="preconnect" href="//fonts.googleapis.com">
-<link rel="preconnect" href="//ib.adnxs.com">
-<link rel="preconnect" href="//experience.tinypass.com">
-<link rel="preconnect" href="//sandbox.tinypass.com">
-<link rel="preconnect" href="//www.googletagservices.com">
-<link rel="preconnect" href="//media.townhall.com">
-<link rel="preconnect" href="//prebid.adnxs.com">
-<link rel="preconnect" href="//www.google-analytics.com">
-<link rel="preconnect" href="//pagead2.googlesyndication.com">
-<link rel="preconnect" href="//ad.doubleclick.net">
-<link rel="preconnect" href="//securepubads.g.doubleclick.net">
-<link rel="preconnect" href="//c.amazon-adsystem.com">
-<link rel="preconnect" href="//townhallmedia-d.openx.net">
-<link rel="preconnect" href="//cdn.blueconic.net">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-53594309-2"></script>
 <script>
-        document.cookie = "__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
-        var setNptTechAdblockerCookie = function (adblocker) {
-            var d = new Date();
-            d.setTime(d.getTime() + 60 * 60 * 24 * 2 * 1000);
-            document.cookie = "__adblocker=" + (adblocker ? "true" : "false") + "; expires=" + d.toUTCString() + "; path=/";
-        }
-        var script = document.createElement("script");
-        script.setAttribute("async", true);
-        script.setAttribute("src", "//www.npttech.com/advertising.js");
-        script.setAttribute("onerror", "setNptTechAdblockerCookie(true);");
-        document.getElementsByTagName("head")[0].appendChild(script);
-    </script>
-<script type="text/javascript" src="//d2ze07sbtyfzd0.cloudfront.net/script.js"></script>
-<script async src="https://cdn.blueconic.net/salemmediagroup.js"></script>
-<script type='text/javascript'>var _sf_startpt = (new Date()).getTime()</script>
-<link rel="manifest" href="/manifest.json">
-<link rel="alternate" href="https://townhall.com" hreflang="en-us">
-<style>
-        .async-hide {
-            opacity: 0 !important
-        }
-    </style>
-<script>
-        (function (a, s, y, n, c, h, i, d, e) {
-            s.className += ' ' + y; h.start = 1 * new Date;
-            h.end = i = function () { s.className = s.className.replace(RegExp(' ?' + y), '') };
-            (a[n] = a[n] || []).hide = h; setTimeout(function () { i(); h.end = null }, c); h.timeout = c;
-        })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
-            { 'GTM-KT87G5R': true });
-    </script>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments);
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    ga('create', 'UA-404425-3', 'auto', { 'useAmpClientId': true });
-    
-    ga('require', 'GTM-KT87G5R');
-    
-    //ga('set', 'transport', 'beacon');
-    ga('require', 'displayfeatures');
-    if (typeof hptId !== 'undefined')
-    {
-        ga('set', 'dimension2', hptId);
-    }
-    
-    ga('set', 'dimension7', 'free');
-    ga('send', 'pageview');
+  gtag('config', 'UA-53594309-2');
 </script>
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-<link rel="apple-touch-icon" sizes="57x57" href="https://media.townhall.com/thm/favicon/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="https://media.townhall.com/thm/favicon/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="https://media.townhall.com/thm/favicon/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="https://media.townhall.com/thm/favicon/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="https://media.townhall.com/thm/favicon/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="https://media.townhall.com/thm/favicon/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="https://media.townhall.com/thm/favicon/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="https://media.townhall.com/thm/favicon/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://media.townhall.com/thm/favicon/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-16x16.png" sizes="16x16">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/android-chrome-192x192.png" sizes="192x192">
-<meta name="msapplication-square70x70logo" content="https://media.townhall.com/thm/favicon/smalltile.png" />
-<meta name="msapplication-square150x150logo" content="https://media.townhall.com/thm/favicon/mediumtile.png" />
-<meta name="msapplication-wide310x150logo" content="https://media.townhall.com/thm/favicon/widetile.png" />
-<meta name="msapplication-square310x310logo" content="https://media.townhall.com/thm/favicon/largetile.png" />
-<link href="/resources/css/bootstrap.min.css" rel="preload" as="style" />
-<link href="/resources/css/bootstrap.min.css" rel="stylesheet" />
-<link href="/resources/dist/css/main.min.css?v=2" rel="preload" as="style" />
-<link href="/resources/dist/css/main.min.css?v=2" rel="stylesheet" />
-<link href="/resources/lib/jquery/dist/jquery.min.js" rel="preload" as="script" />
-<script src="/resources/lib/jquery/dist/jquery.min.js"></script>
-<meta property="fb:app_id" content="967808926746051" />
-<meta property="fb:pages" content="41632789656,103971336305218,319569361390023,106547192707583,124538510989702,283971595408,15418366158,153162531376557,127519040661256,123834811060739,305174559545115,321502821264274,413465452078762,492802317512753,140705212665688,116757565026850,114013445328868" />
-<title>Newsom Says Coronavirus Data Doesn&#39;t Show Racial Disparities </title>
-<meta name="description" content=".04/18/2020 5:14:40AM EST." />
-<link rel="amphtml" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/08/gov-newsom-says-coronavirus-data-doesnt-show-racial-disparities-n2566594?amp=true">
-<meta name="keywords" content="California, California, Race, Race, Victim Mentality, Victim Mentality, victimhood, victimhood, Gavin Newsom, Gavin Newsom, Leftists, Leftists, wuhan coronavirus, wuhan coronavirus" />
-<meta name="robots" content="index, follow" />
-<meta name="author" content="Bronson Stocking" />
-<link rel="canonical" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/08/gov-newsom-says-coronavirus-data-doesnt-show-racial-disparities-n2566594" />
-<meta property="og:title" content="Newsom Says Coronavirus Data Doesn&#39;t Show Racial Disparities " />
-<meta property="og:type" content="Article" />
-<meta property="og:url" content="https://townhall.com/tipsheet/bronsonstocking/2020/04/08/gov-newsom-says-coronavirus-data-doesnt-show-racial-disparities-n2566594" />
-<meta property="og:image" content="https://media.townhall.com/townhall/reu/s1280x720/2020/83/e77ddcca-d0f7-46a8-823b-15b9add9393a.jpg" />
-<meta property="og:site_name" content="Townhall " />
-<meta property="og:description" content="" />
-<script type="application/ld+json">
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/96451178/pharmabrain', [300, 250], 'div-gpt-ad-1581188079348-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<title>Obama Mega Donors, Who Trafficked Aborted Body Parts, Arrested By ICE</title>
+<style type="text/css">#page{overflow:visible}.ssb-buttons{visibility:visible;box-sizing:content-box}.ssb-buttons
+img{margin:none;border:none}.ssb-buttons img:hover{border:none}.ssb-buttons
+iframe{margin:0
+!important;max-width:none;vertical-align:baseline}.ssb-buttons > div, .wpsso-ssb-preset-small_share_count .ssb-buttons>div{display:inline-block;vertical-align:bottom;text-align:left;line-height:20px;padding:0;margin:5px;width:100px;height:20px}.wpsso-ssb-preset-large_share_vertical .ssb-buttons > div,
+.wpsso-ssb-preset-large_share_vertical .ssb-buttons>div[class*="-button"]{line-height:61px;width:70px;height:61px}.ssb-buttons div.facebook-button, .wpsso-ssb-preset-small_share_count .ssb-buttons div.facebook-button{width:114px}.ssb-buttons.cs_CZ div.facebook-button, .wpsso-ssb-preset-small_share_count .ssb-buttons.cs_CZ div.facebook-button{width:144px}.ssb-buttons div.fb-share-button,
+.wpsso-ssb-preset-small_share_count .ssb-buttons div.fb-share-button{width:90px}.wpsso-ssb-preset-large_share_vertical .ssb-buttons div.fb-share-button{height:40px;line-height:40px}.ssb-buttons div.fb-share-button
+span{display:inline-block	!important}.ssb-buttons div.gplus-button,
+.wpsso-ssb-preset-small_share_count .ssb-buttons div.gplus-button{width:99px;vertical-align:top}.ssb-buttons div.gplusone-button,
+.wpsso-ssb-preset-small_share_count .ssb-buttons div.gplusone-button{width:75px;line-height:10px;vertical-align:top}.ssb-buttons div.twitter-button,
+.wpsso-ssb-preset-small_share_count .ssb-buttons div.twitter-button,
+.wpsso-ssb-preset-large_share_vertical .ssb-buttons div.twitter-button{width:61px;height:20px;line-height:20px;vertical-align:top}.ssb-buttons div.linkedin-button,
+.wpsso-ssb-preset-small_share_count .ssb-buttons div.linkedin-button{width:110px}.ssb-buttons div.pinterest-button,
+.wpsso-ssb-preset-small_share_count .ssb-buttons div.pinterest-button{width:85px}.wpsso-ssb-preset-large_share_vertical .ssb-buttons div.pinterest-button{height:40px;margin-top:35px}.ssb-buttons div.reddit-button,
+.wpsso-ssb-preset-small_share_count .ssb-buttons div.reddit-button{width:130px}.wpsso-ssb-preset-large_share_vertical .ssb-buttons div.reddit-button{margin-bottom:10px}.ssb-buttons div.stumbleupon-button,
+.wpsso-ssb-preset-small_share_count .ssb-buttons div.stumbleupon-button{width:84px}.wpsso-ssb-preset-large_share_vertical .ssb-buttons div.stumbleupon-button{height:60px;line-height:60px}.ssb-buttons div.tumblr-button,
+.wpsso-ssb-preset-small_share_count .ssb-buttons div.tumblr-button{width:85px}.wpsso-ssb-preset-large_share_vertical .ssb-buttons div.tumblr-button{height:40px}.ssb-buttons div.css-button
+a{display:inline-block;line-height:20px;width:60px;font-size:10px;border-radius:3px;text-align:center;text-decoration:none;vertical-align:top;border:0.5px solid #ddd;box-shadow:none;-webkit-box-shadow:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.ssb-buttons div.css-button a .ssb-icon{fill:#fff;vertical-align:bottom}.ssb-buttons div.css-button a .ssb-text{color:#fff;white-space:nowrap;font-weight:bold}.ssb-buttons div.email-button,
+.wpsso-ssb-preset-small_share_count .ssb-buttons div.email-button{width:62px}.ssb-buttons div.email-button a,
+.wpsso-ssb-preset-small_share_count .ssb-buttons div.email-button
+a{width:62px;background-color:#0a88ff}.wpsso-ssb-preset-large_share_vertical .ssb-buttons div.email-button{height:20px !important}.ssb-buttons div.email-button a:hover{background-color:#006ed6}.ssb-buttons div.email-button a .ssb-text:before{content:" E-Mail"}.ssb-buttons div.whatsapp-button,
+.wpsso-ssb-preset-small_share_count .ssb-buttons div.whatsapp-button{width:80px}.ssb-buttons div.whatsapp-button a,
+.wpsso-ssb-preset-small_share_count .ssb-buttons div.whatsapp-button
+a{width:80px;background-color:#64d448}.wpsso-ssb-preset-large_share_vertical .ssb-buttons div.whatsapp-button{height:55px !important}.wpsso-ssb-preset-large_share_vertical .ssb-buttons div.whatsapp-button
+a{width:60px}.wpsso-ssb-preset-large_share_vertical .ssb-buttons div.whatsapp-button a .ssb-icon
+svg{width:auto;height:22px;margin:5px
+0 0 0}.ssb-buttons div.whatsapp-button a:hover{background-color:#49bd2c}.ssb-buttons div.whatsapp-button a .ssb-text:before{content:" WhatsApp"}.wpsso-ssb-content{display:block;margin:10px
+auto;text-align:center}.wpsso-ssb-excerpt{display:block;margin:5px
+auto;text-align:center}@media (max-width:1000px){#wpsso-ssb-sidebar-container{display:none}}#wpsso-ssb-sidebar-container{cursor:pointer;text-align:center;position:fixed;z-index:99;top:100px;left:50px}#wpsso-ssb-sidebar-container{display:block;width:auto;height:auto;overflow:visible;border-style:solid;border-radius:5px;background:none repeat scroll 0% 0% rgb(250, 250, 250);box-shadow:0px 0px 5px rgb(120, 120, 120);border-width:1px;border-color:rgb(255, 255, 255)}#wpsso-ssb-sidebar .ssb-buttons > div, #wpsso-ssb-sidebar .wpsso-ssb-preset-large_share_vertical .ssb-buttons>div{display:block;text-align:center;width:70px;height:61px;margin:10px
+5px}#wpsso-ssb-sidebar .wpsso-ssb-preset-small_share_count .ssb-buttons > div,
+#wpsso-ssb-sidebar .wpsso-ssb-preset-small_share_count .ssb-buttons>div[class*="-button"]{text-align:left;line-height:20px;width:120px;height:20px;margin:10px}#wpsso-ssb-sidebar .ssb-buttons div.twitter-button,
+#wpsso-ssb-sidebar .wpsso-ssb-preset-large_share_vertical .ssb-buttons div.twitter-button{height:20px;line-height:20px}#wpsso-ssb-sidebar .ssb-buttons div.fb-share-button,
+#wpsso-ssb-sidebar .wpsso-ssb-preset-large_share_vertical .ssb-buttons div.fb-share-button{height:40px;line-height:40px}#wpsso-ssb-sidebar .ssb-buttons div.gplus-button,
+#wpsso-ssb-sidebar .wpsso-ssb-preset-large_share_vertical .ssb-buttons div.gplus-button{height:60px;line-height:40px}#wpsso-ssb-sidebar .ssb-buttons div.pinterest-button,
+#wpsso-ssb-sidebar .wpsso-ssb-preset-large_share_vertical .ssb-buttons div.pinterest-button{line-height:115px}#wpsso-ssb-sidebar .wpsso-ssb-preset-small_share_count .ssb-buttons div.pinterest-button{height:20px;margin-top:10px}#wpsso-ssb-sidebar .ssb-buttons div.reddit-button,
+#wpsso-ssb-sidebar .wpsso-ssb-preset-large_share_vertical .ssb-buttons div.reddit-button{margin:10px
+5px 20px 5px}#wpsso-ssb-sidebar .wpsso-ssb-preset-small_share_count .ssb-buttons div.reddit-button{margin-bottom:10px}#wpsso-ssb-sidebar .ssb-buttons div.stumbleupon-button,
+#wpsso-ssb-sidebar .wpsso-ssb-preset-large_share_vertical .ssb-buttons div.stumbleupon-button{height:60px;line-height:60px}#wpsso-ssb-sidebar .wpsso-ssb-preset-small_share_count .ssb-buttons div.stumbleupon-button{height:20px;line-height:20px}#wpsso-ssb-sidebar .ssb-buttons div.tumblr-button,
+#wpsso-ssb-sidebar .wpsso-ssb-preset-large_share_vertical .ssb-buttons div.tumblr-button{height:40px}.wpsso-ssb-shortcode{display:inline-block;text-align:left}.wpsso-ssb-widget{text-align:left}.wpsso-ssb-widget .ssb-buttons{margin:20px
+0 0 0}.wpsso-ssb-widget .ssb-buttons > div, .wpsso-ssb-widget .wpsso-ssb-preset-small_share_count .ssb-buttons>div{display:inline-block;vertical-align:top;padding:0;margin:5px;width:135px;height:20px}.wpsso-ssb-widget .wpsso-ssb-preset-large_share_vertical .ssb-buttons>div{width:70px;height:61px}</style>
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v13.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Two Ecuadorian brothers who were owners of companies that illegally trafficked aborted baby parts, were arrested by ICE on February 13, 2019."/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://newspunch.com/obama-donors-trafficked-aborted-ice/" />
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//a.opmnstr.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="News Punch &raquo; Feed" href="https://newspunch.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="News Punch &raquo; Comments Feed" href="https://newspunch.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="News Punch &raquo; Obama Mega Donors, Who Trafficked Aborted Body Parts, Arrested By ICE Comments Feed" href="https://newspunch.com/obama-donors-trafficked-aborted-ice/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cdn.newspunch.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://cdn.newspunch.com/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='disqus-conditional-load-pro-css'  href='https://cdn.newspunch.com/wp-content/plugins/disqus-conditional-load-pro/public/css/dcl-buttons.css?ver=2.9.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-magazine-css'  href='https://cdn.newspunch.com/wp-content/themes/mh-magazine/style.css?ver=3.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-font-awesome-css'  href='https://cdn.newspunch.com/wp-content/themes/mh-magazine/includes/font-awesome.min.css' type='text/css' media='all' />
+<link crossorigin="anonymous" rel='stylesheet' id='mh-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,700%7cAdamina:300,400,400italic,600,700' type='text/css' media='all' />
+<script type='text/javascript' src='https://cdn.newspunch.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://cdn.newspunch.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://cdn.newspunch.com/wp-content/themes/mh-magazine/js/scripts.js?ver=3.9.3'></script>
+<script type='text/javascript' data-cfasync="false" id="omapi-script" async="async" src='https://a.opmnstr.com/app/js/api.min.js'></script>
+<link rel='https://api.w.org/' href='https://newspunch.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://newspunch.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://cdn.newspunch.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.3.2" />
+<link rel="alternate" type="application/json+oembed" href="https://newspunch.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnewspunch.com%2Fobama-donors-trafficked-aborted-ice%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://newspunch.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnewspunch.com%2Fobama-donors-trafficked-aborted-ice%2F&#038;format=xml" />
+
+<!-- StarBox - the Author Box for Humans 1.3.1, visit: http://wordpress.org/plugins/starbox/ -->
+<meta property="article:author" content="http://facebook.com/baxterdmitry" />
+<!-- /StarBox - the Author Box for Humans -->
+
+<link rel='stylesheet' id='frontend.css-css'  href='https://cdn.newspunch.com/wp-content/plugins/starbox-pro//themes/business/css/frontend.css?ver=1.3.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://cdn.newspunch.com/wp-content/plugins/starbox-pro//themes/business/js/frontend.js?ver=1.3.1'></script>
+<link rel='stylesheet' id='hidedefault.css-css'  href='https://cdn.newspunch.com/wp-content/plugins/starbox-pro//themes/admin/css/hidedefault.css?ver=1.3.1' type='text/css' media='all' />
+<style type="text/css">
+.mh-wrapper, .mh-widget-layout8 .mh-widget-title-inner, #mh-mobile .mh-slider-layout4 .mh-slider-caption { background: #fcfcfc; }
+.mh-breadcrumb, .entry-header .entry-meta, .mh-subheading-top, .mh-author-box, .mh-author-box-avatar, .mh-post-nav, .mh-comment-list .comment-body, .mh-comment-list .avatar, .mh-ping-list .mh-ping-item, .mh-ping-list .mh-ping-item:first-child, .mh-loop-description, .mh-loop-ad, .mh-sitemap-list > li, .mh-sitemap-list .children li, .mh-widget-layout7 .mh-widget-title, .mh-custom-posts-item, .mh-posts-large-item, .mh-posts-list-item, #mh-mobile .mh-posts-grid, #mh-mobile .mh-posts-grid-col, #mh-mobile .mh-posts-digest-wrap, #mh-mobile .mh-posts-digest-item, #mh-mobile .mh-posts-focus-item, .mh-category-column-item, .mh-user-item, .widget_archive li, .widget_categories li, .widget_pages li a, .widget_meta li, .widget_nav_menu .menu > li, .widget_rss li, .widget_recent_entries li, .recentcomments, .mh-box, table, td, th, pre { border-color: rgba(255, 255, 255, 0.3); }
+#mh-mobile .mh-posts-stacked-overlay-small { border-color: #fcfcfc; }
+.mh-navigation li:hover, .mh-navigation ul li:hover > ul, .mh-main-nav-wrap, .mh-main-nav, .mh-social-nav li a:hover, .entry-tags li, .mh-slider-caption, .mh-widget-layout8 .mh-widget-title .mh-footer-widget-title-inner, .mh-widget-col-1 .mh-slider-caption, .mh-widget-col-1 .mh-posts-lineup-caption, .mh-carousel-layout1, .mh-spotlight-widget, .mh-social-widget li a, .mh-author-bio-widget, .mh-footer-widget .mh-tab-comment-excerpt, .mh-nip-item:hover .mh-nip-overlay, .mh-widget .tagcloud a, .mh-footer-widget .tagcloud a, .mh-footer, .mh-copyright-wrap, input[type=submit]:hover, #infinite-handle span:hover { background: #1f1e1e; }
+.mh-extra-nav-bg { background: rgba(31, 30, 30, 0.2); }
+.mh-slider-caption, .mh-posts-stacked-title, .mh-posts-lineup-caption { background: #1f1e1e; background: rgba(31, 30, 30, 0.8); }
+@media screen and (max-width: 900px) { #mh-mobile .mh-slider-caption, #mh-mobile .mh-posts-lineup-caption { background: rgba(31, 30, 30, 1); } }
+.slicknav_menu, .slicknav_nav ul, #mh-mobile .mh-footer-widget .mh-posts-stacked-overlay { border-color: #1f1e1e; }
+.mh-copyright, .mh-copyright a { color: #fff; }
+.mh-widget-layout4 .mh-widget-title { background: #005a8c; background: rgba(0, 90, 140, 0.6); }
+.mh-preheader, .mh-wide-layout .mh-subheader, .mh-ticker-title, .mh-main-nav li:hover, .mh-footer-nav, .slicknav_menu, .slicknav_btn, .slicknav_nav .slicknav_item:hover, .slicknav_nav a:hover, .mh-back-to-top, .mh-subheading, .entry-tags .fa, .entry-tags li:hover, .mh-widget-layout2 .mh-widget-title, .mh-widget-layout4 .mh-widget-title-inner, .mh-widget-layout4 .mh-footer-widget-title, .mh-widget-layout5 .mh-widget-title-inner, .mh-widget-layout6 .mh-widget-title, #mh-mobile .flex-control-paging li a.flex-active, .mh-image-caption, .mh-carousel-layout1 .mh-carousel-caption, .mh-tab-button.active, .mh-tab-button.active:hover, .mh-footer-widget .mh-tab-button.active, .mh-social-widget li:hover a, .mh-footer-widget .mh-social-widget li a, .mh-footer-widget .mh-author-bio-widget, .tagcloud a:hover, .mh-widget .tagcloud a:hover, .mh-footer-widget .tagcloud a:hover, .mh-posts-stacked-item .mh-meta, .page-numbers:hover, .mh-loop-pagination .current, .mh-comments-pagination .current, .pagelink, a:hover .pagelink, input[type=submit], #infinite-handle span { background: #005a8c; }
+.mh-main-nav-wrap .slicknav_nav ul, blockquote, .mh-widget-layout1 .mh-widget-title, .mh-widget-layout3 .mh-widget-title, .mh-widget-layout5 .mh-widget-title, .mh-widget-layout8 .mh-widget-title:after, #mh-mobile .mh-slider-caption, .mh-carousel-layout1, .mh-spotlight-widget, .mh-author-bio-widget, .mh-author-bio-title, .mh-author-bio-image-frame, .mh-video-widget, .mh-tab-buttons, textarea:hover, input[type=text]:hover, input[type=email]:hover, input[type=tel]:hover, input[type=url]:hover { border-color: #005a8c; }
+.mh-header-tagline, .mh-dropcap, .mh-carousel-layout1 .flex-direction-nav a, .mh-carousel-layout2 .mh-carousel-caption, .mh-posts-digest-small-category, .mh-posts-lineup-more, .bypostauthor .fn:after, .mh-comment-list .comment-reply-link:before, #respond #cancel-comment-reply-link:before { color: #005a8c; }
+.mh-subheader, .page-numbers, a .pagelink, .mh-widget-layout3 .mh-widget-title, .mh-widget .search-form, .mh-tab-button, .mh-tab-content, .mh-nip-widget, .mh-magazine-facebook-page-widget, .mh-social-widget, .mh-posts-horizontal-widget, .mh-ad-spot, .mh-info-spot { background: #efefef; }
+.mh-tab-post-item { border-color: rgba(255, 255, 255, 0.3); }
+.mh-tab-comment-excerpt { background: rgba(255, 255, 255, 0.6); }
+.entry-content a { color: #005a8c; }
+a:hover, .entry-content a:hover, #respond a:hover, #respond #cancel-comment-reply-link:hover, #respond .logged-in-as a:hover, .mh-comment-list .comment-meta a:hover, .mh-ping-list .mh-ping-item a:hover, .mh-meta a:hover, .mh-breadcrumb a:hover, .mh-tabbed-widget a:hover { color: #005a8c; }
+</style>
+<!--[if lt IE 9]>
+<script src="https://cdn.newspunch.com/wp-content/themes/mh-magazine/js/css3-mediaqueries.js"></script>
+<![endif]-->
+<style type="text/css">
+.entry-content { font-size: 19px; font-size: 1.1875rem; }
+h1, h2, h3, h4, h5, h6, .mh-custom-posts-small-title { font-family: "Adamina", serif; }
+</style>
+      <meta name="onesignal" content="wordpress-plugin"/>
+            <script>
+
+      window.OneSignal = window.OneSignal || [];
+
+      OneSignal.push( function() {
+        OneSignal.SERVICE_WORKER_UPDATER_PATH = "OneSignalSDKUpdaterWorker.js.php";
+        OneSignal.SERVICE_WORKER_PATH = "OneSignalSDKWorker.js.php";
+        OneSignal.SERVICE_WORKER_PARAM = { scope: '/' };
+
+        OneSignal.setDefaultNotificationUrl("https://newspunch.com");
+        var oneSignal_options = {};
+        window._oneSignalInitOptions = oneSignal_options;
+
+        oneSignal_options['wordpress'] = true;
+oneSignal_options['appId'] = '3402d97a-09c3-4518-bd67-345c523f5925';
+oneSignal_options['welcomeNotification'] = { };
+oneSignal_options['welcomeNotification']['title'] = "";
+oneSignal_options['welcomeNotification']['message'] = "";
+oneSignal_options['path'] = "https://newspunch.com/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/";
+oneSignal_options['safari_web_id'] = "web.onesignal.auto.67c39979-7446-4274-a748-fcdf2406257a";
+oneSignal_options['promptOptions'] = { };
+oneSignal_options['notifyButton'] = { };
+oneSignal_options['notifyButton']['enable'] = true;
+oneSignal_options['notifyButton']['position'] = 'bottom-right';
+oneSignal_options['notifyButton']['theme'] = 'default';
+oneSignal_options['notifyButton']['size'] = 'medium';
+oneSignal_options['notifyButton']['showCredit'] = true;
+oneSignal_options['notifyButton']['text'] = {};
+                OneSignal.init(window._oneSignalInitOptions);
+                OneSignal.showSlidedownPrompt();      });
+
+      function documentInitOneSignal() {
+        var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+
+        var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };        for(var i = 0; i < oneSignal_elements.length; i++)
+          oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
+      }
+
+      if (document.readyState === 'complete') {
+           documentInitOneSignal();
+      }
+      else {
+           window.addEventListener("load", function(event){
+               documentInitOneSignal();
+          });
+      }
+    </script>
+
+
+<!-- social and search optimization by WPSSO Core v7.0.0 - https://wpsso.com/ -->
+<!-- wpsso meta tags begin -->
+<!-- generator:1 --><meta name="generator" content="WPSSO Core 7.0.0/L*"/>
+<!-- generator:2 --><meta name="generator" content="WPSSO JSON 3.3.0/L*"/>
+<!-- generator:3 --><meta name="generator" content="WPSSO SSB 4.7.0/S"/>
+<!-- generator:4 --><meta name="generator" content="WPSSO UM 2.9.0/S"/>
+<link rel="shortlink" href="https://newspunch.com/?p=180749"/>
+<!-- fb:admins:1 --><meta property="fb:admins" content="seantut"/>
+<meta property="fb:app_id" content="187101705057657"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://newspunch.com/obama-donors-trafficked-aborted-ice/"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:site_name" content="News Punch"/>
+<meta property="og:title" content="Obama Mega Donors, Who Trafficked Aborted Body Parts, Arrested By ICE"/>
+<meta property="og:description" content="Hillary Clinton&#039;s State Dept protected them, but now there is a new sheriff in town."/>
+<meta property="og:updated_time" content="2019-02-26T20:23:43+00:00"/>
+<!-- og:image:1 --><meta property="og:image" content="https://cdn.newspunch.com/wp-content/uploads/2019/02/clinton-aides-arrested-ICE-1200x630-cropped.jpg.optimal.jpg"/>
+<!-- og:image:1 --><meta property="og:image:width" content="1200"/>
+<!-- og:image:1 --><meta property="og:image:height" content="630"/>
+<!-- og:image:1 --><meta property="og:image:alt" content="Two Ecuadorian brothers who were owners of companies that illegally trafficked aborted baby parts, were arrested by ICE on February 13, 2019."/>
+<!-- article:author:1 --><meta property="article:author" content="https://www.facebook.com/baxterdmitry"/>
+<meta property="article:publisher" content="https://www.facebook.com/thepeoplesvoicetv"/>
+<meta property="article:published_time" content="2019-02-26T20:23:43+00:00"/>
+<meta property="article:modified_time" content="2019-02-26T20:23:43+00:00"/>
+<meta property="article:section" content="News"/>
+<meta name="twitter:domain" content="newspunch.com"/>
+<meta name="twitter:site" content="@yournewswire"/>
+<meta name="twitter:title" content="Obama Mega Donors, Who Trafficked Aborted Body Parts, Arrested By ICE"/>
+<meta name="twitter:description" content="Hillary Clinton&#039;s State Dept protected them, but now there is a new sheriff in town."/>
+<meta name="twitter:creator" content="@baxter_dmitry"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://cdn.newspunch.com/wp-content/uploads/2019/02/clinton-aides-arrested-ICE-600x327.jpg.optimal.jpg?p=180749"/>
+<meta name="twitter:image:alt" content="Two Ecuadorian brothers who were owners of companies that illegally trafficked aborted baby parts, were arrested by ICE on February 13, 2019."/>
+<meta name="author" content="Baxter Dmitry"/>
+<meta name="thumbnail" content="https://cdn.newspunch.com/wp-content/uploads/2019/02/clinton-aides-arrested-ICE-600x315-cropped.jpg.optimal.jpg"/>
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
         {
-        "@context": "http://schema.org",
-        "@type": "NewsArticle",
-        "headline": "Newsom Says Coronavirus Data Doesn&#39;t Show Racial Disparities ",
-        "datePublished": "2020-04-08T16:30:00-04:00",
-        "dateModified": "2020-04-08T16:30:00-04:00" ,
-        "image": {
-        "@type": "ImageObject",
-        "url": "https://media.townhall.com/townhall/reu/s1280x720/2020/83/e77ddcca-d0f7-46a8-823b-15b9add9393a.jpg",
-        "height": 665,
-        "width": 700
+            "@id": "/06d3730efc83058f497d3d44f2f364e3#sso/person",
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Baxter Dmitry",
+            "description": "Baxter Dmitry is a writer at Your News Wire. He covers politics, business and entertainment. Speaking truth to power since he learned to talk, Baxter has travelled in over 80 countries and won arguments in every single one. Live without fear.",
+            "sameAs": [
+                "https://www.facebook.com/baxterdmitry",
+                "https://twitter.com/baxter_dmitry"
+            ]
         },
-        "mainEntityOfPage":"https://townhall.com/tipsheet/bronsonstocking/2020/04/08/gov-newsom-says-coronavirus-data-doesnt-show-racial-disparities-n2566594",
-        "author": {
-        "@type": "Person",
-        "name": "Bronson Stocking"
+        {
+            "@id": "https://cdn.newspunch.com/wp-content/uploads/2019/02/clinton-aides-arrested-ICE-800x436.jpg.optimal.jpg#sso/image.object",
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://cdn.newspunch.com/wp-content/uploads/2019/02/clinton-aides-arrested-ICE-800x436.jpg.optimal.jpg",
+            "identifier": "180759-wpsso-schema-article",
+            "name": "Two Ecuadorian brothers who were owners of companies that illegally trafficked aborted baby parts, were arrested by ICE on February 13, 2019.",
+            "alternateName": "Two Ecuadorian brothers who were owners of companies that illegally trafficked aborted baby parts, were...",
+            "description": "Two Ecuadorian brothers who were owners of companies that illegally trafficked aborted baby parts, were arrested by ICE on February 13, 2019.",
+            "fileFormat": "image/jpeg",
+            "uploadDate": "2019-02-26T20:02:00+00:00",
+            "width": 800,
+            "height": 436
         },
-        "publisher": {
-        "@type":"Organization",
-        "name": "Townhall.com",
-        "logo": {
-        "@type": "ImageObject",
-        "url": "https://media.townhall.com/townhall/ampmobile/Logo_TH_3.png",
-        "width": 128,
-        "height": 60
-        }
-        }
-        }
-    </script>
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Newsom Says Coronavirus Data Doesn&#39;t Show Racial Disparities " />
-<meta name="twitter:image" content="https://media.townhall.com/townhall/reu/s1280x720/2020/83/e77ddcca-d0f7-46a8-823b-15b9add9393a.jpg?185" />
-<meta name="twitter:url" content="https://townhall.com/tipsheet/bronsonstocking/2020/04/08/gov-newsom-says-coronavirus-data-doesnt-show-racial-disparities-n2566594?185" />
-<meta name="twitter:description" content="" />
-<meta name="twitter:site" content="@townhallcom" />
-<script type="text/javascript">
-        var _sf_async_config = {};
-        /** CONFIGURATION START **/
-        _sf_async_config.uid = 14482;
-        _sf_async_config.domain = 'townhall.com';
-        _sf_async_config.sections = 'tipsheet';
-        _sf_async_config.authors = 'Bronson Stocking';
-
-        var _cbq = window._cbq = window._cbq || [];
-        if (localStorage.getItem('_cbq_acct')) {
-            _cbq.push(['_acct', localStorage.getItem( '_cbq_acct' )||"anon"]);
-        }
-
-
-        _sf_async_config.useCanonical = true;
-        /** CONFIGURATION END **/
-        (function () {
-            function loadChartbeat() {
-                window._sf_endpt = (new Date()).getTime();
-                var e = document.createElement('script');
-                e.setAttribute('language', 'javascript');
-                e.setAttribute('type', 'text/javascript');
-                e.setAttribute('src',
-                           (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
-                           'js/chartbeat.js');
-                document.body.appendChild(e);
-            }
-            var oldonload = window.onload;
-            window.onload = (typeof window.onload != 'function') ?
-                loadChartbeat : function () { oldonload(); loadChartbeat(); };
-        })();
-
-</script>
-<script>
-    var _comscore = _comscore || [];
-    _comscore.push({
-        c1: "2",
-        c2: "21057668",
-        c3: "",
-        c4: ""
-    });
-    (function () {
-        var s = document.createElement("script"),
-            el = document.getElementsByTagName("script")[0];
-        s.async = true;
-        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-        el.parentNode.insertBefore(s, el);
-    })();
-</script>
-<noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=21057668&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" /> </noscript>
-
-<script>
-    !function (f, b, e, v, n, t, s) {
-        if (f.fbq) return; n = f.fbq = function () {
-            n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        }; if (!f._fbq) f._fbq = n;
-        n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
-        t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
-    }(window,
-        document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-
-    fbq('init', '791796474183597');
-    fbq('track', "PageView");</script>
-<noscript>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=791796474183597&ev=PageView&noscript=1" />
-</noscript>
-
-<script>
-        function getRoxotGroupId() {
-            try {
-                var storageKey = 'roxot-gid';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 10000);
-                    localStorage.setItem(storageKey, groupId);
+        {
+            "@id": "https://newspunch.com#sso/organization/site/org_banner_url",
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "url": "https://newspunch.com",
+            "name": "News Punch",
+            "description": "Where Mainstream Fears to Tread",
+            "image": [
+                {
+                    "@context": "https://schema.org",
+                    "@type": "ImageObject",
+                    "url": "https://cdn.newspunch.com/wp-content/uploads/2018/11/news_punch_logo_blue_tag.png",
+                    "width": 800,
+                    "height": 222
                 }
-                return '' + groupId;
-            } catch (e) {
-                return '10001';
-            }
-        }
-
-        function getRoxotSectorId() {
-            try {
-                var storageKey = 'roxot-sid';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 100);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '101';
-            }
-        }
-
-        function getRoxotDeep() {
-            try {
-                var storageKey = 'roxot-deep';
-                var groupId = localStorage.getItem(storageKey);
-                if (groupId === null) {
-                    groupId = 1 + Math.floor(Math.random() * 100);
-                    localStorage.setItem(storageKey, groupId);
-                }
-                return '' + groupId;
-            } catch (e) {
-                return '101';
-            }
-        }
-
-        function getRoxotEvent() {
-            return '' + (1 + Math.floor(Math.random() * 100));
-        }
-    </script>
-<script>
-        var bidTimeout = 3000;
-        var refreshInterval = 60000;
-        var PREBID_TIMEOUT = bidTimeout;
-        var FAILSAFE_TIMEOUT = 3000;
-        var SCREEN_TIME = false;
-        var PREBID = true;
-        var adUnits = [{"code":"div-gpt-728x90_1","sizes":[[728,90],[970,90],[970,250]],"bids":[{"bidder":"openx","params":{"unit":"537998002","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381642"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-728x90_1@728x90"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_2","sizes":[[300,250]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_2@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_1","sizes":[[300,250],[300,600]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_1@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_3","sizes":[[300,250],[300,600]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_3@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_sticky","sizes":[[300,250]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_sticky@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]}];
-        var apstagSlots = [{"slotID":"div-gpt-728x90_1","slotName":"/6177/slm.townhall/tipsheet/728x90_1","sizes":[[728,90],[970,90],[970,250]]},{"slotID":"div-gpt-300x250_2","slotName":"/6177/slm.townhall/tipsheet/300x250_2","sizes":[[300,250]]},{"slotID":"div-gpt-300x250_1","slotName":"/6177/slm.townhall/tipsheet/300x250_1","sizes":[[300,250],[300,600]]},{"slotID":"div-gpt-300x250_3","slotName":"/6177/slm.townhall/tipsheet/300x250_3","sizes":[[300,250],[300,600]]},{"slotID":"div-gpt-300x250_sticky","slotName":"/6177/slm.townhall/tipsheet/300x250_sticky","sizes":[[300,250]]}];
-    </script>
-<script src="/resources/dist/js/prebid-latest.min.js?v=2.5.1-1"></script>
-<script async>
-        //<![CDATA[
-
-        var gptAdUnitPath = "tipsheet";
-        var gptAdSlot = [];
-
-        googletag.cmd.push(function () {
-            googletag.pubads().disableInitialLoad();
-            try {
-                gptAdSlot['div-gpt-728x90_1'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/728x90_1', [[728,90],[970,90],[970,250],[1,1]], 'div-gpt-728x90_1').addService(googletag.pubads()).setTargeting('pos', '728x90_1').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_2'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_2', [[300,250]], 'div-gpt-300x250_2').addService(googletag.pubads()).setTargeting('pos', '300x250_2').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_1'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_1', [[300,250],[300,600]], 'div-gpt-300x250_1').addService(googletag.pubads()).setTargeting('pos', '300x250_1').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_3'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_3', [[300,250],[300,600]], 'div-gpt-300x250_3').addService(googletag.pubads()).setTargeting('pos', '300x250_3').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-300x250_sticky'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_sticky', [[300,250]], 'div-gpt-300x250_sticky').addService(googletag.pubads()).setTargeting('pos', '300x250_sticky').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
-gptAdSlot['div-gpt-oop'] = googletag.defineOutOfPageSlot('/6177/slm.townhall/tipsheet', 'div-gpt-oop').addService(googletag.pubads());
-
-
-                if (typeof Storage !== "undefined") {
-                    var targetingParamStr = localStorage.getItem("bcDFPTargetingParams");
-
-                    if (targetingParamStr) {
-                        var targetingParameters = JSON.parse(targetingParamStr);
-
-                        // set page-level targeting parameters
-                        jQuery.each(targetingParameters, function (index, param) {
-                            window.googletag.pubads().setTargeting(param.key, param.value);
-                        });
+            ],
+            "logo": {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://cdn.newspunch.com/wp-content/uploads/2018/11/news_punch_blue_tag_600.png",
+                "width": 600,
+                "height": 60
+            },
+            "sameAs": [
+                "https://www.facebook.com/thepeoplesvoicetv",
+                "https://twitter.com/yournewswire"
+            ]
+        },
+        {
+            "@id": "https://newspunch.com/obama-donors-trafficked-aborted-ice/#sso/article.news",
+            "@context": "https://schema.org",
+            "@type": "NewsArticle",
+            "mainEntityOfPage": "https://newspunch.com/obama-donors-trafficked-aborted-ice/",
+            "url": "https://newspunch.com/obama-donors-trafficked-aborted-ice/",
+            "sameAs": [
+                "https://newspunch.com/?p=180749"
+            ],
+            "name": "Obama Mega Donors, Who Trafficked Aborted Body Parts, Arrested By ICE",
+            "description": "Two Ecuadorian brothers who were owners of companies that illegally trafficked aborted baby parts, were arrested by ICE on February 13, 2019.",
+            "headline": "Obama Mega Donors, Who Trafficked Aborted Body Parts, Arrested By ICE",
+            "copyrightYear": "2019",
+            "inLanguage": "en_US",
+            "dateCreated": "2019-02-26T20:23:43+00:00",
+            "datePublished": "2019-02-26T20:23:43+00:00",
+            "dateModified": "2019-02-26T20:23:43+00:00",
+            "author": {
+                "@id": "/06d3730efc83058f497d3d44f2f364e3#sso/person"
+            },
+            "thumbnailUrl": "https://cdn.newspunch.com/wp-content/uploads/2019/02/clinton-aides-arrested-ICE-600x315-cropped.jpg.optimal.jpg",
+            "commentCount": 4,
+            "comment": [
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Comment",
+                    "url": "https://newspunch.com/obama-donors-trafficked-aborted-ice/#comment-175191",
+                    "dateCreated": "2019-03-01T15:34:00+00:00",
+                    "description": "They never thought Hillary would lose.",
+                    "author": {
+                        "@context": "https://schema.org",
+                        "@type": "Person",
+                        "name": "ChicoCDM"
+                    }
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Comment",
+                    "url": "https://newspunch.com/obama-donors-trafficked-aborted-ice/#comment-175081",
+                    "dateCreated": "2019-02-27T19:16:00+00:00",
+                    "description": "Now we are beginning to see why the \"Canaanites\" in political office are pushing their postpartum Infanticide bills. Its because&hellip;",
+                    "author": {
+                        "@context": "https://schema.org",
+                        "@type": "Person",
+                        "name": "clarioncaller"
+                    }
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Comment",
+                    "url": "https://newspunch.com/obama-donors-trafficked-aborted-ice/#comment-175064",
+                    "dateCreated": "2019-02-27T05:54:00+00:00",
+                    "description": "https://uploads.disquscdn.com/images/9043d599acab7eafa437eba10ac33c30a75a1ec35509f9cf99c7cb39e905d0aa.jpg",
+                    "author": {
+                        "@context": "https://schema.org",
+                        "@type": "Person",
+                        "name": "Sara Paterson"
+                    }
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Comment",
+                    "url": "https://newspunch.com/obama-donors-trafficked-aborted-ice/#comment-175039",
+                    "dateCreated": "2019-02-26T23:20:00+00:00",
+                    "description": "The usual suspects - neocohens",
+                    "author": {
+                        "@context": "https://schema.org",
+                        "@type": "Person",
+                        "name": "itibi ra"
                     }
                 }
-            } catch (e) {
-                console.error("thm-ad-exception", e);
+            ],
+            "articleSection": "News",
+            "articleBody": "Two wealthy Ecuadorian brothers who were owners of companies fined and ordered to shut down for illegally trafficking world-wide in aborted baby parts purchased from Planned Parenthood, were arrested by ICE on February 13, 2019. Roberto and William Isa&iacute;as, 74 and 75, were detained Wednesday in Miami, Florida and taken to a detention facility for undocumented immigrants awaiting deportation, The New York Times reported. ICE told the Times that the brothers were &ldquo;unlawfully present&rdquo; in the U.S. Roberto and William Isaias, who fled Ecuador to avoid 8-year prison sentences, were principals in California companies DaVinci Biosciences and DV Biologics, and the two career criminals were allowed to stay in the United States by Hillary Clinton&#039;s State Department under &quot;suspicious circumstances&quot; after they donated hundreds of thousands of dollars to Barack Obama&#039;s 2012 campaign fund. According to Law.com: U.S. Immigration and Customs Enforcement arrested Roberto and William Isa&iacute;as on Feb. 13. ICE representative Nestor Yglesias said the brothers were &ldquo;unlawfully present&rdquo; in the U.S., and have been &ldquo;transferred to ICE&rsquo;s Enforcement and Removal Operations&rdquo; for deportation proceedings following their arrest. Yglesias added the pair is &ldquo;in agency custody pending removal proceedings.&rdquo; The arrest of Roberto and William Isaias was gratifying to Operation Rescue, which published an investigative research report on October 27, 2016 &ndash; just days before the Presidential Election that put Donald J. Trump in office &ndash; that detailed their crimes in Ecuador, dubious dealings with the Obama administration, their business with Planned Parenthood and the aborted baby body parts trade. &ldquo;We understood that this family was in the U.S. under suspicious circumstances, and that they had committed crimes in Ecuador and Southern California,&rdquo; said Operation Rescue President Troy Newman. &ldquo;We had hoped that one day they would return to Ecuador so that justice could be done, but their arrests still took us by surprise.&rdquo; LifeNews reports: In 2012, Roberto and William Isaias were sentenced in abstentia to eight years in prison for running their Ecuadorian bank into the ground then presenting false balance sheets to profit from bailout funds, wiping out the life savings of thousands of families. Ecuador says the Isaias family cost the impoverished country a total of $661.5 million. The Isaias family began dumping large amounts of campaign contributions into American political campaigns, including $90,000 to Obama&rsquo;s 2012 re-election campaign. Career criminals protected by Hillary Clinton As a result, after reaching out to then-Secretary of State Hillary Clinton for asylum, the Isaias&rsquo; were granted expedited immigration into the U.S. Clinton&rsquo;s State Department then rebuffed attempts by Ecuador to extradite them to face justice. Once in America, the Isaias family owned and operated DaVinci Biosciences and DV Biologics, companies that contracted exclusively with Planned Parenthood of Orange County to receive aborted baby tissues and organs, which they trafficked overseas. Roberto and William Isaias&rsquo; nephew, Estafano Isaias, Jr., who was involved in profit-taking from the two biotech companies, also owned a business that sold pornography online. After the release of the Center for Medical Progress&rsquo; undercover video expos&eacute;s in 2015, Orange County District Attorney Tony Rackauckas sued the companies for their illegal body parts trade, and in 2017 reached a settlement agreement that fined them $7.8 million, and ordered their businesses to close. &ldquo;We have mentioned the Isaias brothers repeatedly in articles that we have published over the past couple of years, including the corruption in the Obama Administration, which allowed them to come to our country where they committed further crimes,&rdquo; said Newman. &ldquo;We hoped that someone would take notice.&rdquo; Just last month, Operation Rescue published an expos&eacute; that delved into the market for aborted baby body parts. It revealed that the DaVinci biotech companies sent tissues and organs obtained from Planned Parenthood around the world to businesses that were working to develop anti-aging drugs for the wealthy. &ldquo;The Isaias&rsquo; are bad people, and we are very relieved that they will soon be back in Ecuador to serve their sentences and hopefully return the money they took from the people they bilked,&rdquo; said Newman. &ldquo;And we are especially glad that they are out of the baby parts trade permanently.&rdquo;",
+            "image": [
+                {
+                    "@id": "https://cdn.newspunch.com/wp-content/uploads/2019/02/clinton-aides-arrested-ICE-800x436.jpg.optimal.jpg#sso/image.object"
+                }
+            ],
+            "publisher": {
+                "@id": "https://newspunch.com#sso/organization/site/org_banner_url"
             }
+        }
+    ]
+}</script>
+<!-- wpsso meta tags end -->
+<!-- added on 2020-04-19T08:04:34+00:00 in 0.001577 secs from https://newspunch.com -->
 
-            googletag.pubads().addEventListener('impressionViewable', function (event) {
-                
-                var slot = event.slot;
-                if (slot.getTargeting('refresh').indexOf('true') > -1) {
-                    setTimeout(function () {
-                        Thm.RefreshAd(slot);
-                    }, refreshInterval);
-                }
-            });
-            
-            
-            googletag.pubads().setTargeting("tags",["California","California","Race","Race","Victim Mentality","Victim Mentality","victimhood","victimhood","Gavin Newsom","Gavin Newsom","Leftists","Leftists","wuhan coronavirus","wuhan coronavirus"]).setTargeting("author", "Bronson Stocking").setTargeting("fullUrl", "gov-newsom-says-coronavirus-data-doesnt-show-racial-disparities-n2566594");
 
-            
+<script type="text/javascript" id="wpssossb-header-script">
 
-            googletag.enableServices();
+	window.___gcfg = { lang: "en-US" };
 
-        });
-        //]]>
-    </script>
-<link href="/resources/lib/owl-carousel2/dist/assets/owl.carousel.min.css" rel="stylesheet" />
-<script id="article-meta" type="application/json">
-            {"Title":"Newsom Says Coronavirus Data Doesn't Show Racial Disparities ","IsArticleView":true,"BaseShareUrl":"http://townhall.com","Canonical":"https://townhall.com/tipsheet/bronsonstocking/2020/04/08/gov-newsom-says-coronavirus-data-doesnt-show-racial-disparities-n2566594","ShareTitle":"Bronson Stocking - Newsom Says Coronavirus Data Doesn't Show Racial Disparities ","PublishedDate":"2020-04-08T16:30:00","Id":133292,"Author":"Bronson Stocking","AuthorImage":"https://media.townhall.com/townhall/reu/contributor-sm/authorimages/3cecb030-d231-4dd6-89c6-47df825a34dd.png","ImageUrl":"https://media.townhall.com/townhall/reu/ha/2020/83/e77ddcca-d0f7-46a8-823b-15b9add9393a.jpg","Tags":[109,109,770,770,1914,1914,5991,5991,11739,11739,13463,13463,17783,17783],"Url":"https://townhall.com/tipsheet/bronsonstocking/2020/04/08/gov-newsom-says-coronavirus-data-doesnt-show-racial-disparities-n2566594","Soup":0}
-        </script>
-</head>
-<body>
-<div class="thm-piano-top"></div>
-<div id="search">
-<button type="button" class="close"><i class="fa fa-close"></i></button>
-<form id="site-search">
-<input type="search" id="q" name="q" value="" placeholder="Search townhall.com...." />
-<button type="button" class="btn btn-default btn-search"><i class="fa fa-search"></i></button>
-</form>
+	function wpsso_insert_js( script_id, src_url, async ) {
+
+		if ( document.getElementById( script_id + "-js" ) ) {
+			return;
+		}
+
+		var async      = typeof async !== "undefined" ? async : true;
+		var script_pos = document.getElementById( script_id );
+		var script_js  = document.createElement( "script" );
+
+		script_js.id       = script_id + "-js";
+		script_js.async    = async;
+		script_js.type     = "text/javascript";
+		script_js.language = "JavaScript";
+		script_js.src      = src_url;
+
+		script_pos.parentNode.insertBefore( script_js, script_pos );
+	};
+</script>
+<!-- wpssossb header javascript begin -->
+<!-- generated on 2020-04-19T08:04:34+00:00 -->
+<script type="text/javascript" id="fb-script-header">wpsso_insert_js( "fb-script-header", "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=187101705057657" );</script>
+<script type="text/javascript" id="twitter-script-header">wpsso_insert_js( "twitter-script-header", "https://platform.twitter.com/widgets.js" );</script>
+<!-- wpssossb header javascript end -->
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #262626; }
+</style>
+	<link rel="amphtml" href="https://newspunch.com/obama-donors-trafficked-aborted-ice/amp/">		<style type="text/css" id="wp-custom-css">
+			/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+
+.entry-thumbnail { max-width: 100%; margin-bottom: 20px; margin-bottom: 1.25rem;text-align:center; }
+
+.entry-thumbnail img {
+max-width: 700px;margin:auto;
+
+}
+
+.single-post .mh-sidebar { display: none; }
+.single-post .mh-content { width: 100% !important; }
+
+.mh-meta-comments { display: inline-block !important; }
+
+.entry-meta-comments { display: inline-block !important; }
+
+.mh-breadcrumb { display: none; }		</style>
+		</head>
+<body id="mh-mobile" class="post-template-default single single-post postid-180749 single-format-standard custom-background wp-custom-logo mh-boxed-layout mh-right-sb mh-loop-layout1 mh-widget-layout4" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+<aside class="mh-container mh-header-widget-1">
+<div id="text-13" class="mh-widget mh-header-1 widget_text">			<div class="textwidget"><amp-ad width=250 height=250
+    type="doubleclick"
+    data-slot="/96451178/Off-grid-AMP">
+</amp-ad></div>
+		</div></aside>
+<div class="mh-container mh-container-outer">
+<div class="mh-header-nav-mobile clearfix"></div>
+	<div class="mh-preheader">
+    	<div class="mh-container mh-container-inner mh-row clearfix">
+							<div class="mh-header-bar-content mh-header-bar-top-left mh-col-2-3 clearfix">
+									</div>
+										<div class="mh-header-bar-content mh-header-bar-top-right mh-col-1-3 clearfix">
+									</div>
+					</div>
+	</div>
+<header class="mh-header" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+	<div class="mh-container mh-container-inner clearfix">
+		<div class="mh-custom-header clearfix">
+<div class="mh-header-columns mh-row clearfix">
+<div class="mh-col-1-1 mh-site-identity">
+<div class="mh-site-logo" role="banner" itemscope="itemscope" itemtype="https://schema.org/Brand">
+<a href="https://newspunch.com/" class="custom-logo-link" rel="home"><img width="540" height="150" src="https://cdn.newspunch.com/wp-content/uploads/2018/11/news_punch_logo.png" class="custom-logo" alt="News Punch" srcset="https://cdn.newspunch.com/wp-content/uploads/2018/11/news_punch_logo.png 540w, https://cdn.newspunch.com/wp-content/uploads/2018/11/news_punch_logo-150x42.png 150w, https://cdn.newspunch.com/wp-content/uploads/2018/11/news_punch_logo-300x83.png 300w, https://cdn.newspunch.com/wp-content/uploads/2018/11/news_punch_logo-500x139.png 500w" sizes="(max-width: 540px) 100vw, 540px" data-wp-pid="177676" nopin="nopin" /></a></div>
 </div>
-<header>
-<nav id="thm-nav-sm" class="navbar navbar-default navbar-condensed navbar-fixed-top navbar-article-header">
-<div class="breaking-news-bar-container-condensed"></div>
-<div class="container">
-<div class="navbar-header">
-<a class="navbar-brand" href="/">
-<img src="/resources/th_logo.svg" class="th-logo" alt="">
-</a>
 </div>
-<div id="navbar" class="navbar-collapse collapse">
-<ul class="nav navbar-nav navbar-links navbar-right">
-<li><a title="Columnists" href="/columnists/" class="top-menu">Columnists</a></li>
-<li class="active"><a title="Tipsheet" href="/tipsheet/" class="top-menu">Tipsheet</a></li>
-<li><a title="Cartoons" href="/political-cartoons/" class="top-menu">Cartoons</a></li>
-<li><a title="Podcasts" class="top-menu" href="/podcasts/">Podcasts</a></li>
-<li><a title="Election" class="top-menu hidden-md hidden-sm" href="/election/"><img class="ec-2020-m" src="https://media.townhall.com/thm/ec2020.png" /></a></li>
-<li><a title="Membership: VIP" class="top-menu" href="/vip/"><img class="vip-brand" src="/resources/dist/svg/subscriptions-badge-vip.svg"></a></li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle top-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sections <span class="fa fa-chevron-down"></span></a>
-<ul class="dropdown-menu">
-<li><a title="Newsletter signup" href="/newsletter/">Newsletters</a></li>
-<li class="hidden-lg"><a title="Podcasts" href="/podcasts/">Podcasts</a></li>
-<li><a title="Townhall TV" href="/tv/">Townhall TV</a></li>
-<li><a title="Election " href="/election/">Election</a></li>
-<li><a title="Capitol Voices" href="/capitol-voices/">Capitol Voices</a></li>
-<li><a title="Entertainment" href="/entertainment/">Entertainment</a></li>
-<li><a title="Radio News" href="/news/">Radio News</a></li>
-<li class="hidden-lg"><a title="Election" href="/election/"><img class="ec-2020-m" src="https://media.townhall.com/thm/ec2020.png" /></a></li>
-<li><a title="Live Blog" href="/liveblog/">Live Blog</a></li>
-<li><a title="Topics" href="/tags/">Topics</a></li>
+</div>
+	</div>
+	<div class="mh-main-nav-wrap">
+		<nav class="mh-navigation mh-main-nav mh-container mh-container-inner clearfix" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+			<div class="menu-navigation-container"><ul id="menu-navigation" class="menu"><li id="menu-item-185360" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-185360"><a href="https://newspunch.com">Home</a></li>
+<li id="menu-item-3334" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-3334"><a href="https://newspunch.com/category/news/">News</a>
+<ul class="sub-menu">
+	<li id="menu-item-3337" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-3337"><a href="https://newspunch.com/category/news/us/">US</a></li>
+	<li id="menu-item-3336" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3336"><a href="https://newspunch.com/category/news/uk/">UK</a></li>
+	<li id="menu-item-3335" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3335"><a href="https://newspunch.com/category/news/the-middle-east/">Middle East</a></li>
+	<li id="menu-item-3338" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3338"><a href="https://newspunch.com/category/news/world-news/">World</a></li>
 </ul>
 </li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle top-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sites <span class="fa fa-chevron-down"></span></a>
-<ul class="dropdown-menu">
-<li><a href="http://hotair.com" target="_blank">Hot Air</a></li>
-<li><a href="http://pjmedia.com" target="_blank">PJ Media</a></li>
-<li><a href="http://bearingarms.com" target="_blank">Bearing Arms</a></li>
-<li><a href="http://twitchy.com" target="_blank">Twitchy</a></li>
-<li><a href="http://redstate.com" target="_blank">RedState</a></li>
-<li><a href="http://finance.townhall.com" target="_blank">Townhall Finance</a></li>
-<li><a href="http://www.conservativeradio.com/" target="_blank">Conservative Radio</a></li>
-</ul>
-</li>
-<li><a class="btn btn-default btn-sm btn-join hidden" href="/subscribe?tpcc=home_button">JOIN VIP</a></li>
-<li><a class="btn btn-default btn-sm btn-login hidden">LOGIN</a></li>
-<li>
-<div class="btn-group btn-account hidden">
-<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-MY ACCOUNT <span class="caret"></span>
-</button>
-<ul class="dropdown-menu">
-<li><a href="/account/" class="lnk-account">Account Settings</a></li>
-<li><a href="/newsletter/">Newsletter Subscriptions</a></li>
-<li><a href="#" class="lnk-logout">Log Out</a></li>
-</ul>
+<li id="menu-item-1641" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1641"><a href="https://newspunch.com/category/health/">Health</a></li>
+<li id="menu-item-3341" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3341"><a href="https://newspunch.com/category/science-environment/">Sci/Environment</a></li>
+<li id="menu-item-41520" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41520"><a href="https://newspunch.com/category/technology-2/">Technology</a></li>
+<li id="menu-item-3339" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3339"><a href="https://newspunch.com/category/entertainment/">Entertainment</a></li>
+<li id="menu-item-130688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-130688"><a href="https://newspunch.com/contact/">Contact Us</a></li>
+</ul></div>		</nav>
+	</div>
+			<div class="mh-extra-nav-wrap">
+			<div class="mh-extra-nav-bg">
+				<nav class="mh-navigation mh-extra-nav mh-container mh-container-inner clearfix" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+					<div class="menu-legal-container"><ul id="menu-legal" class="menu"><li id="menu-item-130689" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-130689"><a href="https://newspunch.com/contact/">Contact Us</a></li>
+<li id="menu-item-191781" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-191781"><a href="https://newspunch.com/about-us/">About</a></li>
+<li id="menu-item-191782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-191782"><a href="https://newspunch.com/corrections-policy/">Corrections</a></li>
+<li id="menu-item-75353" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75353"><a href="https://newspunch.com/advertise-with-us/">Advertise</a></li>
+<li id="menu-item-1668" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-1668"><a href="https://newspunch.com/website-terms-of-use/privacy/">Privacy</a></li>
+<li id="menu-item-1662" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1662"><a href="https://newspunch.com/website-terms-of-use/">Terms of Use</a></li>
+</ul></div>				</nav>
+			</div>
+		</div>
+	</header>
+	<div class="mh-subheader">
+		<div class="mh-container mh-container-inner mh-row clearfix">
+							<div class="mh-header-bar-content mh-header-bar-bottom-left mh-col-2-3 clearfix">
+											<div class="mh-header-ticker mh-header-ticker-bottom">
+							<div class="mh-ticker-bottom">
+			<div class="mh-ticker-title mh-ticker-title-bottom">
+			Headlines<i class="fa fa-chevron-right"></i>		</div>
+		<div class="mh-ticker-content mh-ticker-content-bottom">
+		<ul id="mh-ticker-loop-bottom">				<li class="mh-ticker-item mh-ticker-item-bottom">
+					<a href="https://newspunch.com/white-house-petition-investigate-bill-gates-crimes-against-humanity-gains-quarter-million-signatures/" title="White House Petition To Investigate Bill Gates For &#8216;Crimes Against Humanity&#8217; Gains a Quarter Million Signatures">
+						<span class="mh-ticker-item-date mh-ticker-item-date-bottom">
+                        	[ April 18, 2020 ]                        </span>
+						<span class="mh-ticker-item-title mh-ticker-item-title-bottom">
+							White House Petition To Investigate Bill Gates For &#8216;Crimes Against Humanity&#8217; Gains a Quarter Million Signatures						</span>
+													<span class="mh-ticker-item-cat mh-ticker-item-cat-bottom">
+								<i class="fa fa-caret-right"></i>
+																News							</span>
+											</a>
+				</li>				<li class="mh-ticker-item mh-ticker-item-bottom">
+					<a href="https://newspunch.com/jeff-sessions-halt-foreign-worker-visas-americans-can-work-earn-instead/" title="Jeff Sessions: Halt Foreign Worker Visas so Americans Can Work and Earn Instead">
+						<span class="mh-ticker-item-date mh-ticker-item-date-bottom">
+                        	[ April 18, 2020 ]                        </span>
+						<span class="mh-ticker-item-title mh-ticker-item-title-bottom">
+							Jeff Sessions: Halt Foreign Worker Visas so Americans Can Work and Earn Instead						</span>
+													<span class="mh-ticker-item-cat mh-ticker-item-cat-bottom">
+								<i class="fa fa-caret-right"></i>
+																News							</span>
+											</a>
+				</li>				<li class="mh-ticker-item mh-ticker-item-bottom">
+					<a href="https://newspunch.com/cher-trump-killing-americans-while-republicans-turn-their-heads/" title="Cher: Trump Is KILLING Americans While Republicans ‘Turn Their Heads’">
+						<span class="mh-ticker-item-date mh-ticker-item-date-bottom">
+                        	[ April 18, 2020 ]                        </span>
+						<span class="mh-ticker-item-title mh-ticker-item-title-bottom">
+							Cher: Trump Is KILLING Americans While Republicans ‘Turn Their Heads’						</span>
+													<span class="mh-ticker-item-cat mh-ticker-item-cat-bottom">
+								<i class="fa fa-caret-right"></i>
+																Entertainment							</span>
+											</a>
+				</li>				<li class="mh-ticker-item mh-ticker-item-bottom">
+					<a href="https://newspunch.com/us-attorney-joe-digenova-bill-barr-indictments-deep-states-crossfire-hurricane-sham/" title="US Attorney Joe DiGenova: Bill Barr Says There Will Be Indictments in Deep State’s Crossfire Hurricane Sham">
+						<span class="mh-ticker-item-date mh-ticker-item-date-bottom">
+                        	[ April 18, 2020 ]                        </span>
+						<span class="mh-ticker-item-title mh-ticker-item-title-bottom">
+							US Attorney Joe DiGenova: Bill Barr Says There Will Be Indictments in Deep State’s Crossfire Hurricane Sham						</span>
+													<span class="mh-ticker-item-cat mh-ticker-item-cat-bottom">
+								<i class="fa fa-caret-right"></i>
+																News							</span>
+											</a>
+				</li>				<li class="mh-ticker-item mh-ticker-item-bottom">
+					<a href="https://newspunch.com/leslie-jones-need-print-trumps-name-all-coronavirus-death-certificates/" title="Leslie Jones: We Need to Print Trump’s Name on ALL Coronavirus Death Certificates">
+						<span class="mh-ticker-item-date mh-ticker-item-date-bottom">
+                        	[ April 18, 2020 ]                        </span>
+						<span class="mh-ticker-item-title mh-ticker-item-title-bottom">
+							Leslie Jones: We Need to Print Trump’s Name on ALL Coronavirus Death Certificates						</span>
+													<span class="mh-ticker-item-cat mh-ticker-item-cat-bottom">
+								<i class="fa fa-caret-right"></i>
+																Entertainment							</span>
+											</a>
+				</li>		</ul>
+	</div>
+</div>						</div>
+									</div>
+										<div class="mh-header-bar-content mh-header-bar-bottom-right mh-col-1-3 clearfix">
+											<aside class="mh-header-search mh-header-search-bottom">
+							<form role="search" method="get" class="search-form" action="https://newspunch.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>						</aside>
+									</div>
+					</div>
+	</div>
+<div class="mh-wrapper clearfix">
+	<div class="mh-main clearfix">
+		<div id="main-content" class="mh-content" role="main" itemprop="mainContentOfPage"><nav class="mh-breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList"><span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://newspunch.com" itemprop="item"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></span><span class="mh-breadcrumb-delimiter"><i class="fa fa-angle-right"></i></span><span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://newspunch.com/category/news/" itemprop="item"><span itemprop="name">News</span></a><meta itemprop="position" content="2" /></span><span class="mh-breadcrumb-delimiter"><i class="fa fa-angle-right"></i></span>Obama Mega Donors, Who Trafficked Aborted Body Parts, Arrested By ICE</nav>
+<article id="post-180749" class="post-180749 post type-post status-publish format-standard has-post-thumbnail hentry category-news category-us">
+	<header class="entry-header clearfix"><h1 class="entry-title">Obama Mega Donors, Who Trafficked Aborted Body Parts, Arrested By ICE</h1><div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://newspunch.com/2019/02/">February 26, 2019</a></span>
+<span class="entry-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://newspunch.com/author/baxter/">Baxter Dmitry</a></span>
+<span class="entry-meta-categories"><i class="fa fa-folder-open-o"></i><a href="https://newspunch.com/category/news/" rel="category tag">News</a>, <a href="https://newspunch.com/category/news/us/" rel="category tag">US</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><a href="https://newspunch.com/obama-donors-trafficked-aborted-ice/#comments" class="mh-comment-count-link" ><span class="dsq-postid" data-dsqidentifier="180749 https://newspunch.com/?p=180749">4</span></a></span>
 </div>
-</li>
-<li>&nbsp;&nbsp;<button title="Search" id="btn-show-search" class="btn btn-default btn-show-search"><i class="fa fa-search"></i></button></li>
-</ul>
+	</header>
+		<div class="entry-content clearfix">
+<figure class="entry-thumbnail">
+<img src="https://cdn.newspunch.com/wp-content/uploads/2019/02/clinton-aides-arrested-ICE-678x381.jpg.optimal.jpg" alt="Two Ecuadorian brothers who were owners of companies that illegally trafficked aborted baby parts, were arrested by ICE on February 13, 2019." title="Two Ecuadorian brothers who were owners of companies that illegally trafficked aborted baby parts, were arrested by ICE on February 13, 2019." />
+</figure>
+<!-- wpsso pinterest pin it image added on 2020-04-19T08:04:34+00:00 -->
+<div class="wpsso-pinterest-pin-it-image" style="display:none !important;">
+	<img src="https://cdn.newspunch.com/wp-content/uploads/2019/02/clinton-aides-arrested-ICE-800x436.jpg.optimal.jpg" width="0" height="0" style="width:0;height:0;" alt="" data-pin-description="Hillary Clinton&#039;s State Dept protected them, but now there is a new sheriff in town." />
+</div><!-- .wpsso-pinterest-pin-it-image -->
+
+
+<div class="wpsso-ssb wpsso-ssb-content">
+<div class="wpsso-ssb-preset-small_share_count">
+<div class="ssb-buttons en_US">
+<!-- Facebook Share Button (XFBML) --><div ><fb:share-button href="https://newspunch.com/obama-donors-trafficked-aborted-ice/" layout="button_count" mobile_iframe="true" size="small"></fb:share-button></div>
+<!-- Twitter Button --><div ><a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-url="https://newspunch.com/obama-donors-trafficked-aborted-ice/" data-counturl="https://newspunch.com/obama-donors-trafficked-aborted-ice/" data-text="Obama Mega Donors, Who Trafficked Aborted Body Parts, Arrested By ICE" data-via="yournewswire" data-related="baxter_dmitry" data-hashtags="" data-size="medium" data-dnt="true"></a></div>
+<!-- Reddit Button --><script type="text/javascript">reddit_url="https://newspunch.com/obama-donors-trafficked-aborted-ice/";reddit_title="Obama Mega Donors, Who Trafficked Aborted Body Parts, Arrested By ICE";</script><div ><script type="text/javascript" src="https://www.reddit.com/static/button/button1.js"></script></div></div><!-- .ssb-buttons.en_US -->
+</div><!-- .wpsso-ssb-preset-small_share_count -->
+</div><!-- .wpsso-ssb .wpsso-ssb-content --><!-- generated on 2020-04-19T05:07:30+00:00 -->
+
+<p><strong>Two wealthy Ecuadorian brothers who were owners of companies fined and ordered to shut down for illegally trafficking world-wide in aborted baby parts purchased from Planned Parenthood, were arrested by ICE on February 13, 2019.</strong></p><div class='code-block code-block-12' style='margin: 8px 0; clear: both;'>
+<!-- /96451178/pharmabrain -->
+<div id='div-gpt-ad-1581188079348-0' style='width: 300px; height: 250px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1581188079348-0'); });
+  </script>
+</div></div>
+
+<p>Roberto and William Isaías, 74 and 75, were detained Wednesday in Miami, Florida and taken to a detention facility for undocumented immigrants awaiting deportation, The New York Times <a href="https://www.nytimes.com/2019/02/15/world/americas/isaias-brothers-arrested-ecuador.html">reported</a>.</p>
+<p>ICE told the Times that the brothers were “unlawfully present” in the U.S.</p>
+<p>Roberto and William Isaias, who fled Ecuador to avoid 8-year prison sentences, were principals in California companies DaVinci Biosciences and DV Biologics, and the two career criminals were allowed to stay in the United States by Hillary Clinton&#8217;s State Department under &#8220;suspicious circumstances&#8221; after they donated hundreds of thousands of dollars to Barack Obama&#8217;s 2012 campaign fund.</p>
+<p>According to <a href="https://www.law.com/dailybusinessreview/2019/02/19/ice-arrests-ecuadorian-expatriates-locked-in-lengthy-legal-battle-in-miami/">Law.com</a>:</p><div class='code-block code-block-10' style='margin: 8px 0; clear: both;'>
+<script>var RevContentSolo = { button_text: 'Find Out More', widget_id: 110115};</script>
+<script type="text/javascript" id="revsoloserve" src="//labs-cdn.revcontent.com/build/revsoloserve.min.js"></script></div>
+
+<p style="padding-left: 30px;"><em>U.S. Immigration and Customs Enforcement arrested Roberto and William Isaías on Feb. 13. ICE representative Nestor Yglesias said the brothers were “unlawfully present” in the U.S., and have been “transferred to ICE’s Enforcement and Removal Operations” for deportation proceedings following their arrest. Yglesias added the pair is “in agency custody pending removal proceedings.”</em></p>
+<figure id="attachment_180751" aria-describedby="caption-attachment-180751" style="width: 612px" class="wp-caption alignnone"><img class="size-full wp-image-180751" src="https://cdn.newspunch.com/wp-content/uploads/2019/02/5c648b8525be9.jpeg.optimal.jpeg" alt="" width="612" height="340" data-wp-pid="180751" srcset="https://cdn.newspunch.com/wp-content/uploads/2019/02/5c648b8525be9.jpeg.optimal.jpeg 612w, https://cdn.newspunch.com/wp-content/uploads/2019/02/5c648b8525be9-150x83.jpeg.optimal.jpeg 150w, https://cdn.newspunch.com/wp-content/uploads/2019/02/5c648b8525be9-300x167.jpeg.optimal.jpeg 300w, https://cdn.newspunch.com/wp-content/uploads/2019/02/5c648b8525be9-500x278.jpeg.optimal.jpeg 500w, https://cdn.newspunch.com/wp-content/uploads/2019/02/5c648b8525be9-600x333.jpeg.optimal.jpeg 600w, https://cdn.newspunch.com/wp-content/uploads/2019/02/5c648b8525be9-696x387.jpeg.optimal.jpeg 696w" sizes="(max-width: 612px) 100vw, 612px" /><figcaption id="caption-attachment-180751" class="wp-caption-text">Hillary Clinton&#8217;s State Department protected the Isaias brothers from being deported to Ecuador where they were wanted for crashing the nation&#8217;s economy.</figcaption></figure>
+<p>The arrest of Roberto and William Isaias was gratifying to Operation Rescue, which published an <a href="https://www.operationrescue.org/archives/pay-to-slay-foreign-crime-family-reached-hillary-clinton-for-immigration-favors-so-they-could-run-a-baby-parts-harvesting-business/">i</a><a href="https://www.operationrescue.org/archives/pay-to-slay-foreign-crime-family-reached-hillary-clinton-for-immigration-favors-so-they-could-run-a-baby-parts-harvesting-business/">nvestigative research report</a> on October 27, 2016 – just days before the Presidential Election that put Donald J. Trump in office – that detailed their crimes in Ecuador, dubious dealings with the Obama administration, their business with Planned Parenthood and the aborted baby body parts trade.</p>
+<p>“We understood that this family was in the U.S. under suspicious circumstances, and that they had committed crimes in Ecuador and Southern California,” said Operation Rescue President Troy Newman.</p>
+<p>“We had hoped that one day they would return to Ecuador so that justice could be done, but their arrests still took us by surprise.”</p>
+<p>LifeNews <a href="https://www.lifenews.com/2019/02/21/owners-of-company-that-bought-aborted-baby-parts-from-planned-parenthood-are-arrested/">reports</a>: In 2012, Roberto and William Isaias were sentenced in abstentia to eight years in prison for running their Ecuadorian bank into the ground then presenting false balance sheets to profit from bailout funds, wiping out the life savings of thousands of families.  Ecuador says the Isaias family cost the impoverished country a <a href="http://www.operationrescue.org/wp-content/uploads/2016/10/Estefano-Isaias-Ecuador-requested-asylum-in-US-_-El-Diario-Ecuador.pdf">total</a> of $661.5 million.</p>
+<p>The Isaias family began dumping large amounts of campaign contributions into American political campaigns, including $90,000 to Obama’s 2012 re-election campaign.</p>
+<p><strong>Career criminals protected by Hillary Clinton </strong></p>
+<p>As a result, after reaching out to then-Secretary of State Hillary Clinton for asylum, the Isaias’ were granted expedited immigration into the U.S.  Clinton’s State Department then rebuffed attempts by Ecuador to extradite them to face justice.</p>
+<p>Once in America, the Isaias family owned and operated DaVinci Biosciences and DV Biologics, companies that contracted exclusively with Planned Parenthood of Orange County to receive aborted baby tissues and organs, which they trafficked overseas.</p>
+<p>Roberto and William Isaias’ nephew, Estafano Isaias, Jr., who was involved in profit-taking from the two biotech companies, also owned a business that sold pornography online.</p>
+<p><img class="alignnone size-full wp-image-180750" src="https://cdn.newspunch.com/wp-content/uploads/2019/02/plannedparenthoodcolumbus2.jpg.optimal.jpg" alt="" width="697" height="434" data-wp-pid="180750" srcset="https://cdn.newspunch.com/wp-content/uploads/2019/02/plannedparenthoodcolumbus2.jpg.optimal.jpg 697w, https://cdn.newspunch.com/wp-content/uploads/2019/02/plannedparenthoodcolumbus2-150x93.jpg.optimal.jpg 150w, https://cdn.newspunch.com/wp-content/uploads/2019/02/plannedparenthoodcolumbus2-300x187.jpg.optimal.jpg 300w, https://cdn.newspunch.com/wp-content/uploads/2019/02/plannedparenthoodcolumbus2-696x433.jpg.optimal.jpg 696w, https://cdn.newspunch.com/wp-content/uploads/2019/02/plannedparenthoodcolumbus2-500x311.jpg.optimal.jpg 500w, https://cdn.newspunch.com/wp-content/uploads/2019/02/plannedparenthoodcolumbus2-600x374.jpg.optimal.jpg 600w" sizes="(max-width: 697px) 100vw, 697px" /></p>
+<p>After the release of the Center for Medical Progress’ undercover video exposés in 2015, Orange County District Attorney Tony Rackauckas <a href="https://www.operationrescue.org/archives/california-organ-procurement-companies-with-links-to-hillary-clinton-admit-guilt-in-illegal-body-parts-trafficking/">sued the companies</a> for their illegal body parts trade, and in 2017 reached a settlement agreement that fined them $7.8 million, and ordered their businesses to close.</p>
+<p>“We have mentioned the Isaias brothers repeatedly in articles that we have published over the past couple of years, including the corruption in the Obama Administration, which allowed them to come to our country where they committed further crimes,” said Newman.  “We hoped that someone would take notice.”</p>
+<p>Just last month, Operation Rescue <a href="https://www.operationrescue.org/archives/down-the-rabbit-hole-planned-parenthoods-texas-setback-and-its-surprising-implications/">published an exposé</a> that delved into the market for aborted baby body parts.  It revealed that the DaVinci biotech companies sent tissues and organs obtained from Planned Parenthood around the world to businesses that were working to develop anti-aging drugs for the wealthy.</p>
+<p>“The Isaias’ are bad people, and we are very relieved that they will soon be back in Ecuador to serve their sentences and hopefully return the money they took from the people they bilked,” said Newman.  “And we are especially glad that they are out of the baby parts trade permanently.”</p>
+
+                         <div class="abh_box abh_box_down abh_box_business"><ul class="abh_tabs"> <li class="abh_about abh_active"><a href="#abh_about">About</a></li> <li class="abh_posts"><a href="#abh_posts">Latest Posts</a></li></ul><div class="abh_tab_content"><section class="vcard abh_about_tab abh_tab" style="display:block"><div class="abh_image"><a href="https://newspunch.com/author/baxter/" class="url" title="Baxter Dmitry"><img alt='Baxter Dmitry' src='https://cdn.newspunch.com/wp-content/uploads/gravatar/6cae9ccd8c59189ae87b9eb3c62a3828.jpg.optimal.jpg' class='avatar 2x photo' width='80' nopin="nopin"/></a></a></div><div class="abh_social"> <a href="http://facebook.com/baxterdmitry" title="Facebook" class="abh_facebook" target="_blank" rel="nofollow"></a><a href="http://twitter.com/Baxter_Dmitry" title="Twitter" class="abh_twitter" target="_blank" rel="nofollow"></a></div><div class="abh_text"><h3 class="fn name" ><a href="https://newspunch.com/author/baxter/" class="url">Baxter Dmitry</a></h3><div class="abh_job" ></div><div class="description note abh_description" >Baxter Dmitry is a writer at Your News Wire. He covers politics, business and entertainment. Speaking truth to power since he learned to talk, Baxter has travelled in over 80 countries and won arguments in every single one. Live without fear.<br />Email: <a href="mailto:baxter@yournewswire.com">baxter@yournewswire.com</a><br />Follow: <a href="https://twitter.com/baxter_dmitry">@baxter_dmitry</a></div></div> </section><section class="abh_posts_tab abh_tab" ><div class="abh_image"><a href="https://newspunch.com/author/baxter/" class="url" title="Baxter Dmitry"><img alt='Baxter Dmitry' src='https://cdn.newspunch.com/wp-content/uploads/gravatar/6cae9ccd8c59189ae87b9eb3c62a3828.jpg.optimal.jpg' class='avatar 2x photo' width='80' nopin="nopin"/></a></a></div><div class="abh_social"> <a href="http://facebook.com/baxterdmitry" title="Facebook" class="abh_facebook" target="_blank" rel="nofollow"></a><a href="http://twitter.com/Baxter_Dmitry" title="Twitter" class="abh_twitter" target="_blank" rel="nofollow"></a></div><div class="abh_text"><h4 >Latest posts by Baxter Dmitry <span class="abh_allposts">(<a href="https://newspunch.com/author/baxter/">see all</a>)</span></h4><div class="abh_description note" ><ul>				<li>					<a href="https://newspunch.com/white-house-petition-investigate-bill-gates-crimes-against-humanity-gains-quarter-million-signatures/">White House Petition To Investigate Bill Gates For &#8216;Crimes Against Humanity&#8217; Gains a Quarter Million Signatures</a><span> - April 18, 2020</span>				</li>				<li>					<a href="https://newspunch.com/robert-f-kennedy-jr-bill-gates-invested-21m-microchip-tag-track-system-scan-us-citizens/">Robert F. Kennedy Jr: Bill Gates Invested $21M in &#8216;Tag and Track&#8217; System &#8216;Under the Skin&#8217; To &#8216;Scan US Citizens&#8217;</a><span> - April 17, 2020</span>				</li>				<li>					<a href="https://newspunch.com/how-do-you-still-exist-elon-musk-destroys-cnn-after-catching-spreading-fake-news/">&#8216;How Do You Still Exist?&#8217; Elon Musk Destroys CNN After Catching Them Spreading Fake News</a><span> - April 17, 2020</span>				</li></ul></div></div> </section></div> </div><div class='code-block code-block-11' style='margin: 8px 0; clear: both;'>
 </div>
-</div>
+	</div></article><nav class="mh-post-nav mh-row clearfix" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+<div class="mh-col-1-2 mh-post-nav-item mh-post-nav-prev">
+<a href="https://newspunch.com/playboy-elite-pedophile-ring-dead/" rel="prev"><img width="80" height="60" src="https://cdn.newspunch.com/wp-content/uploads/2019/02/natasha-80x60.jpg.optimal.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="A Playboy model who uncovered evidence of an international elite pedophile ring has been found dead just weeks after publicly stating that she was fearing for her life and would &quot;never commit suicide.&quot;" srcset="https://cdn.newspunch.com/wp-content/uploads/2019/02/natasha-80x60.jpg.optimal.jpg 80w, https://cdn.newspunch.com/wp-content/uploads/2019/02/natasha-678x509.jpg.optimal.jpg 678w, https://cdn.newspunch.com/wp-content/uploads/2019/02/natasha-326x245.jpg.optimal.jpg 326w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="180757" nopin="nopin" /><span>Previous</span><p>Playboy Model Who Had &#8216;Evidence of Elite Pedophile Ring&#8217; Found Dead</p></a></div>
+<div class="mh-col-1-2 mh-post-nav-item mh-post-nav-next">
+<a href="https://newspunch.com/philippine-president-duterte-predicts-catholic-church-will-soon-disappear/" rel="next"><img width="80" height="60" src="https://cdn.newspunch.com/wp-content/uploads/2019/02/Pope-Duterte-80x60.jpg.optimal.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="" srcset="https://cdn.newspunch.com/wp-content/uploads/2019/02/Pope-Duterte-80x60.jpg.optimal.jpg 80w, https://cdn.newspunch.com/wp-content/uploads/2019/02/Pope-Duterte-678x509.jpg.optimal.jpg 678w, https://cdn.newspunch.com/wp-content/uploads/2019/02/Pope-Duterte-326x245.jpg.optimal.jpg 326w, https://cdn.newspunch.com/wp-content/uploads/2019/02/Pope-Duterte-1200x900-cropped.jpg.optimal.jpg 1200w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="180760" nopin="nopin" /><span>Next</span><p>Philippine President Duterte Predicts Catholic Church Will Soon Disappear</p></a></div>
 </nav>
-<div class="thm-pad" style="padding-top:50px;">
-</div>
-<nav class="navbar navbar-default navbar-fixed-top navbar-article">
-<div class="container">
-<div class="navbar-header">
-<a class="navbar-brand" href="/"><img src="/resources/th_logo.svg" class="th-logo"></a>
-</div>
-<div id="navbar" class="navbar-collapse collapse">
-<ul class="nav navbar-nav navbar-title">
-<li class="headline">Newsom Says Coronavirus Data Doesn&#39;t Show Racial Disparities </li>
-</ul>
-<ul class="nav navbar-nav navbar-btn-search pull-right">
-<li><button class="btn btn-facebook-lg sc-fb"><i class="fa fa-facebook-official"></i>&nbsp;Share</button></li>
-<li><button class="btn btn-twitter-lg sc-tw"><i class="fa fa-twitter"></i>&nbsp;Tweet</button></li>
-<li><button title="Search" id="btn-show-search" class="btn btn-default btn-show-search"><i class="fa fa-search"></i></button></li>
-</ul>
-</div>
-</div>
-<div class="thm-carousel">
-<div class="owl-carousel owl-theme">
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/gov-abbott-outlines-texass-three-phases-for-re-opening-the-lone-star-state-n2567148"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="And the First State to Start Re-Opening Is Texas " data-src="//media.townhall.com/townhall/reu/b/2020/97/6145e8ce-c4e0-414e-a5c9-eeb983d20c05.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/gov-abbott-outlines-texass-three-phases-for-re-opening-the-lone-star-state-n2567148">And the First State to Start Re-Opening Is Texas </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" data-src="//media.townhall.com/townhall/reu/b/2020/108/0312f0de-aebe-4ffd-8865-086c6760c7bf.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157">Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a href="/columnists/katiepavlich/2020/04/17/nancy-pelosi-doesnt-care-n2567139"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Nancy Pelosi Doesn’t Care" data-src="//media.townhall.com/townhall/reu/b/2019/269/ef5eb632-e868-4f93-b614-50ad162493a0.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/katiepavlich/2020/04/17/nancy-pelosi-doesnt-care-n2567139">Nancy Pelosi Doesn’t Care</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="New Drug Combating Wuhan Coronavirus Yield Excellent Results...And the Dow Surged Because of It" data-src="//media.townhall.com/townhall/reu/b/2020/97/a1c032c2-2dc2-415a-a698-50aeb7968e7a.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160">New Drug Combating Wuhan Coronavirus Yield Excellent Results...And the Dow Surged Because of It</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/democrats-want-to-use-your-money-to-pay-states-to-let-criminals-out-of-jail-n2567089"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="The Latest Spending Push from Democrats: Using Your Money to Let Felons Out of Jail" data-src="//media.townhall.com/townhall/reu/b/2020/83/3e059f9d-8ceb-4679-8e5d-5428f2a82ba5.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/democrats-want-to-use-your-money-to-pay-states-to-let-criminals-out-of-jail-n2567089">The Latest Spending Push from Democrats: Using Your Money to Let Felons Out of Jail</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" data-src="//media.townhall.com/townhall/reu/b/2014/289/17329344-1af8-4a1f-8631-ab65d20076a0.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141">There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/trump-appears-to-back-protestors-against-michigan-governor-n2567129"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Trump Appears to Back Protestors Against Michigan Governor " data-src="//media.townhall.com/townhall/reu/b/2020/106/c409bf9b-dbcc-4435-b8f2-428e0b5d8196.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/trump-appears-to-back-protestors-against-michigan-governor-n2567129">Trump Appears to Back Protestors Against Michigan Governor </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/katiepavlich/2020/04/17/tucker-sounds-off-on-governor-whitmers-weird-fascism-n2567109"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Tucker Exposes What&#39;s Behind Governor Whitmer&#39;s &#39;Weird, Arbitrary Fascism&#39; " data-src="//media.townhall.com/townhall/reu/b/2020/35/f4488b8b-113f-4e5a-b0c5-046613b57d0c.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/katiepavlich/2020/04/17/tucker-sounds-off-on-governor-whitmers-weird-fascism-n2567109">Tucker Exposes What&#39;s Behind Governor Whitmer&#39;s &#39;Weird, Arbitrary Fascism&#39; </a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/minnesota-governor-begins-to-ease-some-restrictions-n2567126"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Did Gov. Walz Just Take Trump&#39;s Advice to &#39;Liberate&#39; Minnesota?" data-src="//media.townhall.com/townhall/reu/b/2020/108/6d262d31-153f-4bcc-b97f-2a9584f78663.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/minnesota-governor-begins-to-ease-some-restrictions-n2567126">Did Gov. Walz Just Take Trump&#39;s Advice to &#39;Liberate&#39; Minnesota?</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a href="/tipsheet/cortneyobrien/2020/04/17/biden-downplays-china-threat-n2567062"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Nikki Haley Recalls How Biden Has Downplayed the Threat from China" data-src="//media.townhall.com/townhall/reu/b/townhall/reu/o/2018/330/76346357-2450-40f7-a097-c78820c7f712.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/biden-downplays-china-threat-n2567062">Nikki Haley Recalls How Biden Has Downplayed the Threat from China</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ny-dem-rips-pelosi-for-adding-far-left-provisions-in-coronavirus-relief-bill-n2567112"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="NY Dem Rips Pelosi for Adding &#39;Far Left&#39; Provisions in Coronavirus Relief Bill" data-src="//media.townhall.com/townhall/reu/b/2019/80/3f341d90-5ab1-4263-b5a7-97a52d2e0dfe.png" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ny-dem-rips-pelosi-for-adding-far-left-provisions-in-coronavirus-relief-bill-n2567112">NY Dem Rips Pelosi for Adding &#39;Far Left&#39; Provisions in Coronavirus Relief Bill</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ted-cruz-explains-how-to-hold-china-accountable-n2567110"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Ted Cruz Explains that China Is Guilty on Three Counts" data-src="//media.townhall.com/townhall/reu/b/2020/24/3c73a6b1-3be6-479f-aaca-9dec532b7741.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/tipsheet/cortneyobrien/2020/04/17/ted-cruz-explains-how-to-hold-china-accountable-n2567110">Ted Cruz Explains that China Is Guilty on Three Counts</a>
-</div>
- </div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/marinamedvin/2020/04/17/business-bread-lines-run-out-of-bread-as-americans-rail-against-coronavirus-oppression-n2567083"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Business Bread Lines Run Out Of Bread as Americans Rail Against Coronavirus Oppression" data-src="//media.townhall.com/townhall/reu/b/2018/290/99f4dc8c-cbc4-4e27-9168-8013625daad0.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/marinamedvin/2020/04/17/business-bread-lines-run-out-of-bread-as-americans-rail-against-coronavirus-oppression-n2567083">Business Bread Lines Run Out Of Bread as Americans Rail Against Coronavirus Oppression</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/toddstarnes/2020/04/17/democrats-will-keep-the-states-closed-to-tank-the-economy-and-take-down-trump-n2567117"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump" data-src="//media.townhall.com/townhall/reu/b/2020/100/f05bab8f-dc2c-46b4-9bde-bca808e0e1d9.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/toddstarnes/2020/04/17/democrats-will-keep-the-states-closed-to-tank-the-economy-and-take-down-trump-n2567117">Democrats Will Keep the States Closed to Tank the Economy and Take Down Trump</a>
-</div>
-</div>
-<div class="item">
-<div class="thm-carousel__img">
-<a href="/columnists/davidlimbaugh/2020/04/17/media-prefer-hating-trump-to-helping-america-n2567084"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Media Prefer Hating Trump to Helping America" data-src="//media.townhall.com/townhall/reu/b/2020/90/7dba55f7-89a9-453c-9687-bd60fb6bd441.jpg" /></a>
-</div>
-<div class="thm-carousel__caption">
-<a href="/columnists/davidlimbaugh/2020/04/17/media-prefer-hating-trump-to-helping-america-n2567084">Media Prefer Hating Trump to Helping America</a>
-</div>
-</div>
-</div>
-</div></nav>
-</header>
-<div>
-<div class="container">
-<div class="row row-topper">
-<div class="col-xs-10">
-<ul class="breadcrumb">
-<li><a href="/">Townhall</a></li>
-<li><a href="/tipsheet/" class="text-capitalize">tipsheet</a></li>
-<li class="active">
-<a href="/tipsheet/bronsonstocking/">Bronson Stocking</a>
-</li>
-</ul>
-</div>
-<div class="col-xs-2">
-<a href="/tags/california" class="btn btn-default btn-article-supertag pull-right ">California</a>
-</div>
-</div>
-<article class="with-rail">
-<div class="row">
-<div class="col-xs-12">
-<section id="article-header">
-<div class="row">
-<div class="col-xs-12">
-</div>
-</div>
-<h1 class="headline">Newsom Says Coronavirus Data Doesn&#39;t Show Racial Disparities </h1>
-<div class="row">
-<div class="col-xs-12">
-<div class="contributor-img pull-left">
-<a href="/author/bronsonstocking">
-<img alt="Bronson Stocking" class="img-thumbnail" src="https://media.townhall.com/townhall/reu/contributor-sm/authorimages//3cecb030-d231-4dd6-89c6-47df825a34dd.png" />
-</a>
-</div>
-<div class="contributor pull-left">
-<a href="/author/bronsonstocking">Bronson Stocking</a>
-</div>
-<div class="contributor pull-left">|</div>
-<div class="contributor pull-left">Posted: Apr 08, 2020 4:30 PM</div>
-<div class="sc header-share">
-<a class="btn btn-facebook-lg sc-fb"><i class="fa fa-facebook-official"></i>&nbsp; Share <span class="fb-count"></span></a>
-<a class="btn btn-twitter-lg sc-tw" data-dc="185"><i class="fa fa-twitter"></i>&nbsp; Tweet <span class="tw-count"></span></a>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<div class="gpt-header">
-<div id="div-gpt-728x90_1" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-728x90_1");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-728x90_1"]])
-                    });
-                </script>
-</div>
-</div>
-</div>
-</div>
-</section>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-8">
-<section id="article-media-object">
-<img class="article-main-image" src="https://media.townhall.com/townhall/reu/ha/2020/83/e77ddcca-d0f7-46a8-823b-15b9add9393a.jpg" alt="Newsom Says Coronavirus Data Doesn&#39;t Show Racial Disparities " />
-<p class="main-image-source muted"><small><em>Source: AP Photo/Rich Pedroncelli</em></small></p>
-</section>
-<section id="article-body">
-<aside id="aside1" class="left">
-<div class="article-aside-ad">
-<div id="div-gpt-300x250_2" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_2");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_2"]])
-                    });
-                </script>
-</div>
-</div>
-</aside>
-<p>In the middle of a deadly pandemic, some leftists are still laser-focused on dividing Americans along racial lines. The entire country has been affected by the novel coronavirus, but some leftists are pushing the narrative that the coronavirus is hurting minority groups to a larger extent than the white population. But while giving an <a href="https://laist.com/latest/post/20200408/gov-newsom-coronavirus-update-covid-19" rel="noopener noreferrer" target="_blank">update</a> on Wednesday, California Gov. Gavin Newsom said the current data does not support that narrative.&nbsp;</p><div class="thm-piano-mop"></div><p>In California, at least 16,957 people have tested positive for the Wuhan coronavirus. The governor says California has examined nearly 40 percent of those cases and the data does not support the theory that minorities are suffering to a greater extent from COVID-19 than the white population. Of the 6,306 positive cases the state investigated, around 30 percent have been identified as Hispanic, 14 percent as Asian, and 6 percent as Black. Of the deaths within those 6,306 cases, around 29 percent have been Hispanic, 16 percent have been Asian, and 3 percent have been Black.&nbsp;</p><p>While the governor acknowledged the data accounts for less than 40 percent of the total number of cases in the state, the governor said the findings nevertheless show that coronavirus numbers are roughly tracking the demographics of the state.&nbsp;</p><p>What is the purpose of prioritizing this data at this current moment anyway? To demand reparations or other benefits? What if white people end up suffering higher infection rates and deaths?&nbsp;</p> <div class="mpw-inline">
-<div>
-<div class="mpw-inline-col__rail"><a title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic - 13" href="/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159?utm_campaign=inarticle"><img class="img-responsive" src="https://media.townhall.com/townhall/reu/s124x68/2018/43/10b23fc2-706b-4096-a312-ab7270db00c0.jpg" /></a></div>
-<div class="mpw-inline-col__content">
-<div class="mpw-inline-col__title">Recommended</div>
-<a title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic - 13" href="/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159?utm_campaign=inarticle">
-<span class="mpw-inline-col__story">Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic</span>
-</a>
-<div class="mpw-inline-col__muted">
-Julio Rosas
-</div>
-</div>
-</div>
-</div>
-<p>Surely California has more pressing concerns to which the state can devote its resources.&nbsp;</p><style type="text/css">
-p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'} span.s1 {text-decoration: underline ; color: #dca10d}
-</style><p><strong><em>Editor&#39;s Note:</em></strong> Want to support Townhall so we can keep telling the truth about China and the virus they unleashed on the world? Join <a href="https://townhall.com/subscribe?tpcc=bronson0408" rel="noopener noreferrer" target="_blank"><strong><em>Townhall VIP</em></strong></a>&nbsp; and use the promo code <strong>WUHAN</strong> to get 25% off VIP membership!</p>
-</section>
-<section id="article-footer">
-<div class="row">
-<div class="col-xs-12">
-<div class="thm-piano-eop">
-</div>
-<div class="thm-piano-eop-recommended"></div>
-</div>
-</div>
-<div class="article-actions-footer sc">
-<div class="row">
-<div class="col-xs-12">
-<a class="btn btn-facebook-lg btn-block sc-fb"><i class="fa fa-facebook-official"></i>&nbsp; Share this on Facebook <span class="fb-count"></span></a>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-6"><a class="btn btn-block btn-twitter-lg sc-tw" data-dc="185"><i class="fa fa-twitter"></i>&nbsp; Tweet <span class="tw-count"></span></a></div>
-<div class="col-xs-2"><a href="mailto:?subject=Newsom Says Coronavirus Data Doesn&#39;t Show Racial Disparities &amp;body=https://townhall.com/tipsheet/bronsonstocking/2020/04/08/gov-newsom-says-coronavirus-data-doesnt-show-racial-disparities-n2566594" class="btn btn-block btn-default btn-article-email"><i class="fa fa-envelope"></i></a></div>
-<div class="col-xs-2"><button data-url="https://townhall.com/tipsheet/bronsonstocking/2020/04/08/gov-newsom-says-coronavirus-data-doesnt-show-racial-disparities-n2566594/print" onclick="window.open('https://townhall.com/tipsheet/bronsonstocking/2020/04/08/gov-newsom-says-coronavirus-data-doesnt-show-racial-disparities-n2566594/print', 'print-winder', 'width=850,height=700,scrollbars=yes');" class="btn btn-block btn-default btn-article-print"><i class="fa fa-print"></i></button></div>
-<div class="col-xs-2"><a href="#article-comment-bookmark" class="btn btn-block btn-default btn-article-comment"><i class="fa fa-comment"></i></a></div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<div id="rcjsload_ffe38c"></div>
-<script type="text/javascript">
-        (function () {
-            function ad_block_test(e, o) { if ("undefined" != typeof document.body) { var t = "0.1.2-dev", o = o ? o : "sponsorText", n = document.createElement("DIV"); n.id = o, n.style.position = "absolute", n.style.left = "-999px", n.appendChild(document.createTextNode("&nbsp;")), document.body.appendChild(n), setTimeout(function () { if (n) { var o = 0 == n.clientHeight; try { } catch (d) { console && console.log && console.log("ad-block-test error", d) } e(o, t), document.body.removeChild(n) } }, 175) } }
-            ad_block_test(function (is_blocked) {
-                var widget_id = 102403;
-                if (is_blocked === true) {
-                    widget_id = 102452;
-                }
-                var referer = ""; try { if (referer = document.referrer, "undefined" == typeof referer) throw "undefined" } catch (exception) { referer = document.location.href, ("" == referer || "undefined" == typeof referer) && (referer = document.URL) } referer = referer.substr(0, 700);
-                var rcel = document.createElement("script");
-                rcel.id = 'rc_' + Math.floor(Math.random() * 1000);
-                rcel.type = 'text/javascript';
-                rcel.src = "//trends.revcontent.com/serve.js.php?w=" + widget_id + "&t=" + rcel.id + "&c=" + (new Date()).getTime() + "&width=" + (window.outerWidth || document.documentElement.clientWidth) + "&referer=" + referer + '&is_blocked=' + is_blocked;
-                rcel.async = true;
-                var rcds = document.getElementById("rcjsload_ffe38c"); rcds.appendChild(rcel);
-            });
-        })();
-    </script>
-<div class="thm-bluec"></div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12">
-<ul class="list-unstyled list-inline article-topics clearfix">
-<li>Tags: </li>
-<li><a class="btn btn-default btn-topic" data-tagid="109" href="/tags/california">California</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="109" href="/tags/california">California</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="770" href="/tags/race">Race</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="770" href="/tags/race">Race</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="1914" href="/tags/victim-mentality">Victim Mentality</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="1914" href="/tags/victim-mentality">Victim Mentality</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="5991" href="/tags/victimhood">victimhood</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="5991" href="/tags/victimhood">victimhood</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="11739" href="/tags/gavin-newsom">Gavin Newsom</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="11739" href="/tags/gavin-newsom">Gavin Newsom</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="13463" href="/tags/leftists">Leftists</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="13463" href="/tags/leftists">Leftists</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="17783" href="/tags/wuhan-coronavirus">wuhan coronavirus</a></li>
-<li><a class="btn btn-default btn-topic" data-tagid="17783" href="/tags/wuhan-coronavirus">wuhan coronavirus</a></li>
-</ul>
-<script>
-    var rndnum = Math.floor(Math.random() * 50000);
-    var submitScript = document.createElement('script');
-    submitScript.src = 'https://townhall.com/wservices/handlers/tagcount.ashx?tid=109,109,770,770,1914,1914,5991,5991,11739,11739,13463,13463,17783,17783&tnd=' + rndnum;
-    document.body.appendChild(submitScript);
+	
+	<!-- Here we load disqus comments -->
+	<div class="dcl-disqus-thread" id="comments" >
+	<div id="disqus_thread">
+			<div id='dcl-hidden-div' style='text-align: center;'>
+		<button data-disqus-url="https://newspunch.com/obama-donors-trafficked-aborted-ice/" id='dcl_comment_btn' class="dcl-button-bevel dcl-red " style="margin-bottom:20px;margin-top:20px;">Load Comments</button>
+		</div>
+	
+			</div>
+	</div>
+	
+			<script type="text/javascript">
+	/* <![CDATA[ */
+		var disqus_url = 'https://newspunch.com/obama-donors-trafficked-aborted-ice/';
+		var disqus_identifier = '180749 https://newspunch.com/?p=180749';
+		var disqus_container_id = 'disqus_thread';
+		var disqus_domain = 'disqus.com';
+		var disqus_shortname = 'yournewswire';
+		var disqus_title = "Obama Mega Donors, Who Trafficked Aborted Body Parts, Arrested By ICE";
+		var disqus_config = function () {
+			var config = this; // Access to the config object
+			config.language = '';
 
-</script>
+			/* Add the ability to add javascript callbacks */
+			
+			/*
+			   All currently supported events:
+				* preData — fires just before we request for initial data
+				* preInit - fires after we get initial data but before we load any dependencies
+				* onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+				* afterRender - fires when template is rendered but before we show it
+				* onReady - everything is done
+			 */
+
+			config.callbacks.preData.push(function() {
+				// clear out the container (its filled for SEO/legacy purposes)
+				document.getElementById(disqus_container_id).innerHTML = '';
+			});
+						config.callbacks.onReady.push(function() {
+				// sync comments in the background so we don't block the page
+				var script = document.createElement('script');
+				script.async = true;
+				script.src = '?cf_action=sync_comments&post_id=180749';
+
+				var firstScript = document.getElementsByTagName( "script" )[0];
+				firstScript.parentNode.insertBefore(script, firstScript);
+			});
+								};
+	/* ]]> */
+	</script>
+	
+		
+	<script type="text/javascript">
+	/* <![CDATA[ */
+		var DsqLocal = {
+			'trackbacks': [
+				],
+			'trackback_url': "https:\/\/newspunch.com\/obama-donors-trafficked-aborted-ice\/trackback\/"		};
+	/* ]]> */
+	</script>
+			<div id="rc-widget-1ce0fb" data-rc-widget data-widget-host="habitat" data-endpoint="//trends.revcontent.com" data-widget-id="115669"></div>
+<script type="text/javascript" src="//assets.revcontent.com/master/delivery.js" defer="defer"></script>		
 </div>
+			<aside class="mh-widget-col-1 mh-sidebar" itemscope="itemscope" itemtype="https://schema.org/WPSideBar"><div id="mh_magazine_custom_posts-26" class="mh-widget mh_magazine_custom_posts">			<ul class="mh-custom-posts-widget clearfix"> 						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-188729 post type-post status-publish format-standard has-post-thumbnail category-editors-picks category-news category-us">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://newspunch.com/president-trump-adam-schiff-arrested-treason/" title="President Trump Says Adam Schiff Should Be Arrested For Treason"><img width="80" height="60" src="https://cdn.newspunch.com/wp-content/uploads/2019/09/Trump-arrest-schiff-for-treason-80x60.jpg.optimal.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="President Trump has suggested Rep. Adam Schiff (D-CA) should face &quot;arrest for treason&quot; after he &quot;illegally made up a FAKE &amp; terrible statement&quot; that he read out in Congress in an attempt to frame the president." srcset="https://cdn.newspunch.com/wp-content/uploads/2019/09/Trump-arrest-schiff-for-treason-80x60.jpg.optimal.jpg 80w, https://cdn.newspunch.com/wp-content/uploads/2019/09/Trump-arrest-schiff-for-treason-326x245.jpg.optimal.jpg 326w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="188743" nopin="nopin" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://newspunch.com/president-trump-adam-schiff-arrested-treason/" title="President Trump Says Adam Schiff Should Be Arrested For Treason">
+										President Trump Says Adam Schiff Should Be Arrested For Treason									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://newspunch.com/2019/09/">September 30, 2019</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><a href="https://newspunch.com/president-trump-adam-schiff-arrested-treason/#comments" class="mh-comment-count-link" ><span class="dsq-postid" data-dsqidentifier="188729 https://newspunch.com/?p=188729">32</span></a></span>
 </div>
-<section id="grid-1">
-<div class="row">
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic" data-src="https://media.townhall.com/townhall/reu/ha/2018/43/10b23fc2-706b-4096-a312-ab7270db00c0.jpg" href="https://townhall.com/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159"></a>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-188718 post type-post status-publish format-standard has-post-thumbnail category-editors-picks category-entertainment">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://newspunch.com/robert-de-niro-trump-possibly-crazy-medical-sense/" title="Robert De Niro: Trump Is Possibly &#8216;Crazy&#8217; In A &#8216;Medical Sense&#8217;"><img width="80" height="60" src="https://cdn.newspunch.com/wp-content/uploads/2019/09/robert-de-niro-80x60.jpg.optimal.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="President Donald Trump is possibly &quot;crazy&quot; in the medical sense, according to Robert De Niro who appeared on CNN Sunday morning." srcset="https://cdn.newspunch.com/wp-content/uploads/2019/09/robert-de-niro-80x60.jpg.optimal.jpg 80w, https://cdn.newspunch.com/wp-content/uploads/2019/09/robert-de-niro-678x509.jpg.optimal.jpg 678w, https://cdn.newspunch.com/wp-content/uploads/2019/09/robert-de-niro-326x245.jpg.optimal.jpg 326w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="188746" nopin="nopin" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://newspunch.com/robert-de-niro-trump-possibly-crazy-medical-sense/" title="Robert De Niro: Trump Is Possibly &#8216;Crazy&#8217; In A &#8216;Medical Sense&#8217;">
+										Robert De Niro: Trump Is Possibly &#8216;Crazy&#8217; In A &#8216;Medical Sense&#8217;									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://newspunch.com/2019/09/">September 30, 2019</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><a href="https://newspunch.com/robert-de-niro-trump-possibly-crazy-medical-sense/#comments" class="mh-comment-count-link" ><span class="dsq-postid" data-dsqidentifier="188718 https://newspunch.com/?p=188718">37</span></a></span>
 </div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic" href="https://townhall.com/tipsheet/juliorosas/2020/04/17/adam-schiff-begs-trump-to-stop-blaming-china-and-the-who-for-the-wuhan-coronavirus-pandemic-n2567159">Adam Schiff Begs Trump to Stop Blaming China and the WHO for the Wuhan Coronavirus Pandemic</a>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-174136 post type-post status-publish format-standard has-post-thumbnail category-editors-picks category-news category-us">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://newspunch.com/rand-paul-colluded-russia-hillary-clinton/" title="Rand Paul: Only Person Who Colluded With Russia Was Hillary Clinton"><img width="80" height="60" src="https://cdn.newspunch.com/wp-content/uploads/2018/07/rand-paul-hillary-collusion-russia-80x60.jpg.optimal.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="Rand Paul says the only person who colluded with Russia is Hillary Clinton" srcset="https://cdn.newspunch.com/wp-content/uploads/2018/07/rand-paul-hillary-collusion-russia-80x60.jpg.optimal.jpg 80w, https://cdn.newspunch.com/wp-content/uploads/2018/07/rand-paul-hillary-collusion-russia-678x509.jpg.optimal.jpg 678w, https://cdn.newspunch.com/wp-content/uploads/2018/07/rand-paul-hillary-collusion-russia-326x245.jpg.optimal.jpg 326w, https://cdn.newspunch.com/wp-content/uploads/2018/07/rand-paul-hillary-collusion-russia-1200x900-cropped.jpg.optimal.jpg 1200w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="174146" nopin="nopin" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://newspunch.com/rand-paul-colluded-russia-hillary-clinton/" title="Rand Paul: Only Person Who Colluded With Russia Was Hillary Clinton">
+										Rand Paul: Only Person Who Colluded With Russia Was Hillary Clinton									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://newspunch.com/2018/07/">July 18, 2018</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><a href="https://newspunch.com/rand-paul-colluded-russia-hillary-clinton/#comments" class="mh-comment-count-link" ><span class="dsq-postid" data-dsqidentifier="174136 https://newspunch.com/?p=174136">24</span></a></span>
 </div>
-<div class="story__author">
-Julio Rosas
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-174096 post type-post status-publish format-standard has-post-thumbnail category-editors-picks category-news category-us">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://newspunch.com/snopes-shadowban-conservative-facebook/" title="Snopes Now Have Power To &#8216;Shadowban&#8217; Conservative Facebook Users"><img width="80" height="60" src="https://cdn.newspunch.com/wp-content/uploads/2018/07/snopes-mikkelson-censoring-conservatives-80x60.jpg.optimal.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="Conservatives who share news articles that Snopes decide to suppress are having their Facebook posts hidden from their friends." srcset="https://cdn.newspunch.com/wp-content/uploads/2018/07/snopes-mikkelson-censoring-conservatives-80x60.jpg.optimal.jpg 80w, https://cdn.newspunch.com/wp-content/uploads/2018/07/snopes-mikkelson-censoring-conservatives-326x245.jpg.optimal.jpg 326w, https://cdn.newspunch.com/wp-content/uploads/2018/07/snopes-mikkelson-censoring-conservatives-600x461.jpg.optimal.jpg 600w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="174134" nopin="nopin" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://newspunch.com/snopes-shadowban-conservative-facebook/" title="Snopes Now Have Power To &#8216;Shadowban&#8217; Conservative Facebook Users">
+										Snopes Now Have Power To &#8216;Shadowban&#8217; Conservative Facebook Users									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://newspunch.com/2018/07/">July 18, 2018</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><a href="https://newspunch.com/snopes-shadowban-conservative-facebook/#comments" class="mh-comment-count-link" ><span class="dsq-postid" data-dsqidentifier="174096 https://newspunch.com/?p=174096">12</span></a></span>
 </div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-174104 post type-post status-publish format-standard has-post-thumbnail category-editors-picks category-news category-us">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://newspunch.com/peter-strzok-worked-for-cia-under-obama/" title="FBI: Peter Strzok Worked For The CIA Under Obama"><img width="80" height="60" src="https://cdn.newspunch.com/wp-content/uploads/2018/07/peter-strzok-cia-1-80x60.jpg.optimal.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="FBI admit Peter Strzok worked for the CIA" srcset="https://cdn.newspunch.com/wp-content/uploads/2018/07/peter-strzok-cia-1-80x60.jpg.optimal.jpg 80w, https://cdn.newspunch.com/wp-content/uploads/2018/07/peter-strzok-cia-1-326x245.jpg.optimal.jpg 326w, https://cdn.newspunch.com/wp-content/uploads/2018/07/peter-strzok-cia-1-600x452.jpg.optimal.jpg 600w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="174117" nopin="nopin" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://newspunch.com/peter-strzok-worked-for-cia-under-obama/" title="FBI: Peter Strzok Worked For The CIA Under Obama">
+										FBI: Peter Strzok Worked For The CIA Under Obama									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://newspunch.com/2018/07/">July 17, 2018</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><a href="https://newspunch.com/peter-strzok-worked-for-cia-under-obama/#comments" class="mh-comment-count-link" ><span class="dsq-postid" data-dsqidentifier="174104 https://newspunch.com/?p=174104">12</span></a></span>
 </div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="&lt;p&gt;New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It&lt;/p&gt;" data-src="https://media.townhall.com/townhall/reu/ha/2020/97/a1c032c2-2dc2-415a-a698-50aeb7968e7a.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="&lt;p&gt;New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It&lt;/p&gt;" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/new-drug-combating-wuhan-coronavirus-is-showing-excellent-resultsand-the-dow-surged-because-of-it-n2567160"><p>New Drug Combating Wuhan Coronavirus Yields Excellent Results...And the Dow Surged Because of It</p></a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" data-src="https://media.townhall.com/townhall/reu/ha/2014/289/17329344-1af8-4a1f-8631-ab65d20076a0.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="There&#39;s Something a Little Odd About the Letter Hunter Biden&#39;s Lawyer Sent Regarding the China Allegations" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141">There's Something a Little Odd About the Letter Hunter Biden's Lawyer Sent Regarding the China Allegations</a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-</div><div class="row">
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported" data-src="https://media.townhall.com/townhall/reu/ha/2020/80/b0dabbb2-2c7b-419e-a142-ce365718c3d4.jpg" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/first-largescale-antibody-testing-indicate-coronavirus-infections-much-higher-death-rate-much-lower-n2567155"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/first-largescale-antibody-testing-indicate-coronavirus-infections-much-higher-death-rate-much-lower-n2567155">New Study Shows Coronavirus Infections Much Higher, Death Rate Much Lower Than Reported</a>
-</div>
-<div class="story__author">
-Bronson Stocking
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<div class="story__vip-badge">
-<i class="thm-vip-badge"></i>
-</div>
-<a class="thm-inc lazy" title="ICE Apprehends Five Asia Nationals Illegally Present in the U.S. " data-src="https://media.townhall.com/townhall/reu/ha/2019/133/d63885bf-3c7a-4a9a-bcbd-ac2735c54d62.png" href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/five-asia-nationals-six-pakistanis-apprehended-by-ice-n2567165"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="ICE Apprehends Five Asia Nationals Illegally Present in the U.S. " href="https://townhall.com/tipsheet/bronsonstocking/2020/04/17/five-asia-nationals-six-pakistanis-apprehended-by-ice-n2567165">ICE Apprehends Five Asia Nationals Illegally Present in the U.S. </a>
-</div>
-<img class="thm-sublevel" src="/resources/dist/svg/subscriptions-badge-vip.svg" />
-<div class="story__author">
-Bronson Stocking
-</div>
-</div>
-</div>
-<div class="col-xs-4">
-<div class="story">
-<div class="story__img">
-<a class="thm-inc lazy" title="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" data-src="https://media.townhall.com/townhall/reu/ha/2020/108/0312f0de-aebe-4ffd-8865-086c6760c7bf.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157"></a>
-</div>
-<div class="story__flavor"></div>
-<div class="story__flavor"></div>
-<div class="story__text">
-<a class="thm-inc" title="Land O&#39;Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?" href="https://townhall.com/tipsheet/mattvespa/2020/04/17/land-olakes-is-removing-the-american-indian-woman-political-correctness-or-a-mo-n2567157">Land O'Lakes Is Removing the American Indian Woman. Political Correctness or a Move That Gives More Credit to Farmers?</a>
-</div>
-<div class="story__author">
-Matt Vespa
-</div>
-</div>
-</div>
-</div><div class="row">
-</div>
-</section>
-</section>
-<div id="article-comment-bookmark"></div>
-<section id="article-comments" name="article-comments">
-<button class="show-comments btn btn-lg btn-block btn-primary" style="margin:0 0 15px 0;" data-disqus-url="https://townhall.com/tipsheet/bronsonstocking/2020/04/08/gov-newsom-says-coronavirus-data-doesnt-show-racial-disparities-n2566594">SHOW COMMENTS</button>
-<div id="disqus_thread"></div>
-<script>
-      var disqus_config = function () {
-            this.page.url = "https://townhall.com/tipsheet/bronsonstocking/2020/04/08/gov-newsom-says-coronavirus-data-doesnt-show-racial-disparities-n2566594";
-          this.page.identifier = "https://townhall.com/tipsheet/bronsonstocking/2020/04/08/gov-newsom-says-coronavirus-data-doesnt-show-racial-disparities-n2566594";
-      };
-    $('.show-comments').on('click', function () {
-        $.ajax({
-            type: "GET",
-            url: "//townhallcom.disqus.com/embed.js",
-            dataType: "script",
-            cache: true
-        });
-        $(this).hide();
-    });
-</script>
-</section>
-</div>
-<div class="col-xs-4 article-rail">
-<div class="ad">
-<div id="div-gpt-300x250_1" class="gpt-ad">
+							</div>
+						</li>			</ul></div>	</aside>	</div>
+    <aside class="mh-widget-col-1 mh-sidebar-2 mh-sidebar-wide" itemscope="itemscope" itemtype="https://schema.org/WPSideBar">
+<div id="custom_html-14" class="widget_text mh-widget widget_custom_html"><div class="textwidget custom-html-widget"><div id="rcjsload_961309"></div>
 <script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_1");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_1"]])
-                    });
-                </script>
+(function() {
+var referer="";try{if(referer=document.referrer,"undefined"==typeof referer||""==referer)throw"undefined"}catch(exception){referer=document.location.href,(""==referer||"undefined"==typeof referer)&&(referer=document.URL)}referer=referer.substr(0,700);
+var rcds = document.getElementById("rcjsload_961309");
+var rcel = document.createElement("script");
+rcel.id = 'rc_' + Math.floor(Math.random() * 1000);
+rcel.type = 'text/javascript';
+rcel.src = "https://trends.revcontent.com/serve.js.php?w=110065&t="+rcel.id+"&c="+(new Date()).getTime()+"&width="+(window.outerWidth || document.documentElement.clientWidth)+"&referer="+encodeURIComponent(referer);
+rcel.async = true;
+rcds.appendChild(rcel);
+})();
+</script></div></div><div id="mh_magazine_custom_posts-20" class="mh-widget mh_magazine_custom_posts">			<ul class="mh-custom-posts-widget clearfix"> 						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-90579 post type-post status-publish format-standard has-post-thumbnail category-news category-uk">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://newspunch.com/the-sun-phone-hacking-lawsuits-given-green-light-by-high-court/" title="The Sun Phone Hacking Lawsuits Given Green Light By High Court"><img width="80" height="60" src="https://cdn.newspunch.com/wp-content/uploads/2016/04/The-Sun-hacking-770x470-80x60.jpg.optimal.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="The Sun" srcset="https://cdn.newspunch.com/wp-content/uploads/2016/04/The-Sun-hacking-770x470-80x60.jpg.optimal.jpg 80w, https://cdn.newspunch.com/wp-content/uploads/2016/04/The-Sun-hacking-770x470-326x245.jpg.optimal.jpg 326w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="90584" nopin="nopin" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://newspunch.com/the-sun-phone-hacking-lawsuits-given-green-light-by-high-court/" title="The Sun Phone Hacking Lawsuits Given Green Light By High Court">
+										The Sun Phone Hacking Lawsuits Given Green Light By High Court									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://newspunch.com/2016/04/">April 28, 2016</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><span class="mh-comment-count-link">Comments Off<span class="screen-reader-text"> on The Sun Phone Hacking Lawsuits Given Green Light By High Court</span></span></span>
 </div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-175141 post type-post status-publish format-standard has-post-thumbnail category-news category-us">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://newspunch.com/president-trump-strzok-firing-new-hillary-investigation/" title="President Trump: Strzok Firing Paves Way For New Hillary Investigation"><img width="80" height="60" src="https://cdn.newspunch.com/wp-content/uploads/2018/08/Trump-new-hillary-investigation-80x60.jpg.optimal.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="President Trump says Peter Strzok&#039;s firing paves the way to re-open Hillary Clinton investigation" srcset="https://cdn.newspunch.com/wp-content/uploads/2018/08/Trump-new-hillary-investigation-80x60.jpg.optimal.jpg 80w, https://cdn.newspunch.com/wp-content/uploads/2018/08/Trump-new-hillary-investigation-326x245.jpg.optimal.jpg 326w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="175144" nopin="nopin" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://newspunch.com/president-trump-strzok-firing-new-hillary-investigation/" title="President Trump: Strzok Firing Paves Way For New Hillary Investigation">
+										President Trump: Strzok Firing Paves Way For New Hillary Investigation									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://newspunch.com/2018/08/">August 13, 2018</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><a href="https://newspunch.com/president-trump-strzok-firing-new-hillary-investigation/#comments" class="mh-comment-count-link" ><span class="dsq-postid" data-dsqidentifier="175141 https://newspunch.com/?p=175141">1</span></a></span>
 </div>
-<div class="article-actions">
-<a href="mailto:?subject=Newsom Says Coronavirus Data Doesn&#39;t Show Racial Disparities &amp;body=https://townhall.com/tipsheet/bronsonstocking/2020/04/08/gov-newsom-says-coronavirus-data-doesnt-show-racial-disparities-n2566594" class="btn btn-default btn-article-email"><i class="fa fa-envelope"></i></a>
-<a data-url="https://townhall.com/tipsheet/bronsonstocking/2020/04/08/gov-newsom-says-coronavirus-data-doesnt-show-racial-disparities-n2566594/print" onclick="window.open('https://townhall.com/tipsheet/bronsonstocking/2020/04/08/gov-newsom-says-coronavirus-data-doesnt-show-racial-disparities-n2566594/print', 'print-winder', 'width=850,height=700,scrollbars=yes');" class="btn btn-default btn-article-print"><i class="fa fa-print"></i></a>
-<a href="#article-comment-bookmark" class="btn btn-default btn-article-comment"><i class="fa fa-comment"></i></a>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-142159 post type-post status-publish format-standard has-post-thumbnail category-health">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://newspunch.com/drug-autism-cure-vaccines/" title="Ancient Drug Discovered To Reverse Autism Symptoms Caused By Vaccines"><img width="80" height="60" src="https://cdn.newspunch.com/wp-content/uploads/2017/05/ancient-drug-reverses-autism-80x60.jpg.optimal.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="Ancient drug found to reverse autism symptoms" srcset="https://cdn.newspunch.com/wp-content/uploads/2017/05/ancient-drug-reverses-autism-80x60.jpg.optimal.jpg 80w, https://cdn.newspunch.com/wp-content/uploads/2017/05/ancient-drug-reverses-autism-326x245.jpg.optimal.jpg 326w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="142177" nopin="nopin" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://newspunch.com/drug-autism-cure-vaccines/" title="Ancient Drug Discovered To Reverse Autism Symptoms Caused By Vaccines">
+										Ancient Drug Discovered To Reverse Autism Symptoms Caused By Vaccines									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://newspunch.com/2017/05/">May 31, 2017</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><a href="https://newspunch.com/drug-autism-cure-vaccines/#comments" class="mh-comment-count-link" ><span class="dsq-postid" data-dsqidentifier="142159 https://newspunch.com/?p=142159">9</span></a></span>
 </div>
-<div class="ad" style="margin-top:10px">
-<div id="div-gpt-300x250_3" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_3");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_3"]])
-                    });
-                </script>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-115785 post type-post status-publish format-standard has-post-thumbnail category-news category-us">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://newspunch.com/classified-material-emails-clinton-abedin/" title="Classified Material Found In Emails Between Clinton And Abedin"><img width="80" height="60" src="https://cdn.newspunch.com/wp-content/uploads/2016/11/classified-info-abedin-clinton-80x60.jpg.optimal.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="Classified information found on emails between Hillary Clinton and Huma Abedin, as FBI continue their email investigation" srcset="https://cdn.newspunch.com/wp-content/uploads/2016/11/classified-info-abedin-clinton-80x60.jpg.optimal.jpg 80w, https://cdn.newspunch.com/wp-content/uploads/2016/11/classified-info-abedin-clinton-150x113.jpg.optimal.jpg 150w, https://cdn.newspunch.com/wp-content/uploads/2016/11/classified-info-abedin-clinton-300x225.jpg.optimal.jpg 300w, https://cdn.newspunch.com/wp-content/uploads/2016/11/classified-info-abedin-clinton-678x509.jpg.optimal.jpg 678w, https://cdn.newspunch.com/wp-content/uploads/2016/11/classified-info-abedin-clinton-326x245.jpg.optimal.jpg 326w, https://cdn.newspunch.com/wp-content/uploads/2016/11/classified-info-abedin-clinton-600x450.jpg.optimal.jpg 600w, https://cdn.newspunch.com/wp-content/uploads/2016/11/classified-info-abedin-clinton-800x600.jpg.optimal.jpg 800w, https://cdn.newspunch.com/wp-content/uploads/2016/11/classified-info-abedin-clinton-696x522.jpg.optimal.jpg 696w, https://cdn.newspunch.com/wp-content/uploads/2016/11/classified-info-abedin-clinton.jpg.optimal.jpg 700w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="115789" nopin="nopin" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://newspunch.com/classified-material-emails-clinton-abedin/" title="Classified Material Found In Emails Between Clinton And Abedin">
+										Classified Material Found In Emails Between Clinton And Abedin									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://newspunch.com/2016/11/">November 1, 2016</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><a href="https://newspunch.com/classified-material-emails-clinton-abedin/#comments" class="mh-comment-count-link" ><span class="dsq-postid" data-dsqidentifier="115785 https://newspunch.com/?p=115785">3</span></a></span>
 </div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-5757 post type-post status-publish format-standard has-post-thumbnail category-conspiracies">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://newspunch.com/video-who-does-isis-work-for/" title="Video:  Who does ISIS work for?"><img width="80" height="60" src="https://cdn.newspunch.com/wp-content/uploads/2014/09/Isis2-80x60.jpg.optimal.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="" srcset="https://cdn.newspunch.com/wp-content/uploads/2014/09/Isis2-80x60.jpg.optimal.jpg 80w, https://cdn.newspunch.com/wp-content/uploads/2014/09/Isis2-678x509.jpg.optimal.jpg 678w, https://cdn.newspunch.com/wp-content/uploads/2014/09/Isis2-326x245.jpg.optimal.jpg 326w, https://cdn.newspunch.com/wp-content/uploads/2014/09/Isis2-1200x900-cropped.jpg.optimal.jpg 1200w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="5759" nopin="nopin" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://newspunch.com/video-who-does-isis-work-for/" title="Video:  Who does ISIS work for?">
+										Video:  Who does ISIS work for?									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://newspunch.com/2014/09/">September 29, 2014</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><span class="mh-comment-count-link">Comments Off<span class="screen-reader-text"> on Video:  Who does ISIS work for?</span></span></span>
 </div>
-<div class="cartoon-widget">
-<div class="cartoon-widget__title"><a href="/political-cartoons">CARTOONS</a>&nbsp;|&nbsp;<a href="/political-cartoons/michaelramirez/">Michael Ramirez</a></div>
-<a class="cartoon-widget__img" href="/political-cartoons/2020/04/18/173115?hpnl=true" style="background-image:url('//media.townhall.com/Townhall/Car/b/mrz041820dAPR20200417044513.jpg');"></a>
-<div class="cartoon-widget__button"><a href="/political-cartoons/2020/04/18/173115?hpnl=true"> View Cartoon <i class="fa fa-arrow-circle-right"></i></a></div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-181493 post type-post status-publish format-standard has-post-thumbnail category-news category-world-news">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://newspunch.com/macron-deploy-french-army-defeat-yellow-vest-revolution/" title="Macron to Deploy French Army to ‘Defeat’ Yellow Vest Revolution"><img width="80" height="60" src="https://cdn.newspunch.com/wp-content/uploads/2019/03/macron-army-80x60.jpg.optimal.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="Emmanuel Macron to deploy army to thwart Yellow Vest protestors" srcset="https://cdn.newspunch.com/wp-content/uploads/2019/03/macron-army-80x60.jpg.optimal.jpg 80w, https://cdn.newspunch.com/wp-content/uploads/2019/03/macron-army-678x509.jpg.optimal.jpg 678w, https://cdn.newspunch.com/wp-content/uploads/2019/03/macron-army-326x245.jpg.optimal.jpg 326w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="181499" nopin="nopin" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://newspunch.com/macron-deploy-french-army-defeat-yellow-vest-revolution/" title="Macron to Deploy French Army to ‘Defeat’ Yellow Vest Revolution">
+										Macron to Deploy French Army to ‘Defeat’ Yellow Vest Revolution									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://newspunch.com/2019/03/">March 21, 2019</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><a href="https://newspunch.com/macron-deploy-french-army-defeat-yellow-vest-revolution/#comments" class="mh-comment-count-link" ><span class="dsq-postid" data-dsqidentifier="181493 https://newspunch.com/?p=181493">9</span></a></span>
 </div>
-<div class="sticky-reference">
-<div class="sticky" data-offset-top="55">
-<div class="mpw">
-<div class="mpw__title">Most Popular</div>
-<ul class="list-unstyled mpw__divide">
-<li>
-<div class="row">
-<div class="col-xs-4">
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern  - 200" href="/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2020/104/30b0d531-01a6-4224-85b5-7548e5f3b2a7.jpg" /></a>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-11432 post type-post status-publish format-standard has-post-thumbnail category-science-environment">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://newspunch.com/robot-brains-catch-up-to-humans-in-25-years-then-speed-right-on-by/" title="Robot Brains Catch Up To Humans in 25 Years, Then Speed Right On By"><img width="80" height="60" src="https://cdn.newspunch.com/wp-content/uploads/2014/11/i8ATmLkJsrEc-80x60.jpg.optimal.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="" srcset="https://cdn.newspunch.com/wp-content/uploads/2014/11/i8ATmLkJsrEc-80x60.jpg.optimal.jpg 80w, https://cdn.newspunch.com/wp-content/uploads/2014/11/i8ATmLkJsrEc-326x245.jpg.optimal.jpg 326w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="11435" nopin="nopin" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://newspunch.com/robot-brains-catch-up-to-humans-in-25-years-then-speed-right-on-by/" title="Robot Brains Catch Up To Humans in 25 Years, Then Speed Right On By">
+										Robot Brains Catch Up To Humans in 25 Years, Then Speed Right On By									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://newspunch.com/2014/11/">November 12, 2014</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><span class="mh-comment-count-link">Comments Off<span class="screen-reader-text"> on Robot Brains Catch Up To Humans in 25 Years, Then Speed Right On By</span></span></span>
 </div>
-<div class="col-xs-8 no-gutter">
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern  - 200" href="/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915">
- <span class="mpw__story">Israeli Professor Shows Virus Follows Fixed Pattern </span>
-</a>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-58409 post type-post status-publish format-standard has-post-thumbnail category-conspiracies">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://newspunch.com/psychic-edgar-cayce-predicted-putin-would-save-world-from-ww3/" title="Psychic Edgar Cayce Predicted Putin Would Save Us From World War III"><img width="80" height="60" src="https://cdn.newspunch.com/wp-content/uploads/2015/10/edgar-cayce-putin-80x60.jpg.optimal.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="80 years ago, psychic Edgar Cayce predicted that Russian President Vladimir Putin would be a &quot;force of light&quot; in preventing World War III from occurring." srcset="https://cdn.newspunch.com/wp-content/uploads/2015/10/edgar-cayce-putin-80x60.jpg.optimal.jpg 80w, https://cdn.newspunch.com/wp-content/uploads/2015/10/edgar-cayce-putin-150x113.jpg.optimal.jpg 150w, https://cdn.newspunch.com/wp-content/uploads/2015/10/edgar-cayce-putin-300x225.jpg.optimal.jpg 300w, https://cdn.newspunch.com/wp-content/uploads/2015/10/edgar-cayce-putin-768x576.jpg.optimal.jpg 768w, https://cdn.newspunch.com/wp-content/uploads/2015/10/edgar-cayce-putin-678x509.jpg.optimal.jpg 678w, https://cdn.newspunch.com/wp-content/uploads/2015/10/edgar-cayce-putin-326x245.jpg.optimal.jpg 326w, https://cdn.newspunch.com/wp-content/uploads/2015/10/edgar-cayce-putin-600x450.jpg.optimal.jpg 600w, https://cdn.newspunch.com/wp-content/uploads/2015/10/edgar-cayce-putin-800x600.jpg.optimal.jpg 800w, https://cdn.newspunch.com/wp-content/uploads/2015/10/edgar-cayce-putin-696x522.jpg.optimal.jpg 696w, https://cdn.newspunch.com/wp-content/uploads/2015/10/edgar-cayce-putin-1200x900-cropped.jpg.optimal.jpg 1200w, https://cdn.newspunch.com/wp-content/uploads/2015/10/edgar-cayce-putin.jpg.optimal.jpg 900w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="58415" nopin="nopin" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://newspunch.com/psychic-edgar-cayce-predicted-putin-would-save-world-from-ww3/" title="Psychic Edgar Cayce Predicted Putin Would Save Us From World War III">
+										Psychic Edgar Cayce Predicted Putin Would Save Us From World War III									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://newspunch.com/2017/04/">April 4, 2017</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><a href="https://newspunch.com/psychic-edgar-cayce-predicted-putin-would-save-world-from-ww3/#comments" class="mh-comment-count-link" ><span class="dsq-postid" data-dsqidentifier="58409 https://newspunch.com/?p=58409">252</span></a></span>
 </div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-149210 post type-post status-publish format-standard has-post-thumbnail category-news category-world-news">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://newspunch.com/japanese-bomb-shelters-korea-tensions/" title="Japanese Bomb Shelter Demand Soars As Korea Tensions Mount"><img width="80" height="60" src="https://cdn.newspunch.com/wp-content/uploads/2017/08/nuclear-shelter-80x60.jpg.optimal.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="bomb shelters" srcset="https://cdn.newspunch.com/wp-content/uploads/2017/08/nuclear-shelter-80x60.jpg.optimal.jpg 80w, https://cdn.newspunch.com/wp-content/uploads/2017/08/nuclear-shelter-326x245.jpg.optimal.jpg 326w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="149213" nopin="nopin" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://newspunch.com/japanese-bomb-shelters-korea-tensions/" title="Japanese Bomb Shelter Demand Soars As Korea Tensions Mount">
+										Japanese Bomb Shelter Demand Soars As Korea Tensions Mount									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://newspunch.com/2017/08/">August 18, 2017</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><a href="https://newspunch.com/japanese-bomb-shelters-korea-tensions/#comments" class="mh-comment-count-link" ><span class="dsq-postid" data-dsqidentifier="149210 https://newspunch.com/?p=149210">1</span></a></span>
 </div>
-</li>
-<li>
-<div class="row">
-<div class="col-xs-4">
-<a title="There's Something a Little Odd About the Letter Hunter Biden's Lawyer Sent Regarding the China Allegations - 24" href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2014/289/17329344-1af8-4a1f-8631-ab65d20076a0.jpg" /></a>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-42160 post type-post status-publish format-standard has-post-thumbnail category-technology-2">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://newspunch.com/smartphones-are-making-americans-dumber-study-suggests/" title="Smartphones Are Making American’s Dumber, Study Suggests"><img width="80" height="60" src="https://cdn.newspunch.com/wp-content/uploads/2015/07/americans-smartphones-80x60.jpg.optimal.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="" srcset="https://cdn.newspunch.com/wp-content/uploads/2015/07/americans-smartphones-80x60.jpg.optimal.jpg 80w, https://cdn.newspunch.com/wp-content/uploads/2015/07/americans-smartphones-678x509.jpg.optimal.jpg 678w, https://cdn.newspunch.com/wp-content/uploads/2015/07/americans-smartphones-326x245.jpg.optimal.jpg 326w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="42185" nopin="nopin" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://newspunch.com/smartphones-are-making-americans-dumber-study-suggests/" title="Smartphones Are Making American’s Dumber, Study Suggests">
+										Smartphones Are Making American’s Dumber, Study Suggests									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://newspunch.com/2015/07/">July 2, 2015</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><span class="mh-comment-count-link">Comments Off<span class="screen-reader-text"> on Smartphones Are Making American’s Dumber, Study Suggests</span></span></span>
 </div>
-<div class="col-xs-8 no-gutter">
-<a title="There's Something a Little Odd About the Letter Hunter Biden's Lawyer Sent Regarding the China Allegations - 24" href="/tipsheet/mattvespa/2020/04/17/hunter-biden-lawyer-responds-n2567141">
-<span class="mpw__story">There's Something a Little Odd About the Letter Hunter Biden's Lawyer Sent Regarding the China Allegations</span>
-</a>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-83105 post type-post status-publish format-standard has-post-thumbnail category-news category-us">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://newspunch.com/former-nixon-aide-admitted-war-on-drugs-is-really-war-on-blacks/" title="Former Nixon Aide Admitted &#8216;War On Drugs&#8217; Is Really &#8216;War On Blacks&#8217;"><img width="80" height="60" src="https://cdn.newspunch.com/wp-content/uploads/2016/03/nixon-war-on-drugs-war-on-blacks-80x60.jpg.optimal.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="The Nixon &#039;war on drugs&#039; was really a &#039;war on black people&#039;" srcset="https://cdn.newspunch.com/wp-content/uploads/2016/03/nixon-war-on-drugs-war-on-blacks-80x60.jpg.optimal.jpg 80w, https://cdn.newspunch.com/wp-content/uploads/2016/03/nixon-war-on-drugs-war-on-blacks-326x245.jpg.optimal.jpg 326w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="83126" nopin="nopin" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://newspunch.com/former-nixon-aide-admitted-war-on-drugs-is-really-war-on-blacks/" title="Former Nixon Aide Admitted &#8216;War On Drugs&#8217; Is Really &#8216;War On Blacks&#8217;">
+										Former Nixon Aide Admitted &#8216;War On Drugs&#8217; Is Really &#8216;War On Blacks&#8217;									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://newspunch.com/2016/03/">March 23, 2016</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><span class="mh-comment-count-link">Comments Off<span class="screen-reader-text"> on Former Nixon Aide Admitted &#8216;War On Drugs&#8217; Is Really &#8216;War On Blacks&#8217;</span></span></span>
 </div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-8807 post type-post status-publish format-standard has-post-thumbnail category-conspiracies">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://newspunch.com/video-9-11-fbi-whistleblower-robert-wright-testimon/" title="Video:  9-11 FBI Whistleblower Robert Wright Testimony"><img width="80" height="60" src="https://cdn.newspunch.com/wp-content/uploads/2014/10/Screen-Shot-2014-10-21-at-1.33.14-AM-80x60.png" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="" srcset="https://cdn.newspunch.com/wp-content/uploads/2014/10/Screen-Shot-2014-10-21-at-1.33.14-AM-80x60.png 80w, https://cdn.newspunch.com/wp-content/uploads/2014/10/Screen-Shot-2014-10-21-at-1.33.14-AM-326x245.png 326w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="8809" nopin="nopin" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://newspunch.com/video-9-11-fbi-whistleblower-robert-wright-testimon/" title="Video:  9-11 FBI Whistleblower Robert Wright Testimony">
+										Video:  9-11 FBI Whistleblower Robert Wright Testimony									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://newspunch.com/2014/10/">October 21, 2014</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><span class="mh-comment-count-link">Comments Off<span class="screen-reader-text"> on Video:  9-11 FBI Whistleblower Robert Wright Testimony</span></span></span>
 </div>
-</li>
-<li>
-<div class="row">
-<div class="col-xs-4">
-<a title="Brutal: Pelosi's Terrible Answer About Why Democrats Keep Blocking Needed Rescue Funds for Small Businesses - 18" href="/tipsheet/guybenson/2020/04/17/listen-pelosis-terrible-answer-about-why-democrats-keep-blocking-needed-rescue-funds-for-small-businesses-n2567120"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2019/143/d59c6b2f-ac5c-46f0-a985-d3b894ad8aae.png" /></a>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-71618 post type-post status-publish format-standard has-post-thumbnail category-the-middle-east category-news">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://newspunch.com/netanyahu-threatens-military-force-if-iran-obtain-nuclear-weapons/" title="Netanyahu Threatens Military Force If Iran Obtain Nuclear Weapons"><img width="80" height="44" src="https://cdn.newspunch.com/wp-content/uploads/2016/01/netanyahu-iran.jpg.optimal.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="Netanyahu has said Israel will use military force if Iran obtain nuclear weapons" srcset="https://cdn.newspunch.com/wp-content/uploads/2016/01/netanyahu-iran.jpg.optimal.jpg 600w, https://cdn.newspunch.com/wp-content/uploads/2016/01/netanyahu-iran-800x436.jpg.optimal.jpg 800w, https://cdn.newspunch.com/wp-content/uploads/2016/01/netanyahu-iran-696x379.jpg.optimal.jpg 696w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="71628" nopin="nopin" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://newspunch.com/netanyahu-threatens-military-force-if-iran-obtain-nuclear-weapons/" title="Netanyahu Threatens Military Force If Iran Obtain Nuclear Weapons">
+										Netanyahu Threatens Military Force If Iran Obtain Nuclear Weapons									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://newspunch.com/2016/01/">January 18, 2016</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><span class="mh-comment-count-link">Comments Off<span class="screen-reader-text"> on Netanyahu Threatens Military Force If Iran Obtain Nuclear Weapons</span></span></span>
 </div>
-<div class="col-xs-8 no-gutter">
-<a title="Brutal: Pelosi's Terrible Answer About Why Democrats Keep Blocking Needed Rescue Funds for Small Businesses - 18" href="/tipsheet/guybenson/2020/04/17/listen-pelosis-terrible-answer-about-why-democrats-keep-blocking-needed-rescue-funds-for-small-businesses-n2567120">
-<span class="mpw__story">Brutal: Pelosi's Terrible Answer About Why Democrats Keep Blocking Needed Rescue Funds for Small Businesses</span>
-</a>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-179953 post type-post status-publish format-standard has-post-thumbnail category-news category-us">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://newspunch.com/native-american-violent-criminal-record/" title="Native American Who Claimed ‘Harassment’ Has Violent Criminal Record"><img width="80" height="60" src="https://cdn.newspunch.com/wp-content/uploads/2019/01/native-american-criminal-80x60.jpeg.optimal.jpeg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="Native American Nathan Phillips has a violent criminal record" srcset="https://cdn.newspunch.com/wp-content/uploads/2019/01/native-american-criminal-80x60.jpeg.optimal.jpeg 80w, https://cdn.newspunch.com/wp-content/uploads/2019/01/native-american-criminal-326x245.jpeg.optimal.jpeg 326w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="179961" nopin="nopin" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://newspunch.com/native-american-violent-criminal-record/" title="Native American Who Claimed ‘Harassment’ Has Violent Criminal Record">
+										Native American Who Claimed ‘Harassment’ Has Violent Criminal Record									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://newspunch.com/2019/01/">January 25, 2019</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><a href="https://newspunch.com/native-american-violent-criminal-record/#comments" class="mh-comment-count-link" ><span class="dsq-postid" data-dsqidentifier="179953 https://newspunch.com/?p=179953">2</span></a></span>
 </div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-171524 post type-post status-publish format-standard has-post-thumbnail category-news category-us">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://newspunch.com/john-mccain-bans-trump-funeral/" title="Dying John McCain Bans Trump From Attending Funeral"><img width="80" height="60" src="https://cdn.newspunch.com/wp-content/uploads/2018/05/john-mccain-80x60.jpg.optimal.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="John McCain bans Trump from attending his funeral" srcset="https://cdn.newspunch.com/wp-content/uploads/2018/05/john-mccain-80x60.jpg.optimal.jpg 80w, https://cdn.newspunch.com/wp-content/uploads/2018/05/john-mccain-678x500.jpg.optimal.jpg 678w, https://cdn.newspunch.com/wp-content/uploads/2018/05/john-mccain-326x245.jpg.optimal.jpg 326w" sizes="(max-width: 80px) 100vw, 80px" data-wp-pid="171530" nopin="nopin" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://newspunch.com/john-mccain-bans-trump-funeral/" title="Dying John McCain Bans Trump From Attending Funeral">
+										Dying John McCain Bans Trump From Attending Funeral									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://newspunch.com/2018/05/">May 5, 2018</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><a href="https://newspunch.com/john-mccain-bans-trump-funeral/#comments" class="mh-comment-count-link" ><span class="dsq-postid" data-dsqidentifier="171524 https://newspunch.com/?p=171524">9</span></a></span>
 </div>
-</li>
-</ul>
-</div>
-<div class="ad">
-<div id="div-gpt-300x250_sticky" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-300x250_sticky");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_sticky"]])
-                    });
-                </script>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</article>
-<div class="row sticky-stopper">
-<div class="col-xs-12">
-<div class="article-ad-970x90">
-<div id="div-gpt-lazy-728x90_3" data-gpt='{"IncludeInPrebid":true,"Target":"pos","TargetValue":"728x90_3","SectionSlug":"tipsheet","SlotId":0,"DivUniqueId":"div-gpt-lazy-728x90_3","AdSize":"[[728,90],[970,90]]","AdUnitPath":"/6177/slm.townhall/","AdType":0,"AdRenderType":1,"IsYieldBotAmp":false,"IntervalTime":0,"AdParentLocation":0}' class="lazy-ad gpt-ad">
-<script id="pb-div-gpt-lazy-728x90_3" type="application/json">
-                    {"code":"div-gpt-lazy-728x90_3","sizes":[[728,90],[970,90]],"bids":[{"bidder":"openx","params":{"unit":"537998002","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381642"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-lazy-728x90_3@728x90"}},{"bidder":"criteo","params":{"networkId":"7465"}}]}
-                </script>
-</div>
-</div>
-</div>
-</div>
-<section id="trending-on-thm" class="trending">
-<h1 class="trending__title">Trending on Townhall Media</h1>
-<div class="row">
-<div class="col-xs-4">
-<div class="mpw-bordered">
-<div class="mpw">
-<ul class="list-unstyled">
-<li>
-<a title="Two Tennessee Teens Prove How Worthless Gun Control Is - 8" href="https://bearingarms.com/tom-k/2020/04/16/two-tennessee-teens-prove-how-worthless-gun-control-is/">
-<span class="mpw__story">Two Tennessee Teens Prove How Worthless Gun Control Is</span>
-</a>
-<div class="mpw__domain" style="color:#ADADAD;">
-Bearing Arms
-</div>
-</li>
-<li>
-<a title="HUGE: The UK Just Dumped China&#39;s Huawei in 5G Tech Roll-Out — Citing its Lies Over Coronavirus. - 34" href="https://pjmedia.com/trending/huge-the-uk-just-dumped-chinas-huawei-in-5g-tech-roll-out-citing-its-lies-over-coronavirus/">
- <span class="mpw__story">HUGE: The UK Just Dumped China&#39;s Huawei in 5G Tech Roll-Out — Citing its Lies Over Coronavirus.</span>
-</a>
-<div class="mpw__domain" style="color:#00a99d;">
-PJ Media
-</div>
-</li>
-<li>
-<a title="Hold onto your HATS! Brit Hume shares fact-filled thread on study showing COVID fatality rate just bottomed out to influenza levels - 24" href="https://twitchy.com/samj-3930/2020/04/17/hold-onto-your-hats-brit-hume-shares-fact-filled-thread-on-study-showing-covid-fatality-rate-just-bottomed-out-to-influenza-levels/">
-<span class="mpw__story">Hold onto your HATS! Brit Hume shares fact-filled thread on study showing COVID fatality rate just bottomed out to influenza levels</span>
-</a>
-<div class="mpw__domain" style="color:#F27B21;">
-Twitchy
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-xs-8">
-<div class="row">
-<div class="col-xs-12">
-<div class="xl-story">
-<div class="xl-story__img">
-<a target="_top" class="lazy" href="https://townhall.com/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915" data-src="https://media.townhall.com/townhall/reu/ha/2020/104/30b0d531-01a6-4224-85b5-7548e5f3b2a7.jpg">
-&nbsp;
-</a>
-</div>
-<div class="xl-story__summary">
-<h1>
-<a title="Israeli Professor Shows Virus Follows Fixed Pattern " href="https://townhall.com/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915">Israeli Professor Shows Virus Follows Fixed Pattern </a>
-</h1>
-<h5 style="color:#ba224b">Townhall</h5>
-</div>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-6">
-<div class="sm-story">
-<div class="sm-story__text">
-<a title="WaPo Fact Checker Glenn Kessler Morphs Into WHO Apologist in Ridiculous Fact Check on Trump" href="https://www.redstate.com/sister-toldjah/2020/04/17/wapo-fact-checker-glenn-kessler-morphs-into-who-apologist-in-ridiculous-fact-check-on-trump/">WaPo Fact Checker Glenn Kessler Morphs Into WHO Apologist in Ridiculous Fact Check on Trump</a>
-</div>
-<div class="sm-story__flavor" style="color:#CB0809">Redstate</div>
-</div>
-</div>
-<div class="col-xs-6">
-<div class="sm-story">
-<div class="sm-story__text">
-<a title="The results are in on the Texas nursing home using hydroxychloroquine" href="https://hotair.com/archives/karen-townsend/2020/04/17/results-texas-nursing-home-using-hydroxychloroquine/">The results are in on the Texas nursing home using hydroxychloroquine</a>
-</div>
-<div class="sm-story__flavor" style="color:#CD2628">Hotair</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-</div>
-<div class="thm-piano-pfixed"></div>
-</div>
-<footer class="sticky-stopper">
-<section class="footer-brands">
-<div class="container">
-<ul class="list-inline list-unstyled">
-<li><a href="https://townhall.com"><img src="https://media.townhall.com/thm/th_logo1.png" alt="" /></a></li>
-<li><a href="https://hotair.com"><img src="https://media.townhall.com/thm/ha_logo1.png" alt="" /></a></li>
-<li><a href="https://bearingarms.com"><img src="https://media.townhall.com/thm/ba_logo1.png" alt="" /></a> </li>
-<li><a href="https://twitchy.com"><img src="https://media.townhall.com/thm/tw_logo1.png" alt="" /></a></li>
-<li><a href="https://redstate.com"><img src="https://media.townhall.com/thm/rs_logo1.png" alt="" /></a></li>
-<li><a href="https://pjmedia.com" target="_blank"><img src="https://media.townhall.com/thm/pj-media.png" style="width:100px;height:45px;" alt="PJ Media" /></a></li>
-</ul>
-</div>
-</section>
-<section class="footer-links">
-<div class="container">
-<ul class="list-inline list-unstyled">
-<li><a title="Conservative Columnists" href="/columnists">Columnists</a></li>
-<li><a href="/political-cartoons">Political Cartoons</a></li>
-<li><a href="/tipsheet">Tipsheet</a> </li>
-<li><a href="/tv">Townhall TV</a> </li>
-<li><a href="/podcasts">Podcasts</a> </li>
-<li><a title="Conservative News" href="/news">Radio News</a></li>
-<li><a title="Conservative Video" href="/video">Video</a></li>
-<li><a title="Conservative Entertainment" href="/entertainment">Entertainment</a></li>
-<li><a title="VIP" href="/vip">VIP</a></li>
-<li><a title="Conservative Capitol Voices" href="/capitol-voices">Capitol Voices</a></li>
-</ul>
-<ul class="list-inline list-unstyled">
-<li><a href="/election">Election Results</a></li>
-<li><a href="/tags/">Tags</a></li>
-<li><a href="http://finance.townhall.com">Finance</a></li>
-<li><a href="#" onclick="javascript:window.open('http://saleminteractivemedia.com/ListenLive/Player/TOWNIR','TOWNIR','width=800,height=710');">Townhall Radio</a></li>
-</ul>
-<ul class="list-inline list-unstyled">
-<li><a href="/aboutus">About Townhall</a></li>
-<li><a href="http://townhallmedia.com/">Advertise</a></li>
-<li><a href="https://townhall.com/tags/gift-guides/">Gift Guides</a></li>
-<li><a href="https://media.townhall.com/townhall/privacypolicy/privacypolicy.htm">Privacy Policy</a></li>
-<li><a href="https://media.townhall.com/townhall/privacypolicy/TermsofUse.htm">Terms of Use</a></li>
-<li><span class="thm-cpa"><a href="/donotsell" rel="nofollow">California - Do Not Sell My Personal Information</a></span></li>
-<li><a target="_blank" href="http://www.conservativeradio.com/">Radio Stations</a></li>
-<li><a href="/sitemap.htm">Sitemap</a></li>
-<li><a href="/pages/townhall_jobs">Jobs </a></li>
-<li><a href="/contact-us/">Contact Us</a></li>
-<li><a href="/newslettersignup/">Newsletters</a></li>
-<li><a href="/mobile-apps">iPhone/Android Apps</a></li>
-</ul>
-</div>
-</section>
-<section class="under-footer">
-<div class="container">
-<div class="row">
-<hr>
-<div class="col-xs-4">
-<a href="/">
-<img alt="Townhall.com" src="https://media.townhall.com/_townhall/resources/images/thmplus.png">
-<img style="width: 155px;height:40px;" alt="Townhall.com" src="/resources/th_logo.svg">
-</a>
-</div>
-<div class="col-xs-8">
-<p class="copyright" style="margin-top:12px;">
-Townhall.com is the leading source for conservative news and political commentary and analysis.<br>
-Copyright &copy; Townhall.com/Salem Media. All Rights Reserved. <a href="https://media.townhall.com/townhall/privacypolicy/TermsofUse.htm" target="_blank">Terms</a> under which this service
-is provided to you
-</p>
-</div>
-</div>
-</div>
-</section>
-<div id="div-gpt-oop" class="gpt-ad">
-<script type="text/javascript">
-                    googletag.cmd.push(function () {
-                        googletag.display("div-gpt-oop");
-                        //googletag.pubads().refresh([gptAdSlot["div-gpt-oop"]])
-                    });
-                </script>
+							</div>
+						</li>			</ul></div></aside>
+</div> 
+<footer class="mh-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter">
+<div class="mh-container mh-container-inner mh-footer-widgets mh-row clearfix">
+<div class="mh-col-1-2 mh-widget-col-2 mh-footer-2-cols  mh-footer-area mh-footer-1">
+<div id="text-9" class="mh-footer-widget widget_text">			<div class="textwidget">NewsPunch.com<br>
+137 N. Larchmont Blvd<br>
+Suite 118<br>
+Los Angeles<br>
+CA 90004<br>
+Email: <a href="mailto:contact@newspunch.com">contact@newspunch.com</a><br>
+Phone: <a href="tel:1-424-666-1274">(424) 666-1274</a></div>
+		</div></div>
+<div class="mh-col-1-2 mh-widget-col-2 mh-footer-2-cols  mh-footer-area mh-footer-2">
+<div id="nav_menu-2" class="mh-footer-widget widget_nav_menu"><div class="menu-social-container"><ul id="menu-social" class="menu"><li id="menu-item-131280" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-131280"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/thepeoplesvoicetv/">Facebook</a></li>
+<li id="menu-item-131297" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-131297"><a href="https://twitter.com/yournewswire">Twitter</a></li>
+<li id="menu-item-131300" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-131300"><a href="https://plus.google.com/+Yournewswirepage">Google</a></li>
+</ul></div></div></div>
 </div>
 </footer>
-<script>(function(src){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=src;var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})("https://experience.tinypass.com/xbuilder/experience/load?aid=tSxoqtcFa7");</script>
-<div id="login-form"></div> <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
-<script src="/resources/dist/js/site.min.js?v=24"></script>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script>
-    tp = window["tp"] || [];
-    tp.push(["setTags", ["thm:article","california","california","race","race","victim-mentality","victim-mentality","victimhood","victimhood","gavin-newsom","gavin-newsom","leftists","leftists","wuhan-coronavirus","wuhan-coronavirus"]]);
+<div class="mh-copyright-wrap">
+	<div class="mh-container mh-container-inner clearfix">
+		<p class="mh-copyright">
+			Copyright © 2020 News Punch. All rights reserved | <a href="https://newspunch.com">News Punch</a>		</p>
+	</div>
+</div>
+<a href="#" class="mh-back-to-top"><i class="fa fa-chevron-up"></i></a>
+</div><!-- .mh-container-outer -->
+<script type='text/javascript' src='https://cdn.newspunch.com/wp-includes/js/comment-reply.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://cdn.newspunch.com/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://cdn.onesignal.com/sdks/OneSignalSDK.js?ver=5.3.2' async='async'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"yournewswire"};
+/* ]]> */
 </script>
-<script type="text/javascript">
-        console.info("The End: ", window.performance.now());
-        console.info("Device: ", "Desktop");
-    </script>
-<div class="thm-piano-bottom"></div>
-</body>
+<script type='text/javascript' src='https://cdn.newspunch.com/wp-content/plugins/disqus-conditional-load-pro/disqus-core/media/js/count.js?ver=5.3.2'></script>
+<!-- wpssossb footer javascript begin -->
+<!-- generated on 2020-04-19T08:04:34+00:00 -->
+<!-- wpssossb footer: facebook script location is header -->
+<!-- wpssossb footer: twitter script location is header -->
+<!-- wpssossb footer javascript end -->
+<script  type='text/javascript'>
+					/* <![CDATA[ */
+					var hash = window.location.hash;
+                                        var disqus_shortname = 'yournewswire';
+					if(hash!==''){
+					var ds_loaded = true;
+					var dcl_loaded = 1;
+					(function() {
+						var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+						dsq.async = true;
+						dsq.src = '//' + disqus_shortname + '.' + 'disqus.com' + '/' + 'embed' + '.js' + '?pname=wordpress&pver=<?php echo DISQUS_VERSION; ?>';
+						(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+					})();}
+					/* ]]> */
+					</script><script  type="text/javascript">
+					var disqus_shortname = "yournewswire";
+					if (typeof ds_loaded == "undefined") {
+						var ds_loaded = false; //To track loading only once on a page.
+					}
+					function loadDisqus()
+					{
+						var disqus_div = document.getElementById("disqus_thread"); //The ID of the Disqus DIV tag
+						var top = disqus_div.offsetTop;
+						var disqus_data = disqus_div.dataset;
+						if ( !ds_loaded && ( window.scrollY || window.pageYOffset ) + window.innerHeight > top ) 
+						{
+							ds_loaded = true;
+							for (var key in disqus_data) 
+							{
+								if (key.substr(0,6) == "disqus") 
+								{
+									window["disqus_" + key.replace("disqus","").toLowerCase()] = disqus_data[key];
+								}
+							}
+							var dsq = document.createElement("script");
+							dsq.type = "text/javascript";
+							dsq.async = true;
+							dsq.src = "https://" + window.disqus_shortname + ".disqus.com/embed.js";
+							if(document.getElementById("dcl-hidden-div")) {
+								document.getElementById("dcl-hidden-div").innerHTML = "Loading...";
+							}
+							(document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(dsq);
+						}    
+					}
+					document.getElementById("dcl_comment_btn").onclick = function() { loadDisqus() }
+				</script>		<script type="text/javascript">var omapi_data = {"wc_cart":[],"object_id":180749,"object_key":"post","object_type":"post","term_ids":[13,569]};</script>
+		</body>
 </html>

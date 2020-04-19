@@ -1,11 +1,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head id="head">
-<script id="FormTrack_p_lt_zoneNewHeader_AdobeAnalytics_Adobe" type="text/javascript" src="//assets.adobedtm.com/7014b84c59a7140df850ba0669cdd515a2b62868/satelliteLib-901a5fea21c622cba5fda1689e226b13d134718d.js"></script><meta name="epoch" content="1587044870" />
-<meta name="pubdate" property="pubdate" content="2020-04-16T13:47:50" />
-<meta property="article:section" content="politics" />
-<meta property="article:published_time" content="2020-04-16T13:47:50" />
-<meta name="og:description" property="og:description" content="Despite President Donald Trump&#39;s claims that there would &quot;never be a Republican elected in this country again&quot; if there was a universal vote-by-mail system in place, a new study suggests neither party would be advantageous. A study from Stanford University&#39;s Democracy and..." />
+<script>
+// akam-sw.js install script version 1.3.3
+"serviceWorker"in navigator&&"find"in[]&&function(){var e=new Promise(function(e){"complete"===document.readyState||!1?e():(window.addEventListener("load",function(){e()}),setTimeout(function(){"complete"!==document.readyState&&e()},1e4))}),n=window.akamServiceWorkerInvoked,r="1.3.3";if(n)aka3pmLog("akam-setup already invoked");else{window.akamServiceWorkerInvoked=!0,window.aka3pmLog=function(){window.akamServiceWorkerDebug&&console.log.apply(console,arguments)};function o(e){(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"sm.sw.s":e,"sm.sw.v":r}])}var i="/akam-sw.js",a=new Map;navigator.serviceWorker.addEventListener("message",function(e){var n,r,o=e.data;if(o.isAka3pm)if(o.command){var i=(n=o.command,(r=a.get(n))&&r.length>0?r.shift():null);i&&i(e.data.response)}else if(o.commandToClient)switch(o.commandToClient){case"enableDebug":window.akamServiceWorkerDebug||(window.akamServiceWorkerDebug=!0,aka3pmLog("Setup script debug enabled via service worker message"),p());break;case"boomerangMQ":o.payload&&(window.BOOMR_mq=window.BOOMR_mq||[]).push(o.payload)}aka3pmLog("akam-sw message: "+JSON.stringify(e.data))});var t=function(e){return new Promise(function(n){var r,o;r=e.command,o=n,a.has(r)||a.set(r,[]),a.get(r).push(o),navigator.serviceWorker.controller&&(e.isAka3pm=!0,navigator.serviceWorker.controller.postMessage(e))})},c=function(e){return t({command:"navTiming",navTiming:e})},s=null,m={},d=function(){var e=i;return s&&(e+="?othersw="+encodeURIComponent(s)),function(e,n){return new Promise(function(r,i){aka3pmLog("Registering service worker with URL: "+e),navigator.serviceWorker.register(e,n).then(function(e){aka3pmLog("ServiceWorker registration successful with scope: ",e.scope),r(e),o(1)}).catch(function(e){aka3pmLog("ServiceWorker registration failed: ",e),o(0),i(e)})})}(e,m)},g=ServiceWorkerContainer.prototype.register;if(ServiceWorkerContainer.prototype.register=function(n,r){return n.includes(i)?g.call(this,n,r):(aka3pmLog("Overriding registration of service worker for: "+n),s=new URL(n,window.location.href),m=r,navigator.serviceWorker.controller?new Promise(function(n,r){var o=navigator.serviceWorker.controller.scriptURL;if(o.includes(i)){var a=encodeURIComponent(s);o.includes(a)?(aka3pmLog("Cancelling registration as we already integrate other SW: "+s),navigator.serviceWorker.getRegistration().then(function(e){n(e)})):e.then(function(){aka3pmLog("Unregistering existing 3pm service worker"),navigator.serviceWorker.getRegistration().then(function(e){e.unregister().then(function(){return d()}).then(function(e){n(e)}).catch(function(e){r(e)})})})}else aka3pmLog("Cancelling registration as we already have akam-sw.js installed"),navigator.serviceWorker.getRegistration().then(function(e){n(e)})}):g.call(this,n,r))},navigator.serviceWorker.controller){var u=navigator.serviceWorker.controller.scriptURL;u.includes("/akam-sw.js")||u.includes("/akam-sw-preprod.js")||u.includes("/threepm-sw.js")||(aka3pmLog("Detected existing service worker. Removing and re-adding inside akam-sw.js"),s=new URL(u,window.location.href),e.then(function(){navigator.serviceWorker.getRegistration().then(function(e){m={scope:e.scope},e.unregister(),d()})}))}else e.then(function(){window.akamServiceWorkerPreprod&&(i="/akam-sw-preprod.js"),d()});if(window.performance){var w=window.performance.timing,l=w.responseEnd-w.responseStart;c(l)}e.then(function(){t({command:"pageLoad"})});var k=!1;function p(){window.akamServiceWorkerDebug&&!k&&(k=!0,aka3pmLog("Initializing debug functions at window scope"),window.aka3pmInjectSwPolicy=function(e){return t({command:"updatePolicy",policy:e})},window.aka3pmDisableInjectedPolicy=function(){return t({command:"disableInjectedPolicy"})},window.aka3pmDeleteInjectedPolicy=function(){return t({command:"deleteInjectedPolicy"})},window.aka3pmGetStateAsync=function(){return t({command:"getState"})},window.aka3pmDumpState=function(){aka3pmGetStateAsync().then(function(e){aka3pmLog(JSON.stringify(e,null,"\t"))})},window.aka3pmInjectTiming=function(e){return c(e)},window.aka3pmUpdatePolicyFromNetwork=function(){return t({command:"pullPolicyFromNetwork"})})}p()}}();</script>
+<script id="FormTrack_p_lt_zoneTop_comScore_Adobe" type="text/javascript" src="//assets.adobedtm.com/7014b84c59a7140df850ba0669cdd515a2b62868/satelliteLib-901a5fea21c622cba5fda1689e226b13d134718d.js"></script><meta name="epoch" content="1551159791" />
+<meta name="pubdate" property="pubdate" content="2019-02-26T05:43:11" />
+<meta property="article:section" content="globaltalk" />
+<meta property="article:published_time" content="2019-02-26T05:43:11" />
+<meta name="og:description" property="og:description" content="Redefining success, President Donald Trump headed to his second meeting with North Korea&#39;s Kim Jong Un, determined to tamp down expectations that he&#39;ll achieve big strides toward denuclearization. Yet he was still eager to claim an attention-grabbing victory to offset the..." />
 <meta name="og:page_id" property="og:page_id" content="85452072376" />
 <meta name="fb:app_id" property="fb:app_id" content="323020797885219" />
 <meta name="fb:admins" property="fb:admins" content="100002083767056" />
@@ -13,63 +16,61 @@
 <meta name="og:image:height" property="og:image:height" content="500" />
 <meta name="og:image:width" property="og:image:width" content="600" />
 <meta name="og:image:type" property="og:image:type" content="image/jpeg" />
-<meta name="og:image" property="og:image" content="https://www.newsmax.com/CMSPages/GetFile.aspx?guid=bb0a0f90-5fc4-4b55-bb74-fe48e7172a1b&amp;SiteName=Newsmax" />
-<meta name="twitter:image" property="twitter:image" content="https://www.newsmax.com/CMSPages/GetFile.aspx?guid=bb0a0f90-5fc4-4b55-bb74-fe48e7172a1b&amp;SiteName=Newsmax&amp;maxsidesize=300" />
-<meta name="twitter:image:alt" property="twitter:image:alt" content="Despite President Donald Trump&#39;s claims that there would &quot;never be a Republican elected in this country again&quot; if there was a universal vote-by-mail system in place, a new study suggests neither party would be advantageous. A study from Stanford University&#39;s Democracy and..." />
-<meta name="twitter:description" property="twitter:description" content="Despite President Donald Trump&#39;s claims that there would &quot;never be a Republican elected in this country again&quot; if there was a universal vote-by-mail system in place, a new study suggests neither party would be advantageous. A study from Stanford University&#39;s Democracy and..." />
-<meta name="twitter:title" property="twitter:title" content="Study: Universal Vote-by-Mail Doesn&#39;t Give Either Party an Advantage" />
+<meta name="og:image" property="og:image" content="https://www.newsmax.com/CMSPages/GetFile.aspx?guid=2ec051f3-07b1-4caf-992b-30eb1c7ac75c&amp;SiteName=Newsmax" />
+<meta name="twitter:image" property="twitter:image" content="https://www.newsmax.com/CMSPages/GetFile.aspx?guid=2ec051f3-07b1-4caf-992b-30eb1c7ac75c&amp;SiteName=Newsmax&amp;maxsidesize=300" />
+<meta name="twitter:image:alt" property="twitter:image:alt" content="Redefining success, President Donald Trump headed to his second meeting with North Korea&#39;s Kim Jong Un, determined to tamp down expectations that he&#39;ll achieve big strides toward denuclearization. Yet he was still eager to claim an attention-grabbing victory to offset the..." />
+<meta name="twitter:description" property="twitter:description" content="Redefining success, President Donald Trump headed to his second meeting with North Korea&#39;s Kim Jong Un, determined to tamp down expectations that he&#39;ll achieve big strides toward denuclearization. Yet he was still eager to claim an attention-grabbing victory to offset the..." />
+<meta name="twitter:title" property="twitter:title" content="Trump and Kim to Have Dinner before Series of Official Talks" />
 <meta name="twitter:creator" property="twitter:creator" content="@newsmax" />
 <meta name="twitter:site" property="twitter:site" content="@newsmax" />
 <meta name="twitter:card" property="twitter:card" content="summary_large_image" />
-<meta name="og:url" property="og:url" content="https://www.newsmax.com/politics/vote-by-mail-mail-in-ballot-election/2020/04/16/id/963191/" />
-<meta name="news_keywords" content="2020 Elections, Donald Trump, vote-by-mail,  mail-in ballot,  election" />
+<meta name="og:url" property="og:url" content="https://www.newsmax.com/world/globaltalk/trump-kim-dinner-before/2019/02/26/id/904359/" />
+<meta name="news_keywords" content="North Korea, Trump Administration, trump,  kim,  dinner,  before,  talks" />
 <meta property="og:type" content="article" />
-<meta name="og:title" property="og:title" content="Study: Universal Vote-by-Mail Doesn&#39;t Give Either Party an Advantage" />
-<meta name="twitter:url" content="https://www.newsmax.com/Politics/vote-by-mail-mail-in-ballot-election/2020/04/16/id/963191/" />
-<meta name="original-source" content="https://www.newsmax.com/Politics/vote-by-mail-mail-in-ballot-election/2020/04/16/id/963191/" />
-<link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.newsmax.com/t/#!newsmax/article/963191/1" />
-<link rel="canonical" href="https://www.newsmax.com/politics/vote-by-mail-mail-in-ballot-election/2020/04/16/id/963191/" />
+<meta name="og:title" property="og:title" content="Trump and Kim to Have Dinner before Series of Official Talks" />
+<meta property="article:author" content="JONATHAN LEMIRE" />
+<meta name="twitter:url" content="https://www.newsmax.com/World/GlobalTalk/trump-kim-dinner-before/2019/02/26/id/904359/" />
+<meta name="original-source" content="https://www.newsmax.com/World/GlobalTalk/trump-kim-dinner-before/2019/02/26/id/904359/" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.newsmax.com/t/#!world/article/904359/162" />
+<link rel="canonical" href="https://www.newsmax.com/world/globaltalk/trump-kim-dinner-before/2019/02/26/id/904359/" />
 <title>
-	Study: Universal Vote-by-Mail Doesn&#39;t Give Either Party an Advantage | Newsmax.com
-</title><meta name="description" content="Researchers compared results in counties that adopted a vote-by-mail program to those within the same state that did not. The study compared county-level election results and public party registration data for voters in Utah and California from..." /> 
+	Trump and Kim to Have Dinner before Series of Official Talks | Newsmax.com
+</title><meta name="description" content="Trump and Kim to Have Dinner before Series of Official Talks" /> 
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
 <meta http-equiv="pragma" content="no-cache" /> 
 <meta http-equiv="content-style-type" content="text/css" /> 
 <meta http-equiv="content-script-type" content="text/javascript" /> 
-<meta name="keywords" content="vote-by-mail, mail-in ballot, election" /> 
-<link href="/CMSPages/GetResource.ashx?stylesheetname=Newsmax" type="text/css" rel="stylesheet"/> 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
-<meta http-equiv="X-UA-Compatible" content="IE=edge" >
-<meta name="msvalidate.01" content="FAF1322EC761685A5DD9344A1C19E82A" />
-
-<!--CSS-->
-<link type="text/css" rel="stylesheet" href="/CMSPages/GetCSS.aspx?stylesheetname=NewsmaxInternalPages" />
-<link type="text/css" rel="stylesheet" href="/CMSPages/GetCSS.aspx?stylesheetname=NewsmaxWebparts" /> 
-<link type="text/css" rel="stylesheet" href="/CMSPages/GetCSS.aspx?stylesheetname=NewsmaxNew" />
+<meta name="keywords" content="trump, kim, dinner, before, talks, summit" /> 
+<link href="/CMSPages/GetResource.ashx?stylesheetname=NewsmaxWorld" type="text/css" rel="stylesheet"/> 
+<meta name="google-site-verification" content="ECs3BDgIELxLqHo9w_XeAzmLrPvSlhdbSGX-zWNsqZ4" />
+<link type="text/css" rel="stylesheet" href="/CMSPages/GetCSS.aspx?stylesheetname=NewsmaxWorldInternalPages" />
+<link type="text/css" rel="stylesheet" href="/CMSPages/GetCSS.aspx?stylesheetname=NewsmaxWorldWebParts" />
 <link rel="shortcut icon" href="/App_Themes/Newsmax/images/favicon.ico" />
-<link rel="icon" href="https://www.newsmax.com/App_Themes/Newsmax/images/favicon.ico" />
+<link rel="icon" href="/App_Themes/Newsmax/images/favicon.ico" />
 
 <script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
-<script async type="text/javascript" src="/js/jquery-migrate-3.0.0.min.js"></script>
-<script async type="text/javascript" src="/js/jquery-ui-1.12.1.min.js"></script>
-<script async type="text/javascript" src="/js/SponsoredHeadline.js"></script>
+<script type="text/javascript" src="/js/jquery-migrate-3.0.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.12.1.min.js"></script>
 <script type="text/javascript" src="/CMSScripts/jquery/jquery.cookie.js"></script>
+<script type="text/javascript" src="/js/SponsoredHeadline.js"></script>
 
-<!-- Flash Detection Script -->
-<!-- Used for Video Player -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/swfobject/2.1/swfobject.js"></script>
+<script language="JavaScript" type="text/javascript" src="//partner.googleadservices.com/gampad/google_service.js">
+</script>
 
-<!--  Functions in this script are used site wide-->
-	<script async src="/CMSScripts/newsmax/headerscripts.js" type="text/javascript"> </script>
 <!-- DFP Scripts -->
-<script src="//www.googletagservices.com/tag/js/gpt.js"></script>
+<script type='text/javascript'>
+(function() {
+var src ='//www.googletagservices.com/tag/js/gpt.js';
+document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+})();
+</script>
 
-<script async type="text/javascript" src="/CMSScripts/Newsmax/jquery.colorbox-min.js"></script>
-<link href="/CMSPages/GetCSS.aspx?stylesheetname=colorboxNewsmax" rel="stylesheet" type="text/css" />
-
-
+<script type="text/javascript" src="/CMSScripts/Newsmax/jquery.colorbox-min.js"></script>
+<link href="/CMSPages/GetCSS.aspx?stylesheetname=colorboxWorld" rel="stylesheet" type="text/css" />
 
 <!-- One Signal -->
-<script async src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"></script>
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async='async'></script>
 <script>
     var OneSignal = window.OneSignal || [];
     OneSignal.push(["init", {
@@ -82,52 +83,21 @@
           enable: true
       }
     }]);
-</script>
-
-<!----BACKGROUND SITE GRAPHIC---->
-<script type="text/javascript">
-/*
-	var clickURL = 'http://www.newsmaxtv.com'; // change this to your landing page
-	var mainbodyWidth = 992; // the width of the main body
-	function bgClick() { window.open(clickURL); }
-
-$(document).ready(function(){
-	document.getElementById("bgleft").onclick = bgClick;
-	document.getElementById("bgright").onclick = bgClick;
-	resizeBgAd();
-	window.onresize=resizeBgAd;
-});
-	function resizeBgAd() {
-		if(jQuery(window).width() < 1330) { 
-			jQuery("#bgleft").hide();
-			jQuery("#bgright").hide();
-		} else {
-			jQuery("#bgleft").show();
-			jQuery("#bgright").show();
-			var w=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth;
-			document.getElementById("bgleft").style.width = (w-mainbodyWidth)/2+"px";
-			document.getElementById("bgright").style.width = (w-mainbodyWidth)/2+"px";
-		}
-	}
-if (window.location != window.parent.location) {jQuery("html").css('background-color','white !important');}
-*/
-</script><link type="text/css" rel="stylesheet" href="/CMSPages/GetCSS.aspx?stylesheetname=NMDialogs" />
-<link href="/CMSPages/GetCSS.aspx?stylesheetname=NMArticle" rel="stylesheet" type="text/css" /> 
+</script><link type="text/css" rel="stylesheet" href="/CMSPages/GetCSS.aspx?stylesheetname=NMWArticle" /> 
 <link href="/favicon.ico" type="image/x-icon" rel="shortcut icon"/> 
 <link href="/favicon.ico" type="image/x-icon" rel="icon"/> 
-<script id="FormTrack_p_lt_zoneNewHeader_AdobeAnalytics_AdobeAnalytics" type="text/javascript" src="/js/analytics.js"></script>
+<script id="FormTrack_p_lt_zoneTop_comScore_AdobeAnalytics" type="text/javascript" src="/js/analytics.js"></script>
 <script type="text/javascript">
 	//<![CDATA[
-jQuery(document).ready(function(){ jQuery("a[rel='EmailUs']").colorbox({iframe:true,slideshow:false,overlayClose:false,height:"720",width:"580",href:"/Dialogs/EmailUs.aspx", rel:"nofollow"}); jQuery("a[rel='ForwardPage']").colorbox({iframe:true,slideshow:false,overlayClose:false,height:"740",width:"682",href:"/Dialogs/ForwardToFriend.aspx?ParentUrl=%2fpolitics%2fvote-by-mail-mail-in-ballot-election%2f2020%2f04%2f16%2fid%2f963191%2f", rel:"nofollow"}); jQuery("a[rel='share']").colorbox({iframe:true,slideshow:false,overlayClose:false,height:"700",width:"1000", rel:"nofollow"}); jQuery("a[rel='artModalPrivacy']").colorbox({iframe:true,slideshow:false,overlayClose:false,height:"600",width:"800",href:"/Dialogs/PrivacyPolicy.aspx", rel:"nofollow"}); });
+jQuery(document).ready(function(){ jQuery("a[rel='EmailUs']").colorbox({iframe:true,slideshow:false,overlayClose:false,height:"720",width:"580",href:"/Dialogs/EmailUs.aspx", rel:"nofollow"}); jQuery("a[rel='ForwardPage']").colorbox({iframe:true,slideshow:false,overlayClose:false,height:"740",width:"682",href:"/Dialogs/ForwardToFriend.aspx?ParentUrl=%2fworld%2fglobaltalk%2ftrump-kim-dinner-before%2f2019%2f02%2f26%2fid%2f904359%2f", rel:"nofollow"}); jQuery("a[rel='share']").colorbox({iframe:true,slideshow:false,overlayClose:false,height:"700",width:"1000", rel:"nofollow"}); jQuery("a[rel='artModalPrivacy']").colorbox({iframe:true,slideshow:false,overlayClose:false,height:"600",width:"800",href:"/Dialogs/PrivacyPolicy.aspx", rel:"nofollow"}); });
 //]]>
 </script>
-<script id="DFPScript" type="text/javascript">googletag.defineOutOfPageSlot('/6305169/Newsmax', 'div-gpt-ad-316ffadb-67af-4a45-b20f-cd89b38c22d5').addService(googletag.pubads());
-(function() {
+<script id="DFPScript" type="text/javascript">(function() {
                                     
                                     var c = $.cookie('siu-ad-fixed');
                                     if (!c) {
     
-                                        var ad = googletag.defineSlot('/6305169/newsmax.mab', [[480,50],[728,90],[1024,90]], 'div-gpt-ad-a032e390-585a-4e87-8ffc-f8af1897ee09').addService(googletag.pubads());
+                                        var ad = googletag.defineSlot('/6305169/newsmax.mab', [[1024,90],[768,90],[480,50]], 'div-gpt-ad-26edf0e5-e28f-4648-a735-4abed2f704b5').addService(googletag.pubads());
 
                                         var mapping = googletag.sizeMapping()
                                             .addSize([1200, 200], [1024, 90])
@@ -142,27 +112,53 @@ jQuery(document).ready(function(){ jQuery("a[rel='EmailUs']").colorbox({iframe:t
 
 
                             })();
-googletag.defineSlot('/6305169/Newsmax/Sections/politics/politics_Article_Middle', [300,250], 'div-gpt-ad-e601618a-9a5a-40ce-92af-2a066a754f5b').addService(googletag.pubads());
-googletag.defineSlot('/6305169/Newsmax/Sections/politics/politics_Article_Top', [300,250], 'div-gpt-ad-21b2c367-9b06-4c7e-b2f0-fcf161f27a2a').addService(googletag.pubads());
-googletag.defineSlot('/6305169/Newsmax/Article_NM_300d', [300,250], 'div-gpt-ad-0ec52459-0577-46a2-9371-53286d57bd57').addService(googletag.pubads());
-googletag.defineSlot('/6305169/Newsmax/Sections/politics/politics_Link_Bottom', [600,50], 'div-gpt-ad-b3a149cc-0ff1-49fe-87dc-24b8b0919c5f').addService(googletag.pubads()).setTargeting('pos','BottomInArticleLinkNM');
-googletag.defineSlot('/6305169/Newsmax/Sections/politics/politics_Link_Middle', [600,50], 'div-gpt-ad-9a0504ac-22b5-499a-b9d3-887604ad390f').addService(googletag.pubads()).setTargeting('pos','MiddleInArticleLinkNM');
-googletag.defineSlot('/6305169/Newsmax/Sections/politics/politics_Link_Top', [600,50], 'div-gpt-ad-4e874c1c-17ff-4d4e-b337-99109b2ccb44').addService(googletag.pubads()).setTargeting('pos','TopInArticleLinkNM');
+googletag.defineOutOfPageSlot('/6305169/NewsmaxWorld', 'div-gpt-ad-f16861a4-a6fa-4806-b4fe-06cffa7907a3').addService(googletag.pubads());
+googletag.defineSlot('/6305169/NewsmaxWorld', [300,250], 'div-gpt-ad-996407b1-8012-4d4e-820b-bce21c381210').addService(googletag.pubads());
+googletag.defineSlot('/6305169/NewsmaxWorld/Article_TV_NW', [600,120], 'div-gpt-ad-42eb8d33-7b58-430a-84f5-f22809dd2351').addService(googletag.pubads());
+googletag.defineSlot('/6305169/Newsmax/Recommended/NW_600x175', [600,175], 'div-gpt-ad-1d0e3bd3-66be-4659-88bc-e6d9238293ee').addService(googletag.pubads());
+googletag.defineSlot('/6305169/Newsmax/Article_NM_300d', [300,250], 'div-gpt-ad-4741b0eb-04f7-4094-92fd-31a4d3a401d8').addService(googletag.pubads());
+googletag.defineSlot('/6305169/Newsmax/Sections/globaltalk/globaltalk_Link_Bottom', [600,50], 'div-gpt-ad-2029ff90-d7a6-4d48-af07-74d015158e38').addService(googletag.pubads()).setTargeting('pos','BottomInArticleLink');
+googletag.defineSlot('/6305169/Newsmax/Sections/globaltalk/globaltalk_Link_Middle', [600,50], 'div-gpt-ad-eb4bc363-580e-4869-ae4a-914421ad0833').addService(googletag.pubads()).setTargeting('pos','MiddleInArticleLinkNM');
+googletag.defineSlot('/6305169/Newsmax/Sections/globaltalk/globaltalk_Link_Top', [600,50], 'div-gpt-ad-bf588b84-dc93-4168-814d-c64985b63423').addService(googletag.pubads()).setTargeting('pos','TopInArticleLink');
+googletag.defineSlot('/6305169/NewsmaxWorld/Top_Site_Placement', [728,124], 'div-gpt-ad-514c815c-768d-4c47-8692-a6f2a7eb8cd0').addService(googletag.pubads());
 googletag.pubads().setTargeting('promo_code','zhs3nmqq');
-googletag.pubads().setTargeting('nmid','963191');
-googletag.pubads().setTargeting('nmtags',['vote','by','mail','mail','in','ballot','election']);
-googletag.pubads().setTargeting('PubYear','2020');
-googletag.pubads().setTargeting('PubMonth','04');
+googletag.pubads().setTargeting('nmid','904359');
+googletag.pubads().setTargeting('nmtags',['trump','kim','dinner','before']);
+googletag.pubads().setTargeting('PubYear','2019');
+googletag.pubads().setTargeting('PubMonth','02');
 googletag.pubads().setTargeting('signedup','false');
 googletag.pubads().collapseEmptyDivs(true);
 googletag.enableServices();
 </script>
   <script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false"}]);</script>
-  <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="RRNR9-85ANW-4QF6A-ZJTU2-LGRHY",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,o,_,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",_=document.getElementsByTagName("script")[0],_.parentNode.insertBefore(r,_);try{o=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",o=r.contentWindow.document}o.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"RRNR9-85ANW-4QF6A-ZJTU2-LGRHY",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},o.write("<bo"+'dy onload="document._l();">'),o.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="ioyqg63impxvgxu2ytza-f-c179bd746-clientnsv4-s.akamaihd.net",i={"ak.v":"27","ak.cp":"599651","ak.ai":parseInt("390844",10),"ak.ol":"0","ak.cr":46,"ak.ipv":4,"ak.proto":"","ak.rid":"a47a4b","ak.r":25540,"ak.a2":e,"ak.m":"a","ak.n":"essl","ak.bpcip":"67.177.3.0","ak.cport":46136,"ak.gh":"104.99.239.79","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1587201266","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==B8Oq09gYALeAkqgU/uICDfT/pYcnbfselU9+pyuE3rdtrSQ8XOrXhKZJs6ES8DqkraNrBlg/GroBvA1OYQuR88eIQ4Q9//mw129ny15uJ4OFYc4wHshNZL4UR6AR91Abr351fT2+Or8VQaE3//8KeTvKuQAWbyuUFHd2/RGocB3ItG4dgepBvxL0KH8KReLXhwroPYb0X9JUIB7xLbYvcSNN8TkGe0RK+oNBNc1HWp2TUCxFNLJQr1ZyENMhXw3dfm3NErnh/UKguFODhgRrnOUlgP6sjejBuW2y3XAHDI5F6AfvLO7ONzR0/qNcl+fLQZ5+l9YRnfZLSD2rr6pzbjnCFovX8ap1tS5k+r9yCslXmhylU/5WHG9pNd9o9oTgkUfaYCePgyr9iW6O7MLVnMolp8ci9F4GWb1qI3tLlik=","ak.pv":"7"};if(""!==t)i["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))i["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
-<body class="LTR ENUS ContentBody" >
-    <form method="post" action="/politics/vote-by-mail-mail-in-ballot-election/2020/04/16/id/963191/" id="form">
+  <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="RRNR9-85ANW-4QF6A-ZJTU2-LGRHY",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,o,_,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",_=document.getElementsByTagName("script")[0],_.parentNode.insertBefore(r,_);try{o=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",o=r.contentWindow.document}o.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"RRNR9-85ANW-4QF6A-ZJTU2-LGRHY",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},o.write("<bo"+'dy onload="document._l();">'),o.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="ioyqg6yxijzluxu4a6pa-f-de4910826-clientnsv4-s.akamaihd.net",i={"ak.v":"27","ak.cp":"599651","ak.ai":parseInt("390844",10),"ak.ol":"0","ak.cr":63,"ak.ipv":4,"ak.proto":"","ak.rid":"1080b1d2","ak.r":34774,"ak.a2":e,"ak.m":"a","ak.n":"essl","ak.bpcip":"67.177.3.0","ak.cport":35038,"ak.gh":"23.66.114.182","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1587283870","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==OwOUt4Phl8OXf2pECXpynxUHZAveQydBD3t6de8MeN+g6je/GJAXxLCX0jQ8mQcLu6LZEwwy5SeqTmD11XH9Zk1sbL1Yk/8+nEKTm4cVMTEZ5RJ7p0c8for52T6vycOIZyRcOdInxSWC5dcRzsH9xuuBymG92ts7jZnlMYliAMhhnK6D8TTpPZVisbERU1J5cvjKaoAj5aSFGJzn2x2bIr7kjof7k8e8he73n6qsL0Xn9BWg+Fq1oVIQWd1xhMbTm+CRYMyQJq8rFByIt30xh0aX66mtxDDG7KVvU1yCMwVA+7umIJX2zDWpJZNPpA+kSXZhkf/8gcP+sC0S0XENaBKlAbNNHjsL+anbCLuf0iCEM1IFvLdTOyGbkgWu6/O8j5jsCWSopt0PgnX4HGnCnOBm5rC0qEMWXpbo5ebRCZw=","ak.pv":"7"};if(""!==t)i["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))i["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body class="LTR Safari Chrome Safari47 Chrome47 ENUS ContentBody" >
+    <form method="post" action="/world/globaltalk/trump-kim-dinner-before/2019/02/26/id/904359/" id="form">
+<div class="aspNetHidden">
 <input type="hidden" name="manScript_HiddenField" id="manScript_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
 
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form'];
+if (!theForm) {
+    theForm = document.form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=ajj-54hEFw_9s8vUhC7aqiqIMz0pNh5t4_SU2ofVsVwummsDI5FJiI5GycwOyKPz2gszbuHXhWsBOxBmW8C9TcQBcJ41&amp;t=637103166965614113" type="text/javascript"></script>
 
 
 <script type="text/javascript">
@@ -270,6 +266,7 @@ function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarnin
 //]]>
 </script>
 <script src="/ScriptResource.axd?d=ORS1ZbvWo5JoFtgtIbaJk_l4GDYQZ-6-uPUhpgpWELzpoe7mkzhyG3Hyr8NrKzS32AipLnDjLKQS992FG669kjEf19MFrmfAmXxuW3UZ2Ofnr9Cb0&amp;t=7c776dc1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=xjgJjMemZB5VupTqb9KqO7eS6UV7WpLygwUt4U2i-s3sMV9ogzXBiDazcof9GuztXaU2sshjeKDuawSKibas2jWT8hKhiXO-mf3jnX9SA80XVK7-HGql8Dbtgd3dGU6fvJAm2A2&amp;t=7c776dc1" type="text/javascript"></script>
 <script type="text/javascript">
 	//<![CDATA[
 
@@ -284,34 +281,50 @@ CMS.Application = {
 
 //]]>
 </script>
-<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A5343185" />
-<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
-    
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A5343185" />
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('manScript', 'form', ['tctxM',''], [], [], 90, '');
+//]]>
+</script>
+
     <div id="ctxM">
 
 </div>
     
-<!-- station: 08 -->
-<!-- BACKGROUND AD 
-<div id="bgleft" style="position:fixed;z-index:10000;top:0;left:0;width:250px;height:100%;cursor:pointer;display:block;"></div>
-<div id="bgright" style="position:fixed;z-index:10000;top:0;right:0;width:250px;height:100%;cursor:pointer;display:block;"></div>
--->
-
+<!-- station: 09 -->
 <!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WL644C" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WL644C"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-WL644C');</script>
 <!-- End Google Tag Manager -->
 
-<!-- Live Validation -->
-<script async type="text/javascript" src="/CMSScripts/Newsmax/livevalidation_standalone.compressed.js"></script>
+<!-- Main Wrapper -->
+<!--[if lte IE 8]>
+<style>
+.toolTip:before {
+display:none;
+}
+.toolTip:after {
+display:none;
+}
+</style>
+<![endif]-->
+<div id="mnMain">
 
-<input type="hidden" value='www.newsmax.com' id="Sitepath" />
-<!--Main Wrapper -->
-<div id="nmMain">
-<div id="nmabm" style="text-align:center; padding:50px; display:none; font-size:28px; font-weight:bold;">
+<h1 id="adblockermessage" style="text-align:center; padding:50px; display:none">
 	<span style="border:2px solid #000; padding:20px;"></span>
-</div>
+</h1>
 
 <script src="/js/ads.adblock.js"></script>
 
@@ -330,7 +343,7 @@ AdBlockManagement = {
     text:'Please disable your Ad Blocker to view this site properly.',
     run:function(self){
         if(self.config.showmessage){
-            var msg = document.getElementById('nmabm');
+            var msg = document.getElementById('adblockermessage');
             msg.style.display='block';
             msg.getElementsByTagName('span')[0].innerText=this.text;
             (self.config.debug)?console.log('[ADBM] - Message added ' + this.text):[];
@@ -342,7 +355,7 @@ AdBlockManagement = {
   analytics:{
      createpixel:function(){
          var pixel = document.createElement('img');
-         pixel.src = 'https://sb.scorecardresearch.com/p?c1=2&c2=9248945&ns_site=newsmax&name=abl';
+         pixel.src = 'https://sb.scorecardresearch.com/p?c1=2&amp;c2=9248945&ns_site=newsmax&name=ad_blocker';
          pixel.height = 1;
          pixel.width=1;
          pixel.alt = '*';
@@ -368,34 +381,89 @@ AdBlockManagement.init();
 })();
 </script>
 
-<!-- Content container -->
-<div class="mainDiv">
-<div>
-<div id="nmSiteNav">
-    <a href="/" id="nmSiteNavNewsmax" class="nmSiteNavBtn Newsmax_a" title="Newsmax" onMouseOver="jQuery(this).removeClass('Newsmax_a').addClass('Newsmax_i');" onMouseOut="jQuery(this).removeClass('Newsmax_i').addClass('Newsmax_a');" onclick="analyticsTracking(this, 'topNav');"></a>
+<input type="hidden" value='www.newsmax.com' id="Sitepath" />
+
+	<div class="TopZone">
+        <div style="clear:both"></div>    
+        <div class="TopZone" style="margin-bottom:3px;">
+            <div id="mnSiteNav">
+    <a href="/" id="mnSiteNavNewsmax" class="mnSiteNavBtn Newsmax_i" title="Newsmax" onMouseOver="jQuery(this).removeClass('Newsmax_i').addClass('Newsmax_a');" onMouseOut="jQuery(this).removeClass('Newsmax_a').addClass('Newsmax_i');" onclick="analyticsTracking(this, 'topNav');"></a>
     
-<a style="color: #CCC;" href="http://www.newsmaxtv.com/" id="nmSiteNavNewsmaxTV" class="nmSiteNavBtn TV_i" title="TV" onMouseOver="jQuery(this).removeClass('TV_i').addClass('TV_a');" onMouseOut="jQuery(this).removeClass('TV_a').addClass('TV_i');" onclick = "analyticsTracking(this, 'topNav');"></a>
+    <a href="http://www.newsmaxtv.com/" id="mnSiteNavNewsmaxTV" class="mnSiteNavBtn TV_i" title="TV" onMouseOver="jQuery(this).removeClass('TV_i').addClass('TV_a');" onMouseOut="jQuery(this).removeClass('TV_a').addClass('TV_i');" onclick="analyticsTracking(this, 'topNav');"></a>
 
-<a  href="/health/" id="nmSiteNavNewsmaxHealth" class="nmSiteNavBtn Health_i" title="Health" onMouseOver="jQuery(this).removeClass('Health_i').addClass('Health_a');" onMouseOut="jQuery(this).removeClass('Health_a').addClass('Health_i');" onclick = "analyticsTracking(this, 'topNav');"></a> 
+    <a href="/health/" class="mnSiteNavBtn Health_i" title="Health" onMouseOver="jQuery(this).removeClass('Health_i').addClass('Health_a');" onMouseOut="jQuery(this).removeClass('Health_a').addClass('Health_i');" onclick="analyticsTracking(this, 'topNav');"></a>
+            
+    <a href="/finance/" class="mnSiteNavBtn Money_i" title="Money" onMouseOver="jQuery(this).removeClass('Money_i').addClass('Money_a');" onMouseOut="jQuery(this).removeClass('Money_a').addClass('Money_i');" onclick="analyticsTracking(this, 'topNav');"></a>
+    
 
-<a href="/finance/" id="nmSiteNavNewsmaxMoney" class="nmSiteNavBtn Money_i" title="Finance" onMouseOver="jQuery(this).removeClass('Money_i').addClass('Money_a');" onMouseOut="jQuery(this).removeClass('Money_a').addClass('Money_i');" onclick = "analyticsTracking(this, 'topNav');"></a>
-
-<a href="/world/" id="nmSiteNavNewsmaxWorld" class="nmSiteNavBtn World_i" title="World" onMouseOver="jQuery(this).removeClass('World_i').addClass('World_a');" onMouseOut="jQuery(this).removeClass('World_a').addClass('World_i');" onclick = "analyticsTracking(this, 'topNav');"></a>
-
+    <a href="/world/" class="mnSiteNavBtn World_a" title="World" onMouseOver="jQuery(this).removeClass('World_a').addClass('World_i');" onMouseOut="jQuery(this).removeClass('World_i').addClass('World_a');" onclick="analyticsTracking(this, 'topNav');"></a>
+ 
     <div id="mobileSiteLink" style="display: none;">
-       <a href="/?vtype=mob" id="nmSiteNavNewsmaxMobile" title="ViewMobile" class="linkMobileSite" onclick = "analyticsTracking(this, 'topNav');">View Newsmax Mobile</a>
+       <a href="/?vtype=mob" class="linkMobileSite" onclick="analyticsTracking(this, 'topNav');">View Newsmax Mobile</a>
     </div>
-</div><div id="HeaderMain">
-	<a href="/" id="nmNewsmaxLogo" title="NEWSMAX - Independent American.">
-        	
-	</a>
-</div><div id="NewsmaxHeader">
-	<div id="nmTodaysDate"> </div>
+</div>
+    <!-- BEGIN Soft Click add-on to Comscore -->
+    <script type="text/javascript">
+        // <![CDATA[
+        function ns_onclick(q, f, u, b, o) { var i = window, l = i.ns_p, m = l && l.src, s = "&ns_", h = document.referrer.replace(/\/$/, ""), f = f || q.href, o = o || "", j = { t: 0, o: 0 }, e = eventURL = c1_match = c2_match = "", c = /\bc1=[^&]+\b/i, g = /\bc2=[^&]+\b/i, p = (i.encodeURIComponent ? encodeURIComponent : escape), n = "3.1312.06"; if (m && (c1_match = l.src.match(c)) && !c.test(u)) { e += "&" + c1_match } if (m && (c2_match = l.src.match(g)) && !g.test(u)) { e += "&" + c2_match } if (m) { var t = l.src, k = t.indexOf("?"); eventURL = t.substr(0, k > -1 ? k : t.length) + "?" } eventURL = [eventURL, u, e, s, "type=", b, s, "action=view", s, "_t=", +new Date, s, "sc_sv=", n, s, "sc_href=", p(f).substr(0, 1000), h ? "&c9=" + p(h) : ""].join(""); var r = q && q.target ? q.target.replace(/^_/, "") : "self", d = new Image(); if (i[r]) { j.t = (function (w, v, a) { return function () { clearTimeout(a.o); d.onload = d.onerror = function () { return }; i[w].location.href = v } })(r, f, j); j.o = setTimeout(j.t, 5000); d.onload = d.onerror = j.t } else { i.open(f, r, o) } d.src = eventURL; return false };
+        // ]]>
+    </script>
+
+    <!-- END Soft Click add-on to Comscore -->
+
+    <!-- Begin comScore Inline Tag - Function and No Script Tag - 1.1111.15 -->
+    <script type="text/javascript">
+        // <![CDATA[
+        function udm_(a) { var b = "comScore=", c = document, d = c.cookie, e = "", f = "indexOf", g = "substring", h = "length", i = 2048, j, k = "&ns_", l = "&", m, n, o, p, q = window, r = q.encodeURIComponent || escape; if (d[f](b) + 1) for (o = 0, n = d.split(";"), p = n[h]; o < p; o++) m = n[o][f](b), m + 1 && (e = l + unescape(n[o][g](m + b[h]))); a += k + "_t=" + +(new Date) + k + "c=" + (c.characterSet || c.defaultCharset || "") + "&c8=" + r(c.title) + e + "&c7=" + r(c.URL) + "&c9=" + r(c.referrer), a[h] > i && a[f](l) > 0 && (j = a[g](0, i - 8).lastIndexOf(l), a = (a[g](0, j) + k + "cut=" + r(a[g](j + 1)))[g](0, i)), c.images ? (m = new Image, q.ns_p || (ns_p = m), m.src = a) : c.write("<", "p", "><", 'img src="', a, '" height="1" width="1" alt="*"', "><", "/p", ">") }
+        udm_('http' + (document.location.href.charAt(4) == 's' ? 's://sb' : '://b') + '.scorecardresearch.com/b?c1=2&c2=9248945&ns_site=newsmax&name=nmx.world.article.trump_and_kim_to_have_dinner_before_series_of_official_talks_904359&category=world&page_type=article&content_type=article&content_title=trump_and_kim_to_have_dinner_before_series_of_official_talks&content_id=904359&content_source=associated press');
+        // ]]>
+    </script>
+    <noscript>
+        <p>
+            <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=9248945&ns_site=newsmax&name=nmx.world.article.trump_and_kim_to_have_dinner_before_series_of_official_talks_904359&category=world&page_type=article&content_type=article&content_title=trump_and_kim_to_have_dinner_before_series_of_official_talks&content_id=904359&content_source=associated press" height="1" width="1" alt="*">
+        </p>
+    </noscript>
+    <!-- End comScore Inline Tag -->
+    <script type="text/javascript">
+       // jQuery(document).ready(function () {
+          
+           digitalData.page = { 
+pageInfo: { 
+pageName: "nmx:world:article:trump_and_kim_to_have_dinner_before_series_of_official_talks:904359",
+pageType: "article",
+primaryCategory: "world",
+subCategory1: "n/a",
+subCategory2: "n/a",
+reportSuiteID: "nmincnewsmaxproduction",
+status: "logged-out"
+}
+, content: { 
+contentType: "article",
+contentID: "904359",
+contentName: "trump_and_kim_to_have_dinner_before_series_of_official_talks"
+} 
+};
+          
+
+       // });
+    </script>
+
+
+        </div>
+        <!-- Content container -->
+        <div class="mainDiv">
+             <div id="HeaderMain">
+       <a href="/world" id="mnNewsmaxLogo" title="NEWSMAX - Independent American.">         
+            
+</a>
+</div><div id="MoneynewsHeader">
+	<div id="mnTodaysDate"> </div>
 	<div id="nmSearchCont">
-		<input class="nmSearchInput" title="Search"  placeholder="Search Newsmax" type="text" name="q" id="q" />
-		<a  id="nmBtnSearch"> </a> </div>
+		<input class="nmSearchInput" title="Search"  placeholder="Search Newsmax" type="text" id="q" name="q" />
+		<a  id="nmBtnSearch"></a> </div>
+
 	<div class="clear"> </div>
-	<div class="nmNavSepTop"></div>
+	<div class="nmNavSep"></div>
 	<div id="nmMainNav">
 		<ul>
 			<li><a id="nmHomeLink" href="/" class="nmMainNavLinkSel"  onclick = "analyticsTracking(this, 'MainNav');"> Home </a></li>
@@ -431,85 +499,23 @@ AdBlockManagement.init();
                 class="nmMainNavLink"  onclick = "analyticsTracking(this, 'MainNav');">Sci &amp; Tech </a></li>
 		</ul>
 	</div>
-	<!-- <div id="nmMainNavBot">
-    </div> -->
-	<div class="nmNavSepBot"></div>
+	<div class="nmNavSep"></div>
 </div>
-    <!-- BEGIN Soft Click add-on to Comscore -->
-    <script type="text/javascript">
-        // <![CDATA[
-        function ns_onclick(q, f, u, b, o) { var i = window, l = i.ns_p, m = l && l.src, s = "&ns_", h = document.referrer.replace(/\/$/, ""), f = f || q.href, o = o || "", j = { t: 0, o: 0 }, e = eventURL = c1_match = c2_match = "", c = /\bc1=[^&]+\b/i, g = /\bc2=[^&]+\b/i, p = (i.encodeURIComponent ? encodeURIComponent : escape), n = "3.1312.06"; if (m && (c1_match = l.src.match(c)) && !c.test(u)) { e += "&" + c1_match } if (m && (c2_match = l.src.match(g)) && !g.test(u)) { e += "&" + c2_match } if (m) { var t = l.src, k = t.indexOf("?"); eventURL = t.substr(0, k > -1 ? k : t.length) + "?" } eventURL = [eventURL, u, e, s, "type=", b, s, "action=view", s, "_t=", +new Date, s, "sc_sv=", n, s, "sc_href=", p(f).substr(0, 1000), h ? "&c9=" + p(h) : ""].join(""); var r = q && q.target ? q.target.replace(/^_/, "") : "self", d = new Image(); if (i[r]) { j.t = (function (w, v, a) { return function () { clearTimeout(a.o); d.onload = d.onerror = function () { return }; i[w].location.href = v } })(r, f, j); j.o = setTimeout(j.t, 5000); d.onload = d.onerror = j.t } else { i.open(f, r, o) } d.src = eventURL; return false };
-        // ]]>
-    </script>
-
-    <!-- END Soft Click add-on to Comscore -->
-
-    <!-- Begin comScore Inline Tag - Function and No Script Tag - 1.1111.15 -->
-    <script type="text/javascript">
-        // <![CDATA[
-        function udm_(a) { var b = "comScore=", c = document, d = c.cookie, e = "", f = "indexOf", g = "substring", h = "length", i = 2048, j, k = "&ns_", l = "&", m, n, o, p, q = window, r = q.encodeURIComponent || escape; if (d[f](b) + 1) for (o = 0, n = d.split(";"), p = n[h]; o < p; o++) m = n[o][f](b), m + 1 && (e = l + unescape(n[o][g](m + b[h]))); a += k + "_t=" + +(new Date) + k + "c=" + (c.characterSet || c.defaultCharset || "") + "&c8=" + r(c.title) + e + "&c7=" + r(c.URL) + "&c9=" + r(c.referrer), a[h] > i && a[f](l) > 0 && (j = a[g](0, i - 8).lastIndexOf(l), a = (a[g](0, j) + k + "cut=" + r(a[g](j + 1)))[g](0, i)), c.images ? (m = new Image, q.ns_p || (ns_p = m), m.src = a) : c.write("<", "p", "><", 'img src="', a, '" height="1" width="1" alt="*"', "><", "/p", ">") }
-        udm_('http' + (document.location.href.charAt(4) == 's' ? 's://sb' : '://b') + '.scorecardresearch.com/b?c1=2&c2=9248945&ns_site=newsmax&name=nmx.politics.article.study_universal_vote_by_mail_doesnt_give_either_party_an_advantage_963191&category=politics&page_type=article&content_type=article&content_title=study_universal_vote_by_mail_doesnt_give_either_party_an_advantage&content_id=963191&content_source=newsmax');
-        // ]]>
-    </script>
-    <noscript>
-        <p>
-            <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=9248945&ns_site=newsmax&name=nmx.politics.article.study_universal_vote_by_mail_doesnt_give_either_party_an_advantage_963191&category=politics&page_type=article&content_type=article&content_title=study_universal_vote_by_mail_doesnt_give_either_party_an_advantage&content_id=963191&content_source=newsmax" height="1" width="1" alt="*">
-        </p>
-    </noscript>
-    <!-- End comScore Inline Tag -->
-    <script type="text/javascript">
-       // jQuery(document).ready(function () {
-          
-           digitalData.page = { 
-pageInfo: { 
-pageName: "nmx:politics:article:study_universal_vote_by_mail_doesnt_give_either_party_an_advantage:963191",
-pageType: "article",
-primaryCategory: "politics",
-subCategory1: "n/a",
-subCategory2: "n/a",
-reportSuiteID: "nmincnewsmaxproduction",
-status: "logged-out"
-}
-, content: { 
-contentType: "article",
-contentID: "963191",
-contentName: "study_universal_vote_by_mail_doesnt_give_either_party_an_advantage"
-} 
-};
-          
-
-       // });
-    </script>
-
-
-</div>
-
-<!-- Content -->
-<div class="zoneMainContent">
-                        
-<div id="nmBreakingNewsCont">
-    	<div id="nmBreakingNewsTitle">
+            <div id="txtBreakNews" class="breakingnewssection" >
+<div id="mnBreakingNewsCont">
+    	<div id="mnBreakingNewsTitle">
         	Special
         </div>  
-        <div id="nmBreakingNewsArrow"></div>      
-    	<div id="nmBreakingText">
-
-        	<h2><a href='https://w3.franklinprosperityreport.com/Finance/FPR/Offers/Baby-Boomer-V2?dkt_nbr=0701072wfwbn' target='_blank'>Boost Your Social Security Payments by $103,200 in Retirement</a></h2>
-        </div> 
+        <div id="mnBreakingNewsArrow"></div>      
+        	<h2><a href='https://w3.brownsteinhealth.com/Health/DRB/LP/Brownstein-Prostate-Intl?dkt_nbr=0704076x2aw4'>The 5 Early Warning Signs of Prostate Cancer</a></h2>
     </div>
- 
+</div>
+            <!-- Content -->
+            <div class="zoneMainContent">
+                
 
+<link type="text/css" rel="stylesheet" href="/CMSPages/GetCSS.aspx?stylesheetname=MNDialogs" />
 
-<!--[if lte IE 8]>
-<style>
-.toolTip:before {
-display:none;
-}
-.toolTip:after {
-display:none;
-}
-</style>
-<![endif]-->
 <div id="artPgWrapperDiv"> 
 	
 	<!-- Left Column Start -->
@@ -522,14 +528,14 @@ display:none;
                 <!-- Breadcrumbs Start -->
         
             <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-            <a class="breadCrumb" href="https://www.newsmax.com/" itemprop="item" ><span itemprop="name">Home</span></a>
+            <a class="breadCrumb" href="https://www.newsmax.com/world/" itemprop="item" ><span itemprop="name">Home</span></a>
                 <meta itemprop="position" content="1" />
                 </span>
         
             |
         
             <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-            <a class="breadCrumb" href="https://www.newsmax.com/politics/" itemprop="item" ><span itemprop="name">Politics</span></a>
+            <a class="breadCrumb" href="https://www.newsmax.com/world/globaltalk/" itemprop="item" ><span itemprop="name">GlobalTalk</span></a>
                 <meta itemprop="position" content="2" />
                 </span>
         
@@ -566,24 +572,32 @@ display:none;
     Tags: 
     
             <a class='hotLinks'
-                href="/hottopics/topic/2020-elections/383/"
-                >2020 Elections</a>
+                href="/hottopics/topic/north-korea/72/"
+                >North Korea</a>
         | 
             <a class='hotLinks'
-                href="/hottopics/topic/donald-trump/138/"
-                >Donald Trump</a>
-        | 
-            <a class='hotLinks'
-                href="#"
-                onclick="SearchTages('vote-by-mail','isKeyWords');">vote-by-mail</a>
+                href="/hottopics/topic/trump-administration/246/"
+                >Trump Administration</a>
         | 
             <a class='hotLinks'
                 href="#"
-                onclick="SearchTages('mail-in ballot','isKeyWords');"> mail-in ballot</a>
+                onclick="SearchTages('trump','isKeyWords');">trump</a>
         | 
             <a class='hotLinks'
                 href="#"
-                onclick="SearchTages('election','isKeyWords');"> election</a>
+                onclick="SearchTages('kim','isKeyWords');"> kim</a>
+        | 
+            <a class='hotLinks'
+                href="#"
+                onclick="SearchTages('dinner','isKeyWords');"> dinner</a>
+        | 
+            <a class='hotLinks'
+                href="#"
+                onclick="SearchTages('before','isKeyWords');"> before</a>
+        | 
+            <a class='hotLinks'
+                href="#"
+                onclick="SearchTages('talks','isKeyWords');"> talks</a>
         
     <script type="text/javascript">
         function SearchTages(tageName, cssClass) {
@@ -614,23 +628,23 @@ display:none;
             </div>
             <!-- Image Above Headline End -->
 
-            <h1 class="article" itemprop="headline">Study: Universal Vote-by-Mail Doesn't Give Either Party an Advantage</h1>
+            <h1 class="article" itemprop="headline">Trump and Kim to Have Dinner before Series of Official Talks</h1>
 
             <!-- Image Below Headline Start -->
             <div id="imageMid" class="artImageContainer">
-                <img src="https://www.newsmax.com/CMSPages/GetFile.aspx?guid=bb0a0f90-5fc4-4b55-bb74-fe48e7172a1b&amp;SiteName=Newsmax&amp;maxsidesize=600" alt="mail in ballot labeled as an official ballot of utah is put into an organge container at the election office" />
+                <img src="https://www.newsmax.com/CMSPages/GetFile.aspx?guid=2ec051f3-07b1-4caf-992b-30eb1c7ac75c&amp;SiteName=Newsmax&amp;maxsidesize=600" alt="Trump and Kim to Have Dinner before Series of Official Talks" />
             </div>
 
             <div class="artCaptionContainer">
-                An employee at the Utah County Election office puts mail-in ballots into a container to register the vote in the midterm elections on November 6, 2018 in Provo, Utah. (George Frey/Getty Images)
+                
             </div>
             <!-- Image Below Headline End -->
 
             <div style="float: left; width: 500px;">
                 <p style="margin-top: 5px;">
                     
-                    <span class="artPgByline">By <span itemprop="author">Marisa Herman </span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-                    <span class="artPgDate">Thursday, 16 April 2020 01:47 PM</span>
+                    <span class="artPgByline"><span style="display:none" itemprop="author">JONATHAN LEMIRE</span></span>
+                    <span class="artPgDate">Tuesday, 26 February 2019 05:43 AM</span>
                     
                     <div style="clear: both;"></div>
                 </p>
@@ -733,10 +747,8 @@ display:none;
     </div>
 
     <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_nmShare_toolbarContainer" class="toolbarContainer">
-        <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_nmShare_divCopyLink" class="tool floatLeft">
-            <a href="#" rel="CopyLink" class="getLink" data-domain='www.newsmax.com'>Short URL</a>|
-        </div>
         
+        <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_nmShare_divEmpty" style="width:70px;" class="tool floatLeft"></div>
         <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_nmShare_divFwdPage" class="tool floatLeft">
             <a href="#" class="emailFwPrint" rel="ForwardPage" >Email Article</a>|
         </div>
@@ -747,7 +759,7 @@ display:none;
             <a href="#" class="emailFwPrint" rel="EmailUs">Contact</a>|
         </div>
         <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_nmShare_divPrint" class="tool floatLeft">
-            <a href="javascript:printPage(963191);" class="emailFwPrint">Print</a>|
+            <a href="javascript:printPage(904359);" class="emailFwPrint">Print</a>|
         </div>
         <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_nmShare_divTextresize" class="floatLeft">
             &#160;&#160;&#160;&#160;<a href="#textSize" class="textSizeLink textReduce" rel="textSize">A</a> &#160; 
@@ -826,19 +838,60 @@ display:none;
                 
                 
                 <div id="mainArticleDiv" itemprop="articleBody">
-                    <p>Despite President Donald Trump&#39;s claims that&nbsp;there would &ldquo;never be a Republican elected in this country again&rdquo; if there was a universal vote-by-mail system in place, a new&nbsp;study suggests neither party would have an&nbsp;advantage.</p>
+                    <p>Redefining success, President Donald Trump headed to his second meeting with North Korea&#39;s Kim Jong Un, determined to tamp down expectations that he&#39;ll achieve big strides toward denuclearization. Yet he was still eager to claim an attention-grabbing victory to offset the political turmoil he faces at home.</p>
 
-<p>A <a href="http://www.andrewbenjaminhall.com/Thompson_et_al_VBM.pdf" target="_blank">study</a> from Stanford University&rsquo;s Democracy and Polarization Lab released Wednesday indicates a vote-by-mail option doesn&rsquo;t benefit&nbsp;either major political&nbsp;party, <a href="https://thehill.com/homenews/campaign/493133-study-finds-universal-vote-by-mail-doesnt-provide-advantage-to-either-gop" target="_blank">The Hill</a> reports.&nbsp;</p>
+<p>Trump is set to land in Vietnam late Tuesday and will have meetings with the host country&#39;s president and prime minister Wednesday before sitting down later with Kim for a private dinner.</p>
 
-<p>With social distancing measures still in place to curb the spread of coronavirus, health experts and some government officials have called for the expansion of mail-in voting options. Opponents to voting-by-mail argue&nbsp;it disadvantages their political party and will increase voter fraud.&nbsp;</p>
+<p>Trump will be joined at the dinner by Secretary of State Mike Pompeo and White House chief of staff Mick Mulvaney, the White House said Monday. Kim also will have two aides with him, and there will be translators for both sides. Trump and Kim, who arrived in Vietnam Tuesday, will have a series of official meetings Thursday.</p>
 
-<p>Researchers compared results in counties that adopted a vote-by-mail program to those within the same state that did not. The study compared county-level election results and public party registration data for voters in Utah and California from 1996-2018.</p>
+<p>Trump laid out ultimate goals for both the U.S. and Kim in an appearance before the nation&#39;s governors Monday before boarding Air Force One to fly to Vietnam: &quot;We want denuclearization, and I think he&#39;ll have a country that will set a lot of records for speed in terms of an economy.&quot;</p>
 
-<p>The results found &ldquo;a truly negligible effect&rdquo; on partisan turnout rates with the addition of a vote-by-mail option, with turnout slightly up across the entire voting-age population.</p>
+<p>Worries abound across world capitals about what Trump might be willing to give up in the name of a win, but there seems less mystery about his North Korean counterpart. Survival of the Kim regime is always the primary concern.</p>
 
-<p>&ldquo;By comparing counties that adopt a vote-by-mail program to counties within the same state that do not adopt the program, we are able to compare the election outcomes and turnout behavior of voters who have different vote-by-mail accessibility but who have the same set of candidates on the ballot for statewide races,&rdquo; they wrote.</p>
+<p>Trump was the driving force behind this week&#39;s summit, aiming to re-create the global spectacle of his first meeting with Kim last year. But that initial summit in Singapore yielded few concrete results, and the months that followed have produced little optimism about what will be achieved in the sequel.</p>
 
-<div>
+<p>Trump is publicly unconcerned.</p>
+
+<p>He once warned that North Korea&#39;s arsenal posed such a threat to humanity that he might have no choice but to rain &quot;fire and fury&quot; on the nation. However, in the leadup to the new summit, he&#39;s proclaimed himself in no hurry for Pyongyang to prove it is abandoning its weapons.</p>
+
+<p>&quot;I&#39;m not in a rush. I don&#39;t want to rush anybody, I just don&#39;t want testing. As long as there&#39;s no testing, we&#39;re happy,&quot; Trump told the governors on Sunday.</p>
+
+<p>In fact, he is ready to write himself into the history books before he and Kim even shake hands in Hanoi.</p>
+
+<p>&quot;If I were not elected president, you would have been in a war with North Korea,&quot; Trump said last week. &quot;We now have a situation where the relationships are good &mdash; where there has been no nuclear testing, no missiles, no rockets.&quot;</p>
+
+<p>While Trump was airborne, Kim&#39;s armored train was on the move in China, bound toward Vietnam&#39;s capital. Vietnamese officials promised security at &quot;the maximum level.&quot; Reporters from 40 nations were expected to transmit the story to the world.</p>
+
+<p>Kim inherited a nascent nuclear program from his father, and after years of accelerated effort and fighting through crippling sanctions, he built an arsenal that demonstrated the potential to rocket a thermonuclear weapon to the mainland United States. That is the fundamental reason Washington now sits at the negotiating table.</p>
+
+<p>Kim, his world standing elevated after receiving an audience with a U.S. president, has yet to show a convincing sign that he is willing to deal away an arsenal that might provide a stronger guarantee of survival than whatever security assurance the United States could provide. The North Koreans have largely eschewed staff-level talks, pushing for discussions between Trump and Kim.</p>
+
+<p>Though details of the summit remain closely held, the two leaders are expected to meet at some point one-on-one, joined only by translators.</p>
+
+<p>The easing of tension between the two nations, Trump and his allies contend, stems from the U.S. president&#39;s own unorthodox and unpredictable style of diplomacy. Often prizing personal rapport over long-held strategic interests, Trump has pointed to his budding relationship with the young and reclusive leader, frequently showing visitors to the Oval Office his flattering letters from Kim.</p>
+
+<p>Trump, who has long declared that North Korea represented the gravest foreign threat of his presidency, told reporters recently that his efforts to defang Pyongyang had moved Japanese Prime Minister Shinzo Abe to nominate him for a Nobel Peace Prize, something Abe would not confirm or deny.</p>
+
+<p>Four main goals emerged from the first Trump-Kim summit: establishing new relations between the nations, building a new peace on the entire Korean Peninsula, completing denuclearization of the peninsula and recovering U.S. POW/MIA remains from the Korean War.</p>
+
+<p>While some remains have been returned to the United States, little has been achieved on the other points. Korean and American negotiators have not settled on either the parameters of denuclearization or a timetable for the removal of both Korean weapons and American sanctions.</p>
+
+<p>&quot;The key lessons of Singapore are that President Trump sees tremendous value in the imagery of diplomacy and wants to be seen as a bold leader, even if the substance of the diplomacy is far behind the pageantry,&quot; said Abraham Denmark, director of the Asia Program at the Woodrow Wilson International Center for Scholars.</p>
+
+<p>U.S. intelligence officials testified before Congress last month that it remains unlikely Kim will fully dismantle his arsenal. And many voices in the Trump administration, including National Security Adviser John Bolton, have expressed skepticism that North Korea would ever live up to a deal.</p>
+
+<p>Mark Chinoy, senior fellow at U.S.-China Institute at the University of Southern California, said that after generations of hostility, the convivial atmosphere of Singapore &quot;can&#39;t be discounted.&quot; But Chinoy noted that Trump had agreed to North Korean&#39;s &quot;formulation of &#39;denuclearization of the Korean peninsula,&#39; which Pyongyang has long made clear meant an end to the US security alliance with South Korea and an end to the U.S. nuclear umbrella intended to defend South Korea and Japan.&quot;</p>
+
+<p>After the last summit, Trump unilaterally suspended some military drills with South Korea, alarming some in Seoul and at the Pentagon. But he was insistent this week that he would not draw down U.S. troops from South Korea. And American officials, even as they hint at a relaxed timetable for Pyongyang to account for its full arsenal, have continued to publicly insist they would not favor easing sanctions on North Korea until denuclearization is complete.</p>
+
+<p>A year ago, North Korea suspended its nuclear and long-range missile tests and said it dismantled its nuclear testing ground, but those measures were not perceived as meaningful reductions. Experts believe Kim, who is enjoying warmer relations with South Korea and the easing of pressure from Russia and China, will seek a U.S. commitment for improved bilateral relations and partial sanctions relief while trying to minimize any concessions on his nuclear facilities and weapons.</p>
+
+<p>&quot;Kim is doing pretty well as it is,&quot; said Scott Seaman of the Eurasia Group. &quot;The threat of a U.S. military strike is essentially zero, Kim&#39;s diplomatic charm offensive has made him into a bigger player on the world stage, and he continues to whittle away at international commitment to sanctions.&quot;</p>
+
+<p>The Hanoi summit comes at a politically uncertain time for Trump.</p>
+
+<p>His potential 2020 foes have begun unleashing attacks. The newly elected Democratic House has begun its investigations of the president, calling his former legal fixer, Michael Cohen, to appear before Congress while Trump is in Vietnam. And special counsel Robert Mueller, who has investigated possible ties between Trump&#39;s campaign Russian election interference, may finalize his report within days of the president&#39;s return to the United States.</p>
+
 
                     
                 </div>
@@ -851,13 +904,7 @@ display:none;
                     
                 </div>
                 <div id="divArticleRelatedStories">
-                    <strong>Related Stories:</strong></div>
-
-<ul>
-	<li><strong><a href="https://www.newsmax.com/newsfront/democrats-presidential-election-vote-by-mail/2020/04/13/id/962614/">Dems Push for Expanded Voting Options for 2020</a></strong></li>
-	<li><strong><a href="https://www.newsmax.com/politics/election-mail-in-voting-absentee-ballot-voter-fraud/2020/04/09/id/962057/">Trump Bashes &#39;Mail-In Voting&#39; While Pushing Absentee Ballots</a></strong></li>
-</ul>
-
+                    
                 </div>
                 <div id="divSingleQuestionPool">
                     <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_pnlSingleQuestionPool">
@@ -869,7 +916,7 @@ display:none;
                 
 
                 <p class="articleCopyright">
-                    &copy; 2020 Newsmax. All rights reserved.
+                    &copy; Copyright 2020 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.
                 </p>
                 <div class="commentlink" rel="clink"><a class="CommentRef" href="#CommentSection">Click Here</a> to comment on this article</div>
             
@@ -971,10 +1018,8 @@ display:none;
     </div>
 
     <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_NMSharebar1_toolbarContainer" class="toolbarContainer">
-        <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_NMSharebar1_divCopyLink" class="tool floatLeft">
-            <a href="#" rel="CopyLink" class="getLink" data-domain='www.newsmax.com'>Short URL</a>|
-        </div>
         
+        <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_NMSharebar1_divEmpty" style="width:70px;" class="tool floatLeft"></div>
         <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_NMSharebar1_divFwdPage" class="tool floatLeft">
             <a href="#" class="emailFwPrint" rel="ForwardPage" >Email Article</a>|
         </div>
@@ -985,7 +1030,7 @@ display:none;
             <a href="#" class="emailFwPrint" rel="EmailUs">Contact</a>|
         </div>
         <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_NMSharebar1_divPrint" class="tool floatLeft">
-            <a href="javascript:printPage(963191);" class="emailFwPrint">Print</a>|
+            <a href="javascript:printPage(904359);" class="emailFwPrint">Print</a>|
         </div>
         <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_NMSharebar1_divTextresize" class="floatLeft">
             &#160;&#160;&#160;&#160;<a href="#textSize" class="textSizeLink textReduce" rel="textSize">A</a> &#160; 
@@ -1045,35 +1090,35 @@ display:none;
         </div>
         <!-- FB Like then Share -->
 
-        <input type="hidden" name="p$lt$zoneContent$pageplaceholder$p$lt$zoneLeft$NewsmaxArticleLayout$hdnNMID" id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_hdnNMID" value="963191" /><input type="hidden" name="p$lt$zoneContent$pageplaceholder$p$lt$zoneLeft$NewsmaxArticleLayout$hdnSectionName" id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_hdnSectionName" value="politics" /><input type="hidden" name="p$lt$zoneContent$pageplaceholder$p$lt$zoneLeft$NewsmaxArticleLayout$hdnSectionType" id="hdnSectionType" />
+        <input type="hidden" name="p$lt$zoneContent$pageplaceholder$p$lt$zoneLeft$NewsmaxArticleLayout$hdnNMID" id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_hdnNMID" value="904359" /><input type="hidden" name="p$lt$zoneContent$pageplaceholder$p$lt$zoneLeft$NewsmaxArticleLayout$hdnSectionName" id="p_lt_zoneContent_pageplaceholder_p_lt_zoneLeft_NewsmaxArticleLayout_hdnSectionName" value="globaltalk" /><input type="hidden" name="p$lt$zoneContent$pageplaceholder$p$lt$zoneLeft$NewsmaxArticleLayout$hdnSectionType" id="hdnSectionType" />
         <div style="display: none" itemprop="articleSection">
-            Politics
+            GlobalTalk
         </div>
         <div style="display: none" itemprop="description">
-            Despite President Donald Trump's claims that there would "never be a Republican elected in this country again" if there was a universal vote-by-mail system in place, a new study suggests neither party would be advantageous. A study from Stanford University's Democracy and...
+            Redefining success, President Donald Trump headed to his second meeting with North Korea's Kim Jong Un, determined to tamp down expectations that he'll achieve big strides toward denuclearization. Yet he was still eager to claim an attention-grabbing victory to offset the...
         </div>
         <div style="display: none" itemprop="keywords">
-            vote-by-mail, mail-in ballot, election
+            trump, kim, dinner, before, talks, summit
         </div>
         <div style="display: none" itemprop="thumbnailUrl">
-            <img itemprop="thumbnailUrl" src="https://www.newsmax.com/CMSPages/GetFile.aspx?guid=bb0a0f90-5fc4-4b55-bb74-fe48e7172a1b&amp;maxsidesize=120&amp;SiteName=Newsmax" alt="" />
+            <img itemprop="thumbnailUrl" src="https://www.newsmax.com/CMSPages/GetFile.aspx?guid=2ec051f3-07b1-4caf-992b-30eb1c7ac75c&amp;maxsidesize=120&amp;SiteName=Newsmax" alt="" />
         </div>
         <div style="display: none" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-            <meta itemprop="url" content="https://www.newsmax.com/CMSPages/GetFile.aspx?guid=bb0a0f90-5fc4-4b55-bb74-fe48e7172a1b&maxsidesize=120&SiteName=Newsmax" />
+            <meta itemprop="url" content="https://www.newsmax.com/CMSPages/GetFile.aspx?guid=2ec051f3-07b1-4caf-992b-30eb1c7ac75c&maxsidesize=120&SiteName=Newsmax" />
             <meta itemprop="width" content="300">
             <meta itemprop="height" content="300">
         </div>
         <div style="display: none" itemprop="wordcount">
-            221
+            1236
         </div>
         <div style="display: none" itemprop="datePublished">
-            Thursday, 16 April 2020 01:47 PM
+            Tuesday, 26 February 2019 05:43 AM
         </div>
         <div style="display: none" itemprop="dateCreated ">
-            2020-47-16
+            2019-43-26
         </div>
         <div style="display: none" itemprop="dateModified ">
-            Thursday, 16 April 2020 01:47 PM
+            Tuesday, 26 February 2019 05:43 AM
         </div>
         <div style="display: none" itemscope itemprop="publisher" itemtype="https://schema.org/Organization">
             <span itemprop="name">Newsmax Media, Inc.</span>
@@ -1086,29 +1131,53 @@ display:none;
         </div>
     </div>
 
-<div class="nocontent"><div id="dfp1" class="inline-dfp">
-    <div id="div-gpt-ad-4e874c1c-17ff-4d4e-b337-99109b2ccb44">
+<script>
+/*** Image management **/
+(function($){
+$.getScript('https://cdnjs.cloudflare.com/ajax/libs/imgLiquid/0.9.944/js/imgLiquid-min.js', function(){
+
+    $('#imageMid')
+
+    .css({
+       'width':'600px',
+       'height':'500px',
+     })
+
+    .imgLiquid({
+       fill: true,
+       horizontalAlign: "center",
+       verticalAlign: "top"
+    }); 
+
+});
+
+})(jQuery);
+
+// (04/20 - SD) if article has video, make div fit
+jQuery(document).ready(function(){
+    if (jQuery('#ooyalaplayer').length) {
+        jQuery('div.artImageContainer.imgLiquid_error').css("height","338px").removeClass("imgLiquid_error");
+    }
+});
+
+</script> <div class="nocontent"><div id="dfp1" class="inline-dfp">
+    <div id="div-gpt-ad-bf588b84-dc93-4168-814d-c64985b63423">
         
     </div>
 
 </div><div id="dfp2" class="inline-dfp">
-    <div id="div-gpt-ad-9a0504ac-22b5-499a-b9d3-887604ad390f">
+    <div id="div-gpt-ad-eb4bc363-580e-4869-ae4a-914421ad0833">
         
     </div>
 
 </div><div id="dfp3" class="inline-dfp">
-    <div id="div-gpt-ad-b3a149cc-0ff1-49fe-87dc-24b8b0919c5f">
-        
-    </div>
-
-</div><div id="dfpTV">
-    <div id="div-gpt-ad-0ec52459-0577-46a2-9371-53286d57bd57">
+    <div id="div-gpt-ad-2029ff90-d7a6-4d48-af07-74d015158e38">
         
     </div>
 
 </div><div class="nmSectionHead nmDefault">
 <div class="nmSectionHeadL"></div>
-<div class="nmSectionHeadLabel"> Around The Web </div>
+<div class="nmSectionHeadLabel"> Take A Look At This </div>
 <div class="nmSectionHeadR"></div>
 <div class="whatsThis">
 <a href="http://www.newsmax.com/advertise">Powered by Newsmax</a>
@@ -1116,10 +1185,27 @@ display:none;
 </div>
 
 <div id='nmSponsorList'>
-    <div class="sponsors" data-count="5"></div>
+    <div class="sponsors" data-count="4"></div>
 
-</div><!-- NEWSFEED START --><script src="//static.newsmaxfeednetwork.com/web-clients/bootloaders/pRezSathMmUrRgtiwVwvfl/bootloader.js" async="true" data-version="3" data-url="[PAGE_URL]" data-zone="[ZONE]" data-organic-clicks="[ORGANIC_TRACKING_PIXEL]" data-paid-clicks="[PAID_TRACKING_PIXEL]" data-display-within-iframe="true"></script><div class="clear"></div>
-<!-- NEWSFEED END-->
+</div><div id="dfpTV">
+    <div id="div-gpt-ad-4741b0eb-04f7-4094-92fd-31a4d3a401d8">
+        
+    </div>
+
+</div><div id="M5g6-BevHBsRVn0YW516ijkf06rNVGm-eSm9EXms" ></div>
+<script type="text/javascript" src="https://s.newsmaxfeednetwork.com/static/js/connectV5.js"></script>
+<script type="text/javascript" >
+NM.init({
+        WidgetID: "M5g6-BevHBsRVn0YW516ijkf06rNVGm-eSm9EXms",
+       Template:"NM01"
+    });
+</script><div class="clear"></div><script src="//static.newsmaxfeednetwork.com/web-clients/bootloaders/DmYkdSVr92In4FrsBHya9K/bootloader.js" async="true" data-version="3" data-url="[PAGE_URL]" data-zone="[ZONE]" data-organic-clicks="[ORGANIC_TRACKING_PIXEL]" data-paid-clicks="[PAID_TRACKING_PIXEL]" data-display-within-iframe="true"></script><style>
+    .my6_wrap > .my6_logo_bg {display:none !important;}
+    .my6_wrap ~ .my6_wrap > .my6_logo_bg {display:block !important;}
+	.my6_wrap ~ .my6_wrap > .my6_title_line {display:none !important;}
+	.my6_wrap ~ .my6_wrap > .my6-title-underline-linear-gradient {display:none !important;}
+	.yp6_nm01_desktop.my6_wrap .yp6_nm01_desktop.my6_list {margin-top:0 !important;}
+</style>
 <!-- NmModalDialog-->
 
 <!-- end NmModalDialog-->
@@ -1131,7 +1217,30 @@ display:none;
 <!-- end NmModalDialog-->
 <!-- NmModalDialog-->
 
-<!-- end NmModalDialog--><div id="CommentSection"></div>
+<!-- end NmModalDialog--><div class="DFP">
+    <div id="div-gpt-ad-1d0e3bd3-66be-4659-88bc-e6d9238293ee">
+        
+            <script type='text/javascript'>
+                googletag.cmd.push(function () {
+                    googletag.display('div-gpt-ad-1d0e3bd3-66be-4659-88bc-e6d9238293ee');
+            });
+            </script>
+        
+    </div>
+
+</div><div class="TVBannerHome">
+
+    <div id="div-gpt-ad-42eb8d33-7b58-430a-84f5-f22809dd2351">
+        
+            <script type='text/javascript'>
+                googletag.cmd.push(function () {
+                    googletag.display('div-gpt-ad-42eb8d33-7b58-430a-84f5-f22809dd2351');
+            });
+            </script>
+        
+    </div>
+
+</div><div id="CommentSection"></div>
 <div class="nmSectionHead nmDefault">
 <div class="nmSectionHeadL"></div>
 <div class="nmSectionHeadLabel"> Join the Newsmax Community</div>
@@ -1314,8 +1423,8 @@ display:none;
 
             var VUUKLE_CONFIG = {
                 apiKey: '3658ec56-b1fa-407e-9a1e-0c2c5ecd394a',
-                articleId: '963191',
-                img: 'https://www.newsmax.com/CMSPages/GetFile.aspx?guid=bb0a0f90-5fc4-4b55-bb74-fe48e7172a1b&SiteName=Newsmax&maxsidesize=600',
+                articleId: '904359',
+                img: 'https://www.newsmax.com/CMSPages/GetFile.aspx?guid=2ec051f3-07b1-4caf-992b-30eb1c7ac75c&SiteName=Newsmax&maxsidesize=600',
                 link: 'https://www.[url]',
                 host: 'newsmax.com',
                 ads: { enabled: false },
@@ -1377,7 +1486,7 @@ jQuery(document).ready(function(){
     $jQuery('html,body').animate({scrollTop: aTag.offset().top},'slow');
 }
 </script>
-<!-- LOCATION: /Manage/Articles/Template-Main --></div>  
+<!-- LOCATION: /World_Master/Article/ArticleTemplate --></div>   
 	</div>    
 	<!-- Left Column End --> 
 	
@@ -1393,7 +1502,7 @@ jQuery(document).ready(function(){
 <!-- Email Signup Box Start -->
 <!--  -->
 
-<input type="hidden" name="p$lt$zoneContent$pageplaceholder$p$lt$zoneRight$NMHomeEmailSignup$hdnPromoCode" id="p_lt_zoneContent_pageplaceholder_p_lt_zoneRight_NMHomeEmailSignup_hdnPromoCode" value="1023014253br" />
+<input type="hidden" name="p$lt$zoneContent$pageplaceholder$p$lt$zoneRight$NMHomeEmailSignup$hdnPromoCode" id="p_lt_zoneContent_pageplaceholder_p_lt_zoneRight_NMHomeEmailSignup_hdnPromoCode" value="102334v54vn0" />
 <input type="hidden" name="p$lt$zoneContent$pageplaceholder$p$lt$zoneRight$NMHomeEmailSignup$hdnSignUpList" id="p_lt_zoneContent_pageplaceholder_p_lt_zoneRight_NMHomeEmailSignup_hdnSignUpList" value="495" />
 <div id="nmSignUpContainer" class="col-md-12">
     <div class="nmSectionHeadL"></div>
@@ -1460,211 +1569,19 @@ jQuery(document).ready(function(){
 </div>
 <!-- Email Signup Box End -->
 <!-- ##WebPart## Email Signup End  --></div>
-<script type="text/javascript" src="/CMSScripts/Newsmax/jQuery.signup.js"></script><div class="DFP">
-    <div id="div-gpt-ad-21b2c367-9b06-4c7e-b2f0-fcf161f27a2a">
+<script type="text/javascript" src="/CMSScripts/Newsmax/jQuery.signup.js"></script>
+<script type="text/javascript" src="/CMSScripts/Newsmax/livevalidation_standalone.compressed.js"></script><div class="DFP">
+    <div id="div-gpt-ad-996407b1-8012-4d4e-820b-bce21c381210">
         
             <script type='text/javascript'>
                 googletag.cmd.push(function () {
-                    googletag.display('div-gpt-ad-21b2c367-9b06-4c7e-b2f0-fcf161f27a2a');
+                    googletag.display('div-gpt-ad-996407b1-8012-4d4e-820b-bce21c381210');
             });
             </script>
         
     </div>
 
-</div><div class="clear"></div> 
-<div class="nmModuleHead">
-        <div class="nmModuleHeadL"></div>
-        <div class="nmModuleHeadLabel">
-        	Hot Topics
-        </div>
-        <div class="nmModuleHeadR"></div>
-</div>   <div id="p_lt_zoneContent_pageplaceholder_p_lt_zoneRight_HotTopicRepeater_pnlTopTenHotTopics">
-	
-<div class="nmHotCont">
-    
-            <div class="nmHotTopic">
-                <div class="nmHotBullet"></div>
-                <a href="/hottopics/topic/coronavirus-special/391/" class="nmHotTopicsLink">Coronavirus Special</a>
-            </div>
-        
-            <div class="nmHotTopic">
-                <div class="nmHotBullet"></div>
-                <a href="/hottopics/topic/2020-elections/383/" class="nmHotTopicsLink">2020 Elections</a>
-            </div>
-        
-            <div class="nmHotTopic">
-                <div class="nmHotBullet"></div>
-                <a href="/hottopics/topic/trump-administration/246/" class="nmHotTopicsLink">Trump Administration</a>
-            </div>
-        
-            <div class="nmHotTopic">
-                <div class="nmHotBullet"></div>
-                <a href="/hottopics/topic/coronavirus/389/" class="nmHotTopicsLink">Coronavirus</a>
-            </div>
-        
-            <div class="nmHotTopic">
-                <div class="nmHotBullet"></div>
-                <a href="/hottopics/topic/immigration/79/" class="nmHotTopicsLink">Immigration</a>
-            </div>
-        
-            <div class="nmHotTopic">
-                <div class="nmHotBullet"></div>
-                <a href="/hottopics/topic/china/379/" class="nmHotTopicsLink">China</a>
-            </div>
-        
-</div>
-<div class="clear"></div>
-<div class="nmMoreHotTopics">
-    <a href="/hottopics/" class="linkMore">More Hot Topics</a>
-</div>
-
-</div><div class="DFP">
-    <div id="div-gpt-ad-e601618a-9a5a-40ce-92af-2a066a754f5b">
-        
-            <script type='text/javascript'>
-                googletag.cmd.push(function () {
-                    googletag.display('div-gpt-ad-e601618a-9a5a-40ce-92af-2a066a754f5b');
-            });
-            </script>
-        
-    </div>
-
-</div><div class="clear"></div> 
-<div class="nmModuleHead">
-        <div class="nmModuleHeadL"></div>
-        <div class="nmModuleHeadLabel">
-        	Around The Web
-        </div>
-        <div class="nmModuleHeadR"></div>
-</div>   <div id="nmSponsorModule">
-    <div class="sponsors" data-count="6"></div>
-
-<div class="whatsThis">
-<a href="http://www.newsmax.com/advertise">Powered by Newsmax</a>
-</div>
-</div><div id="nmTopStories"><script src="//static.newsmaxfeednetwork.com/web-clients/bootloaders/RupxWM8eyughQAylFbtuhe/bootloader.js" async="true" data-version="3" data-url="[PAGE_URL]" data-zone="[ZONE]" data-organic-clicks="[ORGANIC_TRACKING_PIXEL]" data-paid-clicks="[PAID_TRACKING_PIXEL]" data-display-within-iframe="true"></script>
-</div><div class="clear"></div> 
-<div class="nmModuleHead">
-        <div class="nmModuleHeadL"></div>
-        <div class="nmModuleHeadLabel">
-        	You May Also Like
-        </div>
-        <div class="nmModuleHeadR"></div>
 </div>   
-    <div id="artPgLikeWrapper" class="nocontent">
-        
-            
-                <div class="likeCommentedH2 nocontent">
-                    <a  class="likeCommH2"  href="/politics/amy-klobuchar-sexual-assault-president/2020/04/17/id/963493/">Klobuchar: Biden 'Has Been Investigated' for Sexual Assault</a>
-                </div>
-                <div class="likeCommdDate nocontent">
-                    Friday, 17 Apr 2020 22:48 PM
-                </div>
-                <div class="likeCommBody nocontent">
-                    Sen. Amy Klobuchar, D-Mn, thinks presidential hopeful Joe Biden has already been investigated for his sexual assault all&#160;.&#160;.&#160;.
-                </div>
-            
-                <div class="likeCommentedH2 nocontent">
-                    <a  class="likeCommH2"  href="/us/texas-greg-abbott-lawsuit-phase-1/2020/04/17/id/963487/">Ready to Revive: Texas Aiming to Be First State to Reopen, as Soon as Next Week</a>
-                </div>
-                <div class="likeCommdDate nocontent">
-                    Friday, 17 Apr 2020 21:42 PM
-                </div>
-                <div class="likeCommBody nocontent">
-                    Facing lawsuits from conservatives and faith leaders over Texas' lockdown measures, Republican Gov. Greg Abbott rolled o&#160;.&#160;.&#160;.
-                </div>
-            
-            
-        <!-- More Stories Button Start -->
-        <div class="nmModuleSpacer"></div>
-        <div class="nmModuleMore">
-            <a class="linkMore" href="/politics">        
-                More
-             </a>
-        </div>
-        <!-- More Stories Button End -->
-    </div>
-    <!-- Related Storie Container End -->
-
-
-<div id="unit_91773"><a href="http://mixi.media/" rel="nofollow"></a></div>
-<script type="text/javascript" charset="utf-8">
-(function()
-
-{ var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true; sc.src = '//mixi.media/data/js/91773.js'; sc.charset = 'utf-8'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s); }
-());
-</script><div class="clear"></div> 
-<div class="nmModuleHead">
-        <div class="nmModuleHeadL"></div>
-        <div class="nmModuleHeadLabel">
-        	Most Commented
-        </div>
-        <div class="nmModuleHeadR"></div>
-</div>   <div class="clear"></div>
-
-<div class="comBoxWrapper nocontent">
-    
-            <ul>
-        
-            <li>
-                <div class="comBoxH2 nocontent">
-                    <a class="comBoxH2" href="https://www.newsmax.com/us/remdesivir-coronavirus-trial/2020/04/17/id/963379/" >
-                        Monkey Trial Shows 100% Success of Remdesivir in Fighting COVID-19
-                    </a>
-                </div>
-                <div class="comBoxDate nocontent">
-                    Friday, 17 Apr 2020  |
-                </div>
-                <div class="comBox">
-                    <div class="comBoxLeft">
-                    </div>
-                    <div class="comBoxtext nocontent">
-                        307
-                    </div>
-                    <div class="comBoxRight">
-                    </div>
-                </div>
-                <div class="comBoxDate nocontent">
-                    comments
-                </div>
-                <div class="clearDiv">
-                </div>
-                <div class="comBoxBody nocontent">
-                    Monkey Trial Shows 100% Success of Remdesivir in Fighting COVID-19...
-                </div>
-            </li>
-        
-            <li>
-                <div class="comBoxH2 nocontent">
-                    <a class="comBoxH2" href="https://www.newsmax.com/politics/democrats-tweet-ppp-congress/2020/04/17/id/963372/" >
-                        Trump: 'Do Nothing Dems' Should Pass Legislation
-                    </a>
-                </div>
-                <div class="comBoxDate nocontent">
-                    Friday, 17 Apr 2020  |
-                </div>
-                <div class="comBox">
-                    <div class="comBoxLeft">
-                    </div>
-                    <div class="comBoxtext nocontent">
-                        263
-                    </div>
-                    <div class="comBoxRight">
-                    </div>
-                </div>
-                <div class="comBoxDate nocontent">
-                    comments
-                </div>
-                <div class="clearDiv">
-                </div>
-                <div class="comBoxBody nocontent">
-                    Trump: 'Do Nothing Dems' Should Pass Legislation...
-                </div>
-            </li>
-        
-        </ul>
-        
-</div><div class="clear"></div>   
 
 		<div id="RealVu">
 			  
@@ -1672,7 +1589,6 @@ jQuery(document).ready(function(){
 		<div id="stickyDFP">
 			   
 		</div>
-
 	</div>
 
 </div>
@@ -1680,18 +1596,17 @@ jQuery(document).ready(function(){
 
 <div class="clearDiv"></div>
 
-<script async type="text/javascript" src="/CMSScripts/Newsmax/jQuery.articleDFP.js"></script>
-<script async type="text/javascript" src="/CMSScripts/Newsmax/jQuery.article.js"></script>
-<script async type="text/javascript" src="/CMSScripts/Newsmax/jquery.zclip.js"></script>
-                        
-<div style="clear:both;line-height:0px;height:0px;" >
-        </div>
-</div>
-<!-- Footer zone -->
-<div style="">
-<div id="divMenuFooter">
-<div class="nmNavSep"></div>
-<div id="nmMainNavFooter">
+<script type="text/javascript" src="/CMSScripts/Newsmax/livevalidation_standalone.compressed.js"></script>
+<script type="text/javascript" src="/CMSScripts/Newsmax/jQuery.articleDFP.js"></script>
+<script type="text/javascript" src="/CMSScripts/Newsmax/jQuery.article.js"></script>
+<script type="text/javascript" src="/CMSScripts/Newsmax/jquery.zclip.js"></script><div>&nbsp;</div>
+                <div class="clear" ></div>
+            </div>
+        </div>    	
+		<!-- Footer zone -->	
+        <div id="divMenuFooter">
+            <div class="nmNavSep"></div>
+	<div id="nmMainNav">
 	<ul>
 		<li><a id="nmBotHomeLink" href="/" class="nmMainNavLinkSel"  onclick = "analyticsTracking(this, 'BottomNav');"> Home </a></li>
 		<li class="nmMainNavSep">&nbsp;</li>
@@ -1725,13 +1640,60 @@ jQuery(document).ready(function(){
 		<li><a id="nmBotSciTechLink" href="/sciencetechnology/"
                 class="nmMainNavLink">Sci &amp; Tech </a></li>
 	</ul>
-</div>
-<div class="nmNavSepBot"></div>
+	</div>
+	<div class="nmNavSep"></div>
 <div class="statementText">
 	<p>Newsmax, Moneynews, Newsmax Health, and Independent. American. are registered trademarks of Newsmax Media, Inc. Newsmax TV, and Newsmax World are trademarks of Newsmax Media, Inc.</p>
-</div>
+</div><!-- Section Navigation Script -->
+<script type="text/javascript">
+    if (window.location.pathname.toLowerCase().indexOf("/globaltalk") >= 0) {
+        document.getElementById("mnHomeLink").className = "mnMainNavLink";
+        document.getElementById("mnGlobalTalkLink").className = "mnMainNavLinkSel";
+        document.getElementById("mnBotHomeLink").className = "mnMainNavLink";
+        document.getElementById("mnBotGlobalTalkLink").className = "mnMainNavLinkSel";
+    }
+    else if (window.location.pathname.toLowerCase().indexOf("/theamericas") >= 0) {
+        document.getElementById("mnHomeLink").className = "mnMainNavLink";
+        document.getElementById("mnTheAmericasLink").className = "mnMainNavLinkSel";
+        document.getElementById("mnBotHomeLink").className = "mnMainNavLink";
+        document.getElementById("mnBotTheAmericasLink").className = "mnMainNavLinkSel";
+    }
+    else if (window.location.pathname.toLowerCase().indexOf("/europe") >= 0) {
+        document.getElementById("mnHomeLink").className = "mnMainNavLink";
+        document.getElementById("mnEuropeLink").className = "mnMainNavLinkSel";
+        document.getElementById("mnBotHomeLink").className = "mnMainNavLink";
+        document.getElementById("mnBotEuropeLink").className = "mnMainNavLinkSel";
+    }
+    else if (window.location.pathname.toLowerCase().indexOf("/asia") >= 0) {
+        document.getElementById("mnHomeLink").className = "mnMainNavLink";
+        document.getElementById("mnAsiaLink").className = "mnMainNavLinkSel";
+        document.getElementById("mnBotHomeLink").className = "mnMainNavLink";
+        document.getElementById("mnBotAsiaLink").className = "mnMainNavLinkSel";
+    }
+    else if (window.location.pathname.toLowerCase().indexOf("/middleeast") >= 0) {
+        document.getElementById("mnHomeLink").className = "mnMainNavLink";
+        document.getElementById("mnMiddleEastLink").className = "mnMainNavLinkSel";
+        document.getElementById("mnBotHomeLink").className = "mnMainNavLink";
+        document.getElementById("mnBotMiddleEastLink").className = "mnMainNavLinkSel";
+    }
+    else if (window.location.pathname.toLowerCase().indexOf("/africa") >= 0) {
+        document.getElementById("mnHomeLink").className = "mnMainNavLink";
+        document.getElementById("mnAfricaLink").className = "mnMainNavLinkSel";
+        document.getElementById("mnBotHomeLink").className = "mnMainNavLink";
+        document.getElementById("mnBotAfricaLink").className = "mnMainNavLinkSel";
+    }
+</script>
+    <div id="div-gpt-ad-f16861a4-a6fa-4806-b4fe-06cffa7907a3">
+        
+            <script type='text/javascript'>
+                googletag.cmd.push(function () {
+                    googletag.display('div-gpt-ad-f16861a4-a6fa-4806-b4fe-06cffa7907a3');
+            });
+            </script>
+        
+    </div>
 
-<script type="text/javascript" src="/CMSPages/GetResource.ashx?scriptfile=/js/cookiedrop.js" defer></script><script type="text/javascript">
+<script type="text/javascript" src="/js/cookiedrop.js"></script><script type="text/javascript">
 
     googletag.cmd.push(function () {
         var Ads =  (function (parent, $) {
@@ -1934,114 +1896,67 @@ jQuery(document).ready(function(){
 <div id="siu-ad-fixed" class="siu-ad-fixed">
   <div id="siu-ad-close-button" class="siu-ad-close-button"></div>
         <!-- /6305169/m.newsmax.mab -->
-    <div id="div-gpt-ad-a032e390-585a-4e87-8ffc-f8af1897ee09">
+    <div id="div-gpt-ad-26edf0e5-e28f-4648-a735-4abed2f704b5">
         
             <script type='text/javascript'>
                 googletag.cmd.push(function () {
-                    googletag.display('div-gpt-ad-a032e390-585a-4e87-8ffc-f8af1897ee09');
+                    googletag.display('div-gpt-ad-26edf0e5-e28f-4648-a735-4abed2f704b5');
             });
             </script>
         
     </div>
 
 </div>
-    <div id="div-gpt-ad-316ffadb-67af-4a45-b20f-cd89b38c22d5">
-        
-            <script type='text/javascript'>
-                googletag.cmd.push(function () {
-                    googletag.display('div-gpt-ad-316ffadb-67af-4a45-b20f-cd89b38c22d5');
-            });
-            </script>
-        
-    </div>
+        </div>
+            
+			<div class="zoneFooter">
+				<div id="mnCopyContainer">
+					<div id="mnLogoSm"></div>
+                    <div id="mnCopyRight">
+			NEWSMAX.COM<br/>
+                        &copy; <span id="mnYear"></span> Newsmax Media, Inc.<br/> 
+			All Rights Reserved
+                    </div>
+			     </div>
+				<div id="mnSupportNavCont">
+            				<a href="/contact/" class="mnFooterLink" onclick= "analyticsTracking(this, 'BottomNav');">Contact</a> 
+					<span class="mnFooterSpacer">|</span> 
+					<a href="/advertise/" class="mnFooterLink" onclick= "analyticsTracking(this, 'BottomNav');">Advertise</a> 
+					<span class="mnFooterSpacer">|</span> 
+					<a href="https://shop.newsmax.com/" class="mnFooterLink" onclick= "analyticsTracking(this, 'BottomNav');">Shop</a> 
+					<span class="mnFooterSpacer">|</span> 
+					<a href="/rss/" class="mnFooterLink" onclick= "analyticsTracking(this, 'BottomNav');">RSS</a>
+					<span class="mnFooterSpacer">|</span> 
+					<a href="/archives/" class="mnFooterLink" onclick= "analyticsTracking(this, 'BottomNav');">Archives</a> 
+					<span class="mnFooterSpacer">|</span> 
+					<a href="/links/" class="mnFooterLink" onclick= "analyticsTracking(this, 'BottomNav');">Links</a> 
+					<span class="mnFooterSpacer">|</span> 
+					 <a href="https://recruiting.ultipro.com/NEW1027/JobBoard/3d5ae180-49c4-20f7-d7b4-adfe940978a7/" target="_blank" class="mnFooterLink" onclick= "analyticsTracking(this, 'BottomNav');">Careers</a> 
+                    <span class="mnFooterSpacer">|</span> 
+					<a class="mnFooterLink" href="/privacystatement/" onclick= "analyticsTracking(this, 'BottomNav');">Privacy Policy</a> 
+					<span class="mnFooterSpacer">|</span> 
+					<a class="mnFooterLink" href="/termsconditions/" onclick= "analyticsTracking(this, 'BottomNav');">Terms &amp; Conditions</a>
+        		</div>                    
+        		<div class="clear"></div>
+				<div class="zoneFooterAd">
+					
+				</div>
+            </div>
+		</div>
+	</div>
 
-
-</div>
-<div class="zoneFooter">
-<div class="zoneFooterAd">
-
-<div id="nmCopyContainer">
-<div id="nmLogoSm"> </div>
-<div id="nmCopyRight">
-NEWSMAX.COM<br />
-America's News Page<br />
-© <span class="nmYear"></span> Newsmax Media, Inc.<br/>
-All Rights Reserved
-</div>
-</div>
-<div id="nmSupportNavCont">
-  <a class="nmFooterLink" href="https://www.newsmax.com/contact/" onclick= "analyticsTracking(this, 'BottomNav');">Contact</a> 
-  <span class="nmFooterSpacer">|</span> 
-  <a class="nmFooterLink" href="https://www.newsmax.com/advertise/" onclick= "analyticsTracking(this, 'BottomNav');">Advertise</a> 
-  <span class="nmFooterSpacer">|</span> 
-  <a class="nmFooterLink" href="https://shop.newsmax.com/" onclick= "analyticsTracking(this, 'BottomNav');">Shop</a> 
-  <span class="nmFooterSpacer">|</span> 
-  <a class="nmFooterLink" href="https://www.newsmax.com/rss/" onclick= "analyticsTracking(this, 'BottomNav');">RSS</a> 
-  <span class="nmFooterSpacer">|</span> 
-  <a class="nmFooterLink" href="https://www.newsmax.com/archives/" onclick= "analyticsTracking(this, 'BottomNav');">Archives</a> 
-  <span class="nmFooterSpacer">|</span> 
-  <a class="nmFooterLink" href="https://www.newsmax.com/links/" onclick= "analyticsTracking(this, 'BottomNav');">Links</a>
-  <span class="nmFooterSpacer">|</span> 
-  <a class="nmFooterLink" href="https://recruiting.ultipro.com/NEW1027/JobBoard/3d5ae180-49c4-20f7-d7b4-adfe940978a7/" target="_blank" onclick= "analyticsTracking(this, 'BottomNav');">Careers</a>
-  <span class="nmFooterSpacer">|</span> 
-  <a class="nmFooterLink" href="https://www.newsmax.com/privacystatement/" onclick= "analyticsTracking(this, 'BottomNav');">Privacy Policy</a> 
-  <span class="nmFooterSpacer">|</span> 
-  <a class="nmFooterLink" href="https://www.newsmax.com/termsconditions/" onclick= "analyticsTracking(this, 'BottomNav');">Terms & Conditions</a>
-</div>
-
-</div>
-</div>
-</div>
-</div>
-</div>
-
-<!-- Script Includes -->
 
 <!-- Header Date Script -->
-<script type="text/javascript" language="javascript">
-var now= new Date();
-jQuery("#nmTodaysDate").html(now.format("dddd MMMM dd,  yyyy"));
-//jQuery("#nmYear").html(now.format("yyyy"));
-jQuery(".nmYear").html(now.format("yyyy"));
-</script>
-<!-- Navigation Script Start-->
-<script type="text/javascript"> if(window.location.pathname.toLowerCase().indexOf("/newsfront")>=0){ document.getElementById("nmHomeLink").className="nmMainNavLink"; document.getElementById("nmNewsfrontLink").className="nmMainNavLinkSel"; document.getElementById("nmBotHomeLink").className="nmMainNavLink"; document.getElementById("nmBotNewsfrontLink").className="nmMainNavLinkSel";
-}
-else if(window.location.pathname.toLowerCase().indexOf("/us")>=0){ document.getElementById("nmHomeLink").className="nmMainNavLink"; document.getElementById("nmAmericaLink").className="nmMainNavLinkSel"; document.getElementById("nmBotHomeLink").className="nmMainNavLink"; document.getElementById("nmBotAmericaLink").className="nmMainNavLinkSel";
-}
-else if(window.location.pathname.toLowerCase().indexOf("/politics")>=0){ document.getElementById("nmHomeLink").className="nmMainNavLink"; document.getElementById("nmPoliticsLink").className="nmMainNavLinkSel"; document.getElementById("nmBotHomeLink").className="nmMainNavLink"; document.getElementById("nmBotPoliticsLink").className="nmMainNavLinkSel";
-}
-else if(window.location.pathname.toLowerCase().indexOf("/finance")>=0){ document.getElementById("nmHomeLink").className="nmMainNavLink"; document.getElementById("nmFinanceLink").className="nmMainNavLinkSel"; document.getElementById("nmBotHomeLink").className="nmMainNavLink"; document.getElementById("nmBotFinanceLink").className="nmMainNavLinkSel";
-}
-else if(window.location.pathname.toLowerCase().indexOf("/insiders")>=0){ document.getElementById("nmHomeLink").className="nmMainNavLink"; document.getElementById("nmInsiderLink").className="nmMainNavLinkSel"; document.getElementById("nmBotHomeLink").className="nmMainNavLink"; document.getElementById("nmBotInsiderLink").className="nmMainNavLinkSel";
-}
-else if(window.location.pathname.toLowerCase().indexOf("/thewire")>=0){ document.getElementById("nmHomeLink").className="nmMainNavLink"; document.getElementById("nmWireLink").className="nmMainNavLinkSel"; document.getElementById("nmBotHomeLink").className="nmMainNavLink"; document.getElementById("nmBotWireLink").className="nmMainNavLinkSel";
-}
-else if(window.location.pathname.toLowerCase().indexOf("/books")>=0){ document.getElementById("nmHomeLink").className="nmMainNavLink"; document.getElementById("nmBooksLink").className="nmMainNavLinkSel"; document.getElementById("nmBotHomeLink").className="nmMainNavLink"; document.getElementById("nmBotBooksLink").className="nmMainNavLinkSel";
-}
-else if(window.location.pathname.toLowerCase().indexOf("/specials")>=0){ document.getElementById("nmHomeLink").className="nmMainNavLink"; document.getElementById("nmSpecialsLink").className="nmMainNavLinkSel"; document.getElementById("nmBotHomeLink").className="nmMainNavLink"; document.getElementById("nmBotSpecialsLink").className="nmMainNavLinkSel";
-}
-else if(window.location.pathname.toLowerCase().indexOf("/sciencetechnology")>=0){ document.getElementById("nmHomeLink").className="nmMainNavLink"; document.getElementById("nmSciTechLink").className="nmMainNavLinkSel"; document.getElementById("nmBotHomeLink").className="nmMainNavLink"; document.getElementById("nmBotSciTechLink").className="nmMainNavLinkSel";
-}
-else if(window.location.pathname.toLowerCase().indexOf("/bestlists")>=0){ document.getElementById("nmHomeLink").className="nmMainNavLink"; document.getElementById("nmBestListsLink").className="nmMainNavLinkSel"; document.getElementById("nmBotHomeLink").className="nmMainNavLink"; document.getElementById("nmBotBestListsLink").className="nmMainNavLinkSel";
-}
-else if(window.location.pathname.toLowerCase().indexOf("/newsmaxbest")>=0){ document.getElementById("nmHomeLink").className="nmMainNavLink"; document.getElementById("nmBestListsLink").className="nmMainNavLinkSel"; document.getElementById("nmBotHomeLink").className="nmMainNavLink"; document.getElementById("nmBotBestListsLink").className="nmMainNavLinkSel";
-}
-else if(window.location.pathname.toLowerCase().indexOf("/awards")>=0){ document.getElementById("nmHomeLink").className="nmMainNavLink"; document.getElementById("nmBestListsLink").className="nmMainNavLinkSel"; document.getElementById("nmBotHomeLink").className="nmMainNavLink"; document.getElementById("nmBotBestListsLink").className="nmMainNavLinkSel";
-}
-else if(window.location.pathname.toLowerCase().indexOf("/jokes")>=0){ document.getElementById("nmHomeLink").className="nmMainNavLink"; document.getElementById("nmJokesLink").className="nmMainNavLinkSel"; document.getElementById("nmBotHomeLink").className="nmMainNavLink"; document.getElementById("nmBotJokesLink").className="nmMainNavLinkSel";
-}
+<script language="javascript" type="text/javascript">
+    var now = new Date();
+    jQuery("#mnTodaysDate").html(now.format("dddd, MMMM dd yyyy"));
+    jQuery("#mnYear").html(now.format("yyyy"));
 </script>
 
-<!-- Navigation Script End -->
 <!-- RSS Feed Script -->
-<script async type="text/javascript" src="/CMSscripts/newsmax/jquery.zrssfeed.min.js"></script>
+<script type="text/javascript" src="/CMSscripts/newsmax/jquery.zrssfeed.min.js"></script>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script>
-if((window.location.href.search('/surveys/') > 0) || (window.location.href.search('/survey/') > 0)){
-  jQuery('#tvBanner').hide();
-}
-</script>
+<script type="text/javascript" src="https://a.remarketstats.com/px/smart/?c=22b5d598fb0a39f"></script>
     
     
 
@@ -2049,7 +1964,37 @@ if((window.location.href.search('/surveys/') > 0) || (window.location.href.searc
 //<![CDATA[
  _satellite.pageBottom();(function() {var fn = function() {$get("manScript_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
 </script>
-<script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>  <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="aEH9xbkACmmvk6MJy4bNG+R5DNbtP+k4QeowAOPvSrA4kLk70tFW6cHjRg1LMFkqML91S4fE3mezky3TmaNhFNDX2K8=" />
+
+<script type="text/javascript">
+	//<![CDATA[
+if (typeof(Sys.Browser.WebKit) == 'undefined') {
+    Sys.Browser.WebKit = {};
+}
+if (navigator.userAgent.indexOf('WebKit/') > -1) {
+    Sys.Browser.agent = Sys.Browser.WebKit;
+    Sys.Browser.version = parseFloat(navigator.userAgent.match(/WebKit\/(\d+(\.\d+)?)/)[1]);
+    Sys.Browser.name = 'WebKit';
+}
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+
+var callBackFrameUrl='/WebResource.axd?d=77jWlglqex52vbFCaPRVP4SMPRhLKOdJ2CJxsjbbCFGCmQQy9GjJ709t9hiLFFQpiEw9ysyf2Qeu8y8EcpWoKNOtn101&t=637103166965614113';
+WebForm_InitCallback();//]]>
+</script>
+<script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+//]]>
+</script>
+  <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="BRtVbpS71Fu+lqdCzSterDA+bhyays0dK02dHocSvDo3L38rj7ptjh20tD9jbY5pPOOkZPmReTEBb6cPiBHCTFpKtOg=" />
   <script type="text/javascript"> 
       //<![CDATA[
       if (window.WebForm_InitCallback) { 

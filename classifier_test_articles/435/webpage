@@ -1,727 +1,407 @@
-<!doctype html><html class="no-js" lang="en"><head><script>
-   try {var _sf_startpt=(new Date()).getTime();} catch(e){}
-</script>
-<meta itemscope itemtype="https://schema.org/SpeakableSpecification" itemref="speakable" /><title>How Long Can The Coronavirus Live On Surfaces? : Shots - Health News : NPR</title><meta id="speakable" itemprop="cssSelector" content="[data-is-speakable]" /><meta id="google-site-verification" name="google-site-verification" content="1VqzbDm4ukeFVHOoq5LjIKA2fVKZD-EYv8cXZhKXSfU" /><meta charset="utf-8" /><meta name="robots" content="noarchive,index,follow" /><meta name="Rating" content="General" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><meta name="npr-pjax" /><meta name="date" content="2020-03-14" /><link rel="canonical" href="https://www.npr.org/sections/health-shots/2020/03/14/811609026/the-new-coronavirus-can-live-on-surfaces-for-2-3-days-heres-how-to-clean-them" /><meta name="description" content="A new study measured the life span of the novel coronavirus on surfaces. Here's what they found, plus expert advice for cleaning the stuff you touch." /><link rel="alternate" type="application/rss+xml" title="Health" href="https://feeds.npr.org/1128/rss.xml" /><link rel="alternate" type="application/rss+xml" title="Shots - Health News" href="https://feeds.npr.org/103537970/rss.xml" /><link rel="alternate" type="application/json" title="Health" href="https://feeds.npr.org/1128/feed.json" /><link rel="alternate" type="application/json" title="Shots - Health News" href="https://feeds.npr.org/103537970/feed.json" /><link rel="apple-touch-icon" sizes="180x180" href="https://media.npr.org/templates/favicon/favicon-180x180.png" /><link rel="icon" sizes="96x96" href="https://media.npr.org/templates/favicon/favicon-96x96.png" /><link rel="icon" sizes="32x32" href="https://media.npr.org/templates/favicon/favicon-32x32.png" /><link rel="icon" sizes="16x16" href="https://media.npr.org/templates/favicon/favicon-16x16.png" /><meta property="og:title" content="The New Coronavirus Can Live On Surfaces For 2-3 Days — Here's How To Clean Them" /><meta property="og:url" content="https://www.npr.org/sections/health-shots/2020/03/14/811609026/the-new-coronavirus-can-live-on-surfaces-for-2-3-days-heres-how-to-clean-them" /><meta property="og:type" content="article" /><meta property="og:description" content="A new study measured the life span of the novel coronavirus on surfaces. Here's what they found, plus expert advice for cleaning the stuff you touch." /><meta property="og:image" content="https://media.npr.org/assets/img/2020/03/13/cleansurfaces_wide-93c44e0a863ab70c38347886f3aa54e3ab747486.jpg?s=1400" /><meta property="og:image" content="https://media.npr.org/assets/img/2020/03/11/hugsonions-1_wide-3e8539ca8b3a4096e3f02539f56f1e7f7a2cbf6b.jpg?s=1400" /><meta property="og:site_name" content="NPR.org" /><meta property="fb:app_id" content="138837436154588" /><meta property="fb:pages" content="10643211755" /><meta property="article:content_tier" content="free" /><meta property="article:opinion" content="false" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="The New Coronavirus Can Live On Surfaces For 2-3 Days — Here's How To Clean Them" /><meta name="twitter:site" content="@NPR" /><meta name="twitter:domain" content="npr.org" /><meta name="twitter:image:src" content="https://media.npr.org/assets/img/2020/03/13/cleansurfaces_wide-93c44e0a863ab70c38347886f3aa54e3ab747486.jpg?s=1400" /><script id="npr-vars">
-   window.NPR = window.NPR || {};
-NPR.ServerConstants = {"cbHost":"npr.org","webHost":"https:\/\/www.npr.org","legacyWebHost":"https:\/\/legacy.npr.org","embedHost":"https:\/\/www.npr.org","webHostSecure":"https:\/\/secure.npr.org","apiHost":"https:\/\/api.npr.org","serverMediaCache":"https:\/\/media.npr.org","googleAnalyticsAccount":"UA-5828686-4","nielsenSFCode":"dcr","nielsenAPN":"NPR-dcr","shouldShowHPLocalContent":true,"readingServiceHostname":"https:\/\/reading.api.npr.org"};
-NPR.serverVars = {"storyId":"811609026","facebookAppId":"138837436154588","webpackPublicPath":"https:\/\/s.npr.org\/templates\/javascript\/dist\/bundles\/","persistenceVersion":"c6a8950b7e7999e47bd5cb6c964a77aa","isBuildOut":true,"topicIds":["P1128","1001","1002"],"primaryTopic":"Health","topics":["Health","News","Home Page Top Stories"],"blog":"Shots - Health News","theme":"103537970","aggIds":["1001","1002","1128","103537970","126567525","158563440","162395868","191676894","434975886","592013615","804916759","812054919"],"tagIds":["COVID-19","Cleaning","coronavirus","sanitation"],"byline":["Allison Aubrey"],"pubDate":"2020031407","pageTypeId":"1","title":"The New Coronavirus Can Live On Surfaces For 2-3 Days \u2014 Here\u0027s How To Clean Them","publisherOrgId":"1"};
-</script>
-<script type="text/javascript" src="https://cdn.optimizely.com/js/11107397707.js">
-   </script>
-<script type="text/javascript" src="https://s.npr.org/templates/javascript/lib/modernizr/modernizr.custom.js">
-   </script>
-<script>
-   !function(e){function c(a){if(f[a])return f[a].exports;var d=f[a]={exports:{},id:a,loaded:!1};return e[a].call(d.exports,d,d.exports,c),d.loaded=!0,d.exports}var a=window.webpackJsonp;window.webpackJsonp=function(b,t){for(var n,r,o=0,i=[];o<b.length;o++)r=b[o],d[r]&&i.push.apply(i,d[r]),d[r]=0;for(n in t){var s=t[n];switch(typeof s){case"object":e[n]=function(c){var a=c.slice(1),f=c[0];return function(c,d,b){e[f].apply(this,[c,d,b].concat(a))}}(s);break;case"function":e[n]=s;break;default:e[n]=e[s]}}for(a&&a(b,t);i.length;)i.shift().call(null,c);if(t[0])return f[0]=0,c(0)};var f={},d={25:0};c.e=function(e,a){if(0===d[e])return a.call(null,c);if(void 0!==d[e])d[e].push(a);else{d[e]=[a];var f=document.getElementsByTagName("head")[0],b=document.createElement("script");b.type="text/javascript",b.charset="utf-8",b.async=!0,b.src=c.p+""+e+"."+{0:"377ab1e70a8459b95ac5",1:"da265f6a341f7e35ac32",2:"4318eb7ca00768befb31",3:"1199aec2329b85a263b3",4:"ed94455b5aff2292136b",5:"9d25c032dc0afabc6df8",6:"51981d54f69abd4d4468",7:"48c8e346690bef9c847c",8:"101f62e38ef4906d7ed8",9:"2d7678bc602cf5f65efd",10:"2211fcfd85f1c33fc29b",11:"de428713d24d0f09cc79",12:"4873bb34cc537e73b4de",13:"11d929e6b1ae1bc68a45",14:"e7fda158a180e9415eb8",15:"e81f8e4f128654e729ec",16:"09195f5450bb0dd66ef1",17:"fe17e159811747216fb5",18:"428e9c9c1791cce36823",19:"359a4c6534d8b547bf4c",20:"641270401ff7457aa2ba",21:"d632baabe35aa2ddcdd5",22:"fd7ba3790e7e36768e33",23:"b3c8a9fa4d9bea9cc860",24:"c515e4b9bc92946f2c42",26:"7a8f1203050f8285fe56",27:"dc7dd199fcbc64e13097",28:"a7f6a94287e23f9a1a87",29:"35594af363763d33b8d0",30:"d7408fb9edf893e5e662",31:"09ec6f9265fe886dcb24",32:"0f67dd87b492df18b460",33:"7bb79dace148ac6bf2eb",34:"7121479088c5ac009f78",35:"66c05c8faeaf58f978a4",36:"368f38d4392d3c04b1bb",37:"f22dbce83dea62bf366e",38:"2f9cd51c5f264f367ada",39:"f4b99e808d247b2e4c5b",40:"44d96d349c49fa26a965",41:"5a758dc15a8506f4ec92",42:"15c45ac3bc9fa7175add",43:"40a28b7f02a06b4abbd6",44:"0cbb72e1c01cffda4ef0",45:"a9bce1e00dc14d6a7215",46:"169d06e58f1de664b284",47:"64bb48e2e114fc42e47e",48:"957dfb0c61cdf8fb5f55",49:"5b82b744e00387ed2a7b",50:"5a0bc0ce63195dd99355",51:"5ec38ff703d9ec85725e",52:"f7cab63d2bbce07543a8",53:"0797f46e3b606f5df141",54:"158633d0a7e2770d7ec4",55:"11e9e4a6134ff83fdea3",56:"f2e81ce7c1fbcf811a88",57:"aad582ec7d6350988a8f",58:"5533db5b8610bd4654d3",59:"3daf1c6c44efb1a9d1a1",60:"fded22a6702c4cf9a76d",61:"8698e488a4e6db602fb1",62:"f254cb11538552f12c09",63:"52124954dcc963b9257b",64:"a5f54c8c4bd00db80625",65:"4682b9eef9bd63b9deeb",66:"380203a2822fe2a763d9",67:"a4e80bbf3337a1ea8864",68:"51f12a9b70412f7b8d5f",69:"7130844275c6d236d9b3",70:"e1c3e8819ef544a10cde",71:"94de28775551cea97a84",72:"84d9f813c2cfdf395143",73:"d38aefd3567d9f4638ac",74:"393f386ca0fd18e13c9e",75:"179517f85dbd0b9b5524",76:"4f02dda8d4fec2024c49",77:"0347c867d459464c487c",78:"9bee3d53847b486861d3",79:"453d3cf485a23c898e74",80:"7cd3037cb7c3899c8f6d",81:"a8f9e20581041001ee30",82:"2e142a2b3bed7e4207d5",83:"1ed86d500b1896584772",84:"ac107ef5252e05253bea",85:"24665eb3ea40220f94dd"}[e]+".chunk.js",f.appendChild(b)}},c.m=e,c.c=f,c.p="/templates/javascript/dist/bundles/"}(function(e){for(var c in e)if(Object.prototype.hasOwnProperty.call(e,c))switch(typeof e[c]){case"function":break;case"object":e[c]=function(c){var a=c.slice(1),f=e[c[0]];return function(e,c,d){f.apply(this,[e,c,d].concat(a))}}(e[c]);break;default:e[c]=e[e[c]]}return e}([]));
-</script>
-<script type="text/javascript" src="https://s.npr.org/templates/javascript/dist/bundles/globalNavigationDropdowns-dc7dd199fcbc64e13097.js">
-   </script>
-<link rel="stylesheet" data-persist="true" media="screen, print" href="https://s.npr.org/templates/javascript/dist/bundles/persistent-css-cdfa69694b4ed11559a2.css" /><link rel="stylesheet" media="screen, print" href="https://s.npr.org/templates/javascript/dist/bundles/newsStory-css-cdfa69694b4ed11559a2.css" /><link rel="stylesheet" media="screen" href="https://s.npr.org/branding/sections/health-shots/branding.css" /><script type="text/javascript">
-   document.domain="npr.org";
-</script>
-</head><body id="news" class="news tmplBlogNewsStory  story-layout is-buildout no-transcript  blog catId126567525 id811609026  " data-pjax-modules="util/env images/lazy-load chartbeat comscore metrics nielsen nielsenDCR copyright auto-refresh navigation/global-navigation fitvids dfp globalfooter persistent-audio player/more-options player/audio-module-clickable what-input metrics/doubleclickFloodlight metrics/facebookTracking story/replace-centerstage global-alerts ecommerce recommendations/end-of-story-recommendations-callout jw social/share slideshow images/enlargement swfbuilder contentfooter story/sticky-header story/date-tooltip callout/end-of-story-callout social/sharepop podcast-cards search/faceting-param local/newsletter/callout social/recaptcha"><div class="skip-links">
-      <span>Accessibility links</span>   <ul>
-            <li><a href="#mainContent" class="skiplink">Skip to main content</a></li>
-      <li><a href="https://help.npr.org/contact/s/article?name=what-are-the-keyboard-shortcuts-for-using-the-npr-org-audio-player" class="skiplink">Keyboard shortcuts for audio player</a></li>
-   </ul>
-</div>
-<header class="npr-header" id="globalheader" aria-label="NPR header">
-<nav class="navigation">
-    <div class="navigation__top-level-wrap" data-metrics-all data-metrics-category="global navigation">
-        <ul class="navigation__top-level">
-            <li class="navigation__home">
-                <a href="/" data-metrics-action="click npr logo">
-                    <img src="https://media.npr.org/chrome_svg/npr-logo.svg" alt="NPR logo"/>
-                </a>
-            </li>
-
-            <li id="navigation__station-mount"></li>
-
-            <li id="user-account-dropdown-mount" class="navigation__account"></li>
-
-            <li class="navigation__shop">
-                <a href="https://shop.npr.org" data-metrics-action="click npr shop">NPR Shop</a>
-            </li>
-
-            <li id="navigation__station-donate-mount"></li>
-
-            <li class="navigation__toggle-wrap">
-                <button id="navigation__toggle--open" class="navigation__toggle navigation__toggle--open" aria-haspopup="true" aria-expanded="false" data-metrics-action="open navigation menu">
-                    Open Navigation Menu
-                </button>
-            </li>
-        </ul>
-    </div>
-    <section id="main-menu" class="menu menu--main" data-metrics-all data-metrics-category="global navigation">
-        <div class="menu__inner">
-            <header class="menu__header">
-                <button id="navigation__toggle--close" class="navigation__toggle navigation__toggle--close" aria-haspopup="true" aria-expanded="true" data-metrics-action="close navigation menu">
-                    Close <span>Navigation Menu</span>
-                </button>
-            </header>
-            <ul class="menu__list">
-                <li class="menu__item menu__item--home">
-                    <div class="menu__item-inner"><a href="/" data-metrics-action="click npr logo">Home</a></div>
-                </li>
-                <li class="menu__item menu__item--news menu__item--has-submenu">
-                    <div class="menu__item-inner">
-                        <a href="/sections/news/" data-metrics-action="click news">News</a>
-                        <button class="menu__toggle-submenu" data-metrics-action="toggle news drawer">Expand/collapse submenu for News</button>
-                    </div>
-
-                    <ul class="submenu submenu--news">
-                        <li class="submenu__item"><a href="/sections/national/" data-metrics-action="click national">National</a></li>
-                        <li class="submenu__item"><a href="/sections/world/" data-metrics-action="click world">World</a></li>
-                        <li class="submenu__item"><a href="/sections/politics/" data-metrics-action="click politics">Politics</a></li>
-                        <li class="submenu__item"><a href="/sections/business/" data-metrics-action="click business">Business</a></li>
-                        <li class="submenu__item"><a href="/sections/health/" data-metrics-action="click health">Health</a></li>
-                        <li class="submenu__item"><a href="/sections/science/" data-metrics-action="click science">Science</a></li>
-                        <li class="submenu__item"><a href="/sections/technology/" data-metrics-action="click technology">Technology</a></li>
-                        <li class="submenu__item"><a href="/sections/codeswitch/" data-metrics-action="click race & culture">Race &amp; Culture</a></li>
-                    </ul>
-                </li>
-                <li class="menu__item menu__item--arts-life menu__item--has-submenu">
-                    <div class="menu__item-inner">
-                        <a href="/sections/arts/" data-metrics-action="click arts & life">Arts &amp; Life</a>
-                        <button class="menu__toggle-submenu" data-metrics-action="toggle arts drawer">Expand/collapse submenu for Arts &amp; Life</button>
-                    </div>
-
-                    <ul class="submenu submenu--arts-life">
-                        <li class="submenu__item"><a href="/books/" data-metrics-action="click books">Books</a></li>
-                        <li class="submenu__item"><a href="/sections/movies/" data-metrics-action="click movies">Movies</a></li>
-                        <li class="submenu__item"><a href="/sections/television/" data-metrics-action="click television">Television</a></li>
-                        <li class="submenu__item"><a href="/sections/pop-culture/" data-metrics-action="click pop culture">Pop Culture</a></li>
-                        <li class="submenu__item"><a href="/sections/food/" data-metrics-action="click food">Food</a></li>
-                        <li class="submenu__item"><a href="/sections/art-design/" data-metrics-action="click art & design">Art &amp; Design</a> </li>
-                        <li class="submenu__item"><a href="/sections/performing-arts/" data-metrics-action="click performing arts">Performing Arts</a></li>
-                    </ul>
-                </li>
-                <li class="menu__item menu__item--music menu__item--has-submenu">
-                    <div class="menu__item-inner">
-                        <a href="/music/" data-metrics-action="click music">Music</a>
-                        <button class="menu__toggle-submenu" data-metrics-action="toggle music drawer">Expand/collapse submenu for Music</button>
-                    </div>
-
-                    <ul class="submenu submenu--music"><li class="submenu__item">
-    <a href="https://www.npr.org/series/tiny-desk-concerts/" data-metrics-action="click tiny desk">
-        Tiny Desk
-    </a>
-</li><li class="submenu__item">
-    <a href="https://www.npr.org/sections/allsongs/" data-metrics-action="click all songs considered">
-        All Songs Considered
-    </a>
-</li><li class="submenu__item">
-    <a href="https://www.npr.org/sections/music-news/" data-metrics-action="click music news">
-        Music News
-    </a>
-</li><li class="submenu__item">
-    <a href="https://www.npr.org/sections/new-music/" data-metrics-action="click new music">
-        New Music
-    </a>
-</li><li class="submenu__item">
-    <a href="https://www.npr.org/sections/music-features" data-metrics-action="click music features">
-        Music Features
-    </a>
-</li><li class="submenu__item">
-    <a href="https://www.npr.org/series/770565791/npr-music-live-sessions" data-metrics-action="click live sessions">
-        Live Sessions
-    </a>
-</li></ul>
-
-                </li>
-                <li class="menu__item menu__item--shows-podcasts menu__item--has-submenu">
-                    <div class="menu__item-inner">
-                        <a href="/programs/" data-metrics-action="click shows & podcasts">Shows &amp; Podcasts</a>
-                        <button class="menu__toggle-submenu" data-metrics-action="toggle programs &amp; podcasts drawer">Expand/collapse submenu for Shows &amp; Podcasts</button>
-                    </div>
-
-                    <div class="submenu submenu--shows-podcasts">
-                        <span class="submenu__category submenu__category--daily">Daily</span>
-                        <ul class="submenu__list submenu__list--daily">
-                            <li class="submenu__item submenu__item--timed submenu__item--weekday hidden">
-                                <a href="/programs/morning-edition/" data-metrics-action="click morning edition">
-                                    <img src="https://media.npr.org/chrome/programs/logos/morning-edition.jpg" alt="" />
-                                    Morning Edition
-                                </a>
-                            </li>
-                            <li class="submenu__item submenu__item--timed submenu__item--saturday hidden" >
-                                <a href="/programs/weekend-edition-saturday/" data-metrics-action="click weekend edition saturday">
-                                    <img src="https://media.npr.org/assets/img/2019/02/26/we_otherentitiestemplatesat_sq-cbde87a2fa31b01047441e6f34d2769b0287bcd4-s100-c85.png" alt="" />
-                                    Weekend Edition Saturday
-                                </a>
-                            </li>
-                            <li class="submenu__item submenu__item--timed submenu__item--sunday hidden">
-                                <a href="/programs/weekend-edition-sunday/" data-metrics-action="click weekend edition sunday">
-                                    <img src="https://media.npr.org/assets/img/2019/02/26/we_otherentitiestemplatesun_sq-4a03b35e7e5adfa446aec374523a578d54dc9bf5-s100-c85.png" alt="" />
-                                    Weekend Edition Sunday
-                                </a>
-                            </li>  
-                            <li class="submenu__item">
-                                <a href="/programs/all-things-considered/" data-metrics-action="click all things considered">
-                                    <img src="https://media.npr.org/chrome/programs/logos/all-things-considered.png" alt="" />
-                                    All Things Considered
-                                </a>
-                            </li>
-                            <li class="submenu__item">
-                                <a href="/programs/fresh-air/" data-metrics-action="click fresh air">
-                                    <img src="https://media.npr.org/chrome/programs/logos/fresh-air.png" alt="" />
-                                    Fresh Air
-                                </a>
-                            </li>
-                            <li class="submenu__item">
-                                <a href="/podcasts/510318/up-first" data-metrics-action="click up first">
-                                    <img src="https://media.npr.org/chrome/programs/logos/up-first.jpg?version=2" alt="" />
-                                    Up First
-                                </a>
-                            </li>
-                        </ul>
-                        <span class="submenu__category submenu__category--featured">Featured</span>
-
-                        <ul class="submenu__list submenu__list--featured"><li class="submenu__item">
-    <a href="https://www.npr.org/podcasts/510312/codeswitch" data-metrics-action="click code switch">
-        <img src="https://media.npr.org/assets/img/2020/03/24/undefined_sq-63f9f4b46bb9031d67f9785b66818f4befbab8bc.jpg?s=100" alt="" />
-        Code Switch
-    </a>
-</li><li class="submenu__item">
-    <a href="https://www.npr.org/podcasts/510355/coronavirusdaily" data-metrics-action="click coronavirus daily">
-        <img src="https://media.npr.org/assets/img/2020/03/17/coronavirus_daily_final__sq-2aca96317281db7f8671e5bf24e68fb77b66bbed.png?s=100" alt="" />
-        Coronavirus Daily
-    </a>
-</li><li class="submenu__item">
-    <a href="https://www.npr.org/podcasts/510307/invisibilia" data-metrics-action="click invisibilia">
-        <img src="https://media.npr.org/assets/img/2020/02/21/invisibiliapodcasttile-3000x3000_sq-3cea16f264a5ecd812496bd930d38c4f54102d6e.png?s=100" alt="" />
-        Invisibilia
-    </a>
-</li><li class="submenu__item">
-    <a href="https://www.npr.org/podcasts/510298/ted-radio-hour" data-metrics-action="click ted radio hour">
-        <img src="https://media.npr.org/assets/img/2020/03/09/trh_podcast-tile_sq-c05fb259465d433a5cf8a21248b8fa209a6b7690.png?s=100" alt="" />
-        TED Radio Hour
-    </a>
-</li></ul>
-
-                        <ul class="submenu__list submenu__list--directories">
-                            <li class="submenu__item"><a href="/programs/" data-metrics-action="click all programs">More Shows &amp; Podcasts</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu__item menu__item--search">
-                    <div class="menu__item-inner">
-                        <a href="/search" id="navigation_dropdown-search" data-metrics-action="click search">Search</a>
-                    </div>
-                </li>
-                <li id="user-account-dropdown-mount-two" class="menu__item menu__item--account"></li>
-                <li class="menu__item menu__item--shop">
-                    <div class="menu__item-inner">
-                        <a href="https://shop.npr.org" data-metrics-action="click npr shop">NPR Shop</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section class="menu menu--music" data-metrics-all data-metrics-category="music ecosystem navigation">
-        <div class="menu__list-wrap">
-            <ul class="menu__list menu__list--ecosystem menu__list--music">
-                <li class="menu__item menu__item--music-home">
-                    <a href="/music/" data-metrics-action="click npr music logo">
-                        <img src="https://media.npr.org/chrome_svg/music-logo-dark.svg" class="music-logo"  alt="NPR Music" />
-                        <img src="https://media.npr.org/chrome_svg/music-logo-light.svg" class="music-logo-alt" alt="NPR Music" />
-                    </a>
-                </li>
-                
-                <li class="menu__item">
-    <a href="https://www.npr.org/series/tiny-desk-concerts/" data-metrics-action="click tiny desk">
-        Tiny Desk
-    </a>
-</li><li class="menu__item">
-    <a href="https://www.npr.org/sections/allsongs/" data-metrics-action="click all songs considered">
-        All Songs Considered
-    </a>
-</li><li class="menu__item">
-    <a href="https://www.npr.org/sections/music-news/" data-metrics-action="click music news">
-        Music News
-    </a>
-</li><li class="menu__item">
-    <a href="https://www.npr.org/sections/new-music/" data-metrics-action="click new music">
-        New Music
-    </a>
-</li><li class="menu__item">
-    <a href="https://www.npr.org/sections/music-features" data-metrics-action="click music features">
-        Music Features
-    </a>
-</li><li class="menu__item">
-    <a href="https://www.npr.org/series/770565791/npr-music-live-sessions" data-metrics-action="click live sessions">
-        Live Sessions
-    </a>
-</li>
-            </ul>
-        </div>
-    </section>
-    <section class="menu menu--about" data-metrics-all data-metrics-category="about ecosystem navigation">
-        <div class="menu__list-wrap">
-            <ul class="menu__list menu__list--ecosystem menu__list--about">
-                <li class="menu__item menu__item--about-home"><a href="/about/" data-metrics-action="click about npr">About NPR</a></li>
-                <li class="menu__item menu__item--about-overview"><a href="/overview/" data-metrics-action="click overview">Overview</a></li>
-                <li class="menu__item menu__item--about-support"><a href="/support/" data-metrics-action="click support">Support</a></li>
-                <li class="menu__item menu__item--about-careers"><a href="/careers/" data-metrics-action="click careers">Careers</a></li>
-                <li class="menu__item menu__item--about-connect"><a href="/connect/" data-metrics-action="click connect">Connect</a></li>
-                <li class="menu__item menu__item--about-press"><a href="/press/" data-metrics-action="click press">Press</a></li>
-                <li class="menu__item menu__item--about-ethics"><a href="/ethics/" data-metrics-action="click ethics">Ethics</a></li>
-            </ul>
-        </div>
-    </section>
-</nav></header><main aria-label="main content"><div class="speakable">
-      <b data-is-speakable>How Long Can The Coronavirus Live On Surfaces? : Shots - Health News</b>   <b data-is-speakable>A new study measured the life span of the novel coronavirus on surfaces. Here's what they found, plus expert advice for cleaning the stuff you touch.</b>
-</div>
-<div id="wrapper">
-      <header class="contentheader contentheader--one" data-metrics='{"category":"Shots - Health News"}' ><div class="branding branding--custom">
-      <a href="https://www.npr.org/sections/health-shots/" data-metrics='{"action":"click branding"}' ><img src="https://media.npr.org/branding/sections/health-shots/branding_icon-9d5c5798fbff8351e5c796ffe65e5e8246c166fb.png" class="branding__image-icon" alt="Shots - Health News" /><div class="branding__inner">
-      <h2 class="branding__title branding__title--custom-text"><b>Shots</b></h2>
-   <b class="branding__mini-teaser">Health News From NPR</b>
-</div>
-
-<!-- END CLASS="BRANDING__INNER" -->
-</a>
-</div>
-
-<!-- END CLASS="BRANDING BRANDING--CUSTOM" -->
-<div class="subnav-tools-wrap">
-      <div id="subNavigation" class="agglocation linkLocation" role="navigation" aria-label="sub-navigation">
-            <div id="res341873289" class="bucketwrap statichtml">
-                  <div class="subtopics">
-  <ul class="animated fadeInRight">
-    <li><a href="/sections/health/126567525/your-health">Your Health</a></li>
-    <li><a href="/sections/health/133188451/treatments-tests">Treatments &amp; Tests</a></li>
-    <li><a href="/sections/health/133188447/health-inc">Health Inc.</a></li>
-    <li><a href="/sections/health/133188445/policy-ish">Policy-ish</a></li>
-    <li><a href="/sections/health/133188449/public-health">Public Health</a></li>
-  </ul>
-</div>
-
-<div class="roller-overlay"></div>
-
-<ul class="subscribe">
-  <li class="twitter"><a href="https://twitter.com/nprhealth" data-metrics='{"action":"Click Twitter"}'>Twitter</a></li>
-</ul>
-      </div>
-      
-<!-- END ID="RES341873289" CLASS="BUCKETWRAP STATICHTML" -->
-   </div>
-</div>
-</header>   <div class="story-sticky-header">
-    <div class="story-sticky-header-inner">
-        <a href="/" class="nprhome nprhome-news"  data-metrics='{&quot;category&quot;:&quot;global navigation&quot;,&quot;action&quot;:&quot;click npr logo&quot;,&quot;label&quot;:&quot;\/&quot;}' >
-            <img src="https://media.npr.org/chrome_svg/npr-logo.svg" alt="NPR logo"/>
-        </a>
-
-        
-
-        <a href="#" class="title">
-          <b>The New Coronavirus Can Live On Surfaces For 2-3 Days — Here's How To Clean Them</b>
-          
-        </a>
-    </div>
-</div>   <section id="main-section"><article class="story story-blogpost"><a id="mainContent"></a><div class="slug-wrap">
-
-    <h3 class="slug">
-        <a href="https://www.npr.org/series/812054919/the-coronavirus-crisis">The Coronavirus Crisis</a>
-    </h3>
-</div>
-<div class="storytitle">
-      <h1>The New Coronavirus Can Live On Surfaces For 2-3 Days — Here's How To Clean Them</h1>
-   <input type="hidden" id="title811609026" value="The New Coronavirus Can Live On Surfaces For 2-3 Days — Here's How To Clean Them" />
-   <input type="hidden" id="shortTitle811609026" value="The New Coronavirus Can Live On Surfaces For 2-3 Days — Here's How To Clean Them" />
-   <input type="hidden" id="modelFullUrl811609026" value="https://www.npr.org/sections/health-shots/2020/03/14/811609026/the-new-coronavirus-can-live-on-surfaces-for-2-3-days-heres-how-to-clean-them" />
-</div>
-
-<!-- END CLASS="STORYTITLE" -->
-<div class="story-tools">
-      <div class="share-tools share-tools--primary" aria-label="Share tools">
-            <ul>
-                  <li class="share-tools__service share-tools__service--facebook"><button class="fbStory811609026" data-share-facebook='{"storyId": 811609026 }'  data-metrics='{"action":"Click Facebook","category":"Share Tools","label":"https:\/\/www.npr.org\/sections\/health-shots\/2020\/03\/14\/811609026\/the-new-coronavirus-can-live-on-surfaces-for-2-3-days-heres-how-to-clean-them"}' ><b class="share-tools__service-name">Facebook</b></button></li>
-         <li class="share-tools__service share-tools__service--twitter"><button class="story811609026" data-share-twitter='{"storyId": 811609026 }'  data-metrics='{"action":"Click Twitter","category":"Share Tools","label":"https:\/\/www.npr.org\/sections\/health-shots\/2020\/03\/14\/811609026\/the-new-coronavirus-can-live-on-surfaces-for-2-3-days-heres-how-to-clean-them"}' ><b class="share-tools__service-name">Twitter</b></button></li>
-         <li class="share-tools__service share-tools__service--flipboard"><button class="story811609026" data-share-flipboard='{"storyId": 811609026 }'  data-metrics='{"action":"Click Flipboard","category":"Share Tools","label":"https:\/\/www.npr.org\/sections\/health-shots\/2020\/03\/14\/811609026\/the-new-coronavirus-can-live-on-surfaces-for-2-3-days-heres-how-to-clean-them"}' ><b class="share-tools__service-name">Flipboard</b></button></li>
-         <li class="share-tools__service share-tools__service--email"><button class='share-tools__email-link' data-story-id='811609026'  data-metrics='{"action":"Click Email a Friend","category":"Share Tools","label":"https:\/\/www.npr.org\/sections\/health-shots\/2020\/03\/14\/811609026\/the-new-coronavirus-can-live-on-surfaces-for-2-3-days-heres-how-to-clean-them"}' ><b class="share-tools__service-name">Email</b></button></li>
-      </ul>
-   </div>
-   
-<!-- END CLASS="SHARE-TOOLS SHARE-TOOLS--PRIMARY" ARIA-LABEL="SHARE TOOLS" -->
-</div>
-
-<!-- END CLASS="STORY-TOOLS" -->
-<div id="story-meta" class="story-meta has-byline">
-      <div class="story-meta__one">
-            <div class="dateblock">
-    <time datetime="2020-03-14T07:01:02-04:00">
-            <span class="date">March 14, 2020</span><span class="time">7:01 AM ET</span>
-    </time>
-</div>
-   </div>
-   
-<!-- END CLASS="STORY-META__ONE" -->
-   <div class="story-meta__two">
-            <div id="storybyline" class="storybyline-wrap linkLocation">
-                  <div class="bucketwrap byline" id="res811609029" previewTitle="bylines">
-                        <div class="byline-container--block">
-                              <div class="byline byline--block byline--has-link" aria-label="Byline">
-    <div class="byline__photo">
-      <a href="https://www.npr.org/people/2100208/allison-aubrey" rel="author"  data-metrics='{"action":"Click Byline","category":"Story Metadata"}' >
-        <img src="https://media.npr.org/assets/img/2015/05/18/mvi_9328_sq-9f8ca24bda420333d253b718c41e82fd4ab55fcf-s100-c85.jpg" class="img"  alt="Allison Aubrey - 2015 square" />
-      </a>
-    </div>
-
-  <p class="byline__name byline__name--block">
-    <a href="https://www.npr.org/people/2100208/allison-aubrey" rel="author"  data-metrics='{"action":"Click Byline","category":"Story Metadata"}' >
-      Allison Aubrey
-    </a>
-  </p>
-
-    <a class="byline__social-handle byline__social-handle--5" href="https://www.twitter.com/AubreyNPRFood"  data-metrics='{"action":"Click Social Handle","category":"Story Metadata"}' >
-      Twitter
-    </a>
-</div>
-            </div>
-         </div>
-         
-<!-- END CLASS="BUCKETWRAP BYLINE" ID="RES811609029" PREVIEWTITLE="BYLINES" -->
-      </div>
-   </div>
-   
-<!-- END CLASS="STORY-META__TWO" -->
-</div>
-
-<!-- END ID="STORY-META" CLASS="STORY-META HAS-BYLINE" -->
-<div id="storytext" class="storytext storylocation linkLocation">
-      <div id="res815498198" class="bucketwrap image large">
-            <div class="imagewrap" data-crop-type="">
-    <img src="https://media.npr.org/assets/img/2020/03/13/cleansurfaces_custom-c3109167696552eea375623c784b9d9212f24e23-s1100-c15.jpg" data-original="https://media.npr.org/assets/img/2020/03/13/cleansurfaces_custom-c3109167696552eea375623c784b9d9212f24e23-s1100.jpg" class="img lazyOnLoad"  alt="" />
-        <div class="enlarge-options">
-            <a class="enlargelink" href="https://media.npr.org/assets/img/2020/03/13/cleansurfaces_custom-c3109167696552eea375623c784b9d9212f24e23-s1200.jpg">Enlarge this image</a>
-        </div>
-</div>
-<div class="credit-caption">
-    <div class="caption-wrap">
-        <div class="caption" aria-label="Image caption">
-            <p>
-                When an infected person touches a surface, like a door handle, there's a risk they leave viruses stuck there that can live on for two to three days.
-                
-                <b class="credit" aria-label="Image credit">
-                    
-                    Andrew Harrer/Bloomberg via Getty Images
-                    
-                </b>
-                <b class="hide-caption"><b>hide caption</b></b>
-            </p>
-        </div>
-
-
-            <b class="toggle-caption"><b>toggle caption</b></b>
-    </div>
-
-    <span class="credit" aria-label="Image credit">
-        
-        Andrew Harrer/Bloomberg via Getty Images
-        
-    </span>
-</div>
-<div class="enlarge_measure">
-    <div class="img_wrap">
-        <img data-original="https://media.npr.org/assets/img/2020/03/13/cleansurfaces_custom-c3109167696552eea375623c784b9d9212f24e23-s1200.jpg" alt="" />
-    </div>
-</div>
-<div class="enlarge_html">
-    <div class="image_data">
-        <p class="caption">When an infected person touches a surface, like a door handle, there's a risk they leave viruses stuck there that can live on for two to three days.</p>
-        <span class="credit" aria-label="Image credit">
-            
-            Andrew Harrer/Bloomberg via Getty Images
-            
-        </span>
-    </div>
-</div>
-   </div>
-   <p>How long can the new coronavirus live on a surface, like say, a door handle, after someone infected touches it with dirty fingers? A <a href="https://www.medrxiv.org/content/10.1101/2020.03.09.20033217v1.full.pdf">study</a> out this week finds that the virus can survive on hard surfaces such as plastic and stainless steel for up to 72 hours and on cardboard for up to 24 hours. </p>   <p>"This virus has the capability for remaining viable for days," says study author, <a href="https://bioscience.ucla.edu/faculty/james-lloyd-smith">James Lloyd-Smith</a>, an assistant professor of ecology and evolutionary biology at the University of California, Los Angeles, who researches how pathogens emerge.  </p>   <p>Although the World Health Organization had previously <a href="https://www.who.int/news-room/q-a-detail/q-a-coronaviruses">estimated the survival time</a> on surfaces to be a "few hours to a few days" based on research on other coronaviruses, this is the first study by scientists at a federal laboratory to test the actual virus causing the current pandemic, SARS-CoV-2. </p>   <p>The study <a href="https://www.medrxiv.org/content/10.1101/2020.03.09.20033217v1.full.pdf">is out in preprint form</a> and expected to be published.</p>   <p>Interestingly, some surfaces are less hospitable to SARS-CoV-2. For instance, the virus remained viable on copper for only about four hours. </p>   <aside id="ad-backstage-wrap" aria-label="advertisement">
-    
-
-    <div id="ad-backstage-News_Health" class="ad-backstage" data-ad-config='{"network":"\/6735\/","site":{"default":"n6735.NPR","mobile":"n6735.NPRMOBILE"},"zone":"News_Health","targets":{"testserver":"false","isPodcastEpisode":"false","storyId":"811609026","agg":["812054919","191676894","434975886","103537970"],"blog":"103537970"},"location":"backstage","deferred":false,"isBetweenContent":true,"isAggSponsorship":false,"borderClass":""}'></div>
-
-</aside>   <p>It's useful to know how long it can stay alive of course, because the virus can contaminate surfaces when an infected person sneezes or coughs. Virus-laden respiratory droplets can land on doorknobs, elevator buttons, handrails or countertops — and spread the virus to anyone who then touches these surfaces. </p>   <p>To test the survival time of the virus, scientists at the Rocky Mountain Laboratories in Montana, part of the National Institutes of Health, conducted a series of experiments comparing the novel coronavirus with the SARS virus (a similar coronavirus that led to an outbreak back in 2003). </p>   <p>In the lab, "they'd pick up the virus from the surfaces that had been contaminated and then put [the virus] into cell cultures," he explains. Then the researchers documented whether the virus could infect those cells in the dish. They did this multiple times, for both the viruses, at various time points.</p>   <p>"Big picture, the [two viruses] look very similar to each other in terms of their stability in these environments," Lloyd-Smith says.</p>   <p>Lloyd-Smith says these findings establish a good ballpark estimate for the survivability of the virus on these surfaces. "In a laboratory experiment, the conditions are pretty carefully controlled and constant," he says. By comparison, "in the real world, conditions fluctuate" — conditions like temperature, humidity and light. So the survivability may vary, too.  </p>   <p>For instance, if the virus contaminates a sunny windowsill or countertop, it may not last as long.</p>   <p>"Ultraviolet light can be a really powerful disinfectant and we get a lot of UVA light from the sun," says <a href="https://physiciandirectory.brighamandwomens.org/details/1636/daniel-kuritzkes-infectious_disease-medicine-boston">Daniel Kuritzkes</a> an infectious disease expert at Brigham and Women's Hospital. "Direct sunlight can help rapidly diminish infectivity of viruses on surfaces," he says. He was not involved in the new research. </p>   <p>Much is still unknown about the virus's survivability on other types of surfaces like clothing, or carpeting. Kuritzkes says that based on prior research, it seems that "flat surfaces and hard surfaces are more friendly to viruses than cloth or rough surfaces."  </p>   <p>And how about food? "Food is probably not a major risk factor here," Kuritzkes says. That's because most infection from the new coronavirus starts with the respiratory system, not the digestive tract. So infection comes from getting the virus on your hands and then touching your own eyes, nose and mouth.  "Of more concern would be utensils, and plates and cups that might be handled by a large number of people in a cafeteria setting, for example," he says.</p>   <p>So, what can you do to protect yourself? Well, you've likely already heard this. Wash your hands. And wipe down shared surfaces.</p>   <p>Follow these tips for cleaning surfaces — your own and public ones.</p>   <p><strong>Wipe right: Use ammonia or alcohol-based products. Skip the baby wipes</strong></p>   <div id="res815568342" class="bucketwrap image large">
-            <div class="imagewrap" data-crop-type="">
-    <img src="https://media.npr.org/assets/img/2020/03/13/20200227-_mg_9669_custom-c7f8580234995821b6a1bf62ce7a9c19fca3989b-s1100-c15.jpg" data-original="https://media.npr.org/assets/img/2020/03/13/20200227-_mg_9669_custom-c7f8580234995821b6a1bf62ce7a9c19fca3989b-s1100.jpg" class="img lazyOnLoad"  alt="" />
-</div>
-<div class="credit-caption">
-    <div class="caption-wrap">
-        <div class="caption" aria-label="Image caption">
-            <p>
-                Maintaining awareness of the many surfaces you touch during the day and cleaning them with approved products will help curb the spread of the coronavirus.
-                
-                <b class="credit" aria-label="Image credit">
-                    
-                    Max Posner/NPR
-                    
-                </b>
-                <b class="hide-caption"><b>hide caption</b></b>
-            </p>
-        </div>
-
-
-            <b class="toggle-caption"><b>toggle caption</b></b>
-    </div>
-
-    <span class="credit" aria-label="Image credit">
-        
-        Max Posner/NPR
-        
-    </span>
-</div>
-   </div>
-   <p>"The good thing about COVID-19 is that it does not require any unique cleaning chemicals to disinfect hands and surfaces," says <a href="https://pediatrics.wustl.edu/Faculty/Janowski_A">Andrew Janowski</a>, an infectious disease expert at Washington University School of Medicine and St. Louis Children's Hospital. COVID-19 is the disease caused by the current coronavirus.</p>   <p>Good old-fashioned soap and water does the trick.</p>   <p>You can also use a wipe, but make sure you use an alcohol-based wipe, not baby wipes, which may not be effective, Janowski says. </p>   <p>And given that wipes are hard to come by at many stores at the moment, you can instead buy an EPA-registered disinfecting spray, such as one on <a href="https://www.americanchemistry.com/Novel-Coronavirus-Fighting-Products-List.pdf">this list from the Center for Biocide Chemistries</a>, recommended by the Centers for Disease Control and Prevention and by <a href="https://infectiousdiseases.wustl.edu/faculty-staff/david-k-warren/">Dr. David Warren</a>, an infectious disease specialist at Washington University School of Medicine in St. Louis.</p>   <p>Or make a bleach-based spray yourself. You can make <a href="https://www.cdc.gov/coronavirus/2019-ncov/community/home/cleaning-disinfection.html">a DIY cleaning spray</a> by mixing 4 teaspoons bleach per quart of water, according to the CDC.</p>   <p><strong>Wash. Your. Hands. (Seriously!)</strong></p>   <p>Yes, you've heard it a hundred times. So do it, already! Especially after you've been out in public, touching a lot of surfaces. Lather up with soap and scrub for 20 seconds. (Two times the "Happy Birthday" song, or sing "Baby Shark" — you'll get midway through Daddy Shark). </p>   <p>And be thorough. Spend some time rubbing the backs of your hands as well as the front, interlace your fingers and pull them through, soap up each thumb with the opposite hand and, finally, to keep your fingernails virus-free, lightly scratch them against your palm. (For more detail, listen to NPR <em>Short Wave</em>'s <a href="https://www.npr.org/2020/02/28/810501490/handwashing-101-a-guide-to-proper-washing-and-drying">Maddie Sofia give a lesson here.)</a></p>   <p>Hand-washing is so important that if everyone followed good hand-washing hygiene, it could prevent an estimated 1 in 5  respiratory infections, <a href="https://www.cdc.gov/handwashing/handwashing-family.html">according to the CDC</a> — that's the equivalent of about 6 million cases of the flu this year.</p>   <p><strong>Hand sanitizer: DIY in a pinch? </strong></p>   <p>Hand sanitizer is effective at killing viruses, too, although hand-washing is preferred, according to the CDC. If you can't get to a sink, hand sanitizer is a good backup plan — just make sure it's <a href="https://www.cdc.gov/handwashing/show-me-the-science-hand-sanitizer.html">at least 60% alcohol.</a> </p>   <p>Given the shortage of hand sanitizers in some stores and reports of price-gouging online, there's lots of interest in DIY hand sanitizer. We've seen lots of recipes calling for a combination of rubbing alcohol  and aloe vera gel, like <a href="https://www.wired.com/story/how-to-make-hand-sanitizer/">this one from Wired.</a></p>   <p>"On paper, if a recipe can maintain the alcohol concentration above 60%, it should be effective against SARS-COV-2," says Janowski, but he says getting it just right might be trickier than you think. If in doubt when making these homemade sanitizers, soap and water are still effective against the virus. </p>   <p><strong>Your smartphone is like a third hand. Wipe it down</strong> </p>   <div id="res814476181" class="bucketwrap image large">
-            <div class="imagewrap" data-crop-type="">
-    <img src="https://media.npr.org/assets/img/2020/03/11/hugsonions-1_custom-e37ff4aefa8512485bcf80215f2fed03d5f44ae2-s1100-c15.jpg" data-original="https://media.npr.org/assets/img/2020/03/11/hugsonions-1_custom-e37ff4aefa8512485bcf80215f2fed03d5f44ae2-s1100.jpg" class="img lazyOnLoad"  alt="" />
-        <div class="enlarge-options">
-            <a class="enlargelink" href="https://media.npr.org/assets/img/2020/03/11/hugsonions-1_custom-e37ff4aefa8512485bcf80215f2fed03d5f44ae2-s1200.jpg">Enlarge this image</a>
-        </div>
-</div>
-<div class="credit-caption">
-    <div class="caption-wrap">
-        <div class="caption" aria-label="Image caption">
-            <p>
-                One way to fend off germs: Clean your phone. Your phone is your "third hand"; one that harbors the multitude of germs and bacteria we come into contact with each day.
-                
-                <b class="credit" aria-label="Image credit">
-                    
-                    Photo Illustration by Max Posner/NPR
-                    
-                </b>
-                <b class="hide-caption"><b>hide caption</b></b>
-            </p>
-        </div>
-
-
-            <b class="toggle-caption"><b>toggle caption</b></b>
-    </div>
-
-    <span class="credit" aria-label="Image credit">
-        
-        Photo Illustration by Max Posner/NPR
-        
-    </span>
-</div>
-<div class="enlarge_measure">
-    <div class="img_wrap">
-        <img data-original="https://media.npr.org/assets/img/2020/03/11/hugsonions-1_custom-e37ff4aefa8512485bcf80215f2fed03d5f44ae2-s1200.jpg" alt="" />
-    </div>
-</div>
-<div class="enlarge_html">
-    <div class="image_data">
-        <p class="caption">One way to fend off germs: Clean your phone. Your phone is your "third hand"; one that harbors the multitude of germs and bacteria we come into contact with each day.</p>
-        <span class="credit" aria-label="Image credit">
-            
-            Photo Illustration by Max Posner/NPR
-            
-        </span>
-    </div>
-</div>
-   </div>
-   <p>So you've just washed your hands and you're feeling squeaky clean. Then you pick up your cellphone, and guess what? It's covered with potential pathogens. </p>   <p>"Studies have shown that smartphones surfaces are covered in bacteria, including bacteria that can cause serious infections like <em>Staphylococcus</em> species," says <a href="https://www.ohsu.edu/providers/judith-a-guzman-cottrill-do">Judy Guzman-Cottrill</a>, an infectious disease expert at Oregon Health & Science University.  </p>   <p>And phones are often held close to the eyes, nose and mouth, where germs can enter the body. So wipe it down often.</p>   <p>And you don't have to rub down your phone for long if you're using an alcohol-based sanitizer. "Just a few seconds should be sufficient to disinfect," says Janowski.</p>   <p><strong>Try this stinky trick to stop touching your face</strong></p>   <div id="res814476462" class="bucketwrap image large">
-            <div class="imagewrap" data-crop-type="">
-    <img src="https://media.npr.org/assets/img/2020/03/11/hugsonions2_custom-42af957ea80969925887b93449cea001a0d88401-s1100-c15.jpg" data-original="https://media.npr.org/assets/img/2020/03/11/hugsonions2_custom-42af957ea80969925887b93449cea001a0d88401-s1100.jpg" class="img lazyOnLoad"  alt="" />
-</div>
-<div class="credit-caption">
-    <div class="caption-wrap">
-        <div class="caption" aria-label="Image caption">
-            <p>
-                Having trouble remembering not to touch your face? Try rubbing a raw onion after hand-washing.
-                
-                <b class="credit" aria-label="Image credit">
-                    
-                    Photo Illustration by Max Posner/NPR
-                    
-                </b>
-                <b class="hide-caption"><b>hide caption</b></b>
-            </p>
-        </div>
-
-
-            <b class="toggle-caption"><b>toggle caption</b></b>
-    </div>
-
-    <span class="credit" aria-label="Image credit">
-        
-        Photo Illustration by Max Posner/NPR
-        
-    </span>
-</div>
-   </div>
-   <p>Your face offers multiple entry points for the virus. So every time you touch your eyes, nose and mouth with grubby hands, you risk infection. </p>   <p>"If you have touched a table or a doorknob or some surface contaminated [with the virus] and then touch your eyes, nose or mouth, you have a chance of inoculating yourself with the virus," Kuritzkes says.</p>   <p>But, as a matter of habit, most of us touch our faces multiple times an hour without even realizing it.</p>   <p>So, here's an idea. "After you wash your hands really well, touch a piece of raw onion," says<a href="https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=16309"> Catherine Belling</a> of Northwestern University Feinberg School of Medicine. With this strong smell on your fingers, "you'll notice when you touch your face," she says. Sure, it may make you a tad antisocial, but it could be a good way to train yourself to touch less.</p>
-</div>
-<div class="tags">
-      <ul>
-            <li><a class="tag tag--story" data-metrics='{"category":"story actions","action":"click tag"}' href="https://www.npr.org/tags/804916759/covid-19">COVID-19</a></li>
-      <li><a class="tag tag--story" data-metrics='{"category":"story actions","action":"click tag"}' href="https://www.npr.org/tags/592013615/cleaning">Cleaning</a></li>
-      <li><a class="tag tag--story" data-metrics='{"category":"story actions","action":"click tag"}' href="https://www.npr.org/tags/162395868/coronavirus">coronavirus</a></li>
-      <li><a class="tag tag--story" data-metrics='{"category":"story actions","action":"click tag"}' href="https://www.npr.org/tags/158563440/sanitation">sanitation</a></li>
-   </ul>
-</div>
-
-<!-- END CLASS="TAGS" -->
-<div class="share-tools share-tools--secondary" aria-label="Share tools">
-      <ul>
-            <li class="share-tools__service share-tools__service--facebook"><button class="fbStory811609026" data-share-facebook='{"storyId": 811609026 }'  data-metrics='{"action":"Click Facebook","category":"Share Tools","label":"https:\/\/www.npr.org\/sections\/health-shots\/2020\/03\/14\/811609026\/the-new-coronavirus-can-live-on-surfaces-for-2-3-days-heres-how-to-clean-them"}' ><b class="share-tools__service-name">Facebook</b></button></li>
-      <li class="share-tools__service share-tools__service--twitter"><button class="story811609026" data-share-twitter='{"storyId": 811609026 }'  data-metrics='{"action":"Click Twitter","category":"Share Tools","label":"https:\/\/www.npr.org\/sections\/health-shots\/2020\/03\/14\/811609026\/the-new-coronavirus-can-live-on-surfaces-for-2-3-days-heres-how-to-clean-them"}' ><b class="share-tools__service-name">Twitter</b></button></li>
-      <li class="share-tools__service share-tools__service--flipboard"><button class="story811609026" data-share-flipboard='{"storyId": 811609026 }'  data-metrics='{"action":"Click Flipboard","category":"Share Tools","label":"https:\/\/www.npr.org\/sections\/health-shots\/2020\/03\/14\/811609026\/the-new-coronavirus-can-live-on-surfaces-for-2-3-days-heres-how-to-clean-them"}' ><b class="share-tools__service-name">Flipboard</b></button></li>
-      <li class="share-tools__service share-tools__service--email"><button class='share-tools__email-link' data-story-id='811609026'  data-metrics='{"action":"Click Email a Friend","category":"Share Tools","label":"https:\/\/www.npr.org\/sections\/health-shots\/2020\/03\/14\/811609026\/the-new-coronavirus-can-live-on-surfaces-for-2-3-days-heres-how-to-clean-them"}' ><b class="share-tools__service-name">Email</b></button></li>
-   </ul>
-</div>
-
-<!-- END CLASS="SHARE-TOOLS SHARE-TOOLS--SECONDARY" ARIA-LABEL="SHARE TOOLS" -->
-<div id="newsletter-acquisition-callout-data" data-newsletter="{&quot;newsletterId&quot;:&quot;the-new-normal&quot;,&quot;title&quot;:&quot;New Normal&quot;,&quot;marketingHeader&quot;:&quot;Sign Up For The New Normal Newsletter&quot;,&quot;frequency&quot;:&quot;every day&quot;,&quot;shortDescription&quot;:&quot;Daily news on the coronavirus crisis and help getting through whatever comes next. We\u2019re in this together.&quot;,&quot;contentImage&quot;:&quot;https:\/\/media.npr.org\/assets\/img\/2020\/03\/24\/the-new-normal.png&quot;,&quot;staticMarkupDir&quot;:&quot;\/buckets\/blogs\/thisisnpr\/subnav.html&quot;,&quot;brandingDir&quot;:&quot;\/branding\/series\/812054919\/the-coronavirus-crisis&quot;,&quot;brandingLink&quot;:&quot;https:\/\/www.npr.org\/series\/812054919\/the-coronavirus-crisis&quot;,&quot;organizationId&quot;:1,&quot;recaptchaSiteKey&quot;:&quot;6LfD6CYUAAAAAIBeUekwZ9KCjF4UyLFtu7NWNaEK&quot;}">
-   </div>
-
-<!-- END ID="NEWSLETTER-ACQUISITION-CALLOUT-DATA" DATA-NEWSLETTER="{&QUOT;NEWSLETTERID&QUOT;:&QUOT;THE-NEW-NORMAL&QUOT;,&QUOT;TITLE&QUOT;:&QUOT;NEW NORMAL&QUOT;,&QUOT;MARKETINGHEADER&QUOT;:&QUOT;SIGN UP FOR THE NEW NORMAL NEWSLETTER&QUOT;,&QUOT;FREQUENCY&QUOT;:&QUOT;EVERY DAY&QUOT;,&QUOT;SHORTDESCRIPTION&QUOT;:&QUOT;DAILY NEWS ON THE CORONAVIRUS CRISIS AND HELP GETTING THROUGH WHATEVER COMES NEXT. WE\U2019RE IN THIS TOGETHER.&QUOT;,&QUOT;CONTENTIMAGE&QUOT;:&QUOT;HTTPS:\/\/MEDIA.NPR.ORG\/ASSETS\/IMG\/2020\/03\/24\/THE-NEW-NORMAL.PNG&QUOT;,&QUOT;STATICMARKUPDIR&QUOT;:&QUOT;\/BUCKETS\/BLOGS\/THISISNPR\/SUBNAV.HTML&QUOT;,&QUOT;BRANDINGDIR&QUOT;:&QUOT;\/BRANDING\/SERIES\/812054919\/THE-CORONAVIRUS-CRISIS&QUOT;,&QUOT;BRANDINGLINK&QUOT;:&QUOT;HTTPS:\/\/WWW.NPR.ORG\/SERIES\/812054919\/THE-CORONAVIRUS-CRISIS&QUOT;,&QUOT;ORGANIZATIONID&QUOT;:1,&QUOT;RECAPTCHASITEKEY&QUOT;:&QUOT;6LFD6CYUAAAAAIBEUEKWZ9KCJF4UYLFTU7NWNAEK&QUOT;}" -->
-<div id="podcast-callout-data" data-podcast="{&quot;name&quot;:&quot;Coronavirus Daily&quot;,&quot;itunesUrl&quot;:&quot;https:\/\/podcasts.apple.com\/podcast\/id1503226625?mt=2&amp;at=11l79Y&amp;ct=nprdirectory&quot;,&quot;googlePodcastsUrl&quot;:&quot;https:\/\/www.google.com\/podcasts?feed=aHR0cHM6Ly9mZWVkcy5ucHIub3JnLzUxMDM1NS9wb2RjYXN0LnhtbA%3D%3D&quot;,&quot;rssUrl&quot;:&quot;https:\/\/feeds.npr.org\/510355\/podcast.xml&quot;,&quot;jsonFeedUrl&quot;:&quot;https:\/\/feeds.npr.org\/811609026\/feed.json&quot;,&quot;nprOneUniversalUrl&quot;:&quot;https:\/\/rpb3r.app.goo.gl\/coronavirusdaily&quot;,&quot;amazonAlexaUrl&quot;:&quot;&quot;,&quot;pocketCastsUrl&quot;:&quot;https:\/\/pca.st\/60bxc8vh&quot;,&quot;spotifyUrl&quot;:&quot;https:\/\/open.spotify.com\/show\/3Z6JdCS2d0eFEpXHKI6WqH&quot;}">
-   </div>
-
-<!-- END ID="PODCAST-CALLOUT-DATA" DATA-PODCAST="{&QUOT;NAME&QUOT;:&QUOT;CORONAVIRUS DAILY&QUOT;,&QUOT;ITUNESURL&QUOT;:&QUOT;HTTPS:\/\/PODCASTS.APPLE.COM\/PODCAST\/ID1503226625?MT=2&AMP;AT=11L79Y&AMP;CT=NPRDIRECTORY&QUOT;,&QUOT;GOOGLEPODCASTSURL&QUOT;:&QUOT;HTTPS:\/\/WWW.GOOGLE.COM\/PODCASTS?FEED=AHR0CHM6LY9MZWVKCY5UCHIUB3JNLZUXMDM1NS9WB2RJYXN0LNHTBA%3D%3D&QUOT;,&QUOT;RSSURL&QUOT;:&QUOT;HTTPS:\/\/FEEDS.NPR.ORG\/510355\/PODCAST.XML&QUOT;,&QUOT;JSONFEEDURL&QUOT;:&QUOT;HTTPS:\/\/FEEDS.NPR.ORG\/811609026\/FEED.JSON&QUOT;,&QUOT;NPRONEUNIVERSALURL&QUOT;:&QUOT;HTTPS:\/\/RPB3R.APP.GOO.GL\/CORONAVIRUSDAILY&QUOT;,&QUOT;AMAZONALEXAURL&QUOT;:&QUOT;&QUOT;,&QUOT;POCKETCASTSURL&QUOT;:&QUOT;HTTPS:\/\/PCA.ST\/60BXC8VH&QUOT;,&QUOT;SPOTIFYURL&QUOT;:&QUOT;HTTPS:\/\/OPEN.SPOTIFY.COM\/SHOW\/3Z6JDCS2D0EFEPXHKI6WQH&QUOT;}" -->
-<div id="callout-end-of-story-mount">
-   </div>
-
-<!-- END ID="CALLOUT-END-OF-STORY-MOUNT" -->
-<aside id="end-of-story-recommendations-mount" class="recommended-stories" aria-label="recommended stories"></aside>
-<!-- END ID="END-OF-STORY-RECOMMENDATIONS-MOUNT" CLASS="RECOMMENDED-STORIES" ARIA-LABEL="RECOMMENDED STORIES" -->
-</article><header class="contentheader contentheader--two" data-metrics='{"category":"Shots - Health News"}' ><div class="branding branding--custom">
-      <a href="https://www.npr.org/sections/health-shots/" data-metrics='{"action":"click branding"}' ><img src="https://media.npr.org/branding/sections/health-shots/branding_icon-9d5c5798fbff8351e5c796ffe65e5e8246c166fb.png" class="branding__image-icon" alt="Shots - Health News" /><div class="branding__inner">
-      <h2 class="branding__title branding__title--custom-text"><b>Shots</b></h2>
-   <b class="branding__mini-teaser">Health News From NPR</b>
-</div>
-
-<!-- END CLASS="BRANDING__INNER" -->
-</a>
-</div>
-
-<!-- END CLASS="BRANDING BRANDING--CUSTOM" -->
-</header><footer id="npr-footer" class="npr-footer" role="contentinfo" aria-label="NPR footer"><div class="npr-footer__content" data-metrics-category="Global Footer" data-metrics-label="Footer">
-    <div class="npr-footer__module-group">
-        <div class="npr-footer__module">
-            <h6 class="npr-footer__header">Read &amp; Listen</h6>
-
-            <ul>
-                <li class="npr-footer__item"><a href="/" data-metrics-action="Click Homepage">Home</a></li>
-                <li class="npr-footer__item"><a href="/sections/news/" data-metrics-action="Click News">News</a></li>
-                <li class="npr-footer__item"><a href="/sections/arts/" data-metrics-action="Click Arts &amp; Life">Arts &amp; Life</a></li>
-                <li class="npr-footer__item"><a href="/music/" data-metrics-action="Click Music">Music</a></li>
-                <li class="npr-footer__item"><a href="/podcasts/" data-metrics-action="Click Podcasts">Podcasts</a></li>
-                <li class="npr-footer__item"><a href="/programs/" data-metrics-action="Click Programs">Programs</a></li>
-            </ul>
-        </div>
-
-        <div class="npr-footer__module">
-            <h6 class="npr-footer__header">Connect</h6>
-
-            <ul>
-                <li class="npr-footer__item"><a href="/newsletters/" data-metrics-action="Click Newsletters">Newsletters</a></li>
-                <li class="npr-footer__item"><a href="https://www.facebook.com/NPR/" data-metrics-action="Click Facebook">Facebook</a></li>
-                <li class="npr-footer__item"><a href="https://twitter.com/NPR" data-metrics-action="Click Twitter">Twitter</a></li>
-                <li class="npr-footer__item"><a href="https://www.instagram.com/npr/" data-metrics-action="Click Instagram">Instagram</a></li>
-                <li class="npr-footer__item"><a href="https://www.npr.org/contact" data-metrics-action="Click Contact">Contact</a></li>
-                <li class="npr-footer__item"><a href="https://help.npr.org" data-metrics-action="Click Help">Help</a></li>
-            </ul>
-        </div>
-
-        <div class="npr-footer__module">
-            <h6 class="npr-footer__header">About NPR</h6>
-
-            <ul>
-                <li class="npr-footer__item"><a href="/about/" data-metrics-action="Click Overview">Overview</a></li>
-                <li class="npr-footer__item"><a href="/about-npr/178660742/public-radio-finances" data-metrics-action="Click Finances">Finances</a></li>
-                <li class="npr-footer__item"><a href="/about-npr/179803822/people-at-npr" data-metrics-action="Click People">People</a></li>
-                <li class="npr-footer__item"><a href="/press/" data-metrics-action="Click Press">Press</a></li>
-                <li class="npr-footer__item"><a href="/sections/publiceditor/" data-metrics-action="Click Public Editor">Public Editor</a></li>
-                <li class="npr-footer__item"><a href="/corrections/" data-metrics-action="Click Corrections">Corrections</a></li>
-            </ul>
-        </div>
-
-        <div class="npr-footer__module">
-            <h6 class="npr-footer__header">Get Involved</h6>
-
-            <ul>
-                <li class="npr-footer__item"><a href="/support/" data-metrics-action="Click Support Public Radio">Support Public Radio</a></li>
-                <li class="npr-footer__item"><a href="/about-npr/186948703/corporate-sponsorship" data-metrics-action="Click Sponsor NPR">Sponsor NPR</a></li>
-                <li class="npr-footer__item"><a href="/careers/" data-metrics-action="Click NPR Careers">NPR Careers</a></li>
-                <li class="npr-footer__item"><a href="https://shop.npr.org/" data-metrics-action="Click NPR Shop">NPR Shop</a></li>
-                <li class="npr-footer__item"><a href="https://www.nprpresents.org" data-metrics-action="Click NPR Events">NPR Events</a></li>
-                <li class="npr-footer__item"><a href="/about-npr/177066727/visit-npr" data-metrics-action="Click Visit NPR">Visit NPR</a></li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="npr-footer__module npr-footer__module--secondary">
-        <ul>
-            <li class="npr-footer__item"><a href="/about-npr/179876898/terms-of-use" data-metrics-action="Click Terms of Use">Terms of Use</a></li>
-            <li class="npr-footer__item"><a href="/about-npr/179878450/privacy-policy" data-metrics-action="Click Privacy">Privacy</a></li>
-            <li class="npr-footer__item"><a href="/about-npr/179878450/privacy-policy#yourchoices" data-metrics-action="Click Your Privacy Choices">Your Privacy Choices</a></li>
-            <li class="npr-footer__item"><a href="https://text.npr.org/" data-metrics-action="Click Text Only">Text Only</a></li>
-            <li class="npr-footer__item"><span class="copy-year"></span></li>
-        </ul>
-    </div>
-</div></footer><div id="global-stickybar-mount" class="global-stickybar-mount">
-   </div>
-</section>   <div id="main-sidebar">
-            <aside id="ad-standard-wrap" aria-label="advertisement">
-    
-
-    <div id="ad-standard-News_Health" class="ad-standard" data-ad-config='{"network":"\/6735\/","site":{"default":"n6735.NPR","mobile":"n6735.NPRMOBILE"},"zone":"News_Health","targets":{"testserver":"false","isPodcastEpisode":"false","storyId":"811609026","agg":["812054919","191676894","434975886","103537970"],"blog":"103537970"},"location":"standard","deferred":false,"isBetweenContent":false,"isAggSponsorship":false,"borderClass":""}'></div>
-    <p class="left">NPR thanks our sponsors</p><p class="right"><a href="/about-npr/186948703/corporate-sponsorship">Become an NPR sponsor</a></p>
-
-</aside>
-   </div>
-   
-<!-- END ID="MAIN-SIDEBAR" -->
-</div>
-
-<!-- END ID="WRAPPER" -->
-<section id="global-modal-mount"></section>
-<!-- END ID="GLOBAL-MODAL-MOUNT" -->
-<script type="text/javascript">
-   (function () {
-    var loadPageJs = function () { webpackJsonp([82,25],{0:function(n,t,c){n.exports=c(1983)},1983:function(n,t,c){"use strict";c.p=NPR.serverVars.webpackPublicPath,function(){var n=2,t=function(){--n<1&&function(n){c(51),c(2393),c(404),c(411),c(285),c(1567),c(885),c(445),c(2398),c(444),c(2397),c(2396),c(1566),c(654),c(2390),c(1724),c(2383),c(292)}(c)}.bind(this);c.e(0,t),c.e(4,t)}.call(this)}}); };
-    if (document.readyState === 'complete') {
-        loadPageJs();
-    } else {
-        window.addEventListener('load', function load() {
-            window.removeEventListener('load', load, false);
-            loadPageJs();
-        });
-    }
-})();
-</script>
-</main><noscript><iframe><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1621557368158968&ev=PageView&noscript=1" /></iframe></noscript><script type='text/javascript'>
-    var _sf_async_config = _sf_async_config || {};
-    /** CONFIGURATION START **/
-    _sf_async_config.uid = '18888';
-    _sf_async_config.domain = NPR.ServerConstants.cbHost;
-    _sf_async_config.useCanonical = true;
-
-    /** CONFIGURATION END **/
-    (function() {
-        function loadChartbeat() {
-            // Wait until the metric for chartbeat have been setup
-            // in templates/javascript/metrics/chartbeat.js
-            if( !!NPR.ChartbeatLoaded) {
-                var e = document.createElement('script');
-                e.setAttribute('language', 'javascript');
-                e.setAttribute('type', 'text/javascript');
-                e.setAttribute('src', 'https://static.chartbeat.com/js/chartbeat.js');
-                document.body.appendChild(e);
-            } else {
-                setTimeout(loadChartbeat, 1000);
-            }
+<!DOCTYPE html><html lang="en-GB" class="no-js core o-typography--loading-sans o-typography--loading-sans-bold o-typography--loading-display o-typography--loading-display-bold" style="overflow-x:hidden;background-color:#fff1e5;color:#33302e"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Subscribe to read | Financial Times</title><meta name="description" content="News, analysis and comment from the Financial Times, the worldʼs leading global business publication"/><meta name="robots" content="index,follow,max-snippet:200,max-image-preview:large"/><meta name="google-site-verification" content="4-t8sFaPvpO5FH_Gnw1dkM28CQepjzo8UjjAkdDflTw"/><script type="application/ld+json">{"@context":"http://schema.org","@type":"NewsArticle","headline":"JPMorgan’s finance chief Marianne Lake moves into operating role","datePublished":"2019-04-17T22:26:30.000Z","dateModified":"2019-04-17T22:26:30.000Z","isAccessibleForFree":"False","isPartOf":{"@type":["CreativeWork","Product"],"name":"Financial Times","productID":"ft.com:subscribed"},"image":{"@type":"ImageObject","@context":"http://schema.org","url":"http://prod-upp-image-read.ft.com/c663022e-6154-11e9-9300-0becfc937c37","width":2048,"height":1152},"author":{"@type":"Person","@context":"http://schema.org","name":"Laura Noonan","url":"https://www.ft.com/stream/7d31b840-830e-452a-8d00-ba0eebd4ec28","height":"1.01492537 smoots","worksFor":{"@type":"Organization","@context":"http://schema.org","name":"Financial Times","legalName":"The Financial Times Ltd.","logo":{"@type":"ImageObject","@context":"http://schema.org","url":"https://im.ft-static.com/m/img/masthead_main.jpg","width":435,"height":36},"url":"https://www.ft.com","sameAs":["https://www.twitter.com/FT","https://www.facebook.com/financialtimes","https://www.linkedin.com/company/financial-times","https://www.youtube.com/user/FinancialTimesVideos","https://www.instagram.com/financialtimes"]}},"publisher":{"@type":"Organization","@context":"http://schema.org","name":"Financial Times","legalName":"The Financial Times Ltd.","logo":{"@type":"ImageObject","@context":"http://schema.org","url":"https://im.ft-static.com/m/img/masthead_main.jpg","width":435,"height":36},"url":"https://www.ft.com","sameAs":["https://www.twitter.com/FT","https://www.facebook.com/financialtimes","https://www.linkedin.com/company/financial-times","https://www.youtube.com/user/FinancialTimesVideos","https://www.instagram.com/financialtimes"]}}</script><script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","name":"Financial Times","alternateName":"FT.com","url":"http://www.ft.com"}</script><meta property="fb:pages" content="8860325749"/><meta property="twitter:site" content="@FinancialTimes"/><link rel="icon" type="image/png" href="https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo-v1%3Abrand-ft-logo-square-coloured?source=update-logos&amp;width=32&amp;height=32&amp;format=png" sizes="32x32"/><link rel="icon" type="image/png" href="https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo-v1%3Abrand-ft-logo-square-coloured?source=update-logos&amp;width=194&amp;height=194&amp;format=png" sizes="194x194"/><link rel="apple-touch-icon" href="https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo-v1%3Abrand-ft-logo-square-coloured?source=update-logos&amp;width=180&amp;height=180&amp;format=png" sizes="180x180"/><link rel="manifest" href="https://www.ft.com/__assets/creatives/manifest/manifest-v6.json"/><script type="text/javascript">window.FT = window.FT || {}; window.FT.barrierTracking = {"barrier":true,"countryCode":"USA","barrierType":"trial","type":"trial","commsType":"B2C","offers":["41218b9e-c8ae-c934-43ad-71b13fcb4465","d6b1bd32-1bd6-368b-78c5-62793ee43e7a",null,null],"opportunity":{"type":"barrier","subtype":"trial-global-usa"},"pageDescription":{"isDynamicBarrier":true,"hasArticleTitle":true,"articleHeadline":"JPMorgan’s finance chief Marianne Lake moves into operating role","headline":"Be a global citizen.","description":"\n\t\t\tGain a global perspective on the US and go beyond with curated news and analysis from 600\n\t\t\tjournalists in 50+ countries covering politics, business, innovation, trends and more.\n\t\t","rootContentId":"9f8eaaa2-6151-11e9-b285-3acd5d43599e"},"primaryOffers":[{"title":"Trial","brief":"Not sure which package to choose?Try full access for 4 weeks","offerId":"41218b9e-c8ae-c934-43ad-71b13fcb4465","price":"$1.00 for 4 weeks*","prominence":"primary","swgShown":false,"skuIds":[],"description":"For 4 weeks receive unlimited Premium digital access to the FT's trusted, award-winning business news"},{"additionalInformation":"Save 33%","title":"Digital","brief":"Be informed with the essentialnews and opinion","offerId":"d6b1bd32-1bd6-368b-78c5-62793ee43e7a","price":"Just $4.75 per week*","prominence":"primary","swgShown":false,"skuIds":[],"description":"MyFT – track the topics most important to you, FT Weekend – full access to the weekend content, Mobile & Tablet Apps – download to read on the go, Gift Article – share up to 10 articles a month with family, friends and colleagues"},{"title":"Premium Digital + Print","brief":"FT Newspaper delivered daily plus unlimited digital access","price":"$11.77 per week*","prominence":"primary","swgShown":false,"skuIds":[],"description":"The FT delivered to your home or office Monday to Saturday, including the FT Weekend paper and supplements"},{"additionalInformation":"Group Subscription","title":"Team or Enterprise","brief":"Premium FT.com access for multiple users, with integrations &amp; admin tools","price":"Pay based on use","prominence":"primary","swgShown":false,"skuIds":[],"description":"Convenient access for groups of users, Integration with third party platforms and CRM systems, Usage based pricing and volume discounts for multiple users, Subscription management tools and usage reporting, SAML-based single sign on (SSO), Dedicated account and customer success teams"}],"secondaryOffers":[{"offerId":"713f1e28-0bc5-8261-f1e6-eebab6f7600e","title":"Premium Digital","prominence":"secondary"},{"offerId":"602c7398-e9a9-8cf3-e9ef-a5b72087d571","title":"Print Only","prominence":"secondary"},{"offerId":"bb616920-4f40-ec2f-a476-7abe0d3af4a0","title":"Premium Digital + Weekend Print","prominence":"secondary"},{"offerId":"3d490a27-44aa-ee62-e22e-d1dd2c07f5ef","title":"Weekend Print","prominence":"secondary"}]};</script><link rel="amphtml" href="https://amp.ft.com/content/9f8eaaa2-6151-11e9-b285-3acd5d43599e"/><link rel="preconnect" href="https://spoor-api.ft.com"/><link rel="preconnect" href="https://session-next.ft.com" crossorigin="use-credentials"/><link rel="preconnect" href="https://ads-api.ft.com"/><link rel="preconnect" href="https://securepubads.g.doubleclick.net"/><link rel="preload" as="script" href="https://polyfill.io/v3/polyfill.min.js?features=default%2Ces5%2Ces2015%2Ces2016%2Ces2017%2CEventSource%2Cfetch%2CHTMLPictureElement%2CIntersectionObserver%2CNodeList.prototype.forEach&amp;source=next"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/webpack-runtime.645ff7e2cfb4.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/page-kit-components.5636f87214fe.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-tracking.b4afe0136499.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/shared.stable.c4f3baf86c10.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/shared.volatile.9e6f79d25ebc.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/o-header.62da3fc1d69f.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/o-expander.e7aa071555da.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/o-footer.ee0f853f5e22.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/o-overlay.25535ff819e0.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/o-toggle.3d054e4f6478.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/n-image.2ed95b3945a7.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/o-subs-card.0c7b3120d9ca.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/o-typography.064c2c3d76e8.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/o-viewport.f7e28a4e47cc.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/superstore.e550b722da88.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-viewport.f6fb4d30fc42.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/o-grid.2b86387df11b.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/o-layers.f9bc02e496ef.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/o-utils.460b8546be2a.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-live-chat.4e3a58fc0391.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-grid.60ed4d2f5160.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-utils.3a9b820c81b0.bundle.js" type="application/javascript"/><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/scripts.6b25f162256b.bundle.js" type="application/javascript"/><link rel="preload" as="font" href="https://www.ft.com/__origami/service/build/v2/files/o-fonts-assets@1.4.1/MetricWeb-Regular.woff" type="font/woff" crossorigin="anonymous"/><link rel="preload" as="font" href="https://www.ft.com/__origami/service/build/v2/files/o-fonts-assets@1.4.1/MetricWeb-Semibold.woff" type="font/woff" crossorigin="anonymous"/><link rel="preload" as="font" href="https://www.ft.com/__origami/service/build/v2/files/o-fonts-assets@1.4.1/FinancierDisplayWeb-Regular.woff" type="font/woff" crossorigin="anonymous"/><link rel="preload" as="font" href="https://www.ft.com/__origami/service/build/v2/files/o-fonts-assets@1.4.1/FinancierDisplayWeb-Bold.woff" type="font/woff" crossorigin="anonymous"/><script id="initial-props" type="application/json"></script><script>(function loadCustomFonts() {
+    var rootElement = document.documentElement;
+    if (/(^|\s)o-typography-fonts-loaded=1(;|$)/.test(document.cookie)) {
+        var fontLabels = ['sans', 'sans-bold', 'display', 'display-bold'];
+        for (var i = 0; i < fontLabels.length; i++) {
+            rootElement.className = rootElement.className.replace('o-typography--loading-' + fontLabels[i], '');
         }
+    }
+}());</script><link rel="stylesheet" href="https://www.ft.com/__assets/hashed/page-kit/vendors~page-kit-layout-styles.fbed5243889c.css"/><link rel="stylesheet" href="https://www.ft.com/__assets/hashed/page-kit/styles.1cf2f98790ab.css"/><script type="application/json" id="page-kit-bootstrap-config">{"trackErrors":true,"core":["https://polyfill.io/v3/polyfill.min.js?features=HTMLPictureElement&source=next"],"enhanced":["https://polyfill.io/v3/polyfill.min.js?features=default%2Ces5%2Ces2015%2Ces2016%2Ces2017%2CEventSource%2Cfetch%2CHTMLPictureElement%2CIntersectionObserver%2CNodeList.prototype.forEach&source=next","https://www.ft.com/__assets/hashed/page-kit/webpack-runtime.645ff7e2cfb4.bundle.js","https://www.ft.com/__assets/hashed/page-kit/page-kit-components.5636f87214fe.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-tracking.b4afe0136499.bundle.js","https://www.ft.com/__assets/hashed/page-kit/shared.stable.c4f3baf86c10.bundle.js","https://www.ft.com/__assets/hashed/page-kit/shared.volatile.9e6f79d25ebc.bundle.js","https://www.ft.com/__assets/hashed/page-kit/o-header.62da3fc1d69f.bundle.js","https://www.ft.com/__assets/hashed/page-kit/o-expander.e7aa071555da.bundle.js","https://www.ft.com/__assets/hashed/page-kit/o-footer.ee0f853f5e22.bundle.js","https://www.ft.com/__assets/hashed/page-kit/o-overlay.25535ff819e0.bundle.js","https://www.ft.com/__assets/hashed/page-kit/o-toggle.3d054e4f6478.bundle.js","https://www.ft.com/__assets/hashed/page-kit/n-image.2ed95b3945a7.bundle.js","https://www.ft.com/__assets/hashed/page-kit/o-subs-card.0c7b3120d9ca.bundle.js","https://www.ft.com/__assets/hashed/page-kit/o-typography.064c2c3d76e8.bundle.js","https://www.ft.com/__assets/hashed/page-kit/o-viewport.f7e28a4e47cc.bundle.js","https://www.ft.com/__assets/hashed/page-kit/superstore.e550b722da88.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-viewport.f6fb4d30fc42.bundle.js","https://www.ft.com/__assets/hashed/page-kit/o-grid.2b86387df11b.bundle.js","https://www.ft.com/__assets/hashed/page-kit/o-layers.f9bc02e496ef.bundle.js","https://www.ft.com/__assets/hashed/page-kit/o-utils.460b8546be2a.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-n-live-chat.4e3a58fc0391.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-grid.60ed4d2f5160.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-utils.3a9b820c81b0.bundle.js","https://www.ft.com/__assets/hashed/page-kit/scripts.6b25f162256b.bundle.js"]}</script><script>;(function () {
+  var doc = document.documentElement
+  var isEnhanced = isEnhancedBrowser()
+  var scriptsConfig = getScriptsConfig()
+  var scriptsToLoad = []
+  var currentScript = document.scripts[document.scripts.length - 1]
 
-        var oldonload = window.onload;
-        window.onload = (typeof window.onload != 'function') ?
-                loadChartbeat : function() {
-            oldonload();
-            window._sf_endpt = (new Date()).getTime();
-            loadChartbeat();
-        };
-    })();
-</script></body></html>
+  doc.className = doc.className.replace('no-js', 'js')
+
+  if (isEnhanced) {
+    doc.className = doc.className.replace('core', 'enhanced')
+    Array.prototype.push.apply(scriptsToLoad, scriptsConfig.enhanced)
+  } else {
+    Array.prototype.push.apply(scriptsToLoad, scriptsConfig.core)
+  }
+
+  for (var i = 0, len = scriptsToLoad.length; i < len; i++) {
+    loadScript(scriptsToLoad[i])
+  }
+
+  function scriptLoadError(error) {
+    var script = error.target ? error.target.src : null
+
+    if (script) {
+      console.error('The script ' + script + ' failed to load') // eslint-disable-line no-console
+    }
+
+    if (/enhanced/.test(doc.className)) {
+      console.warn('Script loading failed, reverting to core experience') // eslint-disable-line no-console
+      doc.className = doc.className.replace('enhanced', 'core')
+    }
+
+    if (scriptsConfig.trackErrors) {
+      addErrorTrackingPixel(script)
+    }
+  }
+
+  function loadScript(src) {
+    var script = document.createElement('script')
+    script.onerror = scriptLoadError
+    script.async = false
+    script.src = src
+    currentScript.parentNode.insertBefore(script, currentScript)
+  }
+
+  // "Cut the mustard" test
+  // by Maggie Allen and Matt Hinchliffe November 2018
+  function isEnhancedBrowser() {
+    var script = document.createElement('script')
+    var input = document.createElement('input')
+
+    return (
+      'visibilityState' in document && // not supported by old Android (4.0-4.4) without a prefix
+      'indeterminate' in input && // not supported by BB 10
+      'flex' in doc.style && // not supported by old Safari (< 9) or IE 6-10
+      'async' in script // not supported by old Opera (Presto engine < 15)
+    )
+  }
+
+  function getScriptsConfig() {
+    var scriptsConfigEl = document.getElementById('page-kit-bootstrap-config')
+    var scriptsConfig = { core: [], enhanced: [], trackErrors: false }
+
+    if (scriptsConfigEl) {
+      try {
+        scriptsConfig = JSON.parse(scriptsConfigEl.innerHTML)
+      } catch (error) {
+        console.error('Bootstrap configuration error', error) // eslint-disable-line no-console
+      }
+    }
+
+    return scriptsConfig
+  }
+
+  function addErrorTrackingPixel(script) {
+    var img = new Image()
+
+    var data = JSON.stringify({
+      category: 'javascript',
+      action: 'load-error',
+      system: {
+        source: 'page-kit'
+      },
+      context: {
+        script: script
+      }
+    })
+
+    img.src = 'https://spoor-api.ft.com/px.gif?data=' + encodeURIComponent(data)
+  }
+})()
+</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NWQJW68');</script></head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWQJW68" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div class="n-layout"><a data-trackable="a11y-skip-to-help" class="n-layout__skip-link" href="https://www.ft.com/accessibility">Accessibility help</a><a data-trackable="a11y-skip-to-navigation" class="n-layout__skip-link" href="#site-navigation">Skip to navigation</a><a data-trackable="a11y-skip-to-content" class="n-layout__skip-link" href="#site-content">Skip to content</a><a data-trackable="a11y-skip-to-footer" class="n-layout__skip-link" href="#site-footer">Skip to footer</a><div class="n-layout__row n-layout__row--header"><header id="site-navigation" class="o-header o-header--simple" data-o-component="o-header" data-o-header--no-js="true" tabindex="-1"><div class="o-header__row o-header__anon" data-trackable="header-anon"><ul class="o-header__anon-list"><li class="o-header__anon-item"><a class="o-header__anon-link" href="/login?location=%2Fcontent%2F9f8eaaa2-6151-11e9-b285-3acd5d43599e" data-trackable="Sign In">Sign In</a></li><li class="o-header__anon-item"><a class="o-header__anon-link" href="/products?segmentId=f860e6c2-18af-ab30-cd5e-6e3a456f9265" data-trackable="Subscribe">Subscribe</a></li></ul></div><div class="o-header__row o-header__top" data-trackable="header-top"><div class="o-header__container"><div class="o-header__top-wrapper"><div class="o-header__top-column o-header__top-column--left"><a href="#o-header-drawer" class="o-header__top-link o-header__top-link--menu" aria-controls="o-header-drawer" title="Open drawer menu" data-trackable="drawer-toggle"><span class="o-header__top-link-label">Open drawer menu</span></a><a href="#o-header-search-primary" class="o-header__top-link o-header__top-link--search" aria-controls="o-header-search-primary" title="Open search bar" data-trackable="search-toggle"><span class="o-header__top-link-label">Open search bar</span></a></div><div class="o-header__top-column o-header__top-column--center"><a class="o-header__top-logo" style="background-image:none" data-trackable="logo" href="/" title="Go to Financial Times homepage"><svg viewBox="0 0 1054 86"><title>Financial Times</title><path d="M26.177 72.609c0 5.938 1.697 7.295 12.554 7.295v3.732H.9v-3.732c7.464 0 10.01-.679 10.01-7.125V12.215c0-6.447-2.546-7.126-10.01-7.126V1.357h63.448l.34 22.563h-3.054C59.937 6.956 55.696 5.43 39.919 5.43H26.008v33.59h11.196c10.688 0 11.367-1.697 12.215-10.179h3.054v24.599h-3.054c-.848-8.482-1.527-10.01-12.215-10.01H26.008v29.18h.17zm46.314 11.027v-3.732c7.465 0 10.01-.679 10.01-7.125V12.215c0-6.447-2.545-7.126-10.01-7.126V1.357h35.287V5.09c-7.465 0-10.01.679-10.01 7.126v60.564c0 6.446 2.545 7.125 10.01 7.125v3.732H72.49zm115.36 1.357l-56.323-69.725V72.44c0 6.617 4.58 7.634 12.385 7.634v3.733h-29.858v-3.733c7.803 0 12.045-1.017 12.045-7.634V8.991c-3.563-3.732-6.108-3.902-12.045-3.902V1.357h26.465l43.09 55.475V12.554c0-6.616-4.58-7.634-12.384-7.634V1.357h30.027V5.09c-7.803 0-12.045 1.018-12.045 7.635v72.27h-1.357zm40.207-1.357h-29.689v-3.732c7.804 0 11.367-1.018 13.911-7.804L239.085.509h7.464l28.84 72.1c2.545 6.447 3.732 7.125 9.67 7.125v3.732h-34.438v-3.732c10.518 0 11.536-.848 8.99-7.125l-8.481-21.884h-25.787L217.71 71.93c-2.375 6.447 1.357 7.804 10.518 7.804v3.902h-.17zm-1.188-37.153h22.393l-11.705-29.518-10.688 29.518zm135.548 38.51l-56.153-69.725V72.44c0 6.617 4.58 7.634 12.384 7.634v3.733h-29.18v-3.733c7.126 0 11.367-1.017 11.367-7.634V9.161c-4.071-3.732-7.125-4.072-13.91-4.072V1.357h28.16l43.09 55.475V12.554c0-6.616-4.58-7.634-12.383-7.634V1.357h29.858V5.09c-7.804 0-12.045 1.018-12.045 7.635v72.27h-1.188zm83.297-83.805h2.036l1.187 24.598-3.053.17c-2.036-14.08-9.5-21.545-23.242-21.545-15.268 0-26.804 13.063-26.804 33.081 0 25.617 16.116 40.206 33.08 40.206 7.296 0 13.912-2.035 20.358-8.99l2.376 2.374c-5.26 7.465-15.608 13.742-29.52 13.742-20.696 0-41.732-15.608-41.732-41.734C380.4 17.813 399.57 0 422.813 0c11.027 0 16.795 4.75 19.848 4.75 1.357 0 2.375-1.187 3.054-3.562zm12.723 82.448v-3.732c7.465 0 10.01-.679 10.01-7.125V12.215c0-6.447-2.545-7.126-10.01-7.126V1.357h35.287V5.09c-7.464 0-10.01.679-10.01 7.126v60.564c0 6.446 2.546 7.125 10.01 7.125v3.732h-35.287zm68.538 0h-27.653v-3.732c6.108 0 9.331-1.018 11.876-7.804L538.003.509h7.464l28.84 72.1c2.545 6.447 3.733 7.125 9.67 7.125v3.732H549.54v-3.732c10.518 0 11.536-.848 8.991-7.125l-8.482-21.884h-25.786l-7.635 21.205c-2.375 6.447 1.358 7.804 10.519 7.804v3.902h-.17zm-1.188-37.153h22.394l-11.536-29.518-10.858 29.518zm63.957 37.153v-3.732c7.465 0 10.01-.679 10.01-7.125V12.215c0-6.447-2.545-7.126-10.01-7.126V1.357h35.117V5.09c-7.464 0-9.84.679-9.84 7.126v61.073c0 5.428 2.715 6.107 7.126 6.107h4.241c15.947 0 21.036-2.375 25.447-20.527l3.054.339-2.545 24.26h-62.6v.17zM760.75 1.357l.339 23.92h-3.054C756.34 7.634 752.098 5.43 736.32 5.43h-5.089v67.18c0 6.447 2.375 7.295 12.554 7.295v3.732h-40.376v-3.732c10.179 0 12.723-1.018 12.723-7.295V5.429h-5.089c-15.777 0-20.018 2.205-21.715 19.848h-3.053l.339-23.92h74.136zm7.973 82.28v-3.733c7.465 0 10.01-.679 10.01-7.125V12.215c0-6.447-2.545-7.126-10.01-7.126V1.357h35.287V5.09c-7.465 0-10.01.679-10.01 7.126v60.564c0 6.446 2.545 7.125 10.01 7.125v3.732h-35.287zM910.21 1.356V5.09c-7.465 0-10.688.34-10.01 6.956l6.447 61.073c.679 6.277 3.054 6.955 10.518 6.955v3.733h-35.117v-3.733c7.295 0 9.84-.678 9.331-6.955L884.762 8.99l-25.956 76.172h-1.018L832.34 8.822l-6.108 64.126c-.678 6.447 3.733 7.125 11.197 7.125v3.733h-27.483v-3.733c7.465 0 10.01-1.187 10.518-7.125l6.447-61.073c.679-6.446-2.545-6.955-10.01-6.955V1.357h28.84l17.305 56.153 18.661-56.153h28.5zm65.653 52.082h-3.053c-.849-8.482-1.527-10.01-12.215-10.01H948.04v29.859c0 5.428 2.715 6.107 7.125 6.107h6.786c15.947 0 21.036-2.375 25.447-20.527l3.054.339-2.884 24.26h-64.805v-3.733c7.464 0 10.009-.678 10.009-7.125V12.215c0-6.447-2.545-7.126-10.01-7.126V1.357h62.261l.34 20.527h-3.054c-1.866-14.59-5.598-16.286-21.885-16.286H948.21v33.42h12.554c10.687 0 11.366-1.696 12.214-10.178h3.054v24.599h-.17zm65.484 13.232c0-7.464-4.75-11.196-12.893-15.777l-13.063-6.786c-9.84-5.259-15.607-11.027-15.607-21.375C999.783 9.84 1010.81 0 1025.23 0c9.84 0 14.929 4.75 17.813 4.75 1.866 0 2.714-1.187 3.562-3.562h2.375l1.188 23.072-3.054.17c-1.696-11.198-9.67-19.85-20.866-19.85-8.483 0-14.081 5.09-14.081 12.215 0 7.804 5.937 11.027 12.554 14.59l11.196 5.937c10.519 5.768 17.983 11.536 17.983 22.563 0 14.59-12.554 24.939-28.161 24.939-11.028 0-16.456-5.26-19.34-5.26-1.866 0-2.884 1.697-3.732 4.242h-2.376l-1.696-24.43 3.054-.339c2.375 15.268 12.893 21.545 23.411 21.545 8.822-.17 16.286-4.071 16.286-13.91z" fill="#231F20" fill-rule="evenodd"></path></svg></a></div><div class="o-header__top-column o-header__top-column--right"><a class="o-header__top-link o-header__top-link--myft" href="/myft" data-trackable="my-ft" data-tour-stage="myFt" aria-label="My F T"><span class="o-header__visually-hidden">myFT</span></a></div></div></div></div><div id="o-header-search-primary" class="o-header__row o-header__search o-header__search--primary" data-trackable="header-search" data-o-header-search="true"><div class="o-header__container"><form class="o-header__search-form" action="/search" role="search" aria-label="Site search" data-n-topic-search="true" data-n-topic-search-categories="concepts,equities" data-n-topic-search-view-all="true"><label class="o-header__visually-hidden" for="o-header-search-term-primary">Search the <abbr title="Financial Times">FT</abbr></label><input type="text" class="o-header__search-term" id="o-header-search-term-primary" name="q" autoComplete="off" autoCorrect="off" autoCapitalize="off" spellcheck="false" data-trackable="search-term" placeholder="Search the FT" data-n-topic-search-input="true"/><button class="o-header__search-submit" type="submit" data-trackable="search-submit">Search</button><button class="o-header__search-close o--if-js" type="button" aria-controls="o-header-search-primary" title="Close search bar" data-trackable="close"><span class="o-header__visually-hidden">Close search bar</span></button></form></div></div><nav id="o-header-nav-desktop" class="o-header__row o-header__nav o-header__nav--desktop" role="navigation" aria-label="Primary navigation" data-trackable="header-nav:desktop"><div class="o-header__container"><ul class="o-header__nav-list o-header__nav-list--left" data-trackable="primary-nav"><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/" id="o-header-link-0" data-trackable="Home">Home</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/world" id="o-header-link-1" data-trackable="World">World</a><div class="o-header__mega" id="o-header-mega-1" role="group" aria-labelledby="o-header-link-1" data-o-header-mega="true" data-trackable="meganav | World"><div class="o-header__container"><div class="o-header__mega-wrapper"><div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections"><div class="o-header__mega-heading">Sections</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/world" data-trackable="link">World Home</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/global-economy" data-trackable="link">Global Economy</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/world/uk" data-trackable="link">UK</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/world/us" data-trackable="link">US</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/world/asia-pacific/china" data-trackable="link">China</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/world/africa" data-trackable="link">Africa</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/world/asia-pacific" data-trackable="link">Asia Pacific</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/emerging-markets" data-trackable="link">Emerging Markets</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/world/europe" data-trackable="link">Europe</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/world/americas" data-trackable="link">Americas</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/world/mideast" data-trackable="link">Middle East and North Africa</a></li></ul></div></div><div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular"><div class="o-header__mega-heading">Most Read</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/c8f6f413-39c4-47ce-b1ff-0e02969cb612" data-trackable="link">Trump cheers as anti-lockdown protests spread</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/5f393d77-8e5b-4a85-b647-416efbc575ec" data-trackable="link">Muddled thinking punctures plan for British ventilator </a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/53a1d365-0eb5-4622-bff3-1e893672260b" data-trackable="link">Second homeowners accused of exploiting loophole to claim virus cash</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/6e9b4fe7-b26e-45b9-acbd-2b24d182e914" data-trackable="link">Virologist behind ‘Contagion’ film criticises leaders’ slow responses</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/0354f35c-e527-45a9-96c8-71c78db5d272" data-trackable="link">Crops at risk as coronavirus lockdown grounds bees</a></li></ul></div></div></div></div></div></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/world/us" id="o-header-link-2" data-trackable="US">US</a><div class="o-header__mega" id="o-header-mega-2" role="group" aria-labelledby="o-header-link-2" data-o-header-mega="true" data-trackable="meganav | US"><div class="o-header__container"><div class="o-header__mega-wrapper"><div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections"><div class="o-header__mega-heading">Sections</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/world/us" data-trackable="link">US Home</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/us-economy" data-trackable="link">US Economy</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/companies/us" data-trackable="link">US Companies</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/world/us/politics" data-trackable="link">US Politics &amp; Policy</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/us-presidential-election" data-trackable="link">US Presidential Election</a></li></ul></div></div><div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular"><div class="o-header__mega-heading">Most Read</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/c8f6f413-39c4-47ce-b1ff-0e02969cb612" data-trackable="link">Trump cheers as anti-lockdown protests spread</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/6e9b4fe7-b26e-45b9-acbd-2b24d182e914" data-trackable="link">Virologist behind ‘Contagion’ film criticises leaders’ slow responses</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/ea25934a-7b28-11ea-af44-daa3def9ae03" data-trackable="link">Stephanie Kelton: ‘They’re going to have massive deficits. And it’s fine’</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/87189e79-a442-44b9-a699-7bce47b5bc64" data-trackable="link">US banks brace for surge in loan losses</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/efb9863a-7fd4-11ea-82f6-150830b3b99a" data-trackable="link">Who wants to be a two-term (millionaire) US president?</a></li></ul></div></div></div></div></div></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/companies" id="o-header-link-3" data-trackable="Companies">Companies</a><div class="o-header__mega" id="o-header-mega-3" role="group" aria-labelledby="o-header-link-3" data-o-header-mega="true" data-trackable="meganav | Companies"><div class="o-header__container"><div class="o-header__mega-wrapper"><div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections"><div class="o-header__mega-heading">Sections</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/companies" data-trackable="link">Companies Home</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/companies/energy" data-trackable="link">Energy</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/companies/financials" data-trackable="link">Financials</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/companies/health" data-trackable="link">Health</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/companies/industrials" data-trackable="link">Industrials</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/companies/media" data-trackable="link">Media</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/companies/professional-services" data-trackable="link">Professional Services</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/companies/retail-consumer" data-trackable="link">Retail &amp; Consumer</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/companies/technology" data-trackable="link">Tech Sector</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/companies/telecoms" data-trackable="link">Telecoms</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/companies/transport" data-trackable="link">Transport</a></li></ul></div></div><div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular"><div class="o-header__mega-heading">Most Read</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/e2636703-acec-49ad-97b8-b944e032db1f" data-trackable="link">Virgin Atlantic told to resubmit bailout bid by ‘unimpressed’ UK Treasury</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/87189e79-a442-44b9-a699-7bce47b5bc64" data-trackable="link">US banks brace for surge in loan losses</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/934c018a-4d81-456f-9c35-b3b068db481e" data-trackable="link">Hin Leong Trading files for bankruptcy protection</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/c8fbaefd-da82-46b1-a22d-fe3938a4a84a" data-trackable="link">Hints of progress on virus drugs trigger sharp market moves</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/063912aa-047d-4b7f-97e7-c9cb9133264d" data-trackable="link">Gilead’s coronavirus drug: why experts are cautious on its prospects</a></li></ul></div></div></div></div></div></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/technology" id="o-header-link-4" data-trackable="Tech">Tech</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/markets" id="o-header-link-5" data-trackable="Markets">Markets</a><div class="o-header__mega" id="o-header-mega-5" role="group" aria-labelledby="o-header-link-5" data-o-header-mega="true" data-trackable="meganav | Markets"><div class="o-header__container"><div class="o-header__mega-wrapper"><div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections"><div class="o-header__mega-heading">Sections</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/markets" data-trackable="link">Markets Home</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/fastft" data-trackable="link">fastFT</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="https://ftalphaville.ft.com" data-trackable="link">Alphaville</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="https://markets.ft.com/data" data-trackable="link">Markets Data</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/capital-markets" data-trackable="link">Capital Markets</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/commodities" data-trackable="link">Commodities</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/currencies" data-trackable="link">Currencies</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/equities" data-trackable="link">Equities</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/fund-management" data-trackable="link">Fund Management</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/ft-trading-room" data-trackable="link">Trading</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/moral-money" data-trackable="link">Moral Money</a></li></ul></div></div><div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular"><div class="o-header__mega-heading">Most Read</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/0d106d09-b9cd-4733-a007-27e7da86c251" data-trackable="link">Rightmove’s ‘network effect’ could be thrown into reverse</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/4f5c5ae7-07f9-4f81-a0b0-3c3abe13388a" data-trackable="link">Mind the gap between the markets and the real economy</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/f07731ae-9c57-4fe8-a9aa-ba1907b74e66" data-trackable="link">Ford to pay nearly 10% on new debt to plug losses</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/f6c218a1-358e-4564-9919-1a96da91fc94" data-trackable="link">Payment holidays are messing with America’s $2.2tn mortgage machine</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/bb1000b3-966d-4b4c-95c7-a6a3aeddc749" data-trackable="link">Argentina debt restructuring offer leaves investors cold </a></li></ul></div></div></div></div></div></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/graphics" id="o-header-link-6" data-trackable="Graphics">Graphics</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/opinion" id="o-header-link-7" data-trackable="Opinion">Opinion</a><div class="o-header__mega" id="o-header-mega-7" role="group" aria-labelledby="o-header-link-7" data-o-header-mega="true" data-trackable="meganav | Opinion"><div class="o-header__container"><div class="o-header__mega-wrapper"><div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections"><div class="o-header__mega-heading">Sections</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/opinion" data-trackable="link">Opinion Home</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/columnists" data-trackable="link">Columnists</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/ft-view" data-trackable="link">The FT View</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/the-big-read" data-trackable="link">The Big Read</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/instant-insight" data-trackable="link">Instant Insight</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/lex" data-trackable="link">Lex</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="https://ftalphaville.ft.com" data-trackable="link">Alphaville</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/obituaries" data-trackable="link">Obituaries</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/letters" data-trackable="link">Letters</a></li></ul></div></div><div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular"><div class="o-header__mega-heading">Most Read</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/8a863b2b-1f6e-4c33-b4e5-e9ac76c39db1" data-trackable="link">Why are we really in lockdown? </a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/5eedb876-7e6a-11ea-82f6-150830b3b99a" data-trackable="link">Digital dating: why my love life is flourishing under lockdown</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/efb9863a-7fd4-11ea-82f6-150830b3b99a" data-trackable="link">Who wants to be a two-term (millionaire) US president?</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/e60848f9-6e9f-4ad0-99c3-7b8c968ba597" data-trackable="link">The pandemic and the radical change in wealth distribution to come </a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/0d106d09-b9cd-4733-a007-27e7da86c251" data-trackable="link">Rightmove’s ‘network effect’ could be thrown into reverse</a></li></ul></div></div></div></div></div></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/work-careers" id="o-header-link-8" data-trackable="Work &amp; Careers">Work &amp; Careers</a><div class="o-header__mega" id="o-header-mega-8" role="group" aria-labelledby="o-header-link-8" data-o-header-mega="true" data-trackable="meganav | Work &amp; Careers"><div class="o-header__container"><div class="o-header__mega-wrapper"><div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections"><div class="o-header__mega-heading">Sections</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/work-careers" data-trackable="link">Work &amp; Careers Home</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="http://rankings.ft.com/businessschoolrankings/rankings" data-trackable="link">Business School Rankings</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/business-education" data-trackable="link">Business Education</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/entrepreneurship" data-trackable="link">Entrepreneurship</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/recruitment" data-trackable="link">Recruitment</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/business-books" data-trackable="link">Business Books</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/business-travel" data-trackable="link">Business Travel</a></li></ul></div></div><div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular"><div class="o-header__mega-heading">Most Read</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/d26564b4-80ba-11ea-82f6-150830b3b99a" data-trackable="link">Arise Saint Jacinda, a leader for our troubled times</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/315095c0-7da0-11ea-8fdb-7ec06edeef84" data-trackable="link">Homeworking: isolation, anxiety and burnout</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/9ccaf070-79b3-11ea-9840-1b8019d9a987" data-trackable="link">William Wordsworth’s wise advice for stressed out home-workers</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/ef50d730-77ef-11ea-9840-1b8019d9a987" data-trackable="link">Coronavirus Diaries: a business leader and a pubs owner on their lockdown lives</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/9a9ba518-77f3-11ea-9840-1b8019d9a987" data-trackable="link">Coronavirus Diaries: Zeinab Badawi on the doctors from Africa saving British lives | Free to read</a></li></ul></div></div></div></div></div></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/life-arts" id="o-header-link-9" data-trackable="Life &amp; Arts">Life &amp; Arts</a><div class="o-header__mega" id="o-header-mega-9" role="group" aria-labelledby="o-header-link-9" data-o-header-mega="true" data-trackable="meganav | Life &amp; Arts"><div class="o-header__container"><div class="o-header__mega-wrapper"><div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections"><div class="o-header__mega-heading">Sections</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/life-arts" data-trackable="link">Life &amp; Arts Home</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/arts" data-trackable="link">Arts</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/books" data-trackable="link">Books</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/food-drink" data-trackable="link">Food &amp; Drink</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/magazine" data-trackable="link">FT Magazine</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/house-home" data-trackable="link">House &amp; Home</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/style" data-trackable="link">Style</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/travel" data-trackable="link">Travel</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/globetrotter" data-trackable="link">FT Globetrotter</a></li></ul></div></div><div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular"><div class="o-header__mega-heading">Most Read</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/ea25934a-7b28-11ea-af44-daa3def9ae03" data-trackable="link">Stephanie Kelton: ‘They’re going to have massive deficits. And it’s fine’</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/74e5f04a-7df1-11ea-82f6-150830b3b99a" data-trackable="link">Tim Harford: why we fail to prepare for disasters</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/e60848f9-6e9f-4ad0-99c3-7b8c968ba597" data-trackable="link">The pandemic and the radical change in wealth distribution to come </a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/5eedb876-7e6a-11ea-82f6-150830b3b99a" data-trackable="link">Digital dating: why my love life is flourishing under lockdown</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/ddc7185a-6212-11ea-abcc-910c5b38d9ed" data-trackable="link">Imaginative house extensions to build now</a></li></ul></div></div></div></div></div></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="https://howtospendit.ft.com/" id="o-header-link-10" data-trackable="How to Spend It">How to Spend It</a></li></ul><ul class="o-header__nav-list o-header__nav-list--right" data-trackable="user-nav"><li class="o-header__nav-item"><a class="o-header__nav-link" href="/login?location=%2Fcontent%2F9f8eaaa2-6151-11e9-b285-3acd5d43599e" data-trackable="Sign In">Sign In</a></li><li class="o-header__nav-item o-header__nav-item--hide-s"><a class="o-header__nav-button" role="button" href="/products?segmentId=f860e6c2-18af-ab30-cd5e-6e3a456f9265" data-trackable="Subscribe">Subscribe</a></li></ul></div></nav></header><header class="o-header o-header--simple o-header--sticky o--if-js" data-o-component="o-header" data-o-header--sticky="true" aria-hidden="true"><div class="o-header__row o-header__top" data-trackable="header-sticky"><div class="o-header__container"><div class="o-header__top-wrapper"><div class="o-header__top-column o-header__top-column--left"><a href="#" class="o-header__top-link o-header__top-link--menu" aria-controls="o-header-drawer" data-trackable="drawer-toggle" tabindex="-1"><span class="o-header__top-link-label">Menu</span></a><a href="#" class="o-header__top-link o-header__top-link--search" aria-controls="o-header-search-sticky" data-trackable="search-toggle" tabindex="-1"><span class="o-header__top-link-label">Search</span></a></div><div class="o-header__top-column o-header__top-column--center"><div class="o-header__top-takeover"><div class="o-header__nav"><ul class="o-header__nav-list o-header__nav-list--left" data-trackable="primary-nav"><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/" data-trackable="Home" tabindex="-1">Home</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/world" data-trackable="World" tabindex="-1">World</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/world/us" data-trackable="US" tabindex="-1">US</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/companies" data-trackable="Companies" tabindex="-1">Companies</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/technology" data-trackable="Tech" tabindex="-1">Tech</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/markets" data-trackable="Markets" tabindex="-1">Markets</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/graphics" data-trackable="Graphics" tabindex="-1">Graphics</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/opinion" data-trackable="Opinion" tabindex="-1">Opinion</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/work-careers" data-trackable="Work &amp; Careers" tabindex="-1">Work &amp; Careers</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/life-arts" data-trackable="Life &amp; Arts" tabindex="-1">Life &amp; Arts</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="https://howtospendit.ft.com/" data-trackable="How to Spend It" tabindex="-1">How to Spend It</a></li></ul></div></div><a class="o-header__top-logo o-header__hide--L" data-trackable="logo" href="/" title="Go to Financial Times homepage" tabindex="-1"><span class="o-header__visually-hidden">Financial Times</span></a></div><div class="o-header__top-column o-header__top-column--right"><div class="o-header__nav"><ul class="o-header__nav-list o-header__nav-list--right" data-trackable="user-nav"><li class="o-header__nav-item"><a class="o-header__nav-link" href="/login?location=%2Fcontent%2F9f8eaaa2-6151-11e9-b285-3acd5d43599e" data-trackable="Sign In" tabindex="-1">Sign In</a></li><li class="o-header__nav-item o-header__nav-item--hide-s"><a class="o-header__nav-button" role="button" href="/products?segmentId=f860e6c2-18af-ab30-cd5e-6e3a456f9265" data-trackable="Subscribe" tabindex="-1">Subscribe</a></li></ul></div></div></div></div></div><div id="o-header-search-sticky" class="o-header__row o-header__search o-header__search--sticky" data-trackable="header-search" data-o-header-search="true"><div class="o-header__container"><form class="o-header__search-form" action="/search" role="search" aria-label="Site search" data-n-topic-search="true" data-n-topic-search-categories="concepts,equities" data-n-topic-search-view-all="true"><label class="o-header__visually-hidden" for="o-header-search-term-sticky">Search the <abbr title="Financial Times">FT</abbr></label><input type="text" class="o-header__search-term" id="o-header-search-term-sticky" name="q" autoComplete="off" autoCorrect="off" autoCapitalize="off" spellcheck="false" data-trackable="search-term" placeholder="Search the FT" data-n-topic-search-input="true"/><button class="o-header__search-submit" type="submit" data-trackable="search-submit">Search</button><button class="o-header__search-close o--if-js" type="button" aria-controls="o-header-search-sticky" title="Close search bar" data-trackable="close"><span class="o-header__visually-hidden">Close search bar</span></button></form></div></div></header></div><div class="n-layout__row n-layout__row--content"><div><!-- lookup and render the provided template partial -->
+<div id="site-content"
+	data-trackable="trial-barrier-grid"
+	data-barrier="trial"
+	data-barrier-is-sandbox="false">
+			<header class="barrier__section--teal-light">
+				<div class="o-grid-container">
+					<div class="o-grid-row">
+						<h1 class="barrier__heading--m" data-o-grid-colspan="12 center">
+										Subscribe to the FT to read:
+							<span class="o-normalise-visually-hidden">Financial Times</span>
+							<span class="barrier__heading-serif barrier__heading--light barrier__util-quotes--double">JPMorgan’s finance chief Marianne Lake moves into operating role</span>
+						</h1>
+					</div>
+				</div>
+			</header>
+			<section class="barrier__section--wheat barrier-banner barrier-banner--global">
+				<div class="o-grid-container">
+					<div class="o-grid-row">
+						<div class="barrier__util-margin--top barrier__util-margin--bottom barrier-banner--copy">
+							<h1 class="barrier__heading barrier__heading--compact">
+								Be a global citizen.
+							</h1>
+								<h2 class="barrier__heading barrier__heading--sub barrier__heading--compact">
+									Become an FT Subscriber.
+								</h2>
+						</div>
+					</div>
+					<div class="o-grid-row">
+						<div class="barrier__util-margin--bottom barrier-banner--content">
+							<p>
+						Gain a global perspective on the US and go beyond with curated news and analysis from 600
+						journalists in 50+ countries covering politics, business, innovation, trends and more.
+					</p>
+						</div>
+					</div>
+				</div>
+			</section>
+	<div class="o-grid-container">
+		<div class="o-grid-row barrier__util-padding--single" data-o-grid-colspan="12 center">
+			<h2 class="barrier__heading barrier__heading--s barrier__heading--compact barrier__util-text--center">
+				Choose your subscription
+			</h2>
+		</div>
+		<main>
+			<div class="o-subs-card__container js-primary-offers-container">
+				<div class="o-subs-card o-subs-card__relative "
+						data-o-component="o-subs-card"
+						data-offer-id="41218b9e-c8ae-c934-43ad-71b13fcb4465"
+						data-offer-prominence="primary"
+						data-offer-title="Trial">
+					<div class="o-subs-card__top">
+						<div class="o-subs-card__copy-title " role="text" aria-label="Purchase a Trial subscription.">
+							<div>
+								Trial
+							</div>
+						</div>
+			
+							<div class="o-subs-card__copy-pitch">Not sure which package to choose?<br />Try full access for 4 weeks</div>
+			
+							<div class="o-subs-card__charge">
+								<div class="o-subs-card__charge-value">
+									$1.00 for 4 weeks<sup aria-hidden="true">*</sup>
+								</div>
+			
+								<div class="o-subs-card__copy-secondary o-subs-card__copy-secondary--hide">
+								</div>
+			
+								<a class="o-subs-card__select-button" data-trackable="subscribe-subscription-premium-digital-trial"
+									href="/signup?offerId=41218b9e-c8ae-c934-43ad-71b13fcb4465&amp;ft-content-uuid=9f8eaaa2-6151-11e9-b285-3acd5d43599e">
+										<span aria-hidden="true">Select</span>
+			
+									<span class="o-normalise-visually-hidden">Purchase a Trial subscription for $1.00 for 4 weeks </span>
+									<span class="o-normalise-visually-hidden">You will be billed $67.00 per month after the trial ends</span>
+								</a>
+							</div>
+					</div>
+			
+			
+					<div class="o-subs-card__expander">
+						<div class="o-subs-card__copy-details">
+							<ul class="o-subs-card__copy-benefits">
+								<li>For 4 weeks receive unlimited Premium digital access to the FT's trusted, award-winning business news</li>
+							</ul>
+						</div>
+						<div class='o-subs-card__read-more'>Read more</div>
+					</div>
+				</div>
+				<div class="o-subs-card o-subs-card__relative "
+						data-o-component="o-subs-card"
+						data-offer-id="d6b1bd32-1bd6-368b-78c5-62793ee43e7a"
+						data-offer-prominence="primary"
+						data-offer-title="Digital">
+					<div class="o-subs-card__top">
+						<div class="o-subs-card__copy-title " role="text" aria-label="Purchase a Digital subscription.">
+							<div>
+								Digital
+							</div>
+						</div>
+			
+							<div class="o-subs-card__copy-pitch">Be informed with the essential<br />news and opinion</div>
+			
+							<div class="o-subs-card__charge">
+								<div class="o-subs-card__charge-value">
+									Just $4.75 per week<sup aria-hidden="true">*</sup>
+								</div>
+			
+								<div class="o-subs-card__copy-secondary o-subs-card__copy-secondary--hide">
+								</div>
+			
+								<a class="o-subs-card__select-button" data-trackable="subscribe-subscription-standard-digital"
+									href="https://subs.ft.com/spa3_33ap?ft-content-uuid&#x3D;9f8eaaa2-6151-11e9-b285-3acd5d43599e">
+										<span aria-hidden="true">Select</span>
+			
+									<span class="o-normalise-visually-hidden">Purchase a Digital subscription for $4.75 per week </span>
+									<span class="o-normalise-visually-hidden">You will be billed $39.50 per month after the trial ends</span>
+								</a>
+							</div>
+							<div class="o-subs-card__header" aria-label="Save 33%.">Save 33%</div>
+					</div>
+			
+			
+					<div class="o-subs-card__expander">
+						<div class="o-subs-card__copy-details">
+							<ul class="o-subs-card__copy-benefits">
+								<li>MyFT – track the topics most important to you</li>
+								<li>FT Weekend – full access to the weekend content</li>
+								<li>Mobile & Tablet Apps – download to read on the go</li>
+								<li>Gift Article – share up to 10 articles a month with family, friends and colleagues</li>
+							</ul>
+						</div>
+						<div class='o-subs-card__read-more'>Read more</div>
+					</div>
+				</div>
+				<div class="o-subs-card o-subs-card__relative "
+						data-o-component="o-subs-card"
+						data-offer-id=""
+						data-offer-prominence="primary"
+						data-offer-title="Premium Digital + Print">
+					<div class="o-subs-card__top">
+						<div class="o-subs-card__copy-title " role="text" aria-label="Purchase a Premium Digital + Print subscription.">
+							<div>
+								Premium Digital + Print
+							</div>
+						</div>
+			
+							<div class="o-subs-card__copy-pitch">FT Newspaper delivered daily plus unlimited digital access</div>
+			
+							<div class="o-subs-card__charge">
+								<div class="o-subs-card__charge-value">
+									$11.77 per week<sup aria-hidden="true">*</sup>
+								</div>
+			
+								<div class="o-subs-card__copy-secondary o-subs-card__copy-secondary--hide">
+								</div>
+			
+								<a class="o-subs-card__select-button" data-trackable="subscribe-subscription-premium-digital-newspaper"
+									href="https://sub.ft.com/spa2_ftbform/?segmentId&#x3D;f41acb70-e0cf-a8af-0be8-fa591da55ba1&amp;ft-content-uuid&#x3D;9f8eaaa2-6151-11e9-b285-3acd5d43599e">
+										<span aria-hidden="true">Select</span>
+			
+									<span class="o-normalise-visually-hidden">Purchase a Premium Digital + Print subscription for $11.77 per week </span>
+									<span class="o-normalise-visually-hidden">You will be billed $0.00 per month after the trial ends</span>
+								</a>
+							</div>
+					</div>
+			
+			
+					<div class="o-subs-card__expander">
+						<div class="o-subs-card__copy-details">
+							<h4 class="o-subs-card__copy-benefits">All the benefits of Premium plus:</h4>
+							<ul class="o-subs-card__copy-benefits">
+								<li>The FT delivered to your home or office Monday to Saturday, including the FT Weekend paper and supplements</li>
+							</ul>
+						</div>
+						<div class='o-subs-card__read-more'>Read more</div>
+					</div>
+				</div>
+				<div class="o-subs-card o-subs-card__relative "
+						data-o-component="o-subs-card"
+						data-offer-id=""
+						data-offer-prominence="primary"
+						data-offer-title="Team or Enterprise">
+					<div class="o-subs-card__top">
+						<div class="o-subs-card__copy-title " role="text" aria-label="Purchase a Team or Enterprise subscription.">
+							<div>
+								Team or Enterprise
+							</div>
+						</div>
+			
+							<div class="o-subs-card__copy-pitch">Premium FT.com access for multiple users, with integrations &amp; admin tools</div>
+			
+							<div class="o-subs-card__charge">
+								<div class="o-subs-card__charge-value">
+									Pay based on use
+								</div>
+			
+								<div class="o-subs-card__copy-secondary ">
+								</div>
+			
+								<a class="o-subs-card__select-button" data-trackable="subscribe-subscription-business-access"
+									href="https://enterprise.ft.com/en-gb/services/group-subscriptions/group-contact-us/b/?barrierName&#x3D;anon_barrier&amp;segmentId&#x3D;9fbe4fe1-9315-3d67-cc6d-2bc7650c4aea&amp;ft-content-uuid&#x3D;9f8eaaa2-6151-11e9-b285-3acd5d43599e">
+										<span aria-hidden="true">Get Started</span>
+			
+									<span class="o-normalise-visually-hidden">Purchase a Team or Enterprise subscription for  per week </span>
+									<span class="o-normalise-visually-hidden">You will be billed  per month after the trial ends</span>
+								</a>
+							</div>
+							<div class="o-subs-card__header o-subs-card__header--dark" aria-label="Group Subscription.">Group Subscription</div>
+					</div>
+			
+			
+					<div class="o-subs-card__expander">
+						<div class="o-subs-card__copy-details">
+							<h4 class="o-subs-card__copy-benefits">All the benefits of Premium Digital plus: </h4>
+							<ul class="o-subs-card__copy-benefits">
+								<li>Convenient access for groups of users</li>
+								<li>Integration with third party platforms and CRM systems</li>
+								<li>Usage based pricing and volume discounts for multiple users</li>
+								<li>Subscription management tools and usage reporting</li>
+								<li>SAML-based single sign on (SSO)</li>
+								<li>Dedicated account and customer success teams</li>
+							</ul>
+						</div>
+						<div class='o-subs-card__read-more'>Read more</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<div class="o-grid-row" data-o-grid-colspan="12 center">
+			<section class="barrier__util-text--center">
+				<sup aria-hidden="true">*</sup> Subscription <a class="barrier__terms-link" href="/servicestools/help/terms">Terms and Conditions</a> apply.
+			</section>
+		</div>
+			<div class="barrier__util-text--center barrier__util-padding--single barrier__util-hide--m" data-o-grid-colspan="12 center">
+				<button class="barrier__toggle o-expander__toggle" data-trackable="barrier-learn-more-expander">
+					Learn more and compare subscriptions<i></i>
+				</button>
+			</div>
+
+		<div class="barrier__util-text--center barrier__util-padding--single barrier__util-hide--gt-m" data-o-grid-colspan="12 center">
+			<h3 class="barrier__heading barrier__heading--s barrier__heading--compact barrier__util-text--center">Or, if you are already a subscriber</h3>
+			<p>
+				<a href="/login?location=/content/9f8eaaa2-6151-11e9-b285-3acd5d43599e" class="o-grid-row barrier__button barrier__button-black barrier__button-black--big" data-trackable="Sign In">
+					Sign in
+				</a>
+			</p>
+		</div>
+	</div>
+
+	<footer>
+
+			<div class="barrier__section--wheat barrier__section--bleed-down barrier__util-padding--single">
+				<div class="o-grid-container">
+					<div class="o-grid-row barrier__util-padding--single" data-o-grid-colspan="12 center">
+						<h2 class="barrier__heading barrier__heading--s barrier__heading--compact barrier__util-text--center">
+							Other options
+						</h2>
+					</div>
+					<div class="o-grid-row" data-o-grid-colspan="12 M8 L4 center">
+							<section class="barrier__secondary-messaging">
+									<a data-o-grid-colspan="12"
+										class="o-grid-row barrier__button-secondary--big barrier__button-secondary--darker barrier__secondary-messaging__button"
+										data-offer-id="713f1e28-0bc5-8261-f1e6-eebab6f7600e"
+										data-offer-prominence="secondary"
+										data-trackable="subscription-premium-digital" href="https://www.ft.com/signup?offerId&#x3D;713f1e28-0bc5-8261-f1e6-eebab6f7600e">
+										Premium Digital
+									</a>
+									<a data-o-grid-colspan="12"
+										class="o-grid-row barrier__button-secondary--big barrier__button-secondary--darker barrier__secondary-messaging__button"
+										data-offer-id="602c7398-e9a9-8cf3-e9ef-a5b72087d571"
+										data-offer-prominence="secondary"
+										data-trackable="newspaper" href="https://sub.ft.com/spa2_ftnform/?segmentId&#x3D;f41acb70-e0cf-a8af-0be8-fa591da55ba1">
+										Print Only
+									</a>
+									<a data-o-grid-colspan="12"
+										class="o-grid-row barrier__button-secondary--big barrier__button-secondary--darker barrier__secondary-messaging__button"
+										data-offer-id="bb616920-4f40-ec2f-a476-7abe0d3af4a0"
+										data-offer-prominence="secondary"
+										data-trackable="weekend-paper" href="https://sub.ft.com/spa2_web/?segmentId&#x3D;f41acb70-e0cf-a8af-0be8-fa591da55ba1">
+										Premium Digital + Weekend Print
+									</a>
+									<a data-o-grid-colspan="12"
+										class="o-grid-row barrier__button-secondary--big barrier__button-secondary--darker barrier__secondary-messaging__button"
+										data-offer-id="3d490a27-44aa-ee62-e22e-d1dd2c07f5ef"
+										data-offer-prominence="secondary"
+										data-trackable="weekend" href="https://subs.ft.com/spa3_weekendx?segmentId&#x3D;f41acb70-e0cf-a8af-0be8-fa591da55ba1">
+										Weekend Print
+									</a>
+							</section>
+					</div>
+				</div>
+			</div>
+
+	</footer>
+</div>
+<script id="enableSWGReadyToPay" type="application/json">
+false
+</script></div></div><div class="n-layout__row n-layout__row--footer"><div class="n-layout__footer-before"><div class="n-feedback__container n-feedback--hidden"></div></div><footer id="site-footer" class="o-footer o-footer--theme-dark" data-o-component="o-footer"><div class="o-footer__container"><div class="o-footer__row"><h2 class="o-normalise-visually-hidden">Useful links</h2><nav class="o-footer__matrix" role="navigation" aria-label="Useful links"><div class="o-footer__matrix-group o-footer__matrix-group--1"><h3 class="o-footer__matrix-title">Support</h3><div class="o-footer__matrix-content" id="o-footer-section-0"><div class="o-footer__matrix-column"><a class="o-footer__matrix-link" href="/tour" data-trackable="View Site Tips">View Site Tips</a><a class="o-footer__matrix-link" href="http://help.ft.com" data-trackable="Help Centre">Help Centre</a><a class="o-footer__matrix-link" href="http://www.ft.com/aboutus" data-trackable="About Us">About Us</a><a class="o-footer__matrix-link" href="/accessibility" data-trackable="Accessibility">Accessibility</a><a class="o-footer__matrix-link" href="/tour/myft" data-trackable="myFT Tour">myFT Tour</a><a class="o-footer__matrix-link" href="https://aboutus.ft.com/en-gb/careers/" data-trackable="Careers">Careers</a></div></div></div><div class="o-footer__matrix-group o-footer__matrix-group--1"><h3 class="o-footer__matrix-title">Legal &amp; Privacy</h3><div class="o-footer__matrix-content" id="o-footer-section-1"><div class="o-footer__matrix-column"><a class="o-footer__matrix-link" href="http://help.ft.com/help/legal-privacy/terms-conditions/" data-trackable="Terms &amp; Conditions">Terms &amp; Conditions</a><a class="o-footer__matrix-link" href="http://help.ft.com/help/legal-privacy/privacy/" data-trackable="Privacy">Privacy</a><a class="o-footer__matrix-link" href="http://help.ft.com/help/legal-privacy/cookies/" data-trackable="Cookies">Cookies</a><a class="o-footer__matrix-link" href="http://help.ft.com/help/legal-privacy/copyright/copyright-policy/" data-trackable="Copyright">Copyright</a><a class="o-footer__matrix-link" href="https://help.ft.com/help/legal/slavery-statement/" data-trackable="Slavery Statement &amp; Policies">Slavery Statement &amp; Policies</a></div></div></div><div class="o-footer__matrix-group o-footer__matrix-group--2"><h3 class="o-footer__matrix-title" aria-controls="o-footer-section-2">Services</h3><div class="o-footer__matrix-content" id="o-footer-section-2"><div class="o-footer__matrix-column"><a class="o-footer__matrix-link" href="http://live.ft.com/" data-trackable="FT Live">FT Live</a><a class="o-footer__matrix-link" href="/securedrop" data-trackable="Share News Tips Securely" data-o-tracking-do-not-track="true">Share News Tips Securely</a><a class="o-footer__matrix-link" href="http://www.ft.com/products" data-trackable="Individual Subscriptions">Individual Subscriptions</a><a class="o-footer__matrix-link" href="https://enterprise.ft.com/en-gb/services/group-subscriptions/group-contact-us/?segmentId=383c7f63-abf4-b62d-cb33-4c278e6fdf61&amp;cpccampaign=B2B_link_ft.com_footer" data-trackable="Group Subscriptions">Group Subscriptions</a><a class="o-footer__matrix-link" href="https://enterprise.ft.com/en-gb/services/republishing/" data-trackable="Republishing">Republishing</a><a class="o-footer__matrix-link" href="http://www.businessesforsale.com/ft2/notices" data-trackable="Contracts &amp; Tenders">Contracts &amp; Tenders</a></div><div class="o-footer__matrix-column"><a class="o-footer__matrix-link" href="https://www.exec-appointments.com/" data-trackable="Executive Job Search">Executive Job Search</a><a class="o-footer__matrix-link" href="http://fttoolkit.co.uk/" data-trackable="Advertise with the FT">Advertise with the FT</a><a class="o-footer__matrix-link" href="https://twitter.com/financialtimes" data-trackable="Follow the FT on Twitter">Follow the FT on Twitter</a><a class="o-footer__matrix-link" href="https://transact.ft.com/en-gb/" data-trackable="FT Transact">FT Transact</a><a class="o-footer__matrix-link" href="https://enterprise.ft.com/en-gb/services/group-subscriptions/education/" data-trackable="Secondary Schools">Secondary Schools</a></div></div></div><div class="o-footer__matrix-group o-footer__matrix-group--2"><h3 class="o-footer__matrix-title" aria-controls="o-footer-section-3">Tools</h3><div class="o-footer__matrix-content" id="o-footer-section-3"><div class="o-footer__matrix-column"><a class="o-footer__matrix-link" href="https://markets.ft.com/data/portfolio/dashboard" data-trackable="Portfolio">Portfolio</a><a class="o-footer__matrix-link" href="https://www.ft.com/todaysnewspaper" data-trackable="Today&#x27;s Newspaper (ePaper)">Today&#x27;s Newspaper (ePaper)</a><a class="o-footer__matrix-link" href="http://markets.ft.com/data/alerts/" data-trackable="Alerts Hub">Alerts Hub</a><a class="o-footer__matrix-link" href="http://rankings.ft.com/businessschoolrankings/global-mba-ranking-2019" data-trackable="MBA Rankings">MBA Rankings</a></div><div class="o-footer__matrix-column"><a class="o-footer__matrix-link" href="https://kat.ft.com/" data-trackable="Enterprise Tools">Enterprise Tools</a><a class="o-footer__matrix-link" href="/news-feed" data-trackable="News feed">News feed</a><a class="o-footer__matrix-link" href="/newsletters" data-trackable="Newsletters">Newsletters</a><a class="o-footer__matrix-link" href="https://markets.ft.com/research/Markets/Currencies?segid=70113" data-trackable="Currency Converter">Currency Converter</a></div></div></div></nav></div><div class="o-footer__external-link o-footer__matrix-title"><a class="o-footer__more-from-ft o-footer__matrix-title" href="http://ft.com/more-from-ft-group" data-trackable="more-from-ft">More from the FT Group</a></div><div class="o-footer__copyright"><small>Markets data delayed by at least 15 minutes. © THE FINANCIAL TIMES LTD 2020. <abbr title="Financial Times" aria-label="F T">FT</abbr> and ‘Financial Times’ are trademarks of The Financial Times Ltd.<br/>The Financial Times and its journalism are subject to a self-regulation regime under the <a href="http://aboutus.ft.com/en-gb/ft-editorial-code/" aria-label="F T Editorial Code of Practice">FT Editorial Code of Practice</a>.</small></div></div><div class="o-footer__brand"><div class="o-footer__container"><div class="o-footer__brand-logo"></div></div></div></footer><div class="n-layout__footer-after"><script data-pixel-src="https://spoor-api.ft.com/px.gif?data=%7B%22category%22%3A%22page%22%2C%22action%22%3A%22view%22%2C%22system%22%3A%7B%22source%22%3A%22non-ctm%22%7D%2C%22context%22%3A%7B%22name%22%3A%22product%22%2C%22product%22%3A%22next%22%2C%22data%22%3A%7B%22source%22%3A%22%5BSOURCE%5D%22%7D%7D%7D">(function coreExperience() {
+    if (/\bcore\b/.test(document.documentElement.className)) {
+      var currentScript = document.scripts[document.scripts.length - 1];
+      var img = new Image();
+      img.src = currentScript.getAttribute('data-pixel-src');
+    }
+  })();</script><noscript><img src="https://spoor-api.ft.com/px.gif?data=%7B%22category%22%3A%22page%22%2C%22action%22%3A%22view%22%2C%22system%22%3A%7B%22source%22%3A%22non-ctm%22%7D%2C%22context%22%3A%7B%22name%22%3A%22product%22%2C%22product%22%3A%22next%22%2C%22data%22%3A%7B%22source%22%3A%22%5BSOURCE%5D%22%7D%7D%7D"/></noscript></div></div><div class="o-header__drawer" id="o-header-drawer" role="navigation" aria-label="Drawer menu" data-o-header-drawer="true" data-o-header-drawer--no-js="true" data-trackable="drawer" data-trackable-terminate="true"><div class="o-header__drawer-inner"><div class="o-header__drawer-tools"><button type="button" class="o-header__drawer-tools-close" title="Close drawer menu" aria-controls="o-header-drawer" data-trackable="close"><span class="o-header__visually-hidden">Close drawer menu</span></button><a class="o-header__drawer-tools-logo" href="/" data-trackable="logo"><span class="o-header__visually-hidden">Financial Times</span></a><p class="o-header__drawer-current-edition">International Edition</p></div><div class="o-header__drawer-search"><form class="o-header__drawer-search-form" action="/search" role="search" aria-label="Site search" data-n-topic-search="true" data-n-topic-search-categories="concepts,equities" data-n-topic-search-view-all="true"><label class="o-header__visually-hidden" for="o-header-drawer-search-term">Search the <abbr title="Financial Times">FT</abbr></label><input type="text" class="o-header__drawer-search-term" id="o-header-drawer-search-term" name="q" autoComplete="off" autoCorrect="off" autoCapitalize="off" spellcheck="false" placeholder="Search the FT" data-trackable="search-term" data-n-topic-search-input="true"/><button class="o-header__drawer-search-submit" type="submit" data-trackable="search-submit"><span class="o-header__visually-hidden">Search</span></button></form></div><nav class="o-header__drawer-menu o-header__drawer-menu--primary o-header__drawer-menu--border"><ul class="o-header__drawer-menu-list"><li class="o-header__drawer-menu-item" data-trackable="edition-switcher"><a class="o-header__drawer-menu-link" href="/?edition=uk" data-trackable="uk">Switch to UK Edition</a></li></ul><ul class="o-header__drawer-menu-list"><li class="o-header__drawer-menu-item o-header__drawer-menu-item--heading">Top sections</li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/" data-trackable="Home">Home</a></li><li class="o-header__drawer-menu-item"><div class="o-header__drawer-menu-toggle-wrapper"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/world" data-trackable="World">World</a><button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-1" data-trackable="sub-level-toggle | World">Show more World</button></div><ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-1" data-trackable="sub-level"><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/global-economy" data-trackable="Global Economy">Global Economy</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/world/uk" data-trackable="UK">UK</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/world/us" data-trackable="US">US</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/world/asia-pacific/china" data-trackable="China">China</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/world/africa" data-trackable="Africa">Africa</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/world/asia-pacific" data-trackable="Asia Pacific">Asia Pacific</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/emerging-markets" data-trackable="Emerging Markets">Emerging Markets</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/world/europe" data-trackable="Europe">Europe</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/world/americas" data-trackable="Americas">Americas</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/world/mideast" data-trackable="Middle East and North Africa">Middle East and North Africa</a></li></ul></li><li class="o-header__drawer-menu-item"><div class="o-header__drawer-menu-toggle-wrapper"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/world/us" data-trackable="US">US</a><button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-2" data-trackable="sub-level-toggle | US">Show more US</button></div><ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-2" data-trackable="sub-level"><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/us-economy" data-trackable="US Economy">US Economy</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/companies/us" data-trackable="US Companies">US Companies</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/world/us/politics" data-trackable="US Politics &amp; Policy">US Politics &amp; Policy</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/us-presidential-election" data-trackable="US Presidential Election">US Presidential Election</a></li></ul></li><li class="o-header__drawer-menu-item"><div class="o-header__drawer-menu-toggle-wrapper"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/companies" data-trackable="Companies">Companies</a><button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-3" data-trackable="sub-level-toggle | Companies">Show more Companies</button></div><ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-3" data-trackable="sub-level"><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/companies/energy" data-trackable="Energy">Energy</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/companies/financials" data-trackable="Financials">Financials</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/companies/health" data-trackable="Health">Health</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/companies/industrials" data-trackable="Industrials">Industrials</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/companies/media" data-trackable="Media">Media</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/companies/professional-services" data-trackable="Professional Services">Professional Services</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/companies/retail-consumer" data-trackable="Retail &amp; Consumer">Retail &amp; Consumer</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/companies/technology" data-trackable="Tech Sector">Tech Sector</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/companies/telecoms" data-trackable="Telecoms">Telecoms</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/companies/transport" data-trackable="Transport">Transport</a></li></ul></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/technology" data-trackable="Tech">Tech</a></li><li class="o-header__drawer-menu-item"><div class="o-header__drawer-menu-toggle-wrapper"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/markets" data-trackable="Markets">Markets</a><button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-5" data-trackable="sub-level-toggle | Markets">Show more Markets</button></div><ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-5" data-trackable="sub-level"><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/fastft" data-trackable="fastFT">fastFT</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="https://ftalphaville.ft.com" data-trackable="Alphaville">Alphaville</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="https://markets.ft.com/data" data-trackable="Markets Data">Markets Data</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/capital-markets" data-trackable="Capital Markets">Capital Markets</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/commodities" data-trackable="Commodities">Commodities</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/currencies" data-trackable="Currencies">Currencies</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/equities" data-trackable="Equities">Equities</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/fund-management" data-trackable="Fund Management">Fund Management</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/ft-trading-room" data-trackable="Trading">Trading</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/moral-money" data-trackable="Moral Money">Moral Money</a></li></ul></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/graphics" data-trackable="Graphics">Graphics</a></li><li class="o-header__drawer-menu-item"><div class="o-header__drawer-menu-toggle-wrapper"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/opinion" data-trackable="Opinion">Opinion</a><button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-7" data-trackable="sub-level-toggle | Opinion">Show more Opinion</button></div><ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-7" data-trackable="sub-level"><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/columnists" data-trackable="Columnists">Columnists</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/ft-view" data-trackable="The FT View">The FT View</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/the-big-read" data-trackable="The Big Read">The Big Read</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/instant-insight" data-trackable="Instant Insight">Instant Insight</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/lex" data-trackable="Lex">Lex</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="https://ftalphaville.ft.com" data-trackable="Alphaville">Alphaville</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/obituaries" data-trackable="Obituaries">Obituaries</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/letters" data-trackable="Letters">Letters</a></li></ul></li><li class="o-header__drawer-menu-item"><div class="o-header__drawer-menu-toggle-wrapper"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/work-careers" data-trackable="Work &amp; Careers">Work &amp; Careers</a><button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-8" data-trackable="sub-level-toggle | Work &amp; Careers">Show more Work &amp; Careers</button></div><ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-8" data-trackable="sub-level"><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="http://rankings.ft.com/businessschoolrankings/rankings" data-trackable="Business School Rankings">Business School Rankings</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/business-education" data-trackable="Business Education">Business Education</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/entrepreneurship" data-trackable="Entrepreneurship">Entrepreneurship</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/recruitment" data-trackable="Recruitment">Recruitment</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/business-books" data-trackable="Business Books">Business Books</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/business-travel" data-trackable="Business Travel">Business Travel</a></li></ul></li><li class="o-header__drawer-menu-item"><div class="o-header__drawer-menu-toggle-wrapper"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/life-arts" data-trackable="Life &amp; Arts">Life &amp; Arts</a><button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-9" data-trackable="sub-level-toggle | Life &amp; Arts">Show more Life &amp; Arts</button></div><ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-9" data-trackable="sub-level"><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/arts" data-trackable="Arts">Arts</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/books" data-trackable="Books">Books</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/food-drink" data-trackable="Food &amp; Drink">Food &amp; Drink</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/magazine" data-trackable="FT Magazine">FT Magazine</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/house-home" data-trackable="House &amp; Home">House &amp; Home</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/style" data-trackable="Style">Style</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/travel" data-trackable="Travel">Travel</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/globetrotter" data-trackable="FT Globetrotter">FT Globetrotter</a></li></ul></li><li class="o-header__drawer-menu-item"><div class="o-header__drawer-menu-toggle-wrapper"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/personal-finance" data-trackable="Personal Finance">Personal Finance</a><button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-10" data-trackable="sub-level-toggle | Personal Finance">Show more Personal Finance</button></div><ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-10" data-trackable="sub-level"><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/personal-finance/mortgages" data-trackable="Property &amp; Mortgages">Property &amp; Mortgages</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/personal-finance/investments" data-trackable="Investments">Investments</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/personal-finance/pensions" data-trackable="Pensions">Pensions</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/personal-finance/tax" data-trackable="Tax">Tax</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/personal-finance/banking-savings" data-trackable="Banking &amp; Savings">Banking &amp; Savings</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/personal-finance/advice-commment" data-trackable="Advice &amp; Comment">Advice &amp; Comment</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/next-act" data-trackable="Next Act">Next Act</a></li></ul></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="https://howtospendit.ft.com/" data-trackable="How to Spend It">How to Spend It</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/special-reports" data-trackable="Special Reports">Special Reports</a></li><li class="o-header__drawer-menu-item o-header__drawer-menu-item--heading">FT recommends</li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/lex" data-trackable="Lex">Lex</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="https://ftalphaville.ft.com" data-trackable="Alphaville">Alphaville</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/lunch-with-the-ft" data-trackable="Lunch with the FT">Lunch with the FT</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/globetrotter" data-trackable="FT Globetrotter">FT Globetrotter</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="https://www.ft.com/tech-scroll-asia" data-trackable="Tech Scroll Asia">Tech Scroll Asia</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/moral-money" data-trackable="Moral Money">Moral Money</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/ftfm" data-trackable="FTfm">FTfm</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/newsletters" data-trackable="Newsletters">Newsletters</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/video" data-trackable="Video">Video</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="https://www.ft.com/podcasts" data-trackable="Podcasts">Podcasts</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/news-feed" data-trackable="News feed">News feed</a></li><li class="o-header__drawer-menu-item o-header__drawer-menu-item--divide"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--secondary" href="/myft" data-trackable="myFT">myFT</a></li><li class="o-header__drawer-menu-item "><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--secondary" href="https://markets.ft.com/data/portfolio/dashboard" data-trackable="Portfolio">Portfolio</a></li><li class="o-header__drawer-menu-item "><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--secondary" href="https://www.ft.com/todaysnewspaper" data-trackable="Today&#x27;s Newspaper (ePaper)">Today&#x27;s Newspaper (ePaper)</a></li><li class="o-header__drawer-menu-item "><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--secondary" href="https://www.ft.com/crossword" data-trackable="Crossword">Crossword</a></li><li class="o-header__drawer-menu-item "><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--secondary" href="https://www.ft.com/tour/apps" data-trackable="Our Apps">Our Apps</a></li></ul></nav><nav class="o-header__drawer-menu o-header__drawer-menu--user" data-trackable="user-nav"><ul class="o-header__drawer-menu-list"><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link" href="http://help.ft.com" data-trackable="Help Centre">Help Centre</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link" href="/products?segmentId=d290332b-e8e8-d29b-2ff4-2019b13f008a" data-trackable="Subscribe">Subscribe</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link" href="/login?location=%2Fcontent%2F9f8eaaa2-6151-11e9-b285-3acd5d43599e" data-trackable="Sign In">Sign In</a></li></ul></nav></div></div></div><script type="application/json" id="page-kit-app-context">{"appName":"product","product":"next","edition":"international","appVersion":"81d65661eb3c1a253520b0428862f2d28682e3d3","abTestState":"messageSlotTop:coronavirusNewsletterPromoTop,messageSlotBottom:cookieConsentC,manageCancellationJourney:variant","isProduction":true,"isUserLoggedIn":false,"pageKitVersion":"0.7.1","barrierType":"trial"}</script><script type="application/json" id="page-kit-flags-embed">{"articleRelatedContent":true,"ads":true,"javascript":true,"oTracking":true,"articleComments":true,"liveStreams":true,"articleScrollDepthTracking":true,"frontPageHeaderMarketsData":true,"myFtApi":true,"streamOpenArticleInStream":true,"articleShareButtons":true,"contextualAdTargeting":true,"customStreamFragments":true,"streamBrandsDesign":true,"frontPageMyFtSection":true,"myFtApiWrite":true,"adTargetingUserApi":true,"videoPlayerAdvertising":true,"streamMostRead":true,"serviceWorker":true,"openGraph":true,"googleConsumerSurvey":true,"nativeAds":true,"myFTCollections":true,"preflightCookieTracking":true,"myFtDigestPromo":true,"regionalNews":true,"newSchema":true,"syndication":true,"myFTEmailDisableABAlloc":true,"ftlabsAudioPlayer":true,"streamRecommendedStoriesList":true,"fullBleedGraphics":true,"barrierGuruStickiness":true,"myFtNoContentDigests":true,"swAssetCaching":true,"refererCohort":true,"newsletterSignupOnArticle":true,"myFTInstantNotifications":true,"myFtColdStart":true,"myftPrioritiseTopics":true,"messageSlotTop":"coronavirusNewsletterPromoTop","mobileStickyHeader":true,"myftPrioritiseTopicsOnHomepage":true,"myftIndustryRecs":true,"qualtrics":true,"googleSiteVerificationMeta":true,"myftConsentSwitch":true,"moatAdsTraffic":true,"manageCookiesWhiteLabel":true,"syndicationMigrationComplete":true,"gdprConsentForAds":true,"fcmSwitch":true,"graphicsPage":true,"myftIndustryRecsFeed":true,"myftIndustryRecsStream":true,"myftArticleInstantAlertsCta":true,"b2bLiveChat":true,"AdsPermutive":true,"MMAManageSmokeTest":true,"syndication_promo":true,"topicTracker":true,"messageSlotBottom":"cookieConsentC","enableGTM":true,"myftUnreadFavicon":true,"myftNewNewLabel":true,"MyFT_UnreadArticlesIndicatorPolling":true,"myftBoldNewArticles":true,"manageCancellationJourney":"variant","newSaveMeJourney":true,"realUserMonitoringForPerformance":true,"enableLinkedInTag":true,"enableFloodlightTag":true,"enableGoogleAdsTag":true,"enableConversionLinkerTag":true,"pageAttentionTracking":true,"textCopyTracking":true,"enableIHSindexBasedTargetingScript":true,"enableBrandmetricsSurveyScript":true,"managePremiumCancellationJourney":true,"conversionShowEduJobTitleField":true,"articleInstantAlertsPromo":true,"manageStepUpCancellationJourney":true,"adsEnableSmartmatchInTargeting":true,"coronavirusStats":true}</script></body></html>

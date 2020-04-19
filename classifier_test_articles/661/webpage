@@ -1,95 +1,601 @@
-<!DOCTYPE html>
-<html data-n-head-ssr lang="en" data-n-head="lang">
-  <head>
-    <meta data-n-head="true" http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta data-n-head="true" data-hid="content-type" http-equiv="content-type" content="text/html; charset=UTF-8"><meta data-n-head="true" data-hid="x-dns-prefetch-control" http-equiv="x-dns-prefetch-control" content="on"><meta data-n-head="true" charset="UTF-8"><meta data-n-head="true" data-hid="viewport" name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0"><meta data-n-head="true" data-hid="content-language" http-equiv="content-language" content="en"><meta data-n-head="true" data-hid="description" name="description" content="South Korean President Moon Jae-in said Monday that President Trump deserves to win a Nobel Peace Prize for his role in talks to denuclearize the Korean peninsula and end the decades-long war between the North and South."><meta data-n-head="true" data-hid="prism.channel" name="prism.channel" content="fnc"><meta data-n-head="true" data-hid="prism.section" name="prism.section" content="politics"><meta data-n-head="true" data-hid="prism.subsection1" name="prism.subsection1" content=""><meta data-n-head="true" data-hid="prism.subsection2" name="prism.subsection2" content=""><meta data-n-head="true" data-hid="prism.subsection3" name="prism.subsection3" content=""><meta data-n-head="true" data-hid="prism.subsection4" name="prism.subsection4" content=""><meta data-n-head="true" data-hid="prism.aggregationType" name="prism.aggregationType" content="subsection"><meta data-n-head="true" data-hid="prism.genre" name="prism.genre" content=""><meta data-n-head="true" data-hid="pagetype" name="pagetype" content="article"><meta data-n-head="true" data-hid="content-creator" name="content-creator" content="tiger"><meta data-n-head="true" data-hid="dc.creator" name="dc.creator" scheme="dcterms.creator" content="Brooke Singman"><meta data-n-head="true" data-hid="dc.title" name="dc.title" content="South Korean president: Trump &#x27;should win the Nobel Peace Prize&#x27;"><meta data-n-head="true" data-hid="dc.subject" name="dc.subject" content=""><meta data-n-head="true" data-hid="dcterms.abstract" name="dcterms.abstract" content="South Korean President Moon Jae-in said Monday that President Trump deserves to win a Nobel Peace Prize for his role in talks to denuclearize the Korean peninsula and end the decades-long war between the North and South."><meta data-n-head="true" data-hid="dc.type" name="dc.type" scheme="dcterms.DCMIType" content="Text.Article"><meta data-n-head="true" data-hid="dc.description" name="dc.description" content="South Korean President Moon Jae-in said Monday that President Trump deserves to win a Nobel Peace Prize for his role in talks to denuclearize the Korean peninsula and end the decades-long war between the North and South."><meta data-n-head="true" data-hid="dc.language" name="dc.language" scheme="dcterms.RFC4646" content="en-US"><meta data-n-head="true" data-hid="dc.publisher" name="dc.publisher" content="Fox News"><meta data-n-head="true" data-hid="dc.format" name="dc.format" scheme="dcterms.IMT" content="text/html"><meta data-n-head="true" data-hid="dc.identifier" name="dc.identifier" scheme="dcterms.URI" content="urn:uri:base64:abc18aa3-8c72-5d03-8ddc-570abd7073f7"><meta data-n-head="true" data-hid="dc.source" name="dc.source" content="Fox News"><meta data-n-head="true" data-hid="dc.date" name="dc.date" content="2018-04-30"><meta data-n-head="true" data-hid="dcterms.created" name="dcterms.created" scheme="dcterms.ISO8601" content="2018-04-30T08:08:14-04:00"><meta data-n-head="true" data-hid="dcterms.modified" name="dcterms.modified" scheme="dcterms.ISO8601" content="2018-04-30T11:13:02-04:00"><meta data-n-head="true" data-hid="og:title" property="og:title" content="South Korean president: Trump &#x27;should win the Nobel Peace Prize&#x27;"><meta data-n-head="true" data-hid="og:description" property="og:description" content="South Korean President Moon Jae-in said Monday that President Trump deserves to win a Nobel Peace Prize for his role in talks to denuclearize the Korean peninsula and end the decades-long war between the North and South."><meta data-n-head="true" data-hid="og:type" property="og:type" content="article"><meta data-n-head="true" data-hid="og:image" property="og:image" content="http://media2.foxnews.com/BrightCove/694940094001/2018/04/30/694940094001_5778447155001_5778444423001-vs.jpg"><meta data-n-head="true" data-hid="og:url" property="og:url" content="https://www.foxnews.com/politics/south-korean-president-trump-should-win-the-nobel-peace-prize"><meta data-n-head="true" data-hid="og:site_name" property="og:site_name" content="Fox News"><meta data-n-head="true" data-hid="robots" name="robots" content="noarchive, noodp"><meta data-n-head="true" name="twitter:card" content="summary_large_image"><meta data-n-head="true" name="twitter:site" content="@foxnews"><meta data-n-head="true" name="twitter:title" content="South Korean president: Trump &#x27;should win the Nobel Peace Prize&#x27;"><meta data-n-head="true" name="twitter:description" content="South Korean President Moon Jae-in said Monday that President Trump deserves to win a Nobel Peace Prize for his role in talks to denuclearize the Korean peninsula and end the decades-long war between the North and South."><meta data-n-head="true" name="twitter:image" content="https://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/04/30/1024/512/694940094001_5778447155001_5778444423001-vs.jpg?ve=1&amp;tl=1"><meta data-n-head="true" name="twitter:url" content="https://www.foxnews.com/politics/south-korean-president-trump-should-win-the-nobel-peace-prize"><meta data-n-head="true" property="fb:app_id" content="116027085089150"><meta data-n-head="true" property="article:opinion" content="false"><meta data-n-head="true" name="classification" content="/FOX NEWS/POLITICS/EXECUTIVE/White House,/FOX NEWS/POLITICS,/FOX NEWS/WORLD/CONFLICTS/North Korea"><meta data-n-head="true" name="classification-isa" content="whitehouse,politics,nkorea"><title data-n-head="true">South Korean president: Trump &#x27;should win the Nobel Peace Prize&#x27; | Fox News</title><link data-n-head="true" rel="icon" type="image/x-icon" href="//static.foxnews.com/static/orion/styles/img/fox-news/favicons/favicon.ico"><link data-n-head="true" href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&amp;display=swap" rel="stylesheet" type="text/css"><link data-n-head="true" rel="canonical" href="https://www.foxnews.com/politics/south-korean-president-trump-should-win-the-nobel-peace-prize"><link data-n-head="true" rel="amphtml" href="https://www.foxnews.com/politics/south-korean-president-trump-should-win-the-nobel-peace-prize.amp"><link data-n-head="true" rel="shorturl" href="https://fxn.ws/2ra2YFI"><link data-n-head="true" rel="stylesheet" href="//static.foxnews.com/static/orion/styles/css/fox-news/article-new.rs.css"><script data-n-head="true" src="//static.foxnews.com/static/orion/scripts/core/ag.core.js"></script><script data-n-head="true" src="//global.fncstatic.com/static/isa/core.js"></script><script data-n-head="true" type="application/ld+json">
-      {
-        "@context": "http://schema.org",
-        "@type": "NewsArticle",
-        "mainEntityOfPage": "https://www.foxnews.com/politics/south-korean-president-trump-should-win-the-nobel-peace-prize",
-        "headline": "South Korean president: Trump 'should win the Nobel Peace Prize'",
-        "datePublished": "2018-04-30T08:08:14-04:00",
-        "dateModified": "2018-04-30T11:13:02-04:00",
-        "description": "South Korean President Moon Jae-in said Monday that President Trump deserves to win a Nobel Peace Prize for his role in talks to denuclearize the Korean peninsula and end the decades-long war between the North and South.",
-        "author": {
-          "@type": "Person",
-          "name": "Brooke Singman"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "Fox News",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://static.foxnews.com/static/orion/styles/img/fox-news/amp/fox-news-logo.png",
-            "width": 133,
-            "height": 60
-          }
-        },
-        "image": {
-          "@type": "ImageObject",
-          "url": "https://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/04/30/696/392/694940094001_5778447155001_5778444423001-vs.jpg?ve=1&tl=1",
-          "width": 696,
-          "height": 392
+
+    <!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta name="google-site-verification" content="PPPx-GD0i7nWjUFAYnFdOYorAAJLuNyKOl23JCeXyrQ" />
+
+    <title>Abortion Activist&#8217;s Crazy Claim: &#8220;Unplanned&#8221; Movie Will &#8220;Radicalize&#8221; Pro-Lifers, Make Them &#8220;Violent&#8221;  |  LifeNews.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" type="text/css" href="https://lifenews-wpengine.netdna-ssl.com/wp-content/themes/lifenews-new/style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <meta name='OBKey' content='avejq02j7xRr+0owuq+Pcw==' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.lifenews.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='uds_ads_style-css'  href='https://lifenews-wpengine.netdna-ssl.com/wp-content/plugins/uAd/css/style.css?ver=5.3.2' type='text/css' media='screen' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://lifenews-wpengine.netdna-ssl.com/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='uaf_client_css-css'  href='https://lifenews-wpengine.netdna-ssl.com/wp-content/uploads/useanyfont/uaf.css?ver=1473950641' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css-css'  href='https://lifenews-wpengine.netdna-ssl.com/wp-content/themes/lifenews-new/css/bootstrap.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='awesome-css'  href='https://lifenews-wpengine.netdna-ssl.com/wp-content/themes/lifenews-new/css/font-awesome.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='hpslider-css-css'  href='https://lifenews-wpengine.netdna-ssl.com/wp-content/themes/lifenews-new/css/slider.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='iphone-css'  href='https://lifenews-wpengine.netdna-ssl.com/wp-content/themes/lifenews-new/css/iphone.css?ver=5.3.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://lifenews-wpengine.netdna-ssl.com/wp-content/themes/lifenews-new/js/comment-reply.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://lifenews-wpengine.netdna-ssl.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://lifenews-wpengine.netdna-ssl.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://lifenews-wpengine.netdna-ssl.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://lifenews-wpengine.netdna-ssl.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://lifenews-wpengine.netdna-ssl.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://lifenews-wpengine.netdna-ssl.com/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wxAjax = {"ajaxurl":"https:\/\/www.lifenews.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://lifenews-wpengine.netdna-ssl.com/wp-content/plugins/wovaxapp//assets/js/wx-front-end-ajax.js?ver=5.3.2'></script>
+<link rel='https://api.w.org/' href='https://www.lifenews.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.lifenews.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.lifenews.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Pro-Abortion Republican Bill Weld Challenges President Donald Trump for GOP Nomination' href='https://www.lifenews.com/2019/04/16/pro-abortion-republican-bill-weld-challenges-president-donald-trump-for-gop-nomination/' />
+<link rel='next' title='Missouri Advances Its Most Pro-Life Bill Ever, Would Ban Abortions When Baby&#8217;s Heartbeat Begins' href='https://www.lifenews.com/2019/04/16/missouri-advances-its-most-pro-life-bill-ever-would-ban-abortions-when-babys-heartbeat-begins/' />
+<link rel='shortlink' href='https://www.lifenews.com/?p=98125' />
+<link rel="alternate" type="application/json+oembed" href="https://www.lifenews.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.lifenews.com%2F2019%2F04%2F16%2Fabortion-activists-crazy-claim-unplanned-movie-will-radicalize-pro-lifers-make-them-violent%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.lifenews.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.lifenews.com%2F2019%2F04%2F16%2Fabortion-activists-crazy-claim-unplanned-movie-will-radicalize-pro-lifers-make-them-violent%2F&#038;format=xml" />
+      <meta name="onesignal" content="wordpress-plugin"/>
+          <link rel="manifest"
+            href="https://lifenews-wpengine.netdna-ssl.com/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/manifest.json.php?gcm_sender_id="/>
+          <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>    <script>
+
+      window.OneSignal = window.OneSignal || [];
+
+      OneSignal.push( function() {
+        OneSignal.SERVICE_WORKER_UPDATER_PATH = "OneSignalSDKUpdaterWorker.js.php";
+        OneSignal.SERVICE_WORKER_PATH = "OneSignalSDKWorker.js.php";
+        OneSignal.SERVICE_WORKER_PARAM = { scope: '/' };
+
+        OneSignal.setDefaultNotificationUrl("https://www.lifenews.com");
+        var oneSignal_options = {};
+        window._oneSignalInitOptions = oneSignal_options;
+
+        oneSignal_options['wordpress'] = true;
+oneSignal_options['appId'] = '7819877d-a688-4de2-97c4-7f2b56776cf1';
+oneSignal_options['autoRegister'] = true;
+oneSignal_options['welcomeNotification'] = { };
+oneSignal_options['welcomeNotification']['title'] = "LifeNews";
+oneSignal_options['welcomeNotification']['message'] = "";
+oneSignal_options['path'] = "https://www.lifenews.com/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/";
+oneSignal_options['safari_web_id'] = "LifeNews.com";
+oneSignal_options['promptOptions'] = { };
+oneSignal_options['notifyButton'] = { };
+oneSignal_options['notifyButton']['enable'] = true;
+oneSignal_options['notifyButton']['position'] = 'bottom-right';
+oneSignal_options['notifyButton']['theme'] = 'default';
+oneSignal_options['notifyButton']['size'] = 'medium';
+oneSignal_options['notifyButton']['prenotify'] = true;
+oneSignal_options['notifyButton']['showCredit'] = true;
+oneSignal_options['notifyButton']['text'] = {};
+oneSignal_options['notifyButton']['text']['message.prenotify'] = 'Want to see more from LifeNews.com? Subscribe to notifications!';
+              OneSignal.init(window._oneSignalInitOptions);
+                    });
+
+      function documentInitOneSignal() {
+        var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+
+        var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };        for(var i = 0; i < oneSignal_elements.length; i++)
+          oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
+      }
+
+      if (document.readyState === 'complete') {
+           documentInitOneSignal();
+      }
+      else {
+           window.addEventListener("load", function(event){
+               documentInitOneSignal();
+          });
+      }
+    </script>
+
+
+<!-- WordPress Facebook Open Graph protocol plugin (WPFBOGP v2.0.13) http://rynoweb.com/wordpress-plugins/ -->
+<meta property="fb:app_id" content="204509779594999"/>
+<meta property="og:url" content="https://www.lifenews.com/2019/04/16/abortion-activists-crazy-claim-unplanned-movie-will-radicalize-pro-lifers-make-them-violent/"/>
+<meta property="og:title" content="Abortion Activist&#8217;s Crazy Claim: &#8220;Unplanned&#8221; Movie Will &#8220;Radicalize&#8221; Pro-Lifers, Make Them &#8220;Violent&#8221;"/>
+<meta property="og:site_name" content="LifeNews.com"/>
+<meta property="og:description" content="The pro-life biopic Unplanned movie is doing well in theaters and that has the left-wing press freaking out — even claiming it could “could get someone kill"/>
+<meta property="og:type" content="article"/>
+<meta property="og:image" content="https://www.lifenews.com/wp-content/uploads/2019/04/caitlinmoscatello.png"/>
+<meta property="og:locale" content="en_us"/>
+<!-- // end wpfbogp -->
+		<style type="text/css" id="wp-custom-css">
+			.addthis_default_style {
+    text-align:  center;
+    float:  initial;
+}
+
+.addthis_toolbox a {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.tweet_iframe_widget {
+    text-align:  center;
+    margin: 0 auto;
+}
+a.addthis_button_facebook_share {
+    height: 47px;
+}
+
+a.addthis_button_google_plusone div {
+    text-align: center;
+    margin: 0 auto !important;
+    width: auto !important;
+}
+
+.blueshare #___plusone_1 {
+    width: auto !important;
+}		</style>
+		    <script type="text/javascript" src="https://lifenews-wpengine.netdna-ssl.com/wp-content/themes/lifenews-new/js/modl.popup.js"></script>
+	<script type="text/javascript" src="https://lifenews-wpengine.netdna-ssl.com/wp-content/themes/lifenews-new/js/main.js"></script>
+        <script language="javascript">
+
+  function createCookie(name,value,days) {
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime()+(days*24*60*60*1000));
+        var expires = "; expires="+date.toGMTString();
+    }
+    else var expires = "";
+    document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function readCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+ </script>
+
+  <script type="text/javascript">
+/* <![CDATA[ */
+/* ]]> */
+  //  alert(readCookie('pop'));
+   jQuery(document).ready(function() {
+     if(readCookie('pop') !='seen'){
+         if (readCookie('pop') != 'closed') {
+        if (readCookie('popEmail') !='submited') {
+        //Change these values to style your modal popup
+        var align = 'center';                                    //Valid values; left, right, center
+        var top = 100;                                             //Use an integer (in pixels)
+        var width = 747;                                         //Use an integer (in pixels)
+        var padding = 0;                                        //Use an integer (in pixels)
+        var backgroundColor = '#FFFFFF';                         //Use any hex code
+        var source = '/wp-content/themes/lifenews/page-pop.php';                                 //Refer to any page on your server, external pages are not valid e.g. http://www.google.co.uk
+        var borderColor = '#003C56';                             //Use any hex code
+        var borderWeight = 4;                                     //Use an integer (in pixels)
+        var borderRadius = 5;                                     //Use an integer (in pixels)
+        var fadeOutTime = 300;                                     //Use any integer, 0 = no fade
+        var disableColor = '#666666';                             //Use any hex code
+        var disableOpacity = 40;                                 //Valid range 0-100
+        var loadingImage = 'lib/release-0.0.1/loading.gif';        //Use relative path from this page
+
+        //This method initialises the modal popup
+
+          (function() {
+            modalPopup(align, top, width, padding, disableColor, disableOpacity, backgroundColor, borderColor, borderWeight, borderRadius, fadeOutTime, source, loadingImage);
+        })();
+
+        jQuery(document).keyup(function(e) {
+            if (e.keyCode == 27) {
+                closePopup(fadeOutTime);
+            }
+        });
+
+      createCookie('pop','seen', '3');
+
+            }
         }
-      }
-    </script><script data-n-head="true" type="application/ld+json">
-      {
-        "@context": "http://schema.org/",
-        "@type": "WebPage",
-        "name": "South Korean president: Trump 'should win the Nobel Peace Prize'",
-        "speakable": {"@type": "SpeakableSpecification","cssSelector": [".head1", ".speakable"]},
-        "url": "https://www.foxnews.com/politics/south-korean-president-trump-should-win-the-nobel-peace-prize"
-      }
-    </script><script data-n-head="true" src="//static.foxnews.com/static/orion/scripts/core/pages/articles.new/loader.js"></script><link rel="preload" href="/_wzln/manifest.64f2ba4c99345b4ac97a.js" as="script"><link rel="preload" href="/_wzln/vendor.cdb45a3808c20ada4b33.js" as="script"><link rel="preload" href="/_wzln/app.68c5ae3c71279e3c2d2a.js" as="script"><link rel="prefetch" href="/_wzln/layouts/persons.9692364aa4fa7d4163d9.js"><link rel="prefetch" href="/_wzln/pages/_slug/_article.863a49e69b64c754afac.js"><link rel="prefetch" href="/_wzln/layouts/dynamic-route.95b924e79263cc440327.js"><link rel="prefetch" href="/_wzln/pages/search-results/search.5eca612283ef9c353aec.js"><link rel="prefetch" href="/_wzln/pages/shows/_id.afcfe79a0b26fb78d23f.js"><link rel="prefetch" href="/_wzln/pages/person/_p/_slug/index.91dad430da73b34f5523.js"><link rel="prefetch" href="/_wzln/pages/fnctv/index.79ce0606c577eabd4afb.js"><link rel="prefetch" href="/_wzln/pages/newyears/index.38caac76cf1cd222e1b9.js"><link rel="prefetch" href="/_wzln/pages/shows/index.7f06c520486d73bcb6a0.js"><link rel="prefetch" href="/_wzln/pages/personalities/index.425742359bccd9538228.js"><link rel="prefetch" href="/_wzln/pages/person/personalities/index.a0f8c0debddb1ddcb1ea.js"><link rel="prefetch" href="/_wzln/pages/go/index.3924116c0362f9d6ea14.js"><link rel="prefetch" href="/_wzln/pages/foxaroundtheworld/search/index.be7a2ddec7c886875503.js"><link rel="prefetch" href="/_wzln/pages/foxaroundtheworld/index.2d14c389ef99a9bf7bc4.js"><link rel="prefetch" href="/_wzln/pages/coverage/_page.4b5f22d9cfd196bc16af.js"><link rel="prefetch" href="/_wzln/pages/alerts/subscribe/index.6a72088cb90194d00039.js"><link rel="prefetch" href="/_wzln/layouts/static-pages-personalities.13a810457c941bd14333.js"><link rel="prefetch" href="/_wzln/layouts/shows.00bc5c40ab492c039cfd.js"><link rel="prefetch" href="/_wzln/layouts/search-page.70a27f710f0d03caaa84.js"><link rel="prefetch" href="/_wzln/pages/category/_slug.3118faf96b62a25a1917.js"><link rel="prefetch" href="/_wzln/layouts/newyears.532cc3bf5ad30bb1facf.js"><link rel="prefetch" href="/_wzln/layouts/live-event-page.528dd12919a27b9fcf60.js"><link rel="prefetch" href="/_wzln/layouts/fnctv.411c22edd1564316b7fd.js"><link rel="prefetch" href="/_wzln/layouts/error-page.ac2357da3417c7a21a2d.js"><link rel="prefetch" href="/_wzln/layouts/dynamic-layouts/static-pages.65f9587ce9729e2b66e6.js"><link rel="prefetch" href="/_wzln/layouts/dynamic-layouts/show-layout.840582731440d3ab2f3b.js"><link rel="prefetch" href="/_wzln/layouts/dynamic-layouts/section-pages.2698628a7d24216a7616.js"><link rel="prefetch" href="/_wzln/layouts/dynamic-layouts/person-layout.04e2e8fe713359d80fe9.js"><link rel="prefetch" href="/_wzln/layouts/dynamic-layouts/article-pages.774e23d4568b4ac7462a.js"><link rel="prefetch" href="/_wzln/layouts/category.04c2967ab85ac81ab448.js"><link rel="prefetch" href="/_wzln/pages/index.cbcb8e8b456ae916452f.js"><link rel="prefetch" href="/_wzln/layouts/default.56b1f1ed71a8e35ea8fc.js">
+     }
+
+
+   });
+
+</script>
+
+
+</head>
+<style>
+.essb_links .essb_link_twitter .essb_icon
+{
+background:none !important;
+}
+/* AddThis style overrides */
+.addthis_toolbox a.at300b, .addthis_toolbox a.at300m {
+  width:100% !important;
+}
+.addthis_default_style .at300b, .addthis_default_style .at300bo, .addthis_default_style .at300m {
+  margin-right:5px;
+}
+a.at300b .at4-icon, a.at300m .at4-icon {
+  display:block !important;
+  margin:auto !important;
+  float:none !important;
+}
+div.fb-like span {
+	width: 100% !important;
+}
+.addthis_toolbox  div.fb_iframe_widget span {
+       width:57px !important;
+    height:65px !important;
+    }
+.article .fb-like {
+    width:100%;
+}
+.addthis_toolbox div.fb_iframe_widget iframe {
+    width:57px !important;
+    height:65px !important;
+}
+.blueshare .social-post-blue {
+    float:left;
+    margin-right:5px;
+}
+.blueshare #___plusone_1 {
+    width:65px!important;
+}
+</style>
+<body class="post-template-default single single-post postid-98125 single-format-standard">
+<div class="wrapper">
+    <div id="advertisement-top">
+        			<div id="uds-ads-52" class="uds-ads  uds-ads-position-1" style="height: 90px !important;"><div class="uds-ads-728 uds-ad even" style="height: 90px !important;">
+<!-- Leaderboard -->
+<script src="//secureaddisplay.com/au/"></script>
+<ins class="CANDisplayAD" data-ad-unit="36756220181116T144614483C9F8517212FE4F92B755668D5763D7C5" style="display:block"></ins>
+<!-- /Leaderboard -->
+</div><div class="clear"></div></div>		    </div>
+    <header>
+        <div class="container">
+            <div class="hidden-xs hidden-sm col-md-3 col-lg-3 donate-social">
+                <div class="col-sm-5 donate hidden-xs hidden-sm" style="margin-left:0;padding-left:0">
+                    <button class="donate fa-margin hidden-sm" onClick="parent.location='/donate'">DONATE</button>
+                </div>
+                <div class="col-sm-7 social-links text-center">
+                    <a href="https://www.facebook.com/LifeNews" target="_blank"><i class="fa fa-facebook fa-margin"></i></a>
+                    <a href="https://twitter.com/LifeNewsHQ" target="_blank"><i class="fa fa-twitter fa-margin"></i></a>
+                    <a href="https://feeds.feedburner.com/lifenews/newsfeed" target="_blank"><i class="fa fa-rss fa-margin"></i></a>
+                    <a href="/contact/"><i class="fa fa-envelope fa-margin"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-2 hidden-xs hidden-md hidden-lg share-icon">
+                <button class="donate fa-margin " onClick="parent.location='https://www.sagepayments.net/sagenonprofit/shopping_cart/forms/donate.asp?M_id=287929383841'">DONATE</button>
+            </div>
+            <div class="col-xs-2 col-sm-1 hidden-md hidden-lg share-icon">
+                <a href="#mobile_modal" data-toggle="modal" data-target="#mobile_modal"><span class="alignvertical hidden-xs" style="text-align:center;display:block"><i class="fa fa-share-alt fa-margin"></i></span></a>
+                <a href="#mobile_modal" data-toggle="modal" data-target="#mobile_modal"><span class="alignvertical hidden-sm hidden-md hidden-lg" style="text-align:center;display:block"><i class="fa fa-share-alt fa-margin"></i></span></a>
+            </div>
+            <div class="col-xs-8 col-sm-6 col-md-6 col-lg-6">
+                <a href="https://www.lifenews.com"><img class="img-responsive" src="https://lifenews-wpengine.netdna-ssl.com/wp-content/themes/lifenews-new/images/logo.png"></a>
+            </div>
+            <!--div class="visible-xs text-center">
+                <div class="social-links col-sm-6">
+                    <span class="st_sharethis_custom"><i class="fa fa-share-alt fa-margin"></i></span>
+                </div>
+            </div-->
+            <div class="col-xs-2 col-sm-3 col-md-3 col-lg-3 text-center search-menu vertical-align">
+                                <a class="search hidden-xs search" onMouseOut="searchfrmfcs()" onMouseMove="searchfrmfcs()" data-target="#search" data-toggle="collapse"><i class="fa fa-search fa-margin"></i> SEARCH</a>
+                <a class="alignvertical menu" data-target="#nav-collapse" href="#nav-collapse" data-toggle="collapse" onClick="event.preventDefault()"><i class="fa fa-bars fa-margin"></i> <span class="hidden-xs">MENU</span></a>
+            </div>
+			<script type="text/javascript">
+				function searchfrmfcs()
+				{
+					document.searchform.q.focus();
+					document.getElementById("search").focus();
+				}
+		
+		</script>
+        </div>
+    </header>
+
+    <div id="mobile_modal" style="display:none" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">X</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container" style="max-width:550px">
+                        <div class="row">
+                        <div class="col-xs-3 text-center">
+                            <a href="https://www.facebook.com/LifeNews" target="_blank" style="display:block"><i class="fa fa-facebook fa-margin"></i></a>
+                        </div>
+                        <div class="col-xs-3 text-center">
+                            <a href="https://twitter.com/LifeNewsHQ" target="_blank" style="display:block"><i class="fa fa-twitter fa-margin"></i></a>
+                        </div>
+                        <div class="col-xs-3 text-center">
+                            <a href="https://feeds.feedburner.com/lifenews/newsfeed" target="_blank" style="display:block"><i class="fa fa-rss fa-margin"></i></a>
+                        </div>
+                        <div class="col-xs-3 text-center">
+                            <a href="/contact/" style="display:block"><i class="fa fa-envelope fa-margin"></i></a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <div class="container">
+		<div class="m_menu">
+			<div id="search" class="collapse">
+				<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+  google.load('search', '1');
+  google.setOnLoadCallback(function() {
+    google.search.CustomSearchControl.attachAutoCompletion(
+      '013272677517335896521:cnzhouqroxy',
+      document.getElementById('q'),
+      'searchform');
+  });
+</script>
+<form action="https://www.google.com/cse" id="searchform" class="search" name="searchform" >
+  <div>
+    <input type="hidden" name="cx" value="013272677517335896521:cnzhouqroxy" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" id="search" value="" placeholder="Search" />
+    <input type="submit" alt="Search" class="search" />
+  </div>
+</form>
+<!--script type="text/javascript" src="https://www.google.com/cse/brand?form=cse-search-box&lang=en"></script-->
+
+
+<!--<form method="get" class="search" id="searchform" action="https://www.lifenews.com" >
+	<fieldset>
+		<input type="submit" class="btn-search" value="" />
+		<span><input type="text" name="s" value="Search LifeNews.com Archives" /></span>
+	</fieldset>
+</form>-->
+			</div>
+		</div>
+    </div>
+	<div class="container">
+		<div class="m_menu">
+			<nav id="nav-collapse" class="nav-collapse collapse" role="navigation">
+				<ul class="nav">
+					<div class="nav"><ul id="menu-primary-navigation" class="menu"><li id="menu-item-71011" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-71011"><a href="#">Categories</a>
+<ul class="sub-menu">
+	<li id="menu-item-151" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-151"><a href="https://www.lifenews.com/category/national/">National</a></li>
+	<li id="menu-item-153" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-153"><a href="https://www.lifenews.com/category/statenews/">State</a></li>
+	<li id="menu-item-150" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-150"><a href="https://www.lifenews.com/category/international/">International</a></li>
+	<li id="menu-item-149" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-149"><a href="https://www.lifenews.com/category/bioethics/">Bioethics</a></li>
+	<li id="menu-item-152" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-152"><a href="https://www.lifenews.com/category/editorials/">Opinion</a></li>
+</ul>
+</li>
+<li id="menu-item-168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><a href="https://www.lifenews.com/advertising/">Advertising</a></li>
+<li id="menu-item-154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154"><a href="https://www.lifenews.com/about/">About Us</a></li>
+<li id="menu-item-167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167"><a href="https://www.lifenews.com/reprint/">Reprint</a></li>
+<li id="menu-item-71082" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71082"><a href="https://www.lifenews.com/donate/">Donate</a></li>
+<li id="menu-item-71115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71115"><a href="https://www.google.com/cse?cx=013272677517335896521%3Acnzhouqroxy&#038;ie=UTF-8&#038;q=#gsc.tab=0">Search</a></li>
+</ul></div>				</ul>
+			</nav>
+		</div>
+	</div>
+
+    <style>
+	    /*** Side sharing styling **/
+		.stButton .stBubble_count {
+			height:41px !important;
+		}
+		.stButton .stFb, .stButton .stTwbutton, .stButton .stMainServices {
+			height:auto;
+		}
+		.st_sharethis_custom {
+			display:inline-block;
+			margin-top:10px;
+		}
+		.fa-social-post-invert {
+			width: auto;
+		}
+		.stButton .stButton_gradient {
+			height:22px;
+		}
+	</style>
+
+    <div id="main">
+        <div class="container">
+                                                                                        <div class="row">
+                        <div class="col-sm-12">
+                            <h2 class="post_title" style="margin-left:15px;margin-right:15px">Abortion Activist&#8217;s Crazy Claim: &#8220;Unplanned&#8221; Movie Will &#8220;Radicalize&#8221; Pro-Lifers, Make Them &#8220;Violent&#8221;</h2>
+                            <div class="meta" style="margin-left:15px;margin-right:15px">
+                                <i class="fa fa-flag" style="font-size:15px"></i>
+                                <span class="categoryname"><a href="https://www.lifenews.com/category/national/">National</a></span> &nbsp; <div style="clear:both" class="show-xs hidden-sm hidden-md hidden-lg"></div>Gabriel Hays &nbsp; Apr 16, 2019 &nbsp; | &nbsp; 11:59AM &nbsp;&nbsp; Washington, DC                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-12 col-md-8 col-lg-8">
+                            <div class="col-sm-12">
+
+                                <img class='img-responsive hidden-sm hidden-md hidden-lg' src='https://lifenews-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/caitlinmoscatello.png' style='min-width:100%;padding-bottom:30px;'>                                                                    <div class="post-featured-image hidden-xs" style="background-image:url(https://lifenews-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/caitlinmoscatello.png)"></div>
+                                                            </div>
+                            <div class="col-sm-2 hidden-sm hidden-xs" style="text-align:center;">
+                                                                
+
+<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-561eb1f6419ee1dc"></script>
+<div class="addthis_default_style addthis_toolbox addthis_32x32_style">
   
-  <script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false"}]);</script>
-  <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="5GX6Z-TSK3U-2BF75-P7PTZ-QMLZM",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,o,_,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",_=document.getElementsByTagName("script")[0],_.parentNode.insertBefore(r,_);try{o=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",o=r.contentWindow.document}o.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"5GX6Z-TSK3U-2BF75-P7PTZ-QMLZM",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},o.write("<bo"+'dy onload="document._l();">'),o.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="ioyqg63imq3aoxu2ypfa-f-14e942407-clientnsv4-s.akamaihd.net",i={"ak.v":"27","ak.cp":"218742","ak.ai":parseInt("177077",10),"ak.ol":"0","ak.cr":35,"ak.ipv":4,"ak.proto":"","ak.rid":"9f54353","ak.r":25539,"ak.a2":e,"ak.m":"dsca","ak.n":"essl","ak.bpcip":"67.177.3.0","ak.cport":40488,"ak.gh":"104.99.239.7","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"fast","ak.t":"1587200970","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==wz1XEzKQrkDyRy6lT2NUZKM01Y7+T2bXkuPdB9wYM6d7EfaZ9CCq/ZS/fgoR7+Q1QZuqBv0OD3mcZFW0XMAflQxxegYJxpswj220jn79TXLKioSF1oBrEwWsgB/plV0mAtrqmQrK4ypOhCqB9CQd3dGXFhvo64cC9uQ6cpBJgG7tZ3Lq8Pd+DQNZe2dUybxH7K8IrhJRqE1JTxiwLMzba3WpYiDV1yarzu4arvUu7bHQ6o++ItoOGZSeijB0ZmNXUF4cajng4dzut6l4yhfu7oNDvjK6L4/+zbNXF/oQNmPD3RJhN9B8Z0y3tdr/U2sYw70Eev0JXiPWd9SG+rXxU/ooKsJmcXFw5mTX5aeAAZxiB/5DlcRluZCKaugpKMGU4I1Yo2XUGvsln6ivJnaT3XA6mVVQH2DxSvAfe/pxlNY=","ak.pv":"713"};if(""!==t)i["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))i["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
-  <body class="fn article-single" data-n-head="class">
-    <div data-server-rendered="true" id="__nuxt"><div id="__layout"><div id="wrapper" class="wrapper"><header class="site-header"><div class="branding"><a href="/" class="logo">Fox News</a><div class="current-time"><span class="time"></span><span class="zone"></span></div></div><div class="nav-row nav-row-upper"><div class="inner"><div class="primary-nav tablet-desktop"><nav id="main-nav" aria-label="main navigation"><ul><li class="menu-coronavirus"><a href="/category/health/infectious-disease/coronavirus">Coronavirus</a></li><li class="menu-news"><a href="/us">U.S.</a></li><li class="menu-news"><a href="/world">World</a></li><li class="menu-opinion"><a href="/opinion">Opinion</a></li><li class="menu-politics"><a href="/politics">Politics</a></li><li class="menu-entertainment"><a href="/entertainment">Entertainment</a></li><li class="menu-business"><a href="//www.foxbusiness.com">Business</a></li><li class="menu-tv"><a href="/shows">TV</a></li><li class="menu-fox-nation"><a href="//www.foxnews.com/shows/fox-nation">Fox Nation</a></li><li class="menu-radio"><a href="//radio.foxnews.com/podcast">Listen</a></li><li class="menu-more"><a href="#" class="js-menu-toggle">More</a></li></ul></nav></div><div class="meta"><div class="search-toggle tablet-desktop"><a href="#" class="js-focus-search">Expand / Collapse search</a></div><div id="account" class="network-access logged-out logged-in"><div class="user-profile user-login button"><a href="#" data-omtr-intcmp="hp1navlg" class="login">Login</a></div></div><div class="button watch"><a href="//video.foxnews.com/v/5614615980001/?#sp=watch-live">Watch TV</a></div><div class="menu mobile"><a aria-label="Mobile Menu" href="#" class="js-menu-toggle">Menu</a></div></div></div></div><div class="nav-row nav-row-lower tablet-desktop"><div class="inner"><div class="secondary-nav"><nav aria-label="hot topics" class="hot-topics"><span class="subnav-title">Hot Topics</span><ul class="rotate-items"></ul></nav></div></div></div><div class="expandable-nav"><div class="inner"><div class="search"><div class="search-wrap"><form action="/search-results/search" method="get"><fieldset><input type="text" placeholder="Search foxnews.com" name="q" autocomplete="off" class="resp_site_search"><input type="submit" value="Search" class="resp_site_submit"></fieldset></form></div></div></div><div class="section-nav"><div class="inner"><nav aria-label="Coronavirus" class="mobile"><h6 class="nav-title"><a aria-label="Coronavirus" href="/category/health/infectious-disease/coronavirus">Coronavirus</a></h6><ul></ul></nav><nav aria-label="U.S."><h6 class="nav-title"><a aria-label="U.S." href="/us">U.S.</a></h6><ul><li class="nav-item"><a aria-label="U.S. - Crime" href="/category/us/crime">Crime</a></li><li class="nav-item"><a aria-label="U.S. - Military" href="/category/us/military">Military</a></li><li class="nav-item"><a aria-label="U.S. - Education" href="/category/us/education">Education</a></li><li class="nav-item"><a aria-label="U.S. - Terror" href="/category/us/terror">Terror</a></li><li class="nav-item"><a aria-label="U.S. - Immigration" href="/category/us/immigration">Immigration</a></li><li class="nav-item"><a aria-label="U.S. - Economy" href="/category/us/economy">Economy</a></li><li class="nav-item"><a aria-label="U.S. - Personal Freedoms" href="/category/us/personal-freedoms">Personal Freedoms</a></li><li class="nav-item"><a aria-label="U.S. - Fox News Investigates" href="/category/news-events/fox-news-investigates">Fox News Investigates</a></li></ul></nav><nav aria-label="World"><h6 class="nav-title"><a aria-label="World" href="/world">World</a></h6><ul><li class="nav-item"><a aria-label="World - U.N." href="/category/world/united-nations">U.N.</a></li><li class="nav-item"><a aria-label="World - Conflicts" href="/category/world/conflicts">Conflicts</a></li><li class="nav-item"><a aria-label="World - Terrorism" href="/category/world/terrorism">Terrorism</a></li><li class="nav-item"><a aria-label="World - Disasters" href="/category/world/disasters">Disasters</a></li><li class="nav-item"><a aria-label="World - Global Economy" href="/category/world/global-economy">Global Economy</a></li><li class="nav-item"><a aria-label="World - Environment" href="/category/world/environment">Environment</a></li><li class="nav-item"><a aria-label="World - Religion" href="/category/world/world-religion">Religion</a></li><li class="nav-item"><a aria-label="World - Scandals" href="/category/world/scandals">Scandals</a></li></ul></nav><nav aria-label="Opinion" class="mobile"><h6 class="nav-title"><a aria-label="Opinion" href="/opinion">Opinion</a></h6><ul></ul></nav><nav aria-label="Politics"><h6 class="nav-title"><a aria-label="Politics" href="/politics">Politics</a></h6><ul><li class="nav-item"><a aria-label="Politics - Executive" href="/category/politics/executive">Executive</a></li><li class="nav-item"><a aria-label="Politics - Senate" href="/category/politics/senate">Senate</a></li><li class="nav-item"><a aria-label="Politics - House" href="/category/politics/house-of-representatives">House</a></li><li class="nav-item"><a aria-label="Politics - Judiciary" href="/category/politics/judiciary">Judiciary</a></li><li class="nav-item"><a aria-label="Politics - Foreign Policy" href="/category/politics/foreign-policy">Foreign Policy</a></li><li class="nav-item"><a aria-label="Politics - Polls" href="/official-polls">Polls</a></li><li class="nav-item"><a aria-label="Politics - Elections" href="/category/politics/elections">Elections</a></li></ul></nav><nav aria-label="Entertainment"><h6 class="nav-title"><a aria-label="Entertainment" href="/entertainment">Entertainment</a></h6><ul><li class="nav-item"><a aria-label="Entertainment - Celebrity News" href="/category/entertainment/celebrity-news">Celebrity News</a></li><li class="nav-item"><a aria-label="Entertainment - Movies" href="/category/entertainment/movies">Movies</a></li><li class="nav-item"><a aria-label="Entertainment - TV News" href="/category/entertainment/tv">TV News</a></li><li class="nav-item"><a aria-label="Entertainment - Music News" href="/category/entertainment/music">Music News</a></li><li class="nav-item"><a aria-label="Entertainment - Style News" href="/category/entertainment/style">Style News</a></li><li class="nav-item"><a aria-label="Entertainment - Entertainment Video" href="//video.foxnews.com/playlist/entertainment-latest-entertainment/">Entertainment Video</a></li></ul></nav><nav aria-label="Business"><h6 class="nav-title"><a aria-label="Business" href="//www.foxbusiness.com/">Business</a></h6><ul><li class="nav-item"><a aria-label="Business - Markets" href="//www.foxbusiness.com/markets">Markets</a></li><li class="nav-item"><a aria-label="Business - Politics" href="//www.foxbusiness.com/politics">Politics</a></li><li class="nav-item"><a aria-label="Business - Technology" href="//www.foxbusiness.com/category/technology">Technology</a></li><li class="nav-item"><a aria-label="Business - Features" href="//www.foxbusiness.com/features">Features</a></li><li class="nav-item"><a aria-label="Business - Business Leaders" href="//www.foxbusiness.com/category/business-leaders">Business Leaders</a></li></ul></nav><nav aria-label="Lifestyle"><h6 class="nav-title"><a aria-label="Lifestyle" href="/lifestyle">Lifestyle</a></h6><ul><li class="nav-item"><a aria-label="Lifestyle - Food + Drink" href="/food-drink">Food + Drink</a></li><li class="nav-item"><a aria-label="Lifestyle - Cars + Trucks" href="/auto">Cars + Trucks</a></li><li class="nav-item"><a aria-label="Lifestyle - Travel + Outdoors" href="/travel">Travel + Outdoors</a></li><li class="nav-item"><a aria-label="Lifestyle - House + Home" href="/category/real-estate">House + Home</a></li><li class="nav-item"><a aria-label="Lifestyle - Fitness + Well-being" href="/category/fitness-and-wellbeing">Fitness + Well-being</a></li><li class="nav-item"><a aria-label="Lifestyle - Style + Beauty" href="/category/style-and-beauty">Style + Beauty</a></li><li class="nav-item"><a aria-label="Lifestyle - Family" href="/family">Family</a></li><li class="nav-item"><a aria-label="Lifestyle - Faith" href="/category/faith-values/faith">Faith</a></li></ul></nav><nav aria-label="Science"><h6 class="nav-title"><a aria-label="Science" href="/science">Science</a></h6><ul><li class="nav-item"><a aria-label="Science - Archaeology" href="/category/science/archaeology">Archaeology</a></li><li class="nav-item"><a aria-label="Science - Air &amp; Space" href="/category/science/air-and-space">Air &amp; Space</a></li><li class="nav-item"><a aria-label="Science - Planet Earth" href="/category/science/planet-earth">Planet Earth</a></li><li class="nav-item"><a aria-label="Science - Wild Nature" href="/category/science/wild-nature">Wild Nature</a></li><li class="nav-item"><a aria-label="Science - Natural Science" href="/category/science/natural-science">Natural Science</a></li><li class="nav-item"><a aria-label="Science - Dinosaurs" href="/category/science/archaeology/dinosaurs">Dinosaurs</a></li></ul></nav><nav aria-label="Tech"><h6 class="nav-title"><a aria-label="Tech" href="/tech">Tech</a></h6><ul><li class="nav-item"><a aria-label="Tech - Security" href="/category/tech/topics/security">Security</a></li><li class="nav-item"><a aria-label="Tech - Innovation" href="/category/tech/topics/innovation">Innovation</a></li><li class="nav-item"><a aria-label="Tech - Drones" href="/category/tech/technologies/drones">Drones</a></li><li class="nav-item"><a aria-label="Tech - Computers" href="/category/tech/topics/computers">Computers</a></li><li class="nav-item"><a aria-label="Tech - Video Games" href="/category/tech/topics/video-games">Video Games</a></li><li class="nav-item"><a aria-label="Tech - Military Tech" href="/category/tech/topics/military-tech">Military Tech</a></li></ul></nav><nav aria-label="Health"><h6 class="nav-title"><a aria-label="Health" href="/health">Health</a></h6><ul><li class="nav-item"><a aria-label="Health - Coronavirus" href="/category/health/infectious-disease/coronavirus">Coronavirus</a></li><li class="nav-item"><a aria-label="Health - Healthy Living" href="/category/health/healthy-living">Healthy Living</a></li><li class="nav-item"><a aria-label="Health - Medical Research" href="/category/health/medical-research">Medical Research</a></li><li class="nav-item"><a aria-label="Health - Mental Health" href="/category/health/mental-health">Mental Health</a></li><li class="nav-item"><a aria-label="Health - Cancer" href="/category/health/cancer">Cancer</a></li><li class="nav-item"><a aria-label="Health - Heart Health" href="/category/health/heart-health">Heart Health</a></li><li class="nav-item"><a aria-label="Health - Children's Health" href="/category/health/healthy-living/childrens-health">Children's Health</a></li></ul></nav><nav aria-label="TV"><h6 class="nav-title"><a aria-label="TV" href="/shows">TV</a></h6><ul><li class="nav-item"><a aria-label="TV - Shows" href="/shows">Shows</a></li><li class="nav-item"><a aria-label="TV - Personalities" href="/person/personalities">Personalities</a></li><li class="nav-item"><a aria-label="TV - Watch Live" href="//video.foxnews.com/v/5614615980001/?#sp=watch-live">Watch Live</a></li><li class="nav-item"><a aria-label="TV - Full Episodes" href="//video.foxnews.com/playlist/episodic-most-recent-episodes/">Full Episodes</a></li><li class="nav-item"><a aria-label="TV - Show Clips" href="//video.foxnews.com/#sp=show-clips">Show Clips</a></li><li class="nav-item"><a aria-label="TV - News Clips" href="//video.foxnews.com/#sp=news-clips">News Clips</a></li></ul></nav><nav aria-label="About"><h6 class="nav-title">
-        About
-      </h6><ul><li class="nav-item"><a aria-label="About - Contact Us" href="//www.foxnews.com/contact">Contact Us</a></li><li class="nav-item"><a aria-label="About - Careers" href="//foxcareers.com/Search/SearchResults?brand=Fox%20News%20Careers">Careers</a></li><li class="nav-item"><a aria-label="About - Fox Around the World" href="/foxaroundtheworld/">Fox Around the World</a></li><li class="nav-item"><a aria-label="About - Advertise With Us" href="mailto:adsales@foxnews.com?subject=Advertising%20Inquiry">Advertise With Us</a></li><li class="nav-item"><a aria-label="About - Media Relations" href="//press.foxnews.com/media-contacts/">Media Relations</a></li><li class="nav-item"><a aria-label="About - Corporate Information" href="//press.foxnews.com/">Corporate Information</a></li><li class="nav-item"><a aria-label="About - Compliance" href="/compliance">Compliance</a></li><li class="nav-item"><a aria-label="About - Supplier Diversity" href="https://supplierdiversity.foxnews.com/">Supplier Diversity</a></li></ul></nav><nav aria-label="Other"><h6 class="nav-title">
-        Other
-      </h6><ul><li class="nav-item"><a aria-label="Other - Fox Nation" href="//www.foxnews.com/shows/fox-nation">Fox Nation</a></li><li class="nav-item"><a aria-label="Other - Fox News Shop" href="//shop.foxnews.com">Fox News Shop</a></li><li class="nav-item"><a aria-label="Other - Fox News Go" href="/go">Fox News Go</a></li><li class="nav-item"><a aria-label="Other - Fox News Radio" href="//radio.foxnews.com/">Fox News Radio</a></li><li class="nav-item"><a aria-label="Other - Newsletters" href="/alerts/subscribe">Newsletters</a></li><li class="nav-item"><a aria-label="Other - Alerts" href="/newsletter-signup/alerts">Alerts</a></li><li class="nav-item"><a aria-label="Other - Podcasts" href="//radio.foxnews.com/podcast">Podcasts</a></li><li class="nav-item"><a aria-label="Other - Apps &amp; Products" href="/apps-products">Apps &amp; Products</a></li></ul></nav></div></div><div class="header-lower"><div><div class="branding"><a href="//www.foxnews.com" class="logo">Fox News</a></div><div class="legal"><ul><li><a href="/terms-of-use">New Terms of Use</a></li><li><a href="/privacy-policy">Updated Privacy Policy</a></li><li><a href="/donotsell">Do Not Sell my Personal Information</a></li><li><a href="/closed-captioning">Closed Captioning Policy</a></li><li><a href="//help.foxnews.com">Help</a></li><li><a href="/contact">Contact Us</a></li></ul><p class="copyright">
-      This material may not be published, broadcast, rewritten,
-      or redistributed. ©2020 FOX News Network, LLC. All rights reserved.
-      All market data delayed 20 minutes.
-    </p></div><div class="social-icons"><ul><li class="fb"><a href="//www.facebook.com/FoxNews">Facebook</a></li><li class="tw"><a href="//twitter.com/foxnews">Twitter</a></li><li class="gp"><a href="//www.google.com/+FoxNews">Google+</a></li><li class="ig"><a href="//www.instagram.com/foxnews">Instagram</a></li><li class="rss"><a href="/about/rss/">RSS</a></li><li class="email"><a href="/alerts/subscribe">Email</a></li></ul></div></div></div></div></header><div class="page"><div class="pre-content"><div class="ad-container desktop"><div data-ad-pos="desktop" data-ad-size="970x250,728x90,970x66" data-ad-lz="" class="ad gpt "></div><span class="advert-txt">ADVERTISEMENT</span></div></div></div><div class="page-content"><div class="row full"><main class="main-content"><article class="article-wrap has-video"><header organizationUrl="http://www.foxnews.com/" class="article-header"><div class="article-meta article-meta-upper"><div class="eyebrow"><a href="/category/politics/executive/white-house">White House</a></div><div class="article-date"><strong>Published</strong><time> April 30, 2018</time></div><!----></div><h1 class="headline">South Korean president: Trump 'should win the Nobel Peace Prize'</h1><!----><!----><div class="article-meta article-meta-lower"><div class="author-byline"><div class="author-headshot"><div class="m"><img src="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/10/340/340/img_2751-54438.jpg?ve=1&amp;tl=1" alt="Brooke Singman"></div></div><span>
-        By
-        <span><a href="/person/s/brooke-singman">Brooke Singman</a>, <!----></span><span><!----><span class="article-source"><a target="_blank" href="http://www.foxnews.com/"> | Fox News</a></span></span></span><!----></div><div class="article-social"><div class="social-icons"><ul><li class="fb"><a href="#" rel="nofollow">Facebook</a></li><li class="tw"><a href="#" rel="nofollow">Twitter</a></li><li class="flipboard"><a rel="nofollow">Flipboard</a></li><li class="comments"><a href="#" rel="nofollow"><span>Comments</span></a></li><li class="print"><a href="/politics/south-korean-president-trump-should-win-the-nobel-peace-prize.print" rel="nofollow">Print</a></li><li class="email"><a href="#" rel="nofollow">Email</a></li></ul></div></div></div></header><div class="article-content-wrap sticky-columns"><div class="article-content"><div class="article-body"><div class="featured featured-video video-ct" data-v-275a95fe><div class="contain" data-v-275a95fe><div class="control" data-v-275a95fe><a href="#" class="top" data-v-275a95fe></a><a href="#" class="close" data-v-275a95fe>close</a></div><div class="video-container" data-v-275a95fe><div data-widget-type="embed" data-video-id="5778444423001" data-video-domain="foxnews" class="m video-player" data-v-275a95fe><a href="http://video.foxnews.com/v/5778444423001" data-v-275a95fe><img src="https://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/04/30/931/524/694940094001_5778447155001_5778444423001-vs.jpg?ve=1&amp;tl=1" alt="South Korean President: Trump 'should win the Nobel Peace Prize'" data-v-275a95fe><span class="overlay" data-v-275a95fe>Video</span></a></div></div><div class="info" data-v-275a95fe><div class="caption" data-v-275a95fe><h4 class="title" data-v-275a95fe><a href="http://video.foxnews.com/v/5778444423001" data-v-275a95fe>South Korean President: Trump 'should win the Nobel Peace Prize'</a></h4><p data-v-275a95fe>South Korean President Moon Jae-in said Monday that President Trump deserves to win a Nobel Peace Prize for his role in talks to denuclearize the Korean peninsula and end the decades-long war between the North and South.</p></div></div></div></div><p class="speakable">South Korean President Moon Jae-in said Monday that President Trump deserves to win a Nobel Peace Prize for his role in talks to denuclearize the Korean peninsula and end the decades-long war between the North and South.</p><div class="ad-container tablet"><div data-ad-pos="tablet" data-ad-size="300x250" data-ad-lz="" class="ad gpt ad-h-250"></div><!----></div><div class="ad-container mobile"><div data-ad-pos="mobile" data-ad-size="300x250" data-ad-lz="" class="ad gpt ad-h-250"></div><!----></div><p class="speakable">Moon&#x2019;s comment, as reported by <a href="https://www.reuters.com/article/us-northkorea-southkorea-trump/trump-should-win-the-nobel-peace-prize-says-south-koreas-moon-idUSKBN1I10OD" target="_blank">Reuters</a>, came following a congratulatory message from Lee Hee-ho, the widow of late South Korean President Kim Dae-jung, where she said Moon deserved to win the prize for his work with North Korea. Moon&#x2019;s response was that Trump, instead, should win the prize.</p><div data-ad-pos="inread" data-ad-size="1x1" class="ad gpt ad-h-1"></div><p>&#x201C;President Trump should win the Nobel Peace Prize,&#x201D; Moon reportedly told a meeting of senior secretaries, according to a Korean official who briefed the media. &#x201C;What we need is only peace.&#x201D;</p><p>The comments came just days after Moon met with North Korean dictator Kim Jong Un for a summit at the Peace House in Panmunjom.</p><p>Trump continued to play an active role on Monday, floating the possibility of holding his expected summit with Kim at the same location.</p><div class="ad-container mobile"><div data-ad-pos="mobile" data-ad-size="300x251" data-ad-lz="" class="ad gpt ad-h-250"></div><!----></div><p>&quot;Numerous countries are being considered for the MEETING, but would Peace House/Freedom House, on the Border of North &amp; South Korea, be a more Representative, Important and Lasting site than a third party country? Just asking!&quot; he tweeted.</p><div class="embed-media twitter"><div class="tweet-embed"></div></div><p><b><a href="http://www.foxnews.com/politics/2018/04/27/trump-touts-historic-korean-summit-korean-war-to-end.html" target="_blank">TRUMP TOUTS &#x2018;HISTORIC&#x2019; KOREAN SUMMIT: &#x2018;KOREAN WAR TO END&#x2019;</a></b></p><p>The Korean leaders announced Friday they would work to achieve a &#x201C;nuclear-free Korean Peninsula,&#x201D; and also expressed hope to officially end the 1950-53 Korean War by the end of the year, though it is not clear at this point.</p><div source="" class="image-ct inline"><div class="m"><picture><source media="(max-width: 767px)" srcset="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/1470/828/kim-jong-un-reuters.jpg?ve=1&amp;tl=1 2x"><source media="(min-width: 767px)" srcset="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/1862/1048/kim-jong-un-reuters.jpg?ve=1&amp;tl=1 2x"><img src="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/640/320/kim-jong-un-reuters.jpg?ve=1&amp;tl=1" alt="North Korean Dictator Kim Jong Un is expected to meet with President Trump in the coming months."></picture></div><div class="caption"><p>
-      North Korean Dictator Kim Jong Un is expected to meet with President Trump in the coming months.
-      <span class="copyright">(Reuters)</span></p></div></div><p>Trump called the summit between the two leaders a &#x201C;historic meeting,&#x201D; and touted the outcome, noting that the people of the United States &#x201C;should be very proud of what is now taking place in Korea.&#x201D;</p><p>The leaders also agreed that beginning May 1, all loudspeaker propaganda broadcasts that have been blaring from each side of the heavily-armed borer will be suspended. They also agreed to dismantle broadcasting equipment and stop flying propaganda leaflets across their border.</p><p>Kim also promised Moon that he &#x201C;won&#x2019;t interrupt&#x201D; his &#x201C;early morning sleep anymore,&#x201D; referring to missile tests, South Korea said.</p><p>During the summit, the Korean leaders announced that they will jointly push for talks with the United States, and potentially China to officially end the war. The Koreas also agreed to stop all hostile acts over &#x201C;land, sea and air&#x201D; that cause military clashes and tensions.</p><p>The date for Trump&apos;s expected summit with Kim is not yet scheduled. Last week, Trump slammed media reports that he was making concessions to secure the meeting with the North Korean dictator as inaccurate. Newly confirmed Secretary of State Mike Pompeo traveled to North Korea earlier this month to lay the foundation for the meeting between Trump and Kim.</p><div source="" class="image-ct inline"><div class="m"><picture><source media="(max-width: 767px)" srcset="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/1470/828/moon-jae-in-resize.jpg?ve=1&amp;tl=1 2x"><source media="(min-width: 767px)" srcset="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/1862/1048/moon-jae-in-resize.jpg?ve=1&amp;tl=1 2x"><img src="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/640/320/moon-jae-in-resize.jpg?ve=1&amp;tl=1" alt="South Korean President Moon Jae-In said President Trump deserves to win the Nobel Peace Prize."></picture></div><div class="caption"><p>
-      South Korean President Moon Jae-In said President Trump deserves to win the Nobel Peace Prize.
-      <span class="copyright">(AP/Reuters)</span></p></div></div><p>Last week, Trump criticized the Obama administration for allowing the situation in North Korea to escalate, while calling former Secretary of State John Kerry the &#x201C;worst negotiator&#x201D; he&#x2019;d &#x201C;ever seen.&#x201D;</p><p>Earlier this year, Moon applauded Trump, noting he &#x201C;deserves big credit for bringing about the inter-Korean talks,&#x201D; and said &#x201C;it could be a resulting work of the U.S.-led sanctions and pressure.&#x201D;</p><p>Trump has put what his administration describes as &#x201C;the heaviest sanctions ever imposed on a country before&#x201D; on North Korea, crippling the DPRK&#x2019;s economy. Under the sanctions, the Treasury Department aimed to cut off sources of revenue and fuel used to boost the country&#x2019;s nuclear program and military.</p><p>&#x201C;Treasury is aggressively targeting all illicit avenues used by North Korea to evade sanctions, including taking decisive action to block the vessels, shipping companies, and entities across the globe that work on North Korea&#x2019;s behalf,&#x201D; Treasury Secretary Steven Mnuchin said in a statement in late February.</p><p>U.S. officials, at that time, said the sanctions were also aimed at hindering the regime&#x2019;s ability to transport coal and fuel in international waters, in an effort to further isolate the rogue regime and advance the U.S. pressure campaign.</p><p><i>Fox News&#x2019; Judson Berger, Serafin Gomez and The Associated Press contributed to this report.</i></p><!----></div><div class="article-meta"><div class="author-bio">Brooke Singman is a Politics Reporter for Fox News. Follow her on Twitter at <a href="https://twitter.com/brookesingman" target="_blank">@BrookeSingman</a>.</div></div><footer class="article-footer"><!----><!----><div data-uid="ar-2" class="vendor-unit tablet-desktop"></div><div data-uid="ar-3" class="vendor-unit tablet-desktop"></div><div data-uid="ar-1" class="vendor-unit mobile"></div><div class="vendor-unit vendor-yieldmo"><div class="ad-container mobile-tablet yieldmo"><div id="cu_article_4" class="ad cu"></div></div></div><div class="vendor-unit vendor-yieldmo"><div id="cu_article_3" class="ad-container yieldmo"></div></div><div data-uid="ar-8" class="vendor-unit tablet-desktop"></div><!----><!----><div id="commenting" class="article-comments"></div></footer></div><aside class="sidebar sidebar-article sidebar-primary desktop"><div class="sticky-region"><div class="sidebar-columns"><div class="ad-container desktop"><div data-ad-pos="desktop" data-ad-size="300x250,300x600" data-ad-lz="" class="ad gpt "></div><span class="advert-txt"></span></div><div class="embed-media advanced">    <div class="content">
-         <div class="m">
-             <a href="https://foxnews.com/elections" data-omtr-intcmp="">
-                 <img src="//static.foxnews.com/foxnews.com/content/uploads/2020/02/Elections-Primaries-RR-Promo-F.png" alt="Fox News Democracy 2020">
-             </a>
-         </div>
-     </div></div><div class="embed-media advanced"><div class="item item-newsletter fox-news-first" data-slid="3DC725E303A24F8D7457D18811A93C18">
-        <div class="m logo">
-            <img data-cke-saved-src="//static.foxnews.com/static/orion/styles/img/fox-news/s/newsletter/fox-news-first.svg" src="//static.foxnews.com/static/orion/styles/img/fox-news/s/newsletter/fox-news-first.svg" alt="Fox News First"/>
+	<!--<div class="fb-like" data-href="https://www.lifenews.com/2019/04/16/abortion-activists-crazy-claim-unplanned-movie-will-radicalize-pro-lifers-make-them-violent/" data-layout="box_count" data-action="like" data-show-faces="false" data-share="true"></div>-->
+  <a class="addthis_button_facebook_share" fb:like:layout="box_count"></a>
+  <a class="addthis_button_tweet" tw:count="vertical"></a>
+  <a class="addthis_button_google_plusone" g:plusone:size="tall"></a>
+  <a class="addthis_counter addthis_button_compact"></a>
+  <a class="addthis_button_printfriendly"></a>
+  <a class="addthis_button_email"></a>
+</div>
+                            </div>
+                                                        <div class="blueshare visible-xs visible-sm" style="margin-bottom:25px;">
+                                                                <span class="social-post-blue">Share this story:</span>
+<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-561eb1f6419ee1dc"></script>
+<div class="addthis_default_style addthis_20x20_style">
+	<a class="addthis_button_facebook_share" fb:share:layout="button_count" ></a>  
+	<a class="addthis_button_tweet"></a>
+	<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+	<a class="addthis_counter addthis_button_compact"></a>
+	<a class="addthis_button_email"></a>
+</div>
+<div class="clearfix"></div>
+                            </div>
+                            <div class="col-sm-10">
+                                <div id="content">
+                                    <div class="content-holder">
+                                        <div class="blog">
+                                            <div class="article">
+                                                <p><span id="more-98125"></span>The pro-life biopic <em>Unplanned </em>movie is doing well in theaters and that has the left-wing press freaking out — even claiming it could “<a href="https://www.thecut.com/2019/04/unplanned-is-a-movie-that-could-get-someone-killed.html">could get someone killed</a>.”</p><div class="insert-post-ads" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<!-- Widget Shortcode --><div id="uds-ads-22" class="widget-1 widget-first widget-odd postadvert hidden-sm hidden-xs widget widget_uds-ads"><p><span class='more-2'><a href='#' class='more'>ADVERTISEMENT</a></span></p><div id="uds-ads--1" class="uds-ads  uds-ads-position-9"><div class="uds-ads-251 uds-ad even"><a onclick="trackOutboundLink('https://www.lifenews.com/index.php?uds_ads_id=14');" href="https://www.lifenews.com/index.php?uds_ads_id=14" target="_blank"><img src="https://lifenews-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/humancoalitionad16.jpg" alt="Ad Row 2"/></a></div><div class="clear"></div></div></div><!-- /Widget Shortcode --></div>
+<p><em>New York Magazine</em>’s culture outlet The Cut attacked the movie about former Planned Parenthood nurse Abby Johnson’s biopic as an “anti-abortion propaganda film” based on her “personal (and also precarious) account.”</p>
+<p>Caitlin Moscatello claimed <em>Unplanned</em> was trying to distance itself from people like the killer of abortion doctor George Tiller, but was “hypocritical” because the movie’s message contributes to the same murderous extremism. Moscatello has also written for <em>Glamour</em> and<em> GQ</em> magazines.</p>
+<p>“Films like <em>Unplanned </em>can radicalize people who are vulnerable to extremism and have the potential to become violent. It is films like <em>Unplanned</em> that could get more people killed,” she claimed. Moscatello also tried to tie his murderer to pro-life groups and “conservative media.”</p>
+<p>Moscatello also cast doubt on Johnson’s first-hand knowledge of Planned Parenthood and suggested it could be designed to inspire such attacks. She wrote that the movie was promoted “under the guise that this is a narrative based in fact rather than a dangerous call to action.”</p>
+<p>Her supposed evidence for such extreme claims was that the film has a “familiar villain” in Planned Parenthood, positive portrayal of “Christian anti-abortion group” Coalition for Life, and that it showed the actress playing Johnson telling other pro-lifers that many women will drive away from an abortion clinic if they see protesters praying outside.</p>
+<p><em><strong><a href="https://instagram.com/lifenewspics/">Follow LifeNews.com on Instagram</a> for pro-life pictures and videos.</strong></em></p>
+<p>She denounced the film for inaccuracies, but even more for “the true crux of the film — that abortion is unsafe.” Well, it is always unsafe for the unborn and <a href="http://afterabortion.org/2012/abortion-risks-abortion-complications-abortion-dangers-abortion-side-effects/">can also harm mothers</a> as well.</p>
+<p>For Moscatello and The Cut, it was ludicrous to portray Planned Parenthood as evil even though it’s responsible for taking the life of <a href="https://www.youtube.com/watch?v=qtgqxvaV-8U">more than 300,000 unborn babies</a> each year, according to Live Action. She also grumbled about the movie showing “Coalition for Life” saying things like “Planned Parenthood’s sex-education program ‘has a deadly influence on the youth of today.’”</p>
+<p>Moscatello concluded with a creepy anecdote from when she watched <em>Unplanned </em>screening, recalling that a “woman with white hair” and a “man in the third row” were visibility nodding and gesticulating when the actress playing Abby Johnson called for more abortion clinic protests.</p>
+<p>“I couldn’t shake the feeling that I was witnessing something scary. Then the lights came on, and everyone looked perfectly nice,” she said.</p>
+<p>The only scary thing is how radically pro-abortion and pro-Planned Parenthood the liberal media are</p>
+<p><em>LifeNews Note: Gabriel Hays writes for <a href="https://newsbusters.org/">Newsbusters</a>, where this <a href="https://www.newsbusters.org/blogs/culture/gabriel-hays/2019/04/16/cut-unplanned-film-dangerous-could-radicalize-and-inspire">originally appeared</a>.</em></p>
+<p><img class="alignnone size-full wp-image-98126" src="https://lifenews-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/caitlinmoscatello.png" alt="" width="658" height="419" srcset="/wp-content/uploads/2019/04/caitlinmoscatello.png 658w, /wp-content/uploads/2019/04/caitlinmoscatello-150x96.png 150w, /wp-content/uploads/2019/04/caitlinmoscatello-236x150.png 236w, /wp-content/uploads/2019/04/caitlinmoscatello-190x121.png 190w" sizes="(max-width: 658px) 100vw, 658px" /></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                        <div class="blueshare" style="margin-bottom:25px;">
+                                        <span class="social-post-blue">Share this story:</span>
+<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-561eb1f6419ee1dc"></script>
+<div class="addthis_default_style addthis_20x20_style">
+	<a class="addthis_button_facebook_share" fb:share:layout="button_count" ></a>  
+	<a class="addthis_button_tweet"></a>
+	<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+	<a class="addthis_counter addthis_button_compact"></a>
+	<a class="addthis_button_email"></a>
+</div>
+<div class="clearfix"></div>                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div id="sidebar">
+                                <div class="widget-2 widget-even box"><div class="widget-2 widget-even box-holder"><div class="widget-2 widget-even box-frame"><p><span class='more-2'><a href='#' class='more'>ADVERTISEMENT</a></span></p><div id="uds-ads-10" class="uds-ads  uds-ads-position-6"><div class="uds-ads-251 uds-ad even"><a onclick="trackOutboundLink('https://www.lifenews.com/index.php?uds_ads_id=7');" href="https://www.lifenews.com/index.php?uds_ads_id=7" target="_blank"><img src="https://lifenews-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/carenet22.png" alt="Home Sidebar 1"/></a></div><div class="clear"></div></div></div></div></div><div class="widget-3 widget-odd postadvert hidden-sm hidden-xs box"><div class="widget-3 widget-odd box-holder"><div class="widget-3 widget-odd box-frame"><p><span class='more-2'><a href='#' class='more'>ADVERTISEMENT</a></span></p><div id="uds-ads-22" class="uds-ads  uds-ads-position-9"><div class="uds-ads-251 uds-ad even"><a onclick="trackOutboundLink('https://www.lifenews.com/index.php?uds_ads_id=14');" href="https://www.lifenews.com/index.php?uds_ads_id=14" target="_blank"><img src="https://lifenews-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/humancoalitionad16.jpg" alt="Ad Row 2"/></a></div><div class="clear"></div></div></div></div></div><div class="widget-4 widget-even box"><div class="widget-4 widget-even box-holder"><div class="widget-4 widget-even box-frame"><p><span class='more-2'><a href='#' class='more'>ADVERTISEMENT</a></span></p><div id="uds-ads-62" class="uds-ads  uds-ads-position-5"><div class="uds-ads-251 uds-ad even"><a onclick="trackOutboundLink('https://www.lifenews.com/index.php?uds_ads_id=9');" href="https://www.lifenews.com/index.php?uds_ads_id=9" target="_blank"><img src="https://lifenews-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/charitymobile.jpg" alt="Ad Row 4"/></a></div><div class="clear"></div></div></div></div></div><div class="widget-5 widget-odd box"><div class="widget-5 widget-odd box-holder"><div class="widget-5 widget-odd box-frame"><p><span class='more-2'><a href='#' class='more'>ADVERTISEMENT</a></span></p><div id="uds-ads-56" class="uds-ads  uds-ads-position-7"><div class="uds-ads-251 uds-ad even"><a onclick="trackOutboundLink('https://www.lifenews.com/index.php?uds_ads_id=10');" href="https://www.lifenews.com/index.php?uds_ads_id=10" target="_blank"><img src="https://lifenews-wpengine.netdna-ssl.com/wp-content/uploads/2020/01/texasrighttolifead9.gif" alt="Ad Row 3"/></a></div><div class="clear"></div></div></div></div></div><div class="widget-6 widget-even box"><div class="widget-6 widget-even box-holder"><div class="widget-6 widget-even box-frame"><p><span class='more-2'><a href='#' class='more'>ADVERTISEMENT</a></span></p><div id="uds-ads-43" class="uds-ads  uds-ads-position-3"><div class="uds-ads-251 uds-ad even"><a onclick="trackOutboundLink('https://www.lifenews.com/index.php?uds_ads_id=3');" href="https://www.lifenews.com/index.php?uds_ads_id=3" target="_blank"><img src="https://lifenews-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/humancoalitionad20.jpg" alt="Position 9"/></a></div><div class="clear"></div></div></div></div></div><div class="widget-7 widget-last widget-odd box"><div class="widget-7 widget-last widget-odd box-holder"><div class="widget-7 widget-last widget-odd box-frame"><p><span class='more-2'><a href='#' class='more'>ADVERTISEMENT</a></span></p><div id="uds-ads-66" class="uds-ads  uds-ads-position-2"><div class="uds-ads-251 uds-ad even"><a onclick="trackOutboundLink('https://www.lifenews.com/index.php?uds_ads_id=8');" href="https://www.lifenews.com/index.php?uds_ads_id=8" target="_blank"><img src="https://lifenews-wpengine.netdna-ssl.com/wp-content/uploads/2018/07/studentsforlife21.png" alt="Ad Row 1"/></a></div><div class="clear"></div></div></div></div></div><div class="widget-8 widget-even box"><div class="widget-8 widget-even box-holder"><div class="widget-8 widget-even box-frame">			<div id="google_ad_slot">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-9002048132258842";
+/* prolife2 */
+google_ad_slot = "3925594258";
+google_ad_width = 250;
+google_ad_height = 200;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>		</div></div></div>                            </div>
+                        </div>
+                    </div>
+
+                                    </div>
+    </div>
+
+    <div class="push"></div>
+</div>
+
+<footer>
+    <div id="advertisement-bottom">
+        <div class="container">
+            <div class="widget-1 widget-first widget-last widget-odd widget widget_uds-ads"><p><span class='more-2'><a href='#' class='more'>Advertisement</a></span></p><div id="uds-ads-15" class="uds-ads  uds-ads-position-8"><div class="uds-ads-665 uds-ad even"><a onclick="trackOutboundLink('https://www.lifenews.com/index.php?uds_ads_id=11');" href="https://www.lifenews.com/index.php?uds_ads_id=11" target="_blank"><img src="https://lifenews-wpengine.netdna-ssl.com/wp-content/uploads/2020/02/carenet25.png" alt="Bottom Banner"/></a></div><div class="clear"></div></div></div>        </div>
+    </div>
+    <div class="container">
+        <div class="col-sm-3">
+            <p class="copy"><a href="/"><img src="https://lifenews-wpengine.netdna-ssl.com/wp-content/themes/lifenews-new/images/logo.png" width="127" height="18"/></a></p>
+
+            <p class="copy">Copyright &copy; 2020</p>
+
+            <p class="copy">All rights reserved.</p>
         </div>
-        <div class="info">
-             <p class="dek">Get all the stories you need-to-know from the most powerful name in news delivered first thing every morning to your inbox</p>
-            <div class="arrive">Arrives <span>Weekdays</span></div>
-            <div class="button subscribe">
-                <a data-cke-saved-href="#" href="#">Subscribe</a>
-            </div>
-            <p class="subscribed hide">Subscribed</p>
+        <div class="col-sm-3">
+            <div class="menu-footer-navigation-container"><ul id="menu-footer-navigation" class="nav-add"><li id="menu-item-215" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-215"><a href="https://www.lifenews.com/about/">About</a></li>
+<li id="menu-item-214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-214"><a href="https://www.lifenews.com/advertising/">Advertising</a></li>
+<li id="menu-item-213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-213"><a href="https://www.lifenews.com/reprint/">Reprint</a></li>
+<li id="menu-item-216" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-216"><a href="/feed">RSS Feed</a></li>
+</ul></div>            <button style="margin-left:40px" class="donate" onclick="parent.location='/donate'">DONATE</button>
         </div>
-        <div class="user-input hide">
-            <div class="input-wrap">
-                <input data-cke-saved-name="email" name="email" placeholder="Type your email" type="email" class="input-email" />
-            </div>
-            <div class="button enter">
-                <a data-cke-saved-href="#" href="#">Subscribe</a>
-            </div>
-            <p class="success hide">You've successfully subscribed to this newsletter!</p>
+        <div class="col-sm-3"><div class="menu-footer-nav-cats-container"><ul id="menu-footer-nav-cats" class="nav-add"><li id="menu-item-71012" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-71012"><a href="https://www.lifenews.com/category/national/">National</a></li>
+<li id="menu-item-71013" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-71013"><a href="https://www.lifenews.com/category/statenews/">State</a></li>
+<li id="menu-item-71014" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-71014"><a href="https://www.lifenews.com/category/international/">International</a></li>
+<li id="menu-item-71015" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-71015"><a href="https://www.lifenews.com/category/bioethics/">Bioethics</a></li>
+<li id="menu-item-71016" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-71016"><a href="https://www.lifenews.com/category/editorials/">Opinion</a></li>
+</ul></div></div>
+        <div class="col-sm-3">
+            <a href="https://www.facebook.com/LifeNews" target="_blank"><i class="fa fa-facebook fa-margin"></i></a>
+            <a href="https://twitter.com/LifeNewsHQ" target="_blank"><i class="fa fa-twitter fa-margin"></i></a>
+            <a href="https://feeds.feedburner.com/lifenews/newsfeed" target="_blank"><i class="fa fa-rss fa-margin"></i></a>
+            <a href="/contact/"><i class="fa fa-envelope fa-margin"></i></a>
+            <a href="https://www.google.com/cse?cx=013272677517335896521%3Acnzhouqroxy&ie=UTF-8&sa=&q=Search+LifeNews.com+Archives&oq=&gs_l=#gsc.tab=0&gsc.q=Search%20LifeNews.com%20Archives&gsc.page=1" target="_blank"><i class="fa fa-search fa-margin"></i></a>
         </div>
-    </div></div><div data-uid="ar-4" class="vendor-unit"></div><section class="collection collection-multi"><header class="heading"><h3 class="title">2020 Presidential Election</h3></header><div class="content article-list"><!----><article class="article"><div class="m"><a href="/politics/biden-trump-spar-tougher-on-china-coronavirus"><img src="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2020/04/348/196/Biden-Trump-Split-thumb.jpg?ve=1&amp;tl=1" alt="Biden, Trump spar over who is tougher on China as anger rises over coronavirus pandemic"></a><div><!----><!----><!----></div></div><div class="info"><header class="info-header"><div class="meta"><!----><div><!----><!----></div></div><h4 class="title"><a href="/politics/biden-trump-spar-tougher-on-china-coronavirus">Biden, Trump spar over who is tougher on China as anger rises over coronavirus pandemic</a></h4></header><div class="content"><!----></div><!----></div></article><article class="article"><div class="m"><a href="/media/biden-tara-reade-bernie-sanders-amy-klobuchar"><img src="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2020/04/348/196/Biden-Tara-Reade-Sanders-Klobuchar-3.jpg?ve=1&amp;tl=1" alt="Biden's former rivals face questions about Tara Reade's assault claim from the media before he does"></a><div><!----><!----><!----></div></div><div class="info"><header class="info-header"><div class="meta"><!----><div><!----><!----></div></div><h4 class="title"><a href="/media/biden-tara-reade-bernie-sanders-amy-klobuchar">Biden's former rivals face questions about Tara Reade's assault claim from the media before he does</a></h4></header><div class="content"><!----></div><!----></div></article><article class="article"><div class="m"><a href="/politics/main-pro-biden-super-pac-during-primaries-vows-to-remain-in-fight"><img src="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/2e649719-faab-4096-8999-b46607690093/a01b0115-ceb4-4629-95af-69db6fdd0731/1280x720/match/348/196/image.jpg?ve=1&amp;tl=1" alt="Pro-Biden super PAC snubbed by campaign vows to remain in fight"></a><div><!----><!----><!----></div></div><div class="info"><header class="info-header"><div class="meta"><!----><div><!----><!----></div></div><h4 class="title"><a href="/politics/main-pro-biden-super-pac-during-primaries-vows-to-remain-in-fight">Pro-Biden super PAC snubbed by campaign vows to remain in fight</a></h4></header><div class="content"><!----></div><!----></div></article><article class="article"><div class="m"><a href="/politics/new-salvo-in-contentious-partisan-battle-over-expanding-voting-by-mail-amid-coronavirus-crisis"><img src="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/4c1f43e8-a755-4765-9b73-e0fca42c9493/f381385d-c07f-45e3-95dd-193f1b32d395/1280x720/match/348/196/image.jpg?ve=1&amp;tl=1" alt="New salvo in contentious partisan battle over expanding vote by mail amid coronavirus crisis"></a><div><!----><!----><!----></div></div><div class="info"><header class="info-header"><div class="meta"><!----><div><!----><!----></div></div><h4 class="title"><a href="/politics/new-salvo-in-contentious-partisan-battle-over-expanding-voting-by-mail-amid-coronavirus-crisis">New salvo in contentious partisan battle over expanding vote by mail amid coronavirus crisis</a></h4></header><div class="content"><!----></div><!----></div></article></div><!----></section><div class="ad-container desktop"><div data-ad-pos="desktop" data-ad-size="300x251" data-ad-lz="" class="ad gpt "></div><span class="advert-txt">ADVERTISEMENT</span></div><div data-uid="ar-11" class="vendor-unit"></div></div></div></aside></div></article></main></div><div class="post-content"></div></div><footer class="site-footer"><div class="footer-upper"><div class="section-nav"><div class="inner"><nav aria-label="Coronavirus" class="mobile"><h6 class="nav-title"><a aria-label="Coronavirus" href="/category/health/infectious-disease/coronavirus">Coronavirus</a></h6><ul></ul></nav><nav aria-label="U.S."><h6 class="nav-title"><a aria-label="U.S." href="/us">U.S.</a></h6><ul><li class="nav-item"><a aria-label="U.S. - Crime" href="/category/us/crime">Crime</a></li><li class="nav-item"><a aria-label="U.S. - Military" href="/category/us/military">Military</a></li><li class="nav-item"><a aria-label="U.S. - Education" href="/category/us/education">Education</a></li><li class="nav-item"><a aria-label="U.S. - Terror" href="/category/us/terror">Terror</a></li><li class="nav-item"><a aria-label="U.S. - Immigration" href="/category/us/immigration">Immigration</a></li><li class="nav-item"><a aria-label="U.S. - Economy" href="/category/us/economy">Economy</a></li><li class="nav-item"><a aria-label="U.S. - Personal Freedoms" href="/category/us/personal-freedoms">Personal Freedoms</a></li><li class="nav-item"><a aria-label="U.S. - Fox News Investigates" href="/category/news-events/fox-news-investigates">Fox News Investigates</a></li></ul></nav><nav aria-label="World"><h6 class="nav-title"><a aria-label="World" href="/world">World</a></h6><ul><li class="nav-item"><a aria-label="World - U.N." href="/category/world/united-nations">U.N.</a></li><li class="nav-item"><a aria-label="World - Conflicts" href="/category/world/conflicts">Conflicts</a></li><li class="nav-item"><a aria-label="World - Terrorism" href="/category/world/terrorism">Terrorism</a></li><li class="nav-item"><a aria-label="World - Disasters" href="/category/world/disasters">Disasters</a></li><li class="nav-item"><a aria-label="World - Global Economy" href="/category/world/global-economy">Global Economy</a></li><li class="nav-item"><a aria-label="World - Environment" href="/category/world/environment">Environment</a></li><li class="nav-item"><a aria-label="World - Religion" href="/category/world/world-religion">Religion</a></li><li class="nav-item"><a aria-label="World - Scandals" href="/category/world/scandals">Scandals</a></li></ul></nav><nav aria-label="Opinion" class="mobile"><h6 class="nav-title"><a aria-label="Opinion" href="/opinion">Opinion</a></h6><ul></ul></nav><nav aria-label="Politics"><h6 class="nav-title"><a aria-label="Politics" href="/politics">Politics</a></h6><ul><li class="nav-item"><a aria-label="Politics - Executive" href="/category/politics/executive">Executive</a></li><li class="nav-item"><a aria-label="Politics - Senate" href="/category/politics/senate">Senate</a></li><li class="nav-item"><a aria-label="Politics - House" href="/category/politics/house-of-representatives">House</a></li><li class="nav-item"><a aria-label="Politics - Judiciary" href="/category/politics/judiciary">Judiciary</a></li><li class="nav-item"><a aria-label="Politics - Foreign Policy" href="/category/politics/foreign-policy">Foreign Policy</a></li><li class="nav-item"><a aria-label="Politics - Polls" href="/official-polls">Polls</a></li><li class="nav-item"><a aria-label="Politics - Elections" href="/category/politics/elections">Elections</a></li></ul></nav><nav aria-label="Entertainment"><h6 class="nav-title"><a aria-label="Entertainment" href="/entertainment">Entertainment</a></h6><ul><li class="nav-item"><a aria-label="Entertainment - Celebrity News" href="/category/entertainment/celebrity-news">Celebrity News</a></li><li class="nav-item"><a aria-label="Entertainment - Movies" href="/category/entertainment/movies">Movies</a></li><li class="nav-item"><a aria-label="Entertainment - TV News" href="/category/entertainment/tv">TV News</a></li><li class="nav-item"><a aria-label="Entertainment - Music News" href="/category/entertainment/music">Music News</a></li><li class="nav-item"><a aria-label="Entertainment - Style News" href="/category/entertainment/style">Style News</a></li><li class="nav-item"><a aria-label="Entertainment - Entertainment Video" href="//video.foxnews.com/playlist/entertainment-latest-entertainment/">Entertainment Video</a></li></ul></nav><nav aria-label="Business"><h6 class="nav-title"><a aria-label="Business" href="//www.foxbusiness.com/">Business</a></h6><ul><li class="nav-item"><a aria-label="Business - Markets" href="//www.foxbusiness.com/markets">Markets</a></li><li class="nav-item"><a aria-label="Business - Politics" href="//www.foxbusiness.com/politics">Politics</a></li><li class="nav-item"><a aria-label="Business - Technology" href="//www.foxbusiness.com/category/technology">Technology</a></li><li class="nav-item"><a aria-label="Business - Features" href="//www.foxbusiness.com/features">Features</a></li><li class="nav-item"><a aria-label="Business - Business Leaders" href="//www.foxbusiness.com/category/business-leaders">Business Leaders</a></li></ul></nav><nav aria-label="Lifestyle"><h6 class="nav-title"><a aria-label="Lifestyle" href="/lifestyle">Lifestyle</a></h6><ul><li class="nav-item"><a aria-label="Lifestyle - Food + Drink" href="/food-drink">Food + Drink</a></li><li class="nav-item"><a aria-label="Lifestyle - Cars + Trucks" href="/auto">Cars + Trucks</a></li><li class="nav-item"><a aria-label="Lifestyle - Travel + Outdoors" href="/travel">Travel + Outdoors</a></li><li class="nav-item"><a aria-label="Lifestyle - House + Home" href="/category/real-estate">House + Home</a></li><li class="nav-item"><a aria-label="Lifestyle - Fitness + Well-being" href="/category/fitness-and-wellbeing">Fitness + Well-being</a></li><li class="nav-item"><a aria-label="Lifestyle - Style + Beauty" href="/category/style-and-beauty">Style + Beauty</a></li><li class="nav-item"><a aria-label="Lifestyle - Family" href="/family">Family</a></li><li class="nav-item"><a aria-label="Lifestyle - Faith" href="/category/faith-values/faith">Faith</a></li></ul></nav><nav aria-label="Science"><h6 class="nav-title"><a aria-label="Science" href="/science">Science</a></h6><ul><li class="nav-item"><a aria-label="Science - Archaeology" href="/category/science/archaeology">Archaeology</a></li><li class="nav-item"><a aria-label="Science - Air &amp; Space" href="/category/science/air-and-space">Air &amp; Space</a></li><li class="nav-item"><a aria-label="Science - Planet Earth" href="/category/science/planet-earth">Planet Earth</a></li><li class="nav-item"><a aria-label="Science - Wild Nature" href="/category/science/wild-nature">Wild Nature</a></li><li class="nav-item"><a aria-label="Science - Natural Science" href="/category/science/natural-science">Natural Science</a></li><li class="nav-item"><a aria-label="Science - Dinosaurs" href="/category/science/archaeology/dinosaurs">Dinosaurs</a></li></ul></nav><nav aria-label="Tech"><h6 class="nav-title"><a aria-label="Tech" href="/tech">Tech</a></h6><ul><li class="nav-item"><a aria-label="Tech - Security" href="/category/tech/topics/security">Security</a></li><li class="nav-item"><a aria-label="Tech - Innovation" href="/category/tech/topics/innovation">Innovation</a></li><li class="nav-item"><a aria-label="Tech - Drones" href="/category/tech/technologies/drones">Drones</a></li><li class="nav-item"><a aria-label="Tech - Computers" href="/category/tech/topics/computers">Computers</a></li><li class="nav-item"><a aria-label="Tech - Video Games" href="/category/tech/topics/video-games">Video Games</a></li><li class="nav-item"><a aria-label="Tech - Military Tech" href="/category/tech/topics/military-tech">Military Tech</a></li></ul></nav><nav aria-label="Health"><h6 class="nav-title"><a aria-label="Health" href="/health">Health</a></h6><ul><li class="nav-item"><a aria-label="Health - Coronavirus" href="/category/health/infectious-disease/coronavirus">Coronavirus</a></li><li class="nav-item"><a aria-label="Health - Healthy Living" href="/category/health/healthy-living">Healthy Living</a></li><li class="nav-item"><a aria-label="Health - Medical Research" href="/category/health/medical-research">Medical Research</a></li><li class="nav-item"><a aria-label="Health - Mental Health" href="/category/health/mental-health">Mental Health</a></li><li class="nav-item"><a aria-label="Health - Cancer" href="/category/health/cancer">Cancer</a></li><li class="nav-item"><a aria-label="Health - Heart Health" href="/category/health/heart-health">Heart Health</a></li><li class="nav-item"><a aria-label="Health - Children's Health" href="/category/health/healthy-living/childrens-health">Children's Health</a></li></ul></nav><nav aria-label="TV"><h6 class="nav-title"><a aria-label="TV" href="/shows">TV</a></h6><ul><li class="nav-item"><a aria-label="TV - Shows" href="/shows">Shows</a></li><li class="nav-item"><a aria-label="TV - Personalities" href="/person/personalities">Personalities</a></li><li class="nav-item"><a aria-label="TV - Watch Live" href="//video.foxnews.com/v/5614615980001/?#sp=watch-live">Watch Live</a></li><li class="nav-item"><a aria-label="TV - Full Episodes" href="//video.foxnews.com/playlist/episodic-most-recent-episodes/">Full Episodes</a></li><li class="nav-item"><a aria-label="TV - Show Clips" href="//video.foxnews.com/#sp=show-clips">Show Clips</a></li><li class="nav-item"><a aria-label="TV - News Clips" href="//video.foxnews.com/#sp=news-clips">News Clips</a></li></ul></nav><nav aria-label="About"><h6 class="nav-title">
-        About
-      </h6><ul><li class="nav-item"><a aria-label="About - Contact Us" href="//www.foxnews.com/contact">Contact Us</a></li><li class="nav-item"><a aria-label="About - Careers" href="//foxcareers.com/Search/SearchResults?brand=Fox%20News%20Careers">Careers</a></li><li class="nav-item"><a aria-label="About - Fox Around the World" href="/foxaroundtheworld/">Fox Around the World</a></li><li class="nav-item"><a aria-label="About - Advertise With Us" href="mailto:adsales@foxnews.com?subject=Advertising%20Inquiry">Advertise With Us</a></li><li class="nav-item"><a aria-label="About - Media Relations" href="//press.foxnews.com/media-contacts/">Media Relations</a></li><li class="nav-item"><a aria-label="About - Corporate Information" href="//press.foxnews.com/">Corporate Information</a></li><li class="nav-item"><a aria-label="About - Compliance" href="/compliance">Compliance</a></li><li class="nav-item"><a aria-label="About - Supplier Diversity" href="https://supplierdiversity.foxnews.com/">Supplier Diversity</a></li></ul></nav><nav aria-label="Other"><h6 class="nav-title">
-        Other
-      </h6><ul><li class="nav-item"><a aria-label="Other - Fox Nation" href="//www.foxnews.com/shows/fox-nation">Fox Nation</a></li><li class="nav-item"><a aria-label="Other - Fox News Shop" href="//shop.foxnews.com">Fox News Shop</a></li><li class="nav-item"><a aria-label="Other - Fox News Go" href="/go">Fox News Go</a></li><li class="nav-item"><a aria-label="Other - Fox News Radio" href="//radio.foxnews.com/">Fox News Radio</a></li><li class="nav-item"><a aria-label="Other - Newsletters" href="/alerts/subscribe">Newsletters</a></li><li class="nav-item"><a aria-label="Other - Alerts" href="/newsletter-signup/alerts">Alerts</a></li><li class="nav-item"><a aria-label="Other - Podcasts" href="//radio.foxnews.com/podcast">Podcasts</a></li><li class="nav-item"><a aria-label="Other - Apps &amp; Products" href="/apps-products">Apps &amp; Products</a></li></ul></nav></div></div></div><div class="footer-lower"><div class="social-icons"><ul><li class="fb"><a href="//www.facebook.com/FoxNews">Facebook</a></li><li class="tw"><a href="//twitter.com/foxnews">Twitter</a></li><li class="flipboard"><a href="https://flipboard.com/@FoxNews">Flipboard</a></li><li class="gp"><a href="//www.google.com/+FoxNews">Google+</a></li><li class="ig"><a href="//www.instagram.com/foxnews">Instagram</a></li><li class="rss"><a href="//www.foxnews.com/rss/index.html">RSS</a></li><li class="email"><a href="//www.foxnews.com/alerts/subscribe.html">Email</a></li></ul></div><div class="branding"><a href="//www.foxnews.com" class="logo">Fox News</a></div><div class="legal"><ul><li><a href="/terms-of-use">New Terms of Use</a></li><li><a href="/privacy-policy">Updated Privacy Policy</a></li><li><a href="/donotsell">Do Not Sell my Personal Information</a></li><li><a href="/closed-captioning">Closed Captioning Policy</a></li><li><a href="//help.foxnews.com">Help</a></li><li><a href="/contact">Contact Us</a></li><li><a href="/accessibility-statement">Accessibility Statement</a></li></ul><p class="copyright">This material may not be published, broadcast, rewritten, or redistributed. ©2020 FOX News Network, LLC. All rights reserved. All market data delayed 20 minutes.</p></div></div></footer></div></div></div><script type="text/javascript">window.__NUXT__={"layout":"dynamic-route","data":[{}],"error":null,"state":{"ActualContent":{"actualContent":"articleLayout"},"Articles":{"fullArticles":{"foxnews.com\u002Fpolitics\u002Fsouth-korean-president-trump-should-win-the-nobel-peace-prize":{"id":"abc18aa3-8c72-5d03-8ddc-570abd7073f7","fn__type":"articles","title":"South Korean president: Trump 'should win the Nobel Peace Prize'","short_title":"South Korean president: Trump 'should win the Nobel Peace Prize'","canonical_url":"foxnews.com\u002Fpolitics\u002Fsouth-korean-president-trump-should-win-the-nobel-peace-prize","article_slug":"south-korean-president-trump-should-win-the-nobel-peace-prize","articleId":"cf9aacb7-65d4-4e5c-8bcb-1b25345f9393","vanity_urls":["foxnews.com\u002Fpolitics\u002F2018\u002F04\u002F30\u002Fsouth-korean-president-trump-should-win-nobel-peace-prize.html"],"vanity_slugs":["south-korean-president-trump-should-win-nobel-peace-prize.html"],"short_urls":["https:\u002F\u002Ffxn.ws\u002F2ra2YFI"],"wp__origin":{"source":"tiger-cms","site":"pre-cms.foxnews.com","environment":"production","blog_id":1,"post_id":1969811,"post_type":"post","post_status":"publish"},"wp__category":{"title":"Politics","slug":"politics","path":"fox-news\u002Fpolitics","isa_value":"politics"},"wp__tags":[{"title":"White House","slug":"white-house","path":"fox-news\u002Fpolitics\u002Fexecutive\u002Fwhite-house","isa_value":"whitehouse"},{"title":"POLITICS","slug":"politics","path":"fox-news\u002Fpolitics","isa_value":"politics"},{"title":"North Korea","slug":"north-korea","path":"fox-news\u002Fworld\u002Fconflicts\u002Fnorth-korea","isa_value":"nkorea"}],"published":true,"publication_date":"2018-04-30T08:07:00-04:00","created_date":"2018-04-30T08:08:14-04:00","last_modified_date":"2018-04-30T11:13:02-04:00","last_published_date":"2018-04-30T11:13:13-04:00","dek":"South Korean President Moon Jae-in said Monday that President Trump deserves to win a Nobel Peace Prize for his role in talks to denuclearize the Korean peninsula and end the decades-long war between the North and South.","standfirst":"","fn__legacy_type":"article","fn__sections":[{"id":"05703ac7-466b-5ac4-b2dc-96c5e78c2f49","path":"fox-news\u002Fpolitics","isa_value":"politics"}],"fn__tags":[{"id":"3fc5ee10-623f-575f-baa5-28b6dab76053","path":"fox-news\u002Fpolitics\u002Fexecutive\u002Fwhite-house","isa_value":"whitehouse"},{"id":"2e695a06-b2b9-53b5-a6b2-87d0f7e7e9f4","path":"fox-news\u002Fpolitics","isa_value":"politics"},{"id":"517e3b52-7095-583c-9b1f-ee88981ba552","path":"fox-news\u002Fworld\u002Fconflicts\u002Fnorth-korea","isa_value":"nkorea"}],"fn__contributors":[{"id":"c074c340-f8db-596c-8945-2efe67680049","full_name":"Brooke Singman","name_id":"brooke-singman","person_id":"content\u002Ffox-news\u002Fperson\u002Fs\u002Fbrooke-singman"}],"fn__additional_authors":[""],"fn__story_type":"Migrated","fn__footer":"","fn__sources":[{"id":"da0f7f21-6535-5be9-82c4-469d7c765f30","label":"Fox News","url":"http:\u002F\u002Fwww.foxnews.com\u002F","canonical_url":"foxnews.com\u002Fsource\u002Ffox-news","wp__origin":{"source":"tiger-cms","site":"pre-cms.foxnews.com","environment":"production","blog_id":1,"post_id":189,"post_type":"source"}}],"fn__featured":false,"fn__breaking_news":false,"fn__breaking_news_start_date":"","fn__breaking_news_end_date":"","comments":{"enabled":true},"fn__distribution_platforms":{"google_news":{"amp":true,"standout":true,"live_coverage":false},"android":{"enabled":true},"apple_news":{"enabled":true,"enabled_date":"2018-04-30T16:07:00Z","notification_dates":[]},"facebook_instant_articles":{"enabled":true},"ios":{"enabled":true},"search_engines":{"enabled":true},"web":{"enabled":true}},"fn__site_search":true,"fn__app_title":"South Korean president: Trump 'should win the Nobel Peace Prize'","social_title":"South Korean president: Trump 'should win the Nobel Peace Prize'","social_description":"","fn__section_title":"South Korean president: Trump 'should win the Nobel Peace Prize'","fn__apple_news_title":"South Korean president: Trump 'should win the Nobel Peace Prize'","fn__fbia_title":"South Korean president: Trump 'should win the Nobel Peace Prize'","fn__external_feeds_title":"South Korean president: Trump 'should win the Nobel Peace Prize'","branding":{"advertorial":false,"fn__campaign_id":"","fn__indicator":"","fn__disclaimer":""},"livefyre__":{"storify":false,"comments":true,"blog_config":"name=\"livefyreblogconfig\" collectionMeta=\"eyJhbGciOiJIUzI1NiJ9.eyJ0YWdzIjoiZm94LW5ld3MscG9saXRpY3MsZm94LW5ld3Msd29ybGQsY29uZmxpY3RzLG5vcnRoLWtvcmVhLGZveC1uZXdzLHBvbGl0aWNzLGV4ZWN1dGl2ZSx3aGl0ZS1ob3VzZSIsInRpdGxlIjoiU291dGggS29yZWFuIHByZXNpZGVudDogVHJ1bXAgJ3Nob3VsZCB3aW4gdGhlIE5vYmVsIFBlYWNlIFByaXplJyIsImNoZWNrc3VtIjoiMGJjM2JmYTg3YjQwY2RlODFjNzVhNGUyZjViYWJmMGMiLCJ0eXBlIjoibGl2ZWJsb2ciLCJhcnRpY2xlSWQiOiJjZjlhYWNiNy02NWQ0LTRlNWMtOGJjYi0xYjI1MzQ1ZjkzOTNibG9nIiwidXJsIjoiaHR0cDovL3d3dy5mb3huZXdzLmNvbS9wb2xpdGljcy8yMDE4LzA0LzMwL3NvdXRoLWtvcmVhbi1wcmVzaWRlbnQtdHJ1bXAtc2hvdWxkLXdpbi1ub2JlbC1wZWFjZS1wcml6ZS5odG1sIn0.fXBl3rYh_BHTrSwhM_snagwa1qEk7S4-1XSfF-b3T1I\" checksum=\"0bc3bfa87b40cde81c75a4e2f5babf0c\" articleId=\"cf9aacb7-65d4-4e5c-8bcb-1b25345f9393blog\" siteId=\"310256\" enable=\"false\"","reviews_config":"name=\"livefyrereviewsconfig\" collectionMeta=\"eyJhbGciOiJIUzI1NiJ9.eyJ0YWdzIjoiZm94LW5ld3MscG9saXRpY3MsZm94LW5ld3Msd29ybGQsY29uZmxpY3RzLG5vcnRoLWtvcmVhLGZveC1uZXdzLHBvbGl0aWNzLGV4ZWN1dGl2ZSx3aGl0ZS1ob3VzZSIsInRpdGxlIjoiU291dGggS29yZWFuIHByZXNpZGVudDogVHJ1bXAgJ3Nob3VsZCB3aW4gdGhlIE5vYmVsIFBlYWNlIFByaXplJyIsImNoZWNrc3VtIjoiOTRhMzUwOWQ3YjI1MDYzMGZiYjQ1OTllNmJiZDU5OTciLCJ0eXBlIjoicmV2aWV3cyIsImFydGljbGVJZCI6ImNmOWFhY2I3LTY1ZDQtNGU1Yy04YmNiLTFiMjUzNDVmOTM5M3Jldmlld3MiLCJ1cmwiOiJodHRwOi8vd3d3LmZveG5ld3MuY29tL3BvbGl0aWNzLzIwMTgvMDQvMzAvc291dGgta29yZWFuLXByZXNpZGVudC10cnVtcC1zaG91bGQtd2luLW5vYmVsLXBlYWNlLXByaXplLmh0bWwifQ.5auzRD78qiKEeTWJ1kCUGyywfS4UgyGm3PdC9ws2b3k\" checksum=\"94a3509d7b250630fbb4599e6bbd5997\" articleId=\"cf9aacb7-65d4-4e5c-8bcb-1b25345f9393reviews\" siteId=\"310256\" enable=\"true\"","config":"name=\"livefyreconfig\" collectionMeta=\"eyJhbGciOiJIUzI1NiJ9.eyJ0YWdzIjoiZm94LW5ld3MscG9saXRpY3MsZm94LW5ld3Msd29ybGQsY29uZmxpY3RzLG5vcnRoLWtvcmVhLGZveC1uZXdzLHBvbGl0aWNzLGV4ZWN1dGl2ZSx3aGl0ZS1ob3VzZSIsInRpdGxlIjoiU291dGggS29yZWFuIHByZXNpZGVudDogVHJ1bXAgJ3Nob3VsZCB3aW4gdGhlIE5vYmVsIFBlYWNlIFByaXplJyIsImNoZWNrc3VtIjoiYTY0MzY4NmYyYjViYmZlN2U4YzRjMjAxOGRjM2ZiYmUiLCJhcnRpY2xlSWQiOiJjZjlhYWNiNy02NWQ0LTRlNWMtOGJjYi0xYjI1MzQ1ZjkzOTMiLCJ1cmwiOiJodHRwOi8vd3d3LmZveG5ld3MuY29tL3BvbGl0aWNzLzIwMTgvMDQvMzAvc291dGgta29yZWFuLXByZXNpZGVudC10cnVtcC1zaG91bGQtd2luLW5vYmVsLXBlYWNlLXByaXplLmh0bWwifQ.Exuw3xrxQnHMyrKKHmgc1xh6w5MuNHXUTkcrF0-6LMw\" checksum=\"a643686f2b5bbfe7e8c4c2018dc3fbbe\" articleId=\"cf9aacb7-65d4-4e5c-8bcb-1b25345f9393\" siteId=\"310256\" enable=\"true\"","collection_meta_token":"","collection_checksum":"","site_id":"310256"},"dateline":"","full_span_image":{},"thumbnail":{"content":{"brightcove_account":"694940094001","canonical_url":"http:\u002F\u002Fvideo.foxnews.com\u002Fv\u002F5778444423001","description":"South Korean President Moon Jae-in said Monday that President Trump deserves to win a Nobel Peace Prize for his role in talks to denuclearize the Korean peninsula and end the decades-long war between the North and South.","id":"5778444423001","thumbnail":"http:\u002F\u002Fmedia2.foxnews.com\u002FBrightCove\u002F694940094001\u002F2018\u002F04\u002F30\u002F694940094001_5778447155001_5778444423001-vs.jpg","title":"South Korean President: Trump 'should win the Nobel Peace Prize'","video_domain":"foxnews"},"content_type":"video","image":{"url":"http:\u002F\u002Fmedia2.foxnews.com\u002FBrightCove\u002F694940094001\u002F2018\u002F04\u002F30\u002F694940094001_5778447155001_5778444423001-vs.jpg"}},"social_image":{"content":{"brightcove_account":"694940094001","canonical_url":"http:\u002F\u002Fvideo.foxnews.com\u002Fv\u002F5778444423001","description":"South Korean President Moon Jae-in said Monday that President Trump deserves to win a Nobel Peace Prize for his role in talks to denuclearize the Korean peninsula and end the decades-long war between the North and South.","id":"5778444423001","thumbnail":"http:\u002F\u002Fmedia2.foxnews.com\u002FBrightCove\u002F694940094001\u002F2018\u002F04\u002F30\u002F694940094001_5778447155001_5778444423001-vs.jpg","title":"South Korean President: Trump 'should win the Nobel Peace Prize'","video_domain":"foxnews"},"content_type":"video","image":{"url":"http:\u002F\u002Fmedia2.foxnews.com\u002FBrightCove\u002F694940094001\u002F2018\u002F04\u002F30\u002F694940094001_5778447155001_5778444423001-vs.jpg"}},"fn__image":{"content":{"brightcove_account":"694940094001","canonical_url":"http:\u002F\u002Fvideo.foxnews.com\u002Fv\u002F5778444423001","description":"South Korean President Moon Jae-in said Monday that President Trump deserves to win a Nobel Peace Prize for his role in talks to denuclearize the Korean peninsula and end the decades-long war between the North and South.","id":"5778444423001","thumbnail":"http:\u002F\u002Fmedia2.foxnews.com\u002FBrightCove\u002F694940094001\u002F2018\u002F04\u002F30\u002F694940094001_5778447155001_5778444423001-vs.jpg","title":"South Korean President: Trump 'should win the Nobel Peace Prize'","video_domain":"foxnews"},"content_type":"video","image":{"url":"http:\u002F\u002Fmedia2.foxnews.com\u002FBrightCove\u002F694940094001\u002F2018\u002F04\u002F30\u002F694940094001_5778447155001_5778444423001-vs.jpg"}},"fn__syndication_info":{"disable_updates":true},"fn__stock_ticker_symbols":"","components":[{"is":"video-inline","props":{"type":"video","title":"South Korean President: Trump 'should win the Nobel Peace Prize'","caption":"South Korean President Moon Jae-in said Monday that President Trump deserves to win a Nobel Peace Prize for his role in talks to denuclearize the Korean peninsula and end the decades-long war between the North and South.","videoId":"5778444423001","imageUrl":"http:\u002F\u002Fmedia2.foxnews.com\u002FBrightCove\u002F694940094001\u002F2018\u002F04\u002F30\u002F694940094001_5778447155001_5778444423001-vs.jpg","originalImageUrl":"http:\u002F\u002Fmedia2.foxnews.com\u002FBrightCove\u002F694940094001\u002F2018\u002F04\u002F30\u002F694940094001_5778447155001_5778444423001-vs.jpg","url":"http:\u002F\u002Fvideo.foxnews.com\u002Fv\u002F5778444423001","videoDomain":"foxnews"}},{"is":"paragraph","props":{"text":"South Korean President Moon Jae-in said Monday that President Trump deserves to win a Nobel Peace Prize for his role in talks to denuclearize the Korean peninsula and end the decades-long war between the North and South."}},{"is":"paragraph","props":{"text":"Moon&#x2019;s comment, as reported by \u003Ca href=\"https:\u002F\u002Fwww.reuters.com\u002Farticle\u002Fus-northkorea-southkorea-trump\u002Ftrump-should-win-the-nobel-peace-prize-says-south-koreas-moon-idUSKBN1I10OD\" target=\"_blank\"\u003EReuters\u003C\u002Fa\u003E, came following a congratulatory message from Lee Hee-ho, the widow of late South Korean President Kim Dae-jung, where she said Moon deserved to win the prize for his work with North Korea. Moon&#x2019;s response was that Trump, instead, should win the prize."}},{"is":"paragraph","props":{"text":"&#x201C;President Trump should win the Nobel Peace Prize,&#x201D; Moon reportedly told a meeting of senior secretaries, according to a Korean official who briefed the media. &#x201C;What we need is only peace.&#x201D;"}},{"is":"paragraph","props":{"text":"The comments came just days after Moon met with North Korean dictator Kim Jong Un for a summit at the Peace House in Panmunjom."}},{"is":"paragraph","props":{"text":"Trump continued to play an active role on Monday, floating the possibility of holding his expected summit with Kim at the same location."}},{"is":"paragraph","props":{"text":"&quot;Numerous countries are being considered for the MEETING, but would Peace House\u002FFreedom House, on the Border of North &amp; South Korea, be a more Representative, Important and Lasting site than a third party country? Just asking!&quot; he tweeted."}},{"is":"tweet","props":{"id":"990928644100034561","alignment":"center","hideThread":false,"hideMedia":false}},{"is":"paragraph","props":{"text":"\u003Cb\u003E\u003Ca href=\"http:\u002F\u002Fwww.foxnews.com\u002Fpolitics\u002F2018\u002F04\u002F27\u002Ftrump-touts-historic-korean-summit-korean-war-to-end.html\" target=\"_blank\"\u003ETRUMP TOUTS &#x2018;HISTORIC&#x2019; KOREAN SUMMIT: &#x2018;KOREAN WAR TO END&#x2019;\u003C\u002Fa\u003E\u003C\u002Fb\u003E"}},{"is":"paragraph","props":{"text":"The Korean leaders announced Friday they would work to achieve a &#x201C;nuclear-free Korean Peninsula,&#x201D; and also expressed hope to officially end the 1950-53 Korean War by the end of the year, though it is not clear at this point."}},{"is":"article-image","props":{"type":"inline","caption":"North Korean Dictator Kim Jong Un is expected to meet with President Trump in the coming months.","imageAlt":"North Korean Dictator Kim Jong Un is expected to meet with President Trump in the coming months.","url":"https:\u002F\u002Fa57.foxnews.com\u002Fstatic.foxnews.com\u002Ffoxnews.com\u002Fcontent\u002Fuploads\u002F2018\u002F09\u002F640\u002F320\u002Fkim-jong-un-reuters.jpg?ve=1&tl=1","copyright":"Reuters","source":"","isSpotlight":false,"responsiveImages":[{"media":"(max-width: 767px)","srcset":"https:\u002F\u002Fa57.foxnews.com\u002Fstatic.foxnews.com\u002Ffoxnews.com\u002Fcontent\u002Fuploads\u002F2018\u002F09\u002F1470\u002F828\u002Fkim-jong-un-reuters.jpg?ve=1&tl=1 2x"},{"media":"(min-width: 767px)","srcset":"https:\u002F\u002Fa57.foxnews.com\u002Fstatic.foxnews.com\u002Ffoxnews.com\u002Fcontent\u002Fuploads\u002F2018\u002F09\u002F1862\u002F1048\u002Fkim-jong-un-reuters.jpg?ve=1&tl=1 2x"}]}},{"is":"paragraph","props":{"text":"Trump called the summit between the two leaders a &#x201C;historic meeting,&#x201D; and touted the outcome, noting that the people of the United States &#x201C;should be very proud of what is now taking place in Korea.&#x201D;"}},{"is":"paragraph","props":{"text":"The leaders also agreed that beginning May 1, all loudspeaker propaganda broadcasts that have been blaring from each side of the heavily-armed borer will be suspended. They also agreed to dismantle broadcasting equipment and stop flying propaganda leaflets across their border."}},{"is":"paragraph","props":{"text":"Kim also promised Moon that he &#x201C;won&#x2019;t interrupt&#x201D; his &#x201C;early morning sleep anymore,&#x201D; referring to missile tests, South Korea said."}},{"is":"paragraph","props":{"text":"During the summit, the Korean leaders announced that they will jointly push for talks with the United States, and potentially China to officially end the war. The Koreas also agreed to stop all hostile acts over &#x201C;land, sea and air&#x201D; that cause military clashes and tensions."}},{"is":"paragraph","props":{"text":"The date for Trump&apos;s expected summit with Kim is not yet scheduled. Last week, Trump slammed media reports that he was making concessions to secure the meeting with the North Korean dictator as inaccurate. Newly confirmed Secretary of State Mike Pompeo traveled to North Korea earlier this month to lay the foundation for the meeting between Trump and Kim."}},{"is":"article-image","props":{"type":"inline","caption":"South Korean President Moon Jae-In said President Trump deserves to win the Nobel Peace Prize.","imageAlt":"South Korean President Moon Jae-In said President Trump deserves to win the Nobel Peace Prize.","url":"https:\u002F\u002Fa57.foxnews.com\u002Fstatic.foxnews.com\u002Ffoxnews.com\u002Fcontent\u002Fuploads\u002F2018\u002F09\u002F640\u002F320\u002Fmoon-jae-in-resize.jpg?ve=1&tl=1","copyright":"AP\u002FReuters","source":"","isSpotlight":false,"responsiveImages":[{"media":"(max-width: 767px)","srcset":"https:\u002F\u002Fa57.foxnews.com\u002Fstatic.foxnews.com\u002Ffoxnews.com\u002Fcontent\u002Fuploads\u002F2018\u002F09\u002F1470\u002F828\u002Fmoon-jae-in-resize.jpg?ve=1&tl=1 2x"},{"media":"(min-width: 767px)","srcset":"https:\u002F\u002Fa57.foxnews.com\u002Fstatic.foxnews.com\u002Ffoxnews.com\u002Fcontent\u002Fuploads\u002F2018\u002F09\u002F1862\u002F1048\u002Fmoon-jae-in-resize.jpg?ve=1&tl=1 2x"}]}},{"is":"paragraph","props":{"text":"Last week, Trump criticized the Obama administration for allowing the situation in North Korea to escalate, while calling former Secretary of State John Kerry the &#x201C;worst negotiator&#x201D; he&#x2019;d &#x201C;ever seen.&#x201D;"}},{"is":"paragraph","props":{"text":"Earlier this year, Moon applauded Trump, noting he &#x201C;deserves big credit for bringing about the inter-Korean talks,&#x201D; and said &#x201C;it could be a resulting work of the U.S.-led sanctions and pressure.&#x201D;"}},{"is":"paragraph","props":{"text":"Trump has put what his administration describes as &#x201C;the heaviest sanctions ever imposed on a country before&#x201D; on North Korea, crippling the DPRK&#x2019;s economy. Under the sanctions, the Treasury Department aimed to cut off sources of revenue and fuel used to boost the country&#x2019;s nuclear program and military."}},{"is":"paragraph","props":{"text":"&#x201C;Treasury is aggressively targeting all illicit avenues used by North Korea to evade sanctions, including taking decisive action to block the vessels, shipping companies, and entities across the globe that work on North Korea&#x2019;s behalf,&#x201D; Treasury Secretary Steven Mnuchin said in a statement in late February."}},{"is":"paragraph","props":{"text":"U.S. officials, at that time, said the sanctions were also aimed at hindering the regime&#x2019;s ability to transport coal and fuel in international waters, in an effort to further isolate the rogue regime and advance the U.S. pressure campaign."}},{"is":"paragraph","props":{"text":"\u003Ci\u003EFox News&#x2019; Judson Berger, Serafin Gomez and The Associated Press contributed to this report.\u003C\u002Fi\u003E"}}],"isAMP":false,"originalCanonical_url":"\u002Fpolitics\u002Fsouth-korean-president-trump-should-win-the-nobel-peace-prize","header":{"headline":"South Korean president: Trump 'should win the Nobel Peace Prize'","subHeadline":"","authors":[{"id":"c074c340-f8db-596c-8945-2efe67680049","fnType":"persons","personId":"content\u002Ffox-news\u002Fperson\u002Fs\u002Fbrooke-singman","nameId":"brooke-singman","blogUrls":[],"foxNationUrl":"","companyName":"","canonicalUrl":"foxnews.com\u002Fperson\u002Fs\u002Fbrooke-singman","vanityUrls":["foxnews.com\u002Fperson\u002Fs\u002Fbrooke-singman.html"],"publicationDate":"2018-02-13T11:21:58-05:00","createdDate":"2015-09-16T16:27:22-04:00","lastModifiedDate":"2020-02-13T12:27:48-05:00","lastPublishedDate":"2020-02-13T12:27:48-05:00","firstName":"Brooke","fullBioUrl":"","fullName":"Brooke Singman","lastName":"Singman","middleInitial":"","personalityName":"","mediaTags":[],"prefix":"","role":"Author","fullBio":[],"shortBio":"Brooke Singman is a Politics Reporter for Fox News. Follow her on Twitter at \u003Ca href=\"https:\u002F\u002Ftwitter.com\u002Fbrookesingman\" target=\"_blank\"\u003E@BrookeSingman\u003C\u002Fa\u003E.","showPageUrl":"http:\u002F\u002Fwww.foxnews.com\u002Fperson\u002Fs\u002Fbrooke-singman.html","googlePlusUrl":"","suffix":"","title":"","pageShortUrls":["http:\u002F\u002Ffxn.ws\u002F1Q1SJrA"],"thumbnail":"https:\u002F\u002Fa57.foxnews.com\u002Fstatic.foxnews.com\u002Ffoxnews.com\u002Fcontent\u002Fuploads\u002F2018\u002F10\u002F128\u002F128\u002Fimg_2751-54438.jpg?ve=1&tl=1","social":{"twitter":"https:\u002F\u002Ftwitter.com\u002Fbrookefoxnews"},"wpOrigin":{"source":"tiger-cms","site":"cms.foxnews.com","environment":"production","blog_id":1,"post_id":2481,"post_type":"person"},"personSlug":"brooke-singman","published":true,"url":"\u002Fperson\u002Fs\u002Fbrooke-singman","name":"Brooke Singman","description":"Brooke Singman is a Politics Reporter for Fox News. Follow her on Twitter at \u003Ca href=\"https:\u002F\u002Ftwitter.com\u002Fbrookesingman\" target=\"_blank\"\u003E@BrookeSingman\u003C\u002Fa\u003E.","avatar":"https:\u002F\u002Fa57.foxnews.com\u002Fstatic.foxnews.com\u002Ffoxnews.com\u002Fcontent\u002Fuploads\u002F2018\u002F10\u002F340\u002F340\u002Fimg_2751-54438.jpg?ve=1&tl=1"},{"name":"","url":""}],"source":{"name":"Fox News","url":"http:\u002F\u002Fwww.foxnews.com\u002F"},"allowComments":true,"publicationDate":"2018-04-30T08:07:00-04:00","modifiedDate":"2018-04-30T11:13:02-04:00","lastPublishedDate":"2018-04-30T11:13:13-04:00","headerCategory":{"name":"White House","url":"\u002Fcategory\u002Fpolitics\u002Fexecutive\u002Fwhite-house"},"category":{"name":"Politics","url":"\u002Fpolitics"},"organizationName":"Fox News","organizationUrl":"http:\u002F\u002Fwww.foxnews.com\u002F"},"overlayType":"article"}},"ampCss":""},"Category":{"fullCategory":{},"currentPage":1,"numPages":8,"isFetching":false,"category":null},"ClientSideEnvVars":{"vars":{"version":"v74","qa":"","beta":"","domainName":"foxnews.com","layoutEnv":"foxnews-prod","assetsPath":"static.foxnews.com\u002Fstatic\u002Forion\u002F","facebookArticleAppId":"116027085089150","envStage":"www","a57Url":"https:\u002F\u002Fa57.foxnews.com\u002F","videoPrefix":"video"}},"Layouts":{"articleLayout":{"preContent":[{"is":"ad","props":{"id":"","device":"desktop","sizes":["970x250","728x90","970x66"],"showAdvertText":true,"loadInView":false,"advertisementText":"ADVERTISEMENT"}}],"leftRail":[],"main":[],"rightRail":[{"is":"ad","props":{"id":"","device":"desktop","sizes":["300x250","300x600"],"showAdvertText":true,"loadInView":false,"advertisementText":""}},{"is":"advanced-media","props":{"content":"    \u003Cdiv class=\"content\"\u003E\n         \u003Cdiv class=\"m\"\u003E\n             \u003Ca href=\"https:\u002F\u002Ffoxnews.com\u002Felections\" data-omtr-intcmp=\"\"\u003E\n                 \u003Cimg src=\"\u002F\u002Fstatic.foxnews.com\u002Ffoxnews.com\u002Fcontent\u002Fuploads\u002F2020\u002F02\u002FElections-Primaries-RR-Promo-F.png\" alt=\"Fox News Democracy 2020\"\u003E\n             \u003C\u002Fa\u003E\n         \u003C\u002Fdiv\u003E\n     \u003C\u002Fdiv\u003E"}},{"is":"advanced-media","props":{"content":"\u003Cdiv class=\"item item-newsletter fox-news-first\" data-slid=\"3DC725E303A24F8D7457D18811A93C18\"\u003E\n        \u003Cdiv class=\"m logo\"\u003E\n            \u003Cimg data-cke-saved-src=\"\u002F\u002Fstatic.foxnews.com\u002Fstatic\u002Forion\u002Fstyles\u002Fimg\u002Ffox-news\u002Fs\u002Fnewsletter\u002Ffox-news-first.svg\" src=\"\u002F\u002Fstatic.foxnews.com\u002Fstatic\u002Forion\u002Fstyles\u002Fimg\u002Ffox-news\u002Fs\u002Fnewsletter\u002Ffox-news-first.svg\" alt=\"Fox News First\"\u002F\u003E\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv class=\"info\"\u003E\n             \u003Cp class=\"dek\"\u003EGet all the stories you need-to-know from the most powerful name in news delivered first thing every morning to your inbox\u003C\u002Fp\u003E\n            \u003Cdiv class=\"arrive\"\u003EArrives \u003Cspan\u003EWeekdays\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\n            \u003Cdiv class=\"button subscribe\"\u003E\n                \u003Ca data-cke-saved-href=\"#\" href=\"#\"\u003ESubscribe\u003C\u002Fa\u003E\n            \u003C\u002Fdiv\u003E\n            \u003Cp class=\"subscribed hide\"\u003ESubscribed\u003C\u002Fp\u003E\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv class=\"user-input hide\"\u003E\n            \u003Cdiv class=\"input-wrap\"\u003E\n                \u003Cinput data-cke-saved-name=\"email\" name=\"email\" placeholder=\"Type your email\" type=\"email\" class=\"input-email\" \u002F\u003E\n            \u003C\u002Fdiv\u003E\n            \u003Cdiv class=\"button enter\"\u003E\n                \u003Ca data-cke-saved-href=\"#\" href=\"#\"\u003ESubscribe\u003C\u002Fa\u003E\n            \u003C\u002Fdiv\u003E\n            \u003Cp class=\"success hide\"\u003EYou've successfully subscribed to this newsletter!\u003C\u002Fp\u003E\n        \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E"}},{"is":"placement","props":{"uid":"ar-4"}},{"is":"article-list","props":{"title":"2020 Presidential Election","hasCategory":false,"hasHero":false,"hasMore":false,"hasMulti":true,"pillsPosition":"image","metaPosition":"header","hasDescription":false,"hasTime":false,"adPosition":-1,"searchCriteria":{"isCategory":false,"isTag":true,"isKeyword":false,"isFixed":false,"isFeedUrl":false,"searchSelected":"+fox-news\u002Fpolitics\u002F2020-presidential-election","contentTypes":{"interactive":false,"slideshow":false,"video":false,"article":true}},"button":{},"showImage":true,"items":[{"imageUrl":"https:\u002F\u002Fa57.foxnews.com\u002Fstatic.foxnews.com\u002Ffoxnews.com\u002Fcontent\u002Fuploads\u002F2020\u002F04\u002F348\u002F196\u002FBiden-Trump-Split-thumb.jpg?ve=1&tl=1","title":"Biden, Trump spar over who is tougher on China as anger rises over coronavirus pandemic","description":"As President Trump’s re-election campaign and a top pro-Trump super PAC step up efforts to paint Joe Biden as soft on China, the former vice president, his campaign, and an allied group are fighting back, spotlighting Trump's repeated praise of China earlier this year for its response to the coronavirus outbreak.","url":"\u002Fpolitics\u002Fbiden-trump-spar-tougher-on-china-coronavirus","publicationDate":"2020-04-17T19:16:48-04:00","lastPublishedDate":"2020-04-17T19:16:48-04:00","category":{"name":"2020 Presidential Election","url":"\u002Fcategory\u002Fpolitics\u002F2020-presidential-election"},"isBreaking":false,"isLive":false,"duration":""},{"imageUrl":"https:\u002F\u002Fa57.foxnews.com\u002Fstatic.foxnews.com\u002Ffoxnews.com\u002Fcontent\u002Fuploads\u002F2020\u002F04\u002F348\u002F196\u002FBiden-Tara-Reade-Sanders-Klobuchar-3.jpg?ve=1&tl=1","title":"Biden's former rivals face questions about Tara Reade's assault claim from the media before he does","description":"As the mainstream media had finally began acknowledging the sexual assault allegation that was made against former Vice President Joe Biden, a bizarre development has his former 2020 rivals being asked about the controversy before the presumptive Democratic nominee himself. ","url":"\u002Fmedia\u002Fbiden-tara-reade-bernie-sanders-amy-klobuchar","publicationDate":"2020-04-17T18:23:00-04:00","lastPublishedDate":"2020-04-17T18:23:00-04:00","category":{"name":"Media","url":"\u002Fcategory\u002Fmedia"},"isBreaking":false,"isLive":false,"duration":""},{"imageUrl":"https:\u002F\u002Fa57.foxnews.com\u002Fcf-images.us-east-1.prod.boltdns.net\u002Fv1\u002Fstatic\u002F694940094001\u002F2e649719-faab-4096-8999-b46607690093\u002Fa01b0115-ceb4-4629-95af-69db6fdd0731\u002F1280x720\u002Fmatch\u002F348\u002F196\u002Fimage.jpg?ve=1&tl=1","title":"Pro-Biden super PAC snubbed by campaign vows to remain in fight","description":"The top super PAC supporting Joe Biden’s presidential bid during the Democratic primaries pledges it will continue to tell Biden’s story during the general election, even if it’s replaced as the leading outside group backing the former vice president.","url":"\u002Fpolitics\u002Fmain-pro-biden-super-pac-during-primaries-vows-to-remain-in-fight","publicationDate":"2020-04-17T14:54:46-04:00","lastPublishedDate":"2020-04-17T14:54:46-04:00","category":{"name":"ELECTIONS","url":"\u002Fcategory\u002Fpolitics\u002Felections"},"isBreaking":false,"isLive":false,"duration":""},{"imageUrl":"https:\u002F\u002Fa57.foxnews.com\u002Fcf-images.us-east-1.prod.boltdns.net\u002Fv1\u002Fstatic\u002F694940094001\u002F4c1f43e8-a755-4765-9b73-e0fca42c9493\u002Ff381385d-c07f-45e3-95dd-193f1b32d395\u002F1280x720\u002Fmatch\u002F348\u002F196\u002Fimage.jpg?ve=1&tl=1","title":"New salvo in contentious partisan battle over expanding vote by mail amid coronavirus crisis","description":"Democratic National Committee Chairman Tom Perez says that amid the coronavirus pandemic, nobody should be forced to choose between their health and their right to vote.","url":"\u002Fpolitics\u002Fnew-salvo-in-contentious-partisan-battle-over-expanding-voting-by-mail-amid-coronavirus-crisis","publicationDate":"2020-04-17T14:28:47-04:00","lastPublishedDate":"2020-04-17T14:28:47-04:00","category":{"name":"ELECTIONS","url":"\u002Fcategory\u002Fpolitics\u002Felections"},"isBreaking":false,"isLive":false,"duration":""}],"extraFixedItems":[]}},{"is":"ad","props":{"id":"","device":"desktop","sizes":["300x251"],"showAdvertText":true,"loadInView":false,"advertisementText":"ADVERTISEMENT"}},{"is":"placement","props":{"uid":"ar-11"}}],"postContent":[]}},"LiveEventPages":{"id":"","title":"","description":"","rawData":null},"OffsetManager":{"offsetData":{"+fox-news\u002Fpolitics\u002F2020-presidential-election":4}},"Persons":{"persons":[],"person":{},"personArticles":[],"personComponents":[]},"Shows":{"shows":[],"show":{},"articles":[],"persons":[],"tag":"","fetchCount":1,"showByUrl":{}},"StaticPages":{"title":"","description":"","components":[],"scripts":[],"stylesheets":[],"metadata":{}},"Tags":{"tag":{}}},"serverRendered":true};</script><script src="/_wzln/manifest.64f2ba4c99345b4ac97a.js" defer></script><script src="/_wzln/vendor.cdb45a3808c20ada4b33.js" defer></script><script src="/_wzln/app.68c5ae3c71279e3c2d2a.js" defer></script>
-    <script type="text/javascript"> (function(FNC){ if (FNC.Loader) { FNC.Loader.init(); } }(window.FNC || {})); </script>
-  </body>
+    </div>
+
+</footer>
+
+<script type='text/javascript' src='https://lifenews-wpengine.netdna-ssl.com/wp-content/themes/lifenews-new/js/bootstrap.min.js?ver=3.0.0'></script>
+<script type='text/javascript' src='https://lifenews-wpengine.netdna-ssl.com/wp-content/themes/lifenews-new/js/slider.js?ver=5.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var catnavajax = {"ajaxurl":"https:\/\/www.lifenews.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://lifenews-wpengine.netdna-ssl.com/wp-content/themes/lifenews-new/js/pagination.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://lifenews-wpengine.netdna-ssl.com/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-17909621-12', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>
+
+	<script type="text/javascript">		                
+	  var trackOutboundLink = function(url) {
+		   ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+		     function () {
+		     // window.open(url, '_blank');
+		      console.log('made it');
+		     }
+		   });
+		}
+	</script>
+	
+</body>
 </html>

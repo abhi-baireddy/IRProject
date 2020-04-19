@@ -1,771 +1,845 @@
-<!doctype html>
-<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-<!--
-  _____ _   _ ____  ____  _   _ _   _
- | ____| \ | |  _ \|  _ \| | | | \ | |
- |  _| |  \| | | | | |_) | | | |  \| |
- | |___| |\  | |_| |  _ <| |_| | |\  |
- |_____|_| \_|____/|_| \_\\___/|_| \_|
+﻿
+<!DOCTYPE html>
 
--->
-<link href="https://d1n0c1ufntxbvh.cloudfront.net" rel="dns-prefetch" /> <!-- photo -->
-<link href="https://d63kb4t2ifcex.cloudfront.net" rel="dns-prefetch" />  <!-- story-assets -->
-<link href="https://use.typekit.net" rel="dns-prefetch" />
-<link rel="icon" href="https://www.themarshallproject.org/favicon.ico?v=2"/>
-<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"c751a71187","applicationID":"5052876","transactionName":"eltZFkQNWFpSExcWE1tYXgEZEltFQw==","queueTime":5,"applicationTime":95,"agent":""}</script>
-<script>(window.NREUM||(NREUM={})).loader_config={licenseKey:"c751a71187",applicationID:"5052876"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0 maximum-scale=1.0, minimal-ui" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-<title>Coronavirus Small Business Loans Exclude People With Criminal Records | The Marshall Project</title>
-  <meta name="description" content="SBA says people with criminal records aren't eligible for some emergency loans, even though experts say the law doesn't exclude them.">
-<link rel="stylesheet" media="all" href="/assets/app/app-08bdfc9646ef5894196f54543b3b69fb6cfd63fd806f32b38f35027804c42766.css" />
 
+
+
+    
+        
+
+        <!-- header tags -->
+        <meta name="guid" content="190226175659275"><title>US disrupted Russian trolls on day of November election: report | USA News | Al Jazeera</title><meta name="title" content="US disrupted Russian trolls on day of November election: report"><meta name="channel" content=""><meta name="author" content=""><meta name="description" content="Washington Post reports US military disrupted online access of Russian troll farm accused of trying to influence voters."><meta property="og:title" content="US disrupted Russian trolls on day of November election: report"><meta property="og:description" content="Washington Post reports US military disrupted online access of Russian troll farm accused of trying to influence voters."><meta property="og:url" content="https://www.aljazeera.com/news/2019/02/disrupted-russian-trolls-day-november-election-report-190226175659275.html"><meta name="url" content="https://www.aljazeera.com/news/2019/02/disrupted-russian-trolls-day-november-election-report-190226175659275.html"><meta property="og:internalurl" content="https://www.aljazeera.com/news/2019/02/disrupted-russian-trolls-day-november-election-report-190226175659275.html"><meta name="ShortURL" content="https://aje.io/p3htz"><meta property="og:image" itemprop="image" content="https://www.aljazeera.com/mritems/Images/2018/10/9/783ae5903ce243008201e50bcfa4eab8_18.jpg"><meta name="image" content="https://www.aljazeera.com/mritems/Images/2018/10/9/783ae5903ce243008201e50bcfa4eab8_18.jpg"><meta property="twitter:title" content="US disrupted Russian trolls on day of November election: report"><meta property="twitter:description" content="Washington Post reports US military disrupted online access of Russian troll farm accused of trying to influence voters."><meta http-equiv="Last-Modified" name="LastModifiedDate" content="Tue, 26 February 2019 18:23:49 GMT"><meta name="twitter:image" content="https://www.aljazeera.com/mritems/Images/2018/10/9/783ae5903ce243008201e50bcfa4eab8_18.jpg"><meta name="ContentType" content="News"><meta name="news_keywords" content="US Midterms 2018, United States, Russia, Donald Trump, Mueller Probe, US &amp; Canada"><link rel="amphtml" href="https://www.aljazeera.com/amp/news/2019/02/disrupted-russian-trolls-day-november-election-report-190226175659275.html"><link rel="canonical" href="https://www.aljazeera.com/news/2019/02/disrupted-russian-trolls-day-november-election-report-190226175659275.html"><!--  BS Article Header -->  
+<meta http-equiv="x-ua-compatible" content="ie=Edge">  
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta property="twitter:account_id" content="4970411" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="google-play-app" content="app-id=net.aljazeera.english">
+<meta property="og:image:width" content="1000"/>
+<meta property="og:image:height" content="562"/>
+ <link rel="alternate" type="application/rss+xml" title="Al Jazeera English" href="/xml/rss/all.xml" />
+<link rel="apple-touch-icon" href="/mritems/assets/images/touch-icon-iphone.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/mritems/assets/images/touch-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/mritems/assets/images/touch-icon-iphone-retina.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/mritems/assets/images/touch-icon-ipad-retina.png">
+<meta name="apple-itunes-app" content="app-id=504847776"> 
+
+<!-- Ensighten Script -->
 <script type="text/javascript">
-  var _sf_startpt=(new Date()).getTime();
-  var _sf_async_config = _sf_async_config || {};
-  /** CONFIGURATION START **/
-  _sf_async_config.uid = 58316;
-  _sf_async_config.domain = 'themarshallproject.org';
-  _sf_async_config.flickerControl = false;
-  _sf_async_config.useCanonical = true;
-  /** CONFIGURATION END **/
-</script>
-<script async src="//static.chartbeat.com/js/chartbeat_mab.js"></script>
-<script src="/assets/app/head-ad144076afcb2742fbbd4ef34567c6dc964632320765c1c2f0b805ad95fcb0d4.js"></script>
-
-  <link rel="canonical" href="https://www.themarshallproject.org/2020/04/08/trump-administration-tells-some-business-owners-do-not-apply-for-coronavirus-loans">
-
-<link rel="apple-touch-icon" href="/assets/touch-icon-iphone-b762727f442edfaad00859926e7e8f0aa1df825b0921b52832b3d64366ebf365.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/assets/touch-icon-ipad-5495d97cdd9d32e0bc6196c87a0312505b4b6d9a0fd51642166f9941c4bcb70d.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/assets/touch-icon-iphone-retina-5cc0ac14b233c1d79bc417219bb11e76abe68f0442e6647633de304a21d683a9.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/assets/touch-icon-ipad-retina-16d4244f81ee09f18bcf84080506806f2522c58b24f69e6f440aa8984ce5194b.png">
-
-<link rel="alternate" type="application/rss+xml" title="RSS" href="https://www.themarshallproject.org/rss/recent.rss" />
-
-
-<!-- start SYNC font -->
-<script type="text/javascript" src="https://use.typekit.net/jqg7jec.js"></script>
-<script type="text/javascript">try{Typekit.load({ async: true });}catch(e){}</script>
-
-<style>
-@font-face {
-  font-family: "PressuraLight";
-  src: url("/assets/GT-Pressura-Mono-Light-302e4f172aa71b2aa81f00790a68ff35cadfd12ed7e812f683718ae40ead7b6c.woff") format("woff"),
-  url("/assets/GT-Pressura-Mono-Light-2fc41e7ca5227700993d26afcd87f1e84961ef0ffc87cd4f8f0d6a6bb8321fd0.ttf")  format("truetype"),
-  url("/assets/GT-Pressura-Mono-Light-092e8f7ef068293bce1bde9e38a41396c909204a61e6257cb1c7329da517e64e.eot")  format("eot");
-}
-@font-face {
-  font-family: "GTPressuraMonoLight";
-  src: url("/assets/GT-Pressura-Mono-Light-302e4f172aa71b2aa81f00790a68ff35cadfd12ed7e812f683718ae40ead7b6c.woff") format("woff"),
-  url("/assets/GT-Pressura-Mono-Light-2fc41e7ca5227700993d26afcd87f1e84961ef0ffc87cd4f8f0d6a6bb8321fd0.ttf")  format("truetype"),
-  url("/assets/GT-Pressura-Mono-Light-092e8f7ef068293bce1bde9e38a41396c909204a61e6257cb1c7329da517e64e.eot")  format("eot");
-}
-@font-face {
-  font-family: "PressuraLightItalic";
-  src: url("/assets/GT-Pressura-Mono-Light-Italic-421ebb96d8d2deab01af849b30a607040fb78bdf06d3155235014730bb8b6897.woff") format("woff"),
-  url("/assets/GT-Pressura-Mono-Light-Italic-94d04ad1958b4249d4011570daa9003bce563320aa8b246226557eb500d79e44.ttf")  format("truetype"),
-  url("/assets/GT-Pressura-Mono-Light-Italic-a330c9827c7ad285d7957c64af97677222ab601648c1c9cad9a6b031c9ac7d97.eot")  format("eot");
-}
-@font-face {
-  font-family: "Pressura";
-  src: url("/assets/GT-Pressura-Mono-Regular-5879e653ec677e862e6a33ba04d10e6994f7435384054a02e95fc7f18e99dcc1.woff") format("woff"),
-  url("/assets/GT-Pressura-Mono-Regular-c2bce89de1d7379823e3aa302f0c451a46e1b32ac717e31cddf4f7007e047e77.ttf") format("truetype"),
-  url("/assets/GT-Pressura-Mono-Regular-183da9c40ab401f6e00ecb40ffbaacb53b4648a4c5bf24f4077a7c62032cb4f9.eot")  format("eot");
-}
-@font-face {
-  font-family: "GTPressuraMono";
-  src: url("/assets/GT-Pressura-Mono-Regular-5879e653ec677e862e6a33ba04d10e6994f7435384054a02e95fc7f18e99dcc1.woff") format("woff"),
-  url("/assets/GT-Pressura-Mono-Regular-c2bce89de1d7379823e3aa302f0c451a46e1b32ac717e31cddf4f7007e047e77.ttf") format("truetype"),
-  url("/assets/GT-Pressura-Mono-Regular-183da9c40ab401f6e00ecb40ffbaacb53b4648a4c5bf24f4077a7c62032cb4f9.eot")  format("eot");
-}
-@font-face {
-  font-family: "PressuraItalic";
-  src: url("/assets/GT-Pressura-Mono-Regular-Italic-1892a168a84718e57412313e9ce03eb6352af4ae6c67a8ac6ce41f984a350a43.woff") format("woff"),
-  url("/assets/GT-Pressura-Mono-Regular-Italic-e16c840e863c77d40988021e3e90dfb1319e057e5db07953596ece0c0fbe2f96.ttf") format("truetype"),
-  url("/assets/GT-Pressura-Mono-Regular-Italic-8138d27b7502996b25aac073a752ca5566296758913e59ade3ae4d8669052b34.eot")  format("eot");
-}
-@font-face {
-  font-family: "PressuraBold";
-  src: url("/assets/GT-Pressura-Bold-0a4d464ab426c9a8ed039574932edf617f62cd0e7588a655700453d66d3c7cc6.woff") format("woff"),
-  url("/assets/GT-Pressura-Bold-f27c6e241851891dc299ec24fa988a307d613874990ac31630d1284fa4d36814.woff2")  format("woff2"),
-  url("/assets/GT-Pressura-Bold-50f9836138d3b735b77a7a85d93fc83aa47cdfac53ad25a2c9bf5651db338484.ttf")  format("truetype"),
-  url("/assets/GT-Pressura-Bold-661b2a4143ad746aee81f8718f4565e03970418e17a199b79f1cf2de50b1ecaa.eot")  format("eot");
-}
-@font-face {
-  font-family: "Miller";
-  src: url("/assets/51c73f94-824c-4ef7-afa2-8b9f1573c336-3-ab6df46a5fd4e7a58bd54dbc2bdb5a9988f45e8d1e675b7c0f609e342efce9ab.woff") format("woff"),
-  url("/assets/51c73f94-824c-4ef7-afa2-8b9f1573c336-1-4f6992c10e03104b13545029ce8fee388093001a68e6100c96ac1277d582f267.ttf") format("truetype"),
-  url("/assets/51c73f94-824c-4ef7-afa2-8b9f1573c336-2-150dc66658a4d09460be191baf26142d43ebfafca41a328974c87bfc8a1e491c.eot") format("eot");
-}
-@font-face {
-  font-family: "MillerBold";
-  src: url("/assets/e72a4c9d-ac2d-4477-9859-2fa8ecef8ee3-3-680b04abe52cd3af5d19173dac0921c912e34eccbb013b6fa538126af46a3bfe.woff") format("woff"),
-  url("/assets/e72a4c9d-ac2d-4477-9859-2fa8ecef8ee3-1-7234f752cd17dd0f503a2cb1ff3336d8c785ae1d44bb1c4b4fec0c5af6563292.ttf") format("truetype"),
-  url("/assets/e72a4c9d-ac2d-4477-9859-2fa8ecef8ee3-2-12efabc88f86cf1e36d0c59dd9415215564b334ad860778c26cdf73de0548031.eot") format("eot");
-}
-@font-face {
-  font-family: "MillerItalic";
-  src: url("/assets/3ef8a749-0910-4ca2-ba14-c4a1070680aa-3-1facc41b2e3f250867b112606fe4213c658a6e59b5b2aea9debc0dffae966c18.woff") format("woff"),
-  url("/assets/3ef8a749-0910-4ca2-ba14-c4a1070680aa-1-af396c05d064f262eee8b59e13776016e017417d5fcca67a65729a4d6fe425a5.ttf") format("truetype"),
-  url("/assets/3ef8a749-0910-4ca2-ba14-c4a1070680aa-2-ca5af5c02a9a9485d94e324287aeb46bc82d125b4c2f18034bf7f96b0ef3099f.eot") format("eot");
-}
-</style>
-<!-- end SYNC font -->
-
-
-
-
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="The Marshall Project">
-  <meta property="article:publisher" content="https://www.facebook.com/TheMarshallProject.org">
-  <meta property="fb:pages" content="1442785962603494" />
-  <meta property="og:url" content="https://www.themarshallproject.org/2020/04/08/trump-administration-tells-some-business-owners-do-not-apply-for-coronavirus-loans">
-  <meta property="og:title" content="Trump Administration Tells Some Business Owners “Do Not Apply” for Coronavirus Loans">
-  <meta property="og:description" content="SBA says people with criminal records aren&amp;#39;t eligible for some emergency loans, even though experts say the law doesn&amp;#39;t exclude them.">
-  <meta property="og:image" content="https://d1n0c1ufntxbvh.cloudfront.net/photo/a4b89d51/55262/1200x/">
-  <meta property="og:image:url" content="https://d1n0c1ufntxbvh.cloudfront.net/photo/a4b89d51/55262/1200x/">
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@MarshallProj">
-  <meta name="twitter:title" content="Trump Administration Tells Some Business Owners “Do Not Apply” for Coronavirus Loans">
-  <meta name="twitter:description" content="SBA says people with criminal records aren&amp;#39;t eligible for some emergency loans, even though experts say the law doesn&amp;#39;t exclude them.">
-  <meta name="twitter:image" content="https://d1n0c1ufntxbvh.cloudfront.net/photo/a4b89d51/55262/1200x/">
-
-  <meta name="article:published_time" content="2020-04-08T10:00:00Z"><!-- iso8601 -->
-  <meta name="article:modified_time"  content="2020-04-08T10:00:00Z"><!-- iso8601 -->
-
-
-  <meta itemprop="name" content="Coronavirus Small Business Loans Exclude People With Criminal Records">
-  <meta itemprop="description" content="SBA says people with criminal records aren't eligible for some emergency loans, even though experts say the law doesn't exclude them.">
-  <meta itemprop="image" content="https://d1n0c1ufntxbvh.cloudfront.net/photo/a4b89d51/55262/1200x/">
-
-  <script type="application/ld+json">
-    {
-  "@context": "http://schema.org",
-  "@type": "NewsArticle",
-  "url": "https://www.themarshallproject.org/2020/04/08/trump-administration-tells-some-business-owners-do-not-apply-for-coronavirus-loans",
-  "headline": "Coronavirus Small Business Loans Exclude People With Criminal Records",
-  "alternativeHeadline": "Trump Administration Tells Some Business Owners “Do Not Apply” for Coronavirus Loans",
-  "thumbnailUrl": "https://d1n0c1ufntxbvh.cloudfront.net/photo/a4b89d51/55262/1200x/",
-  "image": "https://d1n0c1ufntxbvh.cloudfront.net/photo/a4b89d51/55262/1200x/",
-  "articleSection": "Coronavirus",
-  "datePublished": "2020-04-08T06:00:00-04:00",
-  "dateModified": "2020-04-08T06:00:00-04:00",
-  "description": "SBA says people with criminal records aren't eligible for some emergency loans, even though experts say the law doesn't exclude them.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "The Marshall Project",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://dw9zmd5y2p1va.cloudfront.net/TheMarshallProject_Logo_Primary_TrueBlack.png"
-    }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.themarshallproject.org/2020/04/08/trump-administration-tells-some-business-owners-do-not-apply-for-coronavirus-loans"
-  },
-  "author": [
-    {
-      "@type": "Person",
-      "name": "Eli Hager"
-    }
-  ]
-}
-  </script>
-
-
-
-
-
-<script>
-window.endrun_config = {
-  post_id: "2174",
-  path: "/2020/04/08/trump-administration-tells-some-business-owners-do-not-apply-for-coronavirus-loans",
-  template: "public#post",
-  lovestory_zero_endpoint: "https://lovestory.herokuapp.com/api/v2/boot",
-  lovestory_url: "https://d18glvfsbyiquw.cloudfront.net/i.gif",
-  lovestory_ws: "https://lovestory-ws.herokuapp.com",
-  lovestory_rt: "https://lovestory-rt.herokuapp.com/i.gif",
-  lovestory_bq: "https://secure-escarpment-2707.herokuapp.com",
-  lovestory_si: "https://d1ce9cuexq46rp.cloudfront.net",
-  env: "production"
-}
-window.stream_config = {
-  except_posts: []
-}
-window.$mcGoal = {'settings':{'uuid':'a92567c13cca06b470824aead','dc':'us3'}};
-window.stream_config.is_post_hottub = true;
-window.stream_config.featured_block_config = "";
-
-
-window.TMPBootstrapData = {"csrfToken":"N6OGF7Aje6pdfHKM4c/HBlExQl7wHuuXDujnU1YVUWwbZlQ0sx1yID8HI+277VfiWcFAAkzQuGkMNeyDo6xq0g==","newsletters":[{"name":"Opening Statement","frequency":"Daily","segment_id":41889,"interest_id":"695669d4dc","default_subscribe":true,"default_donate":true,"short_description":"Daily news and opinion about criminal justice","description":"A must-read on criminal justice.","tagline":"Daily news and opinion","class_name":"Newsletter","id":"os"},{"name":"Closing Argument","frequency":"Weekly","segment_id":43865,"interest_id":"d982034176","default_subscribe":true,"default_donate":true,"short_description":"A weekly roundup of top stories from the web","description":"Our biggest stories, plus the best of the rest.","tagline":"Week in review","class_name":"WeeklyNewsletter","id":"ca"},{"name":"President's Brief","frequency":"Biweekly","segment_id":41893,"interest_id":"c62ce45b9c","default_subscribe":false,"default_donate":true,"short_description":"New and notable Marshall Project stories","description":"Stay up to date on all things Marshall Project.","tagline":"The story behind our stories","sample_email":"https://mailchi.mp/themarshallproject/the-presidents-brief-signing-away-their-future","id":"pb"},{"name":"Life Inside","frequency":"Weekly","segment_id":44225,"interest_id":"c43a1d8ffc","default_subscribe":false,"default_donate":true,"description":"Hear from the people in the system.","short_description":"Essays from people involved in the system","tagline":"Voices from the system","class_name":"LifeInsideEmail","id":"li"}],"stream_config":{"next_key":"stream-page/PostStreamGenerator:2174/1","initial_key":"stream-page/PostStreamGenerator:2174/0","lazy":true}}
+  window.privDisableCSSInjection = 'true';
+  window.privLanguage = 'EN';
 </script>
 
-</head>
-<body class="base">
+<script type="text/javascript" src="//tags.aljazeera.com/aljazeera/english/Bootstrap.js"></script>
 
-<header class="header-v2">
-  <div tabindex=0 class="header-menu-trigger">
-    <a tabindex="-1" class="header-menu-button" href="#"><span></span></a>
-  </div>
-  <div class="header-logo">
-    <a href="/?ref=nav">
-      <svg class="tmp-logo" aria-labelledby="tmp-logo-title" aria-role="image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 47.68">
-  <defs>
+<script type='text/javascript'>var _sf_startpt=(new Date()).getTime()</script>
+<script src="/assets/scripts/jquery-1.11.1.min.js?i=1"></script>
+
+<script src="/assets/scripts/brightcove.js?x=163" type="text/javascript"></script>
+<script src="/assets/scripts/ArticleSiteScripts.js?x=194" type="text/javascript" async></script>  
+<script src="/assets/scripts/SocialSharePlugin.js?x=35" async></script>
+ 
+<script src="/assets/scripts/prebid.js?x=3" type="text/javascript" async></script>
+<script src="//mtrx.go.sonobi.com/morpheus.aljazeera.1667.js" type="text/javascript" async></script>
+<script src="/assets/scripts/article-adsscript.js?x=23" type="text/javascript"></script>  
+
+    <link href="/assets/styles/bootstrap-min.css" rel="stylesheet" />  
+    <link href="/assets/styles/firefox-hack.css" rel="stylesheet">
+    <link href="/assets/styles/bs-custom-article-style.css?x=82" rel="stylesheet">
+    <link href="/assets/styles/old-stories-styles-fixes.css?x=7" rel="stylesheet"> 
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
     <style>
-      .logo-fill {
-        fill: #fff;
-      }
+    body {
+        background: #FCFCFC;
+    } 
+	
     </style>
-  </defs>
-  <title id="tmp-logo-title">The Marshall Project</title>
-  <g>
-    <g>
-      <path class="logo-fill" d="M63.55,42.94l0-37.39H57.14V2.31H73.4V5.55H67l0,37.39Z" transform="translate(-3.29 -1.6)"/>
-      <path class="logo-fill" d="M76.53,1.71h3.31V13.9c1.68-1.39,3.3-2.5,5.74-2.5h.18c3.48,0,5.22,1.91,5.22,5.34l0,26.18H87.7V17.38c0-1.92-1-2.84-2.91-2.84h-.06c-1.56,0-3,.58-4.87,2V42.93h-3.3Z" transform="translate(-3.29 -1.6)"/>
-      <path class="logo-fill" d="M98.84,28.63v8c0,2.32,1.17,3.48,3.55,3.48h.69c2.32,0,3.54-1.17,3.54-3.49V33h3.25v3.48c0,4.47-2.32,6.8-6.79,6.8h-.81c-4.53,0-6.79-2.32-6.79-6.79l0-18.28c0-4.47,2.26-6.8,6.79-6.8h.81c4.47,0,6.8,2.32,6.8,6.79V28.63Zm0-3.19h7.66V18.06c0-2.32-1.16-3.54-3.48-3.53h-.64c-2.38,0-3.54,1.22-3.54,3.54Z" transform="translate(-3.29 -1.6)"/>
-      <path class="logo-fill" d="M124.71,8.36l.19,26.41V42.9H121.6l0-40.63h5.11l6.7,34.48L140,2.25h5.05l0,40.63h-3.42V34.64l.1-26.29L135,42.89h-3.42Z" transform="translate(-3.29 -1.6)"/>
-      <path class="logo-fill" d="M149.75,32.2c0-3.6,1.27-5.11,4.64-6.39l6.15-2.27V17.8c0-2.15-1.11-3.31-3.37-3.31h-.41c-2.26,0-3.42,1.17-3.42,3.31v4h-3.25V17.92c0-4.29,2.26-6.56,6.67-6.56h.46c4.41,0,6.62,2.26,6.62,6.55l0,25h-3.31V40.79c-1.62,1.33-3.25,2.44-5.63,2.44h-.12c-3.36,0-5.05-1.86-5.05-5.28Zm10.8,6V26.68l-4.76,1.8c-2,.82-2.67,1.75-2.67,3.78v5.05A2.4,2.4,0,0,0,155.85,40h.06C157.36,40,158.69,39.45,160.55,38.23Z" transform="translate(-3.29 -1.6)"/>
-      <path class="logo-fill" d="M168.6,11.7h3.31v3.13c1.39-2.26,2.9-3.37,5.34-3.43v3.77a7.71,7.71,0,0,0-5.34,2.27l0,25.43h-3.31Z" transform="translate(-3.29 -1.6)"/>
-      <path class="logo-fill" d="M190.43,17.6c0-2.09-1.05-3.19-3.31-3.19h-.82c-2.2,0-3.3,1.11-3.3,3.2v2.84A3.68,3.68,0,0,0,185,24l5.28,3.25c2.5,1.57,3.54,3.13,3.55,6.09v3.31c0,4.24-2.2,6.56-6.62,6.57h-.92c-4.42,0-6.57-2.32-6.57-6.5V32H183v5c0,2.09,1.11,3.13,3.31,3.13h1c2.21,0,3.25-1,3.25-3.13v-3.2a3.62,3.62,0,0,0-2-3.48L183.24,27c-2.44-1.57-3.49-3.08-3.49-6.1v-3c0-4.29,2.14-6.56,6.61-6.56h.81c4.42,0,6.51,2.26,6.51,6.49v4.53h-3.25Z" transform="translate(-3.29 -1.6)"/>
-      <path class="logo-fill" d="M198.31,1.64h3.31V13.82c1.68-1.39,3.31-2.49,5.75-2.5h.17c3.48,0,5.22,1.92,5.23,5.34V42.84h-3.3l0-25.54c0-1.91-1-2.84-2.91-2.84h-.05c-1.57,0-3,.58-4.88,2l0,26.41h-3.31Z" transform="translate(-3.29 -1.6)"/>
-      <path class="logo-fill" d="M217.08,32.16c0-3.6,1.28-5.11,4.64-6.39l6.15-2.27V17.76c0-2.15-1.11-3.31-3.37-3.31h-.41c-2.26,0-3.42,1.16-3.42,3.31v4h-3.25V17.88c0-4.3,2.26-6.56,6.67-6.57h.47c4.41,0,6.62,2.26,6.62,6.56v25h-3.3V40.74a8.53,8.53,0,0,1-5.63,2.45h-.11c-3.37,0-5-1.86-5.06-5.29Zm10.8,6V26.64l-4.75,1.8c-2,.81-2.67,1.74-2.67,3.77v5A2.41,2.41,0,0,0,223.18,40h.06C224.69,40,226,39.41,227.88,38.19Z" transform="translate(-3.29 -1.6)"/>
-      <path class="logo-fill" d="M236,1.61h3.37l0,41.22h-3.37Z" transform="translate(-3.29 -1.6)"/>
-      <path class="logo-fill" d="M244.52,1.61h3.36l0,41.22h-3.37Z" transform="translate(-3.29 -1.6)"/>
-      <path class="logo-fill" d="M263.58,42.81H260.1l0-40.63h7.38c4.76,0,7.31,2.38,7.32,7.08V19.7c0,4.88-2.49,7.31-7.36,7.32h-3.84Zm3.75-37.39h-3.77v18.4h3.72c2.67,0,4-1.34,4-4V9.08C271.28,6.58,269.89,5.42,267.33,5.42Z" transform="translate(-3.29 -1.6)"/>
-      <path class="logo-fill" d="M279,11.63h3.3v3.14c1.39-2.27,2.9-3.37,5.34-3.43V15.1a7.71,7.71,0,0,0-5.34,2.27V42.8H279Z" transform="translate(-3.29 -1.6)"/>
-      <path class="logo-fill" d="M297,43.14c-4.53,0-6.79-2.32-6.8-6.79V18.06q0-6.78,6.79-6.79h1.22c4.47,0,6.73,2.26,6.74,6.78V36.34c0,4.47-2.26,6.79-6.73,6.8Zm0-28.74c-2.32,0-3.48,1.17-3.48,3.54V36.46c0,2.38,1.16,3.49,3.49,3.48h1.1c2.32,0,3.48-1.1,3.48-3.48V17.94c0-2.38-1.16-3.54-3.49-3.54Z" transform="translate(-3.29 -1.6)"/>
-      <path class="logo-fill" d="M313.16,43.88c0,3.6-1.51,5.4-5.11,5.4h-.64V46.21h.17c1.63,0,2.21-.82,2.21-2.44l0-32.16h3.37Zm-3.45-40.4h3.48V7.89h-3.48Z" transform="translate(-3.29 -1.6)"/>
-      <path class="logo-fill" d="M321.21,28.49v8c0,2.32,1.16,3.48,3.54,3.48h.7c2.32,0,3.54-1.17,3.54-3.49v-3.6h3.25v3.48c0,4.47-2.32,6.8-6.79,6.8h-.81c-4.53,0-6.79-2.32-6.8-6.79V18.05c0-4.47,2.26-6.8,6.79-6.8h.81c4.47,0,6.79,2.32,6.8,6.79V28.48Zm0-3.19h7.66V17.92c0-2.32-1.16-3.54-3.49-3.54h-.63c-2.38,0-3.54,1.23-3.54,3.55Z" transform="translate(-3.29 -1.6)"/>
-      <path class="logo-fill" d="M347.62,17.91c0-2.38-1.16-3.54-3.49-3.54h-.81c-2.32,0-3.48,1.17-3.48,3.54V36.43c0,2.38,1.17,3.49,3.49,3.48h.87c2.32,0,3.48-1.1,3.48-3.48V30.51H351v5.81c0,4.47-2.26,6.79-6.73,6.8h-1c-4.53,0-6.79-2.32-6.79-6.79l0-18.29q0-6.78,6.79-6.79h1c4.47,0,6.68,2.26,6.68,6.67v4.93h-3.31Z" transform="translate(-3.29 -1.6)"/>
-      <path class="logo-fill" d="M359.71,42.75h-3.37l0-28.1h-2.26V11.58h2.26V6.35h3.37v5.23h3.6v3.08h-3.6Z" transform="translate(-3.29 -1.6)"/>
-    </g>
-    <g>
-      <polygon class="logo-fill" points="10.86 11.49 10.86 41.34 13.57 41.34 13.57 14.2 10.86 11.49"/>
-      <polygon class="logo-fill" points="0 0.63 0 41.34 2.71 41.34 2.71 3.35 0 0.63"/>
-      <polygon class="logo-fill" points="5.43 6.06 5.43 41.34 8.14 41.34 8.14 8.77 5.43 6.06"/>
-      <polygon class="logo-fill" points="16.28 16.91 16.28 41.34 19 41.34 19 19.63 16.28 16.91"/>
-      <polygon class="logo-fill" points="27.14 14.2 27.14 41.34 29.85 41.34 29.85 11.49 27.14 14.2"/>
-      <polygon class="logo-fill" points="37.99 3.35 37.99 41.34 40.71 41.34 40.71 0.63 37.99 3.35"/>
-      <polygon class="logo-fill" points="32.56 8.77 32.56 41.34 35.28 41.34 35.28 6.06 32.56 8.77"/>
-      <polygon class="logo-fill" points="21.71 19.63 21.71 41.34 24.42 41.34 24.42 16.91 21.71 19.63"/>
-    </g>
-  </g>
-</svg>
-
-    </a>
-    <div class="header-tagline">
-      Nonprofit journalism about criminal justice
-    </div>
-  </div>
-
-  <div class="header-items">
-
-    <a href="/search?via=navright">Search</a>
-
-    <a href="/about?via=navright">About</a>
-
-    <a class="header-donate-button" href="/donate?via=navright">Donate</a>
-
-    <a href="https://bit.ly/fbmp-topnav" class="header-link">
-      <svg version="1.1" id="Layer_1" width="20px" height="20px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve"><g><path style="fill:#FFFFFF;" d="M5.17,10.46C5.168,9.649,5.159,8.838,5.171,8.027C5.18,7.459,5.128,6.949,4.375,6.988c-0.948,0.048-0.96-0.564-0.956-1.257c0.003-0.641,0.043-1.161,0.894-1.13c1.183,0.044,0.806-0.886,0.862-1.494c0.228-2.444,0.965-3.124,3.433-3.097c0.685,0.008,1.424-0.141,1.391,0.985c-0.024,0.821,0.007,1.492-1.133,1.415c-0.83-0.056-1.023,0.506-1.032,1.256C7.824,4.48,8.234,4.638,8.917,4.616c0.513-0.017,1.165-0.064,0.975,0.766C9.756,5.98,10.086,6.979,9,6.948C7.887,6.916,7.813,7.51,7.835,8.362c0.038,1.505-0.031,3.014,0.021,4.518c0.036,1.045-0.588,1.074-1.343,1.07c-0.743-0.003-1.415-0.002-1.351-1.058C5.212,12.084,5.173,11.271,5.17,10.46z"/></g></svg>
-    </a>
-    <a href="https://bit.ly/twittermp-topnav" class="header-link">
-      <svg version="1.1" width="20px" height="20px" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-   viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve"><g><path fill="#111111" d="M1.2,16.9c1.9-0.2,3.4-0.4,5.1-1.8c-3.2-0.2-3.3-3.2-3.9-4.9C1.7,8.4,0.7,5.8,2,3.3
-    c1.9,1.8,3.9,3.2,6.2,3.8c1.3,0.3,2,0.4,2.3-1.4c0.4-2.7,3-3.9,5.5-2.9c0.7,0.3,1.3,0.7,2.3,0.7c1.1,0,1.8,1.2,1,2.1
-    c-0.8,0.9-0.9,1.9-1,2.9C17.4,16.6,8.5,21.2,1.2,16.9z"/></g></svg>
-    </a>
-  </div>
-
-</header>
 
 
-<div class="menu-wrapper menu-hidden">
-  <div class="mobile-only menu-section explanation-section">
-    A nonprofit news organization covering the U.S. criminal justice system
-  </div>
-  <div class="menu-section search-section menu-search-js">
-    <div class="menu-section-heading">
-      <span class="search-text">Search</span>
-      <input type="text" class="menu-search-input">
-      <div tabindex=0 aria-role="button" class="menu-search-button">
-        <div class="magnifying-glass-icon">
-  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 18.1 18.1" style="enable-background:new 0 0 18.1 18.1;" xml:space="preserve">
-    <g>
-    <line class="magnifying-glass-handle" x1="1.8" y1="16.2" x2="6.3" y2="11.6"/>
-    <circle class="magnifying-glass-lens" cx="10" cy="8" r="5.3"/>
-    </g>
-  </svg>
-</div>
+<!-- BS News Articles Header --> 
+<meta name="twitter:site" content="@AJENews" /> 
+<script src="/assets/scripts/infinite-scroll-pkgd.js" defer></script>
+<link href="/assets/styles/bs-content-onscroll-style.css?x=5" rel="stylesheet">
 
-      </div>
-    </div>
-  </div>
-  <div class="menu-section projects-section">
-    <div class="menu-section-left">
-      <div class="menu-section-heading">
-        Projects
-      </div>
-    </div>
-    <div class="menu-section-right">
-      <div class="menu-item">
-        <a class="menu-item-link" href="/tag/life-inside">Life Inside</a>
-      </div>
-      <div class="menu-item">
-        <a class="menu-item-link" href="/tag/news-inside">News Inside</a>
-      </div>
-      <div class="menu-item">
-        <a class="menu-item-link" href="/next-to-die">The Next to Die</a>
-      </div>
-      <div class="menu-item">
-        <a class="menu-item-link" href="/records">The Record</a>
-      </div>
-      <div class="menu-item">
-        <a class="menu-item-link" href="/tag/election-2020">Election 2020</a>
-      </div>
-      <div class="menu-item">
-        <a class="menu-item-link" href="/we-are-witnesses">We Are Witnesses</a>
-      </div>
-    </div>
-  </div>
-  <div class="menu-section topics-section">
-    <div class="menu-section-left">
-      <div class="menu-section-heading">
-        Topics
-      </div>
-    </div>
-    <div class="menu-section-right">
-      <div class="menu-item">
-        <a class="menu-item-link" href="/coronavirus">Coronavirus</a>
-      </div>
-      <div class="menu-item">
-        <a class="menu-item-link" href="/tag/regional-reporting">Regional Reporting</a>
-      </div>
-      <div class="menu-item">
-        <a class="menu-item-link" href="/records/4-death-penalty">Death Penalty</a>
-      </div>
-      <div class="menu-item">
-        <a class="menu-item-link" href="/records/31-immigration">Immigration</a>
-      </div>
-      <div class="menu-item">
-        <a class="menu-item-link" href="/records/2-juvenile-justice">Juvenile Justice</a>
-      </div>
-      <div class="menu-item">
-        <a class="menu-item-link" href="/records/42-mental-health">Mental Health</a>
-      </div>
-      <div class="menu-item">
-        <a class="menu-item-link" href="/records/48-policing">Policing</a>
-      </div>
-      <div class="menu-item">
-        <a class="menu-item-link" href="/records/611-politics-of-criminal-justice">Politics and Reform</a>
-      </div>
-      <div class="menu-item">
-        <a class="menu-item-link" href="/records/411-race">Race</a>
-      </div>
-    </div>
-  </div>
-  <div class="menu-section about-section">
-    <div class="menu-section-left">
-      <div class="menu-section-heading">
-        About
-      </div>
-    </div>
-    <div class="menu-section-right">
-      <div class="menu-item menu-links">
-        <a class="menu-item-link" href="/about">About Us</a>
-      </div>
-      <div class="menu-item">
-        <a class="menu-item-link" href="/tag/news-and-awards">News & Awards</a>
-      </div>
-      <div class="menu-item">
-        <a class="menu-item-link" href="/people">People</a>
-      </div>
-      <div class="menu-item">
-        <a class="menu-item-link" href="/funders">Supporters</a>
-      </div>
-      <div class="menu-item">
-        <a class="menu-item-link" href="/jobs">Jobs</a>
-      </div>
-    </div>
-  </div>
-  <div class="menu-section menu-section-single">
-    <div class="menu-section-heading">
-      <a class="menu-item-link" href="/subscribe">Newsletters</a>
-    </div>
-  </div>
-  <div class="menu-section menu-section-single">
-    <div class="menu-section-heading">
-      <a class="menu-item-link" href="/events">Events</a>
-    </div>
-  </div>
-  <div class="menu-section menu-section-single">
-    <div class="menu-section-heading">
-      <a class="menu-item-link menu-item-red" href="/donate?via=menu">Donate</a>
-    </div>
-  </div>
-  <div class="menu-section feedback-section">
-    Feedback?
-    <svg class="svg-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><polyline class="arrow-line" points="5.69 0 11.75 6 5.69 12"></polyline><line class="arrow-line" x1="11.75" y1="6.03" x2="-0.25" y2="6.03"></line></svg>
 
-    <a class="feedback-link" href="mailto:support@themarshallproject.org">support@themarshallproject.org</a>
+ 
+    
+  
+    </head>
+<body>
+    <form id='disrupted-Russian-trolls-day-November-election-report-190226175659275' name='disrupted-Russian-trolls-day-November-election-report-190226175659275' method='post'>    
+    
+    
+     
+ 
+        <!-- important tag dont remove(used to carry page context.....) -->
+        <input type="hidden" id="oryxcontext" value="B8C906090FB19032EA03A7D3B8D5B5D75B658B4247EBBB0523EFC3781325179755D4E79C0F25FA3A1B9C31BA6B5106846A570C393606B1F4364B1DA3254F497A7579B4F4FD7C41CD2AFEEA0845FF7D43D7DA7D274D5D8FCCB20D0642E8AB90E33595F3233782077D0166869DDA8AAC730AFEEDBDF345569B77C095DD20CE63C28FE6021E0852AAA7B0686888EE6E9BA0A2B5D147B0581594A402C11C884992CA586A10FC638CE0115F9C7A7A4E7976E143D70797C943501274C239DCEB7BD00031A7C7BCFDF0C71C54F4C299968A0EB68941CC5F62188239E578975B26CA24EAED7275108CC59E0394C180CDC273C6F1DE9055BAC0CD6E88C0696036BFB7FEED14B0D49977AC1208320D5AB0969A30EC69CBA972E31F49FEC0618576B8EF1194EAE520638F10511C9F71D66760999541CFC7B3906091A973B808B7DCB941902B" data-postingguid="190226175659275">      
+
+<!-- googleoff: index -->
+
+        <!-- top adv -->
+        <div id="topadv" class="top-adv">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 top-adv-wrapper" id="topdivad">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!-- / top adv -->
+      
+       <!-- breaking news -->
+   <div id="header_container" style="display: none;">
+   		<div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul id="js-news" class="js-hidden">
+                    </ul>
+                </div>
+            </div>
+        </div>
+	  </div>
+       <!-- /breaking news -->
+      
+
+       <!-- desktop site header -->
+       <div id="article-main-header" class="animated article-main-header article-main-header-scroll">
+         <div><div><div style="border-style:none"><div class="container" xmlns:media="http://search.yahoo.com/mrss/">
+  <div class="row">
+    <div class="col-sm-9 navigation-block">
+      <div class="navigation">
+        <div class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header"><button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="/"><img class="article-main-header-logo" alt="" src="/assets/images/aj-logo-sm-2.png"><img class="article-main-header-logo-Big" alt="" src="/assets/images/aj-logo-lg-124.png"><img class="logo-sticky" alt="" src="/assets/images/AljazeeraLogo.png" style="display: none;"></a></div>
+            <div class="navigation-wrapper">
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <div class="form-search nav-form-search"></div>
+                  <li data-guid="171025111604759" class="nav-item-171025111604759"><a href="/" target="_self">Home </a></li>
+                  <li data-guid="161023134902510" class="dropdown menu-large"><a class="dropdown-toggle" data-toggle="dropdown" href="/news/">News <b class="caret"></b></a><ul class="dropdown-menu megamenu row">
+                      <li class="col-sm-4">
+                        <ul>
+                          <li data-guid="190522112437059"><a href="/ajimpact/">AJ Impact</a></li>
+                          <li data-guid="140311071122120"><a href="/topics/regions/middleeast.html">Middle East</a></li>
+                          <li data-guid="131113081710422"><a href="/topics/regions/africa.html">Africa</a></li>
+                          <li data-guid="131112142029837"><a href="/topics/regions/asia.html">Asia</a></li>
+                          <li data-guid="140311071220644"><a href="/topics/regions/us-canada.html">US &amp; Canada</a></li>
+                          <li data-guid="131113111908681"><a href="/topics/regions/latin-america.html">Latin America</a></li>
+                          <li data-guid="131113084937332"><a href="/topics/regions/europe.html">Europe</a></li>
+                          <li data-guid="140311071939629"><a href="/topics/regions/asia-pacific.html">Asia Pacific</a></li>
+                          <li data-guid="170926095124731"><a href="/news" target="_self">All</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li data-guid="190522112437059" class="nav-item-190522112437059"><a href="/ajimpact/">AJ Impact </a></li>
+                  <li data-guid="191031154237737" class="dropdown menu-large"><a class="dropdown-toggle" data-toggle="dropdown" href="/go/">AJ Go <b class="caret"></b></a><ul class="dropdown-menu megamenu row">
+                      <li class="col-sm-4">
+                        <ul>
+                          <li data-guid="191029131141040"><a href="/programmes/start-here/">Start Here</a></li>
+                          <li data-guid="191029131529059"><a href="/programmes/aj-close-up/">Al Jazeera Close Up</a></li>
+                          <li data-guid="191029130618583"><a href="/programmes/fork-the-system/">Fork the System</a></li>
+                          <li data-guid="191029131809245"><a href="/programmes/all-hail-the-algorithm/">All Hail the Algorithm</a></li>
+                          <li data-guid="191029131859808"><a href="/programmes/media-theorised/">Media Theorised</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li data-guid="161016132227401" class="dropdown menu-large"><a class="dropdown-toggle" data-toggle="dropdown" href="/documentaries/">Documentaries <b class="caret"></b></a><ul class="dropdown-menu megamenu row">
+                      <li class="col-sm-4">
+                        <ul>
+                          <li data-guid="140309125006070"><a href="/programmes/specialseries/">Featured Documentaries</a></li>
+                          <li data-guid="140309124146566"><a href="/programmes/witness/">Witness</a></li>
+                          <li data-guid="140309100922773"><a href="/programmes/aljazeeraworld/">Al Jazeera World</a></li>
+                          <li data-guid="140309083414124"><a href="/programmes/101east/">101 East</a></li>
+                          <li data-guid="140309103232322"><a href="/programmes/peopleandpower/">People &amp; Power</a></li>
+                          <li data-guid="140309101835880"><a href="/programmes/faultlines/">Fault Lines</a></li>
+                          <li data-guid="191031115629262"><a href="/programmes/whose-truth-is-it-anyway/truth.html">Whose Truth Is It Anyway?</a></li>
+                          <li data-guid="190827092247220"><a href="/programmes/my-ethiopia/">My Ethiopia</a></li>
+                          <li data-guid="181105074517308"><a href="/programmes/radicalised-youth/radicalised-youth.html">Radicalised Youth</a></li>
+                          <li data-guid="140309100153551"><a href="/programmes/aljazeeracorrespondent/">Al Jazeera Correspondent</a></li>
+                          <li data-guid="180816101727275"><a href="/programmes/this-is-europe/">This is Europe </a></li>
+                          <li data-guid="170702220310988"><a href="/programmes/aljazeera-selects/">Al Jazeera Selects </a></li>
+                          <li data-guid="160905084557919"><a href="/programmes/rewind/">REWIND</a></li>
+                          <li data-guid="161019084747265"><a href="/documentaries/">All</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li data-guid="140204094724441" class="dropdown menu-large"><a class="dropdown-toggle" data-toggle="dropdown" href="/programmes/">Shows <b class="caret"></b></a><ul class="dropdown-menu megamenu row">
+                      <li class="col-sm-4">
+                        <ul>
+                          <li data-guid="191113060753226"><a href="/programmes/studio-b-unscripted/">Studio B: Unscripted</a></li>
+                          <li data-guid="191022080123227"><a href="/programmes/the-bottom-line/">The Bottom Line</a></li>
+                          <li data-guid="140309102519696"><a href="/programmes/insidestory/">Inside Story</a></li>
+                          <li data-guid="190915083255528"><a href="/programmes/planet-sos/">Planet SOS</a></li>
+                          <li data-guid="140309124013095"><a href="/programmes/thestream/">The Stream</a></li>
+                          <li data-guid="140309102803328"><a href="/programmes/listeningpost/">The Listening Post</a></li>
+                          <li data-guid="140309123607662"><a href="/programmes/talktojazeera/">Talk to Al Jazeera</a></li>
+                          <li data-guid="140309100432009"><a href="/programmes/earthrise/">earthrise</a></li>
+                          <li data-guid="140309124802201"><a href="/programmes/headtohead/">Head to Head</a></li>
+                          <li data-guid="140309101519781"><a href="/programmes/countingthecost/">Counting the Cost</a></li>
+                          <li data-guid="150811112506260"><a href="/programmes/upfront/">UpFront</a></li>
+                          <li data-guid="170215082732680"><a href="/programmes/the-big-picture/">The Big Picture</a></li>
+                          <li data-guid="140309101636015"><a href="/programmes/empire/">Empire</a></li>
+                          <li data-guid="161019085813616"><a href="/programmes/" target="_self">All</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li data-guid="141105143951929" class="nav-item-141105143951929"><a href="/investigations/">Investigations </a></li>
+                  <li data-guid="181119115524858" class="nav-item-181119115524858"><a href="/indepth/opinion/">Opinion </a></li>
+                  <li data-guid="161017091647457" class="dropdown menu-large"><a class="dropdown-toggle" data-toggle="dropdown" href="#">More <b class="caret"></b></a><ul class="dropdown-menu megamenu row">
+                      <li class="col-sm-4">
+                        <ul>
+                          <li data-guid="191031154237737"><a href="/go/">AJ Go</a></li>
+                          <li data-guid="161027081630642"><a href="/indepth/features/">Features</a></li>
+                          <li data-guid="141105143951929"><a href="/investigations/">Investigations</a></li>
+                          <li data-guid="161027083327112"><a href="/indepth/inpictures/">In Pictures</a></li>
+                          <li data-guid="161027100258444"><a href="/indepth/interactive/">Interactive</a></li>
+                          <li data-guid="161019084958582"><a href="/indepth/interactive/documentaries/">Interactive Documentaries</a></li>
+                          <li data-guid="161115094809507"><a href="/shorts/">AJ Shorts</a></li>
+                          <li data-guid="170219130504928"><a href="/podcasts/">Podcasts</a></li>
+                          <li data-guid="161028145404792"><a href="/blogs/">Reporter's Notebook</a></li>
+                          <li data-guid="131112151343070"><a href="/topics/categories/human_rights.html">Human Rights</a></li>
+                          <li data-guid="131112152428605"><a href="/topics/categories/sport.html">Sport</a></li>
+                          <li data-guid="131112152215639"><a href="/topics/categories/science-and-technology.html">Science &amp; Technology</a></li>
+                          <li data-guid="140319114634577"><a href="/topics/categories/weather.html">Weather</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div><nav class="nav-homepage-topics nav-wide"><ul>
+                  <li id="NavTopTopics">TRENDING:</li>
+                  <li><a href="/topics/events/coronavirus-outbreak.html">Coronavirus pandemic</a></li>
+                  <li><a href="/topics/country/italy.html">Italy</a></li>
+                  <li><a href="/topics/country/china.html">China</a></li>
+                  <li><a href="/topics/country/united-states.html">United States</a></li>
+                  <li><a href="/topics/country/yemen.html">Yemen</a></li>
+                </ul></nav></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 search-live-block article-live-block">
+      <div class="search-btn-section">
+        <ul>
+          <li id="watchlive-active" class="watch-live-sticky"><a href="/live/"><span class="genericon genericon-video"></span><span class="watch-live--stickyWord">Live</span></a></li>
+          <li class="search-btn-top"><a href="javascript:void(0)" class="article-button-search-top-main"><span class="genericon genericon-search"></span></a></li>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-  <div class="post-top-email-signup email-onboard-container-wrapper post-lead-email-signup hidden">
-    <div class="container">
-      <div class="email-onboard email-onboard-fullbleed" data-placement="post-top" data-checkboxes="false"></div>
+<div class="form-wrapper-wrap" xmlns:media="http://search.yahoo.com/mrss/">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="form-wrapper"><input class="field-search search-field-main-header" id="searchText-main-header" placeholder="Search..." type="text"></div>
+      </div>
     </div>
   </div>
+</div></div></div><!--PageLoadedSucessfully--></div>
+       </div>
+       <!-- /desktop site header -->
 
+       <!-- mobile header -->
+       <div id="mobile-header" class="mobile-header mobile-header-article-main mobile-header-article-main-scroll">
+         <div><div><div style="border-style:none"><div class="col-sm-9" xmlns:media="http://search.yahoo.com/mrss/">
+  <div class="navbar navbar-default">
+    <div class="row">
+      <div class="navbar-header"><button id="ChangeToggleMobile" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><div id="navbar-hamburger-mobile"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></div>
+          <div id="navbar-close-mobile" class="hidden"><span class="genericon genericon-close-alt" title="genericon-close"></span></div></button><a class="navbar-brand" href="/"><img alt="" src="/assets/images/AljazeeraLogo.png"></a><div class="mobile-social-icons" id="mobile-share-icons"></div>
+      </div>
+      <div class="navbar-collapse collapse " aria-expanded="true" id="bs-example-navbar-collapse-2">
+        <ul class="nav navbar-nav main-menu-sticky">
+          <li class="search-mobile"><span class="genericon genericon-search"></span><input class="field-search" id="mobile-search-field" type="text" placeholder="Search"></li>
+          <li data-guid="171025111604759"><a href="/" target="_self">Home </a></li>
+          <li data-guid="161023134902510"><a class="dropdown-toggle" data-toggle="dropdown" href="/news/">News <b class="caret"></b></a><ul class="dropdown-menu  multi-level">
+              <li data-guid="190522112437059"><a href="/ajimpact/">AJ Impact</a></li>
+              <li data-guid="140311071122120"><a href="/topics/regions/middleeast.html">Middle East</a></li>
+              <li data-guid="131113081710422"><a href="/topics/regions/africa.html">Africa</a></li>
+              <li data-guid="131112142029837"><a href="/topics/regions/asia.html">Asia</a></li>
+              <li data-guid="140311071220644"><a href="/topics/regions/us-canada.html">US &amp; Canada</a></li>
+              <li data-guid="131113111908681"><a href="/topics/regions/latin-america.html">Latin America</a></li>
+              <li data-guid="131113084937332"><a href="/topics/regions/europe.html">Europe</a></li>
+              <li data-guid="140311071939629"><a href="/topics/regions/asia-pacific.html">Asia Pacific</a></li>
+              <li data-guid="170926095124731"><a href="/news" target="_self">All</a></li>
+            </ul>
+          </li>
+          <li data-guid="190522112437059"><a href="/ajimpact/">AJ Impact </a></li>
+          <li data-guid="191031154237737"><a class="dropdown-toggle" data-toggle="dropdown" href="/go/">AJ Go <b class="caret"></b></a><ul class="dropdown-menu  multi-level">
+              <li data-guid="191029131141040"><a href="/programmes/start-here/">Start Here</a></li>
+              <li data-guid="191029131529059"><a href="/programmes/aj-close-up/">Al Jazeera Close Up</a></li>
+              <li data-guid="191029130618583"><a href="/programmes/fork-the-system/">Fork the System</a></li>
+              <li data-guid="191029131809245"><a href="/programmes/all-hail-the-algorithm/">All Hail the Algorithm</a></li>
+              <li data-guid="191029131859808"><a href="/programmes/media-theorised/">Media Theorised</a></li>
+            </ul>
+          </li>
+          <li data-guid="161016132227401"><a class="dropdown-toggle" data-toggle="dropdown" href="/documentaries/">Documentaries <b class="caret"></b></a><ul class="dropdown-menu  multi-level">
+              <li data-guid="140309125006070"><a href="/programmes/specialseries/">Featured Documentaries</a></li>
+              <li data-guid="140309124146566"><a href="/programmes/witness/">Witness</a></li>
+              <li data-guid="140309100922773"><a href="/programmes/aljazeeraworld/">Al Jazeera World</a></li>
+              <li data-guid="140309083414124"><a href="/programmes/101east/">101 East</a></li>
+              <li data-guid="140309103232322"><a href="/programmes/peopleandpower/">People &amp; Power</a></li>
+              <li data-guid="140309101835880"><a href="/programmes/faultlines/">Fault Lines</a></li>
+              <li data-guid="191031115629262"><a href="/programmes/whose-truth-is-it-anyway/truth.html">Whose Truth Is It Anyway?</a></li>
+              <li data-guid="190827092247220"><a href="/programmes/my-ethiopia/">My Ethiopia</a></li>
+              <li data-guid="181105074517308"><a href="/programmes/radicalised-youth/radicalised-youth.html">Radicalised Youth</a></li>
+              <li data-guid="140309100153551"><a href="/programmes/aljazeeracorrespondent/">Al Jazeera Correspondent</a></li>
+              <li data-guid="180816101727275"><a href="/programmes/this-is-europe/">This is Europe </a></li>
+              <li data-guid="170702220310988"><a href="/programmes/aljazeera-selects/">Al Jazeera Selects </a></li>
+              <li data-guid="160905084557919"><a href="/programmes/rewind/">REWIND</a></li>
+              <li data-guid="161019084747265"><a href="/documentaries/">All</a></li>
+            </ul>
+          </li>
+          <li data-guid="140204094724441"><a class="dropdown-toggle" data-toggle="dropdown" href="/programmes/">Shows <b class="caret"></b></a><ul class="dropdown-menu  multi-level">
+              <li data-guid="191113060753226"><a href="/programmes/studio-b-unscripted/">Studio B: Unscripted</a></li>
+              <li data-guid="191022080123227"><a href="/programmes/the-bottom-line/">The Bottom Line</a></li>
+              <li data-guid="140309102519696"><a href="/programmes/insidestory/">Inside Story</a></li>
+              <li data-guid="190915083255528"><a href="/programmes/planet-sos/">Planet SOS</a></li>
+              <li data-guid="140309124013095"><a href="/programmes/thestream/">The Stream</a></li>
+              <li data-guid="140309102803328"><a href="/programmes/listeningpost/">The Listening Post</a></li>
+              <li data-guid="140309123607662"><a href="/programmes/talktojazeera/">Talk to Al Jazeera</a></li>
+              <li data-guid="140309100432009"><a href="/programmes/earthrise/">earthrise</a></li>
+              <li data-guid="140309124802201"><a href="/programmes/headtohead/">Head to Head</a></li>
+              <li data-guid="140309101519781"><a href="/programmes/countingthecost/">Counting the Cost</a></li>
+              <li data-guid="150811112506260"><a href="/programmes/upfront/">UpFront</a></li>
+              <li data-guid="170215082732680"><a href="/programmes/the-big-picture/">The Big Picture</a></li>
+              <li data-guid="140309101636015"><a href="/programmes/empire/">Empire</a></li>
+              <li data-guid="161019085813616"><a href="/programmes/" target="_self">All</a></li>
+            </ul>
+          </li>
+          <li data-guid="141105143951929"><a href="/investigations/">Investigations </a></li>
+          <li data-guid="181119115524858"><a href="/indepth/opinion/">Opinion </a></li>
+          <li data-guid="161017091647457"><a class="dropdown-toggle" data-toggle="dropdown" href="#">More <b class="caret"></b></a><ul class="dropdown-menu  multi-level">
+              <li data-guid="191031154237737"><a href="/go/">AJ Go</a></li>
+              <li data-guid="161027081630642"><a href="/indepth/features/">Features</a></li>
+              <li data-guid="141105143951929"><a href="/investigations/">Investigations</a></li>
+              <li data-guid="161027083327112"><a href="/indepth/inpictures/">In Pictures</a></li>
+              <li data-guid="161027100258444"><a href="/indepth/interactive/">Interactive</a></li>
+              <li data-guid="161019084958582"><a href="/indepth/interactive/documentaries/">Interactive Documentaries</a></li>
+              <li data-guid="161115094809507"><a href="/shorts/">AJ Shorts</a></li>
+              <li data-guid="170219130504928"><a href="/podcasts/">Podcasts</a></li>
+              <li data-guid="161028145404792"><a href="/blogs/">Reporter's Notebook</a></li>
+              <li data-guid="131112151343070"><a href="/topics/categories/human_rights.html">Human Rights</a></li>
+              <li data-guid="131112152428605"><a href="/topics/categories/sport.html">Sport</a></li>
+              <li data-guid="131112152215639"><a href="/topics/categories/science-and-technology.html">Science &amp; Technology</a></li>
+              <li data-guid="140319114634577"><a href="/topics/categories/weather.html">Weather</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-sm-3 search-live-block article-live-block article-live-block-mobile" xmlns:media="http://search.yahoo.com/mrss/">
+  <div class="search-btn-section">
+    <ul>
+      <li id="Li2" class="watch-live-sticky"><a href="/live/"><span class="genericon genericon-video"></span><span class="watch-live-Word">Live</span></a></li>
+      <li class="search-btn-top"><a href="#" class="article-button-search-mobile"><span class="genericon genericon-search"></span></a></li>
+    </ul>
+  </div>
+</div></div></div><!--PageLoadedSucessfully--></div>
+       </div>
+         <!-- googleon: index -->
+    <!--  /article header wrapper-->
 
-<span data-mark="top-of-post"></span>
-  <!-- single_post_partial base generated at 1587142340.7365854 -->
-  <style>/* auto generated */
-</style>
-  <!-- _base -->
+        <!-- article page body -->
 
-  <div class="post-lead-photo post-2174 post-lead-photo-update post-lead-photo-pin-top" data-background-image="https://d1n0c1ufntxbvh.cloudfront.net/photo/9038e3f3/55259/2000x/"></div>
-<div class="container rubric-coronavirus">
-	<div class="col12">
-		<div class="photo photo-lead-caption">
-			<div class="meta">
-				<span class="caption">Small-business owners with criminal records are prohibited from accessing loans from the $2 trillion rescue package signed by President Trump.</span>
-				<span class="byline">Craig F. Walker/The Boston Globe, via Getty Images</span>
+        <div id="placeholder1" type="content">
+
+            <!-- comments goes here -->
+        
+	<div><div class="article-page-container"><div><div><div><div style="width:100%"><div><div><div style=";border-style:none"></div></div></div></div><div></div></div></div></div><div><div><div><div style="width:100%"><div><section id="article-page" class="article-page-section"><div><div><div><div style="width:100%"><div><div class="container main-container main-container-scroll" style="padding-top: 0px;"><div><div><div><div style="width:100%"><div><div class="row article-top-header"><div><div style=";border-style:none"><div class="col-md-8 article-top-header-wrapper">
+  <div class="article-top-label">
+    <ul>
+      <li class="mini-primary" id="articlestoplabel"><a href="/news/" onclick="sendGAEvent('Labels','click','Content Type - Top');">News</a></li>
+      <li class="mini-label-slash">/</li>
+      <li class="mini-secondary" id="articlestoptopic"><a onclick="sendGAEvent('Topics','click','Article Topics - Top');" href="/topics/country/united-states.html">United States</a></li>
+    </ul>
+  </div>
+  <div class="article-heading">
+    <h1 class="post-title">US disrupted Russian trolls on day of November election: report</h1>
+    <p class="article-heading-des">Washington Post reports US military disrupted online access of Russian troll farm accused of trying to influence voters.</p>
+    <div class="article-heading-author-wrap">
+      <div class="article-heading-author-img">
+        <div class="article-heading-author-name">
+          <div class="article-duration"><time class="timeagofunction" datetime="Tue Feb 26 2019 18:23:49 GMT+0000">26 Feb 2019 18:23 GMT</time></div>
+        </div>
+      </div>
+    </div>
+    <div class="article-readToMe-share-block" id="article-top-share-icon">
+      <ul></ul>
+    </div>
+  </div>
+</div></div></div></div></div></div><div></div></div></div></div><div><div><div><div style="width:100%"><div><div class="row article-main-content-wrapper"><div><div><div><div style="width:100%"><div><div class="col-md-8 article-main-content"><div><div style=";border-style:none"><article id="main-article-block" class="main-article-block clear-fix"><div class="main-article-body"><figure class="main-article-mediaCaption"><div class="main-article-media"><img class="img-responsive main-article-media-img" src="/mritems/imagecache/mbdxxlarge/mritems/Images/2018/10/9/783ae5903ce243008201e50bcfa4eab8_18.jpg" alt="A voter arrives to cast their ballot in the Wisconsin presidential primary election at a voting station in Milwaukee, Wisconsin [File: Jim Young/AP Photo]" title="US disrupted Russian trolls on day of November election: report"></div><figcaption class="main-article-caption">A voter arrives to cast their ballot in the Wisconsin presidential primary election at a voting station in Milwaukee, Wisconsin [File: Jim Young/AP Photo]</figcaption></figure><div id="inpage-more-on-block" class="inpage-auto-embed hidden-xs"></div>
+    <div class="article-p-wrapper" id="body-200771816342556199"><p class="speakable">The US military disrupted the internet access of a Russian troll farm accused of trying to influence American voters on November 6, 2018, the day of the <a href="https://www.aljazeera.com/topics/events/midterms-2018.html">congressional elections</a>, The Washington Post reported on Tuesday.</p>
+<p class="speakable">The US Cyber Command strike targeted the Internet Research Agency in the Russian port city of St Petersburg, the Post reported, citing unidentified US officials.</p>
+<p class="speakable">The group is a Kremlin-backed outfit whose employees had posed as Americans and spread disinformation online in an attempt to also influence the 2016 election, according to US officials.</p>
+<p>"They basically took the IRA (Internet Research Agency) offline," the Post quoted one person familiar with the matter as saying. "They shut 'em down."</p>
+<p>Cyber Command had no immediate comment on the report.</p>
+<p>Earlier this month, a US federal probe <a href="https://www.aljazeera.com/news/2019/02/foreign-meddling-didn-affect-2018-election-systems-190205192747804.html">found</a> that reported foreign meddling and hacking attempts had "no material impact" on the <a href="https://www.aljazeera.com/topics/events/midterms-2018.html">midterm congressional elections</a> last year. </p>
+<p>The Internet Research Agency was one of three entities and 13 Russian individuals indicted by Special Counsel Robert Mueller's office in February 2018 in an alleged criminal and espionage conspiracy to tamper in the US presidential race, boost <a href="https://www.aljazeera.com/news/2016/11/profile-president-donald-trump-161109050153947.html">Donald Trump</a> and disparage his Democratic opponent Hillary Clinton.</p>
+<p>Prosecutors said the agency is controlled by Russian businessman Evgeny Prigozhin, who US officials have said has extensive ties to Russia's military and political establishment. </p>
+<div class="inpage-embed article-guid" data-guid="190205192747804">
+<div style="display: none;">190205192747804</div>
+</div>
+<p>Prigozhin, also personally charged by Mueller, has been dubbed "Putin's cook" by Russian media because his catering business has organised banquets for Russian President <a href="https://www.aljazeera.com/topics/people/vladimir-putin.html">Vladimir Putin</a>.</p>
+<h2>Democrats seek to make Mueller report public</h2>
+<p>Meanwhile, on Tuesday, a Democratic politician in the US House of Representatives filed legislation that would require Special Counsel Mueller's Russia report to be made public and give Congress access to the investigation's underlying evidence.</p>
+<p>The legislation represents the latest effort by House Democrats to prevent any effort by the Trump administration to keep under wraps the findings of Mueller's investigation into Russian interference in the 2016 presidential election and any involvement by Trump's election campaign.</p>
+<p>"This legislation safeguards ... taxpayer-funded law enforcement work and assures the right of Americans to see justice served," the Democrat, Representative Lloyd Doggett of Texas, said in a statement.</p></div>
+    <div class="article-body-artSource">
+      <p>
+            SOURCE:
+            <span>Reuters news agency</span></p>
+    </div>
+    <div class="article-tags-feedback-wrapper">
+      <div class="article-body-tags">
+        <ul class="article-topic-detail-list" id="article-body-topics">
+          <li data-guid="180826053206120" data-topic-name="US Midterms 2018"><a onclick="sendGAEvent('Topics','click','Article Topics - Bottom');" href="/topics/events/midterms-2018.html">US Midterms 2018</a></li>
+          <li data-guid="140629181725304" data-topic-name="United States"><a onclick="sendGAEvent('Topics','click','Article Topics - Bottom');" href="/topics/country/united-states.html">United States</a></li>
+          <li data-guid="140629181516355" data-topic-name="Russia"><a onclick="sendGAEvent('Topics','click','Article Topics - Bottom');" href="/topics/country/russia.html">Russia</a></li>
+          <li data-guid="150919174158058" data-topic-name="Donald Trump"><a onclick="sendGAEvent('Topics','click','Article Topics - Bottom');" href="/topics/people/donald-trump.html">Donald Trump</a></li>
+          <li data-guid="180403134811478" data-topic-name="Mueller Probe"><a onclick="sendGAEvent('Topics','click','Article Topics - Bottom');" href="/topics/spotlight/mueller-probe.html">Mueller Probe</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": "https://www.aljazeera.com/news/2019/02/disrupted-russian-trolls-day-november-election-report-190226175659275.html",
+        "headline": "US disrupted Russian trolls on day of November election: report",
+    "datePublished": "26 Feb 2019 18:24 GMT",
+    "dateModified": "26 Feb 2019 18:23 GMT",
+    "description": "Washington Post reports US military disrupted online access of Russian troll farm accused of trying to influence voters.",
+    "author": {
+    "@type": "Organization",
+    "name": "Al Jazeera"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Al Jazeera",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.aljazeera.com/mritems/assets/images/AJLOGOGOOGLE.png",
+        "width": 250,
+        "height": 40
+      }
+    },
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.aljazeera.com/mritems/imagecache/mbdxxlarge/mritems/Images/2018/10/9/783ae5903ce243008201e50bcfa4eab8_18.jpg",
+            "height": 450,
+            "width": 800
+    }
+}
+</script>
+
+    <script type="application/ld+json">
+{
+	"@context": "http://schema.org/",
+	"@type": "WebPage",
+	"name": "US disrupted Russian trolls on day of November election: report",
+	"speakable": {
+		"@type": "SpeakableSpecification",
+		"cssSelector": [".post-title", ".speakable"]
+		},
+       	"url": "https://www.aljazeera.com/news/2019/02/disrupted-russian-trolls-day-november-election-report-190226175659275.html"	
+}	
+       </script></article></div></div><div><div><div><div style="width:100%"><div guid="" path="UnderBodyContent" inherited="a1" applyzonekeepinhritance="true"><div><div><div><div style="width:100%"><div><div><div><div><div style="width:100%"><div><div><div><div style="border-style:none"><div class="feedback-signForm">
+  <div class="article-feedback-txt have-your-say">
+          Have your say.<a href="javascript:showFeedbackForm();">Give us feedback.</a></div>
+  <div class="article-feedback-txt">
+         Sign up for our<a id="opennewsletter" href="javascript:showNewsletterForm();">Newsletter.</a></div>
+  <div id="bottomadsempty" style="padding-top: 30px;"></div>
+</div></div></div></div></div></div><div></div></div></div></div><!--PageLoadedSucessfully--></div></div><div></div></div></div></div></div></div><div></div></div></div></div><div><div><div><div style="width:100%"><div><div><div><div><div style="width:100%"><div><div><div><div><div style="width:100%"><div><div><div style=";border-style:none"> </div></div></div></div><div></div></div></div></div></div></div><div></div></div></div></div></div></div><div></div></div></div></div></div></div></div><div></div></div></div></div><div><div><div><div style="width:100%"><div><div class="col-md-4  main-article-sidebar"><div><div style=";border-style:none"><div class="sideAdv-wrapper">
+                  <div class="article-adv-right-sideBar">
+                    <div id="rightsideadstop" class="rightsideadstop">
+                    <!-- Ads Here -->
+                    </div>
+                  </div>
+                </div>
+    <div class="sideAdv-wrapper-2">
+                  <div class="article-adv-right-sideBar-2 rightsideadstop-2">
+                    <!-- Ads Here -->
+                  </div>
+                </div>
+              </div></div></div></div></div><div></div></div></div></div></div></div></div><div></div></div></div></div></div></div></div><div></div></div></div></div></section></div></div><div></div></div></div></div><div><div><div><div style="width:100%"><div><div><div style=";border-style:none"><div class="section-separator">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<hr class="article-section-separator">
+				<!-- Space --></div>
+		</div>
+	</div>
+</div>
+</div></div></div></div><div></div></div></div></div><div><div><div><div style="width:100%"><div></div></div><div></div></div></div></div><div><div><div><div style="width:100%"><div><div><div><div><div style="width:100%"><div><div><div style=";border-style:none"><div class="infinite-scroll-init-block" data-guid="190226175659275" xmlns:media="http://search.yahoo.com/mrss/"></div>
+<div class="page-load-status" xmlns:media="http://search.yahoo.com/mrss/">
+  <div class="loader-ellips infinite-scroll-request"><span class="loader-ellips__dot"></span><span class="loader-ellips__dot"></span><span class="loader-ellips__dot"></span><span class="loader-ellips__dot"></span></div>
+</div></div></div></div></div><div></div></div></div></div></div></div><div></div></div></div></div><div><div><div><div style="width:100%"><div></div></div><div></div></div></div></div><div><div><div><div style="width:100%"><div></div></div><div></div></div></div></div></div></div>
+</div>
+
+        <!-- footer tags -->
+        <!-- googleoff: index -->
+        <div><div><div><div><div style="width:100%"><div><div><div style="border-style:none"><div class="footer-top-socials">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-6 footer-logo pull-left">
+					<img alt="Al Jazeera" class="alj-footer-logo" id="footer-logo" src="/mritems/images/site/aje-logo-white.svg"></div>
+				<div class="col-md-6 footer-socials pull-right">
+					<ul class="footer-nav-main" id="footer-nav-main">
+						<li>
+							<a href="/news/">News</a></li>
+						<li>
+							<a href="/programmes/">Programmes</a></li>
+						<li>
+							<a href="/indepth/opinion/">Opinion</a></li>
+						<li>
+							<a href="/aboutus/">About</a></li>
+						<li>
+							<a href="/investigations/">Investigations</a></li>
+						<li class="for-mobile" style="display: none;">
+							<a href="/contactus/">Contact Us</a></li>
+						<li class="last m-hide">
+							<a href="http://video.aljazeera.com/channels/eng" target="_blank">Video</a></li>
+						<li>
+							<a href="https://network.aljazeera.com/privacy/en" target="_blank">Privacy Policy</a></li>
+						<li>
+							<a href="https://network.aljazeera.com/cookies/en" target="_blank">Cookie Policy</a></li>
+						<li>
+							<a href="javascript:$('html, body').animate({ scrollTop: 0 }, 800); AJPrivacy.gateway.openModal()">Cookie Preferences</a></li>
+					</ul>
+					<ul id="footer-nav-social">
+						<li>
+							<a class="icon-facebook" href="http://www.facebook.com/aljazeera" target="_blank">Facebook</a></li>
+						<li>
+							<a class="icon-twitter" href="http://twitter.com/ajenglish" target="_blank">Twitter</a></li>
+						<li>
+							<a class="icon-rss" href="/xml/rss/all.xml" target="_blank">RSS</a></li>
+						<li>
+							<a class="icon-pod" href="/programmes/Podcasts.html" target="_blank">Podcast</a></li>
+						<li>
+							<a class="icon-youtube" href="https://www.youtube.com/user/AlJazeeraEnglish?sub_confirmation=1" target="_blank">YouTube</a></li>
+						<li>
+							<a class="Snapchat" href="https://www.snapchat.com/add/AJENews" target="_blank">SnapChat</a></li>
+					</ul>
+					<!-- end .social --></div>
 			</div>
 		</div>
 	</div>
 </div>
-
-
-
-
-
-<div class="container ">
-
-    <div class="col12 compress-post-header post-2174">
-	<div class="post-timestamp">
-		Filed
-		<span> 6:00 a.m.</span>
-	</div>
-	<div class="post-date">
-		04.08.2020
-	</div>
-	<div class="post-kicker">
-			<a href="/tag/coronavirus">Coronavirus</a>
-		<span></span>
-	</div>
-	<h1 class="post-headline" data-remote="post:2174:title">
-		Trump Administration Tells Some Business Owners “Do Not Apply” for Coronavirus Loans
-	</h1>
-	<h4 class="post-deck" data-remote="post:2174:deck">
-		SBA says people with criminal records aren&#39;t eligible for some emergency loans, even though experts say the law doesn&#39;t exclude them.
-	</h4>
-</div>
-
-
-  <article class="post-2174">
-
-    <aside class="col4">
-      <div class="inner">
-
-        <div class="post-byline">
-            By <span><a href="http://www.themarshallproject.org/staff/eli-hager">Eli Hager</a></span>
-
-        </div>
-          <div class="post-byline-shim"></div>
-
-        
-<div class="share-tools">
-  <div class="share-button" data-action="facebook">
-  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
- viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve"><g><path fill="#111111" d="M8.3,15.5c0-1.2,0-2.3,0-3.5c0-0.8-0.1-1.5-1.1-1.5c-1.4,0.1-1.4-0.8-1.4-1.8c0-0.9,0.1-1.7,1.3-1.6
-  c1.7,0.1,1.2-1.3,1.2-2.1c0.3-3.5,1.4-4.5,4.9-4.4c1,0,2-0.2,2,1.4c0,1.2,0,2.1-1.6,2c-1.2-0.1-1.5,0.7-1.5,1.8
-  c0,1.2,0.6,1.4,1.6,1.4c0.7,0,1.7-0.1,1.4,1.1c-0.2,0.9,0.3,2.3-1.3,2.2c-1.6,0-1.7,0.8-1.7,2c0.1,2.2,0,4.3,0,6.5
-  c0.1,1.5-0.8,1.5-1.9,1.5c-1.1,0-2,0-1.9-1.5C8.4,17.8,8.3,16.7,8.3,15.5z"/></g></svg>
-
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.themarshallproject.org%2F2020%2F04%2F08%2Ftrump-administration-tells-some-business-owners-do-not-apply-for-coronavirus-loans%3Futm_medium%3Dsocial%26utm_campaign%3Dshare-tools%26utm_source%3Dfacebook%26utm_content%3Dpost-top" onclick="window.open(this.href, '', 'height=279,width=575'); return false;" class="share-button-link"></a>
-</div>
-<div class="share-button" data-action="twitter">
-  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
- viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve"><g><path fill="#111111" d="M1.2,16.9c1.9-0.2,3.4-0.4,5.1-1.8c-3.2-0.2-3.3-3.2-3.9-4.9C1.7,8.4,0.7,5.8,2,3.3
-  c1.9,1.8,3.9,3.2,6.2,3.8c1.3,0.3,2,0.4,2.3-1.4c0.4-2.7,3-3.9,5.5-2.9c0.7,0.3,1.3,0.7,2.3,0.7c1.1,0,1.8,1.2,1,2.1
-  c-0.8,0.9-0.9,1.9-1,2.9C17.4,16.6,8.5,21.2,1.2,16.9z"/></g></svg>
-
-  <a href="https://twitter.com/intent/tweet?text=Trump%20Administration%20Tells%20Some%20Business%20Owners%20%E2%80%9CDo%20Not%20Apply%E2%80%9D%20for%20Coronavirus%20Loans&url=https%3A%2F%2Fwww.themarshallproject.org%2F2020%2F04%2F08%2Ftrump-administration-tells-some-business-owners-do-not-apply-for-coronavirus-loans%3Futm_medium%3Dsocial%26utm_campaign%3Dshare-tools%26utm_source%3Dtwitter%26utm_content%3Dpost-top&via=MarshallProj" class="share-button-link"></a>
-</div>
-<div class="share-button" data-action="mailto">
-  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
- viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve"><g><g><path fill="#111111" d="M0.9,7.2c0,3.6,0,7.2,0,10.7c6.4,0,12.7,0,19.1,0c0-3.6,0-7.1,0-10.7c-0.2,0.1-0.3,0.1-0.5,0.2
-  c-2.9,1.4-5.7,2.7-8.6,4.1c-0.3,0.1-0.6,0.2-0.9,0c-1.5-0.7-3-1.4-4.4-2.1C4.1,8.7,2.6,8,0.9,7.2z M0.9,3.4c0,0.6,0,1.1,0,1.7
-  c0,0.1,0.2,0.3,0.3,0.4c3,1.4,5.9,2.9,8.9,4.3c0.2,0.1,0.5,0.1,0.7,0c3-1.4,6-2.9,8.9-4.3c0.1-0.1,0.3-0.2,0.3-0.3
-  c0-0.6,0-1.1,0-1.7C13.7,3.4,7.3,3.4,0.9,3.4z"/><path fill="#111111" d="M0.9,7.2C2.6,8,4.1,8.7,5.6,9.5c1.5,0.7,3,1.4,4.4,2.1c0.3,0.2,0.6,0.1,0.9,0c2.9-1.4,5.7-2.7,8.6-4.1
-  c0.1-0.1,0.3-0.1,0.5-0.2c0,3.6,0,7.1,0,10.7c-6.4,0-12.7,0-19.1,0C0.9,14.4,0.9,10.9,0.9,7.2z"/><path fill="#111111" d="M0.9,3.4c6.4,0,12.7,0,19.1,0c0,0.6,0,1.1,0,1.7c0,0.1-0.2,0.3-0.3,0.3c-3,1.4-5.9,2.9-8.9,4.3
-  c-0.2,0.1-0.5,0.1-0.7,0c-3-1.4-5.9-2.8-8.9-4.3C1.1,5.3,1,5.2,0.9,5C0.9,4.5,0.9,3.9,0.9,3.4z"/></g></g></svg>
-
-  <a class="share-button-link" href="mailto:?subject=Trump Administration Tells Some Business Owners “Do Not Apply” for Coronavirus Loans (The Marshall Project)&body=https%3A%2F%2Fwww.themarshallproject.org%2F2020%2F04%2F08%2Ftrump-administration-tells-some-business-owners-do-not-apply-for-coronavirus-loans%3Futm_medium%3Demail%26utm_campaign%3Dshare-tools%26utm_source%3Demail%26utm_content%3Dpost-top"></a>
-</div>
-
-  <div class="share-button" data-action="print">
-      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-   viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve"><g><path fill="#111111" d="M5.2,6.6c0-2.2,0-4.4,0-6.6c3.4,0,6.7,0,10.1,0c0,2.2,0,4.4,0,6.6C12,6.6,8.6,6.6,5.2,6.6z"/><path fill="#111111" d="M21,6c-2,0-3,0-4,0c0,1,0,2,0,2C12,8,9,8,3,8c0-1,0-1,0-2c0,0-1,0-3,0c0,4,0,7,0,11c2,0,2.6,0,3.9,0
-    c-0.4,1-0.8,2-1.2,4c5.1,0,10.1,0,15.2,0c-0.4-2-0.8-3-1.2-4c1.3,0,2.3,0,4.3,0C21,13,21,10,21,6z M18,14.2c0,0-1.1,0-1.6,0
-    c-0.1,0-0.2-0.1-0.3-0.2c-0.1-0.2-0.1-0.4-0.2-0.6c-0.1-0.1-0.3-0.3-0.4-0.3c-3.5,0-7.1,0-10.6,0c0,0-0.1,0-0.1,0
-    c0,0-0.1,0.5-0.1,0.5c-0.4,1-0.4,1.4-1.4,1.4C3.1,15,3,15,3,15c0-1,0-3,0-4c5,0,10,0,15,0C18,12,18,13.4,18,14.2z"/></g></svg>
-  <a class="share-button-link" href="#" onclick="window.print(); event.preventDefault();"></a>
-  </div>
-</div>
-
-
-          <div class="post-rubric-description">
-            Coverage of the COVID-19 pandemic, criminal justice and immigration.
-          </div>
-
-      </div>
-    </aside>
-
-    <p>Michelle E. of Scottsdale, Arizona, was relieved when President Trump last month <a href="https://www.npr.org/2020/03/27/822062909/house-aims-to-send-2-trillion-rescue-package-to-president-to-stem-coronavirus-cr">signed into law the sweeping stimulus package</a> intended to keep the U.S. economy afloat during the coronavirus pandemic. </p>
-
-<p>Michelle and her husband have owned a small hardwood flooring business for 18 years. She hoped the law’s $350 billion for small-business loans would help them avoid laying off any of their five employees, whom she said are like family. So she got a loan application through her bank. </p>
-
-<p>But as she filled it out, Michelle <a href="https://www.themarshallproject.org/2015/09/17/five-things-you-didn-t-know-about-clearing-your-record">saw the question:</a> Had any of the business owners pleaded guilty to or been on probation for a criminal offense? Michelle immediately thought of her husband, who is on probation because he took a guilty plea on a theft charge after taking home the scope of someone else’s rifle on a hunting trip, something he says he did accidentally. His name and her last name are being withheld because his criminal case, and the couple’s loan application, are pending. </p>
-
-<p>“Because of <em>that</em>, our employees can’t get help from the United States government?” Michelle said.</p>
-
-<p>It’s a little noticed frustration compared to the <a href="https://www.washingtonpost.com/business/2020/04/05/americans-hit-by-economic-shocks-confusion-stumbles-undermine-trumps-stimulus-effort/">logistical problems</a> of the Trump administration’s rollout of the CARES Act. A set of new regulations for implementing the law, issued by the Small Business Administration, prohibits small-business owners with criminal records from accessing the desperately needed loans.</p>
-
-<p>“We have never seen such a sweeping mandatory disqualification based on a criminal record, in any area of the law,” <a href="http://ccresourcecenter.org/2020/04/03/sbas-bumpy-guidance-on-criminal-history-requirements-for-stimulus-loans/">wrote the Collateral Consequences Resource Center,</a> a nonprofit, nonpartisan website that tracks how federal, state and local laws affect people with past charges or convictions. The site is run by Margaret Love, who was the U.S. Pardon Attorney during the Clinton administration.</p>
-
-<p>It is unclear how many small-business owners nationally have a criminal history. But The Sentencing Project, a research and advocacy group, <a href="https://www.sentencingproject.org/wp-content/uploads/2015/11/Americans-with-Criminal-Records-Poverty-and-Opportunity-Profile.pdf">has estimated</a> that as many as 100 million Americans have an arrest or conviction in their past, and there are more than 30 million small businesses around the country, <a href="https://www.sba.gov/sites/default/files/advocacy/2018-Small-Business-Profiles-US.pdf">according to the Small Business Administration.</a> Because people with felony records in particular often can’t get jobs, many <a href="https://www.themarshallproject.org/2015/02/06/start-me-up">start their own businesses, from plumbing to food-services to fitness,</a> experts say.  </p>
-
-<p>Add to that the people working for each small-business owner, and you see how the new regulations can have a cascading negative effect on employment, Love said in an interview.</p>
-
-<p>The Small Business Administration has yet to respond to questions from The Marshall Project about its new loan guidelines. </p>
-
-<p>To be sure, under previous presidencies the Small Business Administration has considered many aspects of loan applicants’ criminal records, and more broadly whether they are of “good character.” This is in part because banks, which the agency uses to distribute loans, typically do background checks in their regular loan process. </p>
-
-<p>And in the wake of any disaster, some criminal enterprises and grifters come out of the woodwork seeking relief money. In the past, negotiations between the Small Business Administration and banks about steps required to make sure this doesn’t happen have often been extensive.</p>
-
-<p>But seldom has there been such a dire need to dole out cash to businesses <a href="https://www.theatlantic.com/ideas/archive/2020/03/government-needs-move-much-much-faster/608425/">quickly, broadly and without additional red tape, economists say.</a></p>
-<div class="email-signup-v2-js" data-signup-style="inline" data-placement="post-inline" data-donate-campaign="7010d000001Prpw"></div>
-
-
-<p>What’s more, never in recent U.S. history have <a href="https://www.themarshallproject.org/2017/06/06/can-this-marriage-be-saved">so many conservatives and liberals</a> agreed that people with criminal histories deserve a second chance—especially job-creating small-business owners.</p>
-
-<p>The <a href="https://www.congress.gov/bill/116th-congress/senate-bill/3548/text#toc-idCCF73EAEF8454D2A8B29B9DF4626458E">CARES Act as passed by Congress</a> included specifics about who was and was not eligible for the loans, but experts noted it mandated nothing about criminal records.</p>
-
-<p>Entrepreneurs with criminal records across the country said in interviews that they are confused about the details of the new regulations, <a href="http://ccresourcecenter.org/2020/04/03/sbas-bumpy-guidance-on-criminal-history-requirements-for-stimulus-loans/">which changed three times last week.</a> A man in Austin, Texas, who owns a website-design business said he could not figure out whether his misdemeanor, a charge last year for first-time DUI, would bar him from getting a loan.</p>
-
-<p>The CARES Act includes two types of loans for businesses employing 500 or fewer people: the Paycheck Protection Program, meant to help companies keep paying employees while the coronavirus crisis lasts, as well as an expansion of <a href="https://www.benefits.gov/benefit/1504">loans to companies impacted by disasters.</a></p>
-
-<p>For the paycheck program, the new policy from the Small Business Administration says business owners can’t get a loan if they are facing criminal charges or have had a felony conviction in the past five years. But the actual <a href="https://www.sba.gov/document/sba-form--paycheck-protection-program-borrower-application-form">application form</a> seems to exclude more people: It also asks whether you have, during the same time period, pleaded “no contest,” were placed in a diversion program—which often takes place outside of court and does not mean that you admitted guilt—or spent any time on probation or parole in a felony case. </p>
-
-<p>The second loan program is also bewildering many applicants with criminal records. The <a href="https://covid19relief.sba.gov/#/">online portal</a> to request federal aid asks a three-part question about your criminal history, but the available answers are only “yes” or “no.” Seemingly, a small business owner convicted now of murder and another one charged but not convicted 20 years ago for a DUI would both have to check “yes.” </p>
-
-<p>The Small Business Administration did not respond Tuesday to multiple requests for clarification.</p>
-
-<p>Critics of the new regulations said the rules waste precious time examining people’s pasts when so many are, with each new day, losing their lives or livelihoods.</p>
-
-<p>One New Jersey pet-supply store owner with a 10-year-old felony conviction put it this way in an email to the Collateral Consequences Resource Center: It is as if, after Hurricane Katrina flooded New Orleans, rescuers flying in helicopters asked families stranded on their roofs if they had ever faced a criminal charge. </p>
-
-<p>“And if anyone answered yes,” he wrote, “they would move along to the next house.” </p>
-
-<p><em>After this article was published, The Marshall Project received a loan from this program. The loan has no requirements that would compromise The Marshall Project's editorial independence.</em></p>
-
-
-    <div class="post-footer">
-
-    <div class="author-bio-container">
-        <p class="author-story-bio">
-          <a href="/staff/eli-hager">Eli Hager</a>
-            <a target="_blank" href="https://twitter.com/elibhager" class="bio-social-link"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
- viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve"><g><path fill="#111111" d="M1.2,16.9c1.9-0.2,3.4-0.4,5.1-1.8c-3.2-0.2-3.3-3.2-3.9-4.9C1.7,8.4,0.7,5.8,2,3.3
-  c1.9,1.8,3.9,3.2,6.2,3.8c1.3,0.3,2,0.4,2.3-1.4c0.4-2.7,3-3.9,5.5-2.9c0.7,0.3,1.3,0.7,2.3,0.7c1.1,0,1.8,1.2,1,2.1
-  c-0.8,0.9-0.9,1.9-1,2.9C17.4,16.6,8.5,21.2,1.2,16.9z"/></g></svg>
-</a>
-            <a target="_blank" href="mailto:ehager@themarshallproject.org" class="bio-social-link"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
- viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve"><g><g><path fill="#111111" d="M0.9,7.2c0,3.6,0,7.2,0,10.7c6.4,0,12.7,0,19.1,0c0-3.6,0-7.1,0-10.7c-0.2,0.1-0.3,0.1-0.5,0.2
-  c-2.9,1.4-5.7,2.7-8.6,4.1c-0.3,0.1-0.6,0.2-0.9,0c-1.5-0.7-3-1.4-4.4-2.1C4.1,8.7,2.6,8,0.9,7.2z M0.9,3.4c0,0.6,0,1.1,0,1.7
-  c0,0.1,0.2,0.3,0.3,0.4c3,1.4,5.9,2.9,8.9,4.3c0.2,0.1,0.5,0.1,0.7,0c3-1.4,6-2.9,8.9-4.3c0.1-0.1,0.3-0.2,0.3-0.3
-  c0-0.6,0-1.1,0-1.7C13.7,3.4,7.3,3.4,0.9,3.4z"/><path fill="#111111" d="M0.9,7.2C2.6,8,4.1,8.7,5.6,9.5c1.5,0.7,3,1.4,4.4,2.1c0.3,0.2,0.6,0.1,0.9,0c2.9-1.4,5.7-2.7,8.6-4.1
-  c0.1-0.1,0.3-0.1,0.5-0.2c0,3.6,0,7.1,0,10.7c-6.4,0-12.7,0-19.1,0C0.9,14.4,0.9,10.9,0.9,7.2z"/><path fill="#111111" d="M0.9,3.4c6.4,0,12.7,0,19.1,0c0,0.6,0,1.1,0,1.7c0,0.1-0.2,0.3-0.3,0.3c-3,1.4-5.9,2.9-8.9,4.3
-  c-0.2,0.1-0.5,0.1-0.7,0c-3-1.4-5.9-2.8-8.9-4.3C1.1,5.3,1,5.2,0.9,5C0.9,4.5,0.9,3.9,0.9,3.4z"/></g></g></svg>
-</a>
-          is a staff writer covering juvenile justice, family court, indigent defense, fines and fees and other issues; he also edits the &quot;Life Inside&quot; series of essays by incarcerated writers. He was a Livingston Award finalist for his 2017 investigation of the for-profit prisoner transport industry and is a three-time finalist for the Education Writers Association awards.
-        </p>
-    </div>
-
-
-    <div class="tag-group">
-      <span>Tags:</span>
-        <a class="post-footer-tag-link" href="/tag/small-business-administration"><span class="tag-link-arrow">→</span><span class="tag-link-text">Small Business Administration</span></a>
-        <a class="post-footer-tag-link" href="/tag/trump-administration"><span class="tag-link-arrow">→</span><span class="tag-link-text">Trump Administration</span></a>
-        <a class="post-footer-tag-link" href="/tag/criminal-records"><span class="tag-link-arrow">→</span><span class="tag-link-text">Criminal Records</span></a>
-      <div class="clear"></div>
-    </div>
-
-  <div class="hidden email-onboard email-onboard-inline email-onboard-post-footer" data-placement="post-bottom" data-checkboxes="false"></div>
-  <div class="hidden post-footer-subscribe-promo clearfix">
-    <div class="col8">
-      <h2 class="post-footer-subscribe-tagline">The latest on coronavirus and the justice system.</h2>
-    </div>
-    <div class="col4 omega">
-      <a href="/subscribe?ref=post-bottom" class="subscribe-button" aria-role="button" tabindex="0">Subscribe</a>
-    </div>
-  </div>
-</div>
-
-
-  </article>
-
-  
-
-</div>
-
-
-<span data-mark="bottom-of-post"></span>
-
-  <div class="stream nocontent robots-nocontent">
-    <!-- js -->
-    <span class="bottom-of-stream"></span>
-  </div>
-
-<script>
-$(document).ready(function() {
-  var stream_collection_inserted = false;
-  $.getJSON("/api/v1/stream-topshelf").done(function(data) {
-    var quickreads = data.v1.quickreads;
-    var facebook   = data.v1.facebook;
-    $(window).on('tmp_scroll', function() {
-      if ($('.stream-post').length > 6 && stream_collection_inserted === false) {
-        stream_collection_inserted = true;
-        var promos = $('.stream-post');
-        // $(promos[1]).after(facebook);
-        // $(promos[2]).find('.promo-shim-special').removeClass('promo-rule');
-        $(promos[5]).after(quickreads);
-        $(promos[6]).find('.promo-shim-special').removeClass('promo-rule');
-        window.requestAnimationFrame(function() {
-          $(window).trigger('setup_topshelf');
-        });
-      }
-    });
-  });
-});
-</script>
-
-
 <div class="footer">
-  <div class="footer-content">
-    <div class="footer-item">
-      <a href="/about">About</a>
-    </div>
-    <div class="footer-item">
-      <a href="/people">People</a>
-    </div>
-    <div class="footer-item">
-      <a href="/jobs">Jobs</a>
-    </div>
-    <div class="footer-item">
-      <a href="/sitemap">Sitemap</a>
-    </div>
-    <div class="footer-item">
-      <a href="/funders">Funders</a>
-    </div>
-  </div>
-  <div class="footer-logo">
-    <a href="/">
-      <svg width="20px" height="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 223.2 223.2" enable-background="new 0 0 223.2 223.2" xml:space="preserve"><g><g><polygon fill="#1A1A1A" points="3.6,3.6 3.6,219.6 34.5,219.6 34.5,34.5    "/><polygon fill="#1A1A1A" points="65.3,65.3 65.3,219.6 96.2,219.6 96.2,96.2    "/><polygon fill="#1A1A1A" points="188.7,34.5 188.7,219.6 219.6,219.6 219.6,3.6     "/><polygon fill="#1A1A1A" points="127,96.2 127,219.6 157.9,219.6 157.9,65.3    "/></g></g></svg>
-    </a>
-  </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-sm-12 footer-links">
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<h3>
+						About</h3>
+					<ul class="list">
+						<li>
+							<a href="/aboutus/">About Us</a></li>
+						<li>
+							<a href="/aboutus/2006/11/2008525185733692771.html">Code of Ethics</a></li>
+						<li>
+							<a href="/aboutus/2011/01/20111168582648190.html">Terms and Conditions</a></li>
+						<li>
+							<a href="https://network.aljazeera.com/privacy/en" target="_blank">Privacy Policy</a></li>
+						<li>
+							<a href="https://network.aljazeera.com/cookies/en" target="_blank">Cookie Policy</a></li>
+						<li>
+							<a href="javascript:$('html, body').animate({ scrollTop: 0 }, 800); AJPrivacy.gateway.openModal()">Cookie Preferences</a></li>
+						<li>
+							<a href="/aboutus/2011/01/201111681520872288.html">Community Guidelines</a></li>
+						<li>
+							<a href="http://careers.aljazeera.net/en/" target="_blank">Work for us</a></li>
+						<li>
+							<a href="/hraquality" target="_blank">HR Quality</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<h3>
+						Connect</h3>
+					<ul class="list">
+						<li>
+							<a href="/contactus/">Contact Us</a></li>
+						<li>
+							<a href="/connect/">Apps</a></li>
+						<li>
+							<a href="/aboutus/follow-us.html">Social</a></li>
+						<li>
+							<a href="http://sat.aljazeera.net/en">Channel Finder</a></li>
+						<li>
+							<a href="/watch_now/epgschedule.html">TV Schedule</a></li>
+						<li>
+							<a href="/programmes/Podcasts.html">Podcasts</a></li>
+						<li>
+							<a href="/newsletter">Newsletter</a></li>
+						<li>
+							<a href="/tips" target="_blank">Submit a Tip</a></li>
+						<li>
+							<a href="/directory" target="_blank">Directory</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<h3>
+						Our Channels</h3>
+					<ul class="list">
+						<li>
+							<a href="http://aljazeera.net" target="_blank">Al Jazeera Arabic</a></li>
+						<li>
+							<a href="https://www.aljazeera.com" target="_blank">Al Jazeera English</a></li>
+						<li>
+							<a href="http://mubasher.aljazeera.net" target="_blank">Al Jazeera Mubasher</a></li>
+						<li>
+							<a href="http://doc.aljazeera.net" target="_blank">Al Jazeera Documentary</a></li>
+						<li>
+							<a href="http://balkans.aljazeera.net" target="_blank">Al Jazeera Balkans</a></li>
+						<li>
+							<a href="http://ajplus.net" target="_blank">AJ+</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<h3>
+						Our Network</h3>
+					<ul class="list">
+						<li>
+							<a href="http://www.jetty.fm" target="_blank">Jetty</a></li>
+						<li>
+							<a href="http://studies.aljazeera.net/en/" target="_blank">Al Jazeera Centre for Studies</a></li>
+						<li>
+							<a href="http://training.aljazeera.net" target="_blank">Al Jazeera Media Institute</a></li>
+						<li>
+							<a href="http://learning.aljazeera.net" target="_blank">Learn Arabic</a></li>
+						<li>
+							<a href="http://liberties.aljazeera.com/en" target="_blank">Al Jazeera Centre for Public Liberties &amp; Human Rights</a></li>
+						<li>
+							<a href="http://forum.aljazeera.net" target="_blank">Al Jazeera Forum</a></li>
+						<li>
+							<a href="http://festival.aljazeera.net" target="_blank">Al Jazeera Film Festival</a></li>
+						<li>
+							<a href="http://partners.aljazeera.net" target="_blank">Al Jazeera Hotel Partners</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12 col-xs-12 footer-copyright">
+				<p>
+					© 2020 Al Jazeera Media Network</p>
+			</div>
+		</div>
+	</div>
 </div>
+<p>
+	&nbsp;</p>
+</div></div><!--PageLoadedSucessfully--></div></div><div></div></div></div></div></div>
+        <!-- googleon: index -->
+        <!-- BS Article Footer --> 
+<script src="/assets/scripts/mailchimp-ajax-signup.js?x=1" type="text/javascript" async></script>   
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>  
 
-
-<div class="lights-out"></div>
-
-  <div class="toast-notifications-container"></div>
-
-<script src="/assets/app/app-efe07d4716cc25b38afbc03856fb85bfc3c2b277dd067645c587fa089e239c79.js"></script>
-<script src="/webpack/public-eb5e1af3eace30b03680.js"></script>
-
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('set', 'forceSSL', true);
-    ga('create', "UA-47849981-1", 'auto');
-    var ga_pageview = {};
-    var ga_pageview = {
-  dimension1: "Coronavirus",
-  dimension2: "Eli Hager",
-  dimension3: "2174"
-}
-
-    ga('send', 'pageview', ga_pageview);
-  </script>
-
-  <script type="text/javascript">
-    !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
-      analytics.load("f2sRk3N1xMextHXyltqrQLhSquk4Kq8B");
-    }}();
-  </script>
-
-<script type='text/javascript'>
-  var _sf_async_config = _sf_async_config || {};
-
-    _sf_async_config.title = 'Trump Administration Tells Some Business Owners “Do Not Apply” for Coronavirus Loans';
-  _sf_async_config.sections = 'Coronavirus';
-  _sf_async_config.authors = 'Eli Hager';
-
-
-  (function() {
-    function loadChartbeat() {
-      window._sf_endpt = (new Date()).getTime();
-      var e = document.createElement('script');
-      e.setAttribute('language', 'javascript');
-      e.setAttribute('type', 'text/javascript');
-      e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
-      document.body.appendChild(e);
-    }
-    var oldonload = window.onload;
-    window.onload = (typeof window.onload != 'function') ?
-      loadChartbeat : function() {
-        oldonload();
-        loadChartbeat();
-      };
-  })();
-</script>
-
-<script>
-window.fbAsyncInit = function() {
-  FB.init({ appId: 260005144189129, xfbml: true, version: 'v2.10' });
-};
-
-$(window).load(function() {
-  window.requestAnimationFrame(function() {
-    $.getScript("https://assets.documentcloud.org/note_embed/note_embed.js");
-    $.getScript("https://platform.twitter.com/widgets.js");
-    $.getScript("https://connect.facebook.net/en_US/sdk.js");
-  });
+<!-- In article ads video -->
+<div id="div-gpt-ad-1430377943388-3" style="display: none !important;">  
+ <script type="text/javascript">
+googletag.cmd.push(function() { 
+googletag.display('div-gpt-ad-1430377943388-3'); 
 });
 </script>
+</div>
+<!-- End In article ads video -->
+<!-- In article ads video -->
+<div id="div-gpt-ad-1430377943388-4" style="display: none !important;">  
+ <script type="text/javascript">
+googletag.cmd.push(function() { 
+googletag.display('div-gpt-ad-1430377943388-4'); 
+});
+</script>
+</div>
+<!-- End In article ads video -->
+
+<div id="topadshidden" style="display:none;">
+<div id="div-gpt-ad-1430377943388-5">  
+ <script type="text/javascript">	
+googletag.cmd.push(function() { 
+googletag.display('div-gpt-ad-1430377943388-5'); 
+});
+</script>
+</div>
+</div>
+
+<div id="rightsideadshidden" style="display:none;">
+<div id="div-gpt-ad-1430377943388-1">  
+ <script type="text/javascript">	
+googletag.cmd.push(function() { 
+googletag.display('div-gpt-ad-1430377943388-1'); 
+});
+</script>
+</div>
+<p class="adv-sidelabel">Advertisement</p>  
+</div>
+ 
+ 
+<div id="bodyadshidden" style="display:none;">
+<div id="div-gpt-ad-1430377943388-0">  
+ <script type="text/javascript">	
+googletag.cmd.push(function() { 
+googletag.display('div-gpt-ad-1430377943388-0'); 
+});
+</script>   
+</div>
+<p class="adv-sidelabel">Advertisement</p>
+</div>
+
+<div id="bottomadshidden" style="display:none;">
+<div id="div-gpt-ad-1430377943388-2">  
+ <script type="text/javascript">	
+googletag.cmd.push(function () {
+    googletag.display('div-gpt-ad-1430377943388-2');
+});  
+</script>
+</div>
+<p class="adv-sidelabel">Advertisement</p>  
+</div> 
+
+ <script src="/assets/scripts/hcsticky.js"></script>
+<script src="/assets/scripts/bootstrap-min.js"></script>
+<script src="/assets/scripts/bs-article-script.js?x=12"></script>
+<script>
+    try {
+        $('.article-adv-right-sideBar').hcSticky({
+            stickTo: '.sideAdv-wrapper',
+            offResolutions: -800,
+            top: 75
+        });
+
+        $('.article-sidebar-trendings').hcSticky({
+            stickTo: '.article-sidebar-trending-wrapper',
+            offResolutions: -800,
+            top: 75
+        });
+    } catch (e) {}
+$('.article-vid-content').click(function() {
+            showVideo(); 
+        });
+    </script>
+<script>
+ if (/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+var bodyptags = $('.article-p-wrapper > p');
+
+if (bodyptags.length > 2){
+
+$("<div id='bodyads'> </div>").insertAfter(bodyptags[3]);
+
+}else{
+
+$("<div id='bodyads'> </div>").insertAfter(bodyptags[0]); 
+
+}
+}  
+</script>
+<script type="text/javascript">
+	try {
+
+          var TopDiv = document.getElementById("topdivad");
+	  if (TopDiv != null){
+	    TopDiv.innerHTML = document.getElementById("topadshidden").innerHTML;
+            document.getElementById("topadshidden").innerHTML = "";
+	  }  
+
+	  var TopRightDiv = document.getElementById("rightsideadstop");
+	  if (TopRightDiv != null){
+	    TopRightDiv.innerHTML = document.getElementById("rightsideadshidden").innerHTML;
+	    document.getElementById("rightsideadshidden").innerHTML = "";
+	  } 
+
+	  var BottomDiv = document.getElementById("bottomadsempty");
+	  BottomDiv.innerHTML = document.getElementById("bottomadshidden").innerHTML;
+	  document.getElementById("bottomadshidden").innerHTML = "";
+
+      if (/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+         var BodyAds = document.getElementById("bodyads");
+	  if (BodyAds != null){ 
+	    BodyAds.innerHTML = document.getElementById("bodyadshidden").innerHTML;
+	    document.getElementById("bodyadshidden").innerHTML = "";
+	  }
+	} 
+ 
+	}
+	catch(err) {
+	
+	}
+</script>
+
+<script src="/assets/scripts/ticker-plugin-script.js?x=153" type="text/javascript" defer></script>
+<script src="/assets/scripts/ticker-helper-scriptv2.js?x=165" type="text/javascript" defer></script>
+ 
+<script src="/assets/scripts/jquery.timeagov2.js" async></script> 
+<script type="text/javascript" src="/assets/scripts/jquery.lazy.min-v2.js?x=1" async></script>
+<script type="text/javascript" src="/assets/scripts/footer-general-run-v2.js?x=46" async></script>
+<script src="/assets/scripts/plugins/jquery.colorbox.js?x=1" async></script>
+<link href="/assets/styles/plugins/colorbox.css?x=20" rel="stylesheet" />
 
 
+<!-- Global site tag (gtag.js) - Google Ads: 774768298 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-774768298"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date()); 
+
+  gtag('config', 'AW-774768298');
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '320402738661210'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" width="1" 
+src="https://www.facebook.com/tr?id=320402738661210&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+<script>
+try{
+var articleGUID = getMetaContentByName('guid');
+var FirstArticleContainer = document.getElementById("article-page").firstChild;
+FirstArticleContainer.classList.add("Ads-" +articleGUID);
+} 
+catch(error){
+	consol.log(error);
+}
+</script><!-- BS News Articles Footer --> 
+
+     
+      
+      
+
+    
+     <!--PageLoadedSucessfully-->
+    </form>
 </body>
 </html>
