@@ -1,0 +1,47 @@
+I'm not sure I would say LEGO blocks are that expensive, but the statement is that they are expensive because they are so well made. Really, this has to at least be partially true. If you take some blocks made in 1970, they still fit with pieces made today. That is quite impressive.
+
+But the real question is: what is the distribution of LEGO sizes? How does this distribution of sizes compare to other toys? The simple way to answer this question is to start measuring a whole bunch of blocks.
+
+Here is the plan. Use a micrometer (the tool, not the unit) to measure the width of 2 bump LEGO blocks. Plot a histogram of the different sizes. Just to be clear, the micrometer is a tool that measures small sizes - around a millimeter to 20 millimeters. This particular one has markings down to 0.01 mm - for my measurements, I will estimate the size to 0.001 millimeters. Oh, one more point. There are lots of pieces that are two LEGO dots. For this data, I am mostly using 2 x 1 and 2 x 2 pieces. I will assume that both have the same size in the 2 bump direction.
+
+Here is my first set of data.
+
+These 88 measurements have an average of 15.814 mm with a standard deviation of 0.0265 mm.
+
+What about older LEGO pieces? —————————–
+
+Fortunately, I found one of my original sets from the late 70s.
+
+v
+
+I even have the instructions. Even though I'm not sure how old these are, they have to be at least 30 years old. Here are some 2 bump pieces from the 70s vs modern pieces.
+
+The pieces from the 70s have an average of 15.819 mm with a standard deviation of 0.026 mm. Without doing any formal statistical tests, this seems close enough to being about the same distributions.
+
+How about something else? What if I just look at 2 x 2 LEGO blocks? For these blocks, I can get a measurement of the width in two different ways (length and width). I can call one dimension "x" and the other "y". Here is a plot of x vs. y measurements for square blocks.
+
+Maybe that wasn't such a great plot. What does it show? I guess the only thing I can say about this is that there doesn't appear to be a systematic error relating the two sides of a 2 x 2 block. If a block is a tiny bit smaller in one dimension, it isn't necessarily smaller in the other dimension.
+
+What About Other Objects? ————————-
+
+Do other things have high precision parts too? Before I show any data, let me plot some different data. Instead of plotting just the width of different objects, I am going to plot the distribution of the width divided by the mean width. This way I can make a comparison between objects of different size.
+
+I found three different sets of objects to measure.
+
+There are these wooden planks that are used for building stuff. Then I have two different types of "counting" blocks used for math stuff. I will combine all the 2 bump LEGO blocks together since they seem to be from a similar distribution.
+
+Here is the distribution of the 4 different types of objects. I only plotted the 70s LEGO pieces since they had a number comparable to the other objects.
+
+Clearly the wooden planks have a much wider distribution than the rest of the objects. Let me remove the wooden plank data and plot just the other stuff so it will be easier to make a comparison.
+
+I probably need more data, but these seem to be built with around the same level of precision. Honestly, I don't know much about plastic manufacturing - but the LEGO blocks appear to be created from harder plastic. Maybe this would lead them to maintain their size over a long period of time. Unfortunately, I didn't have old math blocks to compare to newer blocks.
+
+Price Per Piece of LEGO ———————–
+
+This is older data from a previous post, but I like it so much I decided to include it here also. Basically, I looked at the price of different LEGO sets along with their pieces. The cool thing about all of the LEGO sets is that the number of pieces is always listed. BOOM. Instant graph (well, instant except for looking up all the prices).
+
+Remember, these are 2009 prices but I think the same idea holds true.
+
+This looks linear enough to fit a function. This is what you get.
+
+About 10 cents per LEGO piece. If you had a set with no pieces in it, it would still cost 6 dollars. Yes, there are some sets that don't fit too well - but for the most part this works nicely.

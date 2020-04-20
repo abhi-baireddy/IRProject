@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"54db1a61c9",applicationID:"187794457"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>For families across California, a desperate struggle to get mental health care | CalMatters</title>
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v13.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Californians with mental illness—and their family members—describe pleading with insurance providers for the treatment they need."/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://calmatters.org/projects/californians-struggle-to-get-mental-health-care/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="For families across California, a desperate struggle to get mental health care" />
+<meta property="og:description" content="Californians with mental illness—and their family members—describe pleading with insurance providers for the treatment they need." />
+<meta property="og:url" content="https://calmatters.org/projects/californians-struggle-to-get-mental-health-care/" />
+<meta property="og:site_name" content="CalMatters" />
+<meta property="article:publisher" content="https://www.facebook.com/calmatters/" />
+<meta property="article:section" content="Breakdown: Mental Health" />
+<meta property="og:image" content="https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_002-e1551828138828.jpg?fit=1280%2C863" />
+<meta property="og:image:secure_url" content="https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_002-e1551828138828.jpg?fit=1280%2C863" />
+<meta property="og:image:width" content="1280" />
+<meta property="og:image:height" content="863" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Californians with mental illness—and their family members—describe pleading with insurance providers for the treatment they need." />
+<meta name="twitter:title" content="For families across California, a desperate struggle to get mental health care" />
+<meta name="twitter:site" content="@CalMatters" />
+<meta name="twitter:image" content="https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_002-e1551828138828.jpg?fit=1280%2C863" />
+<meta name="twitter:creator" content="@CalMatters" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://calmatters.org/#organization","name":"CalMatters","url":"https://calmatters.org/","sameAs":["https://www.facebook.com/calmatters/","https://www.instagram.com/calmatters/","https://www.linkedin.com/company/calmatters/","https://www.youtube.com/channel/UCNQv9nDu2_r5zbgtUQungeA","https://twitter.com/CalMatters"],"logo":{"@type":"ImageObject","@id":"https://calmatters.org/#logo","inLanguage":"en-US","url":"https://calmatters.org/wp-content/uploads/sites/2/2019/07/calmattersocial.png?fit=720%2C720","width":720,"height":720,"caption":"CalMatters"},"image":{"@id":"https://calmatters.org/#logo"}},{"@type":"WebSite","@id":"https://calmatters.org/#website","url":"https://calmatters.org/","name":"CalMatters","inLanguage":"en-US","description":"California, explained","publisher":{"@id":"https://calmatters.org/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://calmatters.org/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://calmatters.org/projects/californians-struggle-to-get-mental-health-care/#primaryimage","inLanguage":"en-US","url":"https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_002-e1551828138828.jpg?fit=1280%2C863","width":1280,"height":863,"caption":"In her daughter's room, Seong Brown adjusts rose petals atop the clothing she wore when she died. Photo by Penni Gladstone for CALmatters"},{"@type":"WebPage","@id":"https://calmatters.org/projects/californians-struggle-to-get-mental-health-care/#webpage","url":"https://calmatters.org/projects/californians-struggle-to-get-mental-health-care/","name":"For families across California, a desperate struggle to get mental health care | CalMatters","isPartOf":{"@id":"https://calmatters.org/#website"},"inLanguage":"en-US","primaryImageOfPage":{"@id":"https://calmatters.org/projects/californians-struggle-to-get-mental-health-care/#primaryimage"},"datePublished":"2019-03-10T23:25:57+00:00","dateModified":"2019-12-30T20:11:09+00:00","description":"Californians with mental illness\u2014and their family members\u2014describe pleading with insurance providers for the treatment they need."}]}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//www.googletagservices.com' />
+<link rel='dns-prefetch' href='//use.typekit.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="CalMatters &raquo; Feed" href="https://calmatters.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="CalMatters &raquo; Comments Feed" href="https://calmatters.org/comments/feed/" />
+<link rel='stylesheet' id='all-css-0' href='https://calmatters.org/_static/??-eJx1zssKwkAMBdAfchpctI4L8VumadDRzINJSunfG18IoquEkHu4sFQXM/I8kQCKwBRFYeSCV8dxbKGtILoydSnmzh42YAksWSkrVJ5PMQsQB9GItdFbuFPNzkqTq0VU3NN8WPIT0zMlK2Ej0yK1lQuhfrT/LV5BDJyCKjX5Dtl2TIdt7/vB7we/uwHjPVvZ' type='text/css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='typekit-css'  href='https://use.typekit.net/ygp0rqq.css?ver=0.1.169' media='all' />
+<link rel='stylesheet' id='all-css-2' href='https://calmatters.org/_static/??-eJyNjNEKwjAQBH/I9KpS6ov4LeG8hmiSBndD8e+tUl/Ft4HdGVmq07nQCqWmFmKBWPJg1PowQK4RFF3BN85oIRjowGcydDmWbp128ndk8mrELz83903cjNXr/SNu/L5f8nk/nMZ+OPbj4QX7mUfw' type='text/css' media='all' />
+<script>
+var uaWnSettings = {"prompt":{"enabled":false,"prompt_views":1,"prompt_again_views":1}};
+</script>
+<script type='text/javascript' src='https://calmatters.org/_static/??-eJx9jcEKwjAQRH/IbfDQGg/it6RxbTck25jdpfj3BlHwJAw8GB4zbq9AHLPdUFzqeRi25wdDkoP7J0ChpQXFoRB/5bixIquLmTqgGNRsC7E4a3NgCNRkpQo7zlBNVuBN6U4xKG1dCiKo76ffvo9fy+U4+nHy58mf0gs7YkSN'></script>
+<script src='https://www.googletagservices.com/tag/js/gpt.js?ver=0.1.794'></script>
+<script>
+var tnpData = {"ad_zone":"calmatters","error_email_invalid":"You have entered an invalid email","error_missing_status":"Response missing email_status","gtmIDs":[{"gtm_id":"GTM-WJSBCB4"},{"gtm_id":"GTM-TXQ3CH7"}],"subscribed":"Thanks for subscribing!","dataLayer":{"author":"Jocelyn Wiener","canonicalUrl":"https:\/\/calmatters.org\/projects\/californians-struggle-to-get-mental-health-care\/","category":"Breakdown: Mental Health","environment":"production","gaId":"UA-117522438-3","gatedContentType":"","originalPublishDate":"03102019","originalPublishHour":"1552260357","pageType":"article","postId":"316","postType":"tnp_long_form","publicationName":"CalMatters","sponsor":"","tag":"","gatedContent":"false"},"experience_control":"explicit"};
+</script>
+<script type='text/javascript' src='https://calmatters.org/wp-content/themes/thenewsproject/assets/js/frontend/google-ad-manager.js?m=1572473362g'></script>
+<link rel='https://api.w.org/' href='https://calmatters.org/wp-json/' />
+<link rel='shortlink' href='https://calmatters.org/?p=316' />
+<link rel="alternate" type="application/json+oembed" href="https://calmatters.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcalmatters.org%2Fprojects%2Fcalifornians-struggle-to-get-mental-health-care%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://calmatters.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcalmatters.org%2Fprojects%2Fcalifornians-struggle-to-get-mental-health-care%2F&#038;format=xml" />
+<style type='text/css'>img#wpstats{display:none}</style><link rel='manifest' href='https://calmatters.org/wp-content/themes/calmatters/manifest.json' /><link rel="icon" href="https://calmatters.org/wp-content/uploads/sites/2/2019/07/cropped-cropped-calmatters-favicon.png?fit=32%2C32" sizes="32x32" />
+<link rel="icon" href="https://calmatters.org/wp-content/uploads/sites/2/2019/07/cropped-cropped-calmatters-favicon.png?fit=192%2C192" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://calmatters.org/wp-content/uploads/sites/2/2019/07/cropped-cropped-calmatters-favicon.png?fit=180%2C180" />
+<meta name="msapplication-TileImage" content="https://calmatters.org/wp-content/uploads/sites/2/2019/07/cropped-cropped-calmatters-favicon.png?fit=270%2C270" />
+</head>
+<body class="tnp_long_form-template-default single single-tnp_long_form postid-316 wp-custom-logo">
+	<a href="#content" class="screen-reader-text skip-link">Skip to Main Content</a>
+		<div class="site">
+		<header class="container -header" role="banner">
+			<div class="navigation-utility">
+	<nav role="navigation" class="nav-trending" aria-label="Trending Navigation">
+
+	<div class="innerwrap">
+
+		<h2 class="heading">Trending <svg role="img" class="icon icon--trending" aria-label="trending"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#trending"></use></svg></h2>
+
+		<ul id="menu-top-trending" class="topics"><li id="menu-item-105092" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105092"><a href="https://calmatters.org/category/health/coronavirus/">Coronavirus Coverage</a></li>
+<li id="menu-item-105405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105405"><a href="https://calmatters.org/health/2020/03/california-coronavirus-gavin-newsom-senior-citizens-chronic-illness/">Coronavirus FAQ</a></li>
+<li id="menu-item-105407" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105407"><a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-covid-patient-hospitalization-data-icu/">Tracking Hospitalizations</a></li>
+<li id="menu-item-105406" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105406"><a href="https://calmatters.org/projects/corona-on-campus/">Corona on Campus</a></li>
+<li id="menu-item-105408" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105408"><a href="https://calmatters.org/health/coronavirus/2020/03/coronavirus-mental-health-tips-therapists-california/">Mental Health and Coronavirus</a></li>
+</ul>
+	</div>
+
+</nav><!--/.nav-trending-->
+
+<nav role="navigation" class="nav-bar" aria-label="Modal Navigation">
+
+	
+	<ul class="nav-action">
+		<li><button class="login" id="piano-login">Log in</button></li>
+				<li><a href="https://calmatters.org/subscribe-to-calmatters/" class="subscribe">Subscribe</a></li>
+			</ul>
+
+	
+	
+<div class="nav-search" itemscope itemtype="http://schema.org/WebSite">
+	<link itemprop="url" href="https://calmatters.org/" />
+	<meta itemprop="url" content="https://calmatters.org/" />
+
+	<button type="button" class="togglesearch" aria-controls="search" aria-expanded="false"><svg role="img" class="icon icon--search" aria-label="search"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#search"></use></svg><span class="screen-reader-text">Toggle Search</span></button>
+
+	<form role="search" class="search" id="search" aria-hidden="false" action="https://calmatters.org/" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+		<meta itemprop="target" content="https://calmatters.org/?s={s}" />
+
+		<div class="focus-label">
+			<input itemprop="query-input" class="searchinput" id="q" type="text" value="" name="s">
+			<label class="searchformlabel" aria-hidden="true" id="q-label" for="q">Search...</label>
+
+			<button class="submit" type="submit"><span class="searchicon"><svg role="img" class="icon icon--search" aria-label="search"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#search"></use></svg></span><span class="submitsearch"><svg role="img" class="icon icon--chevron-right" aria-label="chevron-right"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#chevron-right"></use></svg></span><span class="screen-reader-text">Submit Search</span></button>
+		</div>
+
+	</form>
+
+</div>
+
+</nav><!--/.nav-bar-->
+</div>
+
+<div class="nav" id="nav">
+	<div class="nav-main">
+
+		<div class="innerwrap">
+			<h1 class="logo">
+				<a href="https://calmatters.org">
+					<img src="https://calmatters.org/wp-content/uploads/sites/2/2019/07/calmatters-logo_2x.png?fit=488%2C82" alt="Logo of CalMatters">
+				</a>
+			</h1>
+
+			<button type="button" id="menu-trigger" aria-controls="nav" aria-expanded="true">
+				<span class="screen-reader-text">
+					Menu				</span>
+			</button>
+
+			<nav class="nav-list"><ul id="menu-main-navigation" class="menu"><li id="menu-item-32" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-32"><a href="https://calmatters.org/category/politics/" aria-haspopup="true">Politics</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-30" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-30"><a href="https://calmatters.org/category/immigration/">Immigration</a></li>
+	<li id="menu-item-29" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29"><a href="https://calmatters.org/category/housing/">Housing</a></li>
+	<li id="menu-item-80106" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80106"><a href="https://calmatters.org/category/blogs/election-2018/">Election 2018</a></li>
+	<li id="menu-item-80107" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80107"><a href="https://calmatters.org/category/blogs/california-election-2020/">Election 2020</a></li>
+	<li id="menu-item-80112" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80112"><a href="https://calmatters.org/category/blogs/donald-trump/">Resistance State</a></li>
+	<li id="menu-item-80110" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80110"><a href="https://calmatters.org/category/blogs/inside-california-capitol/">Inside the Capitol</a></li>
+	<li id="menu-item-81256" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-81256"><a href="https://calmatters.org/category/newsletters/whatmatters/">WhatMatters</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/commentary/earlier-california-presidential-primary-succeeded-on-many-levels/" class="article "><div class="thumb"><img width="453" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/030320_voting_AW_12.jpg?fit=453%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Earlier California presidential primary succeeded on many levels" /></div><div class="content"><h4 class="title">Trending in Politics</h4><p>Earlier California presidential primary succeeded on many levels</p></div></a><a href="https://calmatters.org/politics/california-legislature/2020/04/california-senate-hearing-coronavirus-budget-oversight/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_pool_CoronavirusOversight_06.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="California senators frustrated by few answers,  tech glitches in virtual hearing on coronavirus spending" /></div><div class="content"><h4 class="title">Trending in Politics</h4><p>California senators frustrated by few answers,  tech glitches in virtual hearing on coronavirus spending</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-25" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-25"><a href="https://calmatters.org/category/economy/" aria-haspopup="true">Economy</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-93825" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-93825"><a href="https://calmatters.org/category/california-divide/">California Divide</a></li>
+	<li id="menu-item-80254" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80254"><a href="https://calmatters.org/category/economy/california-pension-crisis/">California&#8217;s Pension Crisis</a></li>
+	<li id="menu-item-33" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-33"><a href="https://calmatters.org/category/poverty/">Poverty</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/commentary/your-next-boss-could-be-an-undocumented-immigrant-as-a-growing-number-of-founders-lack-legal-status/" class="article "><div class="thumb"><img width="460" height="276" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/startup-business.jpg?fit=460%2C276" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Your next boss could be an undocumented immigrant; growing number of business founders lack legal status" /></div><div class="content"><h4 class="title">Trending in Economy</h4><p>Your next boss could be an undocumented immigrant; growing number of business founders lack legal status</p></div></a><a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-task-force-economy/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_taskforce_01.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="A-list business and union leaders combine to help steer California&#8217;s economic recovery" /></div><div class="content"><h4 class="title">Trending in Economy</h4><p>A-list business and union leaders combine to help steer California&#8217;s economic recovery</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-26" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-26"><a href="https://calmatters.org/category/education/" aria-haspopup="true">Education</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-108634" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108634"><a href="https://calmatters.org/projects/corona-on-campus/">Corona on Campus</a></li>
+	<li id="menu-item-90222" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-90222"><a href="https://calmatters.org/category/education/disaster-days-school-closures-california-wildfire-guns-outage-flood/">Disaster Days</a></li>
+	<li id="menu-item-80256" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80256"><a href="https://calmatters.org/category/education/k-12-education/">K-12 Education</a></li>
+	<li id="menu-item-80255" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80255"><a href="https://calmatters.org/category/education/higher-education/">Higher Education</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/education/higher-education/2020/04/uc-graduate-students-online-strike-coronavirus-pandemic-california/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/02/022120_UCDavisCola_AW_sized_03.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="How do you hold a strike online? UC teaching assistants are finding out" /></div><div class="content"><h4 class="title">Trending in Education</h4><p>How do you hold a strike online? UC teaching assistants are finding out</p></div></a><a href="https://calmatters.org/commentary/pandemic-reveals-need-for-schools-to-utilize-technology-for-online-classrooms/" class="article "><div class="thumb"><img width="339" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/online-classes-distance-learning.jpg?fit=339%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Pandemic reveals need for schools to utilize technology for online classrooms" /></div><div class="content"><h4 class="title">Trending in Education</h4><p>Pandemic reveals need for schools to utilize technology for online classrooms</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-27" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-27"><a href="https://calmatters.org/category/environment/" aria-haspopup="true">Environment</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-80257" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80257"><a href="https://calmatters.org/category/environment/building-efficiency/">Building Efficiency</a></li>
+	<li id="menu-item-80258" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80258"><a href="https://calmatters.org/category/environment/climate-change/">Climate Change</a></li>
+	<li id="menu-item-80259" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80259"><a href="https://calmatters.org/category/environment/frayed-wires/">Frayed Wires</a></li>
+	<li id="menu-item-80260" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80260"><a href="https://calmatters.org/category/environment/rising-seas/">Rising Seas</a></li>
+	<li id="menu-item-80261" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80261"><a href="https://calmatters.org/category/environment/water/">Water</a></li>
+	<li id="menu-item-80262" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80262"><a href="https://calmatters.org/category/environment/california-wildfires/">California Wildfires</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/commentary/california-water-policies-inhibit-food-production-by-valley-farmers/" class="article "><div class="thumb"><img width="460" height="246" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/California-aquaduct.jpg?fit=460%2C246" class="attachment-medium-rec size-medium-rec wp-post-image" alt="California water policies inhibit food production by Valley farmers" /></div><div class="content"><h4 class="title">Trending in Environment</h4><p>California water policies inhibit food production by Valley farmers</p></div></a><a href="https://calmatters.org/commentary/its-time-to-protect-californias-mountain-lions/" class="article "><div class="thumb"><img width="460" height="259" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/mountain-lion.jpg?fit=460%2C259" class="attachment-medium-rec size-medium-rec wp-post-image" alt="It’s time to protect California’s mountain lions" /></div><div class="content"><h4 class="title">Trending in Environment</h4><p>It’s time to protect California’s mountain lions</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-28" class="menu-item menu-item-type-taxonomy menu-item-object-category current-tnp_long_form-ancestor current-menu-parent current-tnp_long_form-parent menu-item-has-children menu-item-28"><a href="https://calmatters.org/category/health/" aria-haspopup="true">Health</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-105093" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105093"><a href="https://calmatters.org/category/health/coronavirus/">Coronavirus</a></li>
+	<li id="menu-item-80263" class="menu-item menu-item-type-taxonomy menu-item-object-category current-tnp_long_form-ancestor current-menu-parent current-tnp_long_form-parent menu-item-80263"><a href="https://calmatters.org/category/health/breakdown-mental-health/">Breakdown: Mental Health</a></li>
+	<li id="menu-item-80264" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80264"><a href="https://calmatters.org/category/health/drug-costs/">Drug Costs</a></li>
+	<li id="menu-item-80265" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80265"><a href="https://calmatters.org/category/health/wellness/">Wellness</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/health/coronavirus/2020/04/newsom-cities-blocking-hotels-for-homeless-will-be-judged-by-history/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Newsom: Cities blocking hotels for homeless will be &#8216;judged&#8217; by history" /></div><div class="content"><h4 class="title">Trending in Health</h4><p>Newsom: Cities blocking hotels for homeless will be &#8216;judged&#8217; by history</p></div></a><a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-task-force-economy/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_taskforce_01.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="A-list business and union leaders combine to help steer California&#8217;s economic recovery" /></div><div class="content"><h4 class="title">Trending in Health</h4><p>A-list business and union leaders combine to help steer California&#8217;s economic recovery</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-80069" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-80069"><a href="https://calmatters.org/category/commentary/" aria-haspopup="true">Commentary</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-80101" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80101"><a href="https://calmatters.org/category/commentary/dan-walters/">Dan Walters</a></li>
+	<li id="menu-item-80102" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80102"><a href="https://calmatters.org/category/commentary/my-turn/">My Turn</a></li>
+	<li id="menu-item-80266" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80266"><a href="https://calmatters.org/category/commentary/reader-reactions/">Reader Reactions</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/commentary/your-next-boss-could-be-an-undocumented-immigrant-as-a-growing-number-of-founders-lack-legal-status/" class="article "><div class="thumb"><img width="460" height="276" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/startup-business.jpg?fit=460%2C276" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Your next boss could be an undocumented immigrant; growing number of business founders lack legal status" /></div><div class="content"><h4 class="title">Trending in Commentary</h4><p>Your next boss could be an undocumented immigrant; growing number of business founders lack legal status</p></div></a><a href="https://calmatters.org/commentary/earlier-california-presidential-primary-succeeded-on-many-levels/" class="article "><div class="thumb"><img width="453" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/030320_voting_AW_12.jpg?fit=453%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Earlier California presidential primary succeeded on many levels" /></div><div class="content"><h4 class="title">Trending in Commentary</h4><p>Earlier California presidential primary succeeded on many levels</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-80071" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-80071"><a href="https://projects.calmatters.org/" aria-haspopup="true">Multimedia</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-80085" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80085"><a href="https://calmatters.org/category/multimedia/explainers/">Explainers</a></li>
+	<li id="menu-item-80084" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80084"><a href="https://calmatters.org/category/multimedia/data-points/">Data Points</a></li>
+	<li id="menu-item-95787" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-95787"><a href="https://calmatters.org/projects/force-of-law-police-shootings-podcast/">Force of Law</a></li>
+	<li id="menu-item-80088" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80088"><a href="https://calmatters.org/category/multimedia/podcasts/gimme-shelter/">Gimme Shelter</a></li>
+	<li id="menu-item-80086" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80086"><a href="https://calmatters.org/category/multimedia/interactives/">Interactives</a></li>
+	<li id="menu-item-80089" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80089"><a href="https://calmatters.org/category/multimedia/video/">Video</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li id="menu-item-81105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81105"><a href="https://checkout.fundjournalism.org/memberform?org_id=calmatters&#038;campaign=701f2000001DCNo">DONATE</a></li>
+<li id="menu-item-80058" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80058"><a href="https://calmatters.org/about/" aria-haspopup="true">About</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-92341" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92341"><a href="https://projects.calmatters.org/2019/california-dream/">California Dream Project</a></li>
+	<li id="menu-item-80109" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80109"><a href="https://calmatters.org/category/blogs/inside-calmatters/">Inside CalMatters</a></li>
+	<li id="menu-item-80108" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80108"><a href="https://calmatters.org/category/blogs/events/">Events</a></li>
+	<li id="menu-item-80059" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80059"><a href="https://calmatters.org/about/advisory-board/">Advisory Board</a></li>
+	<li id="menu-item-80060" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80060"><a href="https://calmatters.org/about/board-of-directors/">Board of Directors</a></li>
+	<li id="menu-item-80061" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80061"><a href="https://calmatters.org/about/contact-us/">Contact Us</a></li>
+	<li id="menu-item-80062" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80062"><a href="https://calmatters.org/about/jobs/">Jobs</a></li>
+	<li id="menu-item-80068" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80068"><a href="https://calmatters.org/institutional-membership/">Institutional Membership</a></li>
+	<li id="menu-item-80063" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80063"><a href="https://calmatters.org/about/distribution-partners/">Media partners</a></li>
+	<li id="menu-item-80064" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80064"><a href="https://calmatters.org/about/staff/">Meet Our Team</a></li>
+	<li id="menu-item-80065" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80065"><a href="https://calmatters.org/about/mission/">Mission</a></li>
+	<li id="menu-item-80066" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80066"><a href="https://calmatters.org/about/reports-financials/">Reports &#038; Financials</a></li>
+	<li id="menu-item-80067" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80067"><a href="https://calmatters.org/about/supporters/">Supporters</a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul></nav>
+			<nav class="nav-social large-screen" role="navigation" aria-label="Social Navigation">
+				<ul>
+											<li><a href="https://www.facebook.com/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--facebook" aria-label="facebook"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook"></use></svg></a></li>
+											<li><a href="https://www.instagram.com/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--instagram" aria-label="instagram"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#instagram"></use></svg></a></li>
+											<li><a href="https://www.linkedin.com/company/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--linkedin" aria-label="linkedin"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#linkedin"></use></svg></a></li>
+											<li><a href="https://twitter.com/CalMatters" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--twitter" aria-label="twitter"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter"></use></svg></a></li>
+											<li><a href="https://www.youtube.com/channel/UCNQv9nDu2_r5zbgtUQungeA" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--youtube" aria-label="youtube"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#youtube"></use></svg></a></li>
+									</ul>
+			</nav>
+		</div>
+	</div> <!--/.nav-main-->
+
+	<nav role="navigation" class="nav-trending" aria-label="Trending Navigation">
+
+	<div class="innerwrap">
+
+		<h2 class="heading">Trending <svg role="img" class="icon icon--trending" aria-label="trending"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#trending"></use></svg></h2>
+
+		<ul id="menu-top-trending-1" class="topics"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105092"><a href="https://calmatters.org/category/health/coronavirus/">Coronavirus Coverage</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105405"><a href="https://calmatters.org/health/2020/03/california-coronavirus-gavin-newsom-senior-citizens-chronic-illness/">Coronavirus FAQ</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105407"><a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-covid-patient-hospitalization-data-icu/">Tracking Hospitalizations</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105406"><a href="https://calmatters.org/projects/corona-on-campus/">Corona on Campus</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105408"><a href="https://calmatters.org/health/coronavirus/2020/03/coronavirus-mental-health-tips-therapists-california/">Mental Health and Coronavirus</a></li>
+</ul>
+	</div>
+
+</nav><!--/.nav-trending-->
+
+<nav role="navigation" class="nav-bar" aria-label="Modal Navigation">
+
+	
+<div class="nav-search" itemscope itemtype="http://schema.org/WebSite">
+	<link itemprop="url" href="https://calmatters.org/" />
+	<meta itemprop="url" content="https://calmatters.org/" />
+
+	<button type="button" class="togglesearch" aria-controls="search" aria-expanded="false"><svg role="img" class="icon icon--search" aria-label="search"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#search"></use></svg><span class="screen-reader-text">Toggle Search</span></button>
+
+	<form role="search" class="search" id="search" aria-hidden="false" action="https://calmatters.org/" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+		<meta itemprop="target" content="https://calmatters.org/?s={s}" />
+
+		<div class="focus-label">
+			<input  class="searchinput" id="q" type="text" value="" name="s">
+			<label class="searchformlabel" aria-hidden="true" id="q-label" for="q">Search...</label>
+
+			<button class="submit" type="submit"><span class="searchicon"><svg role="img" class="icon icon--search" aria-label="search"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#search"></use></svg></span><span class="submitsearch"><svg role="img" class="icon icon--chevron-right" aria-label="chevron-right"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#chevron-right"></use></svg></span><span class="screen-reader-text">Submit Search</span></button>
+		</div>
+
+	</form>
+
+</div>
+
+	<ul class="nav-action">
+		<li><button class="login" id="piano-login">Log in</button></li>
+				<li><a href="https://calmatters.org/subscribe-to-calmatters/" class="subscribe">Subscribe</a></li>
+			</ul>
+
+			<nav class="nav-social small-screen" role="navigation" aria-label="Social Navigation">
+			<ul>
+									<li><a href="https://www.facebook.com/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--facebook" aria-label="facebook"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook"></use></svg></a></li>
+									<li><a href="https://www.instagram.com/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--instagram" aria-label="instagram"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#instagram"></use></svg></a></li>
+									<li><a href="https://www.linkedin.com/company/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--linkedin" aria-label="linkedin"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#linkedin"></use></svg></a></li>
+									<li><a href="https://twitter.com/CalMatters" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--twitter" aria-label="twitter"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter"></use></svg></a></li>
+									<li><a href="https://www.youtube.com/channel/UCNQv9nDu2_r5zbgtUQungeA" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--youtube" aria-label="youtube"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#youtube"></use></svg></a></li>
+							</ul>
+		</nav>
+		
+	
+</nav><!--/.nav-bar-->
+</div>
+		</header>
+<article class="container -project" id="content" role="main">
+	
+<div class="project-hero">
+	<img width="1280" height="863" src="https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_002-e1551828138828.jpg?fit=1280%2C863" class="project-hero__image wp-post-image" alt="In her daughter&#039;s room, Seong Brown adjusts rose petals atop the clothing she wore when she died. Photo by Penni Gladstone for CALmatters" srcset="https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_002-e1551828138828.jpg?w=1280 1280w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_002-e1551828138828.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_002-e1551828138828.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_002-e1551828138828.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_002-e1551828138828.jpg?w=454 454w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_002-e1551828138828.jpg?w=317 317w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_002-e1551828138828.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_002-e1551828138828.jpg?w=848 848w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_002-e1551828138828.jpg?w=785 785w" sizes="(max-width: 1280px) 100vw, 1280px" />
+	<div class="container">
+		<div class="project-hero__content">
+			
+			<h1 class="project-hero__title">For families across California, a desperate struggle to get mental health care</h1>
+
+			
+						<p class="project-hero__intro">Californians with mental illness—and their family members—describe pleading with insurance providers for the treatment they need.</p>
+			
+							<div class="project-hero__caption">
+
+											<svg role="img" class="icon icon--camera" aria-label="camera"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#camera"></use></svg>						<span>In her daughter&#039;s room, Seong Brown adjusts rose petals atop the clothing she wore when she died. 
+</span>
+									</div>
+					</div>
+	</div>
+</div>
+
+<nav class="project-navigation">
+	<ul>
+					<li>
+				<a href="https://calmatters.org/projects/california-mental-health-treatment-in-prisons/" class="project-navigation__link  -part-1">
+					<span class="project-navigation__label">Part 1</span> All too often, California’s default mental institutions are now jails and prisons				</a>
+			</li>
+						<li>
+				<a href="https://calmatters.org/projects/californians-struggle-to-get-mental-health-care/" class="project-navigation__link project-navigation__link--active -part-2">
+					<span class="project-navigation__label">Part 2</span> For families across California, a desperate struggle to get mental health care				</a>
+			</li>
+						<li>
+				<a href="https://calmatters.org/projects/treatment-for-psychosis-and-other-mental-illness-differs-drastically-by-county/" class="project-navigation__link  -part-3">
+					<span class="project-navigation__label">Part 3</span> Treatment for psychosis—and other mental illness—differs drastically by county				</a>
+			</li>
+						<li>
+				<a href="https://calmatters.org/projects/board-and-care-homes-closing-in-california-mental-health-crisis/" class="project-navigation__link  -part-4">
+					<span class="project-navigation__label">Part 4</span> Overlooked mental health &#8220;catastrophe:&#8221; Vanishing board-and-care-homes leave residents with few options				</a>
+			</li>
+						<li>
+				<a href="https://calmatters.org/projects/california-mental-health-care-parity/" class="project-navigation__link  -part-5">
+					<span class="project-navigation__label">Part 5</span> Californians aren&#8217;t getting the mental health care they&#8217;re legally guaranteed. Why not?				</a>
+			</li>
+						<li>
+				<a href="https://calmatters.org/projects/mental-health-care-outcry-targets-kaiser-california-parity-regulators/" class="project-navigation__link  -part-6">
+					<span class="project-navigation__label">Part 6</span> Mental health care outcry targets Kaiser — and state regulators				</a>
+			</li>
+						<li>
+				<a href="https://calmatters.org/projects/mentally-ill-forced-treatment-conservatorship-california-debate/" class="project-navigation__link  -part-7">
+					<span class="project-navigation__label">Part 7</span> &#8220;We&#8217;ve lost our compass.&#8221; For California&#8217;s most visible mentally ill, is a return to forced treatment a solution — or a false promise?				</a>
+			</li>
+						<li>
+				<a href="https://calmatters.org/projects/breakdown-californias-mental-health-system-explained/" class="project-navigation__link  -part-8">
+					<span class="project-navigation__label">Part 8</span> Breakdown: California’s mental health system, explained				</a>
+			</li>
+				</ul>
+</nav>
+
+			<div class="project-content">
+				<div class="social-share -horizontal">
+	<ul class="social-share-list">
+				<li class="social-share-list-item">
+			<!-- Email -->
+			<a rel="noopener noreferrer" class="link -email social share" href="/cdn-cgi/l/email-protection#4f703c3a2d252a2c3b7209203d6a7d7f292e222623262a3c6a7d7f2e2c3d203c3c6a7d7f0c2e232629203d21262e636a7d7f2e6a7d7f2b2a3c3f2a3d2e3b2a6a7d7f3c3b3d3a2828232a6a7d7f3b206a7d7f282a3b6a7d7f222a213b2e236a7d7f272a2e233b276a7d7f2c2e3d2a696c7f7c77742d202b36720c272a2c246a7d7f203a3b6a7d7f3b27263c6a7d7f2e3d3b262c232a6a7d7f2e3b756a7d7f273b3b3f3c7560602c2e23222e3b3b2a3d3c61203d28603f3d20252a2c3b3c602c2e232629203d21262e213c623c3b3d3a2828232a623b2062282a3b62222a213b2e2362272a2e233b27622c2e3d2a60" onclick="dataLayer.push( { 'socialNetwork': 'Email' } );" target="_top">
+				<svg role="img" class="icon icon--email-circle" aria-label="email-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#email-circle"></use></svg>				<span class="screen-reader-text">Share by Email</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Twitter -->
+			<a
+				rel="noopener noreferrer"
+				class="link -twitter social share"
+				href="https://twitter.com/share?url=https://calmatters.org/projects/californians-struggle-to-get-mental-health-care/&#038;text=For%20families%20across%20California%2C%20a%20desperate%20struggle%20to%20get%20mental%20health%20care"
+				onclick="dataLayer.push( { 'socialNetwork': 'Twitter' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--twitter-circle" aria-label="twitter-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter-circle"></use></svg>				<span class="screen-reader-text">Share on Twitter</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Facebook -->
+			<a
+				rel="noopener noreferrer"
+				class="link -facebook social share"
+				href="https://www.facebook.com/sharer.php?u=https://calmatters.org/projects/californians-struggle-to-get-mental-health-care/"
+				onclick="dataLayer.push( { 'socialNetwork': 'Facebook' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--facebook-circle" aria-label="facebook-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook-circle"></use></svg>				<span class="screen-reader-text">Share on Facebook</span>
+			</a>
+		</li>
+		<li class="social-share-list-item -copy-embed-item">
+			<!-- Article Link -->
+			
+				<button
+					type="button"
+					class="link -link copy-link"
+					data-href="https://calmatters.org/projects/californians-struggle-to-get-mental-health-care/"
+					data-home-url="https://calmatters.org"
+					data-explainer-id="316"
+					>
+					<svg role="img" class="icon icon--link-circle" aria-label="link-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#link-circle"></use></svg>
+			
+
+
+				<span class="screen-reader-text">Copy Article Link</span>
+				<span class="tooltip">Copied</span>
+			</button>
+		</li>
+
+	</ul>
+</div>
+	<ul class="post-categories">
+		<li class="primary"><a href="https://calmatters.org/category/health/breakdown-mental-health/" aria-label="See articles about Breakdown: Mental Health" rel="category tag">Breakdown: Mental Health</a></li><li class="secondary"><a href="https://calmatters.org/category/health/" aria-label="See articles about Health" rel="category tag">Health</a></li>	</ul>
+	<div class="post-byline">
+	<a href="https://calmatters.org/author/jocelyn-wiener/" class="author">By Jocelyn Wiener <img alt='Jocelyn Wiener' src='https://calmatters.org/wp-content/uploads/sites/2/2020/02/Wiener_Jocelyn-e1581014107366-96x96.jpg' class='avatar avatar-96 photo' height='96' width='96' /></a>	<span class="published">published: <time datetime="2019-03-10T23:25:57-07:00">March 10, 2019</time></span>
+</div>
+
+<p class="has-drop-cap has-medium-font-size">Elizabeth Brown’s bedroom holds a trove of evidence of her fight to save herself.</p>
+
+
+
+<p>Preserved among the Twilight novels, the posters of Korean pop singers and cameras she used for her budding journalism career are clues to the Santa Rosa teenager’s agonizing struggle with the mental illness that claimed her life last year.</p>
+
+
+
+<p>Next to her neatly made bed sits the lavender candle she lit to soothe herself with aromatherapy. On her desk are the bunny slippers she wore during the months she was too depressed and anxious to leave the house. Taped to the wall are two plastic hospital bracelets from separate psychiatric admissions in September and November 2017.</p>
+
+
+
+<p>Underneath them hang four yellow sticky notes, on which she had printed:</p>
+
+
+
+<p><em>“channel all the anger, sadness, hurt into this one thing”</em></p>
+
+
+
+<p><em>“you can have control”</em></p>
+
+
+
+<p><em>“you can be beautiful”</em></p>
+
+
+
+<p><em>“this pain is good”</em></p>
+
+
+
+<p>The cutting, the suicidal thoughts, the suffocating despair as she tried to find treatment—those details live on in the journal she hid behind a password on her laptop.</p>
+
+
+
+<p>“She really tried hard,” her mother, Seong Brown, says quietly.</p>
+
+
+
+<p>“Elizabeth had a lot of hope to get better. She believed in the medical system to help her. But they failed at every turn.”</p>
+
+
+
+<p class="has-drop-cap">Around California, people with mental illness—and their family members—describe pleading with insurance providers for treatment.</p>
+
+
+
+<p>Their stories share an underlying premise: Despite policy advances in the past two decades intended to compel insurance companies to provide patients with equivalent levels of care for physical and mental illnesses, the reality on the ground still looks very different.</p>
+
+
+
+<p>A <a href="https://www.chcf.org/publication/poll-shows-californians-health-priorities-new-governor-legislature/">statewide poll</a> by the Kaiser Family Foundation and the California Health Care Foundation found that the top health issue Californians want their governor and legislature to address in 2019 is ensuring mental health problems can get treated: 88 percent called it extremely or very important.  More than half of those surveyed thought their communities lacked mental health providers, and that most people with mental health conditions are unable to get the services they need.</p>
+
+
+
+<p>The state Department of Managed Health Care has cited health plans dozens of times in the past decade—penalizing them millions of dollars—for mental health-related violations.</p>
+
+
+
+<p>And just last week, a federal judge in Northern California ruled that United Behavioral Healthcare had <a href="https://www.nytimes.com/2019/03/05/health/unitedhealth-mental-health-parity.html">wrongly restricted treatment</a> for patients with mental health and substance abuse disorders in order to cut costs, in violation of federal law.</p>
+
+
+
+<p>Not all problems with access to mental health care are illegal, but some of them almost certainly are, said David Lloyd, national senior policy advisor of The Kennedy Forum, a mental health advocacy organization.</p>
+
+
+
+<p>“There’s a lot of evidence that discrimination by plans is happening,” he said.</p>
+
+
+
+<p>Lloyd and other experts say mental health has been underfunded historically, in part because of a longstanding prejudice against people with mental illness and substance abuse disorders.</p>
+
+
+
+<p>Analyzing data from 42 million patients, the healthcare consulting company Milliman Inc. <a href="http://www.milliman.com/uploadedFiles/insight/2017/NQTLDisparityAnalysis.pdf">found</a> that California patients in 2015 were more than seven times as likely to get treatment for mental health and addiction from providers outside their insurance plan’s network as patients seeking medical or surgical care. The analysis also showed that insurers in California paid primary care providers almost 28 percent more for office visits than they paid behavioral health providers.</p>
+
+
+
+<p>Many parents of children with serious mental illnesses say they switched their children from private insurance to the public Medi-Cal program for low-income Californians because it often offers more mental health benefits.</p>
+
+
+
+<figure class="wp-block-embed alignright is-type-rich is-provider-infogram"><div class="wp-block-embed__wrapper">
+<div class="infogram-embed" data-id="ae32e1b6-1ccc-4d99-97a3-8dae8184b35c" data-type="interactive" data-title="Copy: Californians seeking mental health care lack access"></div><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script>
+</div></figure>
+
+
+
+<p>“The whole system is set up as just one big battle,” said Jill Williams, a special education teacher from Granite Bay. “You’re just sad and exhausted from dealing with a family member with mental illness. And then you have to battle everybody else.”</p>
+
+
+
+<p>Williams vividly recalls the day her 25-year-old son, Austin, was discharged from the Sutter Roseville emergency room.</p>
+
+
+
+<p>In February 2018, she’d brought him in—Austin, who has schizophrenia, was agitated, verbally unresponsive and unable to walk, according to a lawsuit filed by the family. His mother recalled that at around 11 p.m., she left to sleep for a few hours, asking to be informed before he was discharged. A few hours later, she got a call from a nurse. A crisis worker was letting him go.</p>
+
+
+
+<p>Williams rushed to the hospital. According to her account: Despite the cold winter morning, her son was outside wearing no shoes, surrounded by security guards. Suddenly, he took off, sprinting up a parking structure. A guard chased him. Three stories up, Austin hurled himself over the side.</p>
+
+
+
+<p>He landed on the ground in front of the main entrance to the emergency room, his mother said, and she saw a doctor rush over and begin attending to him. Within seconds, it seemed to her, a triage unit had loaded her son onto a gurney and rushed him inside. He survived. She witnessed, in shock, the contrasting ways the hospital responded to her son’s mental and physical crises.</p>
+
+
+
+<p>“It was a really powerful moment,” Williams said. “I was very cognizant of the difference. It was just profound—and so sad.”</p>
+
+
+
+<p>Sutter has denied the lawsuit’s allegations, and Placer County summarily denied responsibility, rejecting a claim the family filed with the county.</p>
+
+
+
+<p>“While patient privacy laws prohibit us from commenting on this case,” a Sutter representative said in a written statement, “maintaining high levels of safe patient care is one of our core missions at Sutter Health.”</p>
+
+
+
+<p class="has-drop-cap">It’s been two decades since California enacted a law requiring health plans to provide coverage for the diagnosis and treatment of severe mental illnesses.</p>
+
+
+
+<p>In 2008, in a major victory for mental health advocates, parity became federal law: The <a href="https://www.cms.gov/cciio/programs-and-initiatives/other-insurance-protections/mhpaea_factsheet.html">Mental Health Parity and Addiction Equity Act</a> required health plans that offered mental health coverage to provide the same level of care they gave on the medical/surgical side.</p>
+
+
+
+<p>The law was strengthened two years later, when the Affordable Care Act listed mental health as an essential health benefit insurance companies were required to provide.</p>
+
+
+
+<p>Industry representatives say insurers are doing their best to comply with these laws, but face a shortage of mental health providers, especially in rural areas. Plans are working closely with state regulators and using a variety of methods, including virtual appointments, to meet these “serious challenges,” said Mary Ellen Grant, a spokeswoman for the California Association of Health Plans.</p>
+
+
+
+<figure class="wp-block-embed alignleft is-type-rich is-provider-infogram"><div class="wp-block-embed__wrapper">
+<div class="infogram-embed" data-id="8a8cb5f7-d34d-4ce6-962c-a35c4ad87d1f" data-type="interactive" data-title="Copy: Copy: Most Californians say they aren&#39;t aware of mental health and substance use insurance rules"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script>
+</div></figure>
+
+
+
+<p>Some things have improved. Most insurers no longer limit the number of visits to a mental health provider, for example, nor will they charge higher co-pays or deductibles. But that hasn’t made access to mental and physical health care equivalent, said Lloyd, of The Kennedy Forum.</p>
+
+
+
+<p>The primary challenges for patients now exist in areas harder to track and quantify–such as pre-authorization requirements and determinations of what is “medically necessary,” he said.</p>
+
+
+
+<p>It’s complicated to ascertain whether any given person’s struggles to get appropriate mental health care reflect parity violations—and requires regulators to conduct a deeper analysis of an insurance plan’s coverage.</p>
+
+
+
+<p>Parity laws are often so complex, it can be hard for people to know whether the barriers they face are actually illegal or just feel unfair, said Jennifer Mathis, policy director at the Bazelon Center for Mental Health Law. Analysis of whether a parity violation has occurred, she said, requires looking at an entire category of service to see if it has different financial or treatment limitations for mental health than for medical/surgical treatment.</p>
+
+
+
+<p>“Most people aren’t able to figure this out,” Mathis said.</p>
+
+
+
+<p>The average person may not know whether treatment for a mental health condition meets the same bar for “medical necessity” as heart surgery or chemotherapy.</p>
+
+
+
+<p>What they do know is this: Their loved one desperately needs help—and isn’t getting it.</p>
+
+
+
+<p class="has-drop-cap">In a cool, sunny day in early January 2019, on the first anniversary of the day that Elizabeth Brown took the action that eventually ended her life, her parents, Seong and David, sit at the kitchen table in their immaculate Santa Rosa home. Conrad, the whippet who was Elizabeth’s  unofficial therapy dog, peers out a glass door onto an oak-studded hill.</p>
+
+
+
+<p>Seong, an architect, designed the home with her children in mind: Elizabeth played piano and practiced violin on the open main floor; she hung out with her friends in the big room downstairs.</p>
+
+
+
+<p>Now, Seong retrieves a copy of an email her husband’s colleague sent them, detailing the comprehensive cancer treatment his wife received from Kaiser Permanente. While Elizabeth descended into the final months of mental illness, their friend’s wife was being treated by a team of oncologists, nurses, grief counselors, social workers and outside specialists.</p>
+
+
+
+<p>“This is what she got,” Seong said, choking on her tears. “And she’s still here.”</p>
+
+
+
+<div class="wp-block-image"><figure class="alignleft is-resized"><img src="https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_001-e1551851805166.jpg?w=683&#038;resize=346%2C518" alt="A photo of Elizabeth Brown at her family home in Santa Rosa. Photo by Penni Gladstone for CALmatters" class="wp-image-70383" width="346" height="518" srcset="https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_001-e1551851805166.jpg?w=1200 1200w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_001-e1551851805166.jpg?w=200 200w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_001-e1551851805166.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_001-e1551851805166.jpg?w=683&#038;resize=346%2C518 683w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_001-e1551851805166.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_001-e1551851805166.jpg?w=204 204w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_001-e1551851805166.jpg?w=143 143w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_001-e1551851805166.jpg?w=365 365w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_001-e1551851805166.jpg?w=381 381w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_001-e1551851805166.jpg?w=353 353w" sizes="(max-width: 346px) 100vw, 346px" data-recalc-dims="1"><figcaption>An image of Elizabeth Brown at her family home in Santa Rosa. Photo by Penni Gladstone for CALmatters
+</figcaption></figure></div>
+
+
+
+<p>Citing federal privacy laws, Kaiser declined to comment specifically on Elizabeth’s care. It provided a written statement:</p>
+
+
+
+<p>“This is a heartbreaking story and our condolences go out to the Brown Family and her loved ones. While we can’t speak to any individual case out of respect for the privacy of those involved, the loss of any person greatly saddens every physician, therapist and nurse involved in that patient’s care. We review each case extensively and when opportunities to improve are discovered, we share that knowledge with our care teams.”</p>
+
+
+
+<p>Elizabeth was a top student, her parents said. She earned her black belt in karate and played  violin in the San Francisco Symphony Youth Orchestra. She traveled to Haiti and Uganda to care for children with cerebral palsy.</p>
+
+
+
+<p>After sophomore year,  she applied to <a href="https://simons-rock.edu/">Bard College at Simon’s Rock</a> in Massachusetts, and started there shortly before her 16th birthday. She found the professors stimulating, her parents say. She made the dean’s list.</p>
+
+
+
+<p>She also started having panic attacks. And she began cutting herself.</p>
+
+
+
+<p>In May of 2016, after her second year at Bard, she returned home for the summer and asked to see a therapist.</p>
+
+
+
+<p>“Something’s not right, Mom,” Seong says she told her.</p>
+
+
+
+<p>A few days later, Elizabeth first met with a Kaiser psychologist in Santa Rosa—beginning a treatment odyssey chronicled in 3,000 pages of medical records provided by her parents. The records show the psychologist described “depression, self-criticism and self-destructive behaviors” as well as stress and anxiety related to Elizabeth’s “long standing push upon herself for the highest standards.” The psychologist suggested a self-forgiveness audio program and discussed cognitive behavioral therapy strategies.</p>
+
+
+
+<p>As the months passed, Seong and David Brown grew increasingly concerned that their daughter wasn’t feeling better. She would head off to college, only to land in a hospital or threaten to kill herself and return home to California, they said</p>
+
+
+
+<p>When Elizabeth was home, she and her parents were dissatisfied with the frequency of sessions available through Kaiser. They were referred to an outside contractor, but grew frustrated when they didn’t hear back from anyone in a timely manner, the records show. Eventually they began paying $160 a session so she could see an outside therapist once or twice a week.</p>
+
+
+
+<p>On January 18, 2017, Elizabeth began tearing up her parents’ house, searching for pills she could swallow to kill herself, the medical records show. She wrote “die” on her bedroom wall in lipstick. At one point, she found herself with a kitchen knife in her hand. Frightened, she called police, who rushed her to the hospital.  Two days later, she was screened for an intensive outpatient treatment program offered through Kaiser. The provider Elizabeth met with described her as “quiet and withdrawn,” according to the records.</p>
+
+
+
+<div class="wp-block-image"><figure class="alignright is-resized"><img src="https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_012.jpg?w=683&#038;resize=155%2C232" alt="A jar holds the many medications prescribed for Elizabeth Brown. Photo by Penni Gladstone for CALmatters" class="wp-image-70385" width="155" height="232"  data-recalc-dims="1"><figcaption>A jar holds the many medications taken by  Elizabeth Brown. Photo by Penni Gladstone for CALmatters</figcaption></figure></div>
+
+
+
+<p>“Patient’s mother is very worried that Patient will kill herself and requested a higher level of care,” than the intensive outpatient program, she wrote in her notes.</p>
+
+
+
+<p>Elizabeth agreed to try the Kaiser program—group therapy a few hours a day, several times a week, for two weeks. She was taking several  medications, but they didn’t seem to her to be working, according to her parents. Her anxiety was increasing, they said, and her mood fluctuated dramatically.</p>
+
+
+
+<p>A letter she wrote to herself during that time, which her parents discovered later, offers a window into her troubled mind:</p>
+
+
+
+<p><em>“The hardest part of being in a hump is that you can’t see the end. The end seems so far away, like a thin pinhole of light that may close up at any second. The depression drops you into a deep pit, leaving you to claw at the edges in an attempt to pull yourself out. But there are people, resources, pieces of hope that will drop you a ladder—I promise. Even though you scream and it seems like no one hears you, you will learn to help yourself….You can rely on yourself, you are your own saving grace. Because in the end, you won’t be saved by IOP or medications or therapy—you will be saved by you.”</em></p>
+
+
+
+<p>Three weeks after Elizabeth was discharged from the program, she pulled into traffic on the freeway near her parents’ house—and totaled the car.</p>
+
+
+
+<p>Around that time, the records show, her Kaiser psychiatrist diagnosed her with bipolar disorder. Over the next few months, he changed her medications regularly and offered her words of encouragement via email. In response to a message she sent in which she speculated about feeling a little better, he responded: “ i think its time, meds, your spirit and fight.”</p>
+
+
+
+<p>But a few weeks later, she was struggling again. “I’ve tried running, I’ve tried reading, I’ve tried cuddling with my dog,” she wrote to him. “Each of them wear off too quickly. And inside I just want to cut, cut, cut. I’m confused.”</p>
+
+
+
+<figure class="wp-block-embed-vimeo wp-block-embed is-type-video is-provider-vimeo wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="For families across California, a desperate struggle to get mental health care" src="https://player.vimeo.com/video/342810655?dnt=1&app_id=122963" width="500" height="281" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p class="has-drop-cap">In 2013, the state Department of Managed Health Care levied a $4 million fine against Kaiser for deficiencies in providing timely access to mental health care and for violations of the state parity law related to mental health education materials. It was one of the largest fines in the department’s history.</p>
+
+
+
+<p>Shelley Rouillard, the department’s director, said it regularly monitors Kaiser, and that the HMO “actually is doing very well,” meeting the settlement agreement’s benchmarks—hiring additional mental health providers and waging a mental health awareness campaign.</p>
+
+
+
+<p>The department surveys all health plans every three years, interviewing staff and reviewing enrollee files, in addition to tracking complaints to its help center.</p>
+
+
+
+<p>But last fall, The Kennedy Forum, The Kennedy-Satcher Center for Mental Health Equity and several other organizations released a report grading state parity statutes. They gave California, along with 31 other states, an F.</p>
+
+
+
+<div class="wp-block-image"><figure class="alignright is-resized"><img src="https://calmatters.org/wp-content/uploads/sites/2/2018/08/2018.08.09_Legislature_Robbie-Short_100-e1551857661693.jpg?resize=197%2C349" alt="Sen. Jim Beall, Democrat of San Jose. Photo by Robbie Short for CALmatters" class="wp-image-54541" width="197" height="349"  data-recalc-dims="1"><figcaption> Sen. Jim Beall, Democrat of San Jose. Photo by Robbie Short for CALmatters </figcaption></figure></div>
+
+
+
+<p>In December, Democratic state Sen. Jim Beall of San Jose introduced <a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201920200SB11">legislation</a><a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201920200SB11"> to sharpen state parity laws</a> by requiring plans to report to the state annually on their compliance with parity laws—and for the state to make those reports accessible to the public. He noted that similar legislation has failed three times, in part because it has been heavily lobbied against by the insurance industry, he said.</p>
+
+
+
+<p>“It’s going to be a tough battle,” he said. “We’re all geared up for it.” </p>
+
+
+
+<p>That same month, Kaiser mental health providers went on strike for five days to protest long patient wait times.</p>
+
+
+
+<p>At a forum organized by the National Union of Health Care Workers in the Oakland Masonic Hall, providers described not using the restroom all day and working through lunch, afraid that any call they don’t answer will leave a patient to suffer.</p>
+
+
+
+<p>“The HMO is not going to go to oncology and say our next available opening is in six weeks so that’s what’s available,” said Kenneth Rogers, a psychologist with Kaiser in Elk Grove, and shop steward for the union. “We think that Kaiser is doing these sorts of things with psychiatry.” Research says psychological treatment involves weekly therapy, he said, “not interventions where you’re seeing patients six or eight weeks out.”</p>
+
+
+
+<p>People on both sides of the debate agree that mental health workforce shortages are a big piece of the problem.</p>
+
+
+
+<p>Kaiser has hired 30 percent more therapists since 2015, and pays the highest rates in the state, said Dr. Linda Kim, chair of regional mental health and addiction medicine and recovery services for Kaiser Northern California. She said Kaiser works closely with therapists and takes “great pains to make sure our patients are getting what they need.”</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://calmatters.org/wp-content/uploads/sites/2/2019/03/IMG_2085-e1551888700418.jpg?w=966" alt="A group of Kaiser employees and their supporters protest outside Kaiser Permanente Sacramento Medical Center on December 11, 2018—part of a five-day action by some therapists, social workers and psychologists who called on Kaiser to boost mental health staffing. Photo by Byrhonda Lyons for CALmatters" class="wp-image-70482" srcset="https://calmatters.org/wp-content/uploads/sites/2/2019/03/IMG_2085-e1551888700418.jpg?w=966 966w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/IMG_2085-e1551888700418.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/IMG_2085-e1551888700418.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/IMG_2085-e1551888700418.jpg?w=397 397w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/IMG_2085-e1551888700418.jpg?w=277 277w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/IMG_2085-e1551888700418.jpg?w=711 711w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/IMG_2085-e1551888700418.jpg?w=742 742w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/IMG_2085-e1551888700418.jpg?w=686 686w" sizes="(max-width: 966px) 100vw, 966px"><figcaption>A group of Kaiser employees and their supporters protest outside Kaiser Permanente Sacramento Medical Center on December 11, 2018—part of a five-day action by some therapists, social workers and psychologists who called on Kaiser to boost mental health staffing. Photo by Byrhonda Lyons for CALmatters </figcaption></figure></div>
+
+
+
+<p>“I truly believe no other organization is doing more than what we are doing, in terms of aggressively hiring and in terms of truly innovating and finding new models of care that are evidence-based,” she said. “I really don’t think there’s anyone else that can match up in terms of what we’re doing. We’re really trying to lead the nation, truly.”</p>
+
+
+
+<p>Professional associations representing psychiatrists and social workers say they often don’t want to work with insurers at all, in part because of low reimbursement rates and onerous administrative burdens.</p>
+
+
+
+<p>A 2014 <a href="https://jamanetwork.com/journals/jamapsychiatry/fullarticle/1785174">study</a> in The Journal of The American Medical Association reported that only 55 percent of psychiatrists accept insurance—compared to an average for all health care professionals of 89 percent.</p>
+
+
+
+<p>Many psychiatrists also are solo practitioners—“their receptionist might be an answering machine,” said Randall Hagar, government relations director for the California Psychiatric Association. Prior authorizations, claim challenges and other paperwork create significant administrative burdens that other providers don’t necessarily face, he said.</p>
+
+
+
+<p>Sheree Lowe, vice president of behavioral health for the California Hospital Association, said health plans often require reauthorization every five days for hospitalized patients receiving mental health or substance abuse treatment, even for evidence-based care that routinely takes 30 days. In some cases, clinicians have to wait up to two hours on hold in order to get that authorization, she said.</p>
+
+
+
+<p>“That doesn’t happen if you go in with a fractured hip or with pneumonia,” she said. “It’s just approved.”</p>
+
+
+
+<p class="has-drop-cap">Despite having to leave school for months at a time to return home, Elizabeth tried to maintain her grasp on normal life, her mother said. She started a podcast, helped write and direct a play, attended a journalism class at UC Berkeley. She took a job at the local Barnes & Noble. Seong would drop her off, watching Elizabeth overcome paralyzing anxiety attacks to get out of the car.</p>
+
+
+
+<p>After spending most of a year trying to get better at home, her parents said, Elizabeth returned to college in the fall of 2017. Back in Massachusetts, she was quickly hospitalized twice. Her parents said that the doctors who treated her there diagnosed her with borderline personality disorder, which was subsequently added to her Kaiser medical record.</p>
+
+
+
+<p>In October 2017, the Tubbs Fire devoured thousands of homes and claimed dozens of lives.</p>
+
+
+
+<p>As it moved closer to the hills around the home she’d designed, Elizabeth’s mother hosed down her roof and bargained with God:</p>
+
+
+
+<p>“Take my house. Bring my child back.”</p>
+
+
+
+<p>The house was spared. Elizabeth got sicker.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_006-e1551855240597.jpg" alt="Seong Brown tends to the altar the family maintains in Elizabeth's honor at their Santa Rosa home. Photo by Penni Gladstone for CALmatters" class="wp-image-70390" srcset="https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_006-e1551855240597.jpg?w=1280 1280w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_006-e1551855240597.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_006-e1551855240597.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_006-e1551855240597.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_006-e1551855240597.jpg?w=455 455w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_006-e1551855240597.jpg?w=318 318w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_006-e1551855240597.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_006-e1551855240597.jpg?w=850 850w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_006-e1551855240597.jpg?w=786 786w" sizes="(max-width: 1000px) 100vw, 1000px"><figcaption> Seong Brown tends to the altar the family maintains in Elizabeth’s honor at their Santa Rosa home. Photo by Penni Gladstone for CALmatters </figcaption></figure></div>
+
+
+
+<p>Around Thanksgiving, Elizabeth’s parents brought her home from college again. They made plans to send her to a residential treatment program starting in January 2018. It would cost them $45,000 out of pocket. But they were desperate.</p>
+
+
+
+<p>On December 4, 2017, Elizabeth emailed her Kaiser psychiatrist that her parents would be sitting in on her appointment that afternoon. “There is a lot to cover since we last met,” she said.</p>
+
+
+
+<p>“It’s a 30 min visit to remind you and my part at this time is to refill your meds in the transition to your more intensive treatment,” the records show that he responded via email.</p>
+
+
+
+<p>That afternoon, Seong sent the psychiatrist an email, as well, asking for more intensive services:</p>
+
+
+
+<p>“This is very critical and important for Elizabeth’s wellbeing because of her acute symptoms,” she wrote. “She will be home more than a month and she needs an intensive outpatient therapy that is more than once a week. I hope you understand how critical and urgent this is.”</p>
+
+
+
+<p>He responded that he understood, and that Elizabeth could return to the Intensive Outpatient Program for a few hours a day or try to see a new therapist through an outside contractor. “That is the options I have available,” he wrote.</p>
+
+
+
+<p>Elizabeth did begin seeing a new therapist. Meanwhile, Seong developed a protocol when she had to be away from her daughter:  She’d check in with Elizabeth via text, if no response came within 15 minutes, she would call twice. If no one answered, she’d race home.</p>
+
+
+
+<p>On January 10th, 2018, Seong felt hopeful. Elizabeth had texted that she was drinking coffee and reading. Elizabeth hadn’t picked up a book for months. They made plans to buy new glasses frames after Seong came home from work.</p>
+
+
+
+<p>In between texts to her mother, Elizabeth also sent one to a friend, her parents said. Its message, in essence:</p>
+
+
+
+<p>Send the police to collect my body. I don’t want my parents to find me.</p>
+
+
+
+<p>Seong arrived home that evening to find the front door open.</p>
+
+
+
+<p class="has-drop-cap">Elizabeth was still alive when emergency responders rushed in, too late. By then, the medical records show, she had experienced severe brain damage. Her body lived for four more months.</p>
+
+
+
+<div class="wp-block-image"><figure class="alignleft is-resized"><img src="https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_013-e1551853015369.jpg?w=683&#038;resize=365%2C547" alt="Elizabeth Brown's piano sits silent in her Santa Rosa home. Photo by Penni Gladstone for CALmatters" class="wp-image-70384" width="365" height="547" srcset="https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_013-e1551853015369.jpg?w=1280 1280w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_013-e1551853015369.jpg?w=200 200w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_013-e1551853015369.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_013-e1551853015369.jpg?w=683&#038;resize=365%2C547 683w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_013-e1551853015369.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_013-e1551853015369.jpg?w=204 204w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_013-e1551853015369.jpg?w=143 143w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_013-e1551853015369.jpg?w=365 365w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_013-e1551853015369.jpg?w=381 381w, https://calmatters.org/wp-content/uploads/sites/2/2019/03/Healthcare-Elizabeth-Brown_013-e1551853015369.jpg?w=353 353w" sizes="(max-width: 365px) 100vw, 365px" data-recalc-dims="1"><figcaption>Elizabeth Brown’s piano sits silent in her Santa Rosa home.  Photo by Penni Gladstone for CALmatters</figcaption></figure></div>
+
+
+
+<p>Today, in front of an altar of roses and orchids and candles and baby pictures, a burgundy velvet box holds Elizabeth’s ashes. Seong says she can’t bear to part with the box. It’s all she has left.</p>
+
+
+
+<p>A few times, after Elizabeth’s death, Seong heard the piano strumming by itself. At first her husband didn’t believe her. Then he heard it, too.</p>
+
+
+
+<p>Just in case—<em>just in case</em>—it’s her daughter, Seong always stops and says, “Thank you, Elizabeth.”</p>
+
+
+
+<p>“This house was built with her laughing,” she says. “And now it’s silent.”</p>
+
+
+
+<p>Consumers experiencing access issues, or other issues with their health plans, can reach the state’ Department of Managed Health Care Help Center at 1-888-466-2219 or <a rel="noreferrer noopener" href="http://www.healthhelp.ca.gov/" target="_blank">www.HealthHelp.ca.gov</a></p>
+
+
+
+<p>If you or someone you know is having thoughts of suicide, there is help available. Call the National Suicide Prevention Lifeline 1-800-273-8255 (TALK) for resources and support. Free, confidential, available 24/7. Text “HOME” to the Crisis Text Line—741-741—to reach a trained crisis counselor. Free, confidential, available 24/7. For more information and resources, visit: <a href="https://www.speakingofsuicide.com/resources/">https://www.speakingofsuicide.com/resources/</a></p>
+
+
+
+<p><em>This story—supported by a grant from the California Health Care Foundation—is second in a series exploring the challenges Californians face in the pursuit of mental health care.</em></p>
+
+<div class="social-share -horizontal">
+	<ul class="social-share-list">
+				<li class="social-share-list-item">
+			<!-- Email -->
+			<a rel="noopener noreferrer" class="link -email social share" href="/cdn-cgi/l/email-protection#c7f8b4b2a5ada2a4b3fa81a8b5e2f5f7a1a6aaaeabaea2b4e2f5f7a6a4b5a8b4b4e2f5f784a6abaea1a8b5a9aea6ebe2f5f7a6e2f5f7a3a2b4b7a2b5a6b3a2e2f5f7b4b3b5b2a0a0aba2e2f5f7b3a8e2f5f7a0a2b3e2f5f7aaa2a9b3a6abe2f5f7afa2a6abb3afe2f5f7a4a6b5a2e1e4f7f4fffca5a8a3befa84afa2a4ace2f5f7a8b2b3e2f5f7b3afaeb4e2f5f7a6b5b3aea4aba2e2f5f7a6b3fde2f5f7afb3b3b7b4fde8e8a4a6abaaa6b3b3a2b5b4e9a8b5a0e8b7b5a8ada2a4b3b4e8a4a6abaea1a8b5a9aea6a9b4eab4b3b5b2a0a0aba2eab3a8eaa0a2b3eaaaa2a9b3a6abeaafa2a6abb3afeaa4a6b5a2e8" onclick="dataLayer.push( { 'socialNetwork': 'Email' } );" target="_top">
+				<svg role="img" class="icon icon--email-circle" aria-label="email-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#email-circle"></use></svg>				<span class="screen-reader-text">Share by Email</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Twitter -->
+			<a
+				rel="noopener noreferrer"
+				class="link -twitter social share"
+				href="https://twitter.com/share?url=https://calmatters.org/projects/californians-struggle-to-get-mental-health-care/&#038;text=For%20families%20across%20California%2C%20a%20desperate%20struggle%20to%20get%20mental%20health%20care"
+				onclick="dataLayer.push( { 'socialNetwork': 'Twitter' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--twitter-circle" aria-label="twitter-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter-circle"></use></svg>				<span class="screen-reader-text">Share on Twitter</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Facebook -->
+			<a
+				rel="noopener noreferrer"
+				class="link -facebook social share"
+				href="https://www.facebook.com/sharer.php?u=https://calmatters.org/projects/californians-struggle-to-get-mental-health-care/"
+				onclick="dataLayer.push( { 'socialNetwork': 'Facebook' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--facebook-circle" aria-label="facebook-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook-circle"></use></svg>				<span class="screen-reader-text">Share on Facebook</span>
+			</a>
+		</li>
+		<li class="social-share-list-item -copy-embed-item">
+			<!-- Article Link -->
+			
+				<button
+					type="button"
+					class="link -link copy-link"
+					data-href="https://calmatters.org/projects/californians-struggle-to-get-mental-health-care/"
+					data-home-url="https://calmatters.org"
+					data-explainer-id="316"
+					>
+					<svg role="img" class="icon icon--link-circle" aria-label="link-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#link-circle"></use></svg>
+			
+
+
+				<span class="screen-reader-text">Copy Article Link</span>
+				<span class="tooltip">Copied</span>
+			</button>
+		</li>
+
+	</ul>
+</div>
+
+<nav class="project-navigation project-navigation--bottom">
+	<ul>
+		<li>
+		<a href="https://calmatters.org/projects/treatment-for-psychosis-and-other-mental-illness-differs-drastically-by-county/" class="project-navigation__link project-navigation__link--active -part-3">
+			<span class="project-navigation__label">Part 3</span>
+			Treatment for psychosis—and other mental illness—differs drastically by county		</a>
+	</li>
+	</ul>
+</nav>
+			</div>
+			
+<div class="project-series-footer">
+	<div class="container">
+
+		<div class="project-series-footer__info">
+						<h2 class="project-series-footer__title">Breakdown: Mental health in California</h2>
+			
+						<div class="project-series-footer__author">
+				<a href="https://calmatters.org/author/jocelyn-wiener/">
+				<img alt='Jocelyn Wiener' src='https://calmatters.org/wp-content/uploads/sites/2/2020/02/Wiener_Jocelyn-e1581014107366-96x96.jpg' class='avatar avatar-96 photo' height='96' width='96' />				</a>
+
+				<div>
+										<span class="project-series-footer__author-byline">
+						By <a href="https://calmatters.org/author/jocelyn-wiener/">Jocelyn Wiener</a>
+					</span>
+					
+					
+					<ul class="project-series-footer__author-social">
+												<li><a href="/cdn-cgi/l/email-protection#016b6e62646d786f4162606d6c6075756473722f6e7366"><svg role="img" class="icon icon--email" aria-label="email"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#email"></use></svg></a></li>
+												<li><a href="https://calmatters.org/author/jocelyn-wiener/feed/"><svg role="img" class="icon icon--rss" aria-label="rss"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#rss"></use></svg></a></li>
+											</ul>
+				</div>
+			</div>
+					</div>
+
+		<div class="project-series__posts">
+							<a href="https://calmatters.org/projects/california-mental-health-treatment-in-prisons/" class="project-series__posts-item -part-1">
+					<span class="project-series__posts-label ">
+						Part 1					</span>
+					<h3 class="project-series__posts-title">All too often, California’s default mental institutions are now jails and prisons</h3>
+
+											<p>In the past five years, the number of people in California deemed incompetent to stand trial and referred by a judge to state hospitals for treatment has soared—but there are nowhere near enough psychiatric beds to accommodate them.</p>
+									</a>
+								<a href="https://calmatters.org/projects/californians-struggle-to-get-mental-health-care/" class="project-series__posts-item -part-2">
+					<span class="project-series__posts-label ">
+						Part 2					</span>
+					<h3 class="project-series__posts-title">For families across California, a desperate struggle to get mental health care</h3>
+
+											<p>Californians with mental illness—and their family members—describe pleading with insurance providers for the treatment they need.</p>
+									</a>
+								<a href="https://calmatters.org/projects/treatment-for-psychosis-and-other-mental-illness-differs-drastically-by-county/" class="project-series__posts-item -part-3">
+					<span class="project-series__posts-label -next">
+						Next Up: Part 3					</span>
+					<h3 class="project-series__posts-title">Treatment for psychosis—and other mental illness—differs drastically by county</h3>
+
+											<p>In California, geography creates significant barriers for people seeking early psychosis intervention and other treatment, because its 58 counties have 58 different public mental health programs, each with its own set of covered services. That&#039;s by design. Yet it creates troubling inequities.</p>
+									</a>
+								<a href="https://calmatters.org/projects/board-and-care-homes-closing-in-california-mental-health-crisis/" class="project-series__posts-item -part-4">
+					<span class="project-series__posts-label ">
+						Part 4					</span>
+					<h3 class="project-series__posts-title">Overlooked mental health &#8220;catastrophe:&#8221; Vanishing board-and-care-homes leave residents with few options</h3>
+
+											<p>Housing costs have forced many board-and-care homes to shutter. Mental health advocates say the closures will exacerbate the homeless crisis in California.</p>
+									</a>
+								<a href="https://calmatters.org/projects/california-mental-health-care-parity/" class="project-series__posts-item -part-5">
+					<span class="project-series__posts-label ">
+						Part 5					</span>
+					<h3 class="project-series__posts-title">Californians aren&#8217;t getting the mental health care they&#8217;re legally guaranteed. Why not?</h3>
+
+											<p>Laws require health plans to provide patients equal treatment for mental and physical needs. But &quot;parity&quot; is often elusive — and critics say the Legislature and health officials have failed to fix the problem.</p>
+									</a>
+								<a href="https://calmatters.org/projects/mental-health-care-outcry-targets-kaiser-california-parity-regulators/" class="project-series__posts-item -part-6">
+					<span class="project-series__posts-label ">
+						Part 6					</span>
+					<h3 class="project-series__posts-title">Mental health care outcry targets Kaiser — and state regulators</h3>
+
+											<p>Striking clinicians — spotlighting complaints that patients with serious mental illness face long waits and inadequate care — lay blame at the doorstep of the state Department of Managed Health Care.</p>
+									</a>
+								<a href="https://calmatters.org/projects/mentally-ill-forced-treatment-conservatorship-california-debate/" class="project-series__posts-item -part-7">
+					<span class="project-series__posts-label ">
+						Part 7					</span>
+					<h3 class="project-series__posts-title">&#8220;We&#8217;ve lost our compass.&#8221; For California&#8217;s most visible mentally ill, is a return to forced treatment a solution — or a false promise?</h3>
+
+											<p>California inches toward making it easier to compel treatment for mental illness, but serious questions remain. Among them: Do treatment options even exist? </p>
+									</a>
+								<a href="https://calmatters.org/projects/breakdown-californias-mental-health-system-explained/" class="project-series__posts-item -part-8">
+					<span class="project-series__posts-label ">
+						Part 8					</span>
+					<h3 class="project-series__posts-title">Breakdown: California’s mental health system, explained</h3>
+
+									</a>
+						</div>
+	</div>
+</div>
+	<section class="section-feature latest-section">
+
+				<h2 class="sectiontitle -heading-3">
+			Latest in Breakdown: Mental Health		</h2>
+		
+		<div class="grid-wrap">
+			<div class="article-grid">
+									<div class="item ">
+						<div class="item-wrapper">
+															<a href="https://calmatters.org/blogs/events/2020/04/california-coronavirus-mental-health/" class="link thumb" aria-label="Read more about Watch: Taking care of your mental health during the pandemic">
+									<div class="thumb-inner">
+										<img width="321" height="214" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?fit=321%2C214" class="attachment-medium-wide-rec size-medium-wide-rec wp-post-image" alt="coronavirus mental health" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?w=794 794w" sizes="(max-width: 321px) 100vw, 321px" />									</div>
+								</a>
+							
+															<p class="category">Breakdown: Mental Health</p>
+																						<h2 class="title">Watch: Taking care of your mental health during the pandemic</h2>
+													</div>
+					</div>
+									<div class="item ">
+						<div class="item-wrapper">
+															<a href="https://calmatters.org/commentary/as-community-spaces-close-due-to-the-coronavirus-the-homeless-have-almost-nowhere-to-go/" class="link thumb" aria-label="Read more about Closed community spaces due to coronavirus will leave the homeless out in the cold &#8212; it’s a disgrace">
+									<div class="thumb-inner">
+										<img width="321" height="214" src="https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?fit=321%2C214" class="attachment-medium-wide-rec size-medium-wide-rec wp-post-image" alt="A pedestrian walks past a homeless sleeping on Fifth Street in San Francisco, Calif., on Thursday, Nov. 1, 2018. Photo by Ray Chavez/Bay Area News Group" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=794 794w" sizes="(max-width: 321px) 100vw, 321px" />									</div>
+								</a>
+							
+															<p class="category">Breakdown: Mental Health</p>
+																						<h2 class="title">Closed community spaces due to coronavirus will leave the homeless out in the cold &#8212; it’s a disgrace</h2>
+													</div>
+					</div>
+									<div class="item ">
+						<div class="item-wrapper">
+															<a href="https://calmatters.org/commentary/gov-newsom-wants-to-overhaul-californias-mental-health-care-system-heres-a-plan-for-that/" class="link thumb" aria-label="Read more about Gov. Newsom wants to overhaul California&#8217;s mental health care system. Here’s a plan for that">
+									<div class="thumb-inner">
+										<img width="326" height="214" src="https://calmatters.org/wp-content/uploads/sites/2/2019/05/iStock-912219896-1-e1558398753429.jpg?fit=326%2C214" class="attachment-medium-wide-rec size-medium-wide-rec wp-post-image" alt="" srcset="https://calmatters.org/wp-content/uploads/sites/2/2019/05/iStock-912219896-1-e1558398753429.jpg?w=1280 1280w, https://calmatters.org/wp-content/uploads/sites/2/2019/05/iStock-912219896-1-e1558398753429.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2019/05/iStock-912219896-1-e1558398753429.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2019/05/iStock-912219896-1-e1558398753429.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2019/05/iStock-912219896-1-e1558398753429.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2019/05/iStock-912219896-1-e1558398753429.jpg?w=326 326w, https://calmatters.org/wp-content/uploads/sites/2/2019/05/iStock-912219896-1-e1558398753429.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2019/05/iStock-912219896-1-e1558398753429.jpg?w=860 860w, https://calmatters.org/wp-content/uploads/sites/2/2019/05/iStock-912219896-1-e1558398753429.jpg?w=807 807w" sizes="(max-width: 326px) 100vw, 326px" />									</div>
+								</a>
+							
+															<p class="category">Breakdown: Mental Health</p>
+																						<h2 class="title">Gov. Newsom wants to overhaul California&#8217;s mental health care system. Here’s a plan for that</h2>
+													</div>
+					</div>
+									<div class="item ">
+						<div class="item-wrapper">
+															<a href="https://calmatters.org/health/2020/02/mentally-ill-man-accident-treatment-conservatorship-california-mark-rippee/" class="link thumb" aria-label="Read more about After accident they warned about, sisters of mentally ill man blame the state — and beg governor to act">
+									<div class="thumb-inner">
+										<img width="321" height="214" src="https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?fit=321%2C214" class="attachment-medium-wide-rec size-medium-wide-rec wp-post-image" alt="Before the latest accident left him critically injured, Mark Rippee ate a snack of rolls and coffee on November 22, 2019 in Vallejo. Photo by Anne Wernikoff for CalMatters" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?w=794 794w" sizes="(max-width: 321px) 100vw, 321px" />									</div>
+								</a>
+							
+															<p class="category">Breakdown: Mental Health</p>
+																						<h2 class="title">After accident they warned about, sisters of mentally ill man blame the state — and beg governor to act</h2>
+													</div>
+					</div>
+									<div class="item ">
+						<div class="item-wrapper">
+															<a href="https://calmatters.org/health/breakdown-mental-health/2020/02/mentally-ill-homeless-force-treatment-california-newsom-state-of-state/" class="link thumb" aria-label="Read more about Inside the governor&#8217;s bid to fix homelessness: changing how California deals with mental illness">
+									<div class="thumb-inner">
+										<img width="321" height="214" src="https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?fit=321%2C214" class="attachment-medium-wide-rec size-medium-wide-rec wp-post-image" alt="A pedestrian walks past a homeless sleeping on Fifth Street in San Francisco, Calif., on Thursday, Nov. 1, 2018. Photo by Ray Chavez/Bay Area News Group" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=794 794w" sizes="(max-width: 321px) 100vw, 321px" />									</div>
+								</a>
+							
+															<p class="category">Breakdown: Mental Health</p>
+																						<h2 class="title">Inside the governor&#8217;s bid to fix homelessness: changing how California deals with mental illness</h2>
+													</div>
+					</div>
+									<div class="item ">
+						<div class="item-wrapper">
+															<a href="https://calmatters.org/projects/mentally-ill-forced-treatment-conservatorship-california-debate/" class="link thumb" aria-label="Read more about &#8220;We&#8217;ve lost our compass.&#8221; For California&#8217;s most visible mentally ill, is a return to forced treatment a solution — or a false promise?">
+									<div class="thumb-inner">
+										<img width="380" height="184" src="https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?fit=380%2C184" class="attachment-medium-wide-rec size-medium-wide-rec wp-post-image" alt="Mark Rippee, who developed schizophrenia after a traumatic brain injury, has been living on the streets for years" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=3100 3100w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=2048 2048w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=380 380w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=860 860w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=1093 1093w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=3000 3000w" sizes="(max-width: 380px) 100vw, 380px" />									</div>
+								</a>
+							
+															<p class="category">Breakdown: Mental Health</p>
+																						<h2 class="title">&#8220;We&#8217;ve lost our compass.&#8221; For California&#8217;s most visible mentally ill, is a return to forced treatment a solution — or a false promise?</h2>
+													</div>
+					</div>
+							</div>
+		</div>
+	</section>
+	</article>
+		<footer class="container -footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+			<div class="site-footer">
+
+				<div class="col1">
+					<p class="copyright">&copy;
+					2019					CalMatters					</p>
+
+					<div class="menu-footer-container"><ul id="footer-menu" class="menu"><li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="https://calmatters.org/terms-conditions/">Terms &#038; Conditions</a></li>
+<li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-61"><a href="https://calmatters.org/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-80083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80083"><a href="https://calmatters.org/submission-guidelines/">Submission Guidelines</a></li>
+<li id="menu-item-80095" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80095"><a href="https://calmatters.org/donate/">Support CalMatters and Independent Journalism</a></li>
+<li id="menu-item-80096" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80096"><a href="https://calmatters.org/subscribe-to-calmatters/">Sign up for CalMatters</a></li>
+</ul></div>
+				</div>
+
+				<div class="col2">
+
+					<a href="https://thenewsproject.net/" target="_blank" rel="noopener noreferrer">
+					<span class="screen-reader-text">CalMatters</span>
+					Powered by
+					<svg role="img" class="icon icon--tnp-powered" aria-label="tnp-powered"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#tnp-powered"></use></svg>					</a>
+
+				</div>
+
+			</div>
+		</footer>
+
+		<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+!function(n,t,c,e,u){function r(n){try{f=n(u)}catch(n){return h=n,void i(p,n)}i(s,f)}function i(n,t){for(var c=0;c<n.length;c++)d(n[c],t);
+}function o(n,t){return n&&(f?d(n,f):s.push(n)),t&&(h?d(t,h):p.push(t)),l}function a(n){return o(!1,n)}function d(t,c){
+n.setTimeout(function(){t(c)},0)}var f,h,s=[],p=[],l={then:o,catch:a,_setup:r};n[e]=l;var v=t.createElement("script");
+v.src=c,v.async=!0,v.id="_uasdk",v.rel=e,t.head.appendChild(v)}(window,document,'https://aswpsdkus.com/notify/v1/ua-sdk.min.js',
+	'UA', {
+		appKey: 'swOPpECvQRyoqoQ0AOtBgg',
+		token: 'MTpzd09QcEVDdlFSeW9xb1EwQU90QmdnOld4WFFoRWlPX05hLVlrZVc4YlgxSW0xVHFxVkZzT2JrYmdUUWpBTkxfZjQ',
+				workerUrl: 'https://calmatters.org/service-worker.js',websitePushId: 'web.thenewsproject',				vapidPublicKey: 'BAjVIVcGJFCYJzHU63gf4TrkNG4qpF_ULK8'
+	});
+</script>
+		<script type='text/javascript' src='https://calmatters.org/_static/??-eJx1zcEOwiAQBNAfkm7VNPVi/BRDYbVQWDbskv6+xngwJpzmMm8GdjaukCIp5GY4tWcggYjK1m1wD+RgaSF54LVooW8MOdAQ5QA/XFfMKOBsylYVq4APohAFllTcJuZRP03fge8g3IVriei0i/vPnQEl/te3fD1Ol3mczuN8ii9voGFT'></script>
+<script>
+var tnpData = {"ad_zone":"calmatters","error_email_invalid":"You have entered an invalid email","error_missing_status":"Response missing email_status","gtmIDs":[{"gtm_id":"GTM-WJSBCB4"},{"gtm_id":"GTM-TXQ3CH7"}],"subscribed":"Thanks for subscribing!","dataLayer":{"author":"Jocelyn Wiener","canonicalUrl":"https:\/\/calmatters.org\/projects\/californians-struggle-to-get-mental-health-care\/","category":"Breakdown: Mental Health","environment":"production","gaId":"UA-117522438-3","gatedContentType":"","originalPublishDate":"03102019","originalPublishHour":"1552260357","pageType":"article","postId":"316","postType":"tnp_long_form","publicationName":"CalMatters","sponsor":"","tag":"","gatedContent":"false"},"experience_control":"explicit"};
+var mailchimp = {"action":"handle_newsletter_signup","admin_ajax":"https:\/\/calmatters.org\/wp-admin\/admin-ajax.php","list":"faa7be558d","nonce":"5fb54b11a5"};
+var tnp_piano = {"piano_url":"https:\/\/sandbox.tinypass.com\/xbuilder\/experience\/load?aid=teischen","piano_aid":"teischen","piano_prod":"","piano_gated":""};
+</script>
+<script>
+// Remove no-js and add 'js' to the HTML
+		document.documentElement.classList.remove('no-js');
+		document.documentElement.classList.add('js');
+		WebFontConfig = {
+			google: { families: [ 'Source+Sans+Pro:400,700,900:latin' ] }
+		};
+		(function() {
+			var wf = document.createElement('script');
+			wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+			'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+			wf.type = 'text/javascript';
+			wf.async = 'true';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(wf, s);
+		})();
+</script>
+<script src='https://calmatters.org/wp-content/themes/calmatters/dist/js/frontend.js?ver=0.1.169'></script>
+<script type='text/javascript' src='https://calmatters.org/wp-content/themes/calmatters/dist/js/fontChanger.js?m=1583263699g'></script>
+<script src='https://calmatters.org/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.15'></script>
+<script>
+window.lodash = _.noConflict();
+</script>
+<script>
+var epas = {"query":"{\"from\":0,\"size\":10,\"sort\":[{\"_score\":{\"order\":\"desc\"}}],\"query\":{\"function_score\":{\"query\":{\"bool\":{\"should\":[{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"post\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"page\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"tnp_newsletters\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"cal_explainers\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"commentary\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"tnp_long_form\"}}]}}]}},\"functions\":[{\"exp\":{\"post_date_gmt\":{\"scale\":\"14d\",\"decay\":0.25,\"offset\":\"7d\"}}}],\"score_mode\":\"avg\",\"boost_mode\":\"sum\"}},\"post_filter\":{\"bool\":{\"must\":[{\"terms\":{\"post_type.raw\":[\"post\",\"page\",\"tnp_newsletters\",\"cal_explainers\",\"commentary\",\"tnp_long_form\"]}},{\"term\":{\"post_status\":\"publish\"}}]}}}","placeholder":"ep_autosuggest_placeholder","endpointUrl":"https:\/\/contact-5cc31fb04fd13.clients.hosted-elasticpress.io\/contact-5cc31fb04fd13-calmattersorg-post-2\/autosuggest","selector":"ep-autosuggest","action":"navigate","mimeTypes":[],"triggerAnalytics":"","addSearchTermHeader":"1"};
+</script>
+<script type='text/javascript' src='https://calmatters.org/_static/??-eJyNjUEOAiEQBD/k7sTDbvBgfAvCSIbAQOghft818eBNj52qVNOzL6GpsRr1MpMoiIuHSeiDAYoCowzy0xpmSgxbEIZ0W6vomnGiIyEayoyMtzk18kBog7+Nv04ePrDhR/+YXO8cP/xWr+fNbbu77M7lF4EcTTI='></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202016.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:8.4.2',blog:'163013142',post:'316',tz:'-7',srv:'calmatters.org'} ]);
+	_stq.push([ 'clickTrackerInit', '163013142', '316' ]);
+</script>
+
+	</div> <!-- end .site -->
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"54db1a61c9","applicationID":"187794457","transactionName":"ZgEAMhdQCkJTBU1aDF9LIwURWAtfHRVQXQRdAU8SC0E7XV0IXmwFXhYP","queueTime":0,"applicationTime":441,"atts":"SkYXRF9KGR0QBxsJGEwZ","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

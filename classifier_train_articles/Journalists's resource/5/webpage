@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PRBVPKQ');</script>
+<!-- End Google Tag Manager -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="pingback" href="https://journalistsresource.org/xmlrpc.php">
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="https://journalistsresource.org/wp-content/themes/point-child/graphics/favicon.ico" />
+<link rel="stylesheet" href="https://journalistsresource.org/wp-content/themes/point-child/print.css?d=3222017b" type="text/css" media="print" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+<title>Consumer spending and the coronavirus pandemic</title>
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v5.8 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="New research is giving shape to the rapid decline in consumer spending due to the new coronavirus, showing why GDP forecasts are dire."/>
+<link rel="canonical" href="https://journalistsresource.org/studies/economics/consumer-spending-coronavirus-pandemic/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Economic earthquake: Consumer spending in the wake of the coronavirus pandemic" />
+<meta property="og:description" content="New research is giving shape to the rapid decline in consumer spending due to the new coronavirus, showing why GDP forecasts are dire." />
+<meta property="og:url" content="https://journalistsresource.org/studies/economics/consumer-spending-coronavirus-pandemic/" />
+<meta property="og:site_name" content="Journalist&#039;s Resource" />
+<meta property="article:tag" content="clark merrefield" />
+<meta property="article:tag" content="consumer spending" />
+<meta property="article:tag" content="coronavirus" />
+<meta property="article:tag" content="COVID-19" />
+<meta property="article:tag" content="Donald Trump" />
+<meta property="article:tag" content="earthquake" />
+<meta property="article:tag" content="economics" />
+<meta property="article:tag" content="gdp" />
+<meta property="article:tag" content="gross domestic product" />
+<meta property="article:tag" content="household spending" />
+<meta property="article:tag" content="merrefield" />
+<meta property="article:tag" content="president donald trump" />
+<meta property="article:tag" content="spending" />
+<meta property="article:tag" content="trump" />
+<meta property="article:section" content="Economics" />
+<meta property="article:published_time" content="2020-04-17T11:18:22-04:00" />
+<meta property="article:modified_time" content="2020-04-17T17:28:52-04:00" />
+<meta property="og:updated_time" content="2020-04-17T17:28:52-04:00" />
+<meta property="og:image" content="https://journalistsresource.org/wp-content/uploads/2020/04/kelly-sikkema-kp7ENPlp8no-unsplash-scaled.jpg" />
+<meta property="og:image:secure_url" content="https://journalistsresource.org/wp-content/uploads/2020/04/kelly-sikkema-kp7ENPlp8no-unsplash-scaled.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="New research is giving shape to the rapid decline in consumer spending due to the new coronavirus, showing why GDP forecasts are dire." />
+<meta name="twitter:title" content="Economic earthquake: Consumer spending and the coronavirus pandemic" />
+<meta name="twitter:image" content="https://journalistsresource.org/wp-content/uploads/2020/04/kelly-sikkema-kp7ENPlp8no-unsplash-scaled.jpg" />
+<meta name="twitter:creator" content="@cmerref" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/journalistsresource.org\/","name":"Journalist&#039;s Resource","potentialAction":{"@type":"SearchAction","target":"https:\/\/journalistsresource.org\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Journalist&#039;s Resource &raquo; Feed" href="https://journalistsresource.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Journalist&#039;s Resource &raquo; Comments Feed" href="https://journalistsresource.org/comments/feed/" />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.10.4 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	var mi_version         = '7.10.4';
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-5985794-2';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-5985794-2', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('require', 'displayfeatures');
+		__gaTracker('send','pageview');
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/journalistsresource.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://journalistsresource.org/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='https://journalistsresource.org/wp-includes/css/dist/block-library/theme.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='point-style-css'  href='https://journalistsresource.org/wp-content/themes/point-child/style.css?ver=1.0.0' type='text/css' media='all' />
+<style id='point-style-inline-css' type='text/css'>
+
+		a:hover, .menu .current-menu-item > a, .menu .current-menu-item, .current-menu-ancestor > a.sf-with-ul, .current-menu-ancestor, footer .textwidget a, .single_post a:not(.wp-block-button__link), #commentform a, .copyrights a:hover, a, footer .widget li a:hover, .menu > li:hover > a, .single_post .post-info a, .post-info a, .readMore a, .reply a, .fn a, .carousel a:hover, .single_post .related-posts a:hover, .sidebar.c-4-12 .textwidget a, footer .textwidget a, .sidebar.c-4-12 a:hover, .title a:hover, .trending-articles li a:hover { color: #a71930; }
+		.review-result, .review-total-only { color: #a71930!important; }
+		.nav-previous a, .nav-next a, .sub-menu, #commentform input#submit, .tagcloud a, #tabber ul.tabs li a.selected, .featured-cat, .mts-subscribe input[type='submit'], .pagination a, .widget .wpt_widget_content #tags-tab-content ul li a, .latestPost-review-wrapper, .pagination .dots, .primary-navigation #wpmm-megamenu .wpmm-posts .wpmm-pagination a, #wpmm-megamenu .review-total-only, body .latestPost-review-wrapper, .review-type-circle.wp-review-show-total { background: #a71930; color: #fff; } .header-button { background: #336699; } #logo a { color: #blank; }
+		
+		
+</style>
+<link rel='stylesheet' id='theme-slug-fonts-css'  href='//fonts.googleapis.com/css?family=Droid+Sans%3A400%2C700&#038;subset=latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='addtoany-css'  href='https://journalistsresource.org/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.15' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://journalistsresource.org/wp-content/plugins/jetpack/css/jetpack.css?ver=8.3' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[]","home_url":"https:\/\/journalistsresource.org","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://journalistsresource.org/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js?ver=7.10.4'></script>
+<script type='text/javascript' src='https://journalistsresource.org/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://journalistsresource.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://journalistsresource.org/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1'></script>
+<script type='text/javascript' src='https://journalistsresource.org/wp-content/themes/point/js/customscripts.js?ver=5.3.2'></script>
+<link rel='https://api.w.org/' href='https://journalistsresource.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://journalistsresource.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://journalistsresource.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.3.2" />
+<link rel='shortlink' href='https://journalistsresource.org/?p=63371' />
+<link rel="alternate" type="application/json+oembed" href="https://journalistsresource.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Feconomics%2Fconsumer-spending-coronavirus-pandemic%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://journalistsresource.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Feconomics%2Fconsumer-spending-coronavirus-pandemic%2F&#038;format=xml" />
+
+<script data-cfasync="false">
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+(function(d,s,a,b){a=d.createElement(s);b=d.getElementsByTagName(s)[0];a.async=1;a.src="https://static.addtoany.com/menu/page.js";b.parentNode.insertBefore(a,b);})(document,"script");
+</script>
+<style>
+	#category-posts-3-internal ul {padding: 0;}
+#category-posts-3-internal .cat-post-item img {max-width: initial; max-height: initial; margin: initial;}
+#category-posts-3-internal .cat-post-author {margin-bottom: 0;}
+#category-posts-3-internal .cat-post-thumbnail {margin: 5px 10px 5px 0;}
+#category-posts-3-internal .cat-post-item:before {content: ""; clear: both;}
+#category-posts-3-internal .cat-post-title {font-size: 15px;}
+#category-posts-3-internal .cat-post-current .cat-post-title {font-weight: bold; text-transform: uppercase;}
+#category-posts-3-internal .cat-post-date {font-size: 14px; line-height: 18px; font-style: italic; margin-bottom: 5px;}
+#category-posts-3-internal .cat-post-comment-num {font-size: 14px; line-height: 18px;}
+#category-posts-3-internal .cat-post-item {border-bottom: 1px solid #ccc;	list-style: none; list-style-type: none; margin: 3px 0;	padding: 3px 0;}
+#category-posts-3-internal .cat-post-item:last-child {border-bottom: none;}
+#category-posts-3-internal .cat-post-item:after {content: ""; display: table;	clear: both;}
+#category-posts-3-internal p {margin:5px 0 0 0}
+#category-posts-3-internal li > div {margin:5px 0 0 0; clear:both;}
+#category-posts-3-internal .dashicons {vertical-align:middle;}
+#category-posts-3-internal .cat-post-thumbnail .cat-post-crop img {width: 65px;}
+#category-posts-3-internal .cat-post-thumbnail .cat-post-crop img {height: 65px;}
+#category-posts-3-internal .cat-post-thumbnail .cat-post-crop img {object-fit: cover;max-width:100%;}
+#category-posts-3-internal .cat-post-thumbnail .cat-post-crop-not-supported img {width:100%;}
+#category-posts-3-internal .cat-post-thumbnail {max-width:100%;}
+#category-posts-3-internal .cat-post-item img {margin: initial;}
+#category-posts-3-internal .cat-post-thumbnail {float:left;}
+</style>
+	<script type='text/javascript' data-cfasync='false'>var _mmunch = {'front': false, 'page': false, 'post': false, 'category': false, 'author': false, 'search': false, 'attachment': false, 'tag': false};_mmunch['post'] = true; _mmunch['postData'] = {"ID":63371,"post_name":"consumer-spending-coronavirus-pandemic","post_title":"Economic earthquake: Consumer spending in the wake of the coronavirus pandemic","post_type":"post","post_author":"105","post_status":"publish"}; _mmunch['postCategories'] = [{"term_id":17,"name":"Economics","slug":"economics","term_group":0,"term_taxonomy_id":17,"taxonomy":"category","description":"","parent":5,"count":108,"filter":"raw","cat_ID":17,"category_count":108,"category_description":"","cat_name":"Economics","category_nicename":"economics","category_parent":5},{"term_id":35,"name":"Government","slug":"government","term_group":0,"term_taxonomy_id":36,"taxonomy":"category","description":"Government","parent":5,"count":155,"filter":"raw","cat_ID":35,"category_count":155,"category_description":"Government","cat_name":"Government","category_nicename":"government","category_parent":5},{"term_id":1,"name":"Home","slug":"home","term_group":0,"term_taxonomy_id":1,"taxonomy":"category","description":"DO NOT POST STUDIES HERE","parent":0,"count":165,"filter":"raw","cat_ID":1,"category_count":165,"category_description":"DO NOT POST STUDIES HERE","cat_name":"Home","category_nicename":"home","category_parent":0},{"term_id":156,"name":"Jobs","slug":"jobs","term_group":0,"term_taxonomy_id":166,"taxonomy":"category","description":"","parent":17,"count":204,"filter":"raw","cat_ID":156,"category_count":204,"category_description":"","cat_name":"Jobs","category_nicename":"jobs","category_parent":17},{"term_id":606,"name":"Workers","slug":"workers","term_group":0,"term_taxonomy_id":625,"taxonomy":"category","description":"","parent":17,"count":159,"filter":"raw","cat_ID":606,"category_count":159,"category_description":"","cat_name":"Workers","category_nicename":"workers","category_parent":17}]; _mmunch['postTags'] = [{"term_id":19832,"name":"clark merrefield","slug":"clark-merrefield","term_group":0,"term_taxonomy_id":19852,"taxonomy":"post_tag","description":"","parent":0,"count":43,"filter":"raw"},{"term_id":22636,"name":"consumer spending","slug":"consumer-spending","term_group":0,"term_taxonomy_id":22656,"taxonomy":"post_tag","description":"","parent":0,"count":1,"filter":"raw"},{"term_id":21961,"name":"coronavirus","slug":"coronavirus","term_group":0,"term_taxonomy_id":21981,"taxonomy":"post_tag","description":"<h2 style=\"text-align: center;\">The coronavirus pandemic<\/h2>\r\nThe coronavirus pandemic is a global, national, regional, local and hyperlocal news story that spans every beat. The <em>Journalist's Resource<\/em> team is creating a series of pieces to inform news coverage of the new coronavirus and the many topics it influences.","parent":0,"count":17,"filter":"raw"},{"term_id":22096,"name":"COVID-19","slug":"covid-19","term_group":0,"term_taxonomy_id":22116,"taxonomy":"post_tag","description":"","parent":0,"count":15,"filter":"raw"},{"term_id":13414,"name":"Donald Trump","slug":"donald-trump","term_group":0,"term_taxonomy_id":13434,"taxonomy":"post_tag","description":"","parent":0,"count":18,"filter":"raw"},{"term_id":22632,"name":"earthquake","slug":"earthquake","term_group":0,"term_taxonomy_id":22652,"taxonomy":"post_tag","description":"","parent":0,"count":1,"filter":"raw"},{"term_id":970,"name":"economics","slug":"economics","term_group":0,"term_taxonomy_id":990,"taxonomy":"post_tag","description":"","parent":0,"count":19,"filter":"raw"},{"term_id":22634,"name":"gdp","slug":"gdp","term_group":0,"term_taxonomy_id":22654,"taxonomy":"post_tag","description":"","parent":0,"count":1,"filter":"raw"},{"term_id":22633,"name":"gross domestic product","slug":"gross-domestic-product","term_group":0,"term_taxonomy_id":22653,"taxonomy":"post_tag","description":"","parent":0,"count":1,"filter":"raw"},{"term_id":22637,"name":"household spending","slug":"household-spending","term_group":0,"term_taxonomy_id":22657,"taxonomy":"post_tag","description":"","parent":0,"count":1,"filter":"raw"},{"term_id":18800,"name":"merrefield","slug":"merrefield","term_group":0,"term_taxonomy_id":18820,"taxonomy":"post_tag","description":"","parent":0,"count":55,"filter":"raw"},{"term_id":19973,"name":"president donald trump","slug":"president-donald-trump","term_group":0,"term_taxonomy_id":19993,"taxonomy":"post_tag","description":"","parent":0,"count":8,"filter":"raw"},{"term_id":22635,"name":"spending","slug":"spending","term_group":0,"term_taxonomy_id":22655,"taxonomy":"post_tag","description":"","parent":0,"count":1,"filter":"raw"},{"term_id":17674,"name":"trump","slug":"trump","term_group":0,"term_taxonomy_id":17694,"taxonomy":"post_tag","description":"","parent":0,"count":11,"filter":"raw"}]; _mmunch['postAuthor'] = {"name":"Clark Merrefield","ID":105};</script><script data-cfasync="false" src="//a.mailmunch.co/app/v1/site.js" id="mailmunch-script" data-plugin="mc_mm" data-mailmunch-site-id="125570" async></script><script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//journalistsresource.org/?wordfence_lh=1&hid=E96A097C70635E24961A51E7F5E0E3EE');
+</script><style type='text/css'>img#wpstats{display:none}</style>		<style type="text/css">
+							.site-title, .site-description {
+					position: absolute;
+					clip: rect(1px, 1px, 1px, 1px);
+				}
+						</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	</head>
+<body id="blog" class="post-template-default single single-post postid-63371 single-format-standard custom-background wp-embed-responsive">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRBVPKQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="main-container">
+
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-branding">
+												<h2 id="logo" class="image-logo" itemprop="headline">
+						<a href="https://journalistsresource.org" data-wpel-link="internal"><img src="https://journalistsresource.org/wp-content/uploads/2017/03/JR-logo-4a-flat.jpg" alt="Journalist&#039;s Resource"></a>
+					</h2><!-- END #logo -->
+										<a href="#" id="pull" class="toggle-mobile-menu">Menu</a>
+			<h2 class="shor-logo"><a href="https://shorensteincenter.org/" class="support-logo-shor" data-wpel-link="external" target="_blank"><img src="https://journalistsresource.org/wp-content/themes/point-child/graphics/hks-shorenstein-logo.jpg" alt="Shorenstein Logo" width="220px" /></a></h2>
+			
+			<div class="primary-navigation">
+				<nav id="navigation" class="mobile-menu-wrapper" role="navigation">
+											<ul id="menu-point-header" class="menu clearfix"><li id="menu-item-53179" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children"><a href="https://journalistsresource.org/studies/government/" data-wpel-link="internal">Government<br /><span class="sub">Government</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-53185" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/government/budget/" data-wpel-link="internal">Budget<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53186" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/government/congress/" data-wpel-link="internal">Congress<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53187" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/government/criminal-justice/" data-wpel-link="internal">Criminal Justice<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53188" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/government/health-care/" data-wpel-link="internal">Health Care<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53189" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/government/immigration/" data-wpel-link="internal">Immigration<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53190" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/government/infrastructure-government/" data-wpel-link="internal">Infrastructure<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53191" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/government/municipal/" data-wpel-link="internal">Municipal<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53192" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/government/security-military/" data-wpel-link="internal">Security, Military<br /><span class="sub"></span></a></li>
+</ul>
+</li>
+<li id="menu-item-53180" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children"><a href="https://journalistsresource.org/studies/economics/" data-wpel-link="internal">Economics<br /><span class="sub"></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-53193" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/economics/banks/" data-wpel-link="internal">Banks<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53194" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/economics/business/" data-wpel-link="internal">Business<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53195" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/economics/inequality/" data-wpel-link="internal">Inequality<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53196" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent"><a href="https://journalistsresource.org/studies/economics/jobs/" data-wpel-link="internal">Jobs<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53197" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/economics/personal-finance/" data-wpel-link="internal">Personal Finance<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53198" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/economics/real-estate/" data-wpel-link="internal">Real Estate<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53199" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/economics/taxes/" data-wpel-link="internal">Taxes<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53200" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent"><a href="https://journalistsresource.org/studies/economics/workers/" data-wpel-link="internal">Workers<br /><span class="sub"></span></a></li>
+</ul>
+</li>
+<li id="menu-item-53181" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children"><a href="https://journalistsresource.org/studies/environment/" data-wpel-link="internal">Environment<br /><span class="sub"></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-53201" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/environment/cities/" data-wpel-link="internal">Cities<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53202" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/environment/climate-change/" data-wpel-link="internal">Climate Change<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53203" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/environment/ecology/" data-wpel-link="internal">Ecology<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53204" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/environment/energy/" data-wpel-link="internal">Energy<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53205" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/environment/food-agriculture/" data-wpel-link="internal">Food, Agriculture<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53206" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/environment/pollution-environment/" data-wpel-link="internal">Pollution<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53207" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/environment/sustainability/" data-wpel-link="internal">Sustainability<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53208" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/environment/transportation/" data-wpel-link="internal">Transportation<br /><span class="sub"></span></a></li>
+</ul>
+</li>
+<li id="menu-item-53182" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children"><a href="https://journalistsresource.org/studies/politics/" data-wpel-link="internal">Politics<br /><span class="sub"></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-53209" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/politics/ads-public-opinion/" data-wpel-link="internal">Ads, Public Opinion<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53210" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/politics/campaign-media/" data-wpel-link="internal">Campaign Media<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53211" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/politics/citizen-action/" data-wpel-link="internal">Citizen Action<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53212" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/politics/digital-democracy/" data-wpel-link="internal">Digital Democracy<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53213" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/politics/elections/" data-wpel-link="internal">Elections<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53214" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/politics/finance-lobbying/" data-wpel-link="internal">Finance, Lobbying<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53215" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/politics/polarization/" data-wpel-link="internal">Polarization<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53216" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/politics/primaries/" data-wpel-link="internal">Primaries<br /><span class="sub"></span></a></li>
+</ul>
+</li>
+<li id="menu-item-53183" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children"><a href="https://journalistsresource.org/studies/society/" data-wpel-link="internal">Society<br /><span class="sub"></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-53217" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/society/culture/" data-wpel-link="internal">Culture<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53218" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/society/drug-policy/" data-wpel-link="internal">Drug Policy<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53219" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/society/education/" data-wpel-link="internal">Education<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53220" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/society/gender-society/" data-wpel-link="internal">Gender<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53342" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/society/housing/" data-wpel-link="internal">Housing<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53221" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/society/internet/" data-wpel-link="internal">Internet<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53222" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/society/news-media/" data-wpel-link="internal">News Media<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53223" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/society/public-health/" data-wpel-link="internal">Public Health<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53224" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/society/race-society/" data-wpel-link="internal">Race<br /><span class="sub"></span></a></li>
+	<li id="menu-item-54476" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/society/religion/" data-wpel-link="internal">Religion<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53225" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/society/social-media/" data-wpel-link="internal">Social Media<br /><span class="sub"></span></a></li>
+</ul>
+</li>
+<li id="menu-item-53184" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children"><a href="https://journalistsresource.org/studies/international/" data-wpel-link="internal">International<br /><span class="sub"></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-53226" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/international/africa/" data-wpel-link="internal">Africa<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53227" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/international/china/" data-wpel-link="internal">China<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53228" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/international/conflicts/" data-wpel-link="internal">Conflicts<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53229" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/international/development/" data-wpel-link="internal">Development<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53230" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/international/global-tech/" data-wpel-link="internal">Global Tech<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53231" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/international/globalization/" data-wpel-link="internal">Globalization<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53232" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/international/human-rights/" data-wpel-link="internal">Human Rights<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53233" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/international/foreign-policy/" data-wpel-link="internal">U.S. Foreign Policy<br /><span class="sub"></span></a></li>
+</ul>
+</li>
+</ul>										<div class="secondary-menu"><div class="menu-header-navigation-right-container"><ul id="menu-header-navigation-right" class="menu"><li id="menu-item-5306" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5306"><a href="https://journalistsresource.org/tip-sheets/" data-wpel-link="internal">Tip sheets</a></li>
+<li id="menu-item-5307" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5307"><a href="https://journalistsresource.org/syllabi/" data-wpel-link="internal">Syllabi</a></li>
+<li id="menu-item-53256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53256"><a href="https://journalistsresource.org/about-journalists-resource/" data-wpel-link="internal">About Us</a></li>
+<li id="menu-item-53257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53257"><a href="https://journalistsresource.org/contact/" data-wpel-link="internal">Contact</a></li>
+</ul></div></div>
+				</nav><!-- #navigation -->
+			</div><!-- .primary-navigation -->
+		</div><!-- .site-branding -->
+	</header><!-- #masthead -->
+
+		<div class="search-bar">
+		  <form method="get" id="searchform" class="search-form" action="https://journalistsresource.org" _lpchecked="1">
+	<fieldset>
+		<input aria-label="Search" type="text" name="s" id="s" value="Search the site" onblur="if (this.value == '') {this.value = 'Search the site';}" onfocus="if (this.value == 'Search the site') {this.value = '';}" >
+		<button aria-label="Search" id="search-image" class="sbutton" role="button" type="submit" value="">
+    		<i class="point-icon icon-search"></i>
+    	</button>
+		<!-- <input id="search-image" class="sbutton" type="submit" style="border:0; vertical-align: top;" value=""> -->
+	</fieldset>
+</form>           <div class="policy"><a class="button email-list" title="THE CORONAVIRUS PANDEMIC" href="https://journalistsresource.org/tag/coronavirus/" data-wpel-link="internal">THE CORONAVIRUS PANDEMIC</a></div>
+          <div class="social-profile-icons">
+		      <div class="subscribe"><a class="button email-list" title="Sign up for our newsletter" href="https://harvard.us1.list-manage.com/subscribe?u=30699762a3826bbf132818652&amp;id=12d86b1d6a" data-wpel-link="external" target="_blank">Subscribe</a></div>
+	          <ul class="">
+		          <li class="social-facebook"><a title="Facebook" href="https://www.facebook.com/journalistsresource/" data-wpel-link="external" target="_blank"><i class="point-icon icon-facebook"></i></a></li>
+		          <li class="social-twitter"><a title="Twitter" href="https://twitter.com/JournoResource" data-wpel-link="external" target="_blank"><i class="point-icon icon-twitter"></i></a></li>
+		      </ul>
+		  </div>
+          
+    </div><!-- end search-bar -->
+    <!-- begin featured image section on home page -->
+			<!-- end featured image section on home page --><div id="page" class="single">
+	<div class="content">
+		<!-- Start Article -->
+		<article class="article">		
+							<div id="post-63371" class="post post-63371 type-post status-publish format-standard has-post-thumbnail hentry category-economics category-government category-home category-jobs category-workers tag-clark-merrefield tag-consumer-spending tag-coronavirus tag-covid-19 tag-donald-trump tag-earthquake tag-economics tag-gdp tag-gross-domestic-product tag-household-spending tag-merrefield tag-president-donald-trump tag-spending tag-trump">
+					<div class="single_post">
+						<header>
+							<!-- Start Title -->
+							<h1 class="title single-title">Economic earthquake: Consumer spending in the wake of the coronavirus pandemic</h1>
+							&nbsp;
+							<!-- End Title -->
+							<!-- Begin Image -->
+							 
+								<div class="single-thumb">
+									<img width="720" height="480" src="https://journalistsresource.org/wp-content/uploads/2020/04/kelly-sikkema-kp7ENPlp8no-unsplash-720x480.jpg" class="attachment-bgthumb size-bgthumb wp-post-image" alt="" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/04/kelly-sikkema-kp7ENPlp8no-unsplash-720x480.jpg 720w, https://journalistsresource.org/wp-content/uploads/2020/04/kelly-sikkema-kp7ENPlp8no-unsplash-300x200.jpg 300w, https://journalistsresource.org/wp-content/uploads/2020/04/kelly-sikkema-kp7ENPlp8no-unsplash-1024x683.jpg 1024w, https://journalistsresource.org/wp-content/uploads/2020/04/kelly-sikkema-kp7ENPlp8no-unsplash-768x512.jpg 768w, https://journalistsresource.org/wp-content/uploads/2020/04/kelly-sikkema-kp7ENPlp8no-unsplash-1536x1024.jpg 1536w, https://journalistsresource.org/wp-content/uploads/2020/04/kelly-sikkema-kp7ENPlp8no-unsplash-2048x1365.jpg 2048w, https://journalistsresource.org/wp-content/uploads/2020/04/kelly-sikkema-kp7ENPlp8no-unsplash-353x235.jpg 353w, https://journalistsresource.org/wp-content/uploads/2020/04/kelly-sikkema-kp7ENPlp8no-unsplash-220x147.jpg 220w" sizes="(max-width: 720px) 100vw, 720px" />									<div class="caption">(<a href="https://unsplash.com/@kellysikkema" data-wpel-link="external" target="_blank">Kelly Sikkema</a> / Unsplash)</div>
+																	</div>
+														<!-- End Image -->
+						</header>
+						<!-- author and social begin -->
+						<div class="floatright">
+							<div class="floatleft"><div class="a2a_kit a2a_kit_size_22 addtoany_list" data-a2a-url="https://journalistsresource.org/studies/economics/consumer-spending-coronavirus-pandemic/" data-a2a-title="Economic earthquake: Consumer spending in the wake of the coronavirus pandemic"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Feconomics%2Fconsumer-spending-coronavirus-pandemic%2F&amp;linkname=Economic%20earthquake%3A%20Consumer%20spending%20in%20the%20wake%20of%20the%20coronavirus%20pandemic" title="Facebook" rel="nofollow noopener" target="_blank" data-wpel-link="external"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Feconomics%2Fconsumer-spending-coronavirus-pandemic%2F&amp;linkname=Economic%20earthquake%3A%20Consumer%20spending%20in%20the%20wake%20of%20the%20coronavirus%20pandemic" title="Twitter" rel="nofollow noopener" target="_blank" data-wpel-link="external"></a><a class="a2a_button_linkedin" href="https://www.addtoany.com/add_to/linkedin?linkurl=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Feconomics%2Fconsumer-spending-coronavirus-pandemic%2F&amp;linkname=Economic%20earthquake%3A%20Consumer%20spending%20in%20the%20wake%20of%20the%20coronavirus%20pandemic" title="LinkedIn" rel="nofollow noopener" target="_blank" data-wpel-link="external"></a><a class="a2a_button_reddit" href="https://www.addtoany.com/add_to/reddit?linkurl=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Feconomics%2Fconsumer-spending-coronavirus-pandemic%2F&amp;linkname=Economic%20earthquake%3A%20Consumer%20spending%20in%20the%20wake%20of%20the%20coronavirus%20pandemic" title="Reddit" rel="nofollow noopener" target="_blank" data-wpel-link="external"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Feconomics%2Fconsumer-spending-coronavirus-pandemic%2F&amp;linkname=Economic%20earthquake%3A%20Consumer%20spending%20in%20the%20wake%20of%20the%20coronavirus%20pandemic" title="Email" rel="nofollow noopener" target="_blank" data-wpel-link="external"></a></div></div>
+							<div class="print-link"><a class="print-friendly" href="javascript:window.print()" data-wpel-link="internal"><img src="https://journalistsresource.org/wp-content/themes/point-child/graphics/printer.png" width="30px"></a></div>
+						</div>
+						<!-- author and social begin -->
+				<em>By <a href="https://journalistsresource.org/author/clarkmerrefield/" title="Posts by Clark Merrefield" rel="author" data-wpel-link="internal">Clark Merrefield</a></em></p>
+						<!-- author info end -->
+						<p>April 17, 2020</p> 
+						<div class="clearboth"></div>
+						<!-- Start Content -->
+						<div class="post-single-content box mark-links">
+							<div class='mailmunch-forms-before-post' style='display: none !important;'></div><p>It’s no surprise that consumer spending in the U.S. fell off a cliff in March. That’s when bars, concert halls, movie theaters and other <a href="https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/" data-wpel-link="external" target="_blank">nonessential businesses</a> across much of the country shuttered to try to stem the spread of the new coronavirus.</p>
+<p>There’s a direct line between the ongoing lockdown and the coming decline in gross domestic product, one of the most closely watched indicators of the nation’s economic health among economic analysts and policy makers. That connection is due in large part to places that <a href="https://www.bea.gov/system/files/2019-12/lagdp1219.pdf" data-wpel-link="external" target="_blank">account for a large share of GDP</a>, like Los Angeles and New York counties, having almost completely shut down.</p>
+<p>There are <a href="https://www.bea.gov/data" data-wpel-link="external" target="_blank">lots of ways</a> the federal government measures the health of the national economy: the unemployment rate, personal income, inflation &#8212; to name a few. Though no single measure can fully show how every corner of the U.S. economy is doing, gross domestic product paints the broad strokes, capturing the value of goods, services and public and private investments at a national level.</p>
+<p>Economists expect grim returns when initial GDP numbers for 2020 are released <a href="https://www.bea.gov/news/schedule" data-wpel-link="external" target="_blank">later this month</a>, chiefly because people are spending far less than they were a few weeks ago. Retail and food sales in the U.S. fell 8.7% in March from February to their lowest levels in 2.5 years, <a href="https://www.census.gov/retail/marts/www/adv44x72.txt" data-wpel-link="external" target="_blank">according to</a> Census Bureau data from April 15. It’s the biggest one-month drop ever recorded in the U.S.</p>
+<p>Research is now giving shape to this historic economic collapse. A <a href="https://www.nber.org/papers/w26949.pdf" data-wpel-link="external" target="_blank">new working paper</a> from the National Bureau of Economic Research is the first to use recent data on household transactions, like going out to eat, to investigate how the COVID-19 pandemic has curtailed purchases. The paper shows the sharp drop in consumer spending, which drives the U.S. economy, as the country shut down in March:</p>
+<figure id="attachment_63374" aria-describedby="caption-attachment-63374" style="width: 640px" class="wp-caption aligncenter"><img class="wp-image-63374 size-large" src="https://journalistsresource.org/wp-content/uploads/2020/04/consumer-household-spending-all-1024x382.png" alt="" width="640" height="239" srcset="https://journalistsresource.org/wp-content/uploads/2020/04/consumer-household-spending-all-1024x382.png 1024w, https://journalistsresource.org/wp-content/uploads/2020/04/consumer-household-spending-all-300x112.png 300w, https://journalistsresource.org/wp-content/uploads/2020/04/consumer-household-spending-all-768x287.png 768w, https://journalistsresource.org/wp-content/uploads/2020/04/consumer-household-spending-all-1536x574.png 1536w, https://journalistsresource.org/wp-content/uploads/2020/04/consumer-household-spending-all-2048x765.png 2048w" sizes="(max-width: 640px) 100vw, 640px" /><figcaption id="caption-attachment-63374" class="wp-caption-text">Spending categories are air travel, credit cards, food delivery, groceries, public transit, restaurants and retail. The top left graph shows average spending for all categories. Spending is measured in daily dollars. From the NBER <a href="https://www.nber.org/papers/w26949" data-wpel-link="external" target="_blank">working paper</a>, &#8220;How Does Household Spending Respond to an Epidemic? Consumption During the 2020 COVID-19 Pandemic.&#8221; (Scott Baker)</figcaption></figure>
+<p>The authors analyzed spending data from 4,735 adults who signed up for <a href="https://www.saverlife.org/" data-wpel-link="external" target="_blank">SaverLife</a>, a non-profit organization that aims to help people save money. People in the sample had to have made several transactions per month in 2020 worth a total of at least $1,000, recorded through their SaverLife accounts.</p>
+<p>Note that the sample isn’t nationally representative &#8212; it doesn’t reflect the demographic makeup of the whole country &#8212; and participants skew toward people under 30.</p>
+<p>“Older individuals with very high risk exposure may have behaved differently, and cut consumption more substantially,” the authors write.</p>
+<p>The tradeoff for a less representative sample is timeliness. These are real transactions made just weeks ago.</p>
+<p>From February 26 to March 10, people in the sample <a href="https://journalistsresource.org/studies/economics/hoarding-panic-buying-coronavirus-research/" data-wpel-link="internal">stocked up at grocery stores</a> but were still going out to venues and restaurants. (Grocery sales, up 27% in March from February, were one bright spot from the April 15 Census <a href="https://www.census.gov/retail/marts/www/marts_current.pdf#page=6" data-wpel-link="external" target="_blank">data</a>.) Public transit spending fell from March 11 to March 17, while spending on groceries and retail remained high during that period. On March 13, President Donald Trump <a href="https://www.whitehouse.gov/presidential-actions/proclamation-declaring-national-emergency-concerning-novel-coronavirus-disease-covid-19-outbreak/" data-wpel-link="external" target="_blank">declared</a> a national emergency. From March 18 to March 27, spending dropped across the board.</p>
+<p>“A lot of what the economy produces is goods and services for consumers,” says <a href="https://www.kellogg.northwestern.edu/faculty/directory/baker_scott_r.aspx" data-wpel-link="external" target="_blank">Scott Baker</a>, an associate finance professor at Northwestern University and one of the paper’s authors. “So a large portion of the economy is people making restaurant meals and doing massages and producing toys and books and movies. This is all measured by the amount of money that people spend on consuming those goods and products and services.”</p>
+<h3><strong>A quick primer on GDP<br />
+</strong></h3>
+<p>Real GDP grew 2.3% in 2019 to $19 trillion, <a href="https://www.bea.gov/system/files/2020-03/gdp4q19_3rd_0.pdf" data-wpel-link="external" target="_blank">according to</a> the Bureau of Economic Analysis, the federal agency that calculates GDP. “Real” means the BEA adjusts the numbers for inflation.</p>
+<p>The agency uses a few <a href="https://research.stlouisfed.org/publications/page1-econ/2018/09/04/how-do-imports-affect-gdp" data-wpel-link="external" target="_blank">data sources</a> to measure GDP. It tallies private domestic investment, like construction spending and oil and gas exploration. It counts the value of exports, like food, automotive parts and other goods sent overseas, minus the value of goods produced abroad and sold here. Federal, state and local government investment are also part of GDP.</p>
+<p>But the biggest chunk &#8212; about 70% of GDP &#8212; comes from money Americans spend domestically. Every dollar Americans spend at barbecue joints or barber shops or on transit passes or anything else is added to GDP. Consumer spending has accounted for about that share of GDP <a href="https://www.stlouisfed.org/publications/regional-economist/january-2012/dont-expect-consumer-spending-to-be-the-engine-of-economic-growth-it-once-was" data-wpel-link="external" target="_blank">since the 1990s</a>.</p>
+<h3><strong>A magnitude 9 economic earthquake</strong></h3>
+<p>The current situation more closely resembles a natural disaster than a traditional recession, according to economists at the Federal Reserve Bank of New York. The supply of things to spend money on has been stanched. It’s like a national-level Hurricane Katrina, the storm that devastated New Orleans in August 2005, write <a href="https://www.newyorkfed.org/research/economists/bram" data-wpel-link="external" target="_blank">Jason Bram</a> and <a href="https://www.newyorkfed.org/research/economists/deitz" data-wpel-link="external" target="_blank">Richard Deitz</a> in an April 10 New York Fed <a href="https://libertystreeteconomics.newyorkfed.org/2020/04/the-coronavirus-shock-looks-more-like-a-natural-disaster-than-a-cyclical-downturn.html" data-wpel-link="external" target="_blank">blog post</a>.</p>
+<p>“Recessions typically develop gradually over time, reflecting underlying economic and financial conditions, whereas the current economic situation developed suddenly as a consequence of a fast-moving global pandemic,” Bram and Deitz explain.</p>
+<p>Economists also <a href="https://www.sciencedirect.com/science/article/pii/S1062940817302668?casa_token=KdwRFBUwyYgAAAAA:PV6JMlYzOlE_csyi-nuRjxW99K_wvGTR1eA3hSioGrafe2P5jhIwf9D6u6cYopaUNkCwLugK9X8" data-wpel-link="external" target="_blank">like to</a> <a href="https://journals.sagepub.com/doi/full/10.1177/0148558X17726141?casa_token=IvRjfIvhZjkAAAAA%3AVh3mAsSHx0ZPzH18xmg9uRNrE02VW9f9nQ0N9xTYZUb8LOympSdHgD-r3F7ZRHVGHu8i4ss5wUYUGA" data-wpel-link="external" target="_blank">analogize</a> situations in which established systems are uprooted to “<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2866663" data-wpel-link="external" target="_blank">shocks</a>.” The coronavirus pandemic has caused an economic shock &#8212; not unlike an earthquake. <a href="https://mtec.ethz.ch/people/person-detail.MTM1Mjg5.TGlzdC8xMDUwLC0yMDgyMjgwMDQ4.html" data-wpel-link="external" target="_blank">Didier Sornette</a>, who heads the <a href="https://er.ethz.ch/financial-crisis-observatory.html" data-wpel-link="external" target="_blank">Financial Crisis Observatory</a> at the Swiss Federal Institute of Technology in Zurich, was game when <em>Journalist’s Resource </em>asked him to rate the coronavirus recession and other major U.S. downturns on the <a href="https://earthquake.usgs.gov/learn/glossary/?term=Richter%20scale" data-wpel-link="external" target="_blank">Richter scale</a>, which measures the severity of earthquakes.</p>
+<p>The big one &#8212; the 1929 stock market crash and depression that followed &#8212; was a magnitude 10, according to Sornette. The <a href="https://www.nber.org/papers/w2446" data-wpel-link="external" target="_blank">1987 stock market crash</a> was a magnitude 7, and the 2008 housing bubble was a magnitude 8.5. The Bureau of Labor Statistics <a href="https://www.bls.gov/opub/mlr/2014/article/consumer-spending-and-us-employment-from-the-recession-through-2022.htm" data-wpel-link="external" target="_blank">estimates</a> the decline in consumer spending that came with the <a href="https://journalistsresource.org/studies/economics/interest-rates-securities-recession/" data-wpel-link="internal">Great Recession</a> cost 3.2 million U.S. jobs. Sornette puts the coronavirus recession at a magnitude 9, with the caveat that “many unknowns remain.” Over the past month alone, more than 20 million people have filed new claims for unemployment benefits, <a href="https://oui.doleta.gov/press/2020/041620.pdf" data-wpel-link="external" target="_blank">according to</a> the Department of Labor.</p>
+<div class="infogram-embed" data-id="12378d01-7c34-4caf-8f93-b4e3bdbe4113" data-type="interactive" data-title="econ earthquake"></div>
+<p><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script></p><div class='mailmunch-forms-in-post-middle' style='display: none !important;'></div>
+<p>Shutting down the U.S. economy is an extreme step, but the stakes are life or death. As of April 17, the Centers for Disease Control and Prevention <a href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html" data-wpel-link="external" target="_blank">reported</a> more than 33,000 deaths in the U.S. and its territories from <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" data-wpel-link="external" target="_blank">COVID-19</a>, the disease the new coronavirus causes.</p>
+<p>“In the near term, public health objectives necessitate people staying home from shopping and work, especially if they are sick or at risk,” former Federal Reserve chairs Ben Bernanke and Janet Yellen <a href="https://www.ft.com/content/01f267a2-686c-11ea-a3c9-1fe6fedcca75" data-wpel-link="external" target="_blank">wrote</a> last month in the <em>Financial Times</em>. “So production and spending must inevitably decline for a time.”</p>
+<p>Fatalities in the U.S. would almost certainly be higher absent widespread economic closure. In an NBER <a href="https://www.nber.org/papers/w26882.pdf" data-wpel-link="external" target="_blank">working paper</a> from March &#8212; “The Macroeconomics of Epidemics” &#8212; researchers estimate half a million lives could be saved as a result of social distancing measures that drastically reduce consumer spending.</p>
+<p>“Abandoning containment policies prematurely leads to an initial economic recovery,” write economists <a href="http://faculty.wcas.northwestern.edu/~yona/" data-wpel-link="external" target="_blank">Martin Eichenbaum</a> and <a href="https://www.kellogg.northwestern.edu/faculty/directory/rebelo_sergio.aspx" data-wpel-link="external" target="_blank">Sergio Rebelo</a> at Northwestern and <a href="https://www.wiwiss.fu-berlin.de/en/fachbereich/vwl/trabandt/Team-Prof_-Trabandt/Team/Prof_-Dr_-Mathias-Trabandt.html" data-wpel-link="external" target="_blank">Mathias Trabandt</a> at the Free University of Berlin. “But it also leads to a large rise in infection rates. That rise causes a new, persistent recession.”</p>
+<h3><strong>Dire forecasts </strong></h3>
+<p>With businesses closed and the <a href="https://journalistsresource.org/tip-sheets/reporting/jobs-report-april-2020/" data-wpel-link="internal">ranks of the unemployed</a> growing, it follows that forecasts are dire for the advance GDP estimate <a href="https://www.bea.gov/news/schedule" data-wpel-link="external" target="_blank">scheduled for release</a> on April 29. That estimate will cover the first three months of 2020. The St. Louis Federal Reserve estimated on April 17 that real GDP would <a href="https://fred.stlouisfed.org/series/STLENI#0" data-wpel-link="external" target="_blank">plummet 15%</a> in the first quarter.</p>
+<div class="embed-container"><iframe style="overflow: hidden;" src="https://fred.stlouisfed.org/graph/graph-landing.php?g=qaZE&amp;width=670&amp;height=475" frameborder="0" scrolling="no"></iframe></div>
+<p><script src="https://fred.stlouisfed.org/graph/js/embed.js" type="text/javascript"></script></p>
+<p>Other estimates for the first quarter are <a href="https://fredblog.stlouisfed.org/2017/04/diverging-forecasts/" data-wpel-link="external" target="_blank">not so gloomy</a>. The Atlanta Federal Reserve on April 15 <a href="https://www.frbatlanta.org/cqer/research/gdpnow" data-wpel-link="external" target="_blank">estimated</a> a GDP decline of 0.3%, down from its estimate of 1% growth the week before. The St. Louis <a href="https://files.stlouisfed.org/files/htdocs/publications/review/2016/12/05/a-macroeconomic-news-index-for-constructing-nowcasts-of-u-s-real-gross-domestic-product-growth.pdf" data-wpel-link="external" target="_blank">method</a> differs from other federal GDP estimates in that it accounts for surprises &#8212; such as when macroeconomic measures, like initial unemployment claims, are much worse or better than forecasted.</p>
+<p>Many economists think GDP will drop yet lower April to June, as job and spending losses rack up. GDP could shrink by 10% in the second quarter of 2020 compared with the first quarter, and the unemployment rate could reach 15% by midyear, according to a <a href="https://journalistsresource.org/wp-content/uploads/2020/04/Goldman-US-Economics-Analyst-3-31.pdf" data-wpel-link="internal">March 31 report</a> from economists at Goldman Sachs.</p>
+<p>The figure from the report <a href="https://www.foxbusiness.com/markets/us-gdp-crater-34-percent-goldman-sachs" data-wpel-link="external" target="_blank">that</a> <a href="https://www.bloomberg.com/news/articles/2020-03-31/goldman-sees-even-deeper-u-s-contraction-in-second-quarter" data-wpel-link="external" target="_blank">grabbed</a> <a href="https://www.cnbc.com/2020/03/31/coronavirus-update-goldman-sees-15percent-jobless-rate-followed-by-record-rebound.html" data-wpel-link="external" target="_blank">headlines</a> was Goldman&#8217;s estimate that <a href="https://www.dallasfed.org/research/basics/annualizing.aspx" data-wpel-link="external" target="_blank">annualized</a> GDP would fall 34% in the second quarter. Annualization is a common mathematical adjustment in economic analysis. Annualizing data shows what would happen if current trends continued over a year, allowing analysts to compare growth rates over different periods of time. St. Louis Fed researcher <a href="https://research.stlouisfed.org/econ/chien/sel/" data-wpel-link="external" target="_blank">YiLi Chien</a> recently <a href="https://research.stlouisfed.org/publications/economic-synopses/2020/04/16/how-bad-can-it-be-the-relationship-between-gdp-growth-and-the-unemployment-rate" data-wpel-link="external" target="_blank">calculated</a> that the unemployment rate would be in the 26% to 51% range if Goldman’s GDP estimates are on target. Goldman expects a partial rebound in the last two quarters of the year.</p>
+<p>“When people hear the economy is going to shrink by a third, they think that’s maybe a little bit implausible,” Goldman chief economist <a href="https://www.goldmansachs.com/insights/outlook/bios/jan-hatzius-bio.pdf" data-wpel-link="external" target="_blank">Jan Hatzius</a> said in a <a href="https://www.goldmansachs.com/insights/talks-at-gs/04-01-20-cares-act-impact-on-us-economic-outlook.html" data-wpel-link="external" target="_blank">podcast</a> from early April. “But that’s not what we’re saying. We’re saying that the economy basically shrinks by 10% relative to the first quarter, or April shrinks by 13% relative to January.”</p>
+<p>By the end of 2020, Goldman estimates GDP will contract about 6% compared with 2019. This is in line with estimates from the International Monetary Fund, the group of 189 countries that aims to increase global financial stability. The IMF’s <a href="https://www.imf.org/en/Publications/WEO/Issues/2020/04/14/weo-april-2020" data-wpel-link="external" target="_blank">World Economic Outlook report</a> from early April projects that advanced economies, like the U.S., Canada, Japan and the United Kingdom, will contract on average about 6% in 2020 due to “the Great Lockdown,” as IMF chief economist <a href="https://scholar.harvard.edu/gopinath/home" data-wpel-link="external" target="_blank">Gita Gopinath</a> dubs it.</p>
+<h3><strong>Money in the bank</strong></h3>
+<p>The U.S. is trying to buoy the economy with relief measures like the <a href="https://journalistsresource.org/studies/economics/coronavirus-economic-relief-package-by-the-numbers/" data-wpel-link="internal">$2 trillion package</a> Trump signed into law on March 27. In addition to hundreds of billions in loans to small and big businesses, the relief package includes unemployment benefits and cash payments to Americans. Unemployment benefits will extend through the end of the year, longer than the <a href="https://www.cbpp.org/research/economy/policy-basics-how-many-weeks-of-unemployment-compensation-are-available" data-wpel-link="external" target="_blank">typical benefit period</a> of about six months.</p>
+<p>Extended benefits are good for recipients, according to a <a href="https://pubs.aeaweb.org/doi/pdfplus/10.1257/aer.20170537" data-wpel-link="external" target="_blank">July 2019 paper</a> in the <em>American Economic Review </em>from economists <a href="https://harris.uchicago.edu/directory/peter-ganong" data-wpel-link="external" target="_blank">Peter Ganong</a> and <a href="https://voices.uchicago.edu/noel/" data-wpel-link="external" target="_blank">Pascal Noel</a> at the University of Chicago. They analyzed spending data from 182,000 households in 20 states that received jobless benefits from January 2014 to June 2016.</p>
+<p>A quarter of households were unemployed longer than six months, and exhausted their benefits. For those households, Ganong and Noel found that monthly spending fell 6% when benefits began, decreased less than 1% per month while households received benefits, then dropped another 12% after benefits ran out. Those households didn’t save while they were getting benefits, and after benefits ran out their spending fell by a larger share than in the benefit months combined. The upshot? “It’s much more important to give households money for a longer period of time than more money up front,” Noel says.</p>
+<p>Households that exhausted benefits cut spending most at home improvement stores, by about 20%. Spending at discount stores fell about 19% and spending at department stores fell about 18%. Spending on dining out also fell, by about 16%. Medical co-payments fell about 14%, while spending for auto repairs declined about 13%. The trend is that when unemployment benefits run out, households cut spending on “things that are closely tied to people’s well-being in the moment,” Noel says.</p>
+<p>Given that entire swaths of the U.S. economy are shut down, there are fewer opportunities for households to spend the cash and unemployment benefits headed to their bank accounts. Some people will use the money to cover some or all of their rent and mortgage payments. But those government checks aren’t likely to boost GDP in an appreciable way as long as the places where people typically spend money remain closed. And if the economy reopens too soon, a deeper recession <a href="https://www.nber.org/papers/w26882.pdf" data-wpel-link="external" target="_blank">could follow</a>.</p>
+<p>“No one is going to movie theaters and sporting events,” says Noel. “I guess it would be conceivable that you could spend on something else, double up on groceries or buy stuff online. But from what I see, it doesn’t appear people are doing that.”</p>
+<p><a href="https://journalistsresource.org/tag/coronavirus/" data-wpel-link="internal"><strong>Check out</strong></a><strong> the rest of our coverage of how the coronavirus pandemic is affecting the economy, education and mental health in the U.S.</strong></p>
+<div class='mailmunch-forms-after-post' style='display: none !important;'></div><div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_22 addtoany_list" data-a2a-url="https://journalistsresource.org/studies/economics/consumer-spending-coronavirus-pandemic/" data-a2a-title="Economic earthquake: Consumer spending in the wake of the coronavirus pandemic"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Feconomics%2Fconsumer-spending-coronavirus-pandemic%2F&amp;linkname=Economic%20earthquake%3A%20Consumer%20spending%20in%20the%20wake%20of%20the%20coronavirus%20pandemic" title="Facebook" rel="nofollow noopener" target="_blank" data-wpel-link="external"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Feconomics%2Fconsumer-spending-coronavirus-pandemic%2F&amp;linkname=Economic%20earthquake%3A%20Consumer%20spending%20in%20the%20wake%20of%20the%20coronavirus%20pandemic" title="Twitter" rel="nofollow noopener" target="_blank" data-wpel-link="external"></a><a class="a2a_button_linkedin" href="https://www.addtoany.com/add_to/linkedin?linkurl=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Feconomics%2Fconsumer-spending-coronavirus-pandemic%2F&amp;linkname=Economic%20earthquake%3A%20Consumer%20spending%20in%20the%20wake%20of%20the%20coronavirus%20pandemic" title="LinkedIn" rel="nofollow noopener" target="_blank" data-wpel-link="external"></a><a class="a2a_button_reddit" href="https://www.addtoany.com/add_to/reddit?linkurl=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Feconomics%2Fconsumer-spending-coronavirus-pandemic%2F&amp;linkname=Economic%20earthquake%3A%20Consumer%20spending%20in%20the%20wake%20of%20the%20coronavirus%20pandemic" title="Reddit" rel="nofollow noopener" target="_blank" data-wpel-link="external"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Feconomics%2Fconsumer-spending-coronavirus-pandemic%2F&amp;linkname=Economic%20earthquake%3A%20Consumer%20spending%20in%20the%20wake%20of%20the%20coronavirus%20pandemic" title="Email" rel="nofollow noopener" target="_blank" data-wpel-link="external"></a></div></div>		</div><!-- .entry-meta -->
+		<!-- End Content -->
+		
+            	&nbsp;
+            	<p><strong><i class="fa fa-comments" aria-hidden="true"></i> We welcome feedback. Please contact us <a href="https://journalistsresource.org/contact" data-wpel-link="internal">here</a>.</strong></p>	
+																	<div class="post-info"><i class="fa fa-folder-open-o"></i> <span class="thecategory"><a href="https://journalistsresource.org/studies/economics/" rel="category tag" data-wpel-link="internal">Economics</a>, <a href="https://journalistsresource.org/studies/government/" rel="category tag" data-wpel-link="internal">Government</a>, <a href="https://journalistsresource.org/home/" rel="category tag" data-wpel-link="internal">Home</a>, <a href="https://journalistsresource.org/studies/economics/jobs/" rel="category tag" data-wpel-link="internal">Jobs</a>, <a href="https://journalistsresource.org/studies/economics/workers/" rel="category tag" data-wpel-link="internal">Workers</a></span> <i class="fa fa-tags"></i> <span class="thecategory">
+							<a href="https://journalistsresource.org/tag/clark-merrefield/" rel="tag" data-wpel-link="internal">clark merrefield</a>, <a href="https://journalistsresource.org/tag/consumer-spending/" rel="tag" data-wpel-link="internal">consumer spending</a>, <a href="https://journalistsresource.org/tag/coronavirus/" rel="tag" data-wpel-link="internal">coronavirus</a>, <a href="https://journalistsresource.org/tag/covid-19/" rel="tag" data-wpel-link="internal">COVID-19</a>, <a href="https://journalistsresource.org/tag/donald-trump/" rel="tag" data-wpel-link="internal">Donald Trump</a>, <a href="https://journalistsresource.org/tag/earthquake/" rel="tag" data-wpel-link="internal">earthquake</a>, <a href="https://journalistsresource.org/tag/economics/" rel="tag" data-wpel-link="internal">economics</a>, <a href="https://journalistsresource.org/tag/gdp/" rel="tag" data-wpel-link="internal">gdp</a>, <a href="https://journalistsresource.org/tag/gross-domestic-product/" rel="tag" data-wpel-link="internal">gross domestic product</a>, <a href="https://journalistsresource.org/tag/household-spending/" rel="tag" data-wpel-link="internal">household spending</a>, <a href="https://journalistsresource.org/tag/merrefield/" rel="tag" data-wpel-link="internal">merrefield</a>, <a href="https://journalistsresource.org/tag/president-donald-trump/" rel="tag" data-wpel-link="internal">president donald trump</a>, <a href="https://journalistsresource.org/tag/spending/" rel="tag" data-wpel-link="internal">spending</a>, <a href="https://journalistsresource.org/tag/trump/" rel="tag" data-wpel-link="internal">trump</a></span></div>
+									</article>
+		<!-- End Article -->
+<!-- Start Sidebar -->	
+<aside class="sidebar c-4-12">
+	<div id="sidebars" class="sidebar">
+		<div class="sidebar_list">
+			<aside id="category-posts-2" class="widget cat-post-widget"><h3 class="widget-title">Related Posts</h3>
+				
+							<!-- Start Related Posts -->
+							<ul id="category-posts-2-internal" class="category-posts-internal">								<li class="cat-post-item">
+									<a rel="nofollow" class="cat-post-thumbnail  cat-post-none" href="https://journalistsresource.org/studies/society/news-media/coronavirus-covid-19-press-freedom-joel-simon/" rel="bookmark" title="How COVID-19 is threatening press freedom: An interview with Joel Simon">
+										<span class="rthumb">
+																							<img width="75" height="75" src="https://journalistsresource.org/wp-content/uploads/2020/04/austin-distel-VCFxt2yT1eQ-unsplash-75x75.jpg" class="attachment-sidethumb size-sidethumb wp-post-image" alt="" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/04/austin-distel-VCFxt2yT1eQ-unsplash-75x75.jpg 75w, https://journalistsresource.org/wp-content/uploads/2020/04/austin-distel-VCFxt2yT1eQ-unsplash-150x150.jpg 150w" sizes="(max-width: 75px) 100vw, 75px" />																					</span>
+										<span>How COVID-19 is threatening press freedom: An interview with Joel Simon</span>
+									</a>
+								</li>
+																								<li class="cat-post-item">
+									<a rel="nofollow" class="cat-post-thumbnail  cat-post-none" href="https://journalistsresource.org/studies/society/public-health/social-distancing-expectations-compliance/" rel="bookmark" title="Social distancing time frames: How our expectations affect compliance">
+										<span class="rthumb">
+																							<img width="75" height="75" src="https://journalistsresource.org/wp-content/uploads/2020/04/victor-he-Wj6UbfSnG_o-unsplash-2-75x75.jpg" class="attachment-sidethumb size-sidethumb wp-post-image" alt="" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/04/victor-he-Wj6UbfSnG_o-unsplash-2-75x75.jpg 75w, https://journalistsresource.org/wp-content/uploads/2020/04/victor-he-Wj6UbfSnG_o-unsplash-2-150x150.jpg 150w" sizes="(max-width: 75px) 100vw, 75px" />																					</span>
+										<span>Social distancing time frames: How our expectations affect compliance</span>
+									</a>
+								</li>
+																								<li class="cat-post-item">
+									<a rel="nofollow" class="cat-post-thumbnail  cat-post-none" href="https://journalistsresource.org/tip-sheets/reporting/jobs-report-april-2020/" rel="bookmark" title="5 things to know about the April jobs report">
+										<span class="rthumb">
+																							<img width="75" height="75" src="https://journalistsresource.org/wp-content/uploads/2020/04/edwin-hooper-Q8m8cLkryeo-unsplash-75x75.jpg" class="attachment-sidethumb size-sidethumb wp-post-image" alt="" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/04/edwin-hooper-Q8m8cLkryeo-unsplash-75x75.jpg 75w, https://journalistsresource.org/wp-content/uploads/2020/04/edwin-hooper-Q8m8cLkryeo-unsplash-150x150.jpg 150w" sizes="(max-width: 75px) 100vw, 75px" />																					</span>
+										<span>5 things to know about the April jobs report</span>
+									</a>
+								</li>
+																								<li class="cat-post-item">
+									<a rel="nofollow" class="cat-post-thumbnail  cat-post-none" href="https://journalistsresource.org/studies/society/internet/rural-broadband-coronavirus/" rel="bookmark" title="Rural broadband in the time of coronavirus">
+										<span class="rthumb">
+																							<img width="75" height="75" src="https://journalistsresource.org/wp-content/uploads/2020/03/ross-sneddon-MrmC8VQo_Aw-unsplash-75x75.jpg" class="attachment-sidethumb size-sidethumb wp-post-image" alt="" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/03/ross-sneddon-MrmC8VQo_Aw-unsplash-75x75.jpg 75w, https://journalistsresource.org/wp-content/uploads/2020/03/ross-sneddon-MrmC8VQo_Aw-unsplash-150x150.jpg 150w" sizes="(max-width: 75px) 100vw, 75px" />																					</span>
+										<span>Rural broadband in the time of coronavirus</span>
+									</a>
+								</li>
+																								<li class="cat-post-item">
+									<a rel="nofollow" class="cat-post-thumbnail  cat-post-none" href="https://journalistsresource.org/studies/economics/coronavirus-economic-relief-package-by-the-numbers/" rel="bookmark" title="By the numbers: The federal coronavirus economic relief package">
+										<span class="rthumb">
+																							<img width="75" height="75" src="https://journalistsresource.org/wp-content/uploads/2020/03/aidan-bartos-v9rZ3Yz6fSg-unsplash-75x75.jpg" class="attachment-sidethumb size-sidethumb wp-post-image" alt="" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/03/aidan-bartos-v9rZ3Yz6fSg-unsplash-75x75.jpg 75w, https://journalistsresource.org/wp-content/uploads/2020/03/aidan-bartos-v9rZ3Yz6fSg-unsplash-150x150.jpg 150w" sizes="(max-width: 75px) 100vw, 75px" />																					</span>
+										<span>By the numbers: The federal coronavirus economic relief package</span>
+									</a>
+								</li>
+																								<li class="cat-post-item">
+									<a rel="nofollow" class="cat-post-thumbnail  cat-post-none" href="https://journalistsresource.org/studies/government/comic-differential-privacy-2020-census/" rel="bookmark" title="A brief introduction to differential privacy: A data protection plan for the 2020 census">
+										<span class="rthumb">
+																							<img width="75" height="75" src="https://journalistsresource.org/wp-content/uploads/2020/03/thumbnail_DiffPriv-teaser-720x480-1-75x75.jpg" class="attachment-sidethumb size-sidethumb wp-post-image" alt="differential privacy" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/03/thumbnail_DiffPriv-teaser-720x480-1-75x75.jpg 75w, https://journalistsresource.org/wp-content/uploads/2020/03/thumbnail_DiffPriv-teaser-720x480-1-150x150.jpg 150w" sizes="(max-width: 75px) 100vw, 75px" />																					</span>
+										<span>A brief introduction to differential privacy: A data protection plan for the 2020 census</span>
+									</a>
+								</li>
+																								<li class="cat-post-item">
+									<a rel="nofollow" class="cat-post-thumbnail  cat-post-none" href="https://journalistsresource.org/studies/society/social-media/coronavirus-misinformation-crowdsourcing-truth-mit-david-rand/" rel="bookmark" title="Crowdsourcing truth and how journalists can avoid spreading coronavirus misinformation: Q and A with MIT professor David Rand">
+										<span class="rthumb">
+																							<img width="75" height="75" src="https://journalistsresource.org/wp-content/uploads/2020/03/daria-nepriakhina-gGoi4QTXXBA-unsplash-75x75.jpg" class="attachment-sidethumb size-sidethumb wp-post-image" alt="" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/03/daria-nepriakhina-gGoi4QTXXBA-unsplash-75x75.jpg 75w, https://journalistsresource.org/wp-content/uploads/2020/03/daria-nepriakhina-gGoi4QTXXBA-unsplash-150x150.jpg 150w" sizes="(max-width: 75px) 100vw, 75px" />																					</span>
+										<span>Crowdsourcing truth and how journalists can avoid spreading coronavirus misinformation: Q and A with MIT professor David Rand</span>
+									</a>
+								</li>
+																								<li class="cat-post-item">
+									<a rel="nofollow" class="cat-post-thumbnail  cat-post-none" href="https://journalistsresource.org/studies/economics/hoarding-panic-buying-coronavirus-research/" rel="bookmark" title="Hoarding and panic buying: 4 studies to know">
+										<span class="rthumb">
+																							<img width="75" height="75" src="https://journalistsresource.org/wp-content/uploads/2020/03/hello-i-m-nik-nLTynnJZ__Q-unsplash-75x75.jpg" class="attachment-sidethumb size-sidethumb wp-post-image" alt="" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/03/hello-i-m-nik-nLTynnJZ__Q-unsplash-75x75.jpg 75w, https://journalistsresource.org/wp-content/uploads/2020/03/hello-i-m-nik-nLTynnJZ__Q-unsplash-150x150.jpg 150w" sizes="(max-width: 75px) 100vw, 75px" />																					</span>
+										<span>Hoarding and panic buying: 4 studies to know</span>
+									</a>
+								</li>
+																								<li class="cat-post-item">
+									<a rel="nofollow" class="cat-post-thumbnail  cat-post-none" href="https://journalistsresource.org/studies/economics/business/small-business-former-sba-head-karen-mills-coronavirus-pandemic/" rel="bookmark" title="Q and A with Karen Mills: Former SBA head says the coronavirus pandemic is situation critical for U.S. small businesses">
+										<span class="rthumb">
+																							<img width="75" height="75" src="https://journalistsresource.org/wp-content/uploads/2020/03/henry-co-GkuZdv11Gfo-unsplash-75x75.jpg" class="attachment-sidethumb size-sidethumb wp-post-image" alt="" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/03/henry-co-GkuZdv11Gfo-unsplash-75x75.jpg 75w, https://journalistsresource.org/wp-content/uploads/2020/03/henry-co-GkuZdv11Gfo-unsplash-150x150.jpg 150w" sizes="(max-width: 75px) 100vw, 75px" />																					</span>
+										<span>Q and A with Karen Mills: Former SBA head says the coronavirus pandemic is situation critical for U.S. small businesses</span>
+									</a>
+								</li>
+																								<li class="cat-post-item">
+									<a rel="nofollow" class="cat-post-thumbnail  cat-post-none" href="https://journalistsresource.org/studies/economics/workers/telework-telecommuting-inequality-research-coronavirus/" rel="bookmark" title="The inequality of telework: 5 studies you should know about">
+										<span class="rthumb">
+																							<img width="75" height="75" src="https://journalistsresource.org/wp-content/uploads/2020/03/kate-sade-2zZp12ChxhU-unsplash-75x75.jpg" class="attachment-sidethumb size-sidethumb wp-post-image" alt="" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/03/kate-sade-2zZp12ChxhU-unsplash-75x75.jpg 75w, https://journalistsresource.org/wp-content/uploads/2020/03/kate-sade-2zZp12ChxhU-unsplash-150x150.jpg 150w" sizes="(max-width: 75px) 100vw, 75px" />																					</span>
+										<span>The inequality of telework: 5 studies you should know about</span>
+									</a>
+								</li>
+																</ul>							<!-- End Related Posts -->
+										</aside>		
+		</div>
+	</div><!--sidebars-->						
+</aside>
+<!-- End Sidebar -->
+	</div><!-- .content -->
+</div><!-- #page -->
+	<!-- popular posts widget -->
+	<!-- added custom no_thumb.jpg to Plugin folder -->
+	<div class="footer-widget"><div id="republication-tracker-tool-modal-content" style="display:none;"><div class="republication-tracker-tool-close">X</div><h2>Republish this article</h2><div class="cc-policy"><div class="cc-license"><a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nd/4.0/" data-wpel-link="external"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nd/4.0/" data-wpel-link="external">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+</div><i style="color: #222222;font-family: Arial, Helvetica, sans-serif;font-size: small"><span style="font-size: 10pt;font-family: Helvetica, sans-serif;color: #383838">You are free to republish this piece both online and in print, and we encourage you to do so with the embed code provided below. We only ask that you follow <b><a href="https://journalistsresource.org/republishing-guidelines" data-wpel-link="internal">a few basic guidelines</a>.</b>  </span></i></div><div class="article-info"><h1>Economic earthquake: Consumer spending in the wake of the coronavirus pandemic</h1>
+<p class="byline">by Clark Merrefield, Journalist&#039;s Resource <br />April 17, 2020</p>
+</div><textarea readonly id="republication-tracker-tool-shareable-content" rows="5">&lt;h1&gt;Economic earthquake: Consumer spending in the wake of the coronavirus pandemic&lt;/h1&gt;
+&lt;p class=&quot;byline&quot;&gt;by Clark Merrefield, Journalist&#039;s Resource &lt;br /&gt;April 17, 2020&lt;/p&gt;
+ &lt;p&gt;It’s no surprise that consumer spending in the U.S. fell off a cliff in March. That’s when bars, concert halls, movie theaters and other &lt;a href="https://www.bu.edu/sph/2020/04/01/tracking-covid-19-policies/"&gt;nonessential businesses&lt;/a&gt; across much of the country shuttered to try to stem the spread of the new coronavirus.&lt;/p&gt;
+&lt;p&gt;There’s a direct line between the ongoing lockdown and the coming decline in gross domestic product, one of the most closely watched indicators of the nation’s economic health among economic analysts and policy makers. That connection is due in large part to places that &lt;a href="https://www.bea.gov/system/files/2019-12/lagdp1219.pdf"&gt;account for a large share of GDP&lt;/a&gt;, like Los Angeles and New York counties, having almost completely shut down.&lt;/p&gt;
+&lt;p&gt;There are &lt;a href="https://www.bea.gov/data"&gt;lots of ways&lt;/a&gt; the federal government measures the health of the national economy: the unemployment rate, personal income, inflation -- to name a few. Though no single measure can fully show how every corner of the U.S. economy is doing, gross domestic product paints the broad strokes, capturing the value of goods, services and public and private investments at a national level.&lt;/p&gt;
+&lt;p&gt;Economists expect grim returns when initial GDP numbers for 2020 are released &lt;a href="https://www.bea.gov/news/schedule"&gt;later this month&lt;/a&gt;, chiefly because people are spending far less than they were a few weeks ago. Retail and food sales in the U.S. fell 8.7% in March from February to their lowest levels in 2.5 years, &lt;a href="https://www.census.gov/retail/marts/www/adv44x72.txt"&gt;according to&lt;/a&gt; Census Bureau data from April 15. It’s the biggest one-month drop ever recorded in the U.S.&lt;/p&gt;
+&lt;p&gt;Research is now giving shape to this historic economic collapse. A &lt;a href="https://www.nber.org/papers/w26949.pdf"&gt;new working paper&lt;/a&gt; from the National Bureau of Economic Research is the first to use recent data on household transactions, like going out to eat, to investigate how the COVID-19 pandemic has curtailed purchases. The paper shows the sharp drop in consumer spending, which drives the U.S. economy, as the country shut down in March:&lt;/p&gt;
+&lt;p&gt;The authors analyzed spending data from 4,735 adults who signed up for &lt;a href="https://www.saverlife.org/"&gt;SaverLife&lt;/a&gt;, a non-profit organization that aims to help people save money. People in the sample had to have made several transactions per month in 2020 worth a total of at least $1,000, recorded through their SaverLife accounts.&lt;/p&gt;
+&lt;p&gt;Note that the sample isn’t nationally representative -- it doesn’t reflect the demographic makeup of the whole country -- and participants skew toward people under 30.&lt;/p&gt;
+&lt;p&gt;“Older individuals with very high risk exposure may have behaved differently, and cut consumption more substantially,” the authors write.&lt;/p&gt;
+&lt;p&gt;The tradeoff for a less representative sample is timeliness. These are real transactions made just weeks ago.&lt;/p&gt;
+&lt;p&gt;From February 26 to March 10, people in the sample &lt;a href="https://journalistsresource.org/studies/economics/hoarding-panic-buying-coronavirus-research/"&gt;stocked up at grocery stores&lt;/a&gt; but were still going out to venues and restaurants. (Grocery sales, up 27% in March from February, were one bright spot from the April 15 Census &lt;a href="https://www.census.gov/retail/marts/www/marts_current.pdf#page=6"&gt;data&lt;/a&gt;.) Public transit spending fell from March 11 to March 17, while spending on groceries and retail remained high during that period. On March 13, President Donald Trump &lt;a href="https://www.whitehouse.gov/presidential-actions/proclamation-declaring-national-emergency-concerning-novel-coronavirus-disease-covid-19-outbreak/"&gt;declared&lt;/a&gt; a national emergency. From March 18 to March 27, spending dropped across the board.&lt;/p&gt;
+&lt;p&gt;“A lot of what the economy produces is goods and services for consumers,” says &lt;a href="https://www.kellogg.northwestern.edu/faculty/directory/baker_scott_r.aspx"&gt;Scott Baker&lt;/a&gt;, an associate finance professor at Northwestern University and one of the paper’s authors. “So a large portion of the economy is people making restaurant meals and doing massages and producing toys and books and movies. This is all measured by the amount of money that people spend on consuming those goods and products and services.”&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;A quick primer on GDP&lt;br /&gt;
+&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Real GDP grew 2.3% in 2019 to $19 trillion, &lt;a href="https://www.bea.gov/system/files/2020-03/gdp4q19_3rd_0.pdf"&gt;according to&lt;/a&gt; the Bureau of Economic Analysis, the federal agency that calculates GDP. “Real” means the BEA adjusts the numbers for inflation.&lt;/p&gt;
+&lt;p&gt;The agency uses a few &lt;a href="https://research.stlouisfed.org/publications/page1-econ/2018/09/04/how-do-imports-affect-gdp"&gt;data sources&lt;/a&gt; to measure GDP. It tallies private domestic investment, like construction spending and oil and gas exploration. It counts the value of exports, like food, automotive parts and other goods sent overseas, minus the value of goods produced abroad and sold here. Federal, state and local government investment are also part of GDP.&lt;/p&gt;
+&lt;p&gt;But the biggest chunk -- about 70% of GDP -- comes from money Americans spend domestically. Every dollar Americans spend at barbecue joints or barber shops or on transit passes or anything else is added to GDP. Consumer spending has accounted for about that share of GDP &lt;a href="https://www.stlouisfed.org/publications/regional-economist/january-2012/dont-expect-consumer-spending-to-be-the-engine-of-economic-growth-it-once-was"&gt;since the 1990s&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;A magnitude 9 economic earthquake&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The current situation more closely resembles a natural disaster than a traditional recession, according to economists at the Federal Reserve Bank of New York. The supply of things to spend money on has been stanched. It’s like a national-level Hurricane Katrina, the storm that devastated New Orleans in August 2005, write &lt;a href="https://www.newyorkfed.org/research/economists/bram"&gt;Jason Bram&lt;/a&gt; and &lt;a href="https://www.newyorkfed.org/research/economists/deitz"&gt;Richard Deitz&lt;/a&gt; in an April 10 New York Fed &lt;a href="https://libertystreeteconomics.newyorkfed.org/2020/04/the-coronavirus-shock-looks-more-like-a-natural-disaster-than-a-cyclical-downturn.html"&gt;blog post&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;“Recessions typically develop gradually over time, reflecting underlying economic and financial conditions, whereas the current economic situation developed suddenly as a consequence of a fast-moving global pandemic,” Bram and Deitz explain.&lt;/p&gt;
+&lt;p&gt;Economists also &lt;a href="https://www.sciencedirect.com/science/article/pii/S1062940817302668?casa_token=KdwRFBUwyYgAAAAA:PV6JMlYzOlE_csyi-nuRjxW99K_wvGTR1eA3hSioGrafe2P5jhIwf9D6u6cYopaUNkCwLugK9X8"&gt;like to&lt;/a&gt; &lt;a href="https://journals.sagepub.com/doi/full/10.1177/0148558X17726141?casa_token=IvRjfIvhZjkAAAAA%3AVh3mAsSHx0ZPzH18xmg9uRNrE02VW9f9nQ0N9xTYZUb8LOympSdHgD-r3F7ZRHVGHu8i4ss5wUYUGA"&gt;analogize&lt;/a&gt; situations in which established systems are uprooted to “&lt;a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2866663"&gt;shocks&lt;/a&gt;.” The coronavirus pandemic has caused an economic shock -- not unlike an earthquake. &lt;a href="https://mtec.ethz.ch/people/person-detail.MTM1Mjg5.TGlzdC8xMDUwLC0yMDgyMjgwMDQ4.html"&gt;Didier Sornette&lt;/a&gt;, who heads the &lt;a href="https://er.ethz.ch/financial-crisis-observatory.html"&gt;Financial Crisis Observatory&lt;/a&gt; at the Swiss Federal Institute of Technology in Zurich, was game when &lt;em&gt;Journalist’s Resource &lt;/em&gt;asked him to rate the coronavirus recession and other major U.S. downturns on the &lt;a href="https://earthquake.usgs.gov/learn/glossary/?term=Richter%20scale"&gt;Richter scale&lt;/a&gt;, which measures the severity of earthquakes.&lt;/p&gt;
+&lt;p&gt;The big one -- the 1929 stock market crash and depression that followed -- was a magnitude 10, according to Sornette. The &lt;a href="https://www.nber.org/papers/w2446"&gt;1987 stock market crash&lt;/a&gt; was a magnitude 7, and the 2008 housing bubble was a magnitude 8.5. The Bureau of Labor Statistics &lt;a href="https://www.bls.gov/opub/mlr/2014/article/consumer-spending-and-us-employment-from-the-recession-through-2022.htm"&gt;estimates&lt;/a&gt; the decline in consumer spending that came with the &lt;a href="https://journalistsresource.org/studies/economics/interest-rates-securities-recession/"&gt;Great Recession&lt;/a&gt; cost 3.2 million U.S. jobs. Sornette puts the coronavirus recession at a magnitude 9, with the caveat that “many unknowns remain.” Over the past month alone, more than 20 million people have filed new claims for unemployment benefits, &lt;a href="https://oui.doleta.gov/press/2020/041620.pdf"&gt;according to&lt;/a&gt; the Department of Labor.&lt;/p&gt;
+&lt;div class="infogram-embed" data-id="12378d01-7c34-4caf-8f93-b4e3bdbe4113" data-type="interactive" data-title="econ earthquake"&gt;&lt;/div&gt;
+&lt;p&gt;!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&amp;amp;&amp;amp;window[t].initialized)window[t].process&amp;amp;&amp;amp;window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");&lt;/p&gt;
+&lt;p&gt;Shutting down the U.S. economy is an extreme step, but the stakes are life or death. As of April 17, the Centers for Disease Control and Prevention &lt;a href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html"&gt;reported&lt;/a&gt; more than 33,000 deaths in the U.S. and its territories from &lt;a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html"&gt;COVID-19&lt;/a&gt;, the disease the new coronavirus causes.&lt;/p&gt;
+&lt;p&gt;“In the near term, public health objectives necessitate people staying home from shopping and work, especially if they are sick or at risk,” former Federal Reserve chairs Ben Bernanke and Janet Yellen &lt;a href="https://www.ft.com/content/01f267a2-686c-11ea-a3c9-1fe6fedcca75"&gt;wrote&lt;/a&gt; last month in the &lt;em&gt;Financial Times&lt;/em&gt;. “So production and spending must inevitably decline for a time.”&lt;/p&gt;
+&lt;p&gt;Fatalities in the U.S. would almost certainly be higher absent widespread economic closure. In an NBER &lt;a href="https://www.nber.org/papers/w26882.pdf"&gt;working paper&lt;/a&gt; from March -- “The Macroeconomics of Epidemics” -- researchers estimate half a million lives could be saved as a result of social distancing measures that drastically reduce consumer spending.&lt;/p&gt;
+&lt;p&gt;“Abandoning containment policies prematurely leads to an initial economic recovery,” write economists &lt;a href="http://faculty.wcas.northwestern.edu/~yona/"&gt;Martin Eichenbaum&lt;/a&gt; and &lt;a href="https://www.kellogg.northwestern.edu/faculty/directory/rebelo_sergio.aspx"&gt;Sergio Rebelo&lt;/a&gt; at Northwestern and &lt;a href="https://www.wiwiss.fu-berlin.de/en/fachbereich/vwl/trabandt/Team-Prof_-Trabandt/Team/Prof_-Dr_-Mathias-Trabandt.html"&gt;Mathias Trabandt&lt;/a&gt; at the Free University of Berlin. “But it also leads to a large rise in infection rates. That rise causes a new, persistent recession.”&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Dire forecasts &lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;With businesses closed and the &lt;a href="https://journalistsresource.org/tip-sheets/reporting/jobs-report-april-2020/"&gt;ranks of the unemployed&lt;/a&gt; growing, it follows that forecasts are dire for the advance GDP estimate &lt;a href="https://www.bea.gov/news/schedule"&gt;scheduled for release&lt;/a&gt; on April 29. That estimate will cover the first three months of 2020. The St. Louis Federal Reserve estimated on April 17 that real GDP would &lt;a href="https://fred.stlouisfed.org/series/STLENI#0"&gt;plummet 15%&lt;/a&gt; in the first quarter.&lt;/p&gt;
+&lt;div class="embed-container"&gt;&lt;/div&gt;
+&lt;p&gt;Other estimates for the first quarter are &lt;a href="https://fredblog.stlouisfed.org/2017/04/diverging-forecasts/"&gt;not so gloomy&lt;/a&gt;. The Atlanta Federal Reserve on April 15 &lt;a href="https://www.frbatlanta.org/cqer/research/gdpnow"&gt;estimated&lt;/a&gt; a GDP decline of 0.3%, down from its estimate of 1% growth the week before. The St. Louis &lt;a href="https://files.stlouisfed.org/files/htdocs/publications/review/2016/12/05/a-macroeconomic-news-index-for-constructing-nowcasts-of-u-s-real-gross-domestic-product-growth.pdf"&gt;method&lt;/a&gt; differs from other federal GDP estimates in that it accounts for surprises -- such as when macroeconomic measures, like initial unemployment claims, are much worse or better than forecasted.&lt;/p&gt;
+&lt;p&gt;Many economists think GDP will drop yet lower April to June, as job and spending losses rack up. GDP could shrink by 10% in the second quarter of 2020 compared with the first quarter, and the unemployment rate could reach 15% by midyear, according to a &lt;a href="https://journalistsresource.org/wp-content/uploads/2020/04/Goldman-US-Economics-Analyst-3-31.pdf"&gt;March 31 report&lt;/a&gt; from economists at Goldman Sachs.&lt;/p&gt;
+&lt;p&gt;The figure from the report &lt;a href="https://www.foxbusiness.com/markets/us-gdp-crater-34-percent-goldman-sachs"&gt;that&lt;/a&gt; &lt;a href="https://www.bloomberg.com/news/articles/2020-03-31/goldman-sees-even-deeper-u-s-contraction-in-second-quarter"&gt;grabbed&lt;/a&gt; &lt;a href="https://www.cnbc.com/2020/03/31/coronavirus-update-goldman-sees-15percent-jobless-rate-followed-by-record-rebound.html"&gt;headlines&lt;/a&gt; was Goldman's estimate that &lt;a href="https://www.dallasfed.org/research/basics/annualizing.aspx"&gt;annualized&lt;/a&gt; GDP would fall 34% in the second quarter. Annualization is a common mathematical adjustment in economic analysis. Annualizing data shows what would happen if current trends continued over a year, allowing analysts to compare growth rates over different periods of time. St. Louis Fed researcher &lt;a href="https://research.stlouisfed.org/econ/chien/sel/"&gt;YiLi Chien&lt;/a&gt; recently &lt;a href="https://research.stlouisfed.org/publications/economic-synopses/2020/04/16/how-bad-can-it-be-the-relationship-between-gdp-growth-and-the-unemployment-rate"&gt;calculated&lt;/a&gt; that the unemployment rate would be in the 26% to 51% range if Goldman’s GDP estimates are on target. Goldman expects a partial rebound in the last two quarters of the year.&lt;/p&gt;
+&lt;p&gt;“When people hear the economy is going to shrink by a third, they think that’s maybe a little bit implausible,” Goldman chief economist &lt;a href="https://www.goldmansachs.com/insights/outlook/bios/jan-hatzius-bio.pdf"&gt;Jan Hatzius&lt;/a&gt; said in a &lt;a href="https://www.goldmansachs.com/insights/talks-at-gs/04-01-20-cares-act-impact-on-us-economic-outlook.html"&gt;podcast&lt;/a&gt; from early April. “But that’s not what we’re saying. We’re saying that the economy basically shrinks by 10% relative to the first quarter, or April shrinks by 13% relative to January.”&lt;/p&gt;
+&lt;p&gt;By the end of 2020, Goldman estimates GDP will contract about 6% compared with 2019. This is in line with estimates from the International Monetary Fund, the group of 189 countries that aims to increase global financial stability. The IMF’s &lt;a href="https://www.imf.org/en/Publications/WEO/Issues/2020/04/14/weo-april-2020"&gt;World Economic Outlook report&lt;/a&gt; from early April projects that advanced economies, like the U.S., Canada, Japan and the United Kingdom, will contract on average about 6% in 2020 due to “the Great Lockdown,” as IMF chief economist &lt;a href="https://scholar.harvard.edu/gopinath/home"&gt;Gita Gopinath&lt;/a&gt; dubs it.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Money in the bank&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The U.S. is trying to buoy the economy with relief measures like the &lt;a href="https://journalistsresource.org/studies/economics/coronavirus-economic-relief-package-by-the-numbers/"&gt;$2 trillion package&lt;/a&gt; Trump signed into law on March 27. In addition to hundreds of billions in loans to small and big businesses, the relief package includes unemployment benefits and cash payments to Americans. Unemployment benefits will extend through the end of the year, longer than the &lt;a href="https://www.cbpp.org/research/economy/policy-basics-how-many-weeks-of-unemployment-compensation-are-available"&gt;typical benefit period&lt;/a&gt; of about six months.&lt;/p&gt;
+&lt;p&gt;Extended benefits are good for recipients, according to a &lt;a href="https://pubs.aeaweb.org/doi/pdfplus/10.1257/aer.20170537"&gt;July 2019 paper&lt;/a&gt; in the &lt;em&gt;American Economic Review &lt;/em&gt;from economists &lt;a href="https://harris.uchicago.edu/directory/peter-ganong"&gt;Peter Ganong&lt;/a&gt; and &lt;a href="https://voices.uchicago.edu/noel/"&gt;Pascal Noel&lt;/a&gt; at the University of Chicago. They analyzed spending data from 182,000 households in 20 states that received jobless benefits from January 2014 to June 2016.&lt;/p&gt;
+&lt;p&gt;A quarter of households were unemployed longer than six months, and exhausted their benefits. For those households, Ganong and Noel found that monthly spending fell 6% when benefits began, decreased less than 1% per month while households received benefits, then dropped another 12% after benefits ran out. Those households didn’t save while they were getting benefits, and after benefits ran out their spending fell by a larger share than in the benefit months combined. The upshot? “It’s much more important to give households money for a longer period of time than more money up front,” Noel says.&lt;/p&gt;
+&lt;p&gt;Households that exhausted benefits cut spending most at home improvement stores, by about 20%. Spending at discount stores fell about 19% and spending at department stores fell about 18%. Spending on dining out also fell, by about 16%. Medical co-payments fell about 14%, while spending for auto repairs declined about 13%. The trend is that when unemployment benefits run out, households cut spending on “things that are closely tied to people’s well-being in the moment,” Noel says.&lt;/p&gt;
+&lt;p&gt;Given that entire swaths of the U.S. economy are shut down, there are fewer opportunities for households to spend the cash and unemployment benefits headed to their bank accounts. Some people will use the money to cover some or all of their rent and mortgage payments. But those government checks aren’t likely to boost GDP in an appreciable way as long as the places where people typically spend money remain closed. And if the economy reopens too soon, a deeper recession &lt;a href="https://www.nber.org/papers/w26882.pdf"&gt;could follow&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;“No one is going to movie theaters and sporting events,” says Noel. “I guess it would be conceivable that you could spend on something else, double up on groceries or buy stuff online. But from what I see, it doesn’t appear people are doing that.”&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://journalistsresource.org/tag/coronavirus/"&gt;&lt;strong&gt;Check out&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt; the rest of our coverage of how the coronavirus pandemic is affecting the economy, education and mental health in the U.S.&lt;/strong&gt;&lt;/p&gt;
+
+
+ <p>This &lt;a target=&quot;_blank&quot; href=&quot;https://journalistsresource.org/studies/economics/consumer-spending-coronavirus-pandemic/&quot;&gt;article&lt;/a&gt; first appeared on &lt;a target=&quot;_blank&quot; href=&quot;https://journalistsresource.org&quot;&gt;Journalist&#039;s Resource&lt;/a&gt; and is republished here under a Creative Commons license.<img id="republication-tracker-tool-source" src="https://journalistsresource.org/?republication-pixel=true&amp;post=63371&amp;ga=UA-5985794-2" style="max-width:200px"></p>
+</textarea>	<button onclick="copyToClipboard('#republication-tracker-tool-shareable-content')">Copy to Clipboard</button>
+	</div><div id="republication-tracker-tool-modal" style="display:none;" data-postid="63371" data-pluginsdir="https://journalistsresource.org/wp-content/plugins">1</div><div class="license"><p><button name="Republish This Article" id="cc-btn" class="republication-tracker-tool-button">Republish This Article</button></p><p><a class="license" rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nd/4.0/" data-wpel-link="external"><img alt="Creative Commons License" style="border-width:0" src="https://journalistsresource.org/wp-content/plugins/republication-tracker-tool/assets/img/creative-commons-sharing.png" /></a></p></div><div class="message"></div></div><footer>
+	<div id="FooterWrapper">
+      	<div class="footer-col" id="footer-col-1">
+        	<p>A project of Harvard Kennedy School's <a href="https://shorensteincenter.org/" data-wpel-link="external" target="_blank">Shorenstein Center</a> and the <a href="https://journalistsresource.org/about/carnegie-knight-initiative/" data-wpel-link="internal">Carnegie-Knight Initiative</a>, <i>Journalist’s Resource</i>  curates, summarizes and contextualizes high-quality research on newsy public policy topics. We are supported by generous grants from the <a href="https://www.carnegie.org/" data-wpel-link="external" target="_blank">Carnegie Corporation of New York</a>, the <a href="https://www.rwjf.org/" data-wpel-link="external" target="_blank">Robert Wood Johnson Foundation</a>, the <a href="https://www.gatesfoundation.org/" data-wpel-link="external" target="_blank">Bill & Melinda Gates Foundation</a> and <a href="https://www.nihcm.org/grants/journalism-grants/" data-wpel-link="external" target="_blank">The National Institute for Health Care Management (NIHCM) Foundation.</a></p>
+        	<a href="/" data-wpel-link="internal">Home</a> | <a href="/about/" data-wpel-link="internal">About</a> | <a href="/contact/" data-wpel-link="internal">Contact</a> | <a href="https://feeds.feedburner.com/journalistsresource" data-wpel-link="external" target="_blank">RSS</a> | <a href="https://gdpr.harvard.edu/eeaprivacydisclosures" data-wpel-link="external" target="_blank">EU/EEA Privacy Disclosures</a>
+     	</div>
+      <div class="clear"></div>
+    </div><!--end #footer-wrapper -->
+    <div class="clear" id="footer-border">
+      <div class="float-left"><a href="https://creativecommons.org/licenses/by-nd/4.0/" rel="license" data-wpel-link="external" target="_blank"><img style="border-width: 0;" src="https://licensebuttons.net/l/by-nd/4.0/88x31.png" alt="Creative Commons License" /></a>
+       </div><!-- end .float-left -->
+       <p class="creative-commons">Unless otherwise noted, this site and its contents – with the exception of photographs –
+are licensed under a <a href="https://creativecommons.org/licenses/by-nd/4.0/" data-wpel-link="external" target="_blank">Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)</a> license. That means you are free to republish our content both online and in print, and we encourage you to do so via the “republish this article” button. We only ask that you follow <a href="https://journalistsresource.org/republishing-guidelines/" data-wpel-link="internal">a few basic guidelines</a>. </p>
+		
+	</div><!-- end #footer-border -->
+</footer>
+        </div>	
+	</div>
+</div>
+<!--end copyrights-->
+<link rel='stylesheet' id='republication-tracker-tool-css-css'  href='https://journalistsresource.org/wp-content/plugins/republication-tracker-tool/assets/widget.css?ver=1.0.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://journalistsresource.org/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://journalistsresource.org/wp-content/plugins/republication-tracker-tool/assets/widget.js?ver=1.0.1'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202016.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:8.3',blog:'123197052',post:'63371',tz:'-4',srv:'journalistsresource.org'} ]);
+	_stq.push([ 'clickTrackerInit', '123197052', '63371' ]);
+</script>
+</div><!-- main-container -->

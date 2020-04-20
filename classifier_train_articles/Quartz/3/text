@@ -1,0 +1,27 @@
+From the UK’s NHS to the City of Berkeley, governments and health authorities around the world are preparing to launch Bluetooth apps for contact tracing during the Covid-19 pandemic. With such apps, infected users could anonymously alert everyone they previously came in contact with while they were at risk of transmitting the virus. But lingering questions remain about the privacy and efficacy of such smartphone-based contact tracing.
+
+Google and Apple are teaming up to unveil an API for digital contact tracing in May, but are restricting its use to public health authorities and governments. Such apps will be based on open-source protocols designed by leading academic institutions, such as MIT’s Safe Paths, and Covid Watch, a collaboration by Stanford University and the University of Waterloo.
+
+But the world’s two largest mobile platform operators have also put strict limits on how health agencies can access the data themselves.
+
+NHS, which is working on a contact-tracing app, is currently sparring with Google and Apple over such limits, reported The Guardian. The agency had wanted to collect information on population flows in the aggregate, and other detailed features to track the spread of the virus. But Google and Apple, in the interest of protecting privacy, won’t allow it.
+
+Rhys Fenwick, a spokesperson for Covid Watch, told Quartz that the group recently began advising the NHS on building its app. Covid Watch has expressed support for the decentralized approach favored by Google and Apple, which prevents governments from storing information collected from a user’s phone in one centralized location. The tech giants argued in a press call this week that such restrictions would keep governments from using contact tracing for mass surveillance. Singapore’s TraceTogether app, while it uses person-to-person Bluetooth detection, stores data in a centralized server, which some say made it more vulnerable to hacking and misuse.
+
+Google and Apple have made some adjustments that will allow digital contact tracing apps to run more smoothly. Normally, apps that use Bluetooth can’t operate in the background, unless it’s streaming audio or you give it explicit permission. The companies said they will make exceptions for digital contact tracing.
+
+Fenwick said there was disagreement, even among proponents of digital contact tracing, over how the technology should be used and in what fashion. “The specific tradeoff between privacy and research utility is, evidently, one on which there is disagreement. Covid Watch leans heavily to the side of privacy; we are willing to sacrifice social network data if that is the only reliable way of ensuring anonymity, as it seems to be. There is a diversity of opinions on this matter; we are confident that NHS England will arrive at a sensible result that respects and preserves the privacy of its users,” Fenwick wrote in an email to Quartz.
+
+There’s also doubt over how effective digital contact tracing will be in regions with a particularly high number of cases, such as New York City, or countries where there is limited access to testing. In those situations, apps will be unable to account for the number of asymptomatic people who carry the virus.
+
+But it’s likely that such apps could be useful for the many essential workers who come into contact with strangers on a daily basis, such as a delivery driver or grocery store workers. It could also be effective as regions gradually lift their lockdown measures and transition back to normal life.
+
+“[S]uch an app might be helpful with contact tracing in a time we hope is coming soon, when community transmission is low enough that the population can stop sheltering in place, and when there is sufficient testing to quickly and efficiently diagnose COVID-19 at scale,” wrote the Electronic Frontier Foundation in a statement on its website. While civil liberties groups like the EFF and ACLU favor a decentralized approach, both groups stressed that all digital contact tracing still needed strong privacy safeguards.
+
+Meanwhile, there is disagreement in Europe over whether its approach will be decentralized or centralized. France and Germany have both started building apps that rely on central servers, coming into conflict with Google and Apple’s plans. Both nations are members of PEPP-PT—Pan-European Privacy-Preserving Proximity Tracing—a coalition that is building “a backbone” for contact tracing apps in the EU.
+
+Christopher Boos of PEPP-PT told the New York Times that the group’s platform will work in either a centralized or decentralized setting. But they may not have a choice. The European Union Commission issued guidelines for contact tracing on Friday (April 17) that backed a centralized approach that followed GDPR, EU’s data privacy law.
+
+Proponents of Bluetooth apps say they’ll do a better job of preserving privacy and keeping identities anonymous than apps that use GPS and location tracking. But critics of digital contact tracing remain dubious. Even Apple and Google admitted in a press call earlier this week that no technology is “unhackable.”
+
+Nearly 60 percent of Americans said they don’t think that cellphone tracking will help curb the virus, according to Pew Research survey results released this week. But in the coming months, billions will be able to do so without even downloading an app, as Google and Apple roll out contact tracing in their operating systems.

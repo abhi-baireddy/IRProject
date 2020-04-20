@@ -1,0 +1,57 @@
+Every computer I’ve called my own for work or personal use has been a laptop. I love the portability of a laptop. It’s great to do work while lounging in my favorite chair or at a coffee shop (when we could still do that). But it’s really hard for me to put in a full workday hunched over one. To fix that, I’ve found that plugging my laptop to an external monitor on my desk is essential for me to be productive. Now I can’t imagine working without one.
+
+If you’re considering adding another screen to your macOS setup to help fix that laptop hunch or just to add some extra screen real estate, read on. If you have an iPad and a Mac, Apple offers a handy feature called Sidecar that lets you use your iPad as a second display. If you don’t have an iPad, you can connect a separate monitor to your Mac. I’ll walk through how to set up both options in this guide. (We’ll offer advice for how Windows PC users can set up an external monitor in an upcoming article.)
+
+Using Sidecar with an iPad
+
+If you want to use macOS Catalina’s Sidecar feature to share your Mac’s screen with your iPad, first make sure you have a Mac and an iPad that both support the feature. You can check Apple’s list of supported devices right here. You’ll also need to be on the right firmware; your Mac will need to be on macOS Catalina and your iPad needs to be on iPadOS 13.0.
+
+Before you get Sidecar set up, you’ll also have to decide if you want to use Sidecar over a wireless or over a wired connection. Both work well, but a wired connection should have a little less latency and lets you charge your iPad from your Mac while you’re using Sidecar.
+
+If you have your equipment ready and everything up to date, then make sure both your Mac and iPad are signed into the same iCloud account and that you have two-factor authentication turned on.
+
+Once you have that all set up, you can turn on Sidecar. First, turn on your iPad and unlock it, then set it aside. Then, go to your Mac and find the AirPlay icon on your Mac’s menu bar. That icon looks like a rectangle with an arrow pointing up at the bottom. If you don’t see the icon, go to the System Preferences menu, then Displays, and then look for the checkbox in the bottom left that says “Show mirroring options in the menu bar when available.” That box needs to be checked for you to see the AirPlay icon in the menu bar.
+
+Once you find the AirPlay icon, click it, look for the name of your iPad in the drop-down menu that appears, and click that. Your iPad’s screen may flicker for a second, but then it should change to show your Mac’s desktop background — if it does, you’ve successfully turned on Sidecar.
+
+In addition to giving your Mac more screen space, Sidecar gives your iPad gets a few cool tricks. You can use an Apple Pencil to draw on content from your Mac that’s displayed on your iPad’s screen, for example. You can also turn on a Touch Bar that appears on the iPad’s display.
+
+Using an external monitor with your Mac
+
+If you don’t have an iPad or just want to use an external monitor as an additional display, follow these steps to get that monitor set up.
+
+Check the ports on your monitor and your Mac
+
+Before you even try to set up your monitor, check out its ports and the ports on your Mac so that you know what cables or adapters you need in order to connect them to each other.
+
+These days, most monitors have at least one HDMI port on the back, like what you’ve probably seen on your TV. There’s also a chance that your computer can plug into that monitor with a USB-C cable.
+
+Knowing what type of cable to plug into your Mac to send a signal to your monitor can be a bit trickier to figure out. If you have a Mac that was released in 2019 or later, it will have Thunderbolt 3 ports, which means you can plug a USB-C cable into one of those ports and hook the computer up to your monitor with a cable that has a USB-C or HDMI connector on the other end.
+
+If you have a Mac that’s older than that, though, you might need something else, such as a cable with Mini DisplayPort connector. Check out Apple’s full list of which of its computers have which ports on its website so you can figure out what cables you need to buy.
+
+Configure your external monitor
+
+Once you have the cables you need, plug in your monitor and set it up on your desk. Then turn on your Mac, log in, and plug your Mac into your monitor. When you do, what’s on your Mac’s screen should be mirrored on the external display. You can connect your Mac to the monitor before you turn it on, but the Mac won’t show up on the monitor until you actually log in.
+
+If you have a MacBook and you want your external monitor to be your main display, make sure you’ve connected an external mouse and keyboard to your MacBook and that the computer is plugged into a power source. Then close the MacBook’s lid. Your monitor’s screen will likely fade to black for a second or two, and then it should display what’s on your computer.
+
+If you want to use your external monitor as a second monitor, you’ll need to set things up. Open System Preferences and then click “Displays.”
+
+The Displays menu has a few different tabs, but the one that matters if you’re going to set up a second display is the Arrangement tab. After you click on this tab, you’ll see a checkbox in the lower-left corner to “Mirror Displays.” Uncheck that box, and you’ll be able to use your Mac’s screen and an external monitor as two separate displays.
+
+Grid View
+
+
+
+In the Arrangement tab, you can also tell your computer how each display is physically aligned on your desk. For example, in the arrangement I set up for two screens in the screenshot below, I can only drag something from the primary display (the one on the left with the white bar) to the secondary display on the right if it’s a place where they’re “aligned.”
+
+However, this only replicates where your displays are in physical space. If you physically move your secondary display to a different spot on your desk and forget to change the arrangement in this menu, your computer will still treat the screens as if they are arranged in that original way. That can lead to some confusing situations where things may not drag across screens like you expect them to. Any time you change the way your displays are set up on your desk, make sure you adjust their arrangements in this tab.
+
+One note about the primary display: that’s the only one that will show macOS notifications. To make a display the primary one, go to the Arrangement tab, click and hold on the little white bar above one of the displays, and drag it to the display that you want to be the primary.
+
+The Displays menu in System Preferences also has a Display tab that lets you change your monitor’s resolution, rotation, and refresh rate (if that’s an option for your monitor); a Color tab that lets you set the color profile for your monitor; and the Night Shift tab that lets you change settings for a feature on Apple-made displays that gradually warms the color temperature of the display at night.
+
+Once you’ve followed these steps, you should be set to use an external monitor with your Mac.
+
+Update, 8:30AM, April 9th, 2020: Added information about using Sidecar with an iPad.

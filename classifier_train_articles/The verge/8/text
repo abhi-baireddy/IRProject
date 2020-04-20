@@ -1,0 +1,27 @@
+On Friday, Apple and Google announced an unprecedented project to track and halt the spread of the novel coronavirus — and we haven’t stopped talking about it since. The project would use bluetooth signals to track who participants have been in contact with, potentially providing an automatic, anonymous form of contact-tracing. It’s been messy, but a lot of the major questions have been answered, although there’s one lingering one that hasn’t.
+
+But let’s start with the stuff we actually know:
+
+Will this leak data about me? Mostly no.
+
+The system does a good job keeping data local and anonymized, although it gets less private if you share your diagnosis.
+
+How far will it reach? It depends.
+
+Bluetooth LE is pretty flexible when it comes to range (Tile is a good example), so engineers should be able to alter the effective range on the fly. BLE has a hard time getting through walls and other barriers, but so do COVID-19 pathogens, so that’s more of a feature than a bug.
+
+Will Google be able to actually get this onto Android phones? Signs point to yes!
+
+It will be deployed as an update through the Google Play Store rather than as a straight operating system update, so it should avoid the tangle that keeps Android 10 to such a small percentage of phones.
+
+When and how can I actually put this on my phone? We still don’t really know!
+
+In theory, the first line of distribution will be official public health apps, probably from US states and probably hitting as the API becomes available in mid-May. But we still don’t know if any states are actually building those apps.
+
+That leads to the one big question we still can’t answer: are public health organizations actually going to use this?
+
+There have been a number of successful contact-tracing app projects, but they’ve always been closely tied to a central government response. Singapore’s TraceTogether, the most common example, was actively developed by the country’s technology office, with the company’s health ministry involved from the beginning.
+
+That hasn’t happened in America, and it’s not clear how you could make it happen. Apple and Google can build the technology, but you still need contact tracers building apps, setting recommendations, and pushing the whole system out to as many people as possible. Tech companies can’t do that work, but federal agencies like the CDC and FEMA don’t seem hugely interested in doing it either. Most of the US response has come at the state level — most recently in quasi-federated agreements between coastal states — but so far, there’s no sign that any state is ready to mobilize for something like this either.
+
+It might be that agencies are working on the system quietly or still spinning up. But it’s also possible that the government simply doesn’t respond when the API is released, whether because agencies are too busy or they simply don’t see the benefit. How those agencies respond — whether they adopt the new system or ignore it — is the single most important question for whether the plan moves forward. It’s also the biggest thing we still don’t know.

@@ -1,0 +1,23 @@
+Websites are too damn big.
+
+The average web page is about 2 megabytes, according to HTTP Archive, a site that tracks the performance of websites and the technologies they use. Sure you can download 2 megabytes in less than a second on a good 4G mobile connection. But today’s web pages are problematic for people on slow connections or with small bandwidth caps. Not all that long ago, a complex game or software program fit on a 1.4-megabyte floppy disk.
+
+There are many reasons today’s web is so bloated, including the ads and tracking scripts that saddle so many pages. Another reason is that websites do much more than just display text and images. Many sites now look and feel like full-blown desktop applications.
+
+To build these interactive sites, many web developers turn to open source packages that handle common tasks. These tools liberate programmers from a lot of grunt work, but they can add heft to a project. Facebook's popular open source React library for building user interfaces, for example, weighs in at 100 kilobytes. Throw in some other tools and graphics, and soon you’re talking many megabytes.
+
+The up and coming JavaScript framework Svelte, created by visual journalist and software developer Rich Harris, aims to make it easier to write faster, smaller interactive websites and applications. Web developer Shawn Wang says he cut the size of his personal website from 187 kilobytes to 9 kilobytes by switching from React to Svelte.
+
+"It was a big 'wow' moment," Wang says. "I wasn't even trying to optimize for size and it just dropped."
+
+Harris, a graphics editor for The New York Times, created and released the first version of Svelte in 2016 while working for The Guardian. Many of his projects involved interactive graphics and animations, but he worried that the graphics could take too long to load or would chew through users’ data limits.
+
+Frameworks add heft to websites because they traditionally serve as a middle layer between an app's code and the user's browser. That means developers need to bundle the entire framework, in addition to their own code, with an app, even if they don't use all of the framework's features. Wang compares this to a rocket ship that needs massive fuel tanks to launch into space.
+
+Harris took a different approach. Svelte performs its middle-layer work before a developer uploads code to a web server, well before a user ever downloads it. This makes it possible to remove unnecessary features, shrinking the resulting app. It also reduces the number of moving parts when a user runs the app, which can make Svelte apps faster and more efficient. “Svelte is like a space elevator,” Wang says. The framework was tricky to create, but advocates say it makes it easier for developers to build efficient apps.
+
+The WIRED Guide to Open Source Software Everything you ever wanted to know about Linux, GNU, and how big companies are making money off of free, collaboration-based software.
+
+Wang says he likes to use Svelte for web pages, but he still uses React for larger applications, including his professional work. For one thing, the larger an app, the more likely a developer will use all of React's features. That makes it less wasteful. In fact, some Svelte apps are bigger than apps made with React or similar tools. And there’s much greater demand for React developers than Svelte developers.
+
+In the State of JavaScript 2019 survey of more than 21,000 developers, 88 percent of respondents who had used Svelte said they were satisfied with it, giving it the second-highest satisfaction rating in the survey, just behind React’s 89 percent satisfaction rate. But only 7.8 percent of respondents had used Svelte, and 24.7 percent had never heard of it. Meanwhile, 80.3 percent had used React.

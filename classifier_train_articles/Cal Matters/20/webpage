@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"54db1a61c9",applicationID:"187794457"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>Med school free rides and loan repayments — California tries to boost its dwindling doctor supply | CalMatters</title>
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v13.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="By 2030, California will be short some 4,000 physicians. And the doctor shortage is having a greater impact on rural and inner city communities."/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://calmatters.org/projects/california-doctor-shortage-free-med-school-loan-repayment-recruiting-solutions/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Med school free rides and loan repayments — California tries to boost its dwindling doctor supply" />
+<meta property="og:description" content="By 2030, California will be short some 4,000 physicians. And the doctor shortage is having a greater impact on rural and inner city communities." />
+<meta property="og:url" content="https://calmatters.org/projects/california-doctor-shortage-free-med-school-loan-repayment-recruiting-solutions/" />
+<meta property="og:site_name" content="CalMatters" />
+<meta property="article:publisher" content="https://www.facebook.com/calmatters/" />
+<meta property="article:tag" content="California health care" />
+<meta property="article:tag" content="California Health Care Workforce" />
+<meta property="article:tag" content="HealthForce Center" />
+<meta property="article:tag" content="physician shortage" />
+<meta property="article:tag" content="uc riverside" />
+<meta property="article:tag" content="UC San Francisco" />
+<meta property="article:section" content="Health" />
+<meta property="og:image" content="https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_03_MoazzumBajwaCesiliaJimenez.jpg?fit=2000%2C1333" />
+<meta property="og:image:secure_url" content="https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_03_MoazzumBajwaCesiliaJimenez.jpg?fit=2000%2C1333" />
+<meta property="og:image:width" content="2000" />
+<meta property="og:image:height" content="1333" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="By 2030, California will be short some 4,000 physicians. And the doctor shortage is having a greater impact on rural and inner city communities." />
+<meta name="twitter:title" content="Med school free rides and loan repayments — California tries to boost its dwindling doctor supply" />
+<meta name="twitter:site" content="@CalMatters" />
+<meta name="twitter:image" content="https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_03_MoazzumBajwaCesiliaJimenez.jpg?fit=2000%2C1333" />
+<meta name="twitter:creator" content="@CalMatters" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://calmatters.org/#organization","name":"CalMatters","url":"https://calmatters.org/","sameAs":["https://www.facebook.com/calmatters/","https://www.instagram.com/calmatters/","https://www.linkedin.com/company/calmatters/","https://www.youtube.com/channel/UCNQv9nDu2_r5zbgtUQungeA","https://twitter.com/CalMatters"],"logo":{"@type":"ImageObject","@id":"https://calmatters.org/#logo","inLanguage":"en-US","url":"https://calmatters.org/wp-content/uploads/sites/2/2019/07/calmattersocial.png?fit=720%2C720","width":720,"height":720,"caption":"CalMatters"},"image":{"@id":"https://calmatters.org/#logo"}},{"@type":"WebSite","@id":"https://calmatters.org/#website","url":"https://calmatters.org/","name":"CalMatters","inLanguage":"en-US","description":"California, explained","publisher":{"@id":"https://calmatters.org/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://calmatters.org/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://calmatters.org/projects/california-doctor-shortage-free-med-school-loan-repayment-recruiting-solutions/#primaryimage","inLanguage":"en-US","url":"https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_03_MoazzumBajwaCesiliaJimenez.jpg?fit=2000%2C1333","width":2000,"height":1333,"caption":"Dr. Moazzum Bajwa examines Cesilia Jimenez\u2019s neck during a recent appointment at the Moreno Valley Community Health Center. Jimenez had a cancerous tumor removed from her neck several years ago after Bajwa discovered it when he was a resident doctor in training. He\u2019s still her doctor and is now an attending physician and is curriculum director of the residency program. Photo by Elizabeth Aguilera for CalMatters"},{"@type":"WebPage","@id":"https://calmatters.org/projects/california-doctor-shortage-free-med-school-loan-repayment-recruiting-solutions/#webpage","url":"https://calmatters.org/projects/california-doctor-shortage-free-med-school-loan-repayment-recruiting-solutions/","name":"Med school free rides and loan repayments \u2014\u00a0California tries to boost its dwindling doctor supply | CalMatters","isPartOf":{"@id":"https://calmatters.org/#website"},"inLanguage":"en-US","primaryImageOfPage":{"@id":"https://calmatters.org/projects/california-doctor-shortage-free-med-school-loan-repayment-recruiting-solutions/#primaryimage"},"datePublished":"2019-11-26T11:15:27+00:00","dateModified":"2020-01-21T21:57:14+00:00","description":"By 2030, California will be short some 4,000 physicians. And the doctor shortage is having a greater impact on rural and inner city communities."}]}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//www.googletagservices.com' />
+<link rel='dns-prefetch' href='//use.typekit.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="CalMatters &raquo; Feed" href="https://calmatters.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="CalMatters &raquo; Comments Feed" href="https://calmatters.org/comments/feed/" />
+<link rel='stylesheet' id='all-css-0' href='https://calmatters.org/_static/??-eJx1zssKwkAMBdAfchpctI4L8VumadDRzINJSunfG18IoquEkHu4sFQXM/I8kQCKwBRFYeSCV8dxbKGtILoydSnmzh42YAksWSkrVJ5PMQsQB9GItdFbuFPNzkqTq0VU3NN8WPIT0zMlK2Ej0yK1lQuhfrT/LV5BDJyCKjX5Dtl2TIdt7/vB7we/uwHjPVvZ' type='text/css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='typekit-css'  href='https://use.typekit.net/ygp0rqq.css?ver=0.1.169' media='all' />
+<link rel='stylesheet' id='all-css-2' href='https://calmatters.org/_static/??-eJyNjNEKwjAQBH/I9KpS6ov4LeG8hmiSBndD8e+tUl/Ft4HdGVmq07nQCqWmFmKBWPJg1PowQK4RFF3BN85oIRjowGcydDmWbp128ndk8mrELz83903cjNXr/SNu/L5f8nk/nMZ+OPbj4QX7mUfw' type='text/css' media='all' />
+<script>
+var uaWnSettings = {"prompt":{"enabled":false,"prompt_views":1,"prompt_again_views":1}};
+</script>
+<script type='text/javascript' src='https://calmatters.org/_static/??-eJx9jcEKwjAQRH/IbfDQGg/it6RxbTck25jdpfj3BlHwJAw8GB4zbq9AHLPdUFzqeRi25wdDkoP7J0ChpQXFoRB/5bixIquLmTqgGNRsC7E4a3NgCNRkpQo7zlBNVuBN6U4xKG1dCiKo76ffvo9fy+U4+nHy58mf0gs7YkSN'></script>
+<script src='https://www.googletagservices.com/tag/js/gpt.js?ver=0.1.794'></script>
+<script>
+var tnpData = {"ad_zone":"calmatters","error_email_invalid":"You have entered an invalid email","error_missing_status":"Response missing email_status","gtmIDs":[{"gtm_id":"GTM-WJSBCB4"},{"gtm_id":"GTM-TXQ3CH7"}],"subscribed":"Thanks for subscribing!","dataLayer":{"author":"Elizabeth Aguilera","canonicalUrl":"https:\/\/calmatters.org\/projects\/california-doctor-shortage-free-med-school-loan-repayment-recruiting-solutions\/","category":"Health","environment":"production","gaId":"UA-117522438-3","gatedContentType":"","originalPublishDate":"11262019","originalPublishHour":"1574738127","pageType":"article","postId":"94060","postType":"tnp_long_form","publicationName":"CalMatters","sponsor":"","tag":"California health care, California Health Care Workforce, HealthForce Center, physician shortage, uc riverside, UC San Francisco","gatedContent":"false"},"experience_control":"explicit"};
+</script>
+<script type='text/javascript' src='https://calmatters.org/wp-content/themes/thenewsproject/assets/js/frontend/google-ad-manager.js?m=1572473362g'></script>
+<link rel='https://api.w.org/' href='https://calmatters.org/wp-json/' />
+<link rel='shortlink' href='https://calmatters.org/?p=94060' />
+<link rel="alternate" type="application/json+oembed" href="https://calmatters.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcalmatters.org%2Fprojects%2Fcalifornia-doctor-shortage-free-med-school-loan-repayment-recruiting-solutions%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://calmatters.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcalmatters.org%2Fprojects%2Fcalifornia-doctor-shortage-free-med-school-loan-repayment-recruiting-solutions%2F&#038;format=xml" />
+<style type='text/css'>img#wpstats{display:none}</style><link rel='manifest' href='https://calmatters.org/wp-content/themes/calmatters/manifest.json' /><link rel="icon" href="https://calmatters.org/wp-content/uploads/sites/2/2019/07/cropped-cropped-calmatters-favicon.png?fit=32%2C32" sizes="32x32" />
+<link rel="icon" href="https://calmatters.org/wp-content/uploads/sites/2/2019/07/cropped-cropped-calmatters-favicon.png?fit=192%2C192" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://calmatters.org/wp-content/uploads/sites/2/2019/07/cropped-cropped-calmatters-favicon.png?fit=180%2C180" />
+<meta name="msapplication-TileImage" content="https://calmatters.org/wp-content/uploads/sites/2/2019/07/cropped-cropped-calmatters-favicon.png?fit=270%2C270" />
+</head>
+<body class="tnp_long_form-template-default single single-tnp_long_form postid-94060 wp-custom-logo">
+	<a href="#content" class="screen-reader-text skip-link">Skip to Main Content</a>
+		<div class="site">
+		<header class="container -header" role="banner">
+			<div class="navigation-utility">
+	<nav role="navigation" class="nav-trending" aria-label="Trending Navigation">
+
+	<div class="innerwrap">
+
+		<h2 class="heading">Trending <svg role="img" class="icon icon--trending" aria-label="trending"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#trending"></use></svg></h2>
+
+		<ul id="menu-top-trending" class="topics"><li id="menu-item-105092" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105092"><a href="https://calmatters.org/category/health/coronavirus/">Coronavirus Coverage</a></li>
+<li id="menu-item-105405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105405"><a href="https://calmatters.org/health/2020/03/california-coronavirus-gavin-newsom-senior-citizens-chronic-illness/">Coronavirus FAQ</a></li>
+<li id="menu-item-105407" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105407"><a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-covid-patient-hospitalization-data-icu/">Tracking Hospitalizations</a></li>
+<li id="menu-item-105406" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105406"><a href="https://calmatters.org/projects/corona-on-campus/">Corona on Campus</a></li>
+<li id="menu-item-105408" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105408"><a href="https://calmatters.org/health/coronavirus/2020/03/coronavirus-mental-health-tips-therapists-california/">Mental Health and Coronavirus</a></li>
+</ul>
+	</div>
+
+</nav><!--/.nav-trending-->
+
+<nav role="navigation" class="nav-bar" aria-label="Modal Navigation">
+
+	
+	<ul class="nav-action">
+		<li><button class="login" id="piano-login">Log in</button></li>
+				<li><a href="https://calmatters.org/subscribe-to-calmatters/" class="subscribe">Subscribe</a></li>
+			</ul>
+
+	
+	
+<div class="nav-search" itemscope itemtype="http://schema.org/WebSite">
+	<link itemprop="url" href="https://calmatters.org/" />
+	<meta itemprop="url" content="https://calmatters.org/" />
+
+	<button type="button" class="togglesearch" aria-controls="search" aria-expanded="false"><svg role="img" class="icon icon--search" aria-label="search"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#search"></use></svg><span class="screen-reader-text">Toggle Search</span></button>
+
+	<form role="search" class="search" id="search" aria-hidden="false" action="https://calmatters.org/" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+		<meta itemprop="target" content="https://calmatters.org/?s={s}" />
+
+		<div class="focus-label">
+			<input itemprop="query-input" class="searchinput" id="q" type="text" value="" name="s">
+			<label class="searchformlabel" aria-hidden="true" id="q-label" for="q">Search...</label>
+
+			<button class="submit" type="submit"><span class="searchicon"><svg role="img" class="icon icon--search" aria-label="search"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#search"></use></svg></span><span class="submitsearch"><svg role="img" class="icon icon--chevron-right" aria-label="chevron-right"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#chevron-right"></use></svg></span><span class="screen-reader-text">Submit Search</span></button>
+		</div>
+
+	</form>
+
+</div>
+
+</nav><!--/.nav-bar-->
+</div>
+
+<div class="nav" id="nav">
+	<div class="nav-main">
+
+		<div class="innerwrap">
+			<h1 class="logo">
+				<a href="https://calmatters.org">
+					<img src="https://calmatters.org/wp-content/uploads/sites/2/2019/07/calmatters-logo_2x.png?fit=488%2C82" alt="Logo of CalMatters">
+				</a>
+			</h1>
+
+			<button type="button" id="menu-trigger" aria-controls="nav" aria-expanded="true">
+				<span class="screen-reader-text">
+					Menu				</span>
+			</button>
+
+			<nav class="nav-list"><ul id="menu-main-navigation" class="menu"><li id="menu-item-32" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-32"><a href="https://calmatters.org/category/politics/" aria-haspopup="true">Politics</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-30" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-30"><a href="https://calmatters.org/category/immigration/">Immigration</a></li>
+	<li id="menu-item-29" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29"><a href="https://calmatters.org/category/housing/">Housing</a></li>
+	<li id="menu-item-80106" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80106"><a href="https://calmatters.org/category/blogs/election-2018/">Election 2018</a></li>
+	<li id="menu-item-80107" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80107"><a href="https://calmatters.org/category/blogs/california-election-2020/">Election 2020</a></li>
+	<li id="menu-item-80112" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80112"><a href="https://calmatters.org/category/blogs/donald-trump/">Resistance State</a></li>
+	<li id="menu-item-80110" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80110"><a href="https://calmatters.org/category/blogs/inside-california-capitol/">Inside the Capitol</a></li>
+	<li id="menu-item-81256" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-81256"><a href="https://calmatters.org/category/newsletters/whatmatters/">WhatMatters</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/commentary/earlier-california-presidential-primary-succeeded-on-many-levels/" class="article "><div class="thumb"><img width="453" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/030320_voting_AW_12.jpg?fit=453%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Earlier California presidential primary succeeded on many levels" /></div><div class="content"><h4 class="title">Trending in Politics</h4><p>Earlier California presidential primary succeeded on many levels</p></div></a><a href="https://calmatters.org/politics/california-legislature/2020/04/california-senate-hearing-coronavirus-budget-oversight/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_pool_CoronavirusOversight_06.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="California senators frustrated by few answers,  tech glitches in virtual hearing on coronavirus spending" /></div><div class="content"><h4 class="title">Trending in Politics</h4><p>California senators frustrated by few answers,  tech glitches in virtual hearing on coronavirus spending</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-25" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-25"><a href="https://calmatters.org/category/economy/" aria-haspopup="true">Economy</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-93825" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-93825"><a href="https://calmatters.org/category/california-divide/">California Divide</a></li>
+	<li id="menu-item-80254" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80254"><a href="https://calmatters.org/category/economy/california-pension-crisis/">California&#8217;s Pension Crisis</a></li>
+	<li id="menu-item-33" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-33"><a href="https://calmatters.org/category/poverty/">Poverty</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/commentary/your-next-boss-could-be-an-undocumented-immigrant-as-a-growing-number-of-founders-lack-legal-status/" class="article "><div class="thumb"><img width="460" height="276" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/startup-business.jpg?fit=460%2C276" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Your next boss could be an undocumented immigrant; growing number of business founders lack legal status" /></div><div class="content"><h4 class="title">Trending in Economy</h4><p>Your next boss could be an undocumented immigrant; growing number of business founders lack legal status</p></div></a><a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-task-force-economy/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_taskforce_01.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="A-list business and union leaders combine to help steer California&#8217;s economic recovery" /></div><div class="content"><h4 class="title">Trending in Economy</h4><p>A-list business and union leaders combine to help steer California&#8217;s economic recovery</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-26" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-26"><a href="https://calmatters.org/category/education/" aria-haspopup="true">Education</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-108634" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108634"><a href="https://calmatters.org/projects/corona-on-campus/">Corona on Campus</a></li>
+	<li id="menu-item-90222" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-90222"><a href="https://calmatters.org/category/education/disaster-days-school-closures-california-wildfire-guns-outage-flood/">Disaster Days</a></li>
+	<li id="menu-item-80256" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80256"><a href="https://calmatters.org/category/education/k-12-education/">K-12 Education</a></li>
+	<li id="menu-item-80255" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80255"><a href="https://calmatters.org/category/education/higher-education/">Higher Education</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/education/higher-education/2020/04/uc-graduate-students-online-strike-coronavirus-pandemic-california/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/02/022120_UCDavisCola_AW_sized_03.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="How do you hold a strike online? UC teaching assistants are finding out" /></div><div class="content"><h4 class="title">Trending in Education</h4><p>How do you hold a strike online? UC teaching assistants are finding out</p></div></a><a href="https://calmatters.org/commentary/pandemic-reveals-need-for-schools-to-utilize-technology-for-online-classrooms/" class="article "><div class="thumb"><img width="339" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/online-classes-distance-learning.jpg?fit=339%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Pandemic reveals need for schools to utilize technology for online classrooms" /></div><div class="content"><h4 class="title">Trending in Education</h4><p>Pandemic reveals need for schools to utilize technology for online classrooms</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-27" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-27"><a href="https://calmatters.org/category/environment/" aria-haspopup="true">Environment</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-80257" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80257"><a href="https://calmatters.org/category/environment/building-efficiency/">Building Efficiency</a></li>
+	<li id="menu-item-80258" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80258"><a href="https://calmatters.org/category/environment/climate-change/">Climate Change</a></li>
+	<li id="menu-item-80259" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80259"><a href="https://calmatters.org/category/environment/frayed-wires/">Frayed Wires</a></li>
+	<li id="menu-item-80260" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80260"><a href="https://calmatters.org/category/environment/rising-seas/">Rising Seas</a></li>
+	<li id="menu-item-80261" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80261"><a href="https://calmatters.org/category/environment/water/">Water</a></li>
+	<li id="menu-item-80262" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80262"><a href="https://calmatters.org/category/environment/california-wildfires/">California Wildfires</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/commentary/california-water-policies-inhibit-food-production-by-valley-farmers/" class="article "><div class="thumb"><img width="460" height="246" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/California-aquaduct.jpg?fit=460%2C246" class="attachment-medium-rec size-medium-rec wp-post-image" alt="California water policies inhibit food production by Valley farmers" /></div><div class="content"><h4 class="title">Trending in Environment</h4><p>California water policies inhibit food production by Valley farmers</p></div></a><a href="https://calmatters.org/commentary/its-time-to-protect-californias-mountain-lions/" class="article "><div class="thumb"><img width="460" height="259" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/mountain-lion.jpg?fit=460%2C259" class="attachment-medium-rec size-medium-rec wp-post-image" alt="It’s time to protect California’s mountain lions" /></div><div class="content"><h4 class="title">Trending in Environment</h4><p>It’s time to protect California’s mountain lions</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-28" class="menu-item menu-item-type-taxonomy menu-item-object-category current-tnp_long_form-ancestor current-menu-parent current-tnp_long_form-parent menu-item-has-children menu-item-28"><a href="https://calmatters.org/category/health/" aria-haspopup="true">Health</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-105093" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105093"><a href="https://calmatters.org/category/health/coronavirus/">Coronavirus</a></li>
+	<li id="menu-item-80263" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80263"><a href="https://calmatters.org/category/health/breakdown-mental-health/">Breakdown: Mental Health</a></li>
+	<li id="menu-item-80264" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80264"><a href="https://calmatters.org/category/health/drug-costs/">Drug Costs</a></li>
+	<li id="menu-item-80265" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80265"><a href="https://calmatters.org/category/health/wellness/">Wellness</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/health/coronavirus/2020/04/newsom-cities-blocking-hotels-for-homeless-will-be-judged-by-history/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Newsom: Cities blocking hotels for homeless will be &#8216;judged&#8217; by history" /></div><div class="content"><h4 class="title">Trending in Health</h4><p>Newsom: Cities blocking hotels for homeless will be &#8216;judged&#8217; by history</p></div></a><a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-task-force-economy/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_taskforce_01.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="A-list business and union leaders combine to help steer California&#8217;s economic recovery" /></div><div class="content"><h4 class="title">Trending in Health</h4><p>A-list business and union leaders combine to help steer California&#8217;s economic recovery</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-80069" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-80069"><a href="https://calmatters.org/category/commentary/" aria-haspopup="true">Commentary</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-80101" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80101"><a href="https://calmatters.org/category/commentary/dan-walters/">Dan Walters</a></li>
+	<li id="menu-item-80102" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80102"><a href="https://calmatters.org/category/commentary/my-turn/">My Turn</a></li>
+	<li id="menu-item-80266" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80266"><a href="https://calmatters.org/category/commentary/reader-reactions/">Reader Reactions</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/commentary/your-next-boss-could-be-an-undocumented-immigrant-as-a-growing-number-of-founders-lack-legal-status/" class="article "><div class="thumb"><img width="460" height="276" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/startup-business.jpg?fit=460%2C276" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Your next boss could be an undocumented immigrant; growing number of business founders lack legal status" /></div><div class="content"><h4 class="title">Trending in Commentary</h4><p>Your next boss could be an undocumented immigrant; growing number of business founders lack legal status</p></div></a><a href="https://calmatters.org/commentary/earlier-california-presidential-primary-succeeded-on-many-levels/" class="article "><div class="thumb"><img width="453" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/030320_voting_AW_12.jpg?fit=453%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Earlier California presidential primary succeeded on many levels" /></div><div class="content"><h4 class="title">Trending in Commentary</h4><p>Earlier California presidential primary succeeded on many levels</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-80071" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-80071"><a href="https://projects.calmatters.org/" aria-haspopup="true">Multimedia</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-80085" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80085"><a href="https://calmatters.org/category/multimedia/explainers/">Explainers</a></li>
+	<li id="menu-item-80084" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80084"><a href="https://calmatters.org/category/multimedia/data-points/">Data Points</a></li>
+	<li id="menu-item-95787" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-95787"><a href="https://calmatters.org/projects/force-of-law-police-shootings-podcast/">Force of Law</a></li>
+	<li id="menu-item-80088" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80088"><a href="https://calmatters.org/category/multimedia/podcasts/gimme-shelter/">Gimme Shelter</a></li>
+	<li id="menu-item-80086" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80086"><a href="https://calmatters.org/category/multimedia/interactives/">Interactives</a></li>
+	<li id="menu-item-80089" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80089"><a href="https://calmatters.org/category/multimedia/video/">Video</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li id="menu-item-81105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81105"><a href="https://checkout.fundjournalism.org/memberform?org_id=calmatters&#038;campaign=701f2000001DCNo">DONATE</a></li>
+<li id="menu-item-80058" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80058"><a href="https://calmatters.org/about/" aria-haspopup="true">About</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-92341" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92341"><a href="https://projects.calmatters.org/2019/california-dream/">California Dream Project</a></li>
+	<li id="menu-item-80109" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80109"><a href="https://calmatters.org/category/blogs/inside-calmatters/">Inside CalMatters</a></li>
+	<li id="menu-item-80108" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80108"><a href="https://calmatters.org/category/blogs/events/">Events</a></li>
+	<li id="menu-item-80059" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80059"><a href="https://calmatters.org/about/advisory-board/">Advisory Board</a></li>
+	<li id="menu-item-80060" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80060"><a href="https://calmatters.org/about/board-of-directors/">Board of Directors</a></li>
+	<li id="menu-item-80061" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80061"><a href="https://calmatters.org/about/contact-us/">Contact Us</a></li>
+	<li id="menu-item-80062" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80062"><a href="https://calmatters.org/about/jobs/">Jobs</a></li>
+	<li id="menu-item-80068" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80068"><a href="https://calmatters.org/institutional-membership/">Institutional Membership</a></li>
+	<li id="menu-item-80063" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80063"><a href="https://calmatters.org/about/distribution-partners/">Media partners</a></li>
+	<li id="menu-item-80064" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80064"><a href="https://calmatters.org/about/staff/">Meet Our Team</a></li>
+	<li id="menu-item-80065" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80065"><a href="https://calmatters.org/about/mission/">Mission</a></li>
+	<li id="menu-item-80066" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80066"><a href="https://calmatters.org/about/reports-financials/">Reports &#038; Financials</a></li>
+	<li id="menu-item-80067" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80067"><a href="https://calmatters.org/about/supporters/">Supporters</a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul></nav>
+			<nav class="nav-social large-screen" role="navigation" aria-label="Social Navigation">
+				<ul>
+											<li><a href="https://www.facebook.com/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--facebook" aria-label="facebook"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook"></use></svg></a></li>
+											<li><a href="https://www.instagram.com/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--instagram" aria-label="instagram"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#instagram"></use></svg></a></li>
+											<li><a href="https://www.linkedin.com/company/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--linkedin" aria-label="linkedin"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#linkedin"></use></svg></a></li>
+											<li><a href="https://twitter.com/CalMatters" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--twitter" aria-label="twitter"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter"></use></svg></a></li>
+											<li><a href="https://www.youtube.com/channel/UCNQv9nDu2_r5zbgtUQungeA" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--youtube" aria-label="youtube"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#youtube"></use></svg></a></li>
+									</ul>
+			</nav>
+		</div>
+	</div> <!--/.nav-main-->
+
+	<nav role="navigation" class="nav-trending" aria-label="Trending Navigation">
+
+	<div class="innerwrap">
+
+		<h2 class="heading">Trending <svg role="img" class="icon icon--trending" aria-label="trending"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#trending"></use></svg></h2>
+
+		<ul id="menu-top-trending-1" class="topics"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105092"><a href="https://calmatters.org/category/health/coronavirus/">Coronavirus Coverage</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105405"><a href="https://calmatters.org/health/2020/03/california-coronavirus-gavin-newsom-senior-citizens-chronic-illness/">Coronavirus FAQ</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105407"><a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-covid-patient-hospitalization-data-icu/">Tracking Hospitalizations</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105406"><a href="https://calmatters.org/projects/corona-on-campus/">Corona on Campus</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105408"><a href="https://calmatters.org/health/coronavirus/2020/03/coronavirus-mental-health-tips-therapists-california/">Mental Health and Coronavirus</a></li>
+</ul>
+	</div>
+
+</nav><!--/.nav-trending-->
+
+<nav role="navigation" class="nav-bar" aria-label="Modal Navigation">
+
+	
+<div class="nav-search" itemscope itemtype="http://schema.org/WebSite">
+	<link itemprop="url" href="https://calmatters.org/" />
+	<meta itemprop="url" content="https://calmatters.org/" />
+
+	<button type="button" class="togglesearch" aria-controls="search" aria-expanded="false"><svg role="img" class="icon icon--search" aria-label="search"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#search"></use></svg><span class="screen-reader-text">Toggle Search</span></button>
+
+	<form role="search" class="search" id="search" aria-hidden="false" action="https://calmatters.org/" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+		<meta itemprop="target" content="https://calmatters.org/?s={s}" />
+
+		<div class="focus-label">
+			<input  class="searchinput" id="q" type="text" value="" name="s">
+			<label class="searchformlabel" aria-hidden="true" id="q-label" for="q">Search...</label>
+
+			<button class="submit" type="submit"><span class="searchicon"><svg role="img" class="icon icon--search" aria-label="search"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#search"></use></svg></span><span class="submitsearch"><svg role="img" class="icon icon--chevron-right" aria-label="chevron-right"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#chevron-right"></use></svg></span><span class="screen-reader-text">Submit Search</span></button>
+		</div>
+
+	</form>
+
+</div>
+
+	<ul class="nav-action">
+		<li><button class="login" id="piano-login">Log in</button></li>
+				<li><a href="https://calmatters.org/subscribe-to-calmatters/" class="subscribe">Subscribe</a></li>
+			</ul>
+
+			<nav class="nav-social small-screen" role="navigation" aria-label="Social Navigation">
+			<ul>
+									<li><a href="https://www.facebook.com/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--facebook" aria-label="facebook"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook"></use></svg></a></li>
+									<li><a href="https://www.instagram.com/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--instagram" aria-label="instagram"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#instagram"></use></svg></a></li>
+									<li><a href="https://www.linkedin.com/company/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--linkedin" aria-label="linkedin"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#linkedin"></use></svg></a></li>
+									<li><a href="https://twitter.com/CalMatters" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--twitter" aria-label="twitter"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter"></use></svg></a></li>
+									<li><a href="https://www.youtube.com/channel/UCNQv9nDu2_r5zbgtUQungeA" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--youtube" aria-label="youtube"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#youtube"></use></svg></a></li>
+							</ul>
+		</nav>
+		
+	
+</nav><!--/.nav-bar-->
+</div>
+		</header>
+<article class="container -project" id="content" role="main">
+	
+<div class="project-hero">
+	<img width="2000" height="1333" src="https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_03_MoazzumBajwaCesiliaJimenez.jpg?fit=2000%2C1333" class="project-hero__image wp-post-image" alt="Dr. Moazzum Bajwa examines Cesilia Jimenez’s neck during a recent appointment at the Moreno Valley Community Health Center. Jimenez had a cancerous tumor removed from her neck several years ago after Bajwa discovered it when he was a resident doctor in training. He’s still her doctor and is now an attending physician and is curriculum director of the residency program. Photo by Elizabeth Aguilera for CalMatters" srcset="https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_03_MoazzumBajwaCesiliaJimenez.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_03_MoazzumBajwaCesiliaJimenez.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_03_MoazzumBajwaCesiliaJimenez.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_03_MoazzumBajwaCesiliaJimenez.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_03_MoazzumBajwaCesiliaJimenez.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_03_MoazzumBajwaCesiliaJimenez.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_03_MoazzumBajwaCesiliaJimenez.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_03_MoazzumBajwaCesiliaJimenez.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_03_MoazzumBajwaCesiliaJimenez.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_03_MoazzumBajwaCesiliaJimenez.jpg?w=794 794w" sizes="(max-width: 2000px) 100vw, 2000px" />
+	<div class="container">
+		<div class="project-hero__content">
+			
+			<h1 class="project-hero__title">Med school free rides and loan repayments — California tries to boost its dwindling doctor supply</h1>
+
+			
+			
+							<div class="project-hero__caption">
+
+											<svg role="img" class="icon icon--camera" aria-label="camera"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#camera"></use></svg>						<span> Dr. Moazzum Bajwa examines Cesilia Jimenez’s neck during a recent appointment at the Moreno Valley Community Health Center. Jimenez had a cancerous tumor removed from her neck several years ago after Bajwa discovered it when he was a resident doctor in training. He’s still her doctor and is now an attending physician and is curriculum director of the residency program. Photo by Elizabeth Aguilera for CalMatters</span>
+									</div>
+					</div>
+	</div>
+</div>
+
+<nav class="project-navigation">
+	<ul>
+					<li>
+				<a href="https://calmatters.org/projects/californias-worsening-physician-shortage-doctors/" class="project-navigation__link  -part-1">
+					<span class="project-navigation__label">Part 1</span> Paging more doctors: California&#8217;s worsening  physician shortage				</a>
+			</li>
+						<li>
+				<a href="https://calmatters.org/projects/california-doctor-shortage-free-med-school-loan-repayment-recruiting-solutions/" class="project-navigation__link project-navigation__link--active -part-2">
+					<span class="project-navigation__label">Part 2</span> Med school free rides and loan repayments — California tries to boost its dwindling doctor supply				</a>
+			</li>
+						<li>
+				<a href="https://calmatters.org/projects/doctor-shortage-nurse-practitioners-california/" class="project-navigation__link  -part-3">
+					<span class="project-navigation__label">Part 3</span> Facing doctor shortage, will California give nurse practitioners more authority to treat patients?				</a>
+			</li>
+				</ul>
+</nav>
+
+			<div class="project-content">
+				<div class="social-share -horizontal">
+	<ul class="social-share-list">
+				<li class="social-share-list-item">
+			<!-- Email -->
+			<a rel="noopener noreferrer" class="link -email social share" href="/cdn-cgi/l/email-protection#bb84c8ced9d1ded8cf86f6dedf9e898bc8d8d3d4d4d79e898bddc9dede9e898bc9d2dfdec89e898bdad5df9e898bd7d4dad59e898bc9decbdac2d6ded5cfc89e898b593b2f791bf8dad7d2ddd4c9d5d2da9e898bcfc9d2dec89e898bcfd49e898bd9d4d4c8cf9e898bd2cfc89e898bdfccd2d5dfd7d2d5dc9e898bdfd4d8cfd4c99e898bc8cecbcbd7c29d988b888380d9d4dfc286f8d3ded8d09e898bd4cecf9e898bcfd3d2c89e898bdac9cfd2d8d7de9e898bdacf819e898bd3cfcfcbc8819494d8dad7d6dacfcfdec9c895d4c9dc94cbc9d4d1ded8cfc894d8dad7d2ddd4c9d5d2da96dfd4d8cfd4c996c8d3d4c9cfdadcde96ddc9dede96d6dedf96c8d8d3d4d4d796d7d4dad596c9decbdac2d6ded5cf96c9ded8c9ced2cfd2d5dc96c8d4d7cecfd2d4d5c894" onclick="dataLayer.push( { 'socialNetwork': 'Email' } );" target="_top">
+				<svg role="img" class="icon icon--email-circle" aria-label="email-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#email-circle"></use></svg>				<span class="screen-reader-text">Share by Email</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Twitter -->
+			<a
+				rel="noopener noreferrer"
+				class="link -twitter social share"
+				href="https://twitter.com/share?url=https://calmatters.org/projects/california-doctor-shortage-free-med-school-loan-repayment-recruiting-solutions/&#038;text=Med%20school%20free%20rides%20and%20loan%20repayments%20%E2%80%94%C2%A0California%20tries%20to%20boost%20its%20dwindling%20doctor%20supply"
+				onclick="dataLayer.push( { 'socialNetwork': 'Twitter' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--twitter-circle" aria-label="twitter-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter-circle"></use></svg>				<span class="screen-reader-text">Share on Twitter</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Facebook -->
+			<a
+				rel="noopener noreferrer"
+				class="link -facebook social share"
+				href="https://www.facebook.com/sharer.php?u=https://calmatters.org/projects/california-doctor-shortage-free-med-school-loan-repayment-recruiting-solutions/"
+				onclick="dataLayer.push( { 'socialNetwork': 'Facebook' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--facebook-circle" aria-label="facebook-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook-circle"></use></svg>				<span class="screen-reader-text">Share on Facebook</span>
+			</a>
+		</li>
+		<li class="social-share-list-item -copy-embed-item">
+			<!-- Article Link -->
+			
+				<button
+					type="button"
+					class="link -link copy-link"
+					data-href="https://calmatters.org/projects/california-doctor-shortage-free-med-school-loan-repayment-recruiting-solutions/"
+					data-home-url="https://calmatters.org"
+					data-explainer-id="94060"
+					>
+					<svg role="img" class="icon icon--link-circle" aria-label="link-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#link-circle"></use></svg>
+			
+
+
+				<span class="screen-reader-text">Copy Article Link</span>
+				<span class="tooltip">Copied</span>
+			</button>
+		</li>
+
+	</ul>
+</div>
+	<ul class="post-categories">
+		<li class="primary"><a href="https://calmatters.org/category/health/" aria-label="See articles about Health" rel="category tag">Health</a></li><li class="secondary"><a href="https://calmatters.org/category/california-dream/" aria-label="See articles about California Dream" rel="category tag">California Dream</a></li>	</ul>
+	<div class="post-byline">
+	<a href="https://calmatters.org/author/elizabeth-aguilera/" class="author">By Elizabeth Aguilera <img alt='' src='https://secure.gravatar.com/avatar/a7a0ff278b783c7430ae3cda0e11a093?s=96&#038;d=mm&#038;r=g' class='avatar avatar-96 photo' height='96' width='96' /></a>	<span class="published">published: <time datetime="2019-11-26T03:15:27-08:00">November 26, 2019</time></span>
+</div>
+
+<p>Primary care doctors are a hot commodity across California.</p>
+
+
+
+<p>Students are being lured by full-ride scholarships to medical schools. New grads are specifically recruited for training residencies. And full-fledged doctors are being offered loan repayment programs to serve low-income residents or work in underserved areas.</p>
+
+
+
+<p>These efforts are intended to ease or stave off the physician shortage expected to peak within the next decade in California. By 2030, the state will be short some 4,000 physicians, according to a<a href="https://healthforce.ucsf.edu/sites/healthforce.ucsf.edu/files/publication-pdf/UCSF%20PCP%20Workforce%20Study_Rpt%202%20-%20Final_081517.pdf"> study</a> from the HealthForce Center at UC San Francisco.</p>
+
+
+
+<p>The shortage is already acute in rural and inner city areas, especially in the Inland Empire of Southern California where the number of physicians needs to double just to reach the recommended amount to serve the fast-growing population.</p>
+
+
+
+<p>“The Inland Empire region has one of the lowest ratios of physicians, including primary care physicians, and that creates a number of challenges,” said Dr. Geoffrey Leung, ambulatory medical director for the Riverside University Health System.  “ When we have delays in care, that can result in sort of chronic illnesses or acute illnesses that become worse.”<br></p>
+
+
+
+<p>With high student loans, medical school grads have been turning to better-paying specialties instead of primary care, such as family practice, pediatrics or obstetrics, leaving some areas in dire need. <br></p>
+
+
+
+<p>“In California in particular, what’s unique is that the total number of physicians isn’t as big of a problem as where they are located,” said Mark Henderson, professor of internal medicine and associate dean of admissions at the UC Davis School of Medicine. “It’s really a maldistribution problem.”</p>
+
+
+
+<p>Health insurers, medical professionals and  community leaders are working on solutions. This summer, the state offered 250-plus doctors loan repayment plans in exchange for ensuring 30% of their caseloads were Medi-Cal patients.<br></p>
+
+
+
+<p>Meanwhile, insurer LA Care is spending millions on recruiting new doctors and, in South Los Angeles, the Martin Luther King Jr. Community Hospital is working to create a new residency program. In the Inland Empire, leaders are working to create a “middle school to medical school” pipeline.</p>
+
+
+
+<p>Because doctors tend to practice near where they trained, where they are from or where they have a family connection, resources are being poured into the expansion or creation of training programs that are situated where the need is.</p>
+
+
+
+<h4><strong>Most Impacted Region In The State</strong>: The Inland Empire<br></h4>
+
+
+
+<p>Inland Empire officials have been working on this for quite some time. A statewide <a href="https://futurehealthworkforce.org/wp-content/uploads/2019/03/MeetingDemandForHealthFinalReportCFHWC.pdf">report </a>from The Future Health Workforce Commission released this year found the number of physicians is 35 per 100,000 people, compared to the recommended 70 doctors, making it the most impacted region in the state.</p>
+
+
+
+<p>Because of that need the state approved a new University of California medical school that opened in 2013 at UC Riverside specifically to train doctors to serve the local area. It offers scholarships to students who promise to return after residency to practice in the area and reaches out to kids interested in health careers.<br></p>
+
+
+
+<div class="wp-block-image"><figure class="alignright is-resized"><img src="https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_04_MoazzumBajwaCesiliaJimenez-e1574727529662.jpg?w=742&#038;resize=346%2C476" alt="Dr. Moazzum Bajwa and patient Cesilia Jimenez hug after her recent appointment. He gave her good news: Her latest CT scans for cancer showed no recurrence. Bajwa discovered a cancerous tumor in her neck and helped her get surgery and treatment a few years ago. Jimenez said he’s a godsend and that without him she might still be trying to figure out what was wrong. Photo by Elizabeth Aguilera for CalMatters" class="wp-image-94085" width="346" height="476" srcset="https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_04_MoazzumBajwaCesiliaJimenez-e1574727529662.jpg?w=975 975w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_04_MoazzumBajwaCesiliaJimenez-e1574727529662.jpg?w=217 217w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_04_MoazzumBajwaCesiliaJimenez-e1574727529662.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_04_MoazzumBajwaCesiliaJimenez-e1574727529662.jpg?w=742&#038;resize=346%2C476 742w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_04_MoazzumBajwaCesiliaJimenez-e1574727529662.jpg?w=222 222w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_04_MoazzumBajwaCesiliaJimenez-e1574727529662.jpg?w=155 155w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_04_MoazzumBajwaCesiliaJimenez-e1574727529662.jpg?w=415 415w" sizes="(max-width: 346px) 100vw, 346px" data-recalc-dims="1"><figcaption>Dr. Moazzum Bajwa and patient Cesilia Jimenez hug after her recent appointment.  Jimenez said he’s a godsend and that without him she might still be trying to figure out what was wrong. Photo by Elizabeth Aguilera for CalMatters</figcaption></figure></div>
+
+
+
+<p>The county and medical school have partnered to expand long-standing residency programs by inviting more students to train in the area. And both institutions recruit with an eye toward geographic nativity, meaning if an applicant is from or has a connection to the area they get priority.</p>
+
+
+
+<p>For cancer survivor Cesilia Jimenez these efforts by the county are paying off.</p>
+
+
+
+<p>Recently Jimenez received the results of her latest scans at the Moreno Valley Community Health Center from Dr. Moazzum Bajwa. <br></p>
+
+
+
+<p>She had been putting it off.</p>
+
+
+
+<p>“I’ve been so nervous to hear those results, I knew I wanted to hear them from you,” she told Bajwa after he assured her that everything on the scans looked good.</p>
+
+
+
+<p>It was Bajwa, who was a resident at the time, who diagnosed a cancerous tumor in her neck and got her treatment for it after she had sought answers for years as to why she was losing her ability to walk. </p>
+
+
+
+<p>Now, he is an attending physician and teaching residents through Riverside University Health System and the UCR medical school.  Bajwa is considered a success story in Riverside County’s efforts to grow, recruit and retain primary care doctors in the region.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_05_MoazzumBajwa.jpg?w=1024" alt="Dr. Moazzum Bajwa is considered a success story in the county’s efforts to recruit and retain doctors in the Inland Empire. His wife is from Riverside and he fell in love with the program. He completed his residency with Riverside County’s University Health System and stayed on as a full-fledged physician and faculty member of the residency. Photo by Elizabeth Aguilera for CalMatters" class="wp-image-94083" srcset="https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_05_MoazzumBajwa.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_05_MoazzumBajwa.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_05_MoazzumBajwa.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_05_MoazzumBajwa.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_05_MoazzumBajwa.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_05_MoazzumBajwa.jpg?w=412 412w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_05_MoazzumBajwa.jpg?w=288 288w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_05_MoazzumBajwa.jpg?w=739 739w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_05_MoazzumBajwa.jpg?w=771 771w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_05_MoazzumBajwa.jpg?w=713 713w" sizes="(max-width: 1000px) 100vw, 1000px"><figcaption>Dr. Moazzum Bajwa completed his residency with Riverside County’s University Health System and stayed on as a full-fledged physician and faculty member of the residency. Photo by Elizabeth Aguilera for CalMatters</figcaption></figure>
+
+
+
+<p>So far the county is seeing success, Leung said. About four out of 10 residents stay in the Inland Empire after their training and eight to nine stay in Southern California. While those numbers are not that different from other programs across the state, opening the medical school and expanding training slots have kept doctors in the area.</p>
+
+
+
+<p>Dr. Takesha Cooper is on the admissions committee at the medical school,  where priority is given to applicants who have a permanent or active mailing address in the area or went to college or attended high school in the Inland Empire.</p>
+
+
+
+<p>“We do a holistic review and don’t just look at test scores,” she said. “We call it mission fits.”<br></p>
+
+
+
+<p>Cooper defines it as applicants with connections to the area and who believe in the school’s mission to help the medically underserved region and train a diverse workforce of physicians. “We have to focus and attract and try to keep people who are growing up in this area, who have ties and are more likely to stay,” she said.<br></p>
+
+
+
+<p>So far, the medical school is seeing early success. Of its 128 graduates, about 31% are training as residents in the Inland Empire.<br></p>
+
+
+
+<h4>“<strong>I Needed To Serve This Population</strong>“</h4>
+
+
+
+<p>Cooper is the kind of local student the school hopes to capture.</p>
+
+
+
+<p>She grew up in Moreno Valley long before the medical school opened. She went away for college, completed medical school at the University of Southern California and moved to the Bay Area for her residency and a fellowship in child and adolescent psychiatry.<br></p>
+
+
+
+<p>And, as statistics bear out, she set up her practice in Palo Alto, near Stanford where she finished her training.<br></p>
+
+
+
+<p>“I did that for five years but I started to feel like I’m not really needed here,” she said. “My heart told me I needed to serve this population.”<br></p>
+
+
+
+<p>So she came back to Riverside to practice and then she joined the faculty at UCR and has since helped start a residency in general adult psychiatry and a fellowship in child psychiatry as a way to train and keep much-needed mental health professionals in the area.<br></p>
+
+
+
+<p>“If our residents had to go to UCLA or UC San Diego or Irvine, chances are they would have stayed in that area and practiced,” she said. “It’s what I did.”</p>
+
+
+
+<p>It’s the same strategy the county uses in recruiting medical school graduates like Bajwa to its residency programs, said Dr. Adolfo Aguilera, associate director of the University Health System residency program, who also stayed on after he trained in Riverside more than two decades ago.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_02_AdolfoAguilera.jpg?w=1024" alt="Dr. Adolfo Aguilera is associate director of the Riverside County University Health System and University of California School of Medicine residency program and Physician in Charge at the Moreno Valley Community Health Center. He also graduated from the residency program more than two decades ago. Photo by Elizabeth Aguilera for CalMatters" class="wp-image-94069" srcset="https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_02_AdolfoAguilera.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_02_AdolfoAguilera.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_02_AdolfoAguilera.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_02_AdolfoAguilera.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_02_AdolfoAguilera.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_02_AdolfoAguilera.jpg?w=432 432w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_02_AdolfoAguilera.jpg?w=302 302w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_02_AdolfoAguilera.jpg?w=774 774w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_02_AdolfoAguilera.jpg?w=808 808w, https://calmatters.org/wp-content/uploads/sites/2/2019/11/Physicianshortage_EA_sized_02_AdolfoAguilera.jpg?w=747 747w" sizes="(max-width: 1000px) 100vw, 1000px"><figcaption>Dr. Adolfo Aguilera is associate director of the Riverside County University Health System and University of California School of Medicine residency program and physician in charge at the Moreno Valley Community Health Center. Photo by Elizabeth Aguilera for CalMatters</figcaption></figure>
+
+
+
+<p>“When somebody has a connection to the area, you know, they are invested in what they’re going to be doing,” he said. “If they’re here to stay, they’re going to want to make sure that they are providing the best care that they can, that they are essentially trying to build the program so that we’re able to outreach to our community and serve their needs”</p>
+
+
+
+<p>Bajwa is from the East Coast but the program’s goals matched his when he interviewed and Riverside was his first choice. He also had another reason for coming and staying: His wife is from Riverside and she’s also a physician.</p>
+
+
+
+<p>“The connection with my wife is what brought me out here first,” he said. “But it was the community and identity of building something bigger than myself that I fell in love with.”</p>
+
+
+
+<p>That’s what Leung, Aguilera and others in Riverside hope will happen with many of the students and residents they recruit. And they are not alone.<br></p>
+
+
+
+<h4><strong>Recruiting Physicians Where They Are Needed</strong></h4>
+
+
+
+<p>This kind of thinking is happening across the state in areas lacking physicians.</p>
+
+
+
+<p>In Northern California, UC Davis has partnered with the Oregon Health and Science University in Portland and created a program called COMPADRE, or California Oregon Medical Partnership to Address Disparities in Rural Education. It focuses on the area between Davis and Portland to recruit kids to medical school and to provide a program that allows them to train where they are from.</p>
+
+
+
+<p>“We’ll modify their curriculum to allow them to remain in their home community for a large part of their training to keep them connected to a community health center in the region,” Henderson said. “If we get physicians who actually grew up or have a connection to these communities they will be less burned out and will have meaningful relationships to the community and the hospital.”</p>
+
+
+
+<figure class="wp-block-pullquote"><blockquote><p>“We’re hoping that when their three years is up they will have fallen in love with L.A. and their practice and they’ll stay on with us.”</p><cite>John Baackes, CEO of LA Care</cite></blockquote></figure>
+
+
+
+<p>In urban South Los Angeles, the MLK Jr. Community Hospital set up its own medical group in 2016 that recruits and hires physicians to practice in the neighborhood and is slated to start a residency training program in 2022, said Elaine Batchlor, CEO of the hospital.</p>
+
+
+
+<p>“The strategy is to recruit doctors who have an interest in working in underserved communities, to offer them a state of the art practice environment with high quality colleagues,” she said. “We offer market compensation and the possibility of having loans forgiven because they are working in a medically underserved area.”</p>
+
+
+
+<p>Bringing residency slots to communities is a strategy that costs money. These slots are usually paid for by the Medicare program but the federal government has not created new residency positions in years. So the program at MLK and other new training sites are being funded by the host institutions or insurers like LA Care Health Plan.</p>
+
+
+
+<p>LA Care serves 2 million Medi-Cal patients in Southern California. Last year the insurer committed 5% of its reserves, about $31 million a year for five years, to a program called Elevating the Safety Net, said John Baackes, CEO of the organization. It includes scholarships for medical school students, funding for residency slots, grants to clinics and private practices to recruit primary care doctors into Los Angeles County and loan repayment up to $180,000 for those newly recruited physicians who stay three years.<br></p>
+
+
+
+<p>“We’re hoping that when their three years is up they will have fallen in love with L.A. and their practice and they’ll stay on with us,” Baackes said. “We’re aimed at the safety net populations, those people who are on Medi-Cal or uninsured, and we think this is the right thing to do is invest in the future of this population.”</p>
+
+
+
+<p>In Riverside, the residency program that produced Dr. Bajwa is also partly supported by the county. Riverside County funds 52 positions beyond what the federal government provides.</p>
+
+
+
+<p>“We are over our cap, which means every resident that we add on top of that limit are entirely funded through the county,” said Leung, of Riverside University Health System. “Any improvement that we make in the Inland Empire area whether it is in workforce, education or in terms of policy or the way we think about developing neighborhoods, all of those things help make the Inland Empire the sort of area that people want to move to and that help us with recruiting doctors, resident physicians and medical school students.”</p>
+
+
+
+<p>For patients, having access to a doctor over the long term that they know and trust pays off.  </p>
+
+
+
+<p>Before Dr. Bajwa, Cesilia Jimenez never knew who she was going to see at the clinic.</p>
+
+
+
+<p>“It feels good to just come and he knows what we are going to talk about and not me explaining to the doctor what I’ve been through,” she said.</p>
+
+
+
+<p>When she left their appointment Bajwa gave her a hug before she walked out on her own.</p>
+
+
+
+<p>“Many programs talk about serving the underserved but here the focus that the faculty have on actually taking care of the community and doing outreach in the community is just unparalleled I think,” Bajwa said. “That was something I wanted to be a part of.”</p>
+
+
+
+<p><em>Note: This story has been revised to correct the name of Oregon Health and Science University in Portland.</em><br></p>
+
+<div class="social-share -horizontal">
+	<ul class="social-share-list">
+				<li class="social-share-list-item">
+			<!-- Email -->
+			<a rel="noopener noreferrer" class="link -email social share" href="/cdn-cgi/l/email-protection#e3dc90968189868097deae8687c6d1d390808b8c8c8fc6d1d385918686c6d1d3918a878690c6d1d3828d87c6d1d38f8c828dc6d1d3918693829a8e868d9790c6d1d30163772143a0828f8a858c918d8a82c6d1d397918a8690c6d1d3978cc6d1d3818c8c9097c6d1d38a9790c6d1d387948a8d878f8a8d84c6d1d3878c80978c91c6d1d3909693938f9ac5c0d3d0dbd8818c879adea08b868088c6d1d38c9697c6d1d3978b8a90c6d1d38291978a808f86c6d1d38297d9c6d1d38b97979390d9cccc80828f8e829797869190cd8c9184cc93918c8986809790cc80828f8a858c918d8a82ce878c80978c91ce908b8c9197828486ce85918686ce8e8687ce90808b8c8c8fce8f8c828dce918693829a8e868d97ce91868091968a978a8d84ce908c8f96978a8c8d90cc" onclick="dataLayer.push( { 'socialNetwork': 'Email' } );" target="_top">
+				<svg role="img" class="icon icon--email-circle" aria-label="email-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#email-circle"></use></svg>				<span class="screen-reader-text">Share by Email</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Twitter -->
+			<a
+				rel="noopener noreferrer"
+				class="link -twitter social share"
+				href="https://twitter.com/share?url=https://calmatters.org/projects/california-doctor-shortage-free-med-school-loan-repayment-recruiting-solutions/&#038;text=Med%20school%20free%20rides%20and%20loan%20repayments%20%E2%80%94%C2%A0California%20tries%20to%20boost%20its%20dwindling%20doctor%20supply"
+				onclick="dataLayer.push( { 'socialNetwork': 'Twitter' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--twitter-circle" aria-label="twitter-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter-circle"></use></svg>				<span class="screen-reader-text">Share on Twitter</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Facebook -->
+			<a
+				rel="noopener noreferrer"
+				class="link -facebook social share"
+				href="https://www.facebook.com/sharer.php?u=https://calmatters.org/projects/california-doctor-shortage-free-med-school-loan-repayment-recruiting-solutions/"
+				onclick="dataLayer.push( { 'socialNetwork': 'Facebook' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--facebook-circle" aria-label="facebook-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook-circle"></use></svg>				<span class="screen-reader-text">Share on Facebook</span>
+			</a>
+		</li>
+		<li class="social-share-list-item -copy-embed-item">
+			<!-- Article Link -->
+			
+				<button
+					type="button"
+					class="link -link copy-link"
+					data-href="https://calmatters.org/projects/california-doctor-shortage-free-med-school-loan-repayment-recruiting-solutions/"
+					data-home-url="https://calmatters.org"
+					data-explainer-id="94060"
+					>
+					<svg role="img" class="icon icon--link-circle" aria-label="link-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#link-circle"></use></svg>
+			
+
+
+				<span class="screen-reader-text">Copy Article Link</span>
+				<span class="tooltip">Copied</span>
+			</button>
+		</li>
+
+	</ul>
+</div>
+
+<nav class="project-navigation project-navigation--bottom">
+	<ul>
+		<li>
+		<a href="https://calmatters.org/projects/doctor-shortage-nurse-practitioners-california/" class="project-navigation__link project-navigation__link--active -part-3">
+			<span class="project-navigation__label">Part 3</span>
+			Facing doctor shortage, will California give nurse practitioners more authority to treat patients?		</a>
+	</li>
+	</ul>
+</nav>
+			</div>
+			
+<div class="project-series-footer">
+	<div class="container">
+
+		<div class="project-series-footer__info">
+						<h2 class="project-series-footer__title">Dearth of doctors</h2>
+			
+						<div class="project-series-footer__author">
+				<a href="https://calmatters.org/author/elizabeth-aguilera/">
+				<img alt='' src='https://secure.gravatar.com/avatar/a7a0ff278b783c7430ae3cda0e11a093?s=96&#038;d=mm&#038;r=g' class='avatar avatar-96 photo' height='96' width='96' />				</a>
+
+				<div>
+										<span class="project-series-footer__author-byline">
+						By <a href="https://calmatters.org/author/elizabeth-aguilera/">Elizabeth Aguilera</a>
+					</span>
+					
+					
+					<ul class="project-series-footer__author-social">
+												<li><a href="/cdn-cgi/l/email-protection#b3d6dfdac9d2d1d6c7dbf3d0d2dfded2c7c7d6c1c09ddcc1d4"><svg role="img" class="icon icon--email" aria-label="email"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#email"></use></svg></a></li>
+												<li><a href="https://calmatters.org/author/elizabeth-aguilera/feed/"><svg role="img" class="icon icon--rss" aria-label="rss"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#rss"></use></svg></a></li>
+											</ul>
+				</div>
+			</div>
+					</div>
+
+		<div class="project-series__posts">
+							<a href="https://calmatters.org/projects/californias-worsening-physician-shortage-doctors/" class="project-series__posts-item -part-1">
+					<span class="project-series__posts-label ">
+						Part 1					</span>
+					<h3 class="project-series__posts-title">Paging more doctors: California&#8217;s worsening  physician shortage</h3>
+
+											<p>California is facing a growing shortage of primary care physicians, one that is already afflicting  rural areas and low-income inner city areas, and is forecasted to impact millions of people within ten years. Not enough newly minted doctors are going into primary care, and a third of the doctors in the state are over 55 and looking to retire soon.</p>
+									</a>
+								<a href="https://calmatters.org/projects/california-doctor-shortage-free-med-school-loan-repayment-recruiting-solutions/" class="project-series__posts-item -part-2">
+					<span class="project-series__posts-label ">
+						Part 2					</span>
+					<h3 class="project-series__posts-title">Med school free rides and loan repayments — California tries to boost its dwindling doctor supply</h3>
+
+									</a>
+								<a href="https://calmatters.org/projects/doctor-shortage-nurse-practitioners-california/" class="project-series__posts-item -part-3">
+					<span class="project-series__posts-label -next">
+						Next Up: Part 3					</span>
+					<h3 class="project-series__posts-title">Facing doctor shortage, will California give nurse practitioners more authority to treat patients?</h3>
+
+											<p>So far the doctors&#039; lobby has blocked the idea, which promises to expand care options in rural and inner-city areas. They warn it would create two-tiered care.</p>
+									</a>
+						</div>
+	</div>
+</div>
+	<section class="section-feature latest-section">
+
+				<h2 class="sectiontitle -heading-3">
+			Latest in Health		</h2>
+		
+		<div class="grid-wrap">
+			<div class="article-grid">
+									<div class="item ">
+						<div class="item-wrapper">
+															<a href="https://calmatters.org/health/coronavirus/2020/04/newsom-cities-blocking-hotels-for-homeless-will-be-judged-by-history/" class="link thumb" aria-label="Read more about Newsom: Cities blocking hotels for homeless will be &#8216;judged&#8217; by history">
+									<div class="thumb-inner">
+										<img width="321" height="214" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?fit=321%2C214" class="attachment-medium-wide-rec size-medium-wide-rec wp-post-image" alt="A row of hotels and motels near Oakland airport on March 25, 2020. Photo by Anne Wernikoff for CalMatters" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?w=794 794w" sizes="(max-width: 321px) 100vw, 321px" />									</div>
+								</a>
+							
+															<p class="category">Health</p>
+																						<h2 class="title">Newsom: Cities blocking hotels for homeless will be &#8216;judged&#8217; by history</h2>
+													</div>
+					</div>
+									<div class="item ">
+						<div class="item-wrapper">
+															<a href="https://calmatters.org/commentary/dont-ban-biking-during-the-coronavirus-pandemic/" class="link thumb" aria-label="Read more about Don’t ban biking during the coronavirus pandemic">
+									<div class="thumb-inner">
+										<img width="348" height="214" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?fit=348%2C214" class="attachment-medium-wide-rec size-medium-wide-rec wp-post-image" alt="" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=2208 2208w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=2048 2048w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=348 348w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=860 860w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=861 861w" sizes="(max-width: 348px) 100vw, 348px" />									</div>
+								</a>
+							
+															<p class="category">Health</p>
+																						<h2 class="title">Don’t ban biking during the coronavirus pandemic</h2>
+													</div>
+					</div>
+									<div class="item ">
+						<div class="item-wrapper">
+															<a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-shelter-home-dangerous-abuse-domestic-violence/" class="link thumb" aria-label="Read more about Home is a perilous place for some Californians during coronavirus pandemic">
+									<div class="thumb-inner">
+										<img width="321" height="214" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?fit=321%2C214" class="attachment-medium-wide-rec size-medium-wide-rec wp-post-image" alt="" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?w=458 458w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?w=857 857w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?w=793 793w" sizes="(max-width: 321px) 100vw, 321px" />									</div>
+								</a>
+							
+															<p class="category">Health</p>
+																						<h2 class="title">Home is a perilous place for some Californians during coronavirus pandemic</h2>
+													</div>
+					</div>
+									<div class="item ">
+						<div class="item-wrapper">
+															<a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-good-deeds/" class="link thumb" aria-label="Read more about Acts of grace from everyday Californians are getting us through">
+									<div class="thumb-inner">
+										<img width="321" height="214" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?fit=321%2C214" class="attachment-medium-wide-rec size-medium-wide-rec wp-post-image" alt="Patti Wang-Cross plays the ukulele as neighbors sing ‘You Are My Sunshine,’ ‘Happy Birthday,’ and songs by Bruno Mars during their weekly sing-along. The neighbors began the Wednesday night tradition in response to social distancing rules in light of concerns over the coronavirus in California. Photo by Anne Wernikoff for CalMatters" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?w=794 794w" sizes="(max-width: 321px) 100vw, 321px" />									</div>
+								</a>
+							
+															<p class="category">Health</p>
+																						<h2 class="title">Acts of grace from everyday Californians are getting us through</h2>
+													</div>
+					</div>
+									<div class="item ">
+						<div class="item-wrapper">
+															<a href="https://calmatters.org/health/coronavirus/2020/04/california-undocumented-workers-coronavirus-disaster-relief/" class="link thumb" aria-label="Read more about California&#8217;s undocumented workers to get $125 million  coronavirus disaster relief">
+									<div class="thumb-inner">
+										<img width="285" height="214" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?fit=285%2C214" class="attachment-medium-wide-rec size-medium-wide-rec wp-post-image" alt="A worker at the Firehouse Clinic looks out a window at a testing site for the COVID-19 virus along Huntwood Avenue near Fire Station 7 in Hayward. The state is now allowing all uninsured Californians to be tested and treated for COVID-19 at community clinics and health centers, regardless of immigration status. Photo by Aric Crabb/Bay Area News Group" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?w=407 407w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?w=285 285w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?w=729 729w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?w=761 761w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?w=704 704w" sizes="(max-width: 285px) 100vw, 285px" />									</div>
+								</a>
+							
+															<p class="category">Health</p>
+																						<h2 class="title">California&#8217;s undocumented workers to get $125 million  coronavirus disaster relief</h2>
+													</div>
+					</div>
+									<div class="item ">
+						<div class="item-wrapper">
+															<a href="https://calmatters.org/health/2020/04/reopen-california-thats-the-toughest-phase-yet-newsom-says/" class="link thumb" aria-label="Read more about Reopen California? That&#8217;s the toughest phase yet, Newsom says">
+									<div class="thumb-inner">
+										<img width="321" height="214" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_08.jpg?fit=321%2C214" class="attachment-medium-wide-rec size-medium-wide-rec wp-post-image" alt="People play basketball at a San Francisco park behind a sign reminders park-goers to maintain social distancing on March 25, 2020. Photo by Anne Wernikoff for CalMatters" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_08.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_08.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_08.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_08.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_08.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_08.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_08.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_08.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_08.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_08.jpg?w=794 794w" sizes="(max-width: 321px) 100vw, 321px" />									</div>
+								</a>
+							
+															<p class="category">Health</p>
+																						<h2 class="title">Reopen California? That&#8217;s the toughest phase yet, Newsom says</h2>
+													</div>
+					</div>
+							</div>
+		</div>
+	</section>
+	</article>
+		<footer class="container -footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+			<div class="site-footer">
+
+				<div class="col1">
+					<p class="copyright">&copy;
+					2019					CalMatters					</p>
+
+					<div class="menu-footer-container"><ul id="footer-menu" class="menu"><li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="https://calmatters.org/terms-conditions/">Terms &#038; Conditions</a></li>
+<li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-61"><a href="https://calmatters.org/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-80083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80083"><a href="https://calmatters.org/submission-guidelines/">Submission Guidelines</a></li>
+<li id="menu-item-80095" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80095"><a href="https://calmatters.org/donate/">Support CalMatters and Independent Journalism</a></li>
+<li id="menu-item-80096" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80096"><a href="https://calmatters.org/subscribe-to-calmatters/">Sign up for CalMatters</a></li>
+</ul></div>
+				</div>
+
+				<div class="col2">
+
+					<a href="https://thenewsproject.net/" target="_blank" rel="noopener noreferrer">
+					<span class="screen-reader-text">CalMatters</span>
+					Powered by
+					<svg role="img" class="icon icon--tnp-powered" aria-label="tnp-powered"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#tnp-powered"></use></svg>					</a>
+
+				</div>
+
+			</div>
+		</footer>
+
+		<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+!function(n,t,c,e,u){function r(n){try{f=n(u)}catch(n){return h=n,void i(p,n)}i(s,f)}function i(n,t){for(var c=0;c<n.length;c++)d(n[c],t);
+}function o(n,t){return n&&(f?d(n,f):s.push(n)),t&&(h?d(t,h):p.push(t)),l}function a(n){return o(!1,n)}function d(t,c){
+n.setTimeout(function(){t(c)},0)}var f,h,s=[],p=[],l={then:o,catch:a,_setup:r};n[e]=l;var v=t.createElement("script");
+v.src=c,v.async=!0,v.id="_uasdk",v.rel=e,t.head.appendChild(v)}(window,document,'https://aswpsdkus.com/notify/v1/ua-sdk.min.js',
+	'UA', {
+		appKey: 'swOPpECvQRyoqoQ0AOtBgg',
+		token: 'MTpzd09QcEVDdlFSeW9xb1EwQU90QmdnOld4WFFoRWlPX05hLVlrZVc4YlgxSW0xVHFxVkZzT2JrYmdUUWpBTkxfZjQ',
+				workerUrl: 'https://calmatters.org/service-worker.js',websitePushId: 'web.thenewsproject',				vapidPublicKey: 'BAjVIVcGJFCYJzHU63gf4TrkNG4qpF_ULK8'
+	});
+</script>
+		<script type='text/javascript' src='https://calmatters.org/_static/??-eJx1zcEOwiAQBNAfkm7VNPVi/BRDYbVQWDbskv6+xngwJpzmMm8GdjaukCIp5GY4tWcggYjK1m1wD+RgaSF54LVooW8MOdAQ5QA/XFfMKOBsylYVq4APohAFllTcJuZRP03fge8g3IVriei0i/vPnQEl/te3fD1Ol3mczuN8ii9voGFT'></script>
+<script>
+var tnpData = {"ad_zone":"calmatters","error_email_invalid":"You have entered an invalid email","error_missing_status":"Response missing email_status","gtmIDs":[{"gtm_id":"GTM-WJSBCB4"},{"gtm_id":"GTM-TXQ3CH7"}],"subscribed":"Thanks for subscribing!","dataLayer":{"author":"Elizabeth Aguilera","canonicalUrl":"https:\/\/calmatters.org\/projects\/california-doctor-shortage-free-med-school-loan-repayment-recruiting-solutions\/","category":"Health","environment":"production","gaId":"UA-117522438-3","gatedContentType":"","originalPublishDate":"11262019","originalPublishHour":"1574738127","pageType":"article","postId":"94060","postType":"tnp_long_form","publicationName":"CalMatters","sponsor":"","tag":"California health care, California Health Care Workforce, HealthForce Center, physician shortage, uc riverside, UC San Francisco","gatedContent":"false"},"experience_control":"explicit"};
+var mailchimp = {"action":"handle_newsletter_signup","admin_ajax":"https:\/\/calmatters.org\/wp-admin\/admin-ajax.php","list":"faa7be558d","nonce":"5fb54b11a5"};
+var tnp_piano = {"piano_url":"https:\/\/sandbox.tinypass.com\/xbuilder\/experience\/load?aid=teischen","piano_aid":"teischen","piano_prod":"","piano_gated":""};
+</script>
+<script>
+// Remove no-js and add 'js' to the HTML
+		document.documentElement.classList.remove('no-js');
+		document.documentElement.classList.add('js');
+		WebFontConfig = {
+			google: { families: [ 'Source+Sans+Pro:400,700,900:latin' ] }
+		};
+		(function() {
+			var wf = document.createElement('script');
+			wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+			'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+			wf.type = 'text/javascript';
+			wf.async = 'true';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(wf, s);
+		})();
+</script>
+<script src='https://calmatters.org/wp-content/themes/calmatters/dist/js/frontend.js?ver=0.1.169'></script>
+<script type='text/javascript' src='https://calmatters.org/wp-content/themes/calmatters/dist/js/fontChanger.js?m=1583263699g'></script>
+<script src='https://calmatters.org/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.15'></script>
+<script>
+window.lodash = _.noConflict();
+</script>
+<script>
+var epas = {"query":"{\"from\":0,\"size\":10,\"sort\":[{\"_score\":{\"order\":\"desc\"}}],\"query\":{\"function_score\":{\"query\":{\"bool\":{\"should\":[{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"post\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"page\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"tnp_newsletters\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"cal_explainers\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"commentary\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"tnp_long_form\"}}]}}]}},\"functions\":[{\"exp\":{\"post_date_gmt\":{\"scale\":\"14d\",\"decay\":0.25,\"offset\":\"7d\"}}}],\"score_mode\":\"avg\",\"boost_mode\":\"sum\"}},\"post_filter\":{\"bool\":{\"must\":[{\"terms\":{\"post_type.raw\":[\"post\",\"page\",\"tnp_newsletters\",\"cal_explainers\",\"commentary\",\"tnp_long_form\"]}},{\"term\":{\"post_status\":\"publish\"}}]}}}","placeholder":"ep_autosuggest_placeholder","endpointUrl":"https:\/\/contact-5cc31fb04fd13.clients.hosted-elasticpress.io\/contact-5cc31fb04fd13-calmattersorg-post-2\/autosuggest","selector":"ep-autosuggest","action":"navigate","mimeTypes":[],"triggerAnalytics":"","addSearchTermHeader":"1"};
+</script>
+<script type='text/javascript' src='https://calmatters.org/_static/??-eJyNjUEOAiEQBD/k7sTDbvBgfAvCSIbAQOghft818eBNj52qVNOzL6GpsRr1MpMoiIuHSeiDAYoCowzy0xpmSgxbEIZ0W6vomnGiIyEayoyMtzk18kBog7+Nv04ePrDhR/+YXO8cP/xWr+fNbbu77M7lF4EcTTI='></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202016.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:8.4.2',blog:'163013142',post:'94060',tz:'-7',srv:'calmatters.org'} ]);
+	_stq.push([ 'clickTrackerInit', '163013142', '94060' ]);
+</script>
+
+	</div> <!-- end .site -->
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"54db1a61c9","applicationID":"187794457","transactionName":"ZgEAMhdQCkJTBU1aDF9LIwURWAtfHRVQXQRdAU8SC0E7XV0IXmwFXhYP","queueTime":0,"applicationTime":442,"atts":"SkYXRF9KGR0QBxsJGEwZ","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,27 @@
+As infections from the ongoing Covid-19 pandemic continue to climb, hospitals around the world are struggling with a potentially fatal shortage of ventilators, the bedside machines that help patients breathe when they’re unable to do so on their own. Meanwhile, hundreds of thousands of lower-grade breathing devices known as continuous positive airway pressure machines sit idle in closets or warehouses because their manufacturers say they can’t perform the same life-saving functions.
+
+ARS TECHNICA This story originally appeared on Ars Technica, a trusted source for technology news, tech policy analysis, reviews, and more. Ars is owned by WIRED's parent company, Condé Nast.
+
+Security researcher Trammell Hudson analyzed the AirSense 10—the world’s most widely used CPAP—and made a startling discovery. Although its manufacturer says the AirSense 10 would require “significant rework to function as a ventilator,” many ventilator functions were already built into the device firmware.
+
+Its manufacturer, ResMed, says the $700 device solely functions as a continuous positive airway pressure machine used to treat sleep apnea. It does this by funneling air into a mask. ResMed says the device can’t work as a bilevel positive airway pressure device, which is a more advanced machine that pushes air into a mask and then reduces the pressure to a calibrated lower level to allow it back out. With no ability to work in both directions or increase the output when needed, the AirSense 10 can’t be used as the type of ventilator that could help patients who are struggling to breathe. After reverse-engineering the firmware, Hudson says the ResMed claim is simply untrue.
+
+To demonstrate his findings, Hudson on Tuesday is releasing a patch that he says unlocks the hidden capabilities buried deep inside the AirSense 10. The patch is dubbed Airbreak in a nod to jailbreaks that hobbyists use to remove technical barriers Apple developers erect inside iPhones and iPads. Whereas jailbreaks unlock functions that allow the installation of unauthorized apps and the accessing of log files and forensic data, Airbreak allows the AirSense 10 to work as a bilevel positive airway pressure machine, a device that many people refer to as a BiPAP.
+
+“Our changes bring the AirSense S10 to near feature parity with BiPAP machines from the same manufacturer, boost the maximum pressure output available, and provide a starting point to add more advanced emergency ventilator functionality,” Hudson and other researchers wrote on their website disclosing the findings.
+
+Bilevel positive airway pressure devices aren’t normally approved to treat patients suffering from Covid-19, but in the kind of ongoing emergency that’s confronting many hospitals, the Food and Drug Administration has temporarily approved their use as ventilators, provided the converted devices are fitted with filters to prevent aerosolization of the virus. Several groups are actively working to make that conversion happen. Freeing up hundreds of thousands of lower-cost CPAP machines could give those efforts a vital boost.
+
+The researchers are clear that Airbreak shouldn’t be used on any device treating a patient suffering from Covid-19—at least not yet. Its more immediate use is to prove that the AirSense 10 does, in fact, have the ability to provide emergency ventilator functions. The researchers’ preference is for ResMed to release its own firmware update that unlocks the ventilator functions. Given the recent FDA exemptions, ResMed could do this relatively quickly, the researchers say.
+
+The benefit of ResMed releasing a patch is two-fold. One, a manufacturer-released update is likely to be more reliable. Additionally, a patch from ResMed could be installed much more quickly and reliably on more recent devices that have over-the-air update capabilities. Installing Airbreak, by contrast, is a lengthy process that requires manually opening a case and reflashing firmware.
+
+ResMed representative Tracy Moehnke, however, said neither the AirSense 10 nor a more advanced AirSense 10 AutoSet were capable of providing “bilevel therapy,” meaning both inhalation and exhalation. Only a more expensive AirCurve 10 device could do that, Moehnke said. When I asked about the significant reworking the company says is required to make the less expensive AirSense 10 models work this way, Moehnke replied, “CPAP- and APAP-only devices would require significant rework to deliver bilevel therapy.”
+
+Asked if ResMed was willing to work with the researchers to explore ways to convert the lower-cost models, the representative wrote, “We are already exploring that option, but our primary focus is to maximize production of our current ventilation devices, masks, and accessories.”
+
+Tuesday’s release of Airbreak will allow medical technicians and researchers to test the unadvertised features of the ResMed machines to see precisely how they might be used in emergency rooms struggling with a dangerous lack of proper ventilators. It’s also designed to demonstrate that there's little preventing first responders from using the AirSense 10—and likely CPAPs available from ResMed competitors—to treat patients suffering from Covid-19.
+
+This story originally appeared on Ars Technica.
+
+More From WIRED on Covid-19

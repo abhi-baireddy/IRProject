@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PRBVPKQ');</script>
+<!-- End Google Tag Manager -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="pingback" href="https://journalistsresource.org/xmlrpc.php">
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="https://journalistsresource.org/wp-content/themes/point-child/graphics/favicon.ico" />
+<link rel="stylesheet" href="https://journalistsresource.org/wp-content/themes/point-child/print.css?d=3222017b" type="text/css" media="print" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+<title>How journalists can avoid spreading coronavirus misinformation</title>
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v5.8 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="MIT professor David Rand helps you get a grip on the vast ecosystem of coronavirus misinformation that social media users are up against."/>
+<link rel="canonical" href="https://journalistsresource.org/studies/society/social-media/coronavirus-misinformation-crowdsourcing-truth-mit-david-rand/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="How journalists can avoid spreading coronavirus misinformation" />
+<meta property="og:description" content="MIT professor David Rand helps you get a grip on the vast ecosystem of coronavirus misinformation that social media users are up against." />
+<meta property="og:url" content="https://journalistsresource.org/studies/society/social-media/coronavirus-misinformation-crowdsourcing-truth-mit-david-rand/" />
+<meta property="og:site_name" content="Journalist&#039;s Resource" />
+<meta property="article:tag" content="clark merrefield" />
+<meta property="article:tag" content="conversation" />
+<meta property="article:tag" content="coronavirus" />
+<meta property="article:tag" content="coronavirus epidemic" />
+<meta property="article:tag" content="coronavirus pandemic" />
+<meta property="article:tag" content="COVID-19" />
+<meta property="article:tag" content="david rand" />
+<meta property="article:tag" content="massachusetts institute of technology" />
+<meta property="article:tag" content="merrefield" />
+<meta property="article:tag" content="MIT" />
+<meta property="article:tag" content="rand" />
+<meta property="article:section" content="Digital Democracy" />
+<meta property="article:published_time" content="2020-03-20T15:02:32-04:00" />
+<meta property="article:modified_time" content="2020-03-23T14:56:36-04:00" />
+<meta property="og:updated_time" content="2020-03-23T14:56:36-04:00" />
+<meta property="og:image" content="https://journalistsresource.org/wp-content/uploads/2020/03/daria-nepriakhina-gGoi4QTXXBA-unsplash-scaled.jpg" />
+<meta property="og:image:secure_url" content="https://journalistsresource.org/wp-content/uploads/2020/03/daria-nepriakhina-gGoi4QTXXBA-unsplash-scaled.jpg" />
+<meta property="og:image:width" content="2560" />
+<meta property="og:image:height" content="1707" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="MIT professor David Rand helps you get a grip on the vast ecosystem of coronavirus misinformation that social media users are up against." />
+<meta name="twitter:title" content="How journalists can avoid spreading coronavirus misinformation" />
+<meta name="twitter:image" content="https://journalistsresource.org/wp-content/uploads/2020/03/daria-nepriakhina-gGoi4QTXXBA-unsplash-scaled.jpg" />
+<meta name="twitter:creator" content="@cmerref" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/journalistsresource.org\/","name":"Journalist&#039;s Resource","potentialAction":{"@type":"SearchAction","target":"https:\/\/journalistsresource.org\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Journalist&#039;s Resource &raquo; Feed" href="https://journalistsresource.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Journalist&#039;s Resource &raquo; Comments Feed" href="https://journalistsresource.org/comments/feed/" />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.10.4 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	var mi_version         = '7.10.4';
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-5985794-2';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-5985794-2', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('require', 'displayfeatures');
+		__gaTracker('send','pageview');
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/journalistsresource.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://journalistsresource.org/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='https://journalistsresource.org/wp-includes/css/dist/block-library/theme.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='point-style-css'  href='https://journalistsresource.org/wp-content/themes/point-child/style.css?ver=1.0.0' type='text/css' media='all' />
+<style id='point-style-inline-css' type='text/css'>
+
+		a:hover, .menu .current-menu-item > a, .menu .current-menu-item, .current-menu-ancestor > a.sf-with-ul, .current-menu-ancestor, footer .textwidget a, .single_post a:not(.wp-block-button__link), #commentform a, .copyrights a:hover, a, footer .widget li a:hover, .menu > li:hover > a, .single_post .post-info a, .post-info a, .readMore a, .reply a, .fn a, .carousel a:hover, .single_post .related-posts a:hover, .sidebar.c-4-12 .textwidget a, footer .textwidget a, .sidebar.c-4-12 a:hover, .title a:hover, .trending-articles li a:hover { color: #a71930; }
+		.review-result, .review-total-only { color: #a71930!important; }
+		.nav-previous a, .nav-next a, .sub-menu, #commentform input#submit, .tagcloud a, #tabber ul.tabs li a.selected, .featured-cat, .mts-subscribe input[type='submit'], .pagination a, .widget .wpt_widget_content #tags-tab-content ul li a, .latestPost-review-wrapper, .pagination .dots, .primary-navigation #wpmm-megamenu .wpmm-posts .wpmm-pagination a, #wpmm-megamenu .review-total-only, body .latestPost-review-wrapper, .review-type-circle.wp-review-show-total { background: #a71930; color: #fff; } .header-button { background: #336699; } #logo a { color: #blank; }
+		
+		
+</style>
+<link rel='stylesheet' id='theme-slug-fonts-css'  href='//fonts.googleapis.com/css?family=Droid+Sans%3A400%2C700&#038;subset=latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='addtoany-css'  href='https://journalistsresource.org/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.15' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://journalistsresource.org/wp-content/plugins/jetpack/css/jetpack.css?ver=8.3' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[]","home_url":"https:\/\/journalistsresource.org","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://journalistsresource.org/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js?ver=7.10.4'></script>
+<script type='text/javascript' src='https://journalistsresource.org/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://journalistsresource.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://journalistsresource.org/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1'></script>
+<script type='text/javascript' src='https://journalistsresource.org/wp-content/themes/point/js/customscripts.js?ver=5.3.2'></script>
+<link rel='https://api.w.org/' href='https://journalistsresource.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://journalistsresource.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://journalistsresource.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.3.2" />
+<link rel='shortlink' href='https://journalistsresource.org/?p=63092' />
+<link rel="alternate" type="application/json+oembed" href="https://journalistsresource.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Fsociety%2Fsocial-media%2Fcoronavirus-misinformation-crowdsourcing-truth-mit-david-rand%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://journalistsresource.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Fsociety%2Fsocial-media%2Fcoronavirus-misinformation-crowdsourcing-truth-mit-david-rand%2F&#038;format=xml" />
+
+<script data-cfasync="false">
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+(function(d,s,a,b){a=d.createElement(s);b=d.getElementsByTagName(s)[0];a.async=1;a.src="https://static.addtoany.com/menu/page.js";b.parentNode.insertBefore(a,b);})(document,"script");
+</script>
+<style>
+	#category-posts-3-internal ul {padding: 0;}
+#category-posts-3-internal .cat-post-item img {max-width: initial; max-height: initial; margin: initial;}
+#category-posts-3-internal .cat-post-author {margin-bottom: 0;}
+#category-posts-3-internal .cat-post-thumbnail {margin: 5px 10px 5px 0;}
+#category-posts-3-internal .cat-post-item:before {content: ""; clear: both;}
+#category-posts-3-internal .cat-post-title {font-size: 15px;}
+#category-posts-3-internal .cat-post-current .cat-post-title {font-weight: bold; text-transform: uppercase;}
+#category-posts-3-internal .cat-post-date {font-size: 14px; line-height: 18px; font-style: italic; margin-bottom: 5px;}
+#category-posts-3-internal .cat-post-comment-num {font-size: 14px; line-height: 18px;}
+#category-posts-3-internal .cat-post-item {border-bottom: 1px solid #ccc;	list-style: none; list-style-type: none; margin: 3px 0;	padding: 3px 0;}
+#category-posts-3-internal .cat-post-item:last-child {border-bottom: none;}
+#category-posts-3-internal .cat-post-item:after {content: ""; display: table;	clear: both;}
+#category-posts-3-internal p {margin:5px 0 0 0}
+#category-posts-3-internal li > div {margin:5px 0 0 0; clear:both;}
+#category-posts-3-internal .dashicons {vertical-align:middle;}
+#category-posts-3-internal .cat-post-thumbnail .cat-post-crop img {width: 65px;}
+#category-posts-3-internal .cat-post-thumbnail .cat-post-crop img {height: 65px;}
+#category-posts-3-internal .cat-post-thumbnail .cat-post-crop img {object-fit: cover;max-width:100%;}
+#category-posts-3-internal .cat-post-thumbnail .cat-post-crop-not-supported img {width:100%;}
+#category-posts-3-internal .cat-post-thumbnail {max-width:100%;}
+#category-posts-3-internal .cat-post-item img {margin: initial;}
+#category-posts-3-internal .cat-post-thumbnail {float:left;}
+</style>
+	<script type='text/javascript' data-cfasync='false'>var _mmunch = {'front': false, 'page': false, 'post': false, 'category': false, 'author': false, 'search': false, 'attachment': false, 'tag': false};_mmunch['post'] = true; _mmunch['postData'] = {"ID":63092,"post_name":"coronavirus-misinformation-crowdsourcing-truth-mit-david-rand","post_title":"Crowdsourcing truth and how journalists can avoid spreading coronavirus misinformation: Q and A with MIT professor David Rand","post_type":"post","post_author":"105","post_status":"publish"}; _mmunch['postCategories'] = [{"term_id":531,"name":"Digital Democracy","slug":"digital-democracy","term_group":0,"term_taxonomy_id":544,"taxonomy":"category","description":"","parent":226,"count":72,"filter":"raw","cat_ID":531,"category_count":72,"category_description":"","cat_name":"Digital Democracy","category_nicename":"digital-democracy","category_parent":226},{"term_id":1,"name":"Home","slug":"home","term_group":0,"term_taxonomy_id":1,"taxonomy":"category","description":"DO NOT POST STUDIES HERE","parent":0,"count":165,"filter":"raw","cat_ID":1,"category_count":165,"category_description":"DO NOT POST STUDIES HERE","cat_name":"Home","category_nicename":"home","category_parent":0},{"term_id":307,"name":"News Media","slug":"news-media","term_group":0,"term_taxonomy_id":319,"taxonomy":"category","description":"research roundups and tip sheets about how journalists do their jobs","parent":33,"count":271,"filter":"raw","cat_ID":307,"category_count":271,"category_description":"research roundups and tip sheets about how journalists do their jobs","cat_name":"News Media","category_nicename":"news-media","category_parent":33},{"term_id":177,"name":"Public Health","slug":"public-health","term_group":0,"term_taxonomy_id":187,"taxonomy":"category","description":"","parent":33,"count":505,"filter":"raw","cat_ID":177,"category_count":505,"category_description":"","cat_name":"Public Health","category_nicename":"public-health","category_parent":33},{"term_id":495,"name":"Social Media","slug":"social-media","term_group":0,"term_taxonomy_id":507,"taxonomy":"category","description":"","parent":33,"count":177,"filter":"raw","cat_ID":495,"category_count":177,"category_description":"","cat_name":"Social Media","category_nicename":"social-media","category_parent":33},{"term_id":33,"name":"Society","slug":"society","term_group":0,"term_taxonomy_id":34,"taxonomy":"category","description":"","parent":5,"count":149,"filter":"raw","cat_ID":33,"category_count":149,"category_description":"","cat_name":"Society","category_nicename":"society","category_parent":5}]; _mmunch['postTags'] = [{"term_id":19832,"name":"clark merrefield","slug":"clark-merrefield","term_group":0,"term_taxonomy_id":19852,"taxonomy":"post_tag","description":"","parent":0,"count":43,"filter":"raw"},{"term_id":22315,"name":"conversation","slug":"conversation","term_group":0,"term_taxonomy_id":22335,"taxonomy":"post_tag","description":"","parent":0,"count":1,"filter":"raw"},{"term_id":21961,"name":"coronavirus","slug":"coronavirus","term_group":0,"term_taxonomy_id":21981,"taxonomy":"post_tag","description":"<h2 style=\"text-align: center;\">The coronavirus pandemic<\/h2>\r\nThe coronavirus pandemic is a global, national, regional, local and hyperlocal news story that spans every beat. The <em>Journalist's Resource<\/em> team is creating a series of pieces to inform news coverage of the new coronavirus and the many topics it influences.","parent":0,"count":17,"filter":"raw"},{"term_id":21962,"name":"coronavirus epidemic","slug":"coronavirus-epidemic","term_group":0,"term_taxonomy_id":21982,"taxonomy":"post_tag","description":"","parent":0,"count":2,"filter":"raw"},{"term_id":21963,"name":"coronavirus pandemic","slug":"coronavirus-pandemic","term_group":0,"term_taxonomy_id":21983,"taxonomy":"post_tag","description":"","parent":0,"count":2,"filter":"raw"},{"term_id":22096,"name":"COVID-19","slug":"covid-19","term_group":0,"term_taxonomy_id":22116,"taxonomy":"post_tag","description":"","parent":0,"count":15,"filter":"raw"},{"term_id":22312,"name":"david rand","slug":"david-rand","term_group":0,"term_taxonomy_id":22332,"taxonomy":"post_tag","description":"","parent":0,"count":1,"filter":"raw"},{"term_id":22314,"name":"massachusetts institute of technology","slug":"massachusetts-institute-of-technology","term_group":0,"term_taxonomy_id":22334,"taxonomy":"post_tag","description":"","parent":0,"count":1,"filter":"raw"},{"term_id":18800,"name":"merrefield","slug":"merrefield","term_group":0,"term_taxonomy_id":18820,"taxonomy":"post_tag","description":"","parent":0,"count":55,"filter":"raw"},{"term_id":22313,"name":"MIT","slug":"mit","term_group":0,"term_taxonomy_id":22333,"taxonomy":"post_tag","description":"","parent":0,"count":1,"filter":"raw"},{"term_id":22311,"name":"rand","slug":"rand","term_group":0,"term_taxonomy_id":22331,"taxonomy":"post_tag","description":"","parent":0,"count":1,"filter":"raw"}]; _mmunch['postAuthor'] = {"name":"Clark Merrefield","ID":105};</script><script data-cfasync="false" src="//a.mailmunch.co/app/v1/site.js" id="mailmunch-script" data-plugin="mc_mm" data-mailmunch-site-id="125570" async></script><script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//journalistsresource.org/?wordfence_lh=1&hid=5046EAB81FEFF4743B8AE64E6AAE93C2');
+</script><style type='text/css'>img#wpstats{display:none}</style>		<style type="text/css">
+							.site-title, .site-description {
+					position: absolute;
+					clip: rect(1px, 1px, 1px, 1px);
+				}
+						</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	</head>
+<body id="blog" class="post-template-default single single-post postid-63092 single-format-standard custom-background wp-embed-responsive">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRBVPKQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="main-container">
+
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-branding">
+												<h2 id="logo" class="image-logo" itemprop="headline">
+						<a href="https://journalistsresource.org" data-wpel-link="internal"><img src="https://journalistsresource.org/wp-content/uploads/2017/03/JR-logo-4a-flat.jpg" alt="Journalist&#039;s Resource"></a>
+					</h2><!-- END #logo -->
+										<a href="#" id="pull" class="toggle-mobile-menu">Menu</a>
+			<h2 class="shor-logo"><a href="https://shorensteincenter.org/" class="support-logo-shor" data-wpel-link="external" target="_blank"><img src="https://journalistsresource.org/wp-content/themes/point-child/graphics/hks-shorenstein-logo.jpg" alt="Shorenstein Logo" width="220px" /></a></h2>
+			
+			<div class="primary-navigation">
+				<nav id="navigation" class="mobile-menu-wrapper" role="navigation">
+											<ul id="menu-point-header" class="menu clearfix"><li id="menu-item-53179" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children"><a href="https://journalistsresource.org/studies/government/" data-wpel-link="internal">Government<br /><span class="sub">Government</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-53185" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/government/budget/" data-wpel-link="internal">Budget<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53186" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/government/congress/" data-wpel-link="internal">Congress<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53187" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/government/criminal-justice/" data-wpel-link="internal">Criminal Justice<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53188" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/government/health-care/" data-wpel-link="internal">Health Care<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53189" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/government/immigration/" data-wpel-link="internal">Immigration<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53190" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/government/infrastructure-government/" data-wpel-link="internal">Infrastructure<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53191" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/government/municipal/" data-wpel-link="internal">Municipal<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53192" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/government/security-military/" data-wpel-link="internal">Security, Military<br /><span class="sub"></span></a></li>
+</ul>
+</li>
+<li id="menu-item-53180" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children"><a href="https://journalistsresource.org/studies/economics/" data-wpel-link="internal">Economics<br /><span class="sub"></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-53193" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/economics/banks/" data-wpel-link="internal">Banks<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53194" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/economics/business/" data-wpel-link="internal">Business<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53195" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/economics/inequality/" data-wpel-link="internal">Inequality<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53196" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/economics/jobs/" data-wpel-link="internal">Jobs<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53197" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/economics/personal-finance/" data-wpel-link="internal">Personal Finance<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53198" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/economics/real-estate/" data-wpel-link="internal">Real Estate<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53199" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/economics/taxes/" data-wpel-link="internal">Taxes<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53200" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/economics/workers/" data-wpel-link="internal">Workers<br /><span class="sub"></span></a></li>
+</ul>
+</li>
+<li id="menu-item-53181" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children"><a href="https://journalistsresource.org/studies/environment/" data-wpel-link="internal">Environment<br /><span class="sub"></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-53201" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/environment/cities/" data-wpel-link="internal">Cities<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53202" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/environment/climate-change/" data-wpel-link="internal">Climate Change<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53203" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/environment/ecology/" data-wpel-link="internal">Ecology<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53204" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/environment/energy/" data-wpel-link="internal">Energy<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53205" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/environment/food-agriculture/" data-wpel-link="internal">Food, Agriculture<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53206" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/environment/pollution-environment/" data-wpel-link="internal">Pollution<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53207" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/environment/sustainability/" data-wpel-link="internal">Sustainability<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53208" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/environment/transportation/" data-wpel-link="internal">Transportation<br /><span class="sub"></span></a></li>
+</ul>
+</li>
+<li id="menu-item-53182" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children"><a href="https://journalistsresource.org/studies/politics/" data-wpel-link="internal">Politics<br /><span class="sub"></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-53209" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/politics/ads-public-opinion/" data-wpel-link="internal">Ads, Public Opinion<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53210" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/politics/campaign-media/" data-wpel-link="internal">Campaign Media<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53211" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/politics/citizen-action/" data-wpel-link="internal">Citizen Action<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53212" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent"><a href="https://journalistsresource.org/studies/politics/digital-democracy/" data-wpel-link="internal">Digital Democracy<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53213" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/politics/elections/" data-wpel-link="internal">Elections<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53214" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/politics/finance-lobbying/" data-wpel-link="internal">Finance, Lobbying<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53215" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/politics/polarization/" data-wpel-link="internal">Polarization<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53216" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/politics/primaries/" data-wpel-link="internal">Primaries<br /><span class="sub"></span></a></li>
+</ul>
+</li>
+<li id="menu-item-53183" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children"><a href="https://journalistsresource.org/studies/society/" data-wpel-link="internal">Society<br /><span class="sub"></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-53217" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/society/culture/" data-wpel-link="internal">Culture<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53218" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/society/drug-policy/" data-wpel-link="internal">Drug Policy<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53219" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/society/education/" data-wpel-link="internal">Education<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53220" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/society/gender-society/" data-wpel-link="internal">Gender<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53342" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/society/housing/" data-wpel-link="internal">Housing<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53221" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/society/internet/" data-wpel-link="internal">Internet<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53222" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent"><a href="https://journalistsresource.org/studies/society/news-media/" data-wpel-link="internal">News Media<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53223" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent"><a href="https://journalistsresource.org/studies/society/public-health/" data-wpel-link="internal">Public Health<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53224" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/society/race-society/" data-wpel-link="internal">Race<br /><span class="sub"></span></a></li>
+	<li id="menu-item-54476" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/society/religion/" data-wpel-link="internal">Religion<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53225" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent"><a href="https://journalistsresource.org/studies/society/social-media/" data-wpel-link="internal">Social Media<br /><span class="sub"></span></a></li>
+</ul>
+</li>
+<li id="menu-item-53184" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children"><a href="https://journalistsresource.org/studies/international/" data-wpel-link="internal">International<br /><span class="sub"></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-53226" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/international/africa/" data-wpel-link="internal">Africa<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53227" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/international/china/" data-wpel-link="internal">China<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53228" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/international/conflicts/" data-wpel-link="internal">Conflicts<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53229" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/international/development/" data-wpel-link="internal">Development<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53230" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/international/global-tech/" data-wpel-link="internal">Global Tech<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53231" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/international/globalization/" data-wpel-link="internal">Globalization<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53232" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/international/human-rights/" data-wpel-link="internal">Human Rights<br /><span class="sub"></span></a></li>
+	<li id="menu-item-53233" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://journalistsresource.org/studies/international/foreign-policy/" data-wpel-link="internal">U.S. Foreign Policy<br /><span class="sub"></span></a></li>
+</ul>
+</li>
+</ul>										<div class="secondary-menu"><div class="menu-header-navigation-right-container"><ul id="menu-header-navigation-right" class="menu"><li id="menu-item-5306" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5306"><a href="https://journalistsresource.org/tip-sheets/" data-wpel-link="internal">Tip sheets</a></li>
+<li id="menu-item-5307" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5307"><a href="https://journalistsresource.org/syllabi/" data-wpel-link="internal">Syllabi</a></li>
+<li id="menu-item-53256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53256"><a href="https://journalistsresource.org/about-journalists-resource/" data-wpel-link="internal">About Us</a></li>
+<li id="menu-item-53257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53257"><a href="https://journalistsresource.org/contact/" data-wpel-link="internal">Contact</a></li>
+</ul></div></div>
+				</nav><!-- #navigation -->
+			</div><!-- .primary-navigation -->
+		</div><!-- .site-branding -->
+	</header><!-- #masthead -->
+
+		<div class="search-bar">
+		  <form method="get" id="searchform" class="search-form" action="https://journalistsresource.org" _lpchecked="1">
+	<fieldset>
+		<input aria-label="Search" type="text" name="s" id="s" value="Search the site" onblur="if (this.value == '') {this.value = 'Search the site';}" onfocus="if (this.value == 'Search the site') {this.value = '';}" >
+		<button aria-label="Search" id="search-image" class="sbutton" role="button" type="submit" value="">
+    		<i class="point-icon icon-search"></i>
+    	</button>
+		<!-- <input id="search-image" class="sbutton" type="submit" style="border:0; vertical-align: top;" value=""> -->
+	</fieldset>
+</form>           <div class="policy"><a class="button email-list" title="THE CORONAVIRUS PANDEMIC" href="https://journalistsresource.org/tag/coronavirus/" data-wpel-link="internal">THE CORONAVIRUS PANDEMIC</a></div>
+          <div class="social-profile-icons">
+		      <div class="subscribe"><a class="button email-list" title="Sign up for our newsletter" href="https://harvard.us1.list-manage.com/subscribe?u=30699762a3826bbf132818652&amp;id=12d86b1d6a" data-wpel-link="external" target="_blank">Subscribe</a></div>
+	          <ul class="">
+		          <li class="social-facebook"><a title="Facebook" href="https://www.facebook.com/journalistsresource/" data-wpel-link="external" target="_blank"><i class="point-icon icon-facebook"></i></a></li>
+		          <li class="social-twitter"><a title="Twitter" href="https://twitter.com/JournoResource" data-wpel-link="external" target="_blank"><i class="point-icon icon-twitter"></i></a></li>
+		      </ul>
+		  </div>
+          
+    </div><!-- end search-bar -->
+    <!-- begin featured image section on home page -->
+			<!-- end featured image section on home page --><div id="page" class="single">
+	<div class="content">
+		<!-- Start Article -->
+		<article class="article">		
+							<div id="post-63092" class="post post-63092 type-post status-publish format-standard has-post-thumbnail hentry category-digital-democracy category-home category-news-media category-public-health category-social-media category-society tag-clark-merrefield tag-conversation tag-coronavirus tag-coronavirus-epidemic tag-coronavirus-pandemic tag-covid-19 tag-david-rand tag-massachusetts-institute-of-technology tag-merrefield tag-mit tag-rand">
+					<div class="single_post">
+						<header>
+							<!-- Start Title -->
+							<h1 class="title single-title">Crowdsourcing truth and how journalists can avoid spreading coronavirus misinformation: Q and A with MIT professor David Rand</h1>
+							&nbsp;
+							<!-- End Title -->
+							<!-- Begin Image -->
+							 
+								<div class="single-thumb">
+									<img width="720" height="480" src="https://journalistsresource.org/wp-content/uploads/2020/03/daria-nepriakhina-gGoi4QTXXBA-unsplash-720x480.jpg" class="attachment-bgthumb size-bgthumb wp-post-image" alt="" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/03/daria-nepriakhina-gGoi4QTXXBA-unsplash-720x480.jpg 720w, https://journalistsresource.org/wp-content/uploads/2020/03/daria-nepriakhina-gGoi4QTXXBA-unsplash-300x200.jpg 300w, https://journalistsresource.org/wp-content/uploads/2020/03/daria-nepriakhina-gGoi4QTXXBA-unsplash-1024x683.jpg 1024w, https://journalistsresource.org/wp-content/uploads/2020/03/daria-nepriakhina-gGoi4QTXXBA-unsplash-768x512.jpg 768w, https://journalistsresource.org/wp-content/uploads/2020/03/daria-nepriakhina-gGoi4QTXXBA-unsplash-1536x1024.jpg 1536w, https://journalistsresource.org/wp-content/uploads/2020/03/daria-nepriakhina-gGoi4QTXXBA-unsplash-2048x1365.jpg 2048w, https://journalistsresource.org/wp-content/uploads/2020/03/daria-nepriakhina-gGoi4QTXXBA-unsplash-353x235.jpg 353w, https://journalistsresource.org/wp-content/uploads/2020/03/daria-nepriakhina-gGoi4QTXXBA-unsplash-220x147.jpg 220w" sizes="(max-width: 720px) 100vw, 720px" />									<div class="caption">(Daria Nepriakhina / Unsplash)</div>
+																	</div>
+														<!-- End Image -->
+						</header>
+						<!-- author and social begin -->
+						<div class="floatright">
+							<div class="floatleft"><div class="a2a_kit a2a_kit_size_22 addtoany_list" data-a2a-url="https://journalistsresource.org/studies/society/social-media/coronavirus-misinformation-crowdsourcing-truth-mit-david-rand/" data-a2a-title="Crowdsourcing truth and how journalists can avoid spreading coronavirus misinformation: Q and A with MIT professor David Rand"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Fsociety%2Fsocial-media%2Fcoronavirus-misinformation-crowdsourcing-truth-mit-david-rand%2F&amp;linkname=Crowdsourcing%20truth%20and%20how%20journalists%20can%20avoid%20spreading%20coronavirus%20misinformation%3A%20Q%20and%20A%20with%20MIT%20professor%20David%20Rand" title="Facebook" rel="nofollow noopener" target="_blank" data-wpel-link="external"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Fsociety%2Fsocial-media%2Fcoronavirus-misinformation-crowdsourcing-truth-mit-david-rand%2F&amp;linkname=Crowdsourcing%20truth%20and%20how%20journalists%20can%20avoid%20spreading%20coronavirus%20misinformation%3A%20Q%20and%20A%20with%20MIT%20professor%20David%20Rand" title="Twitter" rel="nofollow noopener" target="_blank" data-wpel-link="external"></a><a class="a2a_button_linkedin" href="https://www.addtoany.com/add_to/linkedin?linkurl=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Fsociety%2Fsocial-media%2Fcoronavirus-misinformation-crowdsourcing-truth-mit-david-rand%2F&amp;linkname=Crowdsourcing%20truth%20and%20how%20journalists%20can%20avoid%20spreading%20coronavirus%20misinformation%3A%20Q%20and%20A%20with%20MIT%20professor%20David%20Rand" title="LinkedIn" rel="nofollow noopener" target="_blank" data-wpel-link="external"></a><a class="a2a_button_reddit" href="https://www.addtoany.com/add_to/reddit?linkurl=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Fsociety%2Fsocial-media%2Fcoronavirus-misinformation-crowdsourcing-truth-mit-david-rand%2F&amp;linkname=Crowdsourcing%20truth%20and%20how%20journalists%20can%20avoid%20spreading%20coronavirus%20misinformation%3A%20Q%20and%20A%20with%20MIT%20professor%20David%20Rand" title="Reddit" rel="nofollow noopener" target="_blank" data-wpel-link="external"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Fsociety%2Fsocial-media%2Fcoronavirus-misinformation-crowdsourcing-truth-mit-david-rand%2F&amp;linkname=Crowdsourcing%20truth%20and%20how%20journalists%20can%20avoid%20spreading%20coronavirus%20misinformation%3A%20Q%20and%20A%20with%20MIT%20professor%20David%20Rand" title="Email" rel="nofollow noopener" target="_blank" data-wpel-link="external"></a></div></div>
+							<div class="print-link"><a class="print-friendly" href="javascript:window.print()" data-wpel-link="internal"><img src="https://journalistsresource.org/wp-content/themes/point-child/graphics/printer.png" width="30px"></a></div>
+						</div>
+						<!-- author and social begin -->
+				<em>By <a href="https://journalistsresource.org/author/clarkmerrefield/" title="Posts by Clark Merrefield" rel="author" data-wpel-link="internal">Clark Merrefield</a></em></p>
+						<!-- author info end -->
+						<p>March 20, 2020</p> 
+						<div class="clearboth"></div>
+						<!-- Start Content -->
+						<div class="post-single-content box mark-links">
+							<div class='mailmunch-forms-before-post' style='display: none !important;'></div><p>Misinformation on social media was bad before the coronavirus pandemic, and it’s only gotten more harmful in the age of social distancing now that lives are on the line and millions of Americans are getting their daily dosage of human interaction and information solely from the virtual world.</p>
+<p>Social media companies and traditional news outlets are working on the fly to reduce misinformation about COVID-19, the disease caused by the new coronavirus. Twitter, for example, on March 16 <a href="https://blog.twitter.com/en_us/topics/company/2020/An-update-on-our-continuity-strategy-during-COVID-19.html" data-wpel-link="external" target="_blank">announced</a> that it will require users to remove posts that deny recommendations from global or local public health authorities. Also on March 16, Facebook, Google, LinkedIn, Reddit, Twitter and YouTube put out a broadly worded <a href="https://twitter.com/fbnewsroom/status/1239703497479614466" data-wpel-link="external" target="_blank">joint statement</a> on how those platforms are working together and “elevating authoritative content” to combat coronavirus misinformation.</p>
+<p>On the fact-checking front, USA Today <a href="https://www.usatoday.com/story/news/pr/2020/03/12/usa-today-expands-its-fact-checking-efforts-new-partnership-facebook-identify-misinformation/5032239002/" data-wpel-link="external" target="_blank">has joined</a> Facebook’s <a href="https://www.facebook.com/help/publisher/182222309230722" data-wpel-link="external" target="_blank">Third-Party Fact Checking Program</a>, through which certified fact checkers flag misinformation on the platform. False posts come with a warning and show up lower in news feeds. Reuters, the Associated Press, <a href="https://www.politifact.com/facebook-fact-checks/" data-wpel-link="external" target="_blank">Politifact</a> and other outlets are also part of the program. Snopes, a myth-busting website, withdrew from the program last February after, “evaluating the ramifications and costs of providing third-party fact-checking services,” <a href="https://www.snopes.com/2019/02/01/snopes-fb-partnership-ends/" data-wpel-link="external" target="_blank">the site explained</a> in a blog post.</p>
+<p>To get a sense of the vast ecosystem of misinformation that social media users are up against &#8212; and what journalists can do to avoid being part of the misinformation problem &#8212; I called my friend <a href="https://mitsloan.mit.edu/faculty/directory/david-g-rand" data-wpel-link="external" target="_blank">David Rand</a>, who happens to study misinformation as an associate professor of management science and brain and cognitive sciences at the Massachusetts Institute of Technology. His work has been published in the <a href="https://misinforeview.hks.harvard.edu/article/emphasizing-publishers-does-not-reduce-misinformation/" data-wpel-link="external" target="_blank">Harvard Kennedy School Misinformation Review</a>, among <a href="https://scholar.google.com/citations?user=C0ANojIAAAAJ&amp;hl=en" data-wpel-link="external" target="_blank">many other places</a>.</p>
+<figure id="attachment_63104" aria-describedby="caption-attachment-63104" style="width: 300px" class="wp-caption alignright"><img class="size-medium wp-image-63104" src="https://journalistsresource.org/wp-content/uploads/2020/03/Bret-Logan-David-Rand-300x300.jpeg" alt="" width="300" height="300" srcset="https://journalistsresource.org/wp-content/uploads/2020/03/Bret-Logan-David-Rand-300x300.jpeg 300w, https://journalistsresource.org/wp-content/uploads/2020/03/Bret-Logan-David-Rand-1024x1024.jpeg 1024w, https://journalistsresource.org/wp-content/uploads/2020/03/Bret-Logan-David-Rand-150x150.jpeg 150w, https://journalistsresource.org/wp-content/uploads/2020/03/Bret-Logan-David-Rand-768x768.jpeg 768w, https://journalistsresource.org/wp-content/uploads/2020/03/Bret-Logan-David-Rand-1536x1536.jpeg 1536w, https://journalistsresource.org/wp-content/uploads/2020/03/Bret-Logan-David-Rand-2048x2048.jpeg 2048w, https://journalistsresource.org/wp-content/uploads/2020/03/Bret-Logan-David-Rand-75x75.jpeg 75w" sizes="(max-width: 300px) 100vw, 300px" /><figcaption id="caption-attachment-63104" class="wp-caption-text">David Rand. (Bret Logan)</figcaption></figure>
+<p>In a <a href="https://psyarxiv.com/uhbk9/" data-wpel-link="external" target="_blank">new working paper</a>, Rand and his co-authors &#8212; including frequent collaborator <a href="https://gordonpennycook.net/" data-wpel-link="external" target="_blank">Gordon Pennycock</a> at the University of Regina in Saskatchewan &#8212; apply their framework for studying political misinformation to misinformation about the coronavirus pandemic. The authors conducted two nationally representative surveys with about 850 participants apiece. Rand <a href="https://twitter.com/DG_Rand/status/1240010913270370305" data-wpel-link="external" target="_blank">posted</a> on Twitter an easily digestible roundup of the new findings.</p>
+<p>A <a href="https://journalistsresource.org/tip-sheets/research/working-papers-research-articles" data-wpel-link="internal">working paper</a>, as the phrase implies, is a work in progress, compared with peer-reviewed research, which is considered complete and published in a journal after a panel of peer editors have reviewed and approved it. Because news on the coronavirus pandemic is changing by the day, if not the hour, much of the current research on COVID-19 is in working paper form.</p>
+<p>Here are some takeaways from my conversation with Rand:</p>
+<ul>
+<li>Headlines matter &#8212; because on social media, the headline is often the only thing people see.</li>
+<li>Professional fact checkers simply can’t keep up with the sheer volume of misinformation on social media, and social media users themselves may be better suited to the task of flagging false posts.</li>
+<li>Journalists can avoid amplifying false claims by focusing on the truth rather than describing misleading claims in detail.</li>
+</ul>
+<p>The Q&amp;A that follows has been lightly edited for clarity.</p>
+<p>&nbsp;</p>
+<p><strong>Clark Merrefield: </strong>What can journalists do to avoid being part of the misinformation problem about coronavirus, and more generally?</p>
+<p><strong>David Rand: </strong>It’s hard. It’s a hard question. One huge question we’ve gotten really interested in and are starting a project on, and we don’t have results yet, is on amplification. Which is to say, in the political sphere when fringe outlets produce crazy-ass fake news stories and then the <em>New York Times</em> writes about it and says, “Look at this crazy-ass fake news story,” all of a sudden way more people read it. And not just more people, <em>different</em> people. If before it was isolated in the right wing media ecosystem, when the <em>Times</em> writes about it a huge swath of centrist and left-leaning people read it. We have research showing you forget the correction faster than the basic false statement. So it is a real challenge.</p>
+<p>How do you cover misinformation? One of the prescriptions is don’t say, “This is a crazy statement and it’s wrong,” but say, “Contrary to what some people are saying, this is actually the correct statement.” That doesn’t work in every instance. But you can say, “Vitamin C <a href="https://www.factcheck.org/2020/02/fake-coronavirus-cures-part-3-vitamin-c-isnt-a-shield/" data-wpel-link="external" target="_blank">does not help</a> protect you from coronavirus.” Still, there’s a problem because how widespread does something need to get before countering it and then giving it a new platform?</p>
+<p>Another thing journalists should think about in the age of social media is that the vast majority of people only read the headline. And there is a baseline tendency to make headlines that are more sensational and less accurate than the content of the article, to get people to click in. That is a huge problem in the era of social media. It’s more important than ever because news outlets are desperate for clicks, and it’s also more problematic than ever because people aren’t reading the articles. This is one thing we’ve been trying to suggest to Facebook, which is if you do enforcement based on the headline and downrank articles that have crazy-seeming headlines, that will put pressure on outlets to curtail the crazy headline-reasonable article trend.</p>
+<p><strong>CM: </strong>The other day I was scrolling through Facebook and someone had posted a <em>New York Times</em> article with an angry-face emoji, and the headline that showed in the feed was “Pelosi Begins Drive to Block Trump’s Emergency Declaration.” Which, in the context of the world being turned upside down as we speak, one might reasonably think Nancy Pelosi was trying to block Donald Trump’s <a href="https://www.whitehouse.gov/presidential-actions/proclamation-declaring-national-emergency-concerning-novel-coronavirus-disease-covid-19-outbreak/" data-wpel-link="external" target="_blank">national emergency declaration</a> related to COVID-19. Anyway, that’s what I thought, and I was surprised. But I clicked the link and the <a href="https://www.nytimes.com/2019/02/22/us/politics/national-emergency-pelosi.html" data-wpel-link="external" target="_blank">real headline</a> was “Pelosi Begins Drive to Block Trump’s Border Wall Declaration,” and it’s from February. So it’s a true and accurate story, but it’s about the House speaker trying to throw a wrench into the president’s <a href="https://journalistsresource.org/studies/government/immigration/border-walls-barriers-migrant-research/" data-wpel-link="internal">border wall</a> idea, and it’s completely out of context.</p>
+<p><strong>DR:</strong> I know that platforms have been thinking about this, more for images than for news articles, but the same thing could be done for news articles, where if the image is more than a year old, or whatever the criteria, they could flag them and say, “This image is a year old.” That happens a lot in certain aspects of misinformation, people post old things and claim them as current events. Something that could easily be done is to make the original posting date more obvious.</p>
+<p><strong>CM: </strong>Your new paper looks at misinformation spreading on social media about COVID-19. What questions did you and your collaborators ask and what did you find?</p><div class='mailmunch-forms-in-post-middle' style='display: none !important;'></div>
+<p><strong>DR: </strong>We were interested in misinformation on social media for a while &#8212; what you can do to reduce the spread of misinformation &#8212; and we mostly have been focusing on <a href="https://static1.squarespace.com/static/51ed234ae4b0867e2385d879/t/5e5ebaa3f840e43f8fe6ea5d/1583266468630/2020+Pennycook+et+al+-+Management+Science.pdf" data-wpel-link="external" target="_blank">political misinformation</a>, fake news, hyper-partisan news, stuff like that. And then with the COVID-19 pandemic that was obviously very much on our minds and it seemed misinformation was one part of the COVID-19 problem. We wondered whether the same things we found to be true for political misinformation would also be true for COVID-19 misinformation.</p>
+<p>We did a couple of experiments. The basic structure is they’re survey experiments where we recruit people that are reasonably representative, so they match the U.S. distribution of age, gender, ethnicity and geographic region. And we show them a series of social media posts, like Facebook posts. They’re all real Facebook posts, they’re all things that were actually posted on social media, and they’re all about COVID-19. Half of them are true and half of them are false.</p>
+<p>In the first experiment we asked half of the people, “Do you think this is accurate or not?” And then, “Would you consider sharing this on social media or not?” What we found in the political context, and what we wanted to test here, was whether there is a disconnect between accuracy and sharing. The pattern we find is that people are pretty good when you ask them, “Is it accurate or not?” They rate the true stories as way more accurate than the false stories. If instead you ask, “Would you share this on social media or not?” they’re way less discerning. And there’s essentially no difference in their likelihood to share. They’re pretty much as likely to share the false posts as the true ones. Fifty percent more people said they would share the headlines than said they were true. There is a good chunk of cases if I ask, “Is this true?” you would say no. But if I asked, “Would you share it?” you would say yes.</p>
+<p><strong>CM: </strong>What’s going on? What’s the mechanism at work where people are sharing information they perhaps know to be false?</p>
+<p><strong>DR: </strong>The first explanation you might think is that it’s a post-truth world and people are perfectly happy to share things that are false. We don’t think that’s what’s going on. People care about accuracy in the abstract, but this social media context focuses their attention on other things. Like, how will my friends and followers react? What does this post or share say about me as a person? People forget to think about accuracy, even though they would take accuracy into account if they thought about it.</p>
+<p>To support this interpretation and to suggest an intervention we do a second experiment where everyone gets shown a set of headlines and gets asked, “Would you share it or not?” That’s the <a href="https://labwrite.ncsu.edu/Experimental%20Design/controltreatmentgr.htm" data-wpel-link="external" target="_blank">control condition</a>. In the treatment, at the beginning of the study before they start rating the articles, before they start saying whether they would share the article, we say, “We want you to test an item for another survey we’re developing &#8212; just rate the accuracy of this one random headline, which is not about COVID-19, just some random headline.” And we say, “OK, great, thanks, go on to the main task,” where we show them the COVID-19 headlines.</p>
+<p>By asking them to rate the accuracy of the random headline it makes the concept of accuracy more top-of-mind for people. And that’s what we find. In the control, people are equally likely to share true or false headlines. In the treatment, they’re significantly more likely to share true headlines than false headlines. This is exactly the same thing we found for political headlines in our other study. And so that suggests this is a general principle than something specific about political misinformation.</p>
+<p><strong>CM: </strong>What role do social media platforms play in preventing the spread of misinformation about COVID-19, and generally?</p>
+<p><strong>DR: </strong>Social media platforms are maybe, if not literally the only ones who can do anything, they’re certainly the ones in a way better position to do anything about misinformation. They have all the information and complete control over the design elements. People outside these companies don’t know how the platforms actually work, so it’s hard to come up with regulations that are effective. So we talk to people at platforms and talk them into doing things we think makes sense. Or, in the best case, help them design interventions.</p>
+<p>The simple intervention social media companies could do is to <a href="https://psyarxiv.com/3n9u8" data-wpel-link="external" target="_blank">nudge people</a> to <a href="https://twitter.com/DG_Rand/status/1196171145227251712" data-wpel-link="external" target="_blank">think about accuracy</a>. Like, while you’re scrolling through a newsfeed there would be a card that pops up saying, “Help us inform our algorithms and rate this headline. Do you think it’s accurate or not?” That would make users think about accuracy, plus the findings would be useful. A <a href="https://www.pnas.org/content/116/7/2521" data-wpel-link="external" target="_blank">small crowd of laypeople</a> is pretty good at <a href="https://twitter.com/DG_Rand/status/1089999404898095105" data-wpel-link="external" target="_blank">identifying false or misleading content</a>.</p>
+<p><strong>CM: </strong>Do you have any partnerships with platforms under way?</p>
+<p><strong>DR: </strong>[My research group] has one partnership with Facebook around the crowdsourcing approach. We’re working with them on figuring out how to use crowdsourcing to identify misinformation in a scalable way. The problem with professional fact checkers is there’s not nearly enough of them to deal with the amount of misinformation being created. We have another paper showing that problem, because lots of content doesn’t get checked by fact checkers.</p>
+<p>Also, there is the &#8220;<a href="https://static1.squarespace.com/static/51ed234ae4b0867e2385d879/t/5e5ebaa3f840e43f8fe6ea5d/1583266468630/2020+Pennycook+et+al+-+Management+Science.pdf" data-wpel-link="external" target="_blank">implied truth effect</a>.&#8221; Say a fact checker flags something they think is false and the post gets a warning. The <a href="https://twitter.com/DG_Rand/status/1236102072795308033?s=20" data-wpel-link="external" target="_blank">absence of a warning</a> also implies that it may have been checked and verified. That’s why coming up with scalable fact checking approaches is really important, which is where the crowd can come in.</p>
+<p><strong>The HKS Misinformation Review is <a href="https://misinforeview.hks.harvard.edu/wp-content/uploads/2020/03/PDF_COVID-19Misinfodemics-1.pdf" data-wpel-link="external" target="_blank">fast-tracking</a> a special issue on COVID-19.</strong> <strong>Check out the </strong><a href="https://journalistsresource.org/tag/coronavirus/" data-wpel-link="internal"><strong>rest of our coverage</strong></a><strong> of how coronavirus is upending the U.S. economy and education sector.</strong></p>
+<div class='mailmunch-forms-after-post' style='display: none !important;'></div><div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_22 addtoany_list" data-a2a-url="https://journalistsresource.org/studies/society/social-media/coronavirus-misinformation-crowdsourcing-truth-mit-david-rand/" data-a2a-title="Crowdsourcing truth and how journalists can avoid spreading coronavirus misinformation: Q and A with MIT professor David Rand"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Fsociety%2Fsocial-media%2Fcoronavirus-misinformation-crowdsourcing-truth-mit-david-rand%2F&amp;linkname=Crowdsourcing%20truth%20and%20how%20journalists%20can%20avoid%20spreading%20coronavirus%20misinformation%3A%20Q%20and%20A%20with%20MIT%20professor%20David%20Rand" title="Facebook" rel="nofollow noopener" target="_blank" data-wpel-link="external"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Fsociety%2Fsocial-media%2Fcoronavirus-misinformation-crowdsourcing-truth-mit-david-rand%2F&amp;linkname=Crowdsourcing%20truth%20and%20how%20journalists%20can%20avoid%20spreading%20coronavirus%20misinformation%3A%20Q%20and%20A%20with%20MIT%20professor%20David%20Rand" title="Twitter" rel="nofollow noopener" target="_blank" data-wpel-link="external"></a><a class="a2a_button_linkedin" href="https://www.addtoany.com/add_to/linkedin?linkurl=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Fsociety%2Fsocial-media%2Fcoronavirus-misinformation-crowdsourcing-truth-mit-david-rand%2F&amp;linkname=Crowdsourcing%20truth%20and%20how%20journalists%20can%20avoid%20spreading%20coronavirus%20misinformation%3A%20Q%20and%20A%20with%20MIT%20professor%20David%20Rand" title="LinkedIn" rel="nofollow noopener" target="_blank" data-wpel-link="external"></a><a class="a2a_button_reddit" href="https://www.addtoany.com/add_to/reddit?linkurl=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Fsociety%2Fsocial-media%2Fcoronavirus-misinformation-crowdsourcing-truth-mit-david-rand%2F&amp;linkname=Crowdsourcing%20truth%20and%20how%20journalists%20can%20avoid%20spreading%20coronavirus%20misinformation%3A%20Q%20and%20A%20with%20MIT%20professor%20David%20Rand" title="Reddit" rel="nofollow noopener" target="_blank" data-wpel-link="external"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fjournalistsresource.org%2Fstudies%2Fsociety%2Fsocial-media%2Fcoronavirus-misinformation-crowdsourcing-truth-mit-david-rand%2F&amp;linkname=Crowdsourcing%20truth%20and%20how%20journalists%20can%20avoid%20spreading%20coronavirus%20misinformation%3A%20Q%20and%20A%20with%20MIT%20professor%20David%20Rand" title="Email" rel="nofollow noopener" target="_blank" data-wpel-link="external"></a></div></div>		</div><!-- .entry-meta -->
+		<!-- End Content -->
+		
+            	&nbsp;
+            	<p><strong><i class="fa fa-comments" aria-hidden="true"></i> We welcome feedback. Please contact us <a href="https://journalistsresource.org/contact" data-wpel-link="internal">here</a>.</strong></p>	
+																	<div class="post-info"><i class="fa fa-folder-open-o"></i> <span class="thecategory"><a href="https://journalistsresource.org/studies/politics/digital-democracy/" rel="category tag" data-wpel-link="internal">Digital Democracy</a>, <a href="https://journalistsresource.org/home/" rel="category tag" data-wpel-link="internal">Home</a>, <a href="https://journalistsresource.org/studies/society/news-media/" rel="category tag" data-wpel-link="internal">News Media</a>, <a href="https://journalistsresource.org/studies/society/public-health/" rel="category tag" data-wpel-link="internal">Public Health</a>, <a href="https://journalistsresource.org/studies/society/social-media/" rel="category tag" data-wpel-link="internal">Social Media</a>, <a href="https://journalistsresource.org/studies/society/" rel="category tag" data-wpel-link="internal">Society</a></span> <i class="fa fa-tags"></i> <span class="thecategory">
+							<a href="https://journalistsresource.org/tag/clark-merrefield/" rel="tag" data-wpel-link="internal">clark merrefield</a>, <a href="https://journalistsresource.org/tag/conversation/" rel="tag" data-wpel-link="internal">conversation</a>, <a href="https://journalistsresource.org/tag/coronavirus/" rel="tag" data-wpel-link="internal">coronavirus</a>, <a href="https://journalistsresource.org/tag/coronavirus-epidemic/" rel="tag" data-wpel-link="internal">coronavirus epidemic</a>, <a href="https://journalistsresource.org/tag/coronavirus-pandemic/" rel="tag" data-wpel-link="internal">coronavirus pandemic</a>, <a href="https://journalistsresource.org/tag/covid-19/" rel="tag" data-wpel-link="internal">COVID-19</a>, <a href="https://journalistsresource.org/tag/david-rand/" rel="tag" data-wpel-link="internal">david rand</a>, <a href="https://journalistsresource.org/tag/massachusetts-institute-of-technology/" rel="tag" data-wpel-link="internal">massachusetts institute of technology</a>, <a href="https://journalistsresource.org/tag/merrefield/" rel="tag" data-wpel-link="internal">merrefield</a>, <a href="https://journalistsresource.org/tag/mit/" rel="tag" data-wpel-link="internal">MIT</a>, <a href="https://journalistsresource.org/tag/rand/" rel="tag" data-wpel-link="internal">rand</a></span></div>
+									</article>
+		<!-- End Article -->
+<!-- Start Sidebar -->	
+<aside class="sidebar c-4-12">
+	<div id="sidebars" class="sidebar">
+		<div class="sidebar_list">
+			<aside id="category-posts-2" class="widget cat-post-widget"><h3 class="widget-title">Related Posts</h3>
+				
+							<!-- Start Related Posts -->
+							<ul id="category-posts-2-internal" class="category-posts-internal">								<li class="cat-post-item">
+									<a rel="nofollow" class="cat-post-thumbnail  cat-post-none" href="https://journalistsresource.org/studies/economics/consumer-spending-coronavirus-pandemic/" rel="bookmark" title="Economic earthquake: Consumer spending in the wake of the coronavirus pandemic">
+										<span class="rthumb">
+																							<img width="75" height="75" src="https://journalistsresource.org/wp-content/uploads/2020/04/kelly-sikkema-kp7ENPlp8no-unsplash-75x75.jpg" class="attachment-sidethumb size-sidethumb wp-post-image" alt="" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/04/kelly-sikkema-kp7ENPlp8no-unsplash-75x75.jpg 75w, https://journalistsresource.org/wp-content/uploads/2020/04/kelly-sikkema-kp7ENPlp8no-unsplash-150x150.jpg 150w" sizes="(max-width: 75px) 100vw, 75px" />																					</span>
+										<span>Economic earthquake: Consumer spending in the wake of the coronavirus pandemic</span>
+									</a>
+								</li>
+																								<li class="cat-post-item">
+									<a rel="nofollow" class="cat-post-thumbnail  cat-post-none" href="https://journalistsresource.org/studies/society/news-media/coronavirus-covid-19-press-freedom-joel-simon/" rel="bookmark" title="How COVID-19 is threatening press freedom: An interview with Joel Simon">
+										<span class="rthumb">
+																							<img width="75" height="75" src="https://journalistsresource.org/wp-content/uploads/2020/04/austin-distel-VCFxt2yT1eQ-unsplash-75x75.jpg" class="attachment-sidethumb size-sidethumb wp-post-image" alt="" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/04/austin-distel-VCFxt2yT1eQ-unsplash-75x75.jpg 75w, https://journalistsresource.org/wp-content/uploads/2020/04/austin-distel-VCFxt2yT1eQ-unsplash-150x150.jpg 150w" sizes="(max-width: 75px) 100vw, 75px" />																					</span>
+										<span>How COVID-19 is threatening press freedom: An interview with Joel Simon</span>
+									</a>
+								</li>
+																								<li class="cat-post-item">
+									<a rel="nofollow" class="cat-post-thumbnail  cat-post-none" href="https://journalistsresource.org/studies/society/public-health/social-distancing-expectations-compliance/" rel="bookmark" title="Social distancing time frames: How our expectations affect compliance">
+										<span class="rthumb">
+																							<img width="75" height="75" src="https://journalistsresource.org/wp-content/uploads/2020/04/victor-he-Wj6UbfSnG_o-unsplash-2-75x75.jpg" class="attachment-sidethumb size-sidethumb wp-post-image" alt="" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/04/victor-he-Wj6UbfSnG_o-unsplash-2-75x75.jpg 75w, https://journalistsresource.org/wp-content/uploads/2020/04/victor-he-Wj6UbfSnG_o-unsplash-2-150x150.jpg 150w" sizes="(max-width: 75px) 100vw, 75px" />																					</span>
+										<span>Social distancing time frames: How our expectations affect compliance</span>
+									</a>
+								</li>
+																								<li class="cat-post-item">
+									<a rel="nofollow" class="cat-post-thumbnail  cat-post-none" href="https://journalistsresource.org/tip-sheets/reporting/patient-zero-party-coronavirus/" rel="bookmark" title="The problem with using ‘patient zero’ and ‘party zero’ in coronavirus news">
+										<span class="rthumb">
+																							<img width="75" height="75" src="https://journalistsresource.org/wp-content/uploads/2020/04/london_underground_train_station_people_traffic_busy_crowded_stairs-892254.jpgd_-75x75.jpg" class="attachment-sidethumb size-sidethumb wp-post-image" alt="patient zero coronavirus news coverage" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/04/london_underground_train_station_people_traffic_busy_crowded_stairs-892254.jpgd_-75x75.jpg 75w, https://journalistsresource.org/wp-content/uploads/2020/04/london_underground_train_station_people_traffic_busy_crowded_stairs-892254.jpgd_-150x150.jpg 150w" sizes="(max-width: 75px) 100vw, 75px" />																					</span>
+										<span>The problem with using ‘patient zero’ and ‘party zero’ in coronavirus news</span>
+									</a>
+								</li>
+																								<li class="cat-post-item">
+									<a rel="nofollow" class="cat-post-thumbnail  cat-post-none" href="https://journalistsresource.org/tip-sheets/research/medical-research-preprints-coronavirus/" rel="bookmark" title="Covering biomedical research preprints amid the coronavirus: 6 things to know">
+										<span class="rthumb">
+																							<img width="75" height="75" src="https://journalistsresource.org/wp-content/uploads/2020/04/pile-papers-art-75x75.png" class="attachment-sidethumb size-sidethumb wp-post-image" alt="preprints medical research papers coronavirus" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/04/pile-papers-art-75x75.png 75w, https://journalistsresource.org/wp-content/uploads/2020/04/pile-papers-art-150x150.png 150w" sizes="(max-width: 75px) 100vw, 75px" />																					</span>
+										<span>Covering biomedical research preprints amid the coronavirus: 6 things to know</span>
+									</a>
+								</li>
+																								<li class="cat-post-item">
+									<a rel="nofollow" class="cat-post-thumbnail  cat-post-none" href="https://journalistsresource.org/tip-sheets/reporting/jobs-report-april-2020/" rel="bookmark" title="5 things to know about the April jobs report">
+										<span class="rthumb">
+																							<img width="75" height="75" src="https://journalistsresource.org/wp-content/uploads/2020/04/edwin-hooper-Q8m8cLkryeo-unsplash-75x75.jpg" class="attachment-sidethumb size-sidethumb wp-post-image" alt="" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/04/edwin-hooper-Q8m8cLkryeo-unsplash-75x75.jpg 75w, https://journalistsresource.org/wp-content/uploads/2020/04/edwin-hooper-Q8m8cLkryeo-unsplash-150x150.jpg 150w" sizes="(max-width: 75px) 100vw, 75px" />																					</span>
+										<span>5 things to know about the April jobs report</span>
+									</a>
+								</li>
+																								<li class="cat-post-item">
+									<a rel="nofollow" class="cat-post-thumbnail  cat-post-none" href="https://journalistsresource.org/studies/society/internet/rural-broadband-coronavirus/" rel="bookmark" title="Rural broadband in the time of coronavirus">
+										<span class="rthumb">
+																							<img width="75" height="75" src="https://journalistsresource.org/wp-content/uploads/2020/03/ross-sneddon-MrmC8VQo_Aw-unsplash-75x75.jpg" class="attachment-sidethumb size-sidethumb wp-post-image" alt="" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/03/ross-sneddon-MrmC8VQo_Aw-unsplash-75x75.jpg 75w, https://journalistsresource.org/wp-content/uploads/2020/03/ross-sneddon-MrmC8VQo_Aw-unsplash-150x150.jpg 150w" sizes="(max-width: 75px) 100vw, 75px" />																					</span>
+										<span>Rural broadband in the time of coronavirus</span>
+									</a>
+								</li>
+																								<li class="cat-post-item">
+									<a rel="nofollow" class="cat-post-thumbnail  cat-post-none" href="https://journalistsresource.org/studies/economics/coronavirus-economic-relief-package-by-the-numbers/" rel="bookmark" title="By the numbers: The federal coronavirus economic relief package">
+										<span class="rthumb">
+																							<img width="75" height="75" src="https://journalistsresource.org/wp-content/uploads/2020/03/aidan-bartos-v9rZ3Yz6fSg-unsplash-75x75.jpg" class="attachment-sidethumb size-sidethumb wp-post-image" alt="" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/03/aidan-bartos-v9rZ3Yz6fSg-unsplash-75x75.jpg 75w, https://journalistsresource.org/wp-content/uploads/2020/03/aidan-bartos-v9rZ3Yz6fSg-unsplash-150x150.jpg 150w" sizes="(max-width: 75px) 100vw, 75px" />																					</span>
+										<span>By the numbers: The federal coronavirus economic relief package</span>
+									</a>
+								</li>
+																								<li class="cat-post-item">
+									<a rel="nofollow" class="cat-post-thumbnail  cat-post-none" href="https://journalistsresource.org/studies/society/public-health/mental-health-outbreaks-coronavirus/" rel="bookmark" title="How infectious disease outbreaks affect mental health: Insights for coronavirus coverage">
+										<span class="rthumb">
+																							<img width="75" height="75" src="https://journalistsresource.org/wp-content/uploads/2020/03/alex-boyd-6-H23dfH7Qo-unsplash-1-75x75.jpg" class="attachment-sidethumb size-sidethumb wp-post-image" alt="mental health coronavirus disease outbreak research" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/03/alex-boyd-6-H23dfH7Qo-unsplash-1-75x75.jpg 75w, https://journalistsresource.org/wp-content/uploads/2020/03/alex-boyd-6-H23dfH7Qo-unsplash-1-150x150.jpg 150w" sizes="(max-width: 75px) 100vw, 75px" />																					</span>
+										<span>How infectious disease outbreaks affect mental health: Insights for coronavirus coverage</span>
+									</a>
+								</li>
+																								<li class="cat-post-item">
+									<a rel="nofollow" class="cat-post-thumbnail  cat-post-none" href="https://journalistsresource.org/studies/government/comic-differential-privacy-2020-census/" rel="bookmark" title="A brief introduction to differential privacy: A data protection plan for the 2020 census">
+										<span class="rthumb">
+																							<img width="75" height="75" src="https://journalistsresource.org/wp-content/uploads/2020/03/thumbnail_DiffPriv-teaser-720x480-1-75x75.jpg" class="attachment-sidethumb size-sidethumb wp-post-image" alt="differential privacy" title="" srcset="https://journalistsresource.org/wp-content/uploads/2020/03/thumbnail_DiffPriv-teaser-720x480-1-75x75.jpg 75w, https://journalistsresource.org/wp-content/uploads/2020/03/thumbnail_DiffPriv-teaser-720x480-1-150x150.jpg 150w" sizes="(max-width: 75px) 100vw, 75px" />																					</span>
+										<span>A brief introduction to differential privacy: A data protection plan for the 2020 census</span>
+									</a>
+								</li>
+																</ul>							<!-- End Related Posts -->
+										</aside>		
+		</div>
+	</div><!--sidebars-->						
+</aside>
+<!-- End Sidebar -->
+	</div><!-- .content -->
+</div><!-- #page -->
+	<!-- popular posts widget -->
+	<!-- added custom no_thumb.jpg to Plugin folder -->
+	<div class="footer-widget"><div id="republication-tracker-tool-modal-content" style="display:none;"><div class="republication-tracker-tool-close">X</div><h2>Republish this article</h2><div class="cc-policy"><div class="cc-license"><a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nd/4.0/" data-wpel-link="external"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nd/4.0/" data-wpel-link="external">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+</div><i style="color: #222222;font-family: Arial, Helvetica, sans-serif;font-size: small"><span style="font-size: 10pt;font-family: Helvetica, sans-serif;color: #383838">You are free to republish this piece both online and in print, and we encourage you to do so with the embed code provided below. We only ask that you follow <b><a href="https://journalistsresource.org/republishing-guidelines" data-wpel-link="internal">a few basic guidelines</a>.</b>  </span></i></div><div class="article-info"><h1>Crowdsourcing truth and how journalists can avoid spreading coronavirus misinformation: Q and A with MIT professor David Rand</h1>
+<p class="byline">by Clark Merrefield, Journalist&#039;s Resource <br />March 20, 2020</p>
+</div><textarea readonly id="republication-tracker-tool-shareable-content" rows="5">&lt;h1&gt;Crowdsourcing truth and how journalists can avoid spreading coronavirus misinformation: Q and A with MIT professor David Rand&lt;/h1&gt;
+&lt;p class=&quot;byline&quot;&gt;by Clark Merrefield, Journalist&#039;s Resource &lt;br /&gt;March 20, 2020&lt;/p&gt;
+ &lt;p&gt;Misinformation on social media was bad before the coronavirus pandemic, and it’s only gotten more harmful in the age of social distancing now that lives are on the line and millions of Americans are getting their daily dosage of human interaction and information solely from the virtual world.&lt;/p&gt;
+&lt;p&gt;Social media companies and traditional news outlets are working on the fly to reduce misinformation about COVID-19, the disease caused by the new coronavirus. Twitter, for example, on March 16 &lt;a href="https://blog.twitter.com/en_us/topics/company/2020/An-update-on-our-continuity-strategy-during-COVID-19.html"&gt;announced&lt;/a&gt; that it will require users to remove posts that deny recommendations from global or local public health authorities. Also on March 16, Facebook, Google, LinkedIn, Reddit, Twitter and YouTube put out a broadly worded &lt;a href="https://twitter.com/fbnewsroom/status/1239703497479614466"&gt;joint statement&lt;/a&gt; on how those platforms are working together and “elevating authoritative content” to combat coronavirus misinformation.&lt;/p&gt;
+&lt;p&gt;On the fact-checking front, USA Today &lt;a href="https://www.usatoday.com/story/news/pr/2020/03/12/usa-today-expands-its-fact-checking-efforts-new-partnership-facebook-identify-misinformation/5032239002/"&gt;has joined&lt;/a&gt; Facebook’s &lt;a href="https://www.facebook.com/help/publisher/182222309230722"&gt;Third-Party Fact Checking Program&lt;/a&gt;, through which certified fact checkers flag misinformation on the platform. False posts come with a warning and show up lower in news feeds. Reuters, the Associated Press, &lt;a href="https://www.politifact.com/facebook-fact-checks/"&gt;Politifact&lt;/a&gt; and other outlets are also part of the program. Snopes, a myth-busting website, withdrew from the program last February after, “evaluating the ramifications and costs of providing third-party fact-checking services,” &lt;a href="https://www.snopes.com/2019/02/01/snopes-fb-partnership-ends/"&gt;the site explained&lt;/a&gt; in a blog post.&lt;/p&gt;
+&lt;p&gt;To get a sense of the vast ecosystem of misinformation that social media users are up against -- and what journalists can do to avoid being part of the misinformation problem -- I called my friend &lt;a href="https://mitsloan.mit.edu/faculty/directory/david-g-rand"&gt;David Rand&lt;/a&gt;, who happens to study misinformation as an associate professor of management science and brain and cognitive sciences at the Massachusetts Institute of Technology. His work has been published in the &lt;a href="https://misinforeview.hks.harvard.edu/article/emphasizing-publishers-does-not-reduce-misinformation/"&gt;Harvard Kennedy School Misinformation Review&lt;/a&gt;, among &lt;a href="https://scholar.google.com/citations?user=C0ANojIAAAAJ&amp;amp;hl=en"&gt;many other places&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In a &lt;a href="https://psyarxiv.com/uhbk9/"&gt;new working paper&lt;/a&gt;, Rand and his co-authors -- including frequent collaborator &lt;a href="https://gordonpennycook.net/"&gt;Gordon Pennycock&lt;/a&gt; at the University of Regina in Saskatchewan -- apply their framework for studying political misinformation to misinformation about the coronavirus pandemic. The authors conducted two nationally representative surveys with about 850 participants apiece. Rand &lt;a href="https://twitter.com/DG_Rand/status/1240010913270370305"&gt;posted&lt;/a&gt; on Twitter an easily digestible roundup of the new findings.&lt;/p&gt;
+&lt;p&gt;A &lt;a href="https://journalistsresource.org/tip-sheets/research/working-papers-research-articles"&gt;working paper&lt;/a&gt;, as the phrase implies, is a work in progress, compared with peer-reviewed research, which is considered complete and published in a journal after a panel of peer editors have reviewed and approved it. Because news on the coronavirus pandemic is changing by the day, if not the hour, much of the current research on COVID-19 is in working paper form.&lt;/p&gt;
+&lt;p&gt;Here are some takeaways from my conversation with Rand:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Headlines matter -- because on social media, the headline is often the only thing people see.&lt;/li&gt;
+&lt;li&gt;Professional fact checkers simply can’t keep up with the sheer volume of misinformation on social media, and social media users themselves may be better suited to the task of flagging false posts.&lt;/li&gt;
+&lt;li&gt;Journalists can avoid amplifying false claims by focusing on the truth rather than describing misleading claims in detail.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The Q&amp;amp;A that follows has been lightly edited for clarity.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Clark Merrefield: &lt;/strong&gt;What can journalists do to avoid being part of the misinformation problem about coronavirus, and more generally?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;David Rand: &lt;/strong&gt;It’s hard. It’s a hard question. One huge question we’ve gotten really interested in and are starting a project on, and we don’t have results yet, is on amplification. Which is to say, in the political sphere when fringe outlets produce crazy-ass fake news stories and then the &lt;em&gt;New York Times&lt;/em&gt; writes about it and says, “Look at this crazy-ass fake news story,” all of a sudden way more people read it. And not just more people, &lt;em&gt;different&lt;/em&gt; people. If before it was isolated in the right wing media ecosystem, when the &lt;em&gt;Times&lt;/em&gt; writes about it a huge swath of centrist and left-leaning people read it. We have research showing you forget the correction faster than the basic false statement. So it is a real challenge.&lt;/p&gt;
+&lt;p&gt;How do you cover misinformation? One of the prescriptions is don’t say, “This is a crazy statement and it’s wrong,” but say, “Contrary to what some people are saying, this is actually the correct statement.” That doesn’t work in every instance. But you can say, “Vitamin C &lt;a href="https://www.factcheck.org/2020/02/fake-coronavirus-cures-part-3-vitamin-c-isnt-a-shield/"&gt;does not help&lt;/a&gt; protect you from coronavirus.” Still, there’s a problem because how widespread does something need to get before countering it and then giving it a new platform?&lt;/p&gt;
+&lt;p&gt;Another thing journalists should think about in the age of social media is that the vast majority of people only read the headline. And there is a baseline tendency to make headlines that are more sensational and less accurate than the content of the article, to get people to click in. That is a huge problem in the era of social media. It’s more important than ever because news outlets are desperate for clicks, and it’s also more problematic than ever because people aren’t reading the articles. This is one thing we’ve been trying to suggest to Facebook, which is if you do enforcement based on the headline and downrank articles that have crazy-seeming headlines, that will put pressure on outlets to curtail the crazy headline-reasonable article trend.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CM: &lt;/strong&gt;The other day I was scrolling through Facebook and someone had posted a &lt;em&gt;New York Times&lt;/em&gt; article with an angry-face emoji, and the headline that showed in the feed was “Pelosi Begins Drive to Block Trump’s Emergency Declaration.” Which, in the context of the world being turned upside down as we speak, one might reasonably think Nancy Pelosi was trying to block Donald Trump’s &lt;a href="https://www.whitehouse.gov/presidential-actions/proclamation-declaring-national-emergency-concerning-novel-coronavirus-disease-covid-19-outbreak/"&gt;national emergency declaration&lt;/a&gt; related to COVID-19. Anyway, that’s what I thought, and I was surprised. But I clicked the link and the &lt;a href="https://www.nytimes.com/2019/02/22/us/politics/national-emergency-pelosi.html"&gt;real headline&lt;/a&gt; was “Pelosi Begins Drive to Block Trump’s Border Wall Declaration,” and it’s from February. So it’s a true and accurate story, but it’s about the House speaker trying to throw a wrench into the president’s &lt;a href="https://journalistsresource.org/studies/government/immigration/border-walls-barriers-migrant-research/"&gt;border wall&lt;/a&gt; idea, and it’s completely out of context.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DR:&lt;/strong&gt; I know that platforms have been thinking about this, more for images than for news articles, but the same thing could be done for news articles, where if the image is more than a year old, or whatever the criteria, they could flag them and say, “This image is a year old.” That happens a lot in certain aspects of misinformation, people post old things and claim them as current events. Something that could easily be done is to make the original posting date more obvious.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CM: &lt;/strong&gt;Your new paper looks at misinformation spreading on social media about COVID-19. What questions did you and your collaborators ask and what did you find?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DR: &lt;/strong&gt;We were interested in misinformation on social media for a while -- what you can do to reduce the spread of misinformation -- and we mostly have been focusing on &lt;a href="https://static1.squarespace.com/static/51ed234ae4b0867e2385d879/t/5e5ebaa3f840e43f8fe6ea5d/1583266468630/2020+Pennycook+et+al+-+Management+Science.pdf"&gt;political misinformation&lt;/a&gt;, fake news, hyper-partisan news, stuff like that. And then with the COVID-19 pandemic that was obviously very much on our minds and it seemed misinformation was one part of the COVID-19 problem. We wondered whether the same things we found to be true for political misinformation would also be true for COVID-19 misinformation.&lt;/p&gt;
+&lt;p&gt;We did a couple of experiments. The basic structure is they’re survey experiments where we recruit people that are reasonably representative, so they match the U.S. distribution of age, gender, ethnicity and geographic region. And we show them a series of social media posts, like Facebook posts. They’re all real Facebook posts, they’re all things that were actually posted on social media, and they’re all about COVID-19. Half of them are true and half of them are false.&lt;/p&gt;
+&lt;p&gt;In the first experiment we asked half of the people, “Do you think this is accurate or not?” And then, “Would you consider sharing this on social media or not?” What we found in the political context, and what we wanted to test here, was whether there is a disconnect between accuracy and sharing. The pattern we find is that people are pretty good when you ask them, “Is it accurate or not?” They rate the true stories as way more accurate than the false stories. If instead you ask, “Would you share this on social media or not?” they’re way less discerning. And there’s essentially no difference in their likelihood to share. They’re pretty much as likely to share the false posts as the true ones. Fifty percent more people said they would share the headlines than said they were true. There is a good chunk of cases if I ask, “Is this true?” you would say no. But if I asked, “Would you share it?” you would say yes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CM: &lt;/strong&gt;What’s going on? What’s the mechanism at work where people are sharing information they perhaps know to be false?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DR: &lt;/strong&gt;The first explanation you might think is that it’s a post-truth world and people are perfectly happy to share things that are false. We don’t think that’s what’s going on. People care about accuracy in the abstract, but this social media context focuses their attention on other things. Like, how will my friends and followers react? What does this post or share say about me as a person? People forget to think about accuracy, even though they would take accuracy into account if they thought about it.&lt;/p&gt;
+&lt;p&gt;To support this interpretation and to suggest an intervention we do a second experiment where everyone gets shown a set of headlines and gets asked, “Would you share it or not?” That’s the &lt;a href="https://labwrite.ncsu.edu/Experimental%20Design/controltreatmentgr.htm"&gt;control condition&lt;/a&gt;. In the treatment, at the beginning of the study before they start rating the articles, before they start saying whether they would share the article, we say, “We want you to test an item for another survey we’re developing -- just rate the accuracy of this one random headline, which is not about COVID-19, just some random headline.” And we say, “OK, great, thanks, go on to the main task,” where we show them the COVID-19 headlines.&lt;/p&gt;
+&lt;p&gt;By asking them to rate the accuracy of the random headline it makes the concept of accuracy more top-of-mind for people. And that’s what we find. In the control, people are equally likely to share true or false headlines. In the treatment, they’re significantly more likely to share true headlines than false headlines. This is exactly the same thing we found for political headlines in our other study. And so that suggests this is a general principle than something specific about political misinformation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CM: &lt;/strong&gt;What role do social media platforms play in preventing the spread of misinformation about COVID-19, and generally?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DR: &lt;/strong&gt;Social media platforms are maybe, if not literally the only ones who can do anything, they’re certainly the ones in a way better position to do anything about misinformation. They have all the information and complete control over the design elements. People outside these companies don’t know how the platforms actually work, so it’s hard to come up with regulations that are effective. So we talk to people at platforms and talk them into doing things we think makes sense. Or, in the best case, help them design interventions.&lt;/p&gt;
+&lt;p&gt;The simple intervention social media companies could do is to &lt;a href="https://psyarxiv.com/3n9u8"&gt;nudge people&lt;/a&gt; to &lt;a href="https://twitter.com/DG_Rand/status/1196171145227251712"&gt;think about accuracy&lt;/a&gt;. Like, while you’re scrolling through a newsfeed there would be a card that pops up saying, “Help us inform our algorithms and rate this headline. Do you think it’s accurate or not?” That would make users think about accuracy, plus the findings would be useful. A &lt;a href="https://www.pnas.org/content/116/7/2521"&gt;small crowd of laypeople&lt;/a&gt; is pretty good at &lt;a href="https://twitter.com/DG_Rand/status/1089999404898095105"&gt;identifying false or misleading content&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CM: &lt;/strong&gt;Do you have any partnerships with platforms under way?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DR: &lt;/strong&gt;[My research group] has one partnership with Facebook around the crowdsourcing approach. We’re working with them on figuring out how to use crowdsourcing to identify misinformation in a scalable way. The problem with professional fact checkers is there’s not nearly enough of them to deal with the amount of misinformation being created. We have another paper showing that problem, because lots of content doesn’t get checked by fact checkers.&lt;/p&gt;
+&lt;p&gt;Also, there is the "&lt;a href="https://static1.squarespace.com/static/51ed234ae4b0867e2385d879/t/5e5ebaa3f840e43f8fe6ea5d/1583266468630/2020+Pennycook+et+al+-+Management+Science.pdf"&gt;implied truth effect&lt;/a&gt;." Say a fact checker flags something they think is false and the post gets a warning. The &lt;a href="https://twitter.com/DG_Rand/status/1236102072795308033?s=20"&gt;absence of a warning&lt;/a&gt; also implies that it may have been checked and verified. That’s why coming up with scalable fact checking approaches is really important, which is where the crowd can come in.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The HKS Misinformation Review is &lt;a href="https://misinforeview.hks.harvard.edu/wp-content/uploads/2020/03/PDF_COVID-19Misinfodemics-1.pdf"&gt;fast-tracking&lt;/a&gt; a special issue on COVID-19.&lt;/strong&gt; &lt;strong&gt;Check out the &lt;/strong&gt;&lt;a href="https://journalistsresource.org/tag/coronavirus/"&gt;&lt;strong&gt;rest of our coverage&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt; of how coronavirus is upending the U.S. economy and education sector.&lt;/strong&gt;&lt;/p&gt;
+
+
+ <p>This &lt;a target=&quot;_blank&quot; href=&quot;https://journalistsresource.org/studies/society/social-media/coronavirus-misinformation-crowdsourcing-truth-mit-david-rand/&quot;&gt;article&lt;/a&gt; first appeared on &lt;a target=&quot;_blank&quot; href=&quot;https://journalistsresource.org&quot;&gt;Journalist&#039;s Resource&lt;/a&gt; and is republished here under a Creative Commons license.<img id="republication-tracker-tool-source" src="https://journalistsresource.org/?republication-pixel=true&amp;post=63092&amp;ga=UA-5985794-2" style="max-width:200px"></p>
+</textarea>	<button onclick="copyToClipboard('#republication-tracker-tool-shareable-content')">Copy to Clipboard</button>
+	</div><div id="republication-tracker-tool-modal" style="display:none;" data-postid="63092" data-pluginsdir="https://journalistsresource.org/wp-content/plugins">1</div><div class="license"><p><button name="Republish This Article" id="cc-btn" class="republication-tracker-tool-button">Republish This Article</button></p><p><a class="license" rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nd/4.0/" data-wpel-link="external"><img alt="Creative Commons License" style="border-width:0" src="https://journalistsresource.org/wp-content/plugins/republication-tracker-tool/assets/img/creative-commons-sharing.png" /></a></p></div><div class="message"></div></div><footer>
+	<div id="FooterWrapper">
+      	<div class="footer-col" id="footer-col-1">
+        	<p>A project of Harvard Kennedy School's <a href="https://shorensteincenter.org/" data-wpel-link="external" target="_blank">Shorenstein Center</a> and the <a href="https://journalistsresource.org/about/carnegie-knight-initiative/" data-wpel-link="internal">Carnegie-Knight Initiative</a>, <i>Journalist’s Resource</i>  curates, summarizes and contextualizes high-quality research on newsy public policy topics. We are supported by generous grants from the <a href="https://www.carnegie.org/" data-wpel-link="external" target="_blank">Carnegie Corporation of New York</a>, the <a href="https://www.rwjf.org/" data-wpel-link="external" target="_blank">Robert Wood Johnson Foundation</a>, the <a href="https://www.gatesfoundation.org/" data-wpel-link="external" target="_blank">Bill & Melinda Gates Foundation</a> and <a href="https://www.nihcm.org/grants/journalism-grants/" data-wpel-link="external" target="_blank">The National Institute for Health Care Management (NIHCM) Foundation.</a></p>
+        	<a href="/" data-wpel-link="internal">Home</a> | <a href="/about/" data-wpel-link="internal">About</a> | <a href="/contact/" data-wpel-link="internal">Contact</a> | <a href="https://feeds.feedburner.com/journalistsresource" data-wpel-link="external" target="_blank">RSS</a> | <a href="https://gdpr.harvard.edu/eeaprivacydisclosures" data-wpel-link="external" target="_blank">EU/EEA Privacy Disclosures</a>
+     	</div>
+      <div class="clear"></div>
+    </div><!--end #footer-wrapper -->
+    <div class="clear" id="footer-border">
+      <div class="float-left"><a href="https://creativecommons.org/licenses/by-nd/4.0/" rel="license" data-wpel-link="external" target="_blank"><img style="border-width: 0;" src="https://licensebuttons.net/l/by-nd/4.0/88x31.png" alt="Creative Commons License" /></a>
+       </div><!-- end .float-left -->
+       <p class="creative-commons">Unless otherwise noted, this site and its contents – with the exception of photographs –
+are licensed under a <a href="https://creativecommons.org/licenses/by-nd/4.0/" data-wpel-link="external" target="_blank">Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)</a> license. That means you are free to republish our content both online and in print, and we encourage you to do so via the “republish this article” button. We only ask that you follow <a href="https://journalistsresource.org/republishing-guidelines/" data-wpel-link="internal">a few basic guidelines</a>. </p>
+		
+	</div><!-- end #footer-border -->
+</footer>
+        </div>	
+	</div>
+</div>
+<!--end copyrights-->
+<link rel='stylesheet' id='republication-tracker-tool-css-css'  href='https://journalistsresource.org/wp-content/plugins/republication-tracker-tool/assets/widget.css?ver=1.0.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://journalistsresource.org/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://journalistsresource.org/wp-content/plugins/republication-tracker-tool/assets/widget.js?ver=1.0.1'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202016.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:8.3',blog:'123197052',post:'63092',tz:'-4',srv:'journalistsresource.org'} ]);
+	_stq.push([ 'clickTrackerInit', '123197052', '63092' ]);
+</script>
+</div><!-- main-container -->

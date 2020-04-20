@@ -1,0 +1,25 @@
+For years, the Kremlin's increasingly aggressive hackers have reached across the globe to hit targets with everything from simple phishing schemes to worms built from leaked NSA zero day vulnerabilities. Now, law enforcement agencies in the US and Europe have detailed another, far more hands-on tactic: Snooping on Wi-Fi from a vehicle parked a few feet away from a target office—or even from a laptop inside their hotel.
+
+On Thursday, the US Department of Justice charged seven hackers working for the Russian military agency GRU with carrying out a vast intrusion campaign against a wide range of organizations. The targets include anti-doping agencies in Colorado, Brazil, Canada, Monaco and Switzerland, part of a retaliatory leaking campaign after Russia was accused of doping ahead of the 2016 and 2018 Olympics; the Westinghouse Electric Company's nuclear power operations, which supplies nuclear fuel to Ukraine; and the Spiez chemical testing laboratory in Switzerland and the Organization for the Prohibition of Chemical Weapons in the Netherlands, likely due to their investigations into the Novichok gas attack on a Russian intelligence defector in the UK earlier this year.
+
+DOJ DOJ
+
+But some of the most surprising elements of those intrusion operations are the ones that got the Russian hackers caught red-handed: Parking vehicles outside of target buildings, and infiltrating Wi-Fi networks to hack victims.
+
+“When the conspirators’ remote hacking efforts failed to capture log-in credentials, or if those accounts that were successfully compromised did not have the necessary access privileges for the sought-after information, teams of GRU intelligence officers traveled to locations around the world where targets were physically located,” the Justice Department’s indictment reads. "Using specialized equipment, and with the remote support of conspirators in Russia, these on-site teams hacked into Wi-Fi networks used by victim organizations or their personnel, including hotel Wi-Fi networks."
+
+The new details on those in-person hacking operations illustrate just how brash the GRU's hackers have become, says John Hultquist, the director of research at security intelligence firm FireEye, who has closely tracked GRU operations for years. "If they're willing to play like this, they are extremely aggressive," Hultquist says. "It’s risky and brazen that they’re doing this physically. Obviously your chance of getting caught and exposed in person are higher, but it gives them a whole new avenue to get into networks that might have otherwise been a challenge."
+
+Pineapple Express
+
+In multiple cases, from Rio de Janeiro to Lausanne to Monaco, the Dutch intelligence agency MIVD and US Department of Justice describe how the Russian agents—usually two men named Evgenii Mikhaylovich Serebriakov and Aleksei Sergeyevich Morenets—worked in vehicles outside of hotels or offices, or in the buildings themselves, to compromise Wi-Fi networks and hack their targets in close proximity. In some cases, they'd use that access to steal victims' credentials. In others they'd attempt to plant espionage-oriented malware.
+
+Dutch Military Intelligence and Security Service
+
+Finally, in one incident in the Hague last April, the indictment details how Dutch intelligence agents discovered four men—including Serebriakov, Morenet, and two others—in the middle of spying on the Wi-Fi network of the Organization for the Prohibition of Chemical Weapons. The Russian agents had set up a rental car with a large antenna in its trunk, hidden under a black jacket, facing the OPCW building and connected to a laptop and an external power supply. When the Russian team activated that equipment, Dutch agents somehow detected and disrupted the operation. They declined to say exactly how, and the MIVD declined WIRED's request for comment.
+
+The four Russians were deported back to Moscow. But the equipment and evidence the Dutch agents seized told a detailed story of their work. Despite the Russians' attempt to destroy at least one phone after being outed, the Dutch investigators found signs that their laptops and phones had connected to Wi-Fi networks at several of their earlier hacking destinations. One even contained a photo of Serebriakov at the Rio Olympics.
+
+"This is not spy versus spy. These were not passive intelligence gathering operations." Scott Brady, DoJ
+
+Serebriakov's backpack, in particular, included "additional technical equipment that the team could also use to surreptitiously intercept Wi-Fi signals and traffic," the indictment reads. Though it doesn't spell out how that equipment could penetrate password-protected Wifi networks, it does mention that Serebriakov carried a Wi-Fi Pineapple. Those book-sized devices are designed to spoof Wi-Fi networks so that victims connect to them rather than the intended, legitimate one, acting as a "man-in-the-middle" capable of spying on or altering their subsequent internet traffic.

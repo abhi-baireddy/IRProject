@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en" class="fonts-loaded">
+<head><!-- DDM Pageview ID v1.0.4 --><script>
+      var ddmTopDomain = 'ksl.com';
+      !function(e,d){var o="ddmSessionId",n="ddmDeviceId",t=function(){var e=2147483648;return Math.floor(Math.random()*e).toString(36)+Math.abs(Math.floor(Math.random()*e)^Date.now()).toString(36)},a=function(e){var d=document.cookie.match(new RegExp("(^| )"+e+"=([^;]+)"));if(d)return d[2]},i=function(e,d,o,n,t){var a=encodeURI(e)+"="+encodeURI(d)+";expires="+o.toUTCString()+";domain=."+n+";path="+t;document.cookie=a};e.ddmPageviewId=t(),e.ddmSessionId=a(o)||t(),e.ddmDeviceId=a(n)||t();var m=new Date,r=new Date(m.getTime()+18e5),c=new Date(m.getFullYear()+2,m.getMonth(),m.getDate());e.ddmUeid=t,i(o,e.ddmSessionId,r,d,"/"),i(n,e.ddmDeviceId,c,d,"/")}(window,ddmTopDomain);
+    </script><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="Content-Language" content="en-us"/><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="x-ua-compatible" content="IE=edge"/><meta name="apple-itunes-app" content="app-id=363278608"><meta name="google-play-app" content="app-id=com.ksl.android"><meta name="theme-color" content="#0b162f"><meta name="keywords" content="news, traffic, weather, sports, classifieds, cars, jobs, homes, television, radio, salt lake, utah, local"/><meta name="description" content="With schools closed and teachers unable to report suspected cases of abuse and neglect, child welfare agencies have lost some of their best eyes and ears during a stressful time for families who have lost jobs and are locked down together during the coronavirus pandemic."/><meta property="thumbnail" content="https://img.ksl.com/slc/2780/278056/27805697.jpg?filter=ksl/responsive_story_lg"/><link rel="apple-touch-icon" href="//static.ksl.com/apple-touch-icon-precomposed.png"/><link rel="apple-touch-icon" sizes="72x72" href="//static.ksl.com/apple-touch-icon-72x72-precomposed.png"/><link rel="apple-touch-icon" sizes="114x114" href="//static.ksl.com/apple-touch-icon-114x114-precomposed.png"/><link rel="apple-touch-icon" sizes="144x144" href="//static.ksl.com/apple-touch-icon-144x144-precomposed.png"/><link rel="manifest" href="/manifest.json"><meta name="kindle-fire-app" content="app-id=B008QYDXHO"><link rel="android-touch-icon" href="//static.ksl.com/apple-touch-icon-precomposed.png"/><link rel="alternate" href="android-app://com.ksl.android/app/ksl.com/story/46742930"/><meta property="article:author" content="https://www.facebook.com/kslcom/"/><meta property="fb:pages" content="68771464171"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="With no school, calls drop but child abuse hasn't amid virus"/><meta name="twitter:site" content="@kslcom"/><meta property="og:description" content="With schools closed and teachers unable to report suspected cases of abuse and neglect, child welfare agencies have lost some of their best eyes and ears during a stressful time for families who have lost jobs and are locked down together during the coronavirus pandemic."/><meta property="og:type" content="article"/><meta property="og:title" content="With no school, calls drop but child abuse hasn't amid virus"/><meta property="og:image" content="https://img.ksl.com/slc/2780/278056/27805697.jpg?filter=ksl/responsive_story_lg"/><meta property="og:image:width" content="614"/><meta property="og:image:height" content="345"/><link rel="canonical" href="https://www.ksl.com/article/46742930/with-no-school-calls-drop-but-child-abuse-hasnt-amid-virus" /><title>With no school, calls drop but child abuse hasn&#039;t amid virus | KSL.com</title><link rel="icon" href="//d3njgrq4uvb497.cloudfront.net/favicon.ico"><link rel="preload" href="https://d3njgrq4uvb497.cloudfront.net/styles--ksl-0dc3.css" as="style"><link href="https://static.ksl.com/ksl-responsive-header/ksl-header.css" rel="stylesheet"><script src="https://static.ksl.com/javascript/react.production.min.js"></script><script src="https://static.ksl.com/javascript/react-dom.production.min.js"></script><link rel="preload" href="https://d3njgrq4uvb497.cloudfront.net/app--ksl-843b.js" as="script"><script>
+  window.KSL = {
+    onLoad: [],
+    onReadyCheck: function (loaded, total, cb) {
+      if (loaded === total) {
+        var cbs = window.KSL.onLoad;
+        for (var i = 0; i < cbs.length; i++) {
+          if (cbs[i] instanceof Function) {
+            cbs[i](this);
+          }
+        }
+
+        window.KSL.onLoad = [];
+
+        if (cb instanceof Function) {
+          cb();
+        }
+      }
+    },
+    require: function (scripts, cb) {
+      if (scripts instanceof Array === false) {
+        scripts = [scripts];
+      }
+
+      var totalLoaded = 0;
+      for (var i = 0; i < scripts.length; i++) {
+        var e = document.createElement('script');
+        document.body.appendChild(e);
+
+        if ('onload' in e) {
+          e.onload = function () {
+            window.KSL.onReadyCheck(++totalLoaded, scripts.length, cb);
+          };
+        } else if ('onreadystatechange' in e) {
+          if (e.readyState === 'complete') {
+            window.KSL.onReadyCheck(++totalLoaded, scripts.length, cb);
+          }
+        }
+
+        // What to do if e.onerror ??
+
+        e.setAttribute('async', true);
+        e.setAttribute('defer', true);
+        e.src = scripts[i];
+      }
+    },
+  };
+</script><script>
+      (function(){
+        var data = {
+          injectStyles: false,
+          account: {
+            name: ''
+          },
+          nav: {
+            hrefBase: '//www.ksl.com',
+            activePath: 'news.home.us',
+            logo: 'https://media.ksl.com/svg/ksl-logo.svg',
+            logoSmall: 'https://media.ksl.com/svg/ksl-logo-small.svg',
+          },
+        };
+
+        // No SVG support: use png
+        if (typeof window.SVGRect === 'undefined') {
+          data.nav.logo = 'https://media.ksl.com/png/ksl-logo.png';
+          data.nav.logoSmall = 'https://media.ksl.com/png/ksl-logo-small.png';
+        }
+
+        KSL.onLoad.push(function () {
+          var deps = ['https://static.ksl.com/ksl-responsive-header/ksl-header.js'];
+
+          var staticHeader = document.getElementById('kslHeaderStatic');
+          KSL.require(deps, function () {
+            KslHeader.render(data);
+            staticHeader.style.display = 'none';
+            fetch('/api/2017/member/active', { credentials: 'same-origin' })
+              .then(function(res) {
+                return res.json();
+              })
+              .then(function(user) {
+                data.account.name = user.name;
+                KslHeader.render(data);
+              })
+          });
+        });
+      }());
+    </script><link charset="UTF-8" href="https://d3njgrq4uvb497.cloudfront.net/styles--ksl-0dc3.css" rel="stylesheet"/></head><body><div class="ksl-header-menu-container"><div class="ksl-header-menu-container__inner"><div id="kslHeaderStatic"><noscript><iframe
+      title="GTM Pixel"
+      src="https://www.googletagmanager.com/ns.html?id=GTM-NKMQVGQ"
+      height="0"
+      width="0"
+      style="display:none;visibility:hidden"
+    ></iframe></noscript><div class="ksl-header--static"><div><div></div><a class="ksl-header-skip-to-content" href="#ksl-header-skip">Skip to content</a><div class="ksl-header ksl-header--large" role="navigation" aria-label="main menu"><div class="ksl-header__outer"><div class="ksl-header__inner"><a class="ksl-header-logo" href="//www.ksl.com" aria-labelledby="ksl-header-logo-label"><div class="ksl-header-logo__large"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89.7 47" height="64" width="118"><title id="ksl-header-logo-label">KSL homepage</title><path fill="#FFF" d="M42.7 33.2C39 40.4 31.6 45 23.5 45 11.6 45 2 35.3 2 23.5S11.6 2 23.5 2C35.3 2 45 11.6 45 23.5v.6h2v-.6C47 10.5 36.4 0 23.5 0 10.5 0 0 10.5 0 23.5S10.5 47 23.5 47c9.2 0 17.6-5.4 21.4-13.8h-2.2z"></path><g fill="#FFF"><path d="M43.3 31.4h-10V30c.6-1 .9-2.1.9-3.4v-.1c0-1.2-.3-2.2-.9-3.1v-7.7h4.2v12h5.2s-.6 1.7.6 3.7zM17.3 31.4l-4.6-5.6-1.9 2.1v3.5H6.7V15.8h4.1v6.6l5.6-6.6h4.7l-6 7.1 7.2 8.5z"></path><path d="M32.7 26.6c-.1 3.1-2.5 5-6.4 5-.8 0-1.7-.2-1.9-.3l-4-4.8c2.7 1.6 4.5 1.6 6.1 1.6 1.2 0 1.9-.4 1.9-1.2 0-.7-.6-1.1-2.7-1.6-3.2-.7-5.8-1.6-5.8-4.9.1-3 2.5-5 6.1-5 2.5 0 4.6.7 6.3 2l-2.1 2.9c-1.4-1-3-1.5-4.4-1.5-1.2 0-1.7.6-1.7 1.1 0 .8.6 1.1 2.8 1.6 3.5 1 5.8 2.1 5.8 5.1z"></path></g><path fill="#FFF" d="M66.3 31.7c-3.3 0-5.7-2.5-5.7-5.6 0-3.1 2.5-5.7 5.8-5.7s5.7 2.5 5.7 5.6c0 3.2-2.5 5.7-5.8 5.7zm0-9.1c-2 0-3.3 1.6-3.3 3.5s1.4 3.5 3.3 3.5c2 0 3.3-1.6 3.3-3.5s-1.3-3.5-3.3-3.5zm19.6-2.1c2.4 0 3.8 1.5 3.8 4.1v6.9h-2.5v-6.1c0-1.7-.8-2.6-2.2-2.6-1.3 0-2.3.9-2.3 2.7v6.1h-2.5v-6.2c0-1.7-.8-2.6-2.2-2.6-1.4 0-2.3 1-2.3 2.7v6.1h-2.5V20.7h2.5v1.6c.7-1 1.6-1.9 3.3-1.9 1.6 0 2.6.8 3.2 1.9.9-1.1 2.1-1.8 3.7-1.8zm-26.8 7.7c-.8.8-1.6 1.3-2.8 1.3-1.9 0-3.2-1.6-3.2-3.5s1.3-3.5 3.1-3.5c1.2 0 2 .6 2.8 1.3l1.5-1.7c-1-1.1-2.3-1.9-4.3-1.9-3 0-5.2 2.2-5.6 4.9.9.9 1.5 2.1 1.5 3.5 0 .4 0 .7-.1 1.1 1 1.1 2.4 1.8 4.1 1.8 2.1 0 3.4-.8 4.4-2l-1.4-1.3zm-14.7.7c0 1.7 1.3 3 3 3s3-1.3 3-3-1.3-3-3-3-3 1.4-3 3"></path></svg></div><div class="ksl-header-logo__small"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 83.098 16.607" height="22" width="110"><title id="ksl-header-logo-label">KSL homepage</title><path fill="#FFF" d="M59.641 16.209c-3.291 0-5.726-2.516-5.726-5.604 0-3.106 2.454-5.661 5.766-5.661 3.314 0 5.745 2.516 5.745 5.623 0 3.085-2.453 5.642-5.785 5.642zm0-9.099c-1.984 0-3.251 1.554-3.251 3.456 0 1.92 1.369 3.495 3.291 3.495 2.004 0 3.272-1.554 3.272-3.457 0-1.919-1.37-3.494-3.312-3.494zm19.608-2.167c2.351 0 3.782 1.492 3.782 4.129v6.892h-2.475V9.829c0-1.718-.797-2.639-2.187-2.639-1.35 0-2.311.941-2.311 2.681v6.093h-2.476V9.808c0-1.677-.817-2.617-2.187-2.617-1.369 0-2.312 1.023-2.312 2.7v6.073H66.61V5.166h2.473v1.637c.695-.961 1.637-1.859 3.292-1.859 1.554 0 2.639.755 3.212 1.9.88-1.146 2.026-1.901 3.662-1.901zm-26.865 7.77c-.777.797-1.637 1.349-2.804 1.349-1.9 0-3.231-1.554-3.231-3.495 0-1.902 1.311-3.456 3.108-3.456 1.248 0 2.047.551 2.804 1.349l1.534-1.656c-1.004-1.104-2.272-1.859-4.314-1.859-2.972 0-5.21 2.178-5.553 4.928.947.872 1.541 2.118 1.541 3.505 0 .363-.044.718-.122 1.059 1.001 1.088 2.439 1.774 4.11 1.774 2.107 0 3.355-.838 4.417-2.024l-1.49-1.474zm-14.692.698c0 1.65 1.342 2.994 2.995 2.994 1.652 0 2.996-1.344 2.996-2.994 0-1.656-1.344-2.997-2.996-2.997-1.653 0-2.995 1.341-2.995 2.997m-1.093 2.436H26.594v-1.412c.603-.97.913-2.104.913-3.352v-.051c0-1.176-.311-2.239-.913-3.129V.234h4.191v11.971h5.249s-.644 1.649.565 3.642zm-25.952.007L6 10.294l-1.823 2.131v3.429H0V.271h4.177v6.571L9.754.271h4.723L8.45 7.397l7.198 8.457h-5.001zm15.343-4.771c-.06 3.106-2.48 5.045-6.366 5.045-.787 0-1.731-.208-1.92-.252l-3.952-4.808c2.736 1.626 4.509 1.622 6.097 1.622 1.197 0 1.904-.426 1.918-1.176l.001-.049c.016-.748-.617-1.12-2.704-1.592-3.191-.736-5.848-1.614-5.792-4.864l.002-.048C13.328 1.998 15.786 0 19.388 0c2.541 0 4.611.665 6.319 2.024l-2.132 2.938c-1.403-.981-2.964-1.519-4.374-1.519-1.226 0-1.692.569-1.702 1.103v.045c-.016.79.56 1.118 2.78 1.627 3.468.761 5.771 1.868 5.712 4.813l-.001.052z"></path></svg></div></a><div class="ksl-header-nav-group ksl-header-nav-group--level-1 ksl-header-news"><div class="ksl-header-nav-group__head" aria-hidden="true"> </div><div class="ksl-header-nav-group__body"><div class="ksl-header-nav-group ksl-header-nav-group--level-2 ksl-header-dropdown"><a class="ksl-header-dropdown__toggle ksl-header-dropdown__toggle--with-arrow ksl-header-nav-group__head" href="//www.ksl.com/" rel aria-haspopup="true" aria-expanded="false"><span class="ksl-header-nav-link">News</span></a><div class="ksl-header-dropdown__body ksl-header-nav-group__body" role="menu"><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/news/coronavirus" role="menuitem" rel>Coronavirus</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/news/utah" role="menuitem" rel>Utah</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/news/southern-utah" role="menuitem" rel>Southern Utah</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/news/idaho" role="menuitem" rel>Idaho</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/news/features" role="menuitem" rel>Features</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/news/us" role="menuitem" rel>U.S.</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/news/world" role="menuitem" rel>World</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/news/politics" role="menuitem" rel>Politics</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/news/traffic" role="menuitem" rel>Traffic</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/news/business" role="menuitem" rel>Business</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/news/entertainment" role="menuitem" rel>Entertainment</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/news/outdoors" role="menuitem" rel>Outdoors</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/news/latino" role="menuitem" rel>Latino</a></div></div></div><div class="ksl-header-nav-group ksl-header-nav-group--level-2 ksl-header-dropdown"><a class="ksl-header-dropdown__toggle ksl-header-dropdown__toggle--with-arrow ksl-header-nav-group__head" href="//www.ksl.com/sports" rel aria-haspopup="true" aria-expanded="false"><span class="ksl-header-nav-link">Sports</span></a><div class="ksl-header-dropdown__body ksl-header-nav-group__body" role="menu"><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/sports/byu" role="menuitem" rel>BYU</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/sports/u-of-u" role="menuitem" rel>U of U</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/sports/utah-jazz" role="menuitem" rel>Utah Jazz</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/sports/usu" role="menuitem" rel>USU</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/sports/rsl" role="menuitem" rel>RSL</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/sports/prep" role="menuitem" rel>Prep</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/sports/pickem" role="menuitem" rel>Pickem</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/sports/nfl" role="menuitem" rel>NFL</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/sports/weber-state" role="menuitem" rel>Weber St.</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/sports/suu" role="menuitem" rel>SUU</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/sports/uvu" role="menuitem" rel>UVU</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/sports/stats-and-scores" role="menuitem" rel>Stats/Scores</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/sports/great-clips-of-the-week" role="menuitem" rel>Great Clips of the Week</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/sports/more" role="menuitem" rel>More</a></div></div></div><div class="ksl-header-nav-group ksl-header-nav-group--level-2 ksl-header-dropdown"><a class="ksl-header-dropdown__toggle ksl-header-dropdown__toggle--with-arrow ksl-header-nav-group__head" href="//www.ksl.com/brandview" rel aria-haspopup="true" aria-expanded="false"><span class="ksl-header-nav-link">Brandview</span></a><div class="ksl-header-dropdown__body ksl-header-nav-group__body" role="menu"><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/brandview/robert-j-debry" role="menuitem" rel>Robert J DeBry</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/brandview/u-of-u-health-care" role="menuitem" rel>U of U Health</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/brandview/mountainstar-healthcare" role="menuitem" rel>MountainStar Healthcare</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/brandview/intermountain-healthcare" role="menuitem" rel>Intermountain Healthcare</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/brandview/salt-lake-chamber" role="menuitem" rel>Salt Lake Chamber</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/brandview/mountain-america" role="menuitem" rel>Mountain America Credit Union</a></div></div></div><div class="ksl-header-nav-group ksl-header-nav-group--level-2 ksl-header-dropdown"><a class="ksl-header-dropdown__toggle ksl-header-dropdown__toggle--with-arrow ksl-header-nav-group__head" href="https://www.ksltv.com" rel aria-haspopup="true" aria-expanded="false"><span class="ksl-header-nav-link">TV</span></a><div class="ksl-header-dropdown__body ksl-header-nav-group__body" role="menu"><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://live.ksl.com" role="menuitem" rel>Watch Live</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://www.ksltv.com/meet-our-team" role="menuitem" rel>Meet Our Team</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://www.ksltv.com/category/contests/" role="menuitem" rel>Contests &amp; Promotions</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://www.ksltv.com/category/kslinvestigates/" role="menuitem" rel>KSL Investigators</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://www.ksltv.com/category/high-5/" role="menuitem" rel>High 5</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://studio5.ksl.com" role="menuitem" rel>Studio 5</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://www.ksl.com/?nid=1113&amp;sid=17217040" role="menuitem" rel>Outdoors with Adam Eakle</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://www.ksl.com/?nid=1174" role="menuitem" rel>Your Life Your Health</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://www.ksltv.com/category/wednesdays-child/" role="menuitem" rel>Wednesday's Child</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="http://www.readtoday.com" role="menuitem" rel>Read Today</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://www.ksltv.com/ksl-program-guide/" role="menuitem" rel>Program Guide</a></div></div></div><div class="ksl-header-nav-group ksl-header-nav-group--level-2 ksl-header-dropdown"><a class="ksl-header-dropdown__toggle ksl-header-dropdown__toggle--with-arrow ksl-header-nav-group__head" href="https://kslnewsradio.com" rel aria-haspopup="true" aria-expanded="false"><span class="ksl-header-nav-link">Radio</span></a><div class="ksl-header-dropdown__body ksl-header-nav-group__body" role="menu"><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://www.ksl.com/listen" role="menuitem" target="_blank" rel="noopener">Listen Live</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://kslnewsradio.com" role="menuitem" rel>Story Audio</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://kslnewsradio.com/schedule/" role="menuitem" rel>KSL Schedule</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://kslnewsradio.com/meet-our-team/" role="menuitem" rel>Meet Our Team</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://kslnewsradio.com/category/contests" role="menuitem" rel>Contests &amp; Promotions</a></div></div></div><div class="ksl-header-nav-group ksl-header-nav-group--level-2 ksl-header-dropdown"><a class="ksl-header-dropdown__toggle ksl-header-dropdown__toggle--with-arrow ksl-header-nav-group__head" href="https://live.ksl.com" rel><span class="ksl-header-nav-link">Live</span></a></div><div class="ksl-header-nav-group ksl-header-nav-group--level-2 ksl-header-dropdown"><div class="ksl-header-nav-item-new-link" aria-hidden="true">New</div><a class="ksl-header-dropdown__toggle ksl-header-dropdown__toggle--with-arrow ksl-header-nav-group__head" href="https://obituaries.ksl.com" rel aria-haspopup="true" aria-expanded="false"><span class="ksl-header-nav-link">Obituaries</span></a><div class="ksl-header-dropdown__body ksl-header-nav-group__body" role="menu"><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://obituaries.ksl.com/create-life-story" role="menuitem" rel>Create Life Story</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://obituaries.ksl.com/account" role="menuitem" rel>My Life Stories</a></div></div></div><div class="ksl-header-nav-group ksl-header-nav-group--level-2 ksl-header-dropdown"><a class="ksl-header-dropdown__toggle ksl-header-dropdown__toggle--with-arrow ksl-header-nav-group__head" href="//www.ksl.com/weather/forecast" rel aria-haspopup="true" aria-expanded="false"><span class="ksl-header-nav-link">Weather</span></a><div class="ksl-header-dropdown__body ksl-header-nav-group__body" role="menu"><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/weather/radar" role="menuitem" rel>VORTEX</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/weather/microcast" role="menuitem" rel>MicroCast</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/weather/currents" role="menuitem" rel>Current Conditions</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/weather/cameras" role="menuitem" rel>Cameras</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/weather/photoContest" role="menuitem" rel>Photo Contest</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/weather/alerts" role="menuitem" rel>Weather Alerts</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/weather/outdoorPlanner" role="menuitem" rel>Outdoor Weather Planner</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/weather/airQuality" role="menuitem" rel>Air Quality</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/weather/weatherWorks" role="menuitem" rel>Weather Works</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/weather/snowpack" role="menuitem" rel>Snowpack</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/weather/skiReport" role="menuitem" rel>Ski Report</a></div></div></div></div></div><div class="ksl-header-weather-dropdown"><div class="ksl-header-dropdown wrapper--weather-widget"><a href="https://www.ksl.com/weather/forecast" class="ksl-header-dropdown__toggle ksl-header-dropdown__toggle--with-arrow wrapper--weather-toggle" aria-expanded="false" aria-haspopup="true"><div class="weather-toggle">Loading...</div></a><div class="ksl-header-dropdown__body" aria-hidden="true"><div class="weather-widget">Loading...</div></div></div></div><div class="ksl-header-nav-group ksl-header-marketplace--noSearch ksl-header-nav-group--level-1 ksl-header-marketplace"><div class="ksl-header-nav-group__head" aria-hidden="true">Marketplace</div><div class="ksl-header-nav-group__body"><div class="ksl-header-nav-group ksl-header-nav-group--level-2 ksl-header-dropdown"><a class="ksl-header-dropdown__toggle ksl-header-dropdown__toggle--with-arrow ksl-header-nav-group__head" href="https://classifieds.ksl.com" rel aria-haspopup="true" aria-expanded="false"><span class="ksl-header-nav-link">Classifieds</span></a><div class="ksl-header-dropdown__body ksl-header-nav-group__body" role="menu"><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/myaccount/listing-classified" role="menuitem" rel>My Listings</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/myaccount/favorite-classified" role="menuitem" rel>My Favorites</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/myaccount/saved-searches-classified" role="menuitem" rel>Saved Searches</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://classifieds.ksl.com/sell" role="menuitem" rel>Create Listing</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/?nid=207" role="menuitem" rel>Support</a></div></div></div><div class="ksl-header-nav-group ksl-header-nav-group--level-2 ksl-header-dropdown"><a class="ksl-header-dropdown__toggle ksl-header-dropdown__toggle--with-arrow ksl-header-nav-group__head" href="//www.ksl.com/auto/" rel aria-haspopup="true" aria-expanded="false"><span class="ksl-header-nav-link">Cars</span></a><div class="ksl-header-dropdown__body ksl-header-nav-group__body" role="menu"><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/myaccount/listing-car" role="menuitem" rel>My Listings</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/myaccount/favorite-car" role="menuitem" rel>My Favorites</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/myaccount/saved-searches-car" role="menuitem" rel>Saved Searches</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/auto/sell" role="menuitem" rel>Create Listing</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/?nid=207" role="menuitem" rel>Support</a></div></div></div><div class="ksl-header-nav-group ksl-header-nav-group--level-2 ksl-header-dropdown"><a class="ksl-header-dropdown__toggle ksl-header-dropdown__toggle--with-arrow ksl-header-nav-group__head" href="https://homes.ksl.com" rel aria-haspopup="true" aria-expanded="false"><span class="ksl-header-nav-link">Homes</span></a><div class="ksl-header-dropdown__body ksl-header-nav-group__body" role="menu"><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/myaccount/listing-home" role="menuitem" rel>My Listings</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/myaccount/favorite-home" role="menuitem" rel>My Favorites</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://homes.ksl.com/sell/sell-choice" role="menuitem" rel>Create Listing</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/?nid=207" role="menuitem" rel>Support</a></div></div></div><div class="ksl-header-nav-group ksl-header-nav-group--level-2 ksl-header-dropdown"><a class="ksl-header-dropdown__toggle ksl-header-dropdown__toggle--with-arrow ksl-header-nav-group__head" href="https://jobs.ksl.com" rel aria-haspopup="true" aria-expanded="false"><span class="ksl-header-nav-link">Jobs</span></a><div class="ksl-header-dropdown__body ksl-header-nav-group__body" role="menu"><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/myaccount/listing-job" role="menuitem" rel>My Listings</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/myaccount/favorite-job" role="menuitem" rel>My Favorites</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="//www.ksl.com/myaccount/saved-searches-job" role="menuitem" rel>Saved Searches</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://jobs.ksl.com/edit" role="menuitem" rel>Create Listing</a></div></div></div><div class="ksl-header-nav-group ksl-header-nav-group--level-2 ksl-header-dropdown"><a class="ksl-header-dropdown__toggle ksl-header-dropdown__toggle--with-arrow ksl-header-nav-group__head" href="https://services.ksl.com" rel aria-haspopup="true" aria-expanded="false"><span class="ksl-header-nav-link">Services</span></a><div class="ksl-header-dropdown__body ksl-header-nav-group__body" role="menu"><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://services.ksl.com/merchant/locations" role="menuitem" rel>My Listings</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://classifieds.ksl.com/services/sell" role="menuitem" rel>List a Business</a></div><div class="ksl-header-nav-item ksl-header-nav-item--level-3" role="none"><a class="ksl-header-nav-link" href="https://services.ksl.com/faq" role="menuitem" rel>Support</a></div></div></div><div class="ksl-header-nav-group ksl-header-nav-group--level-2 ksl-header-dropdown"><div class="ksl-header-nav-item-beta-link" aria-hidden="true">Beta</div><a class="ksl-header-dropdown__toggle ksl-header-dropdown__toggle--with-arrow ksl-header-nav-group__head" href="https://ksl.seniorleaf.com/" rel><span class="ksl-header-nav-link">Seniors</span><span class="ksl-header-screen-reader"> (In Beta)</span></a></div></div></div><div class="ksl-header-dropdown ksl-header-account-dropdown"><span class="ksl-header-dropdown__toggle ksl-header-dropdown__toggle--with-arrow ksl-header-account-toggle"><button class="ksl-header-account-toggle__icon" aria-labelledby="ksl-header-account-label" aria-haspopup="true" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"><title id="ksl-header-account-label">account - logged out</title><path fill="#FFF" d="M354.9 224h-14.1c20.8-22.3 33.4-52.4 33.4-85.4 0-67.9-55.1-123.9-123.9-123.9s-123.9 56-123.9 123.9c0 33 12.7 63 33.4 85.4h-14.1c-45.9 0-83.5 37.6-83.5 83.5v177.2h376.4V307.6c-.1-45.9-37.8-83.6-83.7-83.6zm-190-85.3c0-46.8 38.6-85.4 85.4-85.4s85.4 38.6 85.4 85.4c0 43.5-32 79.3-73 85.4H238c-41.1-6.1-73.1-42-73.1-85.4zM399 446.2H101.6V307.6c0-24.8 20.2-44.1 44.1-44.1H355c23.9 0 44.1 19.3 44.1 44.1v138.6z"></path></svg></button></span><div class="ksl-header-dropdown__body"><div class="ksl-header-account"><div class="ksl-header-account__logged-out"><a class="ksl-header-account__login-button ksl-header-button" href="https://www.ksl.com/public/member/login">Login</a><a class="ksl-header-account__create-account-link ksl-header-link ksl-header-link--forward" href="https://www.ksl.com/public/member/new">Create Account</a></div></div></div></div></div></div><div class="ksl-header-reserved ksl-header-reserved--large"></div></div><div id="ksl-header-skip" tabIndex="-1"></div></div></div></div><div id="kslHeader"></div></div><div class="ksl-header-menu-container__content"><div class="pagebody"><div class="main_content"><div data-ksl-news-dfp-ad-id-off="mobileReskinTop" class="mobile_wrap_off"
+                 data-ksl-news-dfp-ad-footer-off></div><div class="trails"><div class="crumbs"><a href="/">News</a><span>&nbsp;/&nbsp;</span><a href="/news/us">U.S.</a></div></div><div class="story"><div class="leaderboard_ad"><div class="ksl-unclear" data-adunit data-form-factor="not-mobile"><div class="queue_ad q-spacer q-spacer__articleFixed"><div data-container-id="articleFixed" ></div></div></div></div><div class="story content"><div class="firefox_fix"><div id="anchor_pic"><div class="loader"></div><picture><source media="(max-width: 550px)"
+                                            srcset="https://img.ksl.com/slc/2780/278056/27805697.jpg?filter=ksl/responsive_top_sm"><img srcset="https://img.ksl.com/slc/2780/278056/27805697.jpg?filter=ksl/responsive_story_lg"></picture></div><h1 data-role="storyTitle">With no school, calls drop but child abuse hasn't amid virus</h1><h4><span class="author">
+                                                                    By
+                                        Amy Beth Hanson, Associated Press
+                                    |
+                                                                                                    <span>Updated</span> - Apr. 18, 2020 at 10:05 a.m.
+                                    | Posted - Apr. 18, 2020 at 9:16 a.m.
+                                                            </span></h4><div class="toolbar"><hr><div class="photoButton"><span class="camera">&#xe90f; </span><span>5<span class="long"> photos</span></span></div><script>
+          document.querySelector('.photoButton').addEventListener('click', function () {
+            document.getElementById('photo-gallery-container').scrollIntoView();
+          });
+        </script><div class="comment_bubble" id="comment_bubble"><span></span></div><script>
+        KSL.onLoad.push(function() {
+          if (kslSocialShare && kslSocialShare.props) {
+            kslSocialShare.props.title = 'With no school, calls drop but child abuse hasn&#039;t amid virus';
+            kslSocialShare.props.url = 'https://www.ksl.com/article/46742930/with-no-school-calls-drop-but-child-abuse-hasnt-amid-virus';
+            kslSocialShare.props.twitterAccount = 'KSLcom';
+          }
+        });
+    </script><ul class="social"><li><a href="" onclick="kslSocialShare.facebook(); return false;">&#xea8c;</a></li><li><a href="" onclick="kslSocialShare.twitter(); return false;">&#xea91;</a></li><li><a href="" onclick="kslSocialShare.email(true); return false;">&#xe600;</a></li><li><a href="https://www.ksl.com/article/46742930/with-no-school-calls-drop-but-child-abuse-hasnt-amid-virus?print=1" target="_blank" rel="nofollow" onclick="kslSocialShare.print();">&#xe954;</a></li></ul><hr></div><div style="clear: both;"></div><article id="kslMainArticle"><p>HELENA, Mont. (AP) — With schools closed and teachers unable to report suspected cases of abuse and neglect, child welfare agencies have lost some of their best eyes and ears during a stressful time for families who have lost jobs and are locked down together during the coronavirus pandemic.</p><p>April is Child Abuse Prevention Month, and across the country, states are reporting fewer calls to child abuse hotlines, not because officials believe there are fewer cases but because they're going unreported.</p><p>“When there are large-scale job losses in communities, child maltreatment rates go up,” said Anna Gassman-Pines, a Duke University public policy professor whose expertise includes the effect of unemployment on children. “So we all need to be thinking about, during this time of stay-at-home orders and widespread economic strain, that those are the conditions under which families with preexisting vulnerabilities might be under — a lot of increased strain and stress.”</p><p>Calls to Washington state’s child abuse hotline are down about 50%, while Montana, Oklahoma and Louisiana are reporting about a 45% reduction since schools closed last month to slow the spread of the virus. Arizona's calls are down a third compared with previous weeks, and Nevada has seen a 14% drop compared with March 2019.</p><p>“That means many children are suffering in silence,” said Darren DaRonco, spokesman for the Arizona Department of Child Safety.</p><p>Agencies are now asking others to fill in the reporting gaps that have emerged with school closures.</p><p>“Everyone, whether you’re a store clerk, a mailman, a neighbor or a relative, everyone has the responsibility of reporting child abuse,” said New Hampshire Gov. Chris Sununu, whose state has seen calls drop by half in recent weeks. “While calls have gone down, that doesn’t mean abuse has stopped.”</p><p>Ohio Gov. Mike DeWine recently echoed that sentiment, saying “we do not have enough eyes on these children” and asking “everyone else to try to be more vigilant.”</p><p>Moira O’Neill, director of New Hampshire's Office of the Child Advocate, said people being stuck at home and losing their routines likely has increased stresses that contribute to child abuse, such as economic insecurity and limited access to medical and mental health care.</p><p>Calls are increasing to domestic violence hotlines, an indication that some children may be trapped in unsafe homes, said Jill Cook, assistant director of the American School Counselor Association in Virginia.</p><p>&quot;My concern is children for whom school was a safe space are now perhaps in environments where they really don't have a lot of leverage to move or go outside or leave — that they're in unsafe environments,” Cook said.</p><p>The organization is encouraging school counselors to make sure school websites list community and national crisis hotlines.</p><p>In New Mexico, the Children, Youth and Families Department said it “is increasing communication with domestic violence shelters, youth shelters, hospitals, police, the Department of Health and other partners involved in keeping children safe.&quot;</p><p>The decrease in calls is more than the typical drop seen during the summer break, when agencies still receive reports from day care providers or other community members who interact with children.</p><p>Now, “not only are they out of school, but they are isolated from everybody else,” said Nikki Grossberg, deputy administrator of Montana’s Child and Family Services Division.</p><p>States are encouraging people to reach out to their extended families or others in their community if they are facing challenges that put children at higher risk of abuse and neglect, said Marti Vining, the Montana agency's administrator.</p><p>Vining said families that are overwhelmed can call state hotlines to get referred for help with public assistance, possible child care and a plan to help them deal with stress.</p><p>“The message that we want to get out is that the challenges that our families face, they're not going to stop just because there's a pandemic,” Vining said. “It's just really important that we all step up and do what we can to help support families that are maybe facing challenges.”</p><p>___</p><p>Associated Press reporters Holly Ramer in Concord, New Hampshire; Andrew Welsh-Huggins in Columbus, Ohio; Susan Montoya Bryan in Albuquerque, New Mexico; Bob Christie in Phoenix and Michelle Price in Las Vegas contributed to this story.</p><p><em>Copyright © The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.</em></p><!-- The Modal --><div id="modal" class="modal"><span class="modal-close">&times;</span><img class="modal-content" id="modal-image"><div id="modal-caption"></div></div><script>
+      KSL.onLoad.push(function() {
+        fitvids();
+
+        var images = document.getElementsByClassName('single_image');
+        var imageList = Array.prototype.slice.call(images);
+        var modal = document.getElementById('modal');
+        var modalImg = document.getElementById('modal-image');
+        var modalCaption = document.getElementById('modal-caption');
+        imageList.forEach( function(image) {
+          image.onclick = function() {
+            modal.style.display = 'block';
+            modalImg.src = image.getAttribute('data-modal-src');
+            modalCaption.innerHTML = image.title;
+          }
+        });
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("modal-close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal.style.display = "none";
+        };
+        modal.onclick = function() {
+          modal.style.display = "none";
+        };
+      });
+    </script><div id="articleComplete" style="height: 1px;"></div><h3>Photos</h3><div id="photo-gallery-container"></div><script>
+      KSL.onLoad.push(function () {
+        var deps = ['https://d3njgrq4uvb497.cloudfront.net/react/0bd2a901c7bb7e8529871db717a2434b-PhotoGallery.min.js'];
+        KSL.require(deps, function () {
+          console.info('Photo gallery loaded (gallery.twig)');
+
+          var adConfig = {
+            taxonomy: '/6686/ddm.ksl',
+            sections: '/News//Photos//GeneralPhotoGalleries//galleryviewmodal',
+            sizes: [
+              { size: 'xlarge', width: 969, height: 694, keyVals: [['pt', 'photoGallery'], ['pos', 'gallery']] },
+              { size: 'large', width: 728, height: 90, keyVals: [['pt', 'photoGallery'], ['pos', 'fixed']] },
+              { size: 'medium', width: 300, height: 250, keyVals: [['pt', 'photoGallery'], ['pos', 'inline2']] },
+              { size: 'small', width: 300, height: 250, keyVals: [['pt', 'photoGallery'], ['pos', 'inline2']] },
+            ],
+            timestamp: Date.now() + '' + Math.floor(Math.random() * 99999),
+          };
+
+          var images = Object([{"source":"https:\/\/img.ksl.com\/slc\/2780\/278056\/27805697.jpg","credit":"Associated Press","width":3000,"height":2002,"caption":"FILE - In this March 13, 2020 file photo, children head home after the last day of school before spring break, and eventual closure due to the coronaviurs utbreak, outside Russell Elementary School in Moscow, Idaho. With schools closed and teachers unable to report suspected cases of abuse and neglect, child welfare agencies have lost some of their best eyes and ears during a highly stressful time for families who have lost jobs and are locked down together at home. April is Child Abuse Prevention Month, but across the country, states are reporting fewer calls to child abuse hotlines, worrying child welfare officials that abuse is going unreported during the coronavirus pandemic.(Geoff Crimmins\/The Moscow-Pullman Daily News via AP, File)"},{"source":"https:\/\/img.ksl.com\/slc\/2780\/278056\/27805698.jpg","credit":"Associated Press","width":4500,"height":2998,"caption":"FILE - In this March 4, 2020 file photo, Wanda Ahasteen stops by a memorial for a 6-year-old boy in Flagstaff, Ariz. With schools closed and teachers unable to report suspected cases of abuse and neglect, child welfare agencies have lost some of their best eyes and ears during a highly stressful time for families who have lost jobs and are locked down together at home. April is Child Abuse Prevention Month, but across the country, states are reporting fewer calls to child abuse hotlines, worrying child welfare officials that abuse is going unreported during the coronavirus pandemic. (Jake Bacon\/Arizona Daily Sun via AP, File)"},{"source":"https:\/\/img.ksl.com\/slc\/2780\/278056\/27805699.jpg","credit":"Associated Press","width":4500,"height":3065,"caption":"FILE - In this April 10, 2020 file photo, Adams Elementary School third-grade teacher Lisel Corneil, left, and fifth-grade teacher Allie Campbell are among educators who constructed from plastic drinking cups a \"We Miss You All-Stars\" message to their students in a fence in Spokane, Wash. With schools closed and teachers unable to report suspected cases of abuse and neglect, child welfare agencies have lost some of their best eyes and ears during a highly stressful time for families who have lost jobs and are locked down together at home. April is Child Abuse Prevention Month, but across the country, states are reporting fewer calls to child abuse hotlines, worrying child welfare officials that abuse is going unreported during the coronavirus pandemic. (Dan Pelle\/The Spokesman-Review via AP, File)"},{"source":"https:\/\/img.ksl.com\/slc\/2780\/278057\/27805700.jpg","credit":"Associated Press","width":2464,"height":1640,"caption":"Jefferson Elementary School in Helena, Mont., is pictured on Thursday, April 16, 2020. With schools closed and teachers unable to report suspected cases of abuse, child welfare agencies have lost some of their best eyes and ears as the coronavirus pandemic strains families. States are reporting fewer calls to child abuse hotlines, not because officials believe there are fewer cases but because they're going unreported. (Thom Bridge\/Independent Record via AP)"},{"source":"https:\/\/img.ksl.com\/slc\/2780\/278057\/27805701.jpg","credit":"Associated Press","width":3710,"height":2475,"caption":"FILE - In this March 31, 2020 file photo, a child rides a scooter past barricades at an entrance to Tower Grove Park in St. Louis. The entrance to the park has been closed to vehicle traffic in an effort to give visitors on foot more room to practice social distancing and help slow the spread of the coronavirus. (AP Photo\/Jeff Roberson)"}]).map(function (img) {
+            return { url: img.source, thumbnail: img.source, caption: img.caption, credit: img.credit };
+          });
+
+          var filters = {
+            full: [
+              { min: 0, max: 550, filter: 'filter=ksl/gallery_small' },
+              { min: 551, max: 999999, filter: 'filter=ksl/gallery' },
+            ],
+            thumbnail: { filter: 'filter=ksl/gallery_thumbnail' },
+          };
+
+          ReactDOM.render(React.createElement(
+            KSL.News.UI.PhotoGallery.default, {
+              images: images,
+              adConfig: adConfig,
+              filters: filters,
+            }), document.getElementById('photo-gallery-container')
+          );
+        });
+      });
+    </script><div class="author_box"><div class="author_bio"><div style="float: left;"><span style="padding-left: 10px; font-weight: 700; font-family: raleway;">Amy Beth Hanson</span></div><div style="float: right;"><ul></ul></div></div><div style="padding-bottom: 10px; float: left; color: #333;"></div></div><div id="commentsContainer"></div><script>
+  KSL.onLoad.push(function (KSL) {
+    var deps = ['https://d3njgrq4uvb497.cloudfront.net/react/bce05cd0042aff39d459d114ebd1e5a7-Comments.min.js'];
+    KSL.require(deps, function () {
+      var API = '/api/2017/';
+      var storyId = Number('46742930');
+      var container = document.getElementById('commentsContainer');
+
+      Promise.all([
+        fetch(API + 'member/active', { credentials: 'include' }),
+        fetch(API + 'member/reauth/comments', { credentials: 'include' }),
+        fetch(API + 'comments/meta/' + storyId, { credentials: 'include' })
+      ])
+        .then(function (res) {
+          return Promise.all(res.map(function(res) {
+            return res.json()
+          }));
+        })
+        .then(function (res) {
+          const activeMember = res[0];
+          const login = res[1];
+          const meta = res[2];
+
+          const balloon = document.getElementById('comment_bubble');
+
+          if (balloon && balloon.firstElementChild) {
+            balloon.firstElementChild.textContent = meta.total;
+          }
+          var anchor = window.location.hash;
+          const props = {
+            storyId: storyId,
+            count: meta.total,
+            pending: meta.pending,
+            mustReauth: login.reauth,
+            canComment: meta.canComment,
+            loginUrl: '',
+            reauthUrl: 'https://www.ksl.com/public/member/signin?login_forward=',
+            apiBase: API + 'comments',
+            user: {
+              id: activeMember.id,
+              mod: activeMember.admin,
+            },
+            showAllComments: anchor !== "",
+            loadAds: function () {
+              KSL.news.dfp.loadAdUnits();
+            },
+          };
+//        props.user = { id: null, mod: false };
+          ReactDOM.render(React.createElement(KSL.News.UI.Comments.default, props), container);
+          // Expand comments component when comments bubble is clicked
+          if (anchor !== "") {
+              document.body.dispatchEvent(new Event('_expandComments'));
+              setTimeout(function(){
+                window.location = anchor;
+              }, 2000);
+          } else {
+            var hasExpanded = false;
+            document.getElementById('comment_bubble').addEventListener('click', function () {
+              window.commentsDisableDepth = true;
+              document.body.dispatchEvent(new CustomEvent('_expandComments/pre/bubble'));
+
+              if (!hasExpanded) {
+                hasExpanded = true;
+                document.body.dispatchEvent(new Event('_expandComments'));
+              } else {
+                document.body.dispatchEvent(new Event('_expandComments/end'));
+              }
+            });
+
+          document.body.addEventListener('_expandComments/end', function() {
+            var target = document.getElementById('commentsContainer');
+            var header = document.querySelector('.ksl-header__outer');
+            var depth = (target ? target.offsetTop : 0 ) - (header ? header.offsetHeight : 0) - 10;
+            if (depth > 0) {
+              window.scrollTo(0, depth);
+            }
+          });
+          }
+        })
+        .catch(function (err) {
+          console.log('err', err);
+        })
+    });
+  });
+</script><div class="ksl-unclear" data-adunit data-form-factor=""><div class="queue_ad q-spacer q-spacer__articleBottom"><div data-container-id="articleBottom" ></div></div></div><div id="recommendationsContainer"><div id="recommendations"><h2>More stories you may be interested in</h2><ul><li><a style="position: relative;" href="/article/46742979/kesha-andra-day-kick-off-all-star-event-fighting-covid-19"><img src="https://img.ksl.com/slc/2780/278058/27805812.jpg?filter=ksl/responsive_toppicks" /></a><h6><a href="/article/46742979/kesha-andra-day-kick-off-all-star-event-fighting-covid-19">Kesha, Andra Day kick off all-star event fighting COVID-19</a></h6></li><li><a style="position: relative;" href="/article/46742726/no-plan-in-sight-test-troubles-cloud-trump-recovery-effort"><img src="https://img.ksl.com/slc/2780/278052/27805206.jpg?filter=ksl/responsive_toppicks" /></a><h6><a href="/article/46742726/no-plan-in-sight-test-troubles-cloud-trump-recovery-effort">No plan in sight: Test troubles cloud Trump recovery effort</a></h6></li><li><a style="position: relative;" href="/article/46742820/judge-extends-zookeepers-deadline-to-challenge-convictions"><img src="https://img.ksl.com/slc/2780/278054/27805448.jpg?filter=ksl/responsive_toppicks" /></a><h6><a href="/article/46742820/judge-extends-zookeepers-deadline-to-challenge-convictions">Judge extends zookeeper&#039;s deadline to challenge convictions</a></h6></li></ul></div></div><div class="ksl-unclear" data-adunit data-form-factor=""><div class="queue_ad q-spacer q-spacer__articleWordCount"><div data-container-id="articleWordCount" ></div></div></div></article></div></div><div class="right"><div id="video-companion-2" class="video-companion"></div><div class="ksl-unclear" data-adunit data-form-factor=""><div class="queue_ad q-spacer q-spacer__articleMonster"><div data-container-id="articleMonster" ></div></div></div><div style="clear: both;"></div><div id="list_read" class="mostpopularlist "><h3>Most Viewed</h3><ol><li class="nocontent"><a href="/article/46742926/police-id-husband-wife-killed-by-intruder-overnight-in-west-jordan">
+                            Police ID husband, wife killed by intruder overnight in West Jordan
+                                                    </a></li><li class="nocontent"><a href="/article/46742853/business-leaders-divided-over-salt-lake-city-rally">
+                            Business leaders divided over Salt Lake City rally
+                                                    </a></li><li class="nocontent"><a href="/article/46742954/2-new-deaths-126-new-covid-19-cases-reported-saturday">
+                            2 new deaths, 126 new COVID-19 cases reported Saturday
+                                                    </a></li><li class="nocontent"><a href="/article/46742855/coronavirus-updates-126-new-cases-reported-saturday">
+                            Coronavirus updates: 126 new cases reported Saturday
+                                                    </a></li><li class="nocontent"><a href="/article/46742518/small-window-cleaning-business-now-offering-free-grocery-delivery-sanitation">
+                            Small window-cleaning business now offering free grocery delivery, sanitation
+                                                    </a></li><li class="nocontent"><a href="/article/46742515/coronavirus-updates-trump-pushes-states-to-lift-restrictions-projection-says-utah-should-wait-until-june">
+                            Coronavirus updates: Trump pushes states to lift restrictions; projection says Utah should wait until June
+                                                    </a></li><li class="nocontent"><a href="/article/46742863/many-utah-state-parks-back-in-business-for-all-herbert-says">
+                            Many Utah state parks back in business for all, Herbert says
+                                                    </a></li><li class="nocontent"><a href="/article/46742876/governors-feel-heat-to-reopen-from-protesters-president">
+                            Governors feel heat to reopen from protesters, president
+                                                    </a></li><li class="nocontent"><a href="/article/46742646/utah-leaders-look-to-loosen-restrictions-by-the-start-of-may-heres-a-look-inside-their-plan">
+                            Utah leaders look to loosen restrictions by the start of May. Here&#039;s a look inside their plan
+                                                    </a></li><li class="nocontent"><a href="/article/46742948/have-you-seen-this-doggy-best-friends-show-us-our-post-coronavirus-future">
+                            Have You Seen This? Doggy best friends show us our post-coronavirus future
+                                                    </a></li></ol></div><div class="ksl-unclear" data-adunit data-form-factor=""><div class="queue_ad q-spacer q-spacer__articleBlock"><div data-container-id="articleBlock" ></div></div></div><div class="mostpopularlist" style="overflow: hidden;"><h3>KSL Weather Forecast </h3><div id="weather-forecast" class="ksl-finger position-rel__10"><img src="https://media.ksl.com/weather-300x168.jpg" style="width: 100%;"><div id="weather-forecast-load" class="txt-loader" style="padding-top: 1em; display: none;">Loading...</div><div id="weather-forecast-play" style="position: absolute; left: 39.5%; top: 43%; width: 19.5% !important;"><picture><source srcset="//static.ksl.com/images/autoplay_icon.svg" type="image/svg+xml"><img src="//static.ksl.com/images/autoplay_icon_lg.png" style="cursor: pointer"></picture></div></div><div id="weather-forecast-container" style="display: none;"></div><div id="weatherForecastCompanion" style="margin-top: 20px;"></div></div><script>
+    KSL.onLoad.push(function(){
+        var configWx = Object({"thumbnail":"https:\/\/media.ksl.com\/weather-300x168.jpg","image":"https:\/\/media.ksl.com\/weather.jpg","url":"https:\/\/media.ksl.com\/weather.mp4","autostart":false,"preferFlash":false,"showAds":true,"adClient":"googima","captions":"https:\/\/media.ksl.com\/weather.srt","prerollAdTag":"https:\/\/pubads.g.doubleclick.net\/gampad\/ads?sz=1x1000&iu=\/6686\/ddm.ksl\/News\/\/U.S.&ciu_szs=300x250&cust_params=v%3Dnews%26cc%3Dnationalstories%26pt%3Darticle%26stca%3Dweather%26videotype%3Dpreroll%26videosource%3Dksl&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&correlator=1587259892","postrollAdTag":"https:\/\/pubads.g.doubleclick.net\/gampad\/ads?sz=1x1000&iu=\/6686\/ddm.ksl\/News\/\/U.S.&ciu_szs=300x250&cust_params=v%3Dnews%26cc%3Dnationalstories%26pt%3Darticle%26stca%3Dweather%26videotype%3Dpostroll%26videosource%3Dksl&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&correlator=1587259892","companionAd":{"id":"weatherForecastCompanion","width":300,"height":250}});
+        var $containerWx = $('#weather-forecast-container');
+        var $placeholderWx = $('#weather-forecast');
+        var $btnPlayWx = $('#weather-forecast-play');
+        var $loaderWx = $('#weather-forecast-load');
+
+        configWx.mount = $containerWx.attr('id');
+        configWx.containerId = configWx.mount;
+        kslEventBus.on('onVideoBeforePlay', function(event) {
+            if (event.video.containerId === configWx.mount) {
+                $placeholderWx.remove();
+//                $container.show();
+            }
+        });
+
+        $placeholderWx.on('click', function() {
+            $placeholderWx.find('img').css({ opacity: 0.5 });
+            $btnPlayWx.hide();
+            $loaderWx.show();
+            kslEventBus.emit('loadWxVideo', { config: configWx, video: configWx });
+        });
+    });
+</script></div></div></div></div><script>
+      KSL.onLoad.push(function() {
+        (function() {
+          scrolldepth.init({
+            elements: ['#articleComplete'],
+            percentage: false,
+            userTiming: false,
+            pixelDepth: false,
+            eventHandler: function(data) {
+              kslEventBus.emit(kslEventBus.eventTypes.reachedWaypoint, {
+                action: 'Article Complete',
+                label: '|46742930'
+              });
+
+              myStorage = window.sessionStorage;
+              var key = myStorage.getItem('ksl-article-click');
+              var purchase = {"actionField":{"id":46742930,"affiliation":"associated_press|","revenue":"Not Specified","tax":"Not Specified","shipping":"Not Specified","coupon":"article complete"},"products":[{"name":"With no school, calls drop but child abuse hasn't amid virus","id":46742930,"price":"Not Specified","brand":"KSL.com - News\/Content","category":"News|U.S.","variant":"associated_press|","quantity":1,"coupon":"article complete"}]};
+              var storyId = 46742930;
+              purchase.actionField.id = purchase.actionField.id + '|' + window.ddmPageviewId;
+              if (key !== null) {
+                var array = key.split('::');
+                if (parseInt(array[0], 0) === storyId) {
+                  purchase.actionField.affiliation = array[1];
+                  purchase.products[0].id = array[0];
+                  purchase.products[0].variant = array[1];
+                  purchase.products[0].category = array[2];
+                  kslEventBus.emit(kslEventBus.eventTypes.purchase, purchase);
+                }
+                myStorage.removeItem('ksl-article-click');
+              }
+            }
+          });
+        }());
+      });
+</script><div class="footer"><div class="container"><div class="inside"><div class="top"><a href="/"><picture class="KSLlogo"><source srcset="https://static.ksl.com/beta/node_modules/ksl-responsive-header/dist/51d664bc63e53f2a4398cf2601a38704.svg" alt="Small KSL.com Logo" type="image/svg+xml"><!--[if lt IE 9]><img src="https://static.ksl.com/graphics/KSL_logo.png"   /><![endif]--><!--[if !lt IE 9]> --><img data-srcset="https://static.ksl.com/graphics/KSL_logo.png" ><!-- <![endif]--></picture></a><div class="main_links"><a href="https://www.ksl.com/?sid=17920249&nid=250">Mobile Apps</a> | <a href="http://ads.ksl.com/">Advertise</a> | <a href="https://www.ksl.com/?sid=15956469&nid=322">Feedback</a> | <a href="https://www.ksl.com/?nid=205">Contact Us</a> | <a href="http://deseretdigital.com/jobs">Careers with KSL.com</a></div></div><div class="legal"><a href="https://www.ksl.com/?sid=95313&nid=250">Terms of use</a> | <a href="https://www.ksl.com/?nid=250&sid=95314">Privacy Statement</a> | <a href="https://www.ksl.com/?nid=250&sid=95315">DMCA Notice</a> | <a href="https://www.ksl.com/eeo/EEO_Public_File.pdf">EEO Public File Report</a> | <a href="https://publicfiles.fcc.gov/tv-profile/ksl-tv">KSL-TV FCC Public File</a> | <a href="https://publicfiles.fcc.gov/fm-profile/ksl-fm">KSL FM Radio FCC Public File</a> | <a href="https://publicfiles.fcc.gov/am-profile/ksl">KSL AM Radio FCC Public File</a> | <a href="https://www.ksl.com/?sid=10021371&nid=250">Closed Captioning Assistance</a></div><div class="copyright">&copy; 2020 <span id="gpt-click-target">KSL.com</span> |  KSL Broadcasting  Salt Lake City UT   |  Site hosted &amp; managed by <a href="http://deseretdigital.com/">Deseret Digital Media</a>  -  a <a href="http://deseretmediacompanies.com/">Deseret Media Company</a>&nbsp;&nbsp;</div></div></div></div><div class="ksl-unclear" data-adunit data-form-factor="mobile-only" data-teleportation="nodeFixed"><div class="nodeAction" style="display: none"><button class="nodeClose">X</button></div><div class="nodeContent fixed_ad"><div class="queue_ad" data-container-id="articleFixed"></div></div></div></div></div><script>
+  var _GDPR_ = !!'';
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  if (_GDPR_ !== true) {
+    (function() {
+      var openx = document.createElement("script");
+      openx.async = true;
+      openx.type = "text/javascript";
+      var useSSL = "https:" == document.location.protocol;
+      openx.src = (useSSL ? "https:" : "http:") + '//ksl-d.openx.net/w/1.0/jstag?nc=6686-KSL_News';
+      var node = document.getElementsByTagName("script")[0];
+      node.parentNode.insertBefore(openx, node);
+    })();
+  }
+
+  (function() {
+    var gads = document.createElement("script");
+    gads.async = true;
+    gads.type = "text/javascript";
+    var useSSL = "https:" == document.location.protocol;
+    gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+    var node = document.getElementsByTagName("script")[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script><script>
+  KSL.onLoad.push(function(KSL) {
+    var adsConfigs = Object({"firstView":[{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"fixed","size":[[320,50]],"breakPoints":{"min":"0","max":"550"}},{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"top","size":[[300,250]],"breakPoints":{"min":"551","max":"729"}},{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"top","size":[[970,90],[728,90],[970,250]],"breakPoints":{"min":"991","max":"1083"}},{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"top","size":[[300,250],[728,90]],"breakPoints":{"min":"730","max":"990"}},{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"top","size":[[728,90],[970,90],[970,250],[1084,250]],"breakPoints":{"min":"1084","max":"9999999"}}],"secondView":[{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"inline","size":[[320,50],[300,250],[320,100]],"breakPoints":{"min":"0","max":"550"}},{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"inline","size":[[300,250]],"breakPoints":{"min":"551","max":"990"}},{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"top2","size":[[728,90],[970,90],[970,250]],"breakPoints":{"min":"991","max":"99999"}}],"thirdView":[{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"top3","size":[[728,90],[970,90],[970,250]],"breakPoints":{"min":"991","max":"99999"}},{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"inline2","size":[[300,250]],"breakPoints":{"min":"551","max":"729"}},{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"inline2","size":[[320,50],[300,250],[320,100]],"breakPoints":{"min":"0","max":"550"}},{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"inline2","size":[[300,250],[728,90]],"breakPoints":{"min":"730","max":"990"}}],"articleFixed":[{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"fixed","size":[[320,50]],"breakPoints":{"min":"0","max":"729"}},{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"top","size":[[728,90],[970,90]],"breakPoints":{"min":"991","max":"99999"}},{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"top","size":[[728,90]],"breakPoints":{"min":"730","max":"990"}}],"articleWidget":[{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"hp","size":[[300,125]],"breakPoints":{"min":"991","max":"99999"}}],"articleMonster":[{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"right","size":[[300,600],[300,250]],"breakPoints":{"min":"850","max":"99999"}}],"articleBlock":[{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"right2","size":[[300,600],[300,250]],"breakPoints":{"min":"850","max":"99999"}}],"articleWordCount":[{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"inarticle","size":[[300,250]],"breakPoints":{"min":"551","max":"99999"}},{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"inline","size":[[300,250]],"breakPoints":{"min":"0","max":"349"}},{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"inarticle","size":[[300,250],[320,50]],"breakPoints":{"min":"350","max":"550"}}],"articleBottom":[{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"inline","size":[[620,300]],"breakPoints":{"min":"1101","max":"99999"}},{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"inline","size":[[300,300]],"breakPoints":{"min":"0","max":"1100"}}],"commentBlock":[{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"inline_comments","size":[[300,250]],"breakPoints":{"min":"0","max":"99999"}}],"mobileReskinTop":[{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"mobw1","size":[[320,100]],"breakPoints":{"min":"0","max":"550"}},{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"tabw1","size":[[300,100]],"breakPoints":{"min":"551","max":"1024"}}],"mobileReskinBottom":[{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"mobw2","size":[[320,100]],"breakPoints":{"min":"0","max":"550"}},{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"tabw2","size":[[300,100]],"breakPoints":{"min":"551","max":"1024"}}],"mobileGallery":[{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"inline","size":[[300,250]],"breakPoints":{"min":"0","max":"99999"}}],"footer":[{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"fixed","size":[[320,50]],"breakPoints":{"min":"0","max":"550"}},{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"Article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"top","size":[[300,250]],"breakPoints":{"min":"551","max":"729"}}],"leftTakeover":[{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"leftTakeover","size":[[510,1109]],"breakPoints":{"min":"1097","max":"99999"}}],"rightTakeover":[{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"article-id","value":"46742930"},{"key":"pt","value":"article"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"rightTakeover","size":[[510,1109]],"breakPoints":{"min":"1097","max":"99999"}}],"test-ad":[{"taxonomy":"\/6686\/ddm.ksl\/News\/\/U.S.","targetings":[{"key":"article-id","value":"46742930"},{"key":"pt","value":"article"},{"key":"v","value":"news"},{"key":"cc","value":"nationalstories"},{"key":"stca","value":"null"},{"key":"author","value":"amybethhanson,associatedpress"}],"pos":"test-ad","size":[[300,250]],"breakPoints":{"min":"1097","max":"99999"}}]});
+    KSL.news.dfp.loadAdUnits(adsConfigs, !!'');
+  });
+</script><script>
+  KSL.onLoad.push(function() {
+    var _user_id = '0';
+    var _session_id = '';
+    var _sift = window._sift = window._sift || [];
+    _sift.push(['_setAccount', '46e0e4c3e4']);
+    _sift.push(['_setUserId', _user_id]);
+    _sift.push(['_setSessionId', _session_id]);
+    _sift.push(['_trackPageview']);
+    (function() {
+      function ls() {
+        var e = document.createElement('script');
+        e.src = 'https://cdn.siftscience.com/s.js';
+        document.body.appendChild(e);
+      }
+
+      if (window.attachEvent) {
+        window.attachEvent('onload', ls);
+      } else {
+        window.addEventListener('load', ls, false);
+      }
+    })();
+  });
+</script><script>
+  var _GDPR_ = !!'';
+  if (_GDPR_ !== true) {
+    KSL.onLoad.push(function() {
+      (function() {
+        var adl = document.createElement('script');
+        adl.type = 'text/javascript';
+        adl.defer = true;
+        adl.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'tagan.adlightning.com/deseretdigital/op.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(adl, s);
+      })();
+    });
+  }
+</script><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TVLZ5Z" height="0" width="0"
+                style="display:none;visibility:hidden"></iframe></noscript><script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          'gtm.start': new Date().getTime(),
+          event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'kslDataLayer', 'GTM-TVLZ5Z');
+    </script><!-- End Google Tag Manager --><script>
+      var tempDataLayer = Object({"brandDetails":{"entity":"KSL.com - News\/Content","objective":"Content"},"event":"data-layer-initialized","sessionDetails":{"loginState":false,"loginMethod":"traditional"},"userDetails":{"userId":null,"regDate":null},"pageDetails":{"siteVersionNumber":"1.0","author":"Amy Beth Hanson, Associated Press","contentId":46742930,"pubDate":"2020-04-18T09:16:25-06:00","updatedDate":"2020-04-18T10:05:28-06:00","topic":"","wordCount":713,"source":"associated_press","template":"Article","team":"","previousUrl":"not specified","contentGrouping1":"News","contentGrouping2":"U.S."}});
+      tempDataLayer.pageDetails = tempDataLayer.pageDetails || {};
+      tempDataLayer.pageDetails.ddmHitID = window.ddmPageviewId;
+      tempDataLayer.pageDetails.ddmDeviceID = window.ddmDeviceId;
+      tempDataLayer.sessionDetails = tempDataLayer.sessionDetails || {};
+      tempDataLayer.sessionDetails.ddmSessionID = window.ddmSessionId;
+      kslDataLayer.push(tempDataLayer);
+    </script><script src="//static.ksl.com/javascript/jwplayer/8.0.13/jwplayer.js"></script><script>KSL.onLoad.push(function() { jwplayer.key = "GXFWFbJSSnG5YzqqtWKsORsOxEV2V5lCyYVlmw==" });</script><script>
+      (function() {
+        var deps = ['https://d3njgrq4uvb497.cloudfront.net/app--ksl-843b.js'];
+        if (!navigator.userAgent.match(/\schrome\//i)) {
+          deps.push('https://cdn.polyfill.io/v2/polyfill.min.js?features=default,fetch');
+        }
+
+        KSL.require(deps, function() {
+          console.log('Main bundle loaded (base.twig)');
+        });
+      }());
+    </script><!-- tmpl: article --></body></html>

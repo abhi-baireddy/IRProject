@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"54db1a61c9",applicationID:"187794457"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>California coronavirus updates: The latest on the pandemic | CalMatters</title>
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v13.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Our latest coverage on California’s response to the coronavirus pandemic and how COVID-19 is affecting the residents and economy of the Golden State."/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://calmatters.org/category/health/coronavirus/" />
+<link rel="next" href="https://calmatters.org/category/health/coronavirus/page/2/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="object" />
+<meta property="og:title" content="California coronavirus updates: The latest on the pandemic" />
+<meta property="og:description" content="Our latest coverage on California’s response to the coronavirus pandemic and how COVID-19 is affecting the residents and economy of the Golden State." />
+<meta property="og:url" content="https://calmatters.org/category/health/coronavirus/" />
+<meta property="og:site_name" content="CalMatters" />
+<meta property="og:image" content="https://calmatters.org/wp-content/uploads/sites/2/2020/02/Coronavirus_illustration.jpg?fit=2000%2C1330" />
+<meta property="og:image:secure_url" content="https://calmatters.org/wp-content/uploads/sites/2/2020/02/Coronavirus_illustration.jpg?fit=2000%2C1330" />
+<meta property="og:image:width" content="2000" />
+<meta property="og:image:height" content="1330" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Our latest coverage on California’s response to the coronavirus pandemic and how COVID-19 is affecting the residents and economy of the Golden State." />
+<meta name="twitter:title" content="California coronavirus updates: The latest on the pandemic" />
+<meta name="twitter:site" content="@CalMatters" />
+<meta name="twitter:image" content="https://calmatters.org/wp-content/uploads/sites/2/2020/02/Coronavirus_illustration.jpg" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://calmatters.org/#organization","name":"CalMatters","url":"https://calmatters.org/","sameAs":["https://www.facebook.com/calmatters/","https://www.instagram.com/calmatters/","https://www.linkedin.com/company/calmatters/","https://www.youtube.com/channel/UCNQv9nDu2_r5zbgtUQungeA","https://twitter.com/CalMatters"],"logo":{"@type":"ImageObject","@id":"https://calmatters.org/#logo","inLanguage":"en-US","url":"https://calmatters.org/wp-content/uploads/sites/2/2019/07/calmattersocial.png?fit=720%2C720","width":720,"height":720,"caption":"CalMatters"},"image":{"@id":"https://calmatters.org/#logo"}},{"@type":"WebSite","@id":"https://calmatters.org/#website","url":"https://calmatters.org/","name":"CalMatters","inLanguage":"en-US","description":"California, explained","publisher":{"@id":"https://calmatters.org/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://calmatters.org/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"CollectionPage","@id":"https://calmatters.org/category/health/coronavirus/#webpage","url":"https://calmatters.org/category/health/coronavirus/","name":"California coronavirus updates: The latest on the pandemic | CalMatters","isPartOf":{"@id":"https://calmatters.org/#website"},"inLanguage":"en-US","description":"Our latest coverage on California\u2019s response to the coronavirus pandemic and how COVID-19 is affecting the residents and economy of the Golden State."}]}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//www.googletagservices.com' />
+<link rel='dns-prefetch' href='//use.typekit.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="CalMatters &raquo; Feed" href="https://calmatters.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="CalMatters &raquo; Comments Feed" href="https://calmatters.org/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="CalMatters &raquo; Coronavirus Category Feed" href="https://calmatters.org/category/health/coronavirus/feed/" />
+<link rel='stylesheet' id='all-css-0' href='https://calmatters.org/_static/??-eJx1zssKwkAMBdAfchpctI4L8VumadDRzINJSunfG18IoquEkHu4sFQXM/I8kQCKwBRFYeSCV8dxbKGtILoydSnmzh42YAksWSkrVJ5PMQsQB9GItdFbuFPNzkqTq0VU3NN8WPIT0zMlK2Ej0yK1lQuhfrT/LV5BDJyCKjX5Dtl2TIdt7/vB7we/uwHjPVvZ' type='text/css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='typekit-css'  href='https://use.typekit.net/ygp0rqq.css?ver=0.1.169' media='all' />
+<link rel='stylesheet' id='all-css-2' href='https://calmatters.org/_static/??-eJyNjNEKwjAQBH/I9KpS6ov4LeG8hmiSBndD8e+tUl/Ft4HdGVmq07nQCqWmFmKBWPJg1PowQK4RFF3BN85oIRjowGcydDmWbp128ndk8mrELz83903cjNXr/SNu/L5f8nk/nMZ+OPbj4QX7mUfw' type='text/css' media='all' />
+<script>
+var uaWnSettings = {"prompt":{"enabled":false,"prompt_views":1,"prompt_again_views":1}};
+</script>
+<script type='text/javascript' src='https://calmatters.org/_static/??-eJx9jcEKwjAQRH/IbfDQGg/it6RxbTck25jdpfj3BlHwJAw8GB4zbq9AHLPdUFzqeRi25wdDkoP7J0ChpQXFoRB/5bixIquLmTqgGNRsC7E4a3NgCNRkpQo7zlBNVuBN6U4xKG1dCiKo76ffvo9fy+U4+nHy58mf0gs7YkSN'></script>
+<script src='https://www.googletagservices.com/tag/js/gpt.js?ver=0.1.794'></script>
+<script>
+var tnpData = {"ad_zone":"calmatters","error_email_invalid":"You have entered an invalid email","error_missing_status":"Response missing email_status","gtmIDs":[{"gtm_id":"GTM-WJSBCB4"},{"gtm_id":"GTM-TXQ3CH7"}],"subscribed":"Thanks for subscribing!"};
+</script>
+<script type='text/javascript' src='https://calmatters.org/wp-content/themes/thenewsproject/assets/js/frontend/google-ad-manager.js?m=1572473362g'></script>
+<link rel='https://api.w.org/' href='https://calmatters.org/wp-json/' />
+<style type='text/css'>img#wpstats{display:none}</style><link rel='manifest' href='https://calmatters.org/wp-content/themes/calmatters/manifest.json' /><link rel="icon" href="https://calmatters.org/wp-content/uploads/sites/2/2019/07/cropped-cropped-calmatters-favicon.png?fit=32%2C32" sizes="32x32" />
+<link rel="icon" href="https://calmatters.org/wp-content/uploads/sites/2/2019/07/cropped-cropped-calmatters-favicon.png?fit=192%2C192" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://calmatters.org/wp-content/uploads/sites/2/2019/07/cropped-cropped-calmatters-favicon.png?fit=180%2C180" />
+<meta name="msapplication-TileImage" content="https://calmatters.org/wp-content/uploads/sites/2/2019/07/cropped-cropped-calmatters-favicon.png?fit=270%2C270" />
+</head>
+<body class="archive category category-coronavirus category-28393 wp-custom-logo">
+	<a href="#content" class="screen-reader-text skip-link">Skip to Main Content</a>
+		<div class="site">
+		<header class="container -header" role="banner">
+			<div class="navigation-utility">
+	<nav role="navigation" class="nav-trending" aria-label="Trending Navigation">
+
+	<div class="innerwrap">
+
+		<h2 class="heading">Trending <svg role="img" class="icon icon--trending" aria-label="trending"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#trending"></use></svg></h2>
+
+		<ul id="menu-top-trending" class="topics"><li id="menu-item-105092" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-105092"><a href="https://calmatters.org/category/health/coronavirus/" aria-current="page">Coronavirus Coverage</a></li>
+<li id="menu-item-105405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105405"><a href="https://calmatters.org/health/2020/03/california-coronavirus-gavin-newsom-senior-citizens-chronic-illness/">Coronavirus FAQ</a></li>
+<li id="menu-item-105407" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105407"><a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-covid-patient-hospitalization-data-icu/">Tracking Hospitalizations</a></li>
+<li id="menu-item-105406" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105406"><a href="https://calmatters.org/projects/corona-on-campus/">Corona on Campus</a></li>
+<li id="menu-item-105408" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105408"><a href="https://calmatters.org/health/coronavirus/2020/03/coronavirus-mental-health-tips-therapists-california/">Mental Health and Coronavirus</a></li>
+</ul>
+	</div>
+
+</nav><!--/.nav-trending-->
+
+<nav role="navigation" class="nav-bar" aria-label="Modal Navigation">
+
+	
+	<ul class="nav-action">
+		<li><button class="login" id="piano-login">Log in</button></li>
+				<li><a href="https://calmatters.org/subscribe-to-calmatters/" class="subscribe">Subscribe</a></li>
+			</ul>
+
+	
+	
+<div class="nav-search" itemscope itemtype="http://schema.org/WebSite">
+	<link itemprop="url" href="https://calmatters.org/" />
+	<meta itemprop="url" content="https://calmatters.org/" />
+
+	<button type="button" class="togglesearch" aria-controls="search" aria-expanded="false"><svg role="img" class="icon icon--search" aria-label="search"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#search"></use></svg><span class="screen-reader-text">Toggle Search</span></button>
+
+	<form role="search" class="search" id="search" aria-hidden="false" action="https://calmatters.org/" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+		<meta itemprop="target" content="https://calmatters.org/?s={s}" />
+
+		<div class="focus-label">
+			<input itemprop="query-input" class="searchinput" id="q" type="text" value="" name="s">
+			<label class="searchformlabel" aria-hidden="true" id="q-label" for="q">Search...</label>
+
+			<button class="submit" type="submit"><span class="searchicon"><svg role="img" class="icon icon--search" aria-label="search"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#search"></use></svg></span><span class="submitsearch"><svg role="img" class="icon icon--chevron-right" aria-label="chevron-right"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#chevron-right"></use></svg></span><span class="screen-reader-text">Submit Search</span></button>
+		</div>
+
+	</form>
+
+</div>
+
+</nav><!--/.nav-bar-->
+</div>
+
+<div class="nav" id="nav">
+	<div class="nav-main">
+
+		<div class="innerwrap">
+			<h1 class="logo">
+				<a href="https://calmatters.org">
+					<img src="https://calmatters.org/wp-content/uploads/sites/2/2019/07/calmatters-logo_2x.png?fit=488%2C82" alt="Logo of CalMatters">
+				</a>
+			</h1>
+
+			<button type="button" id="menu-trigger" aria-controls="nav" aria-expanded="true">
+				<span class="screen-reader-text">
+					Menu				</span>
+			</button>
+
+			<nav class="nav-list"><ul id="menu-main-navigation" class="menu"><li id="menu-item-32" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-32"><a href="https://calmatters.org/category/politics/" aria-haspopup="true">Politics</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-30" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-30"><a href="https://calmatters.org/category/immigration/">Immigration</a></li>
+	<li id="menu-item-29" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29"><a href="https://calmatters.org/category/housing/">Housing</a></li>
+	<li id="menu-item-80106" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80106"><a href="https://calmatters.org/category/blogs/election-2018/">Election 2018</a></li>
+	<li id="menu-item-80107" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80107"><a href="https://calmatters.org/category/blogs/california-election-2020/">Election 2020</a></li>
+	<li id="menu-item-80112" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80112"><a href="https://calmatters.org/category/blogs/donald-trump/">Resistance State</a></li>
+	<li id="menu-item-80110" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80110"><a href="https://calmatters.org/category/blogs/inside-california-capitol/">Inside the Capitol</a></li>
+	<li id="menu-item-81256" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-81256"><a href="https://calmatters.org/category/newsletters/whatmatters/">WhatMatters</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/commentary/earlier-california-presidential-primary-succeeded-on-many-levels/" class="article "><div class="thumb"><img width="453" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/030320_voting_AW_12.jpg?fit=453%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Earlier California presidential primary succeeded on many levels" /></div><div class="content"><h4 class="title">Trending in Politics</h4><p>Earlier California presidential primary succeeded on many levels</p></div></a><a href="https://calmatters.org/politics/california-legislature/2020/04/california-senate-hearing-coronavirus-budget-oversight/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_pool_CoronavirusOversight_06.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="California senators frustrated by few answers,  tech glitches in virtual hearing on coronavirus spending" /></div><div class="content"><h4 class="title">Trending in Politics</h4><p>California senators frustrated by few answers,  tech glitches in virtual hearing on coronavirus spending</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-25" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-25"><a href="https://calmatters.org/category/economy/" aria-haspopup="true">Economy</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-93825" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-93825"><a href="https://calmatters.org/category/california-divide/">California Divide</a></li>
+	<li id="menu-item-80254" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80254"><a href="https://calmatters.org/category/economy/california-pension-crisis/">California&#8217;s Pension Crisis</a></li>
+	<li id="menu-item-33" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-33"><a href="https://calmatters.org/category/poverty/">Poverty</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/commentary/your-next-boss-could-be-an-undocumented-immigrant-as-a-growing-number-of-founders-lack-legal-status/" class="article "><div class="thumb"><img width="460" height="276" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/startup-business.jpg?fit=460%2C276" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Your next boss could be an undocumented immigrant; growing number of business founders lack legal status" /></div><div class="content"><h4 class="title">Trending in Economy</h4><p>Your next boss could be an undocumented immigrant; growing number of business founders lack legal status</p></div></a><a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-task-force-economy/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_taskforce_01.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="A-list business and union leaders combine to help steer California&#8217;s economic recovery" /></div><div class="content"><h4 class="title">Trending in Economy</h4><p>A-list business and union leaders combine to help steer California&#8217;s economic recovery</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-26" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-26"><a href="https://calmatters.org/category/education/" aria-haspopup="true">Education</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-108634" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108634"><a href="https://calmatters.org/projects/corona-on-campus/">Corona on Campus</a></li>
+	<li id="menu-item-90222" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-90222"><a href="https://calmatters.org/category/education/disaster-days-school-closures-california-wildfire-guns-outage-flood/">Disaster Days</a></li>
+	<li id="menu-item-80256" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80256"><a href="https://calmatters.org/category/education/k-12-education/">K-12 Education</a></li>
+	<li id="menu-item-80255" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80255"><a href="https://calmatters.org/category/education/higher-education/">Higher Education</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/education/higher-education/2020/04/uc-graduate-students-online-strike-coronavirus-pandemic-california/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/02/022120_UCDavisCola_AW_sized_03.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="How do you hold a strike online? UC teaching assistants are finding out" /></div><div class="content"><h4 class="title">Trending in Education</h4><p>How do you hold a strike online? UC teaching assistants are finding out</p></div></a><a href="https://calmatters.org/commentary/pandemic-reveals-need-for-schools-to-utilize-technology-for-online-classrooms/" class="article "><div class="thumb"><img width="339" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/online-classes-distance-learning.jpg?fit=339%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Pandemic reveals need for schools to utilize technology for online classrooms" /></div><div class="content"><h4 class="title">Trending in Education</h4><p>Pandemic reveals need for schools to utilize technology for online classrooms</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-27" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-27"><a href="https://calmatters.org/category/environment/" aria-haspopup="true">Environment</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-80257" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80257"><a href="https://calmatters.org/category/environment/building-efficiency/">Building Efficiency</a></li>
+	<li id="menu-item-80258" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80258"><a href="https://calmatters.org/category/environment/climate-change/">Climate Change</a></li>
+	<li id="menu-item-80259" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80259"><a href="https://calmatters.org/category/environment/frayed-wires/">Frayed Wires</a></li>
+	<li id="menu-item-80260" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80260"><a href="https://calmatters.org/category/environment/rising-seas/">Rising Seas</a></li>
+	<li id="menu-item-80261" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80261"><a href="https://calmatters.org/category/environment/water/">Water</a></li>
+	<li id="menu-item-80262" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80262"><a href="https://calmatters.org/category/environment/california-wildfires/">California Wildfires</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/commentary/california-water-policies-inhibit-food-production-by-valley-farmers/" class="article "><div class="thumb"><img width="460" height="246" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/California-aquaduct.jpg?fit=460%2C246" class="attachment-medium-rec size-medium-rec wp-post-image" alt="California water policies inhibit food production by Valley farmers" /></div><div class="content"><h4 class="title">Trending in Environment</h4><p>California water policies inhibit food production by Valley farmers</p></div></a><a href="https://calmatters.org/commentary/its-time-to-protect-californias-mountain-lions/" class="article "><div class="thumb"><img width="460" height="259" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/mountain-lion.jpg?fit=460%2C259" class="attachment-medium-rec size-medium-rec wp-post-image" alt="It’s time to protect California’s mountain lions" /></div><div class="content"><h4 class="title">Trending in Environment</h4><p>It’s time to protect California’s mountain lions</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-28" class="menu-item menu-item-type-taxonomy menu-item-object-category current-category-ancestor current-menu-ancestor current-menu-parent menu-item-has-children menu-item-28"><a href="https://calmatters.org/category/health/" aria-haspopup="true">Health</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-105093" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-105093"><a href="https://calmatters.org/category/health/coronavirus/">Coronavirus</a></li>
+	<li id="menu-item-80263" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80263"><a href="https://calmatters.org/category/health/breakdown-mental-health/">Breakdown: Mental Health</a></li>
+	<li id="menu-item-80264" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80264"><a href="https://calmatters.org/category/health/drug-costs/">Drug Costs</a></li>
+	<li id="menu-item-80265" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80265"><a href="https://calmatters.org/category/health/wellness/">Wellness</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/health/coronavirus/2020/04/newsom-cities-blocking-hotels-for-homeless-will-be-judged-by-history/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Newsom: Cities blocking hotels for homeless will be &#8216;judged&#8217; by history" /></div><div class="content"><h4 class="title">Trending in Health</h4><p>Newsom: Cities blocking hotels for homeless will be &#8216;judged&#8217; by history</p></div></a><a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-task-force-economy/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_taskforce_01.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="A-list business and union leaders combine to help steer California&#8217;s economic recovery" /></div><div class="content"><h4 class="title">Trending in Health</h4><p>A-list business and union leaders combine to help steer California&#8217;s economic recovery</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-80069" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-80069"><a href="https://calmatters.org/category/commentary/" aria-haspopup="true">Commentary</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-80101" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80101"><a href="https://calmatters.org/category/commentary/dan-walters/">Dan Walters</a></li>
+	<li id="menu-item-80102" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80102"><a href="https://calmatters.org/category/commentary/my-turn/">My Turn</a></li>
+	<li id="menu-item-80266" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80266"><a href="https://calmatters.org/category/commentary/reader-reactions/">Reader Reactions</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/commentary/your-next-boss-could-be-an-undocumented-immigrant-as-a-growing-number-of-founders-lack-legal-status/" class="article "><div class="thumb"><img width="460" height="276" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/startup-business.jpg?fit=460%2C276" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Your next boss could be an undocumented immigrant; growing number of business founders lack legal status" /></div><div class="content"><h4 class="title">Trending in Commentary</h4><p>Your next boss could be an undocumented immigrant; growing number of business founders lack legal status</p></div></a><a href="https://calmatters.org/commentary/earlier-california-presidential-primary-succeeded-on-many-levels/" class="article "><div class="thumb"><img width="453" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/030320_voting_AW_12.jpg?fit=453%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Earlier California presidential primary succeeded on many levels" /></div><div class="content"><h4 class="title">Trending in Commentary</h4><p>Earlier California presidential primary succeeded on many levels</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-80071" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-80071"><a href="https://projects.calmatters.org/" aria-haspopup="true">Multimedia</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-80085" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80085"><a href="https://calmatters.org/category/multimedia/explainers/">Explainers</a></li>
+	<li id="menu-item-80084" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80084"><a href="https://calmatters.org/category/multimedia/data-points/">Data Points</a></li>
+	<li id="menu-item-95787" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-95787"><a href="https://calmatters.org/projects/force-of-law-police-shootings-podcast/">Force of Law</a></li>
+	<li id="menu-item-80088" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80088"><a href="https://calmatters.org/category/multimedia/podcasts/gimme-shelter/">Gimme Shelter</a></li>
+	<li id="menu-item-80086" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80086"><a href="https://calmatters.org/category/multimedia/interactives/">Interactives</a></li>
+	<li id="menu-item-80089" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80089"><a href="https://calmatters.org/category/multimedia/video/">Video</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li id="menu-item-81105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81105"><a href="https://checkout.fundjournalism.org/memberform?org_id=calmatters&#038;campaign=701f2000001DCNo">DONATE</a></li>
+<li id="menu-item-80058" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80058"><a href="https://calmatters.org/about/" aria-haspopup="true">About</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-92341" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92341"><a href="https://projects.calmatters.org/2019/california-dream/">California Dream Project</a></li>
+	<li id="menu-item-80109" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80109"><a href="https://calmatters.org/category/blogs/inside-calmatters/">Inside CalMatters</a></li>
+	<li id="menu-item-80108" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80108"><a href="https://calmatters.org/category/blogs/events/">Events</a></li>
+	<li id="menu-item-80059" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80059"><a href="https://calmatters.org/about/advisory-board/">Advisory Board</a></li>
+	<li id="menu-item-80060" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80060"><a href="https://calmatters.org/about/board-of-directors/">Board of Directors</a></li>
+	<li id="menu-item-80061" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80061"><a href="https://calmatters.org/about/contact-us/">Contact Us</a></li>
+	<li id="menu-item-80062" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80062"><a href="https://calmatters.org/about/jobs/">Jobs</a></li>
+	<li id="menu-item-80068" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80068"><a href="https://calmatters.org/institutional-membership/">Institutional Membership</a></li>
+	<li id="menu-item-80063" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80063"><a href="https://calmatters.org/about/distribution-partners/">Media partners</a></li>
+	<li id="menu-item-80064" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80064"><a href="https://calmatters.org/about/staff/">Meet Our Team</a></li>
+	<li id="menu-item-80065" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80065"><a href="https://calmatters.org/about/mission/">Mission</a></li>
+	<li id="menu-item-80066" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80066"><a href="https://calmatters.org/about/reports-financials/">Reports &#038; Financials</a></li>
+	<li id="menu-item-80067" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80067"><a href="https://calmatters.org/about/supporters/">Supporters</a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul></nav>
+			<nav class="nav-social large-screen" role="navigation" aria-label="Social Navigation">
+				<ul>
+											<li><a href="https://www.facebook.com/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--facebook" aria-label="facebook"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook"></use></svg></a></li>
+											<li><a href="https://www.instagram.com/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--instagram" aria-label="instagram"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#instagram"></use></svg></a></li>
+											<li><a href="https://www.linkedin.com/company/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--linkedin" aria-label="linkedin"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#linkedin"></use></svg></a></li>
+											<li><a href="https://twitter.com/CalMatters" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--twitter" aria-label="twitter"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter"></use></svg></a></li>
+											<li><a href="https://www.youtube.com/channel/UCNQv9nDu2_r5zbgtUQungeA" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--youtube" aria-label="youtube"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#youtube"></use></svg></a></li>
+									</ul>
+			</nav>
+		</div>
+	</div> <!--/.nav-main-->
+
+	<nav role="navigation" class="nav-trending" aria-label="Trending Navigation">
+
+	<div class="innerwrap">
+
+		<h2 class="heading">Trending <svg role="img" class="icon icon--trending" aria-label="trending"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#trending"></use></svg></h2>
+
+		<ul id="menu-top-trending-1" class="topics"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-105092"><a href="https://calmatters.org/category/health/coronavirus/" aria-current="page">Coronavirus Coverage</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105405"><a href="https://calmatters.org/health/2020/03/california-coronavirus-gavin-newsom-senior-citizens-chronic-illness/">Coronavirus FAQ</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105407"><a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-covid-patient-hospitalization-data-icu/">Tracking Hospitalizations</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105406"><a href="https://calmatters.org/projects/corona-on-campus/">Corona on Campus</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105408"><a href="https://calmatters.org/health/coronavirus/2020/03/coronavirus-mental-health-tips-therapists-california/">Mental Health and Coronavirus</a></li>
+</ul>
+	</div>
+
+</nav><!--/.nav-trending-->
+
+<nav role="navigation" class="nav-bar" aria-label="Modal Navigation">
+
+	
+<div class="nav-search" itemscope itemtype="http://schema.org/WebSite">
+	<link itemprop="url" href="https://calmatters.org/" />
+	<meta itemprop="url" content="https://calmatters.org/" />
+
+	<button type="button" class="togglesearch" aria-controls="search" aria-expanded="false"><svg role="img" class="icon icon--search" aria-label="search"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#search"></use></svg><span class="screen-reader-text">Toggle Search</span></button>
+
+	<form role="search" class="search" id="search" aria-hidden="false" action="https://calmatters.org/" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+		<meta itemprop="target" content="https://calmatters.org/?s={s}" />
+
+		<div class="focus-label">
+			<input  class="searchinput" id="q" type="text" value="" name="s">
+			<label class="searchformlabel" aria-hidden="true" id="q-label" for="q">Search...</label>
+
+			<button class="submit" type="submit"><span class="searchicon"><svg role="img" class="icon icon--search" aria-label="search"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#search"></use></svg></span><span class="submitsearch"><svg role="img" class="icon icon--chevron-right" aria-label="chevron-right"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#chevron-right"></use></svg></span><span class="screen-reader-text">Submit Search</span></button>
+		</div>
+
+	</form>
+
+</div>
+
+	<ul class="nav-action">
+		<li><button class="login" id="piano-login">Log in</button></li>
+				<li><a href="https://calmatters.org/subscribe-to-calmatters/" class="subscribe">Subscribe</a></li>
+			</ul>
+
+			<nav class="nav-social small-screen" role="navigation" aria-label="Social Navigation">
+			<ul>
+									<li><a href="https://www.facebook.com/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--facebook" aria-label="facebook"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook"></use></svg></a></li>
+									<li><a href="https://www.instagram.com/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--instagram" aria-label="instagram"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#instagram"></use></svg></a></li>
+									<li><a href="https://www.linkedin.com/company/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--linkedin" aria-label="linkedin"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#linkedin"></use></svg></a></li>
+									<li><a href="https://twitter.com/CalMatters" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--twitter" aria-label="twitter"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter"></use></svg></a></li>
+									<li><a href="https://www.youtube.com/channel/UCNQv9nDu2_r5zbgtUQungeA" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--youtube" aria-label="youtube"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#youtube"></use></svg></a></li>
+							</ul>
+		</nav>
+		
+	
+</nav><!--/.nav-bar-->
+</div>
+		</header>
+<div class="container -category" id="content" role="main">
+	
+	<div class="head">
+		
+<div class="category-hero -image -description">
+
+	<div class="background">
+		<img width="2000" height="1330" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/Coronavirus_CalMatters-Website-Image.jpg?fit=2000%2C1330" class="attachment-full size-full" alt="CalMatters reporter explains California&#039;s response to the coronavirus." srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/03/Coronavirus_CalMatters-Website-Image.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/Coronavirus_CalMatters-Website-Image.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/Coronavirus_CalMatters-Website-Image.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/Coronavirus_CalMatters-Website-Image.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/Coronavirus_CalMatters-Website-Image.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/Coronavirus_CalMatters-Website-Image.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/Coronavirus_CalMatters-Website-Image.jpg?w=322 322w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/Coronavirus_CalMatters-Website-Image.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/Coronavirus_CalMatters-Website-Image.jpg?w=860 860w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/Coronavirus_CalMatters-Website-Image.jpg?w=795 795w" sizes="(max-width: 2000px) 100vw, 2000px" />	</div>
+
+	<div class="content">
+		<h2 class="title ">
+			Coronavirus		</h2>
+
+				<div class="summary ">
+			<p>The latest news on the coronavirus outbreak in California and the state’s response to the pandemic. </p>
+		</div>
+			</div>
+
+</div>
+	</div>
+
+	<div class="main">
+		<div class="featured-posts">
+
+	<div class="article ">
+		<a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-covid-patient-hospitalization-data-icu/" class="link" aria-label="Tracking coronavirus hospitalizations in California by county">
+			<div class="image">
+				<img width="858" height="572" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_CoronavirusHospitalization_01.jpg?fit=858%2C572" class="attachment-large-rec size-large-rec wp-post-image" alt="General overall view of coronavirus (COVID-19) testing outside Parkview Community Hospital on, Wednesday, March 25, 2020, in Riverside, Calif. Photo by Dylan Stewart/Image of Sport via AP" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_CoronavirusHospitalization_01.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_CoronavirusHospitalization_01.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_CoronavirusHospitalization_01.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_CoronavirusHospitalization_01.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_CoronavirusHospitalization_01.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_CoronavirusHospitalization_01.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_CoronavirusHospitalization_01.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_CoronavirusHospitalization_01.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_CoronavirusHospitalization_01.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_CoronavirusHospitalization_01.jpg?w=794 794w" sizes="(max-width: 858px) 100vw, 858px" />			</div>
+		</a>
+
+		<div class="content">
+			<p class="label">Featured</p>
+			<h3 class="title">
+				Tracking coronavirus hospitalizations in California by county			</h3>
+		</div>
+	</div>
+
+<div class="col">
+<div class="article ">
+			<a href="https://calmatters.org/health/coronavirus/2020/04/newsom-cities-blocking-hotels-for-homeless-will-be-judged-by-history/" class="link" aria-label="Newsom: Cities blocking hotels for homeless will be &#8216;judged&#8217; by history">
+			<div class="image">
+				<img width="858" height="572" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?fit=858%2C572" class="attachment-large-rec size-large-rec wp-post-image" alt="A row of hotels and motels near Oakland airport on March 25, 2020. Photo by Anne Wernikoff for CalMatters" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?w=794 794w" sizes="(max-width: 858px) 100vw, 858px" />			</div>
+		</a>
+	
+	<div class="content">
+
+		<p class="label">
+			
+			<span>Featured</span>
+		</p>
+
+		<h3 class="title">
+							Newsom: Cities blocking hotels for homeless will be &#8216;judged&#8217; by history					</h3>
+	</div>
+</div>
+<div class="ad-wrapper">		<!-- /21804607924/TNP -->
+		<div id='box1'>
+			<script>
+			googletag.cmd.push(function() { googletag.display('box1'); });
+			</script>
+		</div>
+		</div></div></div><!-- .featured-posts -->
+				<hr class="separator-fullwidth" />
+		<div class="read-next -blogroll">
+			<p class="label">
+				The Latest			</p>
+
+			
+<div class="  wrap">
+			<a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-task-force-economy/" class="link thumb" aria-label="A-list business and union leaders combine to help steer California&#8217;s economic recovery">
+			<div class="thumb-inner">
+				<img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_taskforce_01.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="A-list business and union leaders combine to help steer California&#8217;s economic recovery" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_taskforce_01.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_taskforce_01.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_taskforce_01.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_taskforce_01.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_taskforce_01.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_taskforce_01.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_taskforce_01.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_taskforce_01.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_taskforce_01.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_taskforce_01.jpg?w=794 794w" sizes="(max-width: 460px) 100vw, 460px" />			</div>
+		</a>
+	
+			<div class="content">
+
+												<p class="category">
+						<time datetime="2020-04-17T17:12:14-07:00">April 17, 2020</time>
+						<a href="https://calmatters.org/author/nigelduara/" class="author">Nigel Duara</a>					</p>
+							
+							<h2 class="title">A-list business and union leaders combine to help steer California&#8217;s economic recovery</h2>
+					</div>
+	</div>
+
+<div class="  wrap">
+			<a href="https://calmatters.org/projects/california-cities-deficits-recession-bailouts/" class="link thumb" aria-label="What comes next for California cities? Deficits, bailouts and long recoveries">
+			<div class="thumb-inner">
+				<img width="460" height="186" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_CaliforniaCities_03_cropped.jpg?fit=460%2C186" class="attachment-medium-rec size-medium-rec wp-post-image" alt="What comes next for California cities? Deficits, bailouts and long recoveries" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_CaliforniaCities_03_cropped.jpg?w=3000 3000w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_CaliforniaCities_03_cropped.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_CaliforniaCities_03_cropped.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_CaliforniaCities_03_cropped.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_CaliforniaCities_03_cropped.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_CaliforniaCities_03_cropped.jpg?w=2048 2048w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_CaliforniaCities_03_cropped.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_CaliforniaCities_03_cropped.jpg?w=380 380w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_CaliforniaCities_03_cropped.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_CaliforniaCities_03_cropped.jpg?w=860 860w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_CaliforniaCities_03_cropped.jpg?w=1260 1260w" sizes="(max-width: 460px) 100vw, 460px" />			</div>
+		</a>
+	
+			<div class="content">
+
+												<p class="category">
+						<time datetime="2020-04-17T13:12:58-07:00">April 17, 2020</time>
+						<a href="https://calmatters.org/author/jackie-botts/" class="author">Jackie Botts</a>, <a href="https://calmatters.org/author/ben-christopher/" class="author">Ben Christopher</a>, <a href="https://calmatters.org/author/elizabeth-castillo/" class="author">Elizabeth Castillo</a>, <a href="https://calmatters.org/author/anaibarra/" class="author">Ana B. Ibarra</a>, <a href="https://calmatters.org/author/matt-levin/" class="author">Matt Levin</a>					</p>
+							
+							<h2 class="title">What comes next for California cities? Deficits, bailouts and long recoveries</h2>
+					</div>
+	</div>
+
+<div class="  wrap">
+			<a href="https://calmatters.org/commentary/dont-ban-biking-during-the-coronavirus-pandemic/" class="link thumb" aria-label="Don’t ban biking during the coronavirus pandemic">
+			<div class="thumb-inner">
+				<img width="460" height="283" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?fit=460%2C283" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Don’t ban biking during the coronavirus pandemic" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=2208 2208w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=2048 2048w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=348 348w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=860 860w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/cycling.jpg?w=861 861w" sizes="(max-width: 460px) 100vw, 460px" />			</div>
+		</a>
+	
+			<div class="content">
+
+												<p class="category">
+						<time datetime="2020-04-17T05:30:35-07:00">April 17, 2020</time>
+						<a href="https://calmatters.org/author/guest-commentary/" class="author">Guest Commentary</a>					</p>
+							
+							<h2 class="title">Don’t ban biking during the coronavirus pandemic</h2>
+					</div>
+	</div>
+<div class="ad-wrapper  wrap">	<!-- /21804607924/TNP -->
+	<div id="leaderboard1">
+		<script>
+		googletag.cmd.push(function() { googletag.display('leaderboard1'); });
+		</script>
+	</div>
+	</div>
+<div class="  wrap">
+			<a href="https://calmatters.org/politics/california-legislature/2020/04/california-senate-hearing-coronavirus-budget-oversight/" class="link thumb" aria-label="California senators frustrated by few answers,  tech glitches in virtual hearing on coronavirus spending">
+			<div class="thumb-inner">
+				<img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_pool_CoronavirusOversight_06.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="California senators frustrated by few answers,  tech glitches in virtual hearing on coronavirus spending" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_pool_CoronavirusOversight_06.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_pool_CoronavirusOversight_06.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_pool_CoronavirusOversight_06.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_pool_CoronavirusOversight_06.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_pool_CoronavirusOversight_06.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_pool_CoronavirusOversight_06.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_pool_CoronavirusOversight_06.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_pool_CoronavirusOversight_06.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_pool_CoronavirusOversight_06.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_pool_CoronavirusOversight_06.jpg?w=793 793w" sizes="(max-width: 460px) 100vw, 460px" />			</div>
+		</a>
+	
+			<div class="content">
+
+												<p class="category">
+						<time datetime="2020-04-16T20:01:12-07:00">April 16, 2020</time>
+						<a href="https://calmatters.org/author/laurel-rosenhall/" class="author">Laurel Rosenhall</a>					</p>
+							
+							<h2 class="title">California senators frustrated by few answers,  tech glitches in virtual hearing on coronavirus spending</h2>
+					</div>
+	</div>
+
+<div class="  wrap">
+			<a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-shelter-home-dangerous-abuse-domestic-violence/" class="link thumb" aria-label="Home is a perilous place for some Californians during coronavirus pandemic">
+			<div class="thumb-inner">
+				<img width="458" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?fit=458%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Home is a perilous place for some Californians during coronavirus pandemic" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?w=458 458w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?w=857 857w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/iStock_childabuse_01.jpg?w=793 793w" sizes="(max-width: 458px) 100vw, 458px" />			</div>
+		</a>
+	
+			<div class="content">
+
+												<p class="category">
+						<time datetime="2020-04-16T17:18:16-07:00">April 16, 2020</time>
+						<a href="https://calmatters.org/author/elizabeth-aguilera/" class="author">Elizabeth Aguilera</a>					</p>
+							
+							<h2 class="title">Home is a perilous place for some Californians during coronavirus pandemic</h2>
+					</div>
+	</div>
+
+<div class="  wrap">
+			<a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-good-deeds/" class="link thumb" aria-label="Acts of grace from everyday Californians are getting us through">
+			<div class="thumb-inner">
+				<img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Acts of grace from everyday Californians are getting us through" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/041520_BerkeleySingaLong_AW_sized_01.jpg?w=794 794w" sizes="(max-width: 460px) 100vw, 460px" />			</div>
+		</a>
+	
+			<div class="content">
+
+												<p class="category">
+						<time datetime="2020-04-16T11:05:55-07:00">April 16, 2020</time>
+						<a href="https://calmatters.org/author/jocelyn-wiener/" class="author">Jocelyn Wiener</a>					</p>
+							
+							<h2 class="title">Acts of grace from everyday Californians are getting us through</h2>
+					</div>
+	</div>
+<div class="ad-wrapper  wrap">	<!-- /21804607924/TNP -->
+	<div id="leaderboard2">
+		<script>
+		googletag.cmd.push(function() { googletag.display('leaderboard2'); });
+		</script>
+	</div>
+	</div>
+<div class="  wrap">
+			<a href="https://calmatters.org/commentary/california-water-policies-inhibit-food-production-by-valley-farmers/" class="link thumb" aria-label="California water policies inhibit food production by Valley farmers">
+			<div class="thumb-inner">
+				<img width="460" height="246" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/California-aquaduct.jpg?fit=460%2C246" class="attachment-medium-rec size-medium-rec wp-post-image" alt="California water policies inhibit food production by Valley farmers" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/04/California-aquaduct.jpg?w=2121 2121w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/California-aquaduct.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/California-aquaduct.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/California-aquaduct.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/California-aquaduct.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/California-aquaduct.jpg?w=2048 2048w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/California-aquaduct.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/California-aquaduct.jpg?w=380 380w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/California-aquaduct.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/California-aquaduct.jpg?w=860 860w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/California-aquaduct.jpg?w=989 989w" sizes="(max-width: 460px) 100vw, 460px" />			</div>
+		</a>
+	
+			<div class="content">
+
+												<p class="category">
+						<time datetime="2020-04-16T05:30:00-07:00">April 16, 2020</time>
+						<a href="https://calmatters.org/author/guest-commentary/" class="author">Guest Commentary</a>					</p>
+							
+							<h2 class="title">California water policies inhibit food production by Valley farmers</h2>
+					</div>
+	</div>
+
+<div class="  wrap">
+			<a href="https://calmatters.org/health/coronavirus/2020/04/california-undocumented-workers-coronavirus-disaster-relief/" class="link thumb" aria-label="California&#8217;s undocumented workers to get $125 million  coronavirus disaster relief">
+			<div class="thumb-inner">
+				<img width="407" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?fit=407%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="California&#8217;s undocumented workers to get $125 million  coronavirus disaster relief" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?w=407 407w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?w=285 285w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?w=729 729w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?w=761 761w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/SJM_COVIDtesting_01.jpg?w=704 704w" sizes="(max-width: 407px) 100vw, 407px" />			</div>
+		</a>
+	
+			<div class="content">
+
+												<p class="category">
+						<time datetime="2020-04-15T18:37:07-07:00">April 15, 2020</time>
+						<a href="https://calmatters.org/author/anaibarra/" class="author">Ana B. Ibarra</a>					</p>
+							
+							<h2 class="title">California&#8217;s undocumented workers to get $125 million  coronavirus disaster relief</h2>
+					</div>
+	</div>
+
+<div class="  wrap">
+			<a href="https://calmatters.org/blogs/california-election-2020/2020/04/politics-coronavirus-election-vote-mail-ballot/" class="link thumb" aria-label="Politics in the pandemic: Two California elections in May provide a preview">
+			<div class="thumb-inner">
+				<img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/030220_ballot_AW_sized_04.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Politics in the pandemic: Two California elections in May provide a preview" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/04/030220_ballot_AW_sized_04.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/030220_ballot_AW_sized_04.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/030220_ballot_AW_sized_04.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/030220_ballot_AW_sized_04.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/030220_ballot_AW_sized_04.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/030220_ballot_AW_sized_04.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/030220_ballot_AW_sized_04.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/030220_ballot_AW_sized_04.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/030220_ballot_AW_sized_04.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/030220_ballot_AW_sized_04.jpg?w=794 794w" sizes="(max-width: 460px) 100vw, 460px" />			</div>
+		</a>
+	
+			<div class="content">
+
+												<p class="category">
+						<time datetime="2020-04-15T15:57:34-07:00">April 15, 2020</time>
+						<a href="https://calmatters.org/author/laurel-rosenhall/" class="author">Laurel Rosenhall</a>					</p>
+							
+							<h2 class="title">Politics in the pandemic: Two California elections in May provide a preview</h2>
+					</div>
+	</div>
+
+<div class="  wrap">
+			<a href="https://calmatters.org/commentary/at-the-heart-of-mail-in-ballot-challenges-voter-suppression/" class="link thumb" aria-label="At the heart of mail-in ballot challenges: voter suppression">
+			<div class="thumb-inner">
+				<img width="460" height="242" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/voting.jpg?fit=460%2C242" class="attachment-medium-rec size-medium-rec wp-post-image" alt="At the heart of mail-in ballot challenges: voter suppression" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/04/voting.jpg?w=2247 2247w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/voting.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/voting.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/voting.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/voting.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/voting.jpg?w=2048 2048w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/voting.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/voting.jpg?w=380 380w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/voting.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/voting.jpg?w=860 860w, https://calmatters.org/wp-content/uploads/sites/2/2020/04/voting.jpg?w=1006 1006w" sizes="(max-width: 460px) 100vw, 460px" />			</div>
+		</a>
+	
+			<div class="content">
+
+												<p class="category">
+						<time datetime="2020-04-15T05:30:12-07:00">April 15, 2020</time>
+						<a href="https://calmatters.org/author/guest-commentary/" class="author">Guest Commentary</a>					</p>
+							
+							<h2 class="title">At the heart of mail-in ballot challenges: voter suppression</h2>
+					</div>
+	</div>
+<div class="pagination-wrap">
+	<div class="pagination" aria-label="Pagination">
+		<span aria-current="page" class="page-numbers current">1</span>
+<a class="page-numbers" href="https://calmatters.org/category/health/coronavirus/page/2/">2</a>
+<a class="page-numbers" href="https://calmatters.org/category/health/coronavirus/page/3/">3</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class="page-numbers" href="https://calmatters.org/category/health/coronavirus/page/14/">14</a>	</div>
+</div>
+		</div>
+			</div>
+</div> <!-- end container -->
+		<footer class="container -footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+			<div class="site-footer">
+
+				<div class="col1">
+					<p class="copyright">&copy;
+					2020					CalMatters					</p>
+
+					<div class="menu-footer-container"><ul id="footer-menu" class="menu"><li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="https://calmatters.org/terms-conditions/">Terms &#038; Conditions</a></li>
+<li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-61"><a href="https://calmatters.org/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-80083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80083"><a href="https://calmatters.org/submission-guidelines/">Submission Guidelines</a></li>
+<li id="menu-item-80095" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80095"><a href="https://calmatters.org/donate/">Support CalMatters and Independent Journalism</a></li>
+<li id="menu-item-80096" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80096"><a href="https://calmatters.org/subscribe-to-calmatters/">Sign up for CalMatters</a></li>
+</ul></div>
+				</div>
+
+				<div class="col2">
+
+					<a href="https://thenewsproject.net/" target="_blank" rel="noopener noreferrer">
+					<span class="screen-reader-text">CalMatters</span>
+					Powered by
+					<svg role="img" class="icon icon--tnp-powered" aria-label="tnp-powered"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#tnp-powered"></use></svg>					</a>
+
+				</div>
+
+			</div>
+		</footer>
+
+		<script type="text/javascript">
+!function(n,t,c,e,u){function r(n){try{f=n(u)}catch(n){return h=n,void i(p,n)}i(s,f)}function i(n,t){for(var c=0;c<n.length;c++)d(n[c],t);
+}function o(n,t){return n&&(f?d(n,f):s.push(n)),t&&(h?d(t,h):p.push(t)),l}function a(n){return o(!1,n)}function d(t,c){
+n.setTimeout(function(){t(c)},0)}var f,h,s=[],p=[],l={then:o,catch:a,_setup:r};n[e]=l;var v=t.createElement("script");
+v.src=c,v.async=!0,v.id="_uasdk",v.rel=e,t.head.appendChild(v)}(window,document,'https://aswpsdkus.com/notify/v1/ua-sdk.min.js',
+	'UA', {
+		appKey: 'swOPpECvQRyoqoQ0AOtBgg',
+		token: 'MTpzd09QcEVDdlFSeW9xb1EwQU90QmdnOld4WFFoRWlPX05hLVlrZVc4YlgxSW0xVHFxVkZzT2JrYmdUUWpBTkxfZjQ',
+				workerUrl: 'https://calmatters.org/service-worker.js',websitePushId: 'web.thenewsproject',				vapidPublicKey: 'BAjVIVcGJFCYJzHU63gf4TrkNG4qpF_ULK8'
+	});
+</script>
+		<script type='text/javascript' src='https://calmatters.org/_static/??-eJx1zcEOwiAQBNAfkm7VNPVi/BRDYbVQWDbskv6+xngwJpzmMm8GdjaukCIp5GY4tWcggYjK1m1wD+RgaSF54LVooW8MOdAQ5QA/XFfMKOBsylYVq4APohAFllTcJuZRP03fge8g3IVriei0i/vPnQEl/te3fD1Ol3mczuN8ii9voGFT'></script>
+<script>
+var tnpData = {"ad_zone":"calmatters","error_email_invalid":"You have entered an invalid email","error_missing_status":"Response missing email_status","gtmIDs":[{"gtm_id":"GTM-WJSBCB4"},{"gtm_id":"GTM-TXQ3CH7"}],"subscribed":"Thanks for subscribing!"};
+var mailchimp = {"action":"handle_newsletter_signup","admin_ajax":"https:\/\/calmatters.org\/wp-admin\/admin-ajax.php","list":"faa7be558d","nonce":"5fb54b11a5"};
+var tnp_piano = {"piano_url":"https:\/\/sandbox.tinypass.com\/xbuilder\/experience\/load?aid=teischen","piano_aid":"teischen","piano_prod":"","piano_gated":[]};
+</script>
+<script>
+// Remove no-js and add 'js' to the HTML
+		document.documentElement.classList.remove('no-js');
+		document.documentElement.classList.add('js');
+		WebFontConfig = {
+			google: { families: [ 'Source+Sans+Pro:400,700,900:latin' ] }
+		};
+		(function() {
+			var wf = document.createElement('script');
+			wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+			'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+			wf.type = 'text/javascript';
+			wf.async = 'true';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(wf, s);
+		})();
+</script>
+<script src='https://calmatters.org/wp-content/themes/calmatters/dist/js/frontend.js?ver=0.1.169'></script>
+<script type='text/javascript' src='https://calmatters.org/wp-content/themes/calmatters/dist/js/fontChanger.js?m=1583263699g'></script>
+<script src='https://calmatters.org/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.15'></script>
+<script>
+window.lodash = _.noConflict();
+</script>
+<script>
+var epas = {"query":"{\"from\":0,\"size\":10,\"sort\":[{\"_score\":{\"order\":\"desc\"}}],\"query\":{\"function_score\":{\"query\":{\"bool\":{\"should\":[{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"post\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"page\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"tnp_newsletters\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"cal_explainers\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"commentary\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"tnp_long_form\"}}]}}]}},\"functions\":[{\"exp\":{\"post_date_gmt\":{\"scale\":\"14d\",\"decay\":0.25,\"offset\":\"7d\"}}}],\"score_mode\":\"avg\",\"boost_mode\":\"sum\"}},\"post_filter\":{\"bool\":{\"must\":[{\"terms\":{\"post_type.raw\":[\"post\",\"page\",\"tnp_newsletters\",\"cal_explainers\",\"commentary\",\"tnp_long_form\"]}},{\"term\":{\"post_status\":\"publish\"}}]}}}","placeholder":"ep_autosuggest_placeholder","endpointUrl":"https:\/\/contact-5cc31fb04fd13.clients.hosted-elasticpress.io\/contact-5cc31fb04fd13-calmattersorg-post-2\/autosuggest","selector":"ep-autosuggest","action":"navigate","mimeTypes":[],"triggerAnalytics":"","addSearchTermHeader":"1"};
+</script>
+<script type='text/javascript' src='https://calmatters.org/_static/??-eJyNjUEOAiEQBD/k7sTDbvBgfAvCSIbAQOghft818eBNj52qVNOzL6GpsRr1MpMoiIuHSeiDAYoCowzy0xpmSgxbEIZ0W6vomnGiIyEayoyMtzk18kBog7+Nv04ePrDhR/+YXO8cP/xWr+fNbbu77M7lF4EcTTI='></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202016.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:8.4.2',blog:'163013142',post:'0',tz:'-7',srv:'calmatters.org'} ]);
+	_stq.push([ 'clickTrackerInit', '163013142', '0' ]);
+</script>
+
+	</div> <!-- end .site -->
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"54db1a61c9","applicationID":"187794457","transactionName":"ZgEAMhdQCkJTBU1aDF9LIwURWAtfHQVYRwZWCxAf","queueTime":0,"applicationTime":514,"atts":"SkYXRF9KGR0QBxsJGEwZ","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,27 @@
+Apple and Google are offering a bold plan using signals from more than 3 billion smartphones to help stem the spread of the deadly coronavirus while protecting users’ privacy. But epidemiologists caution that—privacy concerns aside—the scheme will be of limited use in combating Covid-19 because of the technology’s constraints, inadequate testing for the disease, and users’ reluctance to participate.
+
+The Apple-Google proposal, announced Friday, is designed to record when two people come near one another without revealing their identities or location. It relies on Bluetooth technology, a short-range wireless protocol often used to connect phones to devices such as headphones.
+
+Apple and Google say they will create software allowing phones to broadcast unique cryptographically generated codes via Bluetooth. The codes won’t include identifying information or location data, and the cryptography is designed to make it impossible to tie the codes to a particular person.
+
+Read all of our coronavirus coverage here.
+
+Other phones would record these codes when they came nearby, perhaps within 10 or 15 feet. Each phone would store the codes it receives for 14 days. When someone reports a Covid-19 infection, their codes will be uploaded to a central server. Other phones would periodically check this list to see if they had received any of those codes, indicating that the owner had been close to a person who is infected.
+
+Apps that use the contact tracing scheme could automatically alert public health authorities and provide users with information regarding testing and self-quarantine. Before the Apple-Google announcement, dozens of research groups and cybersecurity professionals had proposed similar digital contact tracing efforts, some of which also used combinations of Bluetooth and cryptography to guard user privacy.
+
+The plan is designed to automate the laborious process known as contact tracing, through which public health officials seek to control the spread of an infectious disease by identifying people who have been in contact with an infected person, then testing and isolating those people so they cannot spread it to others.
+
+The scale and nature of the coronavirus pandemic make digital tracing appealing. An analysis published in the journal Science on March 31 suggests the coronavirus spreads so quickly through people who are contagious but not sick that it would be difficult to contain through conventional manual tracing alone.
+
+“It is the way of the future,” says Michael Mina, an assistant professor at Harvard’s Center for Communicable Disease Dynamics. “Why do we have individual people going to people’s homes, putting themselves at risk, when we have all of this digital information?”
+
+Nonetheless, epidemiologists caution that digital contact tracing may not be a panacea for the coronavirus outbreak, in part because in much of the world, tests are reserved for those with clear symptoms. In the US, fewer than 3 million people have been tested, according to the Covid Tracking Project; that’s less than 1 percent of Americans. The effectiveness of contact tracing relies on identifying people who appear healthy but are carrying the virus; if those people aren’t tested, their contacts won’t be recorded.
+
+“Why do we have individual people going to people’s homes, putting themselves at risk, when we have all of this digital information?” Michael Mina, Harvard Center for Communicable Disease Dynamics
+
+“The only way that these sort of things can be effective, if we take that model from other countries, is if you test far more cases than come up positive,” says Sham Kakade, a computer scientist at the University of Washington and a coauthor of PACT, a similar set of contact tracing protocols. “This kind of alert also needs to be adjusted to how many tests we can give.”
+
+Another hurdle for the Apple-Google approach is convincing users to participate. The companies say they hope to make available next month software known as an application programming interface (API). Public health authorities would create apps that connect to this API, allowing phones to share their codes.
+
+Sensitive to concerns about user privacy, the tech companies say users will have to install one of these apps to become part of the system. But many users may not use the apps, eroding the value of the system.

@@ -1,0 +1,885 @@
+
+                    <!-- hearst/article/premium_article_main.tpl -->
+
+
+<!DOCTYPE html>
+
+<!-- hearst/article/premium_article_header.tpl -->
+<html>
+    <head><!-- eid:article.15206694 -->    <!--[if IE 8]><meta http-equiv="x-ua-compatible" content="IE=7"><![endif]-->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="ispremium" content="1" />
+        <meta name="dc.date" content="2020-04-17T11:00:00Z" />
+        <meta itemprop="datePublished" content="2020-04-17T11:00:00Z" />
+        <meta name="article:published_time" content="2020-04-17T11:00:00Z" />
+        <meta name="article:modified_time" content="2020-04-17T13:54:35Z" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- generated at 2020-04-18 20:33:51 on pwcm4 running vv10.2.8 -->
+
+        
+<!-- hearst/common/gdpr.tpl (ccpa) -->
+            <script id="hnpprivacy" src="/hdn/dynamic/hnpprivacy-min.js"></script>
+    <!-- e hearst/common/gdpr.tpl (ccpa) -->
+        <!-- hearst/common/instart.tpl -->
+<!-- e hearst/common/instart.tpl -->
+        <!-- hearst/common/hdn_datalayer_header.tpl -->
+<script type="text/javascript">
+    // <![CDATA[
+
+        var HDN = HDN || {};
+        HDN.dataLayer = HDN.dataLayer || {};
+
+        // HDN.dataLayer object for content and href data
+        HDN.dataLayer.content = HDN.dataLayer.content || {};
+        HDN.dataLayer.href = HDN.dataLayer.href || {};
+
+    
+                    HDN.dataLayer.content.title = "Coronavirus slowing after 1 month, but not in shelters, nursing homes";
+                HDN.dataLayer.content.subtitle = "Residents of homeless shelters and nursing homes remain at risk as the spread of the coronavirus slows.";
+        HDN.dataLayer.content.objectId = "15206694";
+        
+        HDN.dataLayer.content.objectType = "article";
+                        HDN.dataLayer.content.sectionPath = ['news', 'health (redesign)', 'health'];
+        HDN.dataLayer.content.pubDate = "2020-04-17 11:00:00";
+        HDN.dataLayer.content.lastModifiedDate = "2020-04-17 13:54:35";
+        HDN.dataLayer.content.wordCount = 1269;
+        HDN.dataLayer.content.paragraphCount = 26;
+        HDN.dataLayer.content.keywords = [];
+        HDN.dataLayer.content.keySubjects = ['HEALTH','VIRUS','DISEASE'];
+        HDN.dataLayer.content.keyCategoryTags = [];
+        HDN.dataLayer.content.keyPersons = [];
+        HDN.dataLayer.content.keyOrganizations = [];
+        HDN.dataLayer.content.keyConcepts = [];
+        HDN.dataLayer.content.keyCategories = [];
+        HDN.dataLayer.content.keyPlaces = [];
+        HDN.dataLayer.content.keyNlpCategories = ['/Health','/Law & Government/Public Safety'];
+        HDN.dataLayer.content.keyNlpPerson = ['Rupa Marya',' Susan Philip',' John Swartzberg',' Philip',' Erin Allday',' Kevin Fagan',' Trisha Thadani'];
+        HDN.dataLayer.content.keyNlpLocation = ['Bay Area',' San Francisco',' California',' Alameda County',' Santa Clara',' Hayward',' Castro Valley',' UC Berkeley',' San Mateo',' United States',' Seattle'];
+        HDN.dataLayer.content.keyNlpOrganization = ['San Francisco Department of Public Health',' San Francisco Chronicle',' UCSF',' Do No Harm Coalition'];
+        HDN.dataLayer.content.keyNlpEvent = [];
+        HDN.dataLayer.content.keyNlpWorkOfArt = ['Chronicle'];
+        HDN.dataLayer.content.keyNlpConsumerGood = [];
+        HDN.dataLayer.content.keyNlpOther = ['@erinallday',' Twitter',' COVID'];
+        HDN.dataLayer.content.keyNlpUnknown = [];
+
+        // HDN.dataLayer object for source information
+        HDN.dataLayer.source = HDN.dataLayer.source || {};
+
+        HDN.dataLayer.source.authorName = "By Erin Allday";
+        HDN.dataLayer.source.authorTitle = "";
+        HDN.dataLayer.source.originalSourceSite = "SF";
+        HDN.dataLayer.source.publishingSite = "premiumsfgate";
+        HDN.dataLayer.source.sourceSite = "sfgate";
+        
+
+                    
+                // HDN.dataLayer object for sharing information
+        HDN.dataLayer.sharing = HDN.dataLayer.sharing || {};
+
+        HDN.dataLayer.sharing.openGraphUrl = "https://www.sfchronicle.com/health/article/Coronavirus-slowing-after-1-month-but-not-in-15206694.php";
+        HDN.dataLayer.sharing.openGraphType = "article";
+
+        HDN.dataLayer.href.pageUrl = "https://www.sfchronicle.com/health/article/Coronavirus-slowing-after-1-month-but-not-in-15206694.php";
+        HDN.dataLayer.href.canonicalUrl = "https://www.sfchronicle.com/health/article/Coronavirus-slowing-after-1-month-but-not-in-15206694.php";
+        HDN.dataLayer.href.pageUrlPath = window.location.pathname;
+        HDN.dataLayer.href.pageUrlPathFolders = window.location.pathname.replace(/[A-Za-z0-9-_.]+$/, '');
+        HDN.dataLayer.href.pageUrlQueryParams = window.location.search.replace(/^\?/, '');
+        HDN.dataLayer.href.pageUrlHash = window.location.hash;
+
+        // HDN.dataLayer object for site
+        HDN.dataLayer.site = HDN.dataLayer.site || {};
+
+    
+        // "geoloc" and "geocites" used for weather and other location based functionality
+        HDN.dataLayer.site.geoloc = "san_francisco";
+        HDN.dataLayer.site.geocities = {"antioch":{"geoloc":"antioch","city":"Antioch","state":"CA","lon":"-121.8667495","lat":"37.9810982","lockey":0},"concord":{"geoloc":"concord","city":"Concord","state":"CA","lon":"-122.0339173","lat":"37.9735415","lockey":1},"fairfield":{"geoloc":"fairfield","city":"Fairfield","state":"CA","lon":"-122.1040308","lat":"38.2336466","lockey":2},"hayward":{"geoloc":"hayward","city":"Hayward","state":"CA","lon":"-122.1408151","lat":"37.6179116","lockey":3},"livermore":{"geoloc":"livermore","city":"Livermore","state":"CA","lon":"-121.8427362","lat":"37.6801621","lockey":4},"mill_valley":{"geoloc":"mill_valley","city":"Mill Valley","state":"CA","lon":"-122.5632255","lat":"37.9066967","lockey":5},"mountain_view":{"geoloc":"mountain_view","city":"Mountain View","state":"CA","lon":"-122.1514787","lat":"37.4133027","lockey":6},"napa":{"geoloc":"napa","city":"Napa","state":"CA","lon":"-122.3601701","lat":"38.2859416","lockey":7},"oakland":{"geoloc":"oakland","city":"Oakland","state":"CA","lon":"-122.3757556","lat":"37.7583921","lockey":8},"palo_alto":{"geoloc":"palo_alto","city":"Palo Alto","state":"CA","lon":"-122.1704553","lat":"37.4256448","lockey":9},"richmond":{"geoloc":"richmond","city":"Richmond","state":"CA","lon":"-122.4129987","lat":"37.9552521","lockey":10},"san_carlos":{"geoloc":"san_carlos","city":"San Carlos","state":"CA","lon":"-122.2878715","lat":"37.4983993","lockey":11},"san_francisco":{"geoloc":"san_francisco","city":"San Francisco","state":"CA","lon":"-122.5078117","lat":"37.7576792","lockey":12},"san_jose":{"geoloc":"san_jose","city":"San Jose","state":"CA","lon":"-121.9578406","lat":"37.2969326","lockey":13},"santa_rosa":{"geoloc":"santa_rosa","city":"Santa Rosa","state":"CA","lon":"-122.7737567","lat":"38.4355291","lockey":14}};
+
+        // Include comments data for page use
+        
+                                          
+              
+                                        HDN.dataLayer.site.commentsType = 'spotim';
+                HDN.dataLayer.site.commentSiteKey = 'sp_e9s18MG6';
+                HDN.dataLayer.site.entitledComments = '';
+                            
+                    HDN.dataLayer.site.sailthruId = 'fca2a0390286f0e53120a668534d9529';
+        
+        // HDN.dataLayer object for presentation information
+        HDN.dataLayer.presentation = HDN.dataLayer.presentation || {};
+
+        
+        HDN.dataLayer.presentation.hasSlideshow = false;
+        HDN.dataLayer.presentation.hasSlideshowListView = false;
+        HDN.dataLayer.presentation.hasVideo = false;
+        HDN.dataLayer.presentation.hasInteractive = true;
+
+        // HDN.dataLayer object for paywall information
+        HDN.dataLayer.paywall = HDN.dataLayer.paywall || {};
+
+                HDN.dataLayer.paywall.premiumStatus = "isPremium";
+        HDN.dataLayer.paywall.premiumEndDate = "2030-01-01 08:00:00";
+        HDN.dataLayer.content.displayTemplate = "design/article/wide.tpl";
+        
+        // paymeter
+                    HDN.dataLayer.paywall.policy = "meter";
+                                
+        HDN.dataLayer.ads = HDN.dataLayer.ads || {};
+                          HDN.dataLayer.ads.videoBidding = true;
+            
+HDN.abData = {};
+    
+
+(function () {
+    var findAbNames = function() {
+        var cookies=document.cookie.split(';');
+        var c,s,t;
+        for ( var asdf = 0 ; asdf < cookies.length ; asdf++ ) {
+            c = cookies[asdf].trim();
+            if ( 0 === c.indexOf('ab_name_') ) {
+                s = c.split('=');
+                if ( 2 === s.length ) {
+                    HDN.abData['_hasData'] = 1;
+                    if ( undefined === HDN.abData[s[0].substr(8)] ) {
+                        HDN.abData[s[0].substr(8)] = ( 'A' === s[1] ? 'C' : 'V1' );
+                    }
+                }
+            }
+        }
+    };
+    findAbNames();
+    if ( HDN.abData['_hasData'] ) {
+        delete(HDN.abData['_hasData']);
+
+        HDN.dataLayer.abtest = HDN.dataLayer.abtest || {};
+        HDN.dataLayer.abtest.experimentId = HDN.dataLayer.abtest.experimentId || [];
+        window.aps = window.aps || {};
+        window.aps.abtest = window.aps.abtest || '';
+
+        var abDataTmp = []
+        for ( var abDataKey in HDN.abData ) {
+            abDataTmp.push(abDataKey + '_' + HDN.abData[abDataKey]);
+        }
+
+        HDN.dataLayer.abtest.experimentId = HDN.dataLayer.abtest.experimentId.concat(abDataTmp);
+        if ( window.aps.abtest ) {
+            window.aps.abtest += ',';          
+        }
+        window.aps.abtest += abDataTmp.join(',');
+    }
+})();
+
+
+
+if ( HDN.activeABTest &&
+     HDN.dataLayer.abTestProfiles ) {
+    if ( HDN.dataLayer.abTestProfiles.files ) {
+         if ( HDN.dataLayer.abTestProfiles.files.css &&
+              HDN.dataLayer.abTestProfiles.files.css['profiles_' + HDN.activeABTest + '_css'] ) {
+             (function () {
+                 var l = document.createElement('link');
+                 l.rel = 'stylesheet';
+                 l.type = 'text/css';
+                 l.media = 'all';
+                 l.href = HDN.dataLayer.abTestProfiles.files.css['profiles_' + HDN.activeABTest + '_css'];
+                 document.head.appendChild(l);
+             })();
+         }
+         if ( HDN.dataLayer.abTestProfiles.files.js &&
+              HDN.dataLayer.abTestProfiles.files.js['profiles_' + HDN.activeABTest + '_js'] ) {
+             (function () {
+                var s = document.createElement('script');
+                s.src = HDN.dataLayer.abTestProfiles.files.js['profiles_' + HDN.activeABTest + '_js'];
+                s.async = false;
+                s.defer = true;
+                document.head.appendChild(s);
+             })();
+         }
+    }
+    if ( HDN.dataLayer.abTestProfiles.items ) {
+         if ( HDN.dataLayer.abTestProfiles.items['profiles_' + HDN.activeABTest + '_css'] ) {
+             (function () {
+                 var s = document.createElement('style');
+                 s.id = HDN.activeABTest + '_css_style_element';
+                 s.type = 'text/css';
+                 s.appendChild(document.createTextNode(HDN.dataLayer.abTestProfiles.items['profiles_' + HDN.activeABTest + '_css']));
+                 document.head.appendChild(s);
+             })();
+         }
+         if ( HDN.dataLayer.abTestProfiles.items['profiles_' + HDN.activeABTest + '_js'] ) {
+             (function () {
+                 var s = document.createElement('script');
+                 s.text = HDN.dataLayer.abTestProfiles.items['profiles_' + HDN.activeABTest + '_js'];
+                 document.head.appendChild(s);
+             })();
+         }
+    }
+}
+
+    // ]]>
+</script>
+<!-- e hearst/common/hdn_datalayer_header.tpl -->
+        <!-- Hotfix Top freeform -->
+        
+        <!-- hearst/item/standalone.tpl -->
+<!-- mid:freeform.78644 -->
+<!-- ENG-1230 -->
+<meta name="apple-itunes-app" content="app-id=423260205">
+                    <link rel="stylesheet" type="text/css" href="/external/css/global.less.articleWide.v10.2.8.css" media="all" />
+                        
+        <script type="text/javascript" src="/js/hdn/utils/jquery-1.11.1.min.js"></script>
+                
+                    <!-- hmb:isa_header  include static asset for group js header  -->
+                            <script type="text/javascript" src="/external/js/global.header.v10.2.8.js"></script>
+                <script type="text/javascript" src="/external/js/global.article.v10.2.8.js"></script>
+                            <script type="text/javascript" src="//treg.hearstnp.com/treg.js"></script>
+        <!-- hearst/common/omniture.tpl -->
+<script type="text/javascript">
+    // <![CDATA[
+    // document.domain = "hearstnp.com";
+    var requestTime = new Date(1587260032 * 1000);
+
+                                
+                    
+                    
+        
+        // bizobject variables
+        
+        var omni_channelPath = "News :: Health (REDESIGN) :: Health";
+        
+                var omni_title = "Coronavirus slowing after 1 month, but not in shelters, nursing homes";
+                var omni_bizObjectId = "15206694";
+        var omni_className = "article";
+        var omni_publicationDate = "2020-04-17 11:00:00";
+        var omni_sourceSite="sfgate";
+
+                            // article specific variables
+            var omni_authorName = "By Erin Allday";
+            var omni_authorTitle = "";
+            var omni_pageNumber = "1";
+            var omni_breakingNewsFlag = "";
+            var omni_localNewsFlag = "1";
+            var omni_premiumStatus = "isPremium";
+            var omni_premiumEndDate = "2030-01-01 08:00:00";
+            var omni_originalSource = "SF";
+            var omni_isListView = "0";
+                    
+        var omni_paywallSite = "1";
+
+        // ]]>
+</script>
+
+<!--[if IE 6]><script type="text/javascript" src="/js/hdn/utils/DD_belatedPNG_0.0.8a-min.js"></script><![endif]-->
+<!-- e hearst/common/omniture.tpl -->                                                    <script type="text/javascript" src="/js/hdn/unification/modules/adTools.js"></script>
+        <!-- Fix for ad blocker plus - needs to be placed before include of juice -->
+        <script type="text/javascript">function hearstPlaceAd(){}</script>
+                                                    <!-- hmb:jsadPositionManager js for adPositionManager (loadAds.js) -->
+                <script type="text/javascript" id="adPositionManagerScriptTag" src="https://aps.hearstnp.com/Scripts/loadAds.js"></script>
+                    
+        
+            <!--[if lt IE 9]><script src="/js/respond.min.js"></script><![endif]-->
+        
+                        <!-- Bing Webmaster Tools verification -->
+        <meta name="msvalidate.01" content="9451CA04ABC9D1D5C6419C73B4C4F7B7" />
+        <meta property="fb:admins" content="100006394927810"/>
+        <meta property="fb:pages" content="105702905593,307851324523,12852567813,480760515417232,288240529145,316774245761,984197758297116,7457442370,207033189701,207346283795,222959748728,207042068180,72983690774,339413234035,343689323559,345828366626,234821559861394,335699426867,10150105039485602,338983127562,364516539001,337922332042,115637335153191,372011535931,333376634908,127590790608884,141923885872653,655037391286291,320774811368833,1740489152861748,469700473093040,386754203367,556449374478585,340999853450,350771491032,1120648627959218,342017778245,338463361591,138772706196968,1641688532739111,326312697536,353120110016,343366744658,335009494554,347261603104,350924013892,257724773860,361203926417,367174215398,284154645394,334501182354,350279743224,154340691263654,147848678611852,361381078011,362831597677,10150095255780118" />
+        <title>Coronavirus slowing after 1 month, but not in shelters, nursing homes - San Francisco Chronicle</title>
+        <link rel="SHORTCUT ICON" href="/favicon.ico?v=3" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png"/>
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png"/>
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png"/>
+
+                    <link rel="canonical" href="https://www.sfchronicle.com/health/article/Coronavirus-slowing-after-1-month-but-not-in-15206694.php" />
+                                                                <meta name="author.name" content="By Erin Allday" />
+                <meta name="author.title" content="" />
+                <meta name="date.release" content="2020/17/04" />
+                <meta name="time.release" content="4:00" />
+                <meta name="publisher" content="San Francisco Chronicle" />
+                <meta name="sections" content="News,Health (REDESIGN),Health" />
+                <meta name="subject" content="" />
+                                    <meta name="news_keywords" content="Rupa Marya, Susan Philip, John Swartzberg, Philip, Erin Allday, Kevin Fagan, Trisha Thadani, Bay Area, San Francisco, California, Alameda County, Santa Clara, Hayward, Castro Valley, UC Berkeley, San Mateo, United States, Seattle, San Francisco Department of Public Health, San Francisco Chronicle, UCSF, Do No Harm Coalition, Chronicle, @erinallday, Twitter, COVID" />
+                                                    <meta name="nlpOrganization" content="San Francisco Department of Public Health, San Francisco Chronicle, UCSF, Do No Harm Coalition" />
+                                                    <meta name="nlpPerson" content="Rupa Marya, Susan Philip, John Swartzberg, Philip, Erin Allday, Kevin Fagan, Trisha Thadani" />
+                                                    <meta name="nlpLocation" content="Bay Area, San Francisco, California, Alameda County, Santa Clara, Hayward, Castro Valley, UC Berkeley, San Mateo, United States, Seattle" />
+                                                                    <meta name="nlpWorkOfArt" content="Chronicle" />
+                                                                    <meta name="nlpOther" content="@erinallday, Twitter, COVID" />
+                                                                                                <meta name="nlpCategories" content="%2FHealth,%2FLaw+%26+Government%2FPublic+Safety" />
+                                                
+                <script type="text/javascript" src="/js/hdn/omniture/video.js"></script>
+                
+                                    <!-- hearst/home/header_sailthru.tpl -->
+<meta property="sailthru.title" content="Coronavirus slowing after 1 month, but not in shelters, nursing homes" /><meta name="sailthru.date" content="2020-04-17 6:54:00 -0700" /><meta name="sailthru.author" content="By Erin Allday" /><meta name="sailthru_uid" content="15206694" /><meta name="sailthru_pubname" content="san-francisco-chronicle" /><meta name="sailthru_siteid" content="35" /><meta name="sailthru.tags" content="rupa-marya,susan-philip,john-swartzberg,philip,erin-allday,kevin-fagan,trisha-thadani,bay-area,san-francisco,california,alameda-county,santa-clara,hayward,castro-valley,uc-berkeley,san-mateo,united-states,seattle,san-francisco-department-of-public-health,san-francisco-chronicle,ucsf,do-no-harm-coalition,chronicle,erinallday,twitter,covid,san-francisco-department-of-public-health,san-francisco-chronicle,ucsf,do-no-harm-coalition,rupa-marya,susan-philip,john-swartzberg,philip,erin-allday,kevin-fagan,trisha-thadani,bay-area,san-francisco,california,alameda-county,santa-clara,hayward,castro-valley,uc-berkeley,san-mateo,united-states,seattle,chronicle,erinallday,twitter,covid,2fhealth,2flaw-26-government-2fpublic-safety" /><meta name="sailthru_isPremium" content="true" /><meta name="sailthru.image.thumb" content="https://s.hdnux.com/photos/01/11/51/41/19306571/5/sailthruImage.jpg" />
+<!-- e hearst/home/header_sailthru.tpl -->
+                    <!-- hearst/common/sailthruJS.tpl -->
+<!-- hmb:jssailthru js for SailThru -->
+<script language="javascript" type="text/javascript" src="//ak.sail-horizon.com/spm/spm.v1.min.js" data-sailthru-setup="true"></script>
+<script type="text/javascript">
+    $(function() {
+        if (window.Sailthru) {
+            Sailthru.init({ "customerId": HDN.dataLayer.site.sailthruId, "autoTrackPageViews": false, "useStoredTags": true});
+            Sailthru.track('pageview', {
+                url: HDN.dataLayer.sharing.openGraphUrl });
+        }
+    });
+</script>
+<!-- e hearst/common/sailthruJS.tpl -->                                                  <script type="application/ld+json">
+                    {
+    "@context": "http:\/\/schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/www.sfchronicle.com\/health\/article\/Coronavirus-slowing-after-1-month-but-not-in-15206694.php"
+    },
+    "headline": "Coronavirus slowing after 1 month, but not in shelters, nursing homes",
+    "datePublished": "2020-04-17T11:00:00+0000",
+    "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "San Francisco Chronicle",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https:\/\/www.sfchronicle.com\/img\/ldjson_logo.png"
+        }
+    },
+    "dateModified": "2020-04-17T13:54:35+0000",
+    "author": [
+        {
+            "@type": "person",
+            "name": "Erin Allday"
+        }
+    ],
+    "image": [
+        "https:\/\/s.hdnux.com\/photos\/01\/11\/51\/41\/19306571\/5\/rawImage.jpg"
+    ],
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".article-body"
+    }
+}
+                  </script>
+                                            
+                <meta property="og:title" content="Coronavirus slowing after 1 month, but not in shelters, nursing homes" />
+                    <meta property="og:description" content="Early and aggressive social distancing policy has had remarkable success in California and in particular in the Bay Area, one month in. But the Bay Area has been less successful protecting its most vulnerable residents in nursing homes and homeless shelters." />
+                                            <meta property="og:type" content="article" />
+            <meta property="og:url" content="https://www.sfchronicle.com/health/article/Coronavirus-slowing-after-1-month-but-not-in-15206694.php" />
+                                  
+                <meta property="og:image" content="https://s.hdnux.com/photos/01/11/51/41/19306571/5/rawImage.jpg" />
+        <meta property="og:site_name" content="San Francisco Chronicle" />
+        <!-- Twitter card metadata  -->
+    
+            <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@sfchronicle" />
+            <meta name="twitter:creator" content="@erinallday" />
+                    <!-- /business/templates/hearst/home/header_fbpage.tpl-->
+
+
+                <meta property="fb:app_id" content="137086563877087"/>
+        <meta property="fb:pages" content="105702905593,307851324523,12852567813,480760515417232,288240529145,316774245761,984197758297116,7457442370,207033189701,207346283795,222959748728,207042068180,72983690774,339413234035,343689323559,345828366626,234821559861394,335699426867,10150105039485602,338983127562,364516539001,337922332042,115637335153191,372011535931,333376634908,127590790608884,141923885872653,655037391286291,320774811368833,1740489152861748,469700473093040,386754203367,556449374478585,340999853450,350771491032,1120648627959218,342017778245,338463361591,138772706196968,1641688532739111,326312697536,353120110016,343366744658,335009494554,347261603104,350924013892,257724773860,361203926417,367174215398,284154645394,334501182354,350279743224,154340691263654,147848678611852,361381078011,362831597677,10150095255780118" />
+            <meta property="article:content_tier" content="metered" />
+                <meta property="article:opinion" content="false" />
+    
+<!-- e /business/templates/hearst/home/header_fbpage.tpl-->                                <script src="https://cdn.blueconic.net/hearst.js"></script>
+                            <!-- CSS/JS Hotfix freeform - all premium -->
+        <!-- hearst/item/standalone.tpl -->
+<!-- mid:freeform.46358 -->
+<style>@media screen and (min-width: 768px){.nav-menu {width: 187px;}</style>
+
+<style>
+.iframeContainer { height:0;margin-bottom:24px;overflow:hidden;position:relative; }
+.iframeContainer-16x9 { padding-top:56.25%; }
+@media screen and (min-width: 768px) { .iframeContainer-16x9 { padding-top:calc((100% - 368px) * .5625); width: 520px; }}
+.iframeContainer-4x3 { padding-top: 75%; }
+.iframeContainer iframe { height:100%;left:0;position:absolute;top:0;width:100%; }
+</style>
+
+
+<!-- Begin code for WCM-3983 -->
+<script type="text/javascript">
+if ( document.readyState === "complete" || (document.readyState !== "loading" && !document.documentElement.doScroll)) {
+	addTaboolaClickClass();
+} else {
+	document.addEventListener("DOMContentLoaded", function() { addTaboolaClickClass(); });
+};
+var addTaboolaClickClass = function () {
+	var tbfrms = document.getElementsByClassName('taboola-frame');
+	for (var i = 0; i < tbfrms.length; i++) {
+		tbfrms.item(i).classList.add('.taboola-frame');
+	}
+};
+</script>
+<!-- End code for WCM-3983 -->
+
+<script>
+/* v 0.0.1 */
+(function() {
+var Banner = {
+	init: function () {
+		var _this = this;
+		['mousedown', 'scroll'].forEach(function (e) {
+			window.addEventListener(e, Banner.onFirstInteraction, false);
+		});
+	},
+	onFirstInteraction: function () {
+		var _this = this;
+		['mousedown', 'scroll'].forEach(function (e) {
+			window.removeEventListener(e, Banner.onFirstInteraction, false);
+		});
+		Banner.addModule();
+	},
+	addModule: function () {
+		console.log("Add banner");
+		var script = document.createElement('script');
+		script.async = true
+		script.id  = 'banner_' + (new Date()).getTime();
+		script.src = "https://projects.hearstnp.com/utils/banner/banner.js";
+		document.body.appendChild(script);
+	}
+};
+Banner.init();
+})();
+</script>
+
+<!-- Begin code for ENG-2668 -->
+<style>
+.filler-3x2, .filler-3x2.filler-1x1 { padding: 0; }
+</style>
+<!-- End code for ENG-2668 -->
+        <!-- CSS/JS Hotfix freeform -->
+        
+        
+<!-- noGen: item_header_hotfix_ssl 35 dne  -->
+                            
+        
+                                                                                                
+            <script type="text/javascript">
+                window._taboola = window._taboola || [];
+                window._taboolaHDNPageLabel = window._taboolaHDNPageLabel || 'article';
+                var tobj = {};
+                tobj[window._taboolaHDNPageLabel] = 'auto';
+                _taboola.push(tobj);
+                !function (e, f, u, i) {
+                    if (!document.getElementById(i)){
+                        e.async = 1;
+                        e.src = u;
+                        e.id = i;
+                        f.parentNode.insertBefore(e, f);
+                    }
+                }(document.createElement('script'), document.getElementsByTagName('script')[0], '//cdn.taboola.com/libtrc/hearstlocalnews-sfchronicle/loader.js', 'tb_loader_script');
+                if(window.performance && typeof window.performance.mark == 'function') {
+                    window.performance.mark('tbl_ic');
+                }
+            </script>
+            
+                            
+            <script type="text/javascript">
+                window._newsroom = window._newsroom || [];
+                
+                !function(e,f,u){
+                    e.async = 1;
+                    e.src = u;
+                    f.parentNode.insertBefore(e,f);
+                }(document.createElement('script'),document.getElementsByTagName('script')[0],'//c2.taboola.com/nr/hearstlocalnews-sfchronicle/newsroom.js');
+            </script>
+            
+                    <!-- hearst/ensighten/ensighten.tpl -->
+        <!-- hearst/ensighten/ensighten.tpl -->
+<!-- hmb:ensighten Ensighten script -->
+
+<!-- Hearst analytics: Ensighten -->
+<script type="text/javascript">
+  (function(e) { 
+    var t = '//nexus.ensighten.com/hearst/news/Bootstrap.js'; 
+    if (e.cookie.indexOf("nsghtn") > -1) {
+      if(e.cookie.indexOf("nsghtn=test-dev") > -1) {
+      console.log("Ensighten :: Test-Dev"); t = "//nexus-test.ensighten.com/hearst/news-dev/Bootstrap.js";
+      } else if(e.cookie.indexOf("nsghtn=test") > -1) {
+      console.log("Ensighten :: Test"); t = "//nexus-test.ensighten.com/hearst/news/Bootstrap.js";
+      } else if(e.cookie.indexOf("nsghtn=dev") > -1) {
+      console.log("Ensighten :: Dev"); t = "//nexus.ensighten.com/hearst/news-dev/Bootstrap.js";
+      } 
+    }
+    e.write("<scr"+"ipt src='"+e.location.protocol+t+"'></"+"scr"+"ipt>");
+  })(document); 
+</script>
+<!-- End Hearst analytics: Ensighten -->
+
+<!-- e ensighten.tpl -->        <!-- e hearst/ensighten/ensighten.tpl -->
+    </head>
+    <body id="home" class=" health">
+        <div id="container" class="article_page">
+                                                                          <!-- hearst/home/simple_header.tpl -->
+<div id="sH" class="simple_header">
+    <a href="/"><span class="logo"></span></a>
+</div>
+<!-- e hearst/home/simple_header.tpl -->                                        <!-- end hearst/article/types/premium_article_header.tpl -->            <!-- design/article/wide.tpl -->
+                            <!-- hearst/article/types/wide.tpl -->
+
+
+
+<script type="text/javascript">
+    HDN.dataLayer.paywall = HDN.dataLayer.paywall || {};
+    HDN.dataLayer.paywall.accessRule = 'possiblyMetered';
+    HDN.dataLayer.paywall.mode = 'edbHalfEnabled';
+</script>
+
+
+<article>
+    <!-- hearst/article/types/story_body.tpl -->
+
+        <header><div class="asset_hero hero" data-config-article-id="15206694" data-config-image-id="19307797" data-config-asset-type="hero" data-config-asset-position="1" style="background-image: url('https://s.hdnux.com/photos/01/11/51/64/19307797/4/1680x1108.jpg');"><!-- hearst/article/types/hero_title.tpl -->
+<div class="article-title ">
+    <!-- src/business/templates/hearst/article/headline.tpl -->
+    <h1 class="headline entry-title">Bay Area’s most vulnerable</h1>
+            <h5 class="deck">Residents of homeless shelters and nursing homes remain at risk as the spread of the coronavirus slows.</h5>
+    <!-- e src/business/templates/hearst/article/headline.tpl -->    <!-- hearst/common/author_name.tpl -->
+<p class="byline">By <a href="https://www.sfchronicle.com/author/erin-allday/">Erin Allday</a></p>
+<!-- e hearst/common/author_name.tpl --></div>
+<!-- e hearst/article/types/hero_title.tpl --></div><!-- hearst/article/types/hero_title.tpl -->
+<div class="article-title ">
+    <!-- src/business/templates/hearst/article/headline.tpl -->
+    <h1 class="headline entry-title">Bay Area’s most vulnerable</h1>
+            <h5 class="deck">Residents of homeless shelters and nursing homes remain at risk as the spread of the coronavirus slows.</h5>
+    <!-- e src/business/templates/hearst/article/headline.tpl -->    <!-- hearst/common/author_name.tpl -->
+<p class="byline">By <a href="https://www.sfchronicle.com/author/erin-allday/">Erin Allday</a></p>
+<!-- e hearst/common/author_name.tpl --></div>
+<!-- e hearst/article/types/hero_title.tpl --><div class="asset-info-container"><!-- hearst/article/mobile_share.tpl -->
+
+<div class="social-links "
+    data-social-url="https%3A%2F%2Fwww.sfchronicle.com%2Fhealth%2Farticle%2FCoronavirus-slowing-after-1-month-but-not-in-15206694.php"
+    data-social-hash-id=""
+    data-social-blurb="%20Early%20and%20aggressive%20social%20distancing%20policy%20has%20had%20remarkable%20success%20in%20California%20and%20in%20particular%20in%20the%20Bay%20Area%2C%20one%20month%20in.%20But%20the%20Bay%20Area%20has%20been%20less%20successful%20protecting%20its%20most%20vulnerable%20residents%20in%20nursing%20homes%20and%20homeless%20shelters.%20"
+    data-media-url="https%3A%2F%2Fs.hdnux.com%2Fphotos%2F01%2F11%2F51%2F41%2F19306571%2F5%2FrawImage.jpg"
+    data-social-title="Coronavirus%20slowing%20after%201%20month%2C%20but%20not%20in%20shelters%2C%20nursing%20homes">
+    <ul class="right hidden">
+                    <li class="socialIcon print">
+                <a class="hdn-analytics" href="javascript:hst_print();"
+                    data-hdn-analytics="print_article|article-15206694|article-share-wide|7">
+                    <span class="icon"></span>
+                </a>
+            </li>
+                <li class="socialIcon comments">
+
+                                                                                                    <a class="hdn-analytics" href="https://www.sfchronicle.com/health/article/Coronavirus-slowing-after-1-month-but-not-in-15206694.php" onclick="document.location.href = document.location.href.replace('/article/','/articleComments/'); return false;" data-hdn-analytics="comments_jump|article-15206694|article-share-wide|1">
+                    <span class="icon"></span>
+                </a>
+                                                        <div class="viafoura">
+                    <span class="vf-counter vf-widget" data-widget="counter" data-path="https://www.sfchronicle.com/health/article/Coronavirus-slowing-after-1-month-but-not-in-15206694.php" data-spot-post-id="premiumsfgate-article-15206694"></span>
+                </div>
+            
+        </li>
+            </ul>
+    <ul class="left">
+        <li class="socialIcon email" data-share-id="email">
+            <a class="hdn-analytics"
+                href=""
+                onclick="return false;"
+                data-hdn-analytics="email_share|article-15206694|article-share-wide|1">
+                <span class="icon"></span>
+            </a>
+        </li>
+        <li class="socialIcon facebook" data-share-id="facebook">
+            <a class="hdn-analytics"
+                href=""
+                onclick="return false;"
+                data-hdn-analytics="facebook_share|article-15206694|article-share-wide|2">
+                <span class="icon"></span>
+            </a>
+        </li>
+        <li class="socialIcon twitter" data-share-id="twitter">
+            <a class="hdn-analytics"
+                href=""
+                onclick="return false;"
+                data-hdn-analytics="twitter_share|article-15206694|article-share-wide|3">
+                <span class="icon"></span>
+            </a>
+        </li>
+        <li class="socialIcon pinterest" data-share-id="pinterest">
+            <a class="hdn-analytics"
+                href=""
+                onclick="return false;"
+                data-hdn-analytics="pinterest_share|article-15206694|article-share-wide|4">
+                <span class="icon"></span>
+            </a>
+        </li>
+        <li class="socialIcon reddit" data-share-id="reddit">
+            <a class="hdn-analytics"
+                href=""
+                onclick="return false;"
+                data-hdn-analytics="reddit_share|article-15206694|article-share-wide|5">
+                <span class="icon"></span>
+            </a>
+        </li>
+        <li class="socialIcon flipboard" data-share-id="flipboard">
+            <a class="hdn-analytics"
+                href=""
+                onclick="return false;"
+                data-hdn-analytics="flipboard_share|article-15206694|article-share-wide|6">
+                <span class="icon"></span>
+            </a>
+        </li>
+            </ul>
+</div>
+<!-- e hearst/article/mobile_share.tpl --></div></header><div class="article-body"><p>A month into sheltering in place, it&rsquo;s clear that early and aggressive social distancing efforts have had remarkable success in the Bay Area, where the coronavirus outbreak appears to be ebbing and the health care system has so far not been overrun with seriously ill patents.</p>
+<!-- hearst/ads/duplicatable.tpl -->
+<div class="ctpl-duplicated-ad">
+              <!-- hmb:AP300 AP300 ad -->
+         <div id="AP300" class="ad_deferrable hidden-xs" data-width="300" data-height="250">
+            <script type="text/javascript"> /*<![CDATA[*/ hearstPlaceAd("AP300"); /*]]>*/ </script>
+        </div>
+     </div>
+<!-- / hearst/ads/duplicatable.tpl --><p>But the public health response that has won accolades from across the state and nation has struggled to protect the region&rsquo;s most vulnerable residents, in particular people in nursing homes and who are homeless, say infectious disease and public health experts.</p>
+<p>Case counts show that the Bay Area has turned a corner in its outbreak: There were fewer new cases reported last week than the week before, the first time that&rsquo;s happened since February. But even as the total counts stabilize somewhat, reports have spiked among homeless residents and people in long-term care facilities, who now make up more than 10% of all cases. Deaths in nursing homes and similar facilities alone account for nearly a quarter of all Bay Area coronavirus fatalities.</p>
+<p>Public health officials knew even before the first cases arrived in the Bay Area that these residents &mdash; along with people in jails and prisons, and those who live in residential hotels and other crowded spaces &mdash; would be most at risk of infection. They also are more likely to be older or have preexisting health problems that increase their chances of having severe illness and dying.</p>
+<div class="asset_photo"><div class="parallax " data-config-article-id="15206694" data-config-image-id="19306571" data-config-asset-type="parallax" data-config-asset-position="3" style="background-image: url('https://s.hdnux.com/photos/01/11/51/41/19306571/5/1680x1108.jpg')";"></div><!-- /photo float --><div class="caption"><p>The third night of the shelter-in-place order in San Francisco.</p> <span class="credit">(Kate Munsch / Special To The Chronicle | San Francisco Chronicle)</span></div></div><p>The relative success of sheltering in place underscores the challenge of preventing and containing outbreaks in communities that are vulnerable even when the world isn&rsquo;t in the middle of a public health disaster, infectious-disease experts said.</p>
+<div class="asset_item fullwidth" data-config-asset-position="4"><!-- design/article/assets/Freeform.tpl oid:item.95531 mid:freeform.95531 -->
+<div class="hdnce-e hdnce-item-95531">
+<link rel="stylesheet" type="text/css" href="https://projects.sfchronicle.com/shared/widetemplate-styles/styles.css">
+  <script src="https://projects.sfchronicle.com/shared/widetemplate-styles/script.js"></script>
+</div>
+<!--  e Freeform.tpl --></div><!-- /photo float --><p>&ldquo;It&rsquo;s interesting how a crisis uncovers so many problems,&rdquo; said John Swartzberg, an infectious-disease expert at UC Berkeley.</p>
+<!-- hearst/ads/duplicatable.tpl -->
+<div class="ctpl-duplicated-ad">
+              <!-- hmb:BP300 BP300 ad -->
+         <div id="BP300" class="ad_deferrable hidden-xs" data-width="300" data-height="250">
+            <script type="text/javascript"> /*<![CDATA[*/ hearstPlaceAd("BP300"); /*]]>*/ </script>
+        </div>
+     </div>
+<!-- / hearst/ads/duplicatable.tpl --><p>The Bay Area reported about 5,800 cases of the coronavirus and 185 deaths as of Thursday. The case counts continue to climb every day in almost all Bay Area counties, but the daily jumps are getting smaller now that the region has been sheltering in place for a month.</p>
+<p><a href="https://www.sfchronicle.com/bayarea/article/Charts-show-what-the-coronavirus-curve-15204108.php">Week-over-week reports </a>show this most clearly, and suggest that the outbreak may have peaked in the region in the first week of April. The numbers vary somewhat by county, though &mdash; San Mateo and Santa Clara counties have seen significant slowdowns in their local outbreaks, while San Francisco continues to see spikes.</p>
+<p>Public health officials warn that because the case counts are still increasing, albeit at a slower pace, the Bay Area remains at risk of seeing a surge in patients that could overwhelm hospitals, or at least push them close to capacity. And they expect that stay-home orders will remain in place for at least two more weeks and probably well into May.</p>
+<p>As case counts stabilize, the relative impact on certain communities has become more striking. For example, San Francisco reported about 300 new coronavirus cases in the past seven days, but almost a third of those were at <a href="https://www.sfchronicle.com/bayarea/article/None-of-homeless-who-tested-positive-at-big-SF-15206152.php">one homeless shelter</a>. None of the people who tested positive at the shelter reported serious symptoms.</p>
+<p>Two outbreaks at nursing homes in Hayward and Castro Valley infected 112 residents and staff; 14 residents have died. They make up 11% of all coronavirus cases in Alameda County and 36% of deaths. In Santa Clara County, 309 cases have been reported in two dozen long-term care facilities &mdash; for about 17% of the county&rsquo;s 1,800 total cases. Deaths in long-term care facilities account for 25% of all Santa Clara County coronavirus fatalities.</p>
+<!-- hearst/ads/duplicatable.tpl -->
+<div class="ctpl-duplicated-ad">
+              <!-- hmb:CP300 CP300 ad -->
+         <div id="CP300" class="ad_deferrable hidden-xs" data-width="300" data-height="250">
+            <script type="text/javascript"> /*<![CDATA[*/ hearstPlaceAd("CP300"); /*]]>*/ </script>
+        </div>
+     </div>
+<!-- / hearst/ads/duplicatable.tpl --><p>A <a href="https://www.sfchronicle.com/politics/article/Families-left-in-dark-as-coronavirus-races-15191179.php">Chronicle analysis</a> found about 400 coronavirus cases in Bay Area long-term care facilities as of April 10; another 230 cases have since been reported or made public. At least 45 cases have been reported in people living in residential hotels or who are homeless and not in a shelter. More than two dozen cases have been identified in jails.</p>
+<p>Altogether, outbreaks among especially vulnerable communities account for at least 14% of all cases in the Bay Area, public health experts say. And the numbers are probably much higher, since many counties don&rsquo;t separate cases in at-risk communities from the total reports.</p>
+<a name="asset-photo-19306220"></a><div class="asset_photo " data-config-asset-position="7"><!-- photo float --><img id="premiumsfgate-photo-19306220" src="https://s.hdnux.com/photos/01/11/51/33/19306220/15/920x1240.jpg" alt=" Photo: Todd Trumbull" /></div><!-- /photo float --><div class="asset_photo"><div class="parallax " data-config-article-id="15206694" data-config-image-id="19306568" data-config-asset-type="parallax" data-config-asset-position="8" style="background-image: url('https://s.hdnux.com/photos/01/11/51/41/19306568/5/1680x1108.jpg')";"></div><!-- /photo float --><div class="caption"><p>Friends from Oakland who attended Head-Royce School and are home from various colleges park their cars in a circle to socially distance in a lot at Lawrence Hall of Science in Berkeley.</p> <span class="credit">(Jessica Christian / The Chronicle | San Francisco Chronicle)</span></div></div><p>Many of the problems that have come to light in the pandemic are tied to deeply rooted, systemic challenges, such as homelessness. Long-term care facilities are frequent sources of public health crises, most often due to outbreaks from diseases like the flu or norovirus.</p>
+<p>&ldquo;Nursing homes are sort of the poster child of a situation we don&rsquo;t want to have. It&rsquo;s just an environment that is fraught with danger,&rdquo; said Swartzberg. &ldquo;The homeless, the jail population, nursing homes &mdash; we&rsquo;ve sort of put them all aside. We don&rsquo;t have an overnight solution.&rdquo;</p>
+<p>He added that cases in nursing homes and among homeless people probably were circulating from the start of the regional outbreak. But due to testing shortages and, for homeless people, a lack of consistent access to health care, they may have gone unnoticed for weeks.</p>
+<p>Critics of the public health response said county officials were slow to anticipate the needs of these communities and to protect them, despite ample warning that they would be potential hot spots. The first large coronavirus outbreak in the United States was in a nursing home near Seattle in February &mdash; weeks before the Bay Area began to see a large uptick in cases.</p>
+<div class="asset_photo"><div class="parallax " data-config-article-id="15206694" data-config-image-id="19306572" data-config-asset-type="parallax" data-config-asset-position="9" style="background-image: url('https://s.hdnux.com/photos/01/11/51/41/19306572/5/1680x1108.jpg')";"></div><!-- /photo float --><div class="caption"><p>Empty aisles at Target in Marin City.</p> <span class="credit">(Gabrielle Lurie / The Chronicle | San Francisco Chronicle)</span></div></div><p>And homeless people were identified early on as needing extra support, said health care and community advocates. Dr. Rupa Marya, a UCSF physician and member of the national Do No Harm Coalition of health care workers, said that despite some admirable steps in the crisis, San Francisco has been too slow to safeguard the street and shelter populations.</p>
+<!-- hearst/ads/duplicatable.tpl -->
+<div class="ctpl-duplicated-ad">
+              <!-- hmb:DP300 DP300 ad -->
+         <div id="DP300" class="ad_deferrable hidden-xs" data-width="300" data-height="250">
+            <script type="text/javascript"> /*<![CDATA[*/ hearstPlaceAd("DP300"); /*]]>*/ </script>
+        </div>
+     </div>
+<!-- / hearst/ads/duplicatable.tpl --><p>&ldquo;The mayor&rsquo;s quick action to declare a state of emergency before we had our first COVID-19 death is commendable,&rdquo; Marya said. &ldquo;However, the city&rsquo;s sluggish response to addressing how to take care of our unhoused people threatens to undo our gains. This virus is exposing the limits of care in our society.&rdquo;</p>
+<p>Public health officials said they have responded quickly to hot spots. They have leased hundreds of hotel rooms and other spaces for homeless people to shelter safely, for example, and issued alerts to long-term care facilities. They have released some people from jails to ease overcrowding.</p>
+<p>&ldquo;We&rsquo;re not going to be able to prevent every outbreak,&rdquo; said Dr. Susan Philip, director of disease prevention and control at the San Francisco Department of Public Health. &ldquo;What we can do is try to minimize the extent to which outbreaks occur, and anticipate the resources that are needed to make them as small as possible.&rdquo;</p>
+<div class="asset_photo"><div class="parallax " data-config-article-id="15206694" data-config-image-id="19306570" data-config-asset-type="parallax" data-config-asset-position="11" style="background-image: url('https://s.hdnux.com/photos/01/11/51/41/19306570/5/1680x1108.jpg')";"></div><!-- /photo float --><div class="caption"><p>The upper deck of the Bay Bridge is empty at 6:34 p.m. Tuesday.</p> <span class="credit">(Noah Berger / Special To The Chronicle | San Francisco Chronicle)</span></div></div><p>Philip added that sheltering in place may not have directly prevented infections among certain vulnerable populations, but by slowing down the outbreak, it has given public health officials more time and resources to help them. Instead of struggling to care for a surge of patients in San Francisco hospitals and contain massive community outbreaks, she said, city officials can aggressively respond to isolated clusters.</p>
+<!-- hearst/ads/duplicatable.tpl -->
+<div class="ctpl-duplicated-ad">
+              <!-- hmb:EP300 EP300 ad -->
+         <div id="EP300" class="ad_deferrable hidden-xs" data-width="300" data-height="250">
+            <script type="text/javascript"> /*<![CDATA[*/ hearstPlaceAd("EP300"); /*]]>*/ </script>
+        </div>
+     </div>
+<!-- / hearst/ads/duplicatable.tpl --><p>She also noted that San Francisco &mdash; and the rest of the Bay Area &mdash; needs to stop the spread of disease among vulnerable populations not just for their protection, but to control the entire regional outbreak. As long as the coronavirus is able to get a foothold in one community, everyone is at risk, she said.</p>
+<p>&ldquo;We are all a human chain. We are all connected to each other,&rdquo; Philip said. &ldquo;I know that sounds like a platitude, but in this situation, when it&rsquo;s a respiratory infection that&rsquo;s easily transmitted, the health of our city is dependent on having as healthy an environment for everyone as possible.&rdquo;</p>
+<div class="asset_photo"><div class="parallax " data-config-article-id="15206694" data-config-image-id="19306569" data-config-asset-type="parallax" data-config-asset-position="13" style="background-image: url('https://s.hdnux.com/photos/01/11/51/41/19306569/5/1680x1108.jpg')";"></div><!-- /photo float --><div class="caption"><p>A playground is wrapped in caution tape and closed to public use at the Berkeley Marina.</p> <span class="credit">(Jessica Christian / The Chronicle | San Francisco Chronicle)</span></div></div><p><i>San Francisco Chronicle staff writers Kevin Fagan and Trisha Thadani contributed to this report.</i></p>
+<div class="asset_item fullwidth" data-config-asset-position="14"><!-- design/article/assets/Freeform.tpl oid:item.95530 mid:freeform.95530 -->
+<div class="hdnce-e hdnce-item-95530">
+<style>
+#AP300{
+display:none;
+}
+   article header {
+   max-width: 1920px;
+   margin: 20px auto;
+   position: relative;
+   }
+   body article header .article-title {
+       display: block;
+   }
+   #video-topper {
+       width: 100%;
+       margin-top: 25px;
+   }
+@media only screen and (min-width: 48rem) {
+body article header .article-title {
+   height: 350px !important;
+   top: 15%;
+   bottom: auto;
+}
+}
+</style>
+<script>
+   // Update title
+  // Prep video
+    var videoSelect = "https://files.sfchronicle.com/static-assets/compression-bot/1587106800_virus0417shelter.mp4";
+    if ($(window).width() < 768) {
+        videoSelect = "https://files.sfchronicle.com/static-assets/compression-bot/1587106800_virus0417shelter.mp4";
+    }
+
+    var htmlString = '<video muted autoplay loop playsinline id="video-topper"><source src="'+videoSelect+'" type="video/mp4"></video>';
+
+    // Swap video in
+    $(".asset_hero").replaceWith(htmlString);
+
+    // Add credit for vid
+    $("header video").after('<p style="text-align: right;padding: 0 5px;color: #999;font-size: 12px;"> Video by Jessica Christian | <a style="color: #666;" href="https://creativecommons.org/licenses/by/3.0/legalcode" target="_blank">The Chronicle</a></p>');
+</script>
+</div>
+<!--  e Freeform.tpl --></div><!-- /photo float --><em><p>Erin Allday is a San Francisco Chronicle staff writer. Email: <a href="mailto:eallday@sfchronicle.com">eallday@sfchronicle.com</a> Twitter: <a href="https://twitter.com/erinallday">@erinallday</a></p></em>
+</div> <!-- /article-body -->
+
+<!-- e hearst/article/types/story_body.tpl -->    <script> wideArticleAnalytics.init(); </script>
+</article><!--/article-body-->
+<!-- e hearst/article/types/wide.tpl -->            <!-- e design/article/wide.tpl -->    
+
+<script>
+    var HDN = HDN || {};
+    HDN.ping( {
+        "id": 15206694,
+        "site": "premiumsfgate",
+        "type": "article"
+    });
+    $(document).ready(function () {
+        return hst_get_fprefs(this);
+    });
+</script>
+
+  </div><!-- /container --><!-- src/business/templates/hearst/common/footer.tpl -->
+
+    <!-- ux hearst/common/site_footer.tpl -->
+                        <!-- hearst/common/spotImFooterJS.tpl -->
+<script>
+                                    
+            if ( document.readyState === "complete" || (document.readyState !== "loading" && !document.documentElement.doScroll)) {
+                if (HDN && HDN.hasOwnProperty('spotim')) {
+                    HDN.spotim.launch('premium',false);
+                }
+            } else {
+                document.addEventListener("DOMContentLoaded", function() { 
+                    if (HDN && HDN.hasOwnProperty('spotim')) {
+                        HDN.spotim.launch('premium',false);
+                    }
+                });
+            }
+            
+                
+        if ( document.readyState === "complete" || (document.readyState !== "loading" && !document.documentElement.doScroll)) {
+            if (HDN && HDN.hasOwnProperty('spotim')) {
+                HDN.spotim.commentCount(undefined,undefined,1);
+            }
+        } else {
+            document.addEventListener("DOMContentLoaded", function() { 
+                        if (HDN && HDN.hasOwnProperty('spotim')) {
+                            HDN.spotim.commentCount(undefined,undefined,1);
+                        }
+                    });
+        }
+    
+</script>
+<!-- e hearst/common/spotImFooterJS.tpl -->
+                    
+        <script type="text/javascript">
+            window._taboola = window._taboola || [];
+            _taboola.push({flush: true});
+        </script>
+    
+
+    </div>
+<footer class="pageFooter">
+    <div class="lock">
+        <div class="pageFooter--wrapper">
+            <div class="pageFooter--left">
+                <a href="/" class="pageFooter--left-logo"></a>
+                <ul class="pageFooter--left-social">
+                    <li class="facebook"><a href="https://www.facebook.com/SFChronicle/"></a></li>                    <li class="twitter"><a href="https://twitter.com/sfchronicle"></a></li>                    <li class="instagram"><a href="https://www.instagram.com/sfchronicle/"></a></li>                    <li class="linkedin"><a href="https://www.linkedin.com/company/sfchronicle"></a></li>                </ul>
+            </div>
+            <div class="pageFooter--right">
+                <div class="pageFooter--right-topLine">
+                    <a href="#" id="scrollTop" class="return"><span class="full">Return to</span> Top</a>
+                </div>
+                <div class="pageFooter--right-links">
+                    
+                    <!-- hearst/item/standalone.tpl -->
+<div class="hdnce-e hdnce-item-87230"><!-- mid:freeform.87230 -->
+<ul class="wrapper">
+  <li>
+    <div id="about-footer-hc-mobile" class="title">About</div>
+    <ul class="section" role="list" aria-labelledby="about-footer-hc-mobile">
+      <li><a href="http://www.hearst.com/newspapers/san-francisco-chronicle" target="_blank" role="listitem">Our Company</a></li>
+      <li><a href="https://www.sfchronicle.com/customer_service/article/How-Hearst-Newspapers-is-delivering-information-15151951.php" target="_blank" role="listitem">Newspaper Delivery Safety Procedures</a></li>
+      <li><a href="https://www.sfchronicle.com/privacy_policy" target="_blank" role="listitem">Privacy Notice</a></li>
+      <li><a href="https://www.sfchronicle.com/privacy_policy/#caprivacyrights" target="_blank" role="listitem">Your California Privacy Rights</a></li>
+      <li><a class="adChoices" href="https://www.sfchronicle.com/privacy_policy/#interestbasedads" target="_blank" role="listitem">Interest Based Ads</a></li>
+      <li><a href="https://www.sfchronicle.com/terms_of_use/" target="_blank" role="listitem">Terms of Use</a></li>
+      <li><a href="http://www.sfchronicle.com/hr/" target="_blank" role="listitem">Careers</a></li>
+      <li><a href="https://marketing.sfgate.com/advertise-with-us-today" target="_blank" role="listitem">Advertising</a></li>
+    </ul>
+  </li>
+
+
+<li>
+    <div id="news-footer-hc-mobile" class="title">Newsroom</div>
+    <ul class="section" role="list" aria-labelledby="news-footer-hc-mobile">
+      <li><a href="https://www.sfchronicle.com/file/519/1/5191-Chronicle%20ethics%2C%20standards%20and%20practices.pdf" target="_blank" role="listitem">Ethics Policy</a></li>
+      <li><a href="https://www.sfchronicle.com/file/518/8/5188-Correction%20policy.pdf" target="_blank" role="listitem">Correction Policy</a></li>
+      <li><a href="https://www.sfchronicle.com/file/519/0/5190-San%20Francisco%20Chronicle%20Photo%20Ethics.pdf" target="_blank" role="listitem">Visual Ethics Guidelines</a></li>
+      <li><a href="https://www.sfchronicle.com/file/518/9/5189-SFChronicle%20anonymous%20source%20policy.pdf" target="_blank" role="listitem">Anonymous Sources Policy</a></li>
+      <li><a href="https://www.sfchronicle.com/opinion/article/How-The-Chronicle-s-endorsement-process-works-14499467.php" target="_blank" role="listitem">Endorsement Process</a></li>
+      <li><a href="https://newstips.sfchronicle.com/" target="_blank" role="listitem">News Tips</a></li>
+    </ul>
+  </li>
+
+
+  <li>
+    <div id="contact-footer-hc-mobile" class="title">Contact</div>
+    <ul class="section" role="list" aria-labelledby="contact-footer-hc-mobile">
+      <li><a href="https://www.sfchronicle.com/customer_service" target="_blank" role="listitem">Customer Service</a></li>
+      <li><a href="https://www.sfchronicle.com/faq" target="_blank" role="listitem">FAQ</a></li>
+      <li><a href="https://www.sfchronicle.com/newsroom_contacts" target="_blank" role="listitem">Newsroom Contacts</a></li>
+    </ul>
+  </li>
+  <li style="margin-top: -2px;">
+    <div id="ccpa-footer-hc-mobile" class="title" style="font-size: 14px">CCPA</div>
+    <ul class="section" role="list" aria-labelledby="contact-footer-hc-mobile">
+      <li><a class="hdn-analytics" href="/mydata/" target="_blank" role="listitem" style="font-size: 14px;" data-hdn-analytics="visit|Do Not Sell My Info|navigation-footer|1">Do Not Sell My Info</a></li>
+    </ul>
+  </li>
+  <li>
+    <div id="services-footer-hc-mobile" class="title">Services</div>
+    <ul class="section" role="list" aria-labelledby="services-footer-hc-mobile">
+      <li><a href="https://subscription.sfchronicle.com/" target="_blank" role="listitem">Subscriber Services</a></li>
+      <li><a href="https://www.sfchronicle.com/e-edition" target="_blank" role="listitem">e-edition</a></li>
+      <li><a href="https://www.sfchronicle.com/mobile-apps/" target="_blank" role="listitem">App</a></li>
+      <li><a href="https://www.sfchronicle.com/archive" target="_blank" role="listitem">Archives</a></li>
+      <li><a href="https://www.sfchronicle.com/membership" target="_blank" role="listitem">Membership</a></li>
+      <li><a href="https://sfchronicle.myshopify.com/" target="_blank" role="listitem">Store</a></li>
+      <li><a href="https://offers.sfchronicle.com/subscribe/?origin=sfc.footer&amp;ipid=suboffers" target="_blank" role="listitem">Subscription Offers</a></li>
+      <li><a href="https://www.sfgate.com/" target="_blank" role="listitem">sfgate.com</a></li>
+    </ul>
+  </li>
+</ul>
+
+<script>
+$(".wrapper > li").css("flex","0 0 25% !important");
+</script>
+
+<style>
+.wrapper > li {
+flex: 0 0 20% !important;
+}
+</style>
+</div><!-- / hdnce-e -->                </div>
+            </div>
+        </div>
+        <div class="pageFooter--branding">
+            <img class="pageFooter--branding-logo" src="/img/hearst_newspapers_logo.svg" />
+            <span class="pageFooter--branding-copyright">&copy;2020 Hearst</span>
+        </div>
+    </div>
+    </footer>
+<!-- e ux hearst/common/site_footer.tpl -->
+<!-- e src/business/templates/hearst/common/footer.tpl --><!-- e premium_article_main.tpl -->

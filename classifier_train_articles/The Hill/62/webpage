@@ -1,0 +1,1188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en">
+  <head>
+    
+    <link rel="apple-touch-icon" sizes="512x512" href="/apple-touch-icon-512X512.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="/apple-touch-icon-1024X1024.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152X152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="/apple-touch-icon-167X167.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="/apple-touch-icon-1024X1024.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120X120.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180X180.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <meta charset="UTF-8"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"962df17ac8",applicationID:"409941798"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Americans are now desperately 'reaching for hope' | TheHill</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime();</script>
+<link rel="amphtml" href="https://thehill.com/changing-america/well-being/mental-health/486582-out-of-many-some-americans-are-now-desperately?amp" />
+<link rel="shortcut icon" href="https://thehill.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="Pulitzer Prize winners Nicholas Kristof and Sheryl WuDunn shine a light on sweeping economic and social struggles across the United States in an important new book." />
+<meta name="keywords" content=",," />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://thehill.com/changing-america/well-being/mental-health/486582-out-of-many-some-americans-are-now-desperately" />
+<link rel="shortlink" href="https://thehill.com/node/486582" />
+<meta property="fb:admins" content="581787871" />
+<meta property="fb:admins" content="732535504" />
+<meta property="fb:admins" content="1531470032" />
+<meta property="fb:app_id" content="566538590082898" />
+<meta property="fb:pages" content="7533944086, 2064147433830888" />
+<meta property="og:site_name" content="TheHill" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Americans are now desperately &#039;reaching for hope&#039;" />
+<meta property="og:url" content="https://thehill.com/changing-america/well-being/mental-health/486582-out-of-many-some-americans-are-now-desperately" />
+<meta property="og:description" content="Pulitzer Prize winners Nicholas Kristof and Sheryl WuDunn shine a light on sweeping economic and social struggles across the United States in an important new book." />
+<meta property="og:updated_time" content="2020-03-13T15:48:37-04:00" />
+<meta property="og:image" content="https://thehill.com/sites/default/files/ca_kristof_wudunn_tightrope.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Americans are now desperately &#039;reaching for hope&#039;" />
+<meta name="twitter:url" content="https://thehill.com/changing-america/well-being/mental-health/486582-out-of-many-some-americans-are-now-desperately" />
+<meta name="twitter:description" content="Pulitzer Prize winners Nicholas Kristof and Sheryl WuDunn shine a light on sweeping economic and social struggles across the United States in an important new book." />
+<meta property="article:published_time" content="2020-03-13T09:59:15-04:00" />
+<meta property="article:modified_time" content="2020-03-13T15:48:37-04:00" />
+<meta name="dcterms.title" content="Americans are now desperately &#039;reaching for hope&#039;" />
+<meta name="dcterms.creator" content="Anthony DiFlorio" />
+<meta name="dcterms.description" content="Pulitzer Prize winners Nicholas Kristof and Sheryl WuDunn shine a light on sweeping economic and social struggles across the United States in an important new book." />
+<meta name="dcterms.date" content="2020-03-13T09:59-04:00" />
+<meta name="dcterms.type" content="Text" />
+<meta name="dcterms.format" content="text/html" />
+<meta name="dcterms.identifier" content="https://thehill.com/changing-america/well-being/mental-health/486582-out-of-many-some-americans-are-now-desperately" />
+<script language="javascript" type="text/javascript" src="/sites/all/modules/thehill/thehill_header_bidding/js/prebid_2_44_2.js" async ></script><script language="javascript" type="text/javascript" src="//www.googletagservices.com/tag/js/gpt.js" async ></script>    <link rel="stylesheet" href="/sites/all/themes/changingamerica/dist/css/style.min.css">
+    <link rel="stylesheet" href="/sites/all/themes/changingamerica/dist/css/th_jwplayer.css">
+    
+    <!-- Krux interchange code (before the first ad call) -->
+    <script class="kxint" data-namespace="thehill" type="text/javascript">
+      window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+      (function(){
+        function retrieve(n){
+          var k= 'kx'+'thehill_'+n, ls=(function(){
+            try {
+              return window.localStorage;
+            } catch(e) {
+              return null;
+            }
+          })();
+          if (ls) {
+            return ls[k] || '';
+          } else if (navigator.cookieEnabled) {
+            var m = document.cookie.match(k+'=([^;]*)');
+            return (m && unescape(m[1])) || '';
+          } else {
+            return '';
+          }
+        }
+        Krux.user = retrieve('user');
+        Krux.segments = retrieve('segs') ? retrieve('segs').split(',') : [];
+      })();
+    </script>
+    <script type="text/javascript" src="https://thehill.com/sites/default/files/js/js_UsJCaTKadQHcBxW3InvotRkwEO94ieAIN0hsSq5sbL4.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+  var PREBID_TIMEOUT = 2000;
+
+  var adUnits = [ {
+          code: 'dfp-ad-ca_728x90_above_nav',
+          mediaTypes: {
+              banner: {
+                  sizes: [[728, 90], [320, 50]]
+              }
+          },
+          bids: [{
+              bidder: 'openx',
+              params: {
+                  unit: '540995006',
+                  delDomain: 'thehill-d.openx.net'
+              },
+              labelAny: ["desktop", "mobile"]
+          },{
+              bidder: 'rubicon',
+              params: {
+                  accountId: '15654',
+                  siteId: '102722',
+                  zoneId: '482104'
+              },
+              labelAny: ["desktop"]
+          },{
+              bidder: 'rubicon',
+              params: {
+                  accountId: '15654',
+                  siteId: '103222',
+                  zoneId: '484538'
+              },
+              labelAny: ["mobile"]
+          },{
+              bidder: 'ix',
+              params: {
+                  siteId: '460696',
+                  size: [728,90]
+              },
+              labelAny: ["desktop"]
+          },{
+              bidder: 'ix',
+              params: {
+                  siteId: '460696',
+                  size: [320,50]
+              },
+              labelAny: ["mobile"]
+          },{
+              bidder: 'appnexus',
+              params: {
+                  placementId: '18446329'
+              },
+              labelAny: ["desktop", "mobile"]
+          }]
+      },{
+          code: 'dfp-ad-ca_728x90_bottom',
+          mediaTypes: {
+              banner: {
+                  sizes: [[728, 90], [300, 250]]
+              }
+          },
+          bids: [{
+              bidder: 'openx',
+              params: {
+                  unit: '540995139',
+                  delDomain: 'thehill-d.openx.net'
+              },
+              labelAny: ["desktop", "mobile"]
+          },{
+              bidder: 'rubicon',
+              params: {
+                  accountId: '15654',
+                  siteId: '102722',
+                  zoneId: '482104'
+              },
+              labelAny: ["desktop"]
+          },{
+              bidder: 'rubicon',
+              params: {
+                  accountId: '15654',
+                  siteId: '103222',
+                  zoneId: '484540'
+              },
+              labelAny: ["mobile"]
+          },{
+              bidder: 'ix',
+              params: {
+                  siteId: '460698',
+                  size: [728,90]
+              },
+              labelAny: ["desktop"]
+          },{
+              bidder: 'ix',
+              params: {
+                  siteId: '460698',
+                  size: [300,250]
+              },
+              labelAny: ["mobile"]
+          },{
+              bidder: 'appnexus',
+              params: {
+                  placementId: '18446332'
+              },
+              labelAny: ["desktop", "mobile"]
+          }]
+      },{
+          code: 'dfp-ad-ca_300x250_desktop',
+          mediaTypes: {
+              banner: {
+                  sizes: [[300, 250]]
+              }
+          },
+          bids: [{
+              bidder: 'openx',
+              params: {
+                  unit: '540995139',
+                  delDomain: 'thehill-d.openx.net'
+              },
+              labelAny: ["desktop", "mobile"]
+          },{
+              bidder: 'rubicon',
+              params: {
+                  accountId: '15654',
+                  siteId: '102722',
+                  zoneId: '484056'
+              },
+              labelAny: ["desktop"]
+          },{
+              bidder: 'rubicon',
+              params: {
+                  accountId: '15654',
+                  siteId: '103222',
+                  zoneId: '484540'
+              },
+              labelAny: ["mobile"]
+          },{
+              bidder: 'ix',
+              params: {
+                  siteId: '460699',
+                  size: [300,250]
+              },
+              labelAny: ["desktop", "mobile"]
+          },{
+              bidder: 'appnexus',
+              params: {
+                  placementId: '18446328'
+              },
+              labelAny: ["desktop", "mobile"]
+          }]
+      },{
+          code: 'dfp-ad-incontent_desk_1',
+          mediaTypes: {
+              banner: {
+                  sizes: [[300, 250]]
+              }
+          },
+          bids: [{
+              bidder: 'appnexus',
+              params: {
+                  placementId: '9114211'
+              }
+          },{
+              bidder: 'rubicon',
+              params: {
+                  accountId: '15654',
+                  siteId: '102722',
+                  zoneId: '484056'
+              }
+          },{
+              bidder: 'ix',
+              params: {
+                  siteId: '317998',
+                  size: [300,250]
+              }
+          },{
+              bidder: 'openx',
+              params: {
+                  unit: '538678494',
+                  delDomain: 'thehill-d.openx.net'
+              }
+          },{
+              bidder: 'kargo',
+              params: {
+                  placementId: '_ntekP69gKO'
+              }
+          }]
+      },{
+          code: 'dfp-ad-incontent_desk_2',
+          mediaTypes: {
+              banner: {
+                  sizes: [[300, 250]]
+              }
+          },
+          bids: [{
+              bidder: 'rubicon',
+              params: {
+                  accountId: '15654',
+                  siteId: '102722',
+                  zoneId: '484056'
+              }
+          },{
+              bidder: 'ix',
+              params: {
+                  siteId: '318002',
+                  size: [300,250]
+              }
+          },{
+              bidder: 'appnexus',
+              params: {
+                  placementId: '9114211'
+              }
+          },{
+              bidder: 'openx',
+              params: {
+                  unit: '538678493',
+                  delDomain: 'thehill-d.openx.net'
+              }
+          }]
+} ];
+  var videoAdUnit = {
+	code: 'video_preroll',
+	mediaTypes: {
+	    video: {
+	        playerSize: [640, 360],
+	        context: 'instream'
+	    }
+	},
+	bids: [
+		{
+	    	bidder: 'appnexus',
+		    params: {
+		        placementId: 15816860, 
+		        video: {
+		            skipppable: true,
+		            playback_method: ['auto_play_sound_off']
+		        }
+		    }
+		},
+		{            
+      		bidder: 'openx',             
+	      	params: {
+	         	unit: '540707777',
+	         	delDomain: 'thehill-d.openx.net',
+	      	}                      
+   		},
+   		{
+	        bidder: 'ix',
+	        params: {
+	            siteId: '449945',
+	            size: [640, 360],
+	            video: {
+	                mimes: ['video/mp4','video/webm', 'application/javascript'],
+	                minduration: 0,
+	                maxduration: 60,
+	                protocols: [2, 3, 5, 6],
+	                api: [1,2]
+	            }
+	        }
+	    }
+	]
+};
+
+  var pbjs = pbjs || {};
+  pbjs.que = pbjs.que || [];
+
+  pbjs.que.push(function() {
+    pbjs.setConfig({
+        enableSendAllBids: true,
+        sizeConfig: [{
+            mediaQuery: '(min-width: 768px)',
+            sizesSupported: [
+                [728, 90],
+                [970, 90],
+                [300, 250],
+                [160,600],
+                [300,600],
+                [300,1050],
+                [970,250],
+                [970,415],
+                [970,500],
+                [1237,500]
+            ],
+            labels: ["desktop"]
+        }, {
+            mediaQuery: '(min-width: 0px) and (max-width: 767px)',
+            sizesSupported: [
+                [320, 50],
+                [320, 100],
+                [300, 250]
+            ],
+            labels: ["mobile"]
+        }],
+        cache: {
+            url: "https://prebid.adnxs.com/pbc/v1/cache"
+        },
+        userSync: {
+            iframeEnabled: true,
+            filterSettings: {
+                iframe: {
+                    bidders: ['openx'],
+                    filter: 'include'
+                }
+            }
+        }
+    });
+});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];  googletag.cmd.push(function() {
+    googletag.pubads().disableInitialLoad();
+  });
+
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+  pbjs.que.push(function() {
+    pbjs.addAdUnits(adUnits);
+    pbjs.addAdUnits(videoAdUnit);
+
+    pbjs.bidderSettings = {
+standard: {
+        alwaysUseBid: false,
+        adserverTargeting: [{
+            key: "hb_bidder",
+          	val: function(bidResponse) {
+        	return bidResponse.bidderCode;
+          }
+        }, {
+            key: "hb_adid",
+            val: function(bidResponse) {
+                return bidResponse.adId;
+            }
+        }, 
+        {
+	    key: "hb_cache_id",
+            val: function(bidResponse) {
+		return bidResponse.videoCacheKey;
+	    }
+        },
+        {
+            key: "hb_pb",
+          	val: function(bidResponse) {
+            var cpm = bidResponse.cpm;
+            if (cpm < 3.00) {
+              return (Math.floor(cpm * 100) / 100).toFixed(2);
+            } else if (cpm < 5.00) {
+              return (Math.floor(cpm * 20) / 20).toFixed(2);
+            } else if (cpm < 10.00) {
+              return (Math.floor(cpm * 20) / 20).toFixed(2);
+            } else if (cpm < 25.00) {
+              return (Math.floor(cpm * 2) / 2).toFixed(2);
+            } else {
+              return '25.00';
+        
+            }
+            }
+        }]
+
+      },
+openx: {
+	alwaysUseBid: true,
+	adserverTargeting: [{
+		key: "oxb",
+ 		val: function(bidResponse) {
+ 			var bid;
+ 			if (bidResponse.cpm < 20) {
+ 				//Penny Bid Buckets
+ 				bid = ((Math.floor(bidResponse.cpm * 100) / 100) * 100).toFixed(0);
+ 			} else {
+ 				//Twenty dollar bucket
+ 				bid = "2000";
+ 			}
+ 			//Returns creativeSize_bidBucket as the value
+ 			return bidResponse.width + "x" + bidResponse.height + "_" + bid;
+ 		}
+ 	}]
+}
+      };
+    pbjs.requestBids({
+      bidsBackHandler: sendAdserverRequest
+    });
+  });
+
+  function sendAdserverRequest() {
+    if (pbjs.adserverRequestSent) return;
+    pbjs.adserverRequestSent = true;
+    var displayAdUnitCodes = [];
+    adUnits.forEach(function(adUnit) {
+      displayAdUnitCodes.push(adUnit.code);
+    });
+
+    googletag.cmd.push(function() {
+      pbjs.que.push(function() {
+        pbjs.setTargetingForGPTAsync(displayAdUnitCodes);
+        googletag.pubads().refresh();
+      });
+    });
+  }
+
+  setTimeout(function() {
+    sendAdserverRequest();
+  }, PREBID_TIMEOUT);
+
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+googletag.slots = googletag.slots || {};
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://thehill.com/sites/default/files/js/js_s3L_uC35AiN5EGYY533su-jccnLRp2aKpOnjgPLbo34.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+googletag.cmd.push(function() {
+googletag.slots["incontent_desk_1"] = googletag.defineSlot("1107919/Content_300x250_ROS_asynch", [300, 250], "dfp-ad-incontent_desk_1")
+  .addService(googletag.pubads());
+});
+
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+googletag.cmd.push(function() {
+googletag.slots["incontent_desk_2"] = googletag.defineSlot("1107919/Content_300x250_ROS_2_asynch", [300, 250], "dfp-ad-incontent_desk_2")
+  .addService(googletag.pubads());
+});
+
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+googletag.cmd.push(function() {
+googletag.slots["ca_300x250_desktop"] = googletag.defineSlot("1107919/CA_300x250_desktop", [300, 250], "dfp-ad-ca_300x250_desktop")
+  .addService(googletag.pubads());
+});
+
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+googletag.cmd.push(function() {
+var mapping = googletag.sizeMapping()
+  .addSize([768, 0], [728, 90])
+  .addSize([320, 0], [300, 250])
+  .build();
+googletag.slots["ca_728x90_bottom"] = googletag.defineSlot("1107919/CA_728x90_bottom", [[728, 90], [300, 250]], "dfp-ad-ca_728x90_bottom")
+  .addService(googletag.pubads())
+  .setTargeting("MoatSlotId", "CA_728x90_bottom")
+  .defineSizeMapping(mapping);
+});
+
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+googletag.cmd.push(function() {
+var mapping = googletag.sizeMapping()
+  .addSize([767, 0], [728, 90])
+  .addSize([320, 0], [320, 50])
+  .build();
+googletag.slots["ca_728x90_above_nav"] = googletag.defineSlot("1107919/CA_728x90_top", [[[[728], [90]], [[320], [50]]]], "dfp-ad-ca_728x90_above_nav")
+  .addService(googletag.pubads())
+  .setTargeting(" MoatSlotId", "CA_728x90_top")
+  .defineSizeMapping(mapping);
+});
+
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+googletag.cmd.push(function() {
+  googletag.pubads().setTargeting("ksg", Krux.segments);
+  googletag.pubads().setTargeting("kuid", Krux.user);
+  var referrer = "";
+  try{referrer = document.referrer; if(document.referrer.length > 0) referrer = new URL(document.referrer).hostname; } catch(e) {console.log(e)}
+  googletag.pubads().setTargeting("referrer", referrer);
+  googletag.pubads().enableSingleRequest();
+  googletag.pubads().collapseEmptyDivs();
+  googletag.pubads().setTargeting("Section", "Changing America");
+  googletag.pubads().setTargeting("Category", "Well-Being");
+  googletag.pubads().setTargeting("Article", "486582");
+  googletag.pubads().setTargeting("Tarmeta", ["","","out","of","many","some","americans","are","now","desperately"]);
+  googletag.pubads().setTargeting("Subcat", "Mental Health");
+  googletag.pubads().setTargeting("Video", ["Float","True"]);
+  
+  googletag.enableServices();
+});
+
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://thehill.com/sites/default/files/js/js_UlgQwqBztlTNwD8PYNXSwCVbJHJOJiHEsF-8ZKBt8yE.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-10188146-1", {"cookieDomain":"auto"});ga("set", "dimension1", "Anthony DiFlorio \/ Video by Danny Welch");ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://cdn.jwplayer.com/libraries/TQ88Ir4F.js"></script>
+<script type="text/javascript" src="https://z.moatads.com/jwplayerplugin0938452/moatplugin.js"></script>
+<script type="text/javascript" src="https://sb.scorecardresearch.com/c2/plugins/streamingtag_plugin_jwplayer.js"></script>
+<script type="text/javascript" src="https://thehill.com/sites/default/files/js/js_0GcdFqxNcN7yrbYyTOC-EeZUXIAfC0gAf1trD3o9ghY.js"></script>
+<script type="text/javascript" src="https://thehill.com/sites/default/files/js/js_PlI-v2TAo58P_QIXHO9Hh7qA7X0t8FEF5JXT2BBKWy8.js"></script>
+<script type="text/javascript" nonce="iXohng2hoh">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"changingamerica","theme_token":"zMpEeLpn-nM3zTjqz1YEGyUE-gdXZAdIx_z8XntU2zM","js":{"0":1,"1":1,"2":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"3":1,"4":1,"5":1,"6":1,"misc\/drupal.js":1,"7":1,"8":1,"9":1,"10":1,"11":1,"12":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"13":1,"https:\/\/cdn.jwplayer.com\/libraries\/TQ88Ir4F.js":1,"https:\/\/z.moatads.com\/jwplayerplugin0938452\/moatplugin.js":1,"https:\/\/sb.scorecardresearch.com\/c2\/plugins\/streamingtag_plugin_jwplayer.js":1,"sites\/all\/modules\/hide_submit\/js\/hide_submit.js":1,"sites\/all\/themes\/changingamerica\/dist\/js\/main.min.js":1,"sites\/all\/themes\/changingamerica\/dist\/js\/th_jwplayer.js":1,"sites\/all\/themes\/changingamerica\/dist\/js\/jquery.sticky-kit.min.js":1,"sites\/all\/themes\/changingamerica\/dist\/js\/jquery.visible.min.js":1,"sites\/all\/themes\/changingamerica\/dist\/js\/mostpopular.js":1,"sites\/all\/themes\/changingamerica\/dist\/js\/opa.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/menu_attach_block\/menu_attach_block.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/chartbeat\/chartbeat.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/thehill\/thehill_misc\/css\/person-links.css":1,"sites\/all\/modules\/hide_submit\/css\/hide_submit.css":1,"sites\/all\/themes\/changingamerica\/dist\/css\/style.min.css":1,"sites\/all\/themes\/changingamerica\/dist\/css\/th_jwplayer.css":1}},"chartbeat":{"uid":3100,"domain":"thehill.com","useCanonical":true,"noCookies":false},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"hide_submit":{"hide_submit_status":true,"hide_submit_method":"disable","hide_submit_css":"hide-submit-disable","hide_submit_abtext":"","hide_submit_atext":"","hide_submit_hide_css":"hide-submit-processing","hide_submit_hide_text":"Processing...","hide_submit_indicator_style":"expand-left","hide_submit_spinner_color":"#000","hide_submit_spinner_lines":12,"hide_submit_hide_fx":0,"hide_submit_reset_time":0},"urlIsAjaxTrusted":{"\/changing-america\/well-being\/mental-health\/486582-out-of-many-some-americans-are-now-desperately":true}});
+//--><!]]>
+</script>
+    <meta name="twitter:widgets:csp" content="on">
+<!-- iOS -->
+ <meta name="apple-itunes-app" content="app-id=396640962">
+<!-- end iOS -->
+<!-- START Nativo -->
+<script type="text/javascript" src="//s.ntv.io/serve/load.js" async></script>
+<!-- END Nativo -->
+<!-- NDN Start -->
+<!-- script type="text/javascript" src="//launch.newsinc.com/js/embed.js"></script -->
+<!-- NDN End -->
+<script>window['moatYieldReady']=function(){return window.moatPrebidApi.setMoatTargetingForAllSlots()};</script>
+    <!-- Krux ControlTag for "The Hill" -->
+    <script class="kxct" data-id="sf90wt710" data-timing="async" data-version="3.0" type="text/javascript">
+      window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+      (function()
+        { var k=document.createElement('script');k.type='text/javascript';k.async=true; k.src=(location.protocol==='https:'?'https:':'http:')+'//cdn.krxd.net/controltag/sf90wt710.js'; var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s); }
+      ());
+    </script>
+
+    <div id="block-block-71" class="block block-block">
+  
+  <script type="text/javascript">(function () { var e = false; var c = window; var t = document; function r() { if (!c.frames["__uspapiLocator"]) { if (t.body) { var a = t.body; var e = t.createElement("iframe"); e.style.cssText = "display:none"; e.name = "__uspapiLocator"; a.appendChild(e) } else { setTimeout(r, 5) } } } r(); function p() { var a = arguments; __uspapi.a = __uspapi.a || []; if (!a.length) { return __uspapi.a } else if (a[0] === "ping") { a[2]({ gdprAppliesGlobally: e, cmpLoaded: false }, true) } else { __uspapi.a.push([].slice.apply(a)) } } function l(t) { var r = typeof t.data === "string"; try { var a = r ? JSON.parse(t.data) : t.data; if (a.__cmpCall) { var n = a.__cmpCall; c.__uspapi(n.command, n.parameter, function (a, e) { var c = { __cmpReturn: { returnValue: a, success: e, callId: n.callId } }; t.source.postMessage(r ? JSON.stringify(c) : c, "*") }) } } catch (a) { } } if (typeof __uspapi !== "function") { c.__uspapi = p; __uspapi.msgHandler = l; c.addEventListener("message", l, false) } })();</script>
+<script>
+        window._sp_ccpa = {
+            config: {
+                mmsDomain: "https://cmp.thehill.com",
+                ccpaOrigin: "https://ccpa-service.sp-prod.net",
+                accountId: "1164",
+                getDnsMsgMms: true,
+                alwaysDisplayDns: false,
+            }
+        }
+</script>
+<script src="https://ccpa.sp-prod.net/ccpa.js"></script>
+<style>
+#block-block-70 {
+background:#000;
+}
+#block-block-70 #do-not-sell-button {
+margin-left: 0 !important;
+}
+</style></div>
+  </head>
+  <body class="single-article">
+    <div class="region-top-page"><div id="block-dfp-ca-728x90-above-nav" class="block block-dfp">
+  
+  <div id="dfp-ad-ca_728x90_above_nav-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-ca_728x90_above_nav" class="dfp-tag-wrapper">
+    <script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-ca_728x90_above_nav");
+    });
+  </script>
+</div>
+</div></div>
+</div>
+    <div class="body">
+        <a href="javascript:void(0)" class="nav-icon"><div></div></a>
+<section class="black">
+  <header>
+  <div class="header-logos">
+    <div class="nav-ghost"></div>
+    <div class="logo">
+      <a href="/changing-america"><img src="/sites/all/themes/changingamerica/dist/images/changingamerica.svg" alt="Changing America"></a>
+      <p class="lead">Shared Destiny. Shared Responsibility.</p>
+    </div>
+    <div>
+      <a href="/" class="thehill">
+        <img src="/sites/all/themes/changingamerica/dist/images/thehill.png" alt="The Hill">
+      </a>
+    </div>
+  </div>
+  <nav class="menu mobile-hide">
+    <ul class="menu"><li class="first expanded respect"><a href="/changing-america/respect">Respect</a><ul class="menu"><li class="first leaf"><a href="/changing-america/respect/equality">Equality</a></li>
+<li class="leaf"><a href="/changing-america/respect/diversity-inclusion">Diversity + Inclusion</a></li>
+<li class="leaf"><a href="/changing-america/respect/accessibility">Accessibility</a></li>
+<li class="last leaf"><a href="/changing-america/respect/poverty">Poverty</a></li>
+</ul></li>
+<li class="expanded sustainability"><a href="/changing-america/sustainability">Sustainability</a><ul class="menu"><li class="first leaf"><a href="/changing-america/sustainability/climate-change">Climate Change</a></li>
+<li class="leaf"><a href="/changing-america/sustainability/energy">Energy</a></li>
+<li class="leaf"><a href="/changing-america/sustainability/infrastructure">Infrastructure</a></li>
+<li class="last leaf"><a href="/changing-america/sustainability/environment">Environment</a></li>
+</ul></li>
+<li class="expanded resilience"><a href="/changing-america/resilience">Resilience</a><ul class="menu"><li class="first leaf"><a href="/changing-america/resilience/natural-disasters">Natural Disasters</a></li>
+<li class="leaf"><a href="/changing-america/resilience/refugees">Refugees</a></li>
+<li class="last leaf"><a href="/changing-america/resilience/smart-cities">Smart Cities</a></li>
+</ul></li>
+<li class="expanded enrichment"><a href="/changing-america/enrichment">Enrichment</a><ul class="menu"><li class="first leaf"><a href="/changing-america/enrichment/education">Education</a></li>
+<li class="last leaf"><a href="/changing-america/enrichment/arts-culture">Arts &amp; Culture</a></li>
+</ul></li>
+<li class="expanded active-trail well-being"><a href="/changing-america/well-being" class="active-trail">Well-Being</a><ul class="menu"><li class="first leaf"><a href="/changing-america/well-being/prevention-cures">Prevention &amp; Cures</a></li>
+<li class="leaf"><a href="/changing-america/well-being/medical-advances">Medical Advances</a></li>
+<li class="leaf active-trail"><a href="/changing-america/well-being/mental-health" class="active-trail">Mental Health</a></li>
+<li class="last leaf"><a href="/changing-america/well-being/longevity">Longevity</a></li>
+</ul></li>
+<li class="leaf opinion"><a href="/changing-america/opinion">Opinion</a></li>
+<li class="last leaf"><a href="/changing-america/468763-changing-america">Who We Are</a></li>
+</ul>  </nav>
+              </header>
+</section>
+
+<div id="block-system-main" class="block block-system">
+  
+  <article class="main-article node-486582">
+    <header class="single-header black">
+        <div class="wrapper sidebar-grid">
+            <div class="content">
+                <div class="breadcrumbs">
+                    <a href="/changing-america/well-being">Well-Being</a><a href="/changing-america/well-being/mental-health">Mental Health</a>                </div>
+                                <h1>Americans are now desperately &#039;reaching for hope&#039;</h1>
+                <div class="lead"><p>Pulitzer Prize winners Nicholas Kristof and Sheryl WuDunn shine a light on sweeping economic and social struggles across the United States in an important new book.</p></div>
+                <div class="author"><em>
+                  By <div class="field field-name-field-user-name field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Anthony DiFlorio / Video by Danny Welch</div></div></div>                                    </em>
+                </div>
+                <figure class="article-hero">
+                    <div class="player-container" style="position:relative;">
+  <div class="player-position">
+    <a href="#" class="close-btn"></a>
+    <div id="486582-player"></div>
+    <div id="jwplayer-unmute-button">
+      <div class="hilltv-video-unmute-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" focusable="false"><path d="M116.4,42.8v154.5c0,2.8-1.7,3.6-3.8,1.7l-54.1-48.1H28.9c-2.8,0-5.2-2.3-5.2-5.2V94.2c0-2.8,2.3-5.2,5.2-5.2h29.6l54.1-48.1C114.6,39.1,116.4,39.9,116.4,42.8z M212.3,96.4l-14.6-14.6l-23.6,23.6l-23.6-23.6l-14.6,14.6l23.6,23.6l-23.6,23.6l14.6,14.6l23.6-23.6l23.6,23.6l14.6-14.6L188.7,120L212.3,96.4z"></path></svg>
+      </div>
+    </div>
+  </div>
+</div>
+                </figure>
+            </div>
+        </div>
+    </header>
+
+    <div class="wrapper sidebar-grid">
+        <figcaption class="hero-caption">
+                    </figcaption>
+        <section class="main-content">
+            <div class="summary">
+                            </div>
+            <div class="content">
+                <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>For most of their journalistic lives, Nicholas Kristof and Sheryl WuDunn have written about stories and shades of the world which many Americans never see for themselves.</p><p>Beginning with their series of reports on the Chinese government crackdown on democracy in the early 1990s — for which they won the Pulitzer Prize — through their latest book project, the husband-and-wife team have traveled the world several times over.</p><p>Their goal is to elucidate the stories of human struggle and human potential. And, since the old adage advises to "write what you know," their sixth book project is a return to Kristof’s home. </p><div id="dfp-ad-incontent_desk_1-wrapper" class="dfp-tag-wrapper wrapper"><div id="dfp-ad-incontent_desk_1" class="dfp-tag-wrapper"><span>ADVERTISEMENT</span><script type="text/javascript">googletag.cmd.push(function() {googletag.display("dfp-ad-incontent_desk_1");});</script></div></div><p>In "Tightrope: Americans Reaching for Hope," the couple places the economic and social strife of Kristof’s hometown, Yamhill, Ore., into the larger context of failed economic and social policies that have slowly ravaged the United States for the past 50 years.</p><p>"We gradually saw there was a humanitarian crisis unfolding in my little town — and in particular, close to the kids who were on my old school bus, Bus No. 6," recounts Kristof. </p><p>“About a quarter of the kids on the No. 6 Bus have died from drugs, alcohol and suicide,” he says. “And we gradually realized that this was part of something larger, a nationwide collapse of working class America tied to critical depths of despair."</p><p>According to their reporting, 70,000 Americans die annually from drug use, another 88,000 from alcohol abuse and 47,000 from suicide. In fact, suicide rates are at a 30-year high. Moreover, 1 in 7 Americans live in poverty.</p><p>"Life expectancy has been dropping,” says WuDunn, “and that's a staggering figure in the context of other OECD and peer countries where their mortality rates are dropping and their life expectancy is rising.”</p><p>(The Organization for Economic Cooperation and Development, OECD, is the intergovernmental body that tracks metrics of growth and well-being across 36 member nations.)</p><div id="dfp-ad-incontent_desk_2-wrapper" class="dfp-tag-wrapper wrapper"><div id="dfp-ad-incontent_desk_2" class="dfp-tag-wrapper"><span>ADVERTISEMENT</span><script type="text/javascript">googletag.cmd.push(function() {googletag.display("dfp-ad-incontent_desk_2");});</script></div></div><p>To research their new book, the couple crisscrossed all 50 states, including major stops in Yamhill and Baltimore among others.</p><p>Baltimore is a city blighted still by <a href="https://www.baltimoresun.com/politics/bs-md-pol-marilyn-mosby-marijuana-laws-20190710-ebd22krpgzbllf4vmxyzc7hq5y-story.html">the failed war on drugs</a> that began in the 1970s. In 2017, the overdose rate in <a href="https://www.vox.com/policy-and-politics/2019/3/22/18262179/baltimore-opioid-epidemic-overdose-addiction-treatment">Baltimore reached 85.2 per 100,000</a>, the equivalent of 0.1 percent of the city’s population dying in one year.</p><p>WuDunn and Kristof aren’t just reporting on the problems. They lay out 10 different policy prescriptions to remedy decades of social and economic depression. </p><p>"If I were to boil them down to three,” Kristof says, “they would be early childhood education, drug treatment and an emphasis on jobs." </p><p>"I think that capitalism is in crisis here and needs to be fundamentally tinkered with," he continues. "If I can use the fact that I was on that bus, and that I am still close to so many who were and tell those stories in a way that evokes a little more understanding among people who do have their hands on the levers of power, then we hope that one consequence can be a little more empathy, a little more compassion, and little bit more wisdom in how people in Washington and New York and other cities around the country devise policy."</p><p>In addition to their book, Kristof and WuDunn have <a href="https://tightropeusa.com/">produced a documentary</a> on the subject, in collaboration with Show of Force Productions.</p></div></div></div>            </div>
+            <div class="date">Published on Mar 13, 2020</div>
+            <div class="social">
+                <ul>
+                    <li>
+                      <a href="#" target="_blank" class="share-button twitter twitter-share" data-shareline="Americans are now desperately 'reaching for hope'" data-link="https://thehill.com/changing-america/well-being/mental-health/486582-out-of-many-some-americans-are-now-desperately">
+                        <img src="/sites/all/themes/changingamerica/dist/images/icon-twitter-b.svg" alt="">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="share-button facebook facebook-share" data-link="https://thehill.com/changing-america/well-being/mental-health/486582-out-of-many-some-americans-are-now-desperately" data-name="Americans are now desperately 'reaching for hope'">
+                        <img src="/sites/all/themes/changingamerica/dist/images/icon-facebook-b.svg" alt="">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="mail-share" data-link="https://thehill.com/changing-america/well-being/mental-health/486582-out-of-many-some-americans-are-now-desperately">
+                        <img src="/sites/all/themes/changingamerica/dist/images/icon-mail-b.svg" alt="">
+                      </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <aside>
+            <div id="block-dfp-ca-300x250-desktop" class="block block-dfp">
+  
+  <div id="dfp-ad-ca_300x250_desktop-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-ca_300x250_desktop" class="dfp-tag-wrapper">
+    <script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-ca_300x250_desktop");
+    });
+  </script>
+</div>
+</div></div>
+<div id="block-thehill-changing-america-ca-mostpopular" class="block block-thehill-changing-america">
+  
+  <div id="thehill-mostpopular-block" class="mostpopular-block">
+    <h2 class="title">Most Popular</h2>
+    <div class="mostpopular--content"><div class="most-popular">
+                                                                <article class="article article-small">
+                <!-- mostpopular-item.tpl.php -->
+
+            <figure>
+            <a href="/changing-america/well-being/prevention-cures/490856-when-will-coronaviruses-cases-peak-in-your-state">
+                <i class="icon icon-read"></i>
+                <img src="/sites/default/files/ca_ihmemap_41320.jpg?crop=1:1,smart&width=360">
+            </a>
+        </figure>
+        <div class="content">
+        <h5 class="tag"><a href="/changing-america/well-being/prevention-cures">Prevention & Cures</a></h5>
+        <h3><a href="/changing-america/well-being/prevention-cures/490856-when-will-coronaviruses-cases-peak-in-your-state">Here's when the coronavirus will peak in your state</a></h3>
+    </div>
+            </article>
+                                                                                    <article class="article article-small">
+                <!-- mostpopular-item.tpl.php -->
+
+            <figure>
+            <a href="/changing-america/well-being/prevention-cures/493367-4-workers-died-from-coronavirus-at-a-tyson-foods">
+                <i class="icon icon-read"></i>
+                <img src="/sites/default/files/ca_poultryprocessing_041720istock.jpg?crop=1:1,smart&width=360">
+            </a>
+        </figure>
+        <div class="content">
+        <h5 class="tag"><a href="/changing-america/well-being/prevention-cures">Prevention & Cures</a></h5>
+        <h3><a href="/changing-america/well-being/prevention-cures/493367-4-workers-died-from-coronavirus-at-a-tyson-foods">4 workers died from coronavirus at a Tyson Foods poultry plant</a></h3>
+    </div>
+            </article>
+                                                                                    <article class="article article-small">
+                <!-- mostpopular-item.tpl.php -->
+
+            <figure>
+            <a href="/changing-america/well-being/prevention-cures/490326-fauci-predicts-another-coronavirus-outbreak-in">
+                <i class="icon icon-read"></i>
+                <img src="/sites/default/files/ca_faucicbsfacethenation_032320getty_0.jpg?crop=1:1,smart&width=360">
+            </a>
+        </figure>
+        <div class="content">
+        <h5 class="tag"><a href="/changing-america/well-being/prevention-cures">Prevention & Cures</a></h5>
+        <h3><a href="/changing-america/well-being/prevention-cures/490326-fauci-predicts-another-coronavirus-outbreak-in">Fauci predicts another coronavirus outbreak in fall with 'very different' outcome</a></h3>
+    </div>
+            </article>
+                                                                                    <article class="article article-small">
+                <!-- mostpopular-item.tpl.php -->
+
+            <figure>
+            <a href="/changing-america/well-being/longevity/493339-bill-gates-is-favorite-target-of-coronavirus">
+                <i class="icon icon-read"></i>
+                <img src="/sites/default/files/ca_gatesconspiracytheories_041720getty.jpg?crop=1:1,smart&width=360">
+            </a>
+        </figure>
+        <div class="content">
+        <h5 class="tag"><a href="/changing-america/well-being/longevity">Longevity</a></h5>
+        <h3><a href="/changing-america/well-being/longevity/493339-bill-gates-is-favorite-target-of-coronavirus">Bill Gates is now the main target of coronavirus conspiracy theories: report</a></h3>
+    </div>
+            </article>
+                                                                                    <article class="article article-small">
+                <!-- mostpopular-item.tpl.php -->
+
+            <figure>
+            <a href="/changing-america/respect/diversity-inclusion/493425-johns-hopkins-has-a-new-map-breaking-down">
+                <i class="icon icon-read"></i>
+                <img src="/sites/default/files/ca_johnshopkinsmap_41720.jpg?crop=1:1,smart&width=360">
+            </a>
+        </figure>
+        <div class="content">
+        <h5 class="tag"><a href="/changing-america/respect/diversity-inclusion">Diversity + Inclusion</a></h5>
+        <h3><a href="/changing-america/respect/diversity-inclusion/493425-johns-hopkins-has-a-new-map-breaking-down">Johns Hopkins has a new map breaking down coronavirus statistics by race</a></h3>
+    </div>
+            </article>
+                                                                                    <article class="article article-small">
+                <!-- mostpopular-item.tpl.php -->
+
+            <figure>
+            <a href="/changing-america/well-being/prevention-cures/489265-6-ways-that-the-coronavirus-pandemic-could-end">
+                <i class="icon icon-read"></i>
+                <img src="/sites/default/files/ca_newyork_hospitaltent_testingstaff_032420gettyimages.jpg?crop=1:1,smart&width=360">
+            </a>
+        </figure>
+        <div class="content">
+        <h5 class="tag"><a href="/changing-america/well-being/prevention-cures">Prevention & Cures</a></h5>
+        <h3><a href="/changing-america/well-being/prevention-cures/489265-6-ways-that-the-coronavirus-pandemic-could-end">These are the 6 ways the coronavirus pandemic could end</a></h3>
+    </div>
+            </article>
+                                                                                    <article class="article article-small">
+                <!-- mostpopular-item.tpl.php -->
+
+            <figure>
+            <a href="/changing-america/well-being/prevention-cures/493406-the-initial-results-from-californias-coronavirus">
+                <i class="icon icon-read"></i>
+                <img src="/sites/default/files/ca_antibody_41720istock.jpg?crop=1:1,smart&width=360">
+            </a>
+        </figure>
+        <div class="content">
+        <h5 class="tag"><a href="/changing-america/well-being/prevention-cures">Prevention & Cures</a></h5>
+        <h3><a href="/changing-america/well-being/prevention-cures/493406-the-initial-results-from-californias-coronavirus">The initial results from California's coronavirus antibody tests are in</a></h3>
+    </div>
+            </article>
+                                                                                    <article class="article article-small">
+                <!-- mostpopular-item.tpl.php -->
+
+            <figure>
+            <a href="/changing-america/respect/equality/493434-countries-led-by-women-have-fared-better-against">
+                <i class="icon icon-read"></i>
+                <img src="/sites/default/files/gettyimages-angelamerkel.jpg?crop=1:1,smart&width=360">
+            </a>
+        </figure>
+        <div class="content">
+        <h5 class="tag"><a href="/changing-america/respect/equality">Equality</a></h5>
+        <h3><a href="/changing-america/respect/equality/493434-countries-led-by-women-have-fared-better-against">Countries led by women have fared better against coronavirus. Why?</a></h3>
+    </div>
+            </article>
+                                                                                    <article class="article article-small">
+                <!-- mostpopular-item.tpl.php -->
+
+            <figure>
+            <a href="/changing-america/well-being/mental-health/482971-michelle-obama-opens-up-about-enormous-pressure-and">
+                <i class="icon icon-read"></i>
+                <img src="/sites/default/files/ca_michelleobamaoprah_21320getty.jpg?crop=1:1,smart&width=360">
+            </a>
+        </figure>
+        <div class="content">
+        <h5 class="tag"><a href="/changing-america/well-being/mental-health">Mental Health</a></h5>
+        <h3><a href="/changing-america/well-being/mental-health/482971-michelle-obama-opens-up-about-enormous-pressure-and">Michelle Obama opens up about accepting her body despite criticism from men</a></h3>
+    </div>
+            </article>
+                                                                                    <article class="article article-small">
+                <!-- mostpopular-item.tpl.php -->
+
+            <figure>
+            <a href="/changing-america/well-being/prevention-cures/491006-bill-gates-is-funding-factories-for-7-potential">
+                <i class="icon icon-read"></i>
+                <img src="/sites/default/files/ca_gatesvaccinemanufacturing_040320getty.jpg?crop=1:1,smart&width=360">
+            </a>
+        </figure>
+        <div class="content">
+        <h5 class="tag"><a href="/changing-america/well-being/prevention-cures">Prevention & Cures</a></h5>
+        <h3><a href="/changing-america/well-being/prevention-cures/491006-bill-gates-is-funding-factories-for-7-potential">Bill Gates is spending billions to produce 7 potential coronavirus vaccines</a></h3>
+    </div>
+            </article>
+            </div>
+</div>
+</div>
+</div>
+        </aside>
+    </div>
+</article>
+</div>
+
+<section class="ptb">
+  <div class="wrapper">
+      <div id="block-views-c3a324be5d32379096fb041ef193655d" class="block block-views">
+  
+  <div class="view view-changing-america view-id-changing_america view-display-id-related_stories view-dom-id-e60f2788776aafb0cf057e6c4e70d09d">
+        
+  
+  
+      <h2 class="aligncenter">Related Stories</h2>
+    <div class="view-content grid grid-m-3col related">
+      	<div class="views-row-odd views-row-first article-medium">
+    
+    <div><a href="/changing-america/well-being/mental-health/493125-increase-in-anti-anxiety-medication-antidepressants">
+  <img src="https://thehill.com/sites/default/files/ca_prescrip_041620istock.jpg?crop=175:236,smart&width=700" />
+</a></div>  
+    <h5 class="field-content tag tag-bg"><div class="yellow"><a href="/changing-america/well-being/mental-health" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Mental Health</a></div></h5>  
+    <h3 class="field-content"><a href="/changing-america/well-being/mental-health/493125-increase-in-anti-anxiety-medication-antidepressants">Americans are taking more anti-anxiety medication and antidepressants during coronavirus pandemic: report</a></h3>  
+    <p class="field-content"><p><span style="font-weight: 400;">A new study documents quick spikes in prescription medication during the COVID-19 pandemic. </span></p><p> </p></p>  
+    <span class="field-content"><a class="read-more icon-view" href="/changing-america/well-being/mental-health/493125-increase-in-anti-anxiety-medication-antidepressants">View</a></span>   </div>
+	<div class="views-row-even article-medium">
+    
+    <div><a href="/changing-america/well-being/mental-health/493011-coping-with-grief-during-the-coronavirus-pandemic">
+  <img src="https://thehill.com/sites/default/files/ca_isolation_31320istock_0.jpg?crop=175:236,smart&width=700" />
+</a></div>  
+    <h5 class="field-content tag tag-bg"><div class="yellow"><a href="/changing-america/well-being/mental-health" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Mental Health</a></div></h5>  
+    <h3 class="field-content"><a href="/changing-america/well-being/mental-health/493011-coping-with-grief-during-the-coronavirus-pandemic">Coping with grief during the coronavirus pandemic</a></h3>  
+    <p class="field-content"><p><span style="font-weight: 400;">Two experts on what we need to understand about loss.</span></p></p>  
+    <span class="field-content"><a class="read-more icon-view" href="/changing-america/well-being/mental-health/493011-coping-with-grief-during-the-coronavirus-pandemic">View</a></span>   </div>
+	<div class="views-row-odd views-row-last article-medium">
+    
+    <div><a href="/changing-america/well-being/mental-health/492937-will-the-coronavirus-pandemic-lead-to-a-loneliness">
+  <img src="https://thehill.com/sites/default/files/ca_spain_covid19_workertalkstoolderwoman_041520gettyimages.jpg?crop=175:236,smart&width=700" />
+</a></div>  
+    <h5 class="field-content tag tag-bg"><div class="yellow"><a href="/changing-america/well-being/mental-health" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Mental Health</a></div></h5>  
+    <h3 class="field-content"><a href="/changing-america/well-being/mental-health/492937-will-the-coronavirus-pandemic-lead-to-a-loneliness">Will the coronavirus pandemic lead to a loneliness epidemic?</a></h3>  
+    <p class="field-content"><p><span style="font-weight: 400;">Older adults may be especially vulnerable.</span></p></p>  
+    <span class="field-content"><a class="read-more icon-view" href="/changing-america/well-being/mental-health/492937-will-the-coronavirus-pandemic-lead-to-a-loneliness">View</a></span>   </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+<div id="block-dfp-ca-728x90-bottom" class="block block-dfp">
+  
+  <div id="dfp-ad-ca_728x90_bottom-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-ca_728x90_bottom" class="dfp-tag-wrapper">
+    <script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-ca_728x90_bottom");
+    });
+  </script>
+</div>
+</div></div>
+  </div>
+</section>
+
+<section class="subscribe">
+  <div class="wrapper wrapper-1200">
+    <div class="icons">
+      <i class="icon">
+        <svg width="13" height="15" viewBox="0 0 13 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V15L13 7.5L0 0Z"/>
+        </svg>
+      </i>
+      <i class="icon">
+        <svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M10.366 14C16.7964 14 21 7 21 7C21 7 16.5319 0 10.366 0C4.2 0 0 7 0 7C0 7 4.50635 14 10.366 14ZM7.87516 7.00007C7.87516 5.55032 9.05042 4.37507 10.5002 4.37507C11.9499 4.37507 13.1252 5.55032 13.1252 7.00007C13.1252 8.44982 11.9499 9.62507 10.5002 9.62507C9.05042 9.62507 7.87516 8.44982 7.87516 7.00007ZM10.5002 2.62507C8.08392 2.62507 6.12516 4.58382 6.12516 7.00007C6.12516 9.41631 8.08392 11.3751 10.5002 11.3751C12.9164 11.3751 14.8752 9.41631 14.8752 7.00007C14.8752 4.58382 12.9164 2.62507 10.5002 2.62507Z"/>
+        </svg>
+      </i>
+      <i class="icon">
+        <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H13V14H0V0ZM6.50001 4.3077H2.78572V3.23078H6.50001V4.3077ZM2.78572 10.7692H8.35715V9.69229H2.78572V10.7692ZM10.2143 10.7692H9.28572V9.69229H10.2143V10.7692ZM2.78572 7.53847H10.2143V6.46155H2.78572V7.53847Z"/>
+        </svg>
+      </i>
+    </div>
+    <h4>America is changing fast! Don't miss the most important news. Sign up for our weekly newsletter to stay informed and engaged.</h4><form class="subscribe-form" action="/changing-america/well-being/mental-health/486582-out-of-many-some-americans-are-now-desperately" method="post" id="thehill-blocks-signup-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-email">
+  <label for="edit-email">Your Email </label>
+ <input placeholder="Your Email" type="text" id="edit-email" name="email" value="" size="60" maxlength="128" class="form-text" />
+</div>
+<div class="form-item form-type-textfield form-item-list">
+ <input class="hidden form-text" type="text" id="edit-list" name="list" value="" size="60" maxlength="128" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Submit" class="form-submit" /><input type="hidden" name="form_build_id" value="form-SAsUJs9EBNKmHByvfHQ1AjZ5X_mvK-aD02jiSWIjH2A" />
+<input type="hidden" name="form_id" value="thehill_blocks_signup_form" />
+</div></form>  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrapper wrapper-1200 ptb">
+    <div class="logo"><img src="/sites/all/themes/changingamerica/dist/images/changingamerica.svg" alt="Changing America"></div>
+    <ul class="menu"><li><a href="/changing-america/respect" class="red">Respect</a></li><li><a href="/changing-america/respect/equality">Equality</a></li>
+<li><a href="/changing-america/respect/diversity-inclusion">Diversity + Inclusion</a></li>
+<li><a href="/changing-america/respect/accessibility">Accessibility</a></li>
+<li><a href="/changing-america/respect/poverty">Poverty</a></li>
+
+</ul><ul class="menu"><li><a href="/changing-america/sustainability" class="green">Sustainability</a></li><li><a href="/changing-america/sustainability/climate-change">Climate Change</a></li>
+<li><a href="/changing-america/sustainability/energy">Energy</a></li>
+<li><a href="/changing-america/sustainability/infrastructure">Infrastructure</a></li>
+<li><a href="/changing-america/sustainability/environment">Environment</a></li>
+
+</ul><ul class="menu"><li><a href="/changing-america/resilience" class="pink">Resilience</a></li><li><a href="/changing-america/resilience/natural-disasters">Natural Disasters</a></li>
+<li><a href="/changing-america/resilience/refugees">Refugees</a></li>
+<li><a href="/changing-america/resilience/smart-cities">Smart Cities</a></li>
+
+</ul><ul class="menu"><li><a href="/changing-america/enrichment" class="blue">Enrichment</a></li><li><a href="/changing-america/enrichment/education">Education</a></li>
+<li><a href="/changing-america/enrichment/arts-culture">Arts &amp; Culture</a></li>
+
+</ul><ul class="menu"><li><a href="/changing-america/well-being" class="yellow active-trail">Well-Being</a></li><li><a href="/changing-america/well-being/prevention-cures">Prevention &amp; Cures</a></li>
+<li><a href="/changing-america/well-being/medical-advances">Medical Advances</a></li>
+<li><a href="/changing-america/well-being/mental-health" class="active-trail">Mental Health</a></li>
+<li><a href="/changing-america/well-being/longevity">Longevity</a></li>
+
+</ul><ul class="menu"><li><a href="/changing-america/opinion" class="light-blue opinion-menu">Opinion</a></li>
+</ul>    <ul class="follow">
+      <li>Follow Us</li>
+      <li><a href="https://twitter.com/changingamerica"><img src="/sites/all/themes/changingamerica/dist/images/icon-twitter.svg">Twitter</a></li>
+      <li><a href="https://www.facebook.com/ChangingAmerica/"><img src="/sites/all/themes/changingamerica/dist/images/icon-facebook.svg">Facebook</a></li>
+      <li><a href="https://www.instagram.com/ChangingAmerica/"><img src="/sites/all/themes/changingamerica/dist/images/icon-instagram.svg">Instagram</a></li>
+    </ul>
+    <div class="copy">
+      <ul>
+        <li><a href="/privacy-policy">Privacy Policy</a></li>
+        <li><a href="/terms-and-conditions">Terms and Conditions</a></li>
+        <li><a href="/contact/advertise">Advertise</a></li>
+        <li><a href="/changing-america/471300-contact-us">Contact Us</a></li>
+        <li>Copyright 2020 Changing America</li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<div class="nav">
+  <div class="nav-wrapper">
+    <ul class="menu"><li><a href="/changing-america/respect" class="red">Respect</a></li><li><a href="/changing-america/respect/equality">Equality</a></li>
+<li><a href="/changing-america/respect/diversity-inclusion">Diversity + Inclusion</a></li>
+<li><a href="/changing-america/respect/accessibility">Accessibility</a></li>
+<li><a href="/changing-america/respect/poverty">Poverty</a></li>
+
+</ul><ul class="menu"><li><a href="/changing-america/sustainability" class="green">Sustainability</a></li><li><a href="/changing-america/sustainability/climate-change">Climate Change</a></li>
+<li><a href="/changing-america/sustainability/energy">Energy</a></li>
+<li><a href="/changing-america/sustainability/infrastructure">Infrastructure</a></li>
+<li><a href="/changing-america/sustainability/environment">Environment</a></li>
+
+</ul><ul class="menu"><li><a href="/changing-america/resilience" class="pink">Resilience</a></li><li><a href="/changing-america/resilience/natural-disasters">Natural Disasters</a></li>
+<li><a href="/changing-america/resilience/refugees">Refugees</a></li>
+<li><a href="/changing-america/resilience/smart-cities">Smart Cities</a></li>
+
+</ul><ul class="menu"><li><a href="/changing-america/enrichment" class="blue">Enrichment</a></li><li><a href="/changing-america/enrichment/education">Education</a></li>
+<li><a href="/changing-america/enrichment/arts-culture">Arts &amp; Culture</a></li>
+
+</ul><ul class="menu"><li><a href="/changing-america/well-being" class="yellow active-trail">Well-Being</a></li><li><a href="/changing-america/well-being/prevention-cures">Prevention &amp; Cures</a></li>
+<li><a href="/changing-america/well-being/medical-advances">Medical Advances</a></li>
+<li><a href="/changing-america/well-being/mental-health" class="active-trail">Mental Health</a></li>
+<li><a href="/changing-america/well-being/longevity">Longevity</a></li>
+
+</ul><ul class="menu"><li><a href="/changing-america/opinion" class="light-blue opinion-menu">Opinion</a></li>
+</ul>    <ul>
+      <li><a href="/changing-america/468763-changing-america" class="orange">Who We Are</a></li>
+      <li>
+        <div class="form">
+          <div class="heading">Weekly Newsletter</div>
+          <p>America is changing fast! Sign up for our newsletter to stay informed and engaged.</p><form action="/changing-america/well-being/mental-health/486582-out-of-many-some-americans-are-now-desperately" method="post" id="thehill-blocks-signup-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-email">
+  <label for="edit-email">Your Email </label>
+ <input placeholder="Your Email" type="text" id="edit-email" name="email" value="" size="60" maxlength="128" class="form-text" />
+</div>
+<div class="form-item form-type-textfield form-item-list">
+ <input class="hidden form-text" type="text" id="edit-list" name="list" value="" size="60" maxlength="128" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Submit" class="form-submit" /><input type="hidden" name="form_build_id" value="form-SAsUJs9EBNKmHByvfHQ1AjZ5X_mvK-aD02jiSWIjH2A" />
+<input type="hidden" name="form_id" value="thehill_blocks_signup_form" />
+</div></form>        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+        <div id="block-block-70" class="block block-block">
+  
+  <style>
+ #do-not-sell-button {
+padding-top: 15px;margin-left: 0px; width: 100%;padding-bottom: 15px;
+}
+@media only screen and (min-width:768px) {
+ #do-not-sell-button {
+margin-left: -150px;
+}	
+}
+</style>
+<div id="do-not-sell-button"></div>
+    
+   </div>
+<script type="text/javascript">
+  var _sf_async_config=Drupal.settings.chartbeat;
+  _sf_async_config.sections = "Changing America, Well-Being, Well-Being - Mental Health";
+  _sf_async_config.authors = "Anthony DiFlorio / Video by Danny Welch";
+  _sf_async_config._demo = "publish_date=2020-03-13,editor=Linda Petre";
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+      document.body.appendChild(e);
+    }
+    var oldonload = document.ready;
+    document.ready = (typeof document.ready != 'function') ?
+       loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script><div id="block-block-74" class="block block-block">
+  
+  <!-- Outbrain Desktop Footer -->
+<script type="text/javascript" async="async" src="//widgets.outbrain.com/outbrain.js"></script>
+<script>
+var widget_id = jQuery( window ).width() > 600 ? "AR_1" : "MB_1";
+var href = document.location.href;
+var html = "<div class=\"ca-outbrain-wrapper\"><div class=\"OUTBRAIN\" data-src=\"{macro-href}\" data-widget-id=\"{macro-id}\" data-ob-template=\"The Hill\"></div>";
+html = html.replace("{macro-href}", href).replace("{macro-id}", widget_id); 
+jQuery(html).insertAfter('.main-content .social');
+</script>
+</div>
+<!-- Begin comScore Tag -->
+          <script>
+            var _comscore = _comscore || [];
+            _comscore.push({"c1":"2","c2":"10314615","c3":"","c4":"https:\/\/thehill.com\/changing-america\/well-being\/mental-health\/486582-out-of-many-some-americans-are-now-desperately","c5":"","c6":"","c15":""});
+            (function() {
+              var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+              s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+              el.parentNode.insertBefore(s, el);
+            })();
+          </script>
+          <noscript>
+            <img src="https://sb.scorecardresearch.com/p?c1=2&c2=10314615&c3=&c4=https%3A//thehill.com/changing-america/well-being/mental-health/486582-out-of-many-some-americans-are-now-desperately&c5=&c6=&c15=&cv=2.0&cj=1" />
+          </noscript>
+      <!-- End comScore Tag --><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+    (function() {
+        var initVars = {"nid":"486582","video_id":"eIzfx0Jl","playlist_id":null,"sticky_enabled":1,"hilltv_sticky_enabled":1,"moat_id":"thehilljwint238875905177","comscore_id":"10314615","share_url":"https:\/\/thehill.com\/changing-america\/well-being\/mental-health\/486582-out-of-many-some-americans-are-now-desperately","midroll_tag":"https:\/\/pubads.g.doubleclick.net\/gampad\/live\/ads?sz=640x360\u0026iu=\/1107919\/Hill_TV_640x360_comp_midroll\u0026ciu_szs=300x250\u0026impl=s\u0026gdfp_req=1\u0026env=vp\u0026output=vast\u0026unviewed_position_start=1\u0026url=[referrer_url]\u0026description_url=__page-url__\u0026correlator=[timestamp]\u0026cust_params=Ad_breaks%3D__item-tags__","bid_timout":"1500"};
+        if (typeof(pbjs.version) === "undefined" || typeof(videoAdUnit) !== "object") {
+          initializePlayerInstance(initVars);
+        } else {
+          if(pbjs.adserverRequestSent) {
+            initializePlayerInstance(initVars);
+          } else {
+            setTimeout(function(){
+              initializePlayerInstance(initVars);
+            }, 500);
+          }
+        }
+    })();
+//--><!]]>
+</script>
+<div id="block-block-75" class="block block-block">
+  
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+    </div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"962df17ac8","applicationID":"409941798","transactionName":"YwRXYBQFWhEEUUYNV1pOdFcSDVsMSlxdAF1rEVRTAztCCwBF","queueTime":0,"applicationTime":366,"atts":"T0NUFlwfSR8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

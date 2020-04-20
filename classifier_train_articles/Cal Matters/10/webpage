@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"54db1a61c9",applicationID:"187794457"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>Counting California in the 2020 Census | CalMatters</title>
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v13.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="California is especially vulnerable to an undercount in the 2020 census — and that can put billions of federal dollars and a House seat at risk."/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://calmatters.org/explainers/california-census-2020-explained/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Counting California in the 2020 Census | CalMatters" />
+<meta property="og:description" content="California is especially vulnerable to an undercount in the 2020 census — and that can put billions of federal dollars and a House seat at risk." />
+<meta property="og:url" content="https://calmatters.org/explainers/california-census-2020-explained/" />
+<meta property="og:site_name" content="CalMatters" />
+<meta property="article:publisher" content="https://www.facebook.com/calmatters/" />
+<meta property="article:author" content="https://bit.ly/2G6ZtIl" />
+<meta property="article:section" content="Explainers" />
+<meta property="og:image" content="https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-Census-2020.jpg?resize=1024,685" />
+<meta property="og:image:secure_url" content="https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-Census-2020.jpg?resize=1024,685" />
+<meta property="og:image:width" content="1024" />
+<meta property="og:image:height" content="685" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="California is especially vulnerable to an undercount in the 2020 census — and that can put billions of federal dollars and a House seat at risk." />
+<meta name="twitter:title" content="Counting California in the 2020 Census | CalMatters" />
+<meta name="twitter:site" content="@CalMatters" />
+<meta name="twitter:image" content="https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-Census-2020.jpg?fit=2116%2C1416" />
+<meta name="twitter:creator" content="@byjudylin" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://calmatters.org/#organization","name":"CalMatters","url":"https://calmatters.org/","sameAs":["https://www.facebook.com/calmatters/","https://www.instagram.com/calmatters/","https://www.linkedin.com/company/calmatters/","https://www.youtube.com/channel/UCNQv9nDu2_r5zbgtUQungeA","https://twitter.com/CalMatters"],"logo":{"@type":"ImageObject","@id":"https://calmatters.org/#logo","inLanguage":"en-US","url":"https://calmatters.org/wp-content/uploads/sites/2/2019/07/calmattersocial.png?fit=720%2C720","width":720,"height":720,"caption":"CalMatters"},"image":{"@id":"https://calmatters.org/#logo"}},{"@type":"WebSite","@id":"https://calmatters.org/#website","url":"https://calmatters.org/","name":"CalMatters","inLanguage":"en-US","description":"California, explained","publisher":{"@id":"https://calmatters.org/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://calmatters.org/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://calmatters.org/explainers/california-census-2020-explained/#primaryimage","inLanguage":"en-US","url":"https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-Census-2020.jpg?fit=2116%2C1416","width":2116,"height":1416},{"@type":"WebPage","@id":"https://calmatters.org/explainers/california-census-2020-explained/#webpage","url":"https://calmatters.org/explainers/california-census-2020-explained/","name":"Counting California in the 2020 Census | CalMatters","isPartOf":{"@id":"https://calmatters.org/#website"},"inLanguage":"en-US","primaryImageOfPage":{"@id":"https://calmatters.org/explainers/california-census-2020-explained/#primaryimage"},"datePublished":"2020-03-05T13:40:42+00:00","dateModified":"2020-03-08T15:02:46+00:00","description":"California is especially vulnerable to an undercount in the 2020 census \u2014 and that can put billions of federal dollars and a House seat at risk."}]}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//www.googletagservices.com' />
+<link rel='dns-prefetch' href='//use.typekit.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="CalMatters &raquo; Feed" href="https://calmatters.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="CalMatters &raquo; Comments Feed" href="https://calmatters.org/comments/feed/" />
+<link rel='stylesheet' id='all-css-0' href='https://calmatters.org/_static/??-eJx1zssKwkAMBdAfchpctI4L8VumadDRzINJSunfG18IoquEkHu4sFQXM/I8kQCKwBRFYeSCV8dxbKGtILoydSnmzh42YAksWSkrVJ5PMQsQB9GItdFbuFPNzkqTq0VU3NN8WPIT0zMlK2Ej0yK1lQuhfrT/LV5BDJyCKjX5Dtl2TIdt7/vB7we/uwHjPVvZ' type='text/css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='typekit-css'  href='https://use.typekit.net/ygp0rqq.css?ver=0.1.169' media='all' />
+<link rel='stylesheet' id='all-css-2' href='https://calmatters.org/_static/??-eJyVzM0KwjAQBOAXMt2qlHoRn2VZ1xhN0tDZUH176x/0JHgbhvmGpuJkyKbZyM6aFCQcE5vpCDoGGAlAeiuRQ547B7tHbeZyRQtbYvUhz8PIsCBlVCw4VxtQvVfY26NJIf95cmJRwy+fqvteXNQKy/UFP/k5P6T9utv1bbdt+80DDnZfCA==' type='text/css' media='all' />
+<script>
+var uaWnSettings = {"prompt":{"enabled":false,"prompt_views":1,"prompt_again_views":1}};
+</script>
+<script type='text/javascript' src='https://calmatters.org/_static/??-eJx9jcEKwjAQRH/IbfDQGg/it6RxbTck25jdpfj3BlHwJAw8GB4zbq9AHLPdUFzqeRi25wdDkoP7J0ChpQXFoRB/5bixIquLmTqgGNRsC7E4a3NgCNRkpQo7zlBNVuBN6U4xKG1dCiKo76ffvo9fy+U4+nHy58mf0gs7YkSN'></script>
+<script src='https://www.googletagservices.com/tag/js/gpt.js?ver=0.1.794'></script>
+<script>
+var tnpData = {"ad_zone":"calmatters","error_email_invalid":"You have entered an invalid email","error_missing_status":"Response missing email_status","gtmIDs":[{"gtm_id":"GTM-WJSBCB4"},{"gtm_id":"GTM-TXQ3CH7"}],"subscribed":"Thanks for subscribing!","dataLayer":{"author":"Judy Lin","canonicalUrl":"https:\/\/calmatters.org\/explainers\/california-census-2020-explained\/","category":"Explainers","environment":"production","gaId":"UA-117522438-3","gatedContentType":"","originalPublishDate":"03052020","originalPublishHour":"1583386842","pageType":"article","postId":"103857","postType":"cal_explainers","publicationName":"CalMatters","sponsor":"Edison","tag":"","gatedContent":"false"},"experience_control":"explicit"};
+</script>
+<script type='text/javascript' src='https://calmatters.org/wp-content/themes/thenewsproject/assets/js/frontend/google-ad-manager.js?m=1572473362g'></script>
+<link rel='https://api.w.org/' href='https://calmatters.org/wp-json/' />
+<link rel='shortlink' href='https://calmatters.org/?p=103857' />
+<link rel="alternate" type="application/json+oembed" href="https://calmatters.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcalmatters.org%2Fexplainers%2Fcalifornia-census-2020-explained%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://calmatters.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcalmatters.org%2Fexplainers%2Fcalifornia-census-2020-explained%2F&#038;format=xml" />
+<style type='text/css'>img#wpstats{display:none}</style><link rel='manifest' href='https://calmatters.org/wp-content/themes/calmatters/manifest.json' /><link rel="icon" href="https://calmatters.org/wp-content/uploads/sites/2/2019/07/cropped-cropped-calmatters-favicon.png?fit=32%2C32" sizes="32x32" />
+<link rel="icon" href="https://calmatters.org/wp-content/uploads/sites/2/2019/07/cropped-cropped-calmatters-favicon.png?fit=192%2C192" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://calmatters.org/wp-content/uploads/sites/2/2019/07/cropped-cropped-calmatters-favicon.png?fit=180%2C180" />
+<meta name="msapplication-TileImage" content="https://calmatters.org/wp-content/uploads/sites/2/2019/07/cropped-cropped-calmatters-favicon.png?fit=270%2C270" />
+</head>
+<body class="cal_explainers-template-default single single-cal_explainers postid-103857 wp-custom-logo">
+	<a href="#content" class="screen-reader-text skip-link">Skip to Main Content</a>
+		<div class="site">
+		<header class="container -header" role="banner">
+			<div class="navigation-utility">
+	<nav role="navigation" class="nav-trending" aria-label="Trending Navigation">
+
+	<div class="innerwrap">
+
+		<h2 class="heading">Trending <svg role="img" class="icon icon--trending" aria-label="trending"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#trending"></use></svg></h2>
+
+		<ul id="menu-top-trending" class="topics"><li id="menu-item-105092" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105092"><a href="https://calmatters.org/category/health/coronavirus/">Coronavirus Coverage</a></li>
+<li id="menu-item-105405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105405"><a href="https://calmatters.org/health/2020/03/california-coronavirus-gavin-newsom-senior-citizens-chronic-illness/">Coronavirus FAQ</a></li>
+<li id="menu-item-105407" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105407"><a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-covid-patient-hospitalization-data-icu/">Tracking Hospitalizations</a></li>
+<li id="menu-item-105406" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105406"><a href="https://calmatters.org/projects/corona-on-campus/">Corona on Campus</a></li>
+<li id="menu-item-105408" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105408"><a href="https://calmatters.org/health/coronavirus/2020/03/coronavirus-mental-health-tips-therapists-california/">Mental Health and Coronavirus</a></li>
+</ul>
+	</div>
+
+</nav><!--/.nav-trending-->
+
+<nav role="navigation" class="nav-bar" aria-label="Modal Navigation">
+
+	
+	<ul class="nav-action">
+		<li><button class="login" id="piano-login">Log in</button></li>
+				<li><a href="https://calmatters.org/subscribe-to-calmatters/" class="subscribe">Subscribe</a></li>
+			</ul>
+
+	
+	
+<div class="nav-search" itemscope itemtype="http://schema.org/WebSite">
+	<link itemprop="url" href="https://calmatters.org/" />
+	<meta itemprop="url" content="https://calmatters.org/" />
+
+	<button type="button" class="togglesearch" aria-controls="search" aria-expanded="false"><svg role="img" class="icon icon--search" aria-label="search"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#search"></use></svg><span class="screen-reader-text">Toggle Search</span></button>
+
+	<form role="search" class="search" id="search" aria-hidden="false" action="https://calmatters.org/" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+		<meta itemprop="target" content="https://calmatters.org/?s={s}" />
+
+		<div class="focus-label">
+			<input itemprop="query-input" class="searchinput" id="q" type="text" value="" name="s">
+			<label class="searchformlabel" aria-hidden="true" id="q-label" for="q">Search...</label>
+
+			<button class="submit" type="submit"><span class="searchicon"><svg role="img" class="icon icon--search" aria-label="search"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#search"></use></svg></span><span class="submitsearch"><svg role="img" class="icon icon--chevron-right" aria-label="chevron-right"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#chevron-right"></use></svg></span><span class="screen-reader-text">Submit Search</span></button>
+		</div>
+
+	</form>
+
+</div>
+
+</nav><!--/.nav-bar-->
+</div>
+
+<div class="nav" id="nav">
+	<div class="nav-main">
+
+		<div class="innerwrap">
+			<h1 class="logo">
+				<a href="https://calmatters.org">
+					<img src="https://calmatters.org/wp-content/uploads/sites/2/2019/07/calmatters-logo_2x.png?fit=488%2C82" alt="Logo of CalMatters">
+				</a>
+			</h1>
+
+			<button type="button" id="menu-trigger" aria-controls="nav" aria-expanded="true">
+				<span class="screen-reader-text">
+					Menu				</span>
+			</button>
+
+			<nav class="nav-list"><ul id="menu-main-navigation" class="menu"><li id="menu-item-32" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-32"><a href="https://calmatters.org/category/politics/" aria-haspopup="true">Politics</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-30" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-30"><a href="https://calmatters.org/category/immigration/">Immigration</a></li>
+	<li id="menu-item-29" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29"><a href="https://calmatters.org/category/housing/">Housing</a></li>
+	<li id="menu-item-80106" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80106"><a href="https://calmatters.org/category/blogs/election-2018/">Election 2018</a></li>
+	<li id="menu-item-80107" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80107"><a href="https://calmatters.org/category/blogs/california-election-2020/">Election 2020</a></li>
+	<li id="menu-item-80112" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80112"><a href="https://calmatters.org/category/blogs/donald-trump/">Resistance State</a></li>
+	<li id="menu-item-80110" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80110"><a href="https://calmatters.org/category/blogs/inside-california-capitol/">Inside the Capitol</a></li>
+	<li id="menu-item-81256" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-81256"><a href="https://calmatters.org/category/newsletters/whatmatters/">WhatMatters</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/commentary/earlier-california-presidential-primary-succeeded-on-many-levels/" class="article "><div class="thumb"><img width="453" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/030320_voting_AW_12.jpg?fit=453%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Earlier California presidential primary succeeded on many levels" /></div><div class="content"><h4 class="title">Trending in Politics</h4><p>Earlier California presidential primary succeeded on many levels</p></div></a><a href="https://calmatters.org/politics/california-legislature/2020/04/california-senate-hearing-coronavirus-budget-oversight/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_pool_CoronavirusOversight_06.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="California senators frustrated by few answers,  tech glitches in virtual hearing on coronavirus spending" /></div><div class="content"><h4 class="title">Trending in Politics</h4><p>California senators frustrated by few answers,  tech glitches in virtual hearing on coronavirus spending</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-25" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-25"><a href="https://calmatters.org/category/economy/" aria-haspopup="true">Economy</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-93825" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-93825"><a href="https://calmatters.org/category/california-divide/">California Divide</a></li>
+	<li id="menu-item-80254" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80254"><a href="https://calmatters.org/category/economy/california-pension-crisis/">California&#8217;s Pension Crisis</a></li>
+	<li id="menu-item-33" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-33"><a href="https://calmatters.org/category/poverty/">Poverty</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/commentary/your-next-boss-could-be-an-undocumented-immigrant-as-a-growing-number-of-founders-lack-legal-status/" class="article "><div class="thumb"><img width="460" height="276" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/startup-business.jpg?fit=460%2C276" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Your next boss could be an undocumented immigrant; growing number of business founders lack legal status" /></div><div class="content"><h4 class="title">Trending in Economy</h4><p>Your next boss could be an undocumented immigrant; growing number of business founders lack legal status</p></div></a><a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-task-force-economy/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_taskforce_01.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="A-list business and union leaders combine to help steer California&#8217;s economic recovery" /></div><div class="content"><h4 class="title">Trending in Economy</h4><p>A-list business and union leaders combine to help steer California&#8217;s economic recovery</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-26" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-26"><a href="https://calmatters.org/category/education/" aria-haspopup="true">Education</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-108634" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108634"><a href="https://calmatters.org/projects/corona-on-campus/">Corona on Campus</a></li>
+	<li id="menu-item-90222" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-90222"><a href="https://calmatters.org/category/education/disaster-days-school-closures-california-wildfire-guns-outage-flood/">Disaster Days</a></li>
+	<li id="menu-item-80256" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80256"><a href="https://calmatters.org/category/education/k-12-education/">K-12 Education</a></li>
+	<li id="menu-item-80255" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80255"><a href="https://calmatters.org/category/education/higher-education/">Higher Education</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/education/higher-education/2020/04/uc-graduate-students-online-strike-coronavirus-pandemic-california/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/02/022120_UCDavisCola_AW_sized_03.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="How do you hold a strike online? UC teaching assistants are finding out" /></div><div class="content"><h4 class="title">Trending in Education</h4><p>How do you hold a strike online? UC teaching assistants are finding out</p></div></a><a href="https://calmatters.org/commentary/pandemic-reveals-need-for-schools-to-utilize-technology-for-online-classrooms/" class="article "><div class="thumb"><img width="339" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/online-classes-distance-learning.jpg?fit=339%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Pandemic reveals need for schools to utilize technology for online classrooms" /></div><div class="content"><h4 class="title">Trending in Education</h4><p>Pandemic reveals need for schools to utilize technology for online classrooms</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-27" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-27"><a href="https://calmatters.org/category/environment/" aria-haspopup="true">Environment</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-80257" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80257"><a href="https://calmatters.org/category/environment/building-efficiency/">Building Efficiency</a></li>
+	<li id="menu-item-80258" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80258"><a href="https://calmatters.org/category/environment/climate-change/">Climate Change</a></li>
+	<li id="menu-item-80259" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80259"><a href="https://calmatters.org/category/environment/frayed-wires/">Frayed Wires</a></li>
+	<li id="menu-item-80260" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80260"><a href="https://calmatters.org/category/environment/rising-seas/">Rising Seas</a></li>
+	<li id="menu-item-80261" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80261"><a href="https://calmatters.org/category/environment/water/">Water</a></li>
+	<li id="menu-item-80262" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80262"><a href="https://calmatters.org/category/environment/california-wildfires/">California Wildfires</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/commentary/california-water-policies-inhibit-food-production-by-valley-farmers/" class="article "><div class="thumb"><img width="460" height="246" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/California-aquaduct.jpg?fit=460%2C246" class="attachment-medium-rec size-medium-rec wp-post-image" alt="California water policies inhibit food production by Valley farmers" /></div><div class="content"><h4 class="title">Trending in Environment</h4><p>California water policies inhibit food production by Valley farmers</p></div></a><a href="https://calmatters.org/commentary/its-time-to-protect-californias-mountain-lions/" class="article "><div class="thumb"><img width="460" height="259" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/mountain-lion.jpg?fit=460%2C259" class="attachment-medium-rec size-medium-rec wp-post-image" alt="It’s time to protect California’s mountain lions" /></div><div class="content"><h4 class="title">Trending in Environment</h4><p>It’s time to protect California’s mountain lions</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-28" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-28"><a href="https://calmatters.org/category/health/" aria-haspopup="true">Health</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-105093" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105093"><a href="https://calmatters.org/category/health/coronavirus/">Coronavirus</a></li>
+	<li id="menu-item-80263" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80263"><a href="https://calmatters.org/category/health/breakdown-mental-health/">Breakdown: Mental Health</a></li>
+	<li id="menu-item-80264" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80264"><a href="https://calmatters.org/category/health/drug-costs/">Drug Costs</a></li>
+	<li id="menu-item-80265" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80265"><a href="https://calmatters.org/category/health/wellness/">Wellness</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/health/coronavirus/2020/04/newsom-cities-blocking-hotels-for-homeless-will-be-judged-by-history/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Newsom: Cities blocking hotels for homeless will be &#8216;judged&#8217; by history" /></div><div class="content"><h4 class="title">Trending in Health</h4><p>Newsom: Cities blocking hotels for homeless will be &#8216;judged&#8217; by history</p></div></a><a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-task-force-economy/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_taskforce_01.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="A-list business and union leaders combine to help steer California&#8217;s economic recovery" /></div><div class="content"><h4 class="title">Trending in Health</h4><p>A-list business and union leaders combine to help steer California&#8217;s economic recovery</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-80069" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-80069"><a href="https://calmatters.org/category/commentary/" aria-haspopup="true">Commentary</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-80101" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80101"><a href="https://calmatters.org/category/commentary/dan-walters/">Dan Walters</a></li>
+	<li id="menu-item-80102" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80102"><a href="https://calmatters.org/category/commentary/my-turn/">My Turn</a></li>
+	<li id="menu-item-80266" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80266"><a href="https://calmatters.org/category/commentary/reader-reactions/">Reader Reactions</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/commentary/your-next-boss-could-be-an-undocumented-immigrant-as-a-growing-number-of-founders-lack-legal-status/" class="article "><div class="thumb"><img width="460" height="276" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/startup-business.jpg?fit=460%2C276" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Your next boss could be an undocumented immigrant; growing number of business founders lack legal status" /></div><div class="content"><h4 class="title">Trending in Commentary</h4><p>Your next boss could be an undocumented immigrant; growing number of business founders lack legal status</p></div></a><a href="https://calmatters.org/commentary/earlier-california-presidential-primary-succeeded-on-many-levels/" class="article "><div class="thumb"><img width="453" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/030320_voting_AW_12.jpg?fit=453%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Earlier California presidential primary succeeded on many levels" /></div><div class="content"><h4 class="title">Trending in Commentary</h4><p>Earlier California presidential primary succeeded on many levels</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-80071" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-80071"><a href="https://projects.calmatters.org/" aria-haspopup="true">Multimedia</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-80085" class="menu-item menu-item-type-taxonomy menu-item-object-category current-cal_explainers-ancestor current-menu-parent current-cal_explainers-parent menu-item-80085"><a href="https://calmatters.org/category/multimedia/explainers/">Explainers</a></li>
+	<li id="menu-item-80084" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80084"><a href="https://calmatters.org/category/multimedia/data-points/">Data Points</a></li>
+	<li id="menu-item-95787" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-95787"><a href="https://calmatters.org/projects/force-of-law-police-shootings-podcast/">Force of Law</a></li>
+	<li id="menu-item-80088" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80088"><a href="https://calmatters.org/category/multimedia/podcasts/gimme-shelter/">Gimme Shelter</a></li>
+	<li id="menu-item-80086" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80086"><a href="https://calmatters.org/category/multimedia/interactives/">Interactives</a></li>
+	<li id="menu-item-80089" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80089"><a href="https://calmatters.org/category/multimedia/video/">Video</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li id="menu-item-81105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81105"><a href="https://checkout.fundjournalism.org/memberform?org_id=calmatters&#038;campaign=701f2000001DCNo">DONATE</a></li>
+<li id="menu-item-80058" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80058"><a href="https://calmatters.org/about/" aria-haspopup="true">About</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-92341" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92341"><a href="https://projects.calmatters.org/2019/california-dream/">California Dream Project</a></li>
+	<li id="menu-item-80109" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80109"><a href="https://calmatters.org/category/blogs/inside-calmatters/">Inside CalMatters</a></li>
+	<li id="menu-item-80108" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80108"><a href="https://calmatters.org/category/blogs/events/">Events</a></li>
+	<li id="menu-item-80059" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80059"><a href="https://calmatters.org/about/advisory-board/">Advisory Board</a></li>
+	<li id="menu-item-80060" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80060"><a href="https://calmatters.org/about/board-of-directors/">Board of Directors</a></li>
+	<li id="menu-item-80061" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80061"><a href="https://calmatters.org/about/contact-us/">Contact Us</a></li>
+	<li id="menu-item-80062" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80062"><a href="https://calmatters.org/about/jobs/">Jobs</a></li>
+	<li id="menu-item-80068" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80068"><a href="https://calmatters.org/institutional-membership/">Institutional Membership</a></li>
+	<li id="menu-item-80063" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80063"><a href="https://calmatters.org/about/distribution-partners/">Media partners</a></li>
+	<li id="menu-item-80064" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80064"><a href="https://calmatters.org/about/staff/">Meet Our Team</a></li>
+	<li id="menu-item-80065" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80065"><a href="https://calmatters.org/about/mission/">Mission</a></li>
+	<li id="menu-item-80066" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80066"><a href="https://calmatters.org/about/reports-financials/">Reports &#038; Financials</a></li>
+	<li id="menu-item-80067" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80067"><a href="https://calmatters.org/about/supporters/">Supporters</a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul></nav>
+			<nav class="nav-social large-screen" role="navigation" aria-label="Social Navigation">
+				<ul>
+											<li><a href="https://www.facebook.com/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--facebook" aria-label="facebook"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook"></use></svg></a></li>
+											<li><a href="https://www.instagram.com/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--instagram" aria-label="instagram"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#instagram"></use></svg></a></li>
+											<li><a href="https://www.linkedin.com/company/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--linkedin" aria-label="linkedin"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#linkedin"></use></svg></a></li>
+											<li><a href="https://twitter.com/CalMatters" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--twitter" aria-label="twitter"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter"></use></svg></a></li>
+											<li><a href="https://www.youtube.com/channel/UCNQv9nDu2_r5zbgtUQungeA" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--youtube" aria-label="youtube"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#youtube"></use></svg></a></li>
+									</ul>
+			</nav>
+		</div>
+	</div> <!--/.nav-main-->
+
+	<nav role="navigation" class="nav-trending" aria-label="Trending Navigation">
+
+	<div class="innerwrap">
+
+		<h2 class="heading">Trending <svg role="img" class="icon icon--trending" aria-label="trending"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#trending"></use></svg></h2>
+
+		<ul id="menu-top-trending-1" class="topics"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105092"><a href="https://calmatters.org/category/health/coronavirus/">Coronavirus Coverage</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105405"><a href="https://calmatters.org/health/2020/03/california-coronavirus-gavin-newsom-senior-citizens-chronic-illness/">Coronavirus FAQ</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105407"><a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-covid-patient-hospitalization-data-icu/">Tracking Hospitalizations</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105406"><a href="https://calmatters.org/projects/corona-on-campus/">Corona on Campus</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105408"><a href="https://calmatters.org/health/coronavirus/2020/03/coronavirus-mental-health-tips-therapists-california/">Mental Health and Coronavirus</a></li>
+</ul>
+	</div>
+
+</nav><!--/.nav-trending-->
+
+<nav role="navigation" class="nav-bar" aria-label="Modal Navigation">
+
+	
+<div class="nav-search" itemscope itemtype="http://schema.org/WebSite">
+	<link itemprop="url" href="https://calmatters.org/" />
+	<meta itemprop="url" content="https://calmatters.org/" />
+
+	<button type="button" class="togglesearch" aria-controls="search" aria-expanded="false"><svg role="img" class="icon icon--search" aria-label="search"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#search"></use></svg><span class="screen-reader-text">Toggle Search</span></button>
+
+	<form role="search" class="search" id="search" aria-hidden="false" action="https://calmatters.org/" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+		<meta itemprop="target" content="https://calmatters.org/?s={s}" />
+
+		<div class="focus-label">
+			<input  class="searchinput" id="q" type="text" value="" name="s">
+			<label class="searchformlabel" aria-hidden="true" id="q-label" for="q">Search...</label>
+
+			<button class="submit" type="submit"><span class="searchicon"><svg role="img" class="icon icon--search" aria-label="search"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#search"></use></svg></span><span class="submitsearch"><svg role="img" class="icon icon--chevron-right" aria-label="chevron-right"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#chevron-right"></use></svg></span><span class="screen-reader-text">Submit Search</span></button>
+		</div>
+
+	</form>
+
+</div>
+
+	<ul class="nav-action">
+		<li><button class="login" id="piano-login">Log in</button></li>
+				<li><a href="https://calmatters.org/subscribe-to-calmatters/" class="subscribe">Subscribe</a></li>
+			</ul>
+
+			<nav class="nav-social small-screen" role="navigation" aria-label="Social Navigation">
+			<ul>
+									<li><a href="https://www.facebook.com/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--facebook" aria-label="facebook"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook"></use></svg></a></li>
+									<li><a href="https://www.instagram.com/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--instagram" aria-label="instagram"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#instagram"></use></svg></a></li>
+									<li><a href="https://www.linkedin.com/company/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--linkedin" aria-label="linkedin"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#linkedin"></use></svg></a></li>
+									<li><a href="https://twitter.com/CalMatters" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--twitter" aria-label="twitter"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter"></use></svg></a></li>
+									<li><a href="https://www.youtube.com/channel/UCNQv9nDu2_r5zbgtUQungeA" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--youtube" aria-label="youtube"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#youtube"></use></svg></a></li>
+							</ul>
+		</nav>
+		
+	
+</nav><!--/.nav-bar-->
+</div>
+		</header>
+	<style type="text/css">
+			</style>
+	
+<div class="container explainer tnp-sponsored" id="content" role="main">
+	
+			<div class="project-hero">
+					<img width="2116" height="1416" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-Census-2020.jpg?fit=2116%2C1416" class="project-hero__image wp-post-image" alt="" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-Census-2020.jpg?w=2116 2116w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-Census-2020.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-Census-2020.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-Census-2020.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-Census-2020.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-Census-2020.jpg?w=2048 2048w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-Census-2020.jpg?w=457 457w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-Census-2020.jpg?w=320 320w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-Census-2020.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-Census-2020.jpg?w=855 855w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-Census-2020.jpg?w=791 791w" sizes="(max-width: 2116px) 100vw, 2116px" />
+					<div class="container">
+						<div class="project-hero__content">
+							<div class="project-hero__sponsor">	<style type="text/css">
+		</style>
+	<span class="sponsor-var-text">CalMatters Explainers Are Presented By</span><img width="465" height="193" src="https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?fit=465%2C193" class="attachment-full size-full" alt="Edison" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=465 465w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=380 380w" sizes="(max-width: 465px) 100vw, 465px" /></div>							<h1 class="project-hero__title">Counting California in the 2020 Census</h1>
+															<div class="project-hero__caption">
+
+																			<svg role="img" class="icon icon--camera" aria-label="camera"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#camera"></use></svg>										<span>California, which is at risk of undercounting its population, is spending $187.2 million on outreach for the 2020 census. Image from iStock.</span>
+																	</div>
+													</div>
+					</div>
+				</div>
+
+
+			<div class="main">
+				<div class="maincontent">
+					<div class="explainers-container">
+						<div class="explainers-toc-container">
+							<div class="explainers-toc-inner-inner">
+								<div class="explainers-toc-gradient-wrap">
+									<ul class="explainers-toc">
+										<li class="explainers-toc__item active">
+											<a class="explainers-toc__item-link" href="#introduction" data-id="introduction">Introduction</a>
+										</li>
+																						<li class="explainers-toc__item">
+													<a
+														data-id="7f70fc00-5e5a-11ea-84fc-cb7eca9595d6"
+														class="explainers-toc__item-link"
+														href="#7f70fc00-5e5a-11ea-84fc-cb7eca9595d6">
+														How has California changed?													</a>
+												</li>
+																							<li class="explainers-toc__item">
+													<a
+														data-id="9e1b7a90-5e5a-11ea-84fc-cb7eca9595d6"
+														class="explainers-toc__item-link"
+														href="#9e1b7a90-5e5a-11ea-84fc-cb7eca9595d6">
+														Why does it matter? (Part 1)													</a>
+												</li>
+																							<li class="explainers-toc__item">
+													<a
+														data-id="1a024520-5e5c-11ea-84fc-cb7eca9595d6"
+														class="explainers-toc__item-link"
+														href="#1a024520-5e5c-11ea-84fc-cb7eca9595d6">
+														Why does it matter? (Part 2)													</a>
+												</li>
+																							<li class="explainers-toc__item">
+													<a
+														data-id="3ff56370-5e5c-11ea-84fc-cb7eca9595d6"
+														class="explainers-toc__item-link"
+														href="#3ff56370-5e5c-11ea-84fc-cb7eca9595d6">
+														Who is hard to count?													</a>
+												</li>
+																							<li class="explainers-toc__item">
+													<a
+														data-id="73fca200-5e5c-11ea-84fc-cb7eca9595d6"
+														class="explainers-toc__item-link"
+														href="#73fca200-5e5c-11ea-84fc-cb7eca9595d6">
+														Worried about the census?													</a>
+												</li>
+																							<li class="explainers-toc__item">
+													<a
+														data-id="b5b34b90-5e5c-11ea-84fc-cb7eca9595d6"
+														class="explainers-toc__item-link"
+														href="#b5b34b90-5e5c-11ea-84fc-cb7eca9595d6">
+														When does the census start and end?													</a>
+												</li>
+																							<li class="explainers-toc__item">
+													<a
+														data-id="cdf77410-5e5c-11ea-84fc-cb7eca9595d6"
+														class="explainers-toc__item-link"
+														href="#cdf77410-5e5c-11ea-84fc-cb7eca9595d6">
+														What questions will be asked?													</a>
+												</li>
+																							<li class="explainers-toc__item">
+													<a
+														data-id="fd596d80-5e5c-11ea-84fc-cb7eca9595d6"
+														class="explainers-toc__item-link"
+														href="#fd596d80-5e5c-11ea-84fc-cb7eca9595d6">
+														Where can I get more information?													</a>
+												</li>
+																					
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="explainers-content-area" id="introduction">
+							<div class="explainers-top-area">
+
+								<div class="social-share -horizontal">
+	<ul class="social-share-list">
+				<li class="social-share-list-item">
+			<!-- Email -->
+			<a rel="noopener noreferrer" class="link -email social share" href="/cdn-cgi/l/email-protection#d4eba7a1b6beb1b7a0e997bba1baa0bdbab3f1e6e497b5b8bdb2bba6babdb5f1e6e4bdbaf1e6e4a0bcb1f1e6e4e6e4e6e4f1e6e497b1baa7a1a7f2f7e4e7ecefb6bbb0ade997bcb1b7bff1e6e4bba1a0f1e6e4a0bcbda7f1e6e4b5a6a0bdb7b8b1f1e6e4b5a0eef1e6e4bca0a0a4a7eefbfbb7b5b8b9b5a0a0b1a6a7fabba6b3fbb1aca4b8b5bdbab1a6a7fbb7b5b8bdb2bba6babdb5f9b7b1baa7a1a7f9e6e4e6e4f9b1aca4b8b5bdbab1b0fb" onclick="dataLayer.push( { 'socialNetwork': 'Email' } );" target="_top">
+				<svg role="img" class="icon icon--email-circle" aria-label="email-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#email-circle"></use></svg>				<span class="screen-reader-text">Share by Email</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Twitter -->
+			<a
+				rel="noopener noreferrer"
+				class="link -twitter social share"
+				href="https://twitter.com/share?url=https://calmatters.org/explainers/california-census-2020-explained/&#038;text=Counting%20California%20in%20the%202020%20Census"
+				onclick="dataLayer.push( { 'socialNetwork': 'Twitter' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--twitter-circle" aria-label="twitter-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter-circle"></use></svg>				<span class="screen-reader-text">Share on Twitter</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Facebook -->
+			<a
+				rel="noopener noreferrer"
+				class="link -facebook social share"
+				href="https://www.facebook.com/sharer.php?u=https://calmatters.org/explainers/california-census-2020-explained/"
+				onclick="dataLayer.push( { 'socialNetwork': 'Facebook' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--facebook-circle" aria-label="facebook-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook-circle"></use></svg>				<span class="screen-reader-text">Share on Facebook</span>
+			</a>
+		</li>
+		<li class="social-share-list-item -copy-embed-item">
+			<!-- Article Link -->
+			
+				<button
+					type="button"
+					class="link -link copy-link"
+					data-href="https://calmatters.org/explainers/california-census-2020-explained/"
+					data-home-url="https://calmatters.org"
+					data-explainer-id="103857"
+					>
+					<svg role="img" class="icon icon--link-circle" aria-label="link-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#link-circle"></use></svg>
+			
+
+
+				<span class="screen-reader-text">Copy Article Link</span>
+				<span class="tooltip">Copied</span>
+			</button>
+		</li>
+
+	</ul>
+</div>
+	<ul class="post-categories">
+		<li class="primary"><a href="https://calmatters.org/category/multimedia/explainers/" aria-label="See articles about Explainers" rel="category tag">Explainers</a></li><li class="secondary"><a href="https://calmatters.org/category/multimedia/" aria-label="See articles about Multimedia" rel="category tag">Multimedia</a></li>	</ul>
+	<div class="post-byline">
+	<a href="https://calmatters.org/author/judy-lin/" class="author">By Judy Lin <img alt='' src='https://secure.gravatar.com/avatar/5cd49ba1f15c9065888c8d954f1baf84?s=96&#038;d=mm&#038;r=g' class='avatar avatar-96 photo' height='96' width='96' /></a><a href="https://twitter.com/byjudylin" class="author-twitter"><svg role="img" class="icon icon--twitter" aria-label="twitter"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter"></use></svg></a>	<span class="published">published: <time datetime="2020-03-05T05:40:42-08:00">March 5, 2020</time></span>
+</div>
+							</div>
+
+							<div class="explainer-main-content">
+								<div class="explainer-main-content-container"><h2 class="explainer-intro-label">Introduction</h2>
+<p>California is preparing for the next federal census, which will begin April 1. It’s part of a survey the U.S. Census Bureau conducts every 10 years to figure out how many people live in the country. The accuracy of the count is important for two reasons: First, it is used to assign the number of seats each state has in the U.S. House of Representatives. Second, census figures are used to direct billions of federal dollars to state and local governments — so an undercount could cost California money.</p>
+
+
+
+<p>California is especially vulnerable to an undercount because of its large<strong> </strong>immigrant population and other hard-to-reach people. In fact, a staggering 29 million Californians belong to one or more historically undercounted groups, including renters, young men, children, African Americans and Latinos.</p>
+
+
+
+<p>How much could the state lose? State census officials have estimated that falling short could cost California as much as <a href="https://census.ca.gov/wp-content/uploads/sites/4/2019/08/FINAL_Toolkit_Outreach.pdf#page=40">$1,000 per person a year</a> and a seat in Congress. It’s why the state is investing <a href="https://census.ca.gov/funding/">$187.2 million</a> — the most of any state — for outreach to households that have typically been hard to count.&nbsp;</p>
+
+
+
+<p>California households will be getting notices soon asking them to fill out the census survey. And for the first time, the government will try to collect most responses <a href="https://my2020census.gov/">online</a>. Here’s what you need to know.</p>
+
+
+
+</div>		<div class="ad-wrapper -single">
+				<!-- /21804607924/TNP -->
+	<div id="leaderboard1">
+		<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+		googletag.cmd.push(function() { googletag.display('leaderboard1'); });
+		</script>
+	</div>
+			</div>
+		<div class="explainer-card" id="7f70fc00-5e5a-11ea-84fc-cb7eca9595d6">
+			<div class="explainer-sponsored-by">
+			<span class="explainer-sponsored-by__label">CalMatters Explainers Are Presented By</span>
+			<img width="465" height="193" src="https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?fit=465%2C193&#038;resize=465%2C193" class="attachment-full size-full" alt="" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=465 465w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=380 380w" sizes="(max-width: 465px) 100vw, 465px" data-recalc-dims="1" />		</div>
+		<h2 class="explainer-card-title">How has California changed?</h2>
+
+	<div class="social-share -horizontal">
+	<ul class="social-share-list">
+				<li class="social-share-list-item">
+			<!-- Email -->
+			<a rel="noopener noreferrer" class="link -email social share" href="/cdn-cgi/l/email-protection#92ade1e7f0f8f7f1e6afd1fde7fce6fbfcf5b7a0a2d1f3fefbf4fde0fcfbf3b7a0a2fbfcb7a0a2e6faf7b7a0a2a0a2a0a2b7a0a2d1f7fce1e7e1b4b1a2a1aaa9f0fdf6ebafd1faf7f1f9b7a0a2fde7e6b7a0a2e6fafbe1b7a0a2f3e0e6fbf1fef7b7a0a2f3e6a8b7a0a2fae6e6e2e1a8bdbdf1f3fefff3e6e6f7e0e1bcfde0f5bdf7eae2fef3fbfcf7e0e1bdf1f3fefbf4fde0fcfbf3bff1f7fce1e7e1bfa0a2a0a2bff7eae2fef3fbfcf7f6bd" onclick="dataLayer.push( { 'socialNetwork': 'Email' } );" target="_top">
+				<svg role="img" class="icon icon--email-circle" aria-label="email-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#email-circle"></use></svg>				<span class="screen-reader-text">Share by Email</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Twitter -->
+			<a
+				rel="noopener noreferrer"
+				class="link -twitter social share"
+				href="https://twitter.com/share?url=https://calmatters.org/explainers/california-census-2020-explained/&#038;text=Counting%20California%20in%20the%202020%20Census"
+				onclick="dataLayer.push( { 'socialNetwork': 'Twitter' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--twitter-circle" aria-label="twitter-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter-circle"></use></svg>				<span class="screen-reader-text">Share on Twitter</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Facebook -->
+			<a
+				rel="noopener noreferrer"
+				class="link -facebook social share"
+				href="https://www.facebook.com/sharer.php?u=https://calmatters.org/explainers/california-census-2020-explained/"
+				onclick="dataLayer.push( { 'socialNetwork': 'Facebook' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--facebook-circle" aria-label="facebook-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook-circle"></use></svg>				<span class="screen-reader-text">Share on Facebook</span>
+			</a>
+		</li>
+		<li class="social-share-list-item -copy-embed-item">
+			<!-- Article Link -->
+			
+				<button
+					type="button"
+					class="link -embed copy-embed copy-embed-trigger"
+					data-href="https://calmatters.org/explainers/california-census-2020-explained/"
+					data-home-url="https://calmatters.org"
+					data-explainer-id="103857"
+					>
+					<svg role="img" class="icon icon--embed" aria-label="embed"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#embed"></use></svg>
+			
+
+
+				<span class="screen-reader-text">Copy Article Link</span>
+				<span class="tooltip">Copied</span>
+			</button>
+		</li>
+
+	</ul>
+</div>
+
+	<div class="explainer-card__content">
+		
+
+<p>California is teeming with people — roughly <a href="https://calmatters.org/explainers/california-population-migration-census-demographics-immigration/">40 million</a> of them, more than in 21 of the smallest states combined. A century ago, people came to the Golden State mostly from the Midwest. Today, most people are coming from Asian countries such as China and the Philippines and from Mexico.<br></p>
+
+
+
+<p>In fact, California is so diverse that it&#8217;s famous for being a majority minority state, where no ethnic group claims more than 50% of the population. Latinos began to <a href="https://www.latimes.com/local/california/la-me-census-latinos-20150708-story.html">outnumber whites</a> sometime in the middle of the last decade and are now a <a href="https://www.pewresearch.org/fact-tank/2014/01/24/in-2014-latinos-will-surpass-whites-as-largest-racialethnic-group-in-california/">plurality</a> — not more than half, but the largest of any group.&nbsp; </p>
+
+
+
+<div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/1420845"><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+
+
+<p></p>
+
+	</div>
+
+	<div class="explainer-card-footer">
+		<span class="explainer-card__footer-copyright">&copy; 2020</span>
+		<img class="explainer-card-footer__logo" src="https://calmatters.org/wp-content/themes/calmatters/assets/svg/calmatters-logo.svg">
+	</div>
+</div>
+
+
+
+<div class="explainer-card" id="9e1b7a90-5e5a-11ea-84fc-cb7eca9595d6">
+			<div class="explainer-sponsored-by">
+			<span class="explainer-sponsored-by__label">CalMatters Explainers Are Presented By</span>
+			<img width="465" height="193" src="https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?fit=465%2C193&#038;resize=465%2C193" class="attachment-full size-full" alt="" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=465 465w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=380 380w" sizes="(max-width: 465px) 100vw, 465px" data-recalc-dims="1" />		</div>
+		<h2 class="explainer-card-title">Why does it matter? (Part 1)</h2>
+
+	<div class="social-share -horizontal">
+	<ul class="social-share-list">
+				<li class="social-share-list-item">
+			<!-- Email -->
+			<a rel="noopener noreferrer" class="link -email social share" href="/cdn-cgi/l/email-protection#84bbf7f1e6eee1e7f0b9c7ebf1eaf0edeae3a1b6b4c7e5e8ede2ebf6eaede5a1b6b4edeaa1b6b4f0ece1a1b6b4b6b4b6b4a1b6b4c7e1eaf7f1f7a2a7b4b7bcbfe6ebe0fdb9c7ece1e7efa1b6b4ebf1f0a1b6b4f0ecedf7a1b6b4e5f6f0ede7e8e1a1b6b4e5f0bea1b6b4ecf0f0f4f7beababe7e5e8e9e5f0f0e1f6f7aaebf6e3abe1fcf4e8e5edeae1f6f7abe7e5e8ede2ebf6eaede5a9e7e1eaf7f1f7a9b6b4b6b4a9e1fcf4e8e5edeae1e0ab" onclick="dataLayer.push( { 'socialNetwork': 'Email' } );" target="_top">
+				<svg role="img" class="icon icon--email-circle" aria-label="email-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#email-circle"></use></svg>				<span class="screen-reader-text">Share by Email</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Twitter -->
+			<a
+				rel="noopener noreferrer"
+				class="link -twitter social share"
+				href="https://twitter.com/share?url=https://calmatters.org/explainers/california-census-2020-explained/&#038;text=Counting%20California%20in%20the%202020%20Census"
+				onclick="dataLayer.push( { 'socialNetwork': 'Twitter' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--twitter-circle" aria-label="twitter-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter-circle"></use></svg>				<span class="screen-reader-text">Share on Twitter</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Facebook -->
+			<a
+				rel="noopener noreferrer"
+				class="link -facebook social share"
+				href="https://www.facebook.com/sharer.php?u=https://calmatters.org/explainers/california-census-2020-explained/"
+				onclick="dataLayer.push( { 'socialNetwork': 'Facebook' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--facebook-circle" aria-label="facebook-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook-circle"></use></svg>				<span class="screen-reader-text">Share on Facebook</span>
+			</a>
+		</li>
+		<li class="social-share-list-item -copy-embed-item">
+			<!-- Article Link -->
+			
+				<button
+					type="button"
+					class="link -embed copy-embed copy-embed-trigger"
+					data-href="https://calmatters.org/explainers/california-census-2020-explained/"
+					data-home-url="https://calmatters.org"
+					data-explainer-id="103857"
+					>
+					<svg role="img" class="icon icon--embed" aria-label="embed"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#embed"></use></svg>
+			
+
+
+				<span class="screen-reader-text">Copy Article Link</span>
+				<span class="tooltip">Copied</span>
+			</button>
+		</li>
+
+	</ul>
+</div>
+
+	<div class="explainer-card__content">
+		
+
+<p>The census affects how California is represented in Congress. Although the U.S. Senate gets two seats per state, the number of members in the House of Representatives are based solely on population. The census is used every 10 years to reallocate the 435 seats in the House.&nbsp;</p>
+
+
+
+<p>In this year’s census, California appears likely to maintain its 53 seats. However, if hard-to-count people don’t turn in their questionnaires, California could miss more than <a href="https://www.ppic.org/publication/californians-and-the-2020-census/">1.6 million residents</a>, costing the state a seat in the House, according to the Public Policy Institute of California.</p>
+
+
+
+<p>The census is also used to redraw voting districts. Accuracy is important to ensuring that communities have representatives who reflect them.</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-infogram"><div class="wp-block-embed__wrapper">
+<div class="infogram-embed" data-id="d10e364b-3448-4dab-ad15-3b69f0a974d5" data-type="interactive" data-title="House of Reps"></div><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script>
+</div></figure>
+
+	</div>
+
+	<div class="explainer-card-footer">
+		<span class="explainer-card__footer-copyright">&copy; 2020</span>
+		<img class="explainer-card-footer__logo" src="https://calmatters.org/wp-content/themes/calmatters/assets/svg/calmatters-logo.svg">
+	</div>
+</div>
+
+
+
+<div class="explainer-card" id="1a024520-5e5c-11ea-84fc-cb7eca9595d6">
+			<div class="explainer-sponsored-by">
+			<span class="explainer-sponsored-by__label">CalMatters Explainers Are Presented By</span>
+			<img width="465" height="193" src="https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?fit=465%2C193&#038;resize=465%2C193" class="attachment-full size-full" alt="" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=465 465w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=380 380w" sizes="(max-width: 465px) 100vw, 465px" data-recalc-dims="1" />		</div>
+		<h2 class="explainer-card-title">Why does it matter? (Part 2)</h2>
+
+	<div class="social-share -horizontal">
+	<ul class="social-share-list">
+				<li class="social-share-list-item">
+			<!-- Email -->
+			<a rel="noopener noreferrer" class="link -email social share" href="/cdn-cgi/l/email-protection#7b44080e19111e180f4638140e150f12151c5e494b381a17121d140915121a5e494b12155e494b0f131e5e494b494b494b5e494b381e15080e085d584b48434019141f024638131e18105e494b140e0f5e494b0f1312085e494b1a090f1218171e5e494b1a0f415e494b130f0f0b08415454181a17161a0f0f1e09085514091c541e030b171a12151e090854181a17121d140915121a56181e15080e0856494b494b561e030b171a12151e1f54" onclick="dataLayer.push( { 'socialNetwork': 'Email' } );" target="_top">
+				<svg role="img" class="icon icon--email-circle" aria-label="email-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#email-circle"></use></svg>				<span class="screen-reader-text">Share by Email</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Twitter -->
+			<a
+				rel="noopener noreferrer"
+				class="link -twitter social share"
+				href="https://twitter.com/share?url=https://calmatters.org/explainers/california-census-2020-explained/&#038;text=Counting%20California%20in%20the%202020%20Census"
+				onclick="dataLayer.push( { 'socialNetwork': 'Twitter' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--twitter-circle" aria-label="twitter-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter-circle"></use></svg>				<span class="screen-reader-text">Share on Twitter</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Facebook -->
+			<a
+				rel="noopener noreferrer"
+				class="link -facebook social share"
+				href="https://www.facebook.com/sharer.php?u=https://calmatters.org/explainers/california-census-2020-explained/"
+				onclick="dataLayer.push( { 'socialNetwork': 'Facebook' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--facebook-circle" aria-label="facebook-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook-circle"></use></svg>				<span class="screen-reader-text">Share on Facebook</span>
+			</a>
+		</li>
+		<li class="social-share-list-item -copy-embed-item">
+			<!-- Article Link -->
+			
+				<button
+					type="button"
+					class="link -embed copy-embed copy-embed-trigger"
+					data-href="https://calmatters.org/explainers/california-census-2020-explained/"
+					data-home-url="https://calmatters.org"
+					data-explainer-id="103857"
+					>
+					<svg role="img" class="icon icon--embed" aria-label="embed"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#embed"></use></svg>
+			
+
+
+				<span class="screen-reader-text">Copy Article Link</span>
+				<span class="tooltip">Copied</span>
+			</button>
+		</li>
+
+	</ul>
+</div>
+
+	<div class="explainer-card__content">
+		
+
+<p>Census data is used to distribute <a href="https://gwipp.gwu.edu/sites/g/files/zaxdzs2181/f/downloads/Counting%20for%20Dollars%202020%20-%20Comprehensive%20Accounting_Report%207B%20Feb%202020%20rev.pdf">$1.5 trillion</a> in federal money to state and local governments. California residents benefit from dozens of federal programs, including the Community Development Block Grant Program, used for affordable housing and to fight poverty and for funding roads, school programs<strong> </strong>and lunches, children’s health insurance, early childhood education and foster care.&nbsp;</p>
+
+
+
+<p>Not surprisingly, California draws more federal funds tied to census findings than any other state. Andrew Reamer, research professor at George Washington University, estimates that California receives <a href="https://gwipp.gwu.edu/sites/g/files/zaxdzs2181/f/downloads/Counting%20for%20Dollars%202020%20-%20Comprehensive%20Accounting_Report%207B%20Feb%202020%20rev.pdf">$172 billion</a> in federal money based on population. That’s dominated by $70 billion for Medicare, the federal health insurance program for senior citizens, and $52 billion for Medicaid, the health program for the poor known as Medi-Cal in California.&nbsp;</p>
+
+
+
+<p>The correlation between census and health care for a Medicare or Medicaid patient may not be obvious. But according to Reamer, federal programs sometimes pay hospitals and providers different rates in rural, suburban and urban settings. That’s one of several ways those programs are related to census data.&nbsp;&nbsp;</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-infogram"><div class="wp-block-embed__wrapper">
+<div class="infogram-embed" data-id="23dbdb8e-877f-442d-8619-4a8af8424ee9" data-type="interactive" data-title="Census-guided funding"></div><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script>
+</div></figure>
+
+
+
+<p>Beyond the government, census data is used by businesses to decide where to build factories, offices and stores, potentially creating jobs. Developers use the count to figure out where to build new homes or rehabilitate old neighborhoods.</p>
+
+	</div>
+
+	<div class="explainer-card-footer">
+		<span class="explainer-card__footer-copyright">&copy; 2020</span>
+		<img class="explainer-card-footer__logo" src="https://calmatters.org/wp-content/themes/calmatters/assets/svg/calmatters-logo.svg">
+	</div>
+</div>
+
+
+
+<div class="explainer-card" id="3ff56370-5e5c-11ea-84fc-cb7eca9595d6">
+			<div class="explainer-sponsored-by">
+			<span class="explainer-sponsored-by__label">CalMatters Explainers Are Presented By</span>
+			<img width="465" height="193" src="https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?fit=465%2C193&#038;resize=465%2C193" class="attachment-full size-full" alt="" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=465 465w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=380 380w" sizes="(max-width: 465px) 100vw, 465px" data-recalc-dims="1" />		</div>
+		<h2 class="explainer-card-title">Who is hard to count?</h2>
+
+	<div class="social-share -horizontal">
+	<ul class="social-share-list">
+				<li class="social-share-list-item">
+			<!-- Email -->
+			<a rel="noopener noreferrer" class="link -email social share" href="/cdn-cgi/l/email-protection#221d515740484741561f614d574c564b4c4507101261434e4b444d504c4b430710124b4c071012564a470710121012101207101261474c515751040112111a19404d465b1f614a4741490710124d5756071012564a4b510710124350564b414e470710124356180710124a56565251180d0d41434e4f4356564750510c4d50450d475a524e434b4c4750510d41434e4b444d504c4b430f41474c5157510f101210120f475a524e434b4c47460d" onclick="dataLayer.push( { 'socialNetwork': 'Email' } );" target="_top">
+				<svg role="img" class="icon icon--email-circle" aria-label="email-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#email-circle"></use></svg>				<span class="screen-reader-text">Share by Email</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Twitter -->
+			<a
+				rel="noopener noreferrer"
+				class="link -twitter social share"
+				href="https://twitter.com/share?url=https://calmatters.org/explainers/california-census-2020-explained/&#038;text=Counting%20California%20in%20the%202020%20Census"
+				onclick="dataLayer.push( { 'socialNetwork': 'Twitter' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--twitter-circle" aria-label="twitter-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter-circle"></use></svg>				<span class="screen-reader-text">Share on Twitter</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Facebook -->
+			<a
+				rel="noopener noreferrer"
+				class="link -facebook social share"
+				href="https://www.facebook.com/sharer.php?u=https://calmatters.org/explainers/california-census-2020-explained/"
+				onclick="dataLayer.push( { 'socialNetwork': 'Facebook' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--facebook-circle" aria-label="facebook-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook-circle"></use></svg>				<span class="screen-reader-text">Share on Facebook</span>
+			</a>
+		</li>
+		<li class="social-share-list-item -copy-embed-item">
+			<!-- Article Link -->
+			
+				<button
+					type="button"
+					class="link -embed copy-embed copy-embed-trigger"
+					data-href="https://calmatters.org/explainers/california-census-2020-explained/"
+					data-home-url="https://calmatters.org"
+					data-explainer-id="103857"
+					>
+					<svg role="img" class="icon icon--embed" aria-label="embed"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#embed"></use></svg>
+			
+
+
+				<span class="screen-reader-text">Copy Article Link</span>
+				<span class="tooltip">Copied</span>
+			</button>
+		</li>
+
+	</ul>
+</div>
+
+	<div class="explainer-card__content">
+		
+
+<p>In 2017, about 72% of all Californians belonged to one or more groups that have been historically undercounted in the census, according to the <a href="https://www.ppic.org/publication/californians-and-the-2020-census/">Public Policy Institute of California</a>. That’s 29 million people, many of them renters, young men, children, African Americans and Latinos, who have a lower response rate. People without a home or living in nonstandard housing, such as garages and trailers, are also hard to reach. In addition, many of these people may lack a reliable <a href="https://www.ppic.org/blog/2020-census-where-are-californias-hard-to-count-communities/">internet connection</a>.</p>
+
+
+
+<p>Moreover, immigrants worried about revealing their legal status may be reluctant to fill out the questionnaire.</p>
+
+
+
+<p>To get the most accurate count, California is spending <a href="https://census.ca.gov/funding/">$187.2 million</a> in marketing campaigns on TV, radio and billboards, as well as coordinating with community organizations to get households to complete and turn in their questionnaires.</p>
+
+
+
+<iframe width="800" height="600" frameborder="0" scrolling="no" allowfullscreen src="https://arcg.is/15v0u4"></iframe>
+
+	</div>
+
+	<div class="explainer-card-footer">
+		<span class="explainer-card__footer-copyright">&copy; 2020</span>
+		<img class="explainer-card-footer__logo" src="https://calmatters.org/wp-content/themes/calmatters/assets/svg/calmatters-logo.svg">
+	</div>
+</div>
+
+
+
+<div class="explainer-card" id="73fca200-5e5c-11ea-84fc-cb7eca9595d6">
+			<div class="explainer-sponsored-by">
+			<span class="explainer-sponsored-by__label">CalMatters Explainers Are Presented By</span>
+			<img width="465" height="193" src="https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?fit=465%2C193&#038;resize=465%2C193" class="attachment-full size-full" alt="" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=465 465w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=380 380w" sizes="(max-width: 465px) 100vw, 465px" data-recalc-dims="1" />		</div>
+		<h2 class="explainer-card-title">Worried about the census?</h2>
+
+	<div class="social-share -horizontal">
+	<ul class="social-share-list">
+				<li class="social-share-list-item">
+			<!-- Email -->
+			<a rel="noopener noreferrer" class="link -email social share" href="/cdn-cgi/l/email-protection#754a0600171f10160148361a001b011c1b125047453614191c131a071b1c145047451c1b504745011d105047454745474550474536101b060006535645464d4e171a110c48361d10161e5047451a0001504745011d1c065047451407011c16191050474514014f5047451d010105064f5a5a161419181401011007065b1a07125a100d0519141c1b1007065a1614191c131a071b1c145816101b060006584745474558100d0519141c1b10115a" onclick="dataLayer.push( { 'socialNetwork': 'Email' } );" target="_top">
+				<svg role="img" class="icon icon--email-circle" aria-label="email-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#email-circle"></use></svg>				<span class="screen-reader-text">Share by Email</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Twitter -->
+			<a
+				rel="noopener noreferrer"
+				class="link -twitter social share"
+				href="https://twitter.com/share?url=https://calmatters.org/explainers/california-census-2020-explained/&#038;text=Counting%20California%20in%20the%202020%20Census"
+				onclick="dataLayer.push( { 'socialNetwork': 'Twitter' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--twitter-circle" aria-label="twitter-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter-circle"></use></svg>				<span class="screen-reader-text">Share on Twitter</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Facebook -->
+			<a
+				rel="noopener noreferrer"
+				class="link -facebook social share"
+				href="https://www.facebook.com/sharer.php?u=https://calmatters.org/explainers/california-census-2020-explained/"
+				onclick="dataLayer.push( { 'socialNetwork': 'Facebook' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--facebook-circle" aria-label="facebook-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook-circle"></use></svg>				<span class="screen-reader-text">Share on Facebook</span>
+			</a>
+		</li>
+		<li class="social-share-list-item -copy-embed-item">
+			<!-- Article Link -->
+			
+				<button
+					type="button"
+					class="link -embed copy-embed copy-embed-trigger"
+					data-href="https://calmatters.org/explainers/california-census-2020-explained/"
+					data-home-url="https://calmatters.org"
+					data-explainer-id="103857"
+					>
+					<svg role="img" class="icon icon--embed" aria-label="embed"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#embed"></use></svg>
+			
+
+
+				<span class="screen-reader-text">Copy Article Link</span>
+				<span class="tooltip">Copied</span>
+			</button>
+		</li>
+
+	</ul>
+</div>
+
+	<div class="explainer-card__content">
+		
+
+<p><strong>Should I be worried about my immigration status?&nbsp;</strong></p>
+
+
+
+<p>No. The 2020 census will not include a question about citizenship status.</p>
+
+
+
+<p>The census is ideally supposed to count every person residing in the United States — citizens, noncitizen legal residents and unauthorized residents. The Trump administration had sought to include this question, but was <a href="https://www.supremecourt.gov/opinions/18pdf/18-966_bq7c.pdf">blocked from doing so</a> by the U.S. Supreme Court: <a href="https://www.vox.com/2019/7/11/20689015/census-citizenship-question-trump-executive-order">Is this person a citizen of the United States?</a>&nbsp;</p>
+
+
+
+<p>Chief Justice John Roberts didn’t have a problem with the question itself but rejected the administration’s <a href="https://www.nytimes.com/2019/06/27/us/politics/census-citizenship-question-supreme-court.html">“contrived”</a> reason for the change.</p>
+
+
+
+<p>A citizenship question won&#8217;t be included on <a href="https://www2.census.gov/programs-surveys/decennial/2020/technical-documentation/questionnaires-and-instructions/questionnaires/2020-informational-questionnaire.pdf">2020 census forms</a>. But other Census Bureau surveys do ask about a person&#8217;s U.S. citizenship status.</p>
+
+
+
+<p>The issue isn’t new. Before 1950, the census survey given to all respondents asked foreign-born residents if they were naturalized citizens. From 1960 to 2000, a citizenship question appeared in a separate Census Bureau survey that went to a limited number of households every 10 years. In 2010, that survey was replaced with a new format called the <a href="https://www.census.gov/history/www/programs/demographic/american_community_survey.html">American Community Survey</a>, which asks a rotating sampling of residents a <a href="https://www2.census.gov/programs-surveys/acs/methodology/questionnaires/2019/quest19.pdf">citizenship question</a> on an annual basis.</p>
+
+
+
+<p><strong>What about households with some undocumented residents?&nbsp;</strong></p>
+
+
+
+<p>The Census Bureau is required by law to keep personal information confidential. Answers cannot be used for law-enforcement purposes or to determine eligibility for government benefits. And personal information can&#8217;t be used for the purposes of immigration enforcement.</p>
+
+
+
+<p><strong>What if I don’t speak English?</strong></p>
+
+
+
+<p>The state is encouraging participation by providing materials for the top 12 languages spoken in California apart from English: Spanish, Chinese (Cantonese and Mandarin), Vietnamese, Tagalog, Korean, Armenian, Farsi, Arabic, Russian, Japanese, Punjabi and Khmer.<br></p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-infogram"><div class="wp-block-embed__wrapper">
+<div class="infogram-embed" data-id="cbb27549-750d-426b-bffc-3961245f86b2" data-type="interactive" data-title="Census FAQ"></div><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script>
+</div></figure>
+
+
+
+<p></p>
+
+	</div>
+
+	<div class="explainer-card-footer">
+		<span class="explainer-card__footer-copyright">&copy; 2020</span>
+		<img class="explainer-card-footer__logo" src="https://calmatters.org/wp-content/themes/calmatters/assets/svg/calmatters-logo.svg">
+	</div>
+</div>
+
+
+
+<div class="explainer-card" id="b5b34b90-5e5c-11ea-84fc-cb7eca9595d6">
+			<div class="explainer-sponsored-by">
+			<span class="explainer-sponsored-by__label">CalMatters Explainers Are Presented By</span>
+			<img width="465" height="193" src="https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?fit=465%2C193&#038;resize=465%2C193" class="attachment-full size-full" alt="" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=465 465w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=380 380w" sizes="(max-width: 465px) 100vw, 465px" data-recalc-dims="1" />		</div>
+		<h2 class="explainer-card-title">When does the census start and end?</h2>
+
+	<div class="social-share -horizontal">
+	<ul class="social-share-list">
+				<li class="social-share-list-item">
+			<!-- Email -->
+			<a rel="noopener noreferrer" class="link -email social share" href="/cdn-cgi/l/email-protection#8bb4f8fee9e1eee8ffb6c8e4fee5ffe2e5ecaeb9bbc8eae7e2ede4f9e5e2eaaeb9bbe2e5aeb9bbffe3eeaeb9bbb9bbb9bbaeb9bbc8eee5f8fef8ada8bbb8b3b0e9e4eff2b6c8e3eee8e0aeb9bbe4feffaeb9bbffe3e2f8aeb9bbeaf9ffe2e8e7eeaeb9bbeaffb1aeb9bbe3fffffbf8b1a4a4e8eae7e6eaffffeef9f8a5e4f9eca4eef3fbe7eae2e5eef9f8a4e8eae7e2ede4f9e5e2eaa6e8eee5f8fef8a6b9bbb9bba6eef3fbe7eae2e5eeefa4" onclick="dataLayer.push( { 'socialNetwork': 'Email' } );" target="_top">
+				<svg role="img" class="icon icon--email-circle" aria-label="email-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#email-circle"></use></svg>				<span class="screen-reader-text">Share by Email</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Twitter -->
+			<a
+				rel="noopener noreferrer"
+				class="link -twitter social share"
+				href="https://twitter.com/share?url=https://calmatters.org/explainers/california-census-2020-explained/&#038;text=Counting%20California%20in%20the%202020%20Census"
+				onclick="dataLayer.push( { 'socialNetwork': 'Twitter' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--twitter-circle" aria-label="twitter-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter-circle"></use></svg>				<span class="screen-reader-text">Share on Twitter</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Facebook -->
+			<a
+				rel="noopener noreferrer"
+				class="link -facebook social share"
+				href="https://www.facebook.com/sharer.php?u=https://calmatters.org/explainers/california-census-2020-explained/"
+				onclick="dataLayer.push( { 'socialNetwork': 'Facebook' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--facebook-circle" aria-label="facebook-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook-circle"></use></svg>				<span class="screen-reader-text">Share on Facebook</span>
+			</a>
+		</li>
+		<li class="social-share-list-item -copy-embed-item">
+			<!-- Article Link -->
+			
+				<button
+					type="button"
+					class="link -embed copy-embed copy-embed-trigger"
+					data-href="https://calmatters.org/explainers/california-census-2020-explained/"
+					data-home-url="https://calmatters.org"
+					data-explainer-id="103857"
+					>
+					<svg role="img" class="icon icon--embed" aria-label="embed"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#embed"></use></svg>
+			
+
+
+				<span class="screen-reader-text">Copy Article Link</span>
+				<span class="tooltip">Copied</span>
+			</button>
+		</li>
+
+	</ul>
+</div>
+
+	<div class="explainer-card__content">
+		
+
+<p>For the first time, the government will try to collect most responses online, with the remainder by mail, by phone or, as needed, in person. Despite concerns about cybersecurity, it’s all part of an effort to <a href="https://www.npr.org/2020/03/02/807913222/despite-cybersecurity-risks-and-last-minute-changes-the-2020-census-goes-online">cut costs</a> and offer convenience.</p>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><img src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-census-worker.jpg?w=686&#038;resize=261%2C390" alt="" class="wp-image-103658" width="261" height="390" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-census-worker.jpg?w=1371 1371w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-census-worker.jpg?w=201 201w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-census-worker.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-census-worker.jpg?w=686&#038;resize=261%2C390 686w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-census-worker.jpg?w=1028 1028w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-census-worker.jpg?w=205 205w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-census-worker.jpg?w=143 143w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-census-worker.jpg?w=367 367w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-census-worker.jpg?w=383 383w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/California-census-worker.jpg?w=354 354w" sizes="(max-width: 261px) 100vw, 261px" data-recalc-dims="1" /><figcaption>Census workers will walk through neighborhoods to encourage people to complete their surveys. Image via flickr.</figcaption></figure></div>
+
+
+
+<p>Starting March 12, households will receive a letter in the mail inviting them to fill out their questionnaires online at <a href="https://my2020census.gov/">my2020census.gov</a>. The site will be open to the public through July 31.</p>
+
+
+
+<p>Reminder notices will be sent out between late March and early April. Soon after, paper questionnaires will be sent to households that haven’t completed the survey online.</p>
+
+
+
+<p>Field workers will also be dispatched to get people to turn in completed surveys. These workers will show valid Census Bureau identification and won’t ever ask for payment or for your Social Security number.</p>
+
+
+
+<p>The count will finish in July. The Census Bureau will deliver apportionment counts for the House of Representatives in <a href="https://2020census.gov/en/important-dates.html">December</a>. By March 2021, the bureau will send redistricting counts to the state for the redrawing of legislative districts.</p>
+
+	</div>
+
+	<div class="explainer-card-footer">
+		<span class="explainer-card__footer-copyright">&copy; 2020</span>
+		<img class="explainer-card-footer__logo" src="https://calmatters.org/wp-content/themes/calmatters/assets/svg/calmatters-logo.svg">
+	</div>
+</div>
+
+
+
+<div class="explainer-card" id="cdf77410-5e5c-11ea-84fc-cb7eca9595d6">
+			<div class="explainer-sponsored-by">
+			<span class="explainer-sponsored-by__label">CalMatters Explainers Are Presented By</span>
+			<img width="465" height="193" src="https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?fit=465%2C193&#038;resize=465%2C193" class="attachment-full size-full" alt="" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=465 465w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=380 380w" sizes="(max-width: 465px) 100vw, 465px" data-recalc-dims="1" />		</div>
+		<h2 class="explainer-card-title">What questions will be asked?</h2>
+
+	<div class="social-share -horizontal">
+	<ul class="social-share-list">
+				<li class="social-share-list-item">
+			<!-- Email -->
+			<a rel="noopener noreferrer" class="link -email social share" href="/cdn-cgi/l/email-protection#625d111700080701165f210d170c160b0c0547505221030e0b040d100c0b034750520b0c475052160a074750525052505247505221070c111711444152515a59000d061b5f210a0701094750520d1716475052160a0b114750520310160b010e074750520316584750520a16161211584d4d01030e0f0316160710114c0d10054d071a120e030b0c0710114d01030e0b040d100c0b034f01070c1117114f505250524f071a120e030b0c07064d" onclick="dataLayer.push( { 'socialNetwork': 'Email' } );" target="_top">
+				<svg role="img" class="icon icon--email-circle" aria-label="email-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#email-circle"></use></svg>				<span class="screen-reader-text">Share by Email</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Twitter -->
+			<a
+				rel="noopener noreferrer"
+				class="link -twitter social share"
+				href="https://twitter.com/share?url=https://calmatters.org/explainers/california-census-2020-explained/&#038;text=Counting%20California%20in%20the%202020%20Census"
+				onclick="dataLayer.push( { 'socialNetwork': 'Twitter' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--twitter-circle" aria-label="twitter-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter-circle"></use></svg>				<span class="screen-reader-text">Share on Twitter</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Facebook -->
+			<a
+				rel="noopener noreferrer"
+				class="link -facebook social share"
+				href="https://www.facebook.com/sharer.php?u=https://calmatters.org/explainers/california-census-2020-explained/"
+				onclick="dataLayer.push( { 'socialNetwork': 'Facebook' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--facebook-circle" aria-label="facebook-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook-circle"></use></svg>				<span class="screen-reader-text">Share on Facebook</span>
+			</a>
+		</li>
+		<li class="social-share-list-item -copy-embed-item">
+			<!-- Article Link -->
+			
+				<button
+					type="button"
+					class="link -embed copy-embed copy-embed-trigger"
+					data-href="https://calmatters.org/explainers/california-census-2020-explained/"
+					data-home-url="https://calmatters.org"
+					data-explainer-id="103857"
+					>
+					<svg role="img" class="icon icon--embed" aria-label="embed"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#embed"></use></svg>
+			
+
+
+				<span class="screen-reader-text">Copy Article Link</span>
+				<span class="tooltip">Copied</span>
+			</button>
+		</li>
+
+	</ul>
+</div>
+
+	<div class="explainer-card__content">
+		
+
+<p>The Census Bureau asks fewer than 10 basic questions of each person in a household. Responses can be submitted online, over the phone or using the paper survey.&nbsp;</p>
+
+
+
+<p>Below is a sample copy of the 2020 Census questionnaire.</p>
+
+
+
+<div id="DV-viewer-6795357-2020-Informational-Questionnaire" class="DC-embed DC-embed-document DV-container"></div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="//assets.documentcloud.org/viewer/loader.js"></script>
+<script>
+  DV.load("https://www.documentcloud.org/documents/6795357-2020-Informational-Questionnaire.js", {
+  responsive: true,
+    container: "#DV-viewer-6795357-2020-Informational-Questionnaire"
+  });
+</script>
+<noscript>
+  <a href="https://assets.documentcloud.org/documents/6795357/2020-Informational-Questionnaire.pdf">2020 Informational Questionnaire (PDF)</a>
+  <br>
+  <a href="https://assets.documentcloud.org/documents/6795357/2020-Informational-Questionnaire.txt">2020 Informational Questionnaire (Text)</a>
+</noscript>
+
+
+  <a href="https://assets.documentcloud.org/documents/6795357/2020-Informational-Questionnaire.pdf">2020 Informational Questionnaire (PDF)</a>
+  <br>
+  <a href="https://assets.documentcloud.org/documents/6795357/2020-Informational-Questionnaire.txt">2020 Informational Questionnaire (Text)</a>
+
+	</div>
+
+	<div class="explainer-card-footer">
+		<span class="explainer-card__footer-copyright">&copy; 2020</span>
+		<img class="explainer-card-footer__logo" src="https://calmatters.org/wp-content/themes/calmatters/assets/svg/calmatters-logo.svg">
+	</div>
+</div>
+
+
+
+<div class="explainer-card" id="fd596d80-5e5c-11ea-84fc-cb7eca9595d6">
+			<div class="explainer-sponsored-by">
+			<span class="explainer-sponsored-by__label">CalMatters Explainers Are Presented By</span>
+			<img width="465" height="193" src="https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?fit=465%2C193&#038;resize=465%2C193" class="attachment-full size-full" alt="" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=465 465w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/EdisonLogo.png?w=380 380w" sizes="(max-width: 465px) 100vw, 465px" data-recalc-dims="1" />		</div>
+		<h2 class="explainer-card-title">Where can I get more information?</h2>
+
+	<div class="social-share -horizontal">
+	<ul class="social-share-list">
+				<li class="social-share-list-item">
+			<!-- Email -->
+			<a rel="noopener noreferrer" class="link -email social share" href="/cdn-cgi/l/email-protection#96a9e5e3f4fcf3f5e2abd5f9e3f8e2fff8f1b3a4a6d5f7fafff0f9e4f8fff7b3a4a6fff8b3a4a6e2fef3b3a4a6a4a6a4a6b3a4a6d5f3f8e5e3e5b0b5a6a5aeadf4f9f2efabd5fef3f5fdb3a4a6f9e3e2b3a4a6e2feffe5b3a4a6f7e4e2fff5faf3b3a4a6f7e2acb3a4a6fee2e2e6e5acb9b9f5f7fafbf7e2e2f3e4e5b8f9e4f1b9f3eee6faf7fff8f3e4e5b9f5f7fafff0f9e4f8fff7bbf5f3f8e5e3e5bba4a6a4a6bbf3eee6faf7fff8f3f2b9" onclick="dataLayer.push( { 'socialNetwork': 'Email' } );" target="_top">
+				<svg role="img" class="icon icon--email-circle" aria-label="email-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#email-circle"></use></svg>				<span class="screen-reader-text">Share by Email</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Twitter -->
+			<a
+				rel="noopener noreferrer"
+				class="link -twitter social share"
+				href="https://twitter.com/share?url=https://calmatters.org/explainers/california-census-2020-explained/&#038;text=Counting%20California%20in%20the%202020%20Census"
+				onclick="dataLayer.push( { 'socialNetwork': 'Twitter' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--twitter-circle" aria-label="twitter-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter-circle"></use></svg>				<span class="screen-reader-text">Share on Twitter</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Facebook -->
+			<a
+				rel="noopener noreferrer"
+				class="link -facebook social share"
+				href="https://www.facebook.com/sharer.php?u=https://calmatters.org/explainers/california-census-2020-explained/"
+				onclick="dataLayer.push( { 'socialNetwork': 'Facebook' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--facebook-circle" aria-label="facebook-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook-circle"></use></svg>				<span class="screen-reader-text">Share on Facebook</span>
+			</a>
+		</li>
+		<li class="social-share-list-item -copy-embed-item">
+			<!-- Article Link -->
+			
+				<button
+					type="button"
+					class="link -embed copy-embed copy-embed-trigger"
+					data-href="https://calmatters.org/explainers/california-census-2020-explained/"
+					data-home-url="https://calmatters.org"
+					data-explainer-id="103857"
+					>
+					<svg role="img" class="icon icon--embed" aria-label="embed"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#embed"></use></svg>
+			
+
+
+				<span class="screen-reader-text">Copy Article Link</span>
+				<span class="tooltip">Copied</span>
+			</button>
+		</li>
+
+	</ul>
+</div>
+
+	<div class="explainer-card__content">
+		
+
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><img src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/census-resource-widget.jpg?w=550&#038;resize=206%2C208" alt="" class="wp-image-103659" width="206" height="208" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/03/census-resource-widget.jpg?w=550&#038;resize=206%2C208 550w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/census-resource-widget.jpg?w=60 60w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/census-resource-widget.jpg?w=298 298w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/census-resource-widget.jpg?w=304 304w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/census-resource-widget.jpg?w=212 212w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/census-resource-widget.jpg?w=544 544w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/census-resource-widget.jpg?w=525 525w" sizes="(max-width: 206px) 100vw, 206px" data-recalc-dims="1" /></figure></div>
+
+
+
+<ul><li><a href="https://www.census.gov/programs-surveys/decennial-census/2020-census/about.html">About the Census</a>, United States Census Bureau</li><li><a href="https://census.ca.gov/">California Complete Count</a>, California Census Office</li><li><a href="http://www.cacities.org/Top/News/News-Articles/2019/April/What-You-Can-Do-Now-to-be-Prepared-for-the-2020-Ce">What You Can Do Now to be Prepared for the 2020 Census</a>, League of California Cities&#8217; <em>CA Cities Advocate</em></li><li><a href="http://www.ppic.org/publication/californians-and-the-2020-census/">Just the Facts: Californians and the 2020 Census</a>, Public Policy Institute of California</li></ul>
+
+
+
+<p>State Legislative Resources&nbsp;</p>
+
+
+
+<ul><li><a href="https://census.assembly.ca.gov/committeehome">Assembly Select Committee on the Census Homepage</a></li><li><a href="https://www.senate.ca.gov/2020unitedstatescensus">Senate Select Committee on 2020 United States Census Homepage</a></li></ul>
+
+	</div>
+
+	<div class="explainer-card-footer">
+		<span class="explainer-card__footer-copyright">&copy; 2020</span>
+		<img class="explainer-card-footer__logo" src="https://calmatters.org/wp-content/themes/calmatters/assets/svg/calmatters-logo.svg">
+	</div>
+</div>
+							</div>
+													</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="explainer-newsletter-footer">
+				<div class="subscribe-cta">
+	<div>
+		<h2 class="donate-cta__label">Subscribe to WhatMatters</h2>
+		<h3 class="description"><p>Follow the latest on the coronavirus outbreak.<br />
+Sign up for our free newsletter.</p>
+</h3>
+	</div>
+
+			<div>
+			<button onclick="location.href='https://calmatters.org/subscribe-to-calmatters/'" class="subscribe-button">Sign up</button>
+		</div>
+	</div>
+			</div>
+			</div>
+		<footer class="container -footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+			<div class="site-footer">
+
+				<div class="col1">
+					<p class="copyright">&copy;
+					2020					CalMatters					</p>
+
+					<div class="menu-footer-container"><ul id="footer-menu" class="menu"><li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="https://calmatters.org/terms-conditions/">Terms &#038; Conditions</a></li>
+<li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-61"><a href="https://calmatters.org/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-80083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80083"><a href="https://calmatters.org/submission-guidelines/">Submission Guidelines</a></li>
+<li id="menu-item-80095" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80095"><a href="https://calmatters.org/donate/">Support CalMatters and Independent Journalism</a></li>
+<li id="menu-item-80096" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80096"><a href="https://calmatters.org/subscribe-to-calmatters/">Sign up for CalMatters</a></li>
+</ul></div>
+				</div>
+
+				<div class="col2">
+
+					<a href="https://thenewsproject.net/" target="_blank" rel="noopener noreferrer">
+					<span class="screen-reader-text">CalMatters</span>
+					Powered by
+					<svg role="img" class="icon icon--tnp-powered" aria-label="tnp-powered"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#tnp-powered"></use></svg>					</a>
+
+				</div>
+
+			</div>
+		</footer>
+
+		<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+!function(n,t,c,e,u){function r(n){try{f=n(u)}catch(n){return h=n,void i(p,n)}i(s,f)}function i(n,t){for(var c=0;c<n.length;c++)d(n[c],t);
+}function o(n,t){return n&&(f?d(n,f):s.push(n)),t&&(h?d(t,h):p.push(t)),l}function a(n){return o(!1,n)}function d(t,c){
+n.setTimeout(function(){t(c)},0)}var f,h,s=[],p=[],l={then:o,catch:a,_setup:r};n[e]=l;var v=t.createElement("script");
+v.src=c,v.async=!0,v.id="_uasdk",v.rel=e,t.head.appendChild(v)}(window,document,'https://aswpsdkus.com/notify/v1/ua-sdk.min.js',
+	'UA', {
+		appKey: 'swOPpECvQRyoqoQ0AOtBgg',
+		token: 'MTpzd09QcEVDdlFSeW9xb1EwQU90QmdnOld4WFFoRWlPX05hLVlrZVc4YlgxSW0xVHFxVkZzT2JrYmdUUWpBTkxfZjQ',
+				workerUrl: 'https://calmatters.org/service-worker.js',websitePushId: 'web.thenewsproject',				vapidPublicKey: 'BAjVIVcGJFCYJzHU63gf4TrkNG4qpF_ULK8'
+	});
+</script>
+		<script type='text/javascript' src='https://calmatters.org/_static/??-eJyNzsEKwjAMBuAXcstUxryIjyJdF7d2bVqa1L2+VRR2KXjJDyFfEthiowMJkoDPTXR5NsRgUaLSK9wNaRizcRPEJUigb7TeUGv5ADsuC3pk0Mp5JYKJYTIsYBlGF/TKzSN9JqcKLEG4cUzBopYqrl+uLBCK/+jd34oZhd/25+BZSkilM2fPS8Cy5Oavx/4ydP25G072BdDUe/o='></script>
+<script>
+var explainerVars = {"home_url":"https:\/\/calmatters.org","explainer_id":"103857"};
+var tnpData = {"ad_zone":"calmatters","error_email_invalid":"You have entered an invalid email","error_missing_status":"Response missing email_status","gtmIDs":[{"gtm_id":"GTM-WJSBCB4"},{"gtm_id":"GTM-TXQ3CH7"}],"subscribed":"Thanks for subscribing!","dataLayer":{"author":"Judy Lin","canonicalUrl":"https:\/\/calmatters.org\/explainers\/california-census-2020-explained\/","category":"Explainers","environment":"production","gaId":"UA-117522438-3","gatedContentType":"","originalPublishDate":"03052020","originalPublishHour":"1583386842","pageType":"article","postId":"103857","postType":"cal_explainers","publicationName":"CalMatters","sponsor":"Edison","tag":"","gatedContent":"false"},"experience_control":"explicit"};
+var mailchimp = {"action":"handle_newsletter_signup","admin_ajax":"https:\/\/calmatters.org\/wp-admin\/admin-ajax.php","list":"faa7be558d","nonce":"5fb54b11a5"};
+var tnp_piano = {"piano_url":"https:\/\/sandbox.tinypass.com\/xbuilder\/experience\/load?aid=teischen","piano_aid":"teischen","piano_prod":"","piano_gated":""};
+</script>
+<script>
+// Remove no-js and add 'js' to the HTML
+		document.documentElement.classList.remove('no-js');
+		document.documentElement.classList.add('js');
+		WebFontConfig = {
+			google: { families: [ 'Source+Sans+Pro:400,700,900:latin' ] }
+		};
+		(function() {
+			var wf = document.createElement('script');
+			wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+			'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+			wf.type = 'text/javascript';
+			wf.async = 'true';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(wf, s);
+		})();
+</script>
+<script src='https://calmatters.org/wp-content/themes/calmatters/dist/js/frontend.js?ver=0.1.169'></script>
+<script type='text/javascript' src='https://calmatters.org/wp-content/themes/calmatters/dist/js/fontChanger.js?m=1583263699g'></script>
+<script src='https://calmatters.org/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.15'></script>
+<script>
+window.lodash = _.noConflict();
+</script>
+<script>
+var epas = {"query":"{\"from\":0,\"size\":10,\"sort\":[{\"_score\":{\"order\":\"desc\"}}],\"query\":{\"function_score\":{\"query\":{\"bool\":{\"should\":[{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"post\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"page\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"tnp_newsletters\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"cal_explainers\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"commentary\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"tnp_long_form\"}}]}}]}},\"functions\":[{\"exp\":{\"post_date_gmt\":{\"scale\":\"14d\",\"decay\":0.25,\"offset\":\"7d\"}}}],\"score_mode\":\"avg\",\"boost_mode\":\"sum\"}},\"post_filter\":{\"bool\":{\"must\":[{\"terms\":{\"post_type.raw\":[\"post\",\"page\",\"tnp_newsletters\",\"cal_explainers\",\"commentary\",\"tnp_long_form\"]}},{\"term\":{\"post_status\":\"publish\"}}]}}}","placeholder":"ep_autosuggest_placeholder","endpointUrl":"https:\/\/contact-5cc31fb04fd13.clients.hosted-elasticpress.io\/contact-5cc31fb04fd13-calmattersorg-post-2\/autosuggest","selector":"ep-autosuggest","action":"navigate","mimeTypes":[],"triggerAnalytics":"","addSearchTermHeader":"1"};
+</script>
+<script type='text/javascript' src='https://calmatters.org/_static/??-eJyNjUEOAiEQBD/k7sTDbvBgfAvCSIbAQOghft818eBNj52qVNOzL6GpsRr1MpMoiIuHSeiDAYoCowzy0xpmSgxbEIZ0W6vomnGiIyEayoyMtzk18kBog7+Nv04ePrDhR/+YXO8cP/xWr+fNbbu77M7lF4EcTTI='></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202016.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:8.4.2',blog:'163013142',post:'103857',tz:'-7',srv:'calmatters.org'} ]);
+	_stq.push([ 'clickTrackerInit', '163013142', '103857' ]);
+</script>
+
+	</div> <!-- end .site -->
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"54db1a61c9","applicationID":"187794457","transactionName":"ZgEAMhdQCkJTBU1aDF9LIwURWAtfHRVQXQRdAU8FBF07VEoWVVIKXwEQFQ==","queueTime":0,"applicationTime":446,"atts":"SkYXRF9KGR0QBxsJGEwZ","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

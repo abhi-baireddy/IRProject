@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"54db1a61c9",applicationID:"187794457"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>&quot;We&#039;ve lost our compass.&quot; For California&#039;s most visible mentally ill, is a return to forced treatment a solution — or a false promise? | CalMatters</title>
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v13.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="California inches toward making it easier to compel treatment for mental illness, but serious questions remain. Among them: Do treatment options even exist?"/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://calmatters.org/projects/mentally-ill-forced-treatment-conservatorship-california-debate/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="&quot;We&#039;ve lost our compass.&quot; For California&#039;s most visible mentally ill, is a return to forced treatment a solution — or a false promise? | CalMatters" />
+<meta property="og:description" content="California inches toward making it easier to compel treatment for mental illness, but serious questions remain. Among them: Do treatment options even exist?" />
+<meta property="og:url" content="https://calmatters.org/projects/mentally-ill-forced-treatment-conservatorship-california-debate/" />
+<meta property="og:site_name" content="CalMatters" />
+<meta property="article:publisher" content="https://www.facebook.com/calmatters/" />
+<meta property="article:tag" content="compel treatment" />
+<meta property="article:tag" content="conservatorship" />
+<meta property="article:tag" content="Darrell Steinberg" />
+<meta property="article:tag" content="Facebook" />
+<meta property="article:tag" content="Gavin Newsom" />
+<meta property="article:tag" content="Lanterman–Petris–Short Act" />
+<meta property="article:tag" content="Laura&#039;s Law" />
+<meta property="article:tag" content="mark of vacaville" />
+<meta property="article:tag" content="mental illness" />
+<meta property="article:tag" content="mental illness treatment" />
+<meta property="article:tag" content="mentally ill" />
+<meta property="article:tag" content="schizophrenia" />
+<meta property="article:tag" content="Skip Thomson" />
+<meta property="article:tag" content="Solano County Board of Supervisors" />
+<meta property="article:tag" content="traumatic brain injury" />
+<meta property="article:tag" content="Vacaville police" />
+<meta property="article:section" content="Breakdown: Mental Health" />
+<meta property="og:image" content="https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?resize=1024,495" />
+<meta property="og:image:secure_url" content="https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?resize=1024,495" />
+<meta property="og:image:width" content="1024" />
+<meta property="og:image:height" content="495" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="California inches toward making it easier to compel treatment for mental illness, but serious questions remain. Among them: Do treatment options even exist?" />
+<meta name="twitter:title" content="&quot;We&#039;ve lost our compass.&quot; For California&#039;s most visible mentally ill, is a return to forced treatment a solution — or a false promise? | CalMatters" />
+<meta name="twitter:site" content="@CalMatters" />
+<meta name="twitter:image" content="https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?fit=3100%2C1500" />
+<meta name="twitter:creator" content="@CalMatters" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://calmatters.org/#organization","name":"CalMatters","url":"https://calmatters.org/","sameAs":["https://www.facebook.com/calmatters/","https://www.instagram.com/calmatters/","https://www.linkedin.com/company/calmatters/","https://www.youtube.com/channel/UCNQv9nDu2_r5zbgtUQungeA","https://twitter.com/CalMatters"],"logo":{"@type":"ImageObject","@id":"https://calmatters.org/#logo","inLanguage":"en-US","url":"https://calmatters.org/wp-content/uploads/sites/2/2019/07/calmattersocial.png?fit=720%2C720","width":720,"height":720,"caption":"CalMatters"},"image":{"@id":"https://calmatters.org/#logo"}},{"@type":"WebSite","@id":"https://calmatters.org/#website","url":"https://calmatters.org/","name":"CalMatters","inLanguage":"en-US","description":"California, explained","publisher":{"@id":"https://calmatters.org/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://calmatters.org/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://calmatters.org/projects/mentally-ill-forced-treatment-conservatorship-california-debate/#primaryimage","inLanguage":"en-US","url":"https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?fit=3100%2C1500","width":3100,"height":1500,"caption":"Mark Rippee, who developed schizophrenia after a traumatic brain injury, has been living on the streets for years"},{"@type":"WebPage","@id":"https://calmatters.org/projects/mentally-ill-forced-treatment-conservatorship-california-debate/#webpage","url":"https://calmatters.org/projects/mentally-ill-forced-treatment-conservatorship-california-debate/","name":"&quot;We&#039;ve lost our compass.&quot; For California&#039;s most visible mentally ill, is a return to forced treatment a solution \u2014 or a false promise? | CalMatters","isPartOf":{"@id":"https://calmatters.org/#website"},"inLanguage":"en-US","primaryImageOfPage":{"@id":"https://calmatters.org/projects/mentally-ill-forced-treatment-conservatorship-california-debate/#primaryimage"},"datePublished":"2019-12-30T11:59:25+00:00","dateModified":"2020-01-14T00:47:36+00:00","description":"California inches toward making it easier to compel treatment for mental illness, but serious questions remain. Among them: Do treatment options even exist?"}]}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//www.googletagservices.com' />
+<link rel='dns-prefetch' href='//use.typekit.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="CalMatters &raquo; Feed" href="https://calmatters.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="CalMatters &raquo; Comments Feed" href="https://calmatters.org/comments/feed/" />
+<link rel='stylesheet' id='all-css-0' href='https://calmatters.org/_static/??-eJx1zssKwkAMBdAfchpctI4L8VumadDRzINJSunfG18IoquEkHu4sFQXM/I8kQCKwBRFYeSCV8dxbKGtILoydSnmzh42YAksWSkrVJ5PMQsQB9GItdFbuFPNzkqTq0VU3NN8WPIT0zMlK2Ej0yK1lQuhfrT/LV5BDJyCKjX5Dtl2TIdt7/vB7we/uwHjPVvZ' type='text/css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='typekit-css'  href='https://use.typekit.net/ygp0rqq.css?ver=0.1.169' media='all' />
+<link rel='stylesheet' id='all-css-2' href='https://calmatters.org/_static/??-eJyNjNEKwjAQBH/I9KpS6ov4LeG8hmiSBndD8e+tUl/Ft4HdGVmq07nQCqWmFmKBWPJg1PowQK4RFF3BN85oIRjowGcydDmWbp128ndk8mrELz83903cjNXr/SNu/L5f8nk/nMZ+OPbj4QX7mUfw' type='text/css' media='all' />
+<script>
+var uaWnSettings = {"prompt":{"enabled":false,"prompt_views":1,"prompt_again_views":1}};
+</script>
+<script type='text/javascript' src='https://calmatters.org/_static/??-eJx9jcEKwjAQRH/IbfDQGg/it6RxbTck25jdpfj3BlHwJAw8GB4zbq9AHLPdUFzqeRi25wdDkoP7J0ChpQXFoRB/5bixIquLmTqgGNRsC7E4a3NgCNRkpQo7zlBNVuBN6U4xKG1dCiKo76ffvo9fy+U4+nHy58mf0gs7YkSN'></script>
+<script src='https://www.googletagservices.com/tag/js/gpt.js?ver=0.1.794'></script>
+<script>
+var tnpData = {"ad_zone":"calmatters","error_email_invalid":"You have entered an invalid email","error_missing_status":"Response missing email_status","gtmIDs":[{"gtm_id":"GTM-WJSBCB4"},{"gtm_id":"GTM-TXQ3CH7"}],"subscribed":"Thanks for subscribing!","dataLayer":{"author":"Jocelyn Wiener","canonicalUrl":"https:\/\/calmatters.org\/projects\/mentally-ill-forced-treatment-conservatorship-california-debate\/","category":"Breakdown: Mental Health","environment":"production","gaId":"UA-117522438-3","gatedContentType":"","originalPublishDate":"12302019","originalPublishHour":"1577678365","pageType":"article","postId":"96130","postType":"tnp_long_form","publicationName":"CalMatters","sponsor":"","tag":"compel treatment, conservatorship, Darrell Steinberg, Facebook, Gavin Newsom, Lanterman\u2013Petris\u2013Short Act, Laura&#039;s Law, mark of vacaville, mental illness, mental illness treatment, mentally ill, schizophrenia, Skip Thomson, Solano County Board of Supervisors, traumatic brain injury, Vacaville police","gatedContent":"false"},"experience_control":"explicit"};
+</script>
+<script type='text/javascript' src='https://calmatters.org/wp-content/themes/thenewsproject/assets/js/frontend/google-ad-manager.js?m=1572473362g'></script>
+<link rel='https://api.w.org/' href='https://calmatters.org/wp-json/' />
+<link rel='shortlink' href='https://calmatters.org/?p=96130' />
+<link rel="alternate" type="application/json+oembed" href="https://calmatters.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcalmatters.org%2Fprojects%2Fmentally-ill-forced-treatment-conservatorship-california-debate%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://calmatters.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcalmatters.org%2Fprojects%2Fmentally-ill-forced-treatment-conservatorship-california-debate%2F&#038;format=xml" />
+<style type='text/css'>img#wpstats{display:none}</style><link rel='manifest' href='https://calmatters.org/wp-content/themes/calmatters/manifest.json' /><link rel="icon" href="https://calmatters.org/wp-content/uploads/sites/2/2019/07/cropped-cropped-calmatters-favicon.png?fit=32%2C32" sizes="32x32" />
+<link rel="icon" href="https://calmatters.org/wp-content/uploads/sites/2/2019/07/cropped-cropped-calmatters-favicon.png?fit=192%2C192" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://calmatters.org/wp-content/uploads/sites/2/2019/07/cropped-cropped-calmatters-favicon.png?fit=180%2C180" />
+<meta name="msapplication-TileImage" content="https://calmatters.org/wp-content/uploads/sites/2/2019/07/cropped-cropped-calmatters-favicon.png?fit=270%2C270" />
+</head>
+<body class="tnp_long_form-template-default single single-tnp_long_form postid-96130 wp-custom-logo">
+	<a href="#content" class="screen-reader-text skip-link">Skip to Main Content</a>
+		<div class="site">
+		<header class="container -header" role="banner">
+			<div class="navigation-utility">
+	<nav role="navigation" class="nav-trending" aria-label="Trending Navigation">
+
+	<div class="innerwrap">
+
+		<h2 class="heading">Trending <svg role="img" class="icon icon--trending" aria-label="trending"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#trending"></use></svg></h2>
+
+		<ul id="menu-top-trending" class="topics"><li id="menu-item-105092" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105092"><a href="https://calmatters.org/category/health/coronavirus/">Coronavirus Coverage</a></li>
+<li id="menu-item-105405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105405"><a href="https://calmatters.org/health/2020/03/california-coronavirus-gavin-newsom-senior-citizens-chronic-illness/">Coronavirus FAQ</a></li>
+<li id="menu-item-105407" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105407"><a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-covid-patient-hospitalization-data-icu/">Tracking Hospitalizations</a></li>
+<li id="menu-item-105406" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105406"><a href="https://calmatters.org/projects/corona-on-campus/">Corona on Campus</a></li>
+<li id="menu-item-105408" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105408"><a href="https://calmatters.org/health/coronavirus/2020/03/coronavirus-mental-health-tips-therapists-california/">Mental Health and Coronavirus</a></li>
+</ul>
+	</div>
+
+</nav><!--/.nav-trending-->
+
+<nav role="navigation" class="nav-bar" aria-label="Modal Navigation">
+
+	
+	<ul class="nav-action">
+		<li><button class="login" id="piano-login">Log in</button></li>
+				<li><a href="https://calmatters.org/subscribe-to-calmatters/" class="subscribe">Subscribe</a></li>
+			</ul>
+
+	
+	
+<div class="nav-search" itemscope itemtype="http://schema.org/WebSite">
+	<link itemprop="url" href="https://calmatters.org/" />
+	<meta itemprop="url" content="https://calmatters.org/" />
+
+	<button type="button" class="togglesearch" aria-controls="search" aria-expanded="false"><svg role="img" class="icon icon--search" aria-label="search"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#search"></use></svg><span class="screen-reader-text">Toggle Search</span></button>
+
+	<form role="search" class="search" id="search" aria-hidden="false" action="https://calmatters.org/" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+		<meta itemprop="target" content="https://calmatters.org/?s={s}" />
+
+		<div class="focus-label">
+			<input itemprop="query-input" class="searchinput" id="q" type="text" value="" name="s">
+			<label class="searchformlabel" aria-hidden="true" id="q-label" for="q">Search...</label>
+
+			<button class="submit" type="submit"><span class="searchicon"><svg role="img" class="icon icon--search" aria-label="search"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#search"></use></svg></span><span class="submitsearch"><svg role="img" class="icon icon--chevron-right" aria-label="chevron-right"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#chevron-right"></use></svg></span><span class="screen-reader-text">Submit Search</span></button>
+		</div>
+
+	</form>
+
+</div>
+
+</nav><!--/.nav-bar-->
+</div>
+
+<div class="nav" id="nav">
+	<div class="nav-main">
+
+		<div class="innerwrap">
+			<h1 class="logo">
+				<a href="https://calmatters.org">
+					<img src="https://calmatters.org/wp-content/uploads/sites/2/2019/07/calmatters-logo_2x.png?fit=488%2C82" alt="Logo of CalMatters">
+				</a>
+			</h1>
+
+			<button type="button" id="menu-trigger" aria-controls="nav" aria-expanded="true">
+				<span class="screen-reader-text">
+					Menu				</span>
+			</button>
+
+			<nav class="nav-list"><ul id="menu-main-navigation" class="menu"><li id="menu-item-32" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-32"><a href="https://calmatters.org/category/politics/" aria-haspopup="true">Politics</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-30" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-30"><a href="https://calmatters.org/category/immigration/">Immigration</a></li>
+	<li id="menu-item-29" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29"><a href="https://calmatters.org/category/housing/">Housing</a></li>
+	<li id="menu-item-80106" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80106"><a href="https://calmatters.org/category/blogs/election-2018/">Election 2018</a></li>
+	<li id="menu-item-80107" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80107"><a href="https://calmatters.org/category/blogs/california-election-2020/">Election 2020</a></li>
+	<li id="menu-item-80112" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80112"><a href="https://calmatters.org/category/blogs/donald-trump/">Resistance State</a></li>
+	<li id="menu-item-80110" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80110"><a href="https://calmatters.org/category/blogs/inside-california-capitol/">Inside the Capitol</a></li>
+	<li id="menu-item-81256" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-81256"><a href="https://calmatters.org/category/newsletters/whatmatters/">WhatMatters</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/commentary/earlier-california-presidential-primary-succeeded-on-many-levels/" class="article "><div class="thumb"><img width="453" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/030320_voting_AW_12.jpg?fit=453%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Earlier California presidential primary succeeded on many levels" /></div><div class="content"><h4 class="title">Trending in Politics</h4><p>Earlier California presidential primary succeeded on many levels</p></div></a><a href="https://calmatters.org/politics/california-legislature/2020/04/california-senate-hearing-coronavirus-budget-oversight/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/AP_pool_CoronavirusOversight_06.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="California senators frustrated by few answers,  tech glitches in virtual hearing on coronavirus spending" /></div><div class="content"><h4 class="title">Trending in Politics</h4><p>California senators frustrated by few answers,  tech glitches in virtual hearing on coronavirus spending</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-25" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-25"><a href="https://calmatters.org/category/economy/" aria-haspopup="true">Economy</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-93825" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-93825"><a href="https://calmatters.org/category/california-divide/">California Divide</a></li>
+	<li id="menu-item-80254" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80254"><a href="https://calmatters.org/category/economy/california-pension-crisis/">California&#8217;s Pension Crisis</a></li>
+	<li id="menu-item-33" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-33"><a href="https://calmatters.org/category/poverty/">Poverty</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/commentary/your-next-boss-could-be-an-undocumented-immigrant-as-a-growing-number-of-founders-lack-legal-status/" class="article "><div class="thumb"><img width="460" height="276" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/startup-business.jpg?fit=460%2C276" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Your next boss could be an undocumented immigrant; growing number of business founders lack legal status" /></div><div class="content"><h4 class="title">Trending in Economy</h4><p>Your next boss could be an undocumented immigrant; growing number of business founders lack legal status</p></div></a><a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-task-force-economy/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_taskforce_01.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="A-list business and union leaders combine to help steer California&#8217;s economic recovery" /></div><div class="content"><h4 class="title">Trending in Economy</h4><p>A-list business and union leaders combine to help steer California&#8217;s economic recovery</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-26" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-26"><a href="https://calmatters.org/category/education/" aria-haspopup="true">Education</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-108634" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108634"><a href="https://calmatters.org/projects/corona-on-campus/">Corona on Campus</a></li>
+	<li id="menu-item-90222" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-90222"><a href="https://calmatters.org/category/education/disaster-days-school-closures-california-wildfire-guns-outage-flood/">Disaster Days</a></li>
+	<li id="menu-item-80256" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80256"><a href="https://calmatters.org/category/education/k-12-education/">K-12 Education</a></li>
+	<li id="menu-item-80255" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80255"><a href="https://calmatters.org/category/education/higher-education/">Higher Education</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/education/higher-education/2020/04/uc-graduate-students-online-strike-coronavirus-pandemic-california/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/02/022120_UCDavisCola_AW_sized_03.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="How do you hold a strike online? UC teaching assistants are finding out" /></div><div class="content"><h4 class="title">Trending in Education</h4><p>How do you hold a strike online? UC teaching assistants are finding out</p></div></a><a href="https://calmatters.org/commentary/pandemic-reveals-need-for-schools-to-utilize-technology-for-online-classrooms/" class="article "><div class="thumb"><img width="339" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/online-classes-distance-learning.jpg?fit=339%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Pandemic reveals need for schools to utilize technology for online classrooms" /></div><div class="content"><h4 class="title">Trending in Education</h4><p>Pandemic reveals need for schools to utilize technology for online classrooms</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-27" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-27"><a href="https://calmatters.org/category/environment/" aria-haspopup="true">Environment</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-80257" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80257"><a href="https://calmatters.org/category/environment/building-efficiency/">Building Efficiency</a></li>
+	<li id="menu-item-80258" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80258"><a href="https://calmatters.org/category/environment/climate-change/">Climate Change</a></li>
+	<li id="menu-item-80259" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80259"><a href="https://calmatters.org/category/environment/frayed-wires/">Frayed Wires</a></li>
+	<li id="menu-item-80260" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80260"><a href="https://calmatters.org/category/environment/rising-seas/">Rising Seas</a></li>
+	<li id="menu-item-80261" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80261"><a href="https://calmatters.org/category/environment/water/">Water</a></li>
+	<li id="menu-item-80262" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80262"><a href="https://calmatters.org/category/environment/california-wildfires/">California Wildfires</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/commentary/california-water-policies-inhibit-food-production-by-valley-farmers/" class="article "><div class="thumb"><img width="460" height="246" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/California-aquaduct.jpg?fit=460%2C246" class="attachment-medium-rec size-medium-rec wp-post-image" alt="California water policies inhibit food production by Valley farmers" /></div><div class="content"><h4 class="title">Trending in Environment</h4><p>California water policies inhibit food production by Valley farmers</p></div></a><a href="https://calmatters.org/commentary/its-time-to-protect-californias-mountain-lions/" class="article "><div class="thumb"><img width="460" height="259" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/mountain-lion.jpg?fit=460%2C259" class="attachment-medium-rec size-medium-rec wp-post-image" alt="It’s time to protect California’s mountain lions" /></div><div class="content"><h4 class="title">Trending in Environment</h4><p>It’s time to protect California’s mountain lions</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-28" class="menu-item menu-item-type-taxonomy menu-item-object-category current-tnp_long_form-ancestor current-menu-parent current-tnp_long_form-parent menu-item-has-children menu-item-28"><a href="https://calmatters.org/category/health/" aria-haspopup="true">Health</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-105093" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105093"><a href="https://calmatters.org/category/health/coronavirus/">Coronavirus</a></li>
+	<li id="menu-item-80263" class="menu-item menu-item-type-taxonomy menu-item-object-category current-tnp_long_form-ancestor current-menu-parent current-tnp_long_form-parent menu-item-80263"><a href="https://calmatters.org/category/health/breakdown-mental-health/">Breakdown: Mental Health</a></li>
+	<li id="menu-item-80264" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80264"><a href="https://calmatters.org/category/health/drug-costs/">Drug Costs</a></li>
+	<li id="menu-item-80265" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80265"><a href="https://calmatters.org/category/health/wellness/">Wellness</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/health/coronavirus/2020/04/newsom-cities-blocking-hotels-for-homeless-will-be-judged-by-history/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/032520_ShelterinPlace_AW_sized_10.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Newsom: Cities blocking hotels for homeless will be &#8216;judged&#8217; by history" /></div><div class="content"><h4 class="title">Trending in Health</h4><p>Newsom: Cities blocking hotels for homeless will be &#8216;judged&#8217; by history</p></div></a><a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-task-force-economy/" class="article "><div class="thumb"><img width="460" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/04/SJM_taskforce_01.jpg?fit=460%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="A-list business and union leaders combine to help steer California&#8217;s economic recovery" /></div><div class="content"><h4 class="title">Trending in Health</h4><p>A-list business and union leaders combine to help steer California&#8217;s economic recovery</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-80069" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-80069"><a href="https://calmatters.org/category/commentary/" aria-haspopup="true">Commentary</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-80101" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80101"><a href="https://calmatters.org/category/commentary/dan-walters/">Dan Walters</a></li>
+	<li id="menu-item-80102" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80102"><a href="https://calmatters.org/category/commentary/my-turn/">My Turn</a></li>
+	<li id="menu-item-80266" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80266"><a href="https://calmatters.org/category/commentary/reader-reactions/">Reader Reactions</a></li>
+</ul>
+</div>
+<div class="col2"><a href="https://calmatters.org/commentary/your-next-boss-could-be-an-undocumented-immigrant-as-a-growing-number-of-founders-lack-legal-status/" class="article "><div class="thumb"><img width="460" height="276" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/startup-business.jpg?fit=460%2C276" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Your next boss could be an undocumented immigrant; growing number of business founders lack legal status" /></div><div class="content"><h4 class="title">Trending in Commentary</h4><p>Your next boss could be an undocumented immigrant; growing number of business founders lack legal status</p></div></a><a href="https://calmatters.org/commentary/earlier-california-presidential-primary-succeeded-on-many-levels/" class="article "><div class="thumb"><img width="453" height="306" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/030320_voting_AW_12.jpg?fit=453%2C306" class="attachment-medium-rec size-medium-rec wp-post-image" alt="Earlier California presidential primary succeeded on many levels" /></div><div class="content"><h4 class="title">Trending in Commentary</h4><p>Earlier California presidential primary succeeded on many levels</p></div></a></div> <!-- .col2 --></div>
+</li>
+<li id="menu-item-80071" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-80071"><a href="https://projects.calmatters.org/" aria-haspopup="true">Multimedia</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-80085" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80085"><a href="https://calmatters.org/category/multimedia/explainers/">Explainers</a></li>
+	<li id="menu-item-80084" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80084"><a href="https://calmatters.org/category/multimedia/data-points/">Data Points</a></li>
+	<li id="menu-item-95787" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-95787"><a href="https://calmatters.org/projects/force-of-law-police-shootings-podcast/">Force of Law</a></li>
+	<li id="menu-item-80088" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80088"><a href="https://calmatters.org/category/multimedia/podcasts/gimme-shelter/">Gimme Shelter</a></li>
+	<li id="menu-item-80086" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80086"><a href="https://calmatters.org/category/multimedia/interactives/">Interactives</a></li>
+	<li id="menu-item-80089" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80089"><a href="https://calmatters.org/category/multimedia/video/">Video</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li id="menu-item-81105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81105"><a href="https://checkout.fundjournalism.org/memberform?org_id=calmatters&#038;campaign=701f2000001DCNo">DONATE</a></li>
+<li id="menu-item-80058" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80058"><a href="https://calmatters.org/about/" aria-haspopup="true">About</a>
+<div class="sub-menu mega" aria-label="Submenu">
+
+<div class="col1">
+
+<h3 class="heading">subtopics:</h3>
+
+<ul class="subtopics">
+	<li id="menu-item-92341" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92341"><a href="https://projects.calmatters.org/2019/california-dream/">California Dream Project</a></li>
+	<li id="menu-item-80109" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80109"><a href="https://calmatters.org/category/blogs/inside-calmatters/">Inside CalMatters</a></li>
+	<li id="menu-item-80108" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80108"><a href="https://calmatters.org/category/blogs/events/">Events</a></li>
+	<li id="menu-item-80059" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80059"><a href="https://calmatters.org/about/advisory-board/">Advisory Board</a></li>
+	<li id="menu-item-80060" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80060"><a href="https://calmatters.org/about/board-of-directors/">Board of Directors</a></li>
+	<li id="menu-item-80061" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80061"><a href="https://calmatters.org/about/contact-us/">Contact Us</a></li>
+	<li id="menu-item-80062" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80062"><a href="https://calmatters.org/about/jobs/">Jobs</a></li>
+	<li id="menu-item-80068" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80068"><a href="https://calmatters.org/institutional-membership/">Institutional Membership</a></li>
+	<li id="menu-item-80063" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80063"><a href="https://calmatters.org/about/distribution-partners/">Media partners</a></li>
+	<li id="menu-item-80064" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80064"><a href="https://calmatters.org/about/staff/">Meet Our Team</a></li>
+	<li id="menu-item-80065" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80065"><a href="https://calmatters.org/about/mission/">Mission</a></li>
+	<li id="menu-item-80066" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80066"><a href="https://calmatters.org/about/reports-financials/">Reports &#038; Financials</a></li>
+	<li id="menu-item-80067" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80067"><a href="https://calmatters.org/about/supporters/">Supporters</a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul></nav>
+			<nav class="nav-social large-screen" role="navigation" aria-label="Social Navigation">
+				<ul>
+											<li><a href="https://www.facebook.com/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--facebook" aria-label="facebook"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook"></use></svg></a></li>
+											<li><a href="https://www.instagram.com/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--instagram" aria-label="instagram"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#instagram"></use></svg></a></li>
+											<li><a href="https://www.linkedin.com/company/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--linkedin" aria-label="linkedin"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#linkedin"></use></svg></a></li>
+											<li><a href="https://twitter.com/CalMatters" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--twitter" aria-label="twitter"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter"></use></svg></a></li>
+											<li><a href="https://www.youtube.com/channel/UCNQv9nDu2_r5zbgtUQungeA" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--youtube" aria-label="youtube"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#youtube"></use></svg></a></li>
+									</ul>
+			</nav>
+		</div>
+	</div> <!--/.nav-main-->
+
+	<nav role="navigation" class="nav-trending" aria-label="Trending Navigation">
+
+	<div class="innerwrap">
+
+		<h2 class="heading">Trending <svg role="img" class="icon icon--trending" aria-label="trending"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#trending"></use></svg></h2>
+
+		<ul id="menu-top-trending-1" class="topics"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105092"><a href="https://calmatters.org/category/health/coronavirus/">Coronavirus Coverage</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105405"><a href="https://calmatters.org/health/2020/03/california-coronavirus-gavin-newsom-senior-citizens-chronic-illness/">Coronavirus FAQ</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105407"><a href="https://calmatters.org/health/coronavirus/2020/04/california-coronavirus-covid-patient-hospitalization-data-icu/">Tracking Hospitalizations</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105406"><a href="https://calmatters.org/projects/corona-on-campus/">Corona on Campus</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105408"><a href="https://calmatters.org/health/coronavirus/2020/03/coronavirus-mental-health-tips-therapists-california/">Mental Health and Coronavirus</a></li>
+</ul>
+	</div>
+
+</nav><!--/.nav-trending-->
+
+<nav role="navigation" class="nav-bar" aria-label="Modal Navigation">
+
+	
+<div class="nav-search" itemscope itemtype="http://schema.org/WebSite">
+	<link itemprop="url" href="https://calmatters.org/" />
+	<meta itemprop="url" content="https://calmatters.org/" />
+
+	<button type="button" class="togglesearch" aria-controls="search" aria-expanded="false"><svg role="img" class="icon icon--search" aria-label="search"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#search"></use></svg><span class="screen-reader-text">Toggle Search</span></button>
+
+	<form role="search" class="search" id="search" aria-hidden="false" action="https://calmatters.org/" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+		<meta itemprop="target" content="https://calmatters.org/?s={s}" />
+
+		<div class="focus-label">
+			<input  class="searchinput" id="q" type="text" value="" name="s">
+			<label class="searchformlabel" aria-hidden="true" id="q-label" for="q">Search...</label>
+
+			<button class="submit" type="submit"><span class="searchicon"><svg role="img" class="icon icon--search" aria-label="search"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#search"></use></svg></span><span class="submitsearch"><svg role="img" class="icon icon--chevron-right" aria-label="chevron-right"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#chevron-right"></use></svg></span><span class="screen-reader-text">Submit Search</span></button>
+		</div>
+
+	</form>
+
+</div>
+
+	<ul class="nav-action">
+		<li><button class="login" id="piano-login">Log in</button></li>
+				<li><a href="https://calmatters.org/subscribe-to-calmatters/" class="subscribe">Subscribe</a></li>
+			</ul>
+
+			<nav class="nav-social small-screen" role="navigation" aria-label="Social Navigation">
+			<ul>
+									<li><a href="https://www.facebook.com/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--facebook" aria-label="facebook"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook"></use></svg></a></li>
+									<li><a href="https://www.instagram.com/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--instagram" aria-label="instagram"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#instagram"></use></svg></a></li>
+									<li><a href="https://www.linkedin.com/company/calmatters/" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--linkedin" aria-label="linkedin"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#linkedin"></use></svg></a></li>
+									<li><a href="https://twitter.com/CalMatters" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--twitter" aria-label="twitter"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter"></use></svg></a></li>
+									<li><a href="https://www.youtube.com/channel/UCNQv9nDu2_r5zbgtUQungeA" target="_blank" rel="noopener noreferrer"><svg role="img" class="icon icon--youtube" aria-label="youtube"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#youtube"></use></svg></a></li>
+							</ul>
+		</nav>
+		
+	
+</nav><!--/.nav-bar-->
+</div>
+		</header>
+<article class="container -project" id="content" role="main">
+	
+<div class="project-hero">
+	<img width="3100" height="1500" src="https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?fit=3100%2C1500" class="project-hero__image wp-post-image" alt="Mark Rippee, who developed schizophrenia after a traumatic brain injury, has been living on the streets for years" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=3100 3100w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=2048 2048w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=380 380w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=860 860w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=1093 1093w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/112219_Conservatorship_AW_large_02_b.jpg?w=3000 3000w" sizes="(max-width: 3100px) 100vw, 3100px" />
+	<div class="container">
+		<div class="project-hero__content">
+			
+			<h1 class="project-hero__title">&#8220;We&#8217;ve lost our compass.&#8221; For California&#8217;s most visible mentally ill, is a return to forced treatment a solution — or a false promise?</h1>
+
+			
+			
+							<div class="project-hero__caption">
+
+											<svg role="img" class="icon icon--camera" aria-label="camera"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#camera"></use></svg>						<span>Mark Rippee, who developed schizophrenia after a traumatic brain injury, has been living on the streets for years. Photo by Anne Wernikoff for CalMatters</span>
+									</div>
+					</div>
+	</div>
+</div>
+
+<nav class="project-navigation">
+	<ul>
+					<li>
+				<a href="https://calmatters.org/projects/california-mental-health-treatment-in-prisons/" class="project-navigation__link  -part-1">
+					<span class="project-navigation__label">Part 1</span> All too often, California’s default mental institutions are now jails and prisons				</a>
+			</li>
+						<li>
+				<a href="https://calmatters.org/projects/californians-struggle-to-get-mental-health-care/" class="project-navigation__link  -part-2">
+					<span class="project-navigation__label">Part 2</span> For families across California, a desperate struggle to get mental health care				</a>
+			</li>
+						<li>
+				<a href="https://calmatters.org/projects/treatment-for-psychosis-and-other-mental-illness-differs-drastically-by-county/" class="project-navigation__link  -part-3">
+					<span class="project-navigation__label">Part 3</span> Treatment for psychosis—and other mental illness—differs drastically by county				</a>
+			</li>
+						<li>
+				<a href="https://calmatters.org/projects/board-and-care-homes-closing-in-california-mental-health-crisis/" class="project-navigation__link  -part-4">
+					<span class="project-navigation__label">Part 4</span> Overlooked mental health &#8220;catastrophe:&#8221; Vanishing board-and-care-homes leave residents with few options				</a>
+			</li>
+						<li>
+				<a href="https://calmatters.org/projects/california-mental-health-care-parity/" class="project-navigation__link  -part-5">
+					<span class="project-navigation__label">Part 5</span> Californians aren&#8217;t getting the mental health care they&#8217;re legally guaranteed. Why not?				</a>
+			</li>
+						<li>
+				<a href="https://calmatters.org/projects/mental-health-care-outcry-targets-kaiser-california-parity-regulators/" class="project-navigation__link  -part-6">
+					<span class="project-navigation__label">Part 6</span> Mental health care outcry targets Kaiser — and state regulators				</a>
+			</li>
+						<li>
+				<a href="https://calmatters.org/projects/mentally-ill-forced-treatment-conservatorship-california-debate/" class="project-navigation__link project-navigation__link--active -part-7">
+					<span class="project-navigation__label">Part 7</span> &#8220;We&#8217;ve lost our compass.&#8221; For California&#8217;s most visible mentally ill, is a return to forced treatment a solution — or a false promise?				</a>
+			</li>
+						<li>
+				<a href="https://calmatters.org/projects/breakdown-californias-mental-health-system-explained/" class="project-navigation__link  -part-8">
+					<span class="project-navigation__label">Part 8</span> Breakdown: California’s mental health system, explained				</a>
+			</li>
+				</ul>
+</nav>
+
+			<div class="project-content">
+				<div class="social-share -horizontal">
+	<ul class="social-share-list">
+				<li class="social-share-list-item">
+			<!-- Email -->
+			<a rel="noopener noreferrer" class="link -email social share" href="/cdn-cgi/l/email-protection#ad92ded8cfc7c8ced9908b8e959f9f9d96fac88b8e959f9c9a96dbc8889f9dc1c2ded9889f9dc2d8df889f9dcec2c0ddccdede838b8e959f9f9c96889f9debc2df889f9deeccc1c4cbc2dfc3c4cc8b8e959f9c9a96de889f9dc0c2ded9889f9ddbc4dec4cfc1c8889f9dc0c8c3d9ccc1c1d4889f9dc4c1c181889f9dc4de889f9dcc889f9ddfc8d9d8dfc3889f9dd9c2889f9dcbc2dfcec8c9889f9dd9dfc8ccd9c0c8c3d9889f9dcc889f9ddec2c1d8d9c4c2c3889f9d4f2d39889f9dc2df889f9dcc889f9dcbccc1dec8889f9ddddfc2c0c4dec8928b8e9d9e9596cfc2c9d490eec5c8cec6889f9dc2d8d9889f9dd9c5c4de889f9dccdfd9c4cec1c8889f9dccd997889f9dc5d9d9ddde978282ceccc1c0ccd9d9c8dfde83c2dfca82dddfc2c7c8ced9de82c0c8c3d9ccc1c1d480c4c1c180cbc2dfcec8c980d9dfc8ccd9c0c8c3d980cec2c3dec8dfdbccd9c2dfdec5c4dd80ceccc1c4cbc2dfc3c4cc80c9c8cfccd9c882" onclick="dataLayer.push( { 'socialNetwork': 'Email' } );" target="_top">
+				<svg role="img" class="icon icon--email-circle" aria-label="email-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#email-circle"></use></svg>				<span class="screen-reader-text">Share by Email</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Twitter -->
+			<a
+				rel="noopener noreferrer"
+				class="link -twitter social share"
+				href="https://twitter.com/share?url=https://calmatters.org/projects/mentally-ill-forced-treatment-conservatorship-california-debate/&#038;text=%E2%80%9CWe%E2%80%99ve%20lost%20our%20compass.%E2%80%9D%20For%20California%E2%80%99s%20most%20visible%20mentally%20ill%2C%20is%20a%20return%20to%20forced%20treatment%20a%20solution%20%E2%80%94%20or%20a%20false%20promise%3F"
+				onclick="dataLayer.push( { 'socialNetwork': 'Twitter' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--twitter-circle" aria-label="twitter-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter-circle"></use></svg>				<span class="screen-reader-text">Share on Twitter</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Facebook -->
+			<a
+				rel="noopener noreferrer"
+				class="link -facebook social share"
+				href="https://www.facebook.com/sharer.php?u=https://calmatters.org/projects/mentally-ill-forced-treatment-conservatorship-california-debate/"
+				onclick="dataLayer.push( { 'socialNetwork': 'Facebook' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--facebook-circle" aria-label="facebook-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook-circle"></use></svg>				<span class="screen-reader-text">Share on Facebook</span>
+			</a>
+		</li>
+		<li class="social-share-list-item -copy-embed-item">
+			<!-- Article Link -->
+			
+				<button
+					type="button"
+					class="link -link copy-link"
+					data-href="https://calmatters.org/projects/mentally-ill-forced-treatment-conservatorship-california-debate/"
+					data-home-url="https://calmatters.org"
+					data-explainer-id="96130"
+					>
+					<svg role="img" class="icon icon--link-circle" aria-label="link-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#link-circle"></use></svg>
+			
+
+
+				<span class="screen-reader-text">Copy Article Link</span>
+				<span class="tooltip">Copied</span>
+			</button>
+		</li>
+
+	</ul>
+</div>
+	<ul class="post-categories">
+		<li class="primary"><a href="https://calmatters.org/category/health/breakdown-mental-health/" aria-label="See articles about Breakdown: Mental Health" rel="category tag">Breakdown: Mental Health</a></li><li class="secondary"><a href="https://calmatters.org/category/health/" aria-label="See articles about Health" rel="category tag">Health</a></li><li class="secondary"><a href="https://calmatters.org/category/justice/" aria-label="See articles about Justice" rel="category tag">Justice</a></li>	</ul>
+	<div class="post-byline">
+	<a href="https://calmatters.org/author/jocelyn-wiener/" class="author">By Jocelyn Wiener <img alt='Jocelyn Wiener' src='https://calmatters.org/wp-content/uploads/sites/2/2020/02/Wiener_Jocelyn-e1581014107366-96x96.jpg' class='avatar avatar-96 photo' height='96' width='96' /></a>	<span class="published">published: <time datetime="2019-12-30T03:59:25-08:00">December 30, 2019</time></span>
+</div>
+
+<p>The sightings of James Mark Rippee are all over his sisters’ Facebook.</p>
+
+
+
+<p>Someone spotted him sleeping by a furniture store in Vallejo. Someone walked him to a gas station for coffee. Someone prayed for him at Nations Giant Hamburgers.</p>
+
+
+
+<p>Rippee, 56, developed schizophrenia after a horrific motorcycle accident more than three decades ago caused a traumatic brain injury and the loss of his eyesight. His delusions range from being an alien, to getting chased by the KKK, to being prevented from collecting his lottery winnings, his sisters say.</p>
+
+
+
+<p>In September, he stepped into traffic and was hit by a car, his sisters say, then developed a brain abscess. After weeks in the hospital and a board-and-care, he walked out and  his 62-year-old twin sisters – Catherine Hanson and Linda Privatte – weren’t alerted.	</p>
+
+
+
+<p>Now they couldn’t find him.</p>
+
+
+
+<p>Complicating things further: Hanson is bedridden with blood cancer; Privatte is legally blind and cannot drive. They’ve come to depend on a Facebook community, “Mark of Vacaville,” to be their “eyes and ears” on their brother’s situation.</p>
+
+
+
+<p>The existence of the 2,000-plus member group is at once a moving testament to a community’s compassion and an indictment of a system that often leaves the most vulnerable to fend for themselves.</p>
+
+
+
+<p>Why do people as sick as James Mark Rippee sleep on our streets? Some blame laws that prioritize civil rights over forced treatment; others point to an under-resourced and uneven mental health system that has failed to provide people like Rippee with long-promised care.</p>
+
+
+
+<p>Everyone struggles with the same underlying question: What should be done?</p>
+
+
+
+<p>“When we allow people to deteriorate on the streets, or interface with law enforcement that leads to incarceration, what are we doing?” asks Dr. Jonathan Sherin, director of the Los Angeles Department of Mental Health. “We’ve lost our compass.”</p>
+
+
+
+<p>State lawmakers are watching a controversial new pilot program to expand forced treatment in San Francisco.</p>
+
+
+
+<p>In the meantime, families watch in desperation as loved ones cycle between homelessness, emergency rooms and jail cells. Short courses of medication may lead to the quieting of voices, which, in turn, leads to a release to the streets. Often, as in James Mark Rippee’s case, the family is simultaneously shut out of the conversation and blamed for abandonment.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="https://calmatters.org/wp-content/uploads/sites/2/2019/12/Screen-Shot-2019-12-27-at-4.12.18-PM.png?resize=539%2C245" alt="" class="wp-image-96653" width="539" height="245" srcset="https://calmatters.org/wp-content/uploads/sites/2/2019/12/Screen-Shot-2019-12-27-at-4.12.18-PM.png?resize=539%2C245?w=564 564w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/Screen-Shot-2019-12-27-at-4.12.18-PM.png?resize=539%2C245?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/Screen-Shot-2019-12-27-at-4.12.18-PM.png?resize=539%2C245?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/Screen-Shot-2019-12-27-at-4.12.18-PM.png?resize=539%2C245?w=380 380w" sizes="(max-width: 539px) 100vw, 539px" data-recalc-dims="1"></figure></div>
+
+
+
+<p>Some of these families are aware of the downsides of involuntary treatment, the miserable side effects of psychiatric medications, the critical shortage of inpatient facilities. They recognize that conservatorship – in which a court-appointed conservator manages another person’s living situation, medical decisions and mental health treatment — is no panacea, and should be a last resort.</p>
+
+
+
+<p>James Mark Rippee himself puts it this way: “I don’t need to be in a locked-up facility. It was like I was a hostage.”</p>
+
+
+
+<p>In recent years, Rippee’s twin sisters — Hanson, the red-headed warrior, Privatte, the blonde diplomat — have redoubled their decades-long effort to get him help. They worry their own health problems might someday leave no one to fight for him.</p>
+
+
+
+<p>“He is the worst-case scenario of anybody being so vulnerable on the streets,” Hanson said. “Every winter we wonder: Is this going to be the year that he dies?”</p>
+
+
+
+<hr class="wp-block-separator">
+
+
+
+<p>In 1967, a law passed that transformed the treatment of people with mental illness in California.</p>
+
+
+
+<p>Until then, it had been fairly easy for a family member to call police to force someone into mental health treatment. Conditions in the state hospitals were frequently abhorrent:  Patients wore gunny sacks, sometimes bathed just once a week, and were subjected to lobotomies and electric shock treatments. Too often, people were locked away for life.  </p>
+
+
+
+<p>Republican Assemblyman Frank Lanterman and Democratic Sens. Nicholas Petris and Alan Short proposed a radical overhaul, which Gov. Ronald Reagan signed into law. </p>
+
+
+
+<p>When the Lanterman-Petris-Short law took effect a few years later, it established strict criteria for involuntary treatment. It imposed specific timeframes for involuntary confinement and limited involuntary holds to those deemed a danger to themselves or others, or gravely disabled. This included the 72-hour hold that police term a 5150.</p>
+
+
+
+<p>But within a few decades, Sen. Petris noticed growing numbers of people with serious mental illnesses appearing on the streets and in jails.</p>
+
+
+
+<p>In a <a href="https://archives.cdn.sos.ca.gov/oral-history/pdf/oh-petris-nicholas.pdf">1989 oral history</a>, Petris lamented that while the law had promised funding to treat people with mental illness in the community, Gov. Reagan diverted tens of millions allocated back to the state general fund.</p>
+
+
+
+<p>“That took the guts right out of this state money for local treatment,” Petris said. “It emptied out the hospitals, but there was no follow-up treatment….In this overemphasis to get away from this tyrannical and oppressive system… of incarcerating people so easily, we went overboard the other way.”</p>
+
+
+
+<p>Even when funding was available, “Not In My Back Yard” resistance also made it challenging to locate residential and community treatment facilities. In the half-century since, much of the debate about helping people like Rippee has centered on the Lanterman-Petris-Short law. The state auditor is currently examining it; a report is anticipated this spring. </p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_10_1.jpg?w=1024" alt="Sisters Catherine “CJ” Hanson, left, and Linda Privatte started the Facebook group ‘Mark of Vacaville’ to ask community members to help keep an eye on their brother, Mark Rippee, who has been homeless for 13 years after suffering a brain injury and developing schizophrenia. Photo by Anne Wernikoff for CalMatters" class="wp-image-96151" srcset="https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_10_1.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_10_1.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_10_1.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_10_1.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_10_1.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_10_1.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_10_1.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_10_1.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_10_1.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_10_1.jpg?w=794 794w" sizes="(max-width: 1000px) 100vw, 1000px"><figcaption><em>Mark Rippee’s sisters Catherine “CJ” Hanson, left, and Linda Privatte. Photo by Anne Wernikoff for CalMatters</em></figcaption></figure>
+
+
+
+<p>In recent years, several bills in the Legislature have sought to modify the law, focusing on redefining the term “gravely disabled.” Rippee’s sisters petitioned and testified last year on behalf of a bill that sought to define “gravely disabled” to include not just those who can’t provide for their own food, clothing and shelter, but also those who don’t seek needed medical treatment. It failed, in part because opponents considered it ineffective and dangerously expansive.</p>
+
+
+
+<p>More than 5,000 people in the state were on permanent conservatorships, and close to 2,000 were on temporary conservatorships, as of 2016-17, according to data collected by the Department of Health Care Services. <a href="https://www.dhcs.ca.gov/services/MH/Documents/FY16-17_InvolunDetenRep_12pt.pdf">The data</a> is incomplete; Scarlett Hughes, executive director of the California State Association of Public Administrators, Public Guardians and Public Conservators calls it “extremely inaccurate.” </p>
+
+
+
+<p>Last year lawmakers <a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180SB1045">agreed to create</a> a narrow 5-year pilot program that makes it easier for three counties (San Francisco, Los Angeles and San Diego) to conserve homeless individuals with serious mental illnesses or substance abuse disorders. The program allows courts to conserve individuals who have been placed under a 72-hour psychiatric hold at least eight times in a year. A second law, passed this year, expanded the rules to allow 50 to 100 more people in San Francisco to be placed under conservatorship.</p>
+
+
+
+<p>Civil rights advocates have raised serious concerns: In 2018, Susan Mizner, the disability rights program director for the ACLU, <a href="https://sdaction.files.wordpress.com/2019/05/conservatorship-statement-2018-voluntary-services-first.doc.pdf">described conservatorship </a>as “the biggest deprivation of civil rights aside from the death penalty” and said the law would incentivize police to repeatedly detain homeless individuals. </p>
+
+
+
+<p>So far, only San Francisco has adopted it. That reflects another reality: Different counties have different rules. Even without the pilot program, depending on where you live, public defenders, judges, public guardians and others have different interpretations of the law. </p>
+
+
+
+<p>“It varies from county to county, it varies within counties,” said Randall Hagar, government relations director for the California Psychiatric Association. “What is ‘gravely disabled’ here may not be considered ‘gravely disabled’ there.”</p>
+
+
+
+<p>Because counties must use local funds to pay high placement costs — and because not all counties have the same types of services available — variations are a significant concern.       </p>
+
+
+
+<p>Disability rights advocates insist that maintaining the standards outlined by Lanterman-Petris-Short is essential to protect people’s civil rights. Most people with serious mental illnesses aren’t refusing help, they say — appropriate help just isn’t available.</p>
+
+
+
+<p>Lynn Rivas, associate director of Oakland-based Peers Envisioning & Engaging in Recovery Services, understands that families feel desperate. She knew a woman with paranoid schizophrenia who lived on the streets of Richmond. Mental health workers tried repeatedly, but couldn’t get her to come inside.</p>
+
+
+
+<p>Even though “it breaks my heart,” Rivas said, she’s willing to live with that consequence.</p>
+
+
+
+<p>“I think involuntary imprisonment is worse,” she said.</p>
+
+
+
+<p>Heather, a program coordinator at the organization, has herself experienced involuntary treatment. In the hospital, she said, everything was taken from her and her entire schedule revolved around medication.</p>
+
+
+
+<p> “I think it’s just really cold the way they treat you,” she said. “It’s like you have a disease…they treat you like you’re not a human being.”</p>
+
+
+
+<p>Once she stabilized, she said, the hospital discharged her back to the streets, without addressing her underlying issues. The experience not only didn’t help her, she said, it made her afraid to seek help.</p>
+
+
+
+<p>Some worry that public dismay about the current homelessness crisis will encourage lawmakers to strip people of their rights.</p>
+
+
+
+<p>“It’s still political failures that are trying to be masked with solutions that may decrease the visibility of individuals on the street,” said Curtis Child, director of legislation at Disability Rights California. He also compares the situation of people with mental illness to that of people with developmental disabilities. For the latter group, deinstitutionalization was accompanied by the creation of regional centers, he said, “in which everyone gets a plan, everyone gets a worker.”</p>
+
+
+
+<p>“With mental illness, we did nothing.”<br></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="https://calmatters.org/wp-content/uploads/sites/2/2019/12/Screen-Shot-2019-12-29-at-6.51.16-AM.png?resize=522%2C313" alt="" class="wp-image-96670" width="522" height="313" srcset="https://calmatters.org/wp-content/uploads/sites/2/2019/12/Screen-Shot-2019-12-29-at-6.51.16-AM.png?resize=522%2C313?w=555 555w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/Screen-Shot-2019-12-29-at-6.51.16-AM.png?resize=522%2C313?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/Screen-Shot-2019-12-29-at-6.51.16-AM.png?resize=522%2C313?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/Screen-Shot-2019-12-29-at-6.51.16-AM.png?resize=522%2C313?w=357 357w" sizes="(max-width: 522px) 100vw, 522px" data-recalc-dims="1"></figure></div>
+
+
+
+<p>For Child, and many other advocates, the solution is not more conservatorship — it’s creating affordable housing and more robust mental health services.</p>
+
+
+
+<p>“The volume of individuals who are entering homelessness on a given day is overwhelming all of our systems,”  said Michelle Cabrera, executive director of the County Behavioral Health Directors Association of California,. “We’ve got a serious problem on our hands.”</p>
+
+
+
+<p>Dr. Amy Barnhorst, vice chair of community and hospital services for the  UC Davis Department of Psychiatry agrees that the focus should be on building out the mental health system, not changing the law.</p>
+
+
+
+<p>“It’s like cutting more doors into an empty building,” she said. “There’s not the services there. We don’t have the workforce. We don’t have the treatments. We don’t have the infrastructure. ”</p>
+
+
+
+<p>Even if a change in law permitted more people to be conserved, a shortage of placements and “a gross lack of funding” for county programs means there would be nowhere to send many of them, said Hughes, of the California State Association of Public Administrators, Public Guardians and Public Conservators.. Earlier this year, a state budget proposal to increase the amount of funding for public guardians by 35% — or $68 million — failed.</p>
+
+
+
+<p>County conservators receive no direct state funding, and in the past five years have received a huge influx in clients diverted from the criminal justice system, Hughes said. Some counties went from five referrals a month to 30 or 40, she said.</p>
+
+
+
+<p>“They are drowning,” she said.</p>
+
+
+
+<p>Simultaneously, the number of facilities that can take them is shrinking, said Chris Koper, a legislative analyst for the organization. At one point, she said, she and some friends started listing the facilities in that county that had shut down. They stopped when they got to 35, she said: “It was too depressing.”</p>
+
+
+
+<p>That leaves many conservatees in a “placement pending” status, stuck in jails or hospitals. In some cases, conservators have resorted to having staff members care for people with mental illness in hotel rooms rather than leave an individual on the streets, she said.</p>
+
+
+
+<div class="wp-block-cover has-background-dim" style="background-image:url(https://calmatters.org/wp-content/uploads/sites/2/2019/12/AP_99022302573.jpg?w=1024)"><div class="wp-block-cover__inner-container">
+<p class="has-text-align-left">A patient walks down a corridor at California’s Atascadero State Hospital — a prison and mental hospital — in 1999.  AP Photo by Reed Saxon</p>
+</div></div>
+
+
+
+<p>Most state hospital beds are now reserved for people in the criminal justice system. Inmates with mental illness can wait in limbo for months or even years in county jails before a bed opens up.  Five years ago, an average of 343 inmates with mental illness were awaiting placement. Last year, the average was 819.</p>
+
+
+
+<p>“The easiest legislative fix is to expand conservatorship,” Koper said. “It then will appear that the Legislature is trying to do something. But as is often the case with social problems, the wound is so much deeper than that. And the wound will require a lot of money.”</p>
+
+
+
+<p>As San Francisco has assumed new authority to place people under conservatorships, <a href="https://www.sfchronicle.com/politics/article/SF-may-compel-more-severely-mentally-ill-people-14487044.php#">The San Francisco Chronicle found a backlog</a>. In a locked ward at San Francisco General Hospital, individuals who were conserved were waiting four months for placement in Napa State Hospital, and even longer for a residential facility.</p>
+
+
+
+<p>A woman who answered the phone at the public guardian’s office in Solano County, where Rippee lives, said she didn’t have time or permission to talk, repeating several times “we’re extremely short-staffed.” </p>
+
+
+
+<p>Gerald Huber, the county’s director of Health and Social Services, noted that even if Rippee were to be conserved, there are very few facilities in the state that accept people with traumatic brain injuries — and they are always full with waitlists.</p>
+
+
+
+<p>Rippee’s sisters are aware.</p>
+
+
+
+<p>“If they tell him, ‘Mark, you’re conserved’—” Privatte began.  </p>
+
+
+
+<p>“—where are they going to put him?” Hanson concluded. “There’s no place.”</p>
+
+
+
+<hr class="wp-block-separator">
+
+
+
+<p>The events of June 21<sup>st</sup>, 1987 are seared in the minds of Rippee’s twin sisters:</p>
+
+
+
+<p>Rippee had purchased a Harley Davidson just ten days earlier, but he was already talking about selling it. With his slight frame, the big bike felt unwieldy.</p>
+
+
+
+<p>The family had gathered for a Father’s Day barbecue in Vacaville. Rippee, 24, was optimistic about a budding career in construction. He was popular with girls and never went anywhere without his guitar.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_02_1.jpg?w=1024" alt="A family photo of Mark Rippee with his sister Linda, far left, and Catherine, far right before his traumatic brain injury." class="wp-image-96145" srcset="https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_02_1.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_02_1.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_02_1.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_02_1.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_02_1.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_02_1.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_02_1.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_02_1.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_02_1.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_02_1.jpg?w=794 794w" sizes="(max-width: 1000px) 100vw, 1000px"><figcaption><em>A family photo of Mark Rippee with his sister Linda, far left, and Catherine, far right, before his traumatic brain injury.</em></figcaption></figure>
+
+
+
+<p>That evening, he took off down a country road toward Hanson’s house. A car swerved into his lane. Trying to avoid it, Rippee steered off the road into a dark field.</p>
+
+
+
+<p>A neighbor heard the crash. Officers searched for an hour, following the moans, before discovering a gruesome scene. Rippee had smashed into an antique grain harvester. The impact had ripped his eyes from their sockets, knocked out his teeth, split his head open and strewn brain matter on the ground. Paramedics told the family they were so sure he was dead, they initially didn’t turn on the siren.</p>
+
+
+
+<p>His sisters, Privatte and Hanson, rushed to the hospital, where a team of surgeons was attempting to piece their brother’s brain and body back together. Their father was overwhelmed, Hanson said, and asked her to take over medical decision-making.</p>
+
+
+
+<p>After Rippee stabilized, a neurosurgeon warned the family it would take a few years for him to recover from the brain injury. Then, at some point, his mental health would decline. The doctor recommended Rippee be transported to a state rehabilitation facility where he might need to spend his entire life, his sisters said.</p>
+
+
+
+<p>Instead, Hanson said, their father grabbed the papers giving her legal decision-making over her brother’s care and shredded them. His only son, he insisted, was coming home.</p>
+
+
+
+<p>“This is how we lost complete control,” she said.</p>
+
+
+
+<div class="wp-block-image"><figure class="alignleft size-large is-resized"><img src="https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_04_1.jpg?w=1024&#038;resize=299%2C198" alt="A family photo of Mark Rippee after his motorcycle accident." class="wp-image-96147" width="299" height="198" srcset="https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_04_1.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_04_1.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_04_1.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_04_1.jpg?w=1024&#038;resize=299%2C198 1024w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_04_1.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_04_1.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_04_1.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_04_1.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_04_1.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112619_Conservatorship_AW_sized_04_1.jpg?w=794 794w" sizes="(max-width: 299px) 100vw, 299px" data-recalc-dims="1"><figcaption><em>A family photo of Mark Rippee after his motorcycle accident. </em></figcaption></figure></div>
+
+
+
+<p>Under his mother’s care, Rippee did heal somewhat, his sisters said. He was completely blind,  had severe damage to his frontal lobe and was suicidal. But, for a time, he was able to take computer classes.</p>
+
+
+
+<p>Then the delusions crept in, his sisters say. He heard voices in the air conditioner. He tried to jump out of a car on a freeway overpass, nearly pulling Privatte with him. </p>
+
+
+
+<p>Still, for years Rippee lived with his family. For a while, Privatte housed her brother in a 60-foot trailer adjacent to her house. Neighbor Chris Plowman, at the time a volunteer firefighter, remembers seeing smoke coming from the trailer one morning and hearing Privatte scream “Save my brother! Save my brother!”</p>
+
+
+
+<p>Plowman kicked in the door and ran through the trailer, looking for Rippee. He wasn’t inside. The trailer burned to the ground. </p>
+
+
+
+<p>Then Rippee threatened to kill his mother with an ax, according to his sisters, who say the family felt it was no longer safe to have him live with them.</p>
+
+
+
+<p>But, gradually, he ran out of other options. Local motels refused to rent to him, his sister said.</p>
+
+
+
+<p>Karen Newton, an office assistant with Solano County , first met Rippee in front of the county building where she worked — he was sleeping on a strip of cardboard. She bought him taquitos and chocolate milk and clean clothes. Newton, whose own son has schizophrenia and is currently in Napa State Hospital, was disturbed by the frequent assaults she saw against Rippee, including a bad beating that left him swollen.</p>
+
+
+
+<p>“The things I’ve seen in the last year have been horrifying,” she said.</p>
+
+
+
+<p>In the past 15 years, Vacaville police say they have arrested Rippee 25 times, charging him with unlawful camping and public intoxication.</p>
+
+
+
+<p>Sgt. Aaron Dahl, who supervises the community response unit for Vacaville Police, says he wants people like Rippee to stay inside, take medications and get help, but “that’s not the reality of how things work.”   </p>
+
+
+
+<p>“I wish I had a magic wand that could go help everybody,” he said. “And it’s very hard, because there’s not an easy answer for everybody. There’s just not.”</p>
+
+
+
+<p>In early 2018, Privatte said her daughter saw members of a Solano County community Facebook site criticizing their family for abandoning Rippee.  </p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="https://calmatters.org/wp-content/uploads/sites/2/2020/01/Screen-Shot-2020-01-03-at-4.33.42-PM.png?resize=563%2C265" alt="" class="wp-image-97237" width="563" height="265" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/01/Screen-Shot-2020-01-03-at-4.33.42-PM.png?resize=563%2C265?w=504 504w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/Screen-Shot-2020-01-03-at-4.33.42-PM.png?resize=563%2C265?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/Screen-Shot-2020-01-03-at-4.33.42-PM.png?resize=563%2C265?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/01/Screen-Shot-2020-01-03-at-4.33.42-PM.png?resize=563%2C265?w=380 380w" sizes="(max-width: 563px) 100vw, 563px" data-recalc-dims="1"></figure></div>
+
+
+
+<p>The twins intensified their efforts to help their brother.</p>
+
+
+
+<p>“The law has stopped Mark from getting treatment,” Privatte said. “The law. Not us.”</p>
+
+
+
+<p>On April 24, 2018, Privatte told the Solano County Board of Supervisors that her brother had attempted suicide more than 20 times, and that other people beat and robbed him regularly.</p>
+
+
+
+<p>“It’s not because I want to lock my brother up and be done with him,” she said, crying. “It’s because I want him to be safe.”</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://calmatters.org/wp-content/uploads/sites/2/2019/12/112219_MarkRippee_AW_sized_01.jpg?w=1024" alt="Mark Rippee sleeps along a wall at a strip mall in Vallejo on November 22, 2019. As the nights become colder Rippee prefers to sleep during the day. Photo by Anne Wernikoff for CalMatters" class="wp-image-96152" srcset="https://calmatters.org/wp-content/uploads/sites/2/2019/12/112219_MarkRippee_AW_sized_01.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112219_MarkRippee_AW_sized_01.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112219_MarkRippee_AW_sized_01.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112219_MarkRippee_AW_sized_01.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112219_MarkRippee_AW_sized_01.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112219_MarkRippee_AW_sized_01.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112219_MarkRippee_AW_sized_01.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112219_MarkRippee_AW_sized_01.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112219_MarkRippee_AW_sized_01.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/112219_MarkRippee_AW_sized_01.jpg?w=794 794w" sizes="(max-width: 1000px) 100vw, 1000px"><figcaption><em>Mark Rippee sleeps along a wall at a strip mall in Vallejo — as nights become colder, he prefers to sleep during the day. Photo by Anne Wernikoff for CalMatters</em></figcaption></figure>
+
+
+
+<p>“What can we do to help?” asked Supervisor Skip Thomson. “Because what we’re doing is unacceptable.”</p>
+
+
+
+<p>	Privatte showed up repeatedly  to beg the board for help. This spring, she received an email from Thomson’s office on behalf of the county, explaining that her brother could not be conserved in part because each time he was placed on an involuntary hold, he stabilized to the point that he legally had to be released: </p>
+
+
+
+<p>“This is not a situation that we have ignored nor that we condone,” the letter said. “Simply the law requires stringent standards to impose conservatorships–standards that so far we cannot meet.”</p>
+
+
+
+<p>Huber, the director of Health and Social Services, said that “many, many, many different agencies” have interacted with Rippee over the years, and the county has made — and continues to make — efforts to provide treatment. </p>
+
+
+
+<p>“I’ve struggled with this for the five years I’ve been here,” he said. “The street is not an appropriate place for him to live.”</p>
+
+
+
+<p>The county this year implemented Laura’s Law, a 2002 state law which allows for court-ordered outpatient treatment. A few weeks ago, Rippee’s mother applied for it on her son’s behalf. But the program doesn’t serve someone with a traumatic brain injury, Huber said. </p>
+
+
+
+<hr class="wp-block-separator">
+
+
+
+<p>On September 27th, someone posted a picture of Rippee on the Facebook group. His head looked swollen; his sisters recognized symptoms of a brain abscess.</p>
+
+
+
+<p>Privatte convinced her brother to go with her to the hospital, where he had surgery the next morning. After two weeks, the hospital transferred him to a Suisun City board-and-care. In late October, he returned to the streets.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="https://calmatters.org/wp-content/uploads/sites/2/2019/12/Screen-Shot-2019-12-29-at-11.20.31-AM.png?resize=488%2C278" alt="" class="wp-image-96679" width="488" height="278" srcset="https://calmatters.org/wp-content/uploads/sites/2/2019/12/Screen-Shot-2019-12-29-at-11.20.31-AM.png?resize=488%2C278?w=539 539w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/Screen-Shot-2019-12-29-at-11.20.31-AM.png?resize=488%2C278?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/Screen-Shot-2019-12-29-at-11.20.31-AM.png?resize=488%2C278?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/Screen-Shot-2019-12-29-at-11.20.31-AM.png?resize=488%2C278?w=377 377w" sizes="(max-width: 488px) 100vw, 488px" data-recalc-dims="1"></figure></div>
+
+
+
+<p>That same week, dozens of mental health leaders from around the state gathered in Sacramento to talk about the future of Lanterman-Petris-Short. They discussed how counties lack the resources to build out a continuum of care.</p>
+
+
+
+<p>Sacramento Mayor Darrell Steinberg asked his colleagues if the debate around involuntary treatment might be reframed to insist that people have both a right — and an obligation — to come indoors. That would mean that, before the state could compel people to come indoors, they would have to have safe, appropriate placements to offer them.</p>
+
+
+
+<p>“Our North Star needs to be to end this horrific situation,” he said.</p>
+
+
+
+<p>A few weeks later, I found Rippee at a Vallejo strip mall, asleep on a patch of concrete littered with dirty socks and desiccated orange peels. His head rested on a blue IKEA bag, which held a pale green fleece blanket studded with burrs.</p>
+
+
+
+<p>After Rippee woke up, he requested a coffee the way he likes it – a lot of sugar, a little coffee. He was friendly and talkative, his facts smoothly interwoven with delusions. He talked about the beauty of classical music. He recalled delivering pies for his parents’ business. Then he toggled to concerns about the KKK chasing him: “I’m trying to stay ahead of those guys,” he said.</p>
+
+
+
+<p>Ultimately, Rippee said, he wants home with a shower and someone to care for him. He doesn’t want to be in a locked facility, but he does wish he could live inside. </p>
+
+
+
+<p>“At night it gets cold,” he said. “I just sit there and shake.</p>
+
+
+
+<p>“To leave a blind man outside, you know, I just figured the county could do better than that,” he continued. “They’re not supposed to leave me outside. The United States of America is nice enough. They’re not supposed to let this happen.”</p>
+
+<div class="social-share -horizontal">
+	<ul class="social-share-list">
+				<li class="social-share-list-item">
+			<!-- Email -->
+			<a rel="noopener noreferrer" class="link -email social share" href="/cdn-cgi/l/email-protection#2a15595f48404f495e170c091218181a117d4f0c0912181b1d115c4f0f181a4645595e0f181a455f580f181a4945475a4b5959040c091218181b110f181a6c45580f181a694b46434c455844434b0c0912181b1d11590f181a4745595e0f181a5c43594348464f0f181a474f445e4b4646530f181a434646060f181a43590f181a4b0f181a584f5e5f58440f181a5e450f181a4c4558494f4e0f181a5e584f4b5e474f445e0f181a4b0f181a5945465f5e4345440f181ac8aabe0f181a45580f181a4b0f181a4c4b46594f0f181a5a58454743594f150c091a19121148454e531769424f49410f181a455f5e0f181a5e4243590f181a4b585e4349464f0f181a4b5e100f181a425e5e5a59100505494b46474b5e5e4f58590445584d055a5845404f495e5905474f445e4b46465307434646074c4558494f4e075e584f4b5e474f445e07494544594f585c4b5e45585942435a07494b46434c455844434b074e4f484b5e4f05" onclick="dataLayer.push( { 'socialNetwork': 'Email' } );" target="_top">
+				<svg role="img" class="icon icon--email-circle" aria-label="email-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#email-circle"></use></svg>				<span class="screen-reader-text">Share by Email</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Twitter -->
+			<a
+				rel="noopener noreferrer"
+				class="link -twitter social share"
+				href="https://twitter.com/share?url=https://calmatters.org/projects/mentally-ill-forced-treatment-conservatorship-california-debate/&#038;text=%E2%80%9CWe%E2%80%99ve%20lost%20our%20compass.%E2%80%9D%20For%20California%E2%80%99s%20most%20visible%20mentally%20ill%2C%20is%20a%20return%20to%20forced%20treatment%20a%20solution%20%E2%80%94%20or%20a%20false%20promise%3F"
+				onclick="dataLayer.push( { 'socialNetwork': 'Twitter' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--twitter-circle" aria-label="twitter-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#twitter-circle"></use></svg>				<span class="screen-reader-text">Share on Twitter</span>
+			</a>
+		</li>
+		<li class="social-share-list-item">
+			<!-- Facebook -->
+			<a
+				rel="noopener noreferrer"
+				class="link -facebook social share"
+				href="https://www.facebook.com/sharer.php?u=https://calmatters.org/projects/mentally-ill-forced-treatment-conservatorship-california-debate/"
+				onclick="dataLayer.push( { 'socialNetwork': 'Facebook' } );"
+				target="_blank">
+				<svg role="img" class="icon icon--facebook-circle" aria-label="facebook-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#facebook-circle"></use></svg>				<span class="screen-reader-text">Share on Facebook</span>
+			</a>
+		</li>
+		<li class="social-share-list-item -copy-embed-item">
+			<!-- Article Link -->
+			
+				<button
+					type="button"
+					class="link -link copy-link"
+					data-href="https://calmatters.org/projects/mentally-ill-forced-treatment-conservatorship-california-debate/"
+					data-home-url="https://calmatters.org"
+					data-explainer-id="96130"
+					>
+					<svg role="img" class="icon icon--link-circle" aria-label="link-circle"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#link-circle"></use></svg>
+			
+
+
+				<span class="screen-reader-text">Copy Article Link</span>
+				<span class="tooltip">Copied</span>
+			</button>
+		</li>
+
+	</ul>
+</div>
+
+<nav class="project-navigation project-navigation--bottom">
+	<ul>
+		<li>
+		<a href="https://calmatters.org/projects/breakdown-californias-mental-health-system-explained/" class="project-navigation__link project-navigation__link--active -part-8">
+			<span class="project-navigation__label">Part 8</span>
+			Breakdown: California’s mental health system, explained		</a>
+	</li>
+	</ul>
+</nav>
+			</div>
+			
+<div class="project-series-footer">
+	<div class="container">
+
+		<div class="project-series-footer__info">
+						<h2 class="project-series-footer__title">Breakdown: Mental health in California</h2>
+			
+						<div class="project-series-footer__author">
+				<a href="https://calmatters.org/author/jocelyn-wiener/">
+				<img alt='Jocelyn Wiener' src='https://calmatters.org/wp-content/uploads/sites/2/2020/02/Wiener_Jocelyn-e1581014107366-96x96.jpg' class='avatar avatar-96 photo' height='96' width='96' />				</a>
+
+				<div>
+										<span class="project-series-footer__author-byline">
+						By <a href="https://calmatters.org/author/jocelyn-wiener/">Jocelyn Wiener</a>
+					</span>
+					
+					
+					<ul class="project-series-footer__author-social">
+												<li><a href="/cdn-cgi/l/email-protection#4923262a2c253027092a282524283d3d2c3b3a67263b2e"><svg role="img" class="icon icon--email" aria-label="email"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#email"></use></svg></a></li>
+												<li><a href="https://calmatters.org/author/jocelyn-wiener/feed/"><svg role="img" class="icon icon--rss" aria-label="rss"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#rss"></use></svg></a></li>
+											</ul>
+				</div>
+			</div>
+					</div>
+
+		<div class="project-series__posts">
+							<a href="https://calmatters.org/projects/california-mental-health-treatment-in-prisons/" class="project-series__posts-item -part-1">
+					<span class="project-series__posts-label ">
+						Part 1					</span>
+					<h3 class="project-series__posts-title">All too often, California’s default mental institutions are now jails and prisons</h3>
+
+											<p>In the past five years, the number of people in California deemed incompetent to stand trial and referred by a judge to state hospitals for treatment has soared—but there are nowhere near enough psychiatric beds to accommodate them.</p>
+									</a>
+								<a href="https://calmatters.org/projects/californians-struggle-to-get-mental-health-care/" class="project-series__posts-item -part-2">
+					<span class="project-series__posts-label ">
+						Part 2					</span>
+					<h3 class="project-series__posts-title">For families across California, a desperate struggle to get mental health care</h3>
+
+											<p>Californians with mental illness—and their family members—describe pleading with insurance providers for the treatment they need.</p>
+									</a>
+								<a href="https://calmatters.org/projects/treatment-for-psychosis-and-other-mental-illness-differs-drastically-by-county/" class="project-series__posts-item -part-3">
+					<span class="project-series__posts-label ">
+						Part 3					</span>
+					<h3 class="project-series__posts-title">Treatment for psychosis—and other mental illness—differs drastically by county</h3>
+
+											<p>In California, geography creates significant barriers for people seeking early psychosis intervention and other treatment, because its 58 counties have 58 different public mental health programs, each with its own set of covered services. That&#039;s by design. Yet it creates troubling inequities.</p>
+									</a>
+								<a href="https://calmatters.org/projects/board-and-care-homes-closing-in-california-mental-health-crisis/" class="project-series__posts-item -part-4">
+					<span class="project-series__posts-label ">
+						Part 4					</span>
+					<h3 class="project-series__posts-title">Overlooked mental health &#8220;catastrophe:&#8221; Vanishing board-and-care-homes leave residents with few options</h3>
+
+											<p>Housing costs have forced many board-and-care homes to shutter. Mental health advocates say the closures will exacerbate the homeless crisis in California.</p>
+									</a>
+								<a href="https://calmatters.org/projects/california-mental-health-care-parity/" class="project-series__posts-item -part-5">
+					<span class="project-series__posts-label ">
+						Part 5					</span>
+					<h3 class="project-series__posts-title">Californians aren&#8217;t getting the mental health care they&#8217;re legally guaranteed. Why not?</h3>
+
+											<p>Laws require health plans to provide patients equal treatment for mental and physical needs. But &quot;parity&quot; is often elusive — and critics say the Legislature and health officials have failed to fix the problem.</p>
+									</a>
+								<a href="https://calmatters.org/projects/mental-health-care-outcry-targets-kaiser-california-parity-regulators/" class="project-series__posts-item -part-6">
+					<span class="project-series__posts-label ">
+						Part 6					</span>
+					<h3 class="project-series__posts-title">Mental health care outcry targets Kaiser — and state regulators</h3>
+
+											<p>Striking clinicians — spotlighting complaints that patients with serious mental illness face long waits and inadequate care — lay blame at the doorstep of the state Department of Managed Health Care.</p>
+									</a>
+								<a href="https://calmatters.org/projects/mentally-ill-forced-treatment-conservatorship-california-debate/" class="project-series__posts-item -part-7">
+					<span class="project-series__posts-label ">
+						Part 7					</span>
+					<h3 class="project-series__posts-title">&#8220;We&#8217;ve lost our compass.&#8221; For California&#8217;s most visible mentally ill, is a return to forced treatment a solution — or a false promise?</h3>
+
+											<p>California inches toward making it easier to compel treatment for mental illness, but serious questions remain. Among them: Do treatment options even exist? </p>
+									</a>
+								<a href="https://calmatters.org/projects/breakdown-californias-mental-health-system-explained/" class="project-series__posts-item -part-8">
+					<span class="project-series__posts-label -next">
+						Next Up: Part 8					</span>
+					<h3 class="project-series__posts-title">Breakdown: California’s mental health system, explained</h3>
+
+									</a>
+						</div>
+	</div>
+</div>
+	<section class="section-feature latest-section">
+
+				<h2 class="sectiontitle -heading-3">
+			Latest in Breakdown: Mental Health		</h2>
+		
+		<div class="grid-wrap">
+			<div class="article-grid">
+									<div class="item ">
+						<div class="item-wrapper">
+															<a href="https://calmatters.org/blogs/events/2020/04/california-coronavirus-mental-health/" class="link thumb" aria-label="Read more about Watch: Taking care of your mental health during the pandemic">
+									<div class="thumb-inner">
+										<img width="321" height="214" src="https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?fit=321%2C214" class="attachment-medium-wide-rec size-medium-wide-rec wp-post-image" alt="coronavirus mental health" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2020/03/covid-19-.jpg?w=794 794w" sizes="(max-width: 321px) 100vw, 321px" />									</div>
+								</a>
+							
+															<p class="category">Breakdown: Mental Health</p>
+																						<h2 class="title">Watch: Taking care of your mental health during the pandemic</h2>
+													</div>
+					</div>
+									<div class="item ">
+						<div class="item-wrapper">
+															<a href="https://calmatters.org/commentary/as-community-spaces-close-due-to-the-coronavirus-the-homeless-have-almost-nowhere-to-go/" class="link thumb" aria-label="Read more about Closed community spaces due to coronavirus will leave the homeless out in the cold &#8212; it’s a disgrace">
+									<div class="thumb-inner">
+										<img width="321" height="214" src="https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?fit=321%2C214" class="attachment-medium-wide-rec size-medium-wide-rec wp-post-image" alt="A pedestrian walks past a homeless sleeping on Fifth Street in San Francisco, Calif., on Thursday, Nov. 1, 2018. Photo by Ray Chavez/Bay Area News Group" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=794 794w" sizes="(max-width: 321px) 100vw, 321px" />									</div>
+								</a>
+							
+															<p class="category">Breakdown: Mental Health</p>
+																						<h2 class="title">Closed community spaces due to coronavirus will leave the homeless out in the cold &#8212; it’s a disgrace</h2>
+													</div>
+					</div>
+									<div class="item ">
+						<div class="item-wrapper">
+															<a href="https://calmatters.org/commentary/gov-newsom-wants-to-overhaul-californias-mental-health-care-system-heres-a-plan-for-that/" class="link thumb" aria-label="Read more about Gov. Newsom wants to overhaul California&#8217;s mental health care system. Here’s a plan for that">
+									<div class="thumb-inner">
+										<img width="326" height="214" src="https://calmatters.org/wp-content/uploads/sites/2/2019/05/iStock-912219896-1-e1558398753429.jpg?fit=326%2C214" class="attachment-medium-wide-rec size-medium-wide-rec wp-post-image" alt="" srcset="https://calmatters.org/wp-content/uploads/sites/2/2019/05/iStock-912219896-1-e1558398753429.jpg?w=1280 1280w, https://calmatters.org/wp-content/uploads/sites/2/2019/05/iStock-912219896-1-e1558398753429.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2019/05/iStock-912219896-1-e1558398753429.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2019/05/iStock-912219896-1-e1558398753429.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2019/05/iStock-912219896-1-e1558398753429.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2019/05/iStock-912219896-1-e1558398753429.jpg?w=326 326w, https://calmatters.org/wp-content/uploads/sites/2/2019/05/iStock-912219896-1-e1558398753429.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2019/05/iStock-912219896-1-e1558398753429.jpg?w=860 860w, https://calmatters.org/wp-content/uploads/sites/2/2019/05/iStock-912219896-1-e1558398753429.jpg?w=807 807w" sizes="(max-width: 326px) 100vw, 326px" />									</div>
+								</a>
+							
+															<p class="category">Breakdown: Mental Health</p>
+																						<h2 class="title">Gov. Newsom wants to overhaul California&#8217;s mental health care system. Here’s a plan for that</h2>
+													</div>
+					</div>
+									<div class="item ">
+						<div class="item-wrapper">
+															<a href="https://calmatters.org/health/2020/02/mentally-ill-man-accident-treatment-conservatorship-california-mark-rippee/" class="link thumb" aria-label="Read more about After accident they warned about, sisters of mentally ill man blame the state — and beg governor to act">
+									<div class="thumb-inner">
+										<img width="321" height="214" src="https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?fit=321%2C214" class="attachment-medium-wide-rec size-medium-wide-rec wp-post-image" alt="Before the latest accident left him critically injured, Mark Rippee ate a snack of rolls and coffee on November 22, 2019 in Vallejo. Photo by Anne Wernikoff for CalMatters" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/112219_MarkRippee_AW_sized_02.jpg?w=794 794w" sizes="(max-width: 321px) 100vw, 321px" />									</div>
+								</a>
+							
+															<p class="category">Breakdown: Mental Health</p>
+																						<h2 class="title">After accident they warned about, sisters of mentally ill man blame the state — and beg governor to act</h2>
+													</div>
+					</div>
+									<div class="item ">
+						<div class="item-wrapper">
+															<a href="https://calmatters.org/health/breakdown-mental-health/2020/02/mentally-ill-homeless-force-treatment-california-newsom-state-of-state/" class="link thumb" aria-label="Read more about Inside the governor&#8217;s bid to fix homelessness: changing how California deals with mental illness">
+									<div class="thumb-inner">
+										<img width="321" height="214" src="https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?fit=321%2C214" class="attachment-medium-wide-rec size-medium-wide-rec wp-post-image" alt="A pedestrian walks past a homeless sleeping on Fifth Street in San Francisco, Calif., on Thursday, Nov. 1, 2018. Photo by Ray Chavez/Bay Area News Group" srcset="https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2020/02/Homeless-04_sized.jpg?w=794 794w" sizes="(max-width: 321px) 100vw, 321px" />									</div>
+								</a>
+							
+															<p class="category">Breakdown: Mental Health</p>
+																						<h2 class="title">Inside the governor&#8217;s bid to fix homelessness: changing how California deals with mental illness</h2>
+													</div>
+					</div>
+									<div class="item ">
+						<div class="item-wrapper">
+															<a href="https://calmatters.org/projects/mental-health-care-outcry-targets-kaiser-california-parity-regulators/" class="link thumb" aria-label="Read more about Mental health care outcry targets Kaiser — and state regulators">
+									<div class="thumb-inner">
+										<img width="321" height="214" src="https://calmatters.org/wp-content/uploads/sites/2/2019/12/121619_KaiserProtest_AW_sized_01.jpg?fit=321%2C214" class="attachment-medium-wide-rec size-medium-wide-rec wp-post-image" alt="Dozens of mental healthcare workers picket outside of Sacramento Medical Center to protest long wait times for patients and overwhelming case-loads at Kaiser Permanente facilities. Photo by Anne Wernikoff for CalMatters" srcset="https://calmatters.org/wp-content/uploads/sites/2/2019/12/121619_KaiserProtest_AW_sized_01.jpg?w=2000 2000w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/121619_KaiserProtest_AW_sized_01.jpg?w=300 300w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/121619_KaiserProtest_AW_sized_01.jpg?w=768 768w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/121619_KaiserProtest_AW_sized_01.jpg?w=1024 1024w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/121619_KaiserProtest_AW_sized_01.jpg?w=1536 1536w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/121619_KaiserProtest_AW_sized_01.jpg?w=460 460w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/121619_KaiserProtest_AW_sized_01.jpg?w=321 321w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/121619_KaiserProtest_AW_sized_01.jpg?w=780 780w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/121619_KaiserProtest_AW_sized_01.jpg?w=858 858w, https://calmatters.org/wp-content/uploads/sites/2/2019/12/121619_KaiserProtest_AW_sized_01.jpg?w=794 794w" sizes="(max-width: 321px) 100vw, 321px" />									</div>
+								</a>
+							
+															<p class="category">Breakdown: Mental Health</p>
+																						<h2 class="title">Mental health care outcry targets Kaiser — and state regulators</h2>
+													</div>
+					</div>
+							</div>
+		</div>
+	</section>
+	</article>
+		<footer class="container -footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+			<div class="site-footer">
+
+				<div class="col1">
+					<p class="copyright">&copy;
+					2019					CalMatters					</p>
+
+					<div class="menu-footer-container"><ul id="footer-menu" class="menu"><li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="https://calmatters.org/terms-conditions/">Terms &#038; Conditions</a></li>
+<li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-61"><a href="https://calmatters.org/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-80083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80083"><a href="https://calmatters.org/submission-guidelines/">Submission Guidelines</a></li>
+<li id="menu-item-80095" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80095"><a href="https://calmatters.org/donate/">Support CalMatters and Independent Journalism</a></li>
+<li id="menu-item-80096" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80096"><a href="https://calmatters.org/subscribe-to-calmatters/">Sign up for CalMatters</a></li>
+</ul></div>
+				</div>
+
+				<div class="col2">
+
+					<a href="https://thenewsproject.net/" target="_blank" rel="noopener noreferrer">
+					<span class="screen-reader-text">CalMatters</span>
+					Powered by
+					<svg role="img" class="icon icon--tnp-powered" aria-label="tnp-powered"><use xlink:href="https://calmatters.org/wp-content/themes/thenewsproject/dist/svg/dist/symbol/svg/sprite.symbol.svg#tnp-powered"></use></svg>					</a>
+
+				</div>
+
+			</div>
+		</footer>
+
+		<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+!function(n,t,c,e,u){function r(n){try{f=n(u)}catch(n){return h=n,void i(p,n)}i(s,f)}function i(n,t){for(var c=0;c<n.length;c++)d(n[c],t);
+}function o(n,t){return n&&(f?d(n,f):s.push(n)),t&&(h?d(t,h):p.push(t)),l}function a(n){return o(!1,n)}function d(t,c){
+n.setTimeout(function(){t(c)},0)}var f,h,s=[],p=[],l={then:o,catch:a,_setup:r};n[e]=l;var v=t.createElement("script");
+v.src=c,v.async=!0,v.id="_uasdk",v.rel=e,t.head.appendChild(v)}(window,document,'https://aswpsdkus.com/notify/v1/ua-sdk.min.js',
+	'UA', {
+		appKey: 'swOPpECvQRyoqoQ0AOtBgg',
+		token: 'MTpzd09QcEVDdlFSeW9xb1EwQU90QmdnOld4WFFoRWlPX05hLVlrZVc4YlgxSW0xVHFxVkZzT2JrYmdUUWpBTkxfZjQ',
+				workerUrl: 'https://calmatters.org/service-worker.js',websitePushId: 'web.thenewsproject',				vapidPublicKey: 'BAjVIVcGJFCYJzHU63gf4TrkNG4qpF_ULK8'
+	});
+</script>
+		<script type='text/javascript' src='https://calmatters.org/_static/??-eJx1zcEOwiAQBNAfkm7VNPVi/BRDYbVQWDbskv6+xngwJpzmMm8GdjaukCIp5GY4tWcggYjK1m1wD+RgaSF54LVooW8MOdAQ5QA/XFfMKOBsylYVq4APohAFllTcJuZRP03fge8g3IVriei0i/vPnQEl/te3fD1Ol3mczuN8ii9voGFT'></script>
+<script>
+var tnpData = {"ad_zone":"calmatters","error_email_invalid":"You have entered an invalid email","error_missing_status":"Response missing email_status","gtmIDs":[{"gtm_id":"GTM-WJSBCB4"},{"gtm_id":"GTM-TXQ3CH7"}],"subscribed":"Thanks for subscribing!","dataLayer":{"author":"Jocelyn Wiener","canonicalUrl":"https:\/\/calmatters.org\/projects\/mentally-ill-forced-treatment-conservatorship-california-debate\/","category":"Breakdown: Mental Health","environment":"production","gaId":"UA-117522438-3","gatedContentType":"","originalPublishDate":"12302019","originalPublishHour":"1577678365","pageType":"article","postId":"96130","postType":"tnp_long_form","publicationName":"CalMatters","sponsor":"","tag":"compel treatment, conservatorship, Darrell Steinberg, Facebook, Gavin Newsom, Lanterman\u2013Petris\u2013Short Act, Laura&#039;s Law, mark of vacaville, mental illness, mental illness treatment, mentally ill, schizophrenia, Skip Thomson, Solano County Board of Supervisors, traumatic brain injury, Vacaville police","gatedContent":"false"},"experience_control":"explicit"};
+var mailchimp = {"action":"handle_newsletter_signup","admin_ajax":"https:\/\/calmatters.org\/wp-admin\/admin-ajax.php","list":"faa7be558d","nonce":"5fb54b11a5"};
+var tnp_piano = {"piano_url":"https:\/\/sandbox.tinypass.com\/xbuilder\/experience\/load?aid=teischen","piano_aid":"teischen","piano_prod":"","piano_gated":""};
+</script>
+<script>
+// Remove no-js and add 'js' to the HTML
+		document.documentElement.classList.remove('no-js');
+		document.documentElement.classList.add('js');
+		WebFontConfig = {
+			google: { families: [ 'Source+Sans+Pro:400,700,900:latin' ] }
+		};
+		(function() {
+			var wf = document.createElement('script');
+			wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+			'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+			wf.type = 'text/javascript';
+			wf.async = 'true';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(wf, s);
+		})();
+</script>
+<script src='https://calmatters.org/wp-content/themes/calmatters/dist/js/frontend.js?ver=0.1.169'></script>
+<script type='text/javascript' src='https://calmatters.org/wp-content/themes/calmatters/dist/js/fontChanger.js?m=1583263699g'></script>
+<script src='https://calmatters.org/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.15'></script>
+<script>
+window.lodash = _.noConflict();
+</script>
+<script>
+var epas = {"query":"{\"from\":0,\"size\":10,\"sort\":[{\"_score\":{\"order\":\"desc\"}}],\"query\":{\"function_score\":{\"query\":{\"bool\":{\"should\":[{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"post\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"page\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"tnp_newsletters\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"cal_explainers\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"commentary\"}}]}},{\"bool\":{\"must\":[{\"bool\":{\"must\":[{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":4,\"operator\":\"AND\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"],\"boost\":2,\"fuzziness\":0,\"operator\":\"and\"}},{\"multi_match\":{\"query\":\"ep_autosuggest_placeholder\",\"fields\":[\"post_title^1\",\"post_excerpt^1\",\"post_content^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\"],\"fuzziness\":\"auto\"}}],\"should\":[{\"multi_match\":{\"fields\":[\"post_title^1\",\"post_content^1\",\"post_excerpt^1\",\"post_author.display_name^1\",\"terms.post_tag.name^1\",\"terms.category.name^1\",\"terms.ep_custom_result.name^9999\"]}}]}}],\"filter\":[{\"match\":{\"post_type.raw\":\"tnp_long_form\"}}]}}]}},\"functions\":[{\"exp\":{\"post_date_gmt\":{\"scale\":\"14d\",\"decay\":0.25,\"offset\":\"7d\"}}}],\"score_mode\":\"avg\",\"boost_mode\":\"sum\"}},\"post_filter\":{\"bool\":{\"must\":[{\"terms\":{\"post_type.raw\":[\"post\",\"page\",\"tnp_newsletters\",\"cal_explainers\",\"commentary\",\"tnp_long_form\"]}},{\"term\":{\"post_status\":\"publish\"}}]}}}","placeholder":"ep_autosuggest_placeholder","endpointUrl":"https:\/\/contact-5cc31fb04fd13.clients.hosted-elasticpress.io\/contact-5cc31fb04fd13-calmattersorg-post-2\/autosuggest","selector":"ep-autosuggest","action":"navigate","mimeTypes":[],"triggerAnalytics":"","addSearchTermHeader":"1"};
+</script>
+<script type='text/javascript' src='https://calmatters.org/_static/??-eJyNjUEOAiEQBD/k7sTDbvBgfAvCSIbAQOghft818eBNj52qVNOzL6GpsRr1MpMoiIuHSeiDAYoCowzy0xpmSgxbEIZ0W6vomnGiIyEayoyMtzk18kBog7+Nv04ePrDhR/+YXO8cP/xWr+fNbbu77M7lF4EcTTI='></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202016.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:8.4.2',blog:'163013142',post:'96130',tz:'-7',srv:'calmatters.org'} ]);
+	_stq.push([ 'clickTrackerInit', '163013142', '96130' ]);
+</script>
+
+	</div> <!-- end .site -->
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"54db1a61c9","applicationID":"187794457","transactionName":"ZgEAMhdQCkJTBU1aDF9LIwURWAtfHRVQXQRdAU8SC0E7XV0IXmwFXhYP","queueTime":0,"applicationTime":450,"atts":"SkYXRF9KGR0QBxsJGEwZ","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
