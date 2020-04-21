@@ -2,30 +2,35 @@ import spacy
 from textblob import TextBlob, WordList
 from textblob.tokenizers import SentenceTokenizer
 import json
-import nltk
 import os
-import pickle
 
 from collections import Counter
 
 def main():
-    articles = json.load(open('classifier_test_articles.json'))
-    feature_mappings = get_feature_mappings(articles)
+    feature_mappings = get_feature_mappings()
     with open('features_file.txt', 'w') as feature_file:
-        for i, article in enumerate(articles):
+        for i, article in enumerate(get_articles()):
             print(f'{i} {article["title"]} vectorizing...')
-            feature_file.write(vectorize(feature_mappings, article) + '\n')
-
-
-def get_feature_mappings(articles):
-    all_keywords = set()
-    for i, article in enumerate(articles):
-        print(f'{i} {article["title"]}')
-        all_keywords |= set(WordList(article['keywords']).lemmatize().upper())
-    return {word : i for i, word in enumerate(all_keywords)}
+            feature_file.write(vectorize(feature_mappings, article['title'] + '\n' + article['text'], article['rating']) + '\n')
     
-def vectorize(feature_mappings, article):
-    textblob = TextBlob(article['title'] + '\n' + article['text'])
+def get_articles():
+    return json.load(open('classifier_test_articles.json'))
+
+def get_feature_mappings():
+    feature_mapping_path = 'feature_mappings.json'
+    if not os.path.exists(feature_mapping_path):
+        all_keywords = set()
+        for i, article in enumerate(get_articles()):
+            print(f'{i} {article["title"]}')
+            all_keywords |= set(WordList(article['keywords']).lemmatize().upper())
+        feature_mappings = {word : i for i, word in enumerate(all_keywords)}
+        json.dump(feature_mappings, open(feature_mapping_path, 'w'))
+    else:
+        feature_mappings = json.load(open(feature_mapping_path, 'r'))
+    return feature_mappings
+    
+def vectorize(feature_mappings, article_text, rating):
+    textblob = TextBlob(article_text)
     keywords_in_doc = set(word for word in textblob.words.lemmatize().upper() if word in feature_mappings)
     feature_counter = Counter(feature_mappings[word] for word in keywords_in_doc)
     
@@ -42,7 +47,7 @@ def vectorize(feature_mappings, article):
         feature_counter[2*len(feature_mappings) + feature_mappings[word]] /= n
 
 
-    vector_string = f'{article["rating"]}'
+    vector_string = str(rating)
     for feature_i, count in sorted(feature_counter.items()):
         vector_string += f' {feature_i}:{count}'
     return vector_string
