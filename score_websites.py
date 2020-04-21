@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 from matplotlib.offsetbox import AnchoredText
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
+import difflib
 
 def main():
     create_level_vector_files()
@@ -32,11 +33,15 @@ def create_level_vector_files():
 
         site_scores = Counter()
         all_sides_scores = {}
+        num_articles_per_source = Counter()
         level_weight = 1
         predictions = parallel_classifier(articles)
         for article, prediction in zip(articles, predictions):
             site_scores[article['source']] += (1/(article['level']+1))*prediction
+            num_articles_per_source[article['source']] += 1
             all_sides_scores[article['source']] = article['rating']
+        for key in num_articles_per_source.keys():
+            site_scores[key] /= num_articles_per_source[key]
         json.dump(dict(site_scores), open('site_scores.txt', 'w'), indent=4)
         json.dump(dict(all_sides_scores), open('all_sides_scores.txt', 'w'), indent=4)
     else:
@@ -52,11 +57,14 @@ def create_level_vector_files():
     
     r2 = r2_score(y_all_sides, y_pred)
 
-    fig, ax = plt.subplots()
+    site_rankings = [key for key,_ in sorted(site_scores.items(), key=lambda x: x[1])]
+    all_sides_rankings = [key for key,_ in sorted(zip(site_rankings, [all_sides_scores[site] for site in site_rankings]), key=lambda x: x[1])]
+    
+    print(site_rankings)
+    print(all_sides_rankings)
 
-    #text_box = AnchoredText(box_text, frameon=True, loc=4, pad=0.5)
-    #plt.setp(text_box.patch, facecolor='white', alpha=0.5)
-    #ax.add_artist(text_box)
+    print(f'Similarity of rankings={difflib.SequenceMatcher(None, site_rankings, all_sides_rankings).ratio()}')
+    fig, ax = plt.subplots()
 
     plt.title('Calculated Score vs. AllSides Score')
     plt.ylabel('AllSides Score')
