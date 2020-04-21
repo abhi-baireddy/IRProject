@@ -48,7 +48,7 @@ def load_model():
     return LogisticRegression(solver='saga', random_state=0)  
 
 def load_trained_model():
-    if os.path.exists('left_right_model.pkl'):
+    if not os.path.exists('left_right_model.pkl'):
         X, y = load_training_data()
         model = load_model()
         with warnings.catch_warnings():
