@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="en-US">
+    <head>
+        <!-- Piano ad blocker -->
+        <script>
+            document.cookie = "__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+            var setNptTechAdblockerCookie = function(adblocker) {
+                var d = new Date();
+                d.setTime(d.getTime() + 60 * 60 * 24 * 2 * 1000);
+                document.cookie = "__adblocker=" + (adblocker ? "true" : "false") + "; expires=" + d.toUTCString() + "; path=/";
+            }
+            var script = document.createElement("script");
+            script.setAttribute("async", true);
+            script.setAttribute("src", "//www.npttech.com/advertising.js");
+            script.setAttribute("onerror", "setNptTechAdblockerCookie(true);");
+            document.getElementsByTagName("head")[0].appendChild(script);
+        </script>
+        <!-- End Piano ad blocker -->
+
+        <meta charset="utf-8"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"f5b9626936",applicationID:"224917688"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>U.N. Is Preparing for the Coronavirus to Strike the Most Vulnerable Among Refugees, Migrants, War Victims, and the Internally Displaced</title>
+
+        <meta name="wapoGroupsX" content="default">
+        <meta name="google-site-verification" content="7Z5A6Xlt7BhqqooipJUtw0cu2IjSQ-_RnNbEA2c6pfc">
+        <meta name="apple-itunes-app" content="app-id=1034756405">
+        <meta name="pocket-site-verification" content="21de1071947281ccc893fa0bbfb1f6" />
+        
+                <!-- CANONICAL -->
+        <link rel="canonical" href="https://foreignpolicy.com/2020/03/23/coronavirus-hitting-developing-countries-war-zones-united-nations-urgent-donation-appeal-syria-gaza-yemen-south-sudanthe-next-wave/">
+
+                    <!-- FB Tags -->
+            <meta property="og:title" content="The Next Wave">
+            <meta property="og:image" content="https://foreignpolicy.com/wp-content/uploads/2020/03/Syria-Coronavirus-Camp-GettyImages-1207932575.jpg">
+            <meta property="og:url" content="https://foreignpolicy.com/2020/03/23/coronavirus-hitting-developing-countries-war-zones-united-nations-urgent-donation-appeal-syria-gaza-yemen-south-sudanthe-next-wave/">
+            <meta property="og:description" content="U.N. and relief agencies warn the coronavirus pandemic could leave an even bigger path of destruction in the world’s most vulnerable and conflict-riven countries.">
+            <meta property="og:site_name" content="Foreign Policy">
+            <meta property="fb:app_id" content="107151292643652" />
+            <meta property="og:type" content="article" />
+
+            <!-- Twitter Tags -->
+            <meta name="twitter:card" content="summary_large_image">
+            <meta name="twitter:site" content="@ForeignPolicy">
+            <meta name="twitter:title" content="The Next Wave">
+            <meta name="twitter:description" content="U.N. and relief agencies warn the coronavirus pandemic could leave an even bigger path of destruction in the world’s most vulnerable and conflict-riven countries.">
+            <meta name="twitter:image" content="https://foreignpolicy.com/wp-content/uploads/2020/03/Syria-Coronavirus-Camp-GettyImages-1207932575.jpg">
+            <meta property="twitter:domain" value="foreignpolicy.com"/>
+
+            <!-- Author Tags -->
+            <meta property="article:author" content="Colum Lynch, Robbie Gramer">
+            <meta name="author" content="Colum Lynch, Robbie Gramer">
+
+        
+                
+        
+
+        <!-- Preload fonts -->
+        <link rel="preload" href="/wp-content/themes/foreign-policy-2017/assets/dist/fonts/tiempos--normal--600.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/wp-content/themes/foreign-policy-2017/assets/dist/fonts/dala-moa--normal--800.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/wp-content/themes/foreign-policy-2017/assets/dist/fonts/solido--normal--400.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/wp-content/themes/foreign-policy-2017/assets/dist/fonts/tiempos--normal--400.woff2" as="font" type="font/woff2" crossorigin>
+                <link rel="preload" href="/wp-content/themes/foreign-policy-2017/assets/dist/fonts/solido-condensed--normal--600.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/wp-content/themes/foreign-policy-2017/assets/dist/fonts/solido--normal--800.woff2" as="font" type="font/woff2" crossorigin>
+        
+
+        <meta
+    name="application-name"
+    content="Foreign Policy">
+<meta
+    name="apple-mobile-web-app-title"
+    content="Foreign Policy">
+<meta name="theme-color" content="#eb372e">
+<meta name="msapplication-TileColor" content="#eb372e">
+<meta
+    name="msapplication-TileImage"
+    content="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/logos/favicon-256.png">
+<link
+    rel="apple-touch-icon"
+    sizes="192x192"
+    type="image/png"
+    href="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/logos/favicon-192.png">
+<link
+    rel="icon"
+    sizes="192x192"
+    type="image/png"
+    href="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/logos/favicon-192.png">
+<link
+    rel="icon"
+    sizes="16x16 32x32"
+    type="image/x-icon"
+    href="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/logos/favicon.ico">
+        <script>
+    window.FP = window.FP || {};
+    FP.Config = {"api":{"ip_access":"https:\/\/foreignpolicy.com\/r\/api\/ip-access\/","link_access":"https:\/\/foreignpolicy.com\/r\/api\/link-access\/{0}\/","users_by_id":"https:\/\/foreignpolicy.com\/r\/api\/users\/{0}\/"},"context":{"is_home":false,"is_sponsored":false,"is_events":false,"is_chinadaily":false},"current_site_admin_hostname":"foreignpolicy.com","current_site_hostname":"foreignpolicy.com","fonts":[{"family":"Dala Moa","option":{"style":"normal","weight":800}},{"family":"Solido","option":{"style":"normal","weight":400}},{"family":"Tiempos","option":{"style":"normal","weight":400}},{"family":"Tiempos","option":{"style":"normal","weight":600}},{"family":"Solido","option":{"style":"normal","weight":800}},{"family":"Solido Condensed","option":{"style":"normal","weight":600}}],"is_production":true,"marketing":{"after_content_messaging":"<p>Like this article? Read an unlimited number of articles, plus access to our entire 47-year printed archive, the FP App, and the Digital Magazine when you <strong><a href=\"https:\/\/foreignpolicy.com\/subscribe?utm_source=AMP%20-%20Launched%2018_08_23&amp;utm_medium=AMP&amp;utm_campaign=Premium\">subscribe to FP Premium<\/a><\/strong>!<\/p>","after_content_messaging_fbia":"<p>Like this article? Read an unlimited number of articles, plus access to our entire 47-year printed archive, the FP App, and the Digital Magazine when you <strong><a href=\"https:\/\/foreignpolicy.com\/subscribe?utm_source=FBIA%20-%20Launched%2018_09_04&amp;utm_medium=FBIA&amp;utm_campaign=Premium\">subscribe to FP Premium<\/a><\/strong>!<\/p>"},"misc":{"current_magazine_issue":{"isset":true,"link":"https:\/\/foreignpolicy.com\/the-magazine\/"}},"referrers":["google.com"],"user":{"login_url":"https:\/\/fp-reg.onecount.net\/onecount\/login\/loginlogout.cgi","logout_url":"https:\/\/fp-reg.onecount.net\/onecount\/login\/loginlogout.cgi","edit_profile_url":"https:\/\/fp-reg.onecount.net\/onecount\/flexreg\/displayform.php?g=0&form=387","registration_url":"http:\/\/fp-reg.onecount.net\/onecount\/flexreg\/displayform.php?form=137&brand=fp","customer_service_url":"https:\/\/subscribe.foreignpolicy.com\/FRP\/?f=custcare","view_count_limit":null,"paywall_resource_id":null,"registration_product_ids":[34],"subscription_product_ids":[26,235],"premium_product_ids":[145],"newsletter_ids":[177,185,129,161,227,317]},"widgets":[]};
+    window.lazySizesConfig = window.lazySizesConfig || {};
+    lazySizesConfig = {"lazyClass":"-lazy","preloadClass":"-preloaded","loadingClass":"-loading","loadedClass":"-loaded"};
+</script>
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//cdn.taboola.com' />
+<link rel='dns-prefetch' href='//c.jsrdn.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Foreign Policy &raquo; The Next Wave Comments Feed" href="https://foreignpolicy.com/2020/03/23/coronavirus-hitting-developing-countries-war-zones-united-nations-urgent-donation-appeal-syria-gaza-yemen-south-sudanthe-next-wave/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/foreignpolicy.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='FP__styles__components__power_maps_font-css'  href='https://fonts.googleapis.com/css?family=Bebas+Neue&#038;display=swap&#038;ver=1.0.0' media='all' />
+<link rel='stylesheet' id='all-css-2' href='https://foreignpolicy.com/_static/??-eJytksFqw0AMRH+oipKASXso/ZQg7yr21trVspIT/Pd1gm+9tb4JMfMGDcJHhVSCzJENgxnGZI69aJhAUt+oLWi+CB9yKodV8IarI2hxLo4+cl59N22chgJVJYUFzsfTBcmMfcO9AIY9GeM1079BQXPVsvoMbaTGcW/qyBS57U2tuq53ZmYqNOze6k3V/3K/OXkKG3DkZwJFAxJubsC96gSVlgeJgNPEeudmkLVPwkDxmpMFEB4oLL9i8wxV5iEVw2/2SmF6/es2P+Vf+fPUvV+O3fmj634A6M0PGw==' type='text/css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<script type="application/javascript">var googletag=googletag||{};googletag.cmd=googletag.cmd||[];googletag.cmd.push(	function(){googletag.pubads().disableInitialLoad()});</script><script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+<script type='text/javascript' src='https://foreignpolicy.com/_static/??-eJytkdFqwzAMRX9ojppB2u5h7FsUW0kUbMlYXkbz9U2hr31IuhchBOcI7oW/7LxKJalQJ0pkMGghHsVljexv7vPUXgDNqBpY8WC+cN72hSRoAbKzy0UTGzX4W7WZ7QPelQ4bPKAn7Y3KQqWxihIwqtB7/ufp4bcdpu19ZQ+zwVRT7Gzi5RBdyLJKOMSOUXuM/xJvxPVmvNKeCF7bMOGq4noOgWV0to34qOknfbfd9XxtT91XO98Ba6XjFA=='></script>
+<script src='//c.jsrdn.com/s/cs.js?p=22420'></script>
+<script>
+var FPSharesEndpoint = {"endpoint":"https:\/\/foreignpolicy.com\/_share_count\/"};
+var ajaxurl = {"ajaxurl":"https:\/\/foreignpolicy.com\/wp-admin\/admin-ajax.php"};
+</script>
+<script type='text/javascript' src='https://foreignpolicy.com/_static/??-eJyVzFEOgjAQRdENMUxBUH8Ma2makU4DLekbMO5eWIJ/N7nJ4c9GoWSTbGxRVgG/SxWdM21l0fCl3nUPhnnTwAkMf2iezwkjRF8FbULD/zK+hqiHEOQqOpl9sYua1lc3Pof7zblhTD9FTjjw'></script>
+<link rel='https://api.w.org/' href='https://foreignpolicy.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://foreignpolicy.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://foreignpolicy.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4" />
+<link rel="canonical" href="https://foreignpolicy.com/2020/03/23/coronavirus-hitting-developing-countries-war-zones-united-nations-urgent-donation-appeal-syria-gaza-yemen-south-sudanthe-next-wave/" />
+<link rel='shortlink' href='https://bit.ly/2xgtGU0' />
+<link rel="alternate" type="application/json+oembed" href="https://foreignpolicy.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fforeignpolicy.com%2F2020%2F03%2F23%2Fcoronavirus-hitting-developing-countries-war-zones-united-nations-urgent-donation-appeal-syria-gaza-yemen-south-sudanthe-next-wave%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://foreignpolicy.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fforeignpolicy.com%2F2020%2F03%2F23%2Fcoronavirus-hitting-developing-countries-war-zones-united-nations-urgent-donation-appeal-syria-gaza-yemen-south-sudanthe-next-wave%2F&#038;format=xml" />
+<style type='text/css'>img#wpstats{display:none}</style>		<style>
+		.getty.alignleft {
+			margin-right: 5px;
+		}
+		.getty.alignright {
+			margin-left: 5px;
+		}
+		</style>
+		<link rel="icon" href="https://foreignpolicy.com/wp-content/uploads/2017/12/cropped-favicon-512_2017.png?w=32" sizes="32x32" />
+<link rel="icon" href="https://foreignpolicy.com/wp-content/uploads/2017/12/cropped-favicon-512_2017.png?w=192" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://foreignpolicy.com/wp-content/uploads/2017/12/cropped-favicon-512_2017.png?w=180" />
+<meta name="msapplication-TileImage" content="https://foreignpolicy.com/wp-content/uploads/2017/12/cropped-favicon-512_2017.png?w=270" />
+
+        
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-6874192-41"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    // Add additional data for GA / GTM
+    dataLayer.push({
+        'author': "Colum Lynch, Robbie Gramer",
+        'category': "Exclusive", 
+        'datePublished': "2020-03-23",
+        'editor': "Michael Hirsch",
+        'region': "Africa",
+        'tags': "Africa, coronavirus, disease, Exclusive, Foreign Aid, Middle East, south sudan, Syria, United Nations, Yemen", 
+        'vertical': "Africa, Middle East &amp; Africa, News",
+        'pageType': "Article",
+        'inMagazine': "",
+        // Values below defined after OC JS runs
+        'accessId': "",
+        'accessGroup': "",
+        'subscriberState': ""
+    });
+
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    // GA set config and WP post content group
+    // GA track page group -  syntax: gtag('config', 'GA_TRACKING_ID', {'content_group5': '/news/sports'});
+    if ('undefined' !== typeof realReferer && '' !== document.referrer && realReferer !== document.referrer) {
+        // ONECount tracking override
+        dataLayer.push({
+            'dimension2': 'LID',
+            'dimension3': 'RGRP',
+            'dimension4': 'VID',
+            'realReferer': realReferer,
+            // track category as content group, may be replaced by dataLayer below
+            'content_group1': "Exclusive"        });
+    } else {
+        // Standard tracking
+        dataLayer.push({
+            'dimension2': 'LID',
+            'dimension3': 'RGRP',
+            'dimension4': 'VID',
+            // track category as content group, may be replaced by dataLayer below
+            'content_group1': "Exclusive"        });
+    }
+</script>
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KVBCHJC');</script>
+        <!-- End Google Tag Manager -->
+
+        
+        <script type="text/javascript">googletag.cmd.push( function(){ googletag.pubads().setTargeting("tags",["Africa","coronavirus","disease","Exclusive","Foreign Aid","Middle East","south sudan","Syria","United Nations","Yemen","Exclusive"]) });</script><script type="text/javascript">googletag.cmd.push( function(){ googletag.pubads().setTargeting("postID","999128") });</script><script type="text/javascript">googletag.cmd.push( function(){ googletag.pubads().setTargeting("author",["Colum Lynch","Robbie Gramer"]) });</script>            </head>
+    <body class="post-template-default single single-post postid-999128 single-format-standard site-root">
+
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVBCHJC"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <div id="site-wrapper">            <header class="site-header">
+                <a href="https://foreignpolicy.com/" class="logo">
+    <svg class="site-icon -inline -textonly" width="75" height="47.5" viewBox="0 0 75 47.5"><path fill="#EE3524" d="M39.4,8.7H40V0.5H0v0.8c4.5,0.2,7.4,0.8,7.4,4.9v36c0,4.2-2.9,4.8-7.4,4.9V48h26.2v-0.8c-5.2-0.3-9-0.8-9-4.9
+		V25.2h8.7c3,0,4.2,2.2,4.9,6.2h0.5V18h-0.5c-0.7,4-1.9,6.2-4.9,6.2h-8.7V1.3h13.3C35.9,1.3,37.7,2.8,39.4,8.7 M52.9,25.2h6.2
+		c11.1,0,15.9-5.8,15.9-13.1c0-6.4-4.5-11.7-17.3-11.7H40.9l0,41.8c0,4.2-2.9,4.8-7.4,4.9V48h27.3v-0.8c-5.2-0.3-9-0.8-9-4.9V1.5
+		h3.4c6.1,0,9.5,5.5,9.5,12c0,7.5-3.5,10.8-9.6,10.8h-2.4V25.2z"/></svg><!--hide-mobile-->
+<!--svg class="site-icon -inline -textonly hide-desktop" width="75" height="47.5" viewBox="0 0 75 47.5"><path fill="#FFFFFF" d="M39.4,8.7H40V0.5H0v0.8c4.5,0.2,7.4,0.8,7.4,4.9v36c0,4.2-2.9,4.8-7.4,4.9V48h26.2v-0.8c-5.2-0.3-9-0.8-9-4.9
+		V25.2h8.7c3,0,4.2,2.2,4.9,6.2h0.5V18h-0.5c-0.7,4-1.9,6.2-4.9,6.2h-8.7V1.3h13.3C35.9,1.3,37.7,2.8,39.4,8.7 M52.9,25.2h6.2
+		c11.1,0,15.9-5.8,15.9-13.1c0-6.4-4.5-11.7-17.3-11.7H40.9l0,41.8c0,4.2-2.9,4.8-7.4,4.9V48h27.3v-0.8c-5.2-0.3-9-0.8-9-4.9V1.5
+		h3.4c6.1,0,9.5,5.5,9.5,12c0,7.5-3.5,10.8-9.6,10.8h-2.4V25.2z"/></svg-->    <span class="hide">Foreign Policy Magazine</span>
+</a>
+
+                <div class="header-nav-wrapper">
+                    <nav class="header-nav">
+                        <div class="header-mobile-subnav">
+                            <ul class="manage-account account">
+                                <li class="header-menu-item">
+                                    <a href="#" class="navlink -top -user -signin FP-paywall--login">Sign In</a>
+                                </li>
+                                <li class="header-menu-item subscribe-link">
+                                    <a href="/subscribe" class="navlink -top -user -emph subscribe-prompt">
+                                        <span class="subscribe--long">Subscribe</span>
+                                        <span class="subscribe--short">Subscribe</span>
+                                    </a>
+                                    <a href="/subscribe" class="navlink -top -user -emph upgrade-to-insider-prompt">
+                                        <span class="subscribe--long">Upgrade to Insider</span>
+                                        <span class="subscribe--short">Upgrade to Insider</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header-nav-main">
+                            <ul class="header-menu -top">
+                                <li class="header-menu-item hide-desktop">
+                                    <a href="/category/latest/" class="navlink red">Latest</a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="/channel/news/" class="navlink">News</a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="/channel/analysis/" class="navlink">Analysis</a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="/podcasts/" class="navlink">Podcasts</a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="/the-magazine/" class="navlink">The Magazine</a>
+                                </li>
+                                <li class="header-menu-item -parent">
+                                    <a class="navlink">Channels</a>
+                                    <ul class="header-menu -top">
+                                        <li class="header-menu-item"><a href="/channel/economics/" class="navlink">Economics</a></li>
+                                        <li class="header-menu-item"><a href="/channel/security-2/" class="navlink">Security</a></li>
+                                        <li class="header-menu-item"><a href="/category/elephants-in-the-room/" class="navlink">Elephants in the Room</a></li>
+                                        <li class="header-menu-item"><a href="/category/shadow-government/" class="navlink">Shadow Government</a></li>
+                                        <li class="header-menu-item"><a href="/channel/her-power/" class="navlink">Her Power</a></li>
+                                    </ul>
+                                    <span class="close-nav">
+                                        <img draggable="false" class="emoji" alt="❌" src="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/icons/close.svg" />&nbsp;&nbsp;Close
+                                    </span>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="/newsletters/" class="navlink">Newsletters</a>
+                                </li>
+                            </ul>
+
+                            <div class="header-insider-menu">
+                                <p><a href="/fpinsider/" class="red"><span class="insider-only-text hide">Your </span>FP Insider Access:</a></p>
+                                <ul>
+                                    <li><a href="/power-maps">Power Maps</a></li>
+                                    <li><a href="/conference-calls">Conference Calls</a></li>
+                                    <li><a href="/special-reports">Special Reports</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="header-mobile-subnav">
+                            <div class="expando-search">
+    <div class="icon">
+        <svg viewBox="0 0 18 18">
+	<circle class="search-icon" cx="7.5" cy="7.3" r="6.5"/>
+	<line class="search-icon" x1="12.1" y1="11.9" x2="17.5" y2="17.3"/>
+</svg>    </div>
+        <form role="search" method="get" id="searchform-mobile" class="searchform" action="/">
+    	<label class="hide" for="searchfield-mobile">Search</label>
+    	<input class="search" type="search" name="s" id="searchfield-mobile" />
+    	<input type="submit" value="search-submit" style="display:none" />
+    </form>
+</div>
+                                                        <div class="latest-posts-nav">
+                                <h2 class="title">latest</h2>
+                                <div class="grid--container">
+                                    <div class="grid--flex no-border grid__fourth">
+                                                                                <div>
+                                            <div class="excerpt-content -noimage">
+    <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2020/04/20/north-korea-trump-advance-nuclear-ambitions/">
+    <h3 class="hed">North Korea Continues to Flout Trump, Advance Nuclear Ambitions</h3>
+</a>
+<div class="dek-heading -excerpt">
+    <p class="dek">A U.N. panel concludes that the U.S. president’s outreach to Kim Jong Un has changed little in his behavior. </p>
+</div>
+<div class="meta-data -excerpt">
+        <a
+        href="https://foreignpolicy.com/category/news/report/"
+        class="department-name -excerpt">
+        Report    </a>
+        <span class="separator">|</span>
+        <address class="author-list -excerpt">
+    <a
+        href="https://foreignpolicy.com/author/colum-lynch/"
+        rel="author"
+        class="author">
+    Colum Lynch</a></address>
+
+</div>
+</div>
+                                        </div>
+                                                                                <div>
+                                            <div class="excerpt-content -noimage">
+    <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2020/04/20/united-states-cant-ditch-china-yet-diplomacy/">
+    <h3 class="hed">The United States Can’t Ditch China Yet</h3>
+</a>
+<div class="dek-heading -excerpt">
+    <p class="dek">Fraying ties need not spell the end of the U.S.-China relationship. </p>
+</div>
+<div class="meta-data -excerpt">
+        <a
+        href="https://foreignpolicy.com/category/analysis/argument/"
+        class="department-name -excerpt">
+        Argument    </a>
+        <span class="separator">|</span>
+        <address class="author-list -excerpt">
+    <a
+        href="https://foreignpolicy.com/author/doug-bandow/"
+        rel="author"
+        class="author">
+    Doug Bandow</a></address>
+
+</div>
+</div>
+                                        </div>
+                                                                                <div>
+                                            <div class="excerpt-content -noimage">
+    <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2020/04/20/gas-pipeline-wetsuweten-coronavirus-pandemic-indigenous-sovereignty-canada-oil/">
+    <h3 class="hed">The Pandemic Is Slicing Away Indigenous Sovereignty in Canada</h3>
+</a>
+<div class="dek-heading -excerpt">
+    <p class="dek">The Wet’suwet’en ended pipeline protests for safety’s sake, but the police aren’t following the rules. </p>
+</div>
+<div class="meta-data -excerpt">
+        <a
+        href="https://foreignpolicy.com/category/analysis/argument/"
+        class="department-name -excerpt">
+        Argument    </a>
+        <span class="separator">|</span>
+        <address class="author-list -excerpt">
+    <a
+        href="https://foreignpolicy.com/author/taylor-noakes/"
+        rel="author"
+        class="author">
+    Taylor Noakes</a></address>
+
+</div>
+</div>
+                                        </div>
+                                                                                <div>
+                                            <div class="excerpt-content -noimage">
+    <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2020/04/20/europe-refugees-coronavirus-deportations-health-care/">
+    <h3 class="hed">In Europe, the Lives of Refugees Are on Hold</h3>
+</a>
+<div class="dek-heading -excerpt">
+    <p class="dek">The pandemic proves a mixed blessing: Deportations are suspended but so is health care.</p>
+</div>
+<div class="meta-data -excerpt">
+        <a
+        href="https://foreignpolicy.com/category/news/dispatch/"
+        class="department-name -excerpt">
+        Dispatch    </a>
+        <span class="separator">|</span>
+        <address class="author-list -excerpt">
+    <a
+        href="https://foreignpolicy.com/author/emran-feroz/"
+        rel="author"
+        class="author">
+    Emran Feroz</a></address>
+
+</div>
+</div>
+                                        </div>
+                                                                            </div>
+                                </div>
+                                <div class="read-more">
+                                    <a href="/category/latest/">See All Stories</a>
+                                </div>
+                            </div>
+
+                            <div class="header-footer-nav">
+                                <span>
+                                    <ul id="menu-footer-column-1" class="mobile-subnav-menu"><li id="menu-item-783354" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-783354 header-menu-item"><a href="https://foreignpolicy.com/staff/" class="navlink">Meet the Staff</a></li>
+<li id="menu-item-988928" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-988928 header-menu-item"><a href="https://foreignpolicy.com/events" class="navlink">FP Events</a></li>
+<li id="menu-item-993024" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-993024 header-menu-item"><a href="https://foreignpolicy.com/fp-analytics/" class="navlink">FP Analytics</a></li>
+<li id="menu-item-1002749" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1002749 header-menu-item"><a href="https://foreignpolicy.com/fp-peacegames/" class="navlink">FP PeaceGames</a></li>
+</ul><ul id="menu-footer-column-2" class="mobile-subnav-menu"><li id="menu-item-993038" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-993038 header-menu-item"><a href="https://foreignpolicy.com/subscription-services/" class="navlink">Subscription Services</a></li>
+<li id="menu-item-988929" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-988929 header-menu-item"><a href="https://foreignpolicy.com/reprint-permissions/" class="navlink">Reprint Permissions</a></li>
+<li id="menu-item-939400" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-939400 header-menu-item"><a href="https://foreignpolicy.submittable.com/submit" class="navlink">Writer&#8217;s Guidelines</a></li>
+<li id="menu-item-1002750" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1002750 header-menu-item"><a href="/employment-opportunities/" class="navlink">Work at FP</a></li>
+</ul>                                </span>
+                                <span>
+                                    <ul id="menu-footer-column-3" class="mobile-subnav-menu"><li id="menu-item-927960" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-927960 header-menu-item"><a href="https://fpguide.foreignpolicy.com/2020-career" class="navlink">FP Guides &#8211; Graduate Education</a></li>
+<li id="menu-item-996597" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-996597 header-menu-item"><a href="https://foreignpolicy.com/fp-for-education/" class="navlink">FP For Education</a></li>
+<li id="menu-item-660886" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-660886 header-menu-item"><a href="/magazine" class="navlink">FP Archive</a></li>
+<li id="menu-item-660961" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-660961 header-menu-item"><a href="https://foreignpolicy.com/buy-back-issues/" class="navlink">Buy Back Issues</a></li>
+</ul><ul id="menu-footer-column-4" class="mobile-subnav-menu"><li id="menu-item-993026" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-993026 header-menu-item"><a href="https://foreignpolicy.com/advertise-with-foreign-policy/" class="navlink">Advertise with FP</a></li>
+<li id="menu-item-988932" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-988932 header-menu-item"><a href="https://foreignpolicy.com/privacy/" class="navlink">Privacy Policy</a></li>
+<li id="menu-item-660967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-660967 header-menu-item"><a href="https://foreignpolicy.com/contact-us/" class="navlink">Contact Us</a></li>
+</ul>                                </span>
+                            </div>
+                        </div>
+
+                    </nav>
+                </div>
+
+                <div class="header-subnav-wrapper">
+                    <nav class="header-subnav">
+                        <ul class="header-menu -top">
+                            <li class="header-menu-item">
+                                <a href="#" class="navlink -top -user -signin FP-paywall--login">Sign In</a>
+                            </li>
+                            <li class="header-menu-item subscribe-link">
+                                <a href="/subscribe" class="navlink -top -user -emph subscribe-prompt">
+                                    <span class="subscribe--long">Subscribe</span>
+                                    <span class="subscribe--short">Subscribe</span>
+                                </a>
+                                <a href="/subscribe" class="navlink -top -user -emph upgrade-to-insider-prompt">
+                                    <span class="subscribe--long">Upgrade to Insider</span>
+                                    <span class="subscribe--short">Upgrade</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <div class="expando-search">
+    <div class="icon">
+        <svg viewBox="0 0 18 18">
+	<circle class="search-icon" cx="7.5" cy="7.3" r="6.5"/>
+	<line class="search-icon" x1="12.1" y1="11.9" x2="17.5" y2="17.3"/>
+</svg>    </div>
+        <form role="search" method="get" id="searchform-desktop" class="searchform" action="/">
+    	<label class="hide" for="searchfield-desktop">Search</label>
+    	<input class="search" type="search" name="s" id="searchfield-desktop" />
+    	<input type="submit" value="search-submit" style="display:none" />
+    </form>
+</div>
+                    </nav>
+                </div>
+                
+                <button class="hamburger-button">
+    <span class="line"></span>
+    <span class="hide">Toggle display of website navigation</span>
+</button>
+
+                                <div class="header-alt-layout__title">
+                    <p class="header-alt-title">
+                                                <span class="department-title">
+                            Exclusive:
+                        </span>
+                                                <span class="header-alt-title__desktop">
+                            The Next Wave                        </span>
+                        <span class="header-alt-title__mobile">
+                            The Next Wave...                        </span>
+                    </p>
+                    <div class="header-social-shares">
+                        <span class="share-title">SHARE:</span>
+                        <a data-endpoint="facebook" data-title="The Next Wave" data-text="U.N. and relief agencies warn the coronavirus pandemic could leave an even bigger path of destruction in the world’s most vulnerable and conflict-riven countries." data-url="https://foreignpolicy.com/2020/03/23/coronavirus-hitting-developing-countries-war-zones-united-nations-urgent-donation-appeal-syria-gaza-yemen-south-sudanthe-next-wave/" onclick="socialshares.share(this);">
+                            <img src="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/icons/facebook_blue.svg" alt="Share on Facebook" class="facebook-button" />
+                        </a>
+                        <a data-endpoint="twitter" data-title="U.N. and relief agencies warn the coronavirus pandemic could leave an even bigger path of destruction in the world’s most vulnerable and conflict-riven countries." data-text="U.N. and relief agencies warn the coronavirus pandemic could leave an even bigger path of destruction in the world’s most vulnerable and conflict-riven countries." data-url="https://foreignpolicy.com/2020/03/23/coronavirus-hitting-developing-countries-war-zones-united-nations-urgent-donation-appeal-syria-gaza-yemen-south-sudanthe-next-wave/" onclick="socialshares.share(this);">
+                            <img src="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/icons/twitter_blue.svg" alt="Share on Twitter" class="twitter-button" />
+                        </a>
+                        <a data-endpoint="linkedin" data-title="The Next Wave" data-text="U.N. and relief agencies warn the coronavirus pandemic could leave an even bigger path of destruction in the world’s most vulnerable and conflict-riven countries." data-url="https://foreignpolicy.com/2020/03/23/coronavirus-hitting-developing-countries-war-zones-united-nations-urgent-donation-appeal-syria-gaza-yemen-south-sudanthe-next-wave/" onclick="socialshares.share(this);">
+                            <img src="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/icons/linkedin_blue.svg" alt="Share on LinkedIn" class="linkedin-button" />
+                        </a>
+                        <a href="#" title="Print" onclick="window.print();">
+                            <img src="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/icons/print_black.svg" alt="Print this page" class="print-button" />
+                        </a>
+                        <a href="mailto:?subject=Check%20out%20this%20story%20on%20Foreign%20Policy&amp;body=The Next Wave%20-%20https://foreignpolicy.com/2020/03/23/coronavirus-hitting-developing-countries-war-zones-united-nations-urgent-donation-appeal-syria-gaza-yemen-south-sudanthe-next-wave/%2F" title="Share via Email">
+                            <img src="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/icons/email_black.svg" alt="Share via Email" class="email-button" />
+                        </a>
+                                            </div>
+                </div>
+                        
+
+        </header>
+
+
+<div id="main" data-context="article" class="feature-template default_text_style text_above_photo  ">
+
+	<div class="post-content" data-post-id="999128" data-premium="no" data-premium-trigger="yes" data-whitelist="">
+
+		<article class="article" data-post-id="999128" data-post-url="https://foreignpolicy.com/2020/03/23/coronavirus-hitting-developing-countries-war-zones-united-nations-urgent-donation-appeal-syria-gaza-yemen-south-sudanthe-next-wave/" data-lfcollectionmeta="eyJ0eXAiOiJqd3QiLCJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6IlRoZSBOZXh0IFdhdmUiLCJ1cmwiOiJodHRwczpcL1wvZm9yZWlnbnBvbGljeS5jb21cLzIwMjBcLzAzXC8yM1wvY29yb25hdmlydXMtaGl0dGluZy1kZXZlbG9waW5nLWNvdW50cmllcy13YXItem9uZXMtdW5pdGVkLW5hdGlvbnMtdXJnZW50LWRvbmF0aW9uLWFwcGVhbC1zeXJpYS1nYXphLXllbWVuLXNvdXRoLXN1ZGFudGhlLW5leHQtd2F2ZVwvIiwic3RyZWFtX3R5cGUiOiJsaXZlY29tbWVudHMiLCJjaGVja3N1bSI6IjcxNzViNDJlOTE5MDgxY2ZlMjFjOTQ0MzZmM2YyY2UyIiwiYXJ0aWNsZUlkIjoiZm9yZWlnbnBvbGljeV93cF85OTkxMjgifQ.RtAQpR51tk-LqjqvXZA05zq-MgdlOBf_9ZTSSTg_6YE" data-lfchecksum="7175b42e919081cfe21c94436f3f2ce2" data-lfarticleid="foreignpolicy_wp_999128">
+
+			
+				
+
+<div class="feature-header-text">
+
+<a
+    href="https://foreignpolicy.com/category/news/exclusive/"
+    class="department-name">
+    <h3 class="department">Exclusive</h3></a>
+<span
+    class="hed-heading"
+    href="https://foreignpolicy.com/2020/03/23/coronavirus-hitting-developing-countries-war-zones-united-nations-urgent-donation-appeal-syria-gaza-yemen-south-sudanthe-next-wave/">
+    <h1 class="hed">The Next Wave</h1>
+</span>
+<h2 class="dek-heading">U.N. and relief agencies warn the coronavirus pandemic could leave an even bigger path of destruction in the world’s most vulnerable and conflict-riven countries.</h2>
+<div class="meta-data ">
+    <address class="author-list">
+    <span class="pre">By</span>
+    <a
+        href="https://foreignpolicy.com/author/colum-lynch/"
+        rel="author"
+        class="author">
+    Colum Lynch</a><span class="separator">,</span> <a
+        href="https://foreignpolicy.com/author/robbie-gramer/"
+        rel="author"
+        class="author">
+    Robbie Gramer</a></address>
+    <span class="separator">|</span>
+    <time
+    pubdate
+    datetime="2020-03-23"
+    title="March 23rd, 2020"
+    class="date-time">
+March 23, 2020, 9:16 AM</time>
+</div>
+
+</div>
+
+
+
+				<figure class="figure-image ">
+            <span
+            style="padding-bottom:66.666666666667%;
+        "
+                class="image-attachment -ratioscale  horizontal-orientation">
+        <img
+            data-sizes="(max-width: 1024px) 100vw, 1024px"
+            data-srcset="https://foreignpolicy.com/wp-content/uploads/2020/03/Syria-Coronavirus-Camp-GettyImages-1207932575.jpg?quality=90 1500w, https://foreignpolicy.com/wp-content/uploads/2020/03/Syria-Coronavirus-Camp-GettyImages-1207932575.jpg?resize=150,100&amp;quality=90 150w, https://foreignpolicy.com/wp-content/uploads/2020/03/Syria-Coronavirus-Camp-GettyImages-1207932575.jpg?resize=550,367&amp;quality=90 550w, https://foreignpolicy.com/wp-content/uploads/2020/03/Syria-Coronavirus-Camp-GettyImages-1207932575.jpg?resize=768,512&amp;quality=90 768w, https://foreignpolicy.com/wp-content/uploads/2020/03/Syria-Coronavirus-Camp-GettyImages-1207932575.jpg?resize=400,267&amp;quality=90 400w, https://foreignpolicy.com/wp-content/uploads/2020/03/Syria-Coronavirus-Camp-GettyImages-1207932575.jpg?resize=401,267&amp;quality=90 401w, https://foreignpolicy.com/wp-content/uploads/2020/03/Syria-Coronavirus-Camp-GettyImages-1207932575.jpg?resize=800,533&amp;quality=90 800w, https://foreignpolicy.com/wp-content/uploads/2020/03/Syria-Coronavirus-Camp-GettyImages-1207932575.jpg?resize=275,183&amp;quality=90 275w, https://foreignpolicy.com/wp-content/uploads/2020/03/Syria-Coronavirus-Camp-GettyImages-1207932575.jpg?resize=325,217&amp;quality=90 325w, https://foreignpolicy.com/wp-content/uploads/2020/03/Syria-Coronavirus-Camp-GettyImages-1207932575.jpg?resize=600,400&amp;quality=90 600w"
+            data-src="https://foreignpolicy.com/wp-content/uploads/2020/03/Syria-Coronavirus-Camp-GettyImages-1207932575.jpg?w=1024&#038;h=683&#038;quality=90"
+            sizes="(max-width: 1024px) 100vw, 1024px"
+            src=""
+            alt="A member of the Syrian relief group Violet Organization disinfects tents"
+            style="height:auto;"
+            class="image -fit -lazy"
+        >
+        <noscript>
+            <img
+                src="https://foreignpolicy.com/wp-content/uploads/2020/03/Syria-Coronavirus-Camp-GettyImages-1207932575.jpg?w=1024&#038;h=683&#038;quality=90"
+                alt="A member of the Syrian relief group Violet Organization disinfects tents"
+                class="image -fit-3-2">
+        </noscript>
+        </span>
+                    <div class="caption">
+            A member of the Syrian relief group Violet Organization disinfects tents at a camp for displaced people in Kafr Jalis village, north of Idlib, Syria, on March 21.             <span class="attribution">OMAR HAJ KADOUR/AFP via Getty Images</span>
+        </div>
+    </figure>
+
+
+				
+			
+						
+			<div class="post-content-main initial-drop-cap shares-position">
+								<p>The United Nations is preparing to issue a major funding <a href="http://webtv.un.org/">appeal</a> for more than $1.5 billion on Wednesday to prepare for outbreaks of the new coronavirus in areas suffering some of the worst humanitarian crises in the world, including Gaza, Myanmar, Syria, South Sudan, and Yemen, according to diplomatic and relief officials familiar with the plan.</p>
+<div id="attachment_997751" class="wp-caption alignnone none text_wrap_right"><a href="https://foreignpolicy.com/projects/coronavirus-wuhan-china-pandemic-outbreak-guide-2020/">            <span
+                style="padding-bottom:56.25%;
+        "
+                class="image-attachment -ratioscale">
+        <img
+            data-srcset="https://foreignpolicy.com/wp-content/uploads/2020/03/Inset_label_Coronavirus.png 1500w, https://foreignpolicy.com/wp-content/uploads/2020/03/Inset_label_Coronavirus.png?resize=150,84 150w, https://foreignpolicy.com/wp-content/uploads/2020/03/Inset_label_Coronavirus.png?resize=550,309 550w, https://foreignpolicy.com/wp-content/uploads/2020/03/Inset_label_Coronavirus.png?resize=768,432 768w, https://foreignpolicy.com/wp-content/uploads/2020/03/Inset_label_Coronavirus.png?resize=400,225 400w, https://foreignpolicy.com/wp-content/uploads/2020/03/Inset_label_Coronavirus.png?resize=401,226 401w, https://foreignpolicy.com/wp-content/uploads/2020/03/Inset_label_Coronavirus.png?resize=800,450 800w, https://foreignpolicy.com/wp-content/uploads/2020/03/Inset_label_Coronavirus.png?resize=275,155 275w, https://foreignpolicy.com/wp-content/uploads/2020/03/Inset_label_Coronavirus.png?resize=325,183 325w, https://foreignpolicy.com/wp-content/uploads/2020/03/Inset_label_Coronavirus.png?resize=600,338 600w"
+            data-src="https://foreignpolicy.com/wp-content/uploads/2020/03/Inset_label_Coronavirus.png"
+            alt=""
+            class="image alignnone size-text_wrap_right wp-image-997751 -fit -lazy">
+        <noscript>
+            <img
+                src="https://foreignpolicy.com/wp-content/uploads/2020/03/Inset_label_Coronavirus.png"
+                alt=""
+                class="image alignnone size-text_wrap_right wp-image-997751 -fit">
+        </noscript>
+        </span>
+        </a><p id="caption-attachment-997751" class="wp-caption-text"><!-- caption placeholder --></p></div>
+<p>“While all countries need to respond to COVID-19, countries with existing humanitarian crisis are particularly vulnerable and will require all humanitarian partners to look at their existing operations to see how they can be reprioritized and adapted [to tackle the virus],” according to a confidential draft Global Humanitarian Response Plan reviewed by <i>Foreign Policy</i>.</p>
+<p>But the request—which would be in addition to ongoing humanitarian operations—comes at a time when the world’s leading economies are reeling from the economic shock induced by one of the most virulent pandemics since the 1918 Spanish flu. U.N. and private relief officials expect it will be a major struggle to convince wealthy governments to open their pocketbooks. “Some of the biggest donors are seeing global recession about to hit them,” said one senior relief official. “How generous are they going to be when they have a crisis looming in their own backyards?”</p>
+<p>As the arc of the pathogen spreads from global capitals to war zones and refugee camps, U.N. relief officials and aid organizations are bracing for what they fear could be a cataclysmic second phase of the pandemic: spreading in the close-quarters encampments of the world’s more than 25 million refugees and another 40 million internally displaced people.</p>
+<p style="text-align: center;"><em>[</em><a href="https://foreignpolicy.com/2020/03/04/mapping-coronavirus-outbreak-infographic/"><em>Mapping the Coronavirus Outbreak:</em></a><em> Get daily updates on the pandemic and learn how it’s affecting countries around the world.]</em></p>
+<div id="attachment_999138" class="wp-caption alignnone none text_width">            <span
+                style="padding-bottom:66.666666666667%;
+        "
+                class="image-attachment -ratioscale">
+        <img
+            data-srcset="https://foreignpolicy.com/wp-content/uploads/2020/03/Rohingya-Refugees-Bangladesh-GettyImages-1023993592.jpg 1500w, https://foreignpolicy.com/wp-content/uploads/2020/03/Rohingya-Refugees-Bangladesh-GettyImages-1023993592.jpg?resize=150,100 150w, https://foreignpolicy.com/wp-content/uploads/2020/03/Rohingya-Refugees-Bangladesh-GettyImages-1023993592.jpg?resize=550,367 550w, https://foreignpolicy.com/wp-content/uploads/2020/03/Rohingya-Refugees-Bangladesh-GettyImages-1023993592.jpg?resize=768,512 768w, https://foreignpolicy.com/wp-content/uploads/2020/03/Rohingya-Refugees-Bangladesh-GettyImages-1023993592.jpg?resize=400,267 400w, https://foreignpolicy.com/wp-content/uploads/2020/03/Rohingya-Refugees-Bangladesh-GettyImages-1023993592.jpg?resize=401,267 401w, https://foreignpolicy.com/wp-content/uploads/2020/03/Rohingya-Refugees-Bangladesh-GettyImages-1023993592.jpg?resize=800,533 800w, https://foreignpolicy.com/wp-content/uploads/2020/03/Rohingya-Refugees-Bangladesh-GettyImages-1023993592.jpg?resize=275,183 275w, https://foreignpolicy.com/wp-content/uploads/2020/03/Rohingya-Refugees-Bangladesh-GettyImages-1023993592.jpg?resize=325,217 325w, https://foreignpolicy.com/wp-content/uploads/2020/03/Rohingya-Refugees-Bangladesh-GettyImages-1023993592.jpg?resize=600,400 600w"
+            data-src="https://foreignpolicy.com/wp-content/uploads/2020/03/Rohingya-Refugees-Bangladesh-GettyImages-1023993592.jpg?w=1500"
+            alt="Rohingya women and children who fled Myanmar wait in line for food distribution in the Kutupalong camp in Cox’s Bazar, Bangladesh, on Aug. 26, 2018."
+            class="image alignnone size-text_width wp-image-999138 -fit -lazy">
+        <noscript>
+            <img
+                src="https://foreignpolicy.com/wp-content/uploads/2020/03/Rohingya-Refugees-Bangladesh-GettyImages-1023993592.jpg?w=1500"
+                alt="Rohingya women and children who fled Myanmar wait in line for food distribution in the Kutupalong camp in Cox’s Bazar, Bangladesh, on Aug. 26, 2018."
+                class="image alignnone size-text_width wp-image-999138 -fit">
+        </noscript>
+        </span>
+        <p id="caption-attachment-999138" class="wp-caption-text">Rohingya women and children who fled Myanmar wait in line for food distribution in the Kutupalong camp in Cox’s Bazar, Bangladesh, on Aug. 26, 2018. <span class="attribution">Paula Bronstein/Getty Images</span> <!-- caption placeholder --></p></div>
+<p>More than 3 billion people lack access to hand-washing facilities, depriving them of one of the most effective first lines of defense against the spread of the coronavirus, according to UNICEF. There is little hope of finding enough space to implement social distancing policies in overcrowded camps from Bangladesh’s Cox’s Bazar and Kenya’s Dadaab camp to an archipelago of refugee camps for Afghans, Syrians, Palestinians, and others throughout the Middle East.</p>
+<p>“We are facing a global health crisis unlike any in the 75-year history of the United Nations—one that is spreading human suffering, infecting the global economy, and upending people’s lives,” U.N. Secretary-General António Guterres told reporters on Thursday, noting that a global recession of unprecedented scale is “a near certainty.” “We must recognize that the poorest countries and most vulnerable—especially women—will be the hardest-hit.”</p>
+<p>“If we let the virus spread like wildfires, especially in the most vulnerable regions of the world, it would kill millions.”</p>
+<p>Moreover, the effort to ramp up an international aid response is being hampered by the quest to ensure the safety of international staff. Those concerns have been amplified by the announcement last week that David Beasley, the executive director of the Rome-based World Food Program, had been infected with the coronavirus. Some <a href="https://foreignpolicy.com/2020/03/18/un-diplomacy-lockdown-coronavirus-diplomats-headquarters/">international relief agencies have recalled senior field officers</a>, fearing they could be infected.</p>
+<p>“Many humanitarian operations are scaling back physical presence, recommending their international staff return home and closing offices,” according to a March 19 report by the Assessment Capacities Project, a Norwegian nonprofit that provides analysis of major humanitarian crises. “Ongoing restriction of travel, suspension and changes to scheduled flights is likely to continue to disrupt humanitarian operations.”</p>
+<p>“It is making us preoccupied with ourselves,” Jeremy Konyndyk, a senior policy fellow at the Center for Global Development, said at a March 19 panel hosted by the New Humanitarian news agency. “In donor capitals, the preoccupation is much more with the threats to their homelands.” Konyndyk, who worked on the response to the Ebola epidemic in West Africa for the U.S. Agency for International Development, said that U.N. and relief agencies are having to balance ensuring the health of their own staff with delivering care to needy communities.</p>
+<p>“You would have a hard time designing a more dangerous setting for the spread of this disease than an informal IDP settlement,” he said. “You have a crowded population, very poor sanitation … very poor disease surveillance, very poor health services. This could be extraordinarily dangerous … and I don’t think that’s getting enough global attention yet.”</p>
+<div id="attachment_999139" class="wp-caption alignnone none section_break">            <span
+                style="padding-bottom:50%;
+        "
+                class="image-attachment -ratioscale">
+        <img
+            data-srcset="https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-refugee-camp-GettyImages-1189041620.jpg 1500w, https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-refugee-camp-GettyImages-1189041620.jpg?resize=150,75 150w, https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-refugee-camp-GettyImages-1189041620.jpg?resize=550,275 550w, https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-refugee-camp-GettyImages-1189041620.jpg?resize=768,384 768w, https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-refugee-camp-GettyImages-1189041620.jpg?resize=400,200 400w, https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-refugee-camp-GettyImages-1189041620.jpg?resize=401,201 401w, https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-refugee-camp-GettyImages-1189041620.jpg?resize=800,400 800w, https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-refugee-camp-GettyImages-1189041620.jpg?resize=275,138 275w, https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-refugee-camp-GettyImages-1189041620.jpg?resize=325,163 325w, https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-refugee-camp-GettyImages-1189041620.jpg?resize=600,300 600w"
+            data-src="https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-refugee-camp-GettyImages-1189041620.jpg?w=1500"
+            alt="A woman and child sit together at a makeshift camp for displaced Yemenis in the northern Hajjah province Dec. 16. Coronavirus could have devastating consequences for Yemen, as its health care infrastructures are already overburdened after years of conflict."
+            class="image alignnone size-section_break wp-image-999139 -fit -lazy">
+        <noscript>
+            <img
+                src="https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-refugee-camp-GettyImages-1189041620.jpg?w=1500"
+                alt="A woman and child sit together at a makeshift camp for displaced Yemenis in the northern Hajjah province Dec. 16. Coronavirus could have devastating consequences for Yemen, as its health care infrastructures are already overburdened after years of conflict."
+                class="image alignnone size-section_break wp-image-999139 -fit">
+        </noscript>
+        </span>
+        <p id="caption-attachment-999139" class="wp-caption-text">A woman and child sit together at a makeshift camp for displaced Yemenis in the northern Hajjah province on Dec. 16. The coronavirus could have devastating consequences for Yemen, as its health care infrastructure is already overburdened after years of conflict. <span class="attribution">ESSA AHMED/AFP via Getty Images</span> <!-- caption placeholder --></p></div>
+<p>In conflict-riven countries from Afghanistan to South Sudan to Yemen, dismal health care infrastructures are already overburdened after years of fighting. A coronavirus outbreak—and its economic effects—could stretch these countries past the breaking point.</p>
+<p>“South Sudan’s health care system has been completely destroyed over the last seven years by the civil war,” said Sterling Carter, a former aid worker in South Sudan.</p>
+<p>After five years of war, with millions of people on the brink of famine, Yemen’s population is more vulnerable to a coronavirus outbreak than those of most other countries. The conflict has left most of the country’s population effectively immunocompromised, one aid worker said.</p>
+<p>“You have to basically picture the already overwhelmed public health system overwhelmed further … and then overlay a food security crisis on top of it,” said Scott Paul of the aid organization Oxfam America. “It’s hard to put into words how bad that’ll be.”</p>
+<div id="attachment_999140" class="wp-caption alignnone none text_width">            <span
+                style="padding-bottom:66.666666666667%;
+        "
+                class="image-attachment -ratioscale">
+        <img
+            data-srcset="https://foreignpolicy.com/wp-content/uploads/2020/03/South-Sudan-GettyImages-1044440990.jpg 1500w, https://foreignpolicy.com/wp-content/uploads/2020/03/South-Sudan-GettyImages-1044440990.jpg?resize=150,100 150w, https://foreignpolicy.com/wp-content/uploads/2020/03/South-Sudan-GettyImages-1044440990.jpg?resize=550,367 550w, https://foreignpolicy.com/wp-content/uploads/2020/03/South-Sudan-GettyImages-1044440990.jpg?resize=768,512 768w, https://foreignpolicy.com/wp-content/uploads/2020/03/South-Sudan-GettyImages-1044440990.jpg?resize=400,267 400w, https://foreignpolicy.com/wp-content/uploads/2020/03/South-Sudan-GettyImages-1044440990.jpg?resize=401,267 401w, https://foreignpolicy.com/wp-content/uploads/2020/03/South-Sudan-GettyImages-1044440990.jpg?resize=800,533 800w, https://foreignpolicy.com/wp-content/uploads/2020/03/South-Sudan-GettyImages-1044440990.jpg?resize=275,183 275w, https://foreignpolicy.com/wp-content/uploads/2020/03/South-Sudan-GettyImages-1044440990.jpg?resize=325,217 325w, https://foreignpolicy.com/wp-content/uploads/2020/03/South-Sudan-GettyImages-1044440990.jpg?resize=600,400 600w"
+            data-src="https://foreignpolicy.com/wp-content/uploads/2020/03/South-Sudan-GettyImages-1044440990.jpg?w=1500"
+            alt="Internally displaced persons prepare food at the Korijo camp in South Sudan on Sept. 23, 2018. The country’s civil war has caused its health care system to crumble over the past seven years, making it particularly susceptible to the spread of coronavirus."
+            class="image alignnone size-text_width wp-image-999140 -fit -lazy">
+        <noscript>
+            <img
+                src="https://foreignpolicy.com/wp-content/uploads/2020/03/South-Sudan-GettyImages-1044440990.jpg?w=1500"
+                alt="Internally displaced persons prepare food at the Korijo camp in South Sudan on Sept. 23, 2018. The country’s civil war has caused its health care system to crumble over the past seven years, making it particularly susceptible to the spread of coronavirus."
+                class="image alignnone size-text_width wp-image-999140 -fit">
+        </noscript>
+        </span>
+        <p id="caption-attachment-999140" class="wp-caption-text">Internally displaced persons prepare food at the Korijo camp in South Sudan on Sept. 23, 2018. The country’s civil war has caused its health care system to crumble over the past seven years, making it particularly susceptible to the spread of the coronavirus. <span class="attribution">SUMY SADURNI/AFP via Getty Images</span> <!-- caption placeholder --></p></div>
+<p>“I see the spread of COVID-19 in poor and fragile countries as a huge risk, as their health care systems are often very weak,” said Richard Blewitt, the U.N. representative for the International Federation of Red Cross and Red Crescent Societies. “At this time we need global and local solidarity and compassion with all those affected by COVID-19, wherever they live.”</p>
+<p>The U.N. has provided <a href="https://interagencystandingcommittee.org/other/interim-guidance-scaling-covid-19-outbreak-readiness-and-response-operations-camps-and-camp">guidance</a> to U.N. field workers, refugee camp managers, and public health specialists on how to battle the spread of the virus. The guidance—produced this month by a U.N. Interagency Standing Committee—calls for the development of an “outbreak readiness and response plan” for each camp that would assess the risk of coronavirus infection and train staff to detect, test, and monitor its spread, as well as track and trace those infected with the virus and people they have come into contact with. “Wherever possible, mitigation measures to reduce overcrowding should be put in place,” according to the guidance. Action should be taken to promote social distancing and crowd management, particularly at times when basic necessities such as food and water are being distributed, to prevent large gatherings of people. Each site should have access to a laboratory to facilitate testing.</p>
+<p>But relief workers say that some of the recommendations, like <a href="https://foreignpolicy.com/2020/03/20/you-cant-do-social-distancing-if-youre-a-refugee/">social distancing, may not be feasible in some of the world&#8217;s largest camps</a>.</p>
+<p>“For many population groups, living in overcrowded conditions, social distancing is a challenge or impossible,” according to the Assessment Capacities Project report. Many countries that host refugee camps, such as Afghanistan and Bangladesh, are likely to be overwhelmed by the health needs of their own citizens. Nations with weak health systems “may struggle to screen, test, and contain the epidemic for the host population let alone the refugees,” according to the report.</p>
+<p>In Gaza, the U.N. Relief and Works Agency (UNRWA), which provides primary care for about 70 percent of the territory’s more than 1.8 million people, is bracing for the likely arrival of the coronavirus in one of the most densely populated place in the world.</p>
+<p>The U.N. agency—which the Trump administration defunded last year and has sought to dismantle—has some 22 medical clinics in Gaza, putting it on the front lines of the defense of the coronavirus.</p>
+    <div class="fp_choose_placement_related_posts">
+<div class="fp-related-wrapper related-articles--no-video">
+    <div class="related-articles">
+        <p class="heading-container"><span class="heading">Read More</span></p>
+                    <div class="blog-list-layout" data-post-id="998874">
+                <div class="excerpt-content--list --first-post content-block" data-post-id="998874">
+    <figure class="figure-image -nocaption">
+            <a
+            style="padding-bottom:66.666666666667%;
+        "
+                    href="https://foreignpolicy.com/2020/03/20/world-order-after-coroanvirus-pandemic/"
+                class="image-attachment -ratioscale  horizontal-orientation">
+                    <span
+                style="padding-bottom:75%;
+        "
+                class="image-attachment -ratioscale">
+        <img
+            data-srcset=""
+            data-src="https://foreignpolicy.com/wp-content/uploads/2020/03/coronavirus-world-after-brian-stauffer-illustration_response5.jpg?w=800&#038;h=533&#038;quality=80"
+            alt="coronavirus-world-after-brian-stauffer-illustration_response5"
+            class="image image -fit -lazy -fit -lazy">
+        <noscript>
+            <img
+                src="https://foreignpolicy.com/wp-content/uploads/2020/03/coronavirus-world-after-brian-stauffer-illustration_response5.jpg?w=800&#038;h=533&#038;quality=80"
+                alt="coronavirus-world-after-brian-stauffer-illustration_response5"
+                class="image image -fit -lazy -fit">
+        </noscript>
+        </span>
+        
+        <noscript>
+                        <span
+                style="padding-bottom:75%;
+        "
+                class="image-attachment -ratioscale">
+        <img
+            data-srcset=""
+            data-src="https://foreignpolicy.com/wp-content/uploads/2020/03/coronavirus-world-after-brian-stauffer-illustration_response5.jpg?w=800&#038;h=533&#038;quality=80"
+            alt="coronavirus-world-after-brian-stauffer-illustration_response5"
+            class="image image -fit-3-2 -fit -lazy">
+        <noscript>
+            <img
+                src="https://foreignpolicy.com/wp-content/uploads/2020/03/coronavirus-world-after-brian-stauffer-illustration_response5.jpg?w=800&#038;h=533&#038;quality=80"
+                alt="coronavirus-world-after-brian-stauffer-illustration_response5"
+                class="image image -fit-3-2 -fit">
+        </noscript>
+        </span>
+        
+        </noscript>
+        </a>
+        </figure>
+    <div class="list-text">
+    <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2020/03/20/world-order-after-coroanvirus-pandemic/">
+    <h3 class="hed">How the World Will Look After the Coronavirus Pandemic</h3>
+</a>
+<div class="dek-heading -excerpt">
+    <p class="dek">The pandemic will change the world forever. We asked 12 leading global thinkers for their predictions. </p>
+</div>
+<div class="meta-data -excerpt">
+        <a
+        href="https://foreignpolicy.com/channel/analysis/"
+        class="department-name -excerpt">
+        Analysis    </a>
+        <span class="separator">|</span>
+        <address class="author-list -excerpt">
+    <a
+        href="https://foreignpolicy.com/author/john-allen/"
+        rel="author"
+        class="author">
+    John Allen</a><span class="separator">,</span> <a
+        href="https://foreignpolicy.com/author/nicholas-burns/"
+        rel="author"
+        class="author">
+    Nicholas Burns</a><span class="separator">,</span> <a
+        href="https://foreignpolicy.com/author/laurie-garrett/"
+        rel="author"
+        class="author">
+    Laurie Garrett</a><span class="separator">,</span> <a
+        href="https://foreignpolicy.com/author/richard-n-haass/"
+        rel="author"
+        class="author">
+    Richard N. Haass</a><span class="separator">,</span> <a
+        href="https://foreignpolicy.com/author/g-john-ikenberry/"
+        rel="author"
+        class="author">
+    G. John Ikenberry</a><span class="separator">,</span> <a
+        href="https://foreignpolicy.com/author/kishore-mahbubani/"
+        rel="author"
+        class="author">
+    Kishore Mahbubani</a><span class="separator">,</span> <a
+        href="https://foreignpolicy.com/author/shivshankar-menon/"
+        rel="author"
+        class="author">
+    Shivshankar Menon</a><span class="separator">,</span> <a
+        href="https://foreignpolicy.com/author/robin-niblett/"
+        rel="author"
+        class="author">
+    Robin Niblett</a><span class="separator">,</span> <a
+        href="https://foreignpolicy.com/author/joseph-s-nye-jr/"
+        rel="author"
+        class="author">
+    Joseph S. Nye Jr.</a><span class="separator">,</span> <a
+        href="https://foreignpolicy.com/author/shannon-k-oneil/"
+        rel="author"
+        class="author">
+    Shannon K. O&#039;Neil</a><span class="separator">,</span> <a
+        href="https://foreignpolicy.com/author/kori-schake/"
+        rel="author"
+        class="author">
+    Kori Schake</a><span class="separator">,</span> <a
+        href="https://foreignpolicy.com/author/stephen-m-walt/"
+        rel="author"
+        class="author">
+    Stephen M. Walt</a></address>
+
+</div>
+    </div>
+</div>
+            </div> 
+                    <div class="blog-list-layout" data-post-id="997598">
+                <div class="excerpt-content--list content-block" data-post-id="997598">
+    <figure class="figure-image -nocaption">
+            <a
+            style="padding-bottom:66.666666666667%;
+        "
+                    href="https://foreignpolicy.com/2020/03/11/coronavirus-geopolitics-china-united-states-trump-administration-competing-global-health-response/"
+                class="image-attachment -ratioscale  horizontal-orientation">
+                    <span
+                style="padding-bottom:75%;
+        "
+                class="image-attachment -ratioscale">
+        <img
+            data-srcset=""
+            data-src="https://foreignpolicy.com/wp-content/uploads/2020/03/GettyImages-871945738.jpg?w=800&#038;h=532&#038;quality=80"
+            alt="Chinese President Xi Jinping and U.S. President Donald Trump speak in Beijing."
+            class="image image -fit -lazy -fit -lazy">
+        <noscript>
+            <img
+                src="https://foreignpolicy.com/wp-content/uploads/2020/03/GettyImages-871945738.jpg?w=800&#038;h=532&#038;quality=80"
+                alt="Chinese President Xi Jinping and U.S. President Donald Trump speak in Beijing."
+                class="image image -fit -lazy -fit">
+        </noscript>
+        </span>
+        
+        <noscript>
+                        <span
+                style="padding-bottom:75%;
+        "
+                class="image-attachment -ratioscale">
+        <img
+            data-srcset=""
+            data-src="https://foreignpolicy.com/wp-content/uploads/2020/03/GettyImages-871945738.jpg?w=800&#038;h=532&#038;quality=80"
+            alt="Chinese President Xi Jinping and U.S. President Donald Trump speak in Beijing."
+            class="image image -fit-3-2 -fit -lazy">
+        <noscript>
+            <img
+                src="https://foreignpolicy.com/wp-content/uploads/2020/03/GettyImages-871945738.jpg?w=800&#038;h=532&#038;quality=80"
+                alt="Chinese President Xi Jinping and U.S. President Donald Trump speak in Beijing."
+                class="image image -fit-3-2 -fit">
+        </noscript>
+        </span>
+        
+        </noscript>
+        </a>
+        </figure>
+    <div class="list-text">
+    <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2020/03/11/coronavirus-geopolitics-china-united-states-trump-administration-competing-global-health-response/">
+    <h3 class="hed">U.S. and China Turn Coronavirus Into a Geopolitical Football</h3>
+</a>
+<div class="dek-heading -excerpt">
+    <p class="dek">Beijing is using the outbreak to boost its reputation for global cooperation while Washington plays the blame-Beijing game.</p>
+</div>
+<div class="meta-data -excerpt">
+        <a
+        href="https://foreignpolicy.com/category/news/exclusive/"
+        class="department-name -excerpt">
+        Exclusive    </a>
+        <span class="separator">|</span>
+        <address class="author-list -excerpt">
+    <a
+        href="https://foreignpolicy.com/author/colum-lynch/"
+        rel="author"
+        class="author">
+    Colum Lynch</a><span class="separator">,</span> <a
+        href="https://foreignpolicy.com/author/robbie-gramer/"
+        rel="author"
+        class="author">
+    Robbie Gramer</a></address>
+
+</div>
+    </div>
+</div>
+            </div> 
+                    <div class="blog-list-layout" data-post-id="998436">
+                <div class="excerpt-content--list content-block" data-post-id="998436">
+    <figure class="figure-image -nocaption">
+            <a
+            style="padding-bottom:66.666666666667%;
+        "
+                    href="https://foreignpolicy.com/2020/03/18/un-diplomacy-lockdown-coronavirus-diplomats-headquarters/"
+                class="image-attachment -ratioscale  horizontal-orientation">
+                    <span
+                style="padding-bottom:75%;
+        "
+                class="image-attachment -ratioscale">
+        <img
+            data-srcset=""
+            data-src="https://foreignpolicy.com/wp-content/uploads/2020/03/GettyImages-901618846.jpg?w=800&#038;h=535&#038;quality=80"
+            alt="The U.N. Security Council chamber sits empty"
+            class="image image -fit -lazy -fit -lazy">
+        <noscript>
+            <img
+                src="https://foreignpolicy.com/wp-content/uploads/2020/03/GettyImages-901618846.jpg?w=800&#038;h=535&#038;quality=80"
+                alt="The U.N. Security Council chamber sits empty"
+                class="image image -fit -lazy -fit">
+        </noscript>
+        </span>
+        
+        <noscript>
+                        <span
+                style="padding-bottom:75%;
+        "
+                class="image-attachment -ratioscale">
+        <img
+            data-srcset=""
+            data-src="https://foreignpolicy.com/wp-content/uploads/2020/03/GettyImages-901618846.jpg?w=800&#038;h=535&#038;quality=80"
+            alt="The U.N. Security Council chamber sits empty"
+            class="image image -fit-3-2 -fit -lazy">
+        <noscript>
+            <img
+                src="https://foreignpolicy.com/wp-content/uploads/2020/03/GettyImages-901618846.jpg?w=800&#038;h=535&#038;quality=80"
+                alt="The U.N. Security Council chamber sits empty"
+                class="image image -fit-3-2 -fit">
+        </noscript>
+        </span>
+        
+        </noscript>
+        </a>
+        </figure>
+    <div class="list-text">
+    <a
+    class="hed-heading -excerpt"
+    href="https://foreignpolicy.com/2020/03/18/un-diplomacy-lockdown-coronavirus-diplomats-headquarters/">
+    <h3 class="hed">U.N. Diplomacy In The Age of Contagion</h3>
+</a>
+<div class="dek-heading -excerpt">
+    <p class="dek">Some delegations are repatriating vulnerable staff from New York amid a surge in coronavirus infections.</p>
+</div>
+<div class="meta-data -excerpt">
+        <a
+        href="https://foreignpolicy.com/category/news/report/"
+        class="department-name -excerpt">
+        Report    </a>
+        <span class="separator">|</span>
+        <address class="author-list -excerpt">
+    <a
+        href="https://foreignpolicy.com/author/colum-lynch/"
+        rel="author"
+        class="author">
+    Colum Lynch</a></address>
+
+</div>
+    </div>
+</div>
+            </div> 
+            </div>
+</div>
+
+    </div>
+
+<p>On Sunday, the Palestinian health ministry <a href="https://apnews.com/6781fae5863192edfa5c9896d242c0d6">announced</a> its first official confirmations of coronavirus infections in the Gaza Strip, two Palestinians who recently returned from Pakistan. The development confirmed fears by health experts and U.N. officials that the lethal pathogen has found its way into one of the most densely populated places in the world.</p>
+<p><b>“</b>The health system is already poor and struggling to survive with the critical needs of chronic diseases, and emergencies that erupted from military escalations,” Bassam Nasser, the manager of the Catholic Relief Services office in Gaza, told <i>Foreign Policy</i>. “Now we [have] to add to it the capacity to cope with coronavirus.”</p>
+<div id="attachment_999141" class="wp-caption alignnone none text_width">            <span
+                style="padding-bottom:66.666666666667%;
+        "
+                class="image-attachment -ratioscale">
+        <img
+            data-srcset="https://foreignpolicy.com/wp-content/uploads/2020/03/Gaza-City-Coronavirus-GettyImages-1207965037.jpg 1500w, https://foreignpolicy.com/wp-content/uploads/2020/03/Gaza-City-Coronavirus-GettyImages-1207965037.jpg?resize=150,100 150w, https://foreignpolicy.com/wp-content/uploads/2020/03/Gaza-City-Coronavirus-GettyImages-1207965037.jpg?resize=550,367 550w, https://foreignpolicy.com/wp-content/uploads/2020/03/Gaza-City-Coronavirus-GettyImages-1207965037.jpg?resize=768,512 768w, https://foreignpolicy.com/wp-content/uploads/2020/03/Gaza-City-Coronavirus-GettyImages-1207965037.jpg?resize=400,267 400w, https://foreignpolicy.com/wp-content/uploads/2020/03/Gaza-City-Coronavirus-GettyImages-1207965037.jpg?resize=401,267 401w, https://foreignpolicy.com/wp-content/uploads/2020/03/Gaza-City-Coronavirus-GettyImages-1207965037.jpg?resize=800,533 800w, https://foreignpolicy.com/wp-content/uploads/2020/03/Gaza-City-Coronavirus-GettyImages-1207965037.jpg?resize=275,183 275w, https://foreignpolicy.com/wp-content/uploads/2020/03/Gaza-City-Coronavirus-GettyImages-1207965037.jpg?resize=325,217 325w, https://foreignpolicy.com/wp-content/uploads/2020/03/Gaza-City-Coronavirus-GettyImages-1207965037.jpg?resize=600,400 600w"
+            data-src="https://foreignpolicy.com/wp-content/uploads/2020/03/Gaza-City-Coronavirus-GettyImages-1207965037.jpg?w=1500"
+            alt="A girl wearing a protective mask sweeps outside her home in Gaza City on March 22."
+            class="image alignnone size-text_width wp-image-999141 -fit -lazy">
+        <noscript>
+            <img
+                src="https://foreignpolicy.com/wp-content/uploads/2020/03/Gaza-City-Coronavirus-GettyImages-1207965037.jpg?w=1500"
+                alt="A girl wearing a protective mask sweeps outside her home in Gaza City on March 22."
+                class="image alignnone size-text_width wp-image-999141 -fit">
+        </noscript>
+        </span>
+        <p id="caption-attachment-999141" class="wp-caption-text">A girl wearing a protective mask sweeps outside her home in Gaza City on March 22. <span class="attribution">MOHAMMED ABED/AFP via Getty Images</span> <!-- caption placeholder --></p></div>
+<p>“As long as we have emergencies all the time, it is not allowing us to work for development in Gaza,” he said. “It’s just emergency after emergency after emergency.”</p>
+<p>The U.N. relief agency is running a public information program that encourages hand-washing and the need for social distancing. UNRWA has set up a <a href="https://twitter.com/matzschmale/status/1239501790913183744%20https://www.aa.com.tr/en/latest-on-coronavirus-outbreak/impact-of-covid-19-on-gaza-worries-un-expert/1772401">triage system</a> to monitor patients with respiratory illness, directing those suspected of having the coronavirus to the local hospitals. It will also try to help lessen the burden on hospitals by taking in patients with illnesses unrelated to the coronavirus. Gaza’s hospitals, already under strain, have only a fraction of the number of intensive care unit beds it would need to handle an outbreak.</p>
+<p>“I’m told that there are 60 ICU beds in the hospitals,” Matthias Schmale, the director of Gaza’s UNRWA operations, told <em>Foreign Policy</em>. “If there is a full-scale outbreak the hospital sector won’t cope.”</p>
+<p>The crisis, he added, has inspired a bit of dark humor among Palestinians in Gaza, who note one point of irony: Israel’s crushing economic blockade on Gaza is helping keep Palestinians safe from the coronavirus, which has already killed over 15,000 people worldwide. But that’s only for now, and the humor, he noted, masks a deep anxiety. “We are preparing for the worst and hoping for the best,” he said.</p>
+<p>In fact, the West Bank city of Bethlehem had an outbreak of dozens of cases of the coronavirus earlier this month, after members of a group of Greek religious tourists were confirmed to have contracted it when they returned home.</p>
+<p>The unprecedented nature of the pandemic has fueled calls for radical thinking about the international response to the coronavirus crisis.</p>
+<p>The leaders of major relief organizations are pressing donors to grant them greater flexibility to redirect funding from existing programs that are likely to be paralyzed by the pandemic and use that money for programs—including clean water and sanitation projects—that could help stem the crisis.</p>
+<p>Jan Egeland, a former U.N. relief chief who heads the Norwegian Refugee Council, has appealed to some 40 donors to allow his agency to redirect money earmarked for shelter programs ground to a halt by the pandemic, and to use it to expand sanitation and hygiene programs.</p>
+<p>The international community needs to fundamentally rethink its funding priorities for the coronavirus and redirect foreign assistance to fighting the spread of the bug, Egeland said.</p>
+<p>“As bad as it is now in the well-organized and affluent north, with health systems, good sanitation, and big infrastructure, imagine how it will be when it will hit crowded camps with refugees and displaced people,” said Egeland, who spoke by telephone from quarantine in Norway.</p>
+<div id="attachment_999142" class="wp-caption alignnone none section_break">            <span
+                style="padding-bottom:50%;
+        "
+                class="image-attachment -ratioscale">
+        <img
+            data-srcset="https://foreignpolicy.com/wp-content/uploads/2020/03/Iraq-Refugee-Camp-GettyImages-1177970292.jpg 1500w, https://foreignpolicy.com/wp-content/uploads/2020/03/Iraq-Refugee-Camp-GettyImages-1177970292.jpg?resize=150,75 150w, https://foreignpolicy.com/wp-content/uploads/2020/03/Iraq-Refugee-Camp-GettyImages-1177970292.jpg?resize=550,275 550w, https://foreignpolicy.com/wp-content/uploads/2020/03/Iraq-Refugee-Camp-GettyImages-1177970292.jpg?resize=768,384 768w, https://foreignpolicy.com/wp-content/uploads/2020/03/Iraq-Refugee-Camp-GettyImages-1177970292.jpg?resize=400,200 400w, https://foreignpolicy.com/wp-content/uploads/2020/03/Iraq-Refugee-Camp-GettyImages-1177970292.jpg?resize=401,201 401w, https://foreignpolicy.com/wp-content/uploads/2020/03/Iraq-Refugee-Camp-GettyImages-1177970292.jpg?resize=800,400 800w, https://foreignpolicy.com/wp-content/uploads/2020/03/Iraq-Refugee-Camp-GettyImages-1177970292.jpg?resize=275,138 275w, https://foreignpolicy.com/wp-content/uploads/2020/03/Iraq-Refugee-Camp-GettyImages-1177970292.jpg?resize=325,163 325w, https://foreignpolicy.com/wp-content/uploads/2020/03/Iraq-Refugee-Camp-GettyImages-1177970292.jpg?resize=600,300 600w"
+            data-src="https://foreignpolicy.com/wp-content/uploads/2020/03/Iraq-Refugee-Camp-GettyImages-1177970292.jpg?w=1500"
+            alt="The Bardarash camp, pictured Oct. 24 in Dohuk, Iraq, swells with Syrian Kurdish refugees."
+            class="image alignnone size-section_break wp-image-999142 -fit -lazy">
+        <noscript>
+            <img
+                src="https://foreignpolicy.com/wp-content/uploads/2020/03/Iraq-Refugee-Camp-GettyImages-1177970292.jpg?w=1500"
+                alt="The Bardarash camp, pictured Oct. 24 in Dohuk, Iraq, swells with Syrian Kurdish refugees."
+                class="image alignnone size-section_break wp-image-999142 -fit">
+        </noscript>
+        </span>
+        <p id="caption-attachment-999142" class="wp-caption-text">The Bardarash camp, pictured Oct. 24 in Dohuk, Iraq, swells with Syrian Kurdish refugees. <span class="attribution">Byron Smith/Getty Images</span> <!-- caption placeholder --></p></div>
+<p>Egeland also complained that sweeping U.S. and U.N. economic sanctions imposed on governments in Iran, North Korea, and Venezuela are hampering relief efforts.</p>
+<p>“Now is the time to lift sanctions. I don’t need a lot of sanctions legislation making it more difficult to work in the worst places on the planet, where the COVID virus will hit much harder than in New York, Oslo, and in Wuhan,” he said.</p>
+<p>The call for ending sanctions comes as Iran has pressed governments to violate the sanctions. Iranian Foreign Minister Mohammad Javad Zarif <a href="https://twitter.com/JZarif/status/1241953525896286209">tweeted</a> on Monday to thank those calling for sanctions relief and urge states and businesses to defy “U.S. mass punishment.”</p>
+<p>“U.S. is NOT listening, impeding global fight against #COVID19,” he wrote.</p>
+<p>U.S. Secretary of State Mike Pompeo defended the measures, saying Tehran squanders money that could be used to fight the pandemic to fund terrorist operations in the region. He also <a href="https://www.state.gov/khameneis-lies-about-the-wuhan-virus-put-lives-at-risk/">said</a> that “Iranian documents show their health companies have been able to import testing kits without obstacle from U.S. sanctions since January.”</p>
+<p>“U.S. sanctions do not target imports of food, medicine, and medical equipment, or other humanitarian goods,” Pompeo added.</p>
+<p>Egeland acknowledged that most U.N. sanctions regimes, including those for Iran and North Korea, include exemptions for the import of humanitarian goods. But the sanctions have scared financial institutions from providing vital financial services to relief agencies. “Not a single bank had the guts to transfer money, because they were all afraid to be sued by the U.S. government,” he said.</p>
+<div class="distroscale_ad"></div>
+<p>It remained unclear whether the U.N. appeal will be on top of previous appeals by U.N. agencies for funding to combat the virus. The World Health Organization <a href="https://www.who.int/docs/default-source/coronaviruse/donor-alert.pdf">announced</a> earlier this year that more than $675 million will be required through April—including $61 million for its own activities—to mount an international campaign against the virus. Though WHO’s Director-General Tedros Adhanom Ghebreyesus said recently that more money would be needed. On Feb. 17, UNICEF issued an urgent <a href="https://www.unicef.org/press-releases/unicef-appeals-us423-million-support-global-covid-19-outbreak-response">request</a> for $42.3 million to support the coronavirus response. It will be used to reduce transmission of the virus by promoting distance learning for kids who can’t attend school and public information aimed at shooting down misinformation.</p>
+<p>The U.N. secretary-general—along with the U.N.’s emergency relief coordinator, Mark Lowcock; Tedros; and the executive director of UNICEF, Henrietta Fore—will launch the new appeal at a joint press teleconference on Wednesday.</p>
+<p>The U.N. will ask that donors not reduce funding from other vital humanitarian aid programs to fund the coronavirus response. The new appeal “aims at addressing the additional needs from the COVID-19 pandemic while sustaining the ongoing humanitarian operations and life-saving programmes responding to the needs pre-dating the new emergency,” according to the draft plan. “This is essential to avoid further loss of lives and suffering, and the aggravation of affected people’s vulnerabilities.”</p>
+<p>Guterres, meanwhile, expressed concern that the pandemic could claw back decades of efforts to raise international health standards and to scale back the most extreme levels of poverty, and undercut U.N. sustainable development goals, which are designed to improve the standard of living around the world by the year 2030.</p>
+<div id="attachment_999143" class="wp-caption alignnone none text_width">            <span
+                style="padding-bottom:66.666666666667%;
+        "
+                class="image-attachment -ratioscale">
+        <img
+            data-srcset="https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-Famine-GettyImages-1171774134.jpg 1500w, https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-Famine-GettyImages-1171774134.jpg?resize=150,100 150w, https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-Famine-GettyImages-1171774134.jpg?resize=550,367 550w, https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-Famine-GettyImages-1171774134.jpg?resize=768,512 768w, https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-Famine-GettyImages-1171774134.jpg?resize=400,267 400w, https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-Famine-GettyImages-1171774134.jpg?resize=401,267 401w, https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-Famine-GettyImages-1171774134.jpg?resize=800,533 800w, https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-Famine-GettyImages-1171774134.jpg?resize=275,183 275w, https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-Famine-GettyImages-1171774134.jpg?resize=325,217 325w, https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-Famine-GettyImages-1171774134.jpg?resize=600,400 600w"
+            data-src="https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-Famine-GettyImages-1171774134.jpg?w=1500"
+            alt="A 7-year-old girl suffering from malnutrition lies on a bed at a makeshift camp for displaced Yemenis in the northwestern Hajjah province Sept. 28."
+            class="image alignnone size-text_width wp-image-999143 -fit -lazy">
+        <noscript>
+            <img
+                src="https://foreignpolicy.com/wp-content/uploads/2020/03/Yemen-Famine-GettyImages-1171774134.jpg?w=1500"
+                alt="A 7-year-old girl suffering from malnutrition lies on a bed at a makeshift camp for displaced Yemenis in the northwestern Hajjah province Sept. 28."
+                class="image alignnone size-text_width wp-image-999143 -fit">
+        </noscript>
+        </span>
+        <p id="caption-attachment-999143" class="wp-caption-text">A 7-year-old girl suffering from malnutrition lies on a bed at a makeshift camp for displaced Yemenis in the northwestern Hajjah province on Sept. 28. <span class="attribution">ESSA AHMED/AFP via Getty Images</span> <!-- caption placeholder --></p></div>
+<p>Guterres pressed governments to mount a coordinated global health strategy, ramping up health spending and pitching in to help poor countries. He contended that “global solidarity is not only a moral imperative, it is in everyone’s interests.”</p>
+<p>“COVID-19 is killing people, as well as attacking the real economy at its core—trade, supply chains, businesses, jobs,” Guterres said. “Workers around the world could lose as much as $3.4 trillion.”</p>
+<p>Countries must resist the temptation to erect protectionist trade walls and should take steps including waiving interest payments to poor countries, offering debt relief, and sharply cutting fees for migrants to send remittance payments to loved ones in their homelands, he said.</p>
+<p>“We need to focus on people—the most vulnerable, low-wage workers, small and medium enterprises,” Guterres said. “That means wage support, insurance, social protection, preventing bankruptcies and job loss. That also means designing fiscal and monetary responses to ensure that the burden does not fall on those who can least afford it. The recovery must not come on the backs of the poorest—and we cannot create a legion of new poor. We need to get resources directly into the hands of people.”</p>
+<div data-fp-lazy-load-image></div>								<p><span class="red-box-end"></span></p>
+							</div>
+			
+			
+<section class="bio-no-photo">
+	<div>
+		<p><strong>Colum Lynch</strong> is a senior staff writer at <em>Foreign Policy</em>.&nbsp;Twitter:&nbsp;<a href="http://www.twitter.com/columlynch" target="_blank">@columlynch</a></p>	</div>
+	<div class="last-author">
+		<p><strong>Robbie Gramer</strong> is a diplomacy and national security reporter at <em>Foreign Policy</em>.&nbsp;Twitter:&nbsp;<a href="http://www.twitter.com/RobbieGramer" target="_blank">@RobbieGramer</a></p>	</div>
+</section>
+			<div class="the-comments">
+				<a href="/comments_view/?view_post_comments=https%3A%2F%2Fforeignpolicy.com%2F2020%2F03%2F23%2Fcoronavirus-hitting-developing-countries-war-zones-united-nations-urgent-donation-appeal-syria-gaza-yemen-south-sudanthe-next-wave%2F" style="color:#fff">View<br />Comments</a>
+			</div>
+
+			<div class="the-tags">
+    <span class="title">Tags:</span>
+    <a
+        href="https://foreignpolicy.com/tag/africa/"
+        class="tag">
+        Africa</a><span class="separator">,</span><a
+        href="https://foreignpolicy.com/tag/coronavirus/"
+        class="tag">
+        coronavirus</a><span class="separator">,</span><a
+        href="https://foreignpolicy.com/tag/disease/"
+        class="tag">
+        disease</a><span class="separator">,</span><a
+        href="https://foreignpolicy.com/tag/exclusive/"
+        class="tag">
+        Exclusive</a><span class="separator">,</span><a
+        href="https://foreignpolicy.com/tag/foreign-aid/"
+        class="tag">
+        Foreign Aid</a><span class="separator">,</span><a
+        href="https://foreignpolicy.com/tag/middle-east/"
+        class="tag">
+        Middle East</a><span class="separator">,</span><a
+        href="https://foreignpolicy.com/tag/south-sudan/"
+        class="tag">
+        south sudan</a><span class="separator">,</span><a
+        href="https://foreignpolicy.com/tag/syria/"
+        class="tag">
+        Syria</a><span class="separator">,</span><a
+        href="https://foreignpolicy.com/tag/united-nations/"
+        class="tag">
+        United Nations</a><span class="separator">,</span><a
+        href="https://foreignpolicy.com/tag/yemen/"
+        class="tag">
+        Yemen</a></div>
+
+					</article>
+
+		
+	</div>
+
+</div>
+
+<div class="piano-sticky-bar"></div>
+
+            <footer class="site-footer-wrapper">
+                <div class="site-footer">
+                    <div class="logo">
+                                    <a
+                style="padding-bottom:42%;
+        "
+                href="https://foreignpolicy.com/"
+            class="image-attachment -ratioscale">
+        <img
+            data-srcset=""
+            data-src="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/logos/FP.svg"
+            alt="Foreign Policy Magazine"
+            class="image -fit -lazy">
+        <noscript>
+            <img
+                src="https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/logos/FP.svg"
+                alt="Foreign Policy Magazine"
+                class="image -fit">
+        </noscript>
+        </a>
+                            </div>
+                    <nav class="nav">
+                        <ul id="menu-footer-column-5" class="footer-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-783354 footer-menu-item"><a href="https://foreignpolicy.com/staff/" class="navlink">Meet the Staff</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-988928 footer-menu-item"><a href="https://foreignpolicy.com/events" class="navlink">FP Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-993024 footer-menu-item"><a href="https://foreignpolicy.com/fp-analytics/" class="navlink">FP Analytics</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1002749 footer-menu-item"><a href="https://foreignpolicy.com/fp-peacegames/" class="navlink">FP PeaceGames</a></li>
+</ul><ul id="menu-footer-column-6" class="footer-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-993038 footer-menu-item"><a href="https://foreignpolicy.com/subscription-services/" class="navlink">Subscription Services</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-988929 footer-menu-item"><a href="https://foreignpolicy.com/reprint-permissions/" class="navlink">Reprint Permissions</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-939400 footer-menu-item"><a href="https://foreignpolicy.submittable.com/submit" class="navlink">Writer&#8217;s Guidelines</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1002750 footer-menu-item"><a href="/employment-opportunities/" class="navlink">Work at FP</a></li>
+</ul><ul id="menu-footer-column-7" class="footer-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-927960 footer-menu-item"><a href="https://fpguide.foreignpolicy.com/2020-career" class="navlink">FP Guides &#8211; Graduate Education</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-996597 footer-menu-item"><a href="https://foreignpolicy.com/fp-for-education/" class="navlink">FP For Education</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-660886 footer-menu-item"><a href="/magazine" class="navlink">FP Archive</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-660961 footer-menu-item"><a href="https://foreignpolicy.com/buy-back-issues/" class="navlink">Buy Back Issues</a></li>
+</ul><ul id="menu-footer-column-8" class="footer-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-993026 footer-menu-item"><a href="https://foreignpolicy.com/advertise-with-foreign-policy/" class="navlink">Advertise with FP</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-988932 footer-menu-item"><a href="https://foreignpolicy.com/privacy/" class="navlink">Privacy Policy</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-660967 footer-menu-item"><a href="https://foreignpolicy.com/contact-us/" class="navlink">Contact Us</a></li>
+</ul>                        <span class="powered-by-wpcom--parent">
+                            <div>Powered by <a href="https://wpvip.com/?utm_source=vip_powered_wpcom&#038;utm_medium=web&#038;utm_campaign=VIP%20Footer%20Credit&#038;utm_term=foreignpolicy.com" rel="generator nofollow" class="powered-by-wpcom">WordPress.com VIP</a></div>
+                            <div>&copy; 2020, The Slate Group</div>
+                        </span>
+                    </nav>
+                </div>
+            </footer>
+
+        </div><!-- end site-wrapper -->
+
+
+                                    <div
+                data-campaign="HSBC ROS nd Econ"
+                data-stay-closed="false"
+                data-mobile-ad="div-gpt-ad-1453402331387-0"
+                data-refresh="30000"
+                data-closeable="false"
+                class="FP-mobile-ad FP-mobile-ad_fixedbottom"></div>
+        
+
+        <script>
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+// Insert Twitter Pixel ID and Standard Event data below
+twq('init','nzlz2');
+twq('track','PageView');
+</script>
+
+        <script type="application/ld+json">{"@context":"http:\/\/schema.org","publisher":{"@type":"Organization","name":"Foreign Policy","url":"https:\/\/foreignpolicy.com","logo":{"@type":"ImageObject","height":60,"url":"https:\/\/foreignpolicy.com\/wp-content\/uploads\/2016\/04\/logo.png","width":74}},"@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/foreignpolicy.com\/2020\/03\/23\/coronavirus-hitting-developing-countries-war-zones-united-nations-urgent-donation-appeal-syria-gaza-yemen-south-sudanthe-next-wave\/"},"headline":"U.N. Is Preparing for the Coronavirus to Strike the Most Vulnerable Among Refugees, Migrants, War Victims, and the Internally Displaced","description":"U.N. and relief agencies warn the coronavirus pandemic could leave an even bigger path of destruction in the world\u2019s most vulnerable and conflict-riven countries.","Articlebody":"The United Nations is preparing to issue a major funding <a href=\"http:\/\/webtv.un.org\/\">appeal<\/a> for more than $1.5 billion on Wednesday to prepare for outbreaks of the new coronavirus in areas suffering some of the worst humanitarian crises in the world, including Gaza, Myanmar, Syria, South Sudan, and Yemen, according to diplomatic and relief officials familiar with the plan.\r\n\r\n[caption id=\"attachment_997751\" align=\"alignnone\" width=\"1024\" class=\"none text_wrap_right\"]<a href=\"https:\/\/foreignpolicy.com\/projects\/coronavirus-wuhan-china-pandemic-outbreak-guide-2020\/\"><img class=\"alignnone size-text_wrap_right wp-image-997751\" src=\"https:\/\/foreignpolicy.com\/wp-content\/uploads\/2020\/03\/Inset_label_Coronavirus.png\" alt=\"\" width=\"1024\" height=\"576\" \/><\/a> <!-- caption placeholder -->[\/caption]\r\n\r\n\u201cWhile all countries need to respond to COVID-19, countries with existing humanitarian crisis are particularly vulnerable and will require all humanitarian partners to look at their existing operations to see how they can be reprioritized and adapted [to tackle the virus],\u201d according to a confidential draft Global Humanitarian Response Plan reviewed by <i>Foreign Policy<\/i>.\r\n\r\nBut the request\u2014which would be in addition to ongoing humanitarian operations\u2014comes at a time when the world\u2019s leading economies are reeling from the economic shock induced by one of the most virulent pandemics since the 1918 Spanish flu. U.N. and private relief officials expect it will be a major struggle to convince wealthy governments to open their pocketbooks. \u201cSome of the biggest donors are seeing global recession about to hit them,\u201d said one senior relief official. \u201cHow generous are they going to be when they have a crisis looming in their own backyards?\u201d\r\n\r\nAs the arc of the pathogen spreads from global capitals to war zones and refugee camps, U.N. relief officials and aid organizations are bracing for what they fear could be a cataclysmic second phase of the pandemic: spreading in the close-quarters encampments of the world\u2019s more than 25 million refugees and another 40 million internally displaced people.\r\n<p style=\"text-align: center;\"><em>[<\/em><a href=\"https:\/\/foreignpolicy.com\/2020\/03\/04\/mapping-coronavirus-outbreak-infographic\/\"><em>Mapping the Coronavirus Outbreak:<\/em><\/a><em> Get daily updates on the pandemic and learn how it\u2019s affecting countries around the world.]<\/em><\/p>\r\n\r\n\r\n[caption id=\"attachment_999138\" align=\"alignnone\" width=\"1500\" class=\"none text_width\"]<img class=\"alignnone size-text_width wp-image-999138\" src=\"https:\/\/foreignpolicy.com\/wp-content\/uploads\/2020\/03\/Rohingya-Refugees-Bangladesh-GettyImages-1023993592.jpg?w=1500\" alt=\"Rohingya women and children who fled Myanmar wait in line for food distribution in the Kutupalong camp in Cox\u2019s Bazar, Bangladesh, on Aug. 26, 2018. \" width=\"1500\" height=\"1000\" \/> Rohingya women and children who fled Myanmar wait in line for food distribution in the Kutupalong camp in Cox\u2019s Bazar, Bangladesh, on Aug. 26, 2018. <span class=\"attribution\">Paula Bronstein\/Getty Images<\/span> <!-- caption placeholder -->[\/caption]\r\n\r\nMore than 3 billion people lack access to hand-washing facilities, depriving them of one of the most effective first lines of defense against the spread of the coronavirus, according to UNICEF. There is little hope of finding enough space to implement social distancing policies in overcrowded camps from Bangladesh\u2019s Cox\u2019s Bazar and Kenya\u2019s Dadaab camp to an archipelago of refugee camps for Afghans, Syrians, Palestinians, and others throughout the Middle East.\r\n\r\n\u201cWe are facing a global health crisis unlike any in the 75-year history of the United Nations\u2014one that is spreading human suffering, infecting the global economy, and upending people\u2019s lives,\u201d U.N. Secretary-General Ant\u00f3nio Guterres told reporters on Thursday, noting that a global recession of unprecedented scale is \u201ca near certainty.\u201d \u201cWe must recognize that the poorest countries and most vulnerable\u2014especially women\u2014will be the hardest-hit.\u201d\r\n\r\n\u201cIf we let the virus spread like wildfires, especially in the most vulnerable regions of the world, it would kill millions.\u201d\r\n\r\nMoreover, the effort to ramp up an international aid response is being hampered by the quest to ensure the safety of international staff. Those concerns have been amplified by the announcement last week that David Beasley, the executive director of the Rome-based World Food Program, had been infected with the coronavirus. Some <a href=\"https:\/\/foreignpolicy.com\/2020\/03\/18\/un-diplomacy-lockdown-coronavirus-diplomats-headquarters\/\">international relief agencies have recalled senior field officers<\/a>, fearing they could be infected.\r\n\r\n\u201cMany humanitarian operations are scaling back physical presence, recommending their international staff return home and closing offices,\u201d according to a March 19 report by the Assessment Capacities Project, a Norwegian nonprofit that provides analysis of major humanitarian crises. \u201cOngoing restriction of travel, suspension and changes to scheduled flights is likely to continue to disrupt humanitarian operations.\u201d\r\n\r\n\u201cIt is making us preoccupied with ourselves,\u201d Jeremy Konyndyk, a senior policy fellow at the Center for Global Development, said at a March 19 panel hosted by the New Humanitarian news agency. \u201cIn donor capitals, the preoccupation is much more with the threats to their homelands.\u201d Konyndyk, who worked on the response to the Ebola epidemic in West Africa for the U.S. Agency for International Development, said that U.N. and relief agencies are having to balance ensuring the health of their own staff with delivering care to needy communities.\r\n\r\n\u201cYou would have a hard time designing a more dangerous setting for the spread of this disease than an informal IDP settlement,\u201d he said. \u201cYou have a crowded population, very poor sanitation \u2026 very poor disease surveillance, very poor health services. This could be extraordinarily dangerous \u2026 and I don\u2019t think that\u2019s getting enough global attention yet.\u201d\r\n\r\n[caption id=\"attachment_999139\" align=\"alignnone\" width=\"1500\" class=\"none section_break\"]<img class=\"alignnone size-section_break wp-image-999139\" src=\"https:\/\/foreignpolicy.com\/wp-content\/uploads\/2020\/03\/Yemen-refugee-camp-GettyImages-1189041620.jpg?w=1500\" alt=\"A woman and child sit together at a makeshift camp for displaced Yemenis in the northern Hajjah province Dec. 16. Coronavirus could have devastating consequences for Yemen, as its health care infrastructures are already overburdened after years of conflict. \" width=\"1500\" height=\"750\" \/> A woman and child sit together at a makeshift camp for displaced Yemenis in the northern Hajjah province on Dec. 16. The coronavirus could have devastating consequences for Yemen, as its health care infrastructure is already overburdened after years of conflict. <span class=\"attribution\">ESSA AHMED\/AFP via Getty Images<\/span> <!-- caption placeholder -->[\/caption]\r\n\r\nIn conflict-riven countries from Afghanistan to South Sudan to Yemen, dismal health care infrastructures are already overburdened after years of fighting. A coronavirus outbreak\u2014and its economic effects\u2014could stretch these countries past the breaking point.\r\n\r\n\u201cSouth Sudan\u2019s health care system has been completely destroyed over the last seven years by the civil war,\u201d said Sterling Carter, a former aid worker in South Sudan.\r\n\r\nAfter five years of war, with millions of people on the brink of famine, Yemen\u2019s population is more vulnerable to a coronavirus outbreak than those of most other countries. The conflict has left most of the country\u2019s population effectively immunocompromised, one aid worker said.\r\n\r\n\u201cYou have to basically picture the already overwhelmed public health system overwhelmed further \u2026 and then overlay a food security crisis on top of it,\u201d said Scott Paul of the aid organization Oxfam America. \u201cIt\u2019s hard to put into words how bad that\u2019ll be.\u201d\r\n\r\n[caption id=\"attachment_999140\" align=\"alignnone\" width=\"1500\" class=\"none text_width\"]<img class=\"alignnone size-text_width wp-image-999140\" src=\"https:\/\/foreignpolicy.com\/wp-content\/uploads\/2020\/03\/South-Sudan-GettyImages-1044440990.jpg?w=1500\" alt=\"Internally displaced persons prepare food at the Korijo camp in South Sudan on Sept. 23, 2018. The country\u2019s civil war has caused its health care system to crumble over the past seven years, making it particularly susceptible to the spread of coronavirus. \" width=\"1500\" height=\"1000\" \/> Internally displaced persons prepare food at the Korijo camp in South Sudan on Sept. 23, 2018. The country\u2019s civil war has caused its health care system to crumble over the past seven years, making it particularly susceptible to the spread of the coronavirus. <span class=\"attribution\">SUMY SADURNI\/AFP via Getty Images<\/span> <!-- caption placeholder -->[\/caption]\r\n\r\n\u201cI see the spread of COVID-19 in poor and fragile countries as a huge risk, as their health care systems are often very weak,\u201d said Richard Blewitt, the U.N. representative for the International Federation of Red Cross and Red Crescent Societies. \u201cAt this time we need global and local solidarity and compassion with all those affected by COVID-19, wherever they live.\u201d\r\n\r\nThe U.N. has provided <a href=\"https:\/\/interagencystandingcommittee.org\/other\/interim-guidance-scaling-covid-19-outbreak-readiness-and-response-operations-camps-and-camp\">guidance<\/a> to U.N. field workers, refugee camp managers, and public health specialists on how to battle the spread of the virus. The guidance\u2014produced this month by a U.N. Interagency Standing Committee\u2014calls for the development of an \u201coutbreak readiness and response plan\u201d for each camp that would assess the risk of coronavirus infection and train staff to detect, test, and monitor its spread, as well as track and trace those infected with the virus and people they have come into contact with. \u201cWherever possible, mitigation measures to reduce overcrowding should be put in place,\u201d according to the guidance. Action should be taken to promote social distancing and crowd management, particularly at times when basic necessities such as food and water are being distributed, to prevent large gatherings of people. Each site should have access to a laboratory to facilitate testing.\r\n\r\nBut relief workers say that some of the recommendations, like <a href=\"https:\/\/foreignpolicy.com\/2020\/03\/20\/you-cant-do-social-distancing-if-youre-a-refugee\/\">social distancing, may not be feasible in some of the world's largest camps<\/a>.\r\n\r\n\u201cFor many population groups, living in overcrowded conditions, social distancing is a challenge or impossible,\u201d according to the Assessment Capacities Project report. Many countries that host refugee camps, such as Afghanistan and Bangladesh, are likely to be overwhelmed by the health needs of their own citizens. Nations with weak health systems \u201cmay struggle to screen, test, and contain the epidemic for the host population let alone the refugees,\u201d according to the report.\r\n\r\nIn Gaza, the U.N. Relief and Works Agency (UNRWA), which provides primary care for about 70 percent of the territory\u2019s more than 1.8 million people, is bracing for the likely arrival of the coronavirus in one of the most densely populated place in the world.\r\n\r\nThe U.N. agency\u2014which the Trump administration defunded last year and has sought to dismantle\u2014has some 22 medical clinics in Gaza, putting it on the front lines of the defense of the coronavirus.\r\n\r\n[fp_related]\r\n\r\nOn Sunday, the Palestinian health ministry <a href=\"https:\/\/apnews.com\/6781fae5863192edfa5c9896d242c0d6\">announced<\/a> its first official confirmations of coronavirus infections in the Gaza Strip, two Palestinians who recently returned from Pakistan. The development confirmed fears by health experts and U.N. officials that the lethal pathogen has found its way into one of the most densely populated places in the world.\r\n\r\n<b>\u201c<\/b>The health system is already poor and struggling to survive with the critical needs of chronic diseases, and emergencies that erupted from military escalations,\u201d Bassam Nasser, the manager of the Catholic Relief Services office in Gaza, told <i>Foreign Policy<\/i>. \u201cNow we [have] to add to it the capacity to cope with coronavirus.\u201d\r\n\r\n[caption id=\"attachment_999141\" align=\"alignnone\" width=\"1500\" class=\"none text_width\"]<img class=\"alignnone size-text_width wp-image-999141\" src=\"https:\/\/foreignpolicy.com\/wp-content\/uploads\/2020\/03\/Gaza-City-Coronavirus-GettyImages-1207965037.jpg?w=1500\" alt=\"A girl wearing a protective mask sweeps outside her home in Gaza City on March 22. \" width=\"1500\" height=\"1000\" \/> A girl wearing a protective mask sweeps outside her home in Gaza City on March 22. <span class=\"attribution\">MOHAMMED ABED\/AFP via Getty Images<\/span> <!-- caption placeholder -->[\/caption]\r\n\r\n\u201cAs long as we have emergencies all the time, it is not allowing us to work for development in Gaza,\u201d he said. \u201cIt\u2019s just emergency after emergency after emergency.\u201d\r\n\r\nThe U.N. relief agency is running a public information program that encourages hand-washing and the need for social distancing. UNRWA has set up a <a href=\"https:\/\/twitter.com\/matzschmale\/status\/1239501790913183744%20https:\/\/www.aa.com.tr\/en\/latest-on-coronavirus-outbreak\/impact-of-covid-19-on-gaza-worries-un-expert\/1772401\">triage system<\/a> to monitor patients with respiratory illness, directing those suspected of having the coronavirus to the local hospitals. It will also try to help lessen the burden on hospitals by taking in patients with illnesses unrelated to the coronavirus. Gaza\u2019s hospitals, already under strain, have only a fraction of the number of intensive care unit beds it would need to handle an outbreak.\r\n\r\n\u201cI\u2019m told that there are 60 ICU beds in the hospitals,\u201d Matthias Schmale, the director of Gaza\u2019s UNRWA operations, told <em>Foreign Policy<\/em>. \u201cIf there is a full-scale outbreak the hospital sector won\u2019t cope.\u201d\r\n\r\nThe crisis, he added, has inspired a bit of dark humor among Palestinians in Gaza, who note one point of irony: Israel\u2019s crushing economic blockade on Gaza is helping keep Palestinians safe from the coronavirus, which has already killed over 15,000 people worldwide. But that\u2019s only for now, and the humor, he noted, masks a deep anxiety. \u201cWe are preparing for the worst and hoping for the best,\u201d he said.\r\n\r\nIn fact, the West Bank city of Bethlehem had an outbreak of dozens of cases of the coronavirus earlier this month, after members of a group of Greek religious tourists were confirmed to have contracted it when they returned home.\r\n\r\nThe unprecedented nature of the pandemic has fueled calls for radical thinking about the international response to the coronavirus crisis.\r\n\r\nThe leaders of major relief organizations are pressing donors to grant them greater flexibility to redirect funding from existing programs that are likely to be paralyzed by the pandemic and use that money for programs\u2014including clean water and sanitation projects\u2014that could help stem the crisis.\r\n\r\nJan Egeland, a former U.N. relief chief who heads the Norwegian Refugee Council, has appealed to some 40 donors to allow his agency to redirect money earmarked for shelter programs ground to a halt by the pandemic, and to use it to expand sanitation and hygiene programs.\r\n\r\nThe international community needs to fundamentally rethink its funding priorities for the coronavirus and redirect foreign assistance to fighting the spread of the bug, Egeland said.\r\n\r\n\u201cAs bad as it is now in the well-organized and affluent north, with health systems, good sanitation, and big infrastructure, imagine how it will be when it will hit crowded camps with refugees and displaced people,\u201d said Egeland, who spoke by telephone from quarantine in Norway.\r\n\r\n[caption id=\"attachment_999142\" align=\"alignnone\" width=\"1500\" class=\"none section_break\"]<img class=\"alignnone size-section_break wp-image-999142\" src=\"https:\/\/foreignpolicy.com\/wp-content\/uploads\/2020\/03\/Iraq-Refugee-Camp-GettyImages-1177970292.jpg?w=1500\" alt=\"The Bardarash camp, pictured Oct. 24 in Dohuk, Iraq, swells with Syrian Kurdish refugees. \" width=\"1500\" height=\"750\" \/> The Bardarash camp, pictured Oct. 24 in Dohuk, Iraq, swells with Syrian Kurdish refugees. <span class=\"attribution\">Byron Smith\/Getty Images<\/span> <!-- caption placeholder -->[\/caption]\r\n\r\nEgeland also complained that sweeping U.S. and U.N. economic sanctions imposed on governments in Iran, North Korea, and Venezuela are hampering relief efforts.\r\n\r\n\u201cNow is the time to lift sanctions. I don\u2019t need a lot of sanctions legislation making it more difficult to work in the worst places on the planet, where the COVID virus will hit much harder than in New York, Oslo, and in Wuhan,\u201d he said.\r\n\r\nThe call for ending sanctions comes as Iran has pressed governments to violate the sanctions. Iranian Foreign Minister Mohammad Javad Zarif <a href=\"https:\/\/twitter.com\/JZarif\/status\/1241953525896286209\">tweeted<\/a> on Monday to thank those calling for sanctions relief and urge states and businesses to defy \u201cU.S. mass punishment.\u201d\r\n\r\n\u201cU.S. is NOT listening, impeding global fight against #COVID19,\u201d he wrote.\r\n\r\nU.S. Secretary of State Mike Pompeo defended the measures, saying Tehran squanders money that could be used to fight the pandemic to fund terrorist operations in the region. He also <a href=\"https:\/\/www.state.gov\/khameneis-lies-about-the-wuhan-virus-put-lives-at-risk\/\">said<\/a> that \u201cIranian documents show their health companies have been able to import testing kits without obstacle from U.S. sanctions since January.\u201d\r\n\r\n\u201cU.S. sanctions do not target imports of food, medicine, and medical equipment, or other humanitarian goods,\u201d Pompeo added.\r\n\r\nEgeland acknowledged that most U.N. sanctions regimes, including those for Iran and North Korea, include exemptions for the import of humanitarian goods. But the sanctions have scared financial institutions from providing vital financial services to relief agencies. \u201cNot a single bank had the guts to transfer money, because they were all afraid to be sued by the U.S. government,\u201d he said.\r\n\r\n[distroscale-ad]\r\n\r\nIt remained unclear whether the U.N. appeal will be on top of previous appeals by U.N. agencies for funding to combat the virus. The World Health Organization <a href=\"https:\/\/www.who.int\/docs\/default-source\/coronaviruse\/donor-alert.pdf\">announced<\/a> earlier this year that more than $675 million will be required through April\u2014including $61 million for its own activities\u2014to mount an international campaign against the virus. Though WHO\u2019s Director-General Tedros Adhanom Ghebreyesus said recently that more money would be needed. On Feb. 17, UNICEF issued an urgent <a href=\"https:\/\/www.unicef.org\/press-releases\/unicef-appeals-us423-million-support-global-covid-19-outbreak-response\">request<\/a> for $42.3 million to support the coronavirus response. It will be used to reduce transmission of the virus by promoting distance learning for kids who can\u2019t attend school and public information aimed at shooting down misinformation.\r\n\r\nThe U.N. secretary-general\u2014along with the U.N.\u2019s emergency relief coordinator, Mark Lowcock; Tedros; and the executive director of UNICEF, Henrietta Fore\u2014will launch the new appeal at a joint press teleconference on Wednesday.\r\n\r\nThe U.N. will ask that donors not reduce funding from other vital humanitarian aid programs to fund the coronavirus response. The new appeal \u201caims at addressing the additional needs from the COVID-19 pandemic while sustaining the ongoing humanitarian operations and life-saving programmes responding to the needs pre-dating the new emergency,\u201d according to the draft plan. \u201cThis is essential to avoid further loss of lives and suffering, and the aggravation of affected people\u2019s vulnerabilities.\u201d\r\n\r\nGuterres, meanwhile, expressed concern that the pandemic could claw back decades of efforts to raise international health standards and to scale back the most extreme levels of poverty, and undercut U.N. sustainable development goals, which are designed to improve the standard of living around the world by the year 2030.\r\n\r\n[caption id=\"attachment_999143\" align=\"alignnone\" width=\"1500\" class=\"none text_width\"]<img class=\"alignnone size-text_width wp-image-999143\" src=\"https:\/\/foreignpolicy.com\/wp-content\/uploads\/2020\/03\/Yemen-Famine-GettyImages-1171774134.jpg?w=1500\" alt=\"A 7-year-old girl suffering from malnutrition lies on a bed at a makeshift camp for displaced Yemenis in the northwestern Hajjah province Sept. 28. \" width=\"1500\" height=\"1000\" \/> A 7-year-old girl suffering from malnutrition lies on a bed at a makeshift camp for displaced Yemenis in the northwestern Hajjah province on Sept. 28. <span class=\"attribution\">ESSA AHMED\/AFP via Getty Images<\/span> <!-- caption placeholder -->[\/caption]\r\n\r\nGuterres pressed governments to mount a coordinated global health strategy, ramping up health spending and pitching in to help poor countries. He contended that \u201cglobal solidarity is not only a moral imperative, it is in everyone\u2019s interests.\u201d\r\n\r\n\u201cCOVID-19 is killing people, as well as attacking the real economy at its core\u2014trade, supply chains, businesses, jobs,\u201d Guterres said. \u201cWorkers around the world could lose as much as $3.4 trillion.\u201d\r\n\r\nCountries must resist the temptation to erect protectionist trade walls and should take steps including waiving interest payments to poor countries, offering debt relief, and sharply cutting fees for migrants to send remittance payments to loved ones in their homelands, he said.\r\n\r\n\u201cWe need to focus on people\u2014the most vulnerable, low-wage workers, small and medium enterprises,\u201d Guterres said. \u201cThat means wage support, insurance, social protection, preventing bankruptcies and job loss. That also means designing fiscal and monetary responses to ensure that the burden does not fall on those who can least afford it. The recovery must not come on the backs of the poorest\u2014and we cannot create a legion of new poor. We need to get resources directly into the hands of people.\u201d","datePublished":"2020-03-23T09:16:12+00:00","dateModified":"2020-04-10T11:14:31+00:00","url":"https:\/\/foreignpolicy.com\/2020\/03\/23\/coronavirus-hitting-developing-countries-war-zones-united-nations-urgent-donation-appeal-syria-gaza-yemen-south-sudanthe-next-wave\/","author":[{"@type":"Person","name":"Colum Lynch","url":"https:\/\/foreignpolicy.com\/author\/colum-lynch\/"},{"@type":"Person","name":"Robbie Gramer","url":"https:\/\/foreignpolicy.com\/author\/robbie-gramer\/"}],"image":{"@type":"ImageObject","url":"https:\/\/foreignpolicy.com\/wp-content\/uploads\/2020\/03\/Syria-Coronavirus-Camp-GettyImages-1207932575.jpg?w=1500","height":1000,"width":1500},"isAccessibleForFree":"False","hasPart":{"@type":"WebPageElement","isAccessibleForFree":"False","cssSelector":".post-content-main"}}</script>
+<script>
+var fpUtilsLoc = {"isDev":"","redirectUri":"https:\/\/foreignpolicy.com\/share_redirect\/"};
+</script>
+<script>
+var chartbeatData = {"category_name":"Exclusive","author_list":"Colum Lynch, Robbie Gramer"};
+</script>
+<script>
+var postDataPiano = ["Africa","coronavirus","disease","Exclusive","Foreign Aid","Middle East","south sudan","Syria","United Nations","Yemen","article"];
+</script>
+<script type='text/javascript' src='https://foreignpolicy.com/_static/??-eJytksFOw0AMRH+IrUklIBwQn1K5i0k23awX22nav8dSJe4ke7Ivfp4ZDaw1RC5GxcBGmknhm4XSUELlnOI9HJ+7N0BVMgWVCBolVd/PNOI1sSgUnwNa4nKY9AlaEGkNaypfvAa6GUnBHHIqF9334EqOFIio4z9Aau4twqSwWMoKmSNmNRYcaDumVVSR+ZIo+K1u1XOqwrf7CWN0yCbC9LOQ3A8PLfucPTJ2RXPSJig1SWVoQVokNyy4ZjKvdlA/XGqbYo8odia0fTT1vFwcF7esrrAmLNwWidnCX98+54/upX/t349d302/1nqxsw=='></script>
+<script src='//cdn.taboola.com/libtrc/foreignpolicy/loader.js'></script>
+<script>
+var myFpAlertsLoc = {"isVIPEnv":"1"};
+</script>
+<script>
+var zMoatADVERTISER = {"moatPassback":"editorial"};
+</script>
+<script type='text/javascript' src='https://foreignpolicy.com/_static/??-eJylk8FSAyEMhl/ILdax2h4cL76Anrxm2bSbnUAoCe307c10Rnu1uycgkC8/PyGcSxclG2YLNmJCDXupSIfcFWGKl+7pcf0aQBVNg9YYNFYqPj9hHqQGg16EYTXpQ5jN6nGEE0nVEIFjYzAcOiMnGKRyB9vPG8UwaZiODetltW85OojyYQllJDXxcQFCKRXGJAPwEkx0k2blA2N1p6fPK+b7QxJQ/kKnqs0CknZJemJc9vRRUpHseR6+WtQp04B1lqbSmI9NbKGmWztCdbJrOoPF8S5R/8IWONwj9XbRJGC/GctENSP2iEQC1hEq/rUX5chtcJLX8yWmHoeV/yTff09v681287LdbXbP0w+RVJMF'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202017.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:8.4.2',blog:'162972146',post:'999128',tz:'-4',srv:'foreignpolicy.com'} ]);
+	_stq.push([ 'clickTrackerInit', '162972146', '999128' ]);
+</script>
+
+
+        <!--START Lightbox Javascript-->
+<script type="text/javascript">
+    /*<![CDATA[*/ window.lightboxjs || function (c) { function g(b, d) { d && (d += (/\?/.test(d) ? "&" : "?") + "lv=1"); c[b] || function () { var i = window, h = document, j = b, g = h.location.protocol, l = "load", k = 0; (function () { function b() { a.P(l); a.w = 1; c[j]("_load") } c[j] = function () { function m() { m.id = e; return c[j].apply(m, arguments) } var b, e = ++k; b = this && this != i ? this.id || 0 : 0; (a.s = a.s || []).push([e, b, arguments]); m.then = function (b, c, h) { var d = a.fh[e] = a.fh[e] || [], j = a.eh[e] = a.eh[e] || [], f = a.ph[e] = a.ph[e] || []; b && d.push(b); c && j.push(c); h && f.push(h); return m }; return m }; var a = c[j]._ = {}; a.fh = {}; a.eh = {}; a.ph = {}; a.l = d ? d.replace(/^\/\//, (g == "https:" ? g : "http:") + "//") : d; a.p = { 0: +new Date }; a.P = function (b) { a.p[b] = new Date - a.p[0] }; a.w && b(); i.addEventListener ? i.addEventListener(l, b, !1) : i.attachEvent("on" + l, b); var q = function () { function b() { return ["<head></head><", c, ' onload="var d=', n, ";d.getElementsByTagName('head')[0].", d, "(d.", g, "('script')).", i, "='", a.l, "'\"></", c, ">"].join("") } var c = "body", e = h[c]; if (!e) return setTimeout(q, 100); a.P(1); var d = "appendChild", g = "createElement",
+    i = "src", k = h[g]("div"), l = k[d](h[g]("div")), f = h[g]("iframe"), n = "document", p; k.style.display = "none"; e.insertBefore(k, e.firstChild).id = o + "-" + j; f.frameBorder = "0"; f.id = o + "-frame-" + j; /MSIE[ ]+6/.test(navigator.userAgent) && (f[i] = "javascript:false"); f.allowTransparency = "true"; l[d](f); try { f.contentWindow[n].open() } catch (s) { a.domain = h.domain, p = "javascript:var d=" + n + ".open();d.domain='" + h.domain + "';", f[i] = p + "void(0);" } try { var r = f.contentWindow[n]; r.write(b()); r.close() } catch (t) { f[i] = p + 'd.write("' + b().replace(/"/g, String.fromCharCode(92) + '"') + '");d.close();' } a.P(2) }; a.l && q() })() }(); c[b].lv = "1"; return c[b] } var o = "lightboxjs", k = window[o] = g(o); k.require = g; k.modules = c }({}); /*]]>*/</script><script type="text/javascript">window.lightboxlib = lightboxjs.require("lightboxlib", "//www.lightboxcdn.com/vendor/044b8435-d6a0-427d-af56-eec8f6ae795a/lightbox.js?mb=" + (new Date().getTime()));</script>
+<!--END Lightbox Javascript-->
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f5b9626936","applicationID":"224917688","transactionName":"Z1cDYUFXXhVYWkINXF4dIFZHX18IFkpfClRcVw==","queueTime":0,"applicationTime":355,"atts":"SxAUFwlNTUobWBReSE1P","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

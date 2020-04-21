@@ -13,6 +13,11 @@ def main():
             print(f'{i} {article["title"]} vectorizing...')
             feature_file.write(vectorize(feature_mappings, article['title'] + '\n' + article['text'], article['rating']) + '\n')
     
+    with open('allsides_vectors.txt', 'w') as feature_file:
+        for i, article in enumerate(json.load(open('allsides_test_set.json'))):
+            print(f'{i} {article["title"]} vectorizing...')
+            feature_file.write(vectorize(feature_mappings, article['title'] + '\n' + article['text'], article['rating']) + '\n')
+    
 def get_articles():
     return json.load(open('classifier_test_articles.json'))
 

@@ -1,0 +1,1105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="preconnect" href="//cdnjs.cloudflare.com">
+<link rel="preconnect" href="//fonts.googleapis.com">
+<link rel="preconnect" href="//ib.adnxs.com">
+<link rel="preconnect" href="//experience.tinypass.com">
+<link rel="preconnect" href="//sandbox.tinypass.com">
+<link rel="preconnect" href="//www.googletagservices.com">
+<link rel="preconnect" href="//media.townhall.com">
+<link rel="preconnect" href="//prebid.adnxs.com">
+<link rel="preconnect" href="//www.google-analytics.com">
+<link rel="preconnect" href="//pagead2.googlesyndication.com">
+<link rel="preconnect" href="//ad.doubleclick.net">
+<link rel="preconnect" href="//securepubads.g.doubleclick.net">
+<link rel="preconnect" href="//c.amazon-adsystem.com">
+<link rel="preconnect" href="//townhallmedia-d.openx.net">
+<link rel="preconnect" href="//cdn.blueconic.net">
+<script>
+        document.cookie = "__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+        var setNptTechAdblockerCookie = function (adblocker) {
+            var d = new Date();
+            d.setTime(d.getTime() + 60 * 60 * 24 * 2 * 1000);
+            document.cookie = "__adblocker=" + (adblocker ? "true" : "false") + "; expires=" + d.toUTCString() + "; path=/";
+        }
+        var script = document.createElement("script");
+        script.setAttribute("async", true);
+        script.setAttribute("src", "//www.npttech.com/advertising.js");
+        script.setAttribute("onerror", "setNptTechAdblockerCookie(true);");
+        document.getElementsByTagName("head")[0].appendChild(script);
+    </script>
+<script type="text/javascript" src="//d2ze07sbtyfzd0.cloudfront.net/script.js"></script>
+<script async src="https://cdn.blueconic.net/salemmediagroup.js"></script>
+<script type='text/javascript'>var _sf_startpt = (new Date()).getTime()</script>
+<link rel="manifest" href="/manifest.json">
+<link rel="alternate" href="https://townhall.com" hreflang="en-us">
+<style>
+        .async-hide {
+            opacity: 0 !important
+        }
+    </style>
+<script>
+        (function (a, s, y, n, c, h, i, d, e) {
+            s.className += ' ' + y; h.start = 1 * new Date;
+            h.end = i = function () { s.className = s.className.replace(RegExp(' ?' + y), '') };
+            (a[n] = a[n] || []).hide = h; setTimeout(function () { i(); h.end = null }, c); h.timeout = c;
+        })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
+            { 'GTM-KT87G5R': true });
+    </script>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments);
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-404425-3', 'auto', { 'useAmpClientId': true });
+    
+    ga('require', 'GTM-KT87G5R');
+    
+    //ga('set', 'transport', 'beacon');
+    ga('require', 'displayfeatures');
+    if (typeof hptId !== 'undefined')
+    {
+        ga('set', 'dimension2', hptId);
+    }
+    
+    ga('set', 'dimension7', 'free');
+    ga('send', 'pageview');
+</script>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" sizes="57x57" href="https://media.townhall.com/thm/favicon/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://media.townhall.com/thm/favicon/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://media.townhall.com/thm/favicon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://media.townhall.com/thm/favicon/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://media.townhall.com/thm/favicon/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://media.townhall.com/thm/favicon/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://media.townhall.com/thm/favicon/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://media.townhall.com/thm/favicon/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://media.townhall.com/thm/favicon/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="https://media.townhall.com/thm/favicon/android-chrome-192x192.png" sizes="192x192">
+<meta name="msapplication-square70x70logo" content="https://media.townhall.com/thm/favicon/smalltile.png" />
+<meta name="msapplication-square150x150logo" content="https://media.townhall.com/thm/favicon/mediumtile.png" />
+<meta name="msapplication-wide310x150logo" content="https://media.townhall.com/thm/favicon/widetile.png" />
+<meta name="msapplication-square310x310logo" content="https://media.townhall.com/thm/favicon/largetile.png" />
+<link href="/resources/css/bootstrap.min.css" rel="preload" as="style" />
+<link href="/resources/css/bootstrap.min.css" rel="stylesheet" />
+<link href="/resources/dist/css/main.min.css?v=2" rel="preload" as="style" />
+<link href="/resources/dist/css/main.min.css?v=2" rel="stylesheet" />
+<link href="/resources/lib/jquery/dist/jquery.min.js" rel="preload" as="script" />
+<script src="/resources/lib/jquery/dist/jquery.min.js"></script>
+<meta property="fb:app_id" content="967808926746051" />
+<meta property="fb:pages" content="41632789656,103971336305218,319569361390023,106547192707583,124538510989702,283971595408,15418366158,153162531376557,127519040661256,123834811060739,305174559545115,321502821264274,413465452078762,492802317512753,140705212665688,116757565026850,114013445328868" />
+<title>Newly Unclassified Footnotes Show FBI Knew Documents Used for FISA Warrants Were Bogus</title>
+<meta name="description" content=".04/20/2020 23:40:52PM EST." />
+<link rel="amphtml" href="https://townhall.com/tipsheet/katiepavlich/2020/04/16/new-fisa-abusegrassley-n2567020?amp=true">
+<meta name="keywords" content="Donald Trump, FBI, Chuck Grassley, 2016 Election, james comey, FISA abuse, FISA court" />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="Katie Pavlich" />
+<link rel="author" href="https://plus.google.com/u/0/111211985562830458144/" />
+<link rel="canonical" href="https://townhall.com/tipsheet/katiepavlich/2020/04/16/new-fisa-abusegrassley-n2567020" />
+<meta property="og:title" content="Newly Unclassified Footnotes Show FBI Knew Documents Used for FISA Warrants Were Bogus" />
+<meta property="og:type" content="Article" />
+<meta property="og:url" content="https://townhall.com/tipsheet/katiepavlich/2020/04/16/new-fisa-abusegrassley-n2567020" />
+<meta property="og:image" content="https://media.townhall.com/townhall/reu/s1280x720/2018/218/7df0c574-7d73-4fe6-987f-081bef799ab9.jpg" />
+<meta property="og:site_name" content="Townhall " />
+<meta property="og:description" content="" />
+<script type="application/ld+json">
+        {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "Newly Unclassified Footnotes Show FBI Knew Documents Used for FISA Warrants Were Bogus",
+        "datePublished": "2020-04-16T08:30:00-04:00",
+        "dateModified": "2020-04-16T08:30:00-04:00" ,
+        "image": {
+        "@type": "ImageObject",
+        "url": "https://media.townhall.com/townhall/reu/s1280x720/2018/218/7df0c574-7d73-4fe6-987f-081bef799ab9.jpg",
+        "height": 665,
+        "width": 700
+        },
+        "mainEntityOfPage":"https://townhall.com/tipsheet/katiepavlich/2020/04/16/new-fisa-abusegrassley-n2567020",
+        "author": {
+        "@type": "Person",
+        "name": "Katie Pavlich"
+        },
+        "publisher": {
+        "@type":"Organization",
+        "name": "Townhall.com",
+        "logo": {
+        "@type": "ImageObject",
+        "url": "https://media.townhall.com/townhall/ampmobile/Logo_TH_3.png",
+        "width": 128,
+        "height": 60
+        }
+        }
+        }
+    </script>
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Newly Unclassified Footnotes Show FBI Knew Documents Used for FISA Warrants Were Bogus" />
+<meta name="twitter:image" content="https://media.townhall.com/townhall/reu/s1280x720/2018/218/7df0c574-7d73-4fe6-987f-081bef799ab9.jpg?2023" />
+<meta name="twitter:url" content="https://townhall.com/tipsheet/katiepavlich/2020/04/16/new-fisa-abusegrassley-n2567020?2023" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:site" content="@townhallcom" />
+<script type="text/javascript">
+        var _sf_async_config = {};
+        /** CONFIGURATION START **/
+        _sf_async_config.uid = 14482;
+        _sf_async_config.domain = 'townhall.com';
+        _sf_async_config.sections = 'tipsheet';
+        _sf_async_config.authors = 'Katie Pavlich';
+
+        var _cbq = window._cbq = window._cbq || [];
+        if (localStorage.getItem('_cbq_acct')) {
+            _cbq.push(['_acct', localStorage.getItem( '_cbq_acct' )||"anon"]);
+        }
+
+
+        _sf_async_config.useCanonical = true;
+        /** CONFIGURATION END **/
+        (function () {
+            function loadChartbeat() {
+                window._sf_endpt = (new Date()).getTime();
+                var e = document.createElement('script');
+                e.setAttribute('language', 'javascript');
+                e.setAttribute('type', 'text/javascript');
+                e.setAttribute('src',
+                           (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
+                           'js/chartbeat.js');
+                document.body.appendChild(e);
+            }
+            var oldonload = window.onload;
+            window.onload = (typeof window.onload != 'function') ?
+                loadChartbeat : function () { oldonload(); loadChartbeat(); };
+        })();
+
+</script>
+<script>
+    var _comscore = _comscore || [];
+    _comscore.push({
+        c1: "2",
+        c2: "21057668",
+        c3: "",
+        c4: ""
+    });
+    (function () {
+        var s = document.createElement("script"),
+            el = document.getElementsByTagName("script")[0];
+        s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+    })();
+</script>
+<noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=21057668&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" /> </noscript>
+
+<script>
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        }; if (!f._fbq) f._fbq = n;
+        n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+    }(window,
+        document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '791796474183597');
+    fbq('track', "PageView");</script>
+<noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=791796474183597&ev=PageView&noscript=1" />
+</noscript>
+
+<script>
+        function getRoxotGroupId() {
+            try {
+                var storageKey = 'roxot-gid';
+                var groupId = localStorage.getItem(storageKey);
+                if (groupId === null) {
+                    groupId = 1 + Math.floor(Math.random() * 10000);
+                    localStorage.setItem(storageKey, groupId);
+                }
+                return '' + groupId;
+            } catch (e) {
+                return '10001';
+            }
+        }
+
+        function getRoxotSectorId() {
+            try {
+                var storageKey = 'roxot-sid';
+                var groupId = localStorage.getItem(storageKey);
+                if (groupId === null) {
+                    groupId = 1 + Math.floor(Math.random() * 100);
+                    localStorage.setItem(storageKey, groupId);
+                }
+                return '' + groupId;
+            } catch (e) {
+                return '101';
+            }
+        }
+
+        function getRoxotDeep() {
+            try {
+                var storageKey = 'roxot-deep';
+                var groupId = localStorage.getItem(storageKey);
+                if (groupId === null) {
+                    groupId = 1 + Math.floor(Math.random() * 100);
+                    localStorage.setItem(storageKey, groupId);
+                }
+                return '' + groupId;
+            } catch (e) {
+                return '101';
+            }
+        }
+
+        function getRoxotEvent() {
+            return '' + (1 + Math.floor(Math.random() * 100));
+        }
+    </script>
+<script>
+        var bidTimeout = 3000;
+        var refreshInterval = 60000;
+        var PREBID_TIMEOUT = bidTimeout;
+        var FAILSAFE_TIMEOUT = 3000;
+        var SCREEN_TIME = false;
+        var PREBID = true;
+        var adUnits = [{"code":"div-gpt-728x90_1","sizes":[[728,90],[970,90],[970,250]],"bids":[{"bidder":"openx","params":{"unit":"537998002","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381642"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-728x90_1@728x90"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_2","sizes":[[300,250]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_2@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_1","sizes":[[300,250],[300,600]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_1@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_3","sizes":[[300,250],[300,600]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_3@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]},{"code":"div-gpt-300x250_sticky","sizes":[[300,250]],"bids":[{"bidder":"openx","params":{"unit":"537998003","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381643"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-300x250_sticky@300x250"}},{"bidder":"criteo","params":{"networkId":"7465"}}]}];
+        var apstagSlots = [{"slotID":"div-gpt-728x90_1","slotName":"/6177/slm.townhall/tipsheet/728x90_1","sizes":[[728,90],[970,90],[970,250]]},{"slotID":"div-gpt-300x250_2","slotName":"/6177/slm.townhall/tipsheet/300x250_2","sizes":[[300,250]]},{"slotID":"div-gpt-300x250_1","slotName":"/6177/slm.townhall/tipsheet/300x250_1","sizes":[[300,250],[300,600]]},{"slotID":"div-gpt-300x250_3","slotName":"/6177/slm.townhall/tipsheet/300x250_3","sizes":[[300,250],[300,600]]},{"slotID":"div-gpt-300x250_sticky","slotName":"/6177/slm.townhall/tipsheet/300x250_sticky","sizes":[[300,250]]}];
+    </script>
+<script src="/resources/dist/js/prebid-latest.min.js?v=2.5.1-1"></script>
+<script async>
+        //<![CDATA[
+
+        var gptAdUnitPath = "tipsheet";
+        var gptAdSlot = [];
+
+        googletag.cmd.push(function () {
+            googletag.pubads().disableInitialLoad();
+            try {
+                gptAdSlot['div-gpt-728x90_1'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/728x90_1', [[728,90],[970,90],[970,250],[1,1]], 'div-gpt-728x90_1').addService(googletag.pubads()).setTargeting('pos', '728x90_1').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
+gptAdSlot['div-gpt-300x250_2'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_2', [[300,250]], 'div-gpt-300x250_2').addService(googletag.pubads()).setTargeting('pos', '300x250_2').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
+gptAdSlot['div-gpt-300x250_1'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_1', [[300,250],[300,600]], 'div-gpt-300x250_1').addService(googletag.pubads()).setTargeting('pos', '300x250_1').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
+gptAdSlot['div-gpt-300x250_3'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_3', [[300,250],[300,600]], 'div-gpt-300x250_3').addService(googletag.pubads()).setTargeting('pos', '300x250_3').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
+gptAdSlot['div-gpt-300x250_sticky'] = googletag.defineSlot('/6177/slm.townhall/tipsheet/300x250_sticky', [[300,250]], 'div-gpt-300x250_sticky').addService(googletag.pubads()).setTargeting('pos', '300x250_sticky').setTargeting('roxot-group-id', getRoxotGroupId()).setTargeting('roxot-sector-id', getRoxotSectorId()).setTargeting('roxot-deep', getRoxotDeep()).setTargeting('roxot-event-group-id', getRoxotEvent()).setTargeting('roxot-event', getRoxotEvent()).setTargeting('roxot-event-deep', getRoxotEvent()).setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString()).setTargeting('roxot-hours', (new Date).getUTCHours().toString()).setTargeting('roxot-day', (new Date).getUTCDay().toString());
+gptAdSlot['div-gpt-oop'] = googletag.defineOutOfPageSlot('/6177/slm.townhall/tipsheet', 'div-gpt-oop').addService(googletag.pubads());
+
+
+                if (typeof Storage !== "undefined") {
+                    var targetingParamStr = localStorage.getItem("bcDFPTargetingParams");
+
+                    if (targetingParamStr) {
+                        var targetingParameters = JSON.parse(targetingParamStr);
+
+                        // set page-level targeting parameters
+                        jQuery.each(targetingParameters, function (index, param) {
+                            window.googletag.pubads().setTargeting(param.key, param.value);
+                        });
+                    }
+                }
+            } catch (e) {
+                console.error("thm-ad-exception", e);
+            }
+
+            googletag.pubads().addEventListener('impressionViewable', function (event) {
+                
+                var slot = event.slot;
+                if (slot.getTargeting('refresh').indexOf('true') > -1) {
+                    setTimeout(function () {
+                        Thm.RefreshAd(slot);
+                    }, refreshInterval);
+                }
+            });
+            
+            
+            googletag.pubads().setTargeting("tags",["Donald Trump","FBI","Chuck Grassley","2016 Election","james comey","FISA abuse","FISA court"]).setTargeting("author", "Katie Pavlich").setTargeting("fullUrl", "new-fisa-abusegrassley-n2567020");
+
+            
+
+            googletag.enableServices();
+
+        });
+        //]]>
+    </script>
+<link href="/resources/lib/owl-carousel2/dist/assets/owl.carousel.min.css" rel="stylesheet" />
+<script id="article-meta" type="application/json">
+            {"Title":"Newly Unclassified Footnotes Show FBI Knew Documents Used for FISA Warrants Were Bogus","IsArticleView":true,"BaseShareUrl":"http://townhall.com","Canonical":"https://townhall.com/tipsheet/katiepavlich/2020/04/16/new-fisa-abusegrassley-n2567020","ShareTitle":"Katie Pavlich - Newly Unclassified Footnotes Show FBI Knew Documents Used for FISA Warrants Were Bogus","PublishedDate":"2020-04-16T08:30:00","Id":133514,"Author":"Katie Pavlich","AuthorImage":"https://media.townhall.com/townhall/reu/contributor-sm/authorimages/44384266-8af9-4185-bebc-390f142f688a.png","ImageUrl":"https://media.townhall.com/townhall/reu/ha/2018/218/7df0c574-7d73-4fe6-987f-081bef799ab9.jpg","Tags":[499,924,1778,2482,10780,15783,17603],"Url":"https://townhall.com/tipsheet/katiepavlich/2020/04/16/new-fisa-abusegrassley-n2567020","Soup":0}
+        </script>
+</head>
+<body>
+<div class="thm-piano-top"></div>
+<div id="search">
+<button type="button" class="close"><i class="fa fa-close"></i></button>
+<form id="site-search">
+<input type="search" id="q" name="q" value="" placeholder="Search townhall.com...." />
+<button type="button" class="btn btn-default btn-search"><i class="fa fa-search"></i></button>
+</form>
+</div>
+<header>
+<nav id="thm-nav-sm" class="navbar navbar-default navbar-condensed navbar-fixed-top navbar-article-header">
+<div class="breaking-news-bar-container-condensed"></div>
+<div class="container">
+<div class="navbar-header">
+<a class="navbar-brand" href="/">
+<img src="/resources/th_logo.svg" class="th-logo" alt="">
+</a>
+</div>
+<div id="navbar" class="navbar-collapse collapse">
+<ul class="nav navbar-nav navbar-links navbar-right">
+<li><a title="Columnists" href="/columnists/" class="top-menu">Columnists</a></li>
+<li class="active"><a title="Tipsheet" href="/tipsheet/" class="top-menu">Tipsheet</a></li>
+<li><a title="Cartoons" href="/political-cartoons/" class="top-menu">Cartoons</a></li>
+<li><a title="Podcasts" class="top-menu" href="/podcasts/">Podcasts</a></li>
+<li><a title="Election" class="top-menu hidden-md hidden-sm" href="/election/"><img class="ec-2020-m" src="https://media.townhall.com/thm/ec2020.png" /></a></li>
+<li><a title="Membership: VIP" class="top-menu" href="/vip/"><img class="vip-brand" src="/resources/dist/svg/subscriptions-badge-vip.svg"></a></li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle top-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sections <span class="fa fa-chevron-down"></span></a>
+<ul class="dropdown-menu">
+<li><a title="Newsletter signup" href="/newsletter/">Newsletters</a></li>
+<li class="hidden-lg"><a title="Podcasts" href="/podcasts/">Podcasts</a></li>
+<li><a title="Townhall TV" href="/tv/">Townhall TV</a></li>
+<li><a title="Election " href="/election/">Election</a></li>
+<li><a title="Capitol Voices" href="/capitol-voices/">Capitol Voices</a></li>
+<li><a title="Entertainment" href="/entertainment/">Entertainment</a></li>
+<li><a title="Radio News" href="/news/">Radio News</a></li>
+<li class="hidden-lg"><a title="Election" href="/election/"><img class="ec-2020-m" src="https://media.townhall.com/thm/ec2020.png" /></a></li>
+<li><a title="Live Blog" href="/liveblog/">Live Blog</a></li>
+<li><a title="Topics" href="/tags/">Topics</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle top-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sites <span class="fa fa-chevron-down"></span></a>
+<ul class="dropdown-menu">
+<li><a href="http://hotair.com" target="_blank">Hot Air</a></li>
+<li><a href="http://pjmedia.com" target="_blank">PJ Media</a></li>
+<li><a href="http://bearingarms.com" target="_blank">Bearing Arms</a></li>
+<li><a href="http://twitchy.com" target="_blank">Twitchy</a></li>
+<li><a href="http://redstate.com" target="_blank">RedState</a></li>
+<li><a href="http://finance.townhall.com" target="_blank">Townhall Finance</a></li>
+<li><a href="http://www.conservativeradio.com/" target="_blank">Conservative Radio</a></li>
+</ul>
+</li>
+<li><a class="btn btn-default btn-sm btn-join hidden" href="/subscribe?tpcc=home_button">JOIN VIP</a></li>
+<li><a class="btn btn-default btn-sm btn-login hidden">LOGIN</a></li>
+<li>
+<div class="btn-group btn-account hidden">
+<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+MY ACCOUNT <span class="caret"></span>
+</button>
+<ul class="dropdown-menu">
+<li><a href="/account/" class="lnk-account">Account Settings</a></li>
+<li><a href="/newsletter/">Newsletter Subscriptions</a></li>
+<li><a href="#" class="lnk-logout">Log Out</a></li>
+</ul>
+</div>
+</li>
+<li>&nbsp;&nbsp;<button title="Search" id="btn-show-search" class="btn btn-default btn-show-search"><i class="fa fa-search"></i></button></li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="thm-pad" style="padding-top:50px;">
+</div>
+<nav class="navbar navbar-default navbar-fixed-top navbar-article">
+<div class="container">
+<div class="navbar-header">
+<a class="navbar-brand" href="/"><img src="/resources/th_logo.svg" class="th-logo"></a>
+</div>
+<div id="navbar" class="navbar-collapse collapse">
+<ul class="nav navbar-nav navbar-title">
+<li class="headline">Newly Unclassified Footnotes Show FBI Knew Documents Used for FISA Warrants Were Bogus</li>
+</ul>
+<ul class="nav navbar-nav navbar-btn-search pull-right">
+<li><button class="btn btn-facebook-lg sc-fb"><i class="fa fa-facebook-official"></i>&nbsp;Share</button></li>
+<li><button class="btn btn-twitter-lg sc-tw"><i class="fa fa-twitter"></i>&nbsp;Tweet</button></li>
+<li><button title="Search" id="btn-show-search" class="btn btn-default btn-show-search"><i class="fa fa-search"></i></button></li>
+</ul>
+</div>
+</div>
+<div class="thm-carousel">
+<div class="owl-carousel owl-theme">
+<div class="item">
+<div class="thm-carousel__img">
+<a href="/tipsheet/mattvespa/2020/04/20/alexandria-ocasio-cortezs-nauseating-reaction-to-oil-market-collapse-and-job-los-n2567265"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Alexandria Ocasio-Cortez&#39;s Nauseating Reaction to Oil Market Collapse and Job Losses" data-src="//media.townhall.com/townhall/reu/b/2019/14/4617d4a3-1ee1-47dc-9937-7ce07cbc109d.png" /></a>
+</div>
+<div class="thm-carousel__caption">
+<a href="/tipsheet/mattvespa/2020/04/20/alexandria-ocasio-cortezs-nauseating-reaction-to-oil-market-collapse-and-job-los-n2567265">Alexandria Ocasio-Cortez&#39;s Nauseating Reaction to Oil Market Collapse and Job Losses</a>
+</div>
+</div>
+<div class="item">
+<div class="thm-carousel__img">
+<a href="/tipsheet/mattvespa/2020/04/20/as-he-criticizes-trump-again-when-will-anyone-press-de-blasio-on-his-incompetent-wuhan-coronavirus-response-n2567248"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="As He Criticizes Trump Again, When Will Anyone Press de Blasio on His Incompetent Wuhan Coronavirus Response? " data-src="//media.townhall.com/townhall/reu/b/2020/111/53edafea-511d-4e76-a084-5a589a8262a5.jpg" /></a>
+</div>
+<div class="thm-carousel__caption">
+<a href="/tipsheet/mattvespa/2020/04/20/as-he-criticizes-trump-again-when-will-anyone-press-de-blasio-on-his-incompetent-wuhan-coronavirus-response-n2567248">As He Criticizes Trump Again, When Will Anyone Press de Blasio on His Incompetent Wuhan Coronavirus Response? </a>
+</div>
+</div>
+<div class="item">
+<div class="thm-carousel__img">
+<a href="/tipsheet/mattvespa/2020/04/20/the-media-has-perverted-this-four-letter-word-because-they-hate-trump-n2567214"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="As We Fight The Wuhan Coronavirus, The Media Perverts This Four-Letter Word Because They Hate Trump " data-src="//media.townhall.com/townhall/reu/b/2020/110/f214419d-10a8-4ba1-a288-7377e4ed3582.jpg" /></a>
+</div>
+<div class="thm-carousel__caption">
+<a href="/tipsheet/mattvespa/2020/04/20/the-media-has-perverted-this-four-letter-word-because-they-hate-trump-n2567214">As We Fight The Wuhan Coronavirus, The Media Perverts This Four-Letter Word Because They Hate Trump </a>
+</div>
+ </div>
+<div class="item">
+<div class="thm-carousel__img">
+<a href="/tipsheet/katiepavlich/2020/04/20/bill-deblasio-cant-comprehend-why-criminals-let-out-of-jail-would-recommit-crimes-n2567245"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Bill de Blasio Can&#39;t Comprehend Why Inmates Let Out of Jail Early Would Commit New Crimes" data-src="//media.townhall.com/townhall/reu/b/townhall/reu/o/2018/337/437859fd-b45f-4762-8b30-307ee2e8f33c.png" /></a>
+</div>
+<div class="thm-carousel__caption">
+<a href="/tipsheet/katiepavlich/2020/04/20/bill-deblasio-cant-comprehend-why-criminals-let-out-of-jail-would-recommit-crimes-n2567245">Bill de Blasio Can&#39;t Comprehend Why Inmates Let Out of Jail Early Would Commit New Crimes</a>
+</div>
+</div>
+<div class="item">
+<div class="thm-carousel__img">
+<a href="/tipsheet/katiepavlich/2020/04/20/despite-top-chemist-being-arrested-for-helping-china-harvard-just-got-a-bunch-of-new-taxpayer-money-n2567218"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="ICYMI: Despite Top Chemist Being Arrested for Helping China, Harvard Just Got a Bunch of New Taxpayer Money" data-src="//media.townhall.com/townhall/reu/b/2017/218/ffa599e9-8530-44fd-8c16-83d63e219bc5.jpg" /></a>
+</div>
+<div class="thm-carousel__caption">
+<a href="/tipsheet/katiepavlich/2020/04/20/despite-top-chemist-being-arrested-for-helping-china-harvard-just-got-a-bunch-of-new-taxpayer-money-n2567218">ICYMI: Despite Top Chemist Being Arrested for Helping China, Harvard Just Got a Bunch of New Taxpayer Money</a>
+</div>
+</div>
+<div class="item">
+<div class="thm-carousel__img">
+<a href="/tipsheet/mattvespa/2020/04/20/icymi-did-nbc-news-ask-a-legitimate-question-or-peddle-a-despicable-trump-infec-n2567266"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="ICYMI: Did NBC News Ask a Legitimate Question or Peddle a Despicable Trump &#39;Infected with Coronavirus&#39; Fantasy? " data-src="//media.townhall.com/townhall/reu/b/2020/110/c8351b17-e1c2-4629-8da1-bce45a7d677c.jpg" /></a>
+</div>
+<div class="thm-carousel__caption">
+<a href="/tipsheet/mattvespa/2020/04/20/icymi-did-nbc-news-ask-a-legitimate-question-or-peddle-a-despicable-trump-infec-n2567266">ICYMI: Did NBC News Ask a Legitimate Question or Peddle a Despicable Trump &#39;Infected with Coronavirus&#39; Fantasy? </a>
+</div>
+</div>
+<div class="item">
+<div class="thm-carousel__img">
+<a href="/tipsheet/katiepavlich/2020/04/20/top-white-house-advisor-explains-how-china-hoarded-protective-medical-equipment-while-lying-to-the-world-n2567216"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Navarro Explains What Should Disturb Americans the Most About China&#39;s Behavior " data-src="//media.townhall.com/townhall/reu/b/2020/104/7bed4408-090a-4d91-8677-72e721a2fc35.jpg" /></a>
+</div>
+<div class="thm-carousel__caption">
+<a href="/tipsheet/katiepavlich/2020/04/20/top-white-house-advisor-explains-how-china-hoarded-protective-medical-equipment-while-lying-to-the-world-n2567216">Navarro Explains What Should Disturb Americans the Most About China&#39;s Behavior </a>
+</div>
+</div>
+<div class="item">
+<div class="thm-carousel__img">
+<a href="/tipsheet/katiepavlich/2020/04/20/mcconnell-announces-new-unplanned-senate-session-in-hopes-of-helping-bleeding-small-businesses-n2567259"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="While Pelosi Fiddles, McConnell Plans Additional Senate Session to Help Small Businesses and Workers" data-src="//media.townhall.com/townhall/reu/b/2018/290/7eca8da6-ceb6-4580-a17b-2658544b8cc3.jpg" /></a>
+</div>
+<div class="thm-carousel__caption">
+<a href="/tipsheet/katiepavlich/2020/04/20/mcconnell-announces-new-unplanned-senate-session-in-hopes-of-helping-bleeding-small-businesses-n2567259">While Pelosi Fiddles, McConnell Plans Additional Senate Session to Help Small Businesses and Workers</a>
+</div>
+</div>
+<div class="item">
+<div class="thm-carousel__img">
+<a href="/tipsheet/cortneyobrien/2020/04/20/aclu-official-calls-biden-racist-for-supporting-china-travel-ban-n2567226"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="ACLU Official Calls Biden &#39;Racist&#39; for Supporting China Travel Ban" data-src="//media.townhall.com/townhall/reu/b/2020/75/cb4be80b-30d6-4f1f-912e-74070242dc7d.jpg" /></a>
+</div>
+<div class="thm-carousel__caption">
+<a href="/tipsheet/cortneyobrien/2020/04/20/aclu-official-calls-biden-racist-for-supporting-china-travel-ban-n2567226">ACLU Official Calls Biden &#39;Racist&#39; for Supporting China Travel Ban</a>
+</div>
+</div>
+<div class="item">
+<div class="thm-carousel__img">
+<a href="/tipsheet/cortneyobrien/2020/04/20/former-nypd-sergeants-blame-de-blasio-for-letting-new-york-become-epicenter-of-outbreak-n2567225"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Former NYPD Sergeants Blame De Blasio for Letting New York Become Epicenter of Outbreak" data-src="//media.townhall.com/townhall/reu/b/2020/100/f05bab8f-dc2c-46b4-9bde-bca808e0e1d9.jpg" /></a>
+</div>
+<div class="thm-carousel__caption">
+<a href="/tipsheet/cortneyobrien/2020/04/20/former-nypd-sergeants-blame-de-blasio-for-letting-new-york-become-epicenter-of-outbreak-n2567225">Former NYPD Sergeants Blame De Blasio for Letting New York Become Epicenter of Outbreak</a>
+</div>
+</div>
+<div class="item">
+<div class="thm-carousel__img">
+<a href="/tipsheet/cortneyobrien/2020/04/20/georgia-governor-is-reopening-his-state-on-friday-n2567264"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Georgia Governor Is Reopening His State on Friday" data-src="//media.townhall.com/townhall/reu/b/2018/309/a2322da0-027e-40f4-a1d7-6f9910e87f21.jpg" /></a>
+</div>
+<div class="thm-carousel__caption">
+<a href="/tipsheet/cortneyobrien/2020/04/20/georgia-governor-is-reopening-his-state-on-friday-n2567264">Georgia Governor Is Reopening His State on Friday</a>
+</div>
+</div>
+<div class="item">
+<div class="thm-carousel__img">
+<div class="story__vip-badge">
+<i class="thm-vip-badge"></i>
+</div>
+<a href="/tipsheet/cortneyobrien/2020/04/20/politics-overshadowed-the-yellow-fever-too-n2567197"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Politics Overshadowed the 18th Century Yellow Fever Too" data-src="//media.townhall.com/townhall/reu/b/2020/111/53bf6fb3-0d46-415f-822f-30910eb45a66.png" /></a>
+</div>
+<div class="thm-carousel__caption">
+<a href="/tipsheet/cortneyobrien/2020/04/20/politics-overshadowed-the-yellow-fever-too-n2567197">Politics Overshadowed the 18th Century Yellow Fever Too</a>
+</div>
+</div>
+<div class="item">
+<div class="thm-carousel__img">
+<a href="/tipsheet/cortneyobrien/2020/04/20/symone-sanders-got-a-wakeup-call-after-accusing-trump-admin-of-letting-small-business-program-run-dry-n2567213"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Symone Sanders Got a Wake-up Call After Accusing Trump Admin of Letting Small Business Program Run Dry" data-src="//media.townhall.com/townhall/reu/b/2020/111/5fae8fd4-dfff-481d-a7cc-30c53473b146.jpg" /></a>
+</div>
+<div class="thm-carousel__caption">
+<a href="/tipsheet/cortneyobrien/2020/04/20/symone-sanders-got-a-wakeup-call-after-accusing-trump-admin-of-letting-small-business-program-run-dry-n2567213">Symone Sanders Got a Wake-up Call After Accusing Trump Admin of Letting Small Business Program Run Dry</a>
+</div>
+</div>
+<div class="item">
+<div class="thm-carousel__img">
+<a href="/columnists/kurtschlichter/2020/04/20/they-cant-stop-us-from-re-opening-america-n2567177"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="They Can’t Stop Us from Re-Opening America" data-src="//media.townhall.com/townhall/reu/b/2018/304/b0c301eb-3460-4749-affb-80f4d0e00a91.jpg" /></a>
+</div>
+<div class="thm-carousel__caption">
+<a href="/columnists/kurtschlichter/2020/04/20/they-cant-stop-us-from-re-opening-america-n2567177">They Can’t Stop Us from Re-Opening America</a>
+</div>
+</div>
+<div class="item">
+<div class="thm-carousel__img">
+<a href="/columnists/scottmorefield/2020/04/20/leftists-dont-want-the-shutdown-to-end-because-they-are-living-out-their-wildest-dreams-n2567208"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Leftists Don’t Want The Shutdown To End Because They Are Living Out Their Wildest Dreams" data-src="//media.townhall.com/townhall/reu/b/2020/107/7835e6e2-af65-4259-8262-d78341310f24.jpg" /></a>
+</div>
+<div class="thm-carousel__caption">
+<a href="/columnists/scottmorefield/2020/04/20/leftists-dont-want-the-shutdown-to-end-because-they-are-living-out-their-wildest-dreams-n2567208">Leftists Don’t Want The Shutdown To End Because They Are Living Out Their Wildest Dreams</a>
+</div>
+</div>
+</div>
+</div></nav>
+</header>
+<div>
+<div class="container">
+<div class="row row-topper">
+<div class="col-xs-10">
+<ul class="breadcrumb">
+<li><a href="/">Townhall</a></li>
+<li><a href="/tipsheet/" class="text-capitalize">tipsheet</a></li>
+<li class="active">
+<a href="/tipsheet/katiepavlich/">Katie Pavlich</a>
+</li>
+</ul>
+</div>
+<div class="col-xs-2">
+<a href="/tags/donald-trump" class="btn btn-default btn-article-supertag pull-right ">Donald Trump</a>
+</div>
+</div>
+<article class="with-rail">
+<div class="row">
+<div class="col-xs-12">
+<section id="article-header">
+<div class="row">
+<div class="col-xs-12">
+</div>
+</div>
+<h1 class="headline">Newly Unclassified Footnotes Show FBI Knew Documents Used for FISA Warrants Were Bogus</h1>
+<div class="row">
+<div class="col-xs-12">
+<div class="contributor-img pull-left">
+<a href="/author/katiepavlich">
+<img alt="Katie Pavlich" class="img-thumbnail" src="https://media.townhall.com/townhall/reu/contributor-sm/authorimages//44384266-8af9-4185-bebc-390f142f688a.png" />
+</a>
+</div>
+<div class="contributor pull-left">
+<a href="/author/katiepavlich">Katie Pavlich</a>
+</div>
+<div class="contributor pull-left">|</div>
+<div class="contributor pull-left">
+<i class="fa fa-twitter tw-icon vert-align"></i>&nbsp;<a href="https://twitter.com/KatiePavlich" target="_blank">@KatiePavlich</a>
+</div>
+<div class="contributor pull-left">|</div>
+<div class="contributor pull-left">Posted: Apr 16, 2020 8:30 AM</div>
+<div class="sc header-share">
+<a class="btn btn-facebook-lg sc-fb"><i class="fa fa-facebook-official"></i>&nbsp; Share <span class="fb-count"></span></a>
+<a class="btn btn-twitter-lg sc-tw" data-dc="2023"><i class="fa fa-twitter"></i>&nbsp; Tweet <span class="tw-count"></span></a>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12">
+<div class="gpt-header">
+<div id="div-gpt-728x90_1" class="gpt-ad">
+<script type="text/javascript">
+                    googletag.cmd.push(function () {
+                        googletag.display("div-gpt-728x90_1");
+                        //googletag.pubads().refresh([gptAdSlot["div-gpt-728x90_1"]])
+                    });
+                </script>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-8">
+<section id="article-media-object">
+<img class="article-main-image" src="https://media.townhall.com/townhall/reu/ha/2018/218/7df0c574-7d73-4fe6-987f-081bef799ab9.jpg" alt="Newly Unclassified Footnotes Show FBI Knew Documents Used for FISA Warrants Were Bogus" />
+<p class="main-image-source muted"><small><em>Source: AP Photo/Andrew Harnik, File</em></small></p>
+</section>
+<section id="article-body">
+<aside id="aside1" class="left">
+<div class="article-aside-ad">
+<div id="div-gpt-300x250_2" class="gpt-ad">
+<script type="text/javascript">
+                    googletag.cmd.push(function () {
+                        googletag.display("div-gpt-300x250_2");
+                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_2"]])
+                    });
+                </script>
+</div>
+</div>
+</aside>
+<p>Thanks to newly declassified and released footnotes from Acting Director of National Intelligence Richard Grenell, it is confirmed the FBI knew the Steele dossier -- a false document full of Russian propaganda that was cobbled together by Fusion GPS on behalf of the Clinton campaign -- was used by agents to pursue FISA warrants even though it knew it was unreliable.</p><div class="thm-piano-mop"></div><p>&quot;Despite multiple reports in 2017 warning that claims in an anti-Trump dossier were &#39;false&#39; and &#39;part of a Russian disinformation campaign,&#39; the FBI continued to rely on the Democrat-funded opposition research to spy on a Trump campaign aide. The once-classified details contained in footnotes of the Justice Department Inspector General&rsquo;s postmortem of the FBI&rsquo;s flawed spying operation were unmasked at the repeated urging of Senate Finance Committee Chairman Chuck Grassley (R-Iowa) and Homeland Security and Governmental Affairs Committee Chairman Ron Johnson (R-Wis.),&quot; Grassley released Wednesday night.</p><p>&quot;Earlier this month, the Justice Department provided the senators with a partially-declassified version of three footnotes following their January request, but key information detailing exactly when the FBI became aware of exculpatory intelligence reports remained redacted. The new material, provided with the assistance of the Office of the Director of National Intelligence, sheds new light on the remaining redactions as well as additional information that was previously classified in the IG report,&quot; the release continues.</p><p>Details in the footnotes reveal the FBI knew the dossier wasn&#39;t credible <em>before&nbsp;</em>applying for FISA renewals on at least one Trump campaign official. This information was also known before the appointment of Special Counsel Robert Mueller. Adding insult to injury, Russian intelligence officials were aware of Steele&#39;s investigation into the Trump campaign in July 2016. This information helped Russia with disinformation campaigns against the United States.</p><p>&quot;Having reviewed the matter, and having consulted the heads of the relevant Intelligence Community elements, I have declassified the enclosed footnotes. I consulted with the Attorney General William Barr, and he has authorized the ODNI to say that he concurs in the declassification insofar as it relates to DOJ equities,&quot; Acting DNI Director Richard Grenell wrote in a letter to Grassley and Johnson with the attached footnotes. &nbsp;</p><p>Further, the &quot;FBI had open counterintelligence case on Steele&rsquo;s key source, but failed to apprise the FISA Court&quot; and &quot;despite repeated warnings of tainted evidence, FBI continuously sought FISA renewals.&quot;</p><p>&ldquo;As we can see from these now-declassified footnotes in the IG&rsquo;s report, Russian intelligence was aware of the dossier before the FBI even began its investigation and the FBI had reports in hand that their central piece of evidence was most likely tainted with Russian disinformation,&rdquo; Senators Grassley and Johnson said about the confirmed revelations.&nbsp;</p> <div class="mpw-inline">
+<div>
+<div class="mpw-inline-col__rail"><a title="Bill de Blasio Can't Comprehend Why Inmates Let Out of Jail Early Would Commit New Crimes - 70" href="/tipsheet/katiepavlich/2020/04/20/bill-deblasio-cant-comprehend-why-criminals-let-out-of-jail-would-recommit-crimes-n2567245?utm_campaign=inarticle"><img class="img-responsive" src="https://media.townhall.com/townhall/reu/s124x68/townhall/reu/s124x68/2018/337/437859fd-b45f-4762-8b30-307ee2e8f33c.png" /></a></div>
+<div class="mpw-inline-col__content">
+<div class="mpw-inline-col__title">Recommended</div>
+<a title="Bill de Blasio Can't Comprehend Why Inmates Let Out of Jail Early Would Commit New Crimes - 70" href="/tipsheet/katiepavlich/2020/04/20/bill-deblasio-cant-comprehend-why-criminals-let-out-of-jail-would-recommit-crimes-n2567245?utm_campaign=inarticle">
+<span class="mpw-inline-col__story">Bill de Blasio Can't Comprehend Why Inmates Let Out of Jail Early Would Commit New Crimes</span>
+</a>
+<div class="mpw-inline-col__muted">
+Katie Pavlich
+</div>
+</div>
+</div>
+</div>
+<p>&ldquo;Thanks to Attorney General Barr&rsquo;s and Acting Director Grenell&rsquo;s declassification of the footnotes, we know the FBI&rsquo;s justification to target an American Citizen was riddled with significant flaws. Inspector General Michael Horowitz and his team did what neither the FBI nor Special Counsel Mueller cared to do: examine and investigate corruption at the FBI, the sources of the Steele dossier, how it was disseminated, and reporting that it contained Russian disinformation,&quot; they continued.&nbsp;</p><p>House Intelligence Committee Chairman Adam Schiff, the Democrat who bolstered the Special Counsel investigation and led the impeachment crusade against President Trump, has always maintained the FISA process used against the Trump campaign was done properly and legally. All of the evidence, further backed by the declassified footnotes, is to the contrary.&nbsp;</p><p>You can read the footnotes and Grenell&#39;s letter below.&nbsp;</p><p style="   margin: 12px auto 6px auto;   font-family: Helvetica,Arial,Sans-serif;   font-style: normal;   font-variant: normal;   font-weight: normal;   font-size: 14px;   line-height: normal;   font-size-adjust: none;   font-stretch: normal;   -x-system-font: none;   display: block;"><a href="https://www.scribd.com/document/456694322/Declassified-footnotes-DNI#from_embed" style="text-decoration: underline;" title="View Declassified footnotes DNI on Scribd">Declassified footnotes DNI</a> by <a href="https://www.scribd.com/user/56107854/Katie-Pavlich#from_embed" style="text-decoration: underline;" title="View Katie Pavlich's profile on Scribd">Katie Pavlich</a> on Scribd</p><p><iframe class="scribd_iframe_embed" title="Declassified footnotes DNI" src="https://www.scribd.com/embeds/456694322/content?start_page=1&view_mode=scroll&access_key=key-drxpNibLgV32C2RIRE4O" data-auto-height="true" data-aspect-ratio="1.293791574279379" scrolling="no" width="100%" height="600" frameborder="0"></iframe></p>
+</section>
+<section id="article-footer">
+<div class="row">
+<div class="col-xs-12">
+<div class="thm-piano-eop">
+</div>
+<div class="thm-piano-eop-recommended"></div>
+</div>
+</div>
+<div class="article-actions-footer sc">
+<div class="row">
+<div class="col-xs-12">
+<a class="btn btn-facebook-lg btn-block sc-fb"><i class="fa fa-facebook-official"></i>&nbsp; Share this on Facebook <span class="fb-count"></span></a>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-6"><a class="btn btn-block btn-twitter-lg sc-tw" data-dc="2023"><i class="fa fa-twitter"></i>&nbsp; Tweet <span class="tw-count"></span></a></div>
+<div class="col-xs-2"><a href="mailto:?subject=Newly Unclassified Footnotes Show FBI Knew Documents Used for FISA Warrants Were Bogus&amp;body=https://townhall.com/tipsheet/katiepavlich/2020/04/16/new-fisa-abusegrassley-n2567020" class="btn btn-block btn-default btn-article-email"><i class="fa fa-envelope"></i></a></div>
+<div class="col-xs-2"><button data-url="https://townhall.com/tipsheet/katiepavlich/2020/04/16/new-fisa-abusegrassley-n2567020/print" onclick="window.open('https://townhall.com/tipsheet/katiepavlich/2020/04/16/new-fisa-abusegrassley-n2567020/print', 'print-winder', 'width=850,height=700,scrollbars=yes');" class="btn btn-block btn-default btn-article-print"><i class="fa fa-print"></i></button></div>
+<div class="col-xs-2"><a href="#article-comment-bookmark" class="btn btn-block btn-default btn-article-comment"><i class="fa fa-comment"></i></a></div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12">
+<div id="rcjsload_ffe38c"></div>
+<script type="text/javascript">
+        (function () {
+            function ad_block_test(e, o) { if ("undefined" != typeof document.body) { var t = "0.1.2-dev", o = o ? o : "sponsorText", n = document.createElement("DIV"); n.id = o, n.style.position = "absolute", n.style.left = "-999px", n.appendChild(document.createTextNode("&nbsp;")), document.body.appendChild(n), setTimeout(function () { if (n) { var o = 0 == n.clientHeight; try { } catch (d) { console && console.log && console.log("ad-block-test error", d) } e(o, t), document.body.removeChild(n) } }, 175) } }
+            ad_block_test(function (is_blocked) {
+                var widget_id = 102403;
+                if (is_blocked === true) {
+                    widget_id = 102452;
+                }
+                var referer = ""; try { if (referer = document.referrer, "undefined" == typeof referer) throw "undefined" } catch (exception) { referer = document.location.href, ("" == referer || "undefined" == typeof referer) && (referer = document.URL) } referer = referer.substr(0, 700);
+                var rcel = document.createElement("script");
+                rcel.id = 'rc_' + Math.floor(Math.random() * 1000);
+                rcel.type = 'text/javascript';
+                rcel.src = "//trends.revcontent.com/serve.js.php?w=" + widget_id + "&t=" + rcel.id + "&c=" + (new Date()).getTime() + "&width=" + (window.outerWidth || document.documentElement.clientWidth) + "&referer=" + referer + '&is_blocked=' + is_blocked;
+                rcel.async = true;
+                var rcds = document.getElementById("rcjsload_ffe38c"); rcds.appendChild(rcel);
+            });
+        })();
+    </script>
+<div class="thm-bluec"></div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12">
+<ul class="list-unstyled list-inline article-topics clearfix">
+<li>Tags: </li>
+<li><a class="btn btn-default btn-topic" data-tagid="499" href="/tags/donald-trump">Donald Trump</a></li>
+<li><a class="btn btn-default btn-topic" data-tagid="924" href="/tags/fbi">FBI</a></li>
+<li><a class="btn btn-default btn-topic" data-tagid="1778" href="/tags/chuck-grassley">Chuck Grassley</a></li>
+<li><a class="btn btn-default btn-topic" data-tagid="2482" href="/tags/2016-election">2016 Election</a></li>
+<li><a class="btn btn-default btn-topic" data-tagid="10780" href="/tags/james-comey">james comey</a></li>
+<li><a class="btn btn-default btn-topic" data-tagid="15783" href="/tags/fisa-abuse">FISA abuse</a></li>
+<li><a class="btn btn-default btn-topic" data-tagid="17603" href="/tags/fisa-court">FISA court</a></li>
+</ul>
+<script>
+    var rndnum = Math.floor(Math.random() * 50000);
+    var submitScript = document.createElement('script');
+    submitScript.src = 'https://townhall.com/wservices/handlers/tagcount.ashx?tid=499,924,1778,2482,10780,15783,17603&tnd=' + rndnum;
+    document.body.appendChild(submitScript);
+
+</script>
+</div>
+</div>
+<section id="grid-1">
+<div class="row">
+<div class="col-xs-4">
+<div class="story">
+<div class="story__img">
+<a class="thm-inc lazy" title="&lt;p&gt;Wuhan Lab Director Chimes In On Theories About How the Coronavirus Began&lt;/p&gt;" data-src="https://media.townhall.com/townhall/reu/ha/2020/76/dc9a922c-d3e3-46a6-ac0d-be735e8ea8d3.jpg" href="https://townhall.com/tipsheet/bethbaumann/2020/04/20/wuhan-laboratory-director-theres-no-way-the-coronavirus-came-from-our-lab-n2567201"></a>
+</div>
+<div class="story__flavor"></div>
+<div class="story__flavor"></div>
+<div class="story__text">
+<a class="thm-inc" title="&lt;p&gt;Wuhan Lab Director Chimes In On Theories About How the Coronavirus Began&lt;/p&gt;" href="https://townhall.com/tipsheet/bethbaumann/2020/04/20/wuhan-laboratory-director-theres-no-way-the-coronavirus-came-from-our-lab-n2567201"><p>Wuhan Lab Director Chimes In On Theories About How the Coronavirus Began</p></a>
+</div>
+<div class="story__author">
+Beth Baumann
+</div>
+</div>
+</div>
+<div class="col-xs-4">
+<div class="story">
+<div class="story__img">
+<a class="thm-inc lazy" title="&lt;p&gt;&lt;span style=&quot;color: rgb(201, 1, 16);&quot;&gt;Latest:&lt;/span&gt; President Trump Is Temporarily Halting Immigration to the United States&lt;/p&gt;" data-src="https://media.townhall.com/townhall/reu/ha/2020/105/c8a83e6f-12e8-4526-8916-45b4bb3f8424.jpg" href="https://townhall.com/tipsheet/bethbaumann/2020/04/20/breaking-president-trump-is-temporarily-halting-immigration-to-the-united-states-n2567285"></a>
+</div>
+<div class="story__flavor"></div>
+<div class="story__flavor"></div>
+<div class="story__text">
+<a class="thm-inc" title="&lt;p&gt;&lt;span style=&quot;color: rgb(201, 1, 16);&quot;&gt;Latest:&lt;/span&gt; President Trump Is Temporarily Halting Immigration to the United States&lt;/p&gt;" href="https://townhall.com/tipsheet/bethbaumann/2020/04/20/breaking-president-trump-is-temporarily-halting-immigration-to-the-united-states-n2567285"><p><span style="color: rgb(201, 1, 16);">Latest:</span> President Trump Is Temporarily Halting Immigration to the United States</p></a>
+</div>
+<div class="story__author">
+Beth Baumann
+</div>
+</div>
+</div>
+<div class="col-xs-4">
+<div class="story">
+<div class="story__img">
+<a class="thm-inc lazy" title="Report: North Korean Leader Kim Jong Un Is Being Treated Following a Hospital Procedure" data-src="https://media.townhall.com/townhall/reu/ha/2018/282/92c3a195-47b5-4d1f-9c4e-0643b38fe739.jpg" href="https://townhall.com/tipsheet/bethbaumann/2020/04/20/report-north-korean-leader-kim-jong-un-is-being-treated-following-a-hospital-pro-n2567283"></a>
+</div>
+<div class="story__flavor"></div>
+<div class="story__flavor"></div>
+<div class="story__text">
+<a class="thm-inc" title="Report: North Korean Leader Kim Jong Un Is Being Treated Following a Hospital Procedure" href="https://townhall.com/tipsheet/bethbaumann/2020/04/20/report-north-korean-leader-kim-jong-un-is-being-treated-following-a-hospital-pro-n2567283">Report: North Korean Leader Kim Jong Un Is Being Treated Following a Hospital Procedure</a>
+</div>
+<div class="story__author">
+Beth Baumann
+</div>
+</div>
+</div>
+</div><div class="row">
+<div class="col-xs-4">
+<div class="story">
+<div class="story__img">
+<a class="thm-inc lazy" title="&lt;p&gt;WATCH: Trump Campaign Ad Dunks on Pelosi for Failing to Understand the Coronavirus&#39; Devastating Impact on Americans&lt;/p&gt;" data-src="https://media.townhall.com/townhall/reu/ha/2020/111/9bd345db-9ce3-489b-bcf9-b627fa975e95.jpg" href="https://townhall.com/tipsheet/bethbaumann/2020/04/20/watch-nancy-antoinette-celebrates-her-lavish-lifestyle-while-americans-starve-during-coronavirus-pandemic-n2567278"></a>
+</div>
+<div class="story__flavor"></div>
+<div class="story__flavor"></div>
+<div class="story__text">
+<a class="thm-inc" title="&lt;p&gt;WATCH: Trump Campaign Ad Dunks on Pelosi for Failing to Understand the Coronavirus&#39; Devastating Impact on Americans&lt;/p&gt;" href="https://townhall.com/tipsheet/bethbaumann/2020/04/20/watch-nancy-antoinette-celebrates-her-lavish-lifestyle-while-americans-starve-during-coronavirus-pandemic-n2567278"><p>WATCH: Trump Campaign Ad Dunks on Pelosi for Failing to Understand the Coronavirus' Devastating Impact on Americans</p></a>
+</div>
+<div class="story__author">
+Beth Baumann
+</div>
+</div>
+</div>
+<div class="col-xs-4">
+<div class="story">
+<div class="story__img">
+<a class="thm-inc lazy" title="ICYMI: Did NBC News Ask a Legitimate Question or Peddle a Despicable Trump &#39;Infected with Coronavirus&#39; Fantasy? " data-src="https://media.townhall.com/townhall/reu/ha/2020/110/c8351b17-e1c2-4629-8da1-bce45a7d677c.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/20/icymi-did-nbc-news-ask-a-legitimate-question-or-peddle-a-despicable-trump-infec-n2567266"></a>
+</div>
+<div class="story__flavor"></div>
+<div class="story__flavor"></div>
+<div class="story__text">
+<a class="thm-inc" title="ICYMI: Did NBC News Ask a Legitimate Question or Peddle a Despicable Trump &#39;Infected with Coronavirus&#39; Fantasy? " href="https://townhall.com/tipsheet/mattvespa/2020/04/20/icymi-did-nbc-news-ask-a-legitimate-question-or-peddle-a-despicable-trump-infec-n2567266">ICYMI: Did NBC News Ask a Legitimate Question or Peddle a Despicable Trump 'Infected with Coronavirus' Fantasy? </a>
+</div>
+<div class="story__author">
+Matt Vespa
+</div>
+</div>
+</div>
+<div class="col-xs-4">
+<div class="story">
+<div class="story__img">
+<a class="thm-inc lazy" title="As He Criticizes Trump Again, When Will Anyone Press de Blasio on His Incompetent Wuhan Coronavirus Response? " data-src="https://media.townhall.com/townhall/reu/ha/2020/100/f05bab8f-dc2c-46b4-9bde-bca808e0e1d9.jpg" href="https://townhall.com/tipsheet/mattvespa/2020/04/20/as-he-criticizes-trump-again-when-will-anyone-press-de-blasio-on-his-incompetent-wuhan-coronavirus-response-n2567248"></a>
+</div>
+<div class="story__flavor"></div>
+<div class="story__flavor"></div>
+<div class="story__text">
+<a class="thm-inc" title="As He Criticizes Trump Again, When Will Anyone Press de Blasio on His Incompetent Wuhan Coronavirus Response? " href="https://townhall.com/tipsheet/mattvespa/2020/04/20/as-he-criticizes-trump-again-when-will-anyone-press-de-blasio-on-his-incompetent-wuhan-coronavirus-response-n2567248">As He Criticizes Trump Again, When Will Anyone Press de Blasio on His Incompetent Wuhan Coronavirus Response? </a>
+</div>
+<div class="story__author">
+Matt Vespa
+</div>
+</div>
+</div>
+</div><div class="row">
+</div>
+</section>
+</section>
+<div id="article-comment-bookmark"></div>
+<section id="article-comments" name="article-comments">
+<button class="show-comments btn btn-lg btn-block btn-primary" style="margin:0 0 15px 0;" data-disqus-url="https://townhall.com/tipsheet/katiepavlich/2020/04/16/new-fisa-abusegrassley-n2567020">SHOW COMMENTS</button>
+<div id="disqus_thread"></div>
+<script>
+      var disqus_config = function () {
+            this.page.url = "https://townhall.com/tipsheet/katiepavlich/2020/04/16/new-fisa-abusegrassley-n2567020";
+          this.page.identifier = "https://townhall.com/tipsheet/katiepavlich/2020/04/16/new-fisa-abusegrassley-n2567020";
+      };
+    $('.show-comments').on('click', function () {
+        $.ajax({
+            type: "GET",
+            url: "//townhallcom.disqus.com/embed.js",
+            dataType: "script",
+            cache: true
+        });
+        $(this).hide();
+    });
+</script>
+</section>
+</div>
+<div class="col-xs-4 article-rail">
+<div class="ad">
+<div id="div-gpt-300x250_1" class="gpt-ad">
+<script type="text/javascript">
+                    googletag.cmd.push(function () {
+                        googletag.display("div-gpt-300x250_1");
+                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_1"]])
+                    });
+                </script>
+</div>
+</div>
+<div class="article-actions">
+<a href="mailto:?subject=Newly Unclassified Footnotes Show FBI Knew Documents Used for FISA Warrants Were Bogus&amp;body=https://townhall.com/tipsheet/katiepavlich/2020/04/16/new-fisa-abusegrassley-n2567020" class="btn btn-default btn-article-email"><i class="fa fa-envelope"></i></a>
+<a data-url="https://townhall.com/tipsheet/katiepavlich/2020/04/16/new-fisa-abusegrassley-n2567020/print" onclick="window.open('https://townhall.com/tipsheet/katiepavlich/2020/04/16/new-fisa-abusegrassley-n2567020/print', 'print-winder', 'width=850,height=700,scrollbars=yes');" class="btn btn-default btn-article-print"><i class="fa fa-print"></i></a>
+<a href="#article-comment-bookmark" class="btn btn-default btn-article-comment"><i class="fa fa-comment"></i></a>
+</div>
+<div class="ad" style="margin-top:10px">
+<div id="div-gpt-300x250_3" class="gpt-ad">
+<script type="text/javascript">
+                    googletag.cmd.push(function () {
+                        googletag.display("div-gpt-300x250_3");
+                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_3"]])
+                    });
+                </script>
+</div>
+</div>
+<div class="cartoon-widget">
+<div class="cartoon-widget__title"><a href="/political-cartoons">CARTOONS</a>&nbsp;|&nbsp;<a href="/political-cartoons/afbranco/">AF Branco</a></div>
+<a class="cartoon-widget__img" href="/political-cartoons/2020/04/20/173155?hpnl=true" style="background-image:url('//media.townhall.com/Townhall/Car/b/afb042020dAPR20200420054510.jpg');"></a>
+<div class="cartoon-widget__button"><a href="/political-cartoons/2020/04/20/173155?hpnl=true"> View Cartoon <i class="fa fa-arrow-circle-right"></i></a></div>
+</div>
+<div class="sticky-reference">
+<div class="sticky" data-offset-top="55">
+<div class="mpw">
+<div class="mpw__title">Most Popular</div>
+<ul class="list-unstyled mpw__divide">
+<li>
+<div class="row">
+<div class="col-xs-4">
+<a title="Israeli Professor Shows Virus Follows Fixed Pattern  - 209" href="/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2020/104/30b0d531-01a6-4224-85b5-7548e5f3b2a7.jpg" /></a>
+</div>
+<div class="col-xs-8 no-gutter">
+<a title="Israeli Professor Shows Virus Follows Fixed Pattern  - 209" href="/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915">
+<span class="mpw__story">Israeli Professor Shows Virus Follows Fixed Pattern </span>
+</a>
+</div>
+</div>
+</li>
+<li>
+<div class="row">
+<div class="col-xs-4">
+<a title="They Can’t Stop Us from Re-Opening America - 96" href="/columnists/kurtschlichter/2020/04/20/they-cant-stop-us-from-re-opening-america-n2567177"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2018/304/b0c301eb-3460-4749-affb-80f4d0e00a91.jpg" /></a>
+</div>
+<div class="col-xs-8 no-gutter">
+<a title="They Can’t Stop Us from Re-Opening America - 96" href="/columnists/kurtschlichter/2020/04/20/they-cant-stop-us-from-re-opening-america-n2567177">
+<span class="mpw__story">They Can’t Stop Us from Re-Opening America</span>
+</a>
+</div>
+</div>
+</li>
+<li>
+<div class="row">
+<div class="col-xs-4">
+<a title="Report: North Korean Leader Kim Jong Un Is Being Treated Following a Hospital Procedure - 83" href="/tipsheet/bethbaumann/2020/04/20/report-north-korean-leader-kim-jong-un-is-being-treated-following-a-hospital-pro-n2567283"><img class="img-responsive lazy side-image" data-src="https://media.townhall.com/townhall/reu/s100x70/2018/282/92c3a195-47b5-4d1f-9c4e-0643b38fe739.jpg" /></a>
+</div>
+<div class="col-xs-8 no-gutter">
+<a title="Report: North Korean Leader Kim Jong Un Is Being Treated Following a Hospital Procedure - 83" href="/tipsheet/bethbaumann/2020/04/20/report-north-korean-leader-kim-jong-un-is-being-treated-following-a-hospital-pro-n2567283">
+<span class="mpw__story">Report: North Korean Leader Kim Jong Un Is Being Treated Following a Hospital Procedure</span>
+</a>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="ad">
+<div id="div-gpt-300x250_sticky" class="gpt-ad">
+<script type="text/javascript">
+                    googletag.cmd.push(function () {
+                        googletag.display("div-gpt-300x250_sticky");
+                        //googletag.pubads().refresh([gptAdSlot["div-gpt-300x250_sticky"]])
+                    });
+                </script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div class="row sticky-stopper">
+<div class="col-xs-12">
+<div class="article-ad-970x90">
+<div id="div-gpt-lazy-728x90_3" data-gpt='{"IncludeInPrebid":true,"Target":"pos","TargetValue":"728x90_3","SectionSlug":"tipsheet","SlotId":0,"DivUniqueId":"div-gpt-lazy-728x90_3","AdSize":"[[728,90],[970,90]]","AdUnitPath":"/6177/slm.townhall/","AdType":0,"AdRenderType":1,"IsYieldBotAmp":false,"IntervalTime":0,"AdParentLocation":0}' class="lazy-ad gpt-ad">
+<script id="pb-div-gpt-lazy-728x90_3" type="application/json">
+                    {"code":"div-gpt-lazy-728x90_3","sizes":[[728,90],[970,90]],"bids":[{"bidder":"openx","params":{"unit":"537998002","delDomain":"townhallmedia-d.openx.net"}},{"bidder":"rubicon","params":{"accountId":"7685","siteId":"12263","zoneId":"80422"}},{"bidder":"appnexus","params":{"placementId":"9114174"}},{"bidder":"sovrn","params":{"tagid":"381642"}},{"bidder":"pubmatic","params":{"publisherId":"156799","adSlot":"townhall-div-gpt-lazy-728x90_3@728x90"}},{"bidder":"criteo","params":{"networkId":"7465"}}]}
+                </script>
+</div>
+</div>
+</div>
+</div>
+<section id="trending-on-thm" class="trending">
+<h1 class="trending__title">Trending on Townhall Media</h1>
+<div class="row">
+<div class="col-xs-4">
+<div class="mpw-bordered">
+<div class="mpw">
+<ul class="list-unstyled">
+<li>
+<a title="In Attempt To Avoid Lawsuit, DC Says Police Now Acting As FFL - 11" href="https://bearingarms.com/cam-e/2020/04/20/in-attempt-to-avoid-lawsuit-dc-says-police-now-acting-as-ffl/">
+<span class="mpw__story">In Attempt To Avoid Lawsuit, DC Says Police Now Acting As FFL</span>
+</a>
+<div class="mpw__domain" style="color:#ADADAD;">
+Bearing Arms
+</div>
+</li>
+<li>
+<a title="BREAKING: Trump Announces He&#39;ll Suspend Immigration Into the U.S. - 242" href="https://pjmedia.com/trending/breaking-youve-never-heard-a-president-announce-what-trump-just-did-never/">
+<span class="mpw__story">BREAKING: Trump Announces He&#39;ll Suspend Immigration Into the U.S.</span>
+</a>
+<div class="mpw__domain" style="color:#00a99d;">
+PJ Media
+</div>
+</li>
+<li>
+<a title="Nuke the fridge: Trump campaign ad featuring Nancy Pelosi&#039;s premium ice cream stash is brutal - 197" href="https://twitchy.com/brettt-3136/2020/04/20/nuke-the-fridge-trump-campaign-ad-featuring-nancy-pelosis-premium-ice-cream-stash-is-brutal/">
+<span class="mpw__story">Nuke the fridge: Trump campaign ad featuring Nancy Pelosi&#039;s premium ice cream stash is brutal</span>
+</a>
+<div class="mpw__domain" style="color:#F27B21;">
+Twitchy
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-xs-8">
+<div class="row">
+<div class="col-xs-12">
+<div class="xl-story">
+<div class="xl-story__img">
+<a target="_top" class="lazy" href="https://townhall.com/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915" data-src="https://media.townhall.com/townhall/reu/ha/2020/104/30b0d531-01a6-4224-85b5-7548e5f3b2a7.jpg">
+&nbsp;
+</a>
+</div>
+<div class="xl-story__summary">
+<h1>
+<a title="Israeli Professor Shows Virus Follows Fixed Pattern " href="https://townhall.com/columnists/marinamedvin/2020/04/15/israeli-professor-shows-virus-follows-fixed-pattern-n2566915">Israeli Professor Shows Virus Follows Fixed Pattern </a>
+</h1>
+<h5 style="color:#ba224b">Townhall</h5>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-6">
+<div class="sm-story">
+<div class="sm-story__text">
+<a title="Hoo boy: 60% of Dems say Trump is more to blame for the crisis than China is" href="https://hotair.com/archives/allahpundit/2020/04/20/hoo-boy-60-dems-say-trump-blame-crisis-china/">Hoo boy: 60% of Dems say Trump is more to blame for the crisis than China is</a>
+</div>
+<div class="sm-story__flavor" style="color:#CD2628">Hotair</div>
+</div>
+</div>
+<div class="col-xs-6">
+<div class="sm-story">
+<div class="sm-story__text">
+<a title="Hobby Lobby Gets Last Laugh Over Dallas Judge Who Forcibly Shut Them Down and Insulted Them On Social Media" href="https://www.redstate.com/brandon_morse/2020/04/20/judge-who-accused-hobby-lobby-of-putting-profits-over-people-is-eating-his-words/">Hobby Lobby Gets Last Laugh Over Dallas Judge Who Forcibly Shut Them Down and Insulted Them On Social Media</a>
+ </div>
+<div class="sm-story__flavor" style="color:#CB0809">Redstate</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class="thm-piano-pfixed"></div>
+</div>
+<footer class="sticky-stopper">
+<section class="footer-brands">
+<div class="container">
+<ul class="list-inline list-unstyled">
+<li><a href="https://townhall.com"><img src="https://media.townhall.com/thm/th_logo1.png" alt="" /></a></li>
+<li><a href="https://hotair.com"><img src="https://media.townhall.com/thm/ha_logo1.png" alt="" /></a></li>
+<li><a href="https://bearingarms.com"><img src="https://media.townhall.com/thm/ba_logo1.png" alt="" /></a> </li>
+<li><a href="https://twitchy.com"><img src="https://media.townhall.com/thm/tw_logo1.png" alt="" /></a></li>
+<li><a href="https://redstate.com"><img src="https://media.townhall.com/thm/rs_logo1.png" alt="" /></a></li>
+<li><a href="https://pjmedia.com" target="_blank"><img src="https://media.townhall.com/thm/pj-media.png" style="width:100px;height:45px;" alt="PJ Media" /></a></li>
+</ul>
+</div>
+</section>
+<section class="footer-links">
+<div class="container">
+<ul class="list-inline list-unstyled">
+<li><a title="Conservative Columnists" href="/columnists">Columnists</a></li>
+<li><a href="/political-cartoons">Political Cartoons</a></li>
+<li><a href="/tipsheet">Tipsheet</a> </li>
+<li><a href="/tv">Townhall TV</a> </li>
+<li><a href="/podcasts">Podcasts</a> </li>
+<li><a title="Conservative News" href="/news">Radio News</a></li>
+<li><a title="Conservative Video" href="/video">Video</a></li>
+<li><a title="Conservative Entertainment" href="/entertainment">Entertainment</a></li>
+<li><a title="VIP" href="/vip">VIP</a></li>
+<li><a title="Conservative Capitol Voices" href="/capitol-voices">Capitol Voices</a></li>
+</ul>
+<ul class="list-inline list-unstyled">
+<li><a href="/election">Election Results</a></li>
+<li><a href="/tags/">Tags</a></li>
+<li><a href="http://finance.townhall.com">Finance</a></li>
+<li><a href="#" onclick="javascript:window.open('http://saleminteractivemedia.com/ListenLive/Player/TOWNIR','TOWNIR','width=800,height=710');">Townhall Radio</a></li>
+</ul>
+<ul class="list-inline list-unstyled">
+<li><a href="/aboutus">About Townhall</a></li>
+<li><a href="http://townhallmedia.com/">Advertise</a></li>
+<li><a href="https://townhall.com/tags/gift-guides/">Gift Guides</a></li>
+<li><a href="https://media.townhall.com/townhall/privacypolicy/privacypolicy.htm">Privacy Policy</a></li>
+<li><a href="https://media.townhall.com/townhall/privacypolicy/TermsofUse.htm">Terms of Use</a></li>
+<li><span class="thm-cpa"><a href="/donotsell" rel="nofollow">California - Do Not Sell My Personal Information</a></span></li>
+<li><a target="_blank" href="http://www.conservativeradio.com/">Radio Stations</a></li>
+<li><a href="/sitemap.htm">Sitemap</a></li>
+<li><a href="/pages/townhall_jobs">Jobs </a></li>
+<li><a href="/contact-us/">Contact Us</a></li>
+<li><a href="/newslettersignup/">Newsletters</a></li>
+<li><a href="/mobile-apps">iPhone/Android Apps</a></li>
+</ul>
+</div>
+</section>
+<section class="under-footer">
+<div class="container">
+<div class="row">
+<hr>
+<div class="col-xs-4">
+<a href="/">
+<img alt="Townhall.com" src="https://media.townhall.com/_townhall/resources/images/thmplus.png">
+<img style="width: 155px;height:40px;" alt="Townhall.com" src="/resources/th_logo.svg">
+</a>
+</div>
+<div class="col-xs-8">
+<p class="copyright" style="margin-top:12px;">
+Townhall.com is the leading source for conservative news and political commentary and analysis.<br>
+Copyright &copy; Townhall.com/Salem Media. All Rights Reserved. <a href="https://media.townhall.com/townhall/privacypolicy/TermsofUse.htm" target="_blank">Terms</a> under which this service
+is provided to you
+</p>
+</div>
+</div>
+</div>
+</section>
+<div id="div-gpt-oop" class="gpt-ad">
+<script type="text/javascript">
+                    googletag.cmd.push(function () {
+                        googletag.display("div-gpt-oop");
+                        //googletag.pubads().refresh([gptAdSlot["div-gpt-oop"]])
+                    });
+                </script>
+</div>
+</footer>
+<script>(function(src){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=src;var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})("https://experience.tinypass.com/xbuilder/experience/load?aid=tSxoqtcFa7");</script>
+<div id="login-form"></div> <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+<script src="/resources/dist/js/site.min.js?v=24"></script>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>
+    tp = window["tp"] || [];
+    tp.push(["setTags", ["thm:article","donald-trump","fbi","chuck-grassley","2016-election","james-comey","fisa-abuse","fisa-court"]]);
+</script>
+<script type="text/javascript">
+        console.info("The End: ", window.performance.now());
+        console.info("Device: ", "Desktop");
+    </script>
+<div class="thm-piano-bottom"></div>
+</body>
+</html>

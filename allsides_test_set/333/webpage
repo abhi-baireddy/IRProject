@@ -1,0 +1,1466 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+<head>
+<meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"d08fe8fc62",applicationID:"210045416"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-T9H38CL');</script>
+
+<script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-3383794-4"></script>
+<script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'UA-3383794-4', {'optimize_id': 'GTM-TLB5Z9K'});
+        </script>
+<script type="text/javascript">
+            var _sf_startpt = (new Date()).getTime()
+        </script>
+<title>
+        A likely but hidden coronavirus risk factor: pollution &ndash; Center for Public Integrity
+            </title>
+
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<link rel="canonical" href="https://publicintegrity.org/health/coronavirus-and-inequality/a-likely-but-hidden-coronavirus-risk-factor-pollution/" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://publicintegrity.org/#organization","name":"Center for Public Integrity","url":"https://publicintegrity.org/","sameAs":["https://www.facebook.com/publici/","https://www.instagram.com/publicintegrity/","https://www.linkedin.com/company/29637/","https://www.youtube.com/user/cpiweb","https://twitter.com/publicintegrity"],"logo":{"@type":"ImageObject","@id":"https://publicintegrity.org/#logo","url":"https://publicintegrity.org/wp-content/uploads/2019/02/linkedin-company-logo-300.png","width":300,"height":300,"caption":"Center for Public Integrity"},"image":{"@id":"https://publicintegrity.org/#logo"}},{"@type":"WebSite","@id":"https://publicintegrity.org/#website","url":"https://publicintegrity.org/","name":"Center for Public Integrity","description":"The Center for Public Integrity is an investigative newsroom that exposes betrayals of the public trust by powerful interests.","publisher":{"@id":"https://publicintegrity.org/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://publicintegrity.org/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://publicintegrity.org/health/coronavirus-and-inequality/a-likely-but-hidden-coronavirus-risk-factor-pollution/#primaryimage","url":"https://publicintegrity.org/wp-content/uploads/2020/03/AP_19249724863098.jpg","width":5472,"height":3648},{"@type":"WebPage","@id":"https://publicintegrity.org/health/coronavirus-and-inequality/a-likely-but-hidden-coronavirus-risk-factor-pollution/#webpage","url":"https://publicintegrity.org/health/coronavirus-and-inequality/a-likely-but-hidden-coronavirus-risk-factor-pollution/","inLanguage":"en-US","name":"A likely but hidden coronavirus risk factor: pollution &ndash; Center for Public Integrity","isPartOf":{"@id":"https://publicintegrity.org/#website"},"primaryImageOfPage":{"@id":"https://publicintegrity.org/health/coronavirus-and-inequality/a-likely-but-hidden-coronavirus-risk-factor-pollution/#primaryimage"},"datePublished":"2020-03-27T10:00:02+00:00","dateModified":"2020-03-30T20:55:20+00:00"},{"@type":"Article","@id":"https://publicintegrity.org/health/coronavirus-and-inequality/a-likely-but-hidden-coronavirus-risk-factor-pollution/#article","isPartOf":{"@id":"https://publicintegrity.org/health/coronavirus-and-inequality/a-likely-but-hidden-coronavirus-risk-factor-pollution/#webpage"},"author":{"@id":"https://publicintegrity.org/#/schema/person/"},"headline":"A likely but hidden coronavirus risk factor: pollution","datePublished":"2020-03-27T10:00:02+00:00","dateModified":"2020-03-30T20:55:20+00:00","commentCount":0,"mainEntityOfPage":{"@id":"https://publicintegrity.org/health/coronavirus-and-inequality/a-likely-but-hidden-coronavirus-risk-factor-pollution/#webpage"},"publisher":{"@id":"https://publicintegrity.org/#organization"},"image":{"@id":"https://publicintegrity.org/health/coronavirus-and-inequality/a-likely-but-hidden-coronavirus-risk-factor-pollution/#primaryimage"},"articleSection":"Coronavirus and Inequality,Environment,Pollution"},{"@type":["Person"],"@id":"https://publicintegrity.org/#/schema/person/","name":null,"image":{"@type":"ImageObject","@id":"https://publicintegrity.org/#authorlogo","url":"https://secure.gravatar.com/avatar/?s=96&d=mm&r=g"},"sameAs":[]}]}</script>
+
+<link rel='stylesheet' id='wpdiscuz-font-awesome-css' href='https://publicintegrity.org/wp-content/plugins/wpdiscuz/assets/third-party/font-awesome-5.0.6/css/fontawesome-all.min.css?ver=5.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpdiscuz-frontend-css-css' href='https://publicintegrity.org/wp-content/plugins/wpdiscuz/assets/css/wpdiscuz.css?ver=5.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpdiscuz-user-content-css-css' href='https://publicintegrity.org/wp-content/plugins/wpdiscuz/assets/css/wpdiscuz-user-content.css?ver=5.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='algolia-autocomplete-css' href='https://publicintegrity.org/wp-content/plugins/search-by-algolia-instant-relevant-results/includes/../css/algolia-autocomplete.css?ver=2.11.2' type='text/css' media='screen' />
+<link rel='stylesheet' id='popup-maker-site-css' href='https://publicintegrity.org/wp-content/plugins/popup-maker/assets/css/site.min.css?ver=1.8.14' type='text/css' media='all' />
+<style id='popup-maker-site-inline-css' type='text/css'>
+/* Popup Theme 82004: CPI */
+.pum-theme-82004, .pum-theme-cpi { background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-82004 .pum-container, .pum-theme-cpi .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 250, 249, 244, 1.00 ) } 
+.pum-theme-82004 .pum-title, .pum-theme-cpi .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; line-height: 36px } 
+.pum-theme-82004 .pum-content, .pum-theme-cpi .pum-content { color: #8c8c8c; font-family: inherit; font-weight: 400 } 
+.pum-theme-82004 .pum-content + .pum-close, .pum-theme-cpi .pum-content + .pum-close { position: absolute; height: 50px; width: 50px; left: auto; right: 0px; bottom: auto; top: 0px; padding: 8px; color: #ffffff; font-family: inherit; font-weight: 400; font-size: 12px; line-height: 36px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 243, 93, 38, 1.00 ) } 
+
+/* Popup Theme 82003: Framed Border */
+.pum-theme-82003, .pum-theme-framed-border { background-color: rgba( 255, 255, 255, 0.50 ) } 
+.pum-theme-82003 .pum-container, .pum-theme-framed-border .pum-container { padding: 18px; border-radius: 0px; border: 20px outset #dd3333; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.97 ) inset; background-color: rgba( 255, 251, 239, 1.00 ) } 
+.pum-theme-82003 .pum-title, .pum-theme-framed-border .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 32px; line-height: 36px } 
+.pum-theme-82003 .pum-content, .pum-theme-framed-border .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 } 
+.pum-theme-82003 .pum-content + .pum-close, .pum-theme-framed-border .pum-content + .pum-close { position: absolute; height: 20px; width: 20px; left: auto; right: -20px; bottom: auto; top: -20px; padding: 0px; color: #ffffff; font-family: Tahoma; font-weight: 700; font-size: 16px; line-height: 18px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 0.55 ) } 
+
+/* Popup Theme 82001: Hello Box */
+.pum-theme-82001, .pum-theme-hello-box { background-color: rgba( 0, 0, 0, 0.75 ) } 
+.pum-theme-82001 .pum-container, .pum-theme-hello-box .pum-container { padding: 30px; border-radius: 80px; border: 14px solid #81d742; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-82001 .pum-title, .pum-theme-hello-box .pum-title { color: #2d2d2d; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Montserrat; font-weight: 100; font-size: 32px; line-height: 36px } 
+.pum-theme-82001 .pum-content, .pum-theme-hello-box .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 } 
+.pum-theme-82001 .pum-content + .pum-close, .pum-theme-hello-box .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: -30px; bottom: auto; top: -30px; padding: 0px; color: #2d2d2d; font-family: Times New Roman; font-weight: 100; font-size: 32px; line-height: 28px; border: 1px none #ffffff; border-radius: 28px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+
+/* Popup Theme 82002: Cutting Edge */
+.pum-theme-82002, .pum-theme-cutting-edge { background-color: rgba( 0, 0, 0, 0.50 ) } 
+.pum-theme-82002 .pum-container, .pum-theme-cutting-edge .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 0px 10px 25px 0px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 30, 115, 190, 1.00 ) } 
+.pum-theme-82002 .pum-title, .pum-theme-cutting-edge .pum-title { color: #ffffff; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Sans-Serif; font-weight: 100; font-size: 26px; line-height: 28px } 
+.pum-theme-82002 .pum-content, .pum-theme-cutting-edge .pum-content { color: #ffffff; font-family: inherit; font-weight: 100 } 
+.pum-theme-82002 .pum-content + .pum-close, .pum-theme-cutting-edge .pum-content + .pum-close { position: absolute; height: 24px; width: 24px; left: auto; right: 0px; bottom: auto; top: 0px; padding: 0px; color: #1e73be; font-family: Times New Roman; font-weight: 100; font-size: 32px; line-height: 24px; border: 1px none #ffffff; border-radius: 0px; box-shadow: -1px 1px 1px 0px rgba( 2, 2, 2, 0.10 ); text-shadow: -1px 1px 1px rgba( 0, 0, 0, 0.10 ); background-color: rgba( 238, 238, 34, 1.00 ) } 
+
+/* Popup Theme 82000: Enterprise Blue */
+.pum-theme-82000, .pum-theme-enterprise-blue { background-color: rgba( 0, 0, 0, 0.70 ) } 
+.pum-theme-82000 .pum-container, .pum-theme-enterprise-blue .pum-container { padding: 28px; border-radius: 5px; border: 1px none #000000; box-shadow: 0px 10px 25px 4px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-82000 .pum-title, .pum-theme-enterprise-blue .pum-title { color: #315b7c; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 34px; line-height: 36px } 
+.pum-theme-82000 .pum-content, .pum-theme-enterprise-blue .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 } 
+.pum-theme-82000 .pum-content + .pum-close, .pum-theme-enterprise-blue .pum-content + .pum-close { position: absolute; height: 28px; width: 28px; left: auto; right: 8px; bottom: auto; top: 8px; padding: 4px; color: #ffffff; font-family: Times New Roman; font-weight: 100; font-size: 20px; line-height: 20px; border: 1px none #ffffff; border-radius: 42px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 49, 91, 124, 1.00 ) } 
+
+/* Popup Theme 81998: Default Theme */
+.pum-theme-81998, .pum-theme-default-theme { background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-81998 .pum-container, .pum-theme-default-theme .pum-container { padding: 18px; border-radius: px; border: 1px none #000000; box-shadow: 1px 1px 3px px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 249, 249, 249, 1.00 ) } 
+.pum-theme-81998 .pum-title, .pum-theme-default-theme .pum-title { color: #000000; text-align: left; text-shadow: px px px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; font-style: normal; line-height: 36px } 
+.pum-theme-81998 .pum-content, .pum-theme-default-theme .pum-content { color: #8c8c8c; font-family: inherit; font-weight: 400; font-style: inherit } 
+.pum-theme-81998 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: px; bottom: auto; top: px; padding: 8px; color: #ffffff; font-family: inherit; font-weight: 400; font-size: 12px; font-style: inherit; line-height: 36px; border: 1px none #ffffff; border-radius: px; box-shadow: 1px 1px 3px px rgba( 2, 2, 2, 0.23 ); text-shadow: px px px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 1.00 ) } 
+
+/* Popup Theme 81999: Light Box */
+.pum-theme-81999, .pum-theme-lightbox { background-color: rgba( 0, 0, 0, 0.60 ) } 
+.pum-theme-81999 .pum-container, .pum-theme-lightbox .pum-container { padding: 18px; border-radius: 3px; border: 8px solid #000000; box-shadow: 0px 0px 30px 0px rgba( 2, 2, 2, 1.00 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-81999 .pum-title, .pum-theme-lightbox .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 32px; line-height: 36px } 
+.pum-theme-81999 .pum-content, .pum-theme-lightbox .pum-content { color: #000000; font-family: inherit; font-weight: 100 } 
+.pum-theme-81999 .pum-content + .pum-close, .pum-theme-lightbox .pum-content + .pum-close { position: absolute; height: 26px; width: 26px; left: auto; right: -13px; bottom: auto; top: -13px; padding: 0px; color: #ffffff; font-family: Arial; font-weight: 100; font-size: 24px; line-height: 24px; border: 2px solid #ffffff; border-radius: 26px; box-shadow: 0px 0px 15px 1px rgba( 2, 2, 2, 0.75 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 1.00 ) } 
+
+#pum-87746 {z-index: 1999999999}
+
+</style>
+<script type='text/javascript' src='https://publicintegrity.org/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://publicintegrity.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://publicintegrity.org/wp-content/plugins/wpdiscuz/assets/third-party/wpdcookiejs/customcookie.js?ver=5.3.1'></script>
+<script type='text/javascript' src='https://publicintegrity.org/wp-content/plugins/wpdiscuz/assets/third-party/autogrow/jquery.autogrowtextarea.min.js?ver=5.3.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpdiscuzAjaxObj = {"url":"https:\/\/publicintegrity.org\/wp-admin\/admin-ajax.php","customAjaxUrl":"https:\/\/publicintegrity.org\/wp-content\/plugins\/wpdiscuz\/utils\/ajax\/wpdiscuz-ajax.php","wpdiscuz_options":{"wc_hide_replies_text":"Hide Replies","wc_show_replies_text":"View Replies","wc_msg_required_fields":"Please fill out required fields","wc_invalid_field":"Some of field value is invalid","wc_error_empty_text":"please fill out this field to comment","wc_error_url_text":"url is invalid","wc_error_email_text":"email address is invalid","wc_invalid_captcha":"Invalid Captcha Code","wc_login_to_vote":"You Must Be Logged In To Vote","wc_deny_voting_from_same_ip":"You are not allowed to vote for this comment","wc_self_vote":"You cannot vote for your comment","wc_vote_only_one_time":"You've already voted for this comment","wc_voting_error":"Voting Error","wc_held_for_moderate":"Comment awaiting moderation","wc_comment_edit_not_possible":"Sorry, this comment no longer possible to edit","wc_comment_not_updated":"Sorry, the comment was not updated","wc_comment_not_edited":"You've not made any changes","wc_new_comment_button_text":"new comment","wc_new_comments_button_text":"new comments","wc_new_reply_button_text":"new reply on your comment","wc_new_replies_button_text":"new replies on your comments","wc_msg_input_min_length":"Input is too short","wc_msg_input_max_length":"Input is too long","wc_follow_user":"Follow this user","wc_unfollow_user":"Unfollow this user","wc_follow_success":"You started following this comment author","wc_follow_canceled":"You stopped following this comment author.","wc_follow_email_confirm":"Please check your email and confirm the user following request.","wc_follow_email_confirm_fail":"Sorry, we couldn't send confirmation email.","wc_follow_login_to_follow":"Please login to follow users.","wc_follow_impossible":"We are sorry, but you can't follow this user.","wc_follow_not_added":"Following failed. Please try again later.","is_user_logged_in":false,"commentListLoadType":"0","commentListUpdateType":"0","commentListUpdateTimer":"30","liveUpdateGuests":"1","wc_comment_bg_color":"#FEFEFE","wc_reply_bg_color":"#F8F8F8","wpdiscuzCommentsOrder":"asc","wpdiscuzCommentOrderBy":"comment_date_gmt","commentsVoteOrder":false,"wordpressThreadCommentsDepth":"5","wordpressIsPaginate":"","commentTextMaxLength":null,"storeCommenterData":100000,"isCaptchaInSession":true,"isGoodbyeCaptchaActive":false,"socialLoginAgreementCheckbox":"1","enableFbLogin":0,"enableFbShare":0,"facebookAppID":"","facebookUseOAuth2":0,"enableGoogleLogin":0,"googleAppID":"","cookiehash":"d4699f04e78a6e475090c01ee2ff5883","isLoadOnlyParentComments":0,"ahk":"ph1xbp)2-@3c#qd@$636aioud98xp0h@","enableDropAnimation":1,"isNativeAjaxEnabled":1,"cookieCommentsSorting":"wpdiscuz_comments_sorting","enableLastVisitCookie":0,"version":"5.3.1","wc_post_id":86545,"loadLastCommentId":0,"lastVisitKey":"wpdiscuz_last_visit","isCookiesEnabled":true,"wc_captcha_show_for_guest":"0","wc_captcha_show_for_members":"0","is_email_field_required":1}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://publicintegrity.org/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz.js?ver=5.3.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpdiscuzUCObj = {"msgConfirmDeleteComment":"Are you sure you want to delete this comment?","msgConfirmCancelSubscription":"Are you sure you want to cancel this subscription?","msgConfirmCancelFollow":"Are you sure you want to cancel this follow?"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://publicintegrity.org/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz-user-content.js?ver=5.3.1'></script>
+<script type='text/javascript' src='https://publicintegrity.org/wp-content/plugins/wpdiscuz/assets/third-party/lity/lity.js?ver=5.3.1'></script>
+
+<script>
+
+!function(f,b,e,v,n,t,s)
+
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+
+n.queue=[];t=b.createElement(e);t.async=!0;
+
+t.src=v;s=b.getElementsByTagName(e)[0];
+
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+
+'https://connect.facebook.net/en_US/fbevents.js');
+
+
+fbq('init', '395577280590996'); 
+
+fbq('track', 'PageView');
+
+</script>
+<noscript>
+
+<img height="1" width="1" 
+
+src="https://www.facebook.com/tr?id=395577280590996&ev=PageView
+
+&noscript=1"/>
+
+</noscript>
+ <style>
+                #wpcomm .wc_new_comment{background:#00B38F;}
+                #wpcomm .wc_new_reply{background:#00B38F;}
+                #wpcomm .wc-form-wrapper{ background:none; } /* ->formBGColor */
+                #wpcomm .wpdiscuz-front-actions{background:#F9F9F9;}
+                #wpcomm .wpdiscuz-subscribe-bar{background:#F9F9F9;}
+                #wpcomm select,
+                #wpcomm input[type="text"],
+                #wpcomm input[type="email"],
+                #wpcomm input[type="url"],
+                #wpcomm input[type="date"],
+                #wpcomm input[type="color"]{border:#D9D9D9 1px solid;}
+                #wpcomm .wc-comment .wc-comment-right{background:#FEFEFE;}
+                #wpcomm .wc-reply .wc-comment-right{background:#F8F8F8;}
+                #wpcomm .wc-comment-right .wc-comment-text, 
+                #wpcomm .wc-comment-right .wc-comment-text *{
+                    font-size:14px;
+                }
+                #wpcomm .wc-blog-administrator > .wc-comment-right .wc-comment-author, #wpcomm .wc-blog-administrator > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-administrator > .wc-comment-left .wc-comment-label{color:#00B38F; border:none; border-bottom: 1px solid #dddddd; }#wpcomm .wc-blog-editor > .wc-comment-right .wc-comment-author, #wpcomm .wc-blog-editor > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-editor > .wc-comment-left .wc-comment-label{color:#00B38F; border:none; border-bottom: 1px solid #dddddd; }#wpcomm .wc-blog-author > .wc-comment-right .wc-comment-author, #wpcomm .wc-blog-author > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-author > .wc-comment-left .wc-comment-label{color:#00B38F; border:none; border-bottom: 1px solid #dddddd; }#wpcomm .wc-blog-contributor > .wc-comment-right .wc-comment-author, #wpcomm .wc-blog-contributor > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-contributor > .wc-comment-left .wc-comment-label{color:#00B38F; border:none; border-bottom: 1px solid #dddddd; }#wpcomm .wc-blog-subscriber > .wc-comment-right .wc-comment-author, #wpcomm .wc-blog-subscriber > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-subscriber > .wc-comment-left .wc-comment-label{color:#00B38F; border:none; border-bottom: 1px solid #dddddd; }#wpcomm .wc-blog-wpseo_manager > .wc-comment-right .wc-comment-author, #wpcomm .wc-blog-wpseo_manager > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-wpseo_manager > .wc-comment-left .wc-comment-label{color:#00B38F; border:none; border-bottom: 1px solid #dddddd; }#wpcomm .wc-blog-wpseo_editor > .wc-comment-right .wc-comment-author, #wpcomm .wc-blog-wpseo_editor > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-wpseo_editor > .wc-comment-left .wc-comment-label{color:#00B38F; border:none; border-bottom: 1px solid #dddddd; }#wpcomm .wc-blog-post_author > .wc-comment-right .wc-comment-author, #wpcomm .wc-blog-post_author > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-post_author > .wc-comment-left .wc-comment-label{color:#00B38F; border:none; border-bottom: 1px solid #dddddd; }#wpcomm .wc-blog-guest > .wc-comment-right .wc-comment-author, #wpcomm .wc-blog-guest > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-guest > .wc-comment-left .wc-comment-label{color:#00B38F; border:none; border-bottom: 1px solid #dddddd; }                #wpcomm .wc-comment .wc-comment-left .wc-comment-label{ background: #ffffff;}
+                #wpcomm .wc-comment-left .wc-follow-user{color:#00B38F;}
+                #wpcomm .wc-load-more-submit{border:1px solid #D9D9D9;}
+                #wpcomm .wc-new-loaded-comment > .wc-comment-right{background:#FFFAD6;}
+                #wpcomm .wpdiscuz-subscribe-bar{color:#777;}
+                #wpcomm .wpdiscuz-front-actions .wpdiscuz-sbs-wrap span{color: #777;}
+                #wpcomm .page-numbers{color:#555;border:#555 1px solid;}
+                #wpcomm span.current{background:#555;}
+                #wpcomm .wpdiscuz-readmore{cursor:pointer;color:#00B38F;}
+                #wpcomm .wpdiscuz-textarea-wrap{border:#D9D9D9 1px solid;} .wpd-custom-field .wcf-pasiv-star, #wpcomm .wpdiscuz-item .wpdiscuz-rating > label {color: #DDDDDD;}
+                #wpcomm .wpdiscuz-item .wpdiscuz-rating:not(:checked) > label:hover,.wpdiscuz-rating:not(:checked) > label:hover ~ label {   }#wpcomm .wpdiscuz-item .wpdiscuz-rating > input ~ label:hover, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:not(:checked) ~ label:hover ~ label, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:not(:checked) ~ label:hover ~ label{color: #FFED85;} 
+                #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover, #wpcomm .wpdiscuz-item .wpdiscuz-rating > label:hover ~ input:checked ~ label, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:checked + label:hover ~ label, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover ~ label, .wpd-custom-field .wcf-active-star, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label{ color:#FFD700;}
+                #wpcomm .wc-comment-header{border-top: 1px solid #dedede;}
+                #wpcomm .wc-reply .wc-comment-header{border-top: 1px solid #dedede;}
+                /* Buttons */
+                #wpcomm button, 
+                #wpcomm input[type="button"], 
+                #wpcomm input[type="reset"], 
+                #wpcomm input[type="submit"]{ border: 1px solid #555555; color: #FFFFFF; background-color: #555555; }
+                #wpcomm button:hover, 
+                #wpcomm button:focus,
+                #wpcomm input[type="button"]:hover, 
+                #wpcomm input[type="button"]:focus, 
+                #wpcomm input[type="reset"]:hover, 
+                #wpcomm input[type="reset"]:focus, 
+                #wpcomm input[type="submit"]:hover, 
+                #wpcomm input[type="submit"]:focus{ border: 1px solid #333333; background-color: #333333;  }
+                #wpcomm .wpdiscuz-sort-buttons{color:#777777;}
+                #wpcomm .wpdiscuz-sort-button{color:#777777; cursor:pointer;}
+                #wpcomm .wpdiscuz-sort-button:hover{color:#00B38F!important;cursor:pointer;}
+                #wpcomm .wpdiscuz-sort-button-active{color:#00B38F!important;cursor:default!important;}
+                #wpcomm .wc-cta-button, 
+                #wpcomm .wc-cta-button-x{color:#777777; }
+                #wpcomm .wc-vote-link.wc-up{color:#999999;}
+                #wpcomm .wc-vote-link.wc-down{color:#999999;}
+                #wpcomm .wc-vote-result{color:#999999;}
+                #wpcomm .wpf-cta{color:#999999; }
+                #wpcomm .wc-comment-link .wc-share-link .wpf-cta{color:#eeeeee;}
+                #wpcomm .wc-footer-left .wc-reply-button{border:1px solid #00B38F!important; color: #00B38F;}
+                #wpcomm .wpf-cta:hover{background:#00B38F!important; color:#FFFFFF;}
+                #wpcomm .wc-footer-left .wc-reply-button.wc-cta-active, #wpcomm .wc-cta-active{background:#00B38F!important; color:#FFFFFF;}
+                #wpcomm .wc-cta-button:hover{background:#00B38F!important; color:#FFFFFF;}
+                #wpcomm .wc-footer-right .wc-toggle,
+                #wpcomm .wc-footer-right .wc-toggle a,
+                #wpcomm .wc-footer-right .wc-toggle i{color:#00B38F;}
+                /* STICKY COMMENT HEADER */
+                #wpcomm .wc-sticky-comment.wc-comment .wc-comment-header .wpd-sticky{background: #1ecea8; color: #ffffff; }
+                #wpcomm .wc-closed-comment.wc-comment .wc-comment-header .wpd-closed{background: #aaaaaa; color: #ffffff;}
+                /* PRIVATE COMMENT HEADER */
+                #wpcomm .wc-private-comment.wc-comment .wc-comment-header .wpd-private{background: #999999; color: #ffffff;}
+                /* FOLLOW LINK */
+
+                #wpcomm .wc-follow{color:#777777;}
+                #wpcomm .wc-follow-active{color:#ff7a00;}
+                #wpcomm .wc-follow:hover i,
+                #wpcomm .wc-unfollow:hover i,
+                #wpcomm .wc-follow-active:hover i{color:#00B38F;}
+                                .wpd-wrapper .wpd-list-item.wpd-active{border-top: 3px solid #00B38F;}
+                                .comments-area{width:auto;}
+            </style>
+<script type="text/javascript">var algolia = {"debug":false,"application_id":"80OAQO009N","search_api_key":"160105423d71a82ca569c953d580714a","powered_by_enabled":true,"query":"","autocomplete":{"sources":[{"index_id":"terms_author","index_name":"live_wp_terms_author","label":"Authors","admin_name":"Authors","position":20,"max_suggestions":3,"tmpl_suggestion":"autocomplete-term-suggestion","enabled":true}],"input_selector":"input[name='s']:not('.no-autocomplete')"},"indices":{"terms_author":{"name":"live_wp_terms_author","id":"terms_author","enabled":true,"replicas":[]}}};</script><script type="text/html" id="tmpl-autocomplete-header">
+  <div class="autocomplete-header">
+	<div class="autocomplete-header-title">{{{ data.label }}}</div>
+	<div class="clear"></div>
+  </div>
+</script>
+<script type="text/html" id="tmpl-autocomplete-post-suggestion">
+  <a class="suggestion-link" href="{{ data.permalink }}" title="{{ data.post_title }}">
+	<# if ( data.images.thumbnail ) { #>
+	  <img class="suggestion-post-thumbnail" src="{{ data.images.thumbnail.url }}" alt="{{ data.post_title }}">
+	  <# } #>
+		<div class="suggestion-post-attributes">
+		  <span class="suggestion-post-title">{{{ data._highlightResult.post_title.value }}}</span>
+		  <# if ( data._snippetResult['content'] ) { #>
+			<span class="suggestion-post-content">{{{ data._snippetResult['content'].value }}}</span>
+			<# } #>
+		</div>
+  </a>
+</script>
+<script type="text/html" id="tmpl-autocomplete-term-suggestion">
+  <a class="suggestion-link" href="{{ data.permalink }}" title="{{ data.name }}">
+	<svg viewBox="0 0 21 21" width="21" height="21">
+	  <svg width="21" height="21" viewBox="0 0 21 21">
+		<path
+			d="M4.662 8.72l-1.23 1.23c-.682.682-.68 1.792.004 2.477l5.135 5.135c.7.693 1.8.688 2.48.005l1.23-1.23 5.35-5.346c.31-.31.54-.92.51-1.36l-.32-4.29c-.09-1.09-1.05-2.06-2.15-2.14l-4.3-.33c-.43-.03-1.05.2-1.36.51l-.79.8-2.27 2.28-2.28 2.27zm9.826-.98c.69 0 1.25-.56 1.25-1.25s-.56-1.25-1.25-1.25-1.25.56-1.25 1.25.56 1.25 1.25 1.25z"
+			fill-rule="evenodd"></path>
+	  </svg>
+	</svg>
+	<span class="suggestion-post-title">{{{ data._highlightResult.name.value }}}</span>
+  </a>
+</script>
+<script type="text/html" id="tmpl-autocomplete-user-suggestion">
+  <a class="suggestion-link user-suggestion-link" href="{{ data.posts_url }}" title="{{ data.display_name }}">
+	<# if ( data.avatar_url ) { #>
+	  <img class="suggestion-user-thumbnail" src="{{ data.avatar_url }}" alt="{{ data.display_name }}">
+	  <# } #>
+
+		<span class="suggestion-post-title">{{{ data._highlightResult.display_name.value }}}</span>
+  </a>
+</script>
+<script type="text/html" id="tmpl-autocomplete-footer">
+  <div class="autocomplete-footer">
+	<div class="autocomplete-footer-branding">
+	  <a href="#" class="algolia-powered-by-link" title="Algolia">
+		<svg width="130" viewBox="0 0 130 18" xmlns="http://www.w3.org/2000/svg">
+		  <title>Search by Algolia</title>
+		  <defs>
+			<linearGradient x1="-36.868%" y1="134.936%" x2="129.432%" y2="-27.7%" id="a">
+			  <stop stop-color="#00AEFF" offset="0%"/>
+			  <stop stop-color="#3369E7" offset="100%"/>
+			</linearGradient>
+		  </defs>
+		  <g fill="none" fill-rule="evenodd">
+			<path
+				d="M59.399.022h13.299a2.372 2.372 0 0 1 2.377 2.364V15.62a2.372 2.372 0 0 1-2.377 2.364H59.399a2.372 2.372 0 0 1-2.377-2.364V2.381A2.368 2.368 0 0 1 59.399.022z"
+				fill="url(#a)"/>
+			<path
+				d="M66.257 4.56c-2.815 0-5.1 2.272-5.1 5.078 0 2.806 2.284 5.072 5.1 5.072 2.815 0 5.1-2.272 5.1-5.078 0-2.806-2.279-5.072-5.1-5.072zm0 8.652c-1.983 0-3.593-1.602-3.593-3.574 0-1.972 1.61-3.574 3.593-3.574 1.983 0 3.593 1.602 3.593 3.574a3.582 3.582 0 0 1-3.593 3.574zm0-6.418v2.664c0 .076.082.131.153.093l2.377-1.226c.055-.027.071-.093.044-.147a2.96 2.96 0 0 0-2.465-1.487c-.055 0-.11.044-.11.104l.001-.001zm-3.33-1.956l-.312-.311a.783.783 0 0 0-1.106 0l-.372.37a.773.773 0 0 0 0 1.101l.307.305c.049.049.121.038.164-.011.181-.245.378-.479.597-.697.225-.223.455-.42.707-.599.055-.033.06-.109.016-.158h-.001zm5.001-.806v-.616a.781.781 0 0 0-.783-.779h-1.824a.78.78 0 0 0-.783.779v.632c0 .071.066.12.137.104a5.736 5.736 0 0 1 1.588-.223c.52 0 1.035.071 1.534.207a.106.106 0 0 0 .131-.104z"
+				fill="#FFF"/>
+			<path
+				d="M102.162 13.762c0 1.455-.372 2.517-1.123 3.193-.75.676-1.895 1.013-3.44 1.013-.564 0-1.736-.109-2.673-.316l.345-1.689c.783.163 1.819.207 2.361.207.86 0 1.473-.174 1.84-.523.367-.349.548-.866.548-1.553v-.349a6.374 6.374 0 0 1-.838.316 4.151 4.151 0 0 1-1.194.158 4.515 4.515 0 0 1-1.616-.278 3.385 3.385 0 0 1-1.254-.817 3.744 3.744 0 0 1-.811-1.351c-.192-.539-.29-1.504-.29-2.212 0-.665.104-1.498.307-2.054a3.925 3.925 0 0 1 .904-1.433 4.124 4.124 0 0 1 1.441-.926 5.31 5.31 0 0 1 1.945-.365c.696 0 1.337.087 1.961.191a15.86 15.86 0 0 1 1.588.332v8.456h-.001zm-5.954-4.206c0 .893.197 1.885.592 2.299.394.414.904.621 1.528.621.34 0 .663-.049.964-.142a2.75 2.75 0 0 0 .734-.332v-5.29a8.531 8.531 0 0 0-1.413-.18c-.778-.022-1.369.294-1.786.801-.411.507-.619 1.395-.619 2.223zm16.12 0c0 .719-.104 1.264-.318 1.858a4.389 4.389 0 0 1-.904 1.52c-.389.42-.854.746-1.402.975-.548.229-1.391.36-1.813.36-.422-.005-1.26-.125-1.802-.36a4.088 4.088 0 0 1-1.397-.975 4.486 4.486 0 0 1-.909-1.52 5.037 5.037 0 0 1-.329-1.858c0-.719.099-1.411.318-1.999.219-.588.526-1.09.92-1.509.394-.42.865-.741 1.402-.97a4.547 4.547 0 0 1 1.786-.338 4.69 4.69 0 0 1 1.791.338c.548.229 1.019.55 1.402.97.389.42.69.921.909 1.509.23.588.345 1.28.345 1.999h.001zm-2.191.005c0-.921-.203-1.689-.597-2.223-.394-.539-.948-.806-1.654-.806-.707 0-1.26.267-1.654.806-.394.539-.586 1.302-.586 2.223 0 .932.197 1.558.592 2.098.394.545.948.812 1.654.812.707 0 1.26-.272 1.654-.812.394-.545.592-1.166.592-2.098h-.001zm6.962 4.707c-3.511.016-3.511-2.822-3.511-3.274L113.583.926l2.142-.338v10.003c0 .256 0 1.88 1.375 1.885v1.792h-.001zm3.774 0h-2.153V5.072l2.153-.338v9.534zm-1.079-10.542c.718 0 1.304-.578 1.304-1.291 0-.714-.581-1.291-1.304-1.291-.723 0-1.304.578-1.304 1.291 0 .714.586 1.291 1.304 1.291zm6.431 1.013c.707 0 1.304.087 1.786.262.482.174.871.42 1.156.73.285.311.488.735.608 1.182.126.447.186.937.186 1.476v5.481a25.24 25.24 0 0 1-1.495.251c-.668.098-1.419.147-2.251.147a6.829 6.829 0 0 1-1.517-.158 3.213 3.213 0 0 1-1.178-.507 2.455 2.455 0 0 1-.761-.904c-.181-.37-.274-.893-.274-1.438 0-.523.104-.855.307-1.215.208-.36.487-.654.838-.883a3.609 3.609 0 0 1 1.227-.49 7.073 7.073 0 0 1 2.202-.103c.263.027.537.076.833.147v-.349c0-.245-.027-.479-.088-.697a1.486 1.486 0 0 0-.307-.583c-.148-.169-.34-.3-.581-.392a2.536 2.536 0 0 0-.915-.163c-.493 0-.942.06-1.353.131-.411.071-.75.153-1.008.245l-.257-1.749c.268-.093.668-.185 1.183-.278a9.335 9.335 0 0 1 1.66-.142l-.001-.001zm.181 7.731c.657 0 1.145-.038 1.484-.104v-2.168a5.097 5.097 0 0 0-1.978-.104c-.241.033-.46.098-.652.191a1.167 1.167 0 0 0-.466.392c-.121.169-.175.267-.175.523 0 .501.175.79.493.981.323.196.75.289 1.293.289h.001zM84.109 4.794c.707 0 1.304.087 1.786.262.482.174.871.42 1.156.73.29.316.487.735.608 1.182.126.447.186.937.186 1.476v5.481a25.24 25.24 0 0 1-1.495.251c-.668.098-1.419.147-2.251.147a6.829 6.829 0 0 1-1.517-.158 3.213 3.213 0 0 1-1.178-.507 2.455 2.455 0 0 1-.761-.904c-.181-.37-.274-.893-.274-1.438 0-.523.104-.855.307-1.215.208-.36.487-.654.838-.883a3.609 3.609 0 0 1 1.227-.49 7.073 7.073 0 0 1 2.202-.103c.257.027.537.076.833.147v-.349c0-.245-.027-.479-.088-.697a1.486 1.486 0 0 0-.307-.583c-.148-.169-.34-.3-.581-.392a2.536 2.536 0 0 0-.915-.163c-.493 0-.942.06-1.353.131-.411.071-.75.153-1.008.245l-.257-1.749c.268-.093.668-.185 1.183-.278a8.89 8.89 0 0 1 1.66-.142l-.001-.001zm.186 7.736c.657 0 1.145-.038 1.484-.104v-2.168a5.097 5.097 0 0 0-1.978-.104c-.241.033-.46.098-.652.191a1.167 1.167 0 0 0-.466.392c-.121.169-.175.267-.175.523 0 .501.175.79.493.981.318.191.75.289 1.293.289h.001zm8.682 1.738c-3.511.016-3.511-2.822-3.511-3.274L89.461.926l2.142-.338v10.003c0 .256 0 1.88 1.375 1.885v1.792h-.001z"
+				fill="#182359"/>
+			<path
+				d="M5.027 11.025c0 .698-.252 1.246-.757 1.644-.505.397-1.201.596-2.089.596-.888 0-1.615-.138-2.181-.414v-1.214c.358.168.739.301 1.141.397.403.097.778.145 1.125.145.508 0 .884-.097 1.125-.29a.945.945 0 0 0 .363-.779.978.978 0 0 0-.333-.747c-.222-.204-.68-.446-1.375-.725-.716-.29-1.221-.621-1.515-.994-.294-.372-.44-.82-.44-1.343 0-.655.233-1.171.698-1.547.466-.376 1.09-.564 1.875-.564.752 0 1.5.165 2.245.494l-.408 1.047c-.698-.294-1.321-.44-1.869-.44-.415 0-.73.09-.945.271a.89.89 0 0 0-.322.717c0 .204.043.379.129.524.086.145.227.282.424.411.197.129.551.299 1.063.51.577.24.999.464 1.268.671.269.208.466.442.591.704.125.261.188.569.188.924l-.001.002zm3.98 2.24c-.924 0-1.646-.269-2.167-.808-.521-.539-.782-1.281-.782-2.226 0-.97.242-1.733.725-2.288.483-.555 1.148-.833 1.993-.833.784 0 1.404.238 1.858.714.455.476.682 1.132.682 1.966v.682H7.357c.018.577.174 1.02.467 1.329.294.31.707.465 1.241.465.351 0 .678-.033.98-.099a5.1 5.1 0 0 0 .975-.33v1.026a3.865 3.865 0 0 1-.935.312 5.723 5.723 0 0 1-1.08.091l.002-.001zm-.231-5.199c-.401 0-.722.127-.964.381s-.386.625-.432 1.112h2.696c-.007-.491-.125-.862-.354-1.115-.229-.252-.544-.379-.945-.379l-.001.001zm7.692 5.092l-.252-.827h-.043c-.286.362-.575.608-.865.739-.29.131-.662.196-1.117.196-.584 0-1.039-.158-1.367-.473-.328-.315-.491-.761-.491-1.337 0-.612.227-1.074.682-1.386.455-.312 1.148-.482 2.079-.51l1.026-.032v-.317c0-.38-.089-.663-.266-.851-.177-.188-.452-.282-.824-.282-.304 0-.596.045-.876.134a6.68 6.68 0 0 0-.806.317l-.408-.902a4.414 4.414 0 0 1 1.058-.384 4.856 4.856 0 0 1 1.085-.132c.756 0 1.326.165 1.711.494.385.329.577.847.577 1.552v4.002h-.902l-.001-.001zm-1.88-.859c.458 0 .826-.128 1.104-.384.278-.256.416-.615.416-1.077v-.516l-.763.032c-.594.021-1.027.121-1.297.298s-.406.448-.406.814c0 .265.079.47.236.615.158.145.394.218.709.218h.001zm7.557-5.189c.254 0 .464.018.628.054l-.124 1.176a2.383 2.383 0 0 0-.559-.064c-.505 0-.914.165-1.227.494-.313.329-.47.757-.47 1.284v3.105h-1.262V7.218h.988l.167 1.047h.064c.197-.354.454-.636.771-.843a1.83 1.83 0 0 1 1.023-.312h.001zm4.125 6.155c-.899 0-1.582-.262-2.049-.787-.467-.525-.701-1.277-.701-2.259 0-.999.244-1.767.733-2.304.489-.537 1.195-.806 2.119-.806.627 0 1.191.116 1.692.349l-.381 1.015c-.534-.208-.974-.312-1.321-.312-1.028 0-1.542.682-1.542 2.046 0 .666.128 1.166.384 1.501.256.335.631.502 1.125.502a3.23 3.23 0 0 0 1.595-.419v1.101a2.53 2.53 0 0 1-.722.285 4.356 4.356 0 0 1-.932.086v.002zm8.277-.107h-1.268V9.506c0-.458-.092-.8-.277-1.026-.184-.226-.477-.338-.878-.338-.53 0-.919.158-1.168.475-.249.317-.373.848-.373 1.593v2.949h-1.262V4.801h1.262v2.122c0 .34-.021.704-.064 1.09h.081a1.76 1.76 0 0 1 .717-.666c.306-.158.663-.236 1.072-.236 1.439 0 2.159.725 2.159 2.175v3.873l-.001-.001zm7.649-6.048c.741 0 1.319.269 1.732.806.414.537.62 1.291.62 2.261 0 .974-.209 1.732-.628 2.275-.419.542-1.001.814-1.746.814-.752 0-1.336-.27-1.751-.811h-.086l-.231.704h-.945V4.801h1.262v1.987l-.021.655-.032.553h.054c.401-.591.992-.886 1.772-.886zm-.328 1.031c-.508 0-.875.149-1.098.448-.224.299-.339.799-.346 1.501v.086c0 .723.115 1.247.344 1.571.229.324.603.486 1.123.486.448 0 .787-.177 1.018-.532.231-.354.346-.867.346-1.536 0-1.35-.462-2.025-1.386-2.025l-.001.001zm3.244-.924h1.375l1.209 3.368c.183.48.304.931.365 1.354h.043c.032-.197.091-.436.177-.717.086-.281.541-1.616 1.364-4.004h1.364l-2.541 6.73c-.462 1.235-1.232 1.853-2.31 1.853-.279 0-.551-.03-.816-.091v-.999c.19.043.406.064.65.064.609 0 1.037-.353 1.284-1.058l.22-.559-2.385-5.941h.001z"
+				fill="#1D3657"/>
+		  </g>
+		</svg>
+	  </a>
+	</div>
+  </div>
+</script>
+<script type="text/html" id="tmpl-autocomplete-empty">
+  <div class="autocomplete-empty">
+	  No results matched your query 	<span class="empty-query">"{{ data.query }}"</span>
+  </div>
+</script>
+<script type="text/javascript">
+  jQuery(function () {
+	/* init Algolia client */
+	var client = algoliasearch(algolia.application_id, algolia.search_api_key);
+
+	/* setup default sources */
+	var sources = [];
+	jQuery.each(algolia.autocomplete.sources, function (i, config) {
+	  var suggestion_template = wp.template(config['tmpl_suggestion']);
+	  sources.push({
+		source: algoliaAutocomplete.sources.hits(client.initIndex(config['index_name']), {
+		  hitsPerPage: config['max_suggestions'],
+		  attributesToSnippet: [
+			'content:10'
+		  ],
+		  highlightPreTag: '__ais-highlight__',
+		  highlightPostTag: '__/ais-highlight__'
+		}),
+		templates: {
+		  header: function () {
+			return wp.template('autocomplete-header')({
+			  label: _.escape(config['label'])
+			});
+		  },
+		  suggestion: function (hit) {
+      if(hit.escaped === true) {
+        return suggestion_template(hit);
+      }
+      hit.escaped = true;
+
+			for (var key in hit._highlightResult) {
+			  /* We do not deal with arrays. */
+			  if (typeof hit._highlightResult[key].value !== 'string') {
+				continue;
+			  }
+			  hit._highlightResult[key].value = _.escape(hit._highlightResult[key].value);
+			  hit._highlightResult[key].value = hit._highlightResult[key].value.replace(/__ais-highlight__/g, '<em>').replace(/__\/ais-highlight__/g, '</em>');
+			}
+
+			for (var key in hit._snippetResult) {
+			  /* We do not deal with arrays. */
+			  if (typeof hit._snippetResult[key].value !== 'string') {
+				continue;
+			  }
+
+			  hit._snippetResult[key].value = _.escape(hit._snippetResult[key].value);
+			  hit._snippetResult[key].value = hit._snippetResult[key].value.replace(/__ais-highlight__/g, '<em>').replace(/__\/ais-highlight__/g, '</em>');
+			}
+
+			return suggestion_template(hit);
+		  }
+		}
+	  });
+
+	});
+
+	/* Setup dropdown menus */
+	jQuery(algolia.autocomplete.input_selector).each(function (i) {
+	  var $searchInput = jQuery(this);
+
+	  var config = {
+		debug: algolia.debug,
+		hint: false,
+		openOnFocus: true,
+		appendTo: 'body',
+		templates: {
+		  empty: wp.template('autocomplete-empty')
+		}
+	  };
+
+	  if (algolia.powered_by_enabled) {
+		config.templates.footer = wp.template('autocomplete-footer');
+	  }
+
+	  /* Instantiate autocomplete.js */
+	  var autocomplete = algoliaAutocomplete($searchInput[0], config, sources)
+	  .on('autocomplete:selected', function (e, suggestion) {
+		/* Redirect the user when we detect a suggestion selection. */
+		window.location.href = suggestion.permalink;
+	  });
+
+	  /* Force the dropdown to be re-drawn on scroll to handle fixed containers. */
+	  jQuery(window).scroll(function() {
+		if(autocomplete.autocomplete.getWrapper().style.display === "block") {
+		  autocomplete.autocomplete.close();
+		  autocomplete.autocomplete.open();
+		}
+	  });
+	});
+
+	jQuery(document).on("click", ".algolia-powered-by-link", function (e) {
+	  e.preventDefault();
+	  window.location = "https://www.algolia.com/?utm_source=WordPress&utm_medium=extension&utm_content=" + window.location.hostname + "&utm_campaign=poweredby";
+	});
+  });
+</script>
+<link rel="preload" href="https://publicintegrity.org/wp-content/themes/cpi/static/fonts/maisonneue/MaisonNeue-Demi.woff" as="font" type="font/woff" crossorigin="crossorigin">
+<link rel="preload" href="https://publicintegrity.org/wp-content/themes/cpi/static/fonts/maisonneue/MaisonNeue-Book.woff" as="font" type="font/woff" crossorigin="crossorigin">
+<link rel="preload" href="https://publicintegrity.org/wp-content/themes/cpi/static/fonts/druk/Druk-Bold-Web.woff" as="font" type="font/woff" crossorigin="crossorigin">
+<link rel="stylesheet" id="cpi-theme-css" href="https://publicintegrity.org/wp-content/themes/cpi/dist/app.css?v=1587440494" type="text/css" media="all" />
+
+<meta property="og:site_name" content="Center for Public Integrity">
+<meta property="og:site" content="https://publicintegrity.org">
+<meta property="og:locale" content="en_us">
+<meta property="og:type" content="article">
+<meta property="og:title" content="A likely but hidden coronavirus risk factor: pollution &ndash; Center for Public Integrity">
+<meta property="og:url" content="https://publicintegrity.org/health/coronavirus-and-inequality/a-likely-but-hidden-coronavirus-risk-factor-pollution/">
+<meta property="og:image" content="https://publicintegrity.org/wp-content/uploads/2020/03/AP_19249724863098-1170x600-c-default.jpg">
+ <meta property="og:image:height" content="1170">
+<meta property="og:image:width" content="600">
+<meta property="og:image:alt" content="">
+<meta property="og:description" content="The Center for Public Integrity is an investigative newsroom that exposes betrayals of the public trust by powerful interests.">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@Publici">
+<meta name="twitter:title" content="A likely but hidden coronavirus risk factor: pollution &ndash; Center for Public Integrity">
+<meta name="twitter:description" content="The Center for Public Integrity is an investigative newsroom that exposes betrayals of the public trust by powerful interests.">
+<meta name="twitter:image" content="https://publicintegrity.org/wp-content/uploads/2020/03/AP_19249724863098-1170x600-c-default.jpg">
+<link rel="apple-touch-icon" sizes="57x57" href="https://publicintegrity.org/wp-content/themes/cpi/static/img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://publicintegrity.org/wp-content/themes/cpi/static/img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://publicintegrity.org/wp-content/themes/cpi/static/img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://publicintegrity.org/wp-content/themes/cpi/static/img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://publicintegrity.org/wp-content/themes/cpi/static/img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://publicintegrity.org/wp-content/themes/cpi/static/img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://publicintegrity.org/wp-content/themes/cpi/static/img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://publicintegrity.org/wp-content/themes/cpi/static/img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://publicintegrity.org/wp-content/themes/cpi/static/img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://publicintegrity.org/wp-content/themes/cpi/static/img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://publicintegrity.org/wp-content/themes/cpi/static/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://publicintegrity.org/wp-content/themes/cpi/static/img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://publicintegrity.org/wp-content/themes/cpi/static/img/favicon/favicon-16x16.png">
+</head>
+<body class="post-template-default single single-post postid-86545 single-format-standard topic-type-sub-topic">
+
+<noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9H38CL" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+
+<svg display="none" width="0" height="0">
+<defs>
+<symbol id="arrow-small" viewbox="0 0 14 14">
+<path d="M10.1383171,6.5 L7.1027832,3.46446609 L7.1027832,2.05025253 L12.0525307,7 L7.1027832,11.9497475 L7.1027832,10.5355339 L10.1383171,7.5 L1.5,7.5 L1.5,6.5 L10.1383171,6.5 Z" />
+</symbol>
+<symbol id="cpi-glyph-blue" viewbox="0 0 60 60">
+<path fill="#04284B" d="M0.350545875,1.07346014 L55.0725944,1.07346014 L55.0725944,6.54814302 L0.350545875,6.54814302 L0.350545875,1.07346014 Z M5.16011383,9.3911134 L50.2599773,9.3911134 L50.2599773,14.2340251 L46.7330963,15.2868102 L46.7330963,19.0769368 L43.0994942,20.2348502 L43.0994942,57.9263598 L37.5418615,55.2941467 L37.5418615,23.0778206 C37.5418615,22.4460494 37.0077474,21.9199071 36.3664039,21.9199071 L35.939011,21.9199071 C35.2981757,21.9199071 34.7635534,22.4460494 34.7635534,23.0778206 L34.7635534,53.9259766 L29.0991996,51.1886351 L29.0991996,23.0778206 C29.0991996,22.4460494 28.5650855,21.9199071 27.923742,21.9199071 L27.4963491,21.9199071 C26.8550056,21.9199071 26.3208915,22.4460494 26.3208915,23.0778206 L26.3208915,51.1886351 L20.6565377,53.9259766 L20.6565377,23.0778206 C20.6565377,22.4460494 20.1224236,21.9199071 19.4810801,21.9199071 L19.0536872,21.9199071 C18.4128519,21.9199071 17.8782296,22.4460494 17.8782296,23.0778206 L17.8782296,55.2941467 L12.320597,57.9263598 L12.320597,20.2348502 L8.68699481,19.0769368 L8.68699481,15.2868102 L5.16011383,14.2340251 L5.16011383,9.3911134 Z" />
+</symbol>
+<symbol id="cpi-glyph-white" viewbox="0 0 60 60">
+<path fill="#ffffff" d="M0.350545875,1.07346014 L55.0725944,1.07346014 L55.0725944,6.54814302 L0.350545875,6.54814302 L0.350545875,1.07346014 Z M5.16011383,9.3911134 L50.2599773,9.3911134 L50.2599773,14.2340251 L46.7330963,15.2868102 L46.7330963,19.0769368 L43.0994942,20.2348502 L43.0994942,57.9263598 L37.5418615,55.2941467 L37.5418615,23.0778206 C37.5418615,22.4460494 37.0077474,21.9199071 36.3664039,21.9199071 L35.939011,21.9199071 C35.2981757,21.9199071 34.7635534,22.4460494 34.7635534,23.0778206 L34.7635534,53.9259766 L29.0991996,51.1886351 L29.0991996,23.0778206 C29.0991996,22.4460494 28.5650855,21.9199071 27.923742,21.9199071 L27.4963491,21.9199071 C26.8550056,21.9199071 26.3208915,22.4460494 26.3208915,23.0778206 L26.3208915,51.1886351 L20.6565377,53.9259766 L20.6565377,23.0778206 C20.6565377,22.4460494 20.1224236,21.9199071 19.4810801,21.9199071 L19.0536872,21.9199071 C18.4128519,21.9199071 17.8782296,22.4460494 17.8782296,23.0778206 L17.8782296,55.2941467 L12.320597,57.9263598 L12.320597,20.2348502 L8.68699481,19.0769368 L8.68699481,15.2868102 L5.16011383,14.2340251 L5.16011383,9.3911134 Z" />
+</symbol>
+<symbol id="cpi-logo-white" viewbox="0 0 248 51">
+<defs>
+<polygon id="cpi-logo-white-a" points=".023 .264 51.457 .264 51.457 51 .023 51" />
+</defs>
+<g fill="none" fill-rule="evenodd">
+<mask id="cpi-logo-white-b" fill="white">
+<use xlink:href="#cpi-logo-white-a" />
+</mask>
+<polygon fill="#FFFFFF" points=".023 51 51.457 51 51.457 .264 .023 .264" mask="url(#b)" />
+<polygon fill="#04284A" points="7.924 10.743 43.532 10.743 43.532 7.153 7.924 7.153" />
+<path fill="#04284A" d="M11.0223067,12.520875 L11.0223067,15.657 L13.2904417,16.35675 L13.2904417,18.8145 L15.6890429,19.564125 L15.6890429,44.111625 L19.336773,42.372375 L19.336773,21.419625 C19.336773,21.005625 19.6794847,20.6715 20.0978896,20.6715 L20.361865,20.6715 C20.7779877,20.6715 21.1222209,21.005625 21.1222209,21.419625 L21.1222209,41.522625 L24.8372761,39.7485 L24.8372761,21.419625 C24.8372761,21.005625 25.1784663,20.6715 25.5957301,20.6715 L25.8619877,20.6715 C26.280773,20.6715 26.619681,21.005625 26.619681,21.419625 L26.619681,39.7485 L30.3362577,41.522625 L30.3362577,21.419625 C30.3362577,21.005625 30.6763067,20.6715 31.0958528,20.6715 L31.360589,20.6715 C31.7782331,20.6715 32.120184,21.005625 32.120184,21.419625 L32.120184,42.372375 L35.7701963,44.111625 L35.7701963,19.564125 L38.1672761,18.8145 L38.1672761,16.35675 L40.4346503,15.657 L40.4346503,12.520875 L11.0223067,12.520875" />
+<path fill="#FFFFFF" d="M67.0862822 33.573C70.103362 33.573 71.5848957 32.370375 71.5848957 29.566125 71.5848957 27.303 70.5989816 26.073375 67.6941104 26.073375L64.818908 26.073375 64.818908 33.573 67.0862822 33.573zM64.818908 44.13525L61.0471779 44.13525 61.0471779 23.12475 68.4495215 23.12475C73.7625031 23.12475 75.4479141 25.758 75.4479141 29.307 75.4479141 32.25675 74.3722331 36.40575 67.4620859 36.40575L64.818908 36.40575 64.818908 44.13525zM77.2497178 29.45025L80.8788098 29.45025 80.8788098 38.1525C80.8788098 40.669875 81.6912761 41.758875 83.4029325 41.758875 85.8996687 41.758875 86.5679755 39.639375 86.5679755 37.264875L86.5679755 29.45025 90.1970675 29.45025 90.1970675 44.13525 86.9179141 44.13525 86.7425644 41.958 86.7136564 41.958C86.044589 43.045125 84.8844663 44.47575 82.2139018 44.47575 79.0507607 44.47575 77.2497178 42.587625 77.2497178 38.32275L77.2497178 29.45025M99.576184 42.072375C101.696736 42.072375 102.945485 40.41375 102.945485 36.492 102.945485 32.60025 101.60811 31.539 99.8960736 31.539 97.748135 31.539 96.4716196 33.05775 96.4716196 36.806625 96.4716196 40.3845 97.573546 42.072375 99.576184 42.072375zM92.9863067 44.13525L92.9863067 23.12475 96.5868712 23.12475 96.5868712 31.339125 96.6169202 31.339125C97.2547975 30.33675 98.7055215 29.106375 101.143301 29.106375 103.874724 29.106375 106.66054 30.796875 106.66054 36.492 106.66054 41.81475 104.250528 44.47575 100.535472 44.47575 98.6195583 44.47575 97.2255092 43.7625 96.4423313 42.501375L96.3548466 42.501375 95.9189448 44.13525 92.9863067 44.13525z" />
+<polygon fill="#FFFFFF" points="108.754 44.135 112.384 44.135 112.384 23.125 108.754 23.125" />
+<path fill="#FFFFFF" d="M115.170515 44.13525L118.799607 44.13525 118.799607 29.45025 115.170515 29.45025 115.170515 44.13525zM115.170515 26.475375L118.799607 26.475375 118.799607 23.12475 115.170515 23.12475 115.170515 26.475375zM130.936012 34.91775C130.759902 32.6265 129.570491 31.711875 127.974086 31.711875 125.969166 31.711875 124.57816 33.114 124.57816 36.806625 124.57816 40.21125 125.651939 41.845125 127.91589 41.845125 129.627546 41.845125 130.557926 40.98525 130.878577 38.92425L134.042859 39.15375C133.576528 43.160625 130.818098 44.47575 127.770589 44.47575 122.804883 44.47575 120.831534 41.244375 120.831534 36.949875 120.831534 31.99875 123.588822 29.106375 128.119387 29.106375 132.213288 29.106375 134.011669 31.5975 134.156969 34.658625L130.936012 34.91775" />
+<polyline fill="#FFFFFF" points="146.411 41.643 148.646 41.643 148.646 44.135 140.517 44.135 140.517 41.643 142.695 41.643 142.695 25.616 140.517 25.616 140.517 23.125 148.646 23.125 148.646 25.616 146.411 25.616 146.411 41.643" />
+<path fill="#FFFFFF" d="M164.41411 44.13525L160.784258 44.13525 160.784258 35.488125C160.784258 32.827125 159.912834 31.8255 158.14184 31.8255 155.55838 31.8255 154.861926 33.773625 154.861926 35.949375L154.861926 44.13525 151.230552 44.13525 151.230552 29.45025 154.542417 29.45025 154.687337 31.5975 154.745153 31.5975C155.355264 30.48225 156.63254 29.106375 159.303104 29.106375 162.498196 29.106375 164.41411 30.940125 164.41411 35.202L164.41411 44.13525M165.576135 29.45025L167.376798 29.45025 167.376798 26.359125 170.976601 25.29975 170.976601 29.45025 174.372908 29.45025 174.372908 31.94025 170.976601 31.94025 170.976601 38.954625C170.976601 40.98525 171.44065 41.81475 173.007767 41.81475 173.616736 41.81475 174.140883 41.7285 174.722847 41.55825L175.069742 44.01825C174.432626 44.278125 173.356564 44.47575 172.108957 44.47575 168.827521 44.47575 167.376798 42.875625 167.376798 39.382875L167.376798 31.94025 165.576135 31.94025 165.576135 29.45025M185.34881 35.117625C185.438577 32.827125 184.480429 31.51275 182.44546 31.51275 180.240086 31.51275 179.25265 33.1995 179.165546 35.117625L185.34881 35.117625zM188.68654 39.468375C188.019755 43.591125 184.972245 44.47575 182.417313 44.47575 177.393411 44.47575 175.421963 41.271375 175.421963 36.949875 175.421963 32.11125 178.120294 29.106375 182.708294 29.106375 186.742479 29.106375 188.86265 31.5975 188.86265 35.88975 188.86265 36.377625 188.83184 36.97875 188.774405 37.52175L179.136638 37.52175C179.165546 40.042125 180.008061 41.845125 182.534466 41.845125 184.189828 41.845125 185.31838 41.10075 185.640552 39.15375L188.68654 39.468375zM197.312908 31.483875C195.396994 31.483875 194.004086 32.913 194.004086 36.779625 194.004086 40.3845 195.162687 41.5005 197.051975 41.5005 199.285877 41.5005 200.447141 40.042125 200.447141 36.634875 200.447141 32.943375 199.259632 31.483875 197.312908 31.483875zM203.930552 29.45025L203.930552 42.93075C203.930552 47.339625 201.492012 49.716 196.848479 49.716 193.651865 49.716 191.419865 48.427875 190.780086 45.7365L194.06038 45.05175C194.378748 46.167 194.901755 47.109375 196.934822 47.109375 199.259632 47.109375 200.33189 45.9375 200.33189 43.160625L200.33189 41.758875 200.30184 41.758875C199.694012 42.847125 198.32811 43.905375 196.005963 43.905375 192.898736 43.905375 190.227791 42.159 190.227791 36.8925 190.227791 31.65525 192.842442 29.106375 196.439583 29.106375 198.589804 29.106375 199.780356 29.87925 200.476049 31.053L200.565816 31.053 200.999816 29.45025 203.930552 29.45025zM214.329055 34.888875C214.588847 32.6265 214.154847 31.85475 212.933485 31.85475 210.931227 31.85475 210.292589 33.973875 210.292589 36.576375L210.292589 44.13525 206.663877 44.13525 206.663877 29.45025 209.972699 29.45025 210.147288 31.56975 210.176196 31.56975C210.814074 30.280125 211.975718 29.106375 214.239288 29.106375 216.882847 29.106375 218.364 30.796875 217.782798 34.687125L214.329055 34.888875M219.409632 44.13525L223.039485 44.13525 223.039485 29.45025 219.409632 29.45025 219.409632 44.13525zM219.409632 26.475375L223.039485 26.475375 223.039485 23.12475 219.409632 23.12475 219.409632 26.475375zM224.607362 29.45025L226.407264 29.45025 226.407264 26.359125 230.007828 25.29975 230.007828 29.45025 233.401853 29.45025 233.401853 31.94025 230.007828 31.94025 230.007828 38.954625C230.007828 40.98525 230.472638 41.81475 232.040515 41.81475 232.649104 41.81475 233.172871 41.7285 233.752172 41.55825L234.098687 44.01825C233.462331 44.278125 232.38589 44.47575 231.139423 44.47575 227.856466 44.47575 226.407264 42.875625 226.407264 39.382875L226.407264 31.94025 224.607362 31.94025 224.607362 29.45025" />
+<path fill="#FFFFFF" d="M242.49265,44.04675 C240.984871,48.341625 239.791656,49.716 236.686331,49.716 C235.755571,49.716 234.654785,49.543875 234.156503,49.34475 L234.53611,46.93725 C235.117313,47.082375 235.526589,47.19675 236.103607,47.19675 C237.469509,47.19675 238.167104,46.396125 238.890945,44.24925 L238.97919,43.991625 L233.839276,29.45025 L237.673387,29.45025 L240.721656,40.270125 L240.810282,40.270125 L243.974184,29.45025 L247.69038,29.45025 L242.49265,44.04675" />
+<polyline fill="#FFFFFF" points="62.162 8.841 58.763 8.841 58.763 7.09 67.793 7.09 67.793 8.841 64.376 8.841 64.376 19.328 62.162 19.328 62.162 8.841" />
+<path fill="#FFFFFF" d="M76.2501104 19.32825L74.1371656 19.32825 74.1371656 14.29275C74.1371656 13.16025 73.8830798 12.160125 72.6130307 12.160125 71.1265521 12.160125 70.6876074 13.227375 70.6876074 14.560125L70.6876074 19.32825 68.5742822 19.32825 68.5742822 7.090125 70.6704908 7.090125 70.6704908 11.9265 70.7020613 11.9265C71.1604049 11.2425 71.8716933 10.575375 73.3246994 10.575375 75.1489448 10.575375 76.2501104 11.676 76.2501104 14.175375L76.2501104 19.32825M83.1499877 14.076C83.2013374 12.7425 82.6429571 11.976 81.4600123 11.976 80.1755092 11.976 79.6015337 12.959625 79.5490429 14.076L83.1499877 14.076zM85.097092 16.6125C84.7083558 19.009875 82.930135 19.52775 81.4444172 19.52775 78.5174847 19.52775 77.3668712 17.66025 77.3668712 15.14325 77.3668712 12.327 78.9393129 10.575375 81.6125399 10.575375 83.9632147 10.575375 85.1971288 12.026625 85.1971288 14.5275 85.1971288 14.81175 85.1796319 15.160125 85.1480613 15.477L79.531546 15.477C79.5490429 16.9425 80.0400982 17.99325 81.5109816 17.99325 82.4759755 17.99325 83.1332515 17.560875 83.3200123 16.428375L85.097092 16.6125zM96.2753497 15.177L98.3882945 15.327375C98.1197546 18.294 96.4446135 19.52775 93.8584908 19.52775 90.6961104 19.52775 88.9719018 17.47875 88.9719018 13.360125 88.9719018 8.957625 91.151411 6.891 94.2301104 6.891 96.9691411 6.891 98.4913742 8.624625 98.4563804 11.325375L96.3266994 11.492625C96.3266994 9.309 95.3620859 8.624625 94.0772025 8.624625 92.5549693 8.624625 91.3058405 9.84225 91.3058405 13.293 91.3058405 16.428375 92.2339387 17.77725 93.9752638 17.77725 95.396319 17.77725 96.1581963 16.8105 96.2753497 15.177M105.086957 14.076C105.138307 12.7425 104.581828 11.976 103.396221 11.976 102.112479 11.976 101.538503 12.959625 101.486012 14.076L105.086957 14.076zM107.03254 16.6125C106.644564 19.009875 104.868626 19.52775 103.379865 19.52775 100.455215 19.52775 99.305362 17.66025 99.305362 15.14325 99.305362 12.327 100.877804 10.575375 103.551031 10.575375 105.900564 10.575375 107.133718 12.026625 107.133718 14.5275 107.133718 14.81175 107.116601 15.160125 107.082748 15.477L101.470417 15.477C101.486012 16.9425 101.976687 17.99325 103.446429 17.99325 104.411804 17.99325 105.070221 17.560875 105.256601 16.428375L107.03254 16.6125zM116.031669 19.32825L113.916822 19.32825 113.916822 14.29275C113.916822 12.7425 113.409791 12.160125 112.379374 12.160125 110.872356 12.160125 110.468025 13.293 110.468025 14.560125L110.468025 19.32825 108.35508 19.32825 108.35508 10.77525 110.282025 10.77525 110.364945 12.026625 110.400699 12.026625C110.754822 11.376 111.499583 10.575375 113.054147 10.575375 114.915669 10.575375 116.031669 11.642625 116.031669 14.12475L116.031669 19.32825M116.709485 10.77525L117.759301 10.77525 117.759301 8.97525 119.855509 8.35875 119.855509 10.77525 121.834564 10.77525 121.834564 12.22725 119.855509 12.22725 119.855509 16.309875C119.855509 17.495625 120.12481 17.977125 121.039215 17.977125 121.394479 17.977125 121.697252 17.927625 122.034638 17.82825L122.238896 19.260375C121.867276 19.41225 121.242331 19.52775 120.514307 19.52775 118.603337 19.52775 117.759301 18.59475 117.759301 16.560375L117.759301 12.22725 116.709485 12.22725 116.709485 10.77525M128.227411 14.076C128.276098 12.7425 127.717718 11.976 126.536294 11.976 125.24989 11.976 124.676294 12.959625 124.626086 14.076L128.227411 14.076zM130.172613 16.6125C129.782736 19.009875 128.005276 19.52775 126.518417 19.52775 123.595669 19.52775 122.444675 17.66025 122.444675 15.14325 122.444675 12.327 124.016736 10.575375 126.688822 10.575375 129.039497 10.575375 130.274172 12.026625 130.274172 14.5275 130.274172 14.81175 130.255534 15.160125 130.221301 15.477L124.60973 15.477C124.626086 16.9425 125.114479 17.99325 126.585742 17.99325 127.550356 17.99325 128.210294 17.560875 128.395153 16.428375L130.172613 16.6125zM135.958012 13.9425C136.108258 12.627 135.854552 12.1755 135.145546 12.1755 133.980098 12.1755 133.605436 13.409625 133.605436 14.926875L133.605436 19.32825 131.492871 19.32825 131.492871 10.77525 133.421718 10.77525 133.520613 12.00975 133.53811 12.00975C133.91011 11.25825 134.586785 10.575375 135.905521 10.575375 137.444491 10.575375 138.306785 11.559375 137.969018 13.826625L135.958012 13.9425M140.997509 10.77525L142.046945 10.77525 142.046945 10.293C142.046945 7.9935 142.941951 6.891 145.055656 6.891 145.73119 6.891 146.357276 7.00875 146.661571 7.090125L146.426503 8.624625C146.086074 8.52375 145.698479 8.458875 145.326859 8.458875 144.464945 8.458875 144.143914 8.992875 144.143914 10.1595L144.143914 10.77525 146.122589 10.77525 146.122589 12.244125 144.143914 12.244125 144.143914 19.32825 142.046945 19.32825 142.046945 12.244125 140.997509 12.244125 140.997509 10.77525M152.278466 14.99325C152.278466 13.227375 151.719706 12.109875 150.333644 12.109875 148.947583 12.109875 148.304 13.276875 148.304 15.043125 148.304 16.84425 148.828908 18.02775 150.29827 18.02775 151.702589 18.02775 152.278466 16.794375 152.278466 14.99325zM146.122969 15.061125C146.122969 12.126375 148.034699 10.575375 150.416564 10.575375 152.92281 10.575375 154.44162 12.09375 154.44162 14.893875 154.44162 17.946 152.836847 19.52775 150.21535 19.52775 147.509031 19.52775 146.122969 17.911125 146.122969 15.061125zM160.109865 13.9425C160.262773 12.627 160.008687 12.1755 159.29816 12.1755 158.131951 12.1755 157.759951 13.409625 157.759951 14.926875L157.759951 19.32825 155.645104 19.32825 155.645104 10.77525 157.574331 10.77525 157.677031 12.00975 157.692626 12.00975C158.062724 11.25825 158.741301 10.575375 160.058135 10.575375 161.599006 10.575375 162.459779 11.559375 162.123534 13.826625L160.109865 13.9425" />
+</g>
+</symbol>
+<symbol id="cpi-logo-white-window" viewbox="0 0 248 51" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<polygon id="cpi-logo-white-window-a" points=".023 .264 51.457 .264 51.457 51 .023 51" />
+</defs>
+<g fill="none" fill-rule="evenodd" transform="translate(0 .555)">
+<mask id="cpi-logo-white-window-b" fill="white">
+<use xlink:href="#cpi-logo-white-window-a" />
+</mask>
+<path fill="#FFFFFF" d="M0.0228220859,51 L0.0228220859,0.263625 L51.4569571,0.263625 L51.4569571,51 L0.0228220859,51 Z M11.0223067,12.520875 L11.0223067,15.657 L13.2904417,16.35675 L13.2904417,18.8145 L15.6890429,19.564125 L15.6890429,44.111625 L19.336773,42.372375 L19.336773,21.419625 C19.336773,21.005625 19.6794847,20.6715 20.0978896,20.6715 L20.361865,20.6715 C20.7779877,20.6715 21.1222209,21.005625 21.1222209,21.419625 L21.1222209,41.522625 L24.8372761,39.7485 L24.8372761,21.419625 C24.8372761,21.005625 25.1784663,20.6715 25.5957301,20.6715 L25.8619877,20.6715 C26.280773,20.6715 26.619681,21.005625 26.619681,21.419625 L26.619681,39.7485 L30.3362577,41.522625 L30.3362577,21.419625 C30.3362577,21.005625 30.6763067,20.6715 31.0958528,20.6715 L31.360589,20.6715 C31.7782331,20.6715 32.120184,21.005625 32.120184,21.419625 L32.120184,42.372375 L35.7701963,44.111625 L35.7701963,19.564125 L38.1672761,18.8145 L38.1672761,16.35675 L40.4346503,15.657 L40.4346503,12.520875 L11.0223067,12.520875 Z M7.92420859,10.743 L43.5319877,10.743 L43.5319877,7.15275 L7.92420859,7.15275 L7.92420859,10.743 Z" mask="url(#b)" />
+<path fill="#FFFFFF" d="M67.0862822 33.573C70.103362 33.573 71.5848957 32.370375 71.5848957 29.566125 71.5848957 27.303 70.5989816 26.073375 67.6941104 26.073375L64.818908 26.073375 64.818908 33.573 67.0862822 33.573zM64.818908 44.13525L61.0471779 44.13525 61.0471779 23.12475 68.4495215 23.12475C73.7625031 23.12475 75.4479141 25.758 75.4479141 29.307 75.4479141 32.25675 74.3722331 36.40575 67.4620859 36.40575L64.818908 36.40575 64.818908 44.13525zM77.2497178 29.45025L80.8788098 29.45025 80.8788098 38.1525C80.8788098 40.669875 81.6912761 41.758875 83.4029325 41.758875 85.8996687 41.758875 86.5679755 39.639375 86.5679755 37.264875L86.5679755 29.45025 90.1970675 29.45025 90.1970675 44.13525 86.9179141 44.13525 86.7425644 41.958 86.7136564 41.958C86.044589 43.045125 84.8844663 44.47575 82.2139018 44.47575 79.0507607 44.47575 77.2497178 42.587625 77.2497178 38.32275L77.2497178 29.45025M99.576184 42.072375C101.696736 42.072375 102.945485 40.41375 102.945485 36.492 102.945485 32.60025 101.60811 31.539 99.8960736 31.539 97.748135 31.539 96.4716196 33.05775 96.4716196 36.806625 96.4716196 40.3845 97.573546 42.072375 99.576184 42.072375zM92.9863067 44.13525L92.9863067 23.12475 96.5868712 23.12475 96.5868712 31.339125 96.6169202 31.339125C97.2547975 30.33675 98.7055215 29.106375 101.143301 29.106375 103.874724 29.106375 106.66054 30.796875 106.66054 36.492 106.66054 41.81475 104.250528 44.47575 100.535472 44.47575 98.6195583 44.47575 97.2255092 43.7625 96.4423313 42.501375L96.3548466 42.501375 95.9189448 44.13525 92.9863067 44.13525z" />
+<polygon fill="#FFFFFF" points="108.754 44.135 112.384 44.135 112.384 23.125 108.754 23.125" />
+<path fill="#FFFFFF" d="M115.170515 44.13525L118.799607 44.13525 118.799607 29.45025 115.170515 29.45025 115.170515 44.13525zM115.170515 26.475375L118.799607 26.475375 118.799607 23.12475 115.170515 23.12475 115.170515 26.475375zM130.936012 34.91775C130.759902 32.6265 129.570491 31.711875 127.974086 31.711875 125.969166 31.711875 124.57816 33.114 124.57816 36.806625 124.57816 40.21125 125.651939 41.845125 127.91589 41.845125 129.627546 41.845125 130.557926 40.98525 130.878577 38.92425L134.042859 39.15375C133.576528 43.160625 130.818098 44.47575 127.770589 44.47575 122.804883 44.47575 120.831534 41.244375 120.831534 36.949875 120.831534 31.99875 123.588822 29.106375 128.119387 29.106375 132.213288 29.106375 134.011669 31.5975 134.156969 34.658625L130.936012 34.91775" />
+<polyline fill="#FFFFFF" points="146.411 41.643 148.646 41.643 148.646 44.135 140.517 44.135 140.517 41.643 142.695 41.643 142.695 25.616 140.517 25.616 140.517 23.125 148.646 23.125 148.646 25.616 146.411 25.616 146.411 41.643" />
+<path fill="#FFFFFF" d="M164.41411 44.13525L160.784258 44.13525 160.784258 35.488125C160.784258 32.827125 159.912834 31.8255 158.14184 31.8255 155.55838 31.8255 154.861926 33.773625 154.861926 35.949375L154.861926 44.13525 151.230552 44.13525 151.230552 29.45025 154.542417 29.45025 154.687337 31.5975 154.745153 31.5975C155.355264 30.48225 156.63254 29.106375 159.303104 29.106375 162.498196 29.106375 164.41411 30.940125 164.41411 35.202L164.41411 44.13525M165.576135 29.45025L167.376798 29.45025 167.376798 26.359125 170.976601 25.29975 170.976601 29.45025 174.372908 29.45025 174.372908 31.94025 170.976601 31.94025 170.976601 38.954625C170.976601 40.98525 171.44065 41.81475 173.007767 41.81475 173.616736 41.81475 174.140883 41.7285 174.722847 41.55825L175.069742 44.01825C174.432626 44.278125 173.356564 44.47575 172.108957 44.47575 168.827521 44.47575 167.376798 42.875625 167.376798 39.382875L167.376798 31.94025 165.576135 31.94025 165.576135 29.45025M185.34881 35.117625C185.438577 32.827125 184.480429 31.51275 182.44546 31.51275 180.240086 31.51275 179.25265 33.1995 179.165546 35.117625L185.34881 35.117625zM188.68654 39.468375C188.019755 43.591125 184.972245 44.47575 182.417313 44.47575 177.393411 44.47575 175.421963 41.271375 175.421963 36.949875 175.421963 32.11125 178.120294 29.106375 182.708294 29.106375 186.742479 29.106375 188.86265 31.5975 188.86265 35.88975 188.86265 36.377625 188.83184 36.97875 188.774405 37.52175L179.136638 37.52175C179.165546 40.042125 180.008061 41.845125 182.534466 41.845125 184.189828 41.845125 185.31838 41.10075 185.640552 39.15375L188.68654 39.468375zM197.312908 31.483875C195.396994 31.483875 194.004086 32.913 194.004086 36.779625 194.004086 40.3845 195.162687 41.5005 197.051975 41.5005 199.285877 41.5005 200.447141 40.042125 200.447141 36.634875 200.447141 32.943375 199.259632 31.483875 197.312908 31.483875zM203.930552 29.45025L203.930552 42.93075C203.930552 47.339625 201.492012 49.716 196.848479 49.716 193.651865 49.716 191.419865 48.427875 190.780086 45.7365L194.06038 45.05175C194.378748 46.167 194.901755 47.109375 196.934822 47.109375 199.259632 47.109375 200.33189 45.9375 200.33189 43.160625L200.33189 41.758875 200.30184 41.758875C199.694012 42.847125 198.32811 43.905375 196.005963 43.905375 192.898736 43.905375 190.227791 42.159 190.227791 36.8925 190.227791 31.65525 192.842442 29.106375 196.439583 29.106375 198.589804 29.106375 199.780356 29.87925 200.476049 31.053L200.565816 31.053 200.999816 29.45025 203.930552 29.45025zM214.329055 34.888875C214.588847 32.6265 214.154847 31.85475 212.933485 31.85475 210.931227 31.85475 210.292589 33.973875 210.292589 36.576375L210.292589 44.13525 206.663877 44.13525 206.663877 29.45025 209.972699 29.45025 210.147288 31.56975 210.176196 31.56975C210.814074 30.280125 211.975718 29.106375 214.239288 29.106375 216.882847 29.106375 218.364 30.796875 217.782798 34.687125L214.329055 34.888875M219.409632 44.13525L223.039485 44.13525 223.039485 29.45025 219.409632 29.45025 219.409632 44.13525zM219.409632 26.475375L223.039485 26.475375 223.039485 23.12475 219.409632 23.12475 219.409632 26.475375zM224.607362 29.45025L226.407264 29.45025 226.407264 26.359125 230.007828 25.29975 230.007828 29.45025 233.401853 29.45025 233.401853 31.94025 230.007828 31.94025 230.007828 38.954625C230.007828 40.98525 230.472638 41.81475 232.040515 41.81475 232.649104 41.81475 233.172871 41.7285 233.752172 41.55825L234.098687 44.01825C233.462331 44.278125 232.38589 44.47575 231.139423 44.47575 227.856466 44.47575 226.407264 42.875625 226.407264 39.382875L226.407264 31.94025 224.607362 31.94025 224.607362 29.45025" />
+<path fill="#FFFFFF" d="M242.49265,44.04675 C240.984871,48.341625 239.791656,49.716 236.686331,49.716 C235.755571,49.716 234.654785,49.543875 234.156503,49.34475 L234.53611,46.93725 C235.117313,47.082375 235.526589,47.19675 236.103607,47.19675 C237.469509,47.19675 238.167104,46.396125 238.890945,44.24925 L238.97919,43.991625 L233.839276,29.45025 L237.673387,29.45025 L240.721656,40.270125 L240.810282,40.270125 L243.974184,29.45025 L247.69038,29.45025 L242.49265,44.04675" />
+<polyline fill="#FFFFFF" points="62.162 8.841 58.763 8.841 58.763 7.09 67.793 7.09 67.793 8.841 64.376 8.841 64.376 19.328 62.162 19.328 62.162 8.841" />
+<path fill="#FFFFFF" d="M76.2501104 19.32825L74.1371656 19.32825 74.1371656 14.29275C74.1371656 13.16025 73.8830798 12.160125 72.6130307 12.160125 71.1265521 12.160125 70.6876074 13.227375 70.6876074 14.560125L70.6876074 19.32825 68.5742822 19.32825 68.5742822 7.090125 70.6704908 7.090125 70.6704908 11.9265 70.7020613 11.9265C71.1604049 11.2425 71.8716933 10.575375 73.3246994 10.575375 75.1489448 10.575375 76.2501104 11.676 76.2501104 14.175375L76.2501104 19.32825M83.1499877 14.076C83.2013374 12.7425 82.6429571 11.976 81.4600123 11.976 80.1755092 11.976 79.6015337 12.959625 79.5490429 14.076L83.1499877 14.076zM85.097092 16.6125C84.7083558 19.009875 82.930135 19.52775 81.4444172 19.52775 78.5174847 19.52775 77.3668712 17.66025 77.3668712 15.14325 77.3668712 12.327 78.9393129 10.575375 81.6125399 10.575375 83.9632147 10.575375 85.1971288 12.026625 85.1971288 14.5275 85.1971288 14.81175 85.1796319 15.160125 85.1480613 15.477L79.531546 15.477C79.5490429 16.9425 80.0400982 17.99325 81.5109816 17.99325 82.4759755 17.99325 83.1332515 17.560875 83.3200123 16.428375L85.097092 16.6125zM96.2753497 15.177L98.3882945 15.327375C98.1197546 18.294 96.4446135 19.52775 93.8584908 19.52775 90.6961104 19.52775 88.9719018 17.47875 88.9719018 13.360125 88.9719018 8.957625 91.151411 6.891 94.2301104 6.891 96.9691411 6.891 98.4913742 8.624625 98.4563804 11.325375L96.3266994 11.492625C96.3266994 9.309 95.3620859 8.624625 94.0772025 8.624625 92.5549693 8.624625 91.3058405 9.84225 91.3058405 13.293 91.3058405 16.428375 92.2339387 17.77725 93.9752638 17.77725 95.396319 17.77725 96.1581963 16.8105 96.2753497 15.177M105.086957 14.076C105.138307 12.7425 104.581828 11.976 103.396221 11.976 102.112479 11.976 101.538503 12.959625 101.486012 14.076L105.086957 14.076zM107.03254 16.6125C106.644564 19.009875 104.868626 19.52775 103.379865 19.52775 100.455215 19.52775 99.305362 17.66025 99.305362 15.14325 99.305362 12.327 100.877804 10.575375 103.551031 10.575375 105.900564 10.575375 107.133718 12.026625 107.133718 14.5275 107.133718 14.81175 107.116601 15.160125 107.082748 15.477L101.470417 15.477C101.486012 16.9425 101.976687 17.99325 103.446429 17.99325 104.411804 17.99325 105.070221 17.560875 105.256601 16.428375L107.03254 16.6125zM116.031669 19.32825L113.916822 19.32825 113.916822 14.29275C113.916822 12.7425 113.409791 12.160125 112.379374 12.160125 110.872356 12.160125 110.468025 13.293 110.468025 14.560125L110.468025 19.32825 108.35508 19.32825 108.35508 10.77525 110.282025 10.77525 110.364945 12.026625 110.400699 12.026625C110.754822 11.376 111.499583 10.575375 113.054147 10.575375 114.915669 10.575375 116.031669 11.642625 116.031669 14.12475L116.031669 19.32825M116.709485 10.77525L117.759301 10.77525 117.759301 8.97525 119.855509 8.35875 119.855509 10.77525 121.834564 10.77525 121.834564 12.22725 119.855509 12.22725 119.855509 16.309875C119.855509 17.495625 120.12481 17.977125 121.039215 17.977125 121.394479 17.977125 121.697252 17.927625 122.034638 17.82825L122.238896 19.260375C121.867276 19.41225 121.242331 19.52775 120.514307 19.52775 118.603337 19.52775 117.759301 18.59475 117.759301 16.560375L117.759301 12.22725 116.709485 12.22725 116.709485 10.77525M128.227411 14.076C128.276098 12.7425 127.717718 11.976 126.536294 11.976 125.24989 11.976 124.676294 12.959625 124.626086 14.076L128.227411 14.076zM130.172613 16.6125C129.782736 19.009875 128.005276 19.52775 126.518417 19.52775 123.595669 19.52775 122.444675 17.66025 122.444675 15.14325 122.444675 12.327 124.016736 10.575375 126.688822 10.575375 129.039497 10.575375 130.274172 12.026625 130.274172 14.5275 130.274172 14.81175 130.255534 15.160125 130.221301 15.477L124.60973 15.477C124.626086 16.9425 125.114479 17.99325 126.585742 17.99325 127.550356 17.99325 128.210294 17.560875 128.395153 16.428375L130.172613 16.6125zM135.958012 13.9425C136.108258 12.627 135.854552 12.1755 135.145546 12.1755 133.980098 12.1755 133.605436 13.409625 133.605436 14.926875L133.605436 19.32825 131.492871 19.32825 131.492871 10.77525 133.421718 10.77525 133.520613 12.00975 133.53811 12.00975C133.91011 11.25825 134.586785 10.575375 135.905521 10.575375 137.444491 10.575375 138.306785 11.559375 137.969018 13.826625L135.958012 13.9425M140.997509 10.77525L142.046945 10.77525 142.046945 10.293C142.046945 7.9935 142.941951 6.891 145.055656 6.891 145.73119 6.891 146.357276 7.00875 146.661571 7.090125L146.426503 8.624625C146.086074 8.52375 145.698479 8.458875 145.326859 8.458875 144.464945 8.458875 144.143914 8.992875 144.143914 10.1595L144.143914 10.77525 146.122589 10.77525 146.122589 12.244125 144.143914 12.244125 144.143914 19.32825 142.046945 19.32825 142.046945 12.244125 140.997509 12.244125 140.997509 10.77525M152.278466 14.99325C152.278466 13.227375 151.719706 12.109875 150.333644 12.109875 148.947583 12.109875 148.304 13.276875 148.304 15.043125 148.304 16.84425 148.828908 18.02775 150.29827 18.02775 151.702589 18.02775 152.278466 16.794375 152.278466 14.99325zM146.122969 15.061125C146.122969 12.126375 148.034699 10.575375 150.416564 10.575375 152.92281 10.575375 154.44162 12.09375 154.44162 14.893875 154.44162 17.946 152.836847 19.52775 150.21535 19.52775 147.509031 19.52775 146.122969 17.911125 146.122969 15.061125zM160.109865 13.9425C160.262773 12.627 160.008687 12.1755 159.29816 12.1755 158.131951 12.1755 157.759951 13.409625 157.759951 14.926875L157.759951 19.32825 155.645104 19.32825 155.645104 10.77525 157.574331 10.77525 157.677031 12.00975 157.692626 12.00975C158.062724 11.25825 158.741301 10.575375 160.058135 10.575375 161.599006 10.575375 162.459779 11.559375 162.123534 13.826625L160.109865 13.9425" />
+</g>
+</symbol>
+<symbol id="cpi-logo-blue" viewbox="0 0 248 51">
+<defs>
+<polygon id="cpi-logo-blue-a" points=".023 .264 51.457 .264 51.457 51 .023 51" />
+</defs>
+<g fill="none" fill-rule="evenodd">
+<mask id="cpi-logo-blue-b" fill="white">
+<use xlink:href="#cpi-logo-blue-a" />
+</mask>
+<polygon fill="#04284A" points=".023 51 51.457 51 51.457 .264 .023 .264" mask="url(#b)" />
+<polygon fill="#FFFFFE" points="7.924 10.743 43.532 10.743 43.532 7.153 7.924 7.153" />
+<path fill="#FFFFFE" d="M11.0223067,12.520875 L11.0223067,15.657 L13.2904417,16.35675 L13.2904417,18.8145 L15.6890429,19.564125 L15.6890429,44.111625 L19.336773,42.372375 L19.336773,21.419625 C19.336773,21.005625 19.6794847,20.6715 20.0978896,20.6715 L20.361865,20.6715 C20.7779877,20.6715 21.1222209,21.005625 21.1222209,21.419625 L21.1222209,41.522625 L24.8372761,39.7485 L24.8372761,21.419625 C24.8372761,21.005625 25.1784663,20.6715 25.5957301,20.6715 L25.8619877,20.6715 C26.280773,20.6715 26.619681,21.005625 26.619681,21.419625 L26.619681,39.7485 L30.3362577,41.522625 L30.3362577,21.419625 C30.3362577,21.005625 30.6763067,20.6715 31.0958528,20.6715 L31.360589,20.6715 C31.7782331,20.6715 32.120184,21.005625 32.120184,21.419625 L32.120184,42.372375 L35.7701963,44.111625 L35.7701963,19.564125 L38.1672761,18.8145 L38.1672761,16.35675 L40.4346503,15.657 L40.4346503,12.520875 L11.0223067,12.520875" />
+<path fill="#04284A" d="M67.0862822 33.573C70.103362 33.573 71.5848957 32.370375 71.5848957 29.566125 71.5848957 27.303 70.5989816 26.073375 67.6941104 26.073375L64.818908 26.073375 64.818908 33.573 67.0862822 33.573zM64.818908 44.13525L61.0471779 44.13525 61.0471779 23.12475 68.4495215 23.12475C73.7625031 23.12475 75.4479141 25.758 75.4479141 29.307 75.4479141 32.25675 74.3722331 36.40575 67.4620859 36.40575L64.818908 36.40575 64.818908 44.13525zM77.2497178 29.45025L80.8788098 29.45025 80.8788098 38.1525C80.8788098 40.669875 81.6912761 41.758875 83.4029325 41.758875 85.8996687 41.758875 86.5679755 39.639375 86.5679755 37.264875L86.5679755 29.45025 90.1970675 29.45025 90.1970675 44.13525 86.9179141 44.13525 86.7425644 41.958 86.7136564 41.958C86.044589 43.045125 84.8844663 44.47575 82.2139018 44.47575 79.0507607 44.47575 77.2497178 42.587625 77.2497178 38.32275L77.2497178 29.45025M99.576184 42.072375C101.696736 42.072375 102.945485 40.41375 102.945485 36.492 102.945485 32.60025 101.60811 31.539 99.8960736 31.539 97.748135 31.539 96.4716196 33.05775 96.4716196 36.806625 96.4716196 40.3845 97.573546 42.072375 99.576184 42.072375zM92.9863067 44.13525L92.9863067 23.12475 96.5868712 23.12475 96.5868712 31.339125 96.6169202 31.339125C97.2547975 30.33675 98.7055215 29.106375 101.143301 29.106375 103.874724 29.106375 106.66054 30.796875 106.66054 36.492 106.66054 41.81475 104.250528 44.47575 100.535472 44.47575 98.6195583 44.47575 97.2255092 43.7625 96.4423313 42.501375L96.3548466 42.501375 95.9189448 44.13525 92.9863067 44.13525z" />
+<polygon fill="#04284A" points="108.754 44.135 112.384 44.135 112.384 23.125 108.754 23.125" />
+<path fill="#04284A" d="M115.170515 44.13525L118.799607 44.13525 118.799607 29.45025 115.170515 29.45025 115.170515 44.13525zM115.170515 26.475375L118.799607 26.475375 118.799607 23.12475 115.170515 23.12475 115.170515 26.475375zM130.936012 34.91775C130.759902 32.6265 129.570491 31.711875 127.974086 31.711875 125.969166 31.711875 124.57816 33.114 124.57816 36.806625 124.57816 40.21125 125.651939 41.845125 127.91589 41.845125 129.627546 41.845125 130.557926 40.98525 130.878577 38.92425L134.042859 39.15375C133.576528 43.160625 130.818098 44.47575 127.770589 44.47575 122.804883 44.47575 120.831534 41.244375 120.831534 36.949875 120.831534 31.99875 123.588822 29.106375 128.119387 29.106375 132.213288 29.106375 134.011669 31.5975 134.156969 34.658625L130.936012 34.91775" />
+<polyline fill="#04284A" points="146.411 41.643 148.646 41.643 148.646 44.135 140.517 44.135 140.517 41.643 142.695 41.643 142.695 25.616 140.517 25.616 140.517 23.125 148.646 23.125 148.646 25.616 146.411 25.616 146.411 41.643" />
+<path fill="#04284A" d="M164.41411 44.13525L160.784258 44.13525 160.784258 35.488125C160.784258 32.827125 159.912834 31.8255 158.14184 31.8255 155.55838 31.8255 154.861926 33.773625 154.861926 35.949375L154.861926 44.13525 151.230552 44.13525 151.230552 29.45025 154.542417 29.45025 154.687337 31.5975 154.745153 31.5975C155.355264 30.48225 156.63254 29.106375 159.303104 29.106375 162.498196 29.106375 164.41411 30.940125 164.41411 35.202L164.41411 44.13525M165.576135 29.45025L167.376798 29.45025 167.376798 26.359125 170.976601 25.29975 170.976601 29.45025 174.372908 29.45025 174.372908 31.94025 170.976601 31.94025 170.976601 38.954625C170.976601 40.98525 171.44065 41.81475 173.007767 41.81475 173.616736 41.81475 174.140883 41.7285 174.722847 41.55825L175.069742 44.01825C174.432626 44.278125 173.356564 44.47575 172.108957 44.47575 168.827521 44.47575 167.376798 42.875625 167.376798 39.382875L167.376798 31.94025 165.576135 31.94025 165.576135 29.45025M185.34881 35.117625C185.438577 32.827125 184.480429 31.51275 182.44546 31.51275 180.240086 31.51275 179.25265 33.1995 179.165546 35.117625L185.34881 35.117625zM188.68654 39.468375C188.019755 43.591125 184.972245 44.47575 182.417313 44.47575 177.393411 44.47575 175.421963 41.271375 175.421963 36.949875 175.421963 32.11125 178.120294 29.106375 182.708294 29.106375 186.742479 29.106375 188.86265 31.5975 188.86265 35.88975 188.86265 36.377625 188.83184 36.97875 188.774405 37.52175L179.136638 37.52175C179.165546 40.042125 180.008061 41.845125 182.534466 41.845125 184.189828 41.845125 185.31838 41.10075 185.640552 39.15375L188.68654 39.468375zM197.312908 31.483875C195.396994 31.483875 194.004086 32.913 194.004086 36.779625 194.004086 40.3845 195.162687 41.5005 197.051975 41.5005 199.285877 41.5005 200.447141 40.042125 200.447141 36.634875 200.447141 32.943375 199.259632 31.483875 197.312908 31.483875zM203.930552 29.45025L203.930552 42.93075C203.930552 47.339625 201.492012 49.716 196.848479 49.716 193.651865 49.716 191.419865 48.427875 190.780086 45.7365L194.06038 45.05175C194.378748 46.167 194.901755 47.109375 196.934822 47.109375 199.259632 47.109375 200.33189 45.9375 200.33189 43.160625L200.33189 41.758875 200.30184 41.758875C199.694012 42.847125 198.32811 43.905375 196.005963 43.905375 192.898736 43.905375 190.227791 42.159 190.227791 36.8925 190.227791 31.65525 192.842442 29.106375 196.439583 29.106375 198.589804 29.106375 199.780356 29.87925 200.476049 31.053L200.565816 31.053 200.999816 29.45025 203.930552 29.45025zM214.329055 34.888875C214.588847 32.6265 214.154847 31.85475 212.933485 31.85475 210.931227 31.85475 210.292589 33.973875 210.292589 36.576375L210.292589 44.13525 206.663877 44.13525 206.663877 29.45025 209.972699 29.45025 210.147288 31.56975 210.176196 31.56975C210.814074 30.280125 211.975718 29.106375 214.239288 29.106375 216.882847 29.106375 218.364 30.796875 217.782798 34.687125L214.329055 34.888875M219.409632 44.13525L223.039485 44.13525 223.039485 29.45025 219.409632 29.45025 219.409632 44.13525zM219.409632 26.475375L223.039485 26.475375 223.039485 23.12475 219.409632 23.12475 219.409632 26.475375zM224.607362 29.45025L226.407264 29.45025 226.407264 26.359125 230.007828 25.29975 230.007828 29.45025 233.401853 29.45025 233.401853 31.94025 230.007828 31.94025 230.007828 38.954625C230.007828 40.98525 230.472638 41.81475 232.040515 41.81475 232.649104 41.81475 233.172871 41.7285 233.752172 41.55825L234.098687 44.01825C233.462331 44.278125 232.38589 44.47575 231.139423 44.47575 227.856466 44.47575 226.407264 42.875625 226.407264 39.382875L226.407264 31.94025 224.607362 31.94025 224.607362 29.45025" />
+<path fill="#04284A" d="M242.49265,44.04675 C240.984871,48.341625 239.791656,49.716 236.686331,49.716 C235.755571,49.716 234.654785,49.543875 234.156503,49.34475 L234.53611,46.93725 C235.117313,47.082375 235.526589,47.19675 236.103607,47.19675 C237.469509,47.19675 238.167104,46.396125 238.890945,44.24925 L238.97919,43.991625 L233.839276,29.45025 L237.673387,29.45025 L240.721656,40.270125 L240.810282,40.270125 L243.974184,29.45025 L247.69038,29.45025 L242.49265,44.04675" />
+<polyline fill="#04284A" points="62.162 8.841 58.763 8.841 58.763 7.09 67.793 7.09 67.793 8.841 64.376 8.841 64.376 19.328 62.162 19.328 62.162 8.841" />
+<path fill="#04284A" d="M76.2501104 19.32825L74.1371656 19.32825 74.1371656 14.29275C74.1371656 13.16025 73.8830798 12.160125 72.6130307 12.160125 71.1265521 12.160125 70.6876074 13.227375 70.6876074 14.560125L70.6876074 19.32825 68.5742822 19.32825 68.5742822 7.090125 70.6704908 7.090125 70.6704908 11.9265 70.7020613 11.9265C71.1604049 11.2425 71.8716933 10.575375 73.3246994 10.575375 75.1489448 10.575375 76.2501104 11.676 76.2501104 14.175375L76.2501104 19.32825M83.1499877 14.076C83.2013374 12.7425 82.6429571 11.976 81.4600123 11.976 80.1755092 11.976 79.6015337 12.959625 79.5490429 14.076L83.1499877 14.076zM85.097092 16.6125C84.7083558 19.009875 82.930135 19.52775 81.4444172 19.52775 78.5174847 19.52775 77.3668712 17.66025 77.3668712 15.14325 77.3668712 12.327 78.9393129 10.575375 81.6125399 10.575375 83.9632147 10.575375 85.1971288 12.026625 85.1971288 14.5275 85.1971288 14.81175 85.1796319 15.160125 85.1480613 15.477L79.531546 15.477C79.5490429 16.9425 80.0400982 17.99325 81.5109816 17.99325 82.4759755 17.99325 83.1332515 17.560875 83.3200123 16.428375L85.097092 16.6125zM96.2753497 15.177L98.3882945 15.327375C98.1197546 18.294 96.4446135 19.52775 93.8584908 19.52775 90.6961104 19.52775 88.9719018 17.47875 88.9719018 13.360125 88.9719018 8.957625 91.151411 6.891 94.2301104 6.891 96.9691411 6.891 98.4913742 8.624625 98.4563804 11.325375L96.3266994 11.492625C96.3266994 9.309 95.3620859 8.624625 94.0772025 8.624625 92.5549693 8.624625 91.3058405 9.84225 91.3058405 13.293 91.3058405 16.428375 92.2339387 17.77725 93.9752638 17.77725 95.396319 17.77725 96.1581963 16.8105 96.2753497 15.177M105.086957 14.076C105.138307 12.7425 104.581828 11.976 103.396221 11.976 102.112479 11.976 101.538503 12.959625 101.486012 14.076L105.086957 14.076zM107.03254 16.6125C106.644564 19.009875 104.868626 19.52775 103.379865 19.52775 100.455215 19.52775 99.305362 17.66025 99.305362 15.14325 99.305362 12.327 100.877804 10.575375 103.551031 10.575375 105.900564 10.575375 107.133718 12.026625 107.133718 14.5275 107.133718 14.81175 107.116601 15.160125 107.082748 15.477L101.470417 15.477C101.486012 16.9425 101.976687 17.99325 103.446429 17.99325 104.411804 17.99325 105.070221 17.560875 105.256601 16.428375L107.03254 16.6125zM116.031669 19.32825L113.916822 19.32825 113.916822 14.29275C113.916822 12.7425 113.409791 12.160125 112.379374 12.160125 110.872356 12.160125 110.468025 13.293 110.468025 14.560125L110.468025 19.32825 108.35508 19.32825 108.35508 10.77525 110.282025 10.77525 110.364945 12.026625 110.400699 12.026625C110.754822 11.376 111.499583 10.575375 113.054147 10.575375 114.915669 10.575375 116.031669 11.642625 116.031669 14.12475L116.031669 19.32825M116.709485 10.77525L117.759301 10.77525 117.759301 8.97525 119.855509 8.35875 119.855509 10.77525 121.834564 10.77525 121.834564 12.22725 119.855509 12.22725 119.855509 16.309875C119.855509 17.495625 120.12481 17.977125 121.039215 17.977125 121.394479 17.977125 121.697252 17.927625 122.034638 17.82825L122.238896 19.260375C121.867276 19.41225 121.242331 19.52775 120.514307 19.52775 118.603337 19.52775 117.759301 18.59475 117.759301 16.560375L117.759301 12.22725 116.709485 12.22725 116.709485 10.77525M128.227411 14.076C128.276098 12.7425 127.717718 11.976 126.536294 11.976 125.24989 11.976 124.676294 12.959625 124.626086 14.076L128.227411 14.076zM130.172613 16.6125C129.782736 19.009875 128.005276 19.52775 126.518417 19.52775 123.595669 19.52775 122.444675 17.66025 122.444675 15.14325 122.444675 12.327 124.016736 10.575375 126.688822 10.575375 129.039497 10.575375 130.274172 12.026625 130.274172 14.5275 130.274172 14.81175 130.255534 15.160125 130.221301 15.477L124.60973 15.477C124.626086 16.9425 125.114479 17.99325 126.585742 17.99325 127.550356 17.99325 128.210294 17.560875 128.395153 16.428375L130.172613 16.6125zM135.958012 13.9425C136.108258 12.627 135.854552 12.1755 135.145546 12.1755 133.980098 12.1755 133.605436 13.409625 133.605436 14.926875L133.605436 19.32825 131.492871 19.32825 131.492871 10.77525 133.421718 10.77525 133.520613 12.00975 133.53811 12.00975C133.91011 11.25825 134.586785 10.575375 135.905521 10.575375 137.444491 10.575375 138.306785 11.559375 137.969018 13.826625L135.958012 13.9425M140.997509 10.77525L142.046945 10.77525 142.046945 10.293C142.046945 7.9935 142.941951 6.891 145.055656 6.891 145.73119 6.891 146.357276 7.00875 146.661571 7.090125L146.426503 8.624625C146.086074 8.52375 145.698479 8.458875 145.326859 8.458875 144.464945 8.458875 144.143914 8.992875 144.143914 10.1595L144.143914 10.77525 146.122589 10.77525 146.122589 12.244125 144.143914 12.244125 144.143914 19.32825 142.046945 19.32825 142.046945 12.244125 140.997509 12.244125 140.997509 10.77525M152.278466 14.99325C152.278466 13.227375 151.719706 12.109875 150.333644 12.109875 148.947583 12.109875 148.304 13.276875 148.304 15.043125 148.304 16.84425 148.828908 18.02775 150.29827 18.02775 151.702589 18.02775 152.278466 16.794375 152.278466 14.99325zM146.122969 15.061125C146.122969 12.126375 148.034699 10.575375 150.416564 10.575375 152.92281 10.575375 154.44162 12.09375 154.44162 14.893875 154.44162 17.946 152.836847 19.52775 150.21535 19.52775 147.509031 19.52775 146.122969 17.911125 146.122969 15.061125zM160.109865 13.9425C160.262773 12.627 160.008687 12.1755 159.29816 12.1755 158.131951 12.1755 157.759951 13.409625 157.759951 14.926875L157.759951 19.32825 155.645104 19.32825 155.645104 10.77525 157.574331 10.77525 157.677031 12.00975 157.692626 12.00975C158.062724 11.25825 158.741301 10.575375 160.058135 10.575375 161.599006 10.575375 162.459779 11.559375 162.123534 13.826625L160.109865 13.9425" />
+</g>
+</symbol>
+<symbol id="cpi-glyph-square" viewbox="0 0 50 51">
+<g fill="none" fill-rule="evenodd" transform="translate(0 .308)">
+<rect width="50" height="50" fill="#04284A" />
+<g fill="#FFFFFE" transform="translate(6.5 6)">
+<polygon points=".395 4.441 36.003 4.441 36.003 .851 .395 .851" />
+<path d="M3.49300987,6.21911719 L3.49300987,9.35524219 L5.76114484,10.0549922 L5.76114484,12.5127422 L8.15974607,13.2623672 L8.15974607,37.8098672 L11.8074761,36.0706172 L11.8074761,15.1178672 C11.8074761,14.7038672 12.1501878,14.3697422 12.5685927,14.3697422 L12.8325682,14.3697422 C13.2486909,14.3697422 13.592924,14.7038672 13.592924,15.1178672 L13.592924,35.2208672 L17.3079792,33.4467422 L17.3079792,15.1178672 C17.3079792,14.7038672 17.6491694,14.3697422 18.0664332,14.3697422 L18.3326909,14.3697422 C18.7514761,14.3697422 19.0903841,14.7038672 19.0903841,15.1178672 L19.0903841,33.4467422 L22.8069608,35.2208672 L22.8069608,15.1178672 C22.8069608,14.7038672 23.1470099,14.3697422 23.5665559,14.3697422 L23.8312921,14.3697422 C24.2489363,14.3697422 24.5908872,14.7038672 24.5908872,15.1178672 L24.5908872,36.0706172 L28.2408994,37.8098672 L28.2408994,13.2623672 L30.6379792,12.5127422 L30.6379792,10.0549922 L32.9053534,9.35524219 L32.9053534,6.21911719 L3.49300987,6.21911719" />
+</g>
+</g>
+</symbol>
+<symbol id="icon-email" viewbox="0 0 24 24">
+<path d="M4.55948323,6.47275684 C4.39239686,6.47275684 4.23379055,6.50785482 4.08780761,6.5657633 L11.4884645,12.8636335 C11.8123736,13.1395492 12.1735745,13.1397405 12.4982489,12.8636335 L19.9055491,6.55910935 C19.7616771,6.50313541 19.6046588,6.47275684 19.4405168,6.47275684 L4.55948323,6.47275684 Z M3.2972527,7.56226108 C3.2886047,7.62246549 3.28396606,7.68560359 3.28396606,7.748274 L3.28396606,16.251726 C3.28396606,16.9583412 3.85285947,17.5272432 4.55948323,17.5272432 L19.4405168,17.5272432 C20.1471405,17.5272432 20.7160339,16.9583412 20.7160339,16.251726 L20.7160339,7.748274 C20.7160339,7.68560359 20.7113996,7.62246549 20.7027473,7.56226108 L13.3286637,13.833558 C12.5642463,14.4836041 11.4224246,14.4846458 10.6580497,13.833558 L3.2972527,7.56226108 Z" />
+</symbol>
+<symbol id="icon-facebook" viewbox="0 0 24 24">
+<path fill-rule="evenodd" d="M7.5,8.82138049 L9.42857143,8.82138049 L9.42857143,6.93364704 C9.42857143,6.10304432 9.44992857,4.81938558 10.0499286,4.02481161 C10.6820714,3.18327801 11.5499286,2.61170828 13.0427857,2.61170828 C15.4748571,2.61170828 16.5,2.96034568 16.5,2.96034568 L16.0178571,5.83703571 C16.0178571,5.83703571 15.2142857,5.60317251 14.4642857,5.60317251 C13.7142857,5.60317251 13.0427857,5.87284871 13.0427857,6.62794209 L13.0427857,8.82138049 L16.1177143,8.82138049 L15.9034286,11.6296087 L13.0427857,11.6296087 L13.0427857,21.3882917 L9.42857143,21.3882917 L9.42857143,11.6296087 L7.5,11.6296087 L7.5,8.82138049 L11.8551395,13.5169394" />
+</symbol>
+<symbol id="icon-key" viewbox="0 0 24 24">
+<path fill-rule="evenodd" d="M8.5485551,2.95663327 C7.8800107,1.41206516 6.3354426,0.328562166 4.53728868,0.328562166 C2.13975013,0.328562166 0.180223432,2.28808887 0.180223432,4.68562742 C0.180223432,7.10621922 2.13975013,9.04269267 4.53728868,9.04269267 C6.31238934,9.04269267 7.81085093,7.98224292 8.50244859,6.48378133 L10.1392297,6.48378133 L11.7760108,5.33111856 L13.412792,6.48378133 L13.8969103,6.48378133 L15.5336915,5.33111856 L17.1704726,6.48378133 L19.1530525,6.48378133 L20.9050999,4.70868067 L19.1530525,2.93358001 L8.5485551,2.93358001 L8.5485551,2.95663327 Z" transform="translate(2.154 7)" />
+</symbol>
+<symbol id="icon-linkedin" viewbox="0 0 24 24">
+<g fill-rule="evenodd" transform="translate(0 .758)">
+<path d="M19.7220468,18.3803377 L16.4186143,18.3803377 C16.4186143,18.2393408 16.4256754,14.7558894 16.41273,13.0982879 C16.4103763,12.7452034 16.3703632,12.3826401 16.2809222,12.0425889 C15.9631713,10.8375991 14.6039036,10.411054 13.6400592,11.2060866 C13.1740246,11.5899772 12.9245313,12.0864282 12.9257081,12.7072883 C12.9315924,14.47982 12.9280618,16.6078059 12.9280618,18.3803377 C12.9280618,18.5059315 12.9280618,18.2286772 12.9280618,18.3803377 L9.64934328,18.3803377 L9.64934328,8.45487093 L12.9127627,8.45487093 L12.9127627,9.80441212 C13.0186797,9.68711223 13.0775224,9.6314244 13.1245966,9.56625779 C13.9766398,8.39444371 15.1664404,8.07216521 16.5210007,8.24396809 C17.867323,8.41577096 18.8335211,9.14563696 19.3148549,10.4347509 C19.5125666,10.9655626 19.590239,11.5413984 19.7220468,12.0970919 L19.7220468,18.3803377 Z M4.49942501,18.3797452 L4.49942501,8.45783304 L7.76049072,8.45783304 L7.76049072,18.3797452 L4.49942501,18.3797452 Z M6.11760088,7.05568462 C5.27497257,7.05449978 4.58415858,6.59240929 4.36290981,5.87913115 C4.13577676,5.14689545 4.37114779,4.35778708 4.98428934,3.95256927 C5.66921906,3.49877271 6.40710726,3.47033637 7.13205005,3.84474815 C7.76519814,4.17176604 8.01586829,4.74878672 7.98997748,5.44666185 C7.95467182,6.39453977 7.17677055,7.05686947 6.11760088,7.05568462 Z" />
+</g>
+</symbol>
+<symbol id="icon-reddit" viewbox="0 0 24 24">
+<path d="M20.2109375,8.23511491 C20.2109375,7.00645833 19.2071276,6.00770117 17.9734183,6.00770117 C17.3713008,6.00770117 16.8256055,6.24854818 16.4239131,6.63592448 C14.8996715,5.63295671 12.8373138,4.99462793 10.5534779,4.91294206 L11.8023454,0.981072591 L15.1843089,1.77350977 L15.1792562,1.82235286 C15.1792562,2.82700488 16.0003255,3.64386361 17.0100303,3.64386361 C18.0188929,3.64386361 18.8391201,2.82700488 18.8391201,1.82235286 C18.8391201,0.817700846 18.0180508,1.33226763e-15 17.0100303,1.33226763e-15 C16.2352777,1.33226763e-15 15.5750537,0.483378255 15.3081009,1.16128678 L11.6625531,0.306532552 C11.5033919,0.267794922 11.3417044,0.359586263 11.2920192,0.516221029 L9.89914876,4.90115234 C7.5092054,4.92978451 5.34410872,5.57316602 3.75165527,6.6064502 C3.35248926,6.23760059 2.82279427,6.00685905 2.23667708,6.00685905 C1.00296777,6.00685905 -2.66453526e-15,7.00645833 -2.66453526e-15,8.23511491 C-2.66453526e-15,9.05197363 0.448851237,9.76019857 1.1090752,10.1475749 C1.06528483,10.3850534 1.03665267,10.6250583 1.03665267,10.8692738 C1.03665267,14.1628145 5.08557715,16.8424479 10.0633626,16.8424479 C15.0411481,16.8424479 19.0909147,14.1628145 19.0909147,10.8692738 C19.0909147,10.6385322 19.0664932,10.4111592 19.0277555,10.1871546 C19.7284014,9.81072591 20.2109375,9.08229004 20.2109375,8.23511491 Z M5.70622135,9.76440918 C5.70622135,9.03344694 6.30412826,8.43806641 7.03845898,8.43806641 C7.77278971,8.43806641 8.36985449,9.03344694 8.36985449,9.76440918 C8.36985449,10.4953714 7.77278971,11.0899098 7.03845898,11.0899098 C6.30412826,11.0899098 5.70622135,10.4953714 5.70622135,9.76440918 Z M13.3366924,13.6962786 C12.6655208,14.3640817 11.6120257,14.689141 10.1164163,14.689141 L10.1054688,14.6866146 L10.0945212,14.689141 C8.59806966,14.689141 7.54457454,14.3640817 6.87424512,13.6962786 C6.75213737,13.575013 6.75213737,13.3771143 6.87424512,13.2558486 C6.99635286,13.1337409 7.19509375,13.1337409 7.3172015,13.2558486 C7.86458105,13.8007018 8.77323112,14.0651283 10.0945212,14.0651283 L10.1054688,14.0676546 L10.1164163,14.0651283 C11.4377064,14.0651283 12.3463564,13.7998597 12.893736,13.2550065 C13.0158438,13.1328988 13.2145846,13.1337409 13.3366924,13.2550065 C13.4588001,13.3771143 13.4588001,13.5741709 13.3366924,13.6962786 Z M13.1775313,11.0899098 C12.4432005,11.0899098 11.8461357,10.4953714 11.8461357,9.76440918 C11.8461357,9.03344694 12.4432005,8.43806641 13.1775313,8.43806641 C13.911862,8.43806641 14.5089268,9.03344694 14.5089268,9.76440918 C14.5089268,10.4953714 13.911862,11.0899098 13.1775313,11.0899098 Z" transform="translate(1.895 2.579)" />
+</symbol>
+<symbol id="icon-twitter" viewbox="0 0 24 24">
+<path d="M21.1328663,6.3353476 C20.461177,6.63411849 19.7386021,6.83547989 18.9804074,6.92562001 C19.7531409,6.46110761 20.3477749,5.72762872 20.6283724,4.85094334 C19.9043436,5.2805628 19.1010788,5.59314547 18.2483824,5.7610678 C17.566516,5.03267746 16.5916942,4.57761523 15.5136474,4.57761523 C13.4433323,4.57761523 11.7662899,6.25538459 11.7662899,8.32497271 C11.7662899,8.6179281 11.7990021,8.90434107 11.8622455,9.17984999 C8.74804973,9.02210478 5.9864181,7.52970421 4.13927255,5.26311632 C3.81651276,5.81704191 3.63041702,6.46038068 3.63041702,7.14806257 C3.63041702,8.44709803 4.2919292,9.59420377 5.29800927,10.2658931 C4.68302102,10.2484466 4.10656041,10.0790704 3.60061263,9.79701905 C3.60061263,9.81228471 3.60061263,9.82973119 3.60061263,9.84499685 C3.60061263,11.6601572 4.89310566,13.1750928 6.60649491,13.5189337 C6.29245835,13.6054392 5.96170226,13.6512362 5.62004212,13.6512362 C5.37797228,13.6512362 5.14462568,13.6272473 4.91418682,13.584358 C5.39178407,15.072397 6.77514417,16.1569862 8.41511283,16.1853367 C7.13279691,17.1921437 5.51681715,17.7911393 3.76126559,17.7911393 C3.45813308,17.7911393 3.16081607,17.7729659 2.86713373,17.7387999 C4.52527581,18.802308 6.49600056,19.4223848 8.61138567,19.4223848 C15.5034703,19.4223848 19.2748167,13.7122988 19.2748167,8.75968071 C19.2748167,8.59612001 19.270455,8.43546705 19.2631857,8.27336022 C19.9952107,7.74633128 20.6298262,7.08772684 21.1328663,6.3353476 Z" />
+</symbol>
+<symbol id="icon-instagram" viewbox="0 0 512 512">
+<path d="M256,49.471c67.266,0,75.233.257,101.8,1.469,24.562,1.121,37.9,5.224,46.778,8.674a78.052,78.052,0,0,1,28.966,18.845,78.052,78.052,0,0,1,18.845,28.966c3.45,8.877,7.554,22.216,8.674,46.778,1.212,26.565,1.469,34.532,1.469,101.8s-0.257,75.233-1.469,101.8c-1.121,24.562-5.225,37.9-8.674,46.778a83.427,83.427,0,0,1-47.811,47.811c-8.877,3.45-22.216,7.554-46.778,8.674-26.56,1.212-34.527,1.469-101.8,1.469s-75.237-.257-101.8-1.469c-24.562-1.121-37.9-5.225-46.778-8.674a78.051,78.051,0,0,1-28.966-18.845,78.053,78.053,0,0,1-18.845-28.966c-3.45-8.877-7.554-22.216-8.674-46.778-1.212-26.564-1.469-34.532-1.469-101.8s0.257-75.233,1.469-101.8c1.121-24.562,5.224-37.9,8.674-46.778A78.052,78.052,0,0,1,78.458,78.458a78.053,78.053,0,0,1,28.966-18.845c8.877-3.45,22.216-7.554,46.778-8.674,26.565-1.212,34.532-1.469,101.8-1.469m0-45.391c-68.418,0-77,.29-103.866,1.516-26.815,1.224-45.127,5.482-61.151,11.71a123.488,123.488,0,0,0-44.62,29.057A123.488,123.488,0,0,0,17.3,90.982C11.077,107.007,6.819,125.319,5.6,152.134,4.369,179,4.079,187.582,4.079,256S4.369,333,5.6,359.866c1.224,26.815,5.482,45.127,11.71,61.151a123.489,123.489,0,0,0,29.057,44.62,123.486,123.486,0,0,0,44.62,29.057c16.025,6.228,34.337,10.486,61.151,11.71,26.87,1.226,35.449,1.516,103.866,1.516s77-.29,103.866-1.516c26.815-1.224,45.127-5.482,61.151-11.71a128.817,128.817,0,0,0,73.677-73.677c6.228-16.025,10.486-34.337,11.71-61.151,1.226-26.87,1.516-35.449,1.516-103.866s-0.29-77-1.516-103.866c-1.224-26.815-5.482-45.127-11.71-61.151a123.486,123.486,0,0,0-29.057-44.62A123.487,123.487,0,0,0,421.018,17.3C404.993,11.077,386.681,6.819,359.866,5.6,333,4.369,324.418,4.079,256,4.079h0Z" />
+<path d="M256,126.635A129.365,129.365,0,1,0,385.365,256,129.365,129.365,0,0,0,256,126.635Zm0,213.338A83.973,83.973,0,1,1,339.974,256,83.974,83.974,0,0,1,256,339.973Z" />
+<circle cx="390.476" cy="121.524" r="30.23" />
+</symbol>
+<symbol id="nav-close" viewbox="0 0 20 20">
+<g fill="none" stroke-width="1" transform="translate(1 1.5)" stroke-linecap="round">
+<polygon points="17.195 .124 17.195 .124 .383 16.936 .383 16.936" />
+<polygon points="16.953 16.936 16.953 16.936 .141 .124 .141 .124" />
+</g>
+</symbol>
+<symbol id="nav-open" viewbox="0 0 30 20">
+<g fill="none" fill-rule="evenodd" transform="translate(.019 .146)">
+<path stroke-width="2" d="M1 6L9.38297978 6M1 11L12 11M1 16L16 16" stroke-linecap="square" />
+<g stroke-width="2" transform="translate(14)">
+<circle cx="6.833" cy="6.865" r="5.5" />
+<path d="M10.9138184,10.8693848 L14.932373,14.8879395" />
+</g>
+</g>
+</symbol>
+<symbol id="page-arrow-left" viewbox="0 0 40 40">
+<polygon points="24 21.745 24 17.745 26 15.745 26 23.745 18 23.745 20 21.745" transform="rotate(135 22 19.745)" />
+</symbol>
+<symbol id="page-arrow-right" viewbox="0 0 40 40">
+<polygon points="20 21.745 20 17.745 22 15.745 22 23.745 14 23.745 16 21.745" transform="scale(1 -1) rotate(-45 -29.669 0)" />
+</symbol>
+</defs>
+</svg>
+<div class="grid-lines">
+<div class="grid-lines__content">
+<div class="grid-lines__line grid-lines__line--1"></div>
+<div class="grid-lines__line grid-lines__line--2"></div>
+<div class="grid-lines__line grid-lines__line--3"></div>
+<div class="grid-lines__line grid-lines__line--4"></div>
+</div>
+</div>
+<div class="js-content content">
+<div class="content__nav">
+<div class="grid">
+<div class="grid__content">
+<div class="grid__col"></div>
+<div class="grid__col"></div>
+<div class="grid__col"></div>
+<div class="grid__col"></div>
+<div class="grid__col"></div>
+<div class="grid__col"></div>
+<div class="grid__col"></div>
+<div class="grid__col"></div>
+<div class="grid__col"></div>
+<div class="grid__col"></div>
+<div class="grid__col"></div>
+<div class="grid__col"></div>
+</div>
+</div>
+<header class="site-header site-header--light site-header--untucked site-header--onlight
+">
+<div class="site-header__inner">
+<a class="site-header__logo-link" href=" https://publicintegrity.org ">
+<svg>
+<use xlink:href="#cpi-logo-blue"></use>
+</svg>
+</a>
+<nav class="site-header__nav">
+<div class="site-header__donate-button">
+<a href="https://publicintegrity.org/support-us/" class="site-header__nav-link">DONATE</a>
+</div>
+<a href="https://publicintegrity.org/about/subscribe/" class="site-header__nav-link">Subscribe</a>
+<div class="site-header__nav-item">
+<button class="menu-button js-nav-open">
+<span>Menu</span>
+<svg>
+<use xlink:href="#nav-open"></use>
+</svg>
+</button>
+</div>
+</nav>
+</div>
+</header>
+<nav class="sticky-nav js-sticky-nav">
+<div class="sticky-nav__inner">
+<div class="article-share article-share--mobile">
+<h3 class="article-share__head">Share this article</h3>
+<ul class="article-share__list">
+<li class="article-share__item article-share__item--facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://publicintegrity.org/health/coronavirus-and-inequality/a-likely-but-hidden-coronavirus-risk-factor-pollution/" class="article-share__link" target="_blank">
+<span class="article-share__text">Share on Facebook</span>
+<svg>
+<use xlink:href="#icon-facebook"></use>
+</svg>
+</a>
+</li>
+<li class="article-share__item article-share__item--twitter">
+<a href="https://twitter.com/intent/tweet?url=https://publicintegrity.org/health/coronavirus-and-inequality/a-likely-but-hidden-coronavirus-risk-factor-pollution/&amp;text=A likely but hidden coronavirus risk factor: pollution via @publicintegrity" class="article-share__link" target="_blank">
+<span class="article-share__text">Share on Twitter</span>
+<svg>
+<use xlink:href="#icon-twitter"></use>
+</svg>
+</a>
+</li>
+<li class="article-share__item article-share__item--reddit">
+<a href="https://www.reddit.com/submit?url=https://publicintegrity.org/health/coronavirus-and-inequality/a-likely-but-hidden-coronavirus-risk-factor-pollution/&title=A likely but hidden coronavirus risk factor: pollution | Center for Public Integrity" class="article-share__link" target="_blank">
+<span class="article-share__text ">Share on Reddit</span>
+<svg>
+<use xlink:href="#icon-reddit"></use>
+</svg>
+</a>
+</li>
+<li class="article-share__item article-share__item--email">
+<a href="mailto:?subject=A likely but hidden coronavirus risk factor: pollution | Center for Public Integrity&body=https://publicintegrity.org/health/coronavirus-and-inequality/a-likely-but-hidden-coronavirus-risk-factor-pollution/" class="article-share__link">
+<span class="article-share__text">Share by Email</span>
+<svg>
+<use xlink:href="#icon-email"></use>
+</svg>
+</a>
+</li>
+</ul>
+</div>
+<button class="menu-button js-nav-open">
+<span>Menu</span>
+<svg>
+<use xlink:href="#nav-open"></use>
+</svg>
+</button>
+</div>
+</nav>
+</div>
+<div class="content__body">
+<article class="article">
+<div class="article-topper article-topper--light article-topper--context-article">
+<div class="article-topper__inner1">
+<div class="article-topper__inner2">
+<figure class="article-topper__hero">
+<div class="article-topper__hero-image">
+<img src="https://publicintegrity.org/wp-content/uploads/2020/03/AP_19249724863098-500x500-c-default.jpg" srcset="https://publicintegrity.org/wp-content/uploads/2020/03/AP_19249724863098-900x900-c-default.jpg 900w, https://publicintegrity.org/wp-content/uploads/2020/03/AP_19249724863098-500x500-c-default.jpg 500w" sizes="(min-width: 768px) 50vw, calc(100vw - 80px)" alt="  " />
+</div>
+</figure>
+<header class="article-topper__header">
+<div class="article-topper__header-inner">
+<h3 class="article-topper__topic">
+<a class="article-topper__topic-link" href="https://publicintegrity.org/topics/health/coronavirus-and-inequality/">Coronavirus and Inequality</a>
+</h3>
+<p class="article-topper__dates">
+<span class="article-topper__date article-topper__date--published">
+<span>Published —</span>
+March 27, 2020</span>
+</p>
+<h1 class="article-topper__title">
+A likely but hidden coronavirus risk factor: pollution
+</h1>
+</div>
+</header>
+</div>
+</div>
+<div class="article-topper__hero-caption">
+<figcaption>
+<p>
+<svg>
+<use xlink:href="#arrow-small"></use>
+</svg>
+The Denver skyline is shrouded as pollution fills the air in this 2019 file photo. (AP Photo/David Zalubowski)
+</p>
+</figcaption>
+</div>
+</div>
+<div class="article-content">
+<div class="article-content__inner-1">
+<div class="article-content__inner-2">
+<aside class="article-sidebar">
+<div class="article-sidebar__inner">
+<nav class="article-wayfinding">
+<div class="article-wayfinding__inner">
+<ul class="article-wayfinding__list">
+<li class="article-wayfinding__item  article-wayfinding__item--current">
+<a href="https://publicintegrity.org/health/coronavirus-and-inequality/a-likely-but-hidden-coronavirus-risk-factor-pollution/" class="article-wayfinding__link">
+<h4 class="article-wayfinding__title">A likely but hidden coronavirus risk factor: pollution</h4>
+</a>
+<nav class="article-chapters"></nav>
+</li>
+</ul>
+
+</div>
+</nav>
+</div>
+</aside>
+<div class="article-main gutenberg-content gutenberg-content--article">
+<div class="article-authors article-authors--article">
+<div class="article-authors__inner">
+<div class="article-authors__author article-authors__author--has-image">
+<a class="article-authors__author-img-link" href="https://publicintegrity.org/author/jamie-smith-hopkins/">
+<img class="article-authors__author-img" src="https://publicintegrity.org/wp-content/uploads/2018/11/jamie_smith_hopkins.jpg" alt="Jamie Smith Hopkins" />
+</a>
+<div class="article-authors__author-text">
+<p class="article-authors__author-name">
+<a class="article-authors__author-name-link" href="https://publicintegrity.org/author/jamie-smith-hopkins/">
+Jamie Smith Hopkins
+</a>
+</p>
+<p class="article-authors__author-jobtitle">Environment Editor and Senior Reporter</p>
+</div>
+</div>
+</div>
+</div>
+<div class="article-main__partner-desc basic-text">
+<p>This article was co-published by <a href="https://www.motherjones.com/coronavirus-updates/2020/03/your-citys-air-pollution-could-make-covid-19-even-more-dangerous/">Mother Jones</a>.</p>
+</div>
+<div class="basic-text js-hang-punc">
+<h2 class="chapter-heading visually-hidden">Introduction</h2>
+<p><em>Are you a health worker, medical provider, COVID-19 patient, or federal employee on the front lines of the pandemic? We want to hear from you. Email us </em><a rel="noreferrer noopener" target="_blank" href="mailto:tips@publicintegrity.org"><em>tips@publicintegrity.org</em></a><em>.</em></p>
+<p>Sue Mullins is an outdoor person. She gardens and takes her dog for long walks. But after she moved to Larimer County, Colorado, which has high ozone levels, she started running out of breath. At age 70, she was diagnosed with asthma.</p>
+<p>Now 83, she’s staring down the coronavirus with two <a href="https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/people-at-higher-risk.html">risk factors</a>: age and lung troubles. For safety’s sake, she said, “basically I&#8217;m under family house arrest.”</p>
+<p>Extra caution is an especially smart move in communities like hers. Air pollution, research shows, lowers our ability to <a href="https://www.ajmc.com/newsroom/air-pollution-linked-to-lung-infections-especially-in-young-children">fight off infections</a>. It <a href="https://www.ncbi.nlm.nih.gov/pubmed/24245976">worsens reactions</a> to viruses in people with health challenges like asthma. And it could have a pernicious effect in a pandemic.</p>
+<br>
+<div class="article-email-signup__inner" style="background: #fAf9f4; padding: 20px;">
+<h4 class="article-email-signup__head">
+We can&#8217;t do this work without your support.
+</h4>
+<div class="article-email-signup__form">
+
+<div id="mc_embed_signup" style="text-align: center;">
+<form action="https://checkout.fundjournalism.org/memberform?org_id=cpi&amp;Campaign/701f4000001ETdQAAW"><input name="org_id" type="hidden" value="cpi"> <input name="amount" type="hidden" value="30"> <input name="campaign" type="hidden" value="701f40000012r4u"> <input name="installmentPeriod" type="hidden" value="monthly">
+<button style="position:relative; margin-bottom:20px;" type="submit" class="btn member-form__submit">
+<span>Give Now</span>
+</button>
+</form>
+</div>
+</div>
+</div>
+<br>
+<p>Academics at Carnegie Mellon University and the University of Montreal who studied the 1918 influenza crisis found that U.S. cities burning more coal for electricity — a stand-in for pollution at a time with little air monitoring — had substantially more “excess” deaths than low-coal cities. <a href="https://www.cambridge.org/core/journals/journal-of-economic-history/article/pollution-infectious-disease-and-mortality-evidence-from-the-1918-spanish-influenza-pandemic/8A69CC00A169F36B11A49113404C93B0">Their 2018 analysis</a> compared outcomes in 180 cities, with the top third for coal use decidedly worse off than the bottom third.</p>
+<p>“It’s this hidden cost,” said co-author Joshua Lewis, an assistant economics professor at the University of Montreal.</p>
+<p>A century later, most of those higher-pollution cities are in areas in the top third of the U.S. for ozone, the damaging dust known as fine particles or both, a <a href="https://publicintegrity.org/">Center for Public Integrity</a> analysis found. That includes New York, a city with a <a href="https://nymag.com/intelligencer/2020/03/new-york-coronavirus-cases-updates.html">large outbreak of COVID-19</a>, the disease the new coronavirus triggers.</p>
+<aside class="relation packaged">
+<div class="relation-inner grid_16 suffix_desktop-large_3 suffix_desktop_1" data-sigil="relation">
+<div id="covid-graphics" data-view="pollution-map/"></div>
+<script src="//apps.publicintegrity.org/covid-graphics/embed.js" type="text/javascript"></script>
+</div>
+</aside>
+<p>The good news is that the cities choked with coal smoke in 1918 have far cleaner air now, by many measures. The bad news: Researchers keep finding health impacts from <a href="https://www.sciencedaily.com/releases/2020/01/200128115421.htm">pollution at lower levels</a>, and air-quality disparities mean some Americans — disproportionately <a href="https://www.scientificamerican.com/article/people-poor-neighborhoods-breate-more-hazardous-particles/">people of color and residents with less income</a> — breathe worse air than others.&nbsp;</p>
+<p>“We see this unequal pattern across the United States,” said Jill Johnston, assistant professor of preventive medicine at the University of Southern California. “We know this kind of air pollution can really impact people across the life course, from babies to the elderly. It&#8217;s something that’s important when we think about health, to think about air quality.”</p>
+<p>The rate of childhood asthma in New York’s Central Harlem has been estimated at <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1449161/">four times the national level</a>, for instance. As the coronavirus spreads through the city, Lubna Ahmed, director of environmental health for <a href="https://www.weact.org/">WE ACT</a>, an environmental justice organization in Harlem, said she doesn’t want the “vulnerable communities that are so often forgotten” to get left behind yet again.&nbsp;&nbsp;&nbsp;</p>
+<p>In Philadelphia, another city in the higher-pollution group in both 1918 and 2018, residents living near the East Coast’s largest oil refinery worked for years to get that major source of air emissions shut down. In June, a corroded pipe there ruptured, <a href="https://www.csb.gov/chemical-safety-board-releases-factual-update-and-new-animation-detailing-the-events-of-the-massive-explosion-and-fire-at-the-pes-refinery-in-philadelphia-pa/">officials believe</a>, triggering a fire and explosions. Refinery owner <a href="https://www.reuters.com/article/us-pes-bankruptcy/philadelphia-energy-solutions-files-for-bankruptcy-after-refinery-fire-idUSKCN1UH0O9">Philadelphia Energy Solutions</a> filed for bankruptcy protection, and the complex was bought by a <a href="https://stateimpact.npr.org/pennsylvania/2020/02/13/bankruptcy-judge-approves-pes-refinerys-sale-to-hilco-redevelopment-partners/">company</a> that plans to redevelop it for other uses.</p>
+<p>But Alexa Ross, campaign coordinator at the environmental justice organization <a href="http://www.phillythrive.org/">Philly Thrive</a>, is worried that the people — many African American — who breathed <a href="https://www.nbcnews.com/science/environment/massive-oil-refinery-leaks-toxic-chemical-middle-philadelphia-n1115336">toxic emissions</a> for decades in the low-income neighborhoods near the refinery are at greater risk from the new danger at their doorsteps.</p>
+<p>“We know that our constituency does rank in that very vulnerable category of people that are immunocompromised and already have respiratory issues in particular, but also these other health struggles that weaken your immune system,” said Ross, whose group is mobilizing to help locals get the food and other necessities that they need.</p>
+<div class="wp-block-image"><figure class="alignright"><img src="https://publicintegrity.org/wp-content/uploads/2020/03/6040109023_8bdd58030f_k-300x225.jpg" alt="" class="wp-image-86627" srcset="https://publicintegrity.org/wp-content/uploads/2020/03/6040109023_8bdd58030f_k-300x225.jpg 300w, https://publicintegrity.org/wp-content/uploads/2020/03/6040109023_8bdd58030f_k-768x576.jpg 768w, https://publicintegrity.org/wp-content/uploads/2020/03/6040109023_8bdd58030f_k-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /><figcaption>The Philadelphia refinery, seen in the distance from Philadelphia International Airport. (dclerch / <a href="https://www.flickr.com/photos/66330693@N05/6040109023">Flickr</a>)</figcaption></figure></div>
+<p>Carol White, a Philly Thrive board member who has lived for 17 years in a home about 1,000 feet from the refinery complex, is helping get the word out to people, especially in nearby senior citizen high-rises. She’s facilitating by telephone and online from her house, where she’s staying put to keep safe: She’s 60 and was diagnosed with asthma last year after a refinery fire that preceded the explosion sent her to the hospital.</p>
+<p>“Even just talking to you,” she said, “I have to catch my breath.”</p>
+<p>People can’t undo past exposures. But there are signs <a href="https://www.nytimes.com/interactive/2020/03/22/climate/coronavirus-usa-traffic.html">air pollution is temporarily dropping</a> in at least parts of the country amid a falloff in vehicle traffic as more Americans stay home. That’s different from the 1918 experience, said Karen Clay, a Carnegie Mellon University economics and public policy professor and lead author of the 2018 study about that pandemic.</p>
+<p>Economic activity went down at that time, she said, but businesses “didn’t close if they didn’t absolutely have to.”&nbsp;</p>
+<p>Clay and her co-authors looked at every city of more than 20,000 people with sufficient 1918 data in their 2018 paper. In a <a href="https://www.sciencedirect.com/science/article/pii/S1570677X18302909">later study</a>, they took a broader look at that flu, finding that heavy air pollution appeared to increase deaths up to 25 percent, and that poverty and poor overall community health also had substantial effects.</p>
+<figure class="wp-block-pullquote"><blockquote><p>&#8220;It’s something that’s important when we think about health, to think about air quality.”</p><cite>Jill Johnston, assistant professor of preventive medicine at the University of Southern California</cite></blockquote></figure>
+<p>Too often, pollution, low income and poor health go together, a trap that people cannot escape. After her eldest daughter began to wheeze, Columba Sainz, Arizona field organizer for <a href="https://www.momscleanairforce.org/">Moms Clean Air Force</a>, an environmental health advocacy group, moved her family of five away from a Phoenix neighborhood where diesel buses idled. She worries about the residents who can’t afford to get out.</p>
+<p>“People just stay inside the house or don’t spend much time outside,” she said.</p>
+<p>Catherine Garcia Flowers, Texas field organizer for Moms Clean Air Force, wishes the country would treat pollution and climate change with the same sense of urgency as the coronavirus. As it is, the Houston resident said, too few people make the connection between air quality and health.</p>
+<p>“People talk about allergies,” she said. “When I say, ‘Oh, what kind of allergies do you have,’ they often say, ‘I don’t know. I just can’t breathe.’”</p>
+<figure class="wp-block-image"><img src="https://publicintegrity.org/wp-content/uploads/2020/03/4978248518_7f0c63296a_k-1024x683.jpg" alt="" class="wp-image-86626" srcset="https://publicintegrity.org/wp-content/uploads/2020/03/4978248518_7f0c63296a_k-1024x683.jpg 1024w, https://publicintegrity.org/wp-content/uploads/2020/03/4978248518_7f0c63296a_k-300x200.jpg 300w, https://publicintegrity.org/wp-content/uploads/2020/03/4978248518_7f0c63296a_k-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>A small barge travels down the Houston Ship Channel, with Shell&#8217;s Deer Park Refinery in the background. (Roy Luck / <a href="https://www.flickr.com/photos/21550937@N03/4978248518">Flickr</a>)</figcaption></figure>
+<p>Kern County, in California’s San Joaquin Valley, had the nation’s highest level of fine particles on an annual average and fifth-highest level of ozone in 2018. The <a href="https://www.epa.gov/">U.S. Environmental Protection Agency</a> measured seven times the fine particles there as it did in Kauai County, Hawaii, which had the lowest levels of that pollutant among the roughly 550 counties with monitoring data that year. Kern’s poverty rate is more than double Kauai’s.</p>
+<p>The entire <a href="http://www.fresnostate.edu/chhs/cvhpi/documents/cvhpi-air-quality-report07.pdf">San Joaquin Valley</a> in central California, surrounded by mountains that hold in pollutants, has struggled with air pollution for a long time. Kevin D. Hamilton, co-director and co-founder of the Central California Asthma Collaborative, a nonprofit that provides asthma services in that area, said he keeps having to correct the assumption that bad air is only a problem for a relative few.</p>
+<p>“Children, pregnant moms, folks that are working outside every day, … elders and people with compromised immune systems or chronic health conditions,” he said, listing off the groups considered more at risk. All are “very vulnerable to this pollution, and it’s causing their immune systems to be less responsive.”</p>
+<div class="station-id">
+<div class="station-id__glyph">
+<svg>
+<use xlink:href="#cpi-glyph-blue"></use>
+</svg>
+</div>
+<div class="station-id__text">
+<h4 class="station-id__head">Who We Are</h3>
+<p class="station-id__body">
+The Center for Public Integrity is an independent, investigative newsroom that exposes betrayals of the public trust by powerful interests.
+</p>
+<p class="station-id__outro">
+<a class="station-id__outro-link" href="https://publicintegrity.org/support-us/">Support Us
+<svg>
+<use xlink:href="#arrow-small"></use>
+</svg>
+</a>
+</p>
+</div>
+</div>
+<p>Mullins, the Colorado resident, lived in Iowa for decades before moving back to her home state. From 1979 to 1989, she served in Iowa’s House of Representatives and saw firsthand the power constituents have when they speak up. She’s among the deluge of people who filed comments in 2018 opposing an EPA proposal to <a href="https://thehill.com/policy/energy-environment/486411-experts-warn-epa-making-secret-science-rule-more-restrictive">restrict its use of scientific studies</a> in a way that would make it far harder to set stricter pollution rules.</p>
+<p>The EPA, <a href="https://www.regulations.gov/docket?D=EPA-HQ-OA-2018-0259">seeking comment now</a> on a revamped version of that proposal, is still working to enact the change. That’s despite calls from the <a href="https://www.nga.org/letters-nga/state-and-local-government-organizations-seek-pause-on-public-comments-on-rulemaking-processes/">National Governors Association and other groups</a> to extend comment deadlines because of the coronavirus, The Associated Press <a href="https://apnews.com/9bc2a961143dee11fcef847be3312bc0">reported</a>.</p>
+<p>Mullins, who lives in Loveland, east of Rocky Mountain National Park and about 40 miles north of Denver, said it caught her off guard that a region so well-suited for getting outdoors has a problem with its air. <a href="https://www.usnews.com/news/best-states/articles/2019-12-17/colorado-goes-after-oil-gas-industries-to-clean-up-denver-air">Oil and gas development</a> contributes. So does <a href="https://www.5280.com/2020/01/what-is-ozone-and-why-are-colorados-levels-so-bad/">traffic</a>. And then there’s climate change: <a href="https://www.denverpost.com/2017/09/04/denver-air-quality-health-warning-fires-smoke/">Rampant wildfires</a> in <a href="https://www.reporterherald.com/2018/08/22/wildfire-smoke-creates-health-concerns-along-front-range/">recent years</a> have wafted pollutants to the Front Range.</p>
+<p>Mullins takes seriously her children’s insistence that she stay inside, but she does still need to walk her dog. She keeps a close eye on air quality and uses her inhaler before she heads out.</p>
+<p>Last week, she called her pulmonologist to get a new prescription. For days, the line was always busy. Unnerved, she wondered if she might run out.&nbsp;</p>
+<p>“It was a relief to finally get through,” she said.<br></p>
+</div>
+<section class="article-recirc">
+<h2 class="article-recirc__head">Read more in
+Health</h2>
+<div class="article-recirc__articles">
+<article class="tz-recirc">
+<h4 class="tz-recirc__topic">
+<a class="tz-recirc__topic-link" href="https://publicintegrity.org/topics/health/coronavirus-and-inequality/">Coronavirus and Inequality</a>
+</h4>
+<h3 class="tz-recirc__title">
+<a class="tz-recirc__title-link" href="https://publicintegrity.org/health/coronavirus-and-inequality/pre-existing-inequality-could-make-coronavirus-hit-some-harder/">These charts show who’s most vulnerable to the coronavirus</a>
+</h3>
+<div class="tz-recirc__subtitle">
+<p>Low-income Americans already struggle to stay healthy. The coronavirus will hit them harder.</p>
+</div>
+</article>
+<article class="tz-recirc">
+<h4 class="tz-recirc__topic">
+<a class="tz-recirc__topic-link" href="https://publicintegrity.org/topics/health/coronavirus-and-inequality/">Coronavirus and Inequality</a>
+</h4>
+<h3 class="tz-recirc__title">
+<a class="tz-recirc__title-link" href="https://publicintegrity.org/health/coronavirus-and-inequality/the-labor-department-wont-take-steps-to-protect-health-care-workers-from-the-coronavirus/">The Labor Department won’t take steps to protect health care workers from the coronavirus</a>
+</h3>
+<div class="tz-recirc__subtitle">
+<p>The U.S. Department of Labor has rejected pressure to issue worker protections that nurses are demanding. The hospital industry wants it that way.</p>
+</div>
+</article>
+</div>
+</section>
+</div>
+</div>
+<div class="article-share article-share--desktop">
+<h3 class="article-share__head">Share this article</h3>
+<ul class="article-share__list">
+<li class="article-share__item article-share__item--facebook">
+ <a href="https://www.facebook.com/sharer/sharer.php?u=https://publicintegrity.org/health/coronavirus-and-inequality/a-likely-but-hidden-coronavirus-risk-factor-pollution/" class="article-share__link" target="_blank">
+<span class="article-share__text">Share on Facebook</span>
+<svg>
+<use xlink:href="#icon-facebook"></use>
+</svg>
+</a>
+</li>
+<li class="article-share__item article-share__item--twitter">
+<a href="https://twitter.com/intent/tweet?url=https://publicintegrity.org/health/coronavirus-and-inequality/a-likely-but-hidden-coronavirus-risk-factor-pollution/&amp;text=A likely but hidden coronavirus risk factor: pollution via @publicintegrity" class="article-share__link" target="_blank">
+<span class="article-share__text">Share on Twitter</span>
+<svg>
+<use xlink:href="#icon-twitter"></use>
+</svg>
+</a>
+</li>
+<li class="article-share__item article-share__item--reddit">
+<a href="https://www.reddit.com/submit?url=https://publicintegrity.org/health/coronavirus-and-inequality/a-likely-but-hidden-coronavirus-risk-factor-pollution/&title=A likely but hidden coronavirus risk factor: pollution | Center for Public Integrity" class="article-share__link" target="_blank">
+<span class="article-share__text ">Share on Reddit</span>
+<svg>
+<use xlink:href="#icon-reddit"></use>
+</svg>
+</a>
+</li>
+<li class="article-share__item article-share__item--email">
+<a href="mailto:?subject=A likely but hidden coronavirus risk factor: pollution | Center for Public Integrity&body=https://publicintegrity.org/health/coronavirus-and-inequality/a-likely-but-hidden-coronavirus-risk-factor-pollution/" class="article-share__link">
+<span class="article-share__text">Share by Email</span>
+<svg>
+<use xlink:href="#icon-email"></use>
+</svg>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+<section class="article-comments">
+<h2 class="article-comments__head">Join the conversation</h2>
+<p class="article-comments__show">
+<a href="#comments-container" class="btn article-comments__toggle">
+<span class="article-comments__toggle-show-hide">Show</span>
+<span class="article-comments__toggle-count"></span>
+<span class="article-comments__toggle-comments">Comments</span>
+</a>
+</p>
+<div id="comments-container" class="article-comments__content basic-text">
+<div class="article-comments__content__inner">
+<div class="wpdiscuz_top_clearing"></div>
+<div id="comments" class="comments-area"><div id="respond" style="width: 0;height: 0;clear: both;margin: 0;padding: 0;"></div> <h3 id="wc-comment-header">
+Leave a Reply </h3>
+<div id="wpcomm" class="wpdiscuz_unauth wpd-default">
+<div class="wpdiscuz-form-top-bar">
+<div class="wpdiscuz-ftb-left">
+<div id="wc_show_hide_loggedin_username">
+</div>
+</div>
+<div class="wpd-clear"></div>
+</div>
+<div class="wc_social_plugin_wrapper">
+</div>
+<div class="wc-form-wrapper wc-main-form-wrapper" id='wc-main-form-wrapper-0_0'>
+<div class="wpdiscuz-comment-message" style="display: block;"></div>
+<form class="wc_comm_form wc_main_comm_form" method="post" enctype="multipart/form-data">
+<div class="wc-field-comment">
+<div class="wpdiscuz-item wc-field-textarea">
+<div class="wpdiscuz-textarea-wrap ">
+<div class="wc-field-avatararea">
+<img alt='avatar' src='https://secure.gravatar.com/avatar/?s=40&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/?s=80&#038;d=mm&#038;r=g 2x' class='avatar avatar-40 photo avatar-default' height='40' width='40' /> </div>
+<textarea id="wc-textarea-0_0" placeholder="Start the discussion..." required name="wc_comment" class="wc_comment wpd-field"></textarea>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="wc-form-footer" style="display: none;">
+<div class="wpd-form-row">
+<div class="wpd-form-col-left">
+<div class="wpdiscuz-item wc_name-wrapper wpd-has-icon">
+<div class="wpd-field-icon"><i class="fas fa-user"></i></div>
+<input value="" required="required" class="wc_name wpd-field" type="text" name="wc_name" placeholder="Name*" maxlength="50" pattern=".{3,50}" title="">
+</div>
+<div class="wpdiscuz-item wc_email-wrapper wpd-has-icon">
+<div class="wpd-field-icon"><i class="fas fa-at"></i></div>
+<input value="" required="required" class="wc_email wpd-field" type="email" name="wc_email" placeholder="Email*">
+</div>
+<div class="wpdiscuz-item wc_website-wrapper wpd-has-icon">
+<div class="wpd-field-icon"><i class="fas fa-link"></i></div>
+<input value="" class="wc_website wpd-field" type="text" name="wc_website" placeholder="Website">
+</div>
+</div>
+<div class="wpd-form-col-right">
+<div class="wc-field-captcha wpdiscuz-item wc_captcha-wrapper">
+<div class="wc-bin-captcha">
+<i class="fas fa-shield-alt"></i>This comment form is under antispam protection </div>
+</div>
+<div class="wc-field-submit">
+<label class="wpd_label" title="Notify of new replies to this comment">
+<input id="wc_notification_new_comment-0_0" class="wc_notification_new_comment-0_0 wpd_label__checkbox" value="comment" type="checkbox" name="wpdiscuz_notification_type" />
+<span class="wpd_label__text">
+<span class="wpd_label__check">
+<i class="fas fa-bell wpdicon wpdicon-on"></i>
+<i class="fas fa-bell-slash wpdicon wpdicon-off"></i>
+</span>
+</span>
+</label>
+<input class="wc_comm_submit wc_not_clicked button alt" type="submit" name="submit" value="Post Comment">
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div class="clearfix"></div>
+<input type="hidden" class="wpdiscuz_unique_id" value="0_0" name="wpdiscuz_unique_id">
+</form>
+</div>
+ <div id="wpdiscuz_hidden_secondary_form" style="display: none;">
+<div class="wc-form-wrapper wc-secondary-form-wrapper" id='wc-secondary-form-wrapper-wpdiscuzuniqueid' style='display: none;'>
+<div class="wpdiscuz-comment-message" style="display: block;"></div>
+<div class="wc-secondary-forms-social-content"></div><div class="clearfix"></div>
+<form class="wc_comm_form wc-secondary-form-wrapper" method="post" enctype="multipart/form-data">
+<div class="wc-field-comment">
+<div class="wpdiscuz-item wc-field-textarea">
+<div class="wpdiscuz-textarea-wrap ">
+<div class="wc-field-avatararea">
+<img alt='avatar' src='https://secure.gravatar.com/avatar/?s=48&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo avatar-default' height='48' width='48' /> </div>
+<textarea id="wc-textarea-wpdiscuzuniqueid" placeholder="Join the discussion..." required name="wc_comment" class="wc_comment wpd-field"></textarea>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="wc-form-footer" style="display: none;">
+<div class="wpd-form-row">
+<div class="wpd-form-col-left">
+<div class="wpdiscuz-item wc_name-wrapper wpd-has-icon">
+<div class="wpd-field-icon"><i class="fas fa-user"></i></div>
+<input value="" required="required" class="wc_name wpd-field" type="text" name="wc_name" placeholder="Name*" maxlength="50" pattern=".{3,50}" title="">
+</div>
+<div class="wpdiscuz-item wc_email-wrapper wpd-has-icon">
+<div class="wpd-field-icon"><i class="fas fa-at"></i></div>
+<input value="" required="required" class="wc_email wpd-field" type="email" name="wc_email" placeholder="Email*">
+</div>
+<div class="wpdiscuz-item wc_website-wrapper wpd-has-icon">
+<div class="wpd-field-icon"><i class="fas fa-link"></i></div>
+<input value="" class="wc_website wpd-field" type="text" name="wc_website" placeholder="Website">
+</div>
+</div>
+<div class="wpd-form-col-right">
+<div class="wc-field-captcha wpdiscuz-item wc_captcha-wrapper">
+<div class="wc-bin-captcha">
+<i class="fas fa-shield-alt"></i>This comment form is under antispam protection </div>
+</div>
+<div class="wc-field-submit">
+<label class="wpd_label" title="Notify of new replies to this comment">
+<input id="wc_notification_new_comment-wpdiscuzuniqueid" class="wc_notification_new_comment-wpdiscuzuniqueid wpd_label__checkbox" value="comment" type="checkbox" name="wpdiscuz_notification_type" />
+<span class="wpd_label__text">
+<span class="wpd_label__check">
+<i class="fas fa-bell wpdicon wpdicon-on"></i>
+<i class="fas fa-bell-slash wpdicon wpdicon-off"></i>
+</span>
+</span>
+</label>
+<input class="wc_comm_submit wc_not_clicked button alt" type="submit" name="submit" value="Post Comment">
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div class="clearfix"></div>
+<input type="hidden" class="wpdiscuz_unique_id" value="wpdiscuzuniqueid" name="wpdiscuz_unique_id">
+</form>
+</div>
+</div>
+<div class="wpdiscuz-front-actions">
+<div class="wpdiscuz-sbs-wrap">
+<span><i class="far fa-envelope" aria-hidden="true"></i>&nbsp; Subscribe &nbsp;<i class="fas fa-caret-down" aria-hidden="true"></i></span>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="wpdiscuz-subscribe-bar wpdiscuz-hidden">
+<form action="https://publicintegrity.org/wp-admin/admin-ajax.php?action=addSubscription" method="post" id="wpdiscuz-subscribe-form">
+<div class="wpdiscuz-subscribe-form-intro">Notify of </div>
+<div class="wpdiscuz-subscribe-form-option" style="width:40%;">
+<select class="wpdiscuz_select" name="wpdiscuzSubscriptionType">
+<option value="post">new follow-up comments</option>
+<option value="all_comment">new replies to my comments</option>
+</select>
+</div>
+<div class="wpdiscuz-item wpdiscuz-subscribe-form-email">
+<input class="email" type="email" name="wpdiscuzSubscriptionEmail" required="required" value="" placeholder="Email" />
+</div>
+<div class="wpdiscuz-subscribe-form-button">
+<input id="wpdiscuz_subscription_button" type="submit" value="&rsaquo;" name="wpdiscuz_subscription_button" />
+</div>
+<input type="hidden" id="wpdiscuz_subscribe_form_nonce" name="wpdiscuz_subscribe_form_nonce" value="e5a4224fc7" /><input type="hidden" name="_wp_http_referer" value="/health/coronavirus-and-inequality/a-likely-but-hidden-coronavirus-risk-factor-pollution/" /> <input type="hidden" value="86545" name="wpdiscuzSubscriptionPostId" />
+</form>
+<div class="wpdiscuz_clear"></div>
+</div>
+<div id="wcThreadWrapper" class="wc-thread-wrapper">
+<div class="wpdiscuz-comment-pagination">
+</div>
+</div>
+<div class="wpdiscuz_clear"></div>
+</div>
+</div>
+<div id="wpdiscuz-loading-bar" class="wpdiscuz-loading-bar wpdiscuz-loading-bar-unauth"></div>
+</div>
+ </div>
+</section>
+</div>
+<div class="content__footer">
+<footer class="site-footer">
+<div class="site-footer__inner">
+<a class="site-footer__logo-link" href="https://publicintegrity.org">
+<svg>
+<use xlink:href="#cpi-glyph-white"></use>
+</svg>
+</a>
+<div class="site-footer__groups">
+<div class="site-footer__left">
+<ul class="site-footer__pages-list">
+<li class="site-footer__pages-item">
+<a class="site-footer__pages-link" href="https://publicintegrity.org/?page_id=14628">About Us</a>
+</li>
+<li class="site-footer__pages-item">
+<a class="site-footer__pages-link" href="https://publicintegrity.org/about/subscribe/">Sign Up For Our Newsletter</a>
+</li>
+<li class="site-footer__pages-item">
+<a class="site-footer__pages-link" href="https://publicintegrity.org/about/board-of-directors/">Board of Directors</a>
+</li>
+<li class="site-footer__pages-item">
+<a class="site-footer__pages-link" href="https://publicintegrity.org/archive/">Archive</a>
+</li>
+<li class="site-footer__pages-item">
+<a class="site-footer__pages-link" href="https://publicintegrity.org/contact-us/">Contact Us</a>
+</li>
+<li class="site-footer__pages-item">
+<a class="site-footer__pages-link" href="https://publicintegrity.org/about/privacy-policy-and-terms-of-use%ef%bb%bf/">Privacy Policy and Terms of Use﻿</a>
+</li>
+</ul>
+<ul class="site-footer__social">
+<li class="site-footer__social-item">
+<a href="https://www.facebook.com/publici" class="site-footer__social-link">
+<svg>
+<use xlink:href="#icon-facebook"></use>
+</svg>
+<span>Facebook</span>
+</a>
+</li>
+<li class="site-footer__social-item">
+<a href="https://twitter.com/publicintegrity" class="site-footer__social-link">
+<svg>
+<use xlink:href="#icon-twitter"></use>
+</svg>
+<span>Twitter</span>
+</a>
+</li>
+<li class="site-footer__social-item">
+<a class="site-footer__social-link" href="https://www.linkedin.com/company/center-for-public-integrity/">
+<svg>
+<use xlink:href="#icon-linkedin"></use>
+</svg>
+<span>LinkedIn</span>
+</a>
+</li>
+<li class="site-footer__social-item">
+<a class="site-footer__social-link" href="https://www.instagram.com/publicintegrity/">
+<svg>
+<use xlink:href="#icon-instagram"></use>
+</svg>
+<span>Instagram</span>
+</a>
+</li>
+</ul>
+</div>
+<div class="site-footer__right">
+<div class="site-footer__mission"><p>Our mission is to protect democracy and inspire change using investigative reporting that exposes betrayals of the public trust by powerful interests.</p>
+</div>
+<p class="site-footer__support">
+<a class="site-footer__support-link btn" href="https://publicintegrity.org/support-us/">Support Us</a>
+</p>
+</div>
+</div>
+<p class="site-footer__copyright">© 2020 The Center for Public Integrity</p>
+</div>
+</footer>
+</div>
+</div>
+<div class="nav js-nav">
+<div class="nav__inner">
+<header class="nav__header">
+<div class="nav__header-inner">
+<button class="nav__close js-nav-close">
+<svg>
+<use xlink:href="#nav-close"></use>
+</svg>
+<span class="visually-hidden">Close Menu</span>
+</button>
+<div class="nav__pages">
+<ul class="nav__pages-list">
+<li class="nav__pages-item">
+<a href="https://publicintegrity.org/" class="nav__pages-link">Home</a>
+</li>
+<li class="nav__pages-item">
+<a href="https://publicintegrity.org/?page_id=14628" class="nav__pages-link">About Us</a>
+</li>
+<li class="nav__pages-item">
+<a href="https://publicintegrity.org/about/subscribe/" class="nav__pages-link">Subscribe</a>
+</li>
+<li class="nav__pages-item">
+<a href="https://publicintegrity.org/support-us/" class="nav__pages-link">Support Us</a>
+</li>
+</ul>
+</div>
+</div>
+</header>
+<div class="nav__main">
+<div class="nav__main-inner">
+<div class="nav__search">
+<div class="nav__search-box">
+<div id="js-search-box">
+
+</div>
+</div>
+<p class="search-results__stats" id="js-stats-container"></p>
+<ul id="js-search-results" class="search-results tz-result-list"></ul>
+<div class="nav__search-pagination">
+<div class="pagination pagination--algolia">
+<div class="pagination__inner" id="js-search-pagination"></div>
+</div>
+</div>
+</div>
+<script type="text/html" id="tmpl-instantsearch-hit">
+        <# var attributes = ['content', 'title6', 'title4', 'title3', 'title2', 'title1']; if (data.post_type === 'filing') { attributes.push('legacy_summary'); } if (data.post_type === 'news') { attributes.push('news_content'); } var attribute_name; var relevant_content = ''; for ( var index in attributes ) { attribute_name = attributes[ index ]; if ( data._highlightResult[ attribute_name ] ) { if ( data._highlightResult[ attribute_name ].matchedWords.length >0 ) { relevant_content = data._snippetResult[ attribute_name ].value; } else { relevant_content = data._snippetResult[ attributes[ 0 ] ].value; } } } #>
+            <li>
+                <article class="tz-result tz-result--result">
+                    <div class="tz-result__inner">
+                        <div class="tz-result__primary">
+
+                            <a class="tz-result__image-link" href="{{ data.permalink }}">
+                                <figure class="tz-result__image">
+
+                                    <# if ('thumbnail' in data.images) { #>
+                                        <img src="{{ data.images.thumbnail.url }}" alt=""/>
+                                        ***
+                                        <# } else { #>
+                                            <img src="/wp-content/themes/cpi/static/img/default-tz-image.svg" alt="No image available"/>
+                                            <# } #>
+                                            </figure>
+                                        </a>
+
+                                        <h2 class="tz-result__title">
+                                            <p class="tz-result__date">{{ data.post_date_formatted }}</p>
+
+                                            <a class="tz-result__title-link" href="{{ data.permalink }}">{{ data.post_title }}</a>
+                                        </h2>
+                                    </div>
+
+                                    <div class="tz-result__meta">
+
+                                        <div class="tz-result__excerpt">
+                                            {{{ relevant_content }}}
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </article>
+                        </li>
+
+                    </script>
+<nav class="nav__topics">
+<h2 class="nav__subhead">Explore Our Topics</h2>
+<ul class="nav__topics-list">
+<li class="nav__topics-item">
+<header class="nav__topics-item-header">
+<a class="nav__topics-item-illo-link" href="https://publicintegrity.org/topics/politics/">
+<img class="nav__topics-item-illo" src="https://publicintegrity.org/wp-content/uploads/2018/11/danpage-CPI-FederalPoliticsFF2-350x350-c-default.jpg" alt="" />
+</a>
+<h4 class="nav__topics-item-head">
+<a href="https://publicintegrity.org/topics/politics/" class="nav__topics-item-head-link">Money and Democracy</a>
+</h4>
+<p class="nav__topics-all">
+<a class="nav__topics-all-link" href="https://publicintegrity.org/topics/politics/">See All
+<svg>
+<use xlink:href="#arrow-small"></use>
+</svg>
+</a>
+</p>
+</header>
+<ul class="nav__topics-sublist">
+<li class="nav__topics-subitem">
+<a class="nav__topics-sublink" href="https://publicintegrity.org/topics/politics/elections/">Elections</a>
+</li>
+<li class="nav__topics-subitem">
+<a class="nav__topics-sublink" href="https://publicintegrity.org/topics/lobbying/">Lobbying</a>
+</li>
+ <li class="nav__topics-subitem">
+<a class="nav__topics-sublink" href="https://publicintegrity.org/topics/politics/state-politics/copy-paste-legislate/">Copy, Paste, Legislate</a>
+</li>
+<li class="nav__topics-subitem">
+<a class="nav__topics-sublink" href="https://publicintegrity.org/topics/politics/state-politics/accountability-in-your-state/conflicted-interests/">Conflicted Interests</a>
+</li>
+</ul>
+</li>
+<li class="nav__topics-item">
+<header class="nav__topics-item-header">
+<a class="nav__topics-item-illo-link" href="https://publicintegrity.org/topics/environment/">
+<img class="nav__topics-item-illo" src="https://publicintegrity.org/wp-content/uploads/2018/11/danpage-CPI-EnvironmentFF2-350x350-c-default.jpg" alt="" />
+</a>
+<h4 class="nav__topics-item-head">
+<a href="https://publicintegrity.org/topics/environment/" class="nav__topics-item-head-link">Environment</a>
+</h4>
+<p class="nav__topics-all">
+<a class="nav__topics-all-link" href="https://publicintegrity.org/topics/environment/">See All
+<svg>
+<use xlink:href="#arrow-small"></use>
+</svg>
+</a>
+</p>
+</header>
+<ul class="nav__topics-sublist">
+<li class="nav__topics-subitem">
+<a class="nav__topics-sublink" href="https://publicintegrity.org/topics/environment/energy/carbon-wars/">Carbon Wars</a>
+</li>
+<li class="nav__topics-subitem">
+<a class="nav__topics-sublink" href="https://publicintegrity.org/topics/environment/energy/blowout/">BLOWOUT: Inside America's Energy Gamble</a>
+</li>
+</ul>
+</li>
+<li class="nav__topics-item">
+<header class="nav__topics-item-header">
+<a class="nav__topics-item-illo-link" href="https://publicintegrity.org/topics/national-security/">
+<img class="nav__topics-item-illo" src="https://publicintegrity.org/wp-content/uploads/2018/11/danpage-CPI-NationalSecurityFF3-350x350-c-default.jpg" alt="" />
+ </a>
+<h4 class="nav__topics-item-head">
+<a href="https://publicintegrity.org/topics/national-security/" class="nav__topics-item-head-link">National Security</a>
+</h4>
+<p class="nav__topics-all">
+<a class="nav__topics-all-link" href="https://publicintegrity.org/topics/national-security/">See All
+<svg>
+<use xlink:href="#arrow-small"></use>
+</svg>
+</a>
+</p>
+</header>
+<ul class="nav__topics-sublist">
+<li class="nav__topics-subitem">
+<a class="nav__topics-sublink" href="https://publicintegrity.org/topics/national-security/future-of-warfare/">Future of Warfare</a>
+</li>
+<li class="nav__topics-subitem">
+<a class="nav__topics-sublink" href="https://publicintegrity.org/topics/national-security/defense-spending/">Defense Spending</a>
+</li>
+<li class="nav__topics-subitem">
+<a class="nav__topics-sublink" href="https://publicintegrity.org/topics/national-security/alex-finley-analysis/">The Mueller Report</a>
+</li>
+</ul>
+</li>
+<li class="nav__topics-item">
+<header class="nav__topics-item-header">
+<a class="nav__topics-item-illo-link" href="https://publicintegrity.org/topics/inequality-poverty-opportunity/">
+<img class="nav__topics-item-illo" src="https://publicintegrity.org/wp-content/uploads/2018/11/danpage-CPI-BusinessFF2-350x350-c-default.jpg" alt="" />
+</a>
+<h4 class="nav__topics-item-head">
+<a href="https://publicintegrity.org/topics/inequality-poverty-opportunity/" class="nav__topics-item-head-link">Inequality, Opportunity and Poverty</a>
+</h4>
+<p class="nav__topics-all">
+<a class="nav__topics-all-link" href="https://publicintegrity.org/topics/inequality-poverty-opportunity/">See All
+<svg>
+<use xlink:href="#arrow-small"></use>
+</svg>
+</a>
+</p>
+</header>
+ <ul class="nav__topics-sublist">
+<li class="nav__topics-subitem">
+<a class="nav__topics-sublink" href="https://publicintegrity.org/topics/inequality-poverty-opportunity/immigration/">Immigration</a>
+</li>
+<li class="nav__topics-subitem">
+<a class="nav__topics-sublink" href="https://publicintegrity.org/topics/inequality-poverty-opportunity/workers-rights/">Workers' Rights</a>
+</li>
+<li class="nav__topics-subitem">
+<a class="nav__topics-sublink" href="https://publicintegrity.org/topics/inequality-poverty-opportunity/taxes/trumps-tax-cuts/">Trump’s Tax Cuts: The Rich Get Richer</a>
+</li>
+</ul>
+</li>
+<li class="nav__topics-item">
+<header class="nav__topics-item-header">
+<a class="nav__topics-item-illo-link" href="https://publicintegrity.org/topics/inside-publici/">
+<img class="nav__topics-item-illo" src="/wp-content/themes/cpi/static/img/default-tz-image.svg" alt="No image available" />
+</a>
+<h4 class="nav__topics-item-head">
+<a href="https://publicintegrity.org/topics/inside-publici/" class="nav__topics-item-head-link">Inside Public Integrity</a>
+</h4>
+<p class="nav__topics-all">
+<a class="nav__topics-all-link" href="https://publicintegrity.org/topics/inside-publici/">See All
+<svg>
+<use xlink:href="#arrow-small"></use>
+</svg>
+</a>
+</p>
+</header>
+<ul class="nav__topics-sublist">
+<li class="nav__topics-subitem">
+<a class="nav__topics-sublink" href="https://publicintegrity.org/topics/inside-publici/watchdog-q-a/">Watchdog Q&amp;A</a>
+</li>
+</ul>
+</li>
+<li class="nav__topics-item">
+<header class="nav__topics-item-header">
+<a class="nav__topics-item-illo-link" href="https://publicintegrity.org/topics/health/coronavirus-and-inequality/">
+<img class="nav__topics-item-illo" src="https://publicintegrity.org/wp-content/uploads/2020/03/AP_20048560093596-350x350-c-default.jpg" alt="" />
+</a>
+<h4 class="nav__topics-item-head">
+<a href="https://publicintegrity.org/topics/health/coronavirus-and-inequality/" class="nav__topics-item-head-link">Coronavirus and Inequality</a>
+</h4>
+<p class="nav__topics-all">
+<a class="nav__topics-all-link" href="https://publicintegrity.org/topics/health/coronavirus-and-inequality/">See All
+<svg>
+<use xlink:href="#arrow-small"></use>
+</svg>
+</a>
+</p>
+</header>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</div>
+<div class="gallery-overlay">
+<div class="gallery-overlay__close-wrap">
+<button class="gallery-overlay__close js-gallery-close">
+<svg>
+<use xlink:href="#nav-close"></use>
+</svg>
+<span class="visually-hidden">Close</span>
+</button>
+</div>
+<div class="gallery-overlay__slides"></div>
+<aside class="gallery-overlay__meta">
+<div class="gallery-overlay__meta-inner">
+<div class="gallery-overlay__counter">
+<p>
+<span class="gallery-overlay__count-number js-gallery-counter-index"></span>
+of
+<span class="gallery-overlay__count-number js-gallery-counter-total"></span>
+</p>
+</div>
+<ul class="gallery-overlay__arrows">
+<li class="gallery-overlay__arrow gallery-overlay__arrow--prev">
+<button class="js-gallery-prev">
+<svg>
+<use xlink:href="#page-arrow-left"></use>
+</svg>
+</button>
+</li>
+<li class="gallery-overlay__arrow gallery-overlay__arrow--next">
+<button class="js-gallery-next">
+<svg>
+<use xlink:href="#page-arrow-right"></use>
+</svg>
+</button>
+</li>
+</ul>
+</div>
+</aside>
+</div>
+<div id="pum-87746" class="pum pum-overlay pum-theme-82004 pum-theme-cpi popmake-overlay pum-overlay-disabled auto_open click_open" data-popmake="{&quot;id&quot;:87746,&quot;slug&quot;:&quot;coronavirus-coverage-money-appeal&quot;,&quot;theme_id&quot;:82004,&quot;cookies&quot;:[{&quot;event&quot;:&quot;on_popup_close&quot;,&quot;settings&quot;:{&quot;name&quot;:&quot;pum-87746&quot;,&quot;time&quot;:&quot;1 week&quot;,&quot;path&quot;:true}}],&quot;triggers&quot;:[{&quot;type&quot;:&quot;auto_open&quot;,&quot;settings&quot;:{&quot;delay&quot;:500,&quot;cookie_name&quot;:[&quot;pum-87746&quot;]}},{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie_name&quot;:null}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:&quot;1&quot;,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;custom&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;100%&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:&quot;1&quot;,&quot;location&quot;:&quot;left bottom&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:&quot;1&quot;,&quot;animation_type&quot;:&quot;slide&quot;,&quot;animation_speed&quot;:&quot;1000&quot;,&quot;animation_origin&quot;:&quot;center bottom&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}" role="dialog" aria-hidden="true">
+<div id="popmake-87746" class="pum-container popmake theme-82004 size-custom pum-position-fixed">
+<div class="pum-content popmake-content">
+<div class="basic-text">
+<h1 style="margin-top: 0; padding-top: 0; color: #04284a;">Journalism Matters.</h1>
+<h6 style="margin-top: 0; padding-top: 0; color: #04284a;">Support our coverage of the coronavirus. <a style="color: #f35d26; background-image: none; text-decoration: underline;" href="https://checkout.fundjournalism.org/memberform?org_id=cpi&amp;campaign=701f40000012rRuAAI">Donate now.</a></h6>
+</div>
+</div>
+<button type="button" class="pum-close popmake-close" aria-label="Close">
+X </button>
+</div>
+</div>
+<a id='wpdUserContentInfoAnchor' style='display:none;' rel='#wpdUserContentInfo' data-wpd-lity>wpDiscuz</a><div id='wpdUserContentInfo' style='overflow:auto;background:#FDFDF6;padding:20px;width:600px;max-width:100%;border-radius:6px;' class='lity-hide'></div><script type='text/javascript' src='https://publicintegrity.org/wp-includes/js/jquery/jquery.form.min.js?ver=4.2.1'></script>
+<script type='text/javascript' src='https://publicintegrity.org/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://publicintegrity.org/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pum_vars = {"version":"1.8.14","ajaxurl":"https:\/\/publicintegrity.org\/wp-admin\/admin-ajax.php","restapi":"https:\/\/publicintegrity.org\/wp-json\/pum\/v1","rest_nonce":null,"default_theme":"81998","debug_mode":"","disable_tracking":"","home_url":"\/","message_position":"top","core_sub_forms_enabled":"1","popups":[]};
+var ajaxurl = "https:\/\/publicintegrity.org\/wp-admin\/admin-ajax.php";
+var pum_debug_vars = {"debug_mode_enabled":"Popup Maker: Debug Mode Enabled","debug_started_at":"Debug started at:","debug_more_info":"For more information on how to use this information visit https:\/\/docs.wppopupmaker.com\/?utm_medium=js-debug-info&utm_campaign=ContextualHelp&utm_source=browser-console&utm_content=more-info","global_info":"Global Information","localized_vars":"Localized variables","popups_initializing":"Popups Initializing","popups_initialized":"Popups Initialized","single_popup_label":"Popup: #","theme_id":"Theme ID: ","label_method_call":"Method Call:","label_method_args":"Method Arguments:","label_popup_settings":"Settings","label_triggers":"Triggers","label_cookies":"Cookies","label_delay":"Delay:","label_conditions":"Conditions","label_cookie":"Cookie:","label_settings":"Settings:","label_selector":"Selector:","label_mobile_disabled":"Mobile Disabled:","label_tablet_disabled":"Tablet Disabled:","label_event":"Event: %s","triggers":{"click_open":"Click Open","auto_open":"Time Delay \/ Auto Open"},"cookies":{"on_popup_close":"On Popup Close","on_popup_open":"On Popup Open","pum_sub_form_success":"Subscription Form: Successful","pum_sub_form_already_subscribed":"Subscription Form: Already Subscribed","manual":"Manual JavaScript"}};
+var pum_sub_vars = {"ajaxurl":"https:\/\/publicintegrity.org\/wp-admin\/admin-ajax.php","message_position":"top"};
+var pum_popups = {"pum-87746":{"disable_on_mobile":false,"disable_on_tablet":false,"custom_height_auto":true,"scrollable_content":false,"position_from_trigger":false,"position_fixed":true,"overlay_disabled":true,"stackable":false,"disable_reposition":false,"close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"triggers":[{"type":"auto_open","settings":{"delay":500,"cookie_name":["pum-87746"]}}],"cookies":[{"event":"on_popup_close","settings":{"name":"pum-87746","time":"1 week","path":true}}],"theme_id":"82004","size":"custom","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"100%","custom_height":"380px","animation_type":"slide","animation_speed":"1000","animation_origin":"center bottom","location":"left bottom","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","zindex":"1999999999","close_button_delay":"0","theme_slug":"cpi","id":87746,"slug":"coronavirus-coverage-money-appeal"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://publicintegrity.org/wp-content/plugins/popup-maker/assets/js/site.min.js?defer&#038;ver=1.8.14'></script>
+<script type='text/javascript' src='https://publicintegrity.org/wp-content/themes/cpi/dist/manifest.js?ver=0.6'></script>
+<script type='text/javascript' src='https://publicintegrity.org/wp-content/themes/cpi/dist/dist/vendor.js?ver=0.6'></script>
+<script type='text/javascript' src='https://publicintegrity.org/wp-content/themes/cpi/dist/dist/app.js?ver=0.6'></script>
+<script type="text/javascript">
+            var _sf_async_config = { uid: 2241, domain: 'publicintegrity.org', useCanonical: true };
+            (function() {
+            function loadChartbeat() {
+                window._sf_endpt = (new Date()).getTime();
+                var e = document.createElement('script');
+                e.setAttribute('language', 'javascript');
+                e.setAttribute('type', 'text/javascript');
+                e.setAttribute('src','//static.chartbeat.com/js/chartbeat.js');
+                document.body.appendChild(e);
+            };
+            var oldonload = window.onload;
+            window.onload = (typeof window.onload != 'function') ?
+                loadChartbeat : function() { oldonload(); loadChartbeat(); };
+            })();
+        </script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"d08fe8fc62","applicationID":"210045416","transactionName":"MQEGYkNUVhcFBUxQWAhLJVVFXFcKSxVRV1AKAQ==","queueTime":0,"applicationTime":745,"atts":"HUYFFAtORRk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

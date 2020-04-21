@@ -1,0 +1,3045 @@
+<!DOCTYPE html>
+<html >
+<head>
+  
+  <!-- OneTrust Cookies Consent Notice start -->
+  <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="92fe1152-2cea-4208-b852-5ebcf4bde0ba"></script>
+  <script type="text/javascript">
+  function OptanonWrapper() { }
+  </script>
+  <!-- OneTrust Cookies Consent Notice end -->
+
+  
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KG42JHK');</script>
+<!-- End Google Tag Manager -->
+
+  
+
+  
+      <!-- Chartbeat top START -->
+        <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+      <!-- Chartbeat top END -->
+    
+
+  <script type="text/javascript">
+  if(typeof String.prototype.trim !== 'function') {
+    String.prototype.trim = function() {
+      return this.replace(/^\s+|\s+$/g, '');
+    }
+  }
+
+  function hasCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+      var c = ca[i].trim();
+      if (c.indexOf(name)==0) return true;
+    }
+    return false;
+  }
+
+  function deleteCookie(cname) {
+    //set to a past expiration to delete cookie
+    setCookie(cname, "delete", -2);
+  }
+
+  function setCookie(cname,cvalue,exdays) {
+    if (typeof exdays != "undefined") {
+      var d = new Date();
+      d.setTime(exdays);
+      var expires = "expires="+d.toGMTString();
+      document.cookie = cname + "=" + cvalue + "; " + expires + "; path=/";
+    } else {
+      document.cookie = cname + "=" + cvalue + "; path=/";
+    }
+  }
+
+  function getCookie(cname) {
+      var name = cname + "=";
+      var ca = document.cookie.split(';');
+      for(var i=0; i<ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0)==' ') c = c.substring(1);
+          if (c.indexOf(name) != -1) return c.substring(name.length,c.length);
+      }
+      return "";
+  }
+</script>
+
+  <script type="text/javascript">
+    
+    var GEMG = GEMG || {};
+    GEMG.CDN_URL = 'https://cdn.defenseone.com/a/';
+    GEMG.NON_CDN_STATIC_URL = '/static/a/';
+</script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script type="text/javascript">
+
+  var Govexec = Govexec || {};
+  Govexec.ie_lte_8 = (function(){
+    var div = document.createElement('div');
+    div.innerHTML = '<!--[if lte IE 8]><i></i><![endif]-->';
+    return div.getElementsByTagName('i').length > 0;
+  })();
+
+  /**
+   * This function finds the viewport size with scrollbar included.
+   * This matches the behavior of the media queries being used.
+   */
+  function viewport() {
+      var e = window, a = 'inner';
+      if (!('innerWidth' in window )) {
+          a = 'client';
+          e = document.documentElement || document.body;
+      }
+      return { width : e[ a+'Width' ] , height : e[ a+'Height' ] };
+  }
+  Govexec.get_format = function(){
+    var w;
+
+    if (Govexec.ie_lte_8) {
+      return "desktop";
+    }
+
+    w = viewport().width;
+    if (w > 1024)
+    {
+        return "desktop";
+    }
+    else if (w > 720)
+    {
+        return "tablet";
+    }
+    else
+    {
+        return "mobile";
+    }
+  }
+  window.previous_viewport = Govexec.get_format();
+</script>
+
+  
+    <script type="text/javascript">
+      (function() {
+        var currentDate, eod, host_tmp;
+        var isFb = navigator.userAgent.match(/facebookexternalhit/i) !== null;
+        
+  
+    
+          var suppressWelcomeAd = false;
+        
+  
+
+
+        if (isFb || hasCookie("welcomeAdViewed"))	{
+          return;
+        }
+
+        setCookie("cookiesEnabled", "1");
+        if (!hasCookie("cookiesEnabled"))	{
+          return;
+        }
+        deleteCookie("cookiesEnabled");
+
+        currentDate = new Date();
+        eod = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate(), 23, 59, 0, 0);
+        setCookie("welcomeAdViewed", "1", Math.round((eod.getTime())));
+
+        if (!suppressWelcomeAd && (Govexec.get_format() === "desktop")) {
+          // Set cookie with referrer for Omniture script to use
+          if (document.referrer === "") {
+            setCookie("referrer:" + window.location, "Typed/Bookmarked");
+          }
+          else {
+            // trick for getting the hostname
+            host_tmp = document.createElement("a");
+            host_tmp.href = document.referrer;
+
+            setCookie("referrer:" + window.location, host_tmp.hostname);
+          }
+          window.location = 'https://cdn.defenseone.com/a/defenseone/interstitial.html?v=9.18.0&rf=' + encodeURIComponent(window.location);
+        }
+      })();
+    </script>
+  
+
+  <script type="text/javascript" src="//use.typekit.net/kbf6vuq.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="apple-itunes-app" content="app-id=758349913, app-argument=https://www.defenseone.com/politics/2020/04/it-doesnt-add-me-current-and-former-navy-officials-question-captains-abrupt-dismissal/164363/">
+
+  <meta property="fb:pages" content="145473812290416"/>
+  <meta property="article:publisher" content="https://www.facebook.com/DefenseOne" />
+  <meta property="fb:admins" content="1563600116" />
+  <meta property="og:site_name" content="Defense One" />
+
+  <title>‘It Doesn’t Add Up To Me’: Current and Former Navy Officials Question Captain’s Abrupt Dismissal - Defense One</title>
+
+  
+
+  
+    
+        
+  
+  <link rel="canonical" href="https://www.defenseone.com/politics/2020/04/it-doesnt-add-me-current-and-former-navy-officials-question-captains-abrupt-dismissal/164363/" />
+  
+  
+    
+
+
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/jquery-ui.min.js"></script>
+
+  
+  
+    <meta name="pubdate" content="2020-04-03T19:30:38+00:00"/>
+  
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="‘It Doesn’t Add Up To Me’: Current and Former Navy Officials Question Captain’s Abrupt Dismissal" />
+  <meta property="og:url" content="https://www.defenseone.com/politics/2020/04/it-doesnt-add-me-current-and-former-navy-officials-question-captains-abrupt-dismissal/164363/" />
+  <meta property="og:description" content="“Why wasn’t there an investigation done before the captain was relieved?” one former senior official asked." />
+  <meta property="og:image" content="https://cdn.defenseone.com/media/img/upload/2020/04/03/6030298/open-graph.jpg" />
+
+  
+  <meta name="twitter:description" content="“Why wasn’t there an investigation done before the captain was relieved?” one former senior official asked.">
+  
+  <meta name="twitter:image" content="https://cdn.defenseone.com/media/img/upload/2020/04/03/6030298/open-graph.jpg">
+  
+  <meta name="twitter:title" content="‘It Doesn’t Add Up To Me’: Current and Former Navy Officials Question Captain’s Abrupt Dismissal">
+  
+  <meta name="twitter:site" content="@defenseone">
+  
+  <meta name="twitter:creator" content="@KatieBoWill">
+  
+  <meta name="twitter:card" content="summary_large_image">
+  
+
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=696264563763622&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+    <link media="all" rel="stylesheet" type="text/css" href="https://cdn.defenseone.com/a/social_tools/css/social_tools.css?v=9.18.0" />
+    <link media="all" rel="stylesheet" type="text/css" href="https://cdn.defenseone.com/a/social_tools/css/social_tools_small_logo.css?v=9.18.0" />
+
+  <script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+  
+
+
+
+  <meta name="description" content="“Why wasn’t there an investigation done before the captain was relieved?” one former senior official asked." />
+  
+  
+<meta name="sailthru.author" content="Katie Bo Williams"/>
+<meta name="sailthru.date" content="2020-04-03T19:30:38Z"/>
+<meta name="sailthru.description" content="“Why wasn’t there an investigation done before the captain was relieved?” one former senior official asked."/>
+<meta name="sailthru.title" content="‘It Doesn’t Add Up To Me’: Current and Former Navy Officials Question Captain’s Abrupt Dismissal"/>
+<meta name="sailthru.tags" content="channel-politics,type-story,length-long,site-defenseone"/>
+<meta name="sailthru.images.full" content="https://cdn.defenseone.com/media/img/upload/2020/04/03/6030298.jpg"/>
+<meta name="sailthru.images.thumb" content="https://cdn.defenseone.com/media/img/upload/2020/04/03/6030298/sailthru-thumbnail.jpg"/>
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Defense One" href="https://www.defenseone.com/rss/all/" />
+
+  
+<script type="text/javascript">
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement("script");
+    gads.async = true;
+    gads.type = "text/javascript";
+    var useSSL = "https:" == document.location.protocol;
+    gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+    var node =document.getElementsByTagName("script")[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+
+  var GEMG = GEMG || {};
+  (function(){
+    GEMG.GPT = {
+      ad_unit: '/617/defenseone.com/section_politics/content/pid_164363',
+      base_ad_unit: '/617/defenseone.com',
+      targeting: {
+        page: {
+          
+          'topics': ['coronavirus','navy'],
+          
+          'post_id': ['164363'],
+          
+          'primary_category': ['politics'],
+          
+          'referring_domain': ['Typed/Bookmarked']
+          
+        },
+        slot: {}
+      }
+    };
+  })();
+</script>
+
+
+  <script type="text/javascript">
+  var GEMG = GEMG || {};
+  GEMG.OmnitureConfig = {"internalDomains": "www.defenseone.com", "account": "atlanticDefenseOne2013Prod", "trackingServer": "atlanticmedia.sc.omtrdc.net", "site": "www.defenseone.com"};
+  </script>
+
+  <script type="text/javascript" src="https://cdn.defenseone.com/a/compressed/jinja/js/504ff0d3d33c.js"></script>
+
+
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:300,400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="https://cdn.defenseone.com/a/compressed/jinja/css/defenseone-9bf7256710b3.css" type="text/css" media="all" /><link rel="stylesheet" href="https://cdn.defenseone.com/a/compressed/jinja/css/defenseone-78a733f141a2.css" type="text/css" media="only screen and (max-width: 720px)" /><link rel="stylesheet" href="https://cdn.defenseone.com/a/compressed/jinja/css/defenseone-78a733f141a2.css" type="text/css" media="only screen and (-webkit-min-device-pixel-ratio : 1.5) and (min-device-pixel-ratio : 1.5)" /><link rel="stylesheet" href="https://cdn.defenseone.com/a/compressed/jinja/css/defenseone-1dd765671a26.css" type="text/css" media="only screen and (min-width: 721px) and (max-width: 1024px)" /><link rel="stylesheet" href="https://cdn.defenseone.com/a/compressed/jinja/css/defenseone-e25d0ce6a8d2.css" type="text/css" media="all" /><link rel="stylesheet" href="https://cdn.defenseone.com/a/compressed/jinja/css/defenseone-4d726db84c1c.css" type="text/css" media="only screen and (min-width: 1025px)" /><link rel="stylesheet" href="https://cdn.defenseone.com/a/compressed/jinja/css/defenseone-5675a910cdf1.css" type="text/css" media="all" />
+
+  <!--[if lt IE 9]>
+		<script type="text/javascript" src="https://cdn.defenseone.com/a/defenseone/js/html5shiv.js"></script>
+    <link rel="stylesheet" href="https://cdn.defenseone.com/a/compressed/jinja/css/defenseone-b7938f50a42d.css" type="text/css" />
+		<script type="text/javascript">
+			$('#slides').hide();
+			$('#slides2').show();
+		</script>
+		<![endif]-->
+  <!--link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 320px) and (max-device-width: 480px)" href="css/mobile.css" />
+     <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 600px) and (max-device-width: 1024px)" href="css/tablet.css" />
+     <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 1024px)" href="css/960.css" />
+     <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 1024px)" href="css/styles.css" /-->
+
+  
+  <!-- Chartbeat bottom START -->
+<script type="text/javascript">
+  var _sf_async_config={};
+  _sf_async_config.uid = 17396;
+  _sf_async_config.domain = "defenseone.com";
+  
+    _sf_async_config.path = "/politics/2020/04/it-doesnt-add-me-current-and-former-navy-officials-question-captains-abrupt-dismissal/164363/";
+  
+  
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement("script");
+      e.setAttribute("language", "javascript");
+      e.setAttribute("type", "text/javascript");
+      e.setAttribute("src", "//static.chartbeat.com/js/chartbeat.js");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != "function") ?
+    loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script>
+<!-- Chartbeat bottom END -->
+
+
+
+  <script type="text/javascript">
+  //<![CDATA[
+    var facebookXdReceiverPath = 'https://www.govexec.com/xd_receiver.htm';
+  //]]>
+  </script>
+  <script type="text/javascript" src="https://cdn.defenseone.com/a/js/adframe.js"></script>
+
+  
+    
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-999999-9"></script>
+<script>
+  GEMG.GoogleAnalytics = (GEMG.GoogleAnalytics || {});
+  GEMG.GoogleAnalytics.Base = (GEMG.GoogleAnalytics.Base || {});
+  GEMG.GoogleAnalytics.Config = {"tag_manager_id": "GTM-KG42JHK", "has_old_interstitial": true, "tracking_id": "UA-999999-9"};
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  
+    gtag('config', 'UA-999999-9', {
+      'send_page_view': false,
+      'custom_map': GEMG.GoogleAnalytics.Base.CUSTOM_MAP
+    });
+    try {
+      GEMG.GoogleAnalytics.Post.pageView({"Post Word Count": 1225, "page_title": "\u2018it doesn\u2019t add up to me\u2019: current and former navy officials question captain\u2019s abrupt dismissal", "Author": "Katie Bo Williams", "Publish Day": "03", "Page Type": "post", "Content Headline Word Count": 15, "Days Since Publication": 17, "Date Published": "Apr 03, 2020 03:30 PM", "Publish Hour": "15", "Number of Images": 0, "Publish Year": "2020", "Content ID": "post_manager.post.164363", "Sub Section": "Politics", "Site Section": "Defense One \u003e Politics", "Topic": "navy,coronavirus", "GE Staff Status": "Defense One", "page_location": "https://www.defenseone.com/politics/2020/04/it-doesnt-add-me-current-and-former-navy-officials-question-captains-abrupt-dismissal/164363/", "Original Title": "\u2018It Doesn\u2019t Add Up To Me\u2019: Current and Former Navy Officials Question Captain\u2019s Abrupt Dismissal", "Publish Weekday": 5, "Publish Month": "04"});
+    } catch (e) {}
+  
+</script>
+  
+
+  
+    <script type="text/javascript">
+  __reach_config = {
+    authors: ['Katie Bo Williams'],
+    channels: ['Defense One','Defense One::Politics'],
+    
+    date: '2020-04-03T19:30:38Z',
+    
+    iframe: true,
+    pid: '53ea3bd297b0c940ae000041',
+    tags: ['Defense One','Defense One::Politics'],
+    title: '‘It Doesn’t Add Up To Me’: Current and Former Navy Officials Question Captain’s Abrupt Dismissal \u002D Defense One',
+    url: 'https://www.defenseone.com/politics/2020/04/it-doesnt-add-me-current-and-former-navy-officials-question-captains-abrupt-dismissal/164363/',
+    domain: 'https://www.defenseone.com',
+    ignore_errors: false
+  };
+  (function(){
+    var s = document.createElement('script');
+    s.async = true;
+    s.type = 'text/javascript';
+    s.src = document.location.protocol + '//d8rk54i4mohrb.cloudfront.net/js/reach.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
+  })();
+</script>
+  
+
+  <script id="peer39ScriptLoader" type="text/javascript" src="https://tags.peer39.com/1406/trg_1406_ssl.js"></script>
+  <!-- peer39 code -->
+
+
+  <!-- stupid hack for IE10/tablet -->
+  <style type="text/css">
+  a img {border:none}
+  </style>
+
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  
+
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '10155007044873614'); 
+fbq('track', 'PageView');
+
+
+
+
+
+</script>
+<noscript>
+ <img height="1" width="1" src="https://www.facebook.com/tr?id=10155007044873614&ev=PageView&noscript=1" style="display: none;"/>
+</noscript>
+
+
+</head>
+
+<body class="no-js no-touch d1 d1-article-page articlepage" ontouchstart="">
+
+
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KG42JHK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+<script>
+  
+  document.body.className = document.body.className.replace("no-js ","");
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+/* You may give each page an identifying name, server, and channel on
+the next lines. */
+s.server="www.defenseone.com"
+s.channel="politics"
+s.pageName="it doesnt add up to me current and former navy officials question captains abrupt dismissal - politics - katie bo williams"
+s.prop1=""
+s.prop2=""
+s.prop3="it doesnt add up to me current and former navy officials question captains abrupt dismissal - politics - katie bo williams"
+s.prop4="/politics/2020/04/it-doesnt-add-me-current-and-former-navy-officials-question-captains-abrupt-dismissal/164363/"
+s.prop5=""
+s.prop6="politics"
+s.prop7=""
+s.prop8="politics - post"
+s.prop9=""
+s.prop10=""
+s.prop11="15:00"
+s.prop12="Friday"
+s.prop13="weekday"
+s.prop14=""
+s.prop15="katie bo williams"
+s.prop16=""
+s.prop17="‘It Doesn’t Add Up To Me’: Current and Former Navy Officials Question Captain’s Abrupt Dismissal"
+s.prop18="april 03, 2020 03:30 pm"
+s.prop19=""
+s.prop20="navy, coronavirus"
+s.prop21=""
+s.prop22=""
+s.prop23=""
+s.prop24=""
+s.prop25=""
+s.prop26=""
+s.prop27=""
+s.prop32="False"
+s.prop34="164363"
+s.prop35=" 3"
+s.prop36="04"
+s.prop37="2020"
+s.prop38=""
+s.prop39="Error: not set"
+s.prop44=""
+s.prop66="1225"
+s.prop67="6027"
+s.prop68="0"
+s.prop69=""
+s.prop75 = navigator.userAgent;
+s.hier1="politics/post/it doesnt add up to me current and former navy officials question captains abrupt dismissal"
+s.hier2=""
+s.hier3=""
+
+if ((typeof(Govexec) != "undefined") && (typeof(Govexec.get_format)=== 'function')){
+  s.prop38 = Govexec.get_format();
+}
+
+if (typeof(adblock) != 'undefined' && adblock) {
+  s.prop32 = "True";
+}
+
+// Collect referrer; override omniture referrer; clear cookie
+var referrerCookieName = "referrer:" + window.location;
+var referredThroughInterstitial = document.referrer.indexOf("interstitial.html") > -1;
+s.prop50 = (referredThroughInterstitial) ? "true" : "false";
+if (referredThroughInterstitial) {
+  if (hasCookie(referrerCookieName)) {
+    var originalReferrer = getCookie(referrerCookieName);
+
+    // Might be Typed/Bookmarked or Referrer (see layout file)
+    s.prop39 = originalReferrer;
+  } else {
+    // Referrer cookie lost
+    s.prop39 = "Referrer Lost"
+  }
+} else {
+  // Not routed through interstitial
+  if (document.referrer != "") {
+    // Not routed through interstitial; set prop39 to standard referrer
+
+    // trick for getting the hostname
+    var host_tmp = document.createElement("a");
+    host_tmp.href = document.referrer;
+
+    s.prop39 = host_tmp.hostname;
+  } else {
+    // No referrer; URL was directly entered / bookmarked
+    s.prop39 = "Typed/Bookmarked";
+  }
+}
+
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code) document.write(s_code)
+if(navigator.appVersion.indexOf('MSIE')>=0) document.write(unescape('%3C')+'\!-'+'-');
+//]]>
+</script>
+<noscript>
+	<div>
+		<a href="https://www.omniture.com" title="Web Analytics" ><img
+src="https://atlanticmedia.sc.omtrdc.net/b/ss/atlanticDefenseOne2013Prod/1/H.17--NS/0"
+height="1" width="1" alt="" /></a>
+	</div>
+</noscript>
+<!--/DO NOT REMOVE/-->
+
+
+
+
+
+<div class="d1-top-ad hidedesk hidemobile">
+  
+  <div
+    
+    class="ad ad-topleader"
+  >
+    <div class="ad-container">
+      
+        
+          <div
+            
+              class="hidedesk hidemobile"
+            
+          >
+            
+    
+      <script
+        class="ad-stub ad-stub-tablet"
+        data-ad-unit="/617/defenseone.com/section_politics/content/pid_164363"
+        data-ad-sizes="728x90,728x300"
+        
+          data-ad-size-mapping="tablet_top_ad"
+        
+        
+        
+          data-ad-targeting='0db63b6f-28b9-4d2c-8f25-9ae712b3be39'
+        
+        
+      >
+      
+        GEMG.GPT.targeting.slot['0db63b6f-28b9-4d2c-8f25-9ae712b3be39'] = {
+        
+          'pos': [
+            'topleader'
+          ],
+        
+          'level': [
+            '0'
+          ]
+        
+        };
+      
+      </script>
+    
+  
+          </div>
+        
+      
+      
+          
+    
+      <noscript class="ad-noscript">
+        
+          <a href="https://pubads.g.doubleclick.net/gampad/jump?sz=728x300%7C728x90&amp;c=280093432&amp;iu=%2F617%2Fdefenseone.com%2Fsection_politics%2Fcontent%2Fpid_164363&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dtopleader%26level%3D0">
+            <img src="https://pubads.g.doubleclick.net/gampad/ad?sz=728x300%7C728x90&amp;c=280093432&amp;iu=%2F617%2Fdefenseone.com%2Fsection_politics%2Fcontent%2Fpid_164363&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dtopleader%26level%3D0"/>
+          </a>
+        
+      </noscript>
+    
+  
+      
+    </div>
+  </div>
+
+
+</div>
+
+
+  <header>
+    <div class="container_12">
+      <div id="slides2" class="grid_12 hidetablet hidemobile slidecontainer">
+        <div id="slideContainer2" class="swipe">
+          
+  
+      
+      
+  
+
+  <ul class="swipe-wrap">
+  
+  
+
+      
+
+      
+      <li class="grid_2 alpha">
+          <a href="/threats/2020/03/prognosis-latest-news-coronavirus-national-security/163666/?oref=d-skybox"
+             
+          >
+
+              <div><img src="https://cdn.defenseone.com/media/img/upload/2020/03/14/Prognosis_lead_image/defense-skybox.jpg" alt="This transmission electron microscope image shows SARS-CoV-2—also known as 2019-nCoV, the virus that causes COVID-19—isolated from a patient in the U.S. Virus particles are shown emerging from the surface of cells cultured in the lab / Pentagon" title="This transmission electron microscope image shows SARS-CoV-2—also known as 2019-nCoV, the virus that causes COVID-19—isolated from a patient in the U.S. Virus particles are shown emerging from the surface of cells cultured in the lab / Pentagon"></div>
+              <span>The Prognosis: Latest News on <span class="caps">COVID</span>-19 <span class="amp">&amp;</span> NatSec</span>
+          </a>
+      </li>
+      
+
+      
+  
+
+      
+
+      
+      <li class="grid_2">
+          <a href="/threats/2020/04/inside-wild-final-week-acting-navy-secretary/164710/?oref=d-skybox"
+             
+          >
+
+              <div><img src="https://cdn.defenseone.com/media/img/upload/2020/04/17/6160709/defense-skybox.jpg" alt="Acting Secretary of the Navy Thomas B. Modly speaks at a Pentagon press briefing, Washington, D.C., April 2, 2020" title="Acting Secretary of the Navy Thomas B. Modly speaks at a Pentagon press briefing, Washington, D.C., April 2, 2020"></div>
+              <span>Inside the Wild Final Week of the Acting Navy Secretary</span>
+          </a>
+      </li>
+      
+
+      
+  
+
+      
+
+      
+      <li class="grid_2">
+          <a href="/ideas/2020/04/haircuts-time-coronavirus/164665/?oref=d-skybox"
+             
+          >
+
+              <div><img src="https://cdn.defenseone.com/media/img/upload/2020/04/16/200302-N-SL179-1017Y/defense-skybox.jpeg" alt="A Marine gives another service member a haircut in the barbershop aboard the USS Bataan in the Arabian Sea, March 2, 2020." title="A Marine gives another service member a haircut in the barbershop aboard the USS Bataan in the Arabian Sea, March 2, 2020."></div>
+              <span>Haircuts in a Time of Coronavirus?</span>
+          </a>
+      </li>
+      
+
+      
+  
+
+      
+
+      
+      <li class="grid_2">
+          <a href="/ideas/2020/04/no-military-has-done-more-corona-stricken-allies-germanys/164671/?oref=d-skybox"
+             
+          >
+
+              <div><img src="https://cdn.defenseone.com/media/img/upload/2020/04/16/D1-image-to-post/defense-skybox.jpg" alt="The Bundeswehr&#39;s Airbus 310 medevac plane and crew." title="The Bundeswehr&#39;s Airbus 310 medevac plane and crew."></div>
+              <span>No Military Has Done More for Corona-Stricken Allies Than Germany’s</span>
+          </a>
+      </li>
+      
+
+      
+  
+
+      
+
+      
+      <li class="grid_2">
+          <a href="/ideas/2020/04/we-need-atlantic-charter-post-coronavirus-era/164712/?oref=d-skybox"
+             
+          >
+
+              <div><img src="https://cdn.defenseone.com/media/img/upload/2020/04/17/D1-image-to-post_WUEkWfP/defense-skybox.jpg" alt="President Franklin D. Roosevelt entertained at dinner for British Prime Minister Winston Churchill aboard the U.S. cruiser Augusta on Aug. 9, 1941, somewhere in the Atlantic." title="President Franklin D. Roosevelt entertained at dinner for British Prime Minister Winston Churchill aboard the U.S. cruiser Augusta on Aug. 9, 1941, somewhere in the Atlantic."></div>
+              <span>We Need an Atlantic Charter for the Post-Coronavirus Era</span>
+          </a>
+      </li>
+      
+
+      
+  
+
+      
+      <li class="grid_2">
+          <a href="https://www.govexec.com/assets/battlefield-advantage-how-does-technology-boost-situational-awareness-warfighters/portal/?oref=d1-skybox"
+             class="sponsored"
+             rel="nofollow"
+             
+                 target="_blank"
+             
+          >
+              <div><img src="https://cdn.defenseone.com/media/img/upload/2020/04/14/Screen_Shot_2020-04-14_at_4.54.40_PM/defense-skybox.png" alt="" title=""></div>
+              <div>Sponsor Content</div>
+              <span>Battlefield Advantage: How Does Technology Boost Situational Awareness for Warfighters?</span>
+          </a>
+
+          
+      </li>
+      
+      
+
+      
+
+      
+  
+  </ul>
+
+  <ul class="counter">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+  </ul>
+
+  <a class="button" href="javascript:;" ></a>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="d1-top-ad hidemobile hidetablet">
+      
+  <div
+    
+    class="ad ad-topleader"
+  >
+    <div class="ad-container">
+      
+        
+          <div
+            
+              class="hidetablet hidemobile"
+            
+          >
+            
+    
+      <script
+        class="ad-stub ad-stub-desktop"
+        data-ad-unit="/617/defenseone.com/section_politics/content/pid_164363"
+        data-ad-sizes="728x90,728x300,970x250"
+        
+        
+        
+          data-ad-targeting='4d188d34-d4cd-425a-9463-aee4f50f294d'
+        
+        
+      >
+      
+        GEMG.GPT.targeting.slot['4d188d34-d4cd-425a-9463-aee4f50f294d'] = {
+        
+          'pos': [
+            'topleader'
+          ],
+        
+          'level': [
+            '1'
+          ]
+        
+        };
+      
+      </script>
+    
+  
+          </div>
+        
+      
+      
+          
+    
+      <noscript class="ad-noscript">
+        
+          <a href="https://pubads.g.doubleclick.net/gampad/jump?tile=1&amp;sz=728x300%7C728x90%7C970x250&amp;c=541357508&amp;iu=%2F617%2Fdefenseone.com%2Fsection_politics%2Fcontent%2Fpid_164363&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dtopleader%26level%3D1">
+            <img src="https://pubads.g.doubleclick.net/gampad/ad?tile=1&amp;sz=728x300%7C728x90%7C970x250&amp;c=541357508&amp;iu=%2F617%2Fdefenseone.com%2Fsection_politics%2Fcontent%2Fpid_164363&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dtopleader%26level%3D1"/>
+          </a>
+        
+      </noscript>
+    
+  
+      
+    </div>
+  </div>
+
+
+    </div>
+    
+    <div class="d1-sticky-nav">
+  <div class="d1-sticky-nav-inner">
+    
+      <a class="d1-sticky-nav-logo logo" href="/?oref=d-logo">Defense One</a>
+    
+    <button class="d1-sticky-nav-opener d1-sticky-nav-opener-items">
+      <span class="d1-sticky-nav-opener-open-icon gemg-icon icon-ico-menu"></span>
+      <span class="d1-sticky-nav-opener-close-icon gemg-icon icon-ico-close"></span>
+    </button>
+    <button class="d1-sticky-nav-opener d1-sticky-nav-opener-search">
+      <span class="d1-sticky-nav-opener-search-icon gemg-icon icon-ico-search"></span>
+    </button>
+    
+      
+      <ul class="d1-sticky-nav-social">
+        
+        <li class="d1-sticky-nav-social-item d1-sticky-nav-social-facebook">
+          <a
+            class="d1-sticky-nav-social-link gemg-icon icon-ico-facebook"
+            href="https://www.facebook.com/dialog/feed?picture=https%3A%2F%2Fcdn.defenseone.com%2Fmedia%2Fimg%2Fupload%2F2020%2F04%2F03%2F6030298%2Fopen-graph.jpg&redirect_uri=https%3A%2F%2Fwww.defenseone.com&link=https%3A%2F%2Fwww.defenseone.com%2Fpolitics%2F2020%2F04%2Fit-doesnt-add-me-current-and-former-navy-officials-question-captains-abrupt-dismissal%2F164363%2F&app_id=1546266055584988&display=popup"
+            target="_blank"
+          >
+            <span class="d1-sr-only">Facebook</span>
+          </a>
+        </li>
+        
+
+        
+        <li class="d1-sticky-nav-social-item d1-sticky-nav-social-twitter">
+          <a
+            class="d1-sticky-nav-social-link gemg-icon icon-ico-twitter"
+            href="https://twitter.com/share?url=https%3A%2F%2Fwww.defenseone.com%2Fpolitics%2F2020%2F04%2Fit-doesnt-add-me-current-and-former-navy-officials-question-captains-abrupt-dismissal%2F164363%2F&text=%E2%80%98It+Doesn%E2%80%99t+Add+Up+To+Me%E2%80%99%3A+Current+and+Former+Navy+Officials+Question+Captain%E2%80%99s+Abrupt+Dismissal&via=defenseone"
+            target="_blank"
+          >
+            <span class="d1-sr-only">Twitter</span>
+          </a>
+        </li>
+        
+
+        
+        <li class="d1-sticky-nav-social-item d1-sticky-nav-social-linkedin">
+          <a
+            class="d1-sticky-nav-social-link gemg-icon icon-ico-linkedin"
+            href="http://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.defenseone.com%2Fpolitics%2F2020%2F04%2Fit-doesnt-add-me-current-and-former-navy-officials-question-captains-abrupt-dismissal%2F164363%2F&mini=true&summary=%E2%80%9CWhy+wasn%E2%80%99t+there+an+investigation+done+before+the+captain+was+relieved%3F%E2%80%9D+one+former+senior+official+asked.&source=DefenseOne.com&title=%E2%80%98It+Doesn%E2%80%99t+Add+Up+To+Me%E2%80%99%3A+Current+and+Former+Navy+Officials+Question+Captain%E2%80%99s+Abrupt+Dismissal"
+            target="_blank"
+          >
+            <span class="d1-sr-only">LinkedIn</span>
+          </a>
+        </li>
+        
+
+        
+        <li class="d1-sticky-nav-social-item d1-sticky-nav-social-email">
+          <a
+            class="d1-sticky-nav-social-link gemg-icon icon-ico-email-circle addthis_button_email"
+            href="#"
+            rel="nofollow"
+            title="Email this article"
+            addthis:title=""
+          >
+            <span class="d1-sr-only">Email</span>
+          </a>
+        </li>
+        
+
+      </ul>
+      
+    
+    <div class="d1-sticky-nav-clipper d1-sticky-nav-search-clipper">
+      <form id="search" class="d1-sticky-nav-search" action="/search/">
+        <span class="d1-sticky-nav-search-icon-container">
+          <span class="d1-sticky-nav-search-icon gemg-icon icon-ico-search" aria-hidden="true"></span>
+        </span>
+        <input class="d1-sticky-nav-search-text" type="text" value="Search..." name="q" autocomplete="off" required>
+        <button class="d1-sticky-nav-search-submit" type="submit">
+          <span class="d1-sticky-nav-search-submit-icon">&rarr;</span>
+        </button>
+      </form>
+    </div>
+    <div id="d1-sticky-nav-newsletters">
+      <a class="d1-sticky-nav-newsletters-link" href="/newsletters?oref=d-nav">Newsletters</a>
+    </div>
+    <div class="d1-sticky-nav-clipper d1-sticky-nav-items-clipper">
+      <nav class="d1-sticky-nav-items-container">
+        <ul class="d1-nav-items">
+  <li class="d1-nav-item ">
+    <a class="d1-nav-item-link" href="/news/?oref=d-nav">News</a>
+  </li>
+  <li class="d1-nav-item ">
+    <a class="d1-nav-item-link" href="/threats/?oref=d-nav">Threats</a>
+  </li>
+  <li class="d1-nav-item highlighted">
+    <a class="d1-nav-item-link" href="/politics/?oref=d-nav">Politics</a>
+  </li>
+  <li class="d1-nav-item ">
+    <a class="d1-nav-item-link" href="/business/?oref=d-nav">Business</a>
+  </li>
+  <li class="d1-nav-item ">
+    <a class="d1-nav-item-link" href="/technology/?oref=d-nav">Tech</a>
+  </li>
+  <li class="d1-nav-item ">
+    <a class="d1-nav-item-link" href="/ideas/?oref=d-nav">Ideas</a>
+  </li>
+  <div class="d1-nav-item-horizontal-rule"></div>
+  <li class="d1-nav-item ">
+    <a class="d1-nav-item-link d1-nav-item-link-mobile" href="/events?oref=d-nav">Events</a>
+  </li>
+  <li class="d1-nav-item last">
+    <a class="d1-nav-item-link d1-nav-item-link-mobile" href="/newsletters?oref=d-nav">Newsletters</a>
+  </li>
+</ul>
+      </nav>
+    </div>
+  </div>
+</div>
+  </header>
+
+
+<div id="outer_content_container">
+  
+  <div id="gutter" class="hidetablet hidemobile">
+    
+  <div
+    
+    class="ad ad-gutter"
+  >
+    <div class="ad-container">
+      
+        
+          <div
+            
+              class="hidetablet hidemobile"
+            
+          >
+            
+    
+      <script
+        class="ad-stub ad-stub-desktop"
+        data-ad-unit="/617/defenseone.com/section_politics/content/pid_164363"
+        data-ad-sizes="460x800"
+        
+        
+        
+          data-ad-targeting='b1ed536a-4961-44fe-bced-a8b3982fe371'
+        
+        
+      >
+      
+        GEMG.GPT.targeting.slot['b1ed536a-4961-44fe-bced-a8b3982fe371'] = {
+        
+          'pos': [
+            'gutter'
+          ],
+        
+          'level': [
+            '2'
+          ]
+        
+        };
+      
+      </script>
+    
+  
+          </div>
+        
+      
+      
+          
+    
+  
+      
+    </div>
+  </div>
+
+
+  </div>
+  
+
+  
+    <div class="container_12 content">
+      
+  <div class="grid_8 d1-article article dont-miss-compare-with">
+    <article class="article-for-flyin js-article-current" data-id="164363">
+      <h1 class="d1-post-title">
+        
+        <span class="d1-post-title-text">‘It Doesn’t Add Up To Me’: Current and Former Navy Officials Question Captain’s Abrupt&nbsp;Dismissal</span>
+      </h1>
+
+      <div class="d1-lead-image-container">
+        
+          <img src="https://cdn.defenseone.com/media/img/upload/2020/04/03/6030298/defense-large.jpg" alt="Capt. Brett Crozier, commanding officer of the aircraft carrier USS Theodore Roosevelt (CVN 71), addresses the crew Jan. 17, 2020" title="Capt. Brett Crozier, commanding officer of the aircraft carrier USS Theodore Roosevelt (CVN 71), addresses the crew Jan. 17, 2020">
+        
+      </div>
+
+      <div class="d1-article-sidebar-meta">
+
+        
+
+        
+<ul class="d1-article-author-bio-short">
+  
+    <li class="d1-article-author-bio-short-item">
+      
+        <span class="d1-article-author-bio-short-item-img">
+          <img src="https://cdn.defenseone.com/media/img/upload/2018/11/30/Williams_KatieBo/defense-one-article.jpg"  />
+        </span>
+      
+
+      <span class="d1-article-author-bio-short-item-byline">
+        By
+        Katie Bo Williams
+      </span>
+
+      
+        <span class="d1-article-author-bio-short-item-title">
+          Senior National Security Correspondent
+        </span>
+      
+
+      
+        <a class="d1-article-author-bio-short-item-link" href="/voices/katie-bo-williams/14006/?oref=d-article-author">
+          Read bio<span class="gemg-icon icon-ico-arrowright"></span>
+        </a>
+      
+    </li>
+  
+</ul>
+
+
+        
+        <p class="d1-article-pub-date">
+          April 3, 2020
+        </p>
+        
+
+        
+          <div class="d1-article-topics-module">
+            <p class="d1-article-topics-module-title">
+              <span class="d1-article-topics-module-title-text">Topics</span>
+            </p>
+            <ul class="d1-article-topics-module-items">
+              
+                <li class="d1-article-topics-module-item">
+                  <a class="d1-article-topics-module-item-link" href="/topic/navy/?oref=d-article-topics">
+                    <span class="d1-article-topics-module-item-link-inner-a">
+                      <span class="d1-article-topics-module-item-link-inner-b">
+                        Navy
+                      </span>
+                    </span>
+                  </a>
+                </li>
+              
+                <li class="d1-article-topics-module-item">
+                  <a class="d1-article-topics-module-item-link" href="/topic/coronavirus/?oref=d-article-topics">
+                    <span class="d1-article-topics-module-item-link-inner-a">
+                      <span class="d1-article-topics-module-item-link-inner-b">
+                        Coronavirus
+                      </span>
+                    </span>
+                  </a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+      </div>
+
+      <div
+        
+          
+            class="d1-lead-image-caption-container"
+          
+        
+      >
+        
+          <p class="d1-lead-image-caption-attribution">
+            
+              <a class="d1-lead-image-caption-attribution-btn" href="javascript:void(0)" onclick="return false;">
+                <span class="d1-lead-image-caption-attribution-text">
+                  U.S. Navy photo by Mass Communication Specialist Seaman Alexander Williams
+                  <span class="d1-dropdown-arrow d1-dropdown-expand-arrow"></span>
+                </span>
+              </a>
+            
+          </p>
+        
+
+        <span class="article-controls">
+  <a href="#" class="increase-font">
+    A<span class="small">A</span>
+    <span class="increase-font-text">Font size +</span>
+  </a>
+  <a class="print" href="/politics/2020/04/it-doesnt-add-me-current-and-former-navy-officials-question-captains-abrupt-dismissal/164363/print/" target="_blank">Print</a>
+</span>
+
+        
+          <p class="d1-lead-image-caption-text d1-lead-image-has-caption-attribution">
+            Capt. Brett Crozier, commanding officer of the aircraft carrier USS Theodore Roosevelt (CVN 71), addresses the crew Jan. 17, 2020
+          </p>
+        
+
+      </div>
+
+      <ul class="d1-social-article">
+  <li class="d1-social-article-link">
+    <a
+      class="gemg-icon icon-ico-facebook"
+      href="https://www.facebook.com/dialog/feed?picture=https%3A%2F%2Fcdn.defenseone.com%2Fmedia%2Fimg%2Fupload%2F2020%2F04%2F03%2F6030298%2Fopen-graph.jpg&redirect_uri=https%3A%2F%2Fwww.defenseone.com&link=https%3A%2F%2Fwww.defenseone.com%2Fpolitics%2F2020%2F04%2Fit-doesnt-add-me-current-and-former-navy-officials-question-captains-abrupt-dismissal%2F164363%2F&app_id=1546266055584988&display=popup"
+      target="_blank"
+    >
+      <span class="d1-sr-only">Facebook</span>
+    </a>
+  </li>
+  <li class="d1-social-article-link">
+    <a
+      class="gemg-icon icon-ico-twitter"
+      href="https://twitter.com/share?url=https%3A%2F%2Fwww.defenseone.com%2Fpolitics%2F2020%2F04%2Fit-doesnt-add-me-current-and-former-navy-officials-question-captains-abrupt-dismissal%2F164363%2F&text=%E2%80%98It+Doesn%E2%80%99t+Add+Up+To+Me%E2%80%99%3A+Current+and+Former+Navy+Officials+Question+Captain%E2%80%99s+Abrupt+Dismissal&via=defenseone"
+      target="_blank"
+    >
+      <span class="d1-sr-only">Twitter</span>
+    </a>
+  </li>
+  <li class="d1-social-article-link">
+    <a
+      class="gemg-icon icon-ico-linkedin"
+      href="http://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.defenseone.com%2Fpolitics%2F2020%2F04%2Fit-doesnt-add-me-current-and-former-navy-officials-question-captains-abrupt-dismissal%2F164363%2F&mini=true&summary=%E2%80%9CWhy+wasn%E2%80%99t+there+an+investigation+done+before+the+captain+was+relieved%3F%E2%80%9D+one+former+senior+official+asked.&source=DefenseOne.com&title=%E2%80%98It+Doesn%E2%80%99t+Add+Up+To+Me%E2%80%99%3A+Current+and+Former+Navy+Officials+Question+Captain%E2%80%99s+Abrupt+Dismissal"
+      target="_blank"
+    >
+        <span class="d1-sr-only">LinkedIn</span>
+    </a>
+  </li>
+  <li class="d1-social-article-link">
+    <a
+      class="addthis_button_email gemg-icon icon-ico-email-circle"
+      href="#"
+      rel="nofollow"
+      title="Email this article"
+    >
+      <span class="d1-sr-only">Email this article</span>
+    </a>
+  </li>
+</ul>
+
+      <div class="d1-article-sidebar-meta-mobile">
+
+        
+
+        
+<ul class="d1-article-author-bio-short">
+  
+    <li class="d1-article-author-bio-short-item">
+      
+        <span class="d1-article-author-bio-short-item-img">
+          <img src="https://cdn.defenseone.com/media/img/upload/2018/11/30/Williams_KatieBo/defense-one-article.jpg"  />
+        </span>
+      
+
+      <span class="d1-article-author-bio-short-item-byline">
+        By
+        Katie Bo Williams
+      </span>
+
+      
+        <span class="d1-article-author-bio-short-item-title">
+          Senior National Security Correspondent
+        </span>
+      
+
+      
+        <a class="d1-article-author-bio-short-item-link" href="/voices/katie-bo-williams/14006/?oref=d-article-author">
+          Read bio<span class="gemg-icon icon-ico-arrowright"></span>
+        </a>
+      
+    </li>
+  
+</ul>
+
+
+        
+        <p class="d1-article-pub-date">
+          April 3, 2020
+        </p>
+        
+
+      </div>
+
+      
+  <div
+    
+    class="ad ad-defenseone-left-rail"
+  >
+    <div class="ad-container">
+      
+        
+          <div
+            
+              class="hidedesk hidemobile"
+            
+          >
+            
+    
+      <script
+        class="ad-stub ad-stub-tablet"
+        data-ad-unit="/617/defenseone.com/section_politics/content/pid_164363"
+        data-ad-sizes="300x250"
+        
+        
+        
+          data-ad-targeting='5fe0ce58-29c2-4660-8246-e88eb9deceff'
+        
+        
+      >
+      
+        GEMG.GPT.targeting.slot['5fe0ce58-29c2-4660-8246-e88eb9deceff'] = {
+        
+          'pos': [
+            'defenseone-left-rail'
+          ],
+        
+          'level': [
+            '3'
+          ]
+        
+        };
+      
+      </script>
+    
+  
+          </div>
+        
+      
+      
+          
+    
+      <noscript class="ad-noscript">
+        
+          <a href="https://pubads.g.doubleclick.net/gampad/jump?tile=2&amp;sz=300x250&amp;c=295823716&amp;iu=%2F617%2Fdefenseone.com%2Fsection_politics%2Fcontent%2Fpid_164363&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Ddefenseone-left-rail%26level%3D2">
+            <img src="https://pubads.g.doubleclick.net/gampad/ad?tile=2&amp;sz=300x250&amp;c=295823716&amp;iu=%2F617%2Fdefenseone.com%2Fsection_politics%2Fcontent%2Fpid_164363&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Ddefenseone-left-rail%26level%3D2"/>
+          </a>
+        
+      </noscript>
+    
+  
+      
+    </div>
+  </div>
+
+
+
+      
+        <p class="d1-article-subhead">
+          <span class="d1-article-subhead-inner-a">
+            <span class="d1-article-subhead-inner-b">
+              <span class="d1-article-subhead-inner-c">
+                “Why wasn’t there an investigation done before the captain was relieved?” one former senior official asked.
+              </span>
+            </span>
+          </span>
+        </p>
+      
+
+      <div class="text d1-article-content">
+        
+        
+        
+        
+
+        
+          
+            
+          
+          
+        
+
+        
+        
+        <p>Acting <span class="caps">U.S.</span> Navy Secretary Thomas Modly’s <a href="https://www.defenseone.com/threats/2020/04/aircraft-carrier-captain-fired-poor-judgement-over-coronavirus-letter/164336/?oref=d1-in-article">dismissal</a> of a beloved captain who raised concerns about the health of sailors aboard the aircraft carrier Theodore Roosevelt sparked swift and sudden outrage from lawmakers and former service members who saw the move as retribution.</p>
+<p>But within the Navy, the move left sailors, Marines, and former senior leaders more confused than angry. The <a href="https://twitter.com/navybook/status/1245381159938392064">timeline</a> leading up to the abrupt relief of Capt. Brett Crozier raíses more questions that it answers about why Crozier felt compelled to go outside of his chain of command to raise alarm bells about the situation on board the Roosevelt, these people said — and why, less than a day after claiming that it wasn’t going to “shoot the messenger,” the Navy fired him. </p>
+<p>“Why wasn’t there an investigation done before the captain was relieved? Because clearly somebody in his position — a carrier <span class="caps">CO</span> who was headed upward with a bullet — why would he do this if he hadn’t been stymied somewhere in the chain of command?” said one former senior Navy official, who like other current and former officials said Crozier would have been acutely aware that his actions would cost him his career. </p>
+<p>Crozier on March 30 wrote a <a href="https://www.sfchronicle.com/bayarea/article/Exclusive-Captain-of-aircraft-carrier-with-15167883.php">letter</a> pleading for help in protecting his sailors from a growing coronavirus outbreak on the carrier, sending the four-page missive to dozens of military leaders inside and outside of his chain of command. It was quickly leaked by an anonymous source to the <em>San Francisco Chronicle</em>, whose <a href="https://www.sfchronicle.com/bayarea/article/Exclusive-Captain-of-aircraft-carrier-with-15167883.php">article</a> on the situation drew worldwide attention. According to Modly, the assistance that Crozier had asked for was already on the way when he wrote the letter, and Crozier’s immediate superior officer, the commander of the Roosevelt strike group, was “berthed 20 or 20 feet down the passageway from him.” Speaking to the radio talk show host Hugh Hewitt on Friday, Modly also said that he had given Crozier his personal cellphone number. </p><div class="d1-article-left-rail-subscribe-container">
+<p class="d1-article-sidebar-subscribe-title">
+<span class="d1-article-sidebar-subscribe-title-text">Subscribe</span>
+</p>
+<p class="d1-article-sidebar-subscribe-msg"><em>Receive daily email updates:</em></p>
+<p class="d1-article-sidebar-subscribe-msg">Subscribe to the Defense One daily.</p>
+<p class="d1-article-sidebar-subscribe-msg">Be the first to receive updates.</p>
+<form action="/newsletters/subscribe/" class="d1-article-subscribe" data-form-name="d1-extra-subscribe" method="post" name="defenseform">
+<input name="newsletter_signup_source" type="hidden" value="d1-article-inline"/>
+<input name="newsletter:newsletter_d1_today" type="hidden" value="1"/>
+<span aria-hidden="true" class="d1-article-subscribe-email-icon gemg-icon icon-ico-email"></span>
+<input autocomplete="email" class="d1-article-subscribe-email nl-email-address" name="email_address" placeholder="Enter your email" required="" type="email"/>
+<input class="d1-article-subscribe-submit" name="Subscribe" type="submit" value="Subscribe"/>
+</form>
+</div>
+<p>“At no time did the <span class="caps">CO</span> relay the various levels of alarm that I, along with the rest of the world, learned from his letter when it was published by the <span class="caps">CO</span>’s hometown newspaper,” he told Pentagon reporters Thursday. </p>
+<p>At first, the Navy signaled that it wasn’t going to penalize Crozier. </p>
+<p>“We’re not looking to shoot the messenger here,” Chief of Naval Operations Adm. Michael Gilday said on Wednesday.</p>
+<p>But late on Thursday afternoon, Modly and Gilday called a hasty press conference to announce Crozier’s relief. Crozier showed “poor judgment” by sending the letter to so many people, the acting secretary said. By allowing the letter to go to so many people, virtually ensuring it would leak, Modly said, “It creates a panic, and it creates the perception that the Navy is not on the job, the government’s not on the job, and it’s just not true.” </p>
+<p>But those explanations didn’t satisfy service members and former officials watching from the outside. </p>
+<p>“Something else is going on, and lots of folks are questioning the statement by <span class="caps">SECNAV</span> in the press brief, ‘help was on the way,’” said one defense official. “If that were true, and had been communicated to this very senior Navy captain, I cannot imagine that he would draft, much less forward, such a memo. “</p>
+<p>“We all believe that the memo doesn’t tell the full story, and the <span class="caps">SECNAV</span>’s transparent press conference doesn’t either,” that official said. “So, I am reluctant to pass judgement either way.”</p>
+<p>Crozier was hailed as a hero by his crew. By Friday morning, <a href="https://www.facebook.com/michael.washington.5458/videos/10216506735516262/?d=n">videos</a> surfaced of hundreds of sailors gathered to see him off the ship, chanting his name — “Cap-tain Cro-zier!” — and clapping their hands.</p>
+<p>Some outside analysts and former Navy officials have supported the decision to dismiss Crozier, arguing that the chain of command is sacrosanct and violations cannot be tolerated — even when they are done with the best of intentions.</p>
+<p>“The country simply cannot have a Navy in which its commanders are freely communicating their concerns open source, <span class="caps">NO</span> <span class="caps">MATTER</span> <span class="caps">HOW</span> <span class="caps">RIGHT</span> <span class="caps">CROZIER</span> <span class="caps">WAS</span> <span class="caps">IN</span> <span class="caps">THIS</span> <span class="caps">PARTICULAR</span> <span class="caps">CIRCUMSTANCE</span>,” Bryan McGrath, the managing director of the defense consultancy The Ferry Bridge Group and a retired naval officer who commanded the guided missile destroyer <span class="caps">USS</span> Bulkeley for two years, <a href="https://twitter.com/ConsWahoo/status/1246079067637587968">tweeted</a> in a lengthy thread about the dismissal that defended both Crozier and Modly. “The <span class="caps">NORM</span> must be the chain of command. That <span class="caps">NORM</span> must be protected institutionally by those entrusted with its upkeep.” </p>
+<p>But even if Modly’s decision to relieve him of his role as <span class="caps">CO</span> of the Roosevelt was justified — Crozier is still a captain in the Navy — his previous decision to provide the captain with his call phone is “very odd,” the former senior official said, and raises questions about the circumstances leading up to his dismissal. </p>
+<p>“This is an invitation to ignore the chain of command. If he had used that cellphone number, his career was over with too — because the Navy would have gotten to him somehow.”</p>
+<p>“The sequence doesn’t add up. Somebody failed beside the captain, and you need to know who.”</p>
+<p>Modly on Thursday announced that he would launch an investigation into the 7th Fleet’s command climate to see what other factors might have led Crozier to send his letter.</p>
+<p>But a group of Democratic senators on the Armed Services Committee has <a href="https://twitter.com/phildstewart/status/1246139491938643968">asked</a> the Pentagon inspector general to open an investigation into the firing. </p>
+<p><span class="dquo">“</span>Given the extraordinary circumstances under which these events took place, we believe a closer examination by a neutral third party is warranted,” the group <a href="https://www.reuters.com/article/us-health-coronavirus-usa-navy-probe-idUSKBN21L2UZ">wrote</a>, according to Reuters. </p>
+<p>The House Armed Services Committee will almost certainly hold a hearing on the matter when Congress is able to return to Washington — <span class="caps">COVID</span>-19 has kept lawmakers at home since it passed the latest stimulus package — said Rep. Ruben Gallego, D-Ariz., a member of the panel and a retired Marine who served in Iraq. </p>
+<p>“I want to know how many times there was outreach from Commander Crozier to <span class="caps">PACOM</span> or the SecNav. I want to know what was the communication between the SecNav and the SecDef and if there was any communication from the <span class="caps">WH</span> to the SecDef,” Gallego said. “I also want to know were there any further restrictions in terms of communication and transparency put on our commanders — not just this commander, but other commanders around the world.”</p>
+<p>Several current officials who spoke to <em>Defense One</em> on the condition of anonymity said that because of the confusion surrounding the circumstances of Crozier’s relief, the incident is likely to make other commanders think twice about reporting safety concerns over coronavirus.</p>
+<p>“Right now, what they are saying out there to every commander is ‘don’t complain too much and if you embarrass us, we’re going to fire you’,” Gallego said. </p>
+<p>In part, what makes Crozier’s termination extraordinary is the speed with which it happened compared to other high-profile Navy firings. The commanding officer of the <span class="caps">USS</span> Fitzgerald wasn’t removed for 24 days after a 2017 collision that drowned seven sailors. It took 41 days for the <span class="caps">CO</span> of the <span class="caps">USS</span> John McCain to be relieved after a similar incident that killed ten sailors.</p>
+<p>“It doesn’t add up to me. It took these guys…months to fire the captain of the <span class="caps">USS</span> McCain after seven or eight men died,” Gallego said. “Their actions were so sudden, it’s mind-boggling, to be honest.”<img class="tombstone" src="https://cdn.defenseone.com/a/defenseone/img/article-end.png"/></p>
+
+        
+
+        
+
+        
+
+      </div>
+
+      
+        <ul class="d1-article-author-bio">
+          
+            
+              <li class="d1-article-author-bio-item">
+                
+                  <span class="d1-article-author-bio-item-text">
+                    Katie Bo Williams is the senior national security correspondent for Defense One, where she writes about defense, counterterror, NATO, nukes, and more. She previously covered intelligence and cybersecurity for The Hill, including in-depth reporting on the Russia investigations and military ...
+                  </span>
+                  <a class="d1-article-author-bio-item-link" href="/voices/katie-bo-williams/14006/?oref=d-article-author">
+                    Full bio<span class="gemg-icon icon-ico-arrowright"></span>
+                  </a>
+                
+              </li>
+            
+          
+        </ul>
+      
+
+      
+
+      <ul class="d1-social-article">
+  <li class="d1-social-article-link">
+    <a
+      class="gemg-icon icon-ico-facebook"
+      href="https://www.facebook.com/dialog/feed?picture=https%3A%2F%2Fcdn.defenseone.com%2Fmedia%2Fimg%2Fupload%2F2020%2F04%2F03%2F6030298%2Fopen-graph.jpg&redirect_uri=https%3A%2F%2Fwww.defenseone.com&link=https%3A%2F%2Fwww.defenseone.com%2Fpolitics%2F2020%2F04%2Fit-doesnt-add-me-current-and-former-navy-officials-question-captains-abrupt-dismissal%2F164363%2F&app_id=1546266055584988&display=popup"
+      target="_blank"
+    >
+      <span class="d1-sr-only">Facebook</span>
+    </a>
+  </li>
+  <li class="d1-social-article-link">
+    <a
+      class="gemg-icon icon-ico-twitter"
+      href="https://twitter.com/share?url=https%3A%2F%2Fwww.defenseone.com%2Fpolitics%2F2020%2F04%2Fit-doesnt-add-me-current-and-former-navy-officials-question-captains-abrupt-dismissal%2F164363%2F&text=%E2%80%98It+Doesn%E2%80%99t+Add+Up+To+Me%E2%80%99%3A+Current+and+Former+Navy+Officials+Question+Captain%E2%80%99s+Abrupt+Dismissal&via=defenseone"
+      target="_blank"
+    >
+      <span class="d1-sr-only">Twitter</span>
+    </a>
+  </li>
+  <li class="d1-social-article-link">
+    <a
+      class="gemg-icon icon-ico-linkedin"
+      href="http://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.defenseone.com%2Fpolitics%2F2020%2F04%2Fit-doesnt-add-me-current-and-former-navy-officials-question-captains-abrupt-dismissal%2F164363%2F&mini=true&summary=%E2%80%9CWhy+wasn%E2%80%99t+there+an+investigation+done+before+the+captain+was+relieved%3F%E2%80%9D+one+former+senior+official+asked.&source=DefenseOne.com&title=%E2%80%98It+Doesn%E2%80%99t+Add+Up+To+Me%E2%80%99%3A+Current+and+Former+Navy+Officials+Question+Captain%E2%80%99s+Abrupt+Dismissal"
+      target="_blank"
+    >
+        <span class="d1-sr-only">LinkedIn</span>
+    </a>
+  </li>
+  <li class="d1-social-article-link">
+    <a
+      class="addthis_button_email gemg-icon icon-ico-email-circle"
+      href="#"
+      rel="nofollow"
+      title="Email this article"
+    >
+      <span class="d1-sr-only">Email this article</span>
+    </a>
+  </li>
+</ul>
+
+      
+        <div class="d1-article-bottom-subscribe-container">
+          
+            
+<form
+  class="d1-article-subscribe"
+  action="/newsletters/subscribe/"
+  method="post"
+  name="defenseform"
+  data-form-name="d1-extra-subscribe"
+>
+  <input type="hidden" name="newsletter_signup_source" value="d1-article-inline"/>
+  <input type="hidden" name="newsletter:newsletter_d1_today" value="1" />
+  <span class="d1-article-subscribe-email-icon gemg-icon icon-ico-email" aria-hidden="true"></span>
+  <input class="d1-article-subscribe-email nl-email-address" name="email_address" type="email" placeholder="Enter your email to get daily updates" required autocomplete="email">
+  <input class="d1-article-subscribe-submit" type="submit" name="Subscribe" value="Subscribe">
+</form>
+
+          
+        </div>
+      
+
+    </article>
+
+  </div>
+
+  <div class="grid_4 d1-article-right-rail sidebar fright">
+    
+  <div
+    
+    class="ad ad-top-block"
+  >
+    <div class="ad-container">
+      
+        
+          <div
+            
+              class="hidetablet hidemobile"
+            
+          >
+            
+    
+      <script
+        class="ad-stub ad-stub-desktop"
+        data-ad-unit="/617/defenseone.com/section_politics/content/pid_164363"
+        data-ad-sizes="300x250,300x600,300x1000"
+        
+        
+        
+          data-ad-targeting='955bbf8b-5861-44cd-8bea-f19857272bcb'
+        
+        
+      >
+      
+        GEMG.GPT.targeting.slot['955bbf8b-5861-44cd-8bea-f19857272bcb'] = {
+        
+          'pos': [
+            'top-block'
+          ],
+        
+          'level': [
+            '4'
+          ]
+        
+        };
+      
+      </script>
+    
+  
+          </div>
+        
+      
+      
+          
+    
+      <noscript class="ad-noscript">
+        
+          <a href="https://pubads.g.doubleclick.net/gampad/jump?tile=3&amp;sz=300x600%7C300x250%7C300x1000&amp;c=968905515&amp;iu=%2F617%2Fdefenseone.com%2Fsection_politics%2Fcontent%2Fpid_164363&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dtop-block%26level%3D3">
+            <img src="https://pubads.g.doubleclick.net/gampad/ad?tile=3&amp;sz=300x600%7C300x250%7C300x1000&amp;c=968905515&amp;iu=%2F617%2Fdefenseone.com%2Fsection_politics%2Fcontent%2Fpid_164363&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dtop-block%26level%3D3"/>
+          </a>
+        
+      </noscript>
+    
+  
+      
+    </div>
+  </div>
+
+
+
+    
+  
+  
+  <div class="sideItem most-read">
+    <h4 class="most-read-title">
+      <span class="most-read-title-text">Most Read</span>
+    </h4>
+    <ol>
+      
+        <li class="most-read-item">
+          <span class="list-index">1</span>
+          <a href="/business/2020/04/pentagon-urges-mexico-reopen-covid-closed-factories-supply-us-weapon-makers/164756/?oref=d-mostread">
+            <div></div>
+            <span>Pentagon Urges Mexico to Reopen <span class="caps">COVID</span>-Closed Factories That Supply <span class="caps">US</span> Weapon&nbsp;Makers</span>
+          </a>
+        </li>
+      
+        <li class="most-read-item">
+          <span class="list-index">2</span>
+          <a href="/threats/2020/04/inside-wild-final-week-acting-navy-secretary/164710/?oref=d-mostread">
+            <div></div>
+            <span>Inside the Wild Final Week of the Acting Navy&nbsp;Secretary</span>
+          </a>
+        </li>
+      
+        <li class="most-read-item">
+          <span class="list-index">3</span>
+          <a href="/ideas/2020/04/without-more-tests-america-cant-reopen/164733/?oref=d-mostread">
+            <div></div>
+            <span>Without More Tests, America Can’t&nbsp;Reopen</span>
+          </a>
+        </li>
+      
+    </ol>
+  </div>
+  
+
+
+    
+  <div
+    
+    class="ad ad-bottom-block"
+  >
+    <div class="ad-container">
+      
+        
+          <div
+            
+              class="hidetablet hidemobile"
+            
+          >
+            
+    
+      <script
+        class="ad-stub ad-stub-desktop"
+        data-ad-unit="/617/defenseone.com/section_politics/content/pid_164363"
+        data-ad-sizes="300x250"
+        
+        
+        
+          data-ad-targeting='79cf856f-d47e-4d71-9ee5-0794aed605e6'
+        
+        
+      >
+      
+        GEMG.GPT.targeting.slot['79cf856f-d47e-4d71-9ee5-0794aed605e6'] = {
+        
+          'pos': [
+            'bottom-block'
+          ],
+        
+          'level': [
+            '5'
+          ]
+        
+        };
+      
+      </script>
+    
+  
+          </div>
+        
+      
+      
+          
+    
+      <noscript class="ad-noscript">
+        
+          <a href="https://pubads.g.doubleclick.net/gampad/jump?tile=4&amp;sz=300x250&amp;c=637034175&amp;iu=%2F617%2Fdefenseone.com%2Fsection_politics%2Fcontent%2Fpid_164363&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dbottom-block%26level%3D4">
+            <img src="https://pubads.g.doubleclick.net/gampad/ad?tile=4&amp;sz=300x250&amp;c=637034175&amp;iu=%2F617%2Fdefenseone.com%2Fsection_politics%2Fcontent%2Fpid_164363&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dbottom-block%26level%3D4"/>
+          </a>
+        
+      </noscript>
+    
+  
+      
+    </div>
+  </div>
+
+
+
+    
+      <div class="d1-article-sidebar-subscribe-container">
+        
+          
+  <p class="d1-article-sidebar-subscribe-title">
+    <span class="d1-article-sidebar-subscribe-title-text">Subscribe</span>
+  </p>
+  
+    <p class="d1-article-sidebar-subscribe-msg"><em>Receive daily email updates:</em></p>
+    <p class="d1-article-sidebar-subscribe-msg">Subscribe to the Defense One daily.</p>
+    <p class="d1-article-sidebar-subscribe-msg">Be the first to receive updates.</p>
+  
+  
+<form
+  class="d1-article-subscribe"
+  action="/newsletters/subscribe/"
+  method="post"
+  name="defenseform"
+  data-form-name="d1-extra-subscribe"
+>
+  <input type="hidden" name="newsletter_signup_source" value="d1-right-rail"/>
+  <input type="hidden" name="newsletter:newsletter_d1_today" value="1" />
+  <span class="d1-article-subscribe-email-icon gemg-icon icon-ico-email" aria-hidden="true"></span>
+  <input class="d1-article-subscribe-email nl-email-address" name="email_address" type="email" placeholder="Enter your email" required autocomplete="email">
+  <input class="d1-article-subscribe-submit" type="submit" name="Subscribe" value="Subscribe">
+</form>
+
+
+        
+      </div>
+    
+
+  </div>
+
+  <div class="grid_4 d1-article-right-rail sidebar fright">
+    <div class="d1-article-dont-miss-container">
+      
+  
+  
+    <div class="dont-miss sideItem">
+      <h4 class="dont-miss-title">
+        <span class="dont-miss-title-text">Don't Miss</span>
+      </h4>
+      <ul class="dont-miss-section">
+        
+          <li
+            class="dont-miss-item  dont-miss-show
+                   "
+          >
+          <a
+            href="/threats/2020/04/coronavirus-escaped-chinese-bioweapon-heres-what-pentagon-says/164612/?oref=d-dontmiss"
+            
+            >
+            <div>
+              
+              <img src="https://cdn.defenseone.com/media/img/upload/2020/04/14/AP_20064389428481_1/thumb.jpg"
+     alt="In this Monday, March 2, 2020 file photo, U.S. Defense Secretary Mark Esper, left, speaks during a briefing with the Chairman of the Joint Chiefs of Staff Army Gen. Mark Milley, at the Pentagon in Washington. "
+     title="In this Monday, March 2, 2020 file photo, U.S. Defense Secretary Mark Esper, left, speaks during a briefing with the Chairman of the Joint Chiefs of Staff Army Gen. Mark Milley, at the Pentagon in Washington. "
+     
+     height="83" 
+     width="138" 
+/>
+
+
+            </div>
+            Did the Coronavirus Escape from a Chinese Lab? Here’s What the Pentagon&nbsp;Says
+          </a>
+          </li>
+        
+          <li
+            class="dont-miss-item  dont-miss-show
+                   "
+          >
+          <a
+            href="/ideas/2020/04/ep-66-1918-flu-and-us-military/164559/?oref=d-dontmiss"
+            
+            >
+            <div>
+              
+              <img src="https://cdn.defenseone.com/media/img/upload/2020/04/10/D1R-tile_hi-res/thumb.jpg"
+     alt=""
+     title=""
+     
+     height="83" 
+     width="138" 
+/>
+
+
+            </div>
+            The 1918 flu and the U.S.&nbsp;military
+          </a>
+          </li>
+        
+          <li
+            class="dont-miss-item  dont-miss-show
+                   "
+          >
+          <a
+            href="/politics/2020/04/trump-removes-acting-pentagon-ig-slated-lead-pandemic-oversight/164432/?oref=d-dontmiss"
+            
+            >
+            <div>
+              
+              <img src="https://cdn.defenseone.com/media/img/upload/2020/04/07/D1-image-to-post_MrTHKfD/thumb.jpg"
+     alt="Glenn Fine, Acting Inspector General, U.S. Department Of Defense, testifies during a Senate Judiciary Committee hearing on Capitol Hill in Washington, Wednesday, Dec. 6, 2017."
+     title="Glenn Fine, Acting Inspector General, U.S. Department Of Defense, testifies during a Senate Judiciary Committee hearing on Capitol Hill in Washington, Wednesday, Dec. 6, 2017."
+     
+     height="83" 
+     width="138" 
+/>
+
+
+            </div>
+            Trump Removes Acting Pentagon <span class="caps">IG</span> Slated to Lead Pandemic <br>Oversight
+          </a>
+          </li>
+        
+          <li
+            class="dont-miss-item  dont-miss-show
+                   "
+          >
+          <a
+            href="/threats/2020/04/timeline-battle-uss-theodore-roosevelt/164408/?oref=d-dontmiss"
+            
+            >
+            <div>
+              
+              <img src="https://cdn.defenseone.com/media/img/upload/2020/04/07/D1-image-to-post/thumb.jpg"
+     alt="In this Dec. 15, 2019, photo, Capt. Brett Crozier, commanding officer of the aircraft carrier USS Theodore Roosevelt (CVN 71), addresses the crew during an all hands call on the ship&#39;s flight deck while training in the eastern Pacific Ocean. "
+     title="In this Dec. 15, 2019, photo, Capt. Brett Crozier, commanding officer of the aircraft carrier USS Theodore Roosevelt (CVN 71), addresses the crew during an all hands call on the ship&#39;s flight deck while training in the eastern Pacific Ocean. "
+     
+     height="83" 
+     width="138" 
+/>
+
+
+            </div>
+            The Battle of <span class="caps">USS</span> Theodore Roosevelt: a&nbsp;Timeline
+          </a>
+          </li>
+        
+          <li
+            class="dont-miss-item  dont-miss-show
+                   "
+          >
+          <a
+            href="/ideas/2020/04/nato-should-always-work-home/164528/?oref=d-dontmiss"
+            
+            >
+            <div>
+              
+              <img src="https://cdn.defenseone.com/media/img/upload/2020/04/10/nato_vidconf/thumb.jpg"
+     alt="Because of the coronavirus pandemic, for the first time NATO foreign ministers met by video conference and practiced social distancing for their meeting, Apr. 2, 2020."
+     title="Because of the coronavirus pandemic, for the first time NATO foreign ministers met by video conference and practiced social distancing for their meeting, Apr. 2, 2020."
+     
+     height="83" 
+     width="138" 
+/>
+
+
+            </div>
+            <span class="caps">NATO</span> Should Always Work From&nbsp;Home 
+          </a>
+          </li>
+        
+          <li
+            class="dont-miss-item  dont-miss-hide
+                   "
+          >
+          <a
+            href="/politics/2020/03/inside-pentagons-lurching-efforts-protect-its-people-coronavirus/164115/?oref=d-dontmiss"
+            
+            >
+            <div>
+              
+              <img src="https://cdn.defenseone.com/media/img/upload/2020/03/25/D1-image-to-post_9EqV0kj/thumb.jpg"
+     alt="Defense Secretary Mark Esper speaks as President Donald Trump listens during press briefing with the Coronavirus Task Force, at the White House, Wednesday, March 18, 2020, in Washington."
+     title="Defense Secretary Mark Esper speaks as President Donald Trump listens during press briefing with the Coronavirus Task Force, at the White House, Wednesday, March 18, 2020, in Washington."
+     
+     height="83" 
+     width="138" 
+/>
+
+
+            </div>
+            Inside the Pentagon’s Efforts To Protect Its People from the&nbsp;Coronavirus
+          </a>
+          </li>
+        
+          <li
+            class="dont-miss-item  dont-miss-hide
+                   "
+          >
+          <a
+            href="/politics/2020/04/pentagon-delays-budget-deadline-help-staff-work-home/164461/?oref=d-dontmiss"
+            
+            >
+            <div>
+              
+              <img src="https://cdn.defenseone.com/media/img/upload/2020/04/08/6099508_1/thumb.jpg"
+     alt="Deputy Defense Secretary David Norquist makes remarks during a February event at the Pentagon."
+     title="Deputy Defense Secretary David Norquist makes remarks during a February event at the Pentagon."
+     
+     height="83" 
+     width="138" 
+/>
+
+
+            </div>
+            Pentagon Delays Budget Deadline to Help Staff Work from&nbsp;Home
+          </a>
+          </li>
+        
+          <li
+            class="dont-miss-item  dont-miss-hide
+                   "
+          >
+          <a
+            href="/technology/2020/03/breaking-weve-got-vaccine-says-pentagon-funded-company/163739/?oref=d-dontmiss"
+            
+            >
+            <div>
+              
+              <img src="https://cdn.defenseone.com/media/img/upload/2020/03/12/D1-image-to-post_FhZb72m/thumb.jpg"
+     alt="In this 2014 photo, young tobacco plants of a unique variety grow in the greenhouse at Medicago USA, Inc. in Research Triangle Park, N.C. Through its plant-based technology, the facility is capable of producing millions of doses of vaccines."
+     title="In this 2014 photo, young tobacco plants of a unique variety grow in the greenhouse at Medicago USA, Inc. in Research Triangle Park, N.C. Through its plant-based technology, the facility is capable of producing millions of doses of vaccines."
+     
+     height="83" 
+     width="138" 
+/>
+
+
+            </div>
+            We’ve Got the Coronavirus Vaccine, Says Pentagon-Funded&nbsp;Company
+          </a>
+          </li>
+        
+          <li
+            class="dont-miss-item  dont-miss-hide
+                   "
+          >
+          <a
+            href="/threats/2020/03/ep-63-war-space/163611/?oref=d-dontmiss"
+            
+            >
+            <div>
+              
+              <img src="https://cdn.defenseone.com/media/img/upload/2020/03/07/D1R-tile_hi-res/thumb.jpg"
+     alt=""
+     title=""
+     
+     height="83" 
+     width="138" 
+/>
+
+
+            </div>
+            War in&nbsp;space
+          </a>
+          </li>
+        
+          <li
+            class="dont-miss-item  dont-miss-hide
+                   "
+          >
+          <a
+            href="/ideas/2020/02/america-must-shape-worlds-ai-norms-or-dictators-will/163392/?oref=d-dontmiss"
+            
+            >
+            <div>
+              
+              <img src="https://cdn.defenseone.com/media/img/upload/2020/02/27/D1-image-to-post_g9oYlxa/thumb.jpg"
+     alt=""
+     title=""
+     
+     height="83" 
+     width="138" 
+/>
+
+
+            </div>
+            4 Former SecDefs: America Must Shape the World’s <span class="caps">AI</span> Norms, or Dictators&nbsp;Will
+          </a>
+          </li>
+        
+          <li
+            class="dont-miss-item  dont-miss-hide
+                    sponsored"
+          >
+          <a
+            href="https://www.govexec.com/sponsor-content/solutions-mission-success-resource-center/?oref=d-dontmiss?oref=d-dontmiss"
+            
+              target="_blank"
+            
+            >
+            <div>
+              
+                <div class="sponsored-flag">SPONSOR CONTENT</div>
+              
+              <img src="https://cdn.defenseone.com/media/img/upload/2019/01/14/BAH-sponsoredimage-final2_DU2PokR/thumb.jpg"
+     alt=""
+     title=""
+     
+     height="83" 
+     width="138" 
+/>
+
+
+            </div>
+            Solutions for Mission&nbsp;Success
+          </a>
+          </li>
+        
+      </ul>
+    </div>
+  
+
+    </div>
+  </div>
+
+  <div class="grid_6 prefix_2">
+    
+      <div class="comments loadMore grey">
+        <p id="show_comments"><a href="#">Show Comments</a></p>
+        <p id="loading_comments" class="hidden">Loading...</p>
+        <p id="hide_comments" class="hidden"><a href="#">Hide Comments</a></p>
+      </div>
+      <div class="hidden comment-box" id="comments">
+        <p class="legal">
+          By using this service you agree not to post material that is obscene, harassing, defamatory, or
+          otherwise objectionable. Although Defenseone.com does not monitor comments posted to this site (and
+          has no obligation to), it reserves the right to delete, edit, or move any material that it deems
+          to be in violation of this rule.
+        </p>
+        <div id="disqus_thread"></div>
+        <div id="static_comments"></div>
+      </div>
+      <div class="clear"></div>
+      <script type="text/javascript">
+          var disqus_shortname = 'defenseone';
+          var disqus_identifier = 'post_164363';
+          var disqus_url = 'https://www.defenseone.com/politics/2020/04/it-doesnt-add-me-current-and-former-navy-officials-question-captains-abrupt-dismissal/164363/';
+          //var disqus_title = 'a unique title for each page where Disqus is present';
+          
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+  </div>
+
+
+  <div class="clear"></div>
+
+  <div class="grid_11 prefix_1 vmargin bottom">
+
+	<div class="hidetablet hidemobile">
+    
+  <div
+    
+    class="ad ad-large-rectangle-desktop"
+  >
+    <div class="ad-container">
+      
+        
+          <div
+            
+              class="hidetablet hidemobile"
+            
+          >
+            
+    
+      <script
+        class="ad-stub ad-stub-desktop"
+        data-ad-unit="/617/defenseone.com/section_politics/content/pid_164363"
+        data-ad-sizes="940x470"
+        
+        
+        
+          data-ad-targeting='af46cf6f-212f-456f-a1f2-73a67206c99d'
+        
+        
+          data-ad-lazy
+        
+      >
+      
+        GEMG.GPT.targeting.slot['af46cf6f-212f-456f-a1f2-73a67206c99d'] = {
+        
+          'pos': [
+            'large-rectangle-desktop'
+          ],
+        
+          'level': [
+            '6'
+          ]
+        
+        };
+      
+      </script>
+    
+  
+          </div>
+        
+      
+      
+          
+    
+      <noscript class="ad-noscript">
+        
+          <a href="https://pubads.g.doubleclick.net/gampad/jump?tile=5&amp;sz=940x470&amp;c=510068083&amp;iu=%2F617%2Fdefenseone.com%2Fsection_politics%2Fcontent%2Fpid_164363&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dlarge-rectangle-desktop%26level%3D5">
+            <img src="https://pubads.g.doubleclick.net/gampad/ad?tile=5&amp;sz=940x470&amp;c=510068083&amp;iu=%2F617%2Fdefenseone.com%2Fsection_politics%2Fcontent%2Fpid_164363&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dlarge-rectangle-desktop%26level%3D5"/>
+          </a>
+        
+      </noscript>
+    
+  
+      
+    </div>
+  </div>
+
+
+	</div>
+	<div class="hidedesk hidemobile">
+    
+  <div
+    
+    class="ad ad-large-rectangle-tablet"
+  >
+    <div class="ad-container">
+      
+        
+          <div
+            
+              class="hidedesk hidemobile"
+            
+          >
+            
+    
+      <script
+        class="ad-stub ad-stub-tablet"
+        data-ad-unit="/617/defenseone.com/section_politics/content/pid_164363"
+        data-ad-sizes="700x350"
+        
+        
+        
+          data-ad-targeting='8f87ffa2-fa02-4a71-a564-fb543d7f3142'
+        
+        
+          data-ad-lazy
+        
+      >
+      
+        GEMG.GPT.targeting.slot['8f87ffa2-fa02-4a71-a564-fb543d7f3142'] = {
+        
+          'pos': [
+            'large-rectangle-tablet'
+          ],
+        
+          'level': [
+            '7'
+          ]
+        
+        };
+      
+      </script>
+    
+  
+          </div>
+        
+      
+      
+          
+    
+      <noscript class="ad-noscript">
+        
+          <a href="https://pubads.g.doubleclick.net/gampad/jump?tile=6&amp;sz=700x350&amp;c=634690104&amp;iu=%2F617%2Fdefenseone.com%2Fsection_politics%2Fcontent%2Fpid_164363&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dlarge-rectangle-tablet%26level%3D6">
+            <img src="https://pubads.g.doubleclick.net/gampad/ad?tile=6&amp;sz=700x350&amp;c=634690104&amp;iu=%2F617%2Fdefenseone.com%2Fsection_politics%2Fcontent%2Fpid_164363&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dlarge-rectangle-tablet%26level%3D6"/>
+          </a>
+        
+      </noscript>
+    
+  
+      
+    </div>
+  </div>
+
+
+	</div>
+	<div class="hidedesk hidetablet">
+    
+  <div
+    
+    class="ad ad-large-rectangle-mobile"
+  >
+    <div class="ad-container">
+      
+        
+          <div
+            
+              class="hidedesk hidetablet"
+            
+          >
+            
+    
+      <script
+        class="ad-stub ad-stub-mobile"
+        data-ad-unit="/617/defenseone.com/section_politics/content/pid_164363"
+        data-ad-sizes="300x150,300x250"
+        
+        
+        
+          data-ad-targeting='9d386d42-05b6-4ee2-b521-0dd1180ebc8c'
+        
+        
+          data-ad-lazy
+        
+      >
+      
+        GEMG.GPT.targeting.slot['9d386d42-05b6-4ee2-b521-0dd1180ebc8c'] = {
+        
+          'pos': [
+            'large-rectangle-mobile'
+          ],
+        
+          'level': [
+            '8'
+          ]
+        
+        };
+      
+      </script>
+    
+  
+          </div>
+        
+      
+      
+          
+    
+      <noscript class="ad-noscript">
+        
+          <a href="https://pubads.g.doubleclick.net/gampad/jump?tile=7&amp;sz=300x250%7C300x150&amp;c=413529851&amp;iu=%2F617%2Fdefenseone.com%2Fsection_politics%2Fcontent%2Fpid_164363&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dlarge-rectangle-mobile%26level%3D7">
+            <img src="https://pubads.g.doubleclick.net/gampad/ad?tile=7&amp;sz=300x250%7C300x150&amp;c=413529851&amp;iu=%2F617%2Fdefenseone.com%2Fsection_politics%2Fcontent%2Fpid_164363&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dlarge-rectangle-mobile%26level%3D7"/>
+          </a>
+        
+      </noscript>
+    
+  
+      
+    </div>
+  </div>
+
+
+	</div>
+
+    
+      <div>
+        <div class="grid_12 pager hidedesk">
+          
+            <div class="grid_4 prefix_1 alpha">
+                <div class="prev_box hidemobile"><a href="/technology/2020/04/new-satellites-will-be-big-step-pentagons-plan-link-everything/164360/?oref=d-previouspost"><img src="https://cdn.defenseone.com/media/img/upload/2020/04/03/dmspblock-5d2/defense-post.jpg" alt="An illustration of a US military satellite, DMSP Block-5D2." title="An illustration of a US military satellite, DMSP Block-5D2."></a></div>
+                <p><a href="/technology/2020/04/new-satellites-will-be-big-step-pentagons-plan-link-everything/164360/?oref=d-previouspost">&laquo; Previous</a></p>
+                <h4><a href="/technology/2020/04/new-satellites-will-be-big-step-pentagons-plan-link-everything/164360/?oref=d-previouspost">New Satellites Will Be a Big Step in the Pentagon’s Plan to Link Everything</a></h4>
+              
+            </div>
+          
+          
+            <div class="grid_4 prefix_2 omega">
+                <div class="next_box hidemobile"><a href="/ideas/2020/04/national-security-age-pandemics/164365/?oref=d-nextpost"><img src="https://cdn.defenseone.com/media/img/upload/2020/04/03/D1-image-to-post/defense-post.jpg" alt="In this April 13, 2018, file photo the USS Theodore Roosevelt aircraft carrier is anchored off Manila Bay west of Manila, Philippines" title="In this April 13, 2018, file photo the USS Theodore Roosevelt aircraft carrier is anchored off Manila Bay west of Manila, Philippines"></a></div>
+                <p><a href="/ideas/2020/04/national-security-age-pandemics/164365/?oref=d-nextpost">Next &raquo;</a></p>
+                <h4><a href="/ideas/2020/04/national-security-age-pandemics/164365/?oref=d-nextpost">National Security in the Age of Pandemics</a></h4>
+              
+            </div>
+          
+        </div>
+      </div>
+    
+
+    
+    <div id="slides" class="grid_12 hidedesk slidecontainer">
+      <div id="slideContainer" class="swipe">
+        
+          
+  
+      
+      
+  
+
+  <ul class="swipe-wrap">
+  
+  
+
+      
+
+      
+      <li class="grid_2 alpha">
+          <a href="/threats/2020/03/prognosis-latest-news-coronavirus-national-security/163666/?oref=d-skybox"
+             
+          >
+
+              <div><img src="https://cdn.defenseone.com/media/img/upload/2020/03/14/Prognosis_lead_image/defense-skybox.jpg" alt="This transmission electron microscope image shows SARS-CoV-2—also known as 2019-nCoV, the virus that causes COVID-19—isolated from a patient in the U.S. Virus particles are shown emerging from the surface of cells cultured in the lab / Pentagon" title="This transmission electron microscope image shows SARS-CoV-2—also known as 2019-nCoV, the virus that causes COVID-19—isolated from a patient in the U.S. Virus particles are shown emerging from the surface of cells cultured in the lab / Pentagon"></div>
+              <span>The Prognosis: Latest News on <span class="caps">COVID</span>-19 <span class="amp">&amp;</span> NatSec</span>
+          </a>
+      </li>
+      
+
+      
+  
+
+      
+
+      
+      <li class="grid_2">
+          <a href="/threats/2020/04/inside-wild-final-week-acting-navy-secretary/164710/?oref=d-skybox"
+             
+          >
+
+              <div><img src="https://cdn.defenseone.com/media/img/upload/2020/04/17/6160709/defense-skybox.jpg" alt="Acting Secretary of the Navy Thomas B. Modly speaks at a Pentagon press briefing, Washington, D.C., April 2, 2020" title="Acting Secretary of the Navy Thomas B. Modly speaks at a Pentagon press briefing, Washington, D.C., April 2, 2020"></div>
+              <span>Inside the Wild Final Week of the Acting Navy Secretary</span>
+          </a>
+      </li>
+      
+
+      
+  
+
+      
+
+      
+      <li class="grid_2">
+          <a href="/ideas/2020/04/haircuts-time-coronavirus/164665/?oref=d-skybox"
+             
+          >
+
+              <div><img src="https://cdn.defenseone.com/media/img/upload/2020/04/16/200302-N-SL179-1017Y/defense-skybox.jpeg" alt="A Marine gives another service member a haircut in the barbershop aboard the USS Bataan in the Arabian Sea, March 2, 2020." title="A Marine gives another service member a haircut in the barbershop aboard the USS Bataan in the Arabian Sea, March 2, 2020."></div>
+              <span>Haircuts in a Time of Coronavirus?</span>
+          </a>
+      </li>
+      
+
+      
+  
+
+      
+
+      
+      <li class="grid_2">
+          <a href="/ideas/2020/04/no-military-has-done-more-corona-stricken-allies-germanys/164671/?oref=d-skybox"
+             
+          >
+
+              <div><img src="https://cdn.defenseone.com/media/img/upload/2020/04/16/D1-image-to-post/defense-skybox.jpg" alt="The Bundeswehr&#39;s Airbus 310 medevac plane and crew." title="The Bundeswehr&#39;s Airbus 310 medevac plane and crew."></div>
+              <span>No Military Has Done More for Corona-Stricken Allies Than Germany’s</span>
+          </a>
+      </li>
+      
+
+      
+  
+
+      
+
+      
+      <li class="grid_2">
+          <a href="/ideas/2020/04/we-need-atlantic-charter-post-coronavirus-era/164712/?oref=d-skybox"
+             
+          >
+
+              <div><img src="https://cdn.defenseone.com/media/img/upload/2020/04/17/D1-image-to-post_WUEkWfP/defense-skybox.jpg" alt="President Franklin D. Roosevelt entertained at dinner for British Prime Minister Winston Churchill aboard the U.S. cruiser Augusta on Aug. 9, 1941, somewhere in the Atlantic." title="President Franklin D. Roosevelt entertained at dinner for British Prime Minister Winston Churchill aboard the U.S. cruiser Augusta on Aug. 9, 1941, somewhere in the Atlantic."></div>
+              <span>We Need an Atlantic Charter for the Post-Coronavirus Era</span>
+          </a>
+      </li>
+      
+
+      
+  
+
+      
+      <li class="grid_2">
+          <a href="https://www.govexec.com/assets/battlefield-advantage-how-does-technology-boost-situational-awareness-warfighters/portal/?oref=d1-skybox"
+             class="sponsored"
+             rel="nofollow"
+             
+                 target="_blank"
+             
+          >
+              <div><img src="https://cdn.defenseone.com/media/img/upload/2020/04/14/Screen_Shot_2020-04-14_at_4.54.40_PM/defense-skybox.png" alt="" title=""></div>
+              <div>Sponsor Content</div>
+              <span>Battlefield Advantage: How Does Technology Boost Situational Awareness for Warfighters?</span>
+          </a>
+
+          
+      </li>
+      
+      
+
+      
+
+      
+  
+  </ul>
+
+  <ul class="counter">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+  </ul>
+
+  <a class="button" href="javascript:;" ></a>
+
+
+        
+      </div>
+    </div>
+    
+  </div>
+
+  
+    <div class="grid_12 pager hidemobile hidetablet">
+      
+        <div class="grid_4 prefix_1 alpha ">
+            <div class="prev_box"><a href="/technology/2020/04/new-satellites-will-be-big-step-pentagons-plan-link-everything/164360/?oref=d-previouspost"><img src="https://cdn.defenseone.com/media/img/upload/2020/04/03/dmspblock-5d2/medium.jpg" alt="An illustration of a US military satellite, DMSP Block-5D2." title="An illustration of a US military satellite, DMSP Block-5D2."></a></div>
+            <p><a href="/technology/2020/04/new-satellites-will-be-big-step-pentagons-plan-link-everything/164360/?oref=d-previouspost">&laquo; Previous</a></p>
+            <h4><a href="/technology/2020/04/new-satellites-will-be-big-step-pentagons-plan-link-everything/164360/?oref=d-previouspost">New Satellites Will Be a Big Step in the Pentagon’s Plan to Link Everything</a></h4>
+          
+        </div>
+      
+      
+        <div class="grid_4 prefix_2 omega ">
+            <div class="next_box"><a href="/ideas/2020/04/national-security-age-pandemics/164365/?oref=d-nextpost"><img src="https://cdn.defenseone.com/media/img/upload/2020/04/03/D1-image-to-post/medium.jpg" alt="In this April 13, 2018, file photo the USS Theodore Roosevelt aircraft carrier is anchored off Manila Bay west of Manila, Philippines" title="In this April 13, 2018, file photo the USS Theodore Roosevelt aircraft carrier is anchored off Manila Bay west of Manila, Philippines"></a></div>
+            <p><a href="/ideas/2020/04/national-security-age-pandemics/164365/?oref=d-nextpost">Next &raquo;</a></p>
+            <h4><a href="/ideas/2020/04/national-security-age-pandemics/164365/?oref=d-nextpost">National Security in the Age of Pandemics</a></h4>
+          
+        </div>
+      
+    </div>
+  
+
+    </div>
+  
+
+  <div class="container_12 footerContainer">
+    <footer class="grid_12">
+      <div class="grid_2 alpha">
+        <a href="/?oref=d-logo" class="footer-logo">Defense One</a>
+      </div>
+      <div class="grid_10 omega">
+        <ul>
+          <li><a href="/about/?oref=footer">About</a></li>
+          <li><a href="/about/contact/?oref=footer">Contact Us</a></li>
+          <li><a href="/events/?oref=footer">Events</a></li>
+          <li><a href="http://www.govexecmediagroup.com/about/#Defense-One1">Advertise</a></li>
+          <li><a href="/about/site-map/?oref=footer">Site Map</a></li>
+          <li><a href="/about/privacy-policy/?oref=footer">Privacy Policy</a></li>
+          <li><a href="/about/terms-and-conditions/?oref=footer">Terms &amp; Conditions</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://www.govexec.com/?oref=d-footer">Government Executive</a></li>
+          <li><a href="https://www.nextgov.com/?oref=d-footer">Nextgov</a></li>
+          <li><a href="https://www.routefifty.com/?oref=d-footer">Route Fifty</a></li>
+          <li><a href="https://www.nationaljournal.com/?oref=d-footer">National Journal</a></li>
+          <li><a href="https://www.theatlantic.com/?oref=d-footer">The Atlantic</a></li>
+        </ul>
+        <p>&copy; 2020 by Government Media Executive Group LLC. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+</div>
+
+  
+  
+
+  
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4ee7a1b53b23332d"></script>
+  
+  <script type="text/javascript" src="https://cdn.defenseone.com/a/social_tools/js/social_tools.js?v=9.18.0"></script>
+  <script type="text/javascript" src="https://cdn.defenseone.com/a/js/jquery.form.js?v=9.18.0"></script>
+  <script type="text/javascript" src="https://cdn.defenseone.com/a/js/newsletter.form.js?v=9.18.0"></script>
+  
+    <script src="//my.hellobar.com/15fb7c5f8f9f27c76676e95c43e602fa1c9ade83.js" type="text/javascript" charset="utf-8" async="async"></script>
+  
+  <script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion_async.js" charset="utf-8"></script>
+  <script id="handlebars-flyin" class="handlebars-template" type="text/x-handlebars-template">
+    
+<div class="share-section small-logo"
+   data-url="{{{share_url}}}">
+
+    <ul class="social-buttons">
+      <li class="social-button facebook available">
+        <a href="https://www.facebook.com/dialog/feed?link={{{facebook_link}}}&amp;description={{{facebook_description}}}&amp;display=popup&amp;app_id={{{facebook_app_id}}}&amp;redirect_uri={{{facebook_redirect_uri}}}"
+          target="_blank"
+        >Share this on Facebook</a>
+      </li>
+      <li class="social-button twitter available">
+        <a href="https://twitter.com/share?via={{{twitter_via}}}&amp;text={{{twitter_text}}}&amp;url={{{twitter_url}}}"
+          target="_blank"
+        >Tweet this on Twitter</a>
+      </li>
+      <li class="social-button google-plus available">
+        <a href="https://plus.google.com/share?url={{{googleplus_url}}}"
+          target="_blank"
+        >Share this on Google Plus</a>
+      </li>
+      <li class="social-button linkedin available">
+      <a href="http://www.linkedin.com/shareArticle?mini=true&amp;title={{{linkedin_title}}}&amp;source={{{linkedin_source}}}&amp;summary={{{linkedin_summary}}}&amp;url={{{linkedin_url}}}"
+          target="_blank"
+        >Share this on LinkedIn</a>
+      </li>
+      <li class="social-button comment disqus-handlebar">
+        <a class="disqus-count"
+          href="{{{disqus_share_url}}}?oref=flyin-disqus#disqus_thread"
+          data-disqus-identifier="post_{{{disqus_id}}}"
+        >Leave a comment</a>
+      </li>
+    </ul>
+</div>
+  </script>
+
+
+<div id="modal_window">
+	<div id="modal_window_content">
+		<img src="https://cdn.defenseone.com/a/images/ajax-loading.gif" width="32" height="32" alt="Loading..." />
+	</div>
+	<a href="#" class="close_button">
+		<img src="https://cdn.defenseone.com/a/images/close-circle.png" alt="Close window" width="30" height="30" />
+	</a>
+</div>
+
+
+  
+    
+    
+    
+    
+    <div
+    id="flyin-container" 
+    class="flyin-container"
+    data-flyin-setting='sailthru'
+    data-flyin-site-name='Defense One'
+    data-flyin-site-url='https://www.defenseone.com'
+    data-flyin-concierge-tag='site-defenseone'
+    data-flyin-title='‘It Doesn’t Add Up To Me’: Current and Former Navy Officials Question Captain’s Abrupt Dismissal'
+    data-flyin-url='https://www.defenseone.com/politics/2020/04/it-doesnt-add-me-current-and-former-navy-officials-question-captains-abrupt-dismissal/164363/'
+    data-flyin-curated-urls=''
+    data-flyin-fb-app-id='1546266055584988'
+    data-flyin-twitter-handle='@DefenseOne'
+    data-flyin-facebook-site-name='DefenseOne'
+    data-flyin-native-article-url='/technology/2020/04/new-satellites-will-be-big-step-pentagons-plan-link-everything/164360/'
+    data-flyin-native-article-title='New Satellites Will Be a Big Step in the Pentagon’s Plan to Link Everything'
+  >
+
+  <div class="flyin" id="flyin_open">
+    <div class="label">
+      <a href="#" id="closer">Close [ x ]</a>
+      <strong>More from DefenseOne</strong>
+    </div>
+    <div id="sailthru-flyin">
+
+    </div>
+  </div>
+</div>
+
+<div class="flyin-container">
+  <div class="flyin closed" id="flyin_closed">
+    <div class="label">
+      &nbsp;
+    </div>
+    <div class="headline">
+      <a href="#" id="opener">Next Story</a>
+    </div>
+    <div class="meta addthis_toolbox">
+      &nbsp;
+    </div>
+  </div>
+</div>
+
+
+  
+
+
+
+  
+  <div class="conversion-module-bootstrap">
+  <div class="conversion-module hide">
+    <div class="conversion-module-close">
+      <button class="conversion-module-close-btn close" type="button" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="conversion-module-nl-signup">
+      
+        
+
+<form
+  class="conversion-module-signup-form"
+  action='/newsletters/subscribe/conversion-module/defense-one-today/'
+  method="post"
+>
+  <fieldset>
+    <legend class="conversion-module-signup-form-title">
+      <span class="conversion-module-signup-form-title-line1">
+        News, analysis, and ideas driving the future of U.S. defense: straight to your inbox.
+      </span>
+      <span class="conversion-module-signup-form-title-line2">
+        <span class="conversion-module-signup-form-title-line2-inner-a">
+          <span class="conversion-module-signup-form-title-line2-inner-b">
+            Sign up for Defense One Today
+          </span>
+        </span>
+      </span>
+    </legend>
+
+    
+
+    
+
+  
+    <input type="hidden" name="source_signup" value="d1-mod-conv-dt" id="conversion-module-nl-source_signup" />
+  
+    <input type="hidden" name="run_through_id" id="conversion-module-nl-run_through_id" />
+  
+
+  
+    
+
+<div class="conversion-module-signup-form-email form-group">
+  <label
+    class="conversion-module-signup-form-label control-label"
+    for="conversion-module-nl-email"
+  >
+    My email is ...
+  </label>
+  
+    <input autocomplete="email" name="email" type="text" required="required" placeholder="email@example.com" class="form-control input-lg" id="conversion-module-nl-email" />
+  
+</div>
+
+  
+
+  
+    
+
+<div class="conversion-module-signup-form-employer form-group">
+  <label
+    class="conversion-module-signup-form-label control-label"
+    for="conversion-module-nl-employer"
+  >
+    I work for ...
+  </label>
+  
+    <select id="conversion-module-nl-employer" required="required" class="form-control input-lg" name="employer">
+<option value="" selected="selected">--select--</option>
+<option value="Department of Defense (Civilian)">Department of Defense (Civilian)</option>
+<option value="Department of Defense (Military)">Department of Defense (Military)</option>
+<option value="Federal Government">Federal Government</option>
+<option value="State/Local Government">State/Local Government</option>
+<option value="Government Contractor">Government Contractor</option>
+<option value="Private Sector">Private Sector</option>
+<option value="Retired">Retired</option>
+</select>
+  
+</div>
+
+  
+
+
+
+    
+  <div class="conversion-module-signup-form-extra_newsletter form-group">
+    
+    <div class="checkbox">
+      <label class="conversion-module-signup-form-label" for="conversion-module-nl-extra_newsletter">
+        <input checked="checked" type="checkbox" name="extra_newsletter" id="conversion-module-nl-extra_newsletter" />
+        <span class="conversion-module-signup-form-label-text">Also get The D Brief, your daily source for insights and analysis of the latest in defense news</span>
+      </label>
+    </div>
+  </div>
+
+
+    <div class="conversion-module-signup-form-submit form-group">
+      <button class="conversion-module-signup-form-submit-btn btn btn-default" type="submit">
+        <span class="conversion-module-signup-form-submit-text">
+          <span class="conversion-module-signup-form-submit-arrow"></span>
+          Sign up
+        </span>
+      </button>
+    </div>
+
+    <a class="conversion-module-signup-form-link" href="/about/privacy-policy/" target="_blank">View Privacy Policy</a>
+
+  </fieldset>
+</form>
+
+      
+    </div>
+    <div class="conversion-module-nl-thankyou hide">
+      
+        
+
+<form
+  class="conversion-module-signup-form"
+  action='/newsletters/subscribe/conversion-module/defense-one-today/thank-you/'
+  method="post"
+>
+  <fieldset>
+    <legend class="conversion-module-signup-form-title">
+      <span class="conversion-module-signup-form-title-line1">
+        Thank You!
+      </span>
+      <span class="conversion-module-signup-form-title-line2">
+        <span class="conversion-module-signup-form-title-line2-inner-a">
+          <span class="conversion-module-signup-form-title-line2-inner-b">
+            Help us tailor content specifically for you:
+          </span>
+        </span>
+      </span>
+    </legend>
+
+    
+
+    
+
+  
+    <input type="hidden" name="source_signup" value="d1-mod-conv-dt" id="conversion-module-thank-you-source_signup" />
+  
+    <input type="hidden" name="run_through_id" id="conversion-module-thank-you-run_through_id" />
+  
+    <input type="hidden" name="email" id="conversion-module-thank-you-email" />
+  
+
+  
+    
+
+<div class="conversion-module-signup-form-full_name form-group">
+  <label
+    class="conversion-module-signup-form-label control-label"
+    for="conversion-module-thank-you-full_name"
+  >
+    Full Name
+  </label>
+  
+    <input autocomplete="name" name="full_name" placeholder="" type="text" class="form-control input-lg" id="conversion-module-thank-you-full_name" />
+  
+</div>
+
+  
+
+  
+    
+
+<div class="conversion-module-signup-form-agency_department form-group">
+  <label
+    class="conversion-module-signup-form-label control-label"
+    for="conversion-module-thank-you-agency_department"
+  >
+    Agency/Department
+  </label>
+  
+    <select id="conversion-module-thank-you-agency_department" placeholder="" class="form-control input-lg" name="agency_department">
+<option value="" selected="selected">--select--</option>
+<option class="agency-department-civilian-branch" value="Department of the Air Force">Department of the Air Force</option>
+<option class="agency-department-civilian-branch" value="Department of the Army">Department of the Army</option>
+<option class="agency-department-civilian-branch" value="Department of the Navy">Department of the Navy</option>
+<option class="agency-department-civilian-branch" value="Joint Chiefs of Staff">Joint Chiefs of Staff</option>
+<option class="agency-department-civilian-branch" value="National Intelligence Agency">National Intelligence Agency</option>
+<option class="agency-department-civilian-branch" value="Office of the Secretary of Defense">Office of the Secretary of Defense</option>
+<option class="agency-department-civilian-branch" value="Other Defense Agency">Other Defense Agency</option>
+<option class="agency-department-military-branch" value="Air Force">Air Force</option>
+<option class="agency-department-military-branch" value="Army">Army</option>
+<option class="agency-department-military-branch" value="Coast Guard">Coast Guard</option>
+<option class="agency-department-military-branch" value="Navy">Navy</option>
+<option class="agency-department-military-branch" value="Marines">Marines</option>
+<option class="agency-department-federal-government" value="Department of Agriculture">Department of Agriculture</option>
+<option class="agency-department-federal-government" value="Department of Commerce">Department of Commerce</option>
+<option class="agency-department-federal-government" value="Department of Education">Department of Education</option>
+<option class="agency-department-federal-government" value="Department of Energy">Department of Energy</option>
+<option class="agency-department-federal-government" value="Department of HHS">Department of HHS</option>
+<option class="agency-department-federal-government" value="Department of Homeland Security">Department of Homeland Security</option>
+<option class="agency-department-federal-government" value="Department of HUD">Department of HUD</option>
+<option class="agency-department-federal-government" value="Department of Interior">Department of Interior</option>
+<option class="agency-department-federal-government" value="Department of Justice">Department of Justice</option>
+<option class="agency-department-federal-government" value="Department of Labor">Department of Labor</option>
+<option class="agency-department-federal-government" value="Department of State">Department of State</option>
+<option class="agency-department-federal-government" value="Department of Transportation">Department of Transportation</option>
+<option class="agency-department-federal-government" value="Department of Treasury">Department of Treasury</option>
+<option class="agency-department-federal-government" value="Department of Veterans Affairs">Department of Veterans Affairs</option>
+<option class="agency-department-federal-government" value="EPA">EPA</option>
+<option class="agency-department-federal-government" value="Executive Office of the President/Vice President">Executive Office of the President/Vice President</option>
+<option class="agency-department-federal-government" value="Federal Bureau of Investigation">Federal Bureau of Investigation</option>
+<option class="agency-department-federal-government" value="Federal Communications Commission">Federal Communications Commission</option>
+<option class="agency-department-federal-government" value="Federal Trade Commission">Federal Trade Commission</option>
+<option class="agency-department-federal-government" value="GSA">GSA</option>
+<option class="agency-department-federal-government" value="Judiciary Branch">Judiciary Branch</option>
+<option class="agency-department-federal-government" value="Legislative Branch">Legislative Branch</option>
+<option class="agency-department-federal-government" value="NASA">NASA</option>
+<option class="agency-department-federal-government" value="National Institute of Health">National Institute of Health</option>
+<option class="agency-department-federal-government" value="OMB">OMB</option>
+<option class="agency-department-federal-government" value="OPM">OPM</option>
+<option class="agency-department-federal-government" value="SSA">SSA</option>
+<option class="agency-department-federal-government" value="USPS">USPS</option>
+<option class="agency-department-federal-government" value="Other Agency">Other Agency</option>
+<option class="agency-department-state-and-local" value="Government Association">Government Association</option>
+<option class="agency-department-state-and-local" value="County">County</option>
+<option class="agency-department-state-and-local" value="Municipal">Municipal</option>
+<option class="agency-department-state-and-local" value="Special District">Special District</option>
+<option class="agency-department-state-and-local" value="State">State</option>
+</select>
+  
+</div>
+
+  
+
+  
+    
+
+<div class="conversion-module-signup-form-organization_function form-group">
+  <label
+    class="conversion-module-signup-form-label control-label"
+    for="conversion-module-thank-you-organization_function"
+  >
+    Organization Function
+  </label>
+  
+    <select id="conversion-module-thank-you-organization_function" placeholder="" class="form-control input-lg" name="organization_function">
+<option value="" selected="selected">--select--</option>
+<option value="Elected Official/Legislative/Executive Office">Elected Official/Legislative/Executive Office</option>
+<option value="Environment/Energy">Environment/Energy</option>
+<option value="Finance/Budget">Finance/Budget</option>
+<option value="Health &amp; Human Services">Health &amp; Human Services</option>
+<option value="Public Safety/Emergency Services/Law Enforcement">Public Safety/Emergency Services/Law Enforcement</option>
+<option value="Technology">Technology</option>
+<option value="Transportation/Utilities/Infrastructure">Transportation/Utilities/Infrastructure</option>
+<option value="Other">Other</option>
+</select>
+  
+</div>
+
+  
+
+  
+    
+
+<div class="conversion-module-signup-form-organization_name form-group">
+  <label
+    class="conversion-module-signup-form-label control-label"
+    for="conversion-module-thank-you-organization_name"
+  >
+    Organization Name
+  </label>
+  
+    <input autocomplete="organization" name="organization_name" placeholder="" type="text" class="form-control input-lg" id="conversion-module-thank-you-organization_name" />
+  
+</div>
+
+  
+
+  
+    
+
+<div class="conversion-module-signup-form-job_function form-group">
+  <label
+    class="conversion-module-signup-form-label control-label"
+    for="conversion-module-thank-you-job_function"
+  >
+    Job Function
+  </label>
+  
+    <select id="conversion-module-thank-you-job_function" placeholder="" class="form-control input-lg" name="job_function">
+<option value="" selected="selected">--select--</option>
+<option value="Agency Leadership">Agency Leadership</option>
+<option value="Business &amp; Operations">Business &amp; Operations</option>
+<option value="Communications &amp; Marketing">Communications &amp; Marketing</option>
+<option value="Financial/Contract Management">Financial/Contract Management</option>
+<option value="Human Resource Management">Human Resource Management</option>
+<option value="Technology Management">Technology Management</option>
+</select>
+  
+</div>
+
+  
+
+  
+    
+
+<div class="conversion-module-signup-form-phone form-group">
+  <label
+    class="conversion-module-signup-form-label control-label"
+    for="conversion-module-thank-you-phone"
+  >
+    Phone number
+  </label>
+  
+    <input autocomplete="tel" name="phone" placeholder="" type="text" class="form-control input-lg" id="conversion-module-thank-you-phone" />
+  
+</div>
+
+  
+
+  
+    
+
+<div class="conversion-module-signup-form-state_and_zip form-group">
+  <label
+    class="conversion-module-signup-form-label control-label"
+    for="conversion-module-thank-you-state_and_zip_0"
+  >
+    Zip code
+  </label>
+  
+    <input autocomplete="postal-code" name="state_and_zip_0" placeholder="" type="text" class="form-control input-lg" id="conversion-module-thank-you-state_and_zip_0" /><input autocomplete="postal-code" name="state_and_zip_1" placeholder="" type="hidden" class="form-control input-lg" id="conversion-module-thank-you-state_and_zip_1" />
+  
+</div>
+
+  
+
+  
+    
+
+<div class="conversion-module-signup-form-country form-group">
+  <label
+    class="conversion-module-signup-form-label control-label"
+    for="conversion-module-thank-you-country"
+  >
+    Country
+  </label>
+  
+    <select id="conversion-module-thank-you-country" placeholder="" class="form-control input-lg" name="country">
+<option value="United States">United States</option>
+<option value="EEA (European Economic Area)">EEA (European Economic Area)</option>
+<option value="Canada">Canada</option>
+<option value="Other">Other</option>
+</select>
+  
+</div>
+
+  
+
+  
+    
+
+<div class="conversion-module-signup-form-country_other form-group">
+  <label
+    class="conversion-module-signup-form-label control-label"
+    for="conversion-module-thank-you-country_other"
+  >
+    Country Name
+  </label>
+  
+    <input autocomplete="country-name" name="country_other" placeholder="" type="text" class="form-control input-lg" id="conversion-module-thank-you-country_other" />
+  
+</div>
+
+  
+
+
+
+    
+  <div class="conversion-module-signup-form-optin conversion-module-signup-form-optin-regular form-group">
+    
+    <div class="checkbox">
+      <label class="conversion-module-signup-form-label" for="conversion-module-thank-you-optin">
+        <input checked="checked" type="checkbox" name="optin" id="conversion-module-thank-you-optin" />
+        <span class="conversion-module-signup-form-label-text">Yes, Defense One can email me on behalf of carefully selected companies and organizations.</span>
+      </label>
+    </div>
+  </div>
+  <div class="conversion-module-signup-form-optin conversion-module-signup-form-optin-eea form-group hide">
+    
+    <div class="checkbox">
+      <label class="conversion-module-signup-form-label" for="conversion-module-thank-you-optin_eea">
+        <input type="checkbox" name="optin_eea" id="conversion-module-thank-you-optin_eea" />
+        <span class="conversion-module-signup-form-label-text">
+            I agree to the use of my personal data by Government Executive Media Group and its partners to serve me targeted ads. <a class='conversion-module-learn-more-link' href='/about/privacy-policy/' target='_blank'>Learn more</a>.
+        </span>
+      </label>
+    </div>
+  </div>
+
+
+    <div class="conversion-module-signup-form-submit form-group">
+      <button class="conversion-module-signup-form-submit-btn btn btn-default" type="submit">
+        <span class="conversion-module-signup-form-submit-text">
+          <span class="conversion-module-signup-form-submit-arrow"></span>
+          Submit
+        </span>
+      </button>
+    </div>
+
+    <a class="conversion-module-signup-form-link" href="/about/privacy-policy/" target="_blank">View Privacy Policy</a>
+
+  </fieldset>
+</form>
+
+      
+    </div>
+    
+  </div>
+</div>
+
+  
+
+
+
+  
+  
+    <script
+  src="//ak.sail-horizon.com/onsite/personalize.v0.0.4.min.js"
+  type="text/javascript"
+   data-sailthru-setup="true" 
+></script>
+  
+  <script type="text/javascript">
+    $(function() {
+      GEMG.Flyin.init();
+      GEMG.SPM.init('site-defenseone', ["defenseone_article_flyin"]);
+    });
+  </script>
+
+
+
+
+  
+  
+    <!-- Google Code for Remarketing Tag -->
+<!--
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+-->
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 962442471;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/962442471/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+</noscript>
+    
+      <script type="text/javascript">
+_linkedin_data_partner_id = "41412";
+</script><script type="text/javascript">
+(function(){var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})();
+</script>
+    
+  
+
+  <!-- audience pixels -->
+<script type='text/javascript'>
+  var axel = Math.random() + '';
+  var a = axel * 10000000000000;
+  document.write('<img src="https://pubads.g.doubleclick.net/activity;dc_iu=/617/DFPAudiencePixel;ord=' + a + ';dc_seg=135766090?" width=1 height=1 border=0/>');
+</script>
+<noscript>
+  <img src="https://pubads.g.doubleclick.net/activity;dc_iu=/617/DFPAudiencePixel;ord=1;dc_seg=135766090?" width=1 height=1 border=0/>
+</noscript>
+
+
+<script>
+
+  GEMG.GPT.body.init();
+
+</script>
+
+
+  
+<script type="text/javascript">
+$(function() {
+  GEMG.SessionCoach.init("//shared.govexec.com", false);
+});
+</script>
+
+
+
+
+  <div class="cookie-policy hide">
+  <div class="cookie-policy-close">
+    <button class="cookie-policy-close-btn close" type="button" aria-label="Close">
+      <span aria-hidden="true">×</span>
+    </button>
+  </div>
+  <div class="cookie-policy-text">
+    Defense One uses cookies for analytics and personalization. By continuing to use this site, you agree to our use of cookies. Read our <a class="cookie-policy-link" href="/about/privacy-policy/">Privacy Policy</a> to find out more.
+  </div>
+</div>
+  <script>
+    $(document).ready(function() {
+        GEMG.CookiePolicy.init();
+        GEMG.CookiePreferences.init();
+    });
+  </script>
+
+
+
+  <script>
+    $(document).ready(function() {
+      GEMG.data.UserContentHistory.syncUserContentHistory();
+    });
+  </script>
+
+
+</body>
+</html>

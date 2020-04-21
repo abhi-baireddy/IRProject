@@ -10,26 +10,36 @@ import json
 
 def main():
     dataset_path = 'ad_fontes_media_dataset.csv'
+    dataset_dir = 'classifier_test_articles'
+
+    allsides_dataset_path = 'allsides_articles_and_ratings.csv'
+    allsides_dataset_dir = 'allsides_test_set'
+
+    get_dataset(dataset_path, dataset_dir, 1)
+    get_dataset(allsides_dataset_path, allsides_dataset_dir, 0)
     
-    if not os.path.exists('classifier_test_articles/'):
+    
+
+def get_dataset(csv_file, dataset_directory, start_column):
+    if not os.path.exists(dataset_directory):
         # Fake a browser session to avoid 403 errors
-        with open(dataset_path, 'r') as articles_file:
-            os.mkdir('classifier_test_articles/')
-            links_and_ratings = [(link, rating) for (_, link, rating, _) in csv.reader(articles_file, delimiter=',', quotechar='"')][1:]
+        with open(csv_file, 'r') as articles_file:            
+            os.mkdir(dataset_directory)
+            links_and_ratings = [(row[start_column], row[start_column+1]) for row in csv.reader(articles_file, delimiter=',', quotechar='"')]
             links_ratings_content = parallel_requests(links_and_ratings)
 
         for i, (link, rating, webpage) in enumerate(links_ratings_content):
-            article_dir = f'classifier_test_articles/{i}/'
+            article_dir = f'{dataset_directory}/{i}/'
             if not os.path.exists(article_dir):
                 os.mkdir(article_dir)
             open(article_dir + 'webpage', 'wb').write(webpage)
             open(article_dir + 'link', 'w').write(link)
             open(article_dir + 'rating', 'w').write(rating)
 
-    if not os.path.exists('classifier_test_articles.json'):
+    if not os.path.exists(f'{dataset_directory}.json'):
         articles_info = []
         error_regex = re.compile('^(Are you a robot)|(ERROR)|(403)|(Page Not Found)|(Access Denied)(Site Not Configured).*')
-        for article_dir in sorted(glob('classifier_test_articles/*/')):
+        for article_dir in sorted(glob(f'{dataset_directory}/*/')):
             article = Article(url=open(article_dir + 'link').read())
             article.download(input_html=open(article_dir + 'webpage').read())
             article.parse()
@@ -64,8 +74,8 @@ def main():
             with open(article_dir + 'tags', 'w') as file:
                 for tag in article.tags:
                     file.write(f'{tag}\n')
-        json.dump(articles_info, indent=4, sort_keys=True, fp=open('classifier_test_articles.json', 'w'))
-    articles_info_json = json.load(open('classifier_test_articles.json', 'r'))
+        json.dump(articles_info, indent=4, sort_keys=True, fp=open(f'{dataset_directory}.json', 'w'))
+    articles_info_json = json.load(open(f'{dataset_directory}.json', 'r'))
     left, right = 0,0
     for article in articles_info_json:
         if article['rating'] < 0:
@@ -75,7 +85,6 @@ def main():
 
     print(f'left={left}')
     print(f'right={right}')
-
 
 def parallel_requests(urls_and_ratings):
     loop = asyncio.get_event_loop()

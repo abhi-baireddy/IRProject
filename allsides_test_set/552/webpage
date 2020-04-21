@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product# content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head>
+<script src="https://intermarkets-net.videoplayerhub.com/videoloader.js"></script>
+  <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="fW--CY2dJp4_hMXJWJg2AMMEA9zFEXI_IAE3VRRsPuw" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"cd4c31791b",applicationID:"103615076"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="https://www.newsbusters.org/sites/all/themes/nb7_bs3/img/nbfavicon.png" type="image/png" />
+<meta name="description" content="The biggest joke in Barack Obama’s endorsement video for Joe Biden was his warning about what Biden was facing. “It won’t be easy. The other side has a massive war chest. The other side has a propaganda network with little regard for the truth,&quot; he said. Obama has almost the entire news (and entertainment) media eating out of his hand. The late-night comedians lash out at" />
+<meta name="robots" content="index" />
+<meta name="news_keywords" content="Trevor Noah,,Stephen Colbert,,Coronavirus" />
+<link rel="image_src" href="https://cdn.newsbusters.org/images/2020-04-17_2.png" />
+<link rel="canonical" href="https://www.newsbusters.org/blogs/nb/tim-graham/2020/04/17/column-late-night-comedians-rage-trump-marvel-pelosis-ice-cream" />
+<meta property="og:site_name" content="NewsBusters" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Column: The Late-Night Comedians Rage at Trump (But Marvel at Pelosi&#039;s Ice Cream)" />
+<meta property="og:url" content="https://www.newsbusters.org/blogs/nb/tim-graham/2020/04/17/column-late-night-comedians-rage-trump-marvel-pelosis-ice-cream" />
+<meta property="og:description" content="The biggest joke in Barack Obama’s endorsement video for Joe Biden was his warning about what Biden was facing. “It won’t be easy. The other side has a massive war chest. The other side has a propaganda network with little regard for the truth,&quot; he said. Obama has almost the entire news (and entertainment) media eating out of his hand. The late-night comedians lash out at Trump with buckets of venom." />
+<meta property="og:image" content="https://cdn.newsbusters.org/images/2020-04-17_2.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@newsbusters" />
+<meta name="twitter:creator" content="@TimJGraham" />
+<meta name="twitter:title" content="Column: The Late-Night Comedians Rage at Trump" />
+<meta name="twitter:url" content="https://www.newsbusters.org/blogs/nb/tim-graham/2020/04/17/column-late-night-comedians-rage-trump-marvel-pelosis-ice-cream" />
+<meta name="twitter:description" content="The biggest joke in Barack Obama’s endorsement video for Joe Biden was his warning about what Biden was facing. “It won’t be easy. The other side has a massive war chest. The other side has a" />
+<meta name="twitter:image" content="https://cdn.newsbusters.org/images/2020-04-17_2.png" />
+<meta name="theme-color" content="#ee7624" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="NewsBusters" />
+  <title>Column: The Late-Night Comedians Rage at Trump (But Marvel at Pelosi's Ice Cream)</title>
+  <link type="text/css" rel="stylesheet" href="https://www.newsbusters.org/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.newsbusters.org/sites/default/files/css/css_TIw51eaAlqupO66AeVQUTrG4J89e9H543bBC5ooHD1M.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.newsbusters.org/sites/default/files/css/css_8mmt3kmRB_I55-uUBbkHfG54y7vmFHfwgLX7aZ2fumk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,400italic,100,100italic,300,300italic,500,500italic,700,700italic,900,900italic" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700" media="all" />
+<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.newsbusters.org/sites/default/files/css/css_7QT6Nu_tdkmPhyUTYoUZkDMtfw3aNOfxdcT2D-2g-Ys.css" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")</script>
+<script src="https://www.newsbusters.org/misc/jquery.once.js?v=1.2"></script>
+<script src="https://www.newsbusters.org/misc/drupal.js?q93b35"></script>
+<script src="https://www.newsbusters.org/sites/all/modules/contrib/jquery_update/replace/ui/external/jquery.cookie.js?v=67fb34f6a866c40d0570"></script>
+<script src="https://www.newsbusters.org/sites/all/modules/custom/audio_synth/audio_synth.js?q93b35"></script>
+<script src="https://www.newsbusters.org/sites/all/modules/custom/internal_ad/internal_ad.js?q93b35"></script>
+<script src="https://www.newsbusters.org/sites/all/modules/custom/nb_donate/nbDonate.js?q93b35"></script>
+<script src="https://www.newsbusters.org/sites/all/modules/custom/nb_sticky_ad/nbStickyAd.js?q93b35"></script>
+<script src="https://www.newsbusters.org/sites/all/modules/custom/nb_translate/nbtranslateStyle.js?q93b35"></script>
+<script src="https://www.newsbusters.org/sites/all/libraries/colorbox/jquery.colorbox-min.js?q93b35"></script>
+<script src="https://www.newsbusters.org/sites/all/modules/contrib/colorbox/js/colorbox.js?q93b35"></script>
+<script src="https://www.newsbusters.org/sites/all/modules/contrib/colorbox/styles/stockholmsyndrome/colorbox_style.js?q93b35"></script>
+<script src="https://www.newsbusters.org/sites/all/modules/contrib/field_group/field_group.js?q93b35"></script>
+<script src="https://www.newsbusters.org/sites/all/modules/contrib/disqus/js/disqus.js?q93b35"></script>
+<script>window._taboola = window._taboola || [];
+        _taboola.push({article:'auto'});
+        !function (e, f, u) {
+          e.async = 1;
+          e.src = u;
+          f.parentNode.insertBefore(e, f);
+          }(document.createElement('script'),
+          document.getElementsByTagName('script')[0],
+          'https://cdn.taboola.com/libtrc/mrctv-newsbustersorg/loader.js')</script>
+<script src="https://www.newsbusters.org/sites/all/modules/contrib/pullquote/pullquote.js?q93b35"></script>
+<script src="https://www.newsbusters.org/sites/all/modules/contrib/disqus/disqus.js?q93b35"></script>
+<script src="//cdn.jsdelivr.net/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://www.newsbusters.org/sites/all/themes/nb7_bs3/js/nb7bs3.js?q93b35"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nb7_bs3","theme_token":"ZiX3AmY6J1kEJ_jfa0XQg1oNPNR-yEReGmN34Q1-QdU","js":{"0":1,"\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5310064579a0620a":1,"https:\/\/cdn.newsbusters.org\/ads.js":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js":1,"1":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/custom\/audio_synth\/audio_synth.js":1,"sites\/all\/modules\/custom\/internal_ad\/internal_ad.js":1,"sites\/all\/modules\/custom\/nb_donate\/nbDonate.js":1,"sites\/all\/modules\/custom\/nb_sticky_ad\/nbStickyAd.js":1,"sites\/all\/modules\/custom\/nb_translate\/nbtranslateStyle.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/stockholmsyndrome\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/modules\/contrib\/disqus\/js\/disqus.js":1,"2":1,"sites\/all\/modules\/contrib\/pullquote\/pullquote.js":1,"sites\/all\/modules\/contrib\/disqus\/disqus.js":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.3.7\/js\/bootstrap.min.js":1,"sites\/all\/themes\/nb7_bs3\/js\/nb7bs3.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/audio_synth\/audio_synth.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/internal_ad\/internal_ad.css":1,"sites\/all\/modules\/custom\/nb_donate\/nbDonate.css":1,"sites\/all\/modules\/custom\/nb_sticky_ad\/nbStickyAd.css":1,"sites\/all\/modules\/custom\/nb_translate\/nbtranslateStyle.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/video_filter\/video_filter.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/stockholmsyndrome\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/pullquote\/css\/pullquote_style_1.css":1,"\/\/fonts.googleapis.com\/css?family=Roboto:400,400italic,100,100italic,300,300italic,500,500italic,700,700italic,900,900italic":1,"\/\/fonts.googleapis.com\/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700":1,"\/\/cdn.jsdelivr.net\/fontawesome\/4.7.0\/css\/font-awesome.min.css":1,"sites\/all\/themes\/nb7_bs3\/css\/nb7bs3.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"field_group":{"html5":"full"},"disqusComments":"newsbustersorg","disqus":{"domain":"newsbustersorg","url":"https:\/\/www.newsbusters.org\/blogs\/nb\/tim-graham\/2020\/04\/17\/column-late-night-comedians-rage-trump-marvel-pelosis-ice-cream","title":"Column: The Late-Night Comedians Rage at Trump (But Marvel at Pelosi\u0026#039;s Ice Cream)","identifier":"node\/255741"},"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-255741 node-type-blog">
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N9BP8C"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N9BP8C');</script>
+  <!-- End Google Tag Manager -->
+    
+<header id="navbar" role="banner" class="navbar navbar-default">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                                        <div class="navbar-left">
+                        <div class="navbar-brand logo">
+                            <a class="navbar-btn" href="/"
+                               title="Home">
+                               <img src="https://mrc7.s3.amazonaws.com/MRCNewsBustersStandardTaglineLogo.png" alt="Home" />
+                               <!-- <img src="//cdn.newsbusters.org/images/header/nb-header-bs3.png"  /> -->
+                           </a>
+                       </div>
+
+                   </div>
+                   <div class="clearfix visible-xs-block"></div>
+                   <div class="navbar-right">
+                    <div class="navbar-collapse collapse">
+                        <nav role="navigation">
+                                                              <div class="region region-navigation">
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav navbar-nav"><li class="first leaf menu-mlid-3471"><a href="/blogs" title="">Blog</a></li>
+<li class="leaf menu-mlid-3481"><a href="/" title="">Home</a></li>
+<li class="leaf menu-mlid-3486"><a href="https://www.mrc.org/newsletter/preferences?utm_source=newsbusters&amp;utm_medium=menu&amp;utm_content=subscribe&amp;utm_campaign=nb" title="">Subscribe</a></li>
+<li class="last leaf menu-mlid-3491"><a href="/contact-us" title="">Contact</a></li>
+</ul></div>
+  </div>
+                                                    </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix hidden-xs"></div>
+        <div class="col-xs-12">
+            <div class="nb-navbar wrapper-100">
+                <div class="navbar-collapse collapse">
+                    <nav role="navigation">
+                                                    <div class="navbar-left">
+                                  <div class="region region-secondary-navigation">
+    <div class="menu-block-wrapper menu-block-2 menu-name-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav navbar-nav secondary"><li class="first leaf menu-mlid-3496"><a href="/business" title="">MRC Business</a></li>
+<li class="leaf menu-mlid-3501"><a href="/culture" title="">MRC Culture</a></li>
+<li class="leaf menu-mlid-3506"><a href="/latino" title="">MRC Latino</a></li>
+<li class="leaf menu-mlid-7708"><a href="https://www.newsbusters.org/techwatch" title="">MRC TechWatch</a></li>
+<li class="last leaf menu-mlid-3511"><a href="https://www.newsbusters.org/donate?utm_source=nb&amp;utm_medium=menu_top&amp;utm_campaign=donate" title="">Donate</a></li>
+</ul></div>
+  </div>
+                            </div>
+                                                <div class="clearfix visible-xs"></div>
+                                                    <div class="navbar-right">
+                                <div class="region region-social-navigation">
+                                    <ul class="menu nav navbar-nav social">
+                                        <li>
+                                            <a href="https://www.facebook.com/newsbusters" target="_blank">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.twitter.com/newsbusters" target="_blank">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://mrc-store.com/" target="_blank">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.youtube.com/user/MRCTVdotOrg" target="_blank">
+                                                <i class="fa fa-youtube"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.newsbusters.org/blog/feed" target="_blank">
+                                                <i class="fa fa-rss"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/search" target="_blank">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                        </li>
+                                    </ul>  
+                                </div>
+                            </div>
+                                            </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="main-container container">
+
+    <header role="banner" id="page-header">
+        
+          <div class="region region-header">
+    <div id="block-views-hot-topics-block" class="block block-views clearfix">
+        <div class="view view-hot-topics view-id-hot_topics view-display-id-block nb-hot-topics view-dom-id-3d9a9765e5f47a2ea213223a99deee44">
+                        <a href="#" class="btn btn-default btn-sm disabled"><i class="fa fa-fire"></i></a>    
+    
+                            
+          <a href="https://www.newsbusters.org/people-organizations/white-house-press-briefing" class="btn btn-primary btn-sm">White House Press Briefing</a>            
+          <a href="https://www.newsbusters.org/issues-events-groups/coronavirus" class="btn btn-primary btn-sm">Coronavirus</a>            
+          <a href="https://www.newsbusters.org/issues-events-groups/2020-presidential" class="btn btn-primary btn-sm">2020 presidential</a>            
+          <a href="https://www.newsbusters.org/administrative/media-reality-check" class="btn btn-primary btn-sm">Research &amp; Studies</a>                
+    
+                    
+</div></div>
+<div id="block-block-12" class="block block-block clearfix">
+        <!--JavaScript Tag  // Placement: Newsbusters_ROS_Top_728xFlex (1131674) -->
+<div id="ad_top" class="row" data-spy="affix" data-offset-top="130" style="z-index: 1000; margin-bottom: 10px;">
+ <div class="wrapper-100 center-block text-center" style="margin-bottom: 10px;">
+<div id="imk728xFlexTop" style="height: 105px;"><span class='bt-uid-tg' data-uid='5b562603b5-172' style='display: none !important'></span>
+
+</div>
+ </div>
+</div>
+ <!-- End of JavaScript Tag 
+<div id="wb_mkto_banner"></div>
+--> 
+</div>
+  </div>
+    </header> <!-- /#page-header -->
+
+    <div class="row">
+
+        <section class="col-xs-12 col-tn-6 col-sm-6 col-md-7 col-lg-8">
+                        <a id="main-content"></a>
+                            <h1 class="page-header">Column: The Late-Night Comedians Rage at Trump (But Marvel at Pelosi&#039;s Ice Cream)</h1>
+                                                                            <div id="block-audio-synth-audio-synth" class="block block-audio-synth clearfix">
+        <div class="audio-title">
+  Listen to the Article!
+  </div>
+  <div class="audio-player">
+  <div id="play-btn"></div>
+  <div class="audio-wrapper" id="player-container" href="javascript:;">
+  <audio id="player" ontimeupdate="initProgressBar()">
+  <source src="https://audiosynth.s3.amazonaws.com/255741nb-synthesized-audio.mp3" type="audio/mp3"></source>
+  </audio>
+  </div>
+  <div class="player-controls scrubber">
+  <span id="seekObjContainer">
+  <progress id="seekObj" value="0" max="1"></progress>
+  </span>
+  <br>
+  <small style="float: left; position: relative;" class="start-time"></small>
+  <small style="float: right; position: relative;" class="end-time"></small>
+
+  </div>
+  </div></div>
+<script src="https://cdn.mrc.org/U/OP/IT/iframeResizer.min.js"></script>
+<article id="node-255741" class="node node-blog clearfix" about="/blogs/nb/tim-graham/2020/04/17/column-late-night-comedians-rage-trump-marvel-pelosis-ice-cream" typeof="sioc:Item foaf:Document">
+    <header>
+            <span property="dc:title" content="Column: The Late-Night Comedians Rage at Trump (But Marvel at Pelosi&#039;s Ice Cream)" class="rdf-meta element-hidden"></span>            <div class="nb-social">
+      <a href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https://www.newsbusters.org/blogs/nb/tim-graham/2020/04/17/column-late-night-comedians-rage-trump-marvel-pelosis-ice-cream&pubid=ra-5310064579a0620a"
+       target="_blank" class="btn btn-facebook"><i class="fa fa-facebook"></i></a>
+       <a href="https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https://www.newsbusters.org/blogs/nb/tim-graham/2020/04/17/column-late-night-comedians-rage-trump-marvel-pelosis-ice-cream&title=Hot%20new%20column%20from%20Tim%20Graham%3A%20The%20late-night%20comedians%20rage%20at%20Trump%2C%20and%20then%20marvel%20at%20Nancy%20Pelosi%27s%20ice%20cream.&pubid=ra-5310064579a0620a&shortener=bitly"
+         target="_blank" class="btn btn-twitter"><i class="fa fa-twitter"></i>&nbsp;Tweet</a>
+                   <a href="https://www.newsbusters.org/blogs/nb/tim-graham/2020/04/17/column-late-night-comedians-rage-trump-marvel-pelosis-ice-cream#disqus_thread" class="btn btn-primary" title="Comments"><i
+            class="fa fa-comment"></i> <span class="disqus-comment-count" data-disqus-identifier="node/255741" />
+</a>
+                                <a href="https://www.newsbusters.org/print/255741" class="btn btn-info hidden-xs" title="Print" target="_blank"><i
+              class="fa fa-print"></i>&nbsp;Print</a>
+                        
+            <div id="more-share" class="collapse">
+              <a href="https://api.addthis.com/oexchange/0.8/forward/reddit/offer?url=https://www.newsbusters.org/blogs/nb/tim-graham/2020/04/17/column-late-night-comedians-rage-trump-marvel-pelosis-ice-cream&pubid=ra-5310064579a0620a"
+               target="_blank" class="btn btn-reddit"><i class="fa fa-reddit"></i> Reddit</a>
+               <a href="https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https://www.newsbusters.org/blogs/nb/tim-graham/2020/04/17/column-late-night-comedians-rage-trump-marvel-pelosis-ice-cream&pubid=ra-5310064579a0620a"
+                 target="_blank" class="btn btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                 <a href="https://api.addthis.com/oexchange/0.8/forward/googleplus/offer?url=https://www.newsbusters.org/blogs/nb/tim-graham/2020/04/17/column-late-night-comedians-rage-trump-marvel-pelosis-ice-cream&pubid=ra-5310064579a0620a"
+                   target="_blank" class="btn btn-google-plus"><i class="fa fa-google-plus"></i></a>
+                   <a href="https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https://www.newsbusters.org/blogs/nb/tim-graham/2020/04/17/column-late-night-comedians-rage-trump-marvel-pelosis-ice-cream&pubid=ra-5310064579a0620a"
+                     target="_blank" class="btn btn-primary"><i class="fa fa-envelope-open"></i></a>
+                     <a href="#more-share" class="btn btn-info btn-more-share" data-toggle="collapse"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                   </div>
+
+                 </div>
+                                              <div class="submitted">
+                  <span property="dc:date dc:created" content="2020-04-17T07:28:01-04:00" datatype="xsd:dateTime" rel="sioc:has_creator">By <span class="source"><a href="/author/tim-graham" title="View user profile." class="username" xml:lang="" about="/author/tim-graham" typeof="sioc:UserAccount" property="foaf:name" datatype="">Tim Graham</a></span> | April 17, 2020 7:28 AM EDT</span>                </div>
+                                        </header>
+                    <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+        <div class="field-items">
+          <div class="field-item" property="content:encoded"><p><img alt="" class="image-blog_body-50" src="https://www.newsbusters.org/s3/files/styles/blog_body-50/s3/images/2020-04-17_2.png?itok=hhC-L7EI" style="float:right; height:231px; margin-left:6px; margin-right:6px; width:410px" />The biggest joke in Barack Obama&rsquo;s endorsement video for Joe Biden was his warning about what Biden was facing. &ldquo;It won&rsquo;t be easy. The other side has a massive war chest. The other side has a propaganda network with little regard for the truth,&quot; he said.</p>
+
+<p>Obama has almost the entire news media eating out of his hand, and he still whines about Fox News, that irksome &quot;propaganda network.&rdquo; The Left complains whenever they can&rsquo;t corner every media market, and squelch any uprising of conservative dissent. It&rsquo;s &ldquo;propaganda&rdquo; and &ldquo;disinformation&rdquo; when you disagree with their wonderfully compassionate worldview.</p>
+
+<p>Then there are the comedians, who are even more urgently on the verge of complete groupthink. I opened up my morning e-mail of video clips from Grabien.com, and was just amazed at the venom of commentary from the late-night shows on April 15. Let&rsquo;s just start with President Trump withholding funding for the World Health Organization (WHO) for a few months to probe what went wrong with the eruption of the coronavirus from China.</p>
+
+<p>The comedians fell all over themselves competing for the best metaphors to describe Trump as a flaming-hot moron who will harm us all. Who would win the gold medal for Hottest Burn?</p>
+
+<p><div class="video-filter embed-responsive embed-responsive-16by9"><iframe src="https://www.mrctv.org/embed/549227" width="720" height="405" class="video-filter video-mrctv video-center vf-549227 embed-responsive-item" frameborder="0" allowfullscreen="true"></iframe></div></p>
+
+<p>On ABC, there&rsquo;s Jimmy Kimmel. &ldquo;Stopping funding to an organization that handles pandemics in the middle of a pandemic is like slashing your own tires because you&rsquo;re mad you woke up late for work. So far, he&rsquo;s blamed this on Obama, the governors, the media, the WHO. Has he blamed it on the Mexicans yet?&rdquo;</p>
+
+<p>On CBS, Stephen Colbert offered his own entry. &ldquo;It&rsquo;s like when your house is engulfed in flames? First thing you do, burn down the fire department. The U.S. Is the WHO&rsquo;s biggest donor, so Trump is talking about taking away around $553 million. He hasn&rsquo;t done anything this hostile to world health since introducing the burger table.&rdquo; (Translation: the fast-food feast at the White House for the Clemson football team.)&nbsp;</p>
+
+<p>On Comedy Central, <em>Daily Show </em>host Trevor Noah was making Uber-review jokes about maligning the &ldquo;integral&rdquo; WHO: &ldquo;It&rsquo;s the same reason you don&rsquo;t give your Uber driver one star during the ride. You do that [stuff] after you are safe at home, not while you&rsquo;re doing 90 on the freeway. &lsquo;One star, one star? I will show you one star, mother-[bleep]er!&rsquo;&rdquo;&nbsp;<div id="imkIncontent1" style="align:center;"></div></p>
+
+<p>The late-night comedians can even trash CNN&hellip;from the left. NBC&rsquo;s Seth Meyers lectured the cable-newsers for their live coverage of Trump&rsquo;s coronavirus press briefings.&nbsp; &ldquo;It doesn&rsquo;t make it better when you give it a negative chyron, like CNN did on Monday with, &lsquo;Angry Trump turns briefing into propaganda session.&lsquo; You know what else turned that into a propaganda session? Pointing your camera at it before you showed up. It was Crazy Lawn Man does his thing. You can&rsquo;t air a propaganda session and criticize it.&rdquo;&nbsp;</p>
+
+<p>For &ldquo;balance,&rdquo; we could spy on CBS late-night host James Corden interviewing Speaker Nancy Pelosi in her kitchen two nights earlier. Now she would be held accountable, right? Wrong. For 15 minutes, Corden asked softballs such as: &ldquo;Why is it, do you think, the president is choosing to ignore scientists, and science, and talk about reopening the country, not shut the country down soon enough, why do you think?&rdquo;</p>
+
+<p>Then Corden gushed all over Pelosi showing him her expensive freezers, loaded with chocolate ice cream. &ldquo;I have always felt a connection with you, and now I understand why.&rdquo;</p>
+
+<p>To CBS, she&rsquo;s a very sweet and creamy Woman of the People. But look over there at Fox. That network is just full of one-sided partisan propaganda.<div id="imkIncontent2" style="align:center;"></div></p>
+
+<p><!-- VIDEO FILTER - INVALID CODEC IN: [Video hat tip to Scott Whitlock] --></p>
+</div>
+      </div>
+    </div>
+<div class="view view-nb-node view-id-nb_node view-display-id-entity_view_donate_block_nb view-dom-id-f47c9bd599923cfafc11b518092ab67c">
+      
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div id="NBDonate" class="donateblock"></div>
+</span>  </div>  </div>    </div>
+  
+  
+  
+  
+  
+  
+</div> <section id="tags">    <a href="/administrative/nb-daily" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">NB Daily</a>
+    <a href="/administrative/column" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">Column</a>
+    <a href="/issues-events-groups/coronavirus" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">Coronavirus</a>
+    <a href="/people-organizations/stephen-colbert" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">Stephen Colbert</a>
+    <a href="/journalists/trevor-noah" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">Trevor Noah</a>
+    <a href="/non-journalists/jimmy-kimmel" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">Jimmy Kimmel</a>
+    <a href="/non-journalists/nancy-pelosi" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">Nancy Pelosi</a>
+    <a href="/non-journalists/james-corden" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">James Corden</a>
+</section><div class="field field-name-field-show-study-icon field-type-list-boolean field-label-hidden">
+        <div class="field-items">
+          <div class="field-item"></div>
+      </div>
+    </div>
+                      <footer>
+                                          <div class="row">
+                                  <div class="col-xs-12">
+                      <div class="block-align-left user-picture">
+    <a href="/author/tim-graham" title="View user profile."><img typeof="foaf:Image" class="img-responsive" src="https://cdn.newsbusters.org/styles/author/s3/pictures/picture-13-1582509291.jpg?itok=mmLZFfYT" width="100" height="100" alt="Tim Graham&#039;s picture" title="Tim Graham&#039;s picture" /></a>  </div>
+                                        <div class="nb-social">
+                                              <a href="https://www.twitter.com/TimJGraham"
+                         target="_blank" class="btn btn-twitter">Follow <i class="fa fa-twitter"></i></a>
+                                                                      <a href="https://www.newsbusters.org/feed/tim-graham"
+                         target="_blank" class="btn btn-primary"><i class="fa fa-rss"></i></a>
+                                            </div>
+                                                          <div class="source">
+                      <a href="/author/tim-graham" title="View user profile." class="username" xml:lang="" about="/author/tim-graham" typeof="sioc:UserAccount" property="foaf:name" datatype="">Tim Graham</a>                    </div>
+                                                        <h4 class="small">
+                      <div class="field field-name-field-byline field-type-text field-label-hidden">
+        <div class="field-items">
+          <div class="field-item">Tim Graham is Executive Editor of NewsBusters and is the Media Research Center’s Director of Media Analysis</div>
+      </div>
+    </div>
+                    </h4>
+                                    <div class="clearfix"></div>
+                  <hr />
+                </div>
+                          </div>
+          </footer>
+                      </article>
+<div id="block-block-64" class="block block-block clearfix">
+        <div class="bookblock"></div>
+<div>
+	<h4 style="text-align:center">Sponsored Links</h4>
+</div>
+</div>
+<div id="block-block-63" class="block block-block clearfix">
+        <div id="taboola-below-article-thumbnails">&nbsp;</div></div>
+<div id="block-disqus-disqus-comments" class="block block-disqus clearfix">
+        <div id="disqus_thread"><noscript><p><a href="http://newsbustersorg.disqus.com/?url=https%3A%2F%2Fwww.newsbusters.org%2Fblogs%2Fnb%2Ftim-graham%2F2020%2F04%2F17%2Fcolumn-late-night-comedians-rage-trump-marvel-pelosis-ice-cream">View the discussion thread.</a></p></noscript></div></div>
+    </section>
+
+            <aside class="col-xs-12 col-tn-6 col-sm-6 col-md-5 col-lg-4" role="complementary">
+          <div class="region region-sidebar-first">
+    <div id="block-block-13" class="block block-block clearfix">
+        <!--JavaScript Tag  // Placement: Newsbusters_ROS_Top_Right_300xFlex (1131656) -->
+ <div class="wrapper-100 nb-not-content center-block text-center">
+ <div id="imk300xFlexTop" style="height: 265px;"><span class='bt-uid-tg' data-uid='5b560412c3-172' style='display: none !important'></span>
+
+</div>
+ </div>
+ <!-- End of JavaScript Tag --></div>
+<div id="block-internal-ad-internal-ad-top" class="block block-internal-ad clearfix">
+        <div id="internal_ad_top" style="text-align:center"><a href="https://metlifechoice.com/?MDRefCode=metlife-snapquote-EKZ&amp;tracking_codes=metlife-snapquote-EKZ&utm_content=nb_top" style="display:inline-block" target="_blank"><img class="img-responsive" src="https://cdn.mrc.org/U/AD/ML/Apr2020/732107-1_Choice_Static_Banner_Ad_Revision_300x250_V4R.jpg" /></a></div></div>
+<div id="block-views-must-read-block" class="block block-views clearfix">
+        <div class="view view-must-read view-id-must_read view-display-id-block view-dom-id-3f59d14dd8733d73cb1ee23bc906ccdd panel panel-default">
+    <div class="panel-heading">        <h4 class="panel-title text-uppercase">Must Read</h4>
+        </div>    
+    
+        <div class="panel-body panel-body-wrapper">              <div class="views-row views-row-1 views-row-odd views-row-first">      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/blogs/nb/brent-baker/2020/04/16/cnn-airs-least-coronavirus-briefings-network-skips-7-hours-over-past"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.newsbusters.org/styles/sidebar_image/s3/images/the_situation_room_with_wolf_blitzer_-_06_00_04_pm.jpg?itok=ONXczJkS" width="400" height="200" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <h4 class="field-content"><a href="/blogs/nb/brent-baker/2020/04/16/cnn-airs-least-coronavirus-briefings-network-skips-7-hours-over-past">STUDY: CNN Airs Least of Coronavirus Briefings, Network Skips 7 Hours Over Past Two Weeks</a></h4>  </div>  </div>  <div class="views-row views-row-2 views-row-even views-row-last">      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/blogs/nb/kristine-marsh/2020/04/13/silence-network-news-ignoring-former-biden-staffers-claim-he"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.newsbusters.org/styles/sidebar_image/s3/images/kasie_dc_-_07_34_37_pm.jpg?itok=W29i0ZXt" width="400" height="200" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <h4 class="field-content"><a href="/blogs/nb/kristine-marsh/2020/04/13/silence-network-news-ignoring-former-biden-staffers-claim-he">Silence: Networks STILL Ignoring Former Biden Staffer&#039;s Claim He Sexually Assaulted Her</a></h4>  </div>  </div>        </div>    
+    
+                    
+</div></div>
+<div id="block-block-14" class="block block-block clearfix">
+        <!--JavaScript Tag  // Placement: Newsbusters_ROS_Middle_Right_300x250 (3351331) -->
+ <div class="wrapper-100 nb-not-content center-block text-center">
+ <div id="imk300xFlexBot" style="height: 265px;"><span class='bt-uid-tg' data-uid='5b5619af0d-172' style='display: none !important'></span>
+
+</div>
+ </div>
+ <!-- End of JavaScript Tag --></div>
+<div id="block-block-65" class="block block-block clearfix">
+        <div id='product-component-1578592337530'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'the-mrc-store.myshopify.com',
+      storefrontAccessToken: 'd42d0fa79a486f574a5fd78503005dab',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '4397166657636',
+        node: document.getElementById('product-component-1578592337530'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#0050e6"
+        },
+        "background-color": "#002f87",
+        ":focus": {
+          "background-color": "#0050e6"
+        },
+        "padding-left": "26px",
+        "padding-right": "26px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#0050e6"
+        },
+        "background-color": "#002f87",
+        ":focus": {
+          "background-color": "#0050e6"
+        },
+        "padding-left": "26px",
+        "padding-right": "26px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      }
+    }
+  },
+  "cart": {
+    "styles": {
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#0050e6"
+        },
+        "background-color": "#002f87",
+        ":focus": {
+          "background-color": "#0050e6"
+        }
+      },
+      "title": {
+        "color": "#4c4c4c"
+      },
+      "header": {
+        "color": "#4c4c4c"
+      },
+      "lineItems": {
+        "color": "#4c4c4c"
+      },
+      "subtotalText": {
+        "color": "#4c4c4c"
+      },
+      "subtotal": {
+        "color": "#4c4c4c"
+      },
+      "notice": {
+        "color": "#4c4c4c"
+      },
+      "currency": {
+        "color": "#4c4c4c"
+      },
+      "close": {
+        "color": "#4c4c4c",
+        ":hover": {
+          "color": "#4c4c4c"
+        }
+      },
+      "empty": {
+        "color": "#4c4c4c"
+      },
+      "noteDescription": {
+        "color": "#4c4c4c"
+      },
+      "discountText": {
+        "color": "#4c4c4c"
+      },
+      "discountIcon": {
+        "fill": "#4c4c4c"
+      },
+      "discountAmount": {
+        "color": "#4c4c4c"
+      }
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#002f87",
+        ":hover": {
+          "background-color": "#0050e6"
+        },
+        ":focus": {
+          "background-color": "#0050e6"
+        }
+      },
+      "count": {
+        "font-size": "16px"
+      }
+    }
+  },
+  "lineItem": {
+    "styles": {
+      "variantTitle": {
+        "color": "#4c4c4c"
+      },
+      "title": {
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "color": "#4c4c4c"
+      },
+      "fullPrice": {
+        "color": "#4c4c4c"
+      },
+      "discount": {
+        "color": "#4c4c4c"
+      },
+      "discountIcon": {
+        "fill": "#4c4c4c"
+      },
+      "quantity": {
+        "color": "#4c4c4c"
+      },
+      "quantityIncrement": {
+        "color": "#4c4c4c",
+        "border-color": "#4c4c4c"
+      },
+      "quantityDecrement": {
+        "color": "#4c4c4c",
+        "border-color": "#4c4c4c"
+      },
+      "quantityInput": {
+        "color": "#4c4c4c",
+        "border-color": "#4c4c4c"
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script></div>
+<div id="block-internal-ad-internal-ad-bottom" class="block block-internal-ad clearfix">
+        <div id="internal_ad_top" style="text-align:center"><a href="http://mrc.org/donate?utm_source=dct&amp;utm_medium=w_ad&amp;utm_campaign=mrc_covid19&utm_content=nb_bottom" style="display:inline-block" target="_blank"><img class="img-responsive" src="https://cdn.mrc.org/U/W-ADS/2020/SupportMRC/MRCPandemicMessage_300x600.png" /></a></div></div>
+<div id="block-block-16" class="block block-block clearfix">
+        <!--JavaScript Tag  // Placement: Newsbusters_ROS_Middle_Right_160x600 (1131672) -->
+ <div class="wrapper-100 nb-not-content center-block text-center">
+ <div id="imk300xFlexMid"  style="height: 615px;"><span class='bt-uid-tg' data-uid='5b8418c5a1-172' style='display: none !important'></span></div>
+ </div>
+ <!-- End of JavaScript Tag --></div>
+  </div>
+    </aside>  <!-- /#sidebar-first -->
+
+</div>
+</div>
+
+    <div class="nb-bg wrapper-100">
+        <footer class="footer container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+                    <div id="block-menu-menu-footer-secondary-menu" class="block block-menu clearfix">
+        <ul class="menu nav"><li class="first leaf"><a href="/about" title="">About NewsBusters</a></li>
+<li class="leaf"><a href="/send-tip" title="">Send a Tip</a></li>
+<li class="leaf"><a href="http://www.cnsnews.com" title="">CNSNews.com</a></li>
+<li class="leaf"><a href="http://www.mrctv.org" title="">MRCTV</a></li>
+<li class="leaf"><a href="http://mrc.org/action" title="">MRC Action</a></li>
+<li class="leaf"><a href="http://www.mrc.org/careers" title="">Careers</a></li>
+<li class="last leaf"><a href="http://www.intermarkets.net/advertiser-solutions/portfolio/newsbusters" title="">Advertise</a></li>
+</ul></div>
+<div id="block-menu-menu-donation-menu" class="block block-menu clearfix">
+        <ul class="menu nav"><li class="first leaf"><a href="https://www.newsbusters.org/donate?utm_source=nb&amp;utm_medium=menu_sptnb&amp;utm_campaign=donate" title="">Support NewsBusters</a></li>
+<li class="leaf"><a href="https://www.newsbusters.org/donate/mrc-business?utm_source=nb&amp;utm_medium=menu_sptnb&amp;utm_campaign=donate" title="">Support MRC Business</a></li>
+<li class="leaf"><a href="https://www.newsbusters.org/donate/mrc-culture?utm_source=nb&amp;utm_medium=menu_sptnb&amp;utm_campaign=donate" title="">Support MRC Culture</a></li>
+<li class="last leaf"><a href="https://www.newsbusters.org/donate/mrc-latino?utm_source=nb&amp;utm_medium=menu_sptnb&amp;utm_campaign=donate" title="">Support MRC Latino</a></li>
+</ul></div>
+<div id="block-block-21" class="block block-block clearfix">
+        <div>
+	<div>
+		<div><a href="http://www.mrc.org"><img class="center-block img-responsive" src="https://cdn.mrc.org/static/branding/MRCBlockAlternative_Logo_White.png" style="max-height:65px" /></a></div>
+	</div>
+
+	<div>
+		<p style="text-align:center">The mission of the <a href="http://www.mrc.org" target="_blank">Media Research Center</a> is to create a media culture in America where truth and liberty flourish. The MRC is a research and education organization operating under <a href="http://www.mrc.org/static/about-us" target="_blank">Section 501(c)(3)</a> of the Internal Revenue Code, and <a href="https://www.mrc.org/action/join-the-movement" target="_blank">contributions</a> to the MRC are tax-deductible.</p>
+	</div>
+</div>
+
+<div>
+	<div style="text-align:center">&nbsp;</div>
+</div>
+
+<div>
+	<div>
+		<div>
+			<p style="text-align:center"><a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a> | <a href="/terms-use-agreement" title="Terms of Use Agreement">Terms of Use</a></p>
+
+			<p style="text-align:center">&copy; 2005-2020, Media Research Center. All Rights Reserved.</p>
+		</div>
+	</div>
+</div>
+</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+  <script>window._taboola = window._taboola || [];
+            _taboola.push({flush: true});</script>
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5310064579a0620a"></script>
+<script src="https://cdn.newsbusters.org/ads.js"></script>
+<script src="https://www.newsbusters.org/sites/all/themes/bootstrap/js/bootstrap.js?q93b35"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"cd4c31791b","applicationID":"103615076","transactionName":"M1NaZENXChFVWhFbCgoZeVNFXwsMG1cKVgA7RllXVGkSC1FO","queueTime":0,"applicationTime":783,"atts":"HxRZEgtNGR8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
